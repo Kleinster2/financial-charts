@@ -4,7 +4,7 @@
 
 **Status**: High conviction — consolidation underway
 **Created**: 2026-01-02
-**Last reviewed**: 2026-01-02
+**Last reviewed**: 2026-06-05
 
 ---
 
@@ -69,6 +69,14 @@ These survive because they either own the platform or have architectural uniquen
 | Offset: Networking revenue grows |
 
 Watch Broadcom's ASIC backlog carefully.
+
+---
+
+## Jun 2026 Broadcom complication
+
+[[Broadcom]]'s Q2 FY26 result is a real complication for any simple "ASICs are dead" version of the short. AI semiconductor revenue reached $10.8B and Q3 AI semiconductor guidance was $16.0B, so hyperscaler-captive custom silicon is still growing fast. The short thesis stays targeted at standalone or ecosystem-less ASIC programs, not vertically integrated [[Google]] TPU, [[Amazon]] Trainium, or [[OpenAI]]/Broadcom-style captive demand.
+
+The equity selloff matters for a different reason: AVGO fell because the 2027 AI-chip target was not raised, not because customers were walking away. That is expectations discipline, not thesis validation for ASIC cancellation.
 
 ---
 
@@ -137,6 +145,7 @@ Watch for [[Meta]] capex guidance on custom silicon.
 | 2025-12 | [[Intel]] acquires SambaNova | Defensive consolidation |
 | 2025-12 | Gavin Baker: most ASICs canceled | Smart money consensus |
 | 2025-12 | 3 Rubin variants announced | Mix-and-match kills single-purpose |
+| 2026-06-05 | [[Broadcom]] Q2 FY26 AI semiconductor revenue $10.8B and Q3 guide $16.0B | Captive hyperscaler custom silicon remains strong; short thesis must stay focused on standalone ASICs, not all ASIC demand |
 
 ---
 

@@ -266,6 +266,16 @@ The related KXUSAIRANAGREEMENT nuclear-deal ladder is not yet an immediate shipp
 
 ---
 
+## June 2026 RBC/Croft reopening clock
+
+[[Helima Croft]]'s Jun. 4 [[RBC Capital]] interview makes the post-deal chokepoint problem explicit. The current disruption is still 10-12.5 mb/d depending on how many ships [[Iran]] allows through, and [[ADNOC]] CEO Dr. Sultan Ahmed Al Jaber told RBC that even after the war ends it would take at least four months to get back to 80% of pre-war oil-flow levels through the strait.
+
+That estimate fits the infrastructure note's longer-running distinction between military access and commercial normalization. If Iran remains the operating gatekeeper, Western shippers and insurers still have to decide whether they can coordinate with, pay, or rely on the [[IRGC]] while missile and mine risk remains in the background. [[Saudi Arabia]] continuing to lean on the East-West pipeline and the [[UAE]] building additional Fujairah bypass capacity are not just wartime workarounds; they are evidence that the chokepoint no longer clears at the old neutral-artery assumption.
+
+*Source: [RBC Capital Markets, "Why is the market responding to Iran deals that fail to materialize?"](https://www.rbccm.com/en/insights/2026/06/why-is-the-market-responding-to-iran-deals-that-fail-to-materialize), Jun. 4 2026.*
+
+---
+
 ## Related
 
 - [[Iran]] — controls northern shore

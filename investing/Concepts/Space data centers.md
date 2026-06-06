@@ -163,12 +163,12 @@ NVIDIA's Vera Rubin Space 1 module is the clearest signal that the supplier ecos
 
 ## SpaceX IPO connection
 
-The 2026 [[SpaceX IPO 2026]] turns space data centers from a speculative engineering concept into a valuation wedge. The preliminary public S-1 still leaves final price, share count, and proceeds blank, but press reporting has moved from an initial $30B-plus deal to a potential $75B raise and a valuation target above $2T. [[Aurelion Research]] uses the earlier $1.75T valuation frame and argues that today's launch plus [[Starlink]] economics do not carry the whole mark without a large orbital-compute option value.
+The 2026 [[SpaceX IPO 2026]] turns space data centers from a speculative engineering concept into a valuation wedge, but the Jun. 3 S-1/A and Jun. 4 FWP keep the proceeds language broader than orbital compute. [[SpaceX]] is marketing 555.6M primary Class A shares at an expected $135/share, roughly $75B of base gross proceeds, and a reported roughly $1.77T valuation, with final pricing expected Jun. 11 and trading expected Jun. 12. The FWP says proceeds will fund AI compute infrastructure, launch infrastructure and vehicles, satellite-constellation scale/capacity, and general corporate purposes. That makes space data centers proceeds-adjacent and valuation-relevant, not a separately earmarked capital bucket.
 
 | Factor | Detail |
 |--------|--------|
-| IPO size | Press-reported up to $75B; final S-1 terms still blank |
-| Purpose | Starship development, AI compute, possible space DCs, balance-sheet de-risking after xAI/X consolidation |
+| IPO size | 555.6M primary Class A shares at expected $135, about $75B base gross proceeds; up to about $86.25B with 15% primary over-allotment if exercised |
+| Purpose | AI compute infrastructure, launch infrastructure/vehicles, satellite-constellation scale/capacity, and general corporate purposes |
 | Advantage | [[Starlink]] experience (9,300+ satellites) |
 | Strategy | Repurpose [[Starlink]] technology |
 
@@ -292,4 +292,4 @@ This sits between the [[SpaceX]] bull case (100 GW orbital compute driving the 2
 
 ---
 
-*Created 2026-01-15 | Updated 2026-03-16, 2026-04-09 (Deepwater framing), 2026-04-27 (Q1 2026 platform-war)*
+*Created 2026-01-15 | Updated 2026-03-16, 2026-04-09 (Deepwater framing), 2026-04-27 (Q1 2026 platform-war), 2026-06-05 (SpaceX roadshow terms)*

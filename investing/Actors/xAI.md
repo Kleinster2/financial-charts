@@ -49,6 +49,7 @@ Musk quote: "In principle, given that software companies like Microsoft do not t
 The core concept: Emulate anything a human does digitally — keyboard/mouse inputs + screen viewing + decision-making. No software adoption required. Can deploy anywhere a human currently works.
 
 Opposite approach from other labs:
+
 | Other labs | xAI (Macrohard) |
 |------------|-----------------|
 | Bigger models | Smaller models |
@@ -211,6 +212,21 @@ xAI / SpaceXAI signed a single-tenant lease handing the entirety of [[Colossus|C
 The strategic logic Mirae Asset Securities laid out in its May 8 note: xAI judged Colossus 1 was not efficient enough for frontier training, moved its own workloads to Colossus 2, and rented the now-surplus heterogeneous cluster to a buyer whose workload neutralizes the inefficiency. See [[Training-to-inference cluster rotation]] for the framework and [[Colossus#Anthropic single-tenant lease (May 6 2026)|Colossus single-tenant lease section]] for the full transaction context.
 
 Musk's public framing was uncharacteristically dry given the prior public attacks on [[Anthropic]]: *"No one set off my evil detector"* (per Tom's Hardware reporting). The deal makes Anthropic the largest single customer of xAI compute infrastructure within weeks of *Musk v. OpenAI* trial proceedings (Apr 2026). The May 18 advisory verdict against Musk weakens one legal-pressure route on [[OpenAI]], so xAI's competitive path is increasingly commercial and infrastructure-led rather than litigation-led. See [[SpaceX xAI merger]] for the consolidated entity context.
+
+### FWP compute-services economics (Jun. 4, 2026)
+
+The Jun. 4 [[SpaceX IPO 2026]] FWP adds primary-source economics for the compute-services sleeve. The roadshow materials describe a cloud compute services agreement that gives access to compute across Colossus and Colossus II, with a $1.25B monthly fee through May 2029 subject to conditions. Because the relevant slide does not make the counterparty attribution in the same line, treat this as SpaceX-confirmed cloud-services economics rather than standalone confirmation of a specific customer.
+
+| Term | Detail |
+|------|--------|
+| Assets | Colossus and Colossus II compute capacity |
+| Fee | $1.25B monthly through May 2029, subject to conditions |
+| Strategic read | xAI is being marketed to public SpaceX investors as compute landlord / AI-infrastructure monetization layer, not only as a model lab burning capital |
+| IPO financing link | SpaceX proceeds include AI compute infrastructure plus launch/satellite/general corporate uses |
+
+This matters for xAI's valuation inside [[SpaceX]] because it converts part of the AI segment from pure [[Grok]] optionality into contracted compute access economics. It does not remove the MFU, power, hardware, and customer-concentration risks below, but it gives the roadshow a hard revenue bridge for the AI-infrastructure story.
+
+*Source: SEC FWP filed Jun. 4 2026; see [[SpaceX IPO 2026]].*
 
 ---
 
@@ -504,11 +520,12 @@ See [[Sovereign AI stack]] for the corporate framework and [[SpaceX IPO 2026]] f
 | Monthly burn | ~$1B |
 | Current GPUs | [[NVIDIA]] H100/Blackwell |
 | [[Target]] capacity | 2GW + orbital |
+| Compute-services economics | FWP disclosed $1.25B monthly fee through May 2029 for access to Colossus / Colossus II, subject to conditions |
 | X debt load | ~$12B (inherited from X acquisition) |
 | xAI new debt | ~$5B (Morgan Stanley, incl. $3B HY bonds at 12.5%) |
 | Combined debt | $17.5B |
 
-*Updated 2026-03-14*
+*Updated 2026-06-05*
 
 ---
 
@@ -562,8 +579,8 @@ In April 2026, xAI sued the state of [[Colorado]] over the [[Colorado AI Act]] (
 
 xAI's legal arguments, per the complaint:
 
-- **First Amendment / forced speech:** xAI claims the law infringes the company's free-speech rights because it would force Grok to incorporate "the controversial viewpoints of legislators."
-- **Operational impact:** xAI argues the law would force it to change Grok's behavior to comply, in particular around how the model handles allocation decisions in the listed sectors.
+- First Amendment / forced speech: xAI claims the law infringes the company's free-speech rights because it would force Grok to incorporate "the controversial viewpoints of legislators."
+- Operational impact: xAI argues the law would force it to change Grok's behavior to comply, in particular around how the model handles allocation decisions in the listed sectors.
 
 The complaint is also notably focused on the law's carve-out — Colorado's definition of "algorithmic discrimination" excludes biases designed to "increase diversity or redress historical discrimination." xAI's brief treats this exclusion as evidence that the statute is not viewpoint-neutral and is instead embedding a particular set of values into permitted AI behavior.
 

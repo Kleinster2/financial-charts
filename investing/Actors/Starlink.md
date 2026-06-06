@@ -87,9 +87,11 @@ Anderson framing ([[Space Capital]] Space IQ Q1 2026): "10 million paying custom
 
 | Scenario | Detail |
 |----------|--------|
-| SpaceX valuation | $800B (Dec 2025) |
-| IPO target | $1.5T (2026E) |
-| Starlink spinoff | Possible standalone IPO |
+| Parent IPO terms | 555.6M primary Class A shares at expected $135/share, about $75B base gross proceeds, reported roughly $1.77T valuation, final pricing expected Jun. 11 and trading expected Jun. 12 |
+| Starlink role | Connectivity is the profit engine; IPO proceeds explicitly include satellite-constellation scale/capacity |
+| Mobile expansion | Around 30 countries, around 30 mobile network operators, 1.9B people covered, 65 MHz spectrum, about 650 Starlink V1 Mobile satellites; V2 mobile deployment expected in 2027 |
+| EchoStar spectrum | License transaction expected to close in Nov. 2027, adding spectrum depth for direct-to-cell/mobile service |
+| Starlink spinoff read | Near-term separate Starlink IPO is less central now; the parent IPO embeds Starlink as the cash-flow and constellation engine of public [[SpaceX]] |
 
 Baron Capital: largest SpaceX investor (~$10B position).
 
@@ -117,7 +119,7 @@ Bull:
 - 9M+ subscribers, growing 20K/day
 - Profitable at scale
 - Government contract runway
-- SpaceX IPO catalyst
+- SpaceX IPO catalyst, with satellite-constellation scale/capacity in the proceeds language
 - Global connectivity monopoly emerging
 
 Bear:
@@ -187,5 +189,6 @@ FCC approval (Jan 10, 2026): 7,500 additional Gen2 satellites approved — total
 - [Sacra: SpaceX analysis](https://sacra.com/c/spacex/)
 - [Space Capital Space IQ Q1 2026 briefing](https://youtu.be/iGmr4g4Iot4) — 10M subscribers, 10K simultaneous satellites, $20B 2026 revenue tracking
 - [SEC S-1: Space Exploration Technologies Corp.](https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm) — subscriber series and service-line definition
+- [SEC FWP: Space Exploration Technologies Corp.](https://www.sec.gov/Archives/edgar/data/1181412/000162828026040610/spacexfwp.htm) — Jun. 2026 roadshow terms, proceeds language, and Starlink Mobile expansion metrics
 
-*Created 2026-01-09 · Updated 2026-05-23 (S-1 subscriber series)*
+*Created 2026-01-09 · Updated 2026-06-05 (S-1/A + FWP roadshow terms)*

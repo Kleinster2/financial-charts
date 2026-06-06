@@ -50,6 +50,14 @@ The exclusions are not value judgments on the businesses — they are statistica
 
 ---
 
+## Jun 2026 Broadcom exclusion checkpoint
+
+[[Broadcom]]'s Q2 FY26 reaction reinforces the exclusion rather than weakening it. The company printed $10.8B of AI semiconductor revenue and guided Q3 AI semiconductor revenue to $16.0B, but AVGO still fell 12.6% on Jun. 4 because the market wanted a larger raise to the 2027 AI-chip trajectory. That is a custom-silicon expectations event, not the same factor as the validated AICX supplier chain.
+
+The useful basket read is dispersion. [[SMH]] fell 1.6%, [[NVIDIA]] rose 1.9%, [[Marvell]] rose 4.9%, [[AMD]] fell 3.6%, and [[Micron]] fell 7.7%. Broad semis did not move as one clean block around AVGO. Until AVGO re-enters the algorithmic cluster, Broadcom remains a singleton watch item adjacent to AICX rather than a constituent.
+
+---
+
 ## Cluster validation
 
 Procedure: `scripts/cluster_analysis.py --config scripts/cluster_configs/hyperscaler_suppliers.yaml`. Full standard in `docs/cluster-validation.md`.

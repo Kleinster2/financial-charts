@@ -273,6 +273,8 @@ class NoteChecker:
 
         # Hub checks (concept and sector notes)
         if note_type in ("concept", "sector"):
+            issues.extend(self._check_hub_chart(content, filepath, note_type))
+            issues.extend(self._check_chart_captions(content, filepath))
             issues.extend(self._check_oneliner_links(content, filepath))
             issues.extend(self._check_table_cell_links(content, filepath))
             issues.extend(self._check_bidirectional_related(content, filepath))
@@ -1090,6 +1092,33 @@ aliases: []
                 f" and embed with ![[{slug}-usage-chart.png]]"
             )
             issues.append(Issue("error", "chart", f"Product missing usage chart (MAU, DAU, GMV, etc.){fix_hint}"))
+
+        return issues
+
+    def _check_hub_chart(self, content: str, filepath: Path, note_type: str) -> list[Issue]:
+        """Check that sector/concept hub notes embed a current visual artifact."""
+        issues = []
+
+        has_chart = bool(re.search(r'!\[\[.*\.png\]\]', content, re.IGNORECASE))
+        has_exemption = bool(re.search(
+            r'('
+            r'chart(ing)?|price|market|correlation|cluster|usage|fundamentals'
+            r')\s*(data\s*)?(unavailable|not\s+available|not\s+applicable|n/a|quality|issues?|corrupt|manual\s*tracking)'
+            r'|no\s+(chart|market|price|correlation)\s+(data\s+)?(available|applicable)',
+            content,
+            re.IGNORECASE,
+        ))
+
+        if not has_chart and not has_exemption:
+            label = "Sector" if note_type == "sector" else "Concept"
+            slug = filepath.stem.lower().replace(" ", "-")
+            issues.append(Issue(
+                "error",
+                "chart",
+                f"{label} note missing embedded chart. Fix: generate a latest-data chart via /api/chart/lw"
+                f" -> save as investing/attachments/{slug}-chart.png"
+                f" and embed with ![[{slug}-chart.png]], or state why chart data is unavailable."
+            ))
 
         return issues
 

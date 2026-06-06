@@ -138,12 +138,12 @@ markets:
   source_kind: series_ticker
   source_ticker: KXIPOOPENAI
   cadence: monthly
-  last_read: '2026-05-28'
+  last_read: '2026-06-05'
   thesis: OpenAI IPO timing and CEO-change governance overlay.
   tracked_markets:
   - ticker: KXIPOOPENAI-27JAN01
     label: OpenAI IPO before Jan. 1, 2027
-    last_price: 0.86
+    last_price: 0.75
     status: active
     close_time: '2027-01-01T04:59:00Z'
 - id: ai-streaming-series
@@ -629,49 +629,49 @@ markets:
   source_kind: event_slug
   source_ticker: openai-ipo-closing-market-cap
   cadence: weekly
-  last_read: '2026-05-28'
+  last_read: '2026-06-05'
   thesis: Polymarket OpenAI IPO closing-market-cap and no-2026-IPO distribution.
   tracked_markets:
   - slug: will-openai-not-ipo-by-december-31-2026
     outcome: 'Yes'
     label: OpenAI does not IPO by Dec. 31, 2026
-    last_price: 0.305
+    last_price: 0.285
     status: active
     close_time: '2026-06-30T00:00:00Z'
   - slug: will-openais-market-cap-be-between-1pt25t-and-1pt5t-at-market-close-on-ipo-day
     outcome: 'Yes'
     label: OpenAI IPO market cap between $1.25T and $1.5T
-    last_price: 0.135
+    last_price: 0.132
     status: active
     close_time: '2026-06-30T00:00:00Z'
   - slug: will-openais-market-cap-be-less-than-500b-at-market-close-on-ipo-day
     outcome: 'Yes'
     label: OpenAI IPO market cap below $500B
-    last_price: 0.0105
+    last_price: 0.106
     status: active
     close_time: '2026-06-30T00:00:00Z'
   - slug: will-openais-market-cap-be-between-500b-and-750b-at-market-close-on-ipo-day
     outcome: 'Yes'
     label: OpenAI IPO market cap between $500B and $750B
-    last_price: 0.039
+    last_price: 0.077
     status: active
     close_time: '2026-06-30T00:00:00Z'
   - slug: will-openais-market-cap-be-between-750b-and-1t-at-market-close-on-ipo-day
     outcome: 'Yes'
     label: OpenAI IPO market cap between $750B and $1T
-    last_price: 0.0855
+    last_price: 0.061
     status: active
     close_time: '2026-06-30T00:00:00Z'
   - slug: will-openais-market-cap-be-between-1t-and-1pt25t-at-market-close-on-ipo-day
     outcome: 'Yes'
     label: OpenAI IPO market cap between $1T and $1.25T
-    last_price: 0.1335
+    last_price: 0.1225
     status: active
     close_time: '2026-06-30T00:00:00Z'
   - slug: will-openais-market-cap-be-greater-than-1pt5t-at-market-close-on-ipo-day
     outcome: 'Yes'
     label: OpenAI IPO market cap above $1.5T
-    last_price: 0.297
+    last_price: 0.22
     status: active
     close_time: '2026-06-30T00:00:00Z'
   derived_metrics:
@@ -687,37 +687,37 @@ markets:
       label: below $500B
       lower: 0.0
       upper: 0.5
-      last_price: 0.0105
+      last_price: 0.106
     - slug: will-openais-market-cap-be-between-500b-and-750b-at-market-close-on-ipo-day
       outcome: 'Yes'
       label: $500B-$750B
       lower: 0.5
       upper: 0.75
-      last_price: 0.039
+      last_price: 0.077
     - slug: will-openais-market-cap-be-between-750b-and-1t-at-market-close-on-ipo-day
       outcome: 'Yes'
       label: $750B-$1T
       lower: 0.75
       upper: 1.0
-      last_price: 0.0855
+      last_price: 0.061
     - slug: will-openais-market-cap-be-between-1t-and-1pt25t-at-market-close-on-ipo-day
       outcome: 'Yes'
       label: $1T-$1.25T
       lower: 1.0
       upper: 1.25
-      last_price: 0.1335
+      last_price: 0.1225
     - slug: will-openais-market-cap-be-between-1pt25t-and-1pt5t-at-market-close-on-ipo-day
       outcome: 'Yes'
       label: $1.25T-$1.5T
       lower: 1.25
       upper: 1.5
-      last_price: 0.135
+      last_price: 0.132
     - slug: will-openais-market-cap-be-greater-than-1pt5t-at-market-close-on-ipo-day
       outcome: 'Yes'
       label: above $1.5T
       lower: 1.5
-      last_price: 0.297
-    last_value: 1.4014
+      last_price: 0.22
+    last_value: 1.2352
     last_bound: interpolated
 - id: polymarket-anthropic-valuation-2026
   provider: polymarket

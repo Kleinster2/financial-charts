@@ -7,6 +7,8 @@ aliases: [Analyst Hub, Strategist Hub, Market Analysts]
 
 The vault's analyst bench — the voices that shape narratives, move markets, or provide frameworks worth tracking. Source-person notes live in `Analysts/`; this sector note is the cross-coverage hub. Organized by what they cover, not where they sit.
 
+Chart data unavailable: this hub organizes source-person notes and coverage domains, not a return cohort or security series.
+
 ---
 
 ## Macro / Rates / FX
@@ -22,6 +24,7 @@ The vault's analyst bench — the voices that shape narratives, move markets, or
 | [[Mohamed El-Erian]] | Allianz / Cambridge | "Crises start small" — structure > metrics | Risk |
 | [[Ed Yardeni]] | Yardeni Research | Roaring 2020s, equity bull | Cycle |
 | [[Francisco Blanch]] | [[Bank of America]] | Commodities, energy macro | Commodities |
+| [[Brad Setser]] | [[Council on Foreign Relations]] | Global imbalances, trade-data integrity, hidden reserve flows | FX/reserves |
 
 ## Equity Strategy
 

@@ -5,7 +5,7 @@ aliases: [IPO pipeline 2026, 2026 IPOs]
 
 # 2026 IPO pipeline
 
-2026 expected to be strongest IPO year since 2021. Renaissance Capital estimates 200-230 US IPOs raising $40-60B, but the real swing factor is now the trophy-private-company supply shock. Mega-deals dominate: [[SpaceX]] filed its public S-1 on May 20, 2026, with press reporting up to a $75B raise and a >$2T target valuation even though the preliminary prospectus still leaves price, share count, and net proceeds blank. [[Anthropic]] followed with a confidential draft S-1 on June 1, 2026 (see [[Anthropic IPO 2026]]; valuation anticipated above $1tn), and [[OpenAI]] is preparing its own confidential filing imminently — making 2026 a direct test of how much AI / space scarcity public markets can absorb at once.
+2026 expected to be strongest IPO year since 2021. Renaissance Capital estimates 200-230 US IPOs raising $40-60B, but the real swing factor is now the trophy-private-company supply shock. Mega-deals dominate: [[SpaceX]] moved from a May 20 blank public S-1 to Jun. 3-4 roadshow terms: 555.6M primary Class A shares at an expected $135/share, roughly $75B base gross proceeds before a 15% primary over-allotment, a reported roughly $1.77T valuation, final pricing expected Jun. 11, and trading expected Jun. 12. [[Anthropic]] followed with a confidential draft S-1 on June 1, 2026 (see [[Anthropic IPO 2026]]; valuation anticipated above $1tn), and [[OpenAI]] is preparing its own confidential filing imminently - making 2026 a direct test of how much AI / space scarcity public markets can absorb at once. A Jun. 5 prediction-market refresh keeps the 2026 [[OpenAI]] IPO as the base case, but resolves the daily scan's stale 16.5pp cross-venue divergence.
 
 ---
 
@@ -21,7 +21,7 @@ The 2026 IPO pipeline is no longer just a reopening story. The market already mo
 |--------|-------|
 | US IPO estimate | 200-230 deals, $40-60B |
 | 2021 US IPO fundraising record | $156B |
-| Trophy issuer supply | SpaceX up to $75B; OpenAI and Anthropic potentially following in 2026 |
+| Trophy issuer supply | SpaceX about $75B base gross / up to about $86.25B with over-allotment; OpenAI and Anthropic potentially following in 2026 |
 | Bull-case cash pool | Nearly $8T in money-market funds, per FT-quoted investor framing |
 | Key themes | AI, fintech, defense, space |
 | Backlog | Multi-year buildup of unicorns |
@@ -49,14 +49,22 @@ Source: Renaissance Capital 2025 US IPO market review and the live 2026 pipeline
 
 | Company | Sector | Est. valuation | Status |
 |---------|--------|----------------|--------|
-| **[[SpaceX]]** | [[Space]] / [[Starlink]] / AI infrastructure | >$2T reported target | Public S-1 filed May 20; `SPCX` on [[Nasdaq]]; final price/share count still blank |
+| **[[SpaceX]]** | [[Space]] / [[Starlink]] / AI infrastructure | Reported roughly $1.77T at Jun. 3-4 roadshow terms | Jun. 3 S-1/A + Jun. 4 FWP: 555.6M primary Class A shares at expected $135; pricing expected Jun. 11 and trading Jun. 12; final price still pending |
 | [[Databricks]] | Data/AI | $134B | Early 2026 target |
 | [[Anthropic]] | AI | $965B post-money Series H (May 28 2026 official); >$1tn anticipated at IPO | Confidential draft S-1 filed June 1 2026 (see [[Anthropic IPO 2026]]); May 14 $30B / $900B report was superseded by the May 28 $65B Series H close led by [[Altimeter Capital]], [[Dragoneer]], [[Greenoaks]], and [[Sequoia Capital]]; run-rate revenue crossed $47B earlier in May; likely last private round |
-| [[OpenAI]] | AI | $852B recent private mark | Accelerated IPO-timetable leaks after the $122B 2026 round; FT May 23 says the company booked almost $6B revenue last quarter but still expects roughly $600B of burn before 2030 profitability |
+| [[OpenAI]] | AI | $852B recent private mark | Accelerated IPO-timetable leaks after the $122B 2026 round; FT May 23 says the company booked almost $6B revenue last quarter but still expects roughly $600B of burn before 2030 profitability; Jun. 5 prediction markets still imply a 2026 base case, with Kalshi at 75c yes before Jan. 1 2027 and Polymarket at 28.5c no by Dec. 31 |
 | [[Revolut]] | [[Fintech]] | $75B | [[UK]] neobank |
 | [[Jio Platforms]] | [[Telecom]] | $100B+ | [[India]] mega IPO |
 
 ---
+
+## June 3-4 — SpaceX roadshow terms filled
+
+[[SpaceX]] is now the first concrete supply event in the trophy-company queue. The Jun. 3 S-1/A and Jun. 4 FWP turn the May 20 blank-prospectus story into roadshow economics: 555.6M primary Class A shares at an expected $135/share, about $75.0B of base gross proceeds, a 15% primary over-allotment worth another about $11.25B at that price, final pricing expected Jun. 11, and trading expected Jun. 12 on [[Nasdaq]] / [[Nasdaq]] Texas under `SPCX`.
+
+That changes the pipeline read. SpaceX is no longer just a valuation headline that may or may not clear; it is an actual public-equity funding ask large enough to exceed the whole 2025 US IPO proceeds pool before counting [[Anthropic]], [[OpenAI]], or the rest of the backlog. The remaining uncertainty is not the base share count. It is whether final demand on Jun. 11 lets the roadshow price hold and whether the aftermarket can absorb the first record-scale AI / space issuer without forcing capital out of semiconductor proxies and other high-beta growth exposure.
+
+*Sources: [[SpaceX IPO 2026]]; SEC S-1/A filed Jun. 3 2026; SEC FWP filed Jun. 4 2026; AP / Reuters mirrors on reported valuation.*
 
 ## May 23 mega-IPO absorption test
 
@@ -68,7 +76,7 @@ The May 21 FT bank-mandate update adds a process variable to the absorption test
 
 | Issuer | Current FT May 23 datapoint | Absorption read |
 |---|---|---|
-| [[SpaceX]] | Aiming to raise about $75B; FT article still used a $1.75T valuation target, while other reporting already pushed the target above $2T | First and largest supply event; tests whether public investors underwrite a hybrid launch / [[Starlink]] / [[xAI]] / AI-infrastructure platform |
+| [[SpaceX]] | Jun. 3-4 SEC roadshow terms: 555.6M primary shares at expected $135, about $75B base gross proceeds, and reported roughly $1.77T valuation | First and largest supply event; tests whether public investors underwrite a hybrid launch / [[Starlink]] / [[xAI]] / AI-infrastructure platform at a live public price |
 | [[OpenAI]] | Recently valued at $852B; $122B 2026 round; almost $6B revenue last quarter; about $600B expected burn before 2030 profitability | Direct lab exposure, but with the highest runway dependency and public-market tolerance test |
 | [[Anthropic]] | May 28 official $65B Series H at $965B post-money; first quarterly profit reported in the FT frame; new $15B/year SpaceX compute commitment | Cleaner enterprise narrative, but valuation convergence with [[OpenAI]] reduces the public buyer's margin of safety |
 
@@ -138,7 +146,7 @@ The resulting pipeline view is sharper: SpaceX sets the supply tone, OpenAI test
 | [[Cerebras]] | AI chips | ~$94.8B fully diluted at Day-1 close | Priced May 13 at $185 ($5.55B raised); listed May 14 Nasdaq: CBRS; Day-1 close $311.07 (+68.1%) |
 | [[Quantinuum]] | Quantum | $20B+ | Filed Jan 2026 |
 | [[Databricks]] | Data/AI | $134B | Early 2026 |
-| [[OpenAI]] | AI | $852B recent private mark | 2026 IPO window pulled forward by leaks; prediction markets moved the base case toward 2026 during the May 20-21 repricing |
+| [[OpenAI]] | AI | $852B recent private mark | 2026 IPO window pulled forward by leaks; Jun. 5 prediction-market refresh keeps 2026 as the base case around 72-75%, with conditional Polymarket median closing market cap near $1.23T |
 | [[Canva]] | Design | $40B+ | "Imminent" per founders |
 
 ---
@@ -175,6 +183,23 @@ That leaves the venues aligned directionally but not identical: both now price a
 
 *Sources: [[Kalshi]] API series KXIPOOPENAI and [[Polymarket]] Gamma event `openai-ipo-closing-market-cap`, read May 21, 2026: https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&series_ticker=KXIPOOPENAI and https://gamma-api.polymarket.com/events/slug/openai-ipo-closing-market-cap*
 
+### June 5 cross-venue refresh
+
+The Jun. 5 live refresh resolves the daily-scan divergence as mostly stale watchlist state, not a durable provider disagreement. The overnight scan compared Polymarket's stale no-2026 leg at 30.5c with Kalshi's stale inverted Jan. 1 2027 leg at 14c, a 16.5pp spread. A live refresh at about 08:20 ET put Kalshi's IPO-before-Jan. 1 2027 market at 75c last, with a 74c / 81c bid-ask, so the inverted no-2026 tail is 25c. Polymarket's direct no-IPO-by-Dec. 31 leg was 28.5c, with a 28c / 29c bid-ask. The live spread is therefore 3.5pp, below the watchlist's 8pp material-divergence threshold.
+
+The market read is still cooler than the May 21 repricing. Both venues keep a 2026 OpenAI IPO as the base case, but the base case is now closer to 72-75% rather than the 84-86% Kalshi print that the stale watchlist carried. The live Polymarket valuation distribution also moved the conditional median closing market cap back to about $1.23T, interpolated inside the $1T-$1.25T band, versus the stale local watchlist's $1.40T / $1.25T-$1.5T center. That is not a break in the IPO thesis. It says public-market timing and valuation are being marked down as the [[SpaceX]] and [[Anthropic]] supply shock becomes more concrete.
+
+| Jun. 5 live read | Price | Interpretation |
+|---|---:|---|
+| [[Kalshi]] KXIPOOPENAI-27JAN01, OpenAI IPO before Jan. 1 2027 | 75.0c last; 74c / 81c bid-ask | 2026 IPO still base case; inverted no-2026 tail = 25.0c |
+| [[Polymarket]] no OpenAI IPO by Dec. 31 2026 | 28.5c; 28c / 29c bid-ask | Direct no-2026 tail; implies 71.5c for IPO by year-end |
+| Cross-venue no-2026 spread | 3.5pp | No longer material; below 8pp watchlist threshold |
+| Polymarket conditional median market cap | About $1.23T | Median fell into the $1T-$1.25T bucket from the stale $1.25T-$1.5T center |
+
+Note on contract definitions: Kalshi resolves if an IPO is confirmed before Jan. 1 2027, including S-1 effectiveness, pricing, or exchange ticker assignment; it does not require first trade before Jan. 1. Polymarket's no-2026 leg sits inside the Dec. 31 2026 closing-market-cap event. Treat the prices as close but not perfectly identical legal definitions.
+
+*Sources: [[Kalshi]] API market KXIPOOPENAI-27JAN01, read Jun. 5 2026: https://external-api.kalshi.com/trade-api/v2/markets/KXIPOOPENAI-27JAN01; [[Polymarket]] Gamma event `openai-ipo-closing-market-cap` and market `will-openai-not-ipo-by-december-31-2026`, read Jun. 5 2026: https://gamma-api.polymarket.com/events/slug/openai-ipo-closing-market-cap and https://gamma-api.polymarket.com/markets/slug/will-openai-not-ipo-by-december-31-2026*
+
 ---
 
 ## Kalshi SpaceX / Starlink timing overlay (May 20, 2026)
@@ -203,7 +228,7 @@ The [[Starlink]] market is much colder. KXIPOSTARLINK priced a Starlink IPO befo
 
 | Company | Sector | Est. valuation | Status |
 |---------|--------|----------------|--------|
-| [[SpaceX]] | Launch/[[Starlink]]/AI infrastructure | >$2T reported target | Public S-1 filed May 20; largest-ever IPO candidate |
+| [[SpaceX]] | Launch/[[Starlink]]/AI infrastructure | Reported roughly $1.77T at Jun. 3-4 roadshow terms | 555.6M primary Class A shares at expected $135; final pricing expected Jun. 11; largest-ever IPO candidate |
 | [[Anduril]] | [[Defense]] tech | $14B | [[Palmer Luckey]] |
 | [[Axiom Space]] | [[Space]] station | $3B+ | Commercial space |
 

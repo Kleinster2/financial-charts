@@ -1,6 +1,27 @@
+---
+aliases:
+  - People's Bank of China
+  - PBoC
+tags: [actor, central-bank, china]
+---
+
 #actor #central-bank #china
 
 **PBOC** (People's Bank of China) — China's central bank. Controls monetary policy, RMB exchange rate, and banking regulation. Key actor in managing China's economic transition from investment-led growth.
+
+The practical vault use is to connect Chinese monetary easing, exchange-rate management, bank liquidity, official reserves, and hidden intervention mechanics into one policy actor note.
+
+---
+
+## Quick stats
+
+| Field | Value |
+|---|---|
+| Country | [[China]] |
+| Type | Central bank |
+| Governor | [[Pan Gongsheng]] |
+| Core policy surfaces | Monetary policy, bank liquidity, exchange-rate management, official reserves |
+| Current vault focus | Targeted easing, managed depreciation pressure, [[China hidden reserve intervention]] |
 
 ---
 
@@ -21,10 +42,10 @@ The multi-objective mandate gives PBOC flexibility but creates ambiguity about p
 
 | Rate | Current | Description |
 |------|---------|-------------|
-| **1-year LPR** | 3.00% | Loan Prime Rate, benchmark for most loans |
-| **5-year LPR** | 3.50% | Benchmark for mortgages |
-| **1-year MLF** | 2.00% | Medium-term Lending Facility, sets LPR floor |
-| **7-day reverse repo** | 1.50% | Short-term liquidity rate |
+| 1-year LPR | 3.00% | Loan Prime Rate, benchmark for most loans |
+| 5-year LPR | 3.50% | Benchmark for mortgages |
+| 1-year MLF | 2.00% | Medium-term Lending Facility, sets LPR floor |
+| 7-day reverse repo | 1.50% | Short-term liquidity rate |
 
 LPR held unchanged for 11 consecutive months through Apr 2026.
 
@@ -46,16 +67,16 @@ The practical message is that Beijing still prefers targeted easing and liquidit
 
 | Tool | Tenor | Purpose |
 |------|-------|---------|
-| **Reverse repo** | 7-day, 14-day | Daily liquidity management |
-| **MLF** | 1-year | Medium-term funding for banks |
-| **Outright reverse repo** | Monthly | Structural liquidity (new tool, 2024) |
-| **PSL** | Multi-year | Pledged Supplementary Lending for policy banks |
+| Reverse repo | 7-day, 14-day | Daily liquidity management |
+| MLF | 1-year | Medium-term funding for banks |
+| Outright reverse repo | Monthly | Structural liquidity (new tool, 2024) |
+| PSL | Multi-year | Pledged Supplementary Lending for policy banks |
 
 ### January 2026 injection
 
-PBOC injected net **1 trillion yuan** ($144B) via MLF and outright reverse repo — record monthly injection. Crushed short-term funding costs, with 1-year [[China NCD|NCD]] yields falling to ~1.6%.
+PBOC injected net 1 trillion yuan ($144B) via MLF and outright reverse repo — record monthly injection. Crushed short-term funding costs, with 1-year [[China NCD|NCD]] yields falling to ~1.6%.
 
-**Mechanism:** Excess liquidity + weak loan demand = banks deploy cash into government bonds, compressing long-end yields.
+Mechanism: Excess liquidity + weak loan demand = banks deploy cash into government bonds, compressing long-end yields.
 
 ---
 
@@ -69,12 +90,18 @@ PBOC injected net **1 trillion yuan** ($144B) via MLF and outright reverse repo 
 
 | Mechanism | Description |
 |-----------|-------------|
-| **Daily fix** | Sets CNY midpoint each morning |
-| **Band** | CNY trades within 2% of fix |
-| **FX reserves** | ~$3.2T, down from $4T peak (2014) |
-| **Capital controls** | Limit outflows, QFII/RQFII for inflows |
+| Daily fix | Sets CNY midpoint each morning |
+| Band | CNY trades within 2% of fix |
+| FX reserves | ~$3.2T, down from $4T peak (2014) |
+| Capital controls | Limit outflows, QFII/RQFII for inflows |
 
 PBOC manages RMB depreciation pressure during rate differentials with US. Counter-cyclical factor in daily fixing dampens speculative moves.
+
+---
+
+### Hidden reserve intervention channel
+
+[[Brad Setser]]'s June 2026 CFR update makes the PBOC balance sheet only one layer of China's currency-management map. The PBOC can keep official reserves roughly flat while state banks, domestic FX deposits, and [[State Administration of Foreign Exchange]] settlement gaps absorb foreign-currency inflows. For this note, the policy implication is that "managed depreciation pressure" understates the channel set: the intervention proxy now includes state-bank balance sheets and deposit conversion, not only the daily fix and reported reserves. See [[China hidden reserve intervention]].
 
 ---
 
@@ -86,7 +113,7 @@ PBOC reports to State Council (cabinet), not independent like Fed. Governor [[Pa
 
 ## 2025-2026 policy stance
 
-**"Moderately loose"** — first use of this language since 2008 financial crisis.
+"Moderately loose" — first use of this language since 2008 financial crisis.
 
 | Element | Status |
 |---------|--------|
@@ -135,6 +162,8 @@ China's accelerated buying contrasts with the selling by energy-shocked nations 
 ## Related
 
 - [[China]] — economy overview
+- [[China hidden reserve intervention]] — state-bank / deposit channel for off-balance-sheet reserve accumulation
+- [[State Administration of Foreign Exchange]] — settlement and cross-border flow data
 - [[Gold]] — bought 160k oz March 2026 (biggest in >1yr)
 - [[China NCD]] — bank funding benchmark
 - [[Pan Gongsheng]] — PBOC Governor

@@ -5,10 +5,17 @@ aliases: [UAS pair, KTOS-AVAV pair, Drone defense pair, UAS pure-plays]
 
 # UAS defense micro-cluster
 
-A 2-name validated micro-cluster of publicly-traded UAS (uncrewed aerial systems) defense pure-plays. Currently contains [[Kratos]] (KTOS) and [[AeroVironment]] (AVAV). Validated as a genuine micro-cluster (intra-correlation 0.638 over trailing 1Y, separated from defense primes by +0.20 to +0.30, separated from broad market by +0.25-0.30) but too small to be a full sector cohort note in the conventional sense.
+A 2-name validated micro-cluster of publicly-traded UAS (uncrewed aerial systems) defense pure-plays. Currently contains [[Kratos]] (KTOS) and [[AeroVironment]] (AVAV). Latest validation through the Jun. 3 2026 local close shows 0.678 trailing-1Y pair correlation, separated from defense primes by +0.31, from broad ETFs by +0.24, and from the [[Space pure-plays]] cohort by +0.21. This is a genuine micro-cluster, but too small to be a full sector cohort note in the conventional sense.
 
 > [!info] Micro-cluster status
 > Real 2-name pair with measurable internal cohesion. Not yet a tradeable basket at the same depth as [[Space pure-plays]] or [[WFE]] — needs 3-5 more pure-play candidates to reach full cohort status. Track as expansion candidate when [[Karman Holdings]] (KRMN) or other pure-UAS publics become liquid.
+
+---
+
+## Normalized return chart (Jan 2025 → latest local close, Jun. 3 2026)
+
+![[ktos-vs-avav-price-chart-2025.png]]
+*KTOS and AVAV normalized from the common Jan. 6 2025 start through the latest local close, Jun. 3 2026. KTOS (+98%) outperformed AVAV (+17%) over the window, but the two still show 0.678 trailing-1Y daily-return correlation; this is a co-movement cluster with meaningful outcome dispersion, not a same-return pair.*
 
 ---
 
@@ -27,9 +34,9 @@ Both names share the structural profile of small-mid-cap defense pure-play with 
 
 | Pair | Correlation (1Y) |
 |---|---|
-| KTOS - AVAV | 0.638 |
+| KTOS - AVAV | 0.678 |
 
-That's the entire intra-cluster matrix at 2 names.
+That's the entire intra-cluster matrix at 2 names. Window: daily returns from Jun. 6 2025 through Jun. 3 2026 (189 observations), using canonical `prices_long`.
 
 ---
 
@@ -39,14 +46,14 @@ How distinct is the pair from adjacent cohorts? Avg correlation of the pair to e
 
 | Reference | Pair avg correlation | Read |
 |---|---|---|
-| [[Space pure-plays]] (RKLB cohort) | 0.428 | Distinct from space cluster |
-| Heritage defense primes (LMT, RTX, NOC, LHX avg) | 0.30-0.35 | Distinct from primes |
-| [[LHX]] (closest single prime) | 0.453 | Closest defense-prime peer |
-| [[ITA]] (aerospace + defense ETF) | 0.536 | Distinct from broad defense ETF |
-| [[IWM]] (small-cap) | 0.411 | Some small-cap beta, not the dominant driver |
-| [[SPY]] | 0.354 | Mostly distinct from broad market |
+| [[Space pure-plays]] (RKLB cohort) | 0.464 | Distinct from space cluster |
+| Heritage defense primes (LMT, RTX, NOC, LHX avg) | 0.368 | Distinct from primes |
+| [[LHX]] (closest single prime) | 0.472 | Closest defense-prime peer |
+| [[ITA]] (aerospace + defense ETF) | 0.548 | Closest broad defense benchmark |
+| [[IWM]] (small-cap) | 0.420 | Some small-cap beta, not the dominant driver |
+| [[SPY]] | 0.362 | Mostly distinct from broad market |
 
-The pair has a +0.21 to +0.34 intra-advantage vs every reference except ITA (where +0.10 separation is more modest). KTOS-AVAV is genuinely its own thematic space, distinct from both space pure-plays and traditional primes — just very small (only 2 names).
+The pair has a +0.21 to +0.32 intra-advantage vs the space cohort, defense-prime cohort, IWM, and SPY. ITA remains the closest reference, but the pair still has a +0.13 intra-advantage over the broad aerospace-and-defense ETF. KTOS-AVAV is genuinely its own thematic space, distinct from both space pure-plays and traditional primes — just very small (only 2 names).
 
 ---
 
@@ -58,14 +65,14 @@ Tested in the cluster-validation work documented in [[Space pure-plays#Tested hy
 
 | Candidate | Avg corr to KTOS-AVAV |
 |---|---|
-| [[Mercury Systems]] (MRCY) | 0.543 |
-| [[BWXT]] | 0.492 |
-| [[Leidos]] (LDOS) | 0.382 |
-| [[CACI]] | 0.359 |
-| [[Parsons]] (PSN) | 0.293 |
-| [[Heico]] (HEI) | 0.291 |
+| [[Mercury Systems]] (MRCY) | 0.566 |
+| [[BWXT]] | 0.474 |
+| [[Leidos]] (LDOS) | 0.400 |
+| [[CACI]] | 0.366 |
+| [[Heico]] (HEI) | 0.356 |
+| [[Parsons]] (PSN) | 0.327 |
 
-Every candidate falls below the pair-internal 0.638 — adding any of them would dilute the cluster's internal cohesion. The 2-name pair stands on its own; the natural extensions don't exist in the current local universe.
+Every candidate falls below the pair-internal 0.678 — adding any of them would dilute the cluster's internal cohesion. MRCY remains the closest watch-list addition, but it is still a defense-electronics adjacency rather than a pure UAS member. The 2-name pair stands on its own; the natural extensions don't exist in the current local universe.
 
 ---
 
@@ -104,4 +111,4 @@ The likely path to a full UAS-defense cohort is one or more of [[Anduril]] / Mac
 - [[BWXT]] — naval/space nuclear, different business model
 - [[Heico]] — commercial aerospace heavy
 
-*Created 2026-05-11 as micro-cluster note. Status: validated pair, waiting for expansion candidates to reach full cohort scale.*
+*Created 2026-05-11 as micro-cluster note. Status: validated pair, waiting for expansion candidates to reach full cohort scale. Updated 2026-06-05 with current local-price validation through Jun. 3.*

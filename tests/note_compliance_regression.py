@@ -178,5 +178,90 @@ Synthetic Analyst -- Test analyst.
         self.assertEqual(errors, [])
 
 
+class SectorConceptChartTests(unittest.TestCase):
+    def check_synthetic_note(self, folder: str, filename: str, content: str):
+        with TemporaryDirectory(dir="C:/tmp") as tmpdir:
+            vault = Path(tmpdir) / "investing"
+            note_dir = vault / folder
+            note_dir.mkdir(parents=True)
+            note = note_dir / filename
+            note.write_text(content, encoding="utf-8")
+
+            original_cross_vaults = NoteChecker.CROSS_VAULTS
+            NoteChecker.CROSS_VAULTS = {}
+            try:
+                checker = NoteChecker(vault)
+                return checker.check_note(note)
+            finally:
+                NoteChecker.CROSS_VAULTS = original_cross_vaults
+
+    def test_sector_notes_require_chart(self) -> None:
+        content = """---
+aliases: [Synthetic Sector]
+---
+#sector
+
+# Synthetic Sector
+
+This sector note discusses a market cohort.
+
+## Correlation structure
+
+Avg correlation: 0.67.
+
+## Related
+"""
+
+        issues = self.check_synthetic_note("Sectors", "Synthetic Sector.md", content)
+        errors = [issue for issue in issues if issue.severity == "error"]
+
+        self.assertTrue(any(issue.rule == "chart" for issue in errors))
+
+    def test_concept_notes_require_chart(self) -> None:
+        content = """---
+aliases: [Synthetic Concept]
+---
+#concept
+
+# Synthetic Concept
+
+This concept note discusses market structure.
+
+## Synthesis
+
+The causal read-through is testable.
+
+## Related
+"""
+
+        issues = self.check_synthetic_note("Concepts", "Synthetic Concept.md", content)
+        errors = [issue for issue in issues if issue.severity == "error"]
+
+        self.assertTrue(any(issue.rule == "chart" for issue in errors))
+
+    def test_sector_chart_satisfies_chart_gate(self) -> None:
+        content = """---
+aliases: [Synthetic Sector]
+---
+#sector
+
+# Synthetic Sector
+
+![[synthetic-sector-chart.png]]
+*Synthetic chart caption.*
+
+## Correlation structure
+
+Avg correlation: 0.67.
+
+## Related
+"""
+
+        issues = self.check_synthetic_note("Sectors", "Synthetic Sector.md", content)
+        errors = [issue for issue in issues if issue.severity == "error"]
+
+        self.assertFalse(any(issue.rule == "chart" for issue in errors))
+
+
 if __name__ == "__main__":
     unittest.main()

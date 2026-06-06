@@ -129,6 +129,14 @@ Drivers: stranded tankers (150+ anchored outside Hormuz), canceled war-risk insu
 
 Pre-conflict Wall Street consensus: Brent ~$59/bbl (BofA, Citi, Goldman, JPM, MS average). [[IEA]] projected 3.84M bbl/day surplus. Post-disruption revisions remain modest — [[Goldman Sachs]] Q4 target only $71 (assumes 21-day disruption + 30-day recovery). [[JPMorgan]] revised to $68 (Mar 18) from $58 pre-crisis. The market debate: is this a temporary geopolitical spike or a structural repricing of energy security risk?
 
+### June 2026 Hormuz update — futures still believe in a fast deal
+
+[[Helima Croft]]'s Jun. 4 [[RBC Capital]] update keeps the paper-physical disconnect alive even after the first-wave price panic faded. Brent below $100 is being supported by high starting inventories, the [[IEA]] coordinated stockpile release, and repeated deal headlines, but Croft still puts the live disruption at 10-12.5 mb/d depending on Iranian transit permissions. Her warning is that the market is repricing every potential memorandum or ceasefire extension faster than the molecules can move.
+
+The actionable oil-market distinction is between a headline ceasefire and a bankable flow restart. If the [[Strait of Hormuz]] remains under [[IRGC]] operational control, shipping companies and insurers still have to underwrite sanctions/payment risk, missile risk, and the possibility that transit permissions are revoked. RBC's cited [[ADNOC]] reopening clock - at least four months to recover 80% of pre-war flow after the war ends - makes "deal reached" the beginning of the normalization trade, not its completion.
+
+*Source: [RBC Capital Markets, "Why is the market responding to Iran deals that fail to materialize?"](https://www.rbccm.com/en/insights/2026/06/why-is-the-market-responding-to-iran-deals-that-fail-to-materialize), Jun. 4 2026.*
+
 ### $200 oil — analyst roundup (Al Jazeera, Mar 19)
 
 Multiple analysts no longer dismissing $200/bbl. Benchmark Middle Eastern crudes (Oman, Dubai) already past $150; the question is whether [[Atlantic basin]] benchmarks follow. Historical comparison: 2008 peak $147.50/bbl = ~$224 in 2026 dollars.
@@ -237,5 +245,4 @@ China peak oil demand: the biggest single-country demand story. Chinese diesel d
 
 ### Cross-vault
 - [Technologies: Oil](obsidian://open?vault=technologies&file=Oil) — refining processes, hydrocarbon chemistry, extraction technology
-
 

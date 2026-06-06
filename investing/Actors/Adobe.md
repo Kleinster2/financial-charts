@@ -25,8 +25,8 @@ ADBE shows moderate Software correlation (IGV r = 0.65).
 | Metric | Value |
 |--------|-------|
 | Ticker | ADBE ([[Nasdaq]]) |
-| Revenue | **$23.77B** (FY25) |
-| ARR | **$25.2B** (+11.5% YoY) |
+| Revenue | $23.77B (FY25) |
+| ARR | $25.2B (+11.5% YoY) |
 | Market cap | ~$150B |
 | FY26 guidance | $25.9-26.1B |
 
@@ -39,14 +39,15 @@ ADBE shows moderate Software correlation (IGV r = 0.65).
 | Digital [[Media]] | $17.65B | +11% |
 | Digital Experience | $5.9B | +9% |
 
-**Digital [[Media]]:** Creative Cloud, Document Cloud
-**Digital Experience:** Marketing, analytics, commerce
+Digital [[Media]]: Creative Cloud, Document Cloud
+Digital Experience: Marketing, analytics, commerce
 
 ---
 
 ## Firefly AI platform
 
-**Standalone subscriptions (Feb 2025):**
+### Standalone subscriptions (Feb 2025)
+
 | Plan | Price | Credits |
 |------|-------|---------|
 | Standard | $9.99/mo | 2,000 (20 videos) |
@@ -54,7 +55,8 @@ ADBE shows moderate Software correlation (IGV r = 0.65).
 | Premium | $199.99/mo | 500 videos/mo |
 | CC Pro | $69.99/mo | Full Creative Cloud + AI |
 
-**MAX 2025 announcements:**
+### MAX 2025 announcements
+
 - Firefly Image Model 5 (4MP photorealistic)
 - Generate Soundtrack — licensed audio
 - Generate Speech — voiceovers
@@ -66,13 +68,21 @@ ADBE shows moderate Software correlation (IGV r = 0.65).
 
 | Metric | Value |
 |--------|-------|
-| AI-influenced ARR | **>33%** of total |
+| AI-influenced ARR | >33% of total |
 | Generative credits | Consumption model |
 | Model integration | Partner models in products |
 
 ---
 
-## Financial performance
+## Financials
+
+![[adobe-fundamentals-chart.png]]
+
+*Adobe's revenue and operating income have kept climbing, but the stock has de-rated as investors ask whether AI-native tools will compress creative-software growth and pricing power.*
+
+![[adobe-sankey.png]]
+
+*FY2025 remains a high-margin software income statement: 88.6% gross margin, 36.6% operating margin, and 30.0% net margin.*
 
 | Metric | Q4 FY25 |
 |--------|---------|
@@ -81,6 +91,23 @@ ADBE shows moderate Software correlation (IGV r = 0.65).
 | Operating cash flow | $3.2B |
 | FY25 OCF | $10.0B |
 | Buybacks FY25 | ~$12B |
+
+---
+
+## Q2 FY2026 earnings watch (Jun. 11, 2026)
+
+Adobe has set Q2 FY2026 results for Thursday, Jun. 11, 2026 after the market close, with the investor call from 2-3 PM Pacific. The print is the software-side test of the same market regime that hit AI chips on Jun. 5: AI exposure is no longer enough; investors need evidence that AI-native competition is not eroding creative subscription economics.
+
+| Check | Why it matters |
+|---|---|
+| Digital Media ARR and net new ARR | The cleanest read on whether Creative Cloud pricing and retention still hold. |
+| Firefly / AI-influenced ARR disclosure | Tests whether AI is monetizing inside Adobe's suite rather than merely defending churn. |
+| Digital Experience growth | Shows whether enterprise marketing spend is holding up in a higher-rate tape. |
+| FY26 revenue and EPS guide | The stock entered the print with AI-disruption skepticism; guidance quality matters more than a headline beat. |
+| Buyback cadence | Adobe has used repurchases aggressively; the market will read buybacks against slowing growth. |
+| CEO succession update | [[Shantanu Narayen]]'s departure makes the Q2 call a governance and strategy checkpoint. |
+
+Use `/earnings ADBE` after the release lands; keep this as a watch list until the actual figures are published.
 
 ---
 
@@ -109,13 +136,13 @@ FY2026 guidance was also tepid/lackluster alongside the announcement, suggesting
 
 ## Investment case
 
-**Bull:**
+Bull:
 - Creative monopoly (Photoshop, Premiere)
 - Firefly AI monetization
 - Recurring revenue model
 - Massive cash generation
 
-**Bear:**
+Bear:
 - [[Canva]]/[[Figma]] competition
 - AI disruption risk
 - Subscription fatigue
@@ -141,6 +168,12 @@ FY2026 guidance was also tepid/lackluster alongside the announcement, suggesting
 
 ## Related
 
+### Securities
+
+- [[Adobe securities note]]
+
+### Ecosystem
+
 - [[Microsoft]] — enterprise peer
 - [[SaaS]] — sector
 
@@ -150,5 +183,6 @@ FY2026 guidance was also tepid/lackluster alongside the announcement, suggesting
 
 - [Adobe Q4 FY25 earnings](https://news.adobe.com/news/2025/12/122025-q4earnings)
 - [Adobe investor relations](https://www.adobe.com/investor-relations.html)
+- [Adobe Q2 FY2026 earnings date](https://www.nasdaq.com/press-release/adobe-announce-q2-fy2026-earnings-results-june-11-2026-2026-06-01)
 
 *Created 2026-01-09*

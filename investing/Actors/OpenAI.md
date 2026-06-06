@@ -513,6 +513,8 @@ FT's May 23 2026 mega-IPO article says leaks about [[OpenAI]]'s accelerated IPO 
 
 The tension is the burn line. FT reports OpenAI has told investors it expects to burn roughly $600B before reaching profitability in 2030, despite already raising more private capital than any start-up in history and closing a $122B 2026 round. That makes the IPO less a celebratory exit than a funding mechanism: public investors are being asked to extend the runway for the [[Project Stargate]] / compute strategy while the company tries to prove that consumer distribution plus coding-agent growth can outrun infrastructure commitments.
 
+Jun. 5 prediction-market refresh: the daily-scan cross-venue divergence was stale-state noise. [[Kalshi]]'s before-Jan. 1 2027 leg printed 75c, while [[Polymarket]]'s direct no-2026 leg printed 28.5c, so both venues still price 2026 as the base case but at a cooler roughly 72-75% range. See [[2026 IPO pipeline]] for the Jun. 5 cross-venue refresh.
+
 *Source: [[Financial Times|FT]] article, May 23 2026: https://www.ft.com/content/ae9bb47d-bd1d-473c-b4c5-abae0420cc12.*
 
 ---

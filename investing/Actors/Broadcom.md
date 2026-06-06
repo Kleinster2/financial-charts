@@ -245,9 +245,24 @@ Broadcom delivered a strong absolute AI quarter but became a valuation/perfectio
 | Q3 AI semiconductor guide | $16.0B (>200% YoY) | Slightly below [[Visible Alpha]] estimate cited by [[Reuters]] |
 | [[Free cash flow]] | $10.262B | 46% of revenue |
 
+![[avgo-q2-fy2026-waterfall.png]]
+*Q2 FY26 income-statement waterfall from the inserted `income_statement_quarterly` row: $22.2B revenue flowed through 69.5% gross margin, 48.6% operating margin, and 42.0% net margin. The row uses fiscal date `2026-05-03`, GAAP diluted EPS of $1.91, and EBITDA derived as operating income plus D&A ($12.953B).*
+
+| Close-to-close reaction | Jun. 3 close | Jun. 4 close | Move |
+|---|---:|---:|---:|
+| AVGO | $479.23 | $418.91 | -12.6% |
+| [[SMH]] | $637.90 | $627.53 | -1.6% |
+| [[SPY]] | $754.24 | $757.09 | +0.4% |
+| [[NVIDIA]] | $214.50 | $218.66 | +1.9% |
+| [[Marvell]] | $301.65 | $316.43 | +4.9% |
+| [[AMD]] | $542.52 | $523.20 | -3.6% |
+| [[Micron]] | $1,079.57 | $996.00 | -7.7% |
+
 The market reaction was not that Broadcom's AI business is weak. It was that the stock had started pricing a larger raise to the 2027 AI-chip revenue trajectory. Hock Tan said Broadcom now expects to ship more than 10GW of AI chips in 2027 but kept the long-range $100B AI-chip sales forecast intact. That reframes the note's Broadcom thesis: the core ASIC/networking opportunity is still accelerating, but the equity is now sensitive to *rate of upward revisions*, not just absolute growth.
 
-*Sources: Broadcom Q2 FY2026 press release (Jun 3 2026); [[Reuters]] via Investing.com (Jun 3-4 2026).*
+The tape also argues against treating this as a whole-AI demand break. AVGO underperformed [[SMH]] by about 11 points, while [[NVIDIA]] and [[Marvell]] rose and [[AMD]] fell less. [[Micron]] sold off harder than broad semis, but that looks like memory-cycle and AI-capex digestion layered on top of the Broadcom shock rather than a clean read-through to every AI supplier.
+
+*Sources: Broadcom Q2 FY2026 press release (Jun 3 2026); [[Reuters]] via Investing.com (Jun 3-4 2026); local `prices_long` closes through Jun. 4 2026.*
 
 ---
 

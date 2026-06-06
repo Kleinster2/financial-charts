@@ -2,15 +2,23 @@
 
 # Long Broadcom
 
-**Status**: New thesis — ASIC explosion underway
+**Status**: Active thesis — ASIC explosion underway, equity now priced for revision cadence
 **Created**: 2025-12-30
-**Last reviewed**: 2025-12-30
+**Last reviewed**: 2026-06-05
 
 ---
 
 ## The thesis
 
 Broadcom is the picks-and-shovels play on hyperscaler custom silicon. As AI labs and hyperscalers build proprietary chips to escape [[NVIDIA]] pricing, Broadcom captures design revenue regardless of who wins.
+
+---
+
+## Jun 2026 checkpoint
+
+[[Broadcom]]'s Q2 FY26 print validates the business side of the thesis but tightens the equity bar. Revenue reached $22.187B, AI semiconductor revenue reached $10.8B (+143% YoY), and Q3 AI semiconductor guidance moved to $16.0B (>200% YoY), so custom silicon demand is still compounding. The stock fell 12.6% on Jun. 4 because management kept the 2027 AI-chip sales forecast at more than $100B rather than raising it.
+
+The thesis is therefore still live, but the trade expression is less forgiving. AVGO is no longer just a "does custom silicon grow" bet; it is now a "does the upward-revision cadence keep outrunning expectations" bet.
 
 ---
 
@@ -141,6 +149,7 @@ Google defection would be material.
 | 2025-12-30 | MediaTek appearing in TPUv7e, Maia 400 | Disintermediation risk real |
 | 2025-12-30 | Non-AI semi down 30% from peak | AI dependency deepening |
 | 2025-12-30 | [[Anthropic]] $20.9B F26E via Broadcom (Citi) | AI lab demand broad-based |
+| 2026-06-05 | Q2 FY26: $22.187B revenue, $10.8B AI semiconductor revenue, $16.0B Q3 AI semiconductor guide; AVGO -12.6% on Jun. 4 after no raise to the >$100B 2027 AI-chip target | Business thesis validated; equity now needs faster upward revisions, not merely strong absolute growth |
 
 ---
 

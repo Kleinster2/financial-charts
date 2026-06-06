@@ -15,20 +15,31 @@ Usage:
 import sys
 import os
 import sqlite3
-import yfinance as yf
-import pandas as pd
+import argparse
 import re
 from datetime import datetime
 
-# Narrow-format support
-sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'charting_app'))
-sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-from constants import USE_NARROW
-try:
-    from sqlite_queries import sync_wide_to_narrow, upsert_prices_long, check_narrow_available
-    NARROW_SYNC = check_narrow_available()
-except ImportError:
-    NARROW_SYNC = False
+
+def load_narrow_support():
+    """Load narrow-table helpers only when a ticker update is actually running."""
+    root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    charting_app = os.path.join(root, 'charting_app')
+    for path in (charting_app, root):
+        if path not in sys.path:
+            sys.path.insert(0, path)
+
+    try:
+        from constants import USE_NARROW as use_narrow
+    except ImportError:
+        use_narrow = False
+
+    try:
+        from sqlite_queries import sync_wide_to_narrow, upsert_prices_long, check_narrow_available
+        narrow_sync = check_narrow_available()
+    except ImportError:
+        return use_narrow, False, None, None
+
+    return use_narrow, narrow_sync, sync_wide_to_narrow, upsert_prices_long
 
 
 def clean_company_name(name):
@@ -86,6 +97,9 @@ def clean_company_name(name):
 
 def add_tickers(tickers, database_path='market_data.db'):
     """Add tickers to database with price data and metadata"""
+    import yfinance as yf
+    import pandas as pd
+    USE_NARROW, NARROW_SYNC, sync_wide_to_narrow, upsert_prices_long = load_narrow_support()
 
     if not tickers:
         print("Error: No tickers provided")
@@ -310,7 +324,10 @@ def add_tickers(tickers, database_path='market_data.db'):
         if price_row and meta_row:
             print(f"{ticker:12s} - {meta_row[0]}")
             print(f"  Latest: {str(price_row[0])[:10]} - ${float(price_row[1]):.2f}")
-            print(f"  Total: {meta_row[1]:,} data points")
+            if meta_row[1] is not None:
+                print(f"  Total: {meta_row[1]:,} data points")
+            else:
+                print("  Total: unknown data points")
         else:
             print(f"{ticker:12s} - VERIFICATION FAILED")
 
@@ -324,12 +341,31 @@ def add_tickers(tickers, database_path='market_data.db'):
     return True
 
 
-if __name__ == '__main__':
-    if len(sys.argv) < 2:
-        print(__doc__)
-        sys.exit(1)
+def parse_args(argv=None):
+    parser = argparse.ArgumentParser(
+        description="Add one or more tickers to market_data.db with price data and metadata.",
+        formatter_class=argparse.RawDescriptionHelpFormatter,
+        epilog=(
+            "Examples:\n"
+            "  python scripts/add_ticker.py AAPL MSFT GOOGL\n"
+            "  python scripts/add_ticker.py FICT3.SA REAG3.SA"
+        ),
+    )
+    parser.add_argument(
+        "tickers",
+        nargs="+",
+        help="Ticker symbols to add or refresh.",
+    )
+    parser.add_argument(
+        "--database",
+        default="market_data.db",
+        help="SQLite database path (default: market_data.db).",
+    )
+    return parser.parse_args(argv)
 
-    tickers = sys.argv[1:]
-    success = add_tickers(tickers)
+
+if __name__ == '__main__':
+    args = parse_args()
+    success = add_tickers(args.tickers, database_path=args.database)
 
     sys.exit(0 if success else 1)

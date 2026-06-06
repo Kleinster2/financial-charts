@@ -162,6 +162,20 @@ In a CNBC "The Exchange" appearance, Croft said *"companies are still saying it 
 
 ---
 
+## June 4, 2026 — deal headlines outrun physical normalization
+
+In a short [[RBC Capital]] interview, Croft tightened the late-April/May framework into a three-part trading warning:
+
+- The physical disruption is still 10-12.5 mb/d depending on how many ships [[Iran]] allows through the [[Strait of Hormuz]], even though Brent is below $100.
+- The cushion from high starting inventories and the [[IEA]] stockpile release is finite; Croft's stress point is now the "next weeks and months" of physical shortages rather than the first shock.
+- A reopening headline is not the same as commercial normalization. [[ADNOC]] CEO Dr. Sultan Ahmed Al Jaber told RBC it would take at least four months to get back to 80% of pre-war flow through the strait, and that clock starts only after the war ends.
+
+The important extension is the insurance/legal channel. If [[IRGC]] operational control remains embedded in the transit regime, Western shippers and insurers still face the same coordination, payment, sanctions, and missile-risk problem that made the May reopening fragile. That keeps Croft on the same side of the debate as [[Hormuz Permanent Risk Premium]]: deal headlines can sell oil futures before the physical market is investable again.
+
+*Source: [RBC Capital Markets, "Why is the market responding to Iran deals that fail to materialize?"](https://www.rbccm.com/en/insights/2026/06/why-is-the-market-responding-to-iran-deals-that-fail-to-materialize), Jun. 4 2026.*
+
+---
+
 ## Related
 
 - [[RBC Capital]] — employer

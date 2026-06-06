@@ -3,7 +3,7 @@ aliases: [Starshield]
 ---
 #actor #space #usa #private
 
-SpaceX — Musk's rocket/satellite company. [[Starlink]] dominates satellite internet. Acquired [[xAI]] Feb 2026 at $1.25T combined valuation ahead of mega-IPO.
+SpaceX — Musk's rocket/satellite company. [[Starlink]] dominates satellite internet. Acquired [[xAI]] Feb 2026 and is now in Jun. 2026 IPO roadshow price discovery: expected $135/share, 555.6M primary Class A shares, roughly $75B base gross proceeds, and `SPCX` on [[Nasdaq]] / [[Nasdaq]] Texas.
 
 ---
 
@@ -31,7 +31,7 @@ The story of SpaceX is the story of a man who wanted to put a greenhouse on Mars
 
 - 2024-2025 (the trillion-dollar company): Starlink crosses 4M subscribers and becomes profitable on its own. SpaceX revenue hits ~$15B with ~$8B profit. Starship testing progresses — the "chopstick catch" of a returning Super Heavy booster in October 2024 becomes one of the most-watched videos in aerospace history. Private market valuations explode: $210B (June 2024) → $350B (Dec 2024) → $400B (July 2025) → $800B (Dec 2025). Starlink V3 satellites (3x larger, gigabit speeds) begin production. Direct-to-cell partnership with [[T-Mobile]] announced. [[Starshield]] (military Starlink variant) wins defense contracts. SpaceX is now launching approximately every 2-3 days — more than one launch per week. Baron Capital holds ~$10B across funds, the largest outside investor
 
-- 2026 (the convergence): SpaceX acquires [[xAI]] (Musk's AI company) in February at a combined $1.25T valuation. The thesis: Starlink's 9,000+ satellite constellation becomes the backbone for space-based AI data centers — 100GW of orbital compute powered by 24/7 solar in sun-synchronous orbit. IPO targeted for June 2026 at $1.5T, raising $30-50B — would be the largest IPO in history. Musk announces a pivot from Mars-first to Moon-first: a self-sustaining lunar city in under 10 years, with a lunar factory and electromagnetic mass driver to catapult AI satellites into orbit. Pentagon drone swarm contracts, Starshield expansion, and the xAI merger position SpaceX as simultaneously a launch company, an internet company, a defense contractor, and an AI infrastructure play
+- 2026 (the convergence): SpaceX acquires [[xAI]] (Musk's AI company) in February at a combined $1.25T valuation. The thesis: Starlink's 9,000+ satellite constellation becomes the backbone for space-based AI data centers — 100GW of orbital compute powered by 24/7 solar in sun-synchronous orbit. The Jun. 3 S-1/A and Jun. 4 FWP put the IPO into live roadshow terms: 555.6M primary Class A shares at an expected $135/share, roughly $75B base gross proceeds before a 15% primary over-allotment, reported roughly $1.77T valuation, final pricing expected Jun. 11 and trading expected Jun. 12. Musk announces a pivot from Mars-first to Moon-first: a self-sustaining lunar city in under 10 years, with a lunar factory and electromagnetic mass driver to catapult AI satellites into orbit. Pentagon drone swarm contracts, Starshield expansion, and the xAI merger position SpaceX as simultaneously a launch company, an internet company, a defense contractor, and an AI infrastructure play
 
 The arc: greenhouse on Mars → laughed out of Russia → $100M personal bet → three failed launches → fourth flight saves everything → ISS resupply → reusable rockets (impossible → routine) → Starlink (launch company → infrastructure company) → first private astronaut launches → $1.25T valuation → space data centers. From $0.10/share to $588/share in 24 years — a 5,880x return. The man who got spat on in Moscow built the most valuable private company in history.
 
@@ -53,7 +53,7 @@ The arc: greenhouse on Mars → laughed out of Russia → $100M personal bet →
 
 ## IPO (2026)
 
-Public S-1 filed May 20, 2026. SpaceX is targeting a June 2026 listing process on [[Nasdaq]] under `SPCX`; press reporting still frames the deal as up to a $75B raise at a >$2T target valuation, but the preliminary prospectus leaves price, share count, and net proceeds blank. The deal remains structurally unprecedented: [[Goldman Sachs]] now has the lead-left / strategic-adviser role, [[Morgan Stanley]] has the stabilization mandate, there is no standard lockup, retail allocation is expected above 20%, and the Class B supervoting structure keeps [[Elon Musk]] in control. [[Nasdaq]], [[FTSE Russell]], and [[S&P Dow Jones Indices]] have rewritten, confirmed, or reviewed index inclusion rules to accommodate the listing.
+Public S-1 filed May 20, 2026; Jun. 3 S-1/A and Jun. 4 FWP filled the roadshow terms. SpaceX is offering 555,555,555 primary Class A shares at an expected $135/share, or roughly $75.0B gross proceeds before the 15% primary over-allotment, with final pricing expected Jun. 11 and trading expected Jun. 12 on [[Nasdaq]] / [[Nasdaq]] Texas under `SPCX`. AP/Reuters mirrors report a roughly $1.77T valuation at those terms. The deal remains structurally unprecedented: [[Goldman Sachs]] now has the lead-left / strategic-adviser role, [[Morgan Stanley]] has the stabilization mandate, [[Elon Musk]] retains about 82.4% voting power after the offering, Musk has a 366-day lock-up, and other holders have staggered release windows. [[Nasdaq]], [[FTSE Russell]], and [[S&P Dow Jones Indices]] have rewritten, confirmed, or reviewed index inclusion rules to accommodate the listing.
 
 The public filing confirms the financial shape that the leaked S-1 excerpts implied. The issuer is no longer standalone historical SpaceX: its financial statements retrospectively combine [[xAI]] and [[Twitter|X]] under common-control accounting, producing 2025 consolidated revenue of $18.674B and a $4.937B net loss. Segment disclosure is the clean read: Space revenue $4.086B / operating loss $657M; Connectivity revenue $11.387B / operating income $4.423B; AI revenue $3.201B / operating loss $6.355B. [[Starlink]] is now visibly the profit engine funding the AI and orbital-compute story.
 
@@ -509,10 +509,10 @@ The flat 17-month stretch at $137B (Jan 2024 – Jun 2025) reflects a quiet peri
 
 | Metric | Value |
 |--------|-------|
-| Status | Public S-1 filed May 20, 2026; IPO planned on [[Nasdaq]] under `SPCX` |
-| Valuation | >$2T target reported; preliminary S-1 price/share count still blank |
-| IPO timing | June 2026 target, with June 12 listing reported |
-| IPO raise | Up to $75B reported; S-1 net proceeds still blank |
+| Status | Jun. 3 S-1/A + Jun. 4 FWP roadshow terms filed; IPO planned on [[Nasdaq]] / [[Nasdaq]] Texas under `SPCX` |
+| Valuation | Reported roughly $1.77T at expected $135/share roadshow terms; final price still due Jun. 11 |
+| IPO timing | Final pricing expected Jun. 11, 2026; trading expected Jun. 12 |
+| IPO raise | 555.6M primary Class A shares at expected $135/share, about $75B base gross proceeds; up to about $86.25B with 15% primary over-allotment |
 | Satellites | 9,000+ (1M applied for) |
 | Starlink subscribers | 10.3M (Mar. 31, 2026 S-1 metric) |
 | 2025 revenue | $18.674B consolidated, recast including [[xAI]] / [[Twitter]] / X |
@@ -520,7 +520,7 @@ The flat 17-month stretch at $137B (Jan 2024 – Jun 2025) reflects a quiet peri
 | 2025 segment operating income | Space -$657M; Connectivity +$4.423B; AI -$6.355B |
 | CEO | [[Elon Musk]] |
 
-*Updated 2026-05-23 from public SEC S-1.*
+*Updated 2026-06-05 from Jun. 3 S-1/A and Jun. 4 FWP.*
 
 ---
 
@@ -576,7 +576,7 @@ Reuters also said it remained unclear whether Intel or the Terafab developers wo
 
 ## For theses
 
-[[AI capex arms race]]: $50B IPO to fund AI infrastructure (space data centers)
+[[AI capex arms race]]: Jun. 2026 IPO roadshow terms point to about $75B base gross proceeds to fund AI compute infrastructure, launch infrastructure/vehicles, satellite scale/capacity, and general corporate purposes.
 
 ---
 

@@ -10,9 +10,9 @@ aliases:
 
 ## Synopsis
 
-Oracle is the most leveraged bet on AI infrastructure scaling among the hyperscalers. The company has committed $50B in FY2026 capex, funded by $57B in new debt issued over 18 months, pushing total debt to ~$133B — making it the largest non-financial investment-grade issuer on earth, rated BBB/Baa2 with negative outlooks (two notches above junk). The bet: [[Oracle Cloud Infrastructure|OCI]] can sustain 84% [[IaaS]] growth (Q3 FY26, accelerating) and convert a $553B [[remaining performance obligations|remaining performance obligation pipeline]] — roughly $300B tied to [[OpenAI]] — into the revenue ramp from $57B (FY25) to $90B (FY27 guidance).
+Oracle is the most leveraged bet on AI infrastructure scaling among the hyperscalers. The company has committed $50B in FY2026 capex, funded by $57B in new debt issued over 18 months, pushing total debt to ~$133B — making it the largest non-financial investment-grade issuer on earth, rated BBB/Baa2 with negative outlooks (two notches above junk). The bet: [[Oracle Cloud Infrastructure]] (OCI) can sustain 84% [[IaaS]] growth (Q3 FY26, accelerating) and convert a $553B [[remaining performance obligations]] pipeline — roughly $300B tied to [[OpenAI]] — into the revenue ramp from $57B (FY25) to $90B (FY27 guidance).
 
-The risk profile is binary. Bull case: OCI's architecture (built on [[Amazon]]'s mistakes, per [[Guggenheim Partners]]' [[John DiFucci]] — see [[#Guggenheim Partners "decade stock" thesis (Jan 2026)|Guggenheim thesis below]]), validated by [[Project Stargate]], [[xAI]]'s Colossus, and the [[TikTok]] data custodianship, proves that a #4 cloud can win the AI infrastructure wave where incumbents are capacity-constrained. DiFucci calls it a "decade stock" with a $400 PT and $166B FY30 revenue target. Bear case: the capital structure is fragile — negative free cash flow (-$13.2B TTM), massive client concentration ([[OpenAI]]), and a credit rating one bad quarter from a downgrade cycle. If AI infrastructure spending decelerates, Oracle's debt-funded buildout becomes an albatross. The Mar 31 layoffs (20-30K workers, ~18% of headcount) partially address the FCF gap — [[TD Cowen]] estimates $8-10B in freed cash flow — but also signal that the AI infrastructure bet requires cannibalizing the legacy workforce to fund. [[Larry Ellison]] (80+) remains the strategic center — his relationships with [[Elon Musk]], the Stargate JV partners, and the Trump administration drive deal flow. The CEO role passed to co-CEOs [[Clay Magouyrk]] (OCI) and [[Mike Sicilia]] in late 2025, partially de-risking operational succession, but Ellison's personal network remains irreplaceable.
+The risk profile is binary. Bull case: OCI's architecture (built on [[Amazon]]'s mistakes, per [[Guggenheim Partners]]' [[John DiFucci]] — see Guggenheim thesis below), validated by [[Project Stargate]], [[xAI]]'s Colossus, and the [[TikTok]] data custodianship, proves that a #4 cloud can win the AI infrastructure wave where incumbents are capacity-constrained. DiFucci calls it a "decade stock" with a $400 PT and $166B FY30 revenue target. Bear case: the capital structure is fragile — negative free cash flow (-$13.2B TTM), massive client concentration ([[OpenAI]]), and a credit rating one bad quarter from a downgrade cycle. If AI infrastructure spending decelerates, Oracle's debt-funded buildout becomes an albatross. The Mar 31 layoffs (20-30K workers, ~18% of headcount) partially address the FCF gap — [[TD Cowen]] estimates $8-10B in freed cash flow — but also signal that the AI infrastructure bet requires cannibalizing the legacy workforce to fund. [[Larry Ellison]] (80+) remains the strategic center — his relationships with [[Elon Musk]], the Stargate JV partners, and the Trump administration drive deal flow. The CEO role passed to co-CEOs [[Clay Magouyrk]] (OCI) and [[Mike Sicilia]] in late 2025, partially de-risking operational succession, but Ellison's personal network remains irreplaceable.
 
 The Q3 FY26 beat (Mar 10, 2026) offered the first proof point: revenue $17.19B vs $16.91B consensus, Cloud IaaS +84% (accelerating from 68%), and Q4 EPS guidance of $1.96-$2.00 vs $1.70 consensus. Stock responded +9.2%. But free cash flow remains deeply negative and the $553B RPO is a promise, not cash — the market's patience depends on that conversion continuing to accelerate.
 
@@ -104,7 +104,7 @@ Oracle signed a multi-year agreement with [[Bloom Energy]] for ~2.8 GW of solid 
 | Deployment | Multi-year, across OCI sites |
 | Bloom 2026 manufacturing target | 2 GW annual (barely enough to cover the deal) |
 
-Fits the Ellison BYOP playbook: while nuclear permits work through multi-year timelines, fuel cells deploy in under 50 days and deliver grid-independent baseload. Oracle gets power for [[Stargate]]/[[OpenAI]] capacity commitments without waiting on grid interconnects. Connects to [[Power constraints]], [[Power infrastructure bottleneck]] (the 44 GW gap the grid can't close), and [[Data center physical layer]]. See [[Bloom Energy#Oracle 2.8 GW deal (Apr 14, 2026)|BE Apr 14 section]] for full deal terms.
+Fits the Ellison BYOP playbook: while nuclear permits work through multi-year timelines, fuel cells deploy in under 50 days and deliver grid-independent baseload. Oracle gets power for [[Stargate]]/[[OpenAI]] capacity commitments without waiting on grid interconnects. Connects to [[Power constraints]], [[Power infrastructure bottleneck]] (the 44 GW gap the grid can't close), and [[Data center physical layer]]. See the [[Bloom Energy]] Apr. 14 section for full deal terms.
 
 ---
 
@@ -292,9 +292,26 @@ See [[AI labor displacement]] → "The interest-rate counter-narrative" for the 
 
 The Apr 28 sell-off prices the *demand-side* corollary of the Apr 23 *supply-of-capital* constraint: lenders already balked at financing additional Abilene capacity with Oracle as the tenant; now the tenant's revenue ramp itself is contested. The market is reading the two stories as a single thesis-stress sequence — concentration risk plus tenant-revenue risk on the same anchor contract.
 
-Q4 FY26 earnings (May/June 2026) become the next material test: the OpenAI-related portion of the $553B RPO and any fresh disclosure on project-finance funding will be central. The [[Oracle#Bloom Energy 2.8 GW fuel cell deal (Apr 14, 2026)|Bloom Energy 2.8 GW SOFC]] thesis (own power as cushion) survives, but the demand side of the bet is now contested.
+Q4 FY26 earnings (May/June 2026) become the next material test: the OpenAI-related portion of the $553B RPO and any fresh disclosure on project-finance funding will be central. The [[Bloom Energy]] 2.8 GW SOFC thesis (own power as cushion) survives, but the demand side of the bet is now contested.
 
 See [[2026 OpenAI revenue miss]] for the full event note covering market reaction, compute-coverage gap, and read-throughs across the AI infrastructure stack.
+
+---
+
+## Q4 FY2026 earnings watch (Jun. 10, 2026)
+
+Oracle has set Q4 FY2026 results for Wednesday, Jun. 10, 2026 after the market close, with the call at 4:00 PM Central. The print is the first major AI-infrastructure follow-through after the Jun. 5 rate / chip-duration reset, so the watch should separate revenue acceleration from funding stress.
+
+| Check | Why it matters |
+|---|---|
+| Cloud IaaS growth versus Q3's +84% | Confirms whether OCI acceleration is still real after the stock's Q3 rebound. |
+| RPO and [[OpenAI]] concentration disclosure | The $553B RPO is the thesis anchor, but concentration remains the credit/equity risk. |
+| Capex / free cash flow path | The stock needs proof that debt-funded buildout can start converting to cash, or at least that cash burn is controlled. |
+| Project-finance commentary | The Apr. 23 Wall Street limits story made financing structure a valuation input, not background plumbing. |
+| [[Bloom Energy]] / power-capacity update | Own-power deployment is the physical hedge against grid bottlenecks and Stargate capacity constraints. |
+| TikTok / equity-method impact | TikTok USDS economics begin mattering in Q4, even if non-operating. |
+
+Use `/earnings ORCL` after the release lands; do not pre-fill the Q4 row from guidance.
 
 ---
 
@@ -578,7 +595,7 @@ Competitive wins over [[Workday]] and [[SAP]]: Memorial Hermann Health, Universi
 | Feb 9, 2026 | [[DA Davidson]] | Buy | $180 | |
 | Feb 9, 2026 | [[Melius]] | Hold | $160 | |
 | Feb 25, 2026 | [[Oppenheimer]] | Buy | $185 | |
-| Mar 4, 2026 | [[Citigroup|Citi]] | Buy | $310 | |
+| Mar 4, 2026 | [[Citigroup]] (Citi) | Buy | $310 | |
 | Mar 4, 2026 | [[RBC Capital]] | Hold | $160 | Cut from $195 |
 | Mar 5, 2026 | [[Jefferies]] (Brad Thill) | Buy | $320 | Cut from $400. Sell-off "overdone," opportunities beyond OpenAI undervalued. OCI consensus ~86% growth (accel from Q2's 68%) |
 | Mar 5, 2026 | [[Barclays]] | Buy | $310 | |

@@ -1,11 +1,11 @@
 ---
 aliases: [Setser]
-tags: [actor, person, economist, trade, cfr, author]
+tags: [analyst, person, economist, trade, cfr, author]
 ---
 
 # Brad Setser
 
-Brad Setser is a senior fellow at the [[Council on Foreign Relations]] and the most-cited specialist on global trade and capital-flow data. His running blog work on Chinese trade mismeasurement, US deficits, and balance-of-payments arithmetic has made him the reference point for [[Adam Tooze]], [[Michael Pettis]], and most serious writers on [[Global imbalances]]. Prior US Treasury official (2009-2011, under [[Tim Geithner]]); then [[Office of the US Trade Representative|USTR]] senior adviser (2021-2022) in the Biden administration. Co-author with [[Nouriel Roubini]] of *Bailouts or Bail-ins? Responding to Financial Crises in Emerging Economies* (Peterson Institute, 2004) — the standard reference on sovereign-debt-crisis resolution mechanics through the 2000s.
+Brad Setser is a senior fellow at the [[Council on Foreign Relations]] and the most-cited specialist on global trade and capital-flow data. His running blog work on Chinese trade mismeasurement, US deficits, and balance-of-payments arithmetic has made him the reference point for [[Adam Tooze]], [[Michael Pettis]], and most serious writers on [[Global imbalances]]. Prior US Treasury official (2009-2011, under [[Tim Geithner]]); then [[Office of the US Trade Representative]] (USTR) senior adviser (2021-2022) in the Biden administration. Co-author with [[Nouriel Roubini]] of *Bailouts or Bail-ins? Responding to Financial Crises in Emerging Economies* (Peterson Institute, 2004) — the standard reference on sovereign-debt-crisis resolution mechanics through the 2000s.
 
 ---
 
@@ -47,8 +47,17 @@ Setser also tracks:
 
 ---
 
+## June 2026 hidden-intervention update
+
+Setser's June 4 2026 CFR post, "Scaling China's Hidden Intervention In the Foreign Exchange Market," extends his hidden-reserve framework from official [[PBOC]] reserves into state-bank balance sheets and domestic FX deposits. The key accounting move is that if PBOC is right that rising state-bank foreign assets are funded by domestic FX deposits, the unexplained [[State Administration of Foreign Exchange]] settlement gap still has to land somewhere else; the combined state-institution footprint may therefore be larger, not smaller, than a narrow backdoor-intervention estimate.
+
+Setser's rough combined proxy points to about $700B of foreign-asset accumulation over the prior 12 months, but it remains a model built from imperfect public series, not an official disclosure. The durable mechanism belongs in [[China hidden reserve intervention]]; this actor note tracks Setser as the source-person and why his balance-of-payments reconstruction matters.
+
+---
+
 ## Related
 
+- [[China hidden reserve intervention]]
 - [[Second China shock]]
 - [[Global imbalances]]
 - [[China trade]]
@@ -57,6 +66,7 @@ Setser also tracks:
 - [[Council on Foreign Relations]]
 - [[De-dollarization]]
 - [[Dollar reserve status erosion]]
+- [[State Administration of Foreign Exchange]]
 - [[Korean won]] — coined the "DRam dollars" framing for the 2026 won puzzle
 - [[Treasuries]] — foreign-demand / reserve-composition tracking
 - [[Basis trade]] — hedge-fund Treasury demand structure

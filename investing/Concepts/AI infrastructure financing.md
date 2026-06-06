@@ -75,8 +75,19 @@ Problem: Even hyperscalers don't want this on balance sheet. Enter private capit
 | Chip-backed neocloud JV | Chip vendor supplies silicon/software while private capital funds a separate operating company | [[Google-Blackstone TPU cloud venture 2026]] |
 | Listed neocloud capital markets | Strategic equity + convertible notes fund GPU-cloud buildout; customers provide demand anchors | [[Nebius]] $700M strategic equity + ~$4.3375B convertibles |
 | Hyperscaler equity issuance | Mega-cap issuer sells stock / equity-linked securities to fund AI infrastructure and tax/share-compensation mechanics | [[Alphabet equity raise June 2026]] |
+| IPO primary equity | Private platform sells public common stock to fund AI compute plus launch/satellite capacity | [[SpaceX IPO 2026]] |
 
 See [[AI infrastructure deals]] for detailed capital stacks.
+
+---
+
+### SpaceX IPO primary equity (Jun. 2026)
+
+The Jun. 4 [[SpaceX IPO 2026]] FWP adds public IPO equity to the AI-infrastructure financing map. [[SpaceX]] is offering 555.6M primary Class A shares at an expected $135/share, or roughly $75.0B of base gross proceeds, with a 15% primary over-allotment that would add about $11.25B at that price. The use-of-proceeds language explicitly includes AI compute infrastructure, but it also includes launch infrastructure and vehicles, satellite-constellation scale/capacity, and general corporate purposes.
+
+That makes the structure different from a clean data-center SPV. Public investors are funding the integrated stack: terrestrial compute, [[xAI]] / [[Grok]] distribution, [[Starlink]] constellation expansion, and the launch infrastructure needed to scale V3 satellites, V2 mobile, and future orbital compute. The financing read is therefore broader than "AI data center capital raise." It is common-equity funding for a vertically integrated AI / space platform whose bottlenecks sit across chips, power, launch cadence, satellites, and balance-sheet leverage.
+
+*Sources: SEC S-1/A filed Jun. 3 2026; SEC FWP filed Jun. 4 2026; see [[SpaceX IPO 2026]].*
 
 ---
 
@@ -255,7 +266,7 @@ Who loses:
 
 ---
 
-*Updated 2026-05-19*
+*Updated 2026-06-05*
 
 Sources:
 - [[Bloomberg]] (Oct 31, 2025) — off-balance-sheet trend

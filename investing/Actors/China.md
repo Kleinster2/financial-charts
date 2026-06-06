@@ -102,6 +102,10 @@ Policy stance: "Moderately loose" — first use of this language since 2008 fina
 
 The April hold came with a mixed macro signal: first-quarter growth printed 5.0% year-on-year, but March factory-gate prices turned positive for the first time in more than three years as the Iran war pushed energy costs into the industrial system. Beijing is still choosing targeted easing over another headline rate cut.
 
+### Hidden reserve intervention channel (June 2026)
+
+[[Brad Setser]]'s June 2026 CFR update adds a second monetary-policy plumbing issue: official reserves and the PBOC balance sheet no longer capture the full foreign-currency absorption channel. His model reads [[State Administration of Foreign Exchange]] settlement, domestic FX deposits, and state-bank foreign assets together and infers that state institutions may have added roughly $700B of foreign assets over the prior 12 months, even while reported PBOC reserves stayed comparatively stable. The China-level read is that reserve diversification and hidden dollar warehousing can coexist; falling visible Treasury holdings do not by themselves prove a simple de-dollarization story. See [[China hidden reserve intervention]].
+
 ### Factory-gate inflation regime change (March 2026)
 
 [[China PPI]] (Producer Price Index) printed positive year-on-year for the first time since 2022 — not a demand-led recovery but the [[2026 Strait of Hormuz crisis]] pushing petrochemical feedstock costs through the factory gate. See [[Iran conflict supply chain cascade]] and [[Fortress China]] for the full transmission chain ([[Polyethylene]], [[Polypropylene]], [[Methanol]], [[Petroleum benzene]] all spiking 30-55% on FT/NBS/Wind data to April 11).
@@ -742,6 +746,8 @@ The decline reflects reserve diversification (into gold, bilateral currency swap
 ## Related
 
 - [[PBOC]] — central bank, liquidity injections
+- [[China hidden reserve intervention]] — hidden state-bank / deposit channel for reserve accumulation
+- [[State Administration of Foreign Exchange]] — FX settlement and balance-of-payments data
 - [[China NCD]] — bank funding benchmark
 - [[Export controls]] — US policy constraining chip access
 - [[TSMC]] — customer (constrained by [[N-2 rule]])

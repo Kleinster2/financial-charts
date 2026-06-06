@@ -23,9 +23,12 @@ Synthesis of cluster-validation findings across the vault's validated and falsif
 | [[Concepts/Defense primes basket\|Defense primes 7-name]] | 7 | 0.512 | 0.210-0.707 | 58.59% | — | Partial (LDOS drag) |
 | [[Concepts/Mag 7 cluster\|Mag 7]] | 7 | 0.316 | 0.078-0.461 | 41.82% | 14.6% | Falsified |
 | [[Concepts/Boutique advisory consolidation\|Boutique advisory consolidation]] | 6 | 0.73 (May 2025 figures) | — | 77% | — | Validated (older methodology — re-run pending) |
-| [[Sectors/UAS defense micro-cluster\|UAS pair]] | 2 | 0.638 | (pair only) | — | — | Validated micro-cluster (KTOS-AVAV) |
+| [[Sectors/UAS defense micro-cluster\|UAS pair]] | 2 | 0.678 | (pair only) | — | — | Validated micro-cluster (KTOS-AVAV; current through Jun. 3) |
 
 All 8+ cohorts run with matched methodology except Boutique advisory (older numbers retained until re-run). [[Space pure-plays]] is the canonical worked example with all 19 analytical sections; [[Concepts/Mag 7 cluster|Mag 7]] is the canonical falsified counterpoint at same N=7.
+
+![[vault-cluster-taxonomy-intra-corr-chart.png]]
+*Cross-cohort intra-correlation comparison using the taxonomy table above. The chart shows the 0.50 validation floor, the updated UAS pair at 0.678 through Jun. 3 2026, and the falsified Mag 7 reference at 0.316; Boutique advisory remains marked as older-methodology until re-run.*
 
 ---
 
@@ -35,6 +38,8 @@ This section records boundary tests, candidate screens, and falsified cluster hy
 
 | Date | Exploration | Status | Finding | Canonical evidence |
 |---|---|---|---|---|
+| 2026-06-05 | [[Sectors/UAS defense micro-cluster\|UAS defense micro-cluster]] current-data validation | Existing micro-cluster held and tightened | KTOS-AVAV remains a real 2-name micro-cluster through 2026-06-03 with 0.678 trailing-1Y pair correlation, up from the prior 0.638 read. It is distinct from defense primes (pair avg 0.368), broad ETFs (0.443), and the [[Space pure-plays]] cohort (0.464), but still too small to treat as a full cohort. | [[Sectors/UAS defense micro-cluster\|UAS defense micro-cluster]]; `prices_long` current through 2026-06-03 |
+| 2026-06-05 | [[Space pure-plays]] current-data validation | Existing cluster held and tightened | Current local DB through 2026-06-03 still validates the seven-name cohort at the 0.5 threshold: 1Y intra-correlation 0.634, PC1 68.8%, pairwise range 0.538-0.748. The defense-prime separation widened to +0.357, confirming the public-space selloff is a space-beta sleeve rather than merely defense beta. | [[Space pure-plays]]; `scripts/cluster_configs/rklb.yaml`; `space-pureplays-cluster-jun03-*` diagnostics |
 | 2026-05-27 | [[Space pure-plays]] post-SpaceX-IPO-hype refresh | Existing cluster held | Refreshed `prices_long` through 2026-05-27 and fixed date filtering in `scripts/cluster_analysis.py`; the seven-name cohort still clustered together at the 0.5 threshold with 1Y intra-correlation 0.625 and PC1 68.0%. `VOYG` is the best watch-list addition candidate, `KTOS` remains a defense-tech boundary case, and `DXYZ` is an event co-mover rather than structural member. | [[Space pure-plays]]; `scripts/cluster_configs/rklb.yaml`; `space-pureplays-cluster-may27-*` diagnostics |
 | 2026-05-28 | [[Luxury]] / global luxury basket retest | Validated narrower core; broad basket falsified | Broad "global luxury" is a useful industry basket, not one clean correlation cluster. Strict European core = `MC.PA`, `RMS.PA`, `KER.PA`, `CFR.SW`, `MONC.MI` with 1Y avg correlation 0.664 and PC1 73.3%; loose core adds `BRBY.L` and `BC.MI`. `1913.HK` and `ZGN` remain outside the validated core. | [[Luxury]]; `scripts/cluster_configs/luxury_global.yaml`; `global-luxury-cluster-*` diagnostics |
 | 2026-05-28 | [[Prada]]/[[Zegna]] fashion-cluster hypothesis | Falsified | `1913.HK` / `ZGN` pair correlation was only 0.175 over 1Y and 0.151 over 2Y; the wider fashion/premium set had only 0.288 1Y avg correlation and 39.1% PC1. [[Burberry]] and [[Brunello Cucinelli]] attach more to the loose luxury core than to a fashion sleeve. | [[Luxury]]; `scripts/cluster_configs/luxury_global.yaml`; follow-up Python screen logged in `investing/Daily/2026-05-28.md` |
@@ -180,9 +185,9 @@ LMT + RTX + NOC + GD + HII + LHX. 7-name variant (with LDOS) only partially vali
 
 AAPL, MSFT, GOOGL, AMZN, META, NVDA, TSLA. Below all three falsification thresholds: intra-corr below 0.50, PC1 below 50%, negative intra-advantage vs ETFs (-0.215). Essentially leveraged QQQ (R² 85.4% to broad benchmarks, only 14.6% specific factor). Cohort is loosening over time (0.47 → 0.32 over 3Y → YTD). Canonical reference for "what falsification looks like."
 
-### [[Sectors/UAS defense micro-cluster|UAS pair]] (N=2, intra-corr 0.638)
+### [[Sectors/UAS defense micro-cluster|UAS pair]] (N=2, intra-corr 0.678)
 
-KTOS + AVAV. Real micro-cluster too small to be a full cohort. Adding any of 6 tested defense-tech expansion candidates (MRCY, BWXT, HEI, etc.) loosens the cluster rather than tightening. Standalone 2-name pair pending future expansion candidates (Karman Holdings KRMN, Anduril when public).
+KTOS + AVAV. Real micro-cluster too small to be a full cohort. Current Jun. 3 validation tightened the pair to 0.678 trailing-1Y correlation; adding any of 6 tested defense-tech expansion candidates (MRCY, BWXT, HEI, etc.) still loosens the cluster rather than tightening. Standalone 2-name pair pending future expansion candidates (Karman Holdings KRMN, Anduril when public).
 
 ### [[Concepts/Boutique advisory consolidation|Boutique advisory consolidation]] (N=6, May 2025)
 

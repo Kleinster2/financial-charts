@@ -1,6 +1,9 @@
+---
+aliases: [Musk]
+---
 #actor #individual #usa
 
-**Elon Musk** — Controls multiple entities relevant to AI/semiconductor thesis. Political influence through DOGE role. Pre-[[SpaceX IPO 2026|SpaceX IPO]] S-1 (Apr 2026, FT May 15) discloses a trillion-dollar pay package and the most management-favourable governance structure brought to a US public market at this scale.
+**Elon Musk** — Controls multiple entities relevant to AI/semiconductor thesis. Political influence through DOGE role. The Jun. 3 [[SpaceX IPO 2026|SpaceX IPO]] S-1/A makes his public-company control explicit: about 82.4% post-offering voting power, controlled-company governance exemptions, a 366-day lock-up, and still-unusual moonshot pay grants tied to multi-trillion-dollar market-cap and space-compute targets.
 
 ---
 
@@ -13,7 +16,11 @@ Two contingent grants embedded in [[SpaceX]]'s confidential S-1:
 | Class B common | $7.5T market cap + 1mn-person [[Mars]] colony | 200M (vests in $500B cap tranches) |
 | Supervoting RSU | $6.6T market cap + 100 TW [[Space data centers\|space DC]] network | 60M |
 
-Both grants extend Musk's supervoting base if vested, entrenching his >80% voting position even at hypothetical $7.5T cap. Echo of the [[Tesla]] 2018 pay grant (now restored) where vesting was tied to sextupling Tesla cap + selling millions of [[Tesla Optimus|humanoid robots]] — moonshot triggers rather than near-term metrics. For deal mechanics and pension-fund pushback see [[SpaceX IPO 2026#Governance and trillion-dollar pay package (FT May 15, 2026)|the dedicated section in SpaceX IPO 2026]].
+Both grants extend Musk's supervoting base if vested, entrenching his >80% voting position even at hypothetical $7.5T cap. Echo of the [[Tesla]] 2018 pay grant (now restored) where vesting was tied to sextupling Tesla cap + selling millions of [[Tesla Optimus|humanoid robots]] — moonshot triggers rather than near-term metrics. For deal mechanics and pension-fund pushback see [[SpaceX IPO 2026|the dedicated SpaceX IPO event note]].
+
+The Jun. 3 S-1/A and Jun. 4 FWP turn that governance story from leaked/press-reported structure into roadshow mechanics. After the offering, Musk is expected to control about 82.4% of voting power, mostly through Class B supervoting shares, and [[SpaceX]] intends to rely on controlled-company exemptions under [[Nasdaq]] corporate-governance rules. Musk also has a 366-day lock-up, while other holders receive staggered release windows. The investor bargain is therefore unusually clear: public buyers get access to the integrated SpaceX / [[xAI]] / [[Twitter|X]] stack, but not a meaningful governance check on Musk.
+
+*Sources: SEC S-1/A filed Jun. 3 2026; SEC FWP filed Jun. 4 2026; see [[SpaceX IPO 2026]].*
 
 ---
 
@@ -33,33 +40,33 @@ Musk's combined entities represent significant chip demand and policy influence:
 
 | Entity | Role | Relevance |
 |--------|------|-----------|
-| [[SpaceX]] | CEO | **Acquired xAI Feb 2026**, $1.25T combined, 2026 IPO |
+| [[SpaceX]] | CEO | Acquired xAI Feb 2026, $1.25T combined, 2026 IPO |
 | [[xAI]] | Founder | Now SpaceX subsidiary, 100k+ H100s (Colossus) |
 | [[Tesla]] | CEO | FSD chips, $2B invested in xAI (now SpaceX sub) |
 | [[DOGE]] | Co-lead (departed) | AI policy, export controls influence |
 
-**Combined leverage:** Tesla + xAI together could anchor [[Samsung]] Taylor fab — one of the bull cases for Korea.
+Combined leverage: Tesla + xAI together could anchor [[Samsung]] Taylor fab — one of the bull cases for Korea.
 
 ---
 
 ## Political connections
 
-**Trump administration (2025-):**
-- **DOGE:** Former Co-lead (departed Dec 2025), remains highly influential advisor.
+Trump administration (2025-):
+- DOGE: Former Co-lead (departed Dec 2025), remains highly influential advisor.
 - Direct White House access
 - Influence on AI policy, export controls, space policy.
 
-**Relevant policy wins:**
+Relevant policy wins:
 - AI Diffusion framework canceled (benefited NVIDIA)
 - H200 approved for [[China]] export
 - [[David Sacks]] (ally) as AI/crypto czar
-- **Antitrust:** Advocates for deregulation; seen as a beneficiary of [[Lina Khan]]'s departure from FTC.
+- Antitrust: Advocates for deregulation; seen as a beneficiary of [[Lina Khan]]'s departure from FTC.
 
-**[[Venezuela]] Role (Post-Maduro Jan 2026):**
-- **Geopolitical:** Strongly anti-Maduro; likely to advocate for digital freedom/connectivity.
-- **Starlink:** Potential role for [[SpaceX]]'s Starlink in providing internet infrastructure to a rebuilding [[Venezuela]], especially in remote areas or as an alternative to state-controlled telecom.
+[[Venezuela]] Role (Post-Maduro Jan 2026):
+- Geopolitical: Strongly anti-Maduro; likely to advocate for digital freedom/connectivity.
+- Starlink: Potential role for [[SpaceX]]'s Starlink in providing internet infrastructure to a rebuilding [[Venezuela]], especially in remote areas or as an alternative to state-controlled telecom.
 
-**[[Iran]] (Jan 12, 2026):**
+[[Iran]] (Jan 12, 2026):
 - Trump said he'll call Musk about deploying [[Starlink]] to restore internet amid protests
 - "He's very good at that kind of thing"
 - [[Iran]] jamming Starlink with military-grade systems
@@ -71,9 +78,9 @@ Musk's combined entities represent significant chip demand and policy influence:
 
 | Person | Connection | Relevance |
 |--------|------------|-----------|
-| **[[David Sacks]]** | Close ally, [[Craft Ventures]] | AI czar, [[Groq]] investor |
-| **[[Chamath Palihapitiya]]** | Social Capital | [[Groq]] investor ($4B payout) |
-| **[[Peter Thiel]]** | [[PayPal mafia]] | [[Palantir]], [[Founders Fund]] |
+| [[David Sacks]] | Close ally, [[Craft Ventures]] | AI czar, [[Groq]] investor |
+| [[Chamath Palihapitiya]] | Social Capital | [[Groq]] investor ($4B payout) |
+| [[Peter Thiel]] | [[PayPal mafia]] | [[Palantir]], [[Founders Fund]] |
 
 ---
 
@@ -81,21 +88,21 @@ Musk's combined entities represent significant chip demand and policy influence:
 
 See [[xAI]] for details.
 
-- **Colossus (Memphis):** 100k H100s, expanding to 1M+ GPUs
-- **Colossus 2 (Tennessee):** 400MW near-term, 2GW path
-- **Investors:** [[Saudi PIF]], UAE [[MGX]], [[Blackstone]], [[AMD]], NVIDIA
+- Colossus (Memphis): 100k H100s, expanding to 1M+ GPUs
+- Colossus 2 (Tennessee): 400MW near-term, 2GW path
+- Investors: [[Saudi PIF]], UAE [[MGX]], [[Blackstone]], [[AMD]], NVIDIA
 
 ---
 
 ## Samsung anchor thesis
 
-**The case:**
+The case:
 - Tesla already has Samsung relationship (some chips)
 - xAI needs massive fab capacity
 - Combined, Musk entities could anchor Samsung Taylor
 - Political alignment: Musk influence + Korea-friendly trade policy
 
-**For [[Short TSMC long Korea]]:** Musk as Samsung anchor = bullish Korea
+For [[Short TSMC long Korea]]: Musk as Samsung anchor = bullish Korea
 
 ---
 
@@ -114,11 +121,12 @@ See [[xAI]] for details.
 |--------|-------|
 | Net worth | ~$400B+ (fluctuates) |
 | Companies | SpaceX/xAI (merged), Tesla, [[Neuralink]], Boring Co |
-| SpaceX/xAI valuation | **$1.25T** (Feb 2026) |
+| SpaceX/xAI valuation | Reported roughly $1.77T at Jun. 2026 SpaceX roadshow terms; $1.25T combined valuation at Feb. 2026 xAI acquisition |
+| SpaceX voting control | About 82.4% post-offering voting power |
 | GPU demand | 100k+ current, 1M+ planned |
 | Political role | DOGE co-lead (departed) |
 
-*Updated 2026-02-03*
+*Updated 2026-06-05*
 
 ---
 

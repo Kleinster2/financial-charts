@@ -7,7 +7,7 @@ name: Space pure-plays
 primary: RKLB
 prefix: space-pureplays-cluster
 threshold: 0.5
-window_end: 2026-05-27
+window_end: 2026-06-03
 
 groups:
   cluster:
