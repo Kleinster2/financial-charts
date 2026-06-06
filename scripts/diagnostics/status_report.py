@@ -131,8 +131,7 @@ def get_fred_registry_freshness(
     for code, series in sorted(registry.items()):
         row = present.get(code)
         if row is None:
-            if series.required:
-                missing_items.append(f"{code} NO DATA")
+            missing_items.append(f"{code} NO DATA")
             continue
 
         latest = datetime.strptime(str(row[0])[:10], "%Y-%m-%d").date()
@@ -142,7 +141,9 @@ def get_fred_registry_freshness(
         if oldest is None or latest < oldest:
             oldest_by_frequency[series.frequency] = latest
 
-        if series.frequency == FREQUENCY_DAILY:
+        if series.allowed_lag_days is not None:
+            cutoff = today - timedelta(days=series.allowed_lag_days)
+        elif series.frequency == FREQUENCY_DAILY:
             cutoff = daily_cutoff
         else:
             allowed_lag = series.allowed_lag_days or FRED_FREQUENCY_LAG_DAYS[series.frequency]

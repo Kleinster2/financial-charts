@@ -11,7 +11,10 @@ FREQUENCY_QUARTERLY = "quarterly"
 FRED_FREQUENCY_LAG_DAYS = {
     FREQUENCY_WEEKLY: 14,
     FREQUENCY_MONTHLY: 75,
-    FREQUENCY_QUARTERLY: 135,
+    # FRED quarterly observations are dated at quarter start, while GDP is
+    # released late in the following quarter. A 210-day lag avoids false stale
+    # flags between the Q1 and Q2 GDP releases.
+    FREQUENCY_QUARTERLY: 210,
 }
 
 
@@ -75,12 +78,13 @@ FRED_SERIES_REGISTRY = {
     "WTREGEN": FredSeries("WTREGEN", "Treasury General Account", "liquidity", FREQUENCY_WEEKLY, "tier2"),
     "STLFSI4": FredSeries("STLFSI4", "Financial Stress Index", "financial_stress", FREQUENCY_WEEKLY, "tier2"),
     "TEDRATE": FredSeries("TEDRATE", "TED Spread", "financial_stress", FREQUENCY_DAILY, "tier2", active=False),
-    "DCOILWTICO": FredSeries("DCOILWTICO", "WTI Crude Oil", "commodities", FREQUENCY_DAILY, "tier2"),
-    "GOLDAMGBD228NLBM": FredSeries("GOLDAMGBD228NLBM", "Gold Price", "commodities", FREQUENCY_DAILY, "tier2"),
-    "DCOILBRENTEU": FredSeries("DCOILBRENTEU", "Brent Crude", "commodities", FREQUENCY_DAILY, "tier2"),
-    "DEXCHUS": FredSeries("DEXCHUS", "CNY/USD", "forex", FREQUENCY_DAILY, "tier2"),
-    "DEXJPUS": FredSeries("DEXJPUS", "JPY/USD", "forex", FREQUENCY_DAILY, "tier2"),
-    "DEXUSEU": FredSeries("DEXUSEU", "USD/EUR", "forex", FREQUENCY_DAILY, "tier2"),
+    "DCOILWTICO": FredSeries("DCOILWTICO", "WTI Crude Oil", "commodities", FREQUENCY_DAILY, "tier2", allowed_lag_days=7),
+    # Removed from FRED; FRED blog notes older gold fixing graphs are now static.
+    "GOLDAMGBD228NLBM": FredSeries("GOLDAMGBD228NLBM", "Gold Price", "commodities", FREQUENCY_DAILY, "tier2", active=False),
+    "DCOILBRENTEU": FredSeries("DCOILBRENTEU", "Brent Crude", "commodities", FREQUENCY_DAILY, "tier2", allowed_lag_days=7),
+    "DEXCHUS": FredSeries("DEXCHUS", "CNY/USD", "forex", FREQUENCY_DAILY, "tier2", allowed_lag_days=10),
+    "DEXJPUS": FredSeries("DEXJPUS", "JPY/USD", "forex", FREQUENCY_DAILY, "tier2", allowed_lag_days=10),
+    "DEXUSEU": FredSeries("DEXUSEU", "USD/EUR", "forex", FREQUENCY_DAILY, "tier2", allowed_lag_days=10),
     "INTDSRBRM193N": FredSeries("INTDSRBRM193N", "Brazil SELIC Rate", "brazil_rates", FREQUENCY_MONTHLY, "tier2"),
     "IRSTCI01BRM156N": FredSeries("IRSTCI01BRM156N", "Brazil CDI Rate", "brazil_rates", FREQUENCY_MONTHLY, "tier2"),
     "INTGSTBRM193N": FredSeries("INTGSTBRM193N", "Brazil T-Bill Rate", "brazil_rates", FREQUENCY_MONTHLY, "tier2"),

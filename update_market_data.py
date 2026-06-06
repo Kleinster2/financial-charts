@@ -26,7 +26,14 @@ from update_fx_ny_close import get_fx_tickers_from_db, download_fx_at_ny_close, 
 from fetch_bcb_rates import fetch_all_bcb_rates, update_database as update_bcb_database
 from brazil_rate_series_registry import B3_DI_SERIES, BCB_RATE_SERIES
 from fred_series_registry import FRED_BOND_SERIES
-from update_fred_indicators import DEFAULT_FRED_LOOKBACK_DAYS, update_fred_indicators
+from fred_utils import download_from_fred, merge_fred_series_column
+from update_fred_indicators import (
+    DEFAULT_FRED_LOOKBACK_DAYS,
+    FRED_FETCH_RETRIES,
+    FRED_FETCH_TIMEOUT_SECONDS,
+    FRED_UPDATE_OVERLAP_DAYS,
+    update_fred_indicators,
+)
 from update_indices_from_fred import update_indices_from_fred
 
 BRAZIL_UPDATE_OVERLAP_DAYS = 7
@@ -130,7 +137,6 @@ def sync_brazil_rates_to_prices_long(df, series_names: dict[str, str], verbose: 
 
 def update_fred_bonds(verbose: bool = True):
     """Update FRED corporate bond yields (AAA, BBB, High Yield, etc.)."""
-    import pandas_datareader.data as web
     from datetime import timedelta
     import sqlite3
     import pandas as pd
@@ -143,7 +149,7 @@ def update_fred_bonds(verbose: bool = True):
     series_map = FRED_BOND_SERIES
 
     conn = sqlite3.connect(DB_PATH)
-    start = datetime.now() - timedelta(days=60)
+    seed_start = datetime(1900, 1, 1)
     end = datetime.now()
 
     try:
@@ -154,18 +160,33 @@ def update_fred_bonds(verbose: bool = True):
     updated = 0
     for series_id, name in series_map.items():
         try:
-            df = web.DataReader(series_id, "fred", start, end)
-            df.columns = [series_id]
-            if series_id in existing.columns:
-                existing[series_id] = df[series_id].combine_first(existing[series_id])
-            else:
-                if existing.empty:
-                    existing = df
-                else:
-                    existing[series_id] = df[series_id]
+            row = conn.execute(
+                """
+                SELECT MAX(Date)
+                FROM prices_long
+                WHERE Ticker = ? AND Close IS NOT NULL
+                """,
+                (series_id,),
+            ).fetchone()
+            start = (
+                datetime.strptime(str(row[0])[:10], "%Y-%m-%d") - timedelta(days=FRED_UPDATE_OVERLAP_DAYS)
+                if row and row[0]
+                else seed_start
+            )
+            data = download_from_fred(
+                series_id,
+                retries=FRED_FETCH_RETRIES,
+                timeout=FRED_FETCH_TIMEOUT_SECONDS,
+                start_date=start,
+                end_date=end,
+            )
+            if data is None or data.empty:
+                raise RuntimeError("no data returned")
+            df = data.rename(columns={"Close": series_id})
+            existing = merge_fred_series_column(existing, series_id, df)
             updated += 1
             if verbose:
-                print(f"  Updated {series_id}")
+                print(f"  Updated {series_id} through {df.index[-1].strftime('%Y-%m-%d')}")
         except Exception as e:
             if verbose:
                 print(f"  Failed {series_id}: {e}")
@@ -367,10 +388,11 @@ def update_fred_data(verbose: bool = True, lookback_days: int | None = None):
             f"for monthly observations (requested {lookback_days})."
         )
 
-    update_fred_indicators(lookback_days=effective_lookback)
+    success = update_fred_indicators(lookback_days=effective_lookback)
 
     if verbose:
         print("=" * 70)
+    return success
 
 
 def update_rate_futures_data(verbose: bool = True):
@@ -702,7 +724,8 @@ def run_update(assets_to_run: list, lookback_days: int = None, verbose: bool = T
         if "fred" in assets_to_run:
             if verbose:
                 print("\n[Orchestrator] Updating FRED economic indicators")
-            update_fred_data(verbose=verbose, lookback_days=lookback_days)
+            if update_fred_data(verbose=verbose, lookback_days=lookback_days) is False:
+                success = False
 
         # Run rate-futures (ZQ + SR3) updater if requested
         if "ratefutures" in assets_to_run:

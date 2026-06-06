@@ -25,9 +25,10 @@ from fred_series_registry import (
 )
 
 DEFAULT_FRED_LOOKBACK_DAYS = 120
+FRED_SEED_LOOKBACK_DAYS = 3650
 FRED_UPDATE_OVERLAP_DAYS = 7
-FRED_FETCH_RETRIES = 0
-FRED_FETCH_TIMEOUT_SECONDS = 10.0
+FRED_FETCH_RETRIES = 2
+FRED_FETCH_TIMEOUT_SECONDS = 30.0
 
 # FRED economic indicators currently in database
 FRED_INDICATORS = FRED_UPDATE_WIDE_SERIES
@@ -121,7 +122,7 @@ def refresh_fred_metadata(codes, descriptions):
     finally:
         conn.close()
 
-def sync_fred_narrow_only(narrow_updates):
+def sync_fred_narrow_only(narrow_updates, descriptions=None):
     """Write narrow-only FRED series to prices_long and ticker_metadata."""
     if not narrow_updates:
         return True
@@ -137,7 +138,7 @@ def sync_fred_narrow_only(narrow_updates):
 
     try:
         sync_wide_to_narrow(narrow_df, table='prices_long', value_col='Close', verbose=True)
-        refresh_fred_metadata(narrow_updates.keys(), NARROW_ONLY_FRED_INDICATORS)
+        refresh_fred_metadata(narrow_updates.keys(), descriptions or NARROW_ONLY_FRED_INDICATORS)
 
         return True
     except Exception as e:
@@ -185,6 +186,7 @@ def update_fred_indicators(lookback_days=DEFAULT_FRED_LOOKBACK_DAYS, codes=None,
     selected_codes = {code.upper() for code in codes} if codes else None
 
     cutoff_date = datetime.now() - timedelta(days=lookback_days)
+    seed_cutoff_date = datetime.now() - timedelta(days=max(lookback_days, FRED_SEED_LOOKBACK_DAYS))
 
     # Check which indicators exist in database
     conn = get_db_connection(row_factory=None)
@@ -233,6 +235,7 @@ def update_fred_indicators(lookback_days=DEFAULT_FRED_LOOKBACK_DAYS, codes=None,
             code,
             retries=FRED_FETCH_RETRIES,
             timeout=FRED_FETCH_TIMEOUT_SECONDS,
+            start_date=wide_cutoffs[code],
         )
 
         if data is not None and not data.empty:
@@ -249,10 +252,25 @@ def update_fred_indicators(lookback_days=DEFAULT_FRED_LOOKBACK_DAYS, codes=None,
             print("FAIL")
 
     print()
+    tier2_narrow_indicators = {
+        code: description
+        for code, description in TIER2_INDICATORS.items()
+        if code not in existing_indicators
+        and (selected_codes is None or code in selected_codes)
+    }
+    narrow_indicators = {
+        **{
+            code: description
+            for code, description in NARROW_ONLY_FRED_INDICATORS.items()
+            if selected_codes is None or code in selected_codes
+        },
+        **tier2_narrow_indicators,
+    }
+
     narrow_indicators = {
         code: description
-        for code, description in NARROW_ONLY_FRED_INDICATORS.items()
-        if selected_codes is None or code in selected_codes
+        for code, description in narrow_indicators.items()
+        if code not in wide_updates
     }
 
     print(f"Checking {len(narrow_indicators)} narrow-only FRED indicators")
@@ -263,7 +281,12 @@ def update_fred_indicators(lookback_days=DEFAULT_FRED_LOOKBACK_DAYS, codes=None,
             for code in narrow_indicators
         }
         narrow_cutoffs = {
-            code: get_series_update_cutoff(conn, code, cutoff_date, seed_full_history=True)
+            code: get_series_update_cutoff(
+                conn,
+                code,
+                seed_cutoff_date if code in TIER2_INDICATORS else cutoff_date,
+                seed_full_history=code in NARROW_ONLY_FRED_INDICATORS,
+            )
             for code in narrow_indicators
         }
     finally:
@@ -279,6 +302,7 @@ def update_fred_indicators(lookback_days=DEFAULT_FRED_LOOKBACK_DAYS, codes=None,
             code,
             retries=FRED_FETCH_RETRIES,
             timeout=FRED_FETCH_TIMEOUT_SECONDS,
+            start_date=filter_cutoff,
         )
 
         if data is not None and not data.empty:
@@ -302,7 +326,7 @@ def update_fred_indicators(lookback_days=DEFAULT_FRED_LOOKBACK_DAYS, codes=None,
     narrow_success = True
     if narrow_updates:
         print(f"\nUpdating prices_long with {len(narrow_updates)} narrow-only indicators...")
-        narrow_success = sync_fred_narrow_only(narrow_updates)
+        narrow_success = sync_fred_narrow_only(narrow_updates, narrow_indicators)
 
         print("\nNarrow-only verification:")
         conn = get_db_connection(row_factory=None)
