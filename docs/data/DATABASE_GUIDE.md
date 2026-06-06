@@ -77,7 +77,7 @@ The database contains these **cleaned Brazilian interest rate series**. Older wi
 
 While `fetch_b3_yield_curve.py` can download recent data, the historical cleaning work would be lost if this data is overwritten. Brazil rate series are registered in `brazil_rate_series_registry.py`; `update_market_data.py --status` checks every registered series in canonical `prices_long` and names any stale B3/BCB/FRED Brazil rate ticker.
 
-**Updater behavior:** `python update_market_data.py --assets b3 bcb --lookback 10` respects the requested lookback, but expands automatically from the oldest canonical Brazil-rate date to heal gaps. BCB rates dual-write to `stock_prices_daily` and canonical `prices_long`; B3 DI data also syncs to `prices_long` when the B3 HTML parser returns usable rows.
+**Updater behavior:** `python update_market_data.py --assets b3 bcb --lookback 10` respects the requested lookback, but expands automatically from the oldest canonical Brazil-rate date to heal gaps. BCB rates dual-write to `stock_prices_daily` and canonical `prices_long`; B3 DI data syncs from the B3 public-data `TaxaSwap` file (`TS{YYMMDD}.ex_`, `T1PRE` / DIxPRE rows) after recursively unwrapping the nested zip/self-extracting payload.
 
 ## Backup Strategy
 
