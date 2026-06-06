@@ -19,6 +19,8 @@ except ImportError:
     NARROW_SYNC = False
 from fred_utils import download_from_fred
 
+DEFAULT_FRED_LOOKBACK_DAYS = 120
+
 # FRED economic indicators currently in database
 FRED_INDICATORS = {
     # Treasury yields (daily)
@@ -210,12 +212,14 @@ def sync_fred_wide_to_narrow(wide_updates, descriptions):
         print(f"  [Narrow] ERROR syncing wide FRED series: {e}")
         return False
 
-def update_fred_indicators(lookback_days=60, codes=None, update_legacy_wide=False):
+def update_fred_indicators(lookback_days=DEFAULT_FRED_LOOKBACK_DAYS, codes=None, update_legacy_wide=False):
     """
     Update FRED economic indicators.
 
     Args:
-        lookback_days: How many days back to check/update (default 60 for monthly data)
+        lookback_days: How many days back to check/update. Monthly FRED
+            observations are dated at month start, so the default must cover
+            more than two calendar months.
         codes: Optional iterable of FRED codes to update.
         update_legacy_wide: Also rebuild stock_prices_daily compatibility columns.
     """
@@ -459,8 +463,8 @@ if __name__ == "__main__":
     import argparse
 
     parser = argparse.ArgumentParser(description='Update FRED economic indicators')
-    parser.add_argument('--lookback', type=int, default=60,
-                       help='Days to look back for updates (default: 60 for monthly data)')
+    parser.add_argument('--lookback', type=int, default=DEFAULT_FRED_LOOKBACK_DAYS,
+                       help=f'Days to look back for updates (default: {DEFAULT_FRED_LOOKBACK_DAYS}, monthly-safe)')
     parser.add_argument('--codes', nargs='+',
                        help='Optional FRED codes to update, e.g. DGS5 DFII5 DFII10 DFII30')
     parser.add_argument('--skip-b3', action='store_true',

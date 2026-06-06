@@ -132,7 +132,7 @@ python download_fred_indicators.py --tier custom --categories treasury_yields la
 **Ongoing updates - keep data current**
 
 ```bash
-# Update all FRED indicators in database (default: last 60 days)
+# Update all FRED indicators in database (default: last 120 days)
 python update_fred_indicators.py
 
 # Update with custom lookback
@@ -251,7 +251,7 @@ This is expected. CPI, FEDFUNDS, PAYEMS only update monthly:
 - **FEDFUNDS**: First week of month
 - **PAYEMS**: First Friday of month
 
-Use `--lookback 60` to catch monthly releases.
+Use the default 120-day FRED lookback to catch monthly releases whose observation dates can sit more than 60 calendar days behind today's update date.
 
 ## Integration with Charting App
 

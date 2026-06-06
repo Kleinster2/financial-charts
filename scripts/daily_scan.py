@@ -43,7 +43,7 @@ def run_cmd(cmd, cwd=None):
 
 
 def update_market_data():
-    """Update all configured market data with a 5-day lookback."""
+    """Update all configured market data; FRED applies a monthly-safe lookback floor."""
     print("[1/6] Updating market data...")
     stdout, stderr, rc = run_cmd(
         "python update_market_data.py --lookback 5 --assets all"

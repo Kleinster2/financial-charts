@@ -21,7 +21,7 @@ The daily note is the durable copy, but the chat is the user-facing output. Ever
 
 Full screening logic and rationale: `docs/movers-screening.md`.
 
-1. `python scripts/daily_scan.py --output /tmp/daily_scan.json` — updates market data universally (`update_market_data.py --lookback 5 --assets all`), runs `quick_movers.py` with the three-trigger default (2.5σ / 2.0σ high-vol / 6% absolute), reports data freshness.
+1. `python scripts/daily_scan.py --output /tmp/daily_scan.json` — updates market data universally (`update_market_data.py --lookback 5 --assets all`; FRED indicators apply a monthly-safe lookback floor), runs `quick_movers.py` with the three-trigger default (2.5σ / 2.0σ high-vol / 6% absolute), reports data freshness.
 
 Run these three audit scripts in parallel with the sigma screen — they catch failure modes the sigma alone misses:
 

@@ -24,7 +24,7 @@ from cboe_iv_fetcher import CBOEImpliedVolatilityFetcher
 from fetch_b3_yield_curve import fetch_historical_curves, update_database as update_b3_database
 from update_fx_ny_close import get_fx_tickers_from_db, download_fx_at_ny_close, update_database as update_fx_database
 from fetch_bcb_rates import fetch_all_bcb_rates, update_database as update_bcb_database
-from update_fred_indicators import update_fred_indicators
+from update_fred_indicators import DEFAULT_FRED_LOOKBACK_DAYS, update_fred_indicators
 from update_indices_from_fred import update_indices_from_fred
 
 
@@ -234,14 +234,21 @@ def update_bcb_rates_data(verbose: bool = True):
         print("=" * 70)
 
 
-def update_fred_data(verbose: bool = True):
+def update_fred_data(verbose: bool = True, lookback_days: int | None = None):
     """Update FRED economic indicators (ECB rates, etc.)."""
     if verbose:
         print("\n" + "=" * 70)
         print("Updating FRED Economic Indicators")
         print("=" * 70)
 
-    update_fred_indicators(lookback_days=60)
+    effective_lookback = max(lookback_days or 0, DEFAULT_FRED_LOOKBACK_DAYS)
+    if verbose and lookback_days and effective_lookback != lookback_days:
+        print(
+            f"Using {effective_lookback}-day FRED lookback floor "
+            f"for monthly observations (requested {lookback_days})."
+        )
+
+    update_fred_indicators(lookback_days=effective_lookback)
 
     if verbose:
         print("=" * 70)
@@ -574,7 +581,7 @@ def run_update(assets_to_run: list, lookback_days: int = None, verbose: bool = T
         if "fred" in assets_to_run:
             if verbose:
                 print("\n[Orchestrator] Updating FRED economic indicators")
-            update_fred_data(verbose=verbose)
+            update_fred_data(verbose=verbose, lookback_days=lookback_days)
 
         # Run rate-futures (ZQ + SR3) updater if requested
         if "ratefutures" in assets_to_run:

@@ -208,7 +208,7 @@ Use the page navigation at the top of the app to switch between pages.
 
 These pages use the 31 FRED indicators you already downloaded. Daily updates via:
 ```bash
-python update_fred_indicators.py --lookback 60
+python update_fred_indicators.py --lookback 120
 ```
 
 All indicators will stay current automatically.
