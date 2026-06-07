@@ -82,7 +82,7 @@ ADR_TICKERS = [
 
 ETF_TICKERS = [
     # Core U.S. market benchmarks
-    "SPY", "RSP", "SPLG", "VTI", "QQQ", "DIA", "IWM",  # added SPLG for ALLW
+    "SPY", "RSP", "SPYM", "VTI", "QQQ", "DIA", "IWM",  # SPYM is the live successor to SPLG
     # U.S. style / factor ETFs
     "MDY", "IJR", "MTUM", "VLUE", "QUAL", "SPLV",
     # Sector ETFs (GICS)
@@ -1058,7 +1058,7 @@ EXCLUDED_TICKERS = [
     "FSR",       # Removed from static lists
     "RSX",       # VanEck Russia ETF — frozen / non-economic legacy series
     "IRBO",      # Renamed to ARTY on 2024-08-12 (official iShares fund docs)
-    "SPLG",      # Renamed to SPYM in 2025 (official State Street fund docs)
+    "SPLG",      # Legacy ticker; renamed to SPYM (official State Street fund docs)
     # Delisted / acquired / bankrupt (Mar 2026 cleanup)
     "PLL",       # Piedmont Lithium — delisted
     "K",         # Kellanova — acquired by Mars

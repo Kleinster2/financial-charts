@@ -127,8 +127,18 @@ def pick_backend():
     if SQLITE_DB.exists():
         try:
             conn = sqlite3.connect(str(SQLITE_DB))
-            r = conn.execute("SELECT MAX(date) FROM stock_prices_daily").fetchone()
-            sqlite_date = str(r[0])[:10] if r and r[0] else None
+            has_narrow = conn.execute(
+                "SELECT 1 FROM sqlite_master WHERE type='table' AND name='prices_long'"
+            ).fetchone() is not None
+            if has_narrow:
+                r = conn.execute(
+                    "SELECT MAX(substr(Date, 1, 10)) FROM prices_long WHERE Ticker = ?",
+                    (BENCHMARK,),
+                ).fetchone()
+                sqlite_date = str(r[0])[:10] if r and r[0] else None
+            if not sqlite_date:
+                r = conn.execute("SELECT MAX(date) FROM stock_prices_daily").fetchone()
+                sqlite_date = str(r[0])[:10] if r and r[0] else None
             conn.close()
         except Exception:
             pass
@@ -489,9 +499,18 @@ def main():
         conn = sqlite3.connect(str(SQLITE_DB)) if backend == "sqlite" else None
         if conn:
             try:
-                rows = conn.execute(
-                    f"SELECT [{BENCHMARK}] FROM stock_prices_daily ORDER BY date DESC LIMIT 2"
-                ).fetchall()
+                has_narrow = conn.execute(
+                    "SELECT 1 FROM sqlite_master WHERE type='table' AND name='prices_long'"
+                ).fetchone() is not None
+                if has_narrow:
+                    rows = conn.execute(
+                        "SELECT Close FROM prices_long WHERE Ticker = ? ORDER BY Date DESC LIMIT 2",
+                        (BENCHMARK,),
+                    ).fetchall()
+                else:
+                    rows = conn.execute(
+                        f"SELECT [{BENCHMARK}] FROM stock_prices_daily ORDER BY date DESC LIMIT 2"
+                    ).fetchall()
                 if len(rows) == 2 and rows[0][0] and rows[1][0]:
                     bench_return = (rows[0][0] - rows[1][0]) / rows[1][0] * 100
             except Exception:

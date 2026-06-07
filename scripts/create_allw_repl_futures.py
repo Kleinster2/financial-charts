@@ -8,7 +8,7 @@ The key insight: ALLW holds currency-unhedged international bond futures.
 Using BNDX (USD-hedged) misses the FX component entirely. This script uses:
 
   Equity:  STOXX50E + FTSE + AXJO + N225 indices (not VGK/EWJ)
-           Plus SPYM(SPLG), SPEM, GXC as before (actual ETF holdings)
+           Plus SPYM, SPEM, GXC as before (actual ETF holdings)
   Bonds:   IBGL_L (EUR govt bonds) + IGLT_L (UK gilts) + VGB_AX (AUS bonds)
            Converted to USD returns using FX pairs (unhedged, like ALLW)
            Plus ZN=F, ZB=F for US bonds (actual futures in our DB)
@@ -51,7 +51,7 @@ from create_allw_repl_daily import (
 # Equity: mix of actual ETF holdings + index proxies for futures
 # Sub-weights from daily snapshots (eq_us, eq_europe, eq_japan, eq_em, eq_china)
 EQUITY_MAP = {
-    'eq_us':     'SPLG',      # SPYM/SPLG — actual holding
+    'eq_us':     'SPYM',      # Live successor to SPLG; actual US equity holding
     'eq_europe': 'STOXX50E',  # EURO STOXX 50 index (was VGK)
     'eq_japan':  'N225',      # Nikkei 225 index (was EWJ, TOPIX unavailable)
     'eq_em':     'SPEM',      # actual holding
@@ -90,7 +90,7 @@ COMMOD_MAP = {
 
 # All tickers we need
 ALL_TICKERS = (
-    ['SPLG', 'SPEM', 'GXC']  # Equity ETFs (actual holdings)
+    ['SPYM', 'SPEM', 'GXC']  # Equity ETFs (actual holdings)
     + list(EUROPE_SUBS.keys())  # Equity indices
     + ['N225']  # Japan index
     + ['ZB=F', 'ZN=F']  # US bond futures
@@ -224,9 +224,9 @@ def build_futures_repl(dates, returns, unhedged_bonds, schedule, initial_price):
         r = 0.0
 
         # --- Equity ---
-        # US: SPLG
-        if 'SPLG' in returns:
-            r += eq_w * sub['eq_us'][i] * returns['SPLG'][i]
+        # US: SPYM
+        if 'SPYM' in returns:
+            r += eq_w * sub['eq_us'][i] * returns['SPYM'][i]
 
         # Europe: weighted blend of STOXX50E, FTSE, AXJO
         europe_r = 0.0

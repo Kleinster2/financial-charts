@@ -55,7 +55,7 @@ DEFAULT_BOND_SUBS = {'tlt': 0.306, 'ief': 0.204, 'bndx': 0.490}
 DEFAULT_COMMOD_SUBS = {'gld': 0.72, 'bcomtr': 0.28}
 
 TICKERS_4ETF = ['SPY', 'TLT', 'TIP', 'GLD']
-TICKERS_11ETF = ['SPLG', 'VGK', 'EWJ', 'SPEM', 'GXC', 'TLT', 'IEF', 'BNDX', 'TIP', 'GLD', 'BCOMTR']
+TICKERS_11ETF = ['SPYM', 'VGK', 'EWJ', 'SPEM', 'GXC', 'TLT', 'IEF', 'BNDX', 'TIP', 'GLD', 'BCOMTR']
 
 
 # ---------------------------------------------------------------------------
@@ -484,7 +484,7 @@ def build_11etf(dates, returns, schedule, initial_price):
             base_idx = i
             break
 
-    eq_map = [('SPLG', 'eq_us'), ('VGK', 'eq_europe'), ('EWJ', 'eq_japan'),
+    eq_map = [('SPYM', 'eq_us'), ('VGK', 'eq_europe'), ('EWJ', 'eq_japan'),
               ('SPEM', 'eq_em'), ('GXC', 'eq_china')]
     bond_map = [('TLT', 'bond_tlt'), ('IEF', 'bond_ief'), ('BNDX', 'bond_bndx')]
     commod_map = [('GLD', 'commod_gld'), ('BCOMTR', 'commod_bcomtr')]

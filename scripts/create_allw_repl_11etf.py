@@ -4,7 +4,7 @@ create_allw_repl_11etf.py
 
 11-proxy replication of ALLW matching actual geographic exposure.
 
-Equity (27.1%):  SPLG 8.6%, VGK 10.9%, EWJ 3.1%, SPEM 2.7%, GXC 1.8%
+Equity (27.1%):  SPYM 8.6%, VGK 10.9%, EWJ 3.1%, SPEM 2.7%, GXC 1.8%
 Bonds (42.9%):   BNDX 21.0%, TLT 13.1%, IEF 8.8%
 TIPS (21.5%):    TIP 21.5%
 Commodities (8.5%): GLD 6.1%, BCOMTR 2.4%
@@ -34,7 +34,7 @@ FINANCING_RATE = 0.048
 
 # Equity sub-weights (% of equity sleeve, from notional values)
 EQUITY_SUBS = {
-    'SPLG': 0.316,  # US large cap
+    'SPYM': 0.316,  # US large cap; live successor to SPLG
     'VGK':  0.401,  # Europe + UK + Australia equity futures
     'EWJ':  0.116,  # Japan (TOPIX)
     'SPEM': 0.100,  # EM

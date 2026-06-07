@@ -73,7 +73,7 @@ Equities dominate risk (40% vs 25% target). Commodities underweight (8.5% vs ~20
 | Holding | Notional | % of commodity sleeve |
 |---------|----------|----------------------|
 | Gold 100 oz futures (Apr 2026) | $106.2M | 72% |
-| Bloomberg Commodity TRS ([[Bloomberg Commodity Index|BCOMTR]]) | $42.3M | 28% |
+| Bloomberg Commodity TRS ([[Bloomberg Commodity Index\|BCOMTR]]) | $42.3M | 28% |
 
 The [[Bloomberg Commodity Index|BCOMTR]] swap grew from negligible ($0.4M in Dec 2025) to $42.3M by March 2026 — Bridgewater may be addressing the broad commodity gap.
 
@@ -95,7 +95,7 @@ All figures deleveraged. Leverage ramp-up: 0.78x at launch -> 1.71x at 1 year. E
 
 46 daily snapshots from SSGA disclosures reveal the granular evolution; selected points:
 
-| Date | NAV | Leverage | Risk (B/E/T/C) | Gold | [[Bloomberg Commodity Index|BCOMTR]] | BCOMTR % |
+| Date | NAV | Leverage | Risk (B/E/T/C) | Gold | [[Bloomberg Commodity Index\|BCOMTR]] | BCOMTR % |
 |------|-----|----------|-----------------|------|--------|----------|
 | Jan 8 | $678M | 1.68x | 35/35/15/15 | $73.6M | $3.7M | 5% |
 | Feb 3 | $761M | 1.76x | 34/40/15/11 | $84.9M | $13.6M | 14% |
@@ -149,7 +149,7 @@ Adding geographic ETF granularity still makes the result worse: [[BNDX]] underpe
 
 | ALLW holding | Notional | ETF proxy | Futures proxy | Key mismatch |
 |---|---|---|---|---|
-| SPDR S&P 500 (SPYM) | $151.7M | [[SPLG]] | SPLG | Same fund |
+| State Street S&P 500 (SPYM, formerly SPLG) | $151.7M | [[SPLG\|SPYM]] | SPYM | Same fund successor ticker |
 | SPDR Portfolio EM (SPEM) | $48.2M | [[SPEM]] | SPEM | Exact match |
 | SPDR S&P China (GXC) | $34.7M | [[GXC]] | GXC | Exact match |
 | EURO STOXX 50 futures | $105.4M | [[VGK]] | STOXX50E index | VGK = FTSE Developed Europe, not STOXX 50 |
@@ -163,7 +163,7 @@ Adding geographic ETF granularity still makes the result worse: [[BNDX]] underpe
 | Aust 10Y Bond futures | $104.7M | BNDX | VGB_AX + AUD/USD | Currency + index mismatch |
 | 22 individual TIPS (2033-2056) | $394M | [[TIP]] | TIP | ~11yr duration vs TIP ~7yr |
 | Gold 100oz futures | $108.7M | [[GLD]] | GC=F | GLD = physical trust; GC=F = actual futures |
-| [[Bloomberg Commodity Index|BCOMTR]] total return swap | $48.7M | BCOMTR | BCOMTR | Direct official total-return index now in `prices_long`; swap/index level vs ETF wrapper |
+| [[Bloomberg Commodity Index\|BCOMTR]] total return swap | $48.7M | BCOMTR | BCOMTR | Direct official total-return index now in `prices_long`; swap/index level vs ETF wrapper |
 | Money market + T-bills | $421M | *none* | *none* | ETF replication deploys all capital |
 
 The worst mismatches are the international bonds: $371M in currency-unhedged futures proxied by BNDX (USD-hedged). With EUR +5.9% and GBP +2.6% vs USD over the period, the hedging alone explains most of the 11-ETF underperformance vs 4-ETF.
@@ -174,7 +174,7 @@ ALLW deploys capital fundamentally differently than an ETF portfolio:
 
 | | ALLW | ETF replication |
 |---|---|---|
-| Capital in equity ETFs | ~21% (SPLG, SPEM, GXC) | 100% deployed in ETFs |
+| Capital in equity ETFs | ~21% (SPYM, SPEM, GXC) | 100% deployed in ETFs |
 | Capital in physical TIPS | ~35% (21 individual bonds, 2033-2055) | 21.5% in TIP ETF (~7yr duration) |
 | Cash/money market/T-bills | ~42.5% earning T-bill rate (~4.8%) | 0% |
 | Bond/commodity exposure | 100% via futures (no capital deployed) | 43% deployed in TLT/GLD |
@@ -230,7 +230,7 @@ The conclusion: ALLW is genuinely non-replicable at any granularity. Even using 
 
 ## Peer comparison
 
-| Feature | ALLW | [[RPAR ETF|RPAR]] | [[UPAR ETF|UPAR]] |
+| Feature | ALLW | [[RPAR ETF\|RPAR]] | [[UPAR ETF\|UPAR]] |
 |---------|------|------|------|
 | Expense | 0.85% | 0.50% | 0.65% |
 | Sub-adviser | [[Bridgewater]] | ARIS | ARIS |
