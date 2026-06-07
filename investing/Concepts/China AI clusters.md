@@ -218,4 +218,5 @@ Brute force compensation:
 - [[ByteDance]] — Stockpile strategy
 - [[Tencent]] — Multi-vendor approach
 - [[China power advantage]] — Enables brute force strategy
+- [[HBM]] — memory-bandwidth gap limiting domestic AI clusters
 - [[Export controls]] — Why domestic chips matter

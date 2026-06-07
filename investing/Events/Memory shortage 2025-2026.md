@@ -14,7 +14,7 @@ The victims are concrete and growing: IDC projects the worst smartphone decline 
 
 The supercycle framing is now consensus: [[Micron]] calls it the "most significant supply-demand disconnect in 25 years," [[Bank of America]] invokes the 1990s boom, and new fabs take 2-3 years to build. Pricing power is confirmed at the premium end. The question is no longer *whether* the shortage persists but *how long* — and every indicator says through 2027 at minimum.
 
-**Position:** Bullish memory makers ([[SK Hynix]], [[Samsung]], [[Micron]]), bearish consumer electronics OEMs without pricing power. Taiwan specialty names ([[Nanya Technology]], [[Winbond Electronics]]) are surprise beneficiaries as the Big Three exit commodity DRAM.
+Position: Bullish memory makers ([[SK Hynix]], [[Samsung]], [[Micron]]), bearish consumer electronics OEMs without pricing power. [[Taiwan]] specialty names ([[Nanya Technology]], [[Winbond Electronics]]) are surprise beneficiaries as the Big Three exit commodity DRAM.
 
 ---
 
@@ -55,13 +55,13 @@ AI demand for HBM is cannibalizing commodity memory supply. Structural, not cycl
 | Player | Why |
 |--------|-----|
 | [[SK Hynix]] | HBM leader + DRAM pricing power |
-| [[Samsung]] | Memory margins improve |
+| [[Samsung]] | [[Memory]] margins improve |
 | [[Micron]] | Same dynamics |
 | [[Nanya Technology]] | DDR4 pricing inversion, +851% 1yr |
 | [[Winbond Electronics]] | Dual NOR + DDR4 exposure, +648% 1yr |
 | [[Macronix]] | NOR flash shortage, +383% 1yr |
 
-Memory profits fund other bets (foundry, packaging). Taiwan specialty memory makers are the surprise beneficiaries — as Big Three exit commodity DRAM for [[HBM]], [[Nanya Technology]] and [[Winbond Electronics]] inherit DDR4 pricing power.
+[[Memory]] profits fund other bets (foundry, packaging). [[Taiwan]] specialty memory makers are the surprise beneficiaries — as Big Three exit commodity DRAM for [[HBM]], [[Nanya Technology]] and [[Winbond Electronics]] inherit DDR4 pricing power.
 
 ---
 
@@ -69,7 +69,7 @@ Memory profits fund other bets (foundry, packaging). Taiwan specialty memory mak
 
 | Player | Why |
 |--------|-----|
-| [[investing/Concepts/Consumer]] electronics OEMs | Higher BoM costs |
+| [[Consumer]] electronics OEMs | Higher BoM costs |
 | PC/smartphone makers | Price increases or spec downgrades |
 | End consumers | Pay more, get less |
 
@@ -95,7 +95,7 @@ Weak consumer electronics demand could ease shortage — but only partially. AI/
 Pricing:
 - [[TrendForce]]: DRAM prices +50-55% QoQ in Q4 2025
 - Samsung raised some chip prices 60%
-- [[investing/Concepts/Consumer]] electronics prices expected to rise 5-20%
+- [[Consumer]] electronics prices expected to rise 5-20%
 
 Capacity:
 - Samsung/SK Hynix 2026 orders already exceed capacity
@@ -113,7 +113,7 @@ OEM warnings:
 - Raspberry Pi: "painful" cost pressures, raised prices Dec 2025
 - Xiaomi: 2026 supply chain pressures "far greater than" 2025
 
-Analyst quote (Macquarie):
+Analyst quote ([[Macquarie]]):
 > "The market is crazy with buyers in panic as they struggle to secure enough memory no matter how much they are willing to pay."
 
 ---
@@ -130,7 +130,7 @@ Hard numbers:
 - DRAM ASP +20% q/q
 - CY26 HBM fully contracted (price AND volume)
 - CY26 industry bit shipment growth ~20% (supply constrained)
-- [[GM]] expanding: 56.8% → 68% guided
+- Gross margin expanding: 56.8% → 68% guided
 - HBM TAM: $35B (2025) → $100B (2028)
 
 This is as strong a confirmation as you'll get — direct from management.
@@ -140,7 +140,7 @@ This is as strong a confirmation as you'll get — direct from management.
 ## For [[Short TSMC long Korea]] thesis
 
 Bullish Korea:
-- Memory shortage = pricing power
+- [[Memory]] shortage = pricing power
 - SK Hynix and Samsung margins expand
 - Profits fund foundry/packaging expansion
 - [[Export controls]] add to supply constraint
@@ -165,15 +165,15 @@ OEM forecast revisions (Nov → Jan 2026):
 | OEM | Nov Forecast | Jan Forecast | Revision |
 |-----|--------------|--------------|----------|
 | [[Apple]] | -0.5% | -1% | -0.5pp |
-| Samsung | -0.5% | -2% | -1.5pp |
-| Xiaomi | 0% | -2% | -2pp |
+| [[Samsung]] | -0.5% | -2% | -1.5pp |
+| [[Xiaomi]] | 0% | -2% | -2pp |
 | [[Vivo]] | +1% | -1% | -2pp |
-| [[Oppo]] | +2% | -1% | -3pp |
+| [[OPPO]] | +2% | -1% | -3pp |
 | [[Honor]] | -2% | -4% | -2pp |
 | Others | +2% | -2% | -4pp |
 | Overall | +0.5% | -2.1% | -2.6pp |
 
-Takeaway: Others (-4pp) and [[Oppo]] (-3pp) hit hardest. Samsung revised more than [[Apple]] (-1.5pp vs -0.5pp) — less margin buffer than expected. [[Apple]] best positioned.
+Takeaway: Others (-4pp) and [[OPPO]] (-3pp) hit hardest. [[Samsung]] revised more than [[Apple]] (-1.5pp vs -0.5pp) — less margin buffer than expected. [[Apple]] best positioned.
 
 Key dynamics:
 - AI buildout causing producers to prioritize HBM over commodity DRAM
@@ -238,7 +238,7 @@ Despite expansion, shortage expected to persist through 2027 — capacity takes 
 | WSTS global semi | $975B (+26%) |
 | BoA global semi | $1T+ (+30%) |
 | [[IDC]] | "Unprecedented" shortage, may persist to 2027 |
-| [[Counterpoint Research]] | Memory prices +40% through Q2 2026 |
+| [[Counterpoint Research]] | [[Memory]] prices +40% through Q2 2026 |
 
 Nov 2025 monthly sales: $75.3B — all-time record (+29.8% YoY).
 
@@ -251,7 +251,7 @@ Direct from earnings call — memory shortage now affecting guidance:
 | Metric | Value |
 |--------|-------|
 | Q2 guidance | $10.2B-$11.0B (below $11B Street) |
-| Cause | Memory shortage constraining OEMs |
+| Cause | [[Memory]] shortage constraining OEMs |
 | Duration | "Can't predict if this continues for '27 or '28" |
 | China OEMs | Reducing build plans, cutting channel inventory |
 
@@ -269,7 +269,7 @@ The "China will flood the market with cheap memory" narrative is dead.
 |-------|---------|
 | CXMT dumping DDR4 at deep discounts | Denied by CXMT — market speculation |
 | Chinese DRAM will undercut Korea | Prices converging toward Korean levels |
-| YMTC NAND will be cheap alternative | Also not underpricing contract rates |
+| [[YMTC]] NAND will be cheap alternative | Also not underpricing contract rates |
 
 Why China can't be the cheap alternative:
 
@@ -277,8 +277,8 @@ Why China can't be the cheap alternative:
 |-----------|--------|
 | No EUV access | CXMT DDR5 dies are 40-50% larger than SK Hynix — higher cost per chip |
 | DUV workarounds | SAQP, aggressive binning, higher voltages — works but doesn't scale |
-| No ecosystem trust | Apple, HP, Dell won't buy unproven modules without extensive validation |
-| Regulatory walls | YMTC on Entity List (Dec 2022); CXMT flagged under Section 1260H |
+| No ecosystem trust | Apple, [[HP]], Dell won't buy unproven modules without extensive validation |
+| Regulatory walls | [[YMTC]] on Entity List (Dec 2022); CXMT flagged under Section 1260H |
 | Domestic demand absorbs supply | CXMT capacity serves China alone — no surplus for export |
 
 Strategic pivot: CXMT moving from DDR4 → DDR5/LPDDR5X production. Not trying to win on price — trying to serve China's domestic AI/datacenter buildout.
@@ -289,21 +289,21 @@ Sources: [DigiTimes](https://www.digitimes.com/news/a20260204PD210/market-dram-n
 
 ---
 
-## Bloomberg deep dive — "RAMmageddon" (Feb 15, 2026)
+## [[Bloomberg]] deep dive — "RAMmageddon" (Feb 15, 2026)
 
 Major industry-wide escalation — shortage spreading beyond smartphones into gaming, PCs, autos, networking:
 
 ![[bloomberg-nvidia-ram-per-generation.png]]
-*Each new [[NVIDIA]] AI chip requires as much memory as several powerful PCs. Source: Bloomberg, company specifications.*
+*Each new [[NVIDIA]] AI chip requires as much memory as several powerful PCs. Source: [[Bloomberg]], company specifications.*
 
 ![[bloomberg-memory-prices-parabolic.png]]
 *Contract cost per GB going parabolic — [[Bernstein]] called the ascent "parabolic." Source: Bernstein estimates, DRAMeXchange.*
 
 ![[bloomberg-memory-makers-market-cap.png]]
-*Three top memory makers ([[Samsung]], [[SK Hynix]], [[Micron]]) added >$1T in combined market cap since Aug 2024, reaching ~$1.8T. Source: Bloomberg.*
+*Three top memory makers ([[Samsung]], [[SK Hynix]], [[Micron]]) added >$1T in combined market cap since Aug 2024, reaching ~$1.8T. Source: [[Bloomberg]].*
 
 ![[bloomberg-hyperscaler-capex-2026.png]]
-*Combined hyperscaler capex (Meta, Alphabet, Amazon, Microsoft, Oracle) expected to top $650B in 2026 — up from ~$217B in 2024. Source: Bloomberg.*
+*Combined hyperscaler capex (Meta, Alphabet, Amazon, Microsoft, [[Oracle]]) expected to top $650B in 2026 — up from ~$217B in 2024. Source: [[Bloomberg]].*
 
 ### Price dynamics
 
@@ -319,16 +319,16 @@ Major industry-wide escalation — shortage spreading beyond smartphones into ga
 | Company | Warning |
 |---------|---------|
 | [[Tesla]] / [[Elon Musk]] | "We've got two choices: hit the chip wall or make a fab" — considering building own memory fab |
-| [[Apple]] / Tim Cook | Will compress iPhone margins |
+| [[Apple]] / [[Tim Cook]] | Will compress iPhone margins |
 | [[Micron]] | "Unprecedented" bottleneck |
 | [[Lenovo]] / Yang Yuanqing | "Structural imbalance... not simply a short-term fluctuation" — at least through rest of 2026 |
 | [[Cisco]] | Cited memory squeeze for weak profit outlook — worst share loss in 4 years |
 | [[Qualcomm]] | Warned of more fallout ahead |
-| [[Arm]] | Warned of more fallout ahead |
-| [[Arista Networks]] / Ullal | "Memory is now the new gold for the AI and automotive sector" |
+| [[Arm Holdings]] | Warned of more fallout ahead |
+| [[Arista Networks]] / Ullal | "[[Memory]] is now the new gold for the AI and automotive sector" |
 | [[Lam Research]] / Archer | "What is ahead of us between now and the end of this decade... will overwhelm all other sources of demand" |
 
-### Gaming console impact
+### [[Gaming]] console impact
 
 | Company | Impact |
 |---------|--------|
@@ -337,9 +337,9 @@ Major industry-wide escalation — shortage spreading beyond smartphones into ga
 
 ### Chinese OEM shipment cuts (additional)
 
-| Company | Action |
+| Company | Response |
 |---------|--------|
-| [[Oppo]] | Cutting 2026 forecast by up to 20% |
+| [[OPPO]] | Cutting 2026 forecast by up to 20% |
 | [[Xiaomi]] | Trimming shipment targets |
 | Transsion | Trimming shipment targets |
 
@@ -383,11 +383,11 @@ Source: [Bloomberg](https://www.bloomberg.com/news/articles/2026-02-15/rampant-a
 |--------|-------|
 | Global smartphone sales (pre-shortage) | ~1.4B/year |
 | Current level | ~1.1B |
-| SemiAnalysis 2026 projection | **~800M** |
-| SemiAnalysis 2027 projection | **500-600M** |
-| Source | SemiAnalysis analysts in Asia (Singapore, HK, Taiwan) tracking [[Xiaomi]], [[Oppo]] |
+| SemiAnalysis 2026 projection | ~800M |
+| SemiAnalysis 2027 projection | 500-600M |
+| Source | SemiAnalysis analysts in [[Asia]] ([[Singapore]], HK, [[Taiwan]]) tracking [[Xiaomi]], [[OPPO]] |
 
-Chinese OEMs ([[Xiaomi]], [[Oppo]]) cutting low-end and mid-range volumes by **half**. The decline is concentrated in low/mid-range — not high-end. [[Apple]] volumes won't fall as much, but the cheap end of the market is being destroyed.
+Chinese OEMs ([[Xiaomi]], [[OPPO]]) cutting low-end and mid-range volumes by half. The decline is concentrated in low/mid-range — not high-end. [[Apple]] volumes won't fall as much, but the cheap end of the market is being destroyed.
 
 ### iPhone BOM impact
 
@@ -395,9 +395,9 @@ Chinese OEMs ([[Xiaomi]], [[Oppo]]) cutting low-end and mid-range volumes by **h
 |-----------|-------------|-------------|----------|
 | DRAM (12GB) | ~$50 ($3-4/GB) | ~$150 ($12/GB) | +$100 |
 | NAND | Also rising | Also rising | +$50 est. |
-| **Total memory BOM increase** | — | — | **~$150** |
+| Total memory BOM increase | — | — | ~$150 |
 
-Apple either passes this to consumers or eats the margin. Patel: "I don't see Apple reducing their margin too much." Consumer likely pays $250 more for the next iPhone (some markup on the $150 cost increase).
+Apple either passes this to consumers or eats the margin. Patel: "I don't see Apple reducing their margin too much." [[Consumer]] likely pays $250 more for the next iPhone (some markup on the $150 cost increase).
 
 Apple has some lag protection (3-month to 1-year memory contracts) but will feel the full impact at the next iPhone release.
 
@@ -413,7 +413,7 @@ Of the ~$600B in hyperscaler CapEx in 2026, roughly a third — ~$200B — goes 
 
 ---
 
-## Apr 29, 2026 — Memory cost becomes explicit hyperscaler capex
+## Apr 29, 2026 — [[Memory]] cost becomes explicit hyperscaler capex
 
 The Apr 29 hyperscaler print night converted the memory shortage from a semiconductor-channel story into an explicit Big Tech capex line item:
 
@@ -438,26 +438,26 @@ That does not mean GPUs are being crowded out. [[Microsoft]]'s Q3 disclosure tha
 
 | Constraint | Patel framing |
 |---|---|
-| DRAM capacity growth ceiling | "Memory can only grow capacity, you know, low double digit percentages a year, right? 20s 30% a year" |
+| DRAM capacity growth ceiling | "[[Memory]] can only grow capacity, you know, low double digit percentages a year, right? 20s 30% a year" |
 | NAND | "A little bit less for NAND" |
 | Reaction lag | "Even though the demand signal was very strong at the end of 2025, the memory companies immediately sort of started reacting. None of that incremental capacity really gets here until the second that they've decided to do in addition to the typical 20 to 30%" |
 | Earliest true incremental supply | "Late 27 at best" — most incremental capacity arrives 2028 |
 
 ### Pricing thesis
 
-Patel: "[[DRAM]] will double or triple from here. People are like, 'Oh, the memory storage is overplayed. Everyone gets it.' And it's like, 'No, no, no. You don't get it.' DRAM will double or triple from here still because that's how much capacity is required and they have to steal capacity from somewhere else. And the only way to steal capacity from somewhere else in a in a capitalist economy is demand destruction via higher pricing. We're not like rationing stuff here."
+Patel: "[[Memory|DRAM]] will double or triple from here. People are like, 'Oh, the memory storage is overplayed. Everyone gets it.' And it's like, 'No, no, no. You don't get it.' DRAM will double or triple from here still because that's how much capacity is required and they have to steal capacity from somewhere else. And the only way to steal capacity from somewhere else in a in a capitalist economy is demand destruction via higher pricing. We're not like rationing stuff here."
 
-The mechanism is consistent with the [[#Supercycle framing (Jan 2026)|Bank of America]]'s 1990s-supercycle parallel and [[Micron]]'s "most significant disconnect in 25 years" framing — but Patel's specific call is sharper than current consensus, which has tilted toward "everyone gets it now." The vault treats the call as Patel's view, not market consensus, while noting that the supply-constraint math behind it is structural rather than speculative.
+The mechanism is consistent with Bank of America's 1990s-supercycle parallel above and [[Micron]]'s "most significant disconnect in 25 years" framing — but Patel's specific call is sharper than current consensus, which has tilted toward "everyone gets it now." The vault treats the call as Patel's view, not market consensus, while noting that the supply-constraint math behind it is structural rather than speculative.
 
-Implication for the [[#Korea supplier response (Jan 2026)|memory-maker beneficiary list]]: pricing power that was already attractive at current levels expands further if the call is correct, with a 2-year duration before incremental capacity caps it. [[SK Hynix]], [[Samsung]], [[Micron]] benefit; [[Memory shortage victims|smartphone OEMs and other commodity-DRAM consumers]] face additional cost shock.
+Implication for the memory-maker beneficiary list above: pricing power that was already attractive at current levels expands further if the call is correct, with a 2-year duration before incremental capacity caps it. [[SK Hynix]], [[Samsung]], [[Micron]] benefit; [[Memory shortage victims|smartphone OEMs and other commodity-DRAM consumers]] face additional cost shock.
 
 *Source: [[Dylan Patel]] on [[Invest Like the Best]] (Apr 23, 2026)*
 
 ---
 
-## Korea Investment Management Apr 28, 2026 — Memory third-boom thesis (PC → mobile → AI)
+## Korea Investment Management Apr 28, 2026 — [[Memory]] third-boom thesis (PC → mobile → AI)
 
-"Mr. Bain" (CEO, [[Korea Investment Management]]; described in the segment as "the father of Korean ETFs") on Bloomberg "The China Show" 4/28/2026 framed the current memory cycle as the third great boom for the asset class:
+"Mr. Bain" (CEO, [[Korea Investment Management]]; described in the segment as "the father of Korean ETFs") on [[Bloomberg]] "The China Show" 4/28/2026 framed the current memory cycle as the third great boom for the asset class:
 
 | Boom | Era | Driver |
 |---|---|---|
@@ -467,37 +467,37 @@ Implication for the [[#Korea supplier response (Jan 2026)|memory-maker beneficia
 
 The structural argument: each prior boom ran multiple years before incremental capacity rebalanced supply. The 2026 cycle's capacity constraint (per Patel: 20-30% annual ceiling on DRAM growth, 2028 earliest for true incremental supply) is consistent with the multi-year duration of the first two booms. Bain's framing reinforces the [[Dylan Patel]] / Bank of America / [[Micron]] convergent thesis from the Korean-investor perspective, which matters for cross-checks on supply-side discipline (Korean memory makers — [[SK Hynix]], [[Samsung]] — set the global supply curve).
 
-Bain's investment-product expression of the thesis: the [[ACE Global Semiconductor ETF]] (launched Nov 2022, currently trading ~71,000 KRW), holding [[SK Hynix]] / [[TSMC]] / [[Samsung]] / a foundry name at 20% each (80% combined) plus six tail names at 20% combined. ACE has returned ~6.1× since launch — roughly 2× the [[Philadelphia Semiconductor Index]] (SOX) over the same period. Bain picked SK Hynix over [[Samsung]] specifically on HBM positioning ("we selected something locally" because Samsung's HBM ramp lagged at the time of ETF rebalance, then partially recovered after Samsung qualified for HBM).
+Bain's investment-product expression of the thesis: the [[ACE Global Semiconductor ETF]] (launched Nov 2022, currently trading ~71,000 KRW), holding [[SK Hynix]] / [[TSMC]] / [[Samsung]] / a foundry name at 20% each (80% combined) plus six tail names at 20% combined. ACE has returned ~6.1× since launch — roughly 2× the [[PHLX Semiconductor|Philadelphia Semiconductor Index]] (SOX) over the same period. Bain picked SK Hynix over [[Samsung]] specifically on HBM positioning ("we selected something locally" because Samsung's HBM ramp lagged at the time of ETF rebalance, then partially recovered after Samsung qualified for HBM).
 
 Bain cautioned on the cyclicality risk: "No one knows when the oversupply will happen." Recommended approach: focus on the whole semiconductor value chain (memory + foundry + design + equipment) rather than memory pure-play exposure, to smooth the cycle's amplitude.
 
-*Source: Bloomberg "The China Show" 4/28/2026 broadcast — Korea Investment Management CEO interview.*
+*Source: [[Bloomberg]] "The China Show" 4/28/2026 broadcast — Korea Investment Management CEO interview.*
 
 ---
 
 ## BofA: TurboQuant sell-off "overdone" (Mar 28-31, 2026)
 
-Google's [[TurboQuant]] announcement (Mar 25) triggered a memory stock sell-off — [[Micron]] -3.9%, [[SanDisk]] -3.5%, [[Seagate]] down — dragging the Nasdaq into correction territory. [[Bank of America]] pushed back forcefully in client notes:
+[[Google]]'s [[TurboQuant]] announcement (Mar 25) triggered a memory stock sell-off — [[Micron]] -3.9%, [[SanDisk]] -3.5%, [[Seagate]] down — dragging the [[Nasdaq]] into correction territory. [[Bank of America]] pushed back forcefully in client notes:
 
-**BofA's counter-thesis:**
+BofA's counter-thesis:
 - Compression tech isn't new — [[NVIDIA]] had similar announcements in the past year
 - TurboQuant's underlying techniques were already known in the space
 - Drew direct parallel to the [[DeepSeek]] panic of early 2025 — "ultimately unfounded fears trumped fundamentals"
 - "AI capex remains the ultimate proof point of AI spend/demand, not efficiency measures"
 - AI spending tracking toward $1T by 2030 on "conservative" estimates
 
-**BofA semiconductor subsector ranking (most → least preferred):**
+BofA semiconductor subsector ranking (most → least preferred):
 
 | Rank | Subsector | Top picks |
 |------|-----------|-----------|
 | 1 | AI Computing | [[NVIDIA]], [[Broadcom]], [[AMD]] |
 | 2 | Semicap Equipment | [[Lam Research]], [[Applied Materials]], [[MKS Instruments\|MKS]] |
 | 3 | AI Networking | [[Marvell]], [[Credo Technology Group\|Credo]] |
-| 4 | Memory | [[Micron]] |
+| 4 | [[Memory]] | [[Micron]] |
 
-Memory is #4 but still "top" — BofA flagged [[Micron]] specifically as trading at low end of historical valuation, with their price target implying 35%+ upside from current levels.
+[[Memory]] is #4 but still "top" — BofA flagged [[Micron]] specifically as trading at low end of historical valuation, with their price target implying 35%+ upside from current levels.
 
-**Separately, BofA raised WFE estimates** after strong semicap earnings season:
+Separately, BofA raised [[WFE]] estimates after strong semicap earnings season:
 - [[Lam Research]]: guided +23% YoY sales growth in 2026
 - [[KLA]]: projected high-teens YoY sales growth
 - [[Applied Materials]]: forecast +20% YoY systems growth
@@ -527,11 +527,11 @@ QoQ pricing moves:
 TrendForce forecast revisions since January 2026:
 - Q1 DRAM: originally +60% QoQ → now +90%+
 - Q1 NAND: originally +35% QoQ → now +55%+
-- 2026 total memory market growth: revised from 130% → **200%+**
+- 2026 total memory market growth: revised from 130% → 200%+
 
 Micron Q2 FY2026 guidance (Mar-May): total revenue +260% YoY.
 
-### The Strait of Hormuz analogy
+### The [[Strait of Hormuz]] analogy
 
 TechStock01 comparison: "It's like closing down the Hormuz strait. Supply declines 20%. Price doubles. Demand must adjust — demand has to decline by 20% as there is 20% less supply." DRAM price has doubled in one year. Sharp hikes lead to demand destruction — IDC and others cutting PC, smartphone, consumer electronics forecasts. Cheaper devices are being priced out of memory.
 
@@ -539,13 +539,13 @@ TechStock01 comparison: "It's like closing down the Hormuz strait. Supply declin
 
 Three big questions about whether memory's economics are permanently changing:
 
-**1. Is memory still a commodity?** HBM is performance-sensitive with meaningful differences between suppliers — plus qualifications. HBM logic base die customization starts in 2027. The era of pure commodity may be ending.
+1. Is memory still a commodity? HBM is performance-sensitive with meaningful differences between suppliers — plus qualifications. HBM logic base die customization starts in 2027. The era of pure commodity may be ending.
 
-**2. Has the spot market died?** ~90% of PC/smartphone/server memory now sold on monthly contracts (vs. historically large spot volumes). HBM is entirely on long-term agreements (LTAs) with guaranteed volumes and prices. Co-designed by [[NVIDIA]] and [[SK Hynix]] — shared IP, exclusivities, "secrets." HBM is becoming a "foundry" product like [[TSMC]].
+2. Has the spot market died? ~90% of PC/smartphone/server memory now sold on monthly contracts (vs. historically large spot volumes). HBM is entirely on long-term agreements (LTAs) with guaranteed volumes and prices. Co-designed by [[NVIDIA]] and [[SK Hynix]] — shared IP, exclusivities, "secrets." HBM is becoming a "foundry" product like [[TSMC]].
 
-**3. Should memory stocks re-rate?** If HBM delivers lower volatility, higher visibility, high switching costs, and pricing power, the case for TSMC-like multiples (~20x EPS) strengthens. Memory still trades at cyclical commodity discounts despite structural evidence of change.
+3. Should memory stocks re-rate? If HBM delivers lower volatility, higher visibility, high switching costs, and pricing power, the case for TSMC-like multiples (~20x EPS) strengthens. [[Memory]] still trades at cyclical commodity discounts despite structural evidence of change.
 
-*Source: TechStock01 Substack (April 6, 2026)*
+*Source: TechStock01 [[Substack]] (April 6, 2026)*
 
 ---
 
@@ -556,16 +556,16 @@ Three big questions about whether memory's economics are permanently changing:
 | Metric | Q1 2026 | vs Q1 2025 |
 |--------|---------|------------|
 | Revenue | KRW 133T (~$100B) | — |
-| Operating profit | KRW 57.2T (~$43B) | **8x YoY** |
-| LSEG consensus (OP) | KRW 40.6T | Beat by 41% |
-| HBM revenue | — | **Tripled YoY** |
+| Operating profit | KRW 57.2T (~$43B) | 8x YoY |
+| [[LSEG]] consensus (OP) | KRW 40.6T | Beat by 41% |
+| HBM revenue | — | Tripled YoY |
 | Stock reaction | +5% (Korea Exchange) | — |
 
 The DS (Device Solutions) division led, powered by [[HBM|HBM3E]] and HBM4 sales to [[NVIDIA]] and other AI accelerator customers. This is the highest quarterly operating profit in Samsung's history, eclipsing the Q3 2018 memory peak (KRW 17.6T).
 
-Helium supply risk: the [[2026 Strait of Hormuz crisis|Iran conflict]] has disrupted shipments of materials vital to semiconductor manufacturing, including helium. Samsung and [[SK Hynix]] face potential manufacturing disruption if the conflict extends. Helium is critical for cooling during advanced chip fabrication.
+[[Helium]] supply risk: the [[2026 Strait of Hormuz crisis|Iran conflict]] has disrupted shipments of materials vital to semiconductor manufacturing, including helium. Samsung and [[SK Hynix]] face potential manufacturing disruption if the conflict extends. [[Helium]] is critical for cooling during advanced chip fabrication.
 
-*Sources: CNBC, SamMobile, Bloomberg (Apr 7, 2026)*
+*Sources: [[CNBC]], SamMobile, [[Bloomberg]] (Apr 7, 2026)*
 
 ---
 
@@ -578,8 +578,11 @@ Helium supply risk: the [[2026 Strait of Hormuz crisis|Iran conflict]] has disru
 - [[Micron]] — beneficiary (same dynamics)
 - [[Qualcomm]] — victim (Q1 FY2026 guidance cut, OEMs cutting builds)
 - [[Export controls]] — driver ([[China]] fabs constrained)
+- [[Memory]] — parent industry hub
 - [[Memory shortage victims]] — losers (OEMs, consumers)
-- [[Nanya Technology]] — beneficiary (DDR4 pricing inversion, Taiwan DRAM)
+- [[US Memory]] — US memory-cycle trading sleeve
+- [[Korea Memory]] — Korean HBM-leadership micro-cluster
+- [[Nanya Technology]] — beneficiary (DDR4 pricing inversion, [[Taiwan]] DRAM)
 - [[Winbond Electronics]] — beneficiary (dual NOR + DDR4 exposure)
 - [[Macronix]] — beneficiary (NOR flash shortage)
 - [[HBM]] — cause (HBM cannibalizes commodity DRAM)
@@ -589,4 +592,4 @@ Helium supply risk: the [[2026 Strait of Hormuz crisis|Iran conflict]] has disru
 - [[Cisco]] — victim (weak outlook, worst share loss in 4 years)
 - [[Lam Research]] — equipment supplier (demand "will overwhelm all other sources")
 - [[Arista Networks]] — networking (memory is "the new gold")
-- [[Arm]] — warning of fallout
+- [[Arm Holdings|Arm]] — warning of fallout

@@ -274,5 +274,6 @@ The 3 Rubin variants + networking chips make standalone competition nearly impos
 - [[Groq]] — Decode-optimized, NVIDIA licensed
 - [[Cerebras]] — Last independent SRAM player
 - [[NVIDIA]] — Platform consolidator
+- [[HBM]] — off-chip bandwidth layer that constrains decode on GPU systems
 - [[Agentic AI]] — Decode-heavy use case
 - [[SambaNova]] — Acquired by [[Intel]]

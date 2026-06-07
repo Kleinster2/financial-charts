@@ -163,6 +163,7 @@ At frontier scale, storage becomes THE limiting factor, not compute.
 - [[NVIDIA]] — GPU maker, certification authority
 
 ### Adjacent concepts
+- [[Memory]] — parent memory sector linking NAND/SSD supply to AI storage
 - [[Power constraints]] — another AI infrastructure bottleneck
 - [[Water constraints]] — cooling bottleneck
 

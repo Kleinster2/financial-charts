@@ -126,6 +126,7 @@ Foundry execution risk = the probability that a fab fails to deliver promised ca
 - [[TSMC]] — low risk (trades speed for predictability)
 - [[Samsung]] — high risk (accepts risk for positioning)
 - [[Intel Foundry Services]] — very high risk (unproven external foundry)
+- [[CHIPS Act]] — subsidy layer that improves project economics but does not remove execution risk
 - [[Samsung Taylor pivot]] — example (midstream change)
 - [[Yield as competitive moat]] — related concept
 - [[Why Samsung's aggression may be rational]] — context

@@ -5,15 +5,20 @@ aliases: [Memory sector, Memory chips, DRAM, NAND]
 
 # Memory
 
-Semiconductor memory — DRAM for active compute, NAND for storage. Cyclical but structurally transformed by AI/HBM demand.
+Semiconductor memory — DRAM for active compute, NAND for storage. Cyclical but structurally transformed by AI/[[HBM]] demand.
+
+> [!info] Industry overview
+> [[Memory]] is the parent industry hub, not one tradeable basket. The validated tradeable sleeves are [[US Memory]] and [[Korea Memory]].
+
+Chart data not applicable for the parent [[Memory]] hub; performance charts live in the validated child sleeves, [[US Memory]] and [[Korea Memory]].
 
 ---
 
 ## Industry structure
 
-### Market share (Q3 2025, TrendForce)
+### Market share (Q3 2025, [[TrendForce]])
 
-**DRAM:**
+DRAM:
 
 | Rank | Company | Share |
 |------|---------|-------|
@@ -21,7 +26,7 @@ Semiconductor memory — DRAM for active compute, NAND for storage. Cyclical but
 | 2 | [[SK Hynix]] | ~35% |
 | 3 | [[Micron]] | ~25% |
 
-**NAND:**
+NAND:
 
 | Rank | Company | Share |
 |------|---------|-------|
@@ -31,13 +36,13 @@ Semiconductor memory — DRAM for active compute, NAND for storage. Cyclical but
 | 4 | [[Micron]] | ~13% |
 | 5 | [[SanDisk]] | 12.4% |
 
-**HBM (High Bandwidth Memory):**
+HBM (High Bandwidth Memory):
 
 | Rank | Company | Notes |
 |------|---------|-------|
-| 1 | [[SK Hynix]] | Clear leader, NVIDIA preferred |
+| 1 | [[SK Hynix]] | Clear leader, [[NVIDIA]] preferred |
 | 2 | [[Samsung]] | Catching up |
-| 3 | [[Micron]] | Ramping, NVIDIA qualified |
+| 3 | [[Micron]] | Ramping, [[NVIDIA]] qualified |
 
 ---
 
@@ -45,11 +50,11 @@ Semiconductor memory — DRAM for active compute, NAND for storage. Cyclical but
 
 | Type | Use case | Key metric |
 |------|----------|------------|
-| **DDR5** | PC, server RAM | Speed, capacity |
-| **LPDDR5** | Mobile, laptop | Power efficiency |
-| **[[HBM]]** | AI accelerators | Bandwidth (TB/s) |
-| **Enterprise SSD** | Data centers | IOPS, endurance |
-| **Consumer SSD** | PCs, gaming | $/GB |
+| DDR5 | PC, server RAM | Speed, capacity |
+| LPDDR5 | Mobile, laptop | Power efficiency |
+| [[HBM]] | AI accelerators | Bandwidth (TB/s) |
+| Enterprise SSD | Data centers | IOPS, endurance |
+| [[Consumer]] SSD | PCs, gaming | $/GB |
 
 ---
 
@@ -57,7 +62,7 @@ Semiconductor memory — DRAM for active compute, NAND for storage. Cyclical but
 
 ### [[Memory shortage 2025-2026]]
 
-| Signal | Evidence |
+| [[Signal]] | Evidence |
 |--------|----------|
 | Supply cuts | All majors cut production 2H25 |
 | Pricing power | Samsung mulling 20-30% price hikes |
@@ -77,7 +82,7 @@ Semiconductor memory — DRAM for active compute, NAND for storage. Cyclical but
 
 ## Sector economics
 
-| Metric | DRAM | NAND | HBM |
+| Metric | DRAM | NAND | [[HBM]] |
 |--------|------|------|-----|
 | Gross margin (cycle avg) | 40-50% | 30-40% | 50-60%+ |
 | CapEx intensity | High | High | Very high |
@@ -88,12 +93,12 @@ Semiconductor memory — DRAM for active compute, NAND for storage. Cyclical but
 
 ## Geographic concentration
 
-| Segment | Location | Risk |
+| Segment type | Location | Risk |
 |---------|----------|------|
 | DRAM | Korea (75%+) | Moderate |
-| NAND | Korea + Japan | Moderate |
-| HBM | Korea (95%+) | High |
-| China (CXMT, YMTC) | Domestic | Rising, [[Export controls]] limited |
+| NAND | Korea + [[Japan]] | Moderate |
+| [[HBM]] | Korea (95%+) | High |
+| [[China]] ([[ChangXin Memory]], [[YMTC]]) | Domestic | Rising, [[Export controls]] limited |
 
 ---
 
@@ -114,26 +119,38 @@ Semiconductor memory — DRAM for active compute, NAND for storage. Cyclical but
 - [[Micron]] — \#3 DRAM, \#4 NAND, \#3 HBM
 
 ### NAND specialists
-- [[Kioxia]] — \#3 NAND, Japan-based, [[SanDisk]] JV
+- [[Kioxia]] — \#3 NAND, [[Japan]]-based, [[SanDisk]] JV
 - [[SanDisk]] — \#5 NAND, pure-play post-WDC spinoff
 
-### China challengers
-- [[CXMT]] — DRAM, catching up
-- YMTC — NAND, targeting 15% share by late 2026
+### [[China]] challengers
+- [[ChangXin Memory|CXMT]] — DRAM, catching up
+- [[YMTC]] — NAND, targeting 15% share by late 2026
+
+---
+
+## Correlation structure
+
+| Metric | Value | Interpretation |
+|--------|-------|----------------|
+| Avg correlation | 0.696 / 0.756 | [[US Memory]] is a partial/validated sleeve; [[Korea Memory]] is a validated micro-cluster |
+| [[US Memory]] | 0.696 intra-correlation; PC1 79.72% | Real US memory sleeve, but broad semi/ETF beta enters at loose dendrogram thresholds |
+| [[Korea Memory]] | 0.756 pair correlation; PC1 87.82% | Cleaner two-name HBM-leadership micro-cluster |
+| Cross-region | 0.094-0.240 | US and Korea memory exposures are weakly linked and not interchangeable |
+| Period | 1Y matched sample through 2026-05-07 | Cluster methodology used in the child sleeve notes |
 
 ---
 
 ## Geographic bifurcation
 
-**Correlation analysis reveals two distinct trading clusters:**
+Correlation analysis reveals two distinct trading clusters:
 
 | Cluster | Avg Correlation | Members |
 |---------|-----------------|---------|
-| [[US Memory]] | 0.50 | [[Micron]], [[SanDisk]], [[Western Digital]] |
-| [[Korea Memory]] | 0.56 | [[Samsung]], [[SK Hynix]] |
-| Cross-region | **0.23** (weak) | US vs Korea |
+| [[US Memory]] | 0.696 | [[Micron]], [[SanDisk]], [[Western Digital]] |
+| [[Korea Memory]] | 0.756 | [[Samsung]], [[SK Hynix]] |
+| Cross-region | 0.23 (weak) | US vs Korea |
 
-Korean memory stocks move with Korean market/won, not US memory peers. For portfolio construction, these are **separate exposures**.
+Korean memory stocks move with Korean market/won, not US memory peers. For portfolio construction, these are separate exposures.
 
 ---
 
@@ -143,8 +160,8 @@ Korean memory stocks move with Korean market/won, not US memory peers. For portf
 
 | Sub-sector | Correlation | Key actors | Characteristics |
 |------------|-------------|------------|-----------------|
-| [[US Memory]] | 0.50 | [[Micron]], [[SanDisk]], [[Western Digital]] | CHIPS Act, USD, HBM \#3 |
-| [[Korea Memory]] | 0.56 | [[Samsung]], [[SK Hynix]] | HBM dominant, KRW, China risk |
+| [[US Memory]] | 0.50 | [[Micron]], [[SanDisk]], [[Western Digital]] | [[CHIPS Act]], USD, HBM \#3 |
+| [[Korea Memory]] | 0.56 | [[Samsung]], [[SK Hynix]] | HBM dominant, KRW, [[China]] risk |
 
 ### By product
 
@@ -164,13 +181,17 @@ Korean memory stocks move with Korean market/won, not US memory peers. For portf
 - [[Memory shortage 2025-2026]] — current cycle
 - [[HBM]] — premium product driving margins
 - [[AI storage bottleneck]] — demand driver for NAND
-- [[Export controls]] — China restrictions
+- [[Export controls]] — [[China]] restrictions
+
+### Validated clusters
+- [[US Memory]] — US memory-cycle sleeve
+- [[Korea Memory]] — Korean HBM-leadership micro-cluster
 
 ### Key actors
 - [[SK Hynix]] — HBM leader
 - [[Samsung]] — scale leader
 - [[Micron]] — US champion
 - [[SanDisk]] — NAND pure-play
-- [[Kioxia]] — Japan NAND
+- [[Kioxia]] — [[Japan]] NAND
 
 *Created 2026-01-30*
