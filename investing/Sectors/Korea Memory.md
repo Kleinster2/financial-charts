@@ -5,7 +5,10 @@ aliases: [Korean memory]
 
 # Korea Memory
 
-Korean memory giants. Trades as a distinct cluster (0.56 correlation) separate from US Memory. Dominates HBM.
+> [!success] Cluster status: validated micro-cluster (Jun 2026)
+> Pair correlation 0.756, PC1 87.82%, random-basket p = 0.006, threshold-stable width 0.45. [[Samsung]] / [[SK Hynix]] form a clean two-name [[Memory|memory]] pair at distance 0.244, with strong separation from [[US Memory]], [[EWY]], and semiconductor ETFs.
+
+Korean [[Memory|memory]] giants. Trades as a distinct micro-cluster separate from [[US Memory]]. Dominates [[HBM]].
 
 ![[korea-memory-sector-chart.png]]
 *SK Hynix outperforming Samsung — HBM leadership driving divergence. Both trade distinctly from US memory peers.*
@@ -30,22 +33,72 @@ Korean memory giants. Trades as a distinct cluster (0.56 correlation) separate f
 | vs [[US Memory]] | 0.09-0.21 | Weak (separate cluster) |
 | Period | 2024-01 to present | |
 
-### Matched-methodology re-run (May 2026)
+## Cluster validation
 
-Run via `scripts/cluster_configs/korea_memory.yaml` with parameters matched to other vault cohorts (1Y window through 2026-05-07, threshold 0.5). The Samsung-SK Hynix pair has tightened materially:
+Run via `scripts/cluster_configs/korea_memory.yaml` with parameters matched to other vault cohorts (1Y window through 2026-05-07, threshold 0.5; refreshed diagnostic files dated Jun. 7 2026). The Samsung-SK Hynix pair is a validated micro-cluster: the N=2 structure makes advanced sub-cluster diagnostics less meaningful than in larger cohorts, but the boundary result is clean and robust.
+
+![[korea-memory-cluster-20260607-correlation-1y.png]]
+*1Y correlation heatmap: Samsung / SK Hynix are tight internally and weakly correlated with US memory, EWY, and broad semiconductor ETFs.*
+
+![[korea-memory-cluster-20260607-dendrogram-1y.png]]
+*Dendrogram: Samsung and SK Hynix form their own branch at distance 0.244 and stay uncontaminated across the threshold scan.*
+
+![[korea-memory-cluster-20260607-pca-1y.png]]
+*PCA diagnostic: PC1 explains 87.82% of standardized daily-return variance; at N=2 this is the pair correlation expressed as a common factor.*
+
+![[korea-memory-cluster-20260607-rolling-tightness-90d.png]]
+*Rolling tightness: latest 90-day avg correlation is 0.862 and PC1 is 93.1%, confirming a sharply strengthening pair.*
+
+### Headline diagnostics
 
 | Metric | Value (1Y matched) |
 |---|---|
 | Pair correlation (Samsung-SK Hynix) | 0.756 |
 | PC1 explained variance | 87.82% (trivially high at N=2) |
 | vs [[US Memory]] cohort | 0.094 (cluster intra-advantage +0.66) |
-| Verdict | Validated as pair |
+| Random-basket p-value | 0.006 |
+| Threshold-stable width | 0.45 (robust) |
+| Verdict | Validated micro-cluster |
 
 The pair-only N=2 structure means PC2/PC3 analysis isn't informative (PCA at N=2 is just the bivariate correlation). The 0.756 reading is meaningful directionally — Samsung and SK Hynix have decoupled materially from US memory peers and now trade as a tight 2-name HBM-leadership pair. See [[Vault cluster taxonomy]] for cross-cohort context.
 
+### Join distance topology
+
+Candidate-only average-linkage topology, with distance measured as `1-|corr|`:
+
+| Step | Left | Right | Distance (1-\|corr\|) | Members |
+|---|---|---|---:|---|
+| 1 | [[Samsung\|005930.KS]] | [[SK Hynix\|000660.KS]] | 0.244 | 005930.KS + 000660.KS |
+
+Topology and PC1-mimic composition point to the same structure: a two-name HBM-leadership pair, not a broader Korea-equity or semiconductor-ETF branch.
+
+### PC1 index weights
+
+| Ticker | PC1 loading | Loading weight | Ann vol | Raw PC1-mimic weight |
+|---|---:|---:|---:|---:|
+| [[Samsung\|005930.KS]] | 0.707 | 50.00% | 57.92% | 55.21% |
+| [[SK Hynix\|000660.KS]] | 0.707 | 50.00% | 71.40% | 44.79% |
+
+PC1 loading weights are mechanically equal at N=2. Raw PC1-mimic weight tilts toward Samsung because lower realized volatility requires more Samsung notional to replicate the standardized pair factor.
+
+### Historical tightness evolution
+
+| Year | Avg corr | PC1 | Final join distance |
+|---|---:|---:|---:|
+| 2020 | 0.654 | 82.7% | 0.346 |
+| 2021 | 0.657 | 82.9% | 0.343 |
+| 2022 | 0.729 | 86.5% | 0.271 |
+| 2023 | 0.653 | 82.6% | 0.347 |
+| 2024 | 0.517 | 75.8% | 0.483 |
+| 2025 | 0.433 | 71.6% | 0.567 |
+| 2026 | 0.801 | 90.0% | 0.199 |
+| Latest 90D | 0.862 | 93.1% | 0.138 |
+
+Historical read: structurally durable and strengthening. The pair weakened in 2024-2025 as Samsung lagged SK Hynix's HBM execution, then snapped tighter in 2026 as both names became pulled into the same HBM scarcity / Korea macro-upgrade factor.
+
 ### Stability across windows — TIGHTENING
 
-| Window | Obs | Pair corr | PC1 | Vs SPY | Gap |
+| Window | Obs | Pair corr | PC1 | Vs SPY | Intra-SPY gap |
 |---|---|---|---|---|---|
 | YTD 2026 | 75 | 0.861 | 93.3% | -0.048 | +0.909 |
 | 1Y | 116 | 0.757 | 88.4% | -0.037 | +0.793 |
@@ -134,6 +187,14 @@ Why separate from US Memory:
 - Correlation data confirms distinct trading behavior
 
 The [[Short TSMC long Korea]] thesis captures this — Korea memory is a distinct geographic/sector bet.
+
+### Jun. 5 2026 global memory selloff
+
+FT's Jun. 5 [[Nasdaq semiconductor selloff June 2026]] linked the US chip drawdown to Korea memory as well: SK Hynix fell 10% and Samsung Electronics fell 6% in the article's reported tape. The local vault database did not have Jun. 5 Korea closes available during ingestion, so those figures remain FT-attributed rather than locally verified.
+
+The point for this note is transmission. The same HBM scarcity that made Korea Memory a macro-recognized growth engine also makes it part of the global AI-duration trade when US rates reprice higher and investors question the near-term AI-capex financing window.
+
+*Source: [FT](https://www.ft.com/content/2929bbd3-1f71-4424-a577-f016c3c65603), Jun. 5 2026.*
 
 ---
 

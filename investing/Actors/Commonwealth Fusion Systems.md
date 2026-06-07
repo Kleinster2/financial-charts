@@ -134,6 +134,7 @@ If SPARC works, ARC follows.
 
 ## Related
 
+- [[HOF Capital]] — portfolio investor / HOF frontier-energy exposure
 - [[Helion Energy]] — Competitor (different approach)
 - [[TAE Technologies]] — Competitor
 - [[EnergyX]] — Supplier (Li-6 for tritium breeding)

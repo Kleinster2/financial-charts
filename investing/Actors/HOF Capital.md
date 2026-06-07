@@ -55,9 +55,9 @@ For the vault, HOF belongs in the same mental bucket as private-capital firms wh
 
 | Founder | Who he is | Why it matters for HOF |
 |---------|-----------|------------------------|
-| [[Hisham Elhaddad]] | Co-founder and managing partner; [[Boston University]] electrical/electronics engineering background; HOF's firm-building, capital-formation, and frontier-tech lead. | He is the main institutional-scaling figure: HOF says he helped take the platform from inception to over $10B AUM and led investments in [[Anthropic]], [[SpaceX]], [[Crusoe Energy]], [[Commonwealth Fusion Systems]], [[xAI]], [[Kraken]], [[OpenAI]], [[UiPath]], and Varda. |
+| [[Hisham Elhaddad]] | Co-founder and managing partner; [[Boston University]] electrical/electronics engineering background; HOF's firm-building, capital-formation, and frontier-tech lead. | He is the main institutional-scaling figure: HOF says he helped take the platform from inception to over $10B AUM and led investments in [[Anthropic]], [[SpaceX]], [[Crusoe Energy]], [[Commonwealth Fusion Systems]], [[xAI]], [[Kraken]], [[OpenAI]], [[UiPath]], and [[Varda Space Industries]]. |
 | [[Onsi Sawiris]] | Co-founder and partner; [[MIT]] mechanical engineering background; former TMT M&A at [[Arma Partners]]; board roles include [[Orascom Financial Holding]]. | He is the clearest bridge from HOF into the Sawiris/Orascom operating network and the firm's LP-network commercialization pitch. HOF says he leads portfolio acceleration and helps founders find commercial traction through LP synergies. |
-| [[Fady Yacoub]] | Co-founder and partner; [[University of Southern California]] business/psychology background; prior roles at [[Digital World Capital]] and [[Switch]]. | He is the software/AI and legacy-industry-transformation investor; HOF cites his work in [[Anthropic]], [[SoFi]], [[Klarna]], [[UiPath]], Epic Games, and Extropic. |
+| [[Fady Yacoub]] | Co-founder and partner; [[University of Southern California]] business/psychology background; prior roles at [[Digital World Capital]] and [[Switch]]. | He is the software/AI and legacy-industry-transformation investor; HOF cites his work in [[Anthropic]], [[SoFi]], [[Klarna]], [[UiPath]], [[Epic Games]], and [[Extropic]]. |
 
 ## Strategy
 
@@ -83,6 +83,9 @@ For the vault, HOF belongs in the same mental bucket as private-capital firms wh
 | [[UiPath]] | Official HOF founder bios cite the investment. | Public enterprise automation exit / mark validation. |
 | [[OpenAI]] | HOF portfolio page / public materials cite the investment. | Frontier AI private-market access. |
 | [[Neuralink]] | HOF portfolio page cites the investment. | Neurotechnology / Musk-stack optionality. |
+| [[Varda Space Industries]] | HOF portfolio materials cite the investment. | Space manufacturing plus hypersonic reentry optionality. |
+| [[Epic Games]] | HOF founder/portfolio materials cite the investment. | [[Gaming]] engine, [[Fortnite]], and creator-platform exposure. |
+| [[Extropic]] | HOF portfolio page cites the investment. | [[Thermodynamic computing]] / post-GPU AI hardware option. |
 
 ## Fund and regulatory markers
 
@@ -127,3 +130,6 @@ For the vault, HOF belongs in the same mental bucket as private-capital firms wh
 - [[Commonwealth Fusion Systems]] - portfolio reference
 - [[Crusoe Energy]] - portfolio reference
 - [[xAI]] - portfolio reference
+- [[Varda Space Industries]] - portfolio reference
+- [[Epic Games]] - portfolio reference
+- [[Extropic]] - portfolio reference

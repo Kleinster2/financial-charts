@@ -156,6 +156,7 @@ This validates Crusoe's position as a landlord/developer rather than just a comp
 
 ## Related
 
+- [[HOF Capital]] — portfolio investor / HOF AI-infrastructure exposure
 - [[Blue Owl]] — financing partner ($15B Abilene JV)
 - [[CoreWeave]] — competitor (GPU cloud)
 - [[Lambda Labs]] — competitor (GPU cloud)

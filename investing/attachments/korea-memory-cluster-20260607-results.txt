@@ -1,0 +1,61 @@
+Korea Memory CLUSTER ANALYSIS
+Window 1y: 2025-05-09 -> 2026-05-07 (115 obs)
+Window 2y: 2024-05-17 -> 2026-05-07 (164 obs)
+Universe: 9 tickers across 4 groups
+Dendrogram cut threshold: 0.5
+
+--- 1Y INTRA-CLUSTER PAIRWISE CORRELATIONS ---
+Ticker     005930.KS  000660.KS
+Ticker
+005930.KS       1.00       0.76
+000660.KS       0.76       1.00
+Average intra-cluster correlation: 0.756
+Range: [0.756, 0.756]
+
+--- AVG GROUP-PAIR CORRELATIONS (1Y) ---
+             cluster  us_memo  korea_m      etf
+    cluster    0.756    0.094    0.112   -0.008
+  us_memory    0.094    0.696    0.533    0.591
+korea_marke    0.112    0.533      nan    0.650
+        etf   -0.008    0.591    0.650    0.833
+
+Cluster vs others:
+  cluster vs us_memory : 0.094  (intra advantage: +0.662)
+  cluster vs korea_market: 0.112  (intra advantage: +0.645)
+  cluster vs etf       : -0.008  (intra advantage: +0.764)
+
+--- HIERARCHICAL CLUSTERS (1Y, distance threshold 0.5) ---
+  Cluster 1: 005930.KS, 000660.KS
+  Cluster 2: MU, SNDK, WDC, EWY, SMH, SOXX, SPY
+
+--- CANDIDATE JOIN DISTANCES (1Y, average linkage, distance = 1-|corr|) ---
+ Step      Left     Right Distance             Members
+    1 005930.KS 000660.KS    0.244 005930.KS+000660.KS
+
+--- PCA ON CANDIDATE COHORT (1Y) ---
+Explained variance ratio:
+  PC1: 87.82%
+  PC2: 12.18%
+
+PC1 loadings:
+005930.KS    0.707
+000660.KS    0.707
+
+--- PC1 INDEX WEIGHTS (1Y) ---
+PCA is run on standardized daily log returns. Raw PC1-mimic weights scale PC1 loading by inverse realized volatility.
+          PC1 loading Loading weight Ann vol Raw PC1-mimic weight
+005930.KS       0.707         50.00%  57.92%               55.21%
+000660.KS       0.707         50.00%  71.40%               44.79%
+
+--- HISTORICAL TIGHTNESS EVOLUTION (90D ROLLING) ---
+     Avg corr    PC1 Core corr Satellite corr Final join distance
+Date
+2020    0.654  82.7%     0.654            nan               0.346
+2021    0.657  82.9%     0.657            nan               0.343
+2022    0.729  86.5%     0.729            nan               0.271
+2023    0.653  82.6%     0.653            nan               0.347
+2024    0.517  75.8%     0.517            nan               0.483
+2025    0.433  71.6%     0.433            nan               0.567
+2026    0.801  90.0%     0.801            nan               0.199
+
+Latest 90D: avg corr 0.862, PC1 93.1%, core corr 0.862, satellite corr nan, final join distance 0.138

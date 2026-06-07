@@ -221,6 +221,7 @@ This is the same "bottleneck → springboard" pattern seen in semiconductors ([[
 - [[Amazon]] — player (Braket cloud platform)
 - [[IBM]] — player (superconducting, IQMP partner)
 - [[2026 Two Sessions]] — China quantum self-sufficiency push, dilution refrigerator independence
+- [[Thermodynamic computing]] — adjacent physics-based probabilistic-computing concept
 - Bluefors — Finnish dilution refrigerator market leader
 - Oxford Instruments — UK cryogenics supplier
 

@@ -250,6 +250,7 @@ class NoteChecker:
         issues.extend(self._check_bold_formatting(content, filepath))
         issues.extend(self._check_dead_links(content, filepath))
         issues.extend(self._check_cross_vault_links(content, filepath))
+        issues.extend(self._check_cluster_validation_diagnostics(content, filepath))
         if note_type in ("actor", "analyst", "etf", "benchmark", "concept", "event", "thesis"):
             issues.extend(self._check_missing_links(content, filepath))
 
@@ -1156,6 +1157,114 @@ aliases: []
                 f"{label} note missing embedded chart. Fix: generate a latest-data chart via /api/chart/lw"
                 f" -> save as investing/attachments/{slug}-chart.png"
                 f" and embed with ![[{slug}-chart.png]], or state why chart data is unavailable."
+            ))
+
+        return issues
+
+    def _check_cluster_validation_diagnostics(self, content: str, filepath: Path) -> list[Issue]:
+        """Check cluster-owner notes for the standard validation diagnostics."""
+        issues = []
+
+        is_cluster_owner_path = (
+            self._is_under_folder(filepath, "Concepts")
+            or self._is_under_folder(filepath, "Sectors")
+        )
+        if not is_cluster_owner_path:
+            return issues
+
+        is_cluster_note = (
+            bool(re.search(r'(?im)^>\s*\[![^\]]+\]\s*Cluster status:', content))
+            or bool(re.search(r'(?im)^##\s+Cluster validation\b', content))
+        )
+        if not is_cluster_note:
+            return issues
+
+        def has(pattern: str) -> bool:
+            return bool(re.search(pattern, content, re.IGNORECASE | re.MULTILINE))
+
+        embed = r'!\[\[[^\]]*{stem}[^\]]*\.png(?:\|[^\]]*)?\]\]'
+
+        if not has(r'^>\s*\[![^\]]+\]\s*Cluster status:'):
+            issues.append(Issue(
+                "error",
+                "cluster-validation",
+                "Cluster note missing status callout. Fix: add "
+                "`> [!success|warning|failure] Cluster status: ...` below the H1."
+            ))
+
+        if not has(r'^##\s+Cluster validation\b'):
+            issues.append(Issue(
+                "error",
+                "cluster-validation",
+                "Cluster note missing `## Cluster validation` section."
+            ))
+
+        required_embeds = [
+            ("correlation heatmap", "correlation"),
+            ("dendrogram", "dendrogram"),
+            ("PCA diagnostic", "pca"),
+            ("90-day rolling tightness chart", "rolling-tightness-90d"),
+        ]
+        for label, stem in required_embeds:
+            if not has(embed.format(stem=re.escape(stem))):
+                issues.append(Issue(
+                    "error",
+                    "cluster-validation",
+                    f"Cluster validation missing {label} embed."
+                ))
+
+        if not has(r'^#{2,4}\s+PC1 index weights\b'):
+            issues.append(Issue(
+                "error",
+                "cluster-validation",
+                "Cluster validation missing `PC1 index weights` section."
+            ))
+
+        if not has(r'\bRaw PC1-mimic weight\b'):
+            issues.append(Issue(
+                "error",
+                "cluster-validation",
+                "Cluster validation missing raw PC1-mimic weight table/column."
+            ))
+
+        has_join_distance_table = (
+            has(r'\bjoin distance\b')
+            and has(r'Distance\s*\(1-\\?\|corr\\?\|\)')
+        )
+        if not has_join_distance_table:
+            issues.append(Issue(
+                "error",
+                "cluster-validation",
+                "Cluster validation missing candidate join-distance topology table "
+                "with `Distance (1-|corr|)`."
+            ))
+
+        if not has(r'^#{2,4}\s+Historical tightness evolution\b'):
+            issues.append(Issue(
+                "error",
+                "cluster-validation",
+                "Cluster validation missing `Historical tightness evolution` section."
+            ))
+
+        has_topology_vs_mimic = has(r'\bPC1-mimic\b') and has(
+            r'\b(topology|dendrogram|join[- ]distance|core|satellite|later-joining)\b'
+        )
+        if not has_topology_vs_mimic:
+            issues.append(Issue(
+                "warning",
+                "cluster-validation",
+                "Cluster validation should distinguish topology from the raw-return PC1-mimic basket."
+            ))
+
+        has_history_verdict = has(
+            r'\b(structurally durable|structurally tight|durable|newly formed|fragmenting|regime-dependent)\b'
+        )
+        if not has_history_verdict:
+            issues.append(Issue(
+                "warning",
+                "cluster-validation",
+                "Historical tightness section should say whether the cluster is durable, newly formed, "
+                "fragmenting, or regime-dependent."
             ))
 
         return issues

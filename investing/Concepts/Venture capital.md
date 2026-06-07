@@ -61,8 +61,17 @@ The concentration also makes the $4T 2026 IPO cohort ([[SpaceX]] + OpenAI + Anth
 
 *Source: [Anthropic Raising $30 Billion More as AI Labs Absorb Majority of VC Funding](https://www.wsj.com/), WSJ, May 15 2026, by Kate Clark. PitchBook concentration data cited.*
 
+## Network-driven VC
+
+[[HOF Capital]] is the current vault example of a network-driven VC firm: the LP base is marketed as commercialization infrastructure, not just fund capital. That makes HOF useful when reading private AI/frontier-tech rounds where access to customers, follow-on capital, and operating networks matters as much as the check size.
+
+## Synthesis
+
+Venture capital is no longer just a generic early-stage asset class in the vault. The useful current lens is concentration plus access: the AI cycle concentrates capital into a handful of labs and infrastructure companies, while firms like [[HOF Capital]] try to turn LP networks into commercialization infrastructure for those same private winners. Chart data unavailable: VC is not a single liquid market series in the vault, so public-market read-through belongs in actor, sector, and IPO notes rather than a standalone VC price chart.
+
 ## Related
 
+- [[Venture Capital]] — firm roster / sector hub
 - [[Andreessen Horowitz]] — major VC firm
 - [[Sequoia Capital]] — major VC firm
 - [[Founders Fund]] — major VC firm ([[Peter Thiel]])
@@ -71,6 +80,7 @@ The concentration also makes the $4T 2026 IPO cohort ([[SpaceX]] + OpenAI + Anth
 - [[SoftBank]] — Vision Fund, mega-round investor
 - [[Tiger Global]] — crossover investor
 - [[1789 Capital]] — politically-aligned VC
+- [[HOF Capital]] — network-driven VC platform / HOF founder and portfolio graph
 
 ### Cross-vault
 - [Technologies: Venture Capital](obsidian://open?vault=technologies&file=Venture%20Capital) — fund structures, LP/GP mechanics, vintage year analysis

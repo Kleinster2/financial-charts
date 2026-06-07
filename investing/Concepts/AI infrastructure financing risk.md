@@ -100,6 +100,16 @@ That tape is not a full verdict because the same session had a broad Nasdaq/chip
 
 *Source: [FT](https://www.ft.com/content/e6df645d-1709-4a77-b15d-aa43a0209efd), Jun. 5 2026; price source: local `prices_long` closes through Jun. 5 2026.*
 
+### Market-window stress test (Jun 5 2026)
+
+The same session produced a broader financing-risk signal: [[Nasdaq semiconductor selloff June 2026]]. A hot payrolls report pushed the 2-year Treasury yield to 4.17% per FT, markets fully priced a December Fed hike, and the AI equity complex sold off hard. Local tape: Nasdaq Composite -4.18%, [[QQQ]] -4.80%, [[XLK]] -6.66%, [[SOXX]] -10.44%, and [[SMH]] -9.22%.
+
+This matters for the financing-risk note because AI infrastructure has become an equity-market absorption problem at the exact moment valuations are rate-sensitive. [[Alphabet equity raise June 2026]] showed mega-cap equity supply can clear; the [[Meta]] rumor showed the channel can spread; the Jun. 5 tape showed the same market can reprice sharply if the discount rate rises before peers launch their own funding.
+
+The event does not prove that AI demand is deteriorating. It does prove that the funding stack is now exposed to market-window risk: higher front-end yields can compress semiconductor valuations, weaken IPO conditions, and raise the dilution hurdle for hyperscalers before any physical data-center bottleneck changes.
+
+*Sources: [FT](https://www.ft.com/content/2929bbd3-1f71-4424-a577-f016c3c65603), Jun. 5 2026; local `prices_long` closes through Jun. 5 2026.*
+
 ---
 
 ## Overbuild warnings

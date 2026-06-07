@@ -116,7 +116,7 @@ Toll booth model: Small fee on every transaction, 60%+ margins.
 |--------|--------|-------|
 | US | Visa, PayPal | Card-centric, [[BNPL]] growth |
 | [[Europe]] | Revolut, Klarna | Strong open banking |
-| LatAm | [[Nubank]], [[Mercado Libre|Mercado Pago]] | Massive unbanked opportunity |
+| LatAm | [[Nubank]], [[Mercado Libre\|Mercado Pago]] | Massive unbanked opportunity |
 | [[Asia]] | [[Alipay]], GrabPay | Super-app model |
 | [[Brazil]] | [[Brazil fintech]], [[Nubank]], [[Pix]] | Instant payments leader |
 
@@ -153,7 +153,7 @@ Toll booth model: Small fee on every transaction, 60%+ margins.
 | Real-time payments | Could disintermediate cards |
 | Regulation | Interchange caps, [[BNPL]] rules |
 | Credit losses | [[BNPL]], neobank lending |
-| Big Tech entry | [[Apple Pay]], [[Alphabet|Google]] Pay |
+| Big Tech entry | [[Apple Pay]], [[Alphabet\|Google]] Pay |
 | Crypto volatility | Exchange revenue swings |
 
 ---
@@ -188,6 +188,7 @@ Toll booth model: Small fee on every transaction, 60%+ margins.
 - [[UPI]] — India instant-payment rail comparison
 - [[Coinbase]] — crypto exposure
 - [[Robinhood]] — retail trading
+- [[HOF Capital]] — VC investor with SoFi, Klarna, and Kraken exposure
 - [[Banks]] — traditional finance
 - [[Crypto]] — DeFi/blockchain
 

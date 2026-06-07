@@ -573,6 +573,7 @@ Full structural treatment: [[Private market secondaries#Issuer pushback: the voi
 - [[Amazon]] — $50B investor, [[AWS]] commitment
 - [[SoftBank]] — $30B+ investor, Stargate co-owner
 - [[NVIDIA]] — $30B investor, compute supplier (with tensions)
+- [[HOF Capital]] — portfolio investor / HOF frontier-AI exposure
 - [[Cerebras]] — alternative inference compute
 - [[Promptfoo]] — AI security testing platform acquired Mar 2026, integrating into Frontier
 - [[TBPN]] — tech talk show acquired Apr 2026 (narrative/messaging play)

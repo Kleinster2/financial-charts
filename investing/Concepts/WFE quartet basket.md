@@ -5,8 +5,8 @@ tags: [basket/internal, semiconductor, equipment, ai]
 
 # WFE quartet basket
 
-> [!success] Cluster status: validated — tightest 4-name basket (May 2026)
-> Intra-cluster correlation 0.804, PC1 85.3% explained variance. The tightest 4-name basket surfaced across the entire validation pass — pairwise correlations 0.74-0.86 across all 6 pairs, no exceptions. Cleaner expression of "leading-edge fab capex" than the broader [[AI capex chain basket]] (7-name AICX, intra-corr 0.61, PC1 66.3%). The four names share monopoly/duopoly market positions, identical end-market exposure (every leading-edge fab buys from all four), and synchronized capex cycles. See "Cluster validation" section below.
+> [!warning] Cluster status: validated high-cohesion sub-cluster; dendrogram boundary fragile (May 2026)
+> Intra-cluster correlation 0.804, PC1 85.3% explained variance, and random-basket null rejected at p = 0.004 / 0.003 (intra-corr / PC1). The four-name WFE core is economically and statistically real, with stable holdout performance, but the clean dendrogram boundary is fragile: WFE is isolated only at a tight threshold (0.25) and joins the broader AI / semis / ETF block at looser 0.30-0.50 cuts. Treat this as the cleanest "leading-edge fab capex" factor core inside [[AI capex chain basket]], not as a standalone tree branch separable from semis ETFs at every threshold.
 
 The four wafer fabrication equipment (WFE) leaders — ASML, Applied Materials, KLA, Lam Research — comprise the cleanest tight sub-basket inside the AI complex. They share end-market (every leading-edge fab is a customer of all four), share monopoly/duopoly positions in their respective tool segments, and report on synchronized quarterly capex commentary cycles. The 0.81 intra-correlation is among the tightest 4-name baskets in any sector tested.
 
@@ -53,10 +53,41 @@ Procedure: `scripts/cluster_analysis.py --config scripts/cluster_configs/wfe_qua
 | LRCX-KLAC = 0.85, AMAT-KLAC = 0.83 | All near-tightest | Inter-tool capex cycle synchronizes |
 | Loosest pair | ASML-LRCX = 0.79 (still very tight) | EUV monopoly slightly decoupled from etch/deposition cycle |
 | PC1 explained variance | 85.3% | Single dominant factor; equal-weighted basket ≈ factor |
-| Hierarchical clustering at 0.4 | All 4 cluster + NVDA, TSM, MU + broad semi ETFs (SMH, SOXX, XLK, SPY) | Broader AI/semi block formation |
+| Hierarchical clustering | All 4 WFE names remain together, but threshold 0.30+ admits TSM / ETFs and threshold 0.40-0.50 admits broader AI-semi names | WFE is a tight sub-cluster inside the semis capex factor, not a clean isolated branch |
 | Cluster vs hyperscalers (MSFT, GOOGL, AMZN, META) | 0.287 (+0.517 advantage) | Cleanly distinct from buyers |
 | Cluster vs fabless (AMD, AVGO) | 0.492 (+0.312 advantage) | Distinct from non-AI-capex chip designers |
 | Cluster vs broad ETFs (SMH, SOXX, XLK, SPY) | 0.718 (+0.085 advantage) | WFE IS the dominant factor inside SMH/SOXX |
+| Random-basket null | p = 0.004 intra-corr; p = 0.003 PC1 | Cohesion is not a random four-name artifact |
+| Temporal holdout | Test/train intra-corr ratio 0.87; PC1 loading correlation 0.758 | Durable but less tight than the older half |
+| Threshold stability | Clean WFE-only assignment only at 0.25; stable-width 0.00 | Boundary-fragile; must be caveated |
+
+### Required validation plots
+
+![[wfe-quartet-cluster-correlation-1y.png]]
+
+*One-year pairwise correlation heatmap. The candidate WFE block is uniformly high (0.74-0.86), with AMAT/LRCX/KLAC especially tight.*
+
+![[wfe-quartet-cluster-dendrogram-1y.png]]
+
+*Hierarchical clustering tree. The WFE four-name core stays together, but the nearby AI-semi / ETF names join quickly at looser thresholds, so the boundary is less clean than the intra-correlation alone implies.*
+
+![[wfe-quartet-cluster-pca-1y.png]]
+
+*PCA diagnostic. PC1 explains 85.3% of candidate-cohort variance, and all four loadings are positive and balanced (0.479-0.514), so an equal-weighted basket closely tracks the WFE factor.*
+
+### Robustness diagnostics
+
+| Test | Result | Read |
+|---|---|---|
+| Random-basket permutation | p = 0.004 for intra-corr; p = 0.003 for PC1 | Pass: the cohort is more cohesive than a random four-name basket from the same price universe |
+| Holdout | Train intra-corr 0.927; test intra-corr 0.804; test/train ratio 0.87 | Pass with cooling: the factor remains durable in the newer half |
+| Threshold scan | Clean WFE-only threshold only at 0.25; contamination begins at 0.30 | Caveat: the economic cluster is real, but dendrogram separability is threshold-sensitive |
+
+![[wfe-quartet-cluster-permutation.png]]
+
+![[wfe-quartet-cluster-holdout.png]]
+
+![[wfe-quartet-cluster-threshold-scan.png]]
 
 ### Pairwise correlations (1Y)
 
@@ -68,6 +99,48 @@ Procedure: `scripts/cluster_analysis.py --config scripts/cluster_configs/wfe_qua
 | LRCX | 0.79 | 0.86 | 0.85 | — |
 
 The tightest 3-name sub-cluster within WFE is AMAT/KLAC/LRCX (avg 0.85) — these three are the US-listed WFE pure-plays and trade nearly as one. ASML is slightly looser due to EUV-specific dynamics (TSM customer concentration, EUV unit shipment cadence, China export-control news).
+
+### PC1 index weights vs cluster topology
+
+The topology and the investable PC1-mimic answer different questions. The dendrogram says AMAT/LRCX/KLAC are the tight trading core, with ASML joining later as the lithography-monopoly satellite. The raw PC1-mimic says ASML still needs the largest notional weight because the PCA is run on standardized returns and ASML has the lowest realized volatility.
+
+| Step | Left | Right | Distance (1-\|corr\|) | Read |
+|---:|---|---|---:|---|
+| 1 | AMAT | LRCX | 0.142 | Tightest WFE pair |
+| 2 | KLAC | AMAT+LRCX | 0.171 | KLAC joins the US semicap core |
+| 3 | ASML | KLAC+AMAT+LRCX | 0.244 | ASML belongs, but as the later-joining EUV satellite |
+
+| Ticker | PC1 loading | Normalized loading weight | Ann. vol | Raw PC1-mimic weight |
+|---|---:|---:|---:|---:|
+| ASML | 0.480 | 24.00% | 40.87% | 27.99% |
+| AMAT | 0.506 | 25.30% | 48.59% | 24.81% |
+| KLAC | 0.499 | 24.95% | 49.15% | 24.20% |
+| LRCX | 0.515 | 25.75% | 53.35% | 23.00% |
+
+Interpretation: for a cluster-purity sleeve, AMAT/LRCX/KLAC are the core. For a raw-return basket that best replicates the standardized PC1 factor, use the volatility-adjusted PC1-mimic weights: ASML 28.0%, AMAT 24.8%, KLAC 24.2%, LRCX 23.0%.
+
+### Historical tightness evolution
+
+![[wfe-quartet-cluster-rolling-tightness-90d.png]]
+
+*Ninety-day rolling diagnostic through Jun. 5 2026. WFE has been structurally tight since 2021: avg intra-correlation and PC1 share usually sit above 0.80, while AMAT/LRCX/KLAC remain the tighter core. The main regime change is ASML's satellite behavior: ASML detached sharply in late 2025, then mostly rejoined by mid-2026.*
+
+| Year | Avg corr median | PC1 median | Core corr median | ASML-to-core median | Final join distance median |
+|---|---:|---:|---:|---:|---:|
+| 2021 | 0.853 | 89.0% | 0.902 | 0.804 | 0.196 |
+| 2022 | 0.874 | 90.6% | 0.923 | 0.824 | 0.176 |
+| 2023 | 0.888 | 91.6% | 0.926 | 0.850 | 0.150 |
+| 2024 | 0.835 | 87.8% | 0.897 | 0.770 | 0.230 |
+| 2025 | 0.869 | 90.3% | 0.919 | 0.817 | 0.183 |
+| 2026 | 0.820 | 86.5% | 0.843 | 0.799 | 0.205 |
+
+| Date | Avg corr | PC1 | Core corr | ASML-to-core | Final join distance | Read |
+|---|---:|---:|---:|---:|---:|---|
+| 2025-06-18 | 0.921 | 94.1% | 0.953 | 0.889 | 0.111 | Peak WFE cohesion |
+| 2025-12-31 | 0.746 | 81.1% | 0.825 | 0.667 | 0.333 | ASML detach; core stays intact |
+| 2026-06-05 | 0.835 | 87.7% | 0.861 | 0.809 | 0.191 | Rejoined materially, still satellite |
+
+Interpretation: WFE is not a newly formed cluster. It is a durable semicap factor with a persistent AMAT/LRCX/KLAC core and a recurring ASML satellite leg. Historical evolution supports keeping ASML in the factor basket, but it also validates treating ASML-specific EUV / China / shipment-cadence shocks as the main source of temporary decohesion.
 
 ---
 
@@ -89,9 +162,16 @@ This is a textbook structural cluster — same business, same end-market, same c
 
 ## YTD 2026 cohort tracking
 
-![[wfe-quartet-basket-2026ytd-price-chart.png]]
+![[wfe-quartet-basket-through-2026-06-05-price-chart.png]]
 
-*ASML (blue, primary) vs AMAT, KLAC, LRCX normalized from 2025-12-31. Visual co-movement is striking — the four lines move as a tight band through the Feb-Mar drawdown and April recovery. AMAT/KLAC/LRCX especially track essentially together; ASML modestly divergent (EUV-specific dynamics).*
+*ASML (blue, primary) vs AMAT, KLAC, LRCX normalized from 2025-12-31 through the Jun. 5 2026 close. The quartet still moves as one WFE factor, but the fresh tape now captures the Jun. 5 chip-equipment drawdown after the early-June peak; LRCX and AMAT remain the YTD leaders while ASML is the lower-beta EUV-monopoly leg.*
+
+| Ticker | Start close (Dec. 31 2025) | Latest close (Jun. 5 2026) | YTD return |
+|---|---:|---:|---:|
+| ASML | $1,066.12 | $1,641.74 | +54.0% |
+| AMAT | $256.67 | $453.01 | +76.5% |
+| KLAC | $1,213.50 | $1,929.20 | +59.0% |
+| LRCX | $170.98 | $303.28 | +77.4% |
 
 ---
 

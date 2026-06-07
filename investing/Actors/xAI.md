@@ -621,6 +621,7 @@ For the regulatory landscape and the Colorado statute itself see [[AI regulation
 ### People/Partners
 - [[Elon Musk]] — founder and controller
 - [[SpaceX]] — parent company (acquired xAI Feb 2026)
+- [[HOF Capital]] — portfolio investor / HOF Musk-stack AI exposure
 - [[Google Cloud]] — external compute-capacity customer in Jun. 2026 FT update
 - [[Greg Yang]] — co-founder (departed Jan 2026), Tensor Programs, recruiting
 - [[Igor Babuschkin]] — co-founder (departed Aug 2025), built Colossus, led Grok dev

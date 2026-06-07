@@ -155,6 +155,20 @@ See [[Iran conflict economic disruption]] and [[Global oil trade flows]] for ful
 
 ---
 
+## 2026 rouble strength and fiscal translation
+
+The Iran-war oil windfall created a second-order problem for Russia: it strengthened the [[Russian ruble]] before it fixed the fiscal account. Local `prices_long` shows USD/RUB falling from 86.146 on Mar. 20 to 70.894 on May 28, a roughly 21.5% rouble appreciation against the dollar. The FT attributed the move to higher energy export receipts after sanctions waivers, weak import demand, closed capital-outflow channels, and still-tight monetary policy.
+
+That turns the windfall into a mixed fiscal signal. Higher oil prices and easier Russian-barrel placement lift hard-currency receipts, but a stronger rouble converts each dollar into fewer budget roubles. Russian oil-and-gas budget revenues were Rbs2.298tn in January-April 2026, down 38.3% year over year according to Russian Finance Ministry data reported by Xinhua. The budget law still assumes Rbs8.919tn of 2026 oil-and-gas revenue against total federal revenue near Rbs40.283tn, so the energy line is still about one-fifth of the state financing stack.
+
+The exporter squeeze is broader than oil. The FT article named grain, iron, steel, fertiliser, and wheat as sectors where a strong rouble hurts competitiveness. [[Masha Belikova]] at [[Fastmarkets Agricensus]] framed the grain channel as a pricing problem: Russian exporters need profitable rouble margins but cannot raise dollar prices without losing share. [[Alexander Shokhin]] at the [[Russian Union of Industrialists and Entrepreneurs]] warned that budget pressure could reappear as higher company taxes, while [[Sofya Donets]] at [[T-Investments]] argued the stress was still manageable while export volumes and the oil-price assumption held.
+
+The read-through is that Russia's 2026 energy windfall is a bridge, not a repair. The same capital controls and sanctions architecture that keep the currency strong also prevent normal investment, import, and financial-market adjustment. A floating exchange rate remains useful for the [[Bank of Russia]], but for a war economy funded by dollar exports and rouble spending, too much rouble strength becomes a tax on exporters and a drag on fiscal translation.
+
+*Sources: [[Financial Times]], "Rouble's strength piles pressure on Russian war economy," May 28 2026; local `USDRUB=X` prices_long data checked Jun. 6 2026; [[Bank of Russia]] Apr. 24 2026 policy release; [[Xinhua]] report of Russian Finance Ministry Jan-Apr 2026 oil-and-gas revenue data, May 8 2026.*
+
+---
+
 ## Oil sector structural outlook (Vakulenko, March 2026)
 
 [[Sergey Vakulenko]]'s definitive March 2026 analysis establishes that Russian oil production will begin steady decline (~3%/year) regardless of oil prices, driven by structural factors rather than geological constraints.

@@ -15,7 +15,7 @@ tags:
 
 Elhaddad is the founder most directly tied to HOF's conversion from outsider/emerging-manager story into an institutional venture platform. TechCrunch's 2022 fund profile described the three HOF founders as Egyptian entrepreneurs who had emigrated to the US and wanted to open access to a venture market they saw as dominated by insiders. HOF's current bio frames Elhaddad as the person leading capital formation and investment strategy, which makes him the key node for understanding how the firm turned global LP access into more than a marketing line.
 
-His official HOF bio emphasizes frontier technologies and cites investments in [[Anthropic]], [[Crusoe Energy]], [[Kraken]], [[OpenAI]], [[SpaceX]], [[UiPath]], Varda, and [[xAI]]. The pattern is a good summary of HOF's brand: trophy AI and private-market access, but wrapped in a broader future-of-humanity / frontier-tech lens.
+His official HOF bio emphasizes frontier technologies and cites investments in [[Anthropic]], [[Crusoe Energy]], [[Kraken]], [[OpenAI]], [[SpaceX]], [[UiPath]], [[Varda Space Industries]], and [[xAI]]. The pattern is a good summary of HOF's brand: trophy AI and private-market access, but wrapped in a broader future-of-humanity / frontier-tech lens.
 
 ## Quick stats
 
@@ -25,7 +25,7 @@ His official HOF bio emphasizes frontier technologies and cites investments in [
 | Focus | Firm-building, capital formation, investment strategy, frontier technologies |
 | Education | BSc Electrical and Electronics Engineering, [[Boston University]] |
 | Founder-origin note | TechCrunch described the HOF founders as Egyptian entrepreneurs who emigrated to the US before founding the firm. |
-| Selected HOF investments cited by firm bio | [[Anthropic]], [[SpaceX]], [[Commonwealth Fusion Systems]], [[Crusoe Energy]], [[Kraken]], [[OpenAI]], [[UiPath]], [[xAI]] |
+| Selected HOF investments cited by firm bio | [[Anthropic]], [[SpaceX]], [[Commonwealth Fusion Systems]], [[Crusoe Energy]], [[Kraken]], [[OpenAI]], [[UiPath]], [[Varda Space Industries]], [[xAI]] |
 
 ## Sources
 
@@ -42,4 +42,5 @@ His official HOF bio emphasizes frontier technologies and cites investments in [
 - [[Kraken]] - selected investment cited by HOF bio
 - [[OpenAI]] - selected investment cited by HOF bio
 - [[UiPath]] - selected investment cited by HOF bio
+- [[Varda Space Industries]] - selected investment cited by HOF bio
 - [[xAI]] - selected investment cited by HOF bio

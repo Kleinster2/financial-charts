@@ -31,6 +31,12 @@ WEAT trades between Communications and Energy without a tight sector fit.
 
 Wheat-specific [[Agriculture]] proxy. Wheat prices sensitive to Black Sea supply (Russia/Ukraine), weather events, and global food security dynamics.
 
+## Black Sea FX channel
+
+The May 2026 [[Russian ruble]] rally adds an exporter-margin channel to the usual weather and war-supply map. FT cited [[Masha Belikova]] at [[Fastmarkets Agricensus]] saying Russian grain exporters were struggling to set profitable prices without losing competitiveness. For WEAT, the read-through is not that a strong RUB mechanically lifts wheat futures; it makes Russian export offers more fragile because rouble costs collide with hard-currency tender pricing. See [[Agriculture]] for the sector note.
+
+*Source: FT, "Rouble's strength piles pressure on Russian war economy," May 28 2026.*
+
 ## Related
 
 - [[Agriculture]] — sector

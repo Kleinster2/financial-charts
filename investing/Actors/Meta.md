@@ -5,7 +5,7 @@ aliases: [META]
 
 **Meta (Facebook)** - Tier 1 AI hyperscaler, massive NVIDIA buyer, open-source AI leader (Llama).
 
-Largest social media company with 3.5B+ daily active users, $200.9B FY2025 revenue (+22% YoY), and $78.5B net income. Q1 2026 revenue beat while capex guidance was raised to $125-145B, and FT reported Jun. 5 that Meta is exploring a tens-of-billions stock sale after [[Alphabet equity raise June 2026|Alphabet's equity raise]] proved investor demand for AI-infrastructure funding. [[Muse Spark]] (Apr 8 2026) confirmed the proprietary pivot flagged on the Q4 call — first model from [[Meta Superintelligence Labs]], closed source, breaking the [[Llama]] open-weights playbook. The bull case: ad monetization compounding on engagement growth, AI efficiency gains, and MTIA custom chips reducing GPU dependency. The bear case: Reality Labs burning $6B/quarter, $125-145B capex with uncertain AI ROI, possible equity dilution, FTC antitrust appeal on Instagram/WhatsApp acquisitions, and Muse Spark trailing [[GPT]]-5.4 and [[Gemini]] 3.1 Pro on coding and agentic benchmarks despite the nine-month rebuild.
+Largest social media company with 3.5B+ daily active users, $200.9B FY2025 revenue (+22% YoY), and $78.5B net income. Q1 2026 revenue beat while capex guidance was raised to $125-145B, and FT reported Jun. 5 that Meta is exploring a tens-of-billions stock sale after [[Alphabet equity raise June 2026|Alphabet's equity raise]] proved investor demand for AI-infrastructure funding. [[Muse Spark]] (Apr 8 2026) confirmed the proprietary pivot flagged on the Q4 call — first model from [[Meta Superintelligence Labs]], closed source, breaking the [[Llama]] open-weights playbook. The bull case: ad monetization compounding on engagement growth, AI efficiency gains, and MTIA custom chips reducing GPU dependency. The bear case: Reality Labs burning $6B/quarter, $125-145B capex with uncertain AI ROI, possible equity dilution, founder-control capital-allocation discount, FTC antitrust appeal on Instagram/WhatsApp acquisitions, and Muse Spark trailing [[GPT]]-5.4 and [[Gemini]] 3.1 Pro on coding and agentic benchmarks despite the nine-month rebuild.
 
 ---
 
@@ -670,6 +670,16 @@ Capital-return pressure: Meta's Q1 2026 10-Q shows no Class A share repurchases 
 
 ---
 
+## Zuckerberg discount frame (FT May 28 2026)
+
+[[Robert Armstrong]]'s May 28 2026 [[Financial Times|FT]] column turns Meta into the live cautionary case for [[Dual-class shares]]: Armstrong argues that Meta's faster revenue and cash-profit growth versus Big Tech peers should support a valuation premium, but the stock often trades at a discount because [[Mark Zuckerberg]] cannot be overruled or removed by ordinary public shareholders.
+
+The mechanism is capital-allocation trust, not CEO quality. Zuckerberg created one of the best ad businesses in public markets, then spent heavily on the metaverse before the [[Year of Efficiency]] repaired investor confidence after the [[Meta 2022 collapse]]. The 2026 AI-capex cycle reopens the same question: if investors believe AI spend lacks a visible business plan, the discount attaches to the controller structure because shareholders cannot force a [[Microsoft]]-style managerial handoff. The SpaceX read-through is filed in [[SpaceX IPO 2026]].
+
+*Source: [[Financial Times|FT]], [[Robert Armstrong]], May 28 2026: https://www.ft.com/content/e0485f5a-e50a-4dea-9e42-3dc38d82111b.*
+
+---
+
 ## Jun 5, 2026 - exploratory equity raise for AI infrastructure
 
 FT reported that [[Meta]] is considering a tens-of-billions stock offering to fund the AI infrastructure program, with [[Susan Li]] leading talks alongside [[Dina Powell McCormick]]. The report says discussions intensified after [[Alphabet equity raise June 2026|Alphabet's $85B equity raise]] was upsized by $5B on strong demand, but Meta has not hired banks and may still choose another financing path. Meta's spokesperson called the share-sale talks speculative while saying the company will keep raising capital flexibly for AI opportunities.
@@ -723,6 +733,7 @@ No new data-center site, power plant, [[Power purchase agreement]], utility inte
 - [[AI hyperscalers]] - Tier 1 spender ($125-145B 2026 capex guide)
 - [[AI infrastructure financing]] - funding-stack context for AI capex
 - [[AI infrastructure financing risk]] - dilution / capex sustainability risk
+- [[Dual-class shares]] - founder-control capital-allocation discount
 - [[NVIDIA]] - primary GPU supplier (350K H100s + 400K Blackwell + multiyear "millions" deal, Feb 2026)
 - [[AMD]] - 6GW Instinct GPU deal (Feb 24, 2026), warrants for 160M AMD shares (~10%). See [[Meta-AMD 6GW deal]]
 - [[TSMC]] - foundry (via NVIDIA)

@@ -37,8 +37,8 @@
 | PlayStation | [[Sony]] | Premium exclusives |
 | Xbox | [[Microsoft]] | Game Pass subscription |
 | Switch | [[Nintendo]] | Hybrid innovation |
-| [[Steam platform|Steam]] | [[Valve]] (private) | PC distribution + SteamOS hardware ecosystem |
-| Epic Games Store | Epic (private) | Exclusives, free games |
+| [[Steam platform\|Steam]] | [[Valve]] (private) | PC distribution + SteamOS hardware ecosystem |
+| [[Epic Games]] Store | [[Epic Games]] (private) | Exclusives, free games |
 
 ---
 
@@ -47,7 +47,7 @@
 | Engine | Owner | Market |
 |--------|-------|--------|
 | Unity | [[Unity Technologies]] | Mobile, indie |
-| Unreal | Epic Games | AAA, visuals |
+| [[Unreal Engine]] | [[Epic Games]] | AAA, visuals |
 | Proprietary | Various studios | Internal use |
 
 ---
@@ -94,9 +94,9 @@ See [[US Sports Betting and iGaming]] for full sector coverage.
 | Model | Description | Examples |
 |-------|-------------|----------|
 | Premium | $60-70 upfront | AAA titles |
-| Free-to-play | Microtransactions | Fortnite, Genshin |
+| Free-to-play | Microtransactions | [[Fortnite]], Genshin |
 | Subscription | Monthly fee | Game Pass, PS Plus |
-| Live service | Ongoing content | Destiny, Fortnite |
+| Live service | Ongoing content | Destiny, [[Fortnite]] |
 
 ---
 
@@ -158,9 +158,11 @@ See [[US Sports Betting and iGaming]] for full sector coverage.
 - [[Take-Two]] — GTA, 2K Sports
 - [[Electronic Arts]] — EA Sports
 - [[Roblox]] — UGC platform
+- [[Epic Games]] — private creator-platform and engine company; [[HOF Capital]] portfolio reference
 
 ### Infrastructure
 - [[Unity Technologies]] — game engine
+- [[Unreal Engine]] — real-time 3D engine
 - [[Discord]] — community platform
 - [[Valve]] — Steam platform + SteamOS hardware ecosystem
 
@@ -172,6 +174,9 @@ See [[US Sports Betting and iGaming]] for full sector coverage.
 
 ### Concepts
 - [[Streaming wars]] — platform competition
+
+### Products
+- [[Fortnite]] — live-service game and social platform
 
 ---
 

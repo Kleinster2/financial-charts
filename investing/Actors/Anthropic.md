@@ -1203,6 +1203,7 @@ The strategy parallels [[Microsoft]]'s 1990s arc — OS vendor to desktop owner 
 - [[SpaceX]] - Colossus / compute-capacity lessor
 - [[Colossus]] - Tennessee GPU capacity used in the SpaceX compute relationship
 - [[Amazon]] - $13B invested / up to $33B committed; primary cloud and Trainium partner
+- [[HOF Capital]] - portfolio investor / HOF frontier-AI exposure
 
 - [[Anthropic hyperscaler financing surge April 2026]] - Google/Amazon capital + compute commitments
 - [[Microsoft]] - $5B investor (hedging OpenAI)

@@ -162,6 +162,16 @@ This is why the [[James Anderson]] / [[Morgan Samet]] platform-vs-supplier frame
 
 *Sources: [FT article — Big Tech's $725bn AI spending spree sends free cash flow to a decade low](https://www.ft.com/content/b3dfaba9-17a2-4fac-90fe-4ab3ca7c9494), May 8 2026; [Alphabet Q1 2026 10-Q](https://www.sec.gov/Archives/edgar/data/1652044/000165204426000048/goog-20260331.htm); [Meta Q1 2026 10-Q](https://www.sec.gov/Archives/edgar/data/1326801/000162828026028526/meta-20260331.htm); [Amazon Q1 2026 10-Q](https://www.sec.gov/Archives/edgar/data/1018724/000101872426000014/amzn-20260331.htm).*
 
+## Jun 2026 refinement VII: the market-window constraint
+
+The Jun. 5 [[Nasdaq semiconductor selloff June 2026]] adds a second constraint beside free cash flow: market-window fragility. A stronger payrolls print pushed front-end yields higher and turned the AI capex beneficiary basket into a duration trade. Local close data: Nasdaq Composite -4.18%, [[QQQ]] -4.80%, [[XLK]] -6.66%, [[SOXX]] -10.44%, and [[SMH]] -9.22%.
+
+The thesis impact is subtle. The selloff does not falsify AI demand or the systems-scarcity claim; [[NVIDIA]], [[Micron]], [[Intel]], [[AMD]], [[Arm Holdings]], [[SK Hynix]], and [[Samsung]] are still pulled by the same buildout. But it shows the arms race now has a capital-markets clock. If hyperscalers and AI platforms need equity issuance, IPOs, converts, ATMs, and supplier/customer financing to sustain capex, then higher rates can hurt the buildout before a single GPU order is canceled.
+
+This is the first tape where all three questions appear at once: whether public investors will fund the [[SpaceX IPO 2026]] / OpenAI / Anthropic listing wave, whether [[Meta]] or other hyperscalers can follow [[Alphabet equity raise June 2026]] without an unacceptable dilution penalty, and whether the chip/memory supplier complex can hold a scarcity multiple while the Fed path reprices higher.
+
+*Sources: [FT](https://www.ft.com/content/2929bbd3-1f71-4424-a577-f016c3c65603), Jun. 5 2026; local `prices_long` closes through Jun. 5 2026.*
+
 ---
 
 ## Corporate restructuring response

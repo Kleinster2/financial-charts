@@ -59,9 +59,13 @@ The public filing confirms the financial shape that the leaked S-1 excerpts impl
 
 The May 21 FT bank update matters because it gives the roadshow a clearer control point. Goldman controls the pricing, valuation, roadshow, and allocation discussions, while Morgan Stanley's role is post-pricing support. For SpaceX, that reduces the earlier flat-syndicate oddity but concentrates execution risk in Goldman's hands if investors push back on the consolidated loss, governance structure, or AI-stack valuation.
 
+The May 28 FT governance column adds a cleaner discount frame to the same IPO section. [[Robert Armstrong]] uses [[Meta]] as the analogy: when founder control prevents public holders from disciplining capital allocation, the market can apply a valuation discount even to an exceptional business. For SpaceX, that means [[Elon Musk]]'s supervoting control is not only key-person magic but also a possible multiple cap if investors start treating [[Starship]], AI, and [[Twitter|X]] cash use as a controller-risk bundle. See [[Dual-class shares]] and [[SpaceX IPO 2026]].
+
 The May 25 [[Reuters]] aftermarket screen adds a second hurdle: the deal can be oversubscribed and still be a bad relative-return setup for public buyers. [[Reuters]]'s analysis of the 50 highest-valuation IPOs over the past five years found that the [[S&P 500]] beat the IPO buyer about three-quarters of the time, with average IPO-buyer returns of 27% through May 21 versus 53% for the matched index periods. The specific SpaceX implication is valuation discipline: at [[Reuters]]'s $1.75T frame, SpaceX is near 100x sales while [[NVIDIA]] is around 24x, and the consolidated issuer lost nearly $5B last year. See [[SpaceX IPO 2026]] for the comp set.
 
 The May 26 [[Reuters]] / [[FTSE Russell]] update adds the passive-flow layer. FTSE Russell said SpaceX appears eligible for fast entry into Russell U.S. Equity Indexes and the FTSE Global Equity Index Series, using roughly $70B of investable market capitalization. That clears the $17.5B Russell Top 500 market-adjusted breakpoint and the $13.5B FTSE GEIS fast-entry threshold, subject to final review of later S-1 filings. The practical read: the first week of public trading could set the reference price for both US and global index products, not only for the Nasdaq 100.
+
+The Jun. 7 index-mechanics update clarifies the [[Nasdaq 100]] weight question. Nasdaq's May 1 methodology uses full market cap for Fast Entry ranking but modified market cap for weighting, with low-float securities capped at three times free-floating shares. SpaceX's base offering is about $75B of public float, so a pure [[Float-adjusted market capitalization|float-adjusted]] index would initially treat it like a roughly $75B stock, while the Nasdaq 100 cap points to about $225B of modified weighting market cap before ordinary NDX constraints. The stock can therefore be much larger in QQQ than in a pure float-adjusted total-market product, but still nowhere near a $1.75T-$1.77T full-market-cap index weight.
 
 Reuters added an important detail on Apr. 21: the pre-roadshow choreography now includes three days of analyst briefings across the combined physical and AI stack. Day one is Starbase in Boca Chica, day two is a separate Starbase session for analysts tied to large institutional investors, and day three is a visit to the "Macrohard" project at [[Colossus]] in Memphis. A later modeling day is expected to walk select analysts through the financial projections. In other words, SpaceX is not selling a rocket company with an AI appendix. It is explicitly touring Wall Street through launch, manufacturing, and data-center infrastructure as one integrated IPO story.
 
@@ -376,7 +380,7 @@ Other fund families with smaller allocations:
 
 ### Post-IPO (June 2026)
 
-The IPO itself is designed for broad access: >20% retail allocation (vs ~10% typical), distribution via [[Robinhood]] and bank platforms. If the [[Nasdaq Fast Entry Rule]] passes, [[Nasdaq 100]] inclusion within ~1 month of listing triggers passive fund buying almost immediately. [[FTSE Russell]] has separately assessed SpaceX as apparently eligible for Russell U.S. and FTSE GEIS fast entry, which would pull global-index money into the same early price-discovery window. S&P 500 inclusion timeline depends on whether [[S&P Dow Jones Indices]] drops the 12-month seasoning rule.
+The IPO itself is designed for broad access: >20% retail allocation (vs ~10% typical), distribution via [[Robinhood]] and bank platforms. The implemented [[Nasdaq Fast Entry Rule]] means [[Nasdaq 100]] inclusion can follow after roughly 15 trading days if SpaceX satisfies the top-40 and other eligibility tests, but Nasdaq's May 2026 low-float cap would weight it off a modified market cap rather than the full company value. [[FTSE Russell]] has separately assessed SpaceX as apparently eligible for Russell U.S. and FTSE GEIS fast entry, which would pull global-index money into the same early price-discovery window. S&P 500 inclusion timeline depends on whether [[S&P Dow Jones Indices]] drops the 12-month seasoning rule and how it treats SpaceX's very low initial public float.
 
 ### Vendor equity — [[EchoStar]] (SATS)
 
@@ -597,6 +601,7 @@ Reuters also said it remained unclear whether Intel or the Terafab developers wo
 - [[SpaceX IPO 2026]] — full IPO event: deal structure, index rules, banks, sector contagion, $200B absorption test
 - [[SpaceX xAI merger]] — Feb 2026 acquisition, $1.25T combined
 - [[Elon Musk]] — CEO
+- [[Dual-class shares]] — governance / controller-risk frame
 - [[Tesla]] — sibling company (not included in merger)
 - [[xAI]] — subsidiary (acquired Feb 2026)
 - [[Google Cloud]] — Jun. 5 compute-capacity lease customer
@@ -619,12 +624,15 @@ Reuters also said it remained unclear whether Intel or the Terafab developers wo
 - [[Rule 22e-4]] — SEC liquidity rule relevant to fund holders
 - [[Draper Fisher Jurvetson]] — early investor (Series B, D, F)
 - [[Founders Fund]] — early investor (Series A, C, E, G)
+- [[HOF Capital]] — portfolio investor / HOF space-and-AI infrastructure exposure
 - [[Applied Intuition]] — competitor in Pentagon drone swarm contest (with [[OpenAI]])
 - [[Lockheed Martin]] — co-provider of Pentagon satellite launches
 - [[Anduril]] — defense tech peer
 - [[SpaceSail]] — China's state-backed Starlink competitor (Qianfan constellation, Anatel-licensed in Brazil)
 - [[Nasdaq]] — preferred exchange for IPO listing (leaning, Mar 2026)
-- [[Nasdaq Fast Entry Rule]] — proposed rule enabling ~1 month index inclusion for megacap IPOs
+- [[Nasdaq Fast Entry Rule]] — implemented rule enabling fast index inclusion and low-float weighting caps for megacap IPOs
+- [[Nasdaq 100]] — QQQ benchmark and SpaceX fast-entry target
+- [[Float-adjusted market capitalization]] — explains why SpaceX's index weight starts from public float rather than full economic value
 - [[S&P Dow Jones Indices]] — reviewing 12-month seasoning rule that blocks immediate S&P 500 inclusion
 - [[S&P 500]] — ~$24T benchmarked; immediate post-IPO inclusion would trigger massive passive flows
 - [[Project Suncatcher]] — Google orbital-DC initiative; May 12 launch-provider talks

@@ -75,6 +75,14 @@ Farmers responding by shifting acreage from nitrogen-intensive crops (corn, whea
 
 **Food security risk:** Import-dependent regions (North Africa, Middle East) face 2010-style price spike risk. Historical precedent: Russia's 2010 heatwave and export ban triggered civil unrest.
 
+#### May 2026 -- strong rouble pressure on Russian grain exports
+
+The [[Russian ruble]] rally adds a currency channel to the Black Sea wheat story. FT's May 28 rouble article cited [[Masha Belikova]] at [[Fastmarkets Agricensus]] saying Russian grain exporters were struggling to price profitably without losing competitiveness. The mechanism is straightforward: local costs and taxes are in roubles, while export tenders clear in hard-currency commodity markets. A stronger RUB can therefore tighten exporter margins even when the global wheat setup is already supported by winterkill, fertilizer costs, and logistics disruption.
+
+This is not a direct wheat-price forecast; it is a supply-chain margin signal. If Russian exporters reduce offers, delay sales, or need policy support, the Black Sea export channel becomes less reliable even without a port closure. Track alongside [[WEAT]], [[Ukraine war]], and [[Russian ruble]].
+
+*Source: FT, "Rouble's strength piles pressure on Russian war economy," May 28 2026.*
+
 ---
 
 ## Soft commodities

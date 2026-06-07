@@ -84,21 +84,22 @@ Tech companies prefer Nasdaq.
 
 ---
 
-## Fast Entry rule (Feb 2026)
+## Nasdaq 100 methodology update (May 2026)
 
-Nasdaq proposed a new [[Nasdaq Fast Entry Rule|"Fast Entry" rule]] for the Nasdaq 100 index (filed with SEC Feb 20, 2026) to accelerate inclusion of megacap IPOs:
+Nasdaq implemented the [[Nasdaq Fast Entry Rule]] and low-float weighting changes for the [[Nasdaq 100]] effective May 1, 2026. The update accelerates top-40 megacap IPO inclusion and prevents low-float companies from receiving a full market-cap weight before public investors can buy much of the share base.
 
 | Detail | Value |
 |--------|-------|
-| Threshold | Market cap ranks in NDX top 40 (~$100B+) |
-| Timeline | 15 trading days after announcement (~1 month total) |
-| Exemptions | Waives 3-month seasoning and liquidity requirements |
-| Comment period | Closed Feb 27, 2026 |
-| Implementation | Expected after March 2026 quarterly rebalance |
+| Fast Entry threshold | Full market cap ranks within the top 40 current NDX constituents |
+| IPO timing | Evaluated after the seventh trading day; typically added after 15 trading days |
+| Ranking market cap | Full company market cap, including listed and unlisted shares for direct listings and primary ADRs |
+| Weighting market cap | Modified market cap using eligible listed share classes |
+| Low-float cap | Lesser of reported TSO or 3x free-floating shares |
+| Implementation | Effective May 1, 2026 |
 
-Designed to attract [[SpaceX]] ($1.75T target), [[OpenAI]], and [[Anthropic]] — the three mega-IPOs expected in 2026. Under current rules, new listings wait up to a year for index inclusion. Nasdaq created this rule specifically to win SpaceX's listing — and it appears to be working: as of Mar 10, SpaceX is leaning toward Nasdaq over NYSE, conditioning the listing on early Nasdaq 100 entry.
+Designed to attract [[SpaceX]], [[OpenAI]], and [[Anthropic]], the rule now gives Nasdaq a live listing advantage for the 2026 mega-IPO wave. The Jun. 2026 SpaceX roadshow terms make the low-float math concrete: about $75B of public float would be treated as about $75B in a pure [[Float-adjusted market capitalization|float-adjusted]] index, but up to about $225B under the Nasdaq 100's 3x free-float cap before ordinary NDX weighting constraints.
 
-The rule also permits the Nasdaq 100 to temporarily exceed 100 members until the next annual reconstitution, and evaluates full market cap (including unlisted shares) for eligibility. Low-free-float threshold revised from 10% to 20%.
+The rule also permits the Nasdaq 100 to temporarily exceed 100 members after a Fast Entry addition. The key governance read is that Nasdaq kept the representativeness benefit of admitting mega-IPOs early while adding a capacity brake for founder-controlled low-float listings.
 
 [[FTSE Russell]] followed with its own fast-entry proposal (Feb 18) for Russell US Equity Indexes — the entire index industry is adapting for the 2026 mega-IPO wave.
 
@@ -141,6 +142,8 @@ The rule also permits the Nasdaq 100 to temporarily exceed 100 members until the
 - [[CBOE]] — peer (options)
 - [[NVIDIA]] — key listing
 - [[Apple]] — key listing
-- [[SpaceX]] — leaning toward Nasdaq listing at $1.75T (2026 IPO)
-- [[FTSE Russell]] — proposed competing fast-entry rule (Feb 2026)
+- [[SpaceX]] — Jun. 2026 megacap IPO and Nasdaq 100 Fast Entry test case
+- [[Nasdaq 100]] — flagship index affected by the May 2026 methodology update
+- [[Float-adjusted market capitalization]] — low-float weighting concept
+- [[FTSE Russell]] — parallel fast-entry rule for large IPOs
 

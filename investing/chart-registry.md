@@ -122,6 +122,12 @@ charts:
     normalize: true
     start: 2024-01-01
     primary: ASML
+  wfe-quartet-basket-through-2026-06-05-price-chart.png:
+    tickers: ASML,AMAT,KLAC,LRCX
+    normalize: true
+    start: 2025-12-31
+    end: 2026-06-05
+    primary: ASML
   coinbase-price.png:
     tickers: COIN
     normalize: false

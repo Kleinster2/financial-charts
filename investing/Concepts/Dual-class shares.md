@@ -7,6 +7,14 @@ aliases: [dual-class stock, multi-class shares, super-voting shares, dual class 
 
 ---
 
+## Synthesis
+
+Dual-class shares are a control instrument first and a financing instrument second. The structure can protect long-duration founder projects from short-term pressure, but it also changes the public-market bargain: minority holders get economics without ordinary governance recourse. The valuation question is therefore not whether founder control is always bad; it is whether investors still trust the controller's capital allocation after the company is public.
+
+Chart data unavailable: this is a governance-structure concept rather than a single security, sector basket, price series, or fundamentals series with clean local chart data. Use issuer notes such as [[Meta]], [[SpaceX]], [[DoorDash]], [[Snap]], and [[Palantir]] for company-specific market and voting-control exhibits.
+
+---
+
 ## How it works
 
 | Class | Typical holder | Votes per share | Economic rights |
@@ -58,7 +66,7 @@ Prevalence: 32% of all IPOs in 2021, 26% in 2023. Among tech IPOs specifically: 
 | [[Hershey]] | Trust controls ~80% of votes | Hershey Trust |
 | [[Alibaba]] | Partnership structure (28 insiders control board nominations) | [[Jack Ma]] — listed NYSE 2014 after HKEx rejected structure |
 | [[Levi Strauss]] | 10:1 Class B | Haas family |
-| [[Ralph Lauren]] | 10:1 Class B | Ralph Lauren |
+| [[Ralph Lauren]] | 10:1 Class B | [[Ralph Lauren]] |
 | New York Times | Class B controls board | Sulzberger family — editorial independence argument |
 
 ### Planned
@@ -84,6 +92,16 @@ Prevalence: 32% of all IPOs in 2021, 26% in 2023. Among tech IPOs specifically: 
 - Self-dealing risk — controlling shareholders can prioritize personal interests
 - Generational entrenchment — control passes to heirs without market discipline
 - No mechanism to remove underperforming leadership
+
+---
+
+## Governance-discount mechanism
+
+Dual-class structures create the largest valuation risk when the market stops trusting the controller's capital allocation but cannot force succession or strategy change. [[Robert Armstrong]]'s May 28 2026 [[Financial Times|FT]] column frames [[Meta]] as the live case: despite faster revenue and cash-profit growth than other Big Tech peers since the 2012 IPO, Armstrong argues Meta has often traded at or below the peer group because investors cannot remove [[Mark Zuckerberg]] if he redirects core ad cash flow into lower-confidence projects. In his telling, the metaverse episode created the memory: Reality Labs and the rebrand helped drive the [[Meta 2022 collapse]], the [[Year of Efficiency]] repaired part of the trust deficit, and the 2026 AI capex push reopens the same question.
+
+For [[SpaceX]], the read-through is sharper because public buyers are underwriting not only [[Starlink]] cash flow but also [[Starship]], [[xAI]], [[Twitter|X]], terrestrial compute, and possible [[Space data centers]] under one [[Elon Musk]]-controlled issuer. Armstrong's article used the pre-roadshow 85% voting-control frame; the Jun. 3 S-1/A later put Musk's expected post-offering voting power at about 82.4%. That numerical change does not alter the governance bargain: public shareholders get economic exposure, while supervoting control, board-control protections, and litigation limits reduce their practical recourse if capital allocation disappoints.
+
+*Source: [[Financial Times|FT]], [[Robert Armstrong]], "SpaceX and the Zuckerberg discount," May 28 2026: https://www.ft.com/content/e0485f5a-e50a-4dea-9e42-3dc38d82111b.*
 
 ---
 
@@ -136,6 +154,7 @@ Pension-fund pushback has begun: officials at NY and CA public pension funds wro
 - [[Snap]] — most extreme (zero public votes)
 - [[Google]] — kicked off modern tech dual-class trend (2004)
 - [[Meta]] — Zuckerberg's supermajority control
+- [[Robert Armstrong]] — FT columnist who framed the Meta analogy as the "Zuckerberg discount"
 - [[Berkshire Hathaway]] — Class A/B split enabling long-term reinvestment
 - [[Ford]] — Ford family control since 1956
 - [[Alibaba]] — partnership structure, rejected by HKEx

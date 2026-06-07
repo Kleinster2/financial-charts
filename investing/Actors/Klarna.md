@@ -142,6 +142,7 @@ Sources: [StockAnalysis KLAR profile](https://stockanalysis.com/stocks/klar/); [
 - [[Block]] — owns Afterpay
 - [[PayPal]] — competitor
 - [[Fintech]] — sector
+- [[HOF Capital]] — portfolio investor / HOF fintech exposure
 
 ---
 

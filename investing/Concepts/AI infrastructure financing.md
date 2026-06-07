@@ -321,6 +321,8 @@ Sources:
 - [[Google-Blackstone TPU cloud venture 2026]] — chip-backed [[TPU]] neocloud JV
 - [[Neocloud financing]] — capital-provider map across CRWV / NBIS / [[TPU]] JV
 - [[SpaceX IPO 2026]] — IPO primary equity and customer-offtake case
+- [[HOF Capital]] — private VC / LP-network platform with AI infrastructure and frontier-tech portfolio exposure
+- [[Extropic]] — thermodynamic-computing option on the AI compute supply curve
 - [[Meta]] — SPV template deal + Project Walleye (combined DC + power financing)
 - [[EdgeConneX]] — Meta-backed DC operator, first combined DC + power loan ($3B, [[EQT]])
 - [[OpenAI]] — 26 GW committed

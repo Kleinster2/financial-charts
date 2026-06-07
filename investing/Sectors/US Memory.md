@@ -5,7 +5,10 @@ aliases: [American memory]
 
 # US Memory
 
-US-based memory companies. Trades as a distinct cluster (0.50 correlation) separate from Korea Memory.
+> [!warning] Cluster status: partial validation (Jun 2026)
+> Intra-cluster correlation 0.696, PC1 79.72%, random-basket p < 0.001, threshold-stable width 0.10. [[Micron]] / [[SanDisk]] form the tight core and [[Western Digital]] joins at distance 0.332; at the loose 0.5 cut the cohort contaminates into broad semis / ETF beta, so this is a real [[Memory|memory]] sleeve but not fully independent from semiconductor beta.
+
+US-based [[Memory|memory]] companies. Trades as a partial/validated cluster separate from [[Korea Memory]].
 
 ![[us-memory-sector-chart.png]]
 *SNDK massively outperforming since Feb 2025 spinoff (+1700%). MU and WDC more correlated with each other than with SNDK.*
@@ -31,22 +34,69 @@ US-based memory companies. Trades as a distinct cluster (0.50 correlation) separ
 | vs [[Korea Memory]] | 0.09-0.21 | Weak (separate cluster) |
 | Period | 2024-01 to present | |
 
-### Matched-methodology re-run (May 2026)
+## Cluster validation
 
-Run via `scripts/cluster_configs/us_memory.yaml` with parameters matched to other vault cohorts (1Y window through 2026-05-07, threshold 0.5). The 1Y matched-methodology numbers are materially tighter than the prior 2024-2026 reading:
+Run via `scripts/cluster_configs/us_memory.yaml` with parameters matched to other vault cohorts (1Y window through 2026-05-07, threshold 0.5; refreshed diagnostic files dated Jun. 7 2026). The cohort is validated as a moderately robust US memory sleeve, but the hierarchy has to be read carefully: internally, the three names join cleanly by distance 0.332; at the loose 0.5 cut, broad semis and ETFs join the same branch, so topology says "real cluster inside broad semi beta" rather than "fully independent factor." See [[Vault cluster taxonomy]] for cross-cohort context.
+
+![[us-memory-cluster-20260607-correlation-1y.png]]
+*1Y correlation heatmap: US memory is cohesive internally (0.655-0.754 pair range), clearly separated from [[Korea Memory]], and still meaningfully tied to broad semiconductor ETFs.*
+
+![[us-memory-cluster-20260607-dendrogram-1y.png]]
+*Dendrogram: MU/SNDK join first, WDC joins next, then the branch merges into semis / ETF beta at the loose 0.5 cut.*
+
+![[us-memory-cluster-20260607-pca-1y.png]]
+*PCA diagnostic: PC1 explains 79.72% of standardized daily-return variance, with balanced loadings across MU, SNDK, and WDC.*
+
+![[us-memory-cluster-20260607-rolling-tightness-90d.png]]
+*Rolling tightness: latest 90-day avg correlation is 0.714 and PC1 is 80.9%, so the cluster remains structurally durable even as broad semi beta is the outer branch.*
+
+### Headline diagnostics
 
 | Metric | Value (1Y matched) |
 |---|---|
 | Avg intra-cluster correlation | 0.696 |
 | Pairwise range | 0.655-0.754 |
 | PC1 explained variance | 79.72% |
-| Verdict | Validated |
+| Random-basket p-value | <0.001 |
+| Threshold-stable width | 0.10 (moderately robust) |
+| Verdict | Partial validation / real sleeve inside semis beta |
 
-The cohort has tightened from the original published 0.50 to 0.696 over the past year — driven by the memory shortage cycle pulling all three names (MU, SNDK, WDC) onto the same demand-driven factor. Even MU-SNDK (0.42 historical) is now well above 0.50. See [[Vault cluster taxonomy]] for cross-cohort context.
+The cohort has tightened from the original published 0.50 to 0.696 over the past year — driven by the memory shortage cycle pulling all three names (MU, SNDK, WDC) onto the same demand-driven factor. Even MU-SNDK (0.42 historical) is now well above 0.50.
+
+### Join distance topology
+
+Candidate-only average-linkage topology, with distance measured as `1-|corr|`:
+
+| Step | Left | Right | Distance (1-\|corr\|) | Members |
+|---|---|---|---:|---|
+| 1 | [[Micron\|MU]] | [[SanDisk\|SNDK]] | 0.246 | MU + SNDK |
+| 2 | [[Western Digital\|WDC]] | MU + SNDK | 0.332 | WDC + MU + SNDK |
+
+Topology says MU/SNDK are the tightest trading core, with WDC as a later-joining leg. The raw PC1-mimic basket disagrees slightly with the tree because WDC's lower realized volatility gives it a larger raw-return replication weight than SNDK.
+
+### PC1 index weights
+
+| Ticker | PC1 loading | Loading weight | Ann vol | Raw PC1-mimic weight |
+|---|---:|---:|---:|---:|
+| [[Micron\|MU]] | 0.589 | 33.99% | 64.80% | 38.93% |
+| [[SanDisk\|SNDK]] | 0.583 | 33.64% | 94.52% | 26.42% |
+| [[Western Digital\|WDC]] | 0.561 | 32.38% | 69.37% | 34.65% |
+
+PC1 loading weights say the standardized common factor is nearly equal-weight. Raw PC1-mimic weight says MU and WDC need more notional than SNDK to replicate that common factor because SNDK's realized volatility is higher.
+
+### Historical tightness evolution
+
+| Year | Avg corr | PC1 | Final join distance |
+|---|---:|---:|---:|
+| 2025 | 0.764 | 84.2% | 0.248 |
+| 2026 | 0.721 | 81.4% | 0.295 |
+| Latest 90D | 0.714 | 80.9% | 0.309 |
+
+Historical read: structurally durable but not isolated. The cluster stayed in the 0.70-0.76 band across the available rolling windows, while the latest branch still sits inside a broader semis-beta tree. The right interpretation is "memory-cycle sleeve" rather than standalone market-neutral sector.
 
 ### Stability across windows
 
-| Window | Obs | Intra-corr | PC1 | Vs SPY | Gap |
+| Window | Obs | Intra-corr | PC1 | Vs SPY | Intra-SPY gap |
 |---|---|---|---|---|---|
 | YTD 2026 | 83 | 0.722 | 82.5% | 0.489 | +0.233 |
 | 1Y | 131 | 0.697 | 81.5% | 0.485 | +0.213 |
@@ -138,6 +188,14 @@ Why separate from Korea Memory:
 - Correlation data confirms distinct trading behavior
 
 For portfolio construction: US Memory and Korea Memory are separate bets, not interchangeable "memory exposure."
+
+### Jun. 5 2026 selloff
+
+The Jun. 5 [[Nasdaq semiconductor selloff June 2026]] hit the US memory sleeve harder than the headline chip ETF. Local close-to-close tape: [[Micron]] -13.25% and [[Western Digital]] -11.06%, versus [[SOXX]] -10.44%, [[SMH]] -9.22%, [[QQQ]] -4.80%, and [[SPY]] -2.58%. FT also reported [[SanDisk]] down 11%; the vault's SNDK close was not available for Jun. 5, so the event note uses FT's SanDisk figure and local prices for MU/WDC.
+
+The read is not that the memory shortage thesis failed in one day. It is that the same memory-scarcity multiple that powered the YTD move is rate-sensitive when the market reprices the AI capex funding window. See [[AI infrastructure financing risk]] and [[PHLX Semiconductor]].
+
+*Sources: [FT](https://www.ft.com/content/2929bbd3-1f71-4424-a577-f016c3c65603), Jun. 5 2026; local `prices_long` closes through Jun. 5 2026.*
 
 ---
 

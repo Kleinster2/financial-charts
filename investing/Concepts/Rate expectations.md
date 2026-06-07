@@ -156,6 +156,14 @@ Schmid's Iceland speech leans against quick-cut pricing: he kept the base case o
 
 *Source: [Kansas City Fed, May 29 2026](https://www.kansascityfed.org/speeches/the-local-and-the-global-in-monetary-policy/).*
 
+### Jun. 5 2026 payrolls / AI-duration shock
+
+FT's Jun. 5 [[Nasdaq semiconductor selloff June 2026]] is the equity-market expression of the post-CPI hike-bias regime. A stronger-than-expected payrolls report and upward revisions to March/April pushed the 2-year Treasury yield to 4.17% per FT and left markets fully pricing a December rate increase. The selloff was concentrated where discount-rate sensitivity and AI capex expectations overlap: Nasdaq Composite -4.18%, [[QQQ]] -4.80%, [[XLK]] -6.66%, [[SOXX]] -10.44%, and [[SMH]] -9.22% in local closes.
+
+This does not require a new payrolls data note. The useful rates takeaway is that the curve's hike tail is now large enough to hit equity financing windows for AI infrastructure. The same repricing that punishes long-duration tech multiples can also tighten the terms for [[Alphabet equity raise June 2026]], Meta-style exploratory issuance, and the [[SpaceX IPO 2026]] roadshow.
+
+*Sources: [FT](https://www.ft.com/content/2929bbd3-1f71-4424-a577-f016c3c65603), Jun. 5 2026; local `prices_long` closes through Jun. 5 2026.*
+
 ---
 
 ## How it works

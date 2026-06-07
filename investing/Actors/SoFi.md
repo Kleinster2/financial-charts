@@ -213,6 +213,7 @@ Bear:
 - [[Chime]] — competitor (neobank)
 - [[Block]] — competitor (fintech)
 - [[Fintech]] — sector
+- [[HOF Capital]] — portfolio investor / HOF fintech exposure
 
 ---
 

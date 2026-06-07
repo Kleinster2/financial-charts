@@ -118,6 +118,19 @@ Van Luu at Russell Investments framed the trade as neutral near term but still d
 
 Source: [[Reuters]], [GRAPHIC-Iran war splits global markets into clear winners and losers](https://www.lse.co.uk/news/graphic-iran-war-splits-global-markets-into-clear-winners-and-losers-f7nir94d9i1wz8l.html), May 27 2026.
 
+### May 28 -- Russia is the oil-exporter exception
+
+The [[Financial Times]] May 28 [[Russian ruble]] story adds the opposite side of the same Iran-war FX map. Asian oil importers weakened because the war worsened their terms of trade; Russia's rouble strengthened because higher energy receipts, waiver-driven demand for Russian barrels, weak imports, and blocked capital outflows trapped hard currency inside the Russian system. Local `prices_long` shows USD/RUB at 86.146 on Mar. 20 and 70.894 on May 28, a roughly 21.5% rouble appreciation.
+
+The transmission is not bullish in a simple sense. The strong rouble makes Russian grain, steel, fertiliser, and wheat exports less competitive and lowers the rouble value of dollar oil receipts. Russian oil-and-gas budget revenues were still down 38.3% year over year in January-April 2026, to Rbs2.298tn, according to Russian Finance Ministry data reported by [[Xinhua]]. The conflict therefore creates two FX buckets: importers such as [[India]] and [[Indonesia]] absorb the oil shock through weaker currencies, while Russia absorbs its windfall through a stronger currency that squeezes exporters and fiscal translation.
+
+| FX bucket | War channel | Currency signal | Economic pressure |
+|---|---|---|---|
+| Asian [[Oil]] importers | Higher import bill, reserve defense, portfolio outflows | INR / IDR / PHP record lows | Imported inflation, weaker current account |
+| [[Russia]] | Higher oil receipts, weak imports, blocked outflows | Stronger [[Russian ruble]] | Exporter squeeze, fewer budget roubles per dollar |
+
+*Sources: [[Financial Times]], "Rouble's strength piles pressure on Russian war economy," May 28 2026; local `USDRUB=X` prices_long data checked Jun. 6 2026; [[Xinhua]] report of Russian Finance Ministry Jan-Apr 2026 oil-and-gas revenue data, May 8 2026.*
+
 ### India — the acute case (March 2026)
 
 India is the most detailed case study of the oil-importer FX trap. The [[Reserve Bank of India]] has burned through >$20B in FX reserves in under three weeks defending the [[Indian rupee]], which hit a record low of ~93.2/USD on Mar 19. The RBI's net-short book (forward dollar sales) has grown to >$100B. Despite ₹1T ($10.7B) in government bond purchases in March alone, the 10Y yield has climbed ~0.2pp YTD to ~6.7%.
@@ -185,6 +198,7 @@ The peace signal on March 4 (Iran outreach via NYT) triggered the biggest dollar
 | Mar 4 | Iran peace outreach (NYT) | Dollar drops most in a month; EUR/USD recovers to $1.165 |
 | Mar 4 | Reuters FX poll: 60 strategists still expect dollar weakness | Consensus: war rally is positioning, not structural |
 | May 27 | [[Reuters]] cross-asset graphic at three-month mark | Dollar +1.5% vs majors; INR, IDR, PHP at record lows; Sri Lanka +100 bp; yuan held up |
+| May 28 | FT [[Russian ruble]] article | USD/RUB near 71; Russia is the oil-exporter exception where energy receipts plus blocked outflows strengthened the currency but squeezed exporters |
 
 ---
 

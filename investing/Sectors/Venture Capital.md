@@ -66,6 +66,11 @@
 |------|-----|----------|
 | [[Index Ventures]] | London/SF | Mistral, Revolut |
 
+### Global / network-driven
+| Firm | Edge | Key Deals |
+|------|------|-----------|
+| [[HOF Capital]] | Strategic LP network marketed as commercialization infrastructure | [[Anthropic]], [[SpaceX]], [[OpenAI]], [[Varda Space Industries]], [[Epic Games]] |
+
 ---
 
 ## Sector specialists
@@ -110,6 +115,7 @@
 - [[Private Equity]] — buyouts
 - [[Corporate Venture Capital]] — strategic investors
 - [[Private market secondaries]] — record $119.9B (2025); VC stake sales dominant
+- [[HOF Capital]] — global LP-network VC platform; HOF cluster maps founders and second-level frontier-tech portfolio references
 
 ---
 

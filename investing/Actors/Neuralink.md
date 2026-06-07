@@ -130,6 +130,7 @@ aliases: []
 - [[Elon Musk]] — founder
 - [[Valor Equity Partners]] — investor
 - [[Founders Fund]] — investor
+- [[HOF Capital]] — portfolio investor / HOF neurotechnology exposure
 - [[Biopharma]] — sector adjacent
 
 ---

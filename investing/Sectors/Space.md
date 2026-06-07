@@ -294,6 +294,7 @@ See [[Starlink]] for details.
 | Blue Origin | Private (Bezos) | No public access |
 | Sierra Space | Private | Dream Chaser |
 | Relativity Space | Private | 3D-printed rockets |
+| [[Varda Space Industries]] | Private | Space manufacturing / recoverable reentry capsules |
 
 ---
 
@@ -348,6 +349,7 @@ The exports use commercial wrapping ([[Military-civil fusion]] talent and fundin
 
 - [[Starlink]] — satellite internet leader (10M+ subs Q1 2026)
 - [[SpaceX]] — launch dominance
+- [[Varda Space Industries]] — orbital manufacturing and recoverable reentry/hypersonic-test platform; [[HOF Capital]] portfolio context
 - [[Vast]] — commercial space station ([[Haven-1]], [[Haven-2]])
 - [[Lunar Outpost]] — lunar surface mobility
 - [[Voyager]] — public space-tech holding ([[Star Lab]])

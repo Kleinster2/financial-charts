@@ -2,11 +2,12 @@
 
 Tests whether a candidate cohort of public-company tickers constitutes a
 statistically distinct cluster, and what exactly the cluster contains, using
-three diagnostics on daily log returns:
+four diagnostics on daily log returns:
 
   1. Pairwise return correlation matrix (heatmap, 1Y + 2Y windows)
   2. Hierarchical clustering with 1-|corr| distance (dendrogram)
   3. PCA on the candidate cohort (scree + PC1 loadings)
+  4. 90-day rolling tightness history (avg corr, PC1, core/satellite)
 
 Usage:
   python scripts/cluster_analysis.py --config scripts/cluster_configs/boutique_advisory.yaml
@@ -18,6 +19,7 @@ YAML config schema (see scripts/cluster_configs/boutique_advisory.yaml for full 
   prefix: boutique-cluster       # output filename stem
   threshold: 0.4                 # dendrogram cut threshold (1-|corr| distance)
   window_end: 2026-04-30         # optional; defaults to latest weekday
+  history_start: 2020-01-01      # optional; defaults to 2020-01-01
   groups:
     cluster:
       color: "#2962FF"           # cluster always blue per actor convention
@@ -31,6 +33,7 @@ Outputs (saved to investing/attachments/{prefix}-*.png and -results.txt):
   {prefix}-correlation-2y.png
   {prefix}-dendrogram-1y.png
   {prefix}-pca-1y.png
+  {prefix}-rolling-tightness-90d.png
   {prefix}-results.txt
 
 See docs/cluster-validation.md for the full standard, when to run, and how to
@@ -206,13 +209,29 @@ def pca_analysis(rets: pd.DataFrame, candidate: list[str], out: Path, title: str
     sub = rets[candidate].dropna()
     if len(sub) < 30:
         raise SystemExit(f"PCA requires >=30 obs across all {len(candidate)} candidate tickers; got {len(sub)}")
-    standardized = (sub - sub.mean()) / sub.std()
+    daily_vol = sub.std()
+    standardized = (sub - sub.mean()) / daily_vol
     pca = PCA(n_components=min(5, len(candidate)))
     pca.fit(standardized)
     explained = pca.explained_variance_ratio_
     loadings = pd.DataFrame(
         pca.components_.T, index=candidate,
         columns=[f"PC{i+1}" for i in range(pca.n_components_)],
+    )
+    if loadings["PC1"].mean() < 0:
+        loadings["PC1"] = -loadings["PC1"]
+
+    pc1 = loadings["PC1"]
+    loading_weights = pc1 / pc1.sum()
+    raw_mimic = pc1 / daily_vol.replace(0, np.nan)
+    raw_mimic_weights = raw_mimic / raw_mimic.sum()
+    pc1_weights = pd.DataFrame(
+        {
+            "PC1 loading": pc1,
+            "Loading weight": loading_weights,
+            "Ann vol": daily_vol * np.sqrt(252),
+            "Raw PC1-mimic weight": raw_mimic_weights,
+        }
     )
 
     fig, axes = plt.subplots(1, 2, figsize=(13, 5))
@@ -236,7 +255,137 @@ def pca_analysis(rets: pd.DataFrame, candidate: list[str], out: Path, title: str
     fig.savefig(out, dpi=140, bbox_inches="tight")
     plt.close(fig)
 
-    return {"explained_variance_ratio": explained.tolist(), "loadings": loadings}
+    return {
+        "explained_variance_ratio": explained.tolist(),
+        "loadings": loadings,
+        "pc1_weights": pc1_weights,
+    }
+
+
+def candidate_join_distances(corr: pd.DataFrame, candidate: list[str]) -> pd.DataFrame:
+    sub = corr.loc[candidate, candidate].dropna(axis=0, how="any").dropna(axis=1, how="any")
+    tickers = list(sub.columns)
+    if len(tickers) < 2:
+        return pd.DataFrame(columns=["Step", "Left", "Right", "Distance", "Members"])
+
+    dist = 1 - sub.abs()
+    np.fill_diagonal(dist.values, 0)
+    Z = linkage(squareform(dist.values, checks=False), method="average")
+
+    clusters: dict[int, list[str]] = {i: [ticker] for i, ticker in enumerate(tickers)}
+    rows = []
+    for step, (left_idx, right_idx, distance, _count) in enumerate(Z, start=1):
+        left = clusters[int(left_idx)]
+        right = clusters[int(right_idx)]
+        members = left + right
+        rows.append(
+            {
+                "Step": step,
+                "Left": "+".join(left),
+                "Right": "+".join(right),
+                "Distance": float(distance),
+                "Members": "+".join(members),
+            }
+        )
+        clusters[len(tickers) + step - 1] = members
+
+    return pd.DataFrame(rows)
+
+
+def rolling_tightness_analysis(
+    rets: pd.DataFrame,
+    candidate: list[str],
+    out: Path,
+    window: int = 90,
+) -> pd.DataFrame:
+    sub = rets[candidate].dropna()
+    if len(sub) < window:
+        return pd.DataFrame(
+            columns=[
+                "Avg corr",
+                "PC1",
+                "Core corr",
+                "Satellite corr",
+                "Final join distance",
+            ]
+        )
+
+    core = candidate[1:] if len(candidate) > 3 else candidate
+    satellite = candidate[0] if len(candidate) > 3 else None
+    rows = []
+
+    for end_i in range(window, len(sub) + 1):
+        w = sub.iloc[end_i - window:end_i]
+        corr = w.corr()
+        upper = corr.values[np.triu_indices_from(corr, k=1)]
+
+        standardized = (w - w.mean()) / w.std()
+        pca = PCA(n_components=min(5, len(candidate)))
+        pca.fit(standardized)
+
+        dist = 1 - corr.abs()
+        np.fill_diagonal(dist.values, 0)
+        Z = linkage(squareform(dist.values, checks=False), method="average")
+
+        core_corr = np.nan
+        if len(core) >= 2 and all(t in corr.columns for t in core):
+            core_sub = corr.loc[core, core].values
+            core_upper = core_sub[np.triu_indices_from(core_sub, k=1)]
+            core_corr = float(core_upper.mean())
+
+        satellite_corr = np.nan
+        if satellite and all(t in corr.columns for t in [satellite] + core):
+            satellite_corr = float(np.mean([corr.loc[satellite, t] for t in core]))
+
+        rows.append(
+            {
+                "Date": w.index[-1],
+                "Avg corr": float(upper.mean()),
+                "PC1": float(pca.explained_variance_ratio_[0]),
+                "Core corr": core_corr,
+                "Satellite corr": satellite_corr,
+                "Final join distance": float(Z[-1, 2]),
+            }
+        )
+
+    rolling = pd.DataFrame(rows).set_index("Date")
+
+    fig, axes = plt.subplots(2, 1, figsize=(11, 7), sharex=True)
+    axes[0].plot(rolling.index, rolling["Avg corr"], color="#2962FF", linewidth=2.0, label="Avg intra-corr")
+    axes[0].plot(rolling.index, rolling["PC1"], color="#E91E63", linewidth=1.8, label="PC1 share")
+    if "Core corr" in rolling:
+        axes[0].plot(rolling.index, rolling["Core corr"], color="#4CAF50", linewidth=1.4, alpha=0.9, label="Core corr")
+    if "Satellite corr" in rolling:
+        axes[0].plot(
+            rolling.index,
+            rolling["Satellite corr"],
+            color="#FF9800",
+            linewidth=1.4,
+            alpha=0.9,
+            label="Satellite-to-core corr",
+        )
+    axes[0].set_ylim(0, 1)
+    axes[0].set_ylabel("Correlation / PC1")
+    axes[0].set_title(f"{window}-day rolling cluster tightness", loc="left", fontsize=12)
+    axes[0].grid(True, alpha=0.25)
+    axes[0].legend(loc="lower left", fontsize=9, ncol=2, frameon=False)
+
+    axes[1].plot(
+        rolling.index,
+        rolling["Final join distance"],
+        color="#6D4C41",
+        linewidth=2.0,
+        label="Final candidate join distance",
+    )
+    axes[1].set_ylabel("1 - |corr|")
+    axes[1].grid(True, alpha=0.25)
+    axes[1].legend(loc="upper left", fontsize=9, frameon=False)
+
+    fig.tight_layout()
+    fig.savefig(out, dpi=140, bbox_inches="tight")
+    plt.close(fig)
+
+    return rolling
 
 
 def avg_group_pair_correlations(corr: pd.DataFrame, universe: dict) -> dict:
@@ -259,7 +408,7 @@ def avg_group_pair_correlations(corr: pd.DataFrame, universe: dict) -> dict:
 def write_summary(
     cfg: dict, rets_1y: pd.DataFrame, rets_2y: pd.DataFrame,
     corr_1y: pd.DataFrame, clusters_1y: dict, pca_result: dict,
-    group_pair_corrs: dict, out: Path,
+    group_pair_corrs: dict, out: Path, rolling_tightness: pd.DataFrame | None = None,
 ) -> None:
     lines = []
     lines.append(f"{cfg.get('name', cfg['prefix'])} CLUSTER ANALYSIS")
@@ -305,6 +454,14 @@ def write_summary(
         lines.append(f"  Cluster {cid}: {', '.join(members)}")
     lines.append("")
 
+    join_distances = candidate_join_distances(corr_1y, cluster)
+    if not join_distances.empty:
+        lines.append("--- CANDIDATE JOIN DISTANCES (1Y, average linkage, distance = 1-|corr|) ---")
+        join_display = join_distances.copy()
+        join_display["Distance"] = join_display["Distance"].map(lambda x: f"{x:.3f}")
+        lines.append(join_display.to_string(index=False))
+        lines.append("")
+
     lines.append("--- PCA ON CANDIDATE COHORT (1Y) ---")
     lines.append("Explained variance ratio:")
     for i, v in enumerate(pca_result["explained_variance_ratio"], start=1):
@@ -312,6 +469,46 @@ def write_summary(
     lines.append("")
     lines.append("PC1 loadings:")
     lines.append(pca_result["loadings"]["PC1"].round(3).to_string())
+    lines.append("")
+    lines.append("--- PC1 INDEX WEIGHTS (1Y) ---")
+    lines.append("PCA is run on standardized daily log returns. Raw PC1-mimic weights scale PC1 loading by inverse realized volatility.")
+    pc1_weight_display = pca_result["pc1_weights"].copy()
+    pc1_weight_display["PC1 loading"] = pc1_weight_display["PC1 loading"].map(lambda x: f"{x:.3f}")
+    pc1_weight_display["Loading weight"] = pc1_weight_display["Loading weight"].map(lambda x: f"{x*100:.2f}%")
+    pc1_weight_display["Ann vol"] = pc1_weight_display["Ann vol"].map(lambda x: f"{x*100:.2f}%")
+    pc1_weight_display["Raw PC1-mimic weight"] = pc1_weight_display["Raw PC1-mimic weight"].map(
+        lambda x: f"{x*100:.2f}%"
+    )
+    lines.append(pc1_weight_display.to_string())
+
+    if rolling_tightness is not None and not rolling_tightness.empty:
+        lines.append("")
+        lines.append("--- HISTORICAL TIGHTNESS EVOLUTION (90D ROLLING) ---")
+        by_year = rolling_tightness.groupby(rolling_tightness.index.year).agg(
+            {
+                "Avg corr": "median",
+                "PC1": "median",
+                "Core corr": "median",
+                "Satellite corr": "median",
+                "Final join distance": "median",
+            }
+        )
+        hist_display = by_year.copy()
+        for col in ["Avg corr", "Core corr", "Satellite corr", "Final join distance"]:
+            hist_display[col] = hist_display[col].map(lambda x: f"{x:.3f}")
+        hist_display["PC1"] = hist_display["PC1"].map(lambda x: f"{x*100:.1f}%")
+        lines.append(hist_display.to_string())
+
+        latest = rolling_tightness.iloc[-1]
+        lines.append("")
+        lines.append(
+            "Latest 90D: "
+            f"avg corr {latest['Avg corr']:.3f}, "
+            f"PC1 {latest['PC1']*100:.1f}%, "
+            f"core corr {latest['Core corr']:.3f}, "
+            f"satellite corr {latest['Satellite corr']:.3f}, "
+            f"final join distance {latest['Final join distance']:.3f}"
+        )
 
     out.write_text("\n".join(lines), encoding="utf-8")
     print("\n".join(lines))
@@ -337,6 +534,11 @@ def main() -> None:
     rets_2y = load_returns(cfg["groups"], start_2y, window_end)
     rets_1y = rets_1y.dropna(thresh=int(0.95 * len(rets_1y.columns)))
     rets_2y = rets_2y.dropna(thresh=int(0.95 * len(rets_2y.columns)))
+    history_start = cfg.get("history_start", "2020-01-01")
+    if isinstance(history_start, date):
+        history_start = history_start.isoformat()
+    history_groups = {"cluster": cfg["groups"]["cluster"]}
+    rets_history = load_returns(history_groups, history_start, window_end)
 
     corr_1y = correlation_matrix(rets_1y)
     corr_2y = correlation_matrix(rets_2y)
@@ -367,11 +569,17 @@ def main() -> None:
         ATT / f"{prefix}-pca-1y.png",
         f"PCA on candidate cluster (1Y)",
     )
+    rolling_tightness = rolling_tightness_analysis(
+        rets_history,
+        candidate,
+        ATT / f"{prefix}-rolling-tightness-90d.png",
+        window=90,
+    )
 
     group_pair_corrs = avg_group_pair_correlations(corr_1y, cfg["groups"])
     write_summary(
         cfg, rets_1y, rets_2y, corr_1y, clusters_1y, pca_result,
-        group_pair_corrs, ATT / f"{prefix}-results.txt",
+        group_pair_corrs, ATT / f"{prefix}-results.txt", rolling_tightness,
     )
 
 

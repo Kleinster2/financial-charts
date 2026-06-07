@@ -100,5 +100,6 @@ The existential question: does [[Agentic AI]] kill RPA or does UiPath become the
 - [[SaaS stock meltdown 2026]] — PATH down ~30% YTD despite improving fundamentals
 - [[AI agents]] — agents subsume many RPA use cases; UiPath positioning as agent orchestrator
 - [[Daniel Dines]] — CEO and founder
+- [[HOF Capital]] — portfolio investor / HOF enterprise-automation exposure
 
 *Created 2026-02-16*

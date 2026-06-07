@@ -71,6 +71,7 @@ Outputs land in `investing/attachments/`:
 | `{prefix}-correlation-2y.png` | Same, 2-year window (stability check) |
 | `{prefix}-dendrogram-1y.png` | Hierarchical clustering tree with cut threshold |
 | `{prefix}-pca-1y.png` | PCA scree + PC1 loadings on the candidate cohort |
+| `{prefix}-rolling-tightness-90d.png` | Rolling historical tightness: avg intra-corr, PC1, core/satellite, final join distance |
 | `{prefix}-results.txt` | Plain-text summary of all numerics |
 
 ---
@@ -193,9 +194,41 @@ PC1 explained variance answers "how single-factor is this cluster?":
 
 PC1 loadings should all be positive and roughly equal. If they aren't (one name negative, or one name dramatically larger than others), that name has a different return profile from the rest — flag it as a candidate outlier.
 
-### 5. Conclusions to draft
+### 5. PC1 index weights vs cluster topology
 
-For the actor / cohort note, condense the output into a 5-row summary table + one paragraph. See [[Space pure-plays]] for the canonical write-up format (most extensive worked example with all 19 analytical sections). For a simpler single-page format, see [[Concepts/Boutique advisory consolidation|Boutique advisory consolidation]].
+`scripts/cluster_analysis.py` now emits two extra sections in `{prefix}-results.txt`:
+
+- `CANDIDATE JOIN DISTANCES` - the candidate-only dendrogram merge sequence using average linkage and `1-|corr|` distance.
+- `PC1 INDEX WEIGHTS` - PC1 loading, normalized loading weight, annualized realized volatility, and raw PC1-mimic weight.
+
+These are required because they answer different questions:
+
+| Diagnostic | Question answered | Use |
+|---|---|---|
+| Join-distance table | Which names form the tight core, and which join as satellites? | Cluster topology / purity |
+| PC1 loading weight | Which names contribute most to the standardized common factor? | Pure factor composition |
+| Raw PC1-mimic weight | What raw-return basket best replicates standardized PC1? | Investable index construction |
+
+The raw PC1-mimic weight is:
+
+```text
+weight_i = (PC1 loading_i / daily realized vol_i)
+normalize weights to sum to 100%
+```
+
+This volatility adjustment can make a later-joining, lower-volatility member receive a larger investable weight than its topology would imply. That is not a contradiction. It means the name is less central to the cluster tree but needs more notional to reproduce the standardized PC1 shock in raw returns.
+
+Every cohort-owner note must include a short interpretation sentence distinguishing:
+
+- **Tight trading core**: the earliest dendrogram joins.
+- **Satellite / outlier legs**: members that join at meaningfully higher distance.
+- **PC1 replication basket**: the raw-return weights that best mimic the standardized common factor.
+
+If these disagree, say so explicitly. Example: "AMAT/LRCX/KLAC form the tight WFE trading core; ASML joins at a higher distance but receives the largest raw PC1-mimic weight because its realized volatility is lower."
+
+### 6. Conclusions to draft
+
+For the actor / cohort note, condense the output into a summary table + one paragraph. Include intra-correlation, PC1 explained variance, dendrogram boundary, nearest-neighbor separation, join-distance topology, PC1 index weights, and historical tightness evolution. See [[Space pure-plays]] for the canonical write-up format (most extensive worked example with all 19 analytical sections). For a simpler single-page format, see [[Concepts/Boutique advisory consolidation|Boutique advisory consolidation]].
 
 ---
 
@@ -221,6 +254,22 @@ YTD 2026        65   0.636 [0.51,0.78]   69.3%    8.3%    0.270  +0.365
 The "vs def" column is the cross-correlation between the cohort and a single representative control group (typically the most-relevant adjacent sector — defense primes for space, mid-IBs for boutique advisory, etc.). The "gap" column is the intra-cluster advantage over that control. A stable or widening gap across windows is the cleanest evidence that the cluster has a durable identity distinct from its nearest neighbor.
 
 Embed the stability table in the cohort concept note (not the per-actor notes) as a sub-section under `## Cluster validation`.
+
+### Rolling historical tightness (required for cohort-owner notes)
+
+`scripts/cluster_analysis.py` writes `{prefix}-rolling-tightness-90d.png` and adds a `HISTORICAL TIGHTNESS EVOLUTION` section to `{prefix}-results.txt`. The standard window is 90 trading observations over available history from `history_start` in the YAML config, defaulting to `2020-01-01`.
+
+The rolling diagnostic tracks:
+
+| Series | Meaning |
+|---|---|
+| Avg intra-corr | Overall cluster tightness through time |
+| PC1 share | How much of cohort variance is explained by one common factor |
+| Core corr | Median/rolling cohesion of the non-primary core, using candidate order after the first ticker |
+| Satellite-to-core corr | Whether the primary/first ticker is trading with or away from the core |
+| Final join distance | How far the last candidate sits from the rest of the tree |
+
+For cohort-owner notes, embed the rolling chart and include a compact historical table. The interpretation must say whether the cluster is structurally durable, newly formed, fragmenting, or regime-dependent. If a satellite detaches temporarily, explain whether the core stayed tight.
 
 ---
 
@@ -517,11 +566,14 @@ When you create or expand a public-company actor note:
    - Intra-cluster correlation > 0.5
    - Hierarchical clustering returns the proposed cohort (or a close variant)
    - PC1 explained variance > 50%
+   - Join-distance table identifies the tight core vs late-joining satellites
+   - PC1 index weights distinguish normalized loading weights from raw-return mimic weights
+   - Historical tightness evolution shows whether the cluster is durable, newly formed, fragmenting, or regime-dependent
 6. Run `python scripts/cluster_permutation_test.py --primary {ticker}` (random-basket p-value required for new cohorts).
 7. Run `python scripts/cluster_threshold_scan.py --primary {ticker}` (stable threshold width required).
 8. If the cohort spans a known regime shift OR intra-corr is borderline (0.50-0.60), run `python scripts/cluster_holdout_test.py --primary {ticker} --window 2y`.
 9. Iterate the candidate list if the math says the boundary is wrong.
-10. Embed the dendrogram + summary table in the actor or concept note. Include p-values in the status callout when available.
+10. Embed the dendrogram + summary table in the actor or concept note. Include p-values in the status callout when available. For cohort-owner notes, include the join-distance table, PC1 index-weight table, and rolling historical-tightness chart, with sentences distinguishing topology from PC1-replication weights and current tightness from historical evolution.
 11. Log the validation in today's daily note: "validated [[Cluster name]] cohort (intra-corr X.XX, PC1 XX.X%, random-basket p X.XXX)".
 12. After any exploratory cluster screen, append a row to [[Vault cluster taxonomy#Ongoing exploration log]], even when the hypothesis is falsified.
 13. Quarterly: run `python scripts/cluster_registry.py correction` to check FDR-corrected status across all logged cohorts.

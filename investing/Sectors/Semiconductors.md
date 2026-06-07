@@ -267,6 +267,7 @@ Traditional cycle: 3-4 years, inventory-driven. AI capex is decoupling the leadi
 - [[Taiwan]] — geographic risk (→ [[AI Compute]])
 - [[Tau Scaling Law]] — Huawei's post-node scaling framework
 - [[LogicFolding]] — architecture scheduled for fall 2026 Kirin and later Ascend
+- [[Thermodynamic computing]] — post-GPU / physics-computing concept tied to [[Extropic]]
 
 ### Cross-vault
 - [Technologies: Semiconductors](obsidian://open?vault=technologies&file=Semiconductors) — fabrication processes, transistor physics, node scaling

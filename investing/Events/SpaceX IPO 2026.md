@@ -24,6 +24,7 @@ tags: [event, ipo, space, ai]
 | Public S-1/FWP filings | Initial public S-1 filed May 20; Jun. 3 S-1/A and Jun. 4 FWP filled price/share/proceeds mechanics |
 | Jun. 5 customer update | FT-reported SpaceX filing disclosed a [[Google Cloud]] lease: $920M/month, 110,000 [[NVIDIA]] GPUs plus supporting components, roughly $11B/year until Jun. 2029, cancelable earlier by either side |
 | Confidential S-1 | Filed April 1, 2026 |
+| Nasdaq 100 low-float cap | May 1 [[Nasdaq 100]] methodology now weights low-float securities off modified market cap capped at 3x free-floating shares; SpaceX's $75B base public float implies about $225B of Nasdaq 100 weighting market cap before standard constraints |
 | FTSE/Russell fast entry | May 26 [[FTSE Russell]] assessment says SpaceX appears eligible for Russell U.S. Equity Indexes and FTSE GEIS fast entry, subject to final filing review |
 | Stock split | 5-for-1 announced May 15 — FMV per share adjusted from $526.59 to ~$105.32; split processed week of May 18, complete May 22 |
 | Lockup | 366-day lock-up for [[Elon Musk]]; staggered releases for select investors/officers/directors after Q4 2026 through Q2 2027 earnings; other shares release in staged windows from after Q2 2026 earnings through 180 days after IPO |
@@ -49,6 +50,14 @@ FT reported from the Jun. 5 filing that [[SpaceX]] signed a compute-capacity agr
 The underwriting implication is that the IPO story now has explicit third-party compute offtake. That helps the AI segment look less like [[Grok]]-only burn and more like rented scarce capacity, but it also complicates the clean sovereign-AI frame: two of the largest customers are external model competitors, and Google is renting [[NVIDIA]] GPU capacity from SpaceX despite its own TPU stack.
 
 *Source: [[Financial Times|FT]], Ryan McMorrow and George Hammond, Jun. 5 2026: https://www.ft.com/content/77982a06-7d75-45a4-a64f-f8dc89a6a626.*
+
+### Jun. 5 Nasdaq/SOX selloff as roadshow-window risk
+
+FT's Jun. 5 market-tape piece makes the roadshow window more fragile. The same day that SpaceX's compute offtake helped the IPO story, a hot payrolls report drove a rates shock and a broad AI-equity selloff: Nasdaq Composite -4.18%, [[QQQ]] -4.80%, [[SOXX]] -10.44%, and [[SMH]] -9.22% in local close data, while FT reported the [[PHLX Semiconductor]] Index down 10.3%.
+
+This does not by itself block the IPO. It changes the underwriting context. Public investors are now being asked to absorb a record primary offering for an AI/space platform after the AI supplier complex just had a 4-sigma down day and after [[Alphabet equity raise June 2026]] / [[Meta]] showed that hyperscaler AI capex may require direct equity issuance. The roadshow question is no longer only "is there enough demand for SpaceX?" It is whether demand clears at terms set during a euphoric AI-scarcity tape if the market backdrop has shifted toward rates-driven derating.
+
+*Sources: [FT](https://www.ft.com/content/2929bbd3-1f71-4424-a577-f016c3c65603), Jun. 5 2026; local `prices_long` closes through Jun. 5 2026.*
 
 ### FT May 23 absorption-test frame
 
@@ -109,6 +118,14 @@ Custom lockup. The Jun. 4 FWP filled the earlier blank. [[Elon Musk]] has a 366-
 20%+ retail allocation. Normal IPOs reserve ~10% for retail. Musk personally pushed for more than 20%, including smaller investors via [[Robinhood]] and wealthy bank clients. This creates a built-in fan base of shareholders who'll defend the stock. The retail army play.
 
 Divided roles. Banks are not just co-managing - they are being assigned different territories and investor types. Some handle US institutional, some US retail, some international, and Morgan Stanley's public stabilization mandate makes post-pricing support its own role rather than a hidden back-office function. The deal is so large that no single bank's distribution network can absorb it.
+
+### FT May 28 Zuckerberg-discount frame
+
+[[Robert Armstrong]]'s May 28 [[Financial Times|FT]] column adds a valuation-risk frame rather than a new deal term. He compares SpaceX's controller structure with [[Meta]]: even a world-class founder can become a valuation drag if the market loses confidence in capital allocation and public holders have no practical removal mechanism. Armstrong's "Zuckerberg discount" example is that Meta's ad business has compounded faster than Big Tech peers, yet the stock has often traded cheaper because [[Mark Zuckerberg]] controls the vote and investors remember the [[Meta 2022 collapse]] / metaverse spend before the [[Year of Efficiency]] repair.
+
+For SpaceX, the read-through is harsher because public buyers are underwriting not only [[Starlink]] cash flow but also [[Starship]], [[xAI]], [[Twitter|X]], terrestrial compute, and possible [[Space data centers]] under one [[Elon Musk]]-controlled issuer. The Jun. 3 S-1/A later put Musk's post-offering voting power at about 82.4%; Armstrong's article used the pre-roadshow 85% voting-control frame. The numeric change does not alter the governance bargain: public investors get economic exposure, not meaningful control, while adjacent litigation and board-control protections make the [[Dual-class shares]] issue more than a normal founder-friendly IPO term.
+
+*Source: [[Financial Times|FT]], [[Robert Armstrong]], May 28 2026: https://www.ft.com/content/e0485f5a-e50a-4dea-9e42-3dc38d82111b.*
 
 *Sources: The Information (Mar 25); Bloomberg (Mar 25); Reuters (Mar 25); WSJ (Mar 27-28); Financial Times (May 21); SEC FWP (Jun. 4).*
 
@@ -277,22 +294,30 @@ See [[SpaceX Cursor partnership and acquisition option April 2026]].
 
 ## Index inclusion — structural rule changes
 
-The SpaceX IPO triggered [[Nasdaq]], [[FTSE Russell]], and [[S&P Dow Jones Indices]] to rewrite, confirm, or review index inclusion rules. At $1.75T, SpaceX would be larger than all but five S&P 500 companies — [[Nvidia]], [[Apple]], [[Microsoft]], [[Amazon]], [[Alphabet]] — and bigger than both [[Meta]] and [[Tesla]].
+The SpaceX IPO triggered [[Nasdaq]], [[FTSE Russell]], and [[S&P Dow Jones Indices]] to rewrite, confirm, or review index inclusion rules. At $1.75T, SpaceX would be larger than all but five S&P 500 companies — [[NVIDIA]], [[Apple]], [[Microsoft]], [[Amazon]], [[Alphabet]] — and bigger than both [[Meta]] and [[Tesla]].
 
-### Nasdaq Fast Entry Rule (Feb 2026)
+### Nasdaq 100 fast entry and low-float weighting (May 1, 2026)
 
-[[Nasdaq]] proposed a new index methodology rule specifically designed to attract megacap IPOs:
+[[Nasdaq]] implemented a new [[Nasdaq 100]] methodology specifically designed to admit megacap IPOs faster while limiting low-float index weights:
 
 | Detail | Value |
 |--------|-------|
-| Threshold | Market cap ranks in NDX top 40 (~$100B+) |
-| Timeline | Added after 15 trading days (+ 5 days notice = ~1 month total) |
-| Exemptions | Waives 3-month seasoning period and liquidity requirements |
-| Filed with SEC | Feb 20, 2026 (Federal Register Mar 6) |
-| Status | Proposed; public comment closed Feb 27; implementation expected after Mar 2026 quarterly rebalance |
+| Target | Megacap IPOs: [[SpaceX]], [[OpenAI]], [[Anthropic]] |
+| Threshold | Full market cap ranks within the top 40 current NDX constituents |
+| IPO reference date | End of seventh trading day |
+| Typical inclusion timing | After 15 trading days, with announcement after the tenth trading day |
+| Existing constituent impact | NDX can temporarily exceed 100 members |
+| Effective date | May 1, 2026 |
+| Ranking metric | Full company market cap, including listed and unlisted shares for direct listings and primary ADRs |
+| Weighting metric | Modified market cap using eligible listed share classes |
+| Low-float cap | Lesser of full eligible listed market cap or 3x free-floating shares |
 | Contagion | [[FTSE Russell]] followed with its own fast-entry rule for Russell U.S. Equity Indexes and assessed SpaceX as apparently eligible on May 26 |
 
-Under current rules, newly listed companies wait up to a year for major index inclusion. The Fast Entry rule eliminates this delay — a direct competitive play to win SpaceX's listing. The rule also allows the Nasdaq 100 to temporarily exceed 100 members.
+The answer to "what about Nasdaq 100?" is that Nasdaq now sits between pure [[Float-adjusted market capitalization|float adjustment]] and full-market-cap weighting. At the Jun. 4 roadshow terms, SpaceX is offering 555,555,555 Class A shares at an expected $135/share, or about $75.0B of base public float. A pure float-adjusted index would treat SpaceX as roughly a $75B stock at entry. Nasdaq's low-float cap instead permits weighting off up to about three times that float value, or roughly $225B before standard Nasdaq 100 interpolation and concentration constraints. Nasdaq's own FAQ says a $180B modified cap was about a 1% NDX weight as of Mar. 2026, so SpaceX would likely be an order-of-1% NDX constituent at the base terms rather than a full $1.75T-$1.77T megacap weight.
+
+There are two caveats. First, final treatment depends on the actual IPO price, free-float files, and how Nasdaq treats eligible listed share classes versus unlisted/supervoting shares. Second, the rule is explicitly a cap, not a multiplier designed to force purchases beyond float: it limits low-float demand to a fraction of tradable supply while letting the index represent companies that are economically too large to ignore.
+
+*Sources: [Nasdaq methodology PDF](https://indexes.nasdaq.com/docs/Methodology_NDX.pdf), accessed Jun. 7 2026; [Nasdaq 2026 NDX changes FAQ](https://indexes.nasdaqomx.com/docs/2026_May_NDX_Changes_FAQ.pdf), accessed Jun. 7 2026; [SpaceX Jun. 4 2026 IPO launch press release](https://content.spacex.com/cms-assets/FINAL_Documents%20and%20Updates/6.4.26_SpaceX_Announces_IPO_US.pdf), accessed Jun. 7 2026.*
 
 ### FTSE Russell fast-entry eligibility (May 26, 2026)
 
@@ -318,7 +343,7 @@ The real change is the breadth of forced-index plumbing. [[Nasdaq 100]] fast ent
 - Mar 14: Bloomberg reported active stakeholder engagement — escalation from blog to consultation
 - No decision made; formal public consultation would take several weeks
 
-If removed, SpaceX could join the S&P 500 within days or weeks of IPO instead of waiting 12+ months. ~$24T in assets benchmarked to the S&P 500 — immediate inclusion at $1.75T triggers massive passive buying flows.
+If removed, SpaceX could theoretically join the S&P 500 much earlier than the existing 12-month seasoning path, but the float gate is separate from seasoning. With only about 4% public float at the base roadshow terms, the relevant S&P/Vanguard-style question is not the $1.75T-$1.77T headline valuation; it is whether eligibility rules permit a very low-float issuer and, if they do, what weight follows from the investable float.
 
 Current S&P 500 requirements:
 
@@ -621,9 +646,11 @@ Artemis 2 milestone: Moon orbit mission launched with crew of 4, validating luna
 
 ## Synthesis
 
-The IPO is no longer being marketed as a pure space scarcity story, and it is no longer only a blank-prospectus story. The Jun. 3 S-1/A and Jun. 4 FWP convert SpaceX from "reported target" to active roadshow price discovery: 555.6M primary Class A shares at expected $135, roughly $75B base gross proceeds, a 15% primary over-allotment, and a reported roughly $1.77T valuation, with final pricing still due Jun. 11. Public investors are being asked to fund an integrated launch, satellite connectivity, defense, AI model distribution, terrestrial compute, and future orbital-compute platform through common equity. The Jun. 5 Google/Anthropic customer-contract update adds another support layer: third-party compute offtake would cover >$26B of annual SpaceX revenue if the contracts run as described.
+The IPO is no longer being marketed as a pure space scarcity story, and it is no longer only a blank-prospectus story. The Jun. 3 S-1/A and Jun. 4 FWP convert SpaceX from "reported target" to active roadshow price discovery: 555.6M primary Class A shares at expected $135, roughly $75B base gross proceeds, a 15% primary over-allotment, and a reported roughly $1.77T valuation, with final pricing still due Jun. 11. Public investors are being asked to fund an integrated launch, satellite connectivity, defense, AI model distribution, terrestrial compute, and future orbital-compute platform through common equity. The Jun. 5 Google/Anthropic customer-contract update adds another support layer: third-party compute offtake would cover >$26B of annual SpaceX revenue if the contracts run as described. The same Jun. 5 [[Nasdaq semiconductor selloff June 2026]] adds the offsetting roadshow risk: the AI/semiconductor tape that supports the valuation narrative can also move violently against the deal window when rates reprice.
 
 The cleanest underwriting question after the amended filing: is [[Starlink]]'s subscription and operating-income base strong enough to support AI compute expansion while [[Starship]] remains a gating risk for V3, direct-to-cell scale, and orbital compute? If yes, the S-1/A is a platform prospectus with customer-backed compute revenue. If no, it is a profitable connectivity company being asked to carry a speculative AI-industrial complex on its balance sheet at record IPO size.
+
+The governance question now sits beside that operating question. The FT Armstrong frame says [[Dual-class shares]] can turn capital-allocation trust into a persistent multiple risk: if investors start treating Musk's Starship / AI / X allocation as a Meta-metaverse-style wobble, the stock can be cheap relative to growth because public shareholders cannot force a strategic or managerial reset. That risk is independent of first-day demand; it is about what discount the public float deserves once enthusiasm has to coexist with control.
 
 ---
 
@@ -639,7 +666,9 @@ The cleanest underwriting question after the amended filing: is [[Starlink]]'s s
 - [[Grok]] — internal model product whose revenue ramp is now contrasted with external compute offtake
 - [[Starlink]] — revenue/profit driver; 10.3M subscribers in the S-1 and proceeds tie to satellite-constellation scale/capacity
 - [[Nasdaq]] — preferred exchange
-- [[Nasdaq Fast Entry Rule]] — proposed megacap fast-track inclusion
+- [[Nasdaq Fast Entry Rule]] — implemented megacap fast-track inclusion and low-float cap
+- [[Nasdaq 100]] — index whose May 2026 methodology creates the 3x free-float weighting cap
+- [[Float-adjusted market capitalization]] — pure float-weighting concept behind the SpaceX/VTI math
 - [[S&P Dow Jones Indices]] — reviewing 12-month seasoning rule
 - [[S&P 500]] — ~$24T benchmarked; immediate inclusion = massive passive flows
 - [[FTSE Russell]] — May 26 assessment says SpaceX appears eligible for Russell U.S. and FTSE GEIS fast entry
