@@ -153,6 +153,7 @@ Trade implications:
 ## Related
 
 - [[Hyperscaler capex]] — detailed capex analysis, chart, forecasts
+- [[Semiconductors]] — parent semiconductor hub for the supplier read-through
 - [[Foundry Wars]] — context (hyperscalers drive foundry demand)
 - [[TSMC]] — primary foundry (most hyperscalers)
 - [[Samsung]] — alternative foundry (Musk ecosystem)

@@ -263,6 +263,7 @@ The takeaway: for packaging-theme exposure, prioritize names where the theme is 
 - [[BESI]] — equipment (hybrid bonding leader)
 - [[Disco]] — equipment (wafer dicing ~80% share)
 - [[Customer lock-in via co-design]] — mechanism (CoWoS adds switching costs)
+- [[Semiconductors]] — parent semiconductor hub; packaging is one cross-cutting bottleneck layer
 - [[CHIPS Act]] — enabler (US packaging investment)
 - [[N-2 rule]] — context (constraints on TSMC packaging)
 - [[Supply chain bottlenecks]] — context (packaging as constraint layer)

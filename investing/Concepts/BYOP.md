@@ -245,6 +245,7 @@ Demand backdrop: [[BloombergNEF]] estimates US data center power demand surges f
 ## Related
 
 - [[Power constraints]] — broader thesis (44GW gap)
+- [[Hyperscaler capex]] — demand-side spending pressure behind BYOP structures
 - [[Nuclear power for AI]] — nuclear BYOP strategy
 - [[AI datacenter architecture]] — design patterns
 - [[GPU deployment bottleneck]] — consequence (shipped ≠ deployed)

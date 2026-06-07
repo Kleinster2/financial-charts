@@ -111,6 +111,7 @@ The irony: NIMBYs who blocked housing are now getting data centers instead, whic
 
 ### Concepts
 - [[Data center infrastructure]] — supply chain and hardware
+- [[Hyperscaler capex]] — demand-side spending envelope that drives land bidding
 - [[AI power demand]] — energy competition angle
 - [[Data center boomtown effect]] — community disruption pattern (related but distinct: land competition vs. temporary worker displacement)
 

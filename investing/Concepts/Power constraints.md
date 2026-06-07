@@ -657,6 +657,8 @@ SoftBank's 5 GW French data-center plan is the nuclear-grid version of BYOP. Ins
 - [[Water constraints]] — companion constraint (water-power tradeoff)
 - [[Nuclear power for AI]] — solution (baseload power)
 - [[AI hyperscalers]] — demand driver (69GW needed)
+- [[Hyperscaler capex]] — capex envelope that converts power scarcity into a funding and deployment constraint
+- [[AI infrastructure financing]] — capital stack can fund capacity only where power is executable
 - [[xAI]] — example (Colossus 2GW target)
 - [[Constellation Energy]] — beneficiary (TMI restart)
 - [[Vistra]] — beneficiary (Texas nuclear/gas)

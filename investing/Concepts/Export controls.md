@@ -543,6 +543,7 @@ The evidence is still preliminary. Reuters noted Huawei did not provide independ
 - [[SK Hynix]] — affected (China fabs constrained)
 - [[Samsung]] — affected (China fabs constrained)
 - [[Memory]] — supply-cap consequence for China memory fabs
+- [[Semiconductors]] — parent industry hub for chip-sector read-through
 - [[Memory shortage 2025-2026]] — memory-market consequence of China capacity limits
 - [[HBM]] — bandwidth chokepoint that makes controls binding
 - [[NVIDIA]] — constrained (AI chip sales restricted)

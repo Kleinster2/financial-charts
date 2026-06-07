@@ -185,6 +185,7 @@ For AI capex:
 
 - [[NVIDIA]] — primary affected company
 - [[Power constraints]] — the root cause
+- [[Hyperscaler capex]] — demand-side capex can outrun physical deployment capacity
 - [[Meta]] — clearest case study
 - [[AI hyperscalers]] — all face this issue
 - [[Microsoft]] — Satya's "can't plug in" quote, Fairwater design

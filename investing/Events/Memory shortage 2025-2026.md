@@ -579,6 +579,7 @@ The DS (Device Solutions) division led, powered by [[HBM|HBM3E]] and HBM4 sales 
 - [[Qualcomm]] — victim (Q1 FY2026 guidance cut, OEMs cutting builds)
 - [[Export controls]] — driver ([[China]] fabs constrained)
 - [[Memory]] — parent industry hub
+- [[Semiconductors]] — parent semiconductor hub; memory shortage is the cyclical supply shock inside the broader sector
 - [[Memory shortage victims]] — losers (OEMs, consumers)
 - [[US Memory]] — US memory-cycle trading sleeve
 - [[Korea Memory]] — Korean HBM-leadership micro-cluster

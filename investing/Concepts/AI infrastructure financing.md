@@ -1,6 +1,6 @@
 #concept #finance #datacenter #ai
 
-The capital stack behind AI buildout. Hyperscalers need $100Bs; private credit, PE, debt markets, partner vehicles, customer offtake, and now common-equity issuance are filling the gap.
+The capital stack behind AI buildout. Hyperscalers need $100Bs; [[Private Credit]], PE, debt markets, partner vehicles, customer offtake, and now common-equity issuance are filling the gap.
 
 **Deep dives:**
 - [[AI infrastructure deals]] — detailed capital stacks for 10 major deals
@@ -9,6 +9,12 @@ The capital stack behind AI buildout. Hyperscalers need $100Bs; private credit, 
 - [[Neocloud financing]] — CRWV / NBIS / Google-Blackstone capital-provider map
 
 ---
+
+## Synthesis
+
+AI infrastructure financing has moved from a hyperscaler cash-flow question into a full capital-market regime. The buildout now uses corporate debt, project finance, GPU-collateralized credit, private-capital SPVs, customer offtake, IPO primary equity, and direct hyperscaler equity issuance. [[Alphabet equity raise June 2026]] and the [[Meta]] exploration show that common equity is now part of the stack, while the [[Nasdaq semiconductor selloff June 2026]] shows why that channel is fragile: higher rates can close the valuation window before the physical demand story changes. Capital is therefore necessary but not sufficient; each financing structure still has to clear [[Power constraints]], customer-concentration risk, and deployment timing.
+
+Chart data not applicable: this note maps financing structures rather than a single tradeable price series. Market-window stress is tracked through [[QQQ]], [[SOXX]], [[SMH]], and the linked event tape.
 
 ## Gigawatt economics
 
@@ -54,7 +60,7 @@ Critical question: Does the 1:1 compute-revenue relationship hold at 10x+ scale?
 | 2026 projected | $620B |
 | Morgan Stanley DC spend by 2028 | $3T |
 | Total external financing needed | $1.5T |
-| [[Private credit]] by 2028 | $800B |
+| [[Private Credit]] by 2028 | $800B |
 
 Problem: Even hyperscalers don't want this on balance sheet. Enter private capital.
 
@@ -88,7 +94,7 @@ The Jun. 4 [[SpaceX IPO 2026]] FWP adds public IPO equity to the AI-infrastructu
 
 That makes the structure different from a clean data-center SPV. Public investors are funding the integrated stack: terrestrial compute, [[xAI]] / [[Grok]] distribution, [[Starlink]] constellation expansion, and the launch infrastructure needed to scale V3 satellites, V2 mobile, and future orbital compute. The financing read is therefore broader than "AI data center capital raise." It is common-equity funding for a vertically integrated AI / space platform whose bottlenecks sit across chips, power, launch cadence, satellites, and balance-sheet leverage.
 
-*Sources: SEC S-1/A filed Jun. 3 2026; SEC FWP filed Jun. 4 2026; see [[SpaceX IPO 2026]].*
+*Sources: [[SEC]] S-1/A filed Jun. 3 2026; [[SEC]] FWP filed Jun. 4 2026; see [[SpaceX IPO 2026]].*
 
 ### Customer offtake as IPO de-risking (Jun. 2026)
 
@@ -106,11 +112,11 @@ The Google-Blackstone / CRWV / NBIS comparison is now part of the financing map,
 
 | Vehicle | Capital provider | Customer support | Risk location |
 |---|---|---|---|
-| [[Google-Blackstone TPU cloud venture 2026]] | [[Blackstone]] funds provide $5B initial equity; [[Google]] provides TPU hardware/software/services | Anchor customer not disclosed; [[Anthropic]] is the obvious candidate but not confirmed | Blackstone-backed operating-company risk, plus FT-only leverage uncertainty |
-| [[CoreWeave]] / CRWV | [[NVIDIA]] equity + public equity + private credit; March 2026 $8.5B DDTL anchored by [[Blackstone]] Credit & Insurance | [[Microsoft]] concentration and backlog support the debt stack | Customer-contract / GPU-depreciation / refinancing risk |
+| [[Google-Blackstone TPU cloud venture 2026]] | [[Blackstone]] funds provide $5B initial equity; [[Google]] provides [[TPU]] hardware/software/services | Anchor customer not disclosed; [[Anthropic]] is the obvious candidate but not confirmed | Blackstone-backed operating-company risk, plus FT-only leverage uncertainty |
+| [[CoreWeave]] / CRWV | [[NVIDIA]] equity + public equity + private credit; March 2026 $8.5B DDTL anchored by [[Blackstone]] Credit & [[Insurance]] | [[Microsoft]] concentration and backlog support the debt stack | Customer-contract / GPU-depreciation / refinancing risk |
 | [[Nebius]] / NBIS | $700M strategic equity from [[Accel]], [[NVIDIA]], and [[Orbis Investments]]-managed accounts; ~$4.3375B convertible notes | [[Microsoft]] and [[Meta]] customer contracts support the buildout, but are not sponsor capital | Public-equity / convertible-market risk, with GPU-cloud execution risk |
 
-The key distinction: Blackstone is an equity sponsor for the TPU JV but a debt/private-credit anchor around CoreWeave. Nebius is different again — it is using strategic equity and capital markets rather than a Blackstone-style infra JV. See [[Neocloud financing]] for the fuller side-by-side.
+The key distinction: Blackstone is an equity sponsor for the [[TPU]] JV but a debt/private-credit anchor around CoreWeave. Nebius is different again — it is using strategic equity and capital markets rather than a Blackstone-style infra JV. See [[Neocloud financing]] for the fuller side-by-side.
 
 ---
 
@@ -147,7 +153,7 @@ See [[CoreWeave]] for full business model.
 | Firm | AUM | AI infra exposure |
 |------|-----|-------------------|
 | [[Blue Owl]] | $273B | Meta $27B, Crusoe — largest AI infra financier |
-| [[Blackstone]] | $1.3T+ | [[QTS]], CoreWeave debt, Google-Blackstone TPU JV equity |
+| [[Blackstone]] | $1.3T+ | [[QTS]], CoreWeave debt, Google-Blackstone [[TPU]] JV equity |
 | [[Apollo]] | $650B+ | Meta, [[xAI]] debt |
 | [[Brookfield]] | $900B+ | [[Infrastructure]] focus |
 
@@ -155,7 +161,7 @@ See [[CoreWeave]] for full business model.
 
 | Firm | Role |
 |------|------|
-| [[Pimco]] | $18B anchor in Meta SPV |
+| [[PIMCO]] | $18B anchor in Meta SPV |
 | [[BlackRock]] | $3B+ Meta, infrastructure fund |
 
 ### [[Banks]]
@@ -191,13 +197,13 @@ Three data anchors:
 
 | Data point | Source / attribution | Read |
 |------------|----------------------|------|
-| Private markets scale | JPMAM on Bloomberg cited ~$21T | Large enough to move the financing frontier, but not large enough to ignore manager selection and vintage risk |
-| U.S./Europe power demand | JPMAM cited ~2.5% annual growth after 20 years flat | Confirms load growth is now an allocator thesis, not just a utility-planning issue |
-| Infrastructure need | McKinsey's 2026 infrastructure report cites $106T global infrastructure need through 2040 and nearly $7T of data-center investment through 2030 | Capital stack must fund grids, generation, cooling, and digital infrastructure together |
+| [[Private markets]] scale | JPMAM on Bloomberg cited ~$21T | Large enough to move the financing frontier, but not large enough to ignore manager selection and vintage risk |
+| U.S./[[Europe]] power demand | JPMAM cited ~2.5% annual growth after 20 years flat | Confirms load growth is now an allocator thesis, not just a utility-planning issue |
+| Infrastructure need | [[McKinsey]]'s 2026 infrastructure report cites $106T global infrastructure need through 2040 and nearly $7T of data-center investment through 2030 | Capital stack must fund grids, generation, cooling, and digital infrastructure together |
 
 No specific power plant, [[Power purchase agreement|PPA]], interconnection, grid region, or site was disclosed in the Bloomberg segment. The correct filing is therefore concept-level: private capital is crowding into the physical-services layer, but each actual deal still needs the [[Power constraints]] diligence checklist before being treated as executable capacity.
 
-*Sources: Bloomberg Television / YouTube transcript, May 20 2026; McKinsey Global Infrastructure Report 2026; J.P. Morgan Asset Management "Why Alternatives?", data as of Mar 2026.*
+*Sources: Bloomberg Television / [[YouTube]] transcript, May 20 2026; [[McKinsey]] Global Infrastructure Report 2026; J.P. Morgan Asset Management "Why Alternatives?", data as of Mar 2026.*
 
 ---
 
@@ -210,7 +216,7 @@ The May 8 FT / [[Visible Alpha]] hyperscaler cash-flow pass is now the bridge be
 | Buyback deferral | [[Alphabet]] and [[Meta]] reported no Q1 2026 share repurchases | Cash is being retained for technical infrastructure |
 | Corporate debt | Alphabet's Q1 10-Q shows $31.4B of debt proceeds; Meta's Q1 10-Q shows $59.0B senior notes outstanding | IG balance sheets are becoming part of the AI capacity stack |
 | Project finance / SPVs | Meta-style off-balance-sheet data-center vehicles and Oracle/OpenAI project finance push exposure away from headline corporate debt | Reported leverage can understate economic risk |
-| Metric discretion | [[Christian Leuz]] notes that free cash flow is not standardized under GAAP | FCF comparisons need lease/SBC/project-finance adjustments |
+| Metric discretion | [[Christian Leuz]] notes that free cash flow is not standardized under [[GAAP]] | FCF comparisons need lease/SBC/project-finance adjustments |
 
 The key distinction is between a temporary cash-flow trough and a structural funding regime change. If AI revenue catches up in 2027, the trough is a working-capital bridge. If demand disappoints or component inflation persists, the same structures become the transmission channel into [[AI infrastructure financing risk]].
 
@@ -233,6 +239,16 @@ If Meta proceeds, the funding taxonomy changes again. The AI buildout would have
 No new power plant, [[Power purchase agreement]], interconnection, grid region, or MW target was disclosed. This is a capital-stack story, not a new physical-capacity asset.
 
 *Source: [FT](https://www.ft.com/content/e6df645d-1709-4a77-b15d-aa43a0209efd), Jun. 5 2026.*
+
+### Market-window stress test (Jun 5 2026)
+
+The Jun. 5 [[Nasdaq semiconductor selloff June 2026]] adds the market-window side of the same funding story. The day was not an announced financing failure: it was a rates shock after a strong payrolls report. But it hit exactly the assets whose valuations make the AI buildout financeable: [[Nasdaq]] Composite -4.18%, [[QQQ]] -4.80%, [[SOXX]] -10.44%, and [[SMH]] -9.22% in local close data.
+
+The financing implication is that common equity is now both a solution and a vulnerability. [[Alphabet]] showed the market can absorb an $85B AI-infrastructure raise; [[Meta]] showed a second hyperscaler may test the same channel; the Jun. 5 tape shows that the same channel can become expensive quickly if higher yields compress AI-duration multiples before issuers launch.
+
+For deal taxonomy, this does not create a new structure. It changes the risk attached to the existing structures: IPO primary equity, hyperscaler equity issuance, convertibles, ATMs, and equity-linked securities all depend on a friendly market window. When that window weakens, the buildout leans harder on debt, private credit, leases, and customer offtake.
+
+*Sources: [FT](https://www.ft.com/content/2929bbd3-1f71-4424-a577-f016c3c65603), Jun. 5 2026; local `prices_long` closes through Jun. 5 2026.*
 
 ---
 
@@ -297,12 +313,13 @@ Sources:
 - [[GPU-as-collateral]] — financing concept
 - [[AI financing structures]] — financing concept
 - [[AI infrastructure financing risk]] — counterpoint (cascade risk)
+- [[Hyperscaler capex]] — demand-side capex envelope that creates the funding need
 - [[Blue Owl]] — key financier
 - [[Blackstone]] — key financier
 - [[CoreWeave]] — GPU-collateral pioneer
 - [[Nebius]] — listed GPU neocloud capital-markets stack
-- [[Google-Blackstone TPU cloud venture 2026]] — chip-backed TPU neocloud JV
-- [[Neocloud financing]] — capital-provider map across CRWV / NBIS / TPU JV
+- [[Google-Blackstone TPU cloud venture 2026]] — chip-backed [[TPU]] neocloud JV
+- [[Neocloud financing]] — capital-provider map across CRWV / NBIS / [[TPU]] JV
 - [[SpaceX IPO 2026]] — IPO primary equity and customer-offtake case
 - [[Meta]] — SPV template deal + Project Walleye (combined DC + power financing)
 - [[EdgeConneX]] — Meta-backed DC operator, first combined DC + power loan ($3B, [[EQT]])
