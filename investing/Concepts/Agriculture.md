@@ -1,5 +1,5 @@
 ---
-aliases: [agriculture, agricultural commodities, grains, [[DBA]], ag commodities]
+aliases: [agriculture, agricultural commodities, grains, DBA, ag commodities]
 ---
 #concept #commodities #agriculture
 

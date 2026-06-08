@@ -1,4 +1,8 @@
-#index #MOC
+---
+aliases: [Foundry Wars, foundry wars, advanced foundry competition]
+tags: [concept, semiconductors, foundry, index]
+---
+#concept #semiconductors #foundry #index #MOC
 
 Research on the competitive dynamics of advanced semiconductor foundries.
 
@@ -207,6 +211,18 @@ Key analytical takeaways:
 | [[Long Intel]] | Strengthening — TERAFAB + Apple = two anchor pillars |
 | [[Long memory]] | Intact — shortage unchanged by foundry shuffle |
 | [[Long WFE]] | Strengthening — more US fab build implied |
+
+---
+
+## Related
+
+- [[Semiconductors]] — parent industry context
+- [[AI Race]] — demand-side counterpart for AI compute buyers and applications
+- [[TSMC]] — dominant advanced foundry incumbent
+- [[Samsung]] — challenger foundry and memory supplier
+- [[Intel Foundry Services]] — US foundry turnaround vehicle
+- [[Advanced packaging]] — CoWoS, EMIB, Foveros, and packaging bottlenecks
+- [[CHIPS Act]] — US industrial-policy framework shaping foundry capacity
 
 ---
 

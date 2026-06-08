@@ -48,3 +48,14 @@ CrowdStrike said infected machines now beacon to the benign CrowdStrike-operated
 - CrowdStrike, ["Inside CrowdStrike's Takedown of a Developer-Targeting Botnet"](https://www.crowdstrike.com/en-us/blog/inside-crowdstrike-takedown-of-a-developer-targeting-botnet/), May 2026.
 - Jessica Lyons, ["CrowdStrike, Google shatter Glassworm botnet"](https://www.theregister.com/cyber-crime/2026/05/27/crowdstrike-google-shatter-glassworm-botnet/5247337), *The Register*, May 27 2026.
 - Lorenzo Franceschi-Bicchierai, ["CrowdStrike and Google take down botnet used by hackers to target open source software developers"](https://techcrunch.com/2026/05/27/crowdstrike-and-google-take-down-botnet-used-by-hackers-to-target-software-developers-in-supply-chain-attacks/), *TechCrunch*, May 27 2026.
+
+---
+
+## Related
+
+- [[Software supply chain attacks]] — developer tooling and package registry compromise pattern
+- [[CrowdStrike]] — takedown participant and endpoint telemetry read-through
+- [[Google]] — C2 abuse surface and takedown participant
+- [[Cybersecurity]] — sector context for supply-chain and developer-environment risk
+- [[Agentic AI security]] — adjacent trust boundary for agents, extensions, and toolchains
+- [[Security control points]] — durable security-spend thesis this event supports
