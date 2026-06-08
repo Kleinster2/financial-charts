@@ -253,7 +253,7 @@ Pattern: defense AI ([[Palantir]]) now leads the defense sector on Iran escalati
 - [[US-Iran nuclear escalation February 2026]] — pre-strike scenario (Feb 18)
 
 ---
-
+- [[Space pure-plays]]
 ## Zakaria's "New Arithmetic of War" — the macro framing (March 20, 2026)
 
 Fareed Zakaria's Washington Post column (syndicated in Foreign Policy) crystallized the drone economics thesis under the label **"Iran and the New Arithmetic of War."**

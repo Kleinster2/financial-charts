@@ -328,3 +328,4 @@ Sources:
 - [[OpenAI]] — 26 GW committed
 - [[Significant risk transfer]] — banks offloading exposure
 - [[Power constraints]] — capital alone isn't enough
+- [[AI hyperscalers]]

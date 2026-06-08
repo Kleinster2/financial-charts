@@ -210,3 +210,4 @@ The live test is whether the market keeps treating $90 Brent, explicit war-risk 
 ---
 
 *Sources: CFR panel (March 17, 2026); FT Rachman Review (March 12, 2026); Robin J. Brooks Substack (March 8-9, 2026); [[Paul Sankey]]/[[Sankey Research]] (March 14, 2026); Ruchir Sharma FT column (April 6, 2026).*
+- [[Agriculture]]

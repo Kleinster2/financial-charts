@@ -187,7 +187,7 @@ Real Estate Investment Trusts — tax-advantaged structures for real estate owne
 - [[Banks]] — financing providers
 
 ---
-
+- [[Crypto-to-AI]]
 ## Sources
 
 - Nareit

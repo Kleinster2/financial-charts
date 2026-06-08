@@ -225,7 +225,7 @@ German Defense Minister Boris Pistorius: "To make it crystal clear, this war is 
 - [[Patrick Foulis]] — author of the "golden age of arbitrage" frame
 
 ---
-
+- [[Rate expectations]]
 ## Sources
 
 - [Federal Reserve FOMC Projections](https://www.federalreserve.gov/monetarypolicy/fomcprojtabl20251210.htm) (Dec 2025)

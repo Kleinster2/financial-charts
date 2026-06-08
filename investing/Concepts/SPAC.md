@@ -244,3 +244,4 @@ SPACs appear throughout the vault as a funding mechanism, usually in cautionary 
 ---
 
 *Created 2026-01-24*
+- [[Boutique advisory consolidation]]

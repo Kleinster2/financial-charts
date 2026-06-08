@@ -245,4 +245,4 @@ China peak oil demand: the biggest single-country demand story. Chinese diesel d
 
 ### Cross-vault
 - [Technologies: Oil](obsidian://open?vault=technologies&file=Oil) — refining processes, hydrocarbon chemistry, extraction technology
-
+- [[Urals crude]]

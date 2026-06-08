@@ -276,3 +276,4 @@ Trump mentioned [[Canada]] could join for **$61B** (~5% of Bloomberg estimate). 
 *Source: Bloomberg, "Golden Dome: The Astronomical Cost of Defeating 'Any Foreign Aerial Attack'", Dec 11, 2025*
 
 *Created 2026-01-10*
+- [[Space pure-plays]]

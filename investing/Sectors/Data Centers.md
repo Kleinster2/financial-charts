@@ -305,7 +305,7 @@ REITs and Crypto-to-AI are fundamentally different businesses despite both ownin
 - [[V.tal]] — fiber + Tecto DCs (BTG Pactual)
 
 ---
-
+- [[Crypto-to-AI]]
 ## Sources
 
 - Synergy Research Group

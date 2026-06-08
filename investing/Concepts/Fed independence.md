@@ -259,7 +259,7 @@ Operational Fed-procedure markets are thinner and should be treated as color, no
 - [[Adam Glapiński]] — NBP President, aggressive inflation fighter
 
 ---
-
+- [[Rate expectations]]
 ## Sources
 
 - [PBS: Why the Federal Reserve's independence matters](https://www.pbs.org/newshour/nation/why-the-federal-reserves-independence-from-the-white-house-matters)

@@ -688,3 +688,5 @@ SoftBank's 5 GW French data-center plan is the nuclear-grid version of BYOP. Ins
 - [[Google]] — 12-year grid queue quote, colocation strategy
 - [[Intersect Power]] — Google's $4.75B acquisition to bypass grid queues
 - [[Defense energy vulnerability]] — defense manufacturing competes for same grid (CSIS, March 2026)
+- [[AI infrastructure financing risk]]
+- [[Crypto-to-AI]]

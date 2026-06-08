@@ -417,3 +417,4 @@ Secondary markets are how non-VCs access AI winners:
 - [[Anthropic]] — $380B, secondary demand
 - [[Anduril]] — defense tech, heavy SPV activity despite no open investment opportunities
 - [[Private Market Access]] — listed vehicles packaging secondaries for retail
+- [[Venture Capital]]

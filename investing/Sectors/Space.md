@@ -385,7 +385,8 @@ The exports use commercial wrapping ([[Military-civil fusion]] talent and fundin
 - [[Submarine Cables]] — connectivity alternative
 
 ---
-
+- [[Physical AI]]
+- [[Space pure-plays]]
 ## Sources
 
 - Space Foundation

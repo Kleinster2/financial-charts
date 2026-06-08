@@ -139,4 +139,4 @@ The [[Chile-China Express]] cable (Valparaiso → Hong Kong, [[China Mobile]]) t
 - [Geopolitics: Internet Geopolitics](obsidian://open?vault=geopolitics&file=Concepts%2FInternet%20Geopolitics) — governance models, infrastructure control
 - [Geopolitics: Baltic Sea Cable Sabotage](obsidian://open?vault=geopolitics&file=Current%20Events%2FBaltic%20Sea%20Cable%20Sabotage) — sabotage vector, NATO response
 - [Geopolitics: Digital Sovereignty](obsidian://open?vault=geopolitics&file=Concepts%2FDigital%20Sovereignty) — state control frameworks
-
+- [[Space]]

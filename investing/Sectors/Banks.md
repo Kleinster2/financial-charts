@@ -164,7 +164,7 @@ JPM generates **40% more revenue per employee** than WFC and **2x profit per emp
 - [[Berkshire Hathaway]] — owns BofA stake
 - [[Apollo]], [[Blackstone]] — private credit competition
 - [[Institutional homebuying ban]] — regulatory risk example
-
+- [[Fintech]]
 ## Sources
 
 - TBD

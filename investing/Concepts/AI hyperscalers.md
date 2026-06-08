@@ -230,3 +230,4 @@ Historical verdict: regime-dependent / fragmenting cluster; current rolling cohe
 - [[Broadcom]] — enabler (custom silicon design)
 - [[AI infrastructure financing]] — how capex is funded
 - [[Lingotto]] — Anderson/Samet source of May 2026 platform-vs-supplier framing
+- [[AI infrastructure financing risk]]

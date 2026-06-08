@@ -119,3 +119,4 @@ Whether these amount to a structural shift or opportunistic posturing is debatab
 ---
 
 *Created 2026-01-16*
+- [[Iran conflict FX dynamics]]

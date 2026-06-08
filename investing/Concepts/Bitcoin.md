@@ -193,3 +193,4 @@ See [[Crypto-to-AI]] for miners pivoting to AI hosting.
 - [[Gold]] — analog store of value
 
 *Created 2026-01-31*
+- [[Crypto-to-AI]]

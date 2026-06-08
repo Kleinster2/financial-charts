@@ -210,3 +210,4 @@ Under IFRS 9 / ASC 815, companies can exclude the currency basis spread from hed
 ---
 
 *Created 2026-02-01.*
+- [[Iran conflict FX dynamics]]

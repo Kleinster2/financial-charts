@@ -317,3 +317,5 @@ Sector re-rated sharply in 2025 on rearmament thesis. Primes now trading well ab
 ---
 
 *Updated 2026-04-08*
+- [[Space]]
+- [[Space pure-plays]]

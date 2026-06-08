@@ -297,7 +297,8 @@ Giles's assessment: more concerned about the "-flation" than the "stag-" side. M
 *Created 2026-03-03. Restructured 2026-03-21 — child notes split out. Updated 2026-03-28 — Tooze US distributional impact, green transition J-curve, petro-state critique. Updated 2026-05-17 — FT peak-summer crunch framing, IEA 76-country count, stockpile arithmetic, charts.*
 
 ---
-
+- [[Agriculture]]
+- [[Iran conflict FX dynamics]]
 ## May 17 — peak-summer crunch in view (FT)
 
 *Source: [FT, "Iran energy crisis enters new phase as peak summer season approaches"](https://www.ft.com/content/f636f726-b185-4f6a-91d2-75ea3d1b9beb), May 17, 2026.*

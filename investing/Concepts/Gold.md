@@ -307,3 +307,4 @@ Sentiment indicators:
 ---
 
 *Updated 2026-04-08. Sources: FT (Hook/Rathbone, Apr 8 2026), Metals Focus, World Gold Council, Bloomberg, JPMorgan, [[State Street]], Julius Baer, Fortune.*
+- [[Iran conflict FX dynamics]]

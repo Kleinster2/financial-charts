@@ -173,4 +173,4 @@ Early stage, mostly speculative.
 - [[Prediction markets]] — event contracts (CFTC jurisdiction)
 - [[Stablecoins]] — reserve economics, regulatory frameworks, yield mechanics
 - [[Brazilian real stablecoins]] — BRL-pegged ecosystem (7 tokens, 230x growth since 2021)
-
+- [[Fintech]]

@@ -223,3 +223,4 @@ The model contrasts sharply with the US: the Army's [[Anduril]] contract announc
 ---
 
 *Updated 2026-02-27. Bundeswehr three-supplier drone model added 2026-04-17.*
+- [[Space]]

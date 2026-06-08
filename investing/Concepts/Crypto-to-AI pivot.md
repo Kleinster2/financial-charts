@@ -184,4 +184,4 @@ Avoid pure Bitcoin:
 - [[DePIN]] — parent category (decentralized physical infrastructure networks, of which AI-focused DePIN is a subset)
 - [[GPU-as-a-Service]] — the business model miners are pivoting into
 - [[Shell company AI pivot]] — adjacent playbook trading on listing reuse rather than infrastructure reuse ([[NewBird AI]] case)
-
+- [[Crypto-to-AI]]

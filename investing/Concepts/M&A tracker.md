@@ -139,3 +139,4 @@ See [[Boutique advisory consolidation]] for the structural pattern. Listed bouti
 - [[Pharma]] — patent cliff M&A wave
 - [[Big Law transformation]] — supply-side reshaping of the legal advisory layer for every deal in this tracker
 - [[Wachtell Lipton]], [[Kirkland & Ellis]], [[Latham & Watkins]] — primary M&A advisory firms
+- [[Boutique advisory consolidation]]

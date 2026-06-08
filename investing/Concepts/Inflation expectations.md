@@ -178,3 +178,4 @@ Source: NY Fed SCE (via Bloomberg, Apr 7, 2026), Rieder Bloomberg TV (Apr 7, 202
 - [[Spencer Dale]] — supply shock sizing, price elasticity framework
 
 *Updated 2026-04-08 — Eurozone/UK breakeven data, 2022 parallel (Giles/FT).*
+- [[Rate expectations]]

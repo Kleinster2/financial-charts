@@ -255,3 +255,4 @@ The Apr 27 readthrough on Bloomberg "The China Show": fewer than 5% of stocks on
 - [[CHIPS Act]] — driver (subsidies for domestic buildout)
 - [[N-2 rule]] — limitation (constrains Arizona to older nodes)
 - [[Supply chain bottlenecks]] — constraints beyond geography
+- [[Foundry monopoly consolidation]]

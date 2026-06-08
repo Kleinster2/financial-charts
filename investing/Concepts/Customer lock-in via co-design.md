@@ -52,3 +52,4 @@ A competitor benefits not by being better than TSMC, but by being **available** 
 - [[Samsung]] — alternative (gets overflow when TSMC full)
 - [[Yield as competitive moat]] — related concept
 - [[N-2 rule]] — context (capacity constraints)
+- [[Foundry monopoly consolidation]]

@@ -335,3 +335,4 @@ Sell imagery or analytics, not raw capacity.
 - [[Planet Labs]] — earth observation
 - [[Amazon]] — Project Kuiper
 - [[Defense]] — government customer
+- [[Space pure-plays]]

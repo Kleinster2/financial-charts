@@ -939,7 +939,7 @@ Historical verdict: regime-dependent but measurable cluster; cohesion exists, bu
 ## Related
 
 ### Parent
-- [[Sectors/Space|Space]] — sector hub (industry overview, all segments incl. private + heritage defense)
+- [[Space]] — sector hub (industry overview, all segments incl. private + heritage defense)
 
 ### Concepts
 - [[Satellite primer]] — orbital mechanics + constellation economics

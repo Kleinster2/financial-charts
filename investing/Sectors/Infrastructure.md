@@ -158,3 +158,4 @@ Risks:
 - [[Strait of Malacca]], [[Ras Laffan]], [[SUMED pipeline]] — geopolitical chokepoints (vault Infrastructure/ folder)
 
 *Created 2026-03-30*
+- [[Gaming]]

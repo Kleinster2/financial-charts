@@ -145,7 +145,7 @@ For [[SpaceX]], CLD outcomes affect Starship launch cadence (Star Lab is a 2029 
 - [[Chad Anderson]] — Space IQ briefing
 
 ---
-
+- [[Space]]
 ## Sources
 
 - [Wikipedia — Commercial LEO Destinations program](https://en.wikipedia.org/wiki/Commercial_LEO_Destinations_program)

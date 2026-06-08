@@ -164,3 +164,4 @@ The steepener's vulnerability: it worked under every scenario *except* a real-ec
 ---
 
 *Created 2026-01-15. Updated 2026-04-08 — March 2026 Iran war unwind.*
+- [[Rate expectations]]

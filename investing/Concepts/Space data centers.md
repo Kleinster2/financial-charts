@@ -233,7 +233,8 @@ That does not weaken the orbital thesis by itself. It clarifies timing: terrestr
 - [[Chad Anderson]] — Space Capital Space IQ Q1 2026 briefing
 
 ---
-
+- [[Space]]
+- [[Space pure-plays]]
 ## SpaceX-xAI merger (Feb 2, 2026)
 
 **Merger rationale explicitly cites space DCs:**

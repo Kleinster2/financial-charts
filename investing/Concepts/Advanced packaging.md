@@ -276,7 +276,7 @@ The takeaway: for packaging-theme exposure, prioritize names where the theme is 
 
 ### Cross-vault
 - [Technologies: Advanced Packaging](obsidian://open?vault=technologies&file=Advanced%20Packaging) — full technical breakdown: CoWoS generations, interposer stitching, hybrid bonding, TSV mechanics, Intel EMIB/Foveros (specs, generations, products)
-
+- [[Foundry monopoly consolidation]]
 ## Sources
 
 - Jason's Chips: [Short n Casual Intro to Packaging](https://jasonschips.substack.com/p/short-n-casual-advanced-packaging) — technical evolution primer (March 2026)
