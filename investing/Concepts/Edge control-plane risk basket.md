@@ -125,18 +125,74 @@ Watch for:
 
 Re-validation via `scripts/cluster_analysis.py --config scripts/cluster_configs/ecpr.yaml` (full procedure in `docs/cluster-validation.md`) confirms the note's own prior assessment ("intermittent cluster, weaker than [[Security control points]]").
 
-**Result: weak cluster.** Intra-cluster correlation 0.47 (below the 0.50 floor), PC1 64.8%. Hierarchical clustering at 0.4 returns ALL THREE names as singletons — no ECPR cluster forms at the standard threshold. The cluster is real on event days but does not sustain as a durable structural grouping.
+Result: weak cluster. Intra-cluster correlation 0.47 (below the 0.50 floor), PC1 64.8%. Hierarchical clustering at 0.4 returns ALL THREE names as singletons — no ECPR cluster forms at the standard threshold. The cluster is real on event days but does not sustain as a durable structural grouping.
 
 | Diagnostic | Result | Interpretation |
 |---|---|---|
-| Avg intra-cluster correlation (1Y) | **0.47** (range 0.42-0.55) | Weak — fails the 0.50 cluster floor |
-| PC1 explained variance | **64.8%** | Dominant single factor exists but cluster too loose |
+| Avg intra-cluster correlation (1Y) | 0.47 (range 0.42-0.55) | Weak — fails the 0.50 cluster floor |
+| PC1 explained variance | 64.8% | Dominant single factor exists but cluster too loose |
 | Hierarchical clustering at 0.4 | All 3 singletons (FSLY, AKAM, NET) | Cluster does not form at standard threshold |
 | Cluster vs SCP core (CRWD, PANW, ZS) | 0.37 | Edge ≠ control points; small +0.10 separation |
 | Cluster vs hyperscalers (MSFT, GOOGL, AMZN) | 0.11 | Clear +0.36 separation — confirms edge is its own factor |
 | Cluster vs broad ETFs (IGV, XLK, SPY) | 0.20-0.29 | Edge factor is distinct from broad market |
 
 PC1 loadings are tight (FSLY 0.59, AKAM 0.60, NET 0.54) — the three names DO share a common factor, but the loading is muted by their idiosyncratic stories (FSLY = developer-edge pure-play, AKAM = enterprise-CDN incumbent, NET = AI-enabled platform). The note's framing is correct: the basket is a *risk factor that turns on during control-plane narrative shocks*, not a permanent cluster. Use as event-driven trade, not a structural basket.
+
+---
+
+## Cluster validation compliance addendum (2026-06-07)
+
+Generated from `scripts/cluster_configs/ecpr.yaml` using `scripts/cluster_analysis.py` methodology. The 1Y diagnostic window is 2025-05-01 to 2026-04-30 (171 observations); the rolling history starts at `2020-01-01` where data are available.
+
+### Required validation plots
+
+![[ecpr-cluster-correlation-1y.png]]
+
+*One-year correlation heatmap for the `Edge control-plane risk basket (ECPR)` validation universe.*
+
+![[ecpr-cluster-dendrogram-1y.png]]
+
+*Hierarchical clustering tree using average linkage on distance `1-|corr|`.*
+
+![[ecpr-cluster-pca-1y.png]]
+
+*PCA diagnostic for the candidate cohort; PC1 explains 64.5% of standardized daily-return variance.*
+
+### PC1 index weights vs cluster topology
+
+The topology table answers which names join the tree first or last. The raw PC1-mimic table answers which raw-return weights best replicate the standardized common factor after realized-volatility scaling. These are deliberately different readings of the same cluster.
+
+| Step | Left | Right | Distance (1-\|corr\|) | Read |
+|---|---|---|---|---|
+| 1 | FSLY | AKAM | 0.459 | Tightest merge |
+| 2 | NET | FSLY+AKAM | 0.570 | Final cohort join / loosest boundary |
+
+| Ticker | PC1 loading | Normalized loading weight | Ann. vol | Raw PC1-mimic weight |
+|---|---|---|---|---|
+| FSLY | 0.590 | 34.07% | 111.19% | 19.98% |
+| AKAM | 0.596 | 34.46% | 51.52% | 43.63% |
+| NET | 0.545 | 31.47% | 56.42% | 36.39% |
+
+Interpretation: use the dendrogram / join-distance topology to identify the tight core and later-joining members; use the Raw PC1-mimic weight column only for investable factor-replication sizing.
+
+### Historical tightness evolution
+
+![[ecpr-cluster-rolling-tightness-90d.png]]
+
+*Ninety-day rolling tightness diagnostic: avg intra-correlation, PC1 share, core correlation, satellite-to-core correlation, and final candidate join distance.*
+
+| Year | Avg corr median | PC1 median | Core corr median | Satellite-to-core median | Final join distance median |
+|---|---|---|---|---|---|
+| 2021 | 0.472 | 65.4% | 0.472 | n/a | 0.603 |
+| 2022 | 0.508 | 67.4% | 0.508 | n/a | 0.549 |
+| 2023 | 0.577 | 72.1% | 0.577 | n/a | 0.509 |
+| 2024 | 0.346 | 56.7% | 0.346 | n/a | 0.688 |
+| 2025 | 0.431 | 62.2% | 0.431 | n/a | 0.608 |
+| 2026 | 0.376 | 58.5% | 0.376 | n/a | 0.656 |
+
+Latest 90D through 2026-04-30: avg corr 0.556, PC1 70.5%, core corr 0.556, satellite-to-core corr n/a, final join distance 0.480.
+
+Historical verdict: regime-dependent but measurable cluster; cohesion exists, but the rolling path is not consistently tight enough to call structurally durable.
 
 ---
 

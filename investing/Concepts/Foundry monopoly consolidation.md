@@ -1,13 +1,17 @@
 #concept #foundry #moat #structure
 
 > [!failure] Cluster status: falsified as basket (May 2026) — falsification CONFIRMS the monopoly thesis
-> Intra-cluster correlation only 0.21 across TSM/INTC/GFS/Samsung — Samsung essentially uncorrelated with TSM (-0.02). The foundries don't trade as peers because they aren't peers — TSM has subordinates competing in adjacent markets, not real competitors. Long the monopoly = long TSM directly (or via SMH where TSM is dominant holding). See "Cluster validation — falsified, asymmetry confirmed" section below.
+> Intra-cluster correlation only 0.21 across TSM/INTC/GFS/Samsung — Samsung essentially uncorrelated with TSM (-0.02). The foundries don't trade as peers because they aren't peers — TSM has subordinates competing in adjacent markets, not real competitors. Long the monopoly = long TSM directly (or via [[SMH]] where TSM is dominant holding). See "Cluster validation — falsified, asymmetry confirmed" section below.
 
-**Foundry monopoly consolidation** — the structural dynamics that make leading-edge chip manufacturing winner-take-most, and why the leader's advantage compounds rather than erodes.
+Foundry monopoly consolidation — the structural dynamics that make leading-edge chip manufacturing winner-take-most, and why the leader's advantage compounds rather than erodes.
 
-> **Key insight:** Foundry isn't a normal competitive market. The leader doesn't just have advantages — they have *reinforcing* advantages that make catching up harder over time, not easier.
+> Key insight: Foundry isn't a normal competitive market. The leader doesn't just have advantages — they have *reinforcing* advantages that make catching up harder over time, not easier.
 
 ---
+
+## Synthesis
+
+Foundry monopoly consolidation is a falsified-cluster thesis: the absence of a tight peer basket is the point. [[TSMC]] does not trade like [[Intel Foundry Services|Intel Foundry]], [[GlobalFoundries]], or [[Samsung]] because leading-edge foundry is not a symmetric market; the leader compounds process, packaging, yield, customer trust, and capital intensity. The PC1 [[index]] diagnostics therefore support the qualitative thesis: long the monopoly directly or through semis exposure, rather than pretending "foundries" are a normal peer group.
 
 ## The 5 reinforcing dynamics
 
@@ -22,15 +26,15 @@ Advanced chips are too expensive to manufacture in-house. The cost to build a le
 | [[AMD]] | Spun off fabs ([[GlobalFoundries]]) for a reason |
 | [[Qualcomm]] | Volume too low to justify captive capacity |
 
-**The math:** Even Apple, with $100B+ cash, can't justify ~$100B in fab capex for inferior yields. Controlling unit economics prevents customers from becoming competitors.
+The math: Even Apple, with $100B+ cash, can't justify ~$100B in fab capex for inferior yields. Controlling unit economics prevents customers from becoming competitors.
 
 ### 2. Packaging as second moat
 
-[[Advanced packaging]] (CoWoS, SoIC) now represents 20-30% of total chip cost. The leader controls both the foundry *and* the packaging — customers face double lock-in.
+[[Advanced packaging]] ([[CoWoS]], SoIC) now represents 20-30% of total chip cost. The leader controls both the foundry *and* the packaging — customers face double lock-in.
 
 | Metric | Impact |
 |--------|--------|
-| CoWoS share | [[TSMC]] ~90%+ |
+| [[CoWoS]] share | [[TSMC]] ~90%+ |
 | 2025 bottleneck | Packaging, not wafers |
 | 2026 target | 120K wafers/month (2x expansion) |
 
@@ -40,12 +44,12 @@ If TSMC hits packaging targets, customers have no alternative for either foundry
 
 Fabs require specific resources: ultra-pure water, stable power, skilled labor, industrial land. The leader can lock up these resources preemptively.
 
-**[[Taiwan]] constraints:**
+[[Taiwan]] constraints:
 - Power: 97% imported energy
 - Water: Recurring droughts, fabs compete with agriculture
 - Land: Industrial sites increasingly scarce
 
-**Strategic response:** By expanding in Arizona, [[Japan]], and [[Germany]] while also grabbing [[Taiwan]] resources, TSMC starves competitors of the physical inputs they need.
+Strategic response: By expanding in Arizona, [[Japan]], and [[Germany]] while also grabbing [[Taiwan]] resources, TSMC starves competitors of the physical inputs they need.
 
 ### 4. Technology resets favor the incumbent
 
@@ -57,7 +61,7 @@ New architectures (FinFET → GAA/nanosheet) require massive R&D and capital. On
 | FinFET → GAA | TSMC first at scale (2025) |
 | 2nm nanosheet | Higher margins, TSMC exclusive |
 
-**The paradox:** Technology "resets" don't help challengers — they help incumbents who can outspend the transition.
+The paradox: Technology "resets" don't help challengers — they help incumbents who can outspend the transition.
 
 ### 5. Customer concentration enables pricing
 
@@ -89,7 +93,7 @@ Each advantage feeds the others. The flywheel accelerates.
 
 ## Why challengers can't catch up
 
-| Challenger path | Why it fails |
+| [[Challenger]] path | Why it fails |
 |-----------------|--------------|
 | Outspend on R&D | Leader's cash flow is 3-5x larger |
 | Undercut on price | Yield gap means higher costs |
@@ -97,7 +101,7 @@ Each advantage feeds the others. The flywheel accelerates.
 | New architecture | Transitions favor capital-rich incumbent |
 | Government subsidy | Helps, but can't close yield gap |
 
-**The uncomfortable truth:** Samsung and [[Intel]] aren't failing due to lack of effort or capital. The structure of the industry makes catching up nearly impossible once a gap opens.
+The uncomfortable truth: Samsung and [[Intel]] aren't failing due to lack of effort or capital. The structure of the industry makes catching up nearly impossible once a gap opens.
 
 ---
 
@@ -106,28 +110,28 @@ Each advantage feeds the others. The flywheel accelerates.
 | Scenario | Probability | Notes |
 |----------|-------------|-------|
 | [[Taiwan]] disruption | Low but catastrophic | Only scenario that forcibly shifts production |
-| Sustained yield parity | Low | Samsung improving but still 10-15% behind |
+| Sustained yield parity | Low | [[Samsung]] improving but still 10-15% behind |
 | Customer vertical integration | Very low | Economics don't work even for Apple |
 | Antitrust action | Low | No jurisdiction has leverage |
 | Technology discontinuity | Unknown | Quantum, photonics — decades away |
 
-**The bear case for TSMC isn't competition — it's geopolitics.**
+The bear case for TSMC isn't competition — it's geopolitics.
 
 ---
 
 ## Investment implications
 
-**For TSMC bulls:**
+For TSMC bulls:
 - Monopoly dynamics justify premium valuation
 - Pricing power underappreciated
 - Arizona/[[Japan]] expansion extends moat geographically
 
-**For Samsung/[[Intel]] bulls:**
+For Samsung/[[Intel]] bulls:
 - Must believe in sustained yield improvement
 - Or bet on [[Taiwan]] disruption scenario
 - Structural position is genuinely difficult
 
-**For customers (Apple, NVIDIA):**
+For customers (Apple, NVIDIA):
 - Locked in, but lock-in is mutual
 - TSMC needs anchor customers for utilization
 - Relationship is symbiotic, not exploitative
@@ -136,34 +140,34 @@ Each advantage feeds the others. The flywheel accelerates.
 
 ## Cluster validation — falsified, asymmetry confirmed (May 2026)
 
-The "foundry" cohort (TSM, INTC, GFS, Samsung) is a STRUCTURAL grouping by business model, NOT a tradable cluster. Validated 2026-05-03 via `scripts/cluster_analysis.py --config scripts/cluster_configs/foundry.yaml`. Procedure in `docs/cluster-validation.md`. Note: UMC unavailable in local DB; Samsung via 005930.KS Korea listing.
+The "foundry" cohort (TSM, INTC, GFS, Samsung) is a STRUCTURAL grouping by business model, NOT a tradable cluster. Validated 2026-05-03 via `scripts/cluster_analysis.py --config scripts/cluster_configs/foundry.yaml`. Procedure in `docs/cluster-validation.md`. Note: [[UMC]] unavailable in local DB; Samsung via 005930.KS Korea listing.
 
-**Result: falsified — but the falsification reinforces the monopoly thesis.** Intra-cluster correlation 0.21 (range -0.02 to 0.45), PC1 only 45.5%. Hierarchical clustering at 0.4 shows TSM clustering with semi equipment + SMH/SOXX/SPY (it IS the broad semi tape), while INTC, GFS, Samsung are all standalones.
+Result: falsified — but the falsification reinforces the monopoly thesis. Intra-cluster correlation 0.21 (range -0.02 to 0.45), PC1 only 45.5%. Hierarchical clustering at 0.4 shows TSM clustering with semi equipment + [[SMH]]/[[SOXX]]/[[SPY]] (it IS the broad semi tape), while INTC, GFS, Samsung are all standalones.
 
 | Diagnostic | Result | Interpretation |
 |---|---|---|
-| Avg intra-cluster correlation (1Y) | **0.21** (range -0.02 to 0.45) | Wildly weak — Samsung essentially uncorrelated with TSM/INTC/GFS |
-| PC1 explained variance | **45.5%** | Multi-factor; Samsung loads ~0.0 on PC1 (not part of factor) |
-| Hierarchical clustering at 0.4 | TSM merges with semi equipment + SMH; INTC, GFS, Samsung all SINGLETONS | Cohort fully split |
-| Cluster vs fabless (NVDA, AMD, AVGO, QCOM) | **0.30 (NEGATIVE -0.09)** | Fabless trade more coherently than the foundries do |
-| Cluster vs semi equipment (ASML, AMAT, KLAC, LRCX) | **0.38 (NEGATIVE -0.17)** | Equipment names tighter than foundries |
-| Cluster vs broad ETFs | **0.46 (NEGATIVE -0.25)** | Foundries trade more with broad market than each other |
+| Avg intra-cluster correlation (1Y) | 0.21 (range -0.02 to 0.45) | Wildly weak — [[Samsung]] essentially uncorrelated with TSM/INTC/GFS |
+| PC1 explained variance | 45.5% | Multi-factor; [[Samsung]] loads ~0.0 on PC1 (not part of factor) |
+| Hierarchical clustering at 0.4 | TSM merges with semi equipment + [[SMH]]; INTC, GFS, [[Samsung]] all SINGLETONS | Cohort fully split |
+| Cluster vs fabless (NVDA, AMD, AVGO, QCOM) | 0.30 (NEGATIVE -0.09) | Fabless trade more coherently than the foundries do |
+| Cluster vs semi equipment ([[ASML]], AMAT, KLAC, LRCX) | 0.38 (NEGATIVE -0.17) | Equipment names tighter than foundries |
+| Cluster vs broad ETFs | 0.46 (NEGATIVE -0.25) | Foundries trade more with broad market than each other |
 
 The intra-correlation matrix:
 
-|  | TSM | INTC | GFS | Samsung |
+|  | TSM | INTC | GFS | [[Samsung]] |
 |---|---|---|---|---|
 | TSM | — | 0.38 | 0.43 | -0.02 |
 | INTC | 0.38 | — | 0.45 | 0.01 |
 | GFS | 0.43 | 0.45 | — | 0.02 |
-| Samsung | -0.02 | 0.01 | 0.02 | — |
+| [[Samsung]] | -0.02 | 0.01 | 0.02 | — |
 
-**Why the cluster fails — and why that's analytically important:** the foundries don't co-move because their competitive positions are wildly asymmetric. TSM is so dominant (PC1 dominated by SMH co-movement, which IS basically TSM's exposure) that it doesn't trade like a peer with INTC, GFS, or Samsung. INTC moves on its IFS turnaround story. GFS is mature/non-leading-edge. Samsung trades on Korean market beta + memory cycle (its memory business dominates the KS listing).
+Why the cluster fails — and why that's analytically important: the foundries don't co-move because their competitive positions are wildly asymmetric. TSM is so dominant (PC1 dominated by [[SMH]] co-movement, which IS basically TSM's exposure) that it doesn't trade like a peer with INTC, GFS, or Samsung. INTC moves on its [[IFS]] turnaround story. GFS is mature/non-leading-edge. Samsung trades on Korean market beta + memory cycle (its memory business dominates the KS listing).
 
-**This IS the monopoly thesis playing out in the return data.** A real competitive market would show co-movement among the firms in the same business; the absence of co-movement here is the mathematical signature of "TSM doesn't have peers, it has subordinates competing in adjacent markets." The note's framework (5 reinforcing dynamics) is structurally validated by the math: the firms cannot be traded as a basket because they are not in the same business at this point.
+This IS the monopoly thesis playing out in the return data. A real competitive market would show co-movement among the firms in the same business; the absence of co-movement here is the mathematical signature of "TSM doesn't have peers, it has subordinates competing in adjacent markets." The note's framework (5 reinforcing dynamics) is structurally validated by the math: the firms cannot be traded as a basket because they are not in the same business at this point.
 
-**Trade implications:**
-- Long the monopoly = long TSM directly (or via SMH, where TSM is the dominant holding).
+[[Trade]] implications:
+- Long the monopoly = long TSM directly (or via [[SMH]], where TSM is the dominant holding).
 - Pair trades within the cohort (long TSM short INTC) capture business-cycle differentials, not "foundry sector" beta — there is no such factor at the equity level.
 - The fabless cohort (NVDA, AMD, AVGO, QCOM) is more cohesive (avg 0.40) than the foundries — fabless is a real cluster, foundries are not.
 
@@ -171,18 +175,75 @@ The intra-correlation matrix:
 
 ### Follow-up: fabless cluster also tested (May 2026) — also falsified
 
-The note's "fabless is more cohesive than foundry" framing prompted a separate cluster validation of the fabless cohort: NVDA, AMD, AVGO, QCOM. Result: also falsified. Intra-corr 0.43 (range 0.22-0.60), PC1 57.7%. Hierarchical clustering at 0.4 places NVDA inside the broader [[AI capex chain basket]] (with TSM, ASML, AMAT, KLAC, LRCX, MU, SMH, SOXX, XLK, SPY) and leaves AMD, AVGO, QCOM as singletons. Cluster vs AI supplier chain shows NEGATIVE intra advantage (-0.05) — fabless names are more correlated with AICX suppliers than with each other.
+The note's "fabless is more cohesive than foundry" framing prompted a separate cluster validation of the fabless cohort: NVDA, AMD, AVGO, QCOM. Result: also falsified. Intra-corr 0.43 (range 0.22-0.60), PC1 57.7%. Hierarchical clustering at 0.4 places NVDA inside the broader [[AI capex chain basket]] (with TSM, [[ASML]], AMAT, KLAC, LRCX, MU, [[SMH]], [[SOXX]], [[XLK]], [[SPY]]) and leaves AMD, AVGO, QCOM as singletons. Cluster vs AI supplier chain shows NEGATIVE intra advantage (-0.05) — fabless names are more correlated with AICX suppliers than with each other.
 
-The math says: there is no "fabless cluster" at the 1Y horizon. NVDA is part of [[AI capex chain basket]]. AMD trades on its NVDA-competitor share-take story. AVGO trades on diversified custom-silicon + VMware. QCOM trades on smartphone modem + Snapdragon cycle. Each is its own factor; the surface taxonomy of "no owned fabs" doesn't translate to a tradable factor.
+The math says: there is no "fabless cluster" at the 1Y horizon. NVDA is part of [[AI capex chain basket]]. AMD trades on its NVDA-competitor share-take story. AVGO trades on diversified custom-silicon + [[VMware]]. QCOM trades on smartphone modem + Snapdragon cycle. Each is its own factor; the surface taxonomy of "no owned fabs" doesn't translate to a tradable factor.
 
 Config: `scripts/cluster_configs/fabless_semis.yaml`. The negative result is preserved here rather than in a dedicated note (per `docs/cluster-validation.md` rule: "don't create pure 'X is not a cluster' notes with no thesis content").
+
+---
+
+## Cluster validation compliance addendum (2026-06-07)
+
+Generated from `scripts/cluster_configs/foundry.yaml` using `scripts/cluster_analysis.py` methodology. The 1Y diagnostic window is 2025-05-01 to 2026-04-30 (167 observations); the rolling history starts at `2020-01-01` where data are available.
+
+### Required validation plots
+
+![[foundry-cluster-correlation-1y.png]]
+
+*One-year correlation heatmap for the `Foundry monopoly` validation universe.*
+
+![[foundry-cluster-dendrogram-1y.png]]
+
+*Hierarchical clustering tree using average linkage on distance `1-|corr|`.*
+
+![[foundry-cluster-pca-1y.png]]
+
+*PCA diagnostic for the candidate cohort; PC1 explains 45.4% of standardized daily-return variance.*
+
+### PC1 index weights vs cluster topology
+
+The topology table answers which names join the tree first or last. The raw PC1-mimic table answers which raw-return weights best replicate the standardized common factor after realized-volatility scaling. These are deliberately different readings of the same cluster.
+
+| Step | Left | Right | Distance (1-\|corr\|) | Read |
+|---|---|---|---|---|
+| 1 | INTC | GFS | 0.549 | Tightest merge |
+| 2 | TSM | INTC+GFS | 0.596 | Candidate cohort merge step |
+| 3 | 005930.KS | TSM+INTC+GFS | 0.982 | Final cohort join / loosest boundary |
+
+| Ticker | PC1 loading | Normalized loading weight | Ann. vol | Raw PC1-mimic weight |
+|---|---|---|---|---|
+| TSM | 0.562 | 32.37% | 35.31% | 43.82% |
+| INTC | 0.573 | 33.00% | 71.26% | 22.14% |
+| GFS | 0.597 | 34.36% | 48.58% | 33.81% |
+| 005930.KS | 0.005 | 0.26% | 54.70% | 0.23% |
+
+Interpretation: use the dendrogram / join-distance topology to identify the tight core and later-joining members; use the Raw PC1-mimic weight column only for investable factor-replication sizing.
+
+### Historical tightness evolution
+
+![[foundry-cluster-rolling-tightness-90d.png]]
+
+*Ninety-day rolling tightness diagnostic: avg intra-correlation, PC1 share, core correlation, satellite-to-core correlation, and final candidate join distance.*
+
+| Year | Avg corr median | PC1 median | Core corr median | Satellite-to-core median | Final join distance median |
+|---|---|---|---|---|---|
+| 2022 | 0.376 | 55.6% | 0.268 | 0.483 | 0.818 |
+| 2023 | 0.317 | 51.6% | 0.277 | 0.378 | 0.843 |
+| 2024 | 0.316 | 50.5% | 0.300 | 0.324 | 0.837 |
+| 2025 | 0.238 | 45.5% | 0.208 | 0.270 | 0.909 |
+| 2026 | 0.194 | 45.2% | 0.156 | 0.234 | 0.955 |
+
+Latest 90D through 2026-04-30: avg corr 0.193, PC1 45.4%, core corr 0.147, satellite-to-core corr 0.240, final join distance 0.960.
+
+Historical verdict: regime-dependent / fragmenting cluster; current rolling cohesion is below durable-cluster thresholds.
 
 ---
 
 ## Related
 
 - [[Yield as competitive moat]] — component (the technical flywheel)
-- [[Advanced packaging]] — component (CoWoS as second lock-in)
+- [[Advanced packaging]] — component ([[CoWoS]] as second lock-in)
 - [[Customer lock-in via co-design]] — component (design dependency)
 - [[TSMC]] — leader (executes this playbook)
 - [[Samsung]] — challenger (\#2, improving but structurally disadvantaged)

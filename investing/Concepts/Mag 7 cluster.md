@@ -217,6 +217,70 @@ Mag 7's 0.316 intra-correlation is roughly half of Space pure-plays' 0.624 at th
 
 ---
 
+## Cluster validation compliance addendum (2026-06-07)
+
+Generated from `scripts/cluster_configs/mag7.yaml` using `scripts/cluster_analysis.py` methodology. The 1Y diagnostic window is 2025-05-09 to 2026-05-08 (174 observations); the rolling history starts at `2020-01-01` where data are available.
+
+### Required validation plots
+
+![[mag7-cluster-correlation-1y.png]]
+
+*One-year correlation heatmap for the `Mag 7` validation universe.*
+
+![[mag7-cluster-dendrogram-1y.png]]
+
+*Hierarchical clustering tree using average linkage on distance `1-|corr|`.*
+
+![[mag7-cluster-pca-1y.png]]
+
+*PCA diagnostic for the candidate cohort; PC1 explains 41.7% of standardized daily-return variance.*
+
+### PC1 index weights vs cluster topology
+
+The topology table answers which names join the tree first or last. The raw PC1-mimic table answers which raw-return weights best replicate the standardized common factor after realized-volatility scaling. These are deliberately different readings of the same cluster.
+
+| Step | Left | Right | Distance (1-\|corr\|) | Read |
+|---|---|---|---|---|
+| 1 | NVDA | TSLA | 0.537 | Tightest merge |
+| 2 | AMZN | META | 0.554 | Candidate cohort merge step |
+| 3 | NVDA+TSLA | AMZN+META | 0.629 | Candidate cohort merge step |
+| 4 | GOOGL | NVDA+TSLA+AMZN+META | 0.667 | Candidate cohort merge step |
+| 5 | MSFT | GOOGL+NVDA+TSLA+AMZN+META | 0.725 | Candidate cohort merge step |
+| 6 | AAPL | MSFT+GOOGL+NVDA+TSLA+AMZN+META | 0.749 | Final cohort join / loosest boundary |
+
+| Ticker | PC1 loading | Normalized loading weight | Ann. vol | Raw PC1-mimic weight |
+|---|---|---|---|---|
+| AAPL | 0.306 | 11.66% | 22.01% | 16.46% |
+| MSFT | 0.319 | 12.14% | 26.31% | 14.34% |
+| GOOGL | 0.352 | 13.39% | 28.71% | 14.49% |
+| AMZN | 0.421 | 16.01% | 30.46% | 16.33% |
+| META | 0.392 | 14.91% | 36.51% | 12.69% |
+| NVDA | 0.411 | 15.64% | 35.33% | 13.76% |
+| TSLA | 0.426 | 16.23% | 42.26% | 11.93% |
+
+Interpretation: use the dendrogram / join-distance topology to identify the tight core and later-joining members; use the Raw PC1-mimic weight column only for investable factor-replication sizing.
+
+### Historical tightness evolution
+
+![[mag7-cluster-rolling-tightness-90d.png]]
+
+*Ninety-day rolling tightness diagnostic: avg intra-correlation, PC1 share, core correlation, satellite-to-core correlation, and final candidate join distance.*
+
+| Year | Avg corr median | PC1 median | Core corr median | Satellite-to-core median | Final join distance median |
+|---|---|---|---|---|---|
+| 2021 | 0.593 | 66.1% | 0.557 | 0.685 | 0.578 |
+| 2022 | 0.625 | 68.9% | 0.600 | 0.686 | 0.560 |
+| 2023 | 0.610 | 67.1% | 0.592 | 0.639 | 0.536 |
+| 2024 | 0.424 | 52.4% | 0.461 | 0.359 | 0.747 |
+| 2025 | 0.639 | 69.4% | 0.629 | 0.664 | 0.452 |
+| 2026 | 0.301 | 40.7% | 0.326 | 0.238 | 0.793 |
+
+Latest 90D through 2026-05-08: avg corr 0.324, PC1 42.6%, core corr 0.352, satellite-to-core corr 0.254, final join distance 0.746.
+
+Historical verdict: regime-dependent / fragmenting cluster; current rolling cohesion is below durable-cluster thresholds.
+
+---
+
 ## Related
 
 - [[AI hyperscalers]] — the 5-name subset (MSFT, GOOGL, AMZN, META, ORCL) that also failed cluster validation

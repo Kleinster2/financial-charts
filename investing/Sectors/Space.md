@@ -12,9 +12,20 @@ Space economy — launch services, satellites, earth observation, exploration.
 
 ---
 
+![[space-chart.png]]
+*Space-sector public proxies show the difference between the broad industry hub and the validated [[Space pure-plays]] trading cluster.*
+
+## Correlation structure
+
+| Metric | Value | Interpretation |
+|--------|-------|----------------|
+| **Avg correlation** | 0.00 | Broad industry hub; not one tradeable sector |
+| Validated public cluster | [[Space pure-plays]] | RKLB/RDW/LUNR/BKSY/ASTS/SPIR/PL carry the tradeable public-equity sleeve |
+| Parent hub role | Industry map | Captures private actors, launch, satellites, lunar, defense, and supplier bottlenecks |
+
 ## Market overview
 
-| Segment | 2025 market | Growth |
+| [[Segment]] | 2025 market | Growth |
 |---------|-------------|--------|
 | Satellite services | ~$130B | 5% |
 | Launch services | ~$15B | 15%+ |
@@ -25,22 +36,22 @@ Total space economy: ~$500B+ (2025), $1T+ by 2030
 
 ## Q1 2026 — record investment quarter
 
-[[Space Capital]] (Chad Anderson, Space IQ Q1 2026 briefing, Apr 26, 2026):
+[[Space Capital]] ([[Chad Anderson]], Space IQ Q1 2026 briefing, Apr 26, 2026):
 
 | Metric | Q1 2026 |
 |---|---|
 | Total invested in space economy | $36B (single-quarter record) |
-| Infrastructure investment alone | $7B (on pace to exceed full-year 2025 record) |
+| [[Infrastructure]] investment alone | $7B (on pace to exceed full-year 2025 record) |
 | GeoInt (geospatial intelligence) | $3.8B (86% of all 2025 GeoInt in single quarter) |
 | Cumulative invested since 2009 | $455B across 2,400+ companies |
 | Q1 share of all-time | ~8% |
 | Realized exits | $8B across 28 (26 acquisitions, 2 IPOs) |
 
-The breadth, not concentration, was the signal: applications, distribution, and infrastructure all racing to leverage what's been built in orbit for [[Physical AI|physical intelligence]], [[Robotics|robotics]], and AI. New launch vehicles online in Q1: [[Firefly Aerospace|Firefly Alpha]] and [[Ariane 64]].
+The breadth, not concentration, was the signal: applications, distribution, and infrastructure all racing to leverage what's been built in orbit for [[Physical AI|physical intelligence]], [[Robotics|robotics]], and AI. New launch vehicles online in Q1: [[Firefly Aerospace|Firefly Alpha]] and [[Arianespace|Ariane 64]].
 
 ---
 
-## China lunar cadence as strategic demand floor (May 2026)
+## [[China]] lunar cadence as strategic demand floor (May 2026)
 
 [[China Manned Space Agency|CMSA]]'s May 2026 [[Shenzhou]]-23 launch makes the state-space side of the sector more tangible. Reuters reported that one crew member will stay aboard [[Tiangong]] for a year, while Chinese state media framed the station as a testbed for the 2030 crewed moon landing. The architecture is a national stack: [[Long March 10]] heavy lift, [[Mengzhou]] crew spacecraft, [[Lanyue]] lander, and Tiangong as the human-spaceflight laboratory.
 
@@ -48,13 +59,13 @@ This is not directly investable through Chinese public equities, but it matters 
 
 ---
 
-## Post-ISS commercial-station capital signal (May 2026)
+## Post-[[ISS]] commercial-station capital signal (May 2026)
 
-[[1789 Capital]]'s May 2026 strategic investment in [[Star Lab]] is a small but telling signal for the commercial-station segment. The amount was not disclosed, so the investment is not a funding-gap solution. The useful point is that commercial LEO infrastructure is attracting political capital under a national-strategic frame: post-ISS American presence, [[Tiangong]] competition, NASA continuity, allied agency demand, and microgravity science all folded into one orbital-infrastructure thesis.
+[[1789 Capital]]'s May 2026 strategic investment in [[Star Lab]] is a small but telling signal for the commercial-station segment. The amount was not disclosed, so the investment is not a funding-gap solution. The useful point is that commercial LEO infrastructure is attracting political capital under a national-strategic frame: post-[[ISS]] American presence, [[Tiangong]] competition, NASA continuity, allied agency demand, and microgravity science all folded into one orbital-infrastructure thesis.
 
 The sector read: commercial stations remain a policy-dependent market. [[NASA]] is still the anchor customer, and the [[Commercial LEO Destinations]] Phase 2 path determines whether private capital is underwriting a real services market or bridging an uncertain procurement redesign. Strategic investors can help the politics; they cannot substitute for NASA demand.
 
-*Sources: Starlab / Voyager official announcement, May 21 2026; [[Journal of Space Commerce]], May 27 2026; NASA Commercial Space Stations page; CSIS, May 27 2026.*
+*Sources: Starlab / Voyager official announcement, May 21 2026; [[Journal of Space Commerce]], May 27 2026; NASA Commercial Space Stations page; [[CSIS]], May 27 2026.*
 
 ---
 
@@ -70,36 +81,36 @@ This is different from the May 27 [[SpaceX IPO 2026]] proxy trade. The IPO halo 
 
 ## NASA realignment and Blue Origin cadence risk (May 2026)
 
-NASA's May 22, 2026 realignment is the institutional version of the Q1 Isaacman architecture reset. Human spaceflight, low Earth orbit, Artemis, Moon Base, and LEO commercialization now sit under a tighter direct-report structure, while research/technology absorbs aeronautics and space technology. For the sector, that means NASA is trying to manage the lunar base, post-ISS transition, and enabling technology stack as one execution problem rather than as isolated program offices.
+NASA's May 22, 2026 realignment is the institutional version of the Q1 Isaacman architecture reset. Human spaceflight, low Earth orbit, Artemis, Moon [[Base]], and LEO commercialization now sit under a tighter direct-report structure, while research/technology absorbs aeronautics and space technology. For the sector, that means NASA is trying to manage the lunar base, post-[[ISS]] transition, and enabling technology stack as one execution problem rather than as isolated program offices.
 
-The same week exposed the commercial bottleneck. [[Blue Origin]] announced a roughly $600M Cape Canaveral upper-stage manufacturing expansion, then suffered a [[New Glenn]] hotfire explosion at Launch Complex 36. That juxtaposition is the whole new-space trade in miniature: capital and factory square footage are arriving, but flight cadence still has to be earned. Until New Glenn becomes repeatable, Blue Origin's Blue Moon, Orbital Reef, and [[Project Sunrise]] roadmaps remain downstream of launch reliability.
+The same week exposed the commercial bottleneck. [[Blue Origin]] announced a roughly $600M Cape Canaveral upper-stage manufacturing expansion, then suffered a [[New Glenn]] hotfire explosion at Launch Complex 36. That juxtaposition is the whole new-space trade in miniature: capital and factory square footage are arriving, but flight cadence still has to be earned. Until New Glenn becomes repeatable, Blue Origin's Blue Moon, [[Orbital Reef]], and [[Project Sunrise]] roadmaps remain downstream of launch reliability.
 
 For public markets, the read-through is not direct Blue Origin equity exposure. It is benchmark pressure on [[SpaceX IPO 2026]], [[Rocket Lab]], and the [[Space pure-plays]] basket: the sector will keep rewarding names that can turn policy demand and capital spending into launches, payloads, and contracted operations.
 
-*Sources: NASA realignment announcement, May 22 2026; [[Journal of Space Commerce]], May 28 2026; Space Florida / Florida governor announcement, May 22 2026; AP, May 29 2026.*
+*Sources: NASA realignment announcement, May 22 2026; [[Journal of Space Commerce]], May 28 2026; Space [[Florida]] / [[Florida]] governor announcement, May 22 2026; AP, May 29 2026.*
 
 ---
 
 ## Space industrial base bottlenecks (May 2026)
 
-Theme 3 of the May 29 Substack sweep ties five Journal of Space Commerce posts into one sector question: can the space economy add launch, landing, lunar mobility, and supplier capacity fast enough for the policy and capital-market demand already being assigned to it?
+Theme 3 of the May 29 [[Substack]] sweep ties five Journal of Space Commerce posts into one sector question: can the space economy add launch, landing, lunar mobility, and supplier capacity fast enough for the policy and capital-market demand already being assigned to it?
 
 The clearest split is between rocket companies and industrial-base assets. [[SpaceX]] still dominates launch execution, but the bottleneck set is broader than rockets: launch-site scheduling, range coordination, licensing, airspace, safety systems, ground infrastructure, non-US redundancy, lunar cargo logistics, rover qualification, and sub-tier supplier visibility. The Commercial Space Federation / Rational Futures "SCRUBBED" report says US launch demand could require thousands of launches per year in high-satellite scenarios, with traditional ranges constrained by coordination and non-traditional spaceports constrained by economics.
 
 The allied redundancy layer is now visible. [[PLD Space]] is a European launch-capacity hedge after its EUR180M Series C and EUR30M EIB debt package. [[Isar Aerospace]] and [[Maritime Launch Services]] signed a May 2026 letter of intent to pair Spectrum with [[Spaceport Nova Scotia]], creating a possible North American allied launch site for mid- to high-inclination and polar missions. These are not SpaceX killers; they are redundancy attempts in a launch system where concentration risk has become strategically expensive.
 
-The lunar layer is the same problem in a different orbit. [[NASA]]'s Moon Base update moved from concept to task orders: Blue Origin delivery services, Astrolab and [[Lunar Outpost]] rover development, Astrobotic and [[Intuitive Machines]] CLPS missions, and Firefly's MoonFall drone transport. NASA OIG's 2023 Artemis supply-chain report is the deep-dive context: NASA lacked full visibility into many Artemis suppliers, especially under fixed-price/service-type contracting. Moon Base therefore scales the same problem the agency had not fully solved.
+The lunar layer is the same problem in a different orbit. [[NASA]]'s Moon [[Base]] update moved from concept to task orders: Blue Origin delivery services, Astrolab and [[Lunar Outpost]] rover development, [[Astrobotic]] and [[Intuitive Machines]] [[CLPS]] missions, and [[Firefly]]'s MoonFall drone transport. NASA OIG's 2023 Artemis supply-chain report is the deep-dive context: NASA lacked full visibility into many Artemis suppliers, especially under fixed-price/service-type contracting. Moon [[Base]] therefore scales the same problem the agency had not fully solved.
 
 | Bottleneck | May 2026 signal | Market read-through |
 |------------|-----------------|---------------------|
 | Launch capacity | CSF / Rational Futures launch-capacity report; non-traditional spaceports need federal support | Launch-site and range process become industrial-base constraints, not back-office details. |
 | Non-US redundancy | [[PLD Space]] financing; [[Isar Aerospace]] / [[Spaceport Nova Scotia]] LOI | Allied launch nodes become procurement hedges for operators exposed to US concentration, tariffs, ITAR, and range congestion. |
-| Lunar surface logistics | NASA Moon Base missions I-III, LTV awards, Blue Origin delivery task orders | Lunar infrastructure demand is becoming specific enough to matter for [[Blue Origin]], [[Lunar Outpost]], [[Intuitive Machines]], Astrobotic, Firefly, and supplier networks. |
+| Lunar surface logistics | NASA Moon [[Base]] missions I-III, LTV awards, Blue Origin delivery task orders | Lunar infrastructure demand is becoming specific enough to matter for [[Blue Origin]], [[Lunar Outpost]], [[Intuitive Machines]], [[Astrobotic]], [[Firefly]], and supplier networks. |
 | Supplier visibility | NASA OIG IG-24-003 on Artemis supplier visibility | Fixed-price commercial procurement can lower NASA cost exposure while reducing NASA's view into sub-tier fragility. |
 
 The investor test is execution density: which names can convert policy demand into launched payloads, qualified surface hardware, and actual cadence. The companies that only own narratives will be repriced against the companies that own capacity.
 
-*Sources: [[Journal of Space Commerce]], May 29 2026; NASA Moon Base update, May 26 2026; Commercial Space Federation / Rational Futures "SCRUBBED," May 2026; NASA OIG IG-24-003, Oct 2023; Isar Aerospace, May 26 2026; PLD Space / EIB, Mar-Apr 2026.*
+*Sources: [[Journal of Space Commerce]], May 29 2026; NASA Moon [[Base]] update, May 26 2026; Commercial Space Federation / Rational Futures "SCRUBBED," May 2026; NASA OIG IG-24-003, Oct 2023; Isar [[Aerospace]], May 26 2026; PLD Space / EIB, Mar-Apr 2026.*
 
 ---
 
@@ -146,22 +157,22 @@ The sector read is that SpaceX's listing is already acting as a valuation anchor
 
 | Company | Status | Dominance |
 |---------|--------|-----------|
-| SpaceX | Private | ~70% global share |
-| ULA | Boeing/Lockheed JV | US government |
-| Rocket Lab | Public (RKLB) | Small sat |
-| Blue Origin | Private (Bezos) | Growing |
-| Arianespace | Europe | Recovering (Ariane 6) |
-| [[Isar Aerospace]] | Europe (Germany) | Pre-orbital startup |
-| China CASC | State | Growing |
+| [[SpaceX]] | Private | ~70% global share |
+| [[ULA]] | [[Boeing]]/Lockheed JV | US government |
+| [[Rocket Lab]] | Public (RKLB) | Small sat |
+| [[Blue Origin]] | Private (Bezos) | Growing |
+| [[Arianespace]] | [[Europe]] | Recovering (Ariane 6) |
+| [[Isar Aerospace]] | [[Europe]] ([[Germany]]) | Pre-orbital startup |
+| [[China]] CASC | State | Growing |
 
 ### Satellite internet
 
 | Company | Status | Subscribers |
 |---------|--------|-------------|
-| [[Starlink]] | SpaceX subsidiary | 10M+ (Q1 2026) |
+| [[Starlink]] | [[SpaceX]] subsidiary | 10M+ (Q1 2026) |
 | OneWeb | Eutelsat merger | Enterprise |
-| Amazon Kuiper | Launching | 0 (building) |
-| AST SpaceMobile | Development | Direct-to-cell |
+| [[Amazon]] Kuiper | Launching | 0 (building) |
+| [[AST SpaceMobile]] | Development | Direct-to-cell |
 
 ### Earth observation
 
@@ -179,18 +190,18 @@ The sector read is that SpaceX's listing is already acting as a valuation anchor
 | System | Owner |
 |--------|-------|
 | GPS | US |
-| Galileo | EU |
-| GLONASS | Russia |
-| BeiDou | China |
+| Galileo | [[EU]] |
+| GLONASS | [[Russia]] |
+| BeiDou | [[China]] |
 
 ### Space exploration
 
 | Company | Focus |
 |---------|-------|
-| SpaceX | Mars, Starship |
-| Blue Origin | Lunar, New Glenn |
-| Astrobotic | Lunar landers |
-| Intuitive Machines | Lunar services |
+| [[SpaceX]] | [[Mars]], Starship |
+| [[Blue Origin]] | Lunar, New Glenn |
+| [[Astrobotic]] | Lunar landers |
+| [[Intuitive Machines]] | Lunar services |
 | [[China Manned Space Agency]] | State lunar program / [[Tiangong]] / [[Shenzhou]] |
 
 ---
@@ -205,31 +216,31 @@ The sector read is that SpaceX's listing is already acting as a valuation anchor
 | IPO target | $1.5T (2026E) |
 | Key asset | [[Starlink]] |
 
-Reusability revolution: Falcon 9 boosters landed 300+ times.
+Reusability revolution: [[Falcon 9]] boosters landed 300+ times.
 
 ---
 
 ## European launch renaissance (2025-2026)
 
-Europe completed just 7 orbital launches in 2025 vs US 130+. After retiring Ariane 5 (2023) and grounding Vega-C (2 years), Europe temporarily lost independent access to orbit — ESA had to ask SpaceX to launch Galileo satellites.
+[[Europe]] completed just 7 orbital launches in 2025 vs US 130+. After retiring Ariane 5 (2023) and grounding Vega-C (2 years), [[Europe]] temporarily lost independent access to orbit — ESA had to ask SpaceX to launch Galileo satellites.
 
 Recovery:
-- Ariane 6 flew 2024 (cost €4.7B, not reusable). Targeting 10 launches/yr by 2027. First Amazon Kuiper launch early 2026.
+- Ariane 6 flew 2024 (cost €4.7B, not reusable). Targeting 10 launches/yr by 2027. First [[Amazon]] Kuiper launch early 2026.
 - Vega-C (Avio) overcame technical issues, resumed flights.
 
-Startup challengers (ESA European Launcher Challenge, €900M):
+Startup challengers (ESA European [[Launcher]] Challenge, €900M):
 
 | Company | Country | Status |
 |---------|---------|--------|
-| [[Isar Aerospace]] | Germany | First launch attempted 2025 (failed ~30s), retry 2026 |
-| Rocket Factory Augsburg | Germany | Pre-orbital |
-| [[PLD Space]] | Spain | Pre-orbital |
-| MaiaSpace | France | ArianeGroup subsidiary |
-| Orbex | UK | Pre-orbital |
+| [[Isar Aerospace]] | [[Germany]] | First launch attempted 2025 (failed ~30s), retry 2026 |
+| Rocket Factory Augsburg | [[Germany]] | Pre-orbital |
+| [[PLD Space]] | [[Spain]] | Pre-orbital |
+| MaiaSpace | [[France]] | ArianeGroup subsidiary |
+| Orbex | [[UK]] | Pre-orbital |
 
 Funding: ESA approved record €22B over 3 years (Nov 2025). Germany plans €35B in space-defense by 2030.
 
-Structural headwinds: Geo-return policy allocates contracts by country funding share (not capability). Europe space investment still far behind US. Competition may fragment limited funding.
+Structural headwinds: Geo-return policy allocates contracts by country funding share (not capability). [[Europe]] space investment still far behind US. Competition may fragment limited funding.
 
 Comparison: Rocket Lab (RKLB, $45B mkt cap) took ~75 successful small-launcher missions since 2018 to reach medium-lift (Neutron). SpaceX valued at ~$800B.
 
@@ -253,7 +264,7 @@ See [[Starlink]] for details.
 | Program | Player |
 |---------|--------|
 | Space Force | US military branch |
-| National security launches | SpaceX, ULA |
+| National security launches | [[SpaceX]], [[ULA]] |
 | Missile warning | Space Force, contractors |
 | Space Domain Awareness | Growing priority; [[Rocket Lab]] won a $90M GEO SDA satellite award in May 2026 |
 
@@ -264,9 +275,9 @@ See [[Starlink]] for details.
 | Theme | Expression |
 |-------|------------|
 | SpaceX exposure | [[Baron Capital]] (largest external investor) |
-| Satellite internet | [[Starlink]] (via SpaceX) |
-| Small sat launch | Rocket Lab (RKLB) |
-| Earth observation | Planet Labs (PL) |
+| Satellite internet | [[Starlink]] (via [[SpaceX]]) |
+| Small sat launch | [[Rocket Lab]] (RKLB) |
+| Earth observation | [[Planet Labs]] (PL) |
 | Defense space | [[Lockheed Martin]], [[Northrop Grumman]] |
 
 ---
@@ -275,14 +286,14 @@ See [[Starlink]] for details.
 
 | Company | Ticker | Focus |
 |---------|--------|-------|
-| Rocket Lab | RKLB | Small sat launch |
-| Planet Labs | PL | Earth observation |
-| Intuitive Machines | LUNR | Lunar services |
-| Spire Global | SPIR | Data/analytics |
-| AST SpaceMobile | ASTS | Direct-to-cell |
+| [[Rocket Lab]] | RKLB | Small sat launch |
+| [[Planet Labs]] | PL | Earth observation |
+| [[Intuitive Machines]] | LUNR | Lunar services |
+| [[Spire Global]] | SPIR | Data/analytics |
+| [[AST SpaceMobile]] | ASTS | Direct-to-cell |
 | [[Lockheed Martin]] | LMT | Defense space |
 | [[Northrop Grumman]] | NOC | Defense space |
-| Boeing | BA | ULA (JV) |
+| [[Boeing]] | BA | [[ULA]] (JV) |
 
 ---
 
@@ -290,10 +301,10 @@ See [[Starlink]] for details.
 
 | Company | Status | Access |
 |---------|--------|--------|
-| SpaceX | $350B valuation | Private (via Baron, Fidelity) |
-| Blue Origin | Private (Bezos) | No public access |
-| Sierra Space | Private | Dream Chaser |
-| Relativity Space | Private | 3D-printed rockets |
+| [[SpaceX]] | $350B valuation | Private (via Baron, [[Fidelity]]) |
+| [[Blue Origin]] | Private (Bezos) | No public access |
+| [[Sierra]] Space | Private | Dream Chaser |
+| [[Relativity Space]] | Private | 3D-printed rockets |
 | [[Varda Space Industries]] | Private | Space manufacturing / recoverable reentry capsules |
 
 ---
@@ -317,14 +328,14 @@ See [[Starlink]] for details.
 | Debris/Kessler syndrome | Orbital congestion |
 | Regulation | Launch licensing, spectrum |
 | Capital intensity | High capex needs |
-| Geopolitics | China competition |
+| Geopolitics | [[China]] competition |
 | Dual-use exports | Chinese commercial ops supplying adversary ISR; see [[Chinese dual-use commercial satellite exports]] |
 
 ---
 
 ## Pax Silica supplier-screening risk (May 2026)
 
-[[Pax Silica]] extends the trusted-vendor logic of semiconductors, AI hardware, critical minerals, advanced manufacturing, and logistics into commercial space. The Journal of Space Commerce's May 28, 2026 read is that satellite and launch-vehicle suppliers are not merely exposed to export controls at the finished-system level; their sub-tier inputs can become procurement-qualification problems if they remain China-anchored.
+[[Pax Silica]] extends the trusted-vendor logic of semiconductors, AI hardware, critical minerals, advanced manufacturing, and logistics into commercial space. The Journal of Space Commerce's May 28, 2026 read is that satellite and launch-vehicle suppliers are not merely exposed to export controls at the finished-system level; their sub-tier inputs can become procurement-qualification problems if they remain [[China]]-anchored.
 
 The relevant components are the parts where commercial space still leans on broad electronics and industrial supply chains: RF systems, PCB assemblies, power electronics, electro-optical sensors, carbon-fiber composites, precision-machined aluminum structures, and rare-earth permanent magnets for actuators and reaction wheels. The named procurement networks were [[Terran Orbital]], [[L3Harris]], [[Axiom Space]], [[Safran]], and [[Sierra Space]].
 
@@ -338,10 +349,10 @@ Two publicly documented cases of Chinese commercial satellite operators supplyin
 
 | Year | Operator | Customer | Asset | Notes |
 |------|---------|---------|-------|-------|
-| 2025 | [[Chang Guang Satellite Technology]] | [[Houthis]] | Jilin-1 imagery | Red Sea targeting of US warships / shipping |
-| 2024-26 | [[Earth Eye Co]] + [[Emposat]] | [[IRGC]] Aerospace Force ([[Iran]]) | [[TEE-01B]] (0.5m) | Gulf US bases; "in-orbit delivery" model |
+| 2025 | [[Chang Guang Satellite Technology]] | [[Houthis]] | Jilin-1 imagery | [[Red Sea]] targeting of US warships / shipping |
+| 2024-26 | [[Earth Eye Co]] + [[Emposat]] | [[IRGC]] [[Aerospace]] Force ([[Iran]]) | [[TEE-01B]] (0.5m) | Gulf US bases; "in-orbit delivery" model |
 
-The exports use commercial wrapping ([[Military-civil fusion]] talent and funding, [[Belt and Road]] commercial channel, renminbi payment) to route around traditional export-control tools. Both companies are flagged by the US House China Select Committee as PLA-adjacent. See [[Chinese dual-use commercial satellite exports]] for the framework.
+The exports use commercial wrapping ([[Military-civil fusion]] talent and funding, [[Belt and Road]] commercial channel, renminbi payment) to route around traditional export-control tools. Both companies are flagged by the US House [[China]] Select Committee as PLA-adjacent. See [[Chinese dual-use commercial satellite exports]] for the framework.
 
 ---
 
@@ -350,14 +361,14 @@ The exports use commercial wrapping ([[Military-civil fusion]] talent and fundin
 - [[Starlink]] — satellite internet leader (10M+ subs Q1 2026)
 - [[SpaceX]] — launch dominance
 - [[Varda Space Industries]] — orbital manufacturing and recoverable reentry/hypersonic-test platform; [[HOF Capital]] portfolio context
-- [[Vast]] — commercial space station ([[Haven-1]], [[Haven-2]])
+- [[Vast Space|Vast]] — commercial space station ([[Haven-1]], [[Haven-2]])
 - [[Lunar Outpost]] — lunar surface mobility
 - [[Voyager]] — public space-tech holding ([[Star Lab]])
 - [[Kayhan Space]] — space domain awareness ([[Satcat Terminal]])
-- [[Firefly Aerospace]] — small/medium launch ([[Firefly Alpha]] online Q1 2026)
+- [[Firefly Aerospace]] — small/medium launch ([[Firefly Aerospace|Firefly Alpha]] online Q1 2026)
 - [[Space Capital]] — space-economy VC, Space IQ briefing source
 - [[Space data centers]] — orbital DC platform war (concept)
-- [[Commercial LEO Destinations]] — post-ISS commercial station program
+- [[Commercial LEO Destinations]] — post-[[ISS]] commercial station program
 - [[Artemis]] — lunar program, Q1 2026 architecture restructure
 - [[Chinese crewed lunar program]] — state lunar program pressure on [[Artemis]]
 - [[China Manned Space Agency]] — operator of [[Tiangong]] / [[Shenzhou]]

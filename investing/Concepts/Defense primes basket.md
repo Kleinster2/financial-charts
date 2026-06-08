@@ -82,6 +82,71 @@ LMT-NOC pair is the cleanest sub-cluster. HII-LHX pair is a Navy-IT-heavy bundle
 
 ---
 
+## Cluster validation compliance addendum (2026-06-07)
+
+Generated from `scripts/cluster_configs/defense_primes.yaml` using `scripts/cluster_analysis.py` methodology. The 1Y diagnostic window is 2025-05-09 to 2026-05-08 (174 observations); the rolling history starts at `2020-01-01` where data are available.
+
+### Required validation plots
+
+![[defense-primes-cluster-correlation-1y.png]]
+
+*One-year correlation heatmap for the `Defense primes` validation universe.*
+
+![[defense-primes-cluster-dendrogram-1y.png]]
+
+*Hierarchical clustering tree using average linkage on distance `1-|corr|`.*
+
+![[defense-primes-cluster-pca-1y.png]]
+
+*PCA diagnostic for the candidate cohort; PC1 explains 58.6% of standardized daily-return variance.*
+
+### PC1 index weights vs cluster topology
+
+The topology table answers which names join the tree first or last. The raw PC1-mimic table answers which raw-return weights best replicate the standardized common factor after realized-volatility scaling. These are deliberately different readings of the same cluster.
+
+| Step | Left | Right | Distance (1-\|corr\|) | Read |
+|---|---|---|---|---|
+| 1 | LMT | NOC | 0.293 | Tightest merge |
+| 2 | HII | LHX | 0.361 | Candidate cohort merge step |
+| 3 | LMT+NOC | HII+LHX | 0.435 | Candidate cohort merge step |
+| 4 | RTX | LMT+NOC+HII+LHX | 0.450 | Candidate cohort merge step |
+| 5 | GD | LDOS | 0.487 | Candidate cohort merge step |
+| 6 | RTX+LMT+NOC+HII+LHX | GD+LDOS | 0.559 | Final cohort join / loosest boundary |
+
+| Ticker | PC1 loading | Normalized loading weight | Ann. vol | Raw PC1-mimic weight |
+|---|---|---|---|---|
+| LMT | 0.377 | 14.30% | 25.70% | 15.30% |
+| RTX | 0.362 | 13.74% | 25.59% | 14.78% |
+| NOC | 0.413 | 15.68% | 26.64% | 16.19% |
+| GD | 0.371 | 14.08% | 23.26% | 16.65% |
+| HII | 0.390 | 14.80% | 37.68% | 10.81% |
+| LHX | 0.419 | 15.91% | 26.52% | 16.50% |
+| LDOS | 0.302 | 11.48% | 32.37% | 9.76% |
+
+Interpretation: use the dendrogram / join-distance topology to identify the tight core and later-joining members; use the Raw PC1-mimic weight column only for investable factor-replication sizing.
+
+### Historical tightness evolution
+
+![[defense-primes-cluster-rolling-tightness-90d.png]]
+
+*Ninety-day rolling tightness diagnostic: avg intra-correlation, PC1 share, core correlation, satellite-to-core correlation, and final candidate join distance.*
+
+| Year | Avg corr median | PC1 median | Core corr median | Satellite-to-core median | Final join distance median |
+|---|---|---|---|---|---|
+| 2020 | 0.675 | 72.5% | 0.663 | 0.704 | 0.383 |
+| 2021 | 0.560 | 62.8% | 0.552 | 0.588 | 0.553 |
+| 2022 | 0.647 | 70.1% | 0.644 | 0.631 | 0.449 |
+| 2023 | 0.636 | 70.0% | 0.613 | 0.693 | 0.493 |
+| 2024 | 0.425 | 53.2% | 0.388 | 0.466 | 0.802 |
+| 2025 | 0.445 | 53.3% | 0.472 | 0.412 | 0.656 |
+| 2026 | 0.530 | 60.5% | 0.537 | 0.508 | 0.631 |
+
+Latest 90D through 2026-05-08: avg corr 0.517, PC1 59.5%, core corr 0.501, satellite-to-core corr 0.556, final join distance 0.592.
+
+Historical verdict: regime-dependent but measurable cluster; cohesion exists, but the rolling path is not consistently tight enough to call structurally durable.
+
+---
+
 ## Related
 
 ### Member actors

@@ -12,13 +12,17 @@ Financial technology — payments, neobanks, lending, crypto, insurtech.
 
 ---
 
+![[fintech-chart.png]]
+*Fintech public exposure is not one clean sector tape: payments networks, digital payments, neobanks, retail trading, and crypto-linked names trade on different drivers.*
+
 ## Correlation structure
 
 *Fintech as an industry does NOT trade as a unit. The validated sectors are:*
 
 | Sector | Correlation | Key players | Notes |
 |--------|-------------|-------------|-------|
-| **[[Payments Networks]]** | 0.86 | V, MA | Duopoly, toll booth model |
+| Avg correlation | 0.00 | Industry umbrella | Fintech is an overview, not a single validated basket |
+| [[Payments Networks]] | 0.86 | V, MA | Duopoly, toll booth model |
 | [[US Retail Trading]] | 0.61 | SOFI, HOOD, COIN | Trading/crypto exposure |
 
 Outliers:
@@ -30,7 +34,7 @@ Outliers:
 
 ## Market overview
 
-| Segment | 2025 market | Key players |
+| [[Segment]] | 2025 market | Key players |
 |---------|-------------|-------------|
 | Payments networks | ~$600B revenue | [[Visa]], [[Mastercard]] |
 | Digital payments | ~$10T volume | [[PayPal]], [[Block]] |
@@ -77,7 +81,7 @@ Toll booth model: Small fee on every transaction, 60%+ margins.
 |---------|--------|-----------|
 | [[Klarna]] | Private, IPO filed | Credit losses |
 | [[Affirm]] | Public (AFRM) | Profitability |
-| [[Afterpay]] | Acquired by [[Block]] | Integrated |
+| [[Afterpay]] | [[Acquired]] by [[Block]] | Integrated |
 
 ### Crypto/DeFi
 
@@ -185,10 +189,10 @@ Toll booth model: Small fee on every transaction, 60%+ margins.
 - [[Neobanks]] — digital-first banking category
 - [[Brazil fintech]] — Pix-led digital-finance ecosystem
 - [[Pix]] — public instant-payment rail
-- [[UPI]] — India instant-payment rail comparison
+- [[UPI]] — [[India]] instant-payment rail comparison
 - [[Coinbase]] — crypto exposure
 - [[Robinhood]] — retail trading
-- [[HOF Capital]] — VC investor with SoFi, Klarna, and Kraken exposure
+- [[HOF Capital]] — VC investor with SoFi, Klarna, and [[Kraken]] exposure
 - [[Banks]] — traditional finance
 - [[Crypto]] — DeFi/blockchain
 
@@ -196,7 +200,7 @@ Toll booth model: Small fee on every transaction, 60%+ margins.
 
 ## Sources
 
-- [McKinsey Global Payments Report](https://www.mckinsey.com/industries/financial-services/our-insights/global-payments)
+- [[McKinsey]] [Global Payments Report](https://www.mckinsey.com/industries/financial-services/our-insights/global-payments)
 - Company filings
 
 *Created 2026-01-09*

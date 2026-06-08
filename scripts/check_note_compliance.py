@@ -733,13 +733,20 @@ class NoteChecker:
             if link.endswith(('.png', '.jpg', '.jpeg', '.gif', '.svg')):
                 continue
 
-            # Skip already seen
-            if link in seen:
+            # Obsidian links may include anchors or folder-qualified paths.
+            # Resolve those against the note name before treating them as dead.
+            note_name = link.split("#", 1)[0]
+            if not note_name:
                 continue
-            seen.add(link)
+            note_name = note_name.replace("\\", "/").split("/")[-1]
+
+            # Skip already seen
+            if note_name in seen:
+                continue
+            seen.add(note_name)
 
             # Check if note exists
-            if link not in self.existing_notes:
+            if note_name not in self.existing_notes:
                 issues.append(Issue("warning", "dead-link", f"Dead link: [[{link}]]"))
 
         return issues
@@ -752,10 +759,14 @@ class NoteChecker:
         for link in wikilinks:
             if link.endswith(('.png', '.jpg', '.jpeg', '.gif', '.svg')):
                 continue
-            if link in seen:
+            note_name = link.split("#", 1)[0]
+            if not note_name:
                 continue
-            seen.add(link)
-            if link not in self.existing_notes:
+            note_name = note_name.replace("\\", "/").split("/")[-1]
+            if note_name in seen:
+                continue
+            seen.add(note_name)
+            if note_name not in self.existing_notes:
                 dead.append(link)
         return dead
 
@@ -1174,7 +1185,7 @@ aliases: []
 
         is_cluster_note = (
             bool(re.search(r'(?im)^>\s*\[![^\]]+\]\s*Cluster status:', content))
-            or bool(re.search(r'(?im)^##\s+Cluster validation\b', content))
+            or bool(re.search(r'(?im)^##\s+Cluster validation\b(?!\s+status\b)', content))
         )
         if not is_cluster_note:
             return issues

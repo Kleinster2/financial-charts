@@ -3,7 +3,22 @@ aliases: [CFS]
 ---
 #actor #fusion #usa #private
 
-**Commonwealth Fusion Systems** — MIT spinout fusion company. SPARC tokamak design. Most-funded private fusion company. Targeting 2030s commercial power.
+**Commonwealth Fusion Systems** — [[MIT]] spinout fusion company. SPARC tokamak design. Most-funded private fusion company. Targeting 2030s commercial power.
+
+CFS is the highest-profile private fusion commercialization bet in the vault: the bull case is that high-temperature-superconducting magnets make compact tokamak power practical, while the bear case is that even credible fusion remains too late and too risky for near-term AI power demand. The watch item is whether SPARC proves net-energy physics on a timeline that can credibly bridge into ARC commercial plants in the 2030s.
+
+---
+
+## Quick stats
+
+| Metric | Value |
+|--------|-------|
+| Founded | 2018 |
+| HQ | Devens, Massachusetts |
+| Status | Private |
+| Total funding | $2B+ |
+| Lead technology | High-field tokamak using HTS magnets |
+| Commercial target | 2030s |
 
 ---
 
@@ -13,7 +28,7 @@ CFS is the most credible private fusion effort:
 
 | Metric | Value |
 |--------|-------|
-| Founded | 2018 (MIT spinout) |
+| Founded | 2018 ([[MIT]] spinout) |
 | Funding | $2B+ raised |
 | Design | SPARC tokamak |
 | HQ | Devens, Massachusetts |
@@ -30,7 +45,7 @@ CFS is the most credible private fusion effort:
 | Size | Smaller than ITER |
 | Advantage | Compact, faster to build |
 
-**Key breakthrough**: HTS magnets enable smaller, cheaper tokamaks. CFS demonstrated 20T magnet in 2021.
+Key breakthrough: HTS magnets enable smaller, cheaper tokamaks. CFS demonstrated 20T magnet in 2021.
 
 ---
 
@@ -68,9 +83,9 @@ If SPARC works, ARC follows.
 | Series A | 2018 | $50M | — |
 | Series B | 2021 | $1.8B | $5B+ |
 | Additional | 2024 | $200M+ | — |
-| **Total** | | **$2B+** | |
+| Total | | $2B+ | |
 
-**Key investors:**
+Key investors:
 
 | Investor | Notes |
 |----------|-------|
@@ -78,12 +93,41 @@ If SPARC works, ARC follows.
 | [[Bill Gates]] / Breakthrough Energy | Strategic |
 | [[Google]] | Strategic |
 | [[Khosla Ventures]] | Early backer |
-| Emerson Collective | Growth |
+| [[Emerson Collective]] | Growth |
 | [[Temasek]] | Sovereign |
 
-**Total raised:** $2B+
+Total raised: $2B+
 
-**Most-funded private fusion company globally.**
+Most-funded private fusion company globally.
+
+---
+
+## Ownership estimates
+
+| Holder | Ownership % estimate | Notes |
+|--------|----------------------|-------|
+| Founders / employees | n/a | Private company; exact current cap table not public |
+| [[Tiger Global]] | n/a | Lead Series B investor |
+| Breakthrough Energy / [[Bill Gates]] | n/a | Strategic climate-capital backer |
+| [[Google]] | n/a | Strategic investor |
+| Other growth investors | n/a | Includes [[Khosla Ventures]], [[Emerson Collective]], and [[Temasek]] |
+
+## Leadership
+
+| Role | Name | Background |
+|------|------|------------|
+| CEO | Bob Mumgaard | Co-founder; leads SPARC-to-ARC commercialization path |
+| Founder / scientific base | [[MIT]] / PSFC team | Fusion physics and HTS magnet pedigree |
+| Investor base | Growth and strategic climate capital | Provides long-duration private funding for pre-commercial technology risk |
+
+## Evolution
+
+| Period | Stage | What changed |
+|--------|-------|--------------|
+| 2018 | MIT spinout | Commercialized high-field tokamak work from MIT |
+| 2021 | HTS magnet milestone | Demonstrated 20T magnet and raised the large Series B war chest |
+| 2024-2026 | SPARC buildout | Moved from physics promise to demonstration-plant execution |
+| 2030s target | ARC commercialization | If SPARC works, ARC becomes the investable power-plant question |
 
 ---
 
@@ -96,7 +140,7 @@ If SPARC works, ARC follows.
 | AI relevance | Too late | Near-term |
 | Fuel | Abundant | [[Uranium]] supply chain |
 
-**Reality**: Fusion won't power AI data centers this decade. It's a 2030s+ bet.
+Reality: Fusion won't power AI data centers this decade. It's a 2030s+ bet.
 
 ---
 
@@ -112,19 +156,19 @@ If SPARC works, ARC follows.
 | SPARC target | Mid-2020s |
 | Commercial | 2030s |
 
-**Most-funded private fusion company globally.**
+Most-funded private fusion company globally.
 
 ---
 
 ## Investment angle
 
-**Bull:**
+Bull:
 - Most credible fusion approach
 - $2B+ war chest
-- MIT pedigree
+- [[MIT]] pedigree
 - HTS magnet breakthrough proven
 
-**Bear:**
+Bear:
 - Private (can't invest directly)
 - Fusion always "20 years away"
 - Technical risk remains

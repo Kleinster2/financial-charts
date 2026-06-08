@@ -3,9 +3,9 @@ aliases: [Crypto to AI, Bitcoin miners to AI, Crypto pivots]
 ---
 #sector #datacenter #crypto #ai #infrastructure
 
-# Crypto-to-AI
+# [[Crypto]]-to-AI
 
-Bitcoin miners pivoting to AI/HPC hosting. Trades as a distinct cluster (0.61 correlation), separate from traditional DC REITs.
+[[Bitcoin]] miners pivoting to AI/HPC hosting. Trades as a distinct cluster (0.61 correlation), separate from traditional DC [[REITs]].
 
 ![[crypto-to-ai-sector-chart.png]]
 *HUT and IREN most correlated (0.70). All four moving together on AI infrastructure theme, but high volatility.*
@@ -41,7 +41,7 @@ CORZ slightly less correlated — further along in AI pivot (CoreWeave deal).
 |---------|--------|-------------|----------|
 | [[Core Scientific]] | CORZ | GPU hosting | $3.5B CoreWeave partnership |
 | [[Hut 8]] | HUT | Hybrid BTC + AI | Building AI infrastructure |
-| [[IREN]] | IREN | Managed GPU cloud | $9.7B Microsoft + $3.4B NVIDIA |
+| [[IREN]] | [[IREN]] | Managed GPU cloud | $9.7B Microsoft + $3.4B NVIDIA |
 | [[TeraWulf]] | WULF | AI hosting | Zero-carbon focus |
 
 ---
@@ -55,7 +55,7 @@ The May 26, 2026 IREN-Dell agreement reinforces the sector split identified belo
 | Demand anchor | [[Microsoft]] | $9.7B five-year AI cloud contract |
 | Demand anchor / strategic partner | [[NVIDIA]] | $3.4B five-year managed cloud contract; up to $2.1B investment right |
 | Hardware integrator | [[Dell]] | ~$1.6B air-cooled [[Blackwell]] systems for Childress |
-| Physical asset | Childress, Texas | Existing data centers, ~60MW for NVIDIA contract, early 2027 commissioning target |
+| Physical asset | Childress, [[Texas]] | Existing data centers, ~60MW for NVIDIA contract, early 2027 commissioning target |
 
 That is the cleanest current expression of the cohort's PC2 business-model divide: pure miners still need Bitcoin beta, while AI-pivot names are being revalued on the ability to convert powered land into contracted accelerator capacity. On the May 26 tape, the whole cohort was bid, but IREN's +5.2% move matters more as confirmation of the idiosyncratic-capacity leg than as a standalone momentum signal.
 
@@ -70,7 +70,7 @@ Shared characteristics:
 - High beta, speculative investor base
 - Similar risk profile (execution, capital needs)
 
-Why separate from DC REITs:
+Why separate from DC [[REITs]]:
 - EQIX-CORZ correlation: 0.10 (near zero)
 - Different business model (operate GPUs vs lease space)
 - Different customer (AI startups vs enterprise)
@@ -80,7 +80,7 @@ Why separate from DC REITs:
 
 ## Business model comparison
 
-| Factor | Crypto-to-AI | DC REITs |
+| Factor | [[Crypto]]-to-AI | DC [[REITs]] |
 |--------|--------------|----------|
 | Revenue | GPU/hosting fees | Lease income |
 | Volatility | High (crypto + AI cycles) | Low (long-term leases) |
@@ -102,8 +102,69 @@ Bear case:
 - Execution risk on pivot
 - GPU depreciation
 - Customer concentration
-- Competition from well-capitalized REITs
+- Competition from well-capitalized [[REITs]]
 - Still tied to crypto sentiment
+
+---
+
+## Cluster validation compliance addendum (2026-06-07)
+
+Generated from `scripts/cluster_configs/crypto_to_ai.yaml` using `scripts/cluster_analysis.py` methodology. The 1Y diagnostic window is 2025-05-09 to 2026-05-08 (114 observations); the rolling history starts at `2020-01-01` where data are available.
+
+### Required validation plots
+
+![[crypto-to-ai-cluster-correlation-1y.png]]
+
+*One-year correlation heatmap for the `[[Crypto]]-to-AI converters` validation universe.*
+
+![[crypto-to-ai-cluster-dendrogram-1y.png]]
+
+*Hierarchical clustering tree using average linkage on distance `1-|corr|`.*
+
+![[crypto-to-ai-cluster-pca-1y.png]]
+
+*PCA diagnostic for the candidate cohort; PC1 explains 73.6% of standardized daily-return variance.*
+
+### PC1 index weights vs cluster topology
+
+The topology table answers which names join the tree first or last. The raw PC1-mimic table answers which raw-return weights best replicate the standardized common factor after realized-volatility scaling. These are deliberately different readings of the same cluster.
+
+| Step | Left | Right | Distance (1-\|corr\|) | Read |
+|---|---|---|---|---|
+| 1 | RIOT | CLSK | 0.160 | Tightest merge |
+| 2 | HUT | RIOT+CLSK | 0.204 | Candidate cohort merge step |
+| 3 | WULF | HUT+RIOT+CLSK | 0.246 | Candidate cohort merge step |
+| 4 | CORZ | WULF+HUT+RIOT+CLSK | 0.309 | Candidate cohort merge step |
+| 5 | [[IREN]] | CORZ+WULF+HUT+RIOT+CLSK | 0.338 | Candidate cohort merge step |
+| 6 | MARA | IREN+CORZ+WULF+HUT+RIOT+CLSK | 0.381 | Final cohort join / loosest boundary |
+
+| Ticker | PC1 loading | Normalized loading weight | Ann. vol | Raw PC1-mimic weight |
+|---|---|---|---|---|
+| CORZ | 0.363 | 13.74% | 66.39% | 18.34% |
+| MARA | 0.345 | 13.06% | 85.86% | 13.48% |
+| RIOT | 0.397 | 15.04% | 92.94% | 14.34% |
+| [[IREN]] | 0.350 | 13.25% | 102.87% | 11.42% |
+| HUT | 0.399 | 15.10% | 110.54% | 12.11% |
+| CLSK | 0.404 | 15.28% | 87.09% | 15.55% |
+| WULF | 0.384 | 14.52% | 87.15% | 14.77% |
+
+Interpretation: use the dendrogram / join-distance topology to identify the tight core and later-joining members; use the Raw PC1-mimic weight column only for investable factor-replication sizing.
+
+### Historical tightness evolution
+
+![[crypto-to-ai-cluster-rolling-tightness-90d.png]]
+
+*Ninety-day rolling tightness diagnostic: avg intra-correlation, PC1 share, core correlation, satellite-to-core correlation, and final candidate join distance.*
+
+| Year | Avg corr median | PC1 median | Core corr median | Satellite-to-core median | Final join distance median |
+|---|---|---|---|---|---|
+| 2024 | 0.689 | 73.5% | 0.718 | 0.582 | 0.399 |
+| 2025 | 0.665 | 71.8% | 0.723 | 0.521 | 0.473 |
+| 2026 | 0.729 | 76.9% | 0.731 | 0.735 | 0.306 |
+
+Latest 90D through 2026-05-08: avg corr 0.742, PC1 78.0%, core corr 0.742, satellite-to-core corr 0.740, final join distance 0.328.
+
+Historical verdict: regime-dependent but measurable cluster; cohesion exists, but the rolling path is not consistently tight enough to call structurally durable.
 
 ---
 
@@ -113,7 +174,7 @@ Bear case:
 - [[Data Centers]] — parent sector
 
 ### Sister
-- [[DC REITs]] — traditional data center REITs
+- [[DC REITs]] — traditional data center [[REITs]]
 
 ### Actors
 - [[Core Scientific]] — largest, CoreWeave partnership
@@ -135,18 +196,18 @@ Bear case:
 
 ## Expanded 7-name cohort validation (May 11, 2026)
 
-The original 4-name cohort (CORZ, HUT, IREN, WULF) covers the cleanest AI-pivot names. Expanding to include the pure miners ([[MARA Holdings|MARA]], [[Riot Platforms|RIOT]], [[CleanSpark|CLSK]]) creates a broader cohort that tests whether the pure-miner names belong in the same statistical cluster as the AI-pivot names.
+The original 4-name cohort (CORZ, HUT, IREN, WULF) covers the cleanest AI-pivot names. Expanding to include the pure miners ([[Marathon Digital|MARA]], [[Riot Platforms|RIOT]], [[CleanSpark|CLSK]]) creates a broader cohort that tests whether the pure-miner names belong in the same statistical cluster as the AI-pivot names.
 
-Cohort: CORZ + MARA + RIOT + IREN + HUT + CLSK + WULF (7 names — same N as [[Space pure-plays]] for direct comparison). Methodology matched to [[Space pure-plays]] (1Y window through 2026-05-07, threshold 0.5).
+Cohort: CORZ + MARA + RIOT + IREN + HUT + CLSK + WULF (7 names — same N as [[Space pure-plays]] for direct comparison). Methodology matched to [[Space pure-plays]] (1Y window through [[2026-05-07]], threshold 0.5).
 
 > [!success] Cluster status: validated (May 2026, 7-name cohort with matched methodology)
-> Intra-cluster correlation 0.691 (range 0.482-0.840). PC1 explains 73.79% of variance — strong single-factor cohort. Hierarchical clustering keeps all 7 in one tradeable basket. Cohort is structurally stable across 3Y/2Y/1Y/YTD windows (intra-corr 0.69-0.74 across the entire 3Y period — no regime shift). PC2 cleanly separates pure miners (MARA/CLSK/RIOT) from AI-pivot names (IREN/CORZ/HUT/WULF) as predicted. Factor decomposition: 37% of variance is cohort-specific (residual after SPY + IBIT + CRWV). Same N=7 as [[Space pure-plays]] (intra-corr 0.624, PC1 67.96%) — Crypto-to-AI is the TIGHTER of the two N=7 cohorts on every diagnostic.
+> Intra-cluster correlation 0.691 (range 0.482-0.840). PC1 explains 73.79% of variance — strong single-factor cohort. Hierarchical clustering keeps all 7 in one tradeable basket. Cohort is structurally stable across 3Y/2Y/1Y/YTD windows (intra-corr 0.69-0.74 across the entire 3Y period — no regime shift). PC2 cleanly separates pure miners (MARA/CLSK/RIOT) from AI-pivot names (IREN/CORZ/HUT/WULF) as predicted. Factor decomposition: 37% of variance is cohort-specific (residual after [[SPY]] + [[IBIT]] + CRWV). Same N=7 as [[Space pure-plays]] (intra-corr 0.624, PC1 67.96%) — [[Crypto]]-to-AI is the TIGHTER of the two N=7 cohorts on every diagnostic.
 
 ### Stability across windows
 
 Cohort is remarkably stable — intra-correlation barely moves across 3Y/2Y/1Y/YTD windows. The opposite signature from [[Space pure-plays]] (tightened from 0.48 to 0.64 in the same window) and [[Mag 7 cluster|Mag 7]] (loosened from 0.47 to 0.32).
 
-| Window | Obs | Intra-corr | Range | PC1 | PC2 | Vs IBIT | Gap |
+| Window | Obs | Intra-corr | Range | PC1 | PC2 | Vs [[IBIT]] | [[Gap]] |
 |---|---|---|---|---|---|---|---|
 | YTD 2026 | 88 | 0.742 | 0.58-0.85 | 78.4% | 7.4% | 0.698 | +0.043 |
 | 1Y | 136 | 0.699 | 0.52-0.84 | 75.2% | 8.6% | 0.658 | +0.040 |
@@ -156,16 +217,16 @@ Cohort is remarkably stable — intra-correlation barely moves across 3Y/2Y/1Y/Y
 Two structural reads:
 
 1. The cohort has had stable structure for the entire 3Y data history. Cluster identity formed early (likely with the late-2023 / early-2024 AI capex flood into crypto-mining infrastructure) and hasn't shifted. The basket-as-tradable-factor has been a durable construct for 2-3 years, not a recent narrative.
-2. Cluster vs IBIT (Bitcoin proxy) gap is consistently small (+0.04). The cohort is distinct from raw Bitcoin but only by ~4pp — much tighter relationship to BTC than [[Space pure-plays]] has to defense primes (+0.34). The cohort's price action is significantly Bitcoin-correlated even though it has its own factor.
+2. Cluster vs [[IBIT]] (Bitcoin proxy) gap is consistently small (+0.04). The cohort is distinct from raw Bitcoin but only by ~4pp — much tighter relationship to BTC than [[Space pure-plays]] has to defense primes (+0.34). The cohort's price action is significantly Bitcoin-correlated even though it has its own factor.
 
 ### Pairwise correlation matrix (1Y)
 
-| | CORZ | MARA | RIOT | IREN | HUT | CLSK | WULF |
+| | CORZ | MARA | RIOT | [[IREN]] | HUT | CLSK | WULF |
 |---|---|---|---|---|---|---|---|
 | CORZ | 1.00 | 0.53 | 0.67 | 0.66 | 0.75 | 0.64 | 0.72 |
 | MARA | 0.53 | 1.00 | 0.69 | 0.48 | 0.61 | 0.83 | 0.59 |
 | RIOT | 0.67 | 0.69 | 1.00 | 0.66 | 0.82 | 0.84 | 0.72 |
-| IREN | 0.66 | 0.48 | 0.66 | 1.00 | 0.70 | 0.65 | 0.66 |
+| [[IREN]] | 0.66 | 0.48 | 0.66 | 1.00 | 0.70 | 0.65 | 0.66 |
 | HUT | 0.75 | 0.61 | 0.82 | 0.70 | 1.00 | 0.78 | 0.78 |
 | CLSK | 0.64 | 0.83 | 0.84 | 0.65 | 0.78 | 1.00 | 0.76 |
 | WULF | 0.72 | 0.59 | 0.72 | 0.66 | 0.78 | 0.76 | 1.00 |
@@ -178,19 +239,19 @@ PC2 captures 8.6% of variance and produces the cleanest cohort sub-structure spl
 
 | Ticker | PC2 loading | Sleeve | Business model |
 |---|---|---|---|
-| [[MARA Holdings\|MARA]] | +0.66 | Pure miner | Bitcoin mining, no major AI pivot |
+| [[Marathon Digital|MARA]] | +0.66 | Pure miner | Bitcoin mining, no major AI pivot |
 | [[CleanSpark\|CLSK]] | +0.37 | Pure miner | Bitcoin mining, no major AI pivot |
 | [[Riot Platforms\|RIOT]] | +0.18 | Pure miner | Bitcoin mining, no major AI pivot |
 | [[Hut 8]] | -0.14 | AI-pivot | Hybrid BTC + AI hosting |
 | [[Core Scientific\|CORZ]] | -0.21 | AI-pivot | CoreWeave $3.5B hosting partnership |
 | [[TeraWulf\|WULF]] | -0.21 | AI-pivot | Zero-carbon AI hosting |
-| [[Iris Energy\|IREN]] | -0.54 | AI-pivot | Heaviest AI pivot |
+| [[IREN|Iris Energy]] | -0.54 | AI-pivot | Heaviest AI pivot |
 
 PC2 separates the cohort along the pure-mining vs AI-pivot axis exactly as the business-model classification would predict. MARA at +0.66 is the canonical pure-miner expression; IREN at -0.54 is the canonical AI-pivot expression. Compare to [[Space pure-plays]] where PC2 (data sleeve vs hardware sleeve) was 8.2% of variance — same magnitude, equally clean split. The cohort has a real 2-factor structure where PC2 matters for within-cluster positioning.
 
 ### PC3 — IREN idiosyncratic
 
-PC3 captures 6.0% of variance with [[Iris Energy|IREN]] (+0.72) as the dominant single-name loading. PC3 likely captures IREN-specific factors (NDQ listing premium, HPC scale advantages, Australian power-asset base). Smaller than PC2 but worth noting that IREN drives a meaningful slice of cohort residual variance on its own.
+PC3 captures 6.0% of variance with [[IREN|Iris Energy]] (+0.72) as the dominant single-name loading. PC3 likely captures IREN-specific factors (NDQ listing premium, HPC scale advantages, Australian power-asset base). Smaller than PC2 but worth noting that IREN drives a meaningful slice of cohort residual variance on its own.
 
 ### Factor decomposition vs benchmarks
 
@@ -198,19 +259,19 @@ Regressing the equal-weighted basket against various benchmark combinations:
 
 | Benchmarks | R² | Notes |
 |---|---|---|
-| SPY only | 39.2% | High SPY beta (+3.98) — leveraged broad-market |
-| IBIT only | 43.3% | Bitcoin beta +1.04 — moderate BTC tracking |
-| IBIT + SPY | 52.5% | Combined |
-| IBIT + SPY + CRWV | 62.9% | CRWV adds 10pp — AI infrastructure exposure is real |
-| IBIT + SPY + QQQ + CRWV | 63.0% | QQQ adds nothing over CRWV |
+| [[SPY]] only | 39.2% | High [[SPY]] beta (+3.98) — leveraged broad-market |
+| [[IBIT]] only | 43.3% | Bitcoin beta +1.04 — moderate BTC tracking |
+| [[IBIT]] + [[SPY]] | 52.5% | Combined |
+| [[IBIT]] + [[SPY]] + CRWV | 62.9% | CRWV adds 10pp — AI infrastructure exposure is real |
+| [[IBIT]] + [[SPY]] + [[QQQ]] + CRWV | 63.0% | [[QQQ]] adds nothing over CRWV |
 
 Even with 4 benchmarks, only 63% of variance is explained. Residual cohort-specific factor: 37%. Compare to:
 
-- [[Space pure-plays]]: 59.6% residual after SPY+IWM+ITA
-- [[Mag 7 cluster|Mag 7]]: 14.6% residual after SPY+QQQ+SMH+XLK
-- Crypto-to-AI (this cohort): 37% residual after SPY+IBIT+QQQ+CRWV
+- [[Space pure-plays]]: 59.6% residual after [[SPY]]+[[IWM]]+ITA
+- [[Mag 7 cluster|Mag 7]]: 14.6% residual after [[SPY]]+[[QQQ]]+[[SMH]]+[[XLK]]
+- [[Crypto]]-to-AI (this cohort): 37% residual after [[SPY]]+[[IBIT]]+[[QQQ]]+CRWV
 
-Crypto-to-AI sits between Space pure-plays (genuinely distinct factor) and Mag 7 (essentially leveraged QQQ). The cohort has its own factor but it's tied more closely to broad market + Bitcoin + AI infra than Space pure-plays is.
+[[Crypto]]-to-AI sits between [[Space]] pure-plays (genuinely distinct factor) and Mag 7 (essentially leveraged [[QQQ]]). The cohort has its own factor but it's tied more closely to broad market + Bitcoin + AI infra than [[Space]] pure-plays is.
 
 ### Within-cohort subset optimization
 
@@ -246,43 +307,43 @@ Top tracking pair (HUT + CLSK) vs full 7-name basket vs 5-name complement:
 | Annualized vol | 92.6% | 77.9% | 73.9% |
 | Sharpe | 1.12 | 1.39 | 1.49 |
 
-Unlike [[Space pure-plays]] (where the factor-clean pair LUNR+BKSY outperformed the full basket), the Crypto-to-AI factor-clean pair HUT+CLSK underperforms the full basket on Sharpe AND on cumulative return.
+Unlike [[Space pure-plays]] (where the factor-clean pair LUNR+BKSY outperformed the full basket), the [[Crypto]]-to-AI factor-clean pair HUT+CLSK underperforms the full basket on Sharpe AND on cumulative return.
 
-The reason: HUT+CLSK doesn't include [[Iris Energy|IREN]] (the cohort's best individual performer at +163.5% cumulative). The factor-tracking optimization passed over IREN because IREN has a heavy PC3 idiosyncratic component (PC3 loading +0.72) that makes its returns slightly less factor-aligned. For Crypto-to-AI, factor-tracking ≠ return-maximizing because the cohort's highest-return name is also its most idiosyncratic name. The cleanest expression of the cohort's RETURN signal is a basket that includes IREN (e.g., the top-Sharpe pairs above all include IREN); the cleanest expression of the FACTOR is HUT+CLSK.
+The reason: HUT+CLSK doesn't include [[IREN|Iris Energy]] (the cohort's best individual performer at +163.5% cumulative). The factor-tracking optimization passed over IREN because IREN has a heavy PC3 idiosyncratic component (PC3 loading +0.72) that makes its returns slightly less factor-aligned. For [[Crypto]]-to-AI, factor-tracking ≠ return-maximizing because the cohort's highest-return name is also its most idiosyncratic name. The cleanest expression of the cohort's RETURN signal is a basket that includes IREN (e.g., the top-Sharpe pairs above all include IREN); the cleanest expression of the FACTOR is HUT+CLSK.
 
-Practical implication: for Crypto-to-AI exposure, the right answer depends on whether you want factor-clean tracking (HUT+CLSK), maximum Sharpe (RIOT+IREN or similar IREN pair), or factor-AND-return (the full 7-name basket).
+Practical implication: for [[Crypto]]-to-AI exposure, the right answer depends on whether you want factor-clean tracking (HUT+CLSK), maximum Sharpe (RIOT+IREN or similar IREN pair), or factor-AND-return (the full 7-name basket).
 
 ### Per-name 1Y cumulative return
 
 | Ticker | 1Y cum return | Business type |
 |---|---|---|
-| [[Iris Energy\|IREN]] | +163.5% | AI-pivot (heaviest) |
+| [[IREN|Iris Energy]] | +163.5% | AI-pivot (heaviest) |
 | [[Hut 8]] | +129.9% | AI-pivot |
 | [[Riot Platforms\|RIOT]] | +110.9% | Pure miner |
 | [[TeraWulf\|WULF]] | +83.9% | AI-pivot |
 | [[Core Scientific\|CORZ]] | +65.5% | AI-pivot |
 | [[CleanSpark\|CLSK]] | +33.0% | Pure miner |
-| [[MARA Holdings\|MARA]] | +15.7% | Pure miner |
+| [[Marathon Digital|MARA]] | +15.7% | Pure miner |
 
 The AI-pivot names (IREN, HUT, WULF, CORZ) returned an average of +110.7% over 1Y. The pure miners (RIOT, CLSK, MARA) returned an average of +53.2%. RIOT is the pure-miner outperformer; MARA is the cohort's biggest underperformer. PC2 sub-structure ↔ cumulative-return divergence is clean: AI-pivot names outperformed pure miners by ~58pp at the average level despite both being in the same statistical cluster.
 
 ### Cross-cohort comparison
 
-Crypto-to-AI now joins the matched-methodology comparison set:
+[[Crypto]]-to-AI now joins the matched-methodology comparison set:
 
 | Cluster | N | Avg intra-corr | PC1 variance | Specific factor | Verdict |
 |---|---|---|---|---|---|
 | [[WFE]] | 4 | 0.804 | 85.33% | — | Validated (tightest) |
 | [[Korea Memory]] | 2 | 0.756 | 87.82% | — | Validated (pair) |
 | [[US Memory]] | 3 | 0.696 | 79.72% | — | Validated |
-| Crypto-to-AI (this cohort) | 7 | 0.691 | 73.79% | 37.0% | Validated — tightest N=7 |
+| [[Crypto]]-to-AI (this cohort) | 7 | 0.691 | 73.79% | 37.0% | Validated — tightest N=7 |
 | [[Space pure-plays]] | 7 | 0.624 | 67.96% | 59.6% | Validated |
 | [[AI Compute]] | 3 | 0.600 | 73.37% | — | Validated |
 | [[Mag 7 cluster\|Mag 7]] | 7 | 0.316 | 41.82% | 14.6% | Falsified |
 
-Crypto-to-AI at 0.691 / N=7 is the tightest N=7 cohort in the vault — outperforming Space pure-plays' 0.624 intra-correlation. Three N=7 cohorts now bracket the cluster-coherence spectrum: Crypto-to-AI (0.691, validated), Space pure-plays (0.624, validated), Mag 7 (0.316, falsified). Same cohort size, different business-model coherence, materially different cluster structure.
+[[Crypto]]-to-AI at 0.691 / N=7 is the tightest N=7 cohort in the vault — outperforming [[Space]] pure-plays' 0.624 intra-correlation. Three N=7 cohorts now bracket the cluster-coherence spectrum: [[Crypto]]-to-AI (0.691, validated), [[Space]] pure-plays (0.624, validated), Mag 7 (0.316, falsified). Same cohort size, different business-model coherence, materially different cluster structure.
 
-The interesting framing: Crypto-to-AI has the higher intra-correlation but LOWER cohort-specific factor share (37% vs Space pure-plays' 59.6%). It moves more tightly together as a basket but a larger fraction of that movement is explained by broad benchmarks. Space pure-plays moves less tightly together as a basket but a larger fraction of what movement there is is unique to the cohort. Different signatures of cluster identity.
+The interesting framing: [[Crypto]]-to-AI has the higher intra-correlation but LOWER cohort-specific factor share (37% vs [[Space]] pure-plays' 59.6%). It moves more tightly together as a basket but a larger fraction of that movement is explained by broad benchmarks. [[Space]] pure-plays moves less tightly together as a basket but a larger fraction of what movement there is is unique to the cohort. Different signatures of cluster identity.
 
 *Diagnostic source: `python scripts/cluster_analysis.py --config scripts/cluster_configs/crypto_to_ai.yaml` + `python scripts/crypto_to_ai_full_analysis.py`, May 11 2026 with methodology matched to [[Space pure-plays]].*
 

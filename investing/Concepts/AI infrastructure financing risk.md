@@ -6,6 +6,10 @@ The $1.4T AI buildout may rely on circular capital flows — each player's solve
 
 ---
 
+## Synthesis
+
+AI infrastructure financing risk is the balance-sheet shadow of the AI capex boom: the same contracts that validate GPU/data-center demand can also create circular dependency if cloud buyers, neoclouds, GPU suppliers, private credit lenders, and hyperscalers are all underwriting each other's growth. The investable pressure point is not "AI demand is fake"; it is that equity issuance, foreign-currency debt, private credit, customer prepayments, and supplier financing may all need receptive capital markets at the same time. The Jun. 5 2026 market-window stress test matters because it showed the funding window can narrow before the buildout is complete.
+
 ## Scale of buildout (Jan 2026)
 
 Data center credit market:
@@ -35,20 +39,20 @@ The Apr 28 single-day drawdown is visible across all three counterparties simult
 ![[openai-counterparties-apr2026-selloff.png]]
 *ORCL / SFTBY / CRWV normalized prices, Apr 1 – May 11 2026. All three drop together on Apr 28 (the OpenAI miss-targets report Tuesday) and recover in lockstep over the following two weeks. The synchronized move regardless of company-specific news is the price-action signature of counterparty pricing.* OpenAI's $300B/4.5GW Oracle contract, SoftBank's $40B+ commitment, and CoreWeave's 65%-revenue-from-Microsoft (which routes OpenAI workloads) all run through the same single-customer dependency. OpenAI responded that the business is "firing on all cylinders" — but the trade tells the structural story: equity prices for Oracle and SoftBank now move on OpenAI's revenue prints, regardless of those companies' own quarterly fundamentals.
 
-This is the [[Circular deals / "Ouroboros Protocol"]] channel made visible in price action. The bilateral pivot away from the Stargate JV — documented by FT Apr 29 — concentrates rather than diversifies counterparty risk: where the JV pooled risk across [[OpenAI]], [[Oracle]], [[MGX]], and [[SoftBank]], the bilateral deals leave each counterparty individually exposed to OpenAI's solvency and to the next negotiation OpenAI might walk away from (see [[Project Stargate]] for the Abilene/Narvik/UK reshuffles).
+This is the [[AI infrastructure financing risk|Circular deals / Ouroboros Protocol]] channel made visible in price action. The bilateral pivot away from the Stargate JV — documented by FT Apr 29 — concentrates rather than diversifies counterparty risk: where the JV pooled risk across [[OpenAI]], [[Oracle]], [[MGX]], and [[SoftBank]], the bilateral deals leave each counterparty individually exposed to OpenAI's solvency and to the next negotiation OpenAI might walk away from (see [[Project Stargate]] for the Abilene/Narvik/[[UK]] reshuffles).
 
 *Source: FT (Apr 29, 2026); price action [[Oracle]], [[SoftBank]], [[CoreWeave]] Apr 28*
 
 ---
 
-## FSB Report on Vulnerabilities in Private Credit (May 6 2026)
+## FSB Report on Vulnerabilities in [[Private Credit]] (May 6 2026)
 
 The [[Financial Stability Board]] published its first dedicated assessment of private credit vulnerabilities on May 6 2026. The report's most consequential finding is that the AI capex cycle and the private-credit fragility story are now structurally linked, not parallel concerns.
 
 | Finding | Datapoint |
 |---|---|
 | Total private credit market | $1.5–2T (2024) |
-| Top markets | US ($1T), Euro Area + UK, then Canada/HK/Japan/Switzerland/South Africa |
+| Top markets | US ($1T), [[Euro]] Area + [[UK]], then Canada/HK/[[Japan]]/[[Switzerland]]/[[South Africa]] |
 | AI share of 2025 private credit deals | **>33%** (vs ~17% five-year average) |
 | Bank exposure channels | (1) direct fund lending; (2) financing riskier fund portfolios; (3) lending to firms that also borrow from PC |
 | AI-loan vulnerabilities | Electricity supply, data center construction delays, AI demand oversupply |
@@ -61,7 +65,7 @@ The FSB's data-gap acknowledgment is itself meaningful — global supervisors ca
 
 This finding reinforces the [[Private Credit Software Concentration]] story: BDCs with >20% software portfolio exposure plus AI-data-center exposure are running double-concentration in the same cycle.
 
-*Source: [FSB Report on Vulnerabilities in Private Credit, 6 May 2026](https://www.fsb.org/2026/05/report-on-vulnerabilities-in-private-credit/); [Bloomberg, 6 May 2026](https://www.bloomberg.com/news/articles/2026-05-06/global-watchdog-fsb-unveils-action-plan-on-private-credit-risks); [FT, Gillian Tett column, 8 May 2026](https://www.ft.com/content/c0aec3de-b553-4089-b5d3-074c5b83be57).*
+*Source: [FSB Report on Vulnerabilities in [[Private Credit]], 6 May 2026](https://www.fsb.org/2026/05/report-on-vulnerabilities-in-private-credit/); [Bloomberg, 6 May 2026](https://www.bloomberg.com/news/articles/2026-05-06/global-watchdog-fsb-unveils-action-plan-on-private-credit-risks); [FT, [[Gillian Tett]] column, 8 May 2026](https://www.ft.com/content/c0aec3de-b553-4089-b5d3-074c5b83be57).*
 
 ---
 
@@ -94,15 +98,15 @@ The risk is not that Alphabet cannot raise the money. It can. The risk is that A
 
 ### Meta peer-copycat signal (Jun 2026)
 
-FT's Jun. 5 [[Meta]] report is the first live test of the peer-following clause. Meta is considering a tens-of-billions stock sale to fund AI infrastructure after Alphabet's raise cleared strong demand, while still keeping all options open and without hiring banks. META closed Jun. 5 down 5.51%, versus XLC -1.27% and QQQ -4.80%; the XLC-adjusted abnormal move was -4.24%, about -2.0x the prior-90-session META-minus-XLC residual volatility.
+FT's Jun. 5 [[Meta]] report is the first live test of the peer-following clause. Meta is considering a tens-of-billions stock sale to fund AI infrastructure after Alphabet's raise cleared strong demand, while still keeping all options open and without hiring banks. META closed Jun. 5 down 5.51%, versus [[XLC]] -1.27% and QQQ -4.80%; the [[XLC]]-adjusted abnormal move was -4.24%, about -2.0x the prior-90-session META-minus-[[XLC]] residual volatility.
 
-That tape is not a full verdict because the same session had a broad Nasdaq/chip selloff. But the sector-adjusted move shows the market is already charging Meta for the possibility that AI capex becomes direct dilution, not just lower buybacks, higher debt, or off-balance-sheet leases.
+That tape is not a full verdict because the same session had a broad [[Nasdaq]]/chip selloff. But the sector-adjusted move shows the market is already charging Meta for the possibility that AI capex becomes direct dilution, not just lower buybacks, higher debt, or off-balance-sheet leases.
 
 *Source: [FT](https://www.ft.com/content/e6df645d-1709-4a77-b15d-aa43a0209efd), Jun. 5 2026; price source: local `prices_long` closes through Jun. 5 2026.*
 
 ### Market-window stress test (Jun 5 2026)
 
-The same session produced a broader financing-risk signal: [[Nasdaq semiconductor selloff June 2026]]. A hot payrolls report pushed the 2-year Treasury yield to 4.17% per FT, markets fully priced a December Fed hike, and the AI equity complex sold off hard. Local tape: Nasdaq Composite -4.18%, [[QQQ]] -4.80%, [[XLK]] -6.66%, [[SOXX]] -10.44%, and [[SMH]] -9.22%.
+The same session produced a broader financing-risk signal: [[Nasdaq semiconductor selloff June 2026]]. A hot payrolls report pushed the 2-year Treasury yield to 4.17% per FT, markets fully priced a December Fed hike, and the AI equity complex sold off hard. Local tape: [[Nasdaq]] Composite -4.18%, [[QQQ]] -4.80%, [[XLK]] -6.66%, [[SOXX]] -10.44%, and [[SMH]] -9.22%.
 
 This matters for the financing-risk note because AI infrastructure has become an equity-market absorption problem at the exact moment valuations are rate-sensitive. [[Alphabet equity raise June 2026]] showed mega-cap equity supply can clear; the [[Meta]] rumor showed the channel can spread; the Jun. 5 tape showed the same market can reprice sharply if the discount rate rises before peers launch their own funding.
 
@@ -167,7 +171,7 @@ The Google-Blackstone TPU JV makes the risk taxonomy more precise. CRWV, NBIS, a
 
 | Vehicle | Capital stack | Risk channel |
 |---|---|---|
-| [[CoreWeave]] / CRWV | [[NVIDIA]] equity + public equity + private credit; March 2026 $8.5B DDTL anchored by [[Blackstone]] Credit & Insurance | Customer-contract durability, GPU depreciation, refinancing, and [[Microsoft]] concentration |
+| [[CoreWeave]] / CRWV | [[NVIDIA]] equity + public equity + private credit; March 2026 $8.5B DDTL anchored by [[Blackstone]] Credit & [[Insurance]] | Customer-contract durability, GPU depreciation, refinancing, and [[Microsoft]] concentration |
 | [[Nebius]] / NBIS | Strategic equity from [[Accel]] / [[NVIDIA]] / [[Orbis Investments]] plus ~$4.3375B convertible notes | Public-market dilution/convertible rollover risk plus GPU-cloud execution |
 | [[Google-Blackstone TPU cloud venture 2026]] | [[Blackstone]] $5B initial equity commitment; [[Google]] supplies TPU hardware/software/services | Operating-company execution, leverage terms, and anchor-customer opacity rather than public-neocloud refinancing |
 
@@ -205,9 +209,9 @@ Key difference from existing historical parallel section: The telecom circular d
 | Player | Exposure | Red flag |
 |--------|----------|----------|
 | [[SoftBank]] | $40B OpenAI bet | 54.6% Arm concentration, margin call at -40% |
-| Oracle | 57% backlog = OpenAI | CDS 124-139 bps (2008 levels), CEO selling |
-| OpenAI | $115B losses through 2029 | $1.4T commitment, ~$140B secured |
-| CoreWeave | 65% revenue = [[Microsoft]] | CDS 773 bps = 42% default probability |
+| [[Oracle]] | 57% backlog = OpenAI | CDS 124-139 bps (2008 levels), CEO selling |
+| [[OpenAI]] | $115B losses through 2029 | $1.4T commitment, ~$140B secured |
+| [[CoreWeave]] | 65% revenue = [[Microsoft]] | CDS 773 bps = 42% default probability |
 | [[NVIDIA]] | Vendor financing | "Investment" = 3.5x GPU purchase multiplier |
 
 ---
@@ -267,7 +271,7 @@ Who's building:
 |------|----------|----------|
 | [[Crypto]] miners | [[Bitdeer]], [[Nscale]], [[IREN]] | Converting mining infrastructure |
 | PE/[[Infrastructure]] | [[Blue Owl]], [[Blackstone]] | Off-balance-sheet financing |
-| Newcomers | [[Adriatic DC]], [[Fermi Inc]] | Greenfield mega-projects |
+| Newcomers | [[Adriatic DC]], [[Fermi|Fermi Inc]] | Greenfield mega-projects |
 | Sovereign | [[GCC]] funds | National AI ambitions |
 
 Scale of projects:
@@ -361,7 +365,7 @@ PE firms questioning whether [[SaaS]] debt-fueled buyout model is viable. Two Eu
 
 ## Foreign-currency debt expansion (FT May 15, 2026)
 
-The US investment-grade market is being saturated by hyperscaler bond supply. Per FT, foreign-currency debt now makes up ~30% of hyperscaler overall borrowing (Bank of America), up from effectively zero a year ago. [[Alphabet]] had no foreign debt until last year; in recent months it has issued more than $40bn in overseas bonds across euros, Swiss francs, British pounds, and Canadian dollars, capped Friday May 15 by its first yen-denominated bond — ¥576.5bn ($3.6bn) priced after US bankers worked overnight to pitch Tokyo investors.
+The US investment-grade market is being saturated by hyperscaler bond supply. Per FT, foreign-currency debt now makes up ~30% of hyperscaler overall borrowing (Bank of America), up from effectively zero a year ago. [[Alphabet]] had no foreign debt until last year; in recent months it has issued more than $40bn in overseas bonds across euros, Swiss francs, British pounds, and Canadian dollars, capped Friday May 15 by its first yen-denominated bond — ¥576.5bn ($3.6bn) priced after US bankers worked overnight to pitch [[Tokyo]] investors.
 
 ### Recent hyperscaler debt activity
 
@@ -377,11 +381,11 @@ The reframing matters: hyperscalers are positioning themselves as "the modern-da
 
 Three structural reads:
 
-1. The US IG market is approaching capacity for hyperscaler paper. JPMorgan's John Servidea: "exploring all available [currency] options" to "leave longer intervals between tapping the US market and build some scarcity value." That phrasing implicitly acknowledges saturation risk on the dollar side — a constraint not in the financing thesis a year ago.
+1. The US IG market is approaching capacity for hyperscaler paper. [[JPMorgan Chase|JPMorgan]]'s John Servidea: "exploring all available [currency] options" to "leave longer intervals between tapping the US market and build some scarcity value." That phrasing implicitly acknowledges saturation risk on the dollar side — a constraint not in the financing thesis a year ago.
 2. The supply pipeline is now globally distributed. CHF and EUR yields are lower because of lower policy rates, so the swapped-back cost can clear at or below dollar-equivalent levels. AUD and SGD bond issuance is reportedly being explored. The lender base is broadening to currency segments where AI capex sensitivity is much lower (Swiss insurers, Japanese real-money), partially insulating the financing complex from a US IG-credit cycle.
 3. The 30% foreign share is a fast-moving number. Up from ~0% a year ago, it implies the next 12-18 months will see the share rise further unless US appetite returns. That puts the global IG investor base — not the dollar IG investor base — at the marginal-bid layer for the AI buildout.
 
-*Source: [Big Tech goes beyond Wall Street for huge AI borrowing](https://www.ft.com/content/d137f1a1-4188-4784-b274-f53082d27aa8), FT, May 15, 2026, by Michelle Chan (NY), additional reporting Stephen Morris (SF). Quoted bankers: John Servidea ([[JPMorgan]]), Dan Mead ([[Bank of America]]), Teddy Hodgson ([[Morgan Stanley]]), Scott Schulte ([[Barclays]]).*
+*Source: [Big Tech goes beyond Wall Street for huge AI borrowing](https://www.ft.com/content/d137f1a1-4188-4784-b274-f53082d27aa8), FT, May 15, 2026, by Michelle Chan (NY), additional reporting Stephen Morris (SF). Quoted bankers: John Servidea ([[JPMorgan Chase|JPMorgan]]), Dan Mead ([[Bank of America]]), Teddy Hodgson ([[Morgan Stanley]]), Scott Schulte ([[Barclays]]).*
 
 ---
 
@@ -423,7 +427,7 @@ The risk is concentrated in second-tier players (Oracle, CoreWeave, [[SoftBank]]
 - [[Nebius]] — listed neocloud capital-markets exposure
 - [[Neocloud financing]] — CRWV / NBIS / TPU JV comparison
 - [[Adriatic DC]] — new entrant (€50B Puglia, speculative)
-- [[Fermi Inc]] — new entrant (11GW [[Texas]], lost anchor tenant)
+- [[Fermi|Fermi Inc]] — new entrant (11GW [[Texas]], lost anchor tenant)
 - [[Nscale]] — crypto pivot ($23B [[Microsoft]] deal)
 - [[Bitdeer]] — crypto pivot (570MW Ohio)
 - [[Power constraints]] — bottleneck (transformer lead times 120-210 weeks)

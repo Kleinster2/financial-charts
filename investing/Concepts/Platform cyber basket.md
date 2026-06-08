@@ -143,6 +143,62 @@ The relationship to [[Cybersecurity consolidation]]: that note's "consolidator" 
 
 ---
 
+## Cluster validation compliance addendum (2026-06-07)
+
+Generated from `scripts/cluster_configs/platform_cyber.yaml` using `scripts/cluster_analysis.py` methodology. The 1Y diagnostic window is 2025-05-01 to 2026-04-30 (171 observations); the rolling history starts at `2020-01-01` where data are available.
+
+### Required validation plots
+
+![[platform-cyber-cluster-correlation-1y.png]]
+
+*One-year correlation heatmap for the `Platform cyber` validation universe.*
+
+![[platform-cyber-cluster-dendrogram-1y.png]]
+
+*Hierarchical clustering tree using average linkage on distance `1-|corr|`.*
+
+![[platform-cyber-cluster-pca-1y.png]]
+
+*PCA diagnostic for the candidate cohort; PC1 explains 80.8% of standardized daily-return variance.*
+
+### PC1 index weights vs cluster topology
+
+The topology table answers which names join the tree first or last. The raw PC1-mimic table answers which raw-return weights best replicate the standardized common factor after realized-volatility scaling. These are deliberately different readings of the same cluster.
+
+| Step | Left | Right | Distance (1-\|corr\|) | Read |
+|---|---|---|---|---|
+| 1 | CRWD | PANW | 0.247 | Tightest merge |
+| 2 | ZS | CRWD+PANW | 0.311 | Final cohort join / loosest boundary |
+
+| Ticker | PC1 loading | Normalized loading weight | Ann. vol | Raw PC1-mimic weight |
+|---|---|---|---|---|
+| CRWD | 0.598 | 34.55% | 43.38% | 33.96% |
+| PANW | 0.567 | 32.75% | 36.06% | 38.72% |
+| ZS | 0.566 | 32.69% | 51.03% | 27.32% |
+
+Interpretation: use the dendrogram / join-distance topology to identify the tight core and later-joining members; use the Raw PC1-mimic weight column only for investable factor-replication sizing.
+
+### Historical tightness evolution
+
+![[platform-cyber-cluster-rolling-tightness-90d.png]]
+
+*Ninety-day rolling tightness diagnostic: avg intra-correlation, PC1 share, core correlation, satellite-to-core correlation, and final candidate join distance.*
+
+| Year | Avg corr median | PC1 median | Core corr median | Satellite-to-core median | Final join distance median |
+|---|---|---|---|---|---|
+| 2021 | 0.672 | 78.3% | 0.672 | n/a | 0.374 |
+| 2022 | 0.653 | 77.0% | 0.653 | n/a | 0.391 |
+| 2023 | 0.688 | 79.3% | 0.688 | n/a | 0.361 |
+| 2024 | 0.662 | 77.5% | 0.662 | n/a | 0.373 |
+| 2025 | 0.713 | 80.9% | 0.713 | n/a | 0.297 |
+| 2026 | 0.681 | 78.8% | 0.681 | n/a | 0.353 |
+
+Latest 90D through 2026-04-30: avg corr 0.756, PC1 83.8%, core corr 0.756, satellite-to-core corr n/a, final join distance 0.270.
+
+Historical verdict: regime-dependent but measurable cluster; cohesion exists, but the rolling path is not consistently tight enough to call structurally durable.
+
+---
+
 ## Related
 
 ### Member actors

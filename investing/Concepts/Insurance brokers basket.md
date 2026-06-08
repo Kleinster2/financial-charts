@@ -139,6 +139,67 @@ Same business, different scale. The math reflects this — pairwise correlations
 
 ---
 
+## Cluster validation compliance addendum (2026-06-07)
+
+Generated from `scripts/cluster_configs/insurance_brokers.yaml` using `scripts/cluster_analysis.py` methodology. The 1Y diagnostic window is 2025-05-01 to 2026-04-30 (171 observations); the rolling history starts at `2020-01-01` where data are available.
+
+### Required validation plots
+
+![[ins-brokers-cluster-correlation-1y.png]]
+
+*One-year correlation heatmap for the `Insurance brokers basket` validation universe.*
+
+![[ins-brokers-cluster-dendrogram-1y.png]]
+
+*Hierarchical clustering tree using average linkage on distance `1-|corr|`.*
+
+![[ins-brokers-cluster-pca-1y.png]]
+
+*PCA diagnostic for the candidate cohort; PC1 explains 72.2% of standardized daily-return variance.*
+
+### PC1 index weights vs cluster topology
+
+The topology table answers which names join the tree first or last. The raw PC1-mimic table answers which raw-return weights best replicate the standardized common factor after realized-volatility scaling. These are deliberately different readings of the same cluster.
+
+| Step | Left | Right | Distance (1-\|corr\|) | Read |
+|---|---|---|---|---|
+| 1 | AJG | BRO | 0.211 | Tightest merge |
+| 2 | AON | MMC | 0.216 | Candidate cohort merge step |
+| 3 | AJG+BRO | AON+MMC | 0.275 | Candidate cohort merge step |
+| 4 | WTW | AJG+BRO+AON+MMC | 0.332 | Candidate cohort merge step |
+| 5 | RYAN | WTW+AJG+BRO+AON+MMC | 0.460 | Final cohort join / loosest boundary |
+
+| Ticker | PC1 loading | Normalized loading weight | Ann. vol | Raw PC1-mimic weight |
+|---|---|---|---|---|
+| WTW | 0.402 | 16.46% | 28.17% | 17.08% |
+| AJG | 0.432 | 17.69% | 31.60% | 16.36% |
+| AON | 0.432 | 17.67% | 25.09% | 20.58% |
+| BRO | 0.416 | 17.04% | 31.14% | 15.99% |
+| MMC | 0.417 | 17.08% | 24.77% | 20.16% |
+| RYAN | 0.343 | 14.05% | 41.82% | 9.82% |
+
+Interpretation: use the dendrogram / join-distance topology to identify the tight core and later-joining members; use the Raw PC1-mimic weight column only for investable factor-replication sizing.
+
+### Historical tightness evolution
+
+![[ins-brokers-cluster-rolling-tightness-90d.png]]
+
+*Ninety-day rolling tightness diagnostic: avg intra-correlation, PC1 share, core correlation, satellite-to-core correlation, and final candidate join distance.*
+
+| Year | Avg corr median | PC1 median | Core corr median | Satellite-to-core median | Final join distance median |
+|---|---|---|---|---|---|
+| 2022 | 0.690 | 75.7% | 0.697 | 0.677 | 0.562 |
+| 2023 | 0.730 | 78.0% | 0.738 | 0.726 | 0.378 |
+| 2024 | 0.571 | 65.3% | 0.588 | 0.553 | 0.575 |
+| 2025 | 0.694 | 74.5% | 0.698 | 0.689 | 0.345 |
+| 2026 | 0.654 | 71.7% | 0.654 | 0.653 | 0.455 |
+
+Latest 90D through 2026-03-16: avg corr 0.651, PC1 71.4%, core corr 0.648, satellite-to-core corr 0.655, final join distance 0.498.
+
+Historical verdict: regime-dependent but measurable cluster; cohesion exists, but the rolling path is not consistently tight enough to call structurally durable.
+
+---
+
 ## Related
 
 ### Member actors

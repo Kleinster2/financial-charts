@@ -5,6 +5,20 @@ aliases: [Russian Federation, Moscow]
 
 **Russia** — Major oil/gas producer, geopolitical actor. Sanctioned by US/[[EU]]. Venezuela ally, China partner. Affects energy and semiconductor markets.
 
+Russia is a geography, sanctions target, and commodity-supply actor whose investable relevance comes through oil, gas, FX, sanctions enforcement, and second-order pressure on China, India, Europe, and defense/energy markets. The 2026 Iran-war waiver episode turned Russian barrels from discounted stranded supply into a temporary fiscal bridge, but the structural story remains depletion, sanctions, capital controls, and war-economy fiscal translation.
+
+---
+
+## Quick stats
+
+| Metric | Value |
+|--------|-------|
+| Actor type | Country / geography |
+| Core exposures | [[Oil]], gas, sanctions, FX, defense industry |
+| Oil production | ~10M bpd |
+| Sanctions status | Comprehensive US/[[EU]] sanctions since 2022 |
+| Main market read-through | Energy prices, sanctions risk, and war-economy fiscal stress |
+
 ---
 
 ## Why Russia matters
@@ -24,10 +38,10 @@ aliases: [Russian Federation, Moscow]
 |--------|-------|
 | Oil production | ~10M bpd |
 | Gas production | Major ([[Europe]] dependent pre-2022) |
-| Oil companies | [[Rosneft]], Gazprom, Lukoil |
+| Oil companies | [[Rosneft]], [[Gazprom]], Lukoil |
 | Export markets | China, [[India]] (discounted) |
 
-**Post-2022:** [[Europe]] cut off Russian gas → pivot to [[Asia]].
+Post-2022: [[Europe]] cut off Russian gas → pivot to [[Asia]].
 
 ---
 
@@ -64,21 +78,21 @@ See [[US Sanctions]], [[OFAC]] for policy details.
 | Share of Russian crude exports | ~27% via shadow fleet |
 | Characteristics | Aging tankers, opaque ownership, non-Western insurance |
 
-**2026 enforcement actions:**
-- Jan 2: Finland seized freighter *Fitburg* (suspected cable sabotage)
+2026 enforcement actions:
+- Jan 2: [[Finland]] seized freighter *Fitburg* (suspected cable sabotage)
 - Jan 7: US Navy/Coast Guard seized tanker *Marinera* in North Atlantic
-- Ukraine drone strikes on shadow fleet tankers *Virat*, *Kairos*, *Dashan* (Nov 2025)
+- [[Ukraine]] drone strikes on shadow fleet tankers *Virat*, *Kairos*, *Dashan* (Nov 2025)
 
 ### Secondary sanctions (Jan 2025)
 
 | [[Target]] | Impact |
 |--------|--------|
-| **[[Rosneft]]** | US companies cannot do business |
-| **Lukoil** | US companies cannot do business |
+| [[Rosneft]] | US companies cannot do business |
+| Lukoil | US companies cannot do business |
 | Coverage | ~50% of Russian oil production |
 | Mechanism | [[Block]] access to US financial system |
 
-**180+ shadow fleet tankers** designated in Jan 2025 package alone.
+180+ shadow fleet tankers designated in Jan 2025 package alone.
 
 ### Effectiveness
 
@@ -89,7 +103,7 @@ See [[US Sanctions]], [[OFAC]] for policy details.
 | Price cap compliance | Widespread evasion |
 | Shadow fleet growth | Concentrated, not expanding |
 
-**Chatham House:** "Tightening the oil-price cap to increase pressure on Russia" — calls for stricter enforcement.
+[[Chatham House]]: "Tightening the oil-price cap to increase pressure on Russia" — calls for stricter enforcement.
 
 ### Comparison: Russia vs Iran approach
 
@@ -106,7 +120,7 @@ Iran tariff approach is novel — using trade policy instead of financial sancti
 
 ## Venezuela relationship
 
-**Maduro ally:**
+Maduro ally:
 
 | Support type | Description |
 |--------------|-------------|
@@ -115,7 +129,7 @@ Iran tariff approach is novel — using trade policy instead of financial sancti
 | Oil | [[Rosneft]] had stakes (sold 2020) |
 | Debt | Restructured Venezuelan debt |
 
-**Post-[[Maduro capture 2026]]:** Russia loses key Latin America ally. Reaction pending.
+Post-[[Maduro capture 2026]]: Russia loses key Latin America ally. Reaction pending.
 
 ---
 
@@ -128,13 +142,13 @@ Iran tariff approach is novel — using trade policy instead of financial sancti
 | Payment systems | Ruble-yuan, SWIFT alternatives |
 | Geopolitics | United vs US |
 
-**Investment implication:** China companies risk secondary sanctions for Russia dealings.
+Investment implication: China companies risk secondary sanctions for Russia dealings.
 
 ---
 
 ## Semiconductor angle
 
-**Cut off from advanced tech:**
+Cut off from advanced tech:
 
 - Cannot buy [[NVIDIA]], [[AMD]] chips
 - [[ASML]] equipment banned
@@ -147,9 +161,9 @@ Iran tariff approach is novel — using trade policy instead of financial sancti
 
 The [[Strait of Hormuz]] closure (Feb 28, 2026) inverted Russia's sanctions predicament. With Gulf barrels offline (~16-17M bpd gap), the US granted waivers for [[India]], then [[Japan]] and [[South Korea]], to resume Russian crude purchases. India had been Russia's second-largest buyer (peaked >2M bpd mid-2024) but cut to 1.06M bpd avg in February under US pressure ([[Kpler]]).
 
-Within one week of the waiver, Indian refiners bought ~30M barrels of Russian oil. [[Indian Oil]] ~10M barrels, [[Reliance Industries]] at least 10M barrels (Bloomberg, March 19). At least seven tankers diverted mid-voyage from [[China]] to India ([[Vortexa]]). Russian crude (Urals, ESPO, Varandey) offered at $2–$8/bbl premium to Dated Brent — a premium flip from the pre-conflict discount.
+Within one week of the waiver, Indian refiners bought ~30M barrels of Russian oil. [[Indian Oil]] ~10M barrels, [[Reliance Industries]] at least 10M barrels ([[Bloomberg]], March 19). At least seven tankers diverted mid-voyage from [[China]] to India ([[Vortexa]]). Russian crude (Urals, ESPO, Varandey) offered at $2–$8/bbl premium to Dated Brent — a premium flip from the pre-conflict discount.
 
-The return of India, Japan, and South Korea as buyers erodes China's position as Moscow's importer of last resort and narrows the sanctions discount that made the China trade viable. Washington is accepting higher Russian crude revenues as the price of keeping allied nations supplied.
+The return of India, Japan, and South Korea as buyers erodes China's position as Moscow's importer of last resort and narrows the sanctions discount that made the [[China trade]] viable. Washington is accepting higher Russian crude revenues as the price of keeping allied nations supplied.
 
 See [[Iran conflict economic disruption]] and [[Global oil trade flows]] for full context.
 
@@ -187,22 +201,22 @@ The read-through is that Russia's 2026 energy windfall is a bridge, not a repair
 | Cost type | Value ($/bbl) |
 |-----------|---------------|
 | Brownfield opex | $9 |
-| Transport costs | $4 |
+| [[Transport]] costs | $4 |
 | Development drilling | $3 |
-| **Total brownfield cost** | **~$16** |
+| Total brownfield cost | ~$16 |
 | Shut-in threshold | $20-25 realized |
 | Development drilling threshold (W Siberia) | $27-30 FOB |
 | Tight oil full cycle (Achimov, Bazhenov, Domanik) | $40-60 |
 
-**Key insight:** Even at $20-25/bbl realized, companies retain $15.90-17.70 after tax — enough for opex plus some drilling. Production won't stop, just declines at natural depletion rate.
+Key insight: Even at $20-25/bbl realized, companies retain $15.90-17.70 after tax — enough for opex plus some drilling. Production won't stop, just declines at natural depletion rate.
 
 ### Real purchasing power collapse
 
-Oil sector revenues (state + companies) at start of 2026: just **40% of real purchasing power vs 15 years ago**, despite ruble strengthening 25% against dollar in 2025. Companies face ~20% real cost of capital as CBR fights war-driven inflation.
+Oil sector revenues (state + companies) at start of 2026: just 40% of real purchasing power vs 15 years ago, despite ruble strengthening 25% against dollar in 2025. Companies face ~20% real cost of capital as CBR fights war-driven inflation.
 
-### OPEC+ trap
+### [[OPEC]]+ trap
 
-[[OPEC+]] membership now has political value beyond economics — "one of Russia's last multilateral forums." Production lagging quota by up to 400K bpd, but quotas have destroyed Russia's project pipeline by making development uneconomic. Political lock-in prevents Russia from leaving despite economic costs.
+[[OPEC|OPEC+]] membership now has political value beyond economics — "one of Russia's last multilateral forums." Production lagging quota by up to 400K bpd, but quotas have destroyed Russia's project pipeline by making development uneconomic. Political lock-in prevents Russia from leaving despite economic costs.
 
 ### Sanctions technology impact (mostly failed)
 
@@ -213,45 +227,45 @@ Oil sector revenues (state + companies) at start of 2026: just **40% of real pur
 | Average well length | - | 3,993m vs US 3,776m | Russia longer |
 | Multi-stage frac share | - | ~40% vs US higher | Russia catching up |
 
-**Service companies:** [[Baker Hughes]] and [[Halliburton]] left; [[SLB]] and [[Weatherford]] stayed. Russian buyouts kept staff/equipment largely intact. Russia averages 8-10 frac stages vs US ~16 (shale avg rose 23→46 since 2012).
+Service companies: [[Baker Hughes]] and [[Halliburton]] left; [[SLB]] and [[Weatherford]] stayed. Russian buyouts kept staff/equipment largely intact. Russia averages 8-10 frac stages vs US ~16 (shale avg rose 23→46 since 2012).
 
 ### Well cost advantage
 
 | Location | Cost per well |
 |----------|---------------|
 | Russian well | 125M rubles (~$1.25M) 2024 |
-| Comparable Permian well | $3.3M |
-| **Russian advantage** | **$1.06M vs $3.3M** |
+| Comparable Permian well | $3.[[3M]] |
+| Russian advantage | $1.06M vs $3.[[3M]] |
 
 ### Recent operational disruptions
 
-**Dec 2025-Jan 2026:** Ukrainian drone strikes on 3 [[Lukoil]] Caspian platforms caused production dip (~200K bpd offline). Demonstrates vulnerability of offshore infrastructure to asymmetric attacks.
+Dec 2025-Jan 2026: Ukrainian drone strikes on 3 [[Lukoil]] Caspian platforms caused production dip (~200K bpd offline). Demonstrates vulnerability of offshore infrastructure to asymmetric attacks.
 
 ### Production trajectory
 
 | Timeline | Production forecast |
 |----------|-------------------|
-| Base case 2030 | ~8M bpd |
-| Base case 2035 | Below 7M bpd |
+| [[Base]] case 2030 | ~8M bpd |
+| [[Base]] case 2035 | Below 7M bpd |
 | 2030+ decline rate | 3% annual |
 | Post-2030 decline rate | Steeper 4-5% annual |
 | Long-term (5M bpd) | ~18-20 years (still top-5 global producer) |
 
-**Russia's 2050 Energy Strategy target:** 540Mt/yr (flat). Vakulenko base case shows 3% annual decline after 2030.
+Russia's 2050 Energy Strategy target: 540Mt/yr (flat). Vakulenko base case shows 3% annual decline after 2030.
 
 ### Frontier project mothballing
 
-All Arctic and frontier projects mothballed — sanctions cut off specialized equipment needed for challenging environments. Development focus shifts to brownfield optimization and infill drilling.
+All [[Arctic]] and frontier projects mothballed — sanctions cut off specialized equipment needed for challenging environments. Development focus shifts to brownfield optimization and infill drilling.
 
 ### Iran war windfall paradox
 
-Iran conflict provides Russia "tens of billions of extra revenues per annum" but changes nothing structurally. Short-term cash windfall from higher prices doesn't solve the fundamental investment climate or OPEC+ constraints driving long-term decline.
+Iran conflict provides Russia "tens of billions of extra revenues per annum" but changes nothing structurally. Short-term cash windfall from higher prices doesn't solve the fundamental investment climate or [[OPEC]]+ constraints driving long-term decline.
 
 [[Robin J. Brooks]]' May 29 update quantifies the near-term fiscal channel. His public post argues the [[Strait of Hormuz]] closure lifted [[Urals crude]] both through the general oil deficit and through a narrower Russia-specific channel: US sanctions waivers reduced the stigma discount on Russian barrels, so the Urals discount versus Brent nearly disappeared in April. Brooks reports Russian oil-tax collection rising to about $10B in April from $4B in March, the highest level in two years.
 
-The governance point is as important as the price point. Brooks argues the windfall cannot be blamed only on Washington's Iran-war waivers because the EU allowed the shadow-fleet problem to persist. In his framing, shadow-fleet vessels account for around two-thirds of Russian oil exports from Baltic ports, and Baltic ports are roughly half of Russia's seaborne oil exports. The EU has sanctioned many vessels, but enforcement remains weak when ships can keep operating and when Greece, Cyprus and Malta protect shipowner interests inside EU sanctions negotiations.
+The governance point is as important as the price point. Brooks argues the windfall cannot be blamed only on Washington's Iran-war waivers because the EU allowed the shadow-fleet problem to persist. In his framing, shadow-fleet vessels account for around two-thirds of Russian oil exports from Baltic ports, and Baltic ports are roughly half of Russia's seaborne oil exports. The EU has sanctioned many vessels, but enforcement remains weak when ships can keep operating and when [[Greece]], [[Cyprus]] and Malta protect shipowner interests inside EU sanctions negotiations.
 
-Investment read-through: the windfall is a fiscal bridge, not a structural repair. It can finance the war machine and buy time for the budget, but it does not solve Russia's frontier-project sanctions, infill-drilling trap, OPEC+ constraints, or long-run decline path.
+Investment read-through: the windfall is a fiscal bridge, not a structural repair. It can finance the war machine and buy time for the budget, but it does not solve Russia's frontier-project sanctions, infill-drilling trap, [[OPEC]]+ constraints, or long-run decline path.
 
 *Source: [Robin J. Brooks, "Russia's Massive Oil Price Windfall"](https://robinjbrooks.substack.com/p/russias-massive-oil-price-windfall), May 29 2026.*
 
@@ -267,7 +281,7 @@ To grow production from new sources, companies need $45/bbl retention, requiring
 
 ### Catastrophic scenario
 
-Full war mobilization + severe underinvestment could trigger 1988-95 style collapse: 10-12% annual production decline. Base case assumes continued modest investment in brownfield maintenance.
+Full war mobilization + severe underinvestment could trigger 1988-95 style collapse: 10-12% annual production decline. [[Base]] case assumes continued modest investment in brownfield maintenance.
 
 ---
 
@@ -283,15 +297,30 @@ Full war mobilization + severe underinvestment could trigger 1988-95 style colla
 |----------|--------|
 | Sanctions tightened | Energy prices up, Russia assets down |
 | Sanctions eased | Russia assets rally, oil prices down |
-| China trade grows | Secondary sanction risk for China |
+| [[China trade]] grows | Secondary sanction risk for China |
 | Venezuela fallout | Loses regional influence |
 | Structural decline plays out | Long-term oil supply tightening, higher floor prices |
 
-**Not directly investable** for US persons — sanctions prohibit most transactions.
+Not directly investable for US persons — sanctions prohibit most transactions.
+
+---
+
+## Evolution
+
+| Period | Stage | What changed |
+|--------|-------|--------------|
+| Pre-2022 | Major commodity exporter | Europe was a core gas buyer and Russia had normal access to global finance |
+| 2022-2024 | Sanctions regime | Ukraine invasion triggered comprehensive financial, energy, and technology restrictions |
+| 2025 | Shadow-fleet / price-cap adaptation | Russian barrels kept moving through discounted, opaque, and rerouted trade |
+| 2026 | Iran-war waiver paradox | Higher oil prices and allied waivers lifted receipts, but rouble strength pressured fiscal translation |
 
 ---
 
 ## Related
+
+### Cross-vault
+
+- [Geopolitics: Russia](obsidian://open?vault=geopolitics&file=Actors%2FRussia) — geopolitics-vault counterpart
 
 ### Sanctions
 - [[Secondary sanctions]] — [[Rosneft]]/Lukoil (traditional approach)

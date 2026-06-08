@@ -4,15 +4,26 @@
 
 ---
 
+![[venture-capital-chart.png]]
+*Public proxies for venture-capital exposure are imperfect; the chart is a market-context artifact while the note maps private-capital firms and startup-financing channels.*
+
+## Correlation structure
+
+| Metric | Value | Interpretation |
+|--------|-------|----------------|
+| Avg correlation | 0.00 | Venture capital is an investor-category hub, not a single listed-sector basket |
+| Public proxies | Alt managers / listed platforms | Partial exposure through fee-related earnings, marks, and private-market liquidity |
+| Main driver | Exit window | IPO and secondary-market liquidity matter more than a clean sector factor |
+
 ## Tier 1 (largest/most prestigious)
 
 | Firm | AUM | HQ | Key Deals |
 |------|-----|-----|-----------|
-| [[Sequoia Capital]] | ~$85B | Menlo Park | Apple, Google, Stripe, OpenAI |
-| [[Andreessen Horowitz]] | ~$35B | Menlo Park | OpenAI, Coinbase, SSI, TML |
-| [[Accel]] | ~$50B | Palo Alto | Facebook, Slack, Spotify |
-| [[Benchmark]] | ~$4B | SF | eBay, Uber, Twitter |
-| [[Founders Fund]] | ~$12B | SF | SpaceX, Palantir, Anduril |
+| [[Sequoia Capital]] | ~$85B | Menlo Park | [[Apple]], [[Google]], [[Stripe]], OpenAI |
+| [[Andreessen Horowitz]] | ~$35B | Menlo Park | OpenAI, [[Coinbase]], [[SSI]], TML |
+| [[Accel]] | ~$50B | Palo Alto | Facebook, [[Slack]], [[Spotify]] |
+| [[Benchmark]] | ~$4B | SF | [[eBay]], [[Uber]], [[Twitter]] |
+| [[Founders Fund]] | ~$12B | SF | SpaceX, [[Palantir]], [[Anduril]] |
 
 ---
 
@@ -20,13 +31,13 @@
 
 | Firm | AUM | Focus | Key Deals |
 |------|-----|-------|-----------|
-| [[Lightspeed Venture Partners]] | ~$25B | Global | Snap, Affirm, Mistral |
-| [[General Catalyst]] | ~$25B | Full stack | Stripe, Airbnb, Snap |
-| [[NEA]] | $25B+ | Tech + healthcare | Perplexity, Cloudflare |
-| [[Kleiner Perkins]] | ~$4B | Tech/climate | Google, Amazon |
-| [[Khosla Ventures]] | ~$15B | Deep tech | OpenAI, Impossible Foods |
-| [[Index Ventures]] | ~$15B | Europe + US | Figma, Discord, Mistral |
-| [[Insight Partners]] | ~$90B | Software | Twitter, Shopify |
+| [[Lightspeed Venture Partners]] | ~$25B | Global | [[Snap]], [[Affirm]], [[Mistral]] |
+| [[General Catalyst]] | ~$25B | Full stack | [[Stripe]], [[Airbnb]], [[Snap]] |
+| [[NEA]] | $25B+ | Tech + healthcare | [[Perplexity]], [[Cloudflare]] |
+| [[Kleiner Perkins]] | ~$4B | Tech/climate | [[Google]], [[Amazon]] |
+| [[Khosla Ventures]] | ~$15B | Deep tech | OpenAI, [[Impossible Foods]] |
+| [[Index Ventures]] | ~$15B | [[Europe]] + US | [[Figma]], [[Discord]], [[Mistral]] |
+| [[Insight Partners]] | ~$90B | Software | [[Twitter]], [[Shopify]] |
 
 ---
 
@@ -34,12 +45,12 @@
 
 | Firm | AUM | Focus | Key Deals |
 |------|-----|-------|-----------|
-| [[Benchmark]] | ~$4B | Series A only | eBay, Uber, Twitter |
-| [[Union Square Ventures]] | ~$2B | Networks | Twitter, Coinbase, Etsy |
-| [[Spark Capital]] | ~$5B | Consumer | Twitter, Slack, Discord |
-| [[Redpoint Ventures]] | ~$6B | Infrastructure | Netflix, Stripe, Twilio |
-| [[Lux Capital]] | ~$5B | Deep tech | Anduril |
-| [[8VC]] | ~$5B | Defense/enterprise | Anduril, Palantir |
+| [[Benchmark]] | ~$4B | Series A only | [[eBay]], [[Uber]], [[Twitter]] |
+| [[Union Square Ventures]] | ~$2B | Networks | [[Twitter]], [[Coinbase]], [[Etsy]] |
+| [[Spark Capital]] | ~$5B | [[Consumer]] | [[Twitter]], [[Slack]], [[Discord]] |
+| [[Redpoint Ventures]] | ~$6B | [[Infrastructure]] | [[Netflix]], [[Stripe]], [[Twilio]] |
+| [[Lux Capital]] | ~$5B | Deep tech | [[Anduril]] |
+| [[8VC]] | ~$5B | [[Defense]]/enterprise | [[Anduril]], [[Palantir]] |
 
 ---
 
@@ -48,8 +59,8 @@
 | Firm | AUM | Focus | Key Deals |
 |------|-----|-------|-----------|
 | [[Thrive Capital]] | ~$15B | High conviction | OpenAI ($6.6B lead) |
-| [[IVP]] | $10B+ | Late stage | Twitter, Slack, Discord |
-| [[BOND]] | — | Growth | Substack (led Series C) |
+| [[IVP]] | $10B+ | Late stage | [[Twitter]], [[Slack]], [[Discord]] |
+| [[BOND]] | — | Growth | [[Substack]] (led Series C) |
 
 ---
 
@@ -58,13 +69,13 @@
 ### Canadian
 | Firm | Focus | Key Deal |
 |------|-------|----------|
-| [[Radical Ventures]] | AI | Cohere (lead) |
-| [[Inovia Capital]] | Canadian tech | Cohere |
+| [[Radical Ventures]] | AI | [[Cohere]] (lead) |
+| [[Inovia Capital]] | Canadian tech | [[Cohere]] |
 
 ### European
 | Firm | HQ | Key Deal |
 |------|-----|----------|
-| [[Index Ventures]] | London/SF | Mistral, Revolut |
+| [[Index Ventures]] | London/SF | [[Mistral]], [[Revolut]] |
 
 ### Global / network-driven
 | Firm | Edge | Key Deals |
@@ -78,15 +89,15 @@
 ### AI-focused
 | Firm | Key Deal |
 |------|----------|
-| [[Radical Ventures]] | Cohere |
-| [[Andreessen Horowitz]] | OpenAI, SSI, TML |
+| [[Radical Ventures]] | [[Cohere]] |
+| [[Andreessen Horowitz]] | OpenAI, [[SSI]], TML |
 
-### Defense tech
+### [[Defense]] tech
 | Firm | Key Deal |
 |------|----------|
-| [[8VC]] | Anduril, Shield AI |
-| [[Lux Capital]] | Anduril |
-| [[Founders Fund]] | Anduril, Palantir |
+| [[8VC]] | [[Anduril]], [[Shield AI]] |
+| [[Lux Capital]] | [[Anduril]] |
+| [[Founders Fund]] | [[Anduril]], [[Palantir]] |
 
 ### Climate
 | Firm | Focus |
@@ -104,7 +115,7 @@
 | Series A | $10-25M |
 | Series B | $25-75M |
 | Growth | $100M+ |
-| Target return | 3x+ fund |
+| [[Target]] return | 3x+ fund |
 
 ---
 

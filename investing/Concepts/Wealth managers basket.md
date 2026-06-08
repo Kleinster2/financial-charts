@@ -136,6 +136,64 @@ Different scale, similar economics. SCHW dwarfs RJF and LPLA in size but trades 
 
 ---
 
+## Cluster validation compliance addendum (2026-06-07)
+
+Generated from `scripts/cluster_configs/wealth_managers.yaml` using `scripts/cluster_analysis.py` methodology. The 1Y diagnostic window is 2025-05-01 to 2026-04-30 (171 observations); the rolling history starts at `2020-01-01` where data are available.
+
+### Required validation plots
+
+![[wealth-mgr-cluster-correlation-1y.png]]
+
+*One-year correlation heatmap for the `Wealth managers basket` validation universe.*
+
+![[wealth-mgr-cluster-dendrogram-1y.png]]
+
+*Hierarchical clustering tree using average linkage on distance `1-|corr|`.*
+
+![[wealth-mgr-cluster-pca-1y.png]]
+
+*PCA diagnostic for the candidate cohort; PC1 explains 64.3% of standardized daily-return variance.*
+
+### PC1 index weights vs cluster topology
+
+The topology table answers which names join the tree first or last. The raw PC1-mimic table answers which raw-return weights best replicate the standardized common factor after realized-volatility scaling. These are deliberately different readings of the same cluster.
+
+| Step | Left | Right | Distance (1-\|corr\|) | Read |
+|---|---|---|---|---|
+| 1 | SCHW | RJF | 0.269 | Tightest merge |
+| 2 | LPLA | SCHW+RJF | 0.330 | Candidate cohort merge step |
+| 3 | SF | LPLA+SCHW+RJF | 0.684 | Final cohort join / loosest boundary |
+
+| Ticker | PC1 loading | Normalized loading weight | Ann. vol | Raw PC1-mimic weight |
+|---|---|---|---|---|
+| SCHW | 0.543 | 27.65% | 24.46% | 34.17% |
+| RJF | 0.559 | 28.44% | 25.06% | 34.30% |
+| LPLA | 0.533 | 27.12% | 36.24% | 22.62% |
+| SF | 0.330 | 16.78% | 56.90% | 8.91% |
+
+Interpretation: use the dendrogram / join-distance topology to identify the tight core and later-joining members; use the Raw PC1-mimic weight column only for investable factor-replication sizing.
+
+### Historical tightness evolution
+
+![[wealth-mgr-cluster-rolling-tightness-90d.png]]
+
+*Ninety-day rolling tightness diagnostic: avg intra-correlation, PC1 share, core correlation, satellite-to-core correlation, and final candidate join distance.*
+
+| Year | Avg corr median | PC1 median | Core corr median | Satellite-to-core median | Final join distance median |
+|---|---|---|---|---|---|
+| 2021 | 0.745 | 81.0% | 0.782 | 0.714 | 0.286 |
+| 2022 | 0.774 | 83.1% | 0.815 | 0.750 | 0.253 |
+| 2023 | 0.742 | 80.8% | 0.802 | 0.706 | 0.310 |
+| 2024 | 0.556 | 67.9% | 0.559 | 0.556 | 0.605 |
+| 2025 | 0.805 | 85.4% | 0.811 | 0.777 | 0.242 |
+| 2026 | 0.492 | 64.3% | 0.416 | 0.567 | 0.732 |
+
+Latest 90D through 2026-04-30: avg corr 0.524, PC1 67.1%, core corr 0.460, satellite-to-core corr 0.588, final join distance 0.727.
+
+Historical verdict: structurally durable cluster; rolling cohesion has usually stayed in single-factor territory.
+
+---
+
 ## Related
 
 ### Member actors

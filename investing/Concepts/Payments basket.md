@@ -96,6 +96,73 @@ V-MA pairwise correlation of 0.87 is the tightest pair in the entire validation 
 
 ---
 
+## Cluster validation compliance addendum (2026-06-07)
+
+Generated from `scripts/cluster_configs/payments.yaml` using `scripts/cluster_analysis.py` methodology. The 1Y diagnostic window is 2025-05-01 to 2026-04-30 (171 observations); the rolling history starts at `2020-01-01` where data are available.
+
+### Required validation plots
+
+![[payments-cluster-correlation-1y.png]]
+
+*One-year correlation heatmap for the `Payments` validation universe.*
+
+![[payments-cluster-dendrogram-1y.png]]
+
+*Hierarchical clustering tree using average linkage on distance `1-|corr|`.*
+
+![[payments-cluster-pca-1y.png]]
+
+*PCA diagnostic for the candidate cohort; PC1 explains 47.9% of standardized daily-return variance.*
+
+### PC1 index weights vs cluster topology
+
+The topology table answers which names join the tree first or last. The raw PC1-mimic table answers which raw-return weights best replicate the standardized common factor after realized-volatility scaling. These are deliberately different readings of the same cluster.
+
+| Step | Left | Right | Distance (1-\|corr\|) | Read |
+|---|---|---|---|---|
+| 1 | V | MA | 0.134 | Tightest merge |
+| 2 | AXP | COF | 0.212 | Candidate cohort merge step |
+| 3 | PYPL | FIS | 0.435 | Candidate cohort merge step |
+| 4 | V+MA | AXP+COF | 0.553 | Candidate cohort merge step |
+| 5 | SHOP | PYPL+FIS | 0.562 | Candidate cohort merge step |
+| 6 | V+MA+AXP+COF | SHOP+PYPL+FIS | 0.637 | Candidate cohort merge step |
+| 7 | FISV | V+MA+AXP+COF+SHOP+PYPL+FIS | 0.735 | Final cohort join / loosest boundary |
+
+| Ticker | PC1 loading | Normalized loading weight | Ann. vol | Raw PC1-mimic weight |
+|---|---|---|---|---|
+| V | 0.379 | 13.53% | 23.22% | 18.73% |
+| MA | 0.396 | 14.15% | 22.99% | 19.78% |
+| AXP | 0.392 | 14.01% | 28.79% | 15.64% |
+| PYPL | 0.308 | 11.02% | 44.21% | 8.01% |
+| FIS | 0.387 | 13.83% | 30.19% | 14.72% |
+| FISV | 0.241 | 8.60% | 79.94% | 3.46% |
+| COF | 0.374 | 13.38% | 34.06% | 12.63% |
+| SHOP | 0.321 | 11.48% | 52.50% | 7.03% |
+
+Interpretation: use the dendrogram / join-distance topology to identify the tight core and later-joining members; use the Raw PC1-mimic weight column only for investable factor-replication sizing.
+
+### Historical tightness evolution
+
+![[payments-cluster-rolling-tightness-90d.png]]
+
+*Ninety-day rolling tightness diagnostic: avg intra-correlation, PC1 share, core correlation, satellite-to-core correlation, and final candidate join distance.*
+
+| Year | Avg corr median | PC1 median | Core corr median | Satellite-to-core median | Final join distance median |
+|---|---|---|---|---|---|
+| 2020 | 0.691 | 74.7% | 0.664 | 0.770 | 0.573 |
+| 2021 | 0.377 | 51.2% | 0.329 | 0.521 | 0.877 |
+| 2022 | 0.598 | 65.5% | 0.577 | 0.656 | 0.516 |
+| 2023 | 0.462 | 53.8% | 0.435 | 0.571 | 0.626 |
+| 2024 | 0.418 | 49.6% | 0.426 | 0.396 | 0.659 |
+| 2025 | 0.562 | 63.4% | 0.543 | 0.619 | 0.591 |
+| 2026 | 0.418 | 50.4% | 0.404 | 0.451 | 0.679 |
+
+Latest 90D through 2026-04-30: avg corr 0.455, PC1 52.7%, core corr 0.458, satellite-to-core corr 0.446, final join distance 0.628.
+
+Historical verdict: regime-dependent / fragmenting cluster; current rolling cohesion is below durable-cluster thresholds.
+
+---
+
 ## Related
 
 ### Member actors

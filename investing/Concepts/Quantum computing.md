@@ -4,14 +4,21 @@
 
 ---
 
+![[quantum-computing-chart.png]]
+*Quantum-computing public proxies remain high-volatility speculative exposures; the chart is a market-signal artifact, not evidence that any one technical path has crossed into durable commercial use.*
+
+## Synthesis
+
+Quantum computing is still a pre-commercial option on future compute and cryptography disruption. The investable edge is less "own the winner now" than tracking which technical path gains credible replication, which supply-chain chokepoints such as dilution refrigeration capture spend, and whether public pure-plays dilute before revenue catches up. [[Microsoft]]'s topological bet remains the asymmetric branch: huge payoff if validated, major credibility loss if independent replication fails.
+
 ## Why it matters for investors
 
 | Factor | Status |
 |--------|--------|
-| Investment | Billions flowing (Microsoft, Google, [[IBM]], startups) |
+| Investment | Billions flowing ([[Microsoft]], Google, [[IBM]], startups) |
 | Timeline | Useful applications: 5-15 years (disputed) |
 | Public plays | IonQ, Rigetti, D-Wave (all speculative) |
-| Big tech exposure | Microsoft, Google, [[IBM]], Amazon (Braket) |
+| Big tech exposure | [[Microsoft]], Google, [[IBM]], Amazon (Braket) |
 | Risk | High — scientific feasibility still debated for some approaches |
 
 ---
@@ -20,12 +27,12 @@
 
 | Approach | Players | Pros | Cons |
 |----------|---------|------|------|
-| **Superconducting** | [[IBM]], Google, Rigetti | Most mature, highest qubit counts | Error-prone, needs extreme cooling |
-| **Trapped ion** | IonQ, [[Quantinuum]] | Lower error rates, longer coherence | Slower gate speeds, scaling challenges |
-| **Topological** | Microsoft | Theoretically error-resistant | Unproven — MZMs not yet confirmed |
-| **Photonic** | [[PsiQuantum]], Xanadu | Room temperature operation | Complex error correction |
-| **Neutral atom** | QuEra, Atom Computing | Scalable, flexible | Early stage |
-| **Quantum annealing** | D-Wave | Commercial today (optimization) | Not universal quantum computing |
+| Superconducting | [[IBM]], Google, Rigetti | Most mature, highest qubit counts | Error-prone, needs extreme cooling |
+| Trapped ion | IonQ, [[Quantinuum]] | Lower error rates, longer coherence | Slower gate speeds, scaling challenges |
+| Topological | [[Microsoft]] | Theoretically error-resistant | Unproven — MZMs not yet confirmed |
+| Photonic | [[PsiQuantum]], Xanadu | Room temperature operation | Complex error correction |
+| Neutral atom | QuEra, Atom Computing | Scalable, flexible | Early stage |
+| Quantum annealing | D-Wave | Commercial today (optimization) | Not universal quantum computing |
 
 ---
 
@@ -56,19 +63,19 @@
 | [[Quantinuum]] | Trapped ion | [[Honeywell]] spinoff | Merged with Cambridge Quantum |
 | [[Pasqal]] | Neutral atom | $215M+ | French, Nobel founder, IQMP tenant |
 | [[Diraq]] | Silicon spin | A$150M+ | Australian, CMOS-compatible, IQMP tenant |
-| QuEra | Neutral atom | $100M+ | Harvard/MIT spinout |
+| QuEra | Neutral atom | $100M+ | [[Harvard]]/[[MIT]] spinout |
 
 ### Going public
 
 | Company | Approach | Valuation | Notes |
 |---------|----------|-----------|-------|
-| [[Infleqtion]] | Neutral atom | $1.8B | SPAC with Churchill Capital (INFQ), IQMP tenant |
+| [[Infleqtion]] | Neutral atom | $1.8B | [[SPAC]] with Churchill Capital (INFQ), IQMP tenant |
 
 ---
 
 ## Dilution refrigerators — the hidden chokepoint
 
-Superconducting qubits (the approach used by [[Google]], [[IBM]], Rigetti, and most quantum computers) only work at temperatures near absolute zero — around **10-15 millikelvin** (-459.67°F), colder than outer space. At any warmer temperature, thermal noise destroys fragile quantum states. The dilution refrigerator is the machine that makes this possible.
+Superconducting qubits (the approach used by [[Google]], [[IBM]], Rigetti, and most quantum computers) only work at temperatures near absolute zero — around 10-15 millikelvin (-459.67°F), colder than outer space. At any warmer temperature, thermal noise destroys fragile quantum states. The dilution refrigerator is the machine that makes this possible.
 
 ### How they work
 
@@ -78,38 +85,38 @@ A dilution refrigerator uses two isotopes of helium — helium-3 (³He) and heli
 
 | Supplier | Country | Notes |
 |----------|---------|-------|
-| **Bluefors** | Finland | Market leader, supplies Google, IBM |
-| **Oxford Instruments** | UK | Legacy cryogenics maker |
-| **Leiden Cryogenics** | Netherlands | Smaller specialist |
+| Bluefors | [[Finland]] | Market leader, supplies Google, IBM |
+| Oxford Instruments | [[UK]] | Legacy cryogenics maker |
+| Leiden Cryogenics | [[Netherlands]] | Smaller specialist |
 
-Each unit costs **$1-5M+**, takes months to build, and requires helium-3 — a rare isotope primarily sourced from nuclear weapons tritium decay. Global helium-3 supply is constrained (~30,000 liters/year, mostly from US and Russian weapons programs). This makes dilution refrigerators both expensive and geopolitically sensitive.
+Each unit costs $1-5M+, takes months to build, and requires helium-3 — a rare isotope primarily sourced from nuclear weapons tritium decay. Global helium-3 supply is constrained (~30,000 liters/year, mostly from US and Russian weapons programs). This makes dilution refrigerators both expensive and geopolitically sensitive.
 
 ### Why it's a chokepoint
 
 Every superconducting quantum computer needs one. When the US banned dilution refrigerator exports to [[China]], it targeted the physical foundation of China's quantum program. Without these machines, superconducting qubits can't operate — period.
 
-**China's response:** Pan Jianwei's team at the Chinese Academy of Sciences independently built domestic dilution refrigerators to international standards after the ban. These now power the **Zuchongzhi** quantum processor series. See [[2026 Two Sessions]] for context on China's broader self-sufficiency push.
+China's response: Pan Jianwei's team at the [[Chinese Academy of Sciences]] independently built domestic dilution refrigerators to international standards after the ban. These now power the Zuchongzhi quantum processor series. See [[2026 Two Sessions]] for context on China's broader self-sufficiency push.
 
-**Analogy:** Banning dilution refrigerators to China is like banning [[ASML]] lithography to China's chip industry — except dilution refrigerators are less complex than EUV tools, making domestic replication more feasible. The fact that China achieved this relatively quickly validates the "bottleneck → springboard" pattern.
+Analogy: Banning dilution refrigerators to China is like banning [[ASML]] lithography to China's chip industry — except dilution refrigerators are less complex than EUV tools, making domestic replication more feasible. The fact that China achieved this relatively quickly validates the "bottleneck → springboard" pattern.
 
 ---
 
 ## Investment thesis considerations
 
-**Bull case:**
+Bull case:
 - Quantum advantage for drug discovery, materials, optimization, cryptography
 - Whoever wins captures massive TAM
 - Government funding (defense, national security)
 - Could obsolete classical computing for specific workloads
 
-**Bear case:**
+Bear case:
 - Timeline constantly pushed out ("10 years away" for 30 years)
 - Error correction unsolved at scale
 - Classical algorithms keep improving
 - Most public pure-plays are cash-burning, pre-revenue
 - Scientific feasibility still debated (Microsoft's topological approach)
 
-**Realistic view:**
+Realistic view:
 - Near-term: quantum as cloud service ([[IBM]], Amazon Braket) for experimentation
 - Medium-term: hybrid classical-quantum for specific problems
 - Long-term: fault-tolerant universal quantum computing (if achievable)
@@ -118,7 +125,7 @@ Every superconducting quantum computer needs one. When the US banned dilution re
 
 ## Microsoft Majorana 1 (2025)
 
-**Controversial topological approach:**
+Controversial topological approach:
 
 | Detail | Value |
 |--------|-------|
@@ -131,15 +138,15 @@ Every superconducting quantum computer needs one. When the US banned dilution re
 | Progress | July 2025 data "more indicative" per Cornell researcher |
 | Next step | DARPA Quantum Benchmarking Initiative finalist |
 
-**Key quote:** "Fundamental physics does not respect the timelines set by big tech companies." — Henry Legg, University of St Andrews
+Key quote: "Fundamental physics does not respect the timelines set by big tech companies." — Henry Legg, University of St Andrews
 
-**Investment read:** Microsoft's quantum bet is high-risk, high-reward. If topological qubits work, they leapfrog competitors. If not, years of investment wasted. Scientific consensus still skeptical.
+Investment read: Microsoft's quantum bet is high-risk, high-reward. If topological qubits work, they leapfrog competitors. If not, years of investment wasted. Scientific consensus still skeptical.
 
 ---
 
 ## Illinois Quantum and Microelectronics Park (2025)
 
-**Largest US quantum infrastructure project.** 128-acre campus in Chicago (former U.S. Steel South Works). $500M Illinois state funding.
+Largest US quantum infrastructure project. 128-acre campus in [[Chicago]] (former U.S. Steel South Works). $500M Illinois state funding.
 
 | Tenant | Approach |
 |--------|----------|
@@ -149,9 +156,9 @@ Every superconducting quantum computer needs one. When the US banned dilution re
 | [[Infleqtion]] | Neutral atom |
 | [[Pasqal]] | Neutral atom |
 
-Groundbreaking September 2025. Target completion 2028. Projected $20B+ economic impact.
+Groundbreaking September 2025. [[Target]] completion 2028. Projected $20B+ economic impact.
 
-**Significance:** Consolidates multiple quantum approaches in one location with government backing — could accelerate timelines if any approach achieves breakthrough.
+Significance: Consolidates multiple quantum approaches in one location with government backing — could accelerate timelines if any approach achieves breakthrough.
 
 See [[Illinois Quantum and Microelectronics Park]] for details.
 
@@ -172,11 +179,11 @@ See [[Illinois Quantum and Microelectronics Park]] for details.
 
 ## China: sanction-driven self-sufficiency (March 2026)
 
-At the [[2026 Two Sessions]], Pan Jianwei (Chinese Academy of Sciences) revealed that after the US banned dilution refrigerator exports to China, his team independently built domestic versions at international standards — now powering the **Zuchongzhi** quantum processor series.
+At the [[2026 Two Sessions]], Pan Jianwei ([[Chinese Academy of Sciences]]) revealed that after the US banned dilution refrigerator exports to China, his team independently built domestic versions at international standards — now powering the Zuchongzhi quantum processor series.
 
-This is the same "bottleneck → springboard" pattern seen in semiconductors ([[Huawei]] Kirin 9020, [[SMIC]] 7nm). The 15th Five-Year Plan (2026-2030) explicitly includes quantum technology commercialization as a priority, with deep integration of industry-academia-research.
+This is the same "bottleneck → springboard" pattern seen in semiconductors ([[Huawei]] [[Kirin]] 9020, [[SMIC]] 7nm). The 15th Five-Year Plan (2026-2030) explicitly includes quantum technology commercialization as a priority, with deep integration of industry-academia-research.
 
-**Implication:** Western quantum equipment exporters face the same long-term dynamic as semiconductor equipment makers — export controls create a protected market for Chinese domestic alternatives with state backing.
+Implication: Western quantum equipment exporters face the same long-term dynamic as semiconductor equipment makers — export controls create a protected market for Chinese domestic alternatives with state backing.
 
 *Updated 2026-03-05*
 
@@ -184,27 +191,27 @@ This is the same "bottleneck → springboard" pattern seen in semiconductors ([[
 
 ## All-In E222 update (Apr 3) — Bitcoin threat timeline
 
-*Data from All-In Podcast Episode 222, April 3, 2026*
+*Data from [[All-In Podcast]] Episode 222, April 3, 2026*
 
-**Timeline acceleration:** [[Chamath Palihapitiya|Chamath]]: Functional quantum chip now 5-7 years away, accelerated from previous estimates of 25-30 years. Major compression of expected timeline.
+Timeline acceleration: [[Chamath Palihapitiya|Chamath]]: Functional quantum chip now 5-7 years away, accelerated from previous estimates of 25-30 years. Major compression of expected timeline.
 
-**Shor's algorithm optimization:** Oded Regev (NYU, 2023) published improved [[Shor's algorithm]] — quantum operations required reduced from 28 million to 500,000. Order-of-magnitude efficiency improvement brings practical quantum cryptography attack within reach.
+Shor algorithm optimization: Oded Regev (NYU, 2023) published improved Shor algorithm work — quantum operations required reduced from 28 million to 500,000. Order-of-magnitude efficiency improvement brings practical quantum cryptography attack within reach.
 
-**Market positioning:** Betting markets pricing quantum computers "within spitting distance of industrial scale" — suggesting commercial viability approaching faster than academic consensus.
+Market positioning: Betting markets pricing quantum computers "within spitting distance of industrial scale" — suggesting commercial viability approaching faster than academic consensus.
 
-**Bitcoin honeypot thesis:** [[Bitcoin]] and cryptocurrency represent "obvious honeypot" target for first practical quantum computer deployment — encrypted wallets containing hundreds of billions in value create immediate economic incentive.
+Bitcoin honeypot thesis: [[Bitcoin]] and cryptocurrency represent "obvious honeypot" target for first practical quantum computer deployment — encrypted wallets containing hundreds of billions in value create immediate economic incentive.
 
-**Non-state actor threat:** Key risk: non-state actor (criminal organization, rogue nation) could use quantum computer to drain crypto markets first, then publicly announce that encryption is broken — maximizing profit before revealing capability.
+Non-state actor threat: Key risk: non-state actor (criminal organization, rogue nation) could use quantum computer to drain crypto markets first, then publicly announce that encryption is broken — maximizing profit before revealing capability.
 
-**Bitcoin encryption history:** Bitcoin community has migrated encryption schemes before in early days, proving technical adaptability. However, current quantum threat represents "big technological lift" requiring changes across:
+Bitcoin encryption history: Bitcoin community has migrated encryption schemes before in early days, proving technical adaptability. However, current quantum threat represents "big technological lift" requiring changes across:
 - All wallet software
 - Transaction flow processing
 - Network validation nodes
 - Consensus mechanisms
 
-**5-7 year window:** Chamath's warning: "You have 5-7 years to get your shit in order." Timeline for crypto ecosystem to implement quantum-resistant cryptography before practical quantum computers become available.
+5-7 year window: Chamath's warning: "You have 5-7 years to get your shit in order." Timeline for crypto ecosystem to implement quantum-resistant cryptography before practical quantum computers become available.
 
-**Investment implications:** Quantum computing advancement creates both opportunity (quantum companies, quantum-safe cryptography) and existential threat (current blockchain/crypto infrastructure vulnerable).
+Investment implications: Quantum computing advancement creates both opportunity (quantum companies, quantum-safe cryptography) and existential threat (current blockchain/crypto infrastructure vulnerable).
 
 ---
 
@@ -223,7 +230,7 @@ This is the same "bottleneck → springboard" pattern seen in semiconductors ([[
 - [[2026 Two Sessions]] — China quantum self-sufficiency push, dilution refrigerator independence
 - [[Thermodynamic computing]] — adjacent physics-based probabilistic-computing concept
 - Bluefors — Finnish dilution refrigerator market leader
-- Oxford Instruments — UK cryogenics supplier
+- Oxford Instruments — [[UK]] cryogenics supplier
 
 ### Cross-vault
 - [Technologies: Quantum Computing](obsidian://open?vault=technologies&file=Quantum%20Computing) — qubit architectures, error correction, decoherence challenges

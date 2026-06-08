@@ -115,6 +115,67 @@ This makes P&C carriers a useful diversifier in equity portfolios — they offer
 
 ---
 
+## Cluster validation compliance addendum (2026-06-07)
+
+Generated from `scripts/cluster_configs/pc_carriers.yaml` using `scripts/cluster_analysis.py` methodology. The 1Y diagnostic window is 2025-05-01 to 2026-04-30 (171 observations); the rolling history starts at `2020-01-01` where data are available.
+
+### Required validation plots
+
+![[pc-carriers-cluster-correlation-1y.png]]
+
+*One-year correlation heatmap for the `P&C insurance carriers` validation universe.*
+
+![[pc-carriers-cluster-dendrogram-1y.png]]
+
+*Hierarchical clustering tree using average linkage on distance `1-|corr|`.*
+
+![[pc-carriers-cluster-pca-1y.png]]
+
+*PCA diagnostic for the candidate cohort; PC1 explains 71.6% of standardized daily-return variance.*
+
+### PC1 index weights vs cluster topology
+
+The topology table answers which names join the tree first or last. The raw PC1-mimic table answers which raw-return weights best replicate the standardized common factor after realized-volatility scaling. These are deliberately different readings of the same cluster.
+
+| Step | Left | Right | Distance (1-\|corr\|) | Read |
+|---|---|---|---|---|
+| 1 | TRV | HIG | 0.187 | Tightest merge |
+| 2 | PGR | ALL | 0.314 | Candidate cohort merge step |
+| 3 | CB | TRV+HIG | 0.335 | Candidate cohort merge step |
+| 4 | PGR+ALL | CB+TRV+HIG | 0.400 | Final cohort join / loosest boundary |
+
+| Ticker | PC1 loading | Normalized loading weight | Ann. vol | Raw PC1-mimic weight |
+|---|---|---|---|---|
+| PGR | 0.411 | 18.39% | 25.01% | 14.79% |
+| CB | 0.436 | 19.53% | 18.21% | 21.57% |
+| TRV | 0.462 | 20.69% | 18.57% | 22.41% |
+| ALL | 0.457 | 20.44% | 21.93% | 18.75% |
+| HIG | 0.468 | 20.96% | 18.75% | 22.48% |
+
+Interpretation: use the dendrogram / join-distance topology to identify the tight core and later-joining members; use the Raw PC1-mimic weight column only for investable factor-replication sizing.
+
+### Historical tightness evolution
+
+![[pc-carriers-cluster-rolling-tightness-90d.png]]
+
+*Ninety-day rolling tightness diagnostic: avg intra-correlation, PC1 share, core correlation, satellite-to-core correlation, and final candidate join distance.*
+
+| Year | Avg corr median | PC1 median | Core corr median | Satellite-to-core median | Final join distance median |
+|---|---|---|---|---|---|
+| 2020 | 0.714 | 77.8% | 0.824 | 0.547 | 0.453 |
+| 2021 | 0.353 | 50.8% | 0.427 | 0.331 | 0.819 |
+| 2022 | 0.659 | 73.0% | 0.666 | 0.639 | 0.450 |
+| 2023 | 0.571 | 66.5% | 0.654 | 0.455 | 0.566 |
+| 2024 | 0.553 | 64.5% | 0.611 | 0.471 | 0.529 |
+| 2025 | 0.762 | 81.1% | 0.807 | 0.692 | 0.308 |
+| 2026 | 0.632 | 70.8% | 0.673 | 0.570 | 0.422 |
+
+Latest 90D through 2026-04-30: avg corr 0.633, PC1 70.9%, core corr 0.682, satellite-to-core corr 0.560, final join distance 0.420.
+
+Historical verdict: regime-dependent but measurable cluster; cohesion exists, but the rolling path is not consistently tight enough to call structurally durable.
+
+---
+
 ## Related
 
 ### Member actors

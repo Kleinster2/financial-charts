@@ -121,6 +121,61 @@ The cleanest opportunity is the +0.43 separation from P&C carriers — when the 
 
 ---
 
+## Cluster validation compliance addendum (2026-06-07)
+
+Generated from `scripts/cluster_configs/life_insurers.yaml` using `scripts/cluster_analysis.py` methodology. The 1Y diagnostic window is 2025-05-01 to 2026-04-30 (171 observations); the rolling history starts at `2020-01-01` where data are available.
+
+### Required validation plots
+
+![[life-insurers-cluster-correlation-1y.png]]
+
+*One-year correlation heatmap for the `Life insurers pair` validation universe.*
+
+![[life-insurers-cluster-dendrogram-1y.png]]
+
+*Hierarchical clustering tree using average linkage on distance `1-|corr|`.*
+
+![[life-insurers-cluster-pca-1y.png]]
+
+*PCA diagnostic for the candidate cohort; PC1 explains 84.3% of standardized daily-return variance.*
+
+### PC1 index weights vs cluster topology
+
+The topology table answers which names join the tree first or last. The raw PC1-mimic table answers which raw-return weights best replicate the standardized common factor after realized-volatility scaling. These are deliberately different readings of the same cluster.
+
+| Step | Left | Right | Distance (1-\|corr\|) | Read |
+|---|---|---|---|---|
+| 1 | MET | PRU | 0.313 | Final cohort join / loosest boundary |
+
+| Ticker | PC1 loading | Normalized loading weight | Ann. vol | Raw PC1-mimic weight |
+|---|---|---|---|---|
+| MET | 0.707 | 50.00% | 23.82% | 49.44% |
+| PRU | 0.707 | 50.00% | 23.29% | 50.56% |
+
+Interpretation: use the dendrogram / join-distance topology to identify the tight core and later-joining members; use the Raw PC1-mimic weight column only for investable factor-replication sizing.
+
+### Historical tightness evolution
+
+![[life-insurers-cluster-rolling-tightness-90d.png]]
+
+*Ninety-day rolling tightness diagnostic: avg intra-correlation, PC1 share, core correlation, satellite-to-core correlation, and final candidate join distance.*
+
+| Year | Avg corr median | PC1 median | Core corr median | Satellite-to-core median | Final join distance median |
+|---|---|---|---|---|---|
+| 2020 | 0.966 | 98.3% | 0.966 | n/a | 0.034 |
+| 2021 | 0.875 | 93.7% | 0.875 | n/a | 0.125 |
+| 2022 | 0.921 | 96.0% | 0.921 | n/a | 0.079 |
+| 2023 | 0.874 | 93.7% | 0.874 | n/a | 0.126 |
+| 2024 | 0.849 | 92.5% | 0.849 | n/a | 0.151 |
+| 2025 | 0.897 | 94.9% | 0.897 | n/a | 0.103 |
+| 2026 | 0.709 | 85.4% | 0.709 | n/a | 0.291 |
+
+Latest 90D through 2026-04-30: avg corr 0.635, PC1 81.8%, core corr 0.635, satellite-to-core corr n/a, final join distance 0.365.
+
+Historical verdict: structurally durable cluster; rolling cohesion has usually stayed in single-factor territory.
+
+---
+
 ## Related
 
 ### Member actors

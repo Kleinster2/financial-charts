@@ -92,6 +92,67 @@ Three implications:
 
 ---
 
+## Cluster validation compliance addendum (2026-06-07)
+
+Generated from `scripts/cluster_configs/mega_banks.yaml` using `scripts/cluster_analysis.py` methodology. The 1Y diagnostic window is 2025-05-01 to 2026-04-30 (171 observations); the rolling history starts at `2020-01-01` where data are available.
+
+### Required validation plots
+
+![[mega-banks-cluster-correlation-1y.png]]
+
+*One-year correlation heatmap for the `Mega banks` validation universe.*
+
+![[mega-banks-cluster-dendrogram-1y.png]]
+
+*Hierarchical clustering tree using average linkage on distance `1-|corr|`.*
+
+![[mega-banks-cluster-pca-1y.png]]
+
+*PCA diagnostic for the candidate cohort; PC1 explains 75.7% of standardized daily-return variance.*
+
+### PC1 index weights vs cluster topology
+
+The topology table answers which names join the tree first or last. The raw PC1-mimic table answers which raw-return weights best replicate the standardized common factor after realized-volatility scaling. These are deliberately different readings of the same cluster.
+
+| Step | Left | Right | Distance (1-\|corr\|) | Read |
+|---|---|---|---|---|
+| 1 | BAC | C | 0.219 | Tightest merge |
+| 2 | JPM | BAC+C | 0.282 | Candidate cohort merge step |
+| 3 | WFC | USB | 0.309 | Candidate cohort merge step |
+| 4 | JPM+BAC+C | WFC+USB | 0.325 | Final cohort join / loosest boundary |
+
+| Ticker | PC1 loading | Normalized loading weight | Ann. vol | Raw PC1-mimic weight |
+|---|---|---|---|---|
+| JPM | 0.434 | 19.42% | 22.99% | 21.08% |
+| BAC | 0.474 | 21.23% | 22.80% | 23.24% |
+| C | 0.449 | 20.11% | 30.31% | 16.56% |
+| WFC | 0.441 | 19.74% | 27.83% | 17.71% |
+| USB | 0.436 | 19.50% | 22.73% | 21.42% |
+
+Interpretation: use the dendrogram / join-distance topology to identify the tight core and later-joining members; use the Raw PC1-mimic weight column only for investable factor-replication sizing.
+
+### Historical tightness evolution
+
+![[mega-banks-cluster-rolling-tightness-90d.png]]
+
+*Ninety-day rolling tightness diagnostic: avg intra-correlation, PC1 share, core correlation, satellite-to-core correlation, and final candidate join distance.*
+
+| Year | Avg corr median | PC1 median | Core corr median | Satellite-to-core median | Final join distance median |
+|---|---|---|---|---|---|
+| 2020 | 0.900 | 92.0% | 0.893 | 0.910 | 0.118 |
+| 2021 | 0.782 | 82.7% | 0.763 | 0.810 | 0.253 |
+| 2022 | 0.785 | 82.9% | 0.767 | 0.816 | 0.254 |
+| 2023 | 0.732 | 78.8% | 0.741 | 0.721 | 0.352 |
+| 2024 | 0.716 | 77.5% | 0.740 | 0.686 | 0.335 |
+| 2025 | 0.835 | 86.8% | 0.835 | 0.834 | 0.190 |
+| 2026 | 0.754 | 80.4% | 0.774 | 0.713 | 0.290 |
+
+Latest 90D through 2026-04-30: avg corr 0.771, PC1 81.7%, core corr 0.780, satellite-to-core corr 0.758, final join distance 0.258.
+
+Historical verdict: structurally durable cluster; rolling cohesion has usually stayed in single-factor territory.
+
+---
+
 ## Related
 
 ### Member actors

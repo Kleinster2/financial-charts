@@ -1,3 +1,6 @@
+---
+aliases: [AI hyperscaler]
+---
 #concept #demand #ai #datacenter
 
 > [!failure] Cluster status: falsified as tradable basket (May 2026)
@@ -7,6 +10,10 @@ AI hyperscalers are the demand side of the semiconductor supply chain — they c
 
 ---
 
+## Synthesis
+
+AI hyperscalers are the demand-side engine for the AI capex stack, but they are not a clean tradeable equity cluster. The vault should treat MSFT/GOOGL/AMZN/META/ORCL as separate operating businesses whose capex validates suppliers, not as one basket to replicate. The actionable read-through is upstream: hyperscaler spending is the demand signal for [[NVIDIA]], [[AMD]], [[TSMC]], [[Samsung]], [[SK Hynix]], [[HBM]], packaging, test, power, and data-center finance; the PC1 factor is an [[index]] diagnostic, not an investable hyperscaler basket.
+
 ## Why they matter
 
 Hyperscaler capex = demand signal for the whole stack:
@@ -15,7 +22,7 @@ Hyperscaler capex = demand signal for the whole stack:
 Hyperscaler $ → NVIDIA/AMD → TSMC/Samsung → [[SK Hynix]] ([[HBM]]) → [[ASE]] (packaging) → [[Cohu]] (test)
 ```
 
-2026 capex forecast: ~$602B (CreditSights), up 36% YoY. See [[Hyperscaler capex]] for detailed analysis, chart, and forecasts.
+2026 capex forecast: ~$602B ([[CreditSights]]), up 36% YoY. See [[Hyperscaler capex]] for detailed analysis, chart, and forecasts.
 
 ![[hyperscaler-capex.png]]
 *[[Amazon]] · [[Google]] · [[Meta]] · [[Microsoft]] · [[Oracle]]*
@@ -34,9 +41,9 @@ Hyperscaler $ → NVIDIA/AMD → TSMC/Samsung → [[SK Hynix]] ([[HBM]]) → [[A
 |------|--------|------------------|-------|
 | 1 | [[Microsoft]] | [[TSMC]] | [[OpenAI]] partner, largest spender |
 | 1 | [[Google]] | [[TSMC]] | TPUs, Broadcom disintermediation |
-| 1 | [[Amazon]] | [[TSMC]] | Trainium/Inferentia custom silicon |
+| 1 | [[Amazon]] | [[TSMC]] | [[Trainium]]/Inferentia custom silicon |
 | 1 | [[Meta]] | [[TSMC]] | Heavy NVIDIA buyer, [[Llama]] |
-| 2 | [[Anthropic]] | [[TSMC]] | TPU route, not NVIDIA |
+| 2 | [[Anthropic]] | [[TSMC]] | [[TPU]] route, not NVIDIA |
 | 2 | [[xAI]] | [[Samsung]]? | Musk ecosystem, potential anchor |
 | 2 | [[Oracle]] | [[TSMC]] | GPU cloud, NVIDIA partner |
 | 2 | [[Tesla]] | [[Samsung]] | Dojo, $16.5B deal |
@@ -79,7 +86,7 @@ The AI hyperscalers cohort is a CONCEPT/THESIS hub (capex drives semi demand), N
 | Avg intra-cluster correlation (1Y) | 0.29 (range 0.11-0.49) | Weak — fails the 0.50 floor |
 | PC1 explained variance | 43.5% | Multi-factor — fails the 50% floor |
 | Hierarchical clustering at 0.4 | All 5 names are SINGLETONS — no cluster forms | Falsified |
-| Cluster vs broad ETFs (XLK/QQQ/SMH/SPY) | 0.48 — *higher* than intra-cluster | Names trade with broad market more than each other |
+| Cluster vs broad ETFs ([[XLK]]/[[QQQ]]/[[SMH]]/[[SPY]]) | 0.48 — *higher* than intra-cluster | Names trade with broad market more than each other |
 | Cluster vs other Mag 7 (AAPL/NVDA/TSLA) | 0.30 — *higher* than intra-cluster | Names trade with non-hyperscaler tech as much as with each other |
 
 ### Pairwise correlations (1Y)
@@ -100,10 +107,10 @@ Hyperscalers share a common AI-capex driver but each has its own dominant idiosy
 
 | Name | Dominant idiosyncratic factor that overwhelms hyperscaler co-movement |
 |---|---|
-| MSFT | Cloud-wars share, [[OpenAI]] partnership terms, Copilot monetization |
+| MSFT | Cloud-wars share, [[OpenAI]] partnership terms, [[Copilot]] monetization |
 | GOOGL | Search monetization vs AI-answer cannibalization, antitrust (Search remedy) |
-| AMZN | E-commerce margins, AWS share losses to Azure, retail-vs-cloud weighting |
-| META | Ad market exposure, Reels/TikTok competition, Reality Labs burn |
+| AMZN | E-commerce margins, [[AWS]] share losses to Azure, retail-vs-cloud weighting |
+| META | Ad market exposure, Reels/[[TikTok]] competition, Reality Labs burn |
 | ORCL | Database modernization, Stargate / [[OpenAI]] hosting deal, legacy ERP base |
 
 Each name is more sensitive to its own product cycle than to the shared capex pattern. The capex itself is highly correlated (all 5 spending more on AI infrastructure each quarter), but the equity returns are not.
@@ -112,41 +119,102 @@ Each name is more sensitive to its own product cycle than to the shared capex pa
 
 - The thesis ("hyperscaler capex drives the semi stack") is intact. The chain MSFT/GOOGL/AMZN/META/ORCL → NVIDIA → TSMC → SK Hynix → ASE / Cohu is structurally valid as a demand-flow narrative.
 - The cohort is NOT a tradable cluster basket. Equal-weighted basket would not isolate "hyperscaler factor" — it would dilute idiosyncratic noise across 5 unrelated stories.
-- Trade the chain, not the cohort. Long [[NVIDIA]] / [[TSMC]] / [[SK Hynix]] / [[Broadcom]] is a cleaner expression of the hyperscaler-capex thesis than long the hyperscalers themselves. Those names share a common end-demand factor and likely cluster more tightly (worth validating separately).
+- [[Trade]] the chain, not the cohort. Long [[NVIDIA]] / [[TSMC]] / [[SK Hynix]] / [[Broadcom]] is a cleaner expression of the hyperscaler-capex thesis than long the hyperscalers themselves. Those names share a common end-demand factor and likely cluster more tightly (worth validating separately).
 - Do not construct a "hyperscaler basket" trade. Pair-trades within the cohort (long X / short Y) are noise — the names don't share enough common factor for the residual to mean anything.
 
 This is a textbook cluster-validation outcome: the procedure is just as valuable when it falsifies a cluster as when it confirms one. The honest finding is the value-add.
 
 ### The actual tradable cluster — supplier chain (May 2026)
 
-Canonical home for the validated supplier-chain cluster: [[AI capex chain basket]]. Brief summary below; full constituents, sub-cluster (WFE quartet), exclusions, and trade implications live in the basket note.
+Canonical home for the validated supplier-chain cluster: [[AI capex chain basket]]. Brief summary below; full constituents, sub-cluster ([[WFE]] quartet), exclusions, and trade implications live in the basket note.
 
-The constructive follow-up: the SUPPLIERS the hyperscalers buy from DO form a cluster, even though the buyers don't. Validated 2026-05-03 via `scripts/cluster_analysis.py --config scripts/cluster_configs/hyperscaler_suppliers.yaml`. The supplier-chain candidate cohort: NVDA, AMD, AVGO, TSM, ASML, AMAT, KLAC, LRCX.
+The constructive follow-up: the SUPPLIERS the hyperscalers buy from DO form a cluster, even though the buyers don't. Validated 2026-05-03 via `scripts/cluster_analysis.py --config scripts/cluster_configs/hyperscaler_suppliers.yaml`. The supplier-chain candidate cohort: NVDA, AMD, AVGO, TSM, [[ASML]], AMAT, KLAC, LRCX.
 
-Result: partial validation with clean sub-structure. Intra-cluster correlation 0.61, PC1 66.3%. The hierarchical cluster at 0.4 returns NVDA + TSM + ASML + AMAT + KLAC + LRCX + MU (memory) as a tight algorithmic cluster — but AMD and AVGO are SINGLETONS.
+Result: partial validation with clean sub-structure. Intra-cluster correlation 0.61, PC1 66.3%. The hierarchical cluster at 0.4 returns NVDA + TSM + [[ASML]] + AMAT + KLAC + LRCX + MU (memory) as a tight algorithmic cluster — but AMD and AVGO are SINGLETONS.
 
 | Diagnostic | Result | Interpretation |
 |---|---|---|
 | Avg intra-cluster correlation (1Y) | 0.609 (range 0.43-0.86) | Moderate-to-strong cohesion |
-| Tightest sub-cluster | ASML, AMAT, KLAC, LRCX (avg 0.81) | Wafer fabrication equipment is a tight 4-name basket |
-| Hierarchical at 0.4 | NVDA, TSM, ASML, AMAT, KLAC, LRCX, MU cluster + SMH/SOXX/XLK/SPY | AMD and AVGO are SINGLETONS |
+| Tightest sub-cluster | [[ASML]], AMAT, KLAC, LRCX (avg 0.81) | Wafer fabrication equipment is a tight 4-name basket |
+| Hierarchical at 0.4 | NVDA, TSM, [[ASML]], AMAT, KLAC, LRCX, MU cluster + [[SMH]]/[[SOXX]]/[[XLK]]/[[SPY]] | AMD and AVGO are SINGLETONS |
 | Cluster vs hyperscalers | 0.305 (+0.30 advantage) | Cleanly distinct from the buyers |
-| Cluster vs broad ETFs (SMH, SOXX) | 0.71 (-0.10 NEGATIVE) | Cluster IS the semi/tech complex right now |
+| Cluster vs broad ETFs ([[SMH]], [[SOXX]]) | 0.71 (-0.10 NEGATIVE) | Cluster IS the semi/tech complex right now |
 
 Key sub-structure findings:
 
-- The wafer fabrication equipment quartet (ASML, AMAT, KLAC, LRCX) is the tightest sub-cluster in the AI complex — pairwise correlations 0.74-0.86. Buy any one, get exposure to all four. The cleanest tradable cluster the math has identified in this validation pass.
+- The wafer fabrication equipment quartet ([[ASML]], AMAT, KLAC, LRCX) is the tightest sub-cluster in the AI complex — pairwise correlations 0.74-0.86. Buy any one, get exposure to all four. The cleanest tradable cluster the math has identified in this validation pass.
 - NVDA, TSM, MU cluster with the equipment names — confirming the chain (chips → foundry → memory → equipment) is a single factor.
 - AMD is a singleton — it trades on its NVDA-competitor narrative (share-take story), not the AI capex factor. Different business cycle.
-- AVGO is a singleton — diversified custom-silicon + VMware integration. AI accelerator exposure dilutes vs networking and software segments.
+- AVGO is a singleton — diversified custom-silicon + [[VMware]] integration. AI accelerator exposure dilutes vs networking and software segments.
 
 What this fixes about the hyperscaler thesis: the demand-flow narrative (hyperscaler capex → semi stack) is structurally valid, but the tradable expression is the supplier basket, not the buyers. The 0.30 separation between cluster and hyperscalers is consistent with this — the supplier complex captures AI-capex factor cleanly while the hyperscalers themselves are diluted by their respective product cycles.
 
-Trade implications:
-- Long the AI capex chain = long {NVDA, TSM, ASML, AMAT, KLAC, LRCX, MU} basket. PC1 66% means equal-weighted basket is largely the factor.
-- Tightest sub-basket = ASML/AMAT/KLAC/LRCX (wafer fab equipment). 0.81 intra-corr.
+[[Trade]] implications:
+- Long the AI capex chain = long {NVDA, TSM, [[ASML]], AMAT, KLAC, LRCX, MU} basket. PC1 66% means equal-weighted basket is largely the factor.
+- Tightest sub-basket = [[ASML]]/AMAT/KLAC/LRCX (wafer fab equipment). 0.81 intra-corr.
 - Pair NVDA short / AMD long is a within-fabless competitive trade, NOT an AI exposure trade.
-- Long the cluster vs short SMH = isolating AI specifically (hard, since SMH IS heavily exposed to the same names). Better expression is overweight the equipment quartet within a semi allocation.
+- Long the cluster vs short [[SMH]] = isolating AI specifically (hard, since [[SMH]] IS heavily exposed to the same names). Better expression is overweight the equipment quartet within a semi allocation.
+
+---
+
+## Cluster validation compliance addendum (2026-06-07)
+
+Generated from `scripts/cluster_configs/hyperscalers.yaml` using `scripts/cluster_analysis.py` methodology. The 1Y diagnostic window is 2025-05-01 to 2026-04-30 (171 observations); the rolling history starts at `2020-01-01` where data are available.
+
+### Required validation plots
+
+![[hyperscalers-cluster-correlation-1y.png]]
+
+*One-year correlation heatmap for the `AI hyperscalers` validation universe.*
+
+![[hyperscalers-cluster-dendrogram-1y.png]]
+
+*Hierarchical clustering tree using average linkage on distance `1-|corr|`.*
+
+![[hyperscalers-cluster-pca-1y.png]]
+
+*PCA diagnostic for the candidate cohort; PC1 explains 41.3% of standardized daily-return variance.*
+
+### PC1 index weights vs cluster topology
+
+The topology table answers which names join the tree first or last. The raw PC1-mimic table answers which raw-return weights best replicate the standardized common factor after realized-volatility scaling. These are deliberately different readings of the same cluster.
+
+| Step | Left | Right | Distance (1-\|corr\|) | Read |
+|---|---|---|---|---|
+| 1 | AMZN | META | 0.539 | Tightest merge |
+| 2 | MSFT | ORCL | 0.634 | Candidate cohort merge step |
+| 3 | GOOGL | AMZN+META | 0.704 | Candidate cohort merge step |
+| 4 | MSFT+ORCL | GOOGL+AMZN+META | 0.805 | Final cohort join / loosest boundary |
+
+| Ticker | PC1 loading | Normalized loading weight | Ann. vol | Raw PC1-mimic weight |
+|---|---|---|---|---|
+| MSFT | 0.461 | 20.86% | 27.86% | 25.57% |
+| GOOGL | 0.369 | 16.70% | 30.43% | 18.74% |
+| AMZN | 0.531 | 24.03% | 30.95% | 26.52% |
+| META | 0.497 | 22.52% | 37.16% | 20.70% |
+| ORCL | 0.351 | 15.89% | 64.05% | 8.47% |
+
+Interpretation: use the dendrogram / join-distance topology to identify the tight core and later-joining members; use the Raw PC1-mimic weight column only for investable factor-replication sizing.
+
+### Historical tightness evolution
+
+![[hyperscalers-cluster-rolling-tightness-90d.png]]
+
+*Ninety-day rolling tightness diagnostic: avg intra-correlation, PC1 share, core correlation, satellite-to-core correlation, and final candidate join distance.*
+
+| Year | Avg corr median | PC1 median | Core corr median | Satellite-to-core median | Final join distance median |
+|---|---|---|---|---|---|
+| 2020 | 0.665 | 73.9% | 0.603 | 0.750 | 0.475 |
+| 2021 | 0.412 | 57.5% | 0.333 | 0.534 | 0.871 |
+| 2022 | 0.527 | 63.3% | 0.470 | 0.613 | 0.598 |
+| 2023 | 0.547 | 64.6% | 0.495 | 0.629 | 0.594 |
+| 2024 | 0.499 | 60.5% | 0.466 | 0.594 | 0.608 |
+| 2025 | 0.548 | 64.3% | 0.505 | 0.607 | 0.555 |
+| 2026 | 0.222 | 38.8% | 0.261 | 0.214 | 0.839 |
+
+Latest 90D through 2026-04-30: avg corr 0.315, PC1 45.6%, core corr 0.320, satellite-to-core corr 0.308, final join distance 0.781.
+
+Historical verdict: regime-dependent / fragmenting cluster; current rolling cohesion is below durable-cluster thresholds.
 
 ---
 

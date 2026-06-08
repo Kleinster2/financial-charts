@@ -1,5 +1,5 @@
 ---
-aliases: [Fed rate expectations, rate path, implied rate path, FedWatch]
+aliases: [Fed rate expectations, rate path, implied rate path, FedWatch, Rate expectation]
 ---
 #concept #rates #macro #fed
 
@@ -70,19 +70,19 @@ The split is informative: the print penalized rate-sensitive tech beta while bid
 
 ### Sources
 
-- US Bureau of Labor Statistics — [Consumer Price Index Summary, April 2026 release (May 12)](https://www.bls.gov/news.release/cpi.nr0.htm)
+- US Bureau of Labor Statistics — [[Consumer]] [Price Index Summary, April 2026 release (May 12)](https://www.bls.gov/news.release/cpi.nr0.htm)
 - US News — [April CPI Rises More Than Expected; Bond Yields Climb](https://money.usnews.com/investing/news/articles/2026-05-12/april-cpi-rises-more-than-expected-bond-yields-climb) (May 12)
 - US News — [Inflation Hits 3.8%, Highest Level Since 2023, as Energy Costs Surge](https://www.usnews.com/news/national-news/articles/2026-05-12/inflation-hits-3-8-highest-level-since-2023-as-energy-costs-surge) (May 12)
 - 24/7 Wall St — [Rate Cut Odds Just Collapsed to 5%](https://247wallst.com/investing/2026/05/12/rate-cut-odds-just-collapsed-to-5-history-says-this-is-when-record-highs-get-tested/) (May 12)
-- CNBC — [Qualcomm drops 11% as chip stocks pull back from record AI-driven rally](https://www.cnbc.com/2026/05/12/qualcomm-chip-stocks-record-ai.html) (May 12)
-- Bloomberg — [Copper Rallies Above $14,000 a Ton, Nearing Fresh All-Time High](https://www.bloomberg.com/news/articles/2026-05-12/copper-rallies-above-14-000-a-ton-nearing-fresh-all-time-high) (May 12)
+- [[CNBC]] — [Qualcomm drops 11% as chip stocks pull back from record AI-driven rally](https://www.cnbc.com/2026/05/12/qualcomm-chip-stocks-record-ai.html) (May 12)
+- [[Bloomberg]] — [Copper Rallies Above $14,000 a Ton, Nearing Fresh All-Time High](https://www.bloomberg.com/news/articles/2026-05-12/copper-rallies-above-14-000-a-ton-nearing-fresh-all-time-high) (May 12)
 
 ---
 
 ## Current implied path
 
 ![[fed-rate-expectations.png]]
-*Fed Funds futures (ZQ, monthly) + 3M SOFR futures (SR3, quarterly). Snapshot as of May 13, 2026. Updated via `fed_rate_expectations.py`.*
+*Fed Funds futures (ZQ, monthly) + [[3M]] SOFR futures (SR3, quarterly). Snapshot as of May 13, 2026. Updated via `fed_rate_expectations.py`.*
 
 | Metric | Value |
 |--------|-------|
@@ -142,17 +142,17 @@ The useful distinction is that [[Kalshi]] expresses the path as event probabilit
 
 *Sources: [[Kalshi]] API series KXFEDDECISION, KXFED, and KXRATECUTCOUNT, read May 20, 2026: https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&series_ticker=KXFEDDECISION, https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&series_ticker=KXFED, and https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&series_ticker=KXRATECUTCOUNT*
 
-### Reuters policy-pressure overlay (May 24, 2026)
+### [[Reuters]] policy-pressure overlay (May 24, 2026)
 
-Reuters' May 24 Treasury-rout analysis added the Washington side of the same pricing. The administration is still pressing for lower borrowing costs, but Fed officials have been discussing rate hikes rather than cuts because oil and inflation risk remain elevated. That matches the Kalshi overlay above: no-change is the base case, the September hike tail is more visible than the cut tail, and zero 2026 cuts remains the modal outcome.
+[[Reuters]]' May 24 Treasury-rout analysis added the Washington side of the same pricing. The administration is still pressing for lower borrowing costs, but Fed officials have been discussing rate hikes rather than cuts because oil and inflation risk remain elevated. That matches the Kalshi overlay above: no-change is the base case, the September hike tail is more visible than the cut tail, and zero 2026 cuts remains the modal outcome.
 
-The useful read is that political pressure and market pricing have now cleanly diverged. [[Trump II|Trump]] wants easier financial conditions before the midterms; the long end is tightening mortgage and credit conditions; and the front-end market is not validating an easing response. That is a [[Fiscal Dominance]] setup only if the administration tries to force accommodation. For now it is a constrained-hold setup: inflation risk blocks cuts, while higher yields create political pressure to end the Iran shock.
+The useful read is that political pressure and market pricing have now cleanly diverged. [[Trump II|Trump]] wants easier financial conditions before the midterms; the long end is tightening mortgage and credit conditions; and the front-end market is not validating an easing response. That is a [[Fiscal Dominance]] setup only if the administration tries to force accommodation. For now it is a constrained-hold setup: inflation risk blocks cuts, while higher yields create political pressure to end the [[Iran]] shock.
 
-Source: Reuters, [US Treasury rout tests Washington's tolerance for higher borrowing costs](https://wtvbam.com/2026/05/24/analysis-us-treasury-rout-tests-washingtons-tolerance-for-higher-borrowing-costs/), May 24 2026.
+Source: [[Reuters]], [US Treasury rout tests Washington's tolerance for higher borrowing costs](https://wtvbam.com/2026/05/24/analysis-us-treasury-rout-tests-washingtons-tolerance-for-higher-borrowing-costs/), May 24 2026.
 
 ### Schmid transitory-risk overlay (May 29, 2026)
 
-Schmid's Iceland speech leans against quick-cut pricing: he kept the base case open for temporary oil effects, but warned the Fed should not simply label a prolonged Iran-war oil shock "transitory." That keeps June/July cuts hard to price unless inflation expectations and energy pass-through calm first.
+Schmid's Iceland speech leans against quick-cut pricing: he kept the base case open for temporary oil effects, but warned the Fed should not simply label a prolonged [[Iran]]-war oil shock "transitory." That keeps June/July cuts hard to price unless inflation expectations and energy pass-through calm first.
 
 *Source: [Kansas City Fed, May 29 2026](https://www.kansascityfed.org/speeches/the-local-and-the-global-in-monetary-policy/).*
 
@@ -160,7 +160,7 @@ Schmid's Iceland speech leans against quick-cut pricing: he kept the base case o
 
 FT's Jun. 5 [[Nasdaq semiconductor selloff June 2026]] is the equity-market expression of the post-CPI hike-bias regime. A stronger-than-expected payrolls report and upward revisions to March/April pushed the 2-year Treasury yield to 4.17% per FT and left markets fully pricing a December rate increase. The selloff was concentrated where discount-rate sensitivity and AI capex expectations overlap: Nasdaq Composite -4.18%, [[QQQ]] -4.80%, [[XLK]] -6.66%, [[SOXX]] -10.44%, and [[SMH]] -9.22% in local closes.
 
-This does not require a new payrolls data note. The useful rates takeaway is that the curve's hike tail is now large enough to hit equity financing windows for AI infrastructure. The same repricing that punishes long-duration tech multiples can also tighten the terms for [[Alphabet equity raise June 2026]], Meta-style exploratory issuance, and the [[SpaceX IPO 2026]] roadshow.
+This does not require a new payrolls data note. The useful rates takeaway is that the curve's hike tail is now large enough to hit equity financing windows for AI infrastructure. The same repricing that punishes long-duration tech multiples can also tighten the terms for [[Alphabet equity raise June 2026]], [[Meta]]-style exploratory issuance, and the [[SpaceX IPO 2026]] roadshow.
 
 *Sources: [FT](https://www.ft.com/content/2929bbd3-1f71-4424-a577-f016c3c65603), Jun. 5 2026; local `prices_long` closes through Jun. 5 2026.*
 

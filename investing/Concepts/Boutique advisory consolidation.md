@@ -8,9 +8,13 @@ tags: [concept, finance, capital-markets, m&a]
 > [!success] Cluster status: validated (May 2026)
 > Intra-cluster correlation 0.73, PC1 77.5% explained variance. Hierarchical clustering at 0.4 returns exactly the 6 candidate names (PWP, LAZ, EVR, MC, HLI, PJT). Most distant comparator: insurance brokers (+0.60 advantage). See "Cluster validation — statistical analysis" section below.
 
-Independent investment-banking advisory firms ("boutique" banks) have taken a growing share of global M&A fee income since the 2008 financial crisis, on the back of the "conflict-free advice" pitch — no lending relationships, no trading book, no underwriting inventory to clear. As the category has matured past its growth phase, the top independents have started consolidating among themselves, buying smaller local or specialist shops to close gaps in geographic and sector coverage. The 2025–2026 wave of deals — [[Evercore]] / [[Robey Warshaw]] (UK, Jul 2025), [[Perella Weinberg Partners]] / [[Devon Park]] (secondaries, 2025), [[Perella Weinberg Partners]] / [[Gleacher Shacklock]] (UK, Apr 2026) — is the clearest signal that boutiques now compete with each other, not just with the bulge brackets.
+Independent investment-banking advisory firms ("boutique" banks) have taken a growing share of global M&A fee income since the 2008 financial crisis, on the back of the "conflict-free advice" pitch — no lending relationships, no trading book, no underwriting inventory to clear. As the category has matured past its growth phase, the top independents have started consolidating among themselves, buying smaller local or specialist shops to close gaps in geographic and sector coverage. The 2025–2026 wave of deals — [[Evercore]] / [[Robey Warshaw]] ([[UK]], Jul 2025), [[Perella Weinberg Partners]] / [[Devon Park]] (secondaries, 2025), [[Perella Weinberg Partners]] / [[Gleacher Shacklock]] ([[UK]], Apr 2026) — is the clearest signal that boutiques now compete with each other, not just with the bulge brackets.
 
 ---
+
+## Synthesis
+
+Boutique advisory consolidation is a validated public-equity cluster and a strategic response to maturity: the independents won share by avoiding bulge-bracket conflicts, but now need geographic breadth, sector benches, and succession depth to defend that share. The investable angle is that the PC1 [[index]] captures a real advisory-fee factor while deal-by-deal acquisitions can still create idiosyncratic integration risk. Consolidation favors scaled boutiques with capital and partner retention, and pressures smaller founder-led firms whose franchise value is still concentrated in a few rainmakers.
 
 ## The structural backdrop
 
@@ -24,7 +28,7 @@ Independent advisers hold ~20% of global M&A fee revenue in 2025, versus under 1
 | 20 | [[Perella Weinberg Partners]] | 21.2 | Independent |
 | 21 | [[Moelis]] | 20.9 | Independent |
 
-*Source: Mergermarket / ION Analytics 1Q25 rankings. Top 5 are [[Goldman Sachs]], [[Morgan Stanley]], [[JPMorgan]], [[Bank of America]], [[Citigroup]] — the integrated bulge-bracket banks.*
+*Source: [[Mergermarket]] / ION Analytics 1Q25 rankings. Top 5 are [[Goldman Sachs]], [[Morgan Stanley]], [[JPMorgan Chase|JPMorgan]], [[Bank of America]], [[Citigroup]] — the integrated bulge-bracket banks.*
 
 The independents have won share by (a) hiring senior bankers who leave the bulge brackets after compensation cycles compress, (b) charging comparable fees to the bulge with much lower overhead, and (c) positioning "conflict-free" advice as a selling point to boards — no underwriting commitments the firm later wants to place, no trading desks with positions, no lending relationship that may bias the advice.
 
@@ -32,19 +36,19 @@ The independents have won share by (a) hiring senior bankers who leave the bulge
 
 ## The consolidation wave (2024–2026)
 
-| Date | Acquirer | Target | Type / rationale | Consideration |
+| Date | Acquirer | [[Target]] | Type / rationale | Consideration |
 |---|---|---|---|---|
-| 2024 | [[Santander]] | [[Tressis]] (Spain, small) | Wealth/advisory | Private |
-| 2025-07-30 | [[Evercore]] | [[Robey Warshaw]] | UK boutique — EMEA large-cap M&A presence | £146M / $196M (Evercore stock + multi-year performance) |
+| 2024 | [[Santander]] | [[Tressis]] ([[Spain]], small) | Wealth/advisory | Private |
+| 2025-07-30 | [[Evercore]] | [[Robey Warshaw]] | [[UK]] boutique — EMEA large-cap M&A presence | £146M / $196M (Evercore stock + multi-year performance) |
 | 2025 (Q2) | [[Perella Weinberg Partners]] | [[Devon Park]] | GP-led secondaries advisory — new product line | Undisclosed |
-| 2026-04-13 | [[Perella Weinberg Partners]] | [[Gleacher Shacklock]] | UK industrials, aerospace/defence, utilities | 1,127,529 shares at close + 2,255,058 shares over 3 years + contingent (>$71M stock) |
+| 2026-04-13 | [[Perella Weinberg Partners]] | [[Gleacher Shacklock]] | [[UK]] industrials, aerospace/defence, utilities | 1,127,529 shares at close + 2,255,058 shares over 3 years + contingent (>$71M stock) |
 
 Historical precedents (pre-wave):
 - [[Perella Weinberg Partners]] bought [[Tudor Pickering Holt]] (Houston energy advisory) in 2016
 - [[Stifel]] acquired KBW (financial-services specialist) in 2013
 - [[Houlihan Lokey]] acquired [[Leonardo & Co.]]'s Italian M&A business in 2015
 
-What is distinct about the 2025–2026 wave: the targets are not specialist practices acquired for a new vertical (energy, healthcare, financials) but rather generalist local shops acquired for geographic coverage. Both [[Robey Warshaw]] and [[Gleacher Shacklock]] are London generalists known for deep UK plc relationships, not sector specialists. The buyers are optimising for presence in the UK — the largest single-country M&A market in Europe — rather than filling a product gap.
+What is distinct about the 2025–2026 wave: the targets are not specialist practices acquired for a new vertical (energy, healthcare, financials) but rather generalist local shops acquired for geographic coverage. Both [[Robey Warshaw]] and [[Gleacher Shacklock]] are London generalists known for deep [[UK]] plc relationships, not sector specialists. The buyers are optimising for presence in the [[UK]] — the largest single-country M&A market in [[Europe]] — rather than filling a product gap.
 
 ---
 
@@ -57,7 +61,7 @@ The consolidation wave leans heavily on stock-based consideration with multi-yea
 
 This is deliberate: advisory firms are primarily people businesses. Paying out fully in cash upfront risks the target partners cashing out and leaving. Stock with multi-year vesting and performance contingency ties the acquired partners to the combined platform through the first full earnings cycle, which is when client relationships either transfer or walk. Precedent from [[Barclays]]'s 2008 acquisition of [[Lehman Brothers]]'s US broker-dealer and [[Nomura]]'s acquisition of [[Lehman Brothers]]'s European operations — where large blocks of hired bankers left within 24 months — informs this structure.
 
-The use of public stock as currency requires the acquirer to be listed. That single requirement has significantly narrowed the pool of acquirer candidates: [[Evercore]] (NYSE: EVR), [[Lazard]] (NYSE: LAZ), [[Perella Weinberg Partners]] (NASDAQ: PWP via [[SPAC]]), [[Moelis]] (NYSE: MC), [[Houlihan Lokey]] (NYSE: HLI), and [[PJT Partners]] (NYSE: PJT) are the listed independents; others such as [[Centerview Partners]] and [[Allen & Company]] remain privately held and have not participated as acquirers in this wave.
+The use of public stock as currency requires the acquirer to be listed. That single requirement has significantly narrowed the pool of acquirer candidates: [[Evercore]] ([[NYSE]]: EVR), [[Lazard]] ([[NYSE]]: LAZ), [[Perella Weinberg Partners]] (NASDAQ: PWP via [[SPAC]]), [[Moelis]] ([[NYSE]]: MC), [[Houlihan Lokey]] ([[NYSE]]: HLI), and [[PJT Partners]] ([[NYSE]]: PJT) are the listed independents; others such as [[Centerview Partners]] and [[Allen & Company]] remain privately held and have not participated as acquirers in this wave.
 
 ---
 
@@ -131,9 +135,9 @@ PWP remains the YTD cohort leader despite the Q1 print drop — the +19.5% YTD r
 
 The May 1 print decomposes into three readable layers:
 
-- **Cluster-wide drag.** Financial Advisory revenue softness is the common signal — same deal-cycle slippage, same back-half-weighted guide framing. PWP -30% rev was the most extreme expression but the direction was uniform across the listed independents.
-- **Idiosyncratic dispersion.** PWP's -9.4% one-day move was outsized vs LAZ -6.9% because PWP is pure-play advisory (no Asset Management offset) and the [[Gleacher Shacklock]] deal-funding optimism had already been priced in over the prior month. LAZ's -6.9% blended the FA miss with an AM beat ([[Lazard|+$9B inflows]], 20-yr high) that investors did not yet underwrite as durable.
-- **Consolidation-strategy continuity.** Both firms continued the buy-and-build playbook through the print: [[Lazard]] / [[Campbell Lutyens]] (~$575M + $85M earnout) was announced 2026-04-30 and integrated into the Q1 commentary. The deal-cycle drag is not slowing the M&A consolidation among the boutiques themselves.
+- Cluster-wide drag. Financial Advisory revenue softness is the common signal — same deal-cycle slippage, same back-half-weighted guide framing. PWP -30% rev was the most extreme expression but the direction was uniform across the listed independents.
+- Idiosyncratic dispersion. PWP's -9.4% one-day move was outsized vs LAZ -6.9% because PWP is pure-play advisory (no Asset Management offset) and the [[Gleacher Shacklock]] deal-funding optimism had already been priced in over the prior month. LAZ's -6.9% blended the FA miss with an AM beat ([[Lazard|+$9B inflows]], 20-yr high) that investors did not yet underwrite as durable.
+- Consolidation-strategy continuity. Both firms continued the buy-and-build playbook through the print: [[Lazard]] / [[Campbell Lutyens]] (~$575M + $85M earnout) was announced 2026-04-30 and integrated into the Q1 commentary. The deal-cycle drag is not slowing the M&A consolidation among the boutiques themselves.
 
 ### Implications
 
@@ -174,8 +178,8 @@ Average intra-cluster pairwise correlation: 0.727 (range 0.60-0.89). Tightest pa
 | Group pair | Avg pairwise corr | Cluster's intra-advantage |
 |---|---|---|
 | Cluster (intra) | 0.727 | — |
-| Cluster vs broad ETFs (XLF, KBE, IWM, SPY) | 0.599 | +0.128 |
-| Cluster vs alt mgrs (BX, KKR) | 0.591 | +0.136 |
+| Cluster vs broad ETFs ([[XLF]], [[KBE]], [[IWM]], [[SPY]]) | 0.599 | +0.128 |
+| Cluster vs alt mgrs (BX, [[KKR]]) | 0.591 | +0.136 |
 | Cluster vs bulge brackets (GS, MS, JPM) | 0.559 | +0.168 |
 | Cluster vs trad mgrs (TROW, BEN) | 0.562 | +0.166 |
 | Cluster vs mid-IBs (SF, RJF) | 0.424 | +0.303 |
@@ -195,10 +199,10 @@ At the 0.4 distance threshold, the algorithm identifies seven clusters from the 
 
 | Cluster | Members | Identity |
 |---|---|---|
-| **Boutique advisory** | **PWP, LAZ, EVR, MC, HLI, PJT** | the candidate cluster — confirmed |
-| Insurance brokers | AON, AJG, BRO | tight separate cluster |
-| Asset managers | BX, KKR, TROW | alt + traditional manager bundle |
-| Bulge + broad financials | GS, MS, JPM, XLF, KBE, IWM, SPY | systemic financials block |
+| Boutique advisory | PWP, LAZ, EVR, MC, HLI, PJT | the candidate cluster — confirmed |
+| [[Insurance]] brokers | AON, AJG, BRO | tight separate cluster |
+| Asset managers | BX, [[KKR]], TROW | alt + traditional manager bundle |
+| Bulge + broad financials | GS, MS, JPM, [[XLF]], [[KBE]], [[IWM]], [[SPY]] | systemic financials block |
 | Standalone | SF | mid-IB; does not cluster |
 | Standalone | RJF | mid-IB; does not cluster |
 | Standalone | BEN | traditional asset manager outlier |
@@ -223,10 +227,72 @@ PC1 explains 77.5% of the cohort's daily-return variance. All six names load on 
 
 ### Conclusions
 
-1. **The cluster is statistically real.** Intra-cluster correlation of 0.73 is +0.13 to +0.60 above all comparator groups. PC1 captures 77.5% of variance. Hierarchical clustering bounded at distance 0.4 returns exactly the six proposed members.
-2. **The cluster contains exactly these six names**: PWP, LAZ, EVR, MC, HLI, PJT. Mid-IBs (SF, RJF) and insurance brokers (AON, AJG, BRO) are mathematically separate, despite surface-taxonomy similarities.
-3. **The cluster's nearest neighbors are alt asset managers and broad financials ETFs** (~0.59 avg correlation) — same risk-on / deal-cycle systematic factor. The +0.13 gap reflects boutique-advisory-specific exposure on top of that systematic base.
-4. **The cluster is single-factor.** Equal-weighted basket ≈ PC1. Useful for pair trades (long basket vs short XLF to isolate boutique-advisory factor) and event-driven setups (cluster-wide print days as a cyclical-deal-cycle signal).
+1. The cluster is statistically real. Intra-cluster correlation of 0.73 is +0.13 to +0.60 above all comparator groups. PC1 captures 77.5% of variance. Hierarchical clustering bounded at distance 0.4 returns exactly the six proposed members.
+2. The cluster contains exactly these six names: PWP, LAZ, EVR, MC, HLI, PJT. Mid-IBs (SF, RJF) and insurance brokers (AON, AJG, BRO) are mathematically separate, despite surface-taxonomy similarities.
+3. The cluster's nearest neighbors are alt asset managers and broad financials ETFs (~0.59 avg correlation) — same risk-on / deal-cycle systematic factor. The +0.13 gap reflects boutique-advisory-specific exposure on top of that systematic base.
+4. The cluster is single-factor. Equal-weighted basket ≈ PC1. Useful for pair trades (long basket vs short [[XLF]] to isolate boutique-advisory factor) and event-driven setups (cluster-wide print days as a cyclical-deal-cycle signal).
+
+---
+
+## Cluster validation compliance addendum (2026-06-07)
+
+Generated from `scripts/cluster_configs/boutique_advisory.yaml` using `scripts/cluster_analysis.py` methodology. The 1Y diagnostic window is 2025-05-01 to 2026-04-30 (171 observations); the rolling history starts at `2020-01-01` where data are available.
+
+### Required validation plots
+
+![[boutique-cluster-correlation-1y.png]]
+
+*One-year correlation heatmap for the `Boutique advisory` validation universe.*
+
+![[boutique-cluster-dendrogram-1y.png]]
+
+*Hierarchical clustering tree using average linkage on distance `1-|corr|`.*
+
+![[boutique-cluster-pca-1y.png]]
+
+*PCA diagnostic for the candidate cohort; PC1 explains 77.3% of standardized daily-return variance.*
+
+### PC1 index weights vs cluster topology
+
+The topology table answers which names join the tree first or last. The raw PC1-mimic table answers which raw-return weights best replicate the standardized common factor after realized-volatility scaling. These are deliberately different readings of the same cluster.
+
+| Step | Left | Right | Distance (1-\|corr\|) | Read |
+|---|---|---|---|---|
+| 1 | EVR | MC | 0.117 | Tightest merge |
+| 2 | PJT | EVR+MC | 0.231 | Candidate cohort merge step |
+| 3 | LAZ | PJT+EVR+MC | 0.273 | Candidate cohort merge step |
+| 4 | PWP | LAZ+PJT+EVR+MC | 0.285 | Candidate cohort merge step |
+| 5 | HLI | PWP+LAZ+PJT+EVR+MC | 0.332 | Final cohort join / loosest boundary |
+
+| Ticker | PC1 loading | Normalized loading weight | Ann. vol | Raw PC1-mimic weight |
+|---|---|---|---|---|
+| PWP | 0.397 | 16.22% | 43.59% | 13.37% |
+| LAZ | 0.398 | 16.28% | 38.71% | 15.10% |
+| EVR | 0.429 | 17.54% | 38.76% | 16.25% |
+| MC | 0.433 | 17.68% | 36.44% | 17.42% |
+| HLI | 0.381 | 15.57% | 29.23% | 19.13% |
+| PJT | 0.409 | 16.70% | 32.02% | 18.73% |
+
+Interpretation: use the dendrogram / join-distance topology to identify the tight core and later-joining members; use the Raw PC1-mimic weight column only for investable factor-replication sizing.
+
+### Historical tightness evolution
+
+![[boutique-cluster-rolling-tightness-90d.png]]
+
+*Ninety-day rolling tightness diagnostic: avg intra-correlation, PC1 share, core correlation, satellite-to-core correlation, and final candidate join distance.*
+
+| Year | Avg corr median | PC1 median | Core corr median | Satellite-to-core median | Final join distance median |
+|---|---|---|---|---|---|
+| 2021 | 0.482 | 59.5% | 0.601 | 0.206 | 0.794 |
+| 2022 | 0.663 | 72.9% | 0.735 | 0.490 | 0.510 |
+| 2023 | 0.589 | 66.2% | 0.637 | 0.506 | 0.496 |
+| 2024 | 0.576 | 65.2% | 0.618 | 0.516 | 0.506 |
+| 2025 | 0.814 | 84.5% | 0.813 | 0.804 | 0.218 |
+| 2026 | 0.674 | 73.1% | 0.675 | 0.672 | 0.416 |
+
+Latest 90D through 2026-04-20: avg corr 0.758, PC1 80.0%, core corr 0.780, satellite-to-core corr 0.716, final join distance 0.284.
+
+Historical verdict: regime-dependent but measurable cluster; cohesion exists, but the rolling path is not consistently tight enough to call structurally durable.
 
 ---
 

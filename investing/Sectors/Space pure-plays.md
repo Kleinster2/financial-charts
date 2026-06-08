@@ -1,16 +1,27 @@
----
+﻿---
 aliases: [Space pure-play basket, Space cohort, Small-cap space, Public space pure-plays]
 ---
 #sector #space #cluster #small-cap #public
 
-# Space pure-plays
+# [[Space]] pure-plays
 
 > [!warning] Cluster status: validated, moderate/tight (Jun 2026)
 > Intra-cluster correlation 0.634 and PC1 68.80% explained variance through 2026-06-03. Hierarchical clustering at distance 0.5 returns exactly RKLB, RDW, LUNR, BKSY, ASTS, SPIR, and PL; separation from defense primes is +0.357, so this is not just defense beta.
 
-The tradeable public-equity cohort of small-cap space companies. Seven NASDAQ/NYSE names that listed 2020-2024 via SPAC or direct IPO, all operating as pure-play space businesses (launch + Space Systems, earth observation, communications, RF data, on-orbit hardware). Distinct from heritage defense primes ([[Lockheed Martin]], [[Northrop Grumman]], [[RTX]], [[L3Harris]]) which have space exposure embedded inside broader defense portfolios.
+The tradeable public-equity cohort of small-cap space companies. Seven NASDAQ/[[NYSE]] names that listed 2020-2024 via [[SPAC]] or direct IPO, all operating as pure-play space businesses (launch + [[Space]] Systems, earth observation, communications, RF data, on-orbit hardware). Distinct from heritage defense primes ([[Lockheed Martin]], [[Northrop Grumman]], [[RTX]], [[L3Harris]]) which have space exposure embedded inside broader defense portfolios.
 
 Mathematically validated as a single statistical cluster (latest refresh through June 3, 2026: intra-cluster avg correlation 0.634 over trailing 1Y, PC1 explained variance 68.80%, all 7 names grouped at hierarchical distance <0.5). The cohort is the right entry point for the "public-tradeable space sector" exposure — distinct from [[SpaceX|SpaceX private]], distinct from heritage defense primes.
+
+---
+
+## Correlation structure
+
+| Metric | Value | Interpretation |
+|---|---|---|
+| Avg correlation | 0.63 | Validated public-equity space pure-play cohort |
+| PC1 explained variance | 68.80% | One common factor drives roughly two-thirds of cohort variance |
+| Boundary | +0.357 vs defense primes | Separates from heritage defense-prime exposure |
+| Period | Through 2026-06-03 | Latest local validation refresh |
 
 ---
 
@@ -18,8 +29,8 @@ Mathematically validated as a single statistical cluster (latest refresh through
 
 | Ticker | Actor | Archetype | Business model |
 |--------|-------|-----------|----------------|
-| RKLB | [[Rocket Lab]] | Launch + Space Systems | Electron launches + spacecraft components + Golden Dome SBI work |
-| RDW | [[Redwire]] | Space hardware + defense UAS | Components, solar arrays, robotics; Edge Autonomy UAS post-2025 |
+| RKLB | [[Rocket Lab]] | Launch + [[Space]] Systems | Electron launches + spacecraft components + Golden Dome SBI work |
+| RDW | [[Redwire]] | [[Space]] hardware + defense UAS | Components, solar arrays, robotics; [[Edge Autonomy]] UAS post-2025 |
 | LUNR | [[Intuitive Machines]] | Lunar services | NASA CLPS; Earth-to-moon communications |
 | BKSY | [[BlackSky]] | Earth observation (optical) | Real-time GEOINT for NGA + commercial |
 | ASTS | [[AST SpaceMobile]] | Satellite-to-cell broadband | BlueBird constellation; carrier partnerships ~3B subscribers |
@@ -75,17 +86,17 @@ Tightest pairs: RKLB-LUNR (0.75) and RKLB-BKSY (0.73) — launch + space-systems
 
 | Control group | Inter-group corr | Intra-cluster advantage |
 |---|---|---|
-| Defense primes (LMT, RTX, NOC, LHX) | 0.277 | +0.357 — NOT defense beta |
+| [[Defense]] primes (LMT, RTX, NOC, LHX) | 0.277 | +0.357 — NOT defense beta |
 | Small-cap (IWM) | 0.500 | +0.134 — modest shared small-cap risk |
 | Broad / sector ETFs (SPY, ITA, XAR) | 0.483 | +0.151 — clear separation |
 
-The +0.357 separation from defense primes is the load-bearing finding. It empirically falsifies the easy framing "space pure-plays are just leveraged defense beta." Both cohorts participate in the same [[2026 Iran conflict defense repricing|war-premium]] tailwind and the same [[Golden Dome]] program, but they trade as distinct clusters with materially different daily factor exposure.
+The +0.357 separation from defense primes is the load-bearing finding. It empirically falsifies the easy framing "space pure-plays are just leveraged defense beta." Both cohorts participate in the same [[Iran conflict defense repricing|war-premium]] tailwind and the same [[Golden Dome]] program, but they trade as distinct clusters with materially different daily factor exposure.
 
 ### Stability across windows
 
-The 1Y diagnostic is the primary read, but cohort cohesion is increasing over time. Run via `python scripts/cluster_stability_check.py` (ends 2026-05-07):
+The 1Y diagnostic is the primary read, but cohort cohesion is increasing over time. Run via `python scripts/cluster_stability_check.py` (ends [[2026-05-07]]):
 
-| Window | Obs | Intra-cluster avg | Range | PC1 var | PC2 var | vs Defense | Gap |
+| Window | Obs | Intra-cluster avg | Range | PC1 var | PC2 var | vs [[Defense]] | [[Gap]] |
 |---|---|---|---|---|---|---|---|
 | YTD 2026 | 65 | 0.636 | [0.51, 0.78] | 69.3% | 8.3% | 0.270 | +0.365 |
 | 1Y | 135 | 0.607 | [0.50, 0.75] | 66.6% | 8.8% | 0.241 | +0.365 |
@@ -96,7 +107,7 @@ Three structural reads from the time-progression:
 
 1. The cohort is tightening, not loosening. Intra-cluster average correlation rises monotonically from 0.48 (3Y) to 0.64 (YTD) — the "space pure-play factor" is structurally strengthening as the names mature, the float deepens, and basket-level flows compound. The May 8 single-session basket rally is consistent with a longer trend of the cohort consolidating as a tradeable single factor, not a one-off.
 2. PC1 variance share rising and PC2 falling — same conclusion. 3Y has 54.8% / 14.1% on PC1/PC2 (two-factor structure); YTD has 69.3% / 8.3% (one-factor structure). The cohort is collapsing onto a single principal component, which is what you would expect if institutional flows and ETF-style basket trading are increasingly dominating the cohort's price dynamics relative to single-name fundamentals.
-3. Separation from defense primes is durable across all windows. Gap to defense ranges +0.263 (3Y) to +0.365 (1Y/YTD) — the cluster has *always* traded distinctly from defense, and that separation is widening, not collapsing. The "leveraged defense beta" framing has never been an accurate description of this cohort, even in earlier windows where space-pure-plays were less individually coherent.
+3. Separation from defense primes is durable across all windows. [[Gap]] to defense ranges +0.263 (3Y) to +0.365 (1Y/YTD) — the cluster has *always* traded distinctly from defense, and that separation is widening, not collapsing. The "leveraged defense beta" framing has never been an accurate description of this cohort, even in earlier windows where space-pure-plays were less individually coherent.
 
 The 1Y window remains the recommended diagnostic because it (a) is the standard correlation lookback used across the [[WFE]] / [[AI Compute]] / [[US Memory]] cluster notes for cross-comparability and (b) captures enough trading days for meaningful PCA stability without diluting the recent regime shift. The YTD reading is included as a forward-looking pulse check; the 2Y and 3Y windows confirm direction-of-travel.
 
@@ -153,13 +164,13 @@ Three concurrent catalysts in October-December 2025 collectively recast the coho
 2. [[Donald Trump|Trump]] executive order to boost the space sector (late 2025). Industrial-policy signal that the administration would treat space as a strategic priority, with regulatory and contracting tailwinds for the cohort.
 3. November 29, 2025: USSF awarded first space-based interceptor (SBI) prototype contracts to [[Northrop Grumman]], [[Lockheed Martin]], [[Anduril]], and True Anomaly — $10M each. First formal start of the [[Golden Dome]] interceptor competition. Made the multi-billion-dollar production-contract pipeline (~$1.8-3.4B/year per the prize structure) a calculable near-term TAM rather than a hypothetical.
 
-The rapid follow-on through December reinforced the regime: $151B SHIELD multi-vendor IDIQ awarded with 2,100 awardees (Dec 2025), [[Elon Musk|Musk]] confirms 2026 SpaceX IPO as "accurate" (Dec 11 2025), and [[NVIDIA]] $5B Intel partnership (Jan 2026) anchored adjacent tech-defense flows.
+The rapid follow-on through December reinforced the regime: $151B SHIELD multi-vendor IDIQ awarded with 2,100 awardees (Dec 2025), [[Elon Musk|Musk]] confirms 2026 SpaceX IPO as "accurate" (Dec 11 2025), and [[NVIDIA]] $5B [[Intel]] partnership (Jan 2026) anchored adjacent tech-defense flows.
 
 The PC1 variance jump is the equity-market expression of "institutional capital decided this is a basket, not a list of names." Before Nov 2025, the cohort moved on idiosyncratic news (a single name's earnings, a single contract win). After Nov 2025, the cohort moves on cohort-level catalysts (SpaceX IPO timing, Golden Dome contract awards, war-premium repricing). The May 8 2026 basket rally is the most extreme example of the post-regime-shift dynamic — every name participated despite no shared earnings catalyst because the cohort *is* the unit now.
 
 The fact that PC1 explained variance has held in the 65-72% band for six months without reverting argues the regime change is durable, not a momentary squeeze. Watch for: PC1 variance dipping back below 60% would signal the basket is fragmenting again (single-name catalysts re-asserting); PC1 variance pushing above 75% would signal further consolidation (basket trading dominating completely).
 
-*Sources: [SatNews — USSF awards initial Golden Dome prototype contracts](https://news.satnews.com/2025/12/01/ussf-awards-initial-golden-dome-prototype-contracts-signaling-strategic-shift-to-space-based-defense/); [Breaking Defense — Space Force awards first SBI prototype contracts](https://breakingdefense.com/2025/11/golden-dome-space-force-awards-first-space-based-boost-phase-interceptor-prototype-contracts/); [CNBC — Musk says SpaceX 2026 IPO report 'accurate'](https://www.cnbc.com/2025/12/11/musk-says-spacex-report-of-2026-ipo-is-accurate.html); [Benzinga — Space stocks Trump executive order](https://www.benzinga.com/news/space/25/12/49590418/); local `scripts/chart_pc1_component.py` Nov 2025-May 2026 rolling PC1 series.*
+*Sources: [SatNews — USSF awards initial Golden Dome prototype contracts](https://news.satnews.com/2025/12/01/ussf-awards-initial-golden-dome-prototype-contracts-signaling-strategic-shift-to-space-based-defense/); [Breaking [[Defense]] — [[Space]] Force awards first SBI prototype contracts](https://breakingdefense.com/2025/11/golden-dome-space-force-awards-first-space-based-boost-phase-interceptor-prototype-contracts/); [[CNBC]] — [Musk says SpaceX 2026 IPO report 'accurate'](https://www.cnbc.com/2025/12/11/musk-says-spacex-report-of-2026-ipo-is-accurate.html); [Benzinga — [[Space]] stocks Trump executive order](https://www.benzinga.com/news/space/25/12/49590418/); local `scripts/chart_pc1_component.py` Nov 2025-May 2026 rolling PC1 series.*
 
 ---
 
@@ -175,7 +186,7 @@ Run via `python scripts/may8_factor_decomposition.py`. PC1 score on May 8: 0.473
 | [[BlackSky\|BKSY]] | +22.4% | +14.7% | +6.7pp | 32% | Bounce off the May 7 -25% selloff; technical idiosyncratic recovery |
 | [[Redwire\|RDW]] | +20.3% | +21.7% | -1.1pp | 5% | Almost pure factor participation; nearly perfect basket fit |
 | [[Intuitive Machines\|LUNR]] | +20.2% | +22.4% | -1.8pp | 8% | Pure factor participation; the canonical "moved exactly as the factor predicted" name |
-| [[AST SpaceMobile\|ASTS]] | +14.8% | +20.1% | -4.4pp | 20% | Factor-aligned but under-performed; FCC+Falcon 9 catalysts didn't add residual alpha |
+| [[AST SpaceMobile\|ASTS]] | +14.8% | +20.1% | -4.4pp | 20% | Factor-aligned but under-performed; [[FCC]]+[[Falcon 9]] catalysts didn't add residual alpha |
 | [[Spire Global\|SPIR]] | +14.6% | +18.6% | -3.4pp | 17% | Slight underperformance — consistent with SPIR's data-business PC2-positive sleeve |
 | [[Planet Labs\|PL]] | +10.8% | +18.3% | -6.4pp | 28% | Biggest underperformance; PL has the lowest factor coupling (PC1 loading 0.30) AND was idiosyncratically weak |
 
@@ -195,12 +206,12 @@ The narrow window decomposition validates the broader factor framework: the bask
 
 The cluster validation diagnostic confirms the cohort trades together (intra-correlation 0.62, PC1 67%). The next question is harder: *is the cohort just leveraged small-cap defense beta, or is there a genuine pure-play factor that doesn't show up in existing tradeable exposures?*
 
-Run via `python scripts/cluster_deep_dive.py`. Regression of equal-weighted basket returns on [[SPY]] + [[IWM]] + [[ITA]] over the trailing 1Y (134 observations through 2026-05-07):
+Run via `python scripts/cluster_deep_dive.py`. Regression of equal-weighted basket returns on [[SPY]] + [[IWM]] + [[ITA]] over the trailing 1Y (134 observations through [[2026-05-07]]):
 
 | Metric | Value |
 |---|---|
 | R² (variance explained by SPY / IWM / ITA) | 40.4% |
-| Residual variance (pure-play factor) | **59.6%** |
+| Residual variance (pure-play factor) | 59.6% |
 | Annualized alpha | +58.4% |
 
 Beta loadings:
@@ -272,8 +283,8 @@ Refreshed after the June 5 VOYG / KTOS price update using canonical `prices_long
 | Candidate | Actor | Avg corr | Verdict |
 |---|---|---|---|
 | [[Voyager]] (VOYG) | Commercial space station / space-tech holding | 0.614 | Best actual-company candidate; statistically fits and local price series is now current through 2026-06-03 |
-| [[Kratos]] (KTOS) | Defense-tech: drones, missiles, hypersonic systems | 0.509 | Boundary fit, but keep outside: primary identity is defense-tech, not space pure-play |
-| [[Mercury Systems]] (MRCY) | Defense electronics | 0.441 | Watch, but too defense-electronics / small-cap-beta driven |
+| [[Kratos]] (KTOS) | [[Defense]]-tech: drones, missiles, hypersonic systems | 0.509 | Boundary fit, but keep outside: primary identity is defense-tech, not space pure-play |
+| [[Mercury|Mercury Systems]] (MRCY) | [[Defense]] electronics | 0.441 | Watch, but too defense-electronics / small-cap-beta driven |
 | [[AeroVironment]] (AVAV) | UAS, loitering munitions | 0.419 | Keep in [[UAS defense micro-cluster]], not space pure-plays |
 | [[Iridium Communications]] (IRDM) | Satellite communications | 0.388 | Exclude - different services-revenue beta profile |
 | [[Globalstar]] (GSAT) | Satellite communications / spectrum | 0.342 | Exclude - satellite operator, not same risk factor |
@@ -353,12 +364,12 @@ Lookback comparison (annualized Sharpe + cumulative simple return):
 
 | Window | LUNR+BKSY Sharpe | Basket Sharpe | LUNR+BKSY cum | Basket cum |
 |---|---|---|---|---|
-| 3M (Feb-May 2026) | 1.91 | 1.47 | +69.0% | +39.8% |
+| [[3M]] (Feb-May 2026) | 1.91 | 1.47 | +69.0% | +39.8% |
 | 6M (Nov 2025-May 2026) | 1.84 | 1.61 | +165.4% | +107.7% |
 | 1Y (May 2025-May 2026) | 1.74 | 1.43 | +246.8% | +134.4% |
 | 2Y (May 2024-May 2026) | 1.35 | 1.33 | +242.3% | +178.1% |
 
-LUNR + BKSY outperformed the full basket on cumulative return AND Sharpe across all four lookback windows. The Sharpe gap narrows from +0.44 (3M) to +0.02 (2Y) as the window expands, but the cumulative-return gap holds at ~64pp across 1Y and 2Y. The outperformance is robust over time, not concentrated in any single quarter.
+LUNR + BKSY outperformed the full basket on cumulative return AND Sharpe across all four lookback windows. The Sharpe gap narrows from +0.44 ([[3M]]) to +0.02 (2Y) as the window expands, but the cumulative-return gap holds at ~64pp across 1Y and 2Y. The outperformance is robust over time, not concentrated in any single quarter.
 
 Rolling 60-day diagnostic:
 
@@ -419,9 +430,9 @@ This finding sharpens the cluster-validation framework. The standard validation 
 
 ---
 
-## How Space pure-plays compares to other validated clusters
+## How [[Space]] pure-plays compares to other validated clusters
 
-The cohort's intra-correlation 0.624 and PC1 67.2% are meaningful diagnostics in absolute terms — but the deeper question is how they rank among the vault's other validated clusters. Rigorous cross-cohort comparison run via `python scripts/cluster_analysis.py` on each cohort with identical methodology: 1Y window ending 2026-05-07, threshold 0.5, same PCA implementation.
+The cohort's intra-correlation 0.624 and PC1 67.2% are meaningful diagnostics in absolute terms — but the deeper question is how they rank among the vault's other validated clusters. Rigorous cross-cohort comparison run via `python scripts/cluster_analysis.py` on each cohort with identical methodology: 1Y window ending [[2026-05-07]], threshold 0.5, same PCA implementation.
 
 ### Matched-methodology diagnostic table
 
@@ -431,37 +442,37 @@ The cohort's intra-correlation 0.624 and PC1 67.2% are meaningful diagnostics in
 | [[Sectors/Korea Memory\|Korea Memory]] | 2 | 0.756 | (pair only) | 87.82% | Validated |
 | [[Sectors/US Memory\|US Memory]] | 3 | 0.696 | 0.655-0.754 | 79.72% | Validated |
 | [[Sectors/Crypto-to-AI\|Crypto-to-AI]] | 7 | 0.691 | 0.482-0.840 | 73.79% | Validated (tightest N=7) |
-| Space pure-plays | 7 | 0.624 | 0.494-0.749 | 67.96% | Validated |
+| [[Space]] pure-plays | 7 | 0.624 | 0.494-0.749 | 67.96% | Validated |
 | [[Sectors/AI Compute\|AI Compute]] | 3 | 0.600 | 0.544-0.663 | 73.37% | Validated |
 | [[Concepts/Defense primes basket\|Defense primes 6-core]] | 6 | 0.556 | 0.448-0.707 | 64.31% | Validated |
 | [[Concepts/Defense primes basket\|Defense primes 7-name]] | 7 | 0.512 | 0.210-0.707 | 58.59% | Partial (LDOS drag) |
 | [[Concepts/Mag 7 cluster\|Mag 7]] | 7 | 0.316 | 0.078-0.461 | 41.82% | Falsified |
 
-All seven run with identical parameters via configs in `scripts/cluster_configs/`. Numbers replace prior published values that used inconsistent windows/methodologies. Three N=7 cohorts now bracket the cluster-coherence spectrum: [[Sectors/Crypto-to-AI|Crypto-to-AI]] (0.691, validated, tightest), Space pure-plays (0.624, validated), [[Concepts/Mag 7 cluster|Mag 7]] (0.316, falsified). Same cohort size, materially different cluster structure — cohort size alone doesn't determine cluster identity; business-model coherence does.
+All seven run with identical parameters via configs in `scripts/cluster_configs/`. Numbers replace prior published values that used inconsistent windows/methodologies. Three N=7 cohorts now bracket the cluster-coherence spectrum: [[Sectors/Crypto-to-AI|Crypto-to-AI]] (0.691, validated, tightest), [[Space]] pure-plays (0.624, validated), [[Concepts/Mag 7 cluster|Mag 7]] (0.316, falsified). Same cohort size, materially different cluster structure — cohort size alone doesn't determine cluster identity; business-model coherence does.
 
-Verdict by tightness (validated only): WFE > Korea Memory > US Memory > Crypto-to-AI > Space pure-plays > AI Compute. Mag 7 sits below the 0.50 threshold across all matched windows and is the canonical falsified reference for a same-N cohort.
+Verdict by tightness (validated only): WFE > [[Korea Memory]] > US [[Memory]] > [[Crypto-to-AI]] > [[Space]] pure-plays > AI Compute. Mag 7 sits below the 0.50 threshold across all matched windows and is the canonical falsified reference for a same-N cohort.
 
 ### Adjusting for cohort size
 
 Average intra-correlation declines mechanically with cohort size (more pairs, more chance of low-correlation pairs). PC1 explained variance also declines with N (more dimensions to spread variance across). To make the comparison fair, three normalizing observations:
 
-1. Space pure-plays at N=7 is the largest cohort in the comparison. The 0.624 intra-correlation across 7 names is structurally tighter than the 0.600 AI Compute reading at N=3 — same realized cohesion despite needing to hold cohesion across 21 pairwise relationships (vs 3 pairs for AI Compute). Larger cohorts with the same correlation level are harder to construct.
-2. Korea Memory at N=2 has the highest PC1 share (87.82%) but at N=2 PC1 mechanically captures the bivariate correlation directly — the metric is mostly trivial at that cohort size. The real comparison points are N=3 (US Memory, AI Compute) and N=4+ (WFE, Space pure-plays).
-3. The Space pure-plays cohort is the only N=7 cluster among the validated set. The 0.624 / 67.96% reading is the most demanding cohort-coherence test in the comparison.
+1. [[Space]] pure-plays at N=7 is the largest cohort in the comparison. The 0.624 intra-correlation across 7 names is structurally tighter than the 0.600 AI Compute reading at N=3 — same realized cohesion despite needing to hold cohesion across 21 pairwise relationships (vs 3 pairs for AI Compute). Larger cohorts with the same correlation level are harder to construct.
+2. [[Korea Memory]] at N=2 has the highest PC1 share (87.82%) but at N=2 PC1 mechanically captures the bivariate correlation directly — the metric is mostly trivial at that cohort size. The real comparison points are N=3 (US [[Memory]], AI Compute) and N=4+ (WFE, [[Space]] pure-plays).
+3. The [[Space]] pure-plays cohort is the only N=7 cluster among the validated set. The 0.624 / 67.96% reading is the most demanding cohort-coherence test in the comparison.
 
 ### Post-regime extrapolation
 
-The Space pure-plays 1Y average is dragged down by the pre-Nov-2025 regime when cohort cohesion was loose. Post-regime (Dec 2025 - May 2026) intra-correlation is 0.656 (per [[#Pre/post Nov 2025 regime — quantifying the structural shift|the regime-shift analysis]]). If extrapolated forward, the post-regime reading would put Space pure-plays:
+The [[Space]] pure-plays 1Y average is dragged down by the pre-Nov-2025 regime when cohort cohesion was loose. Post-regime (Dec 2025 - May 2026) intra-correlation is 0.656 (per [[#Pre/post Nov 2025 regime — quantifying the structural shift|the regime-shift analysis]]). If extrapolated forward, the post-regime reading would put [[Space]] pure-plays:
 
 - Above [[Sectors/US Memory|US Memory]]'s 0.696 with current trajectory continuing
-- In the same band as Korea Memory's 0.756 (pair only) if cohort cohesion continues to tighten
+- In the same band as [[Korea Memory]]'s 0.756 (pair only) if cohort cohesion continues to tighten
 - Approaching but not exceeding [[Sectors/WFE|WFE]]'s 0.804 which represents the structural ceiling for vault clusters given WFE's same-customer-same-capex constraint
 
 ### Three structural observations
 
-1. Space pure-plays is the densest large-N cluster in the vault. AI Compute at N=3 reads as the canonical AI trade, but Space pure-plays at N=7 has nearly the same intra-correlation despite more than double the number of names. The math says space has more internal cohesion than the standard AI-trade cluster — important framing for anyone choosing between the two as factor expressions.
+1. [[Space]] pure-plays is the densest large-N cluster in the vault. AI Compute at N=3 reads as the canonical AI trade, but [[Space]] pure-plays at N=7 has nearly the same intra-correlation despite more than double the number of names. The math says space has more internal cohesion than the standard AI-trade cluster — important framing for anyone choosing between the two as factor expressions.
 2. The cohort sits in the "moderately tight" band on the absolute scale (0.624) but in the "tight" band among large-N clusters (where 0.60+ across 7 names is structurally meaningful). The cluster-validation framework's published thresholds (>0.70 = strong, 0.50-0.70 = moderate, <0.50 = weak per `docs/cluster-validation.md`) are most meaningful at small N; at N=7 the same numbers represent stronger cluster identity than they would at N=3.
-3. WFE's 0.804 is the structural ceiling for vault clusters. It represents the limit case (4 oligopolists serving the same 3 customers on the same capex cycle). No thematic / cohort-style cluster in the vault should be expected to reach that ceiling because the constraint structure isn't replicable. Space pure-plays at 0.656 post-regime is closer to the realistic ceiling for a thematic-basket cluster than the 0.804 WFE comparison would suggest.
+3. WFE's 0.804 is the structural ceiling for vault clusters. It represents the limit case (4 oligopolists serving the same 3 customers on the same capex cycle). No thematic / cohort-style cluster in the vault should be expected to reach that ceiling because the constraint structure isn't replicable. [[Space]] pure-plays at 0.656 post-regime is closer to the realistic ceiling for a thematic-basket cluster than the 0.804 WFE comparison would suggest.
 
 *Configs: `scripts/cluster_configs/wfe_quartet.yaml`, `ai_compute.yaml`, `us_memory.yaml`, `korea_memory.yaml`, `rklb.yaml`. All five re-run with matched methodology 2026-05-11.*
 
@@ -540,17 +551,17 @@ PC1 score quantifies the magnitude of the basket factor on a given day; basket r
 | 2026-05-08 | +19.4% | +0.473 | RKLB Q1 + Motiv + Golden Dome SBI (basket rally) |
 | 2025-12-11 | +9.0% | +0.204 | Musk confirms 2026 SpaceX IPO 'accurate' |
 | 2026-03-25 | +8.7% | +0.218 | SpaceX IPO filing reportedly imminent (The Information) |
-| 2026-04-10 | +5.5% | +0.142 | Anthropic Managed Agents selloff (SaaS shock — cohort rallied counter to SaaS) |
+| 2026-04-10 | +5.5% | +0.142 | [[Anthropic Managed Agents]] selloff ([[SaaS]] shock — cohort rallied counter to [[SaaS]]) |
 | 2025-11-17 | -3.6% | -0.099 | Cohort drawdown trough |
 | 2025-12-01 | -4.6% | -0.127 | USSF Golden Dome SBI awards (already priced in) |
-| 2026-02-27 | -5.7% | -0.156 | Iran war / Operation Epic Fury kicks off |
-| 2026-05-07 | -10.3% | -0.289 | Cohort drawdown the day before RKLB earnings |
+| 2026-02-27 | -5.7% | -0.156 | [[Iran]] war / [[Operation Epic Fury]] kicks off |
+| [[2026-05-07]] | -10.3% | -0.289 | Cohort drawdown the day before RKLB earnings |
 
 Three readings from the event-study table:
 
 1. The SpaceX IPO confirmation day (Dec 11) produced a +9% basket move and PC1 +0.20 — a strong factor-driven up day. Compare to the Golden Dome SBI awards day (Dec 1) which produced -4.6% — already priced in by the late-October leak. The cohort didn't rally on the formal contract announcements; it rallied on the framework signals before them and on confirmations like the SpaceX IPO that opened a fresh narrative.
-2. The Anthropic Managed Agents selloff day (Apr 10) is the most interesting cross-asset signal. SaaS cratered that day (Cloudflare and Akamai both -13-17% on Anthropic's Managed Agents launch); space cohort RALLIED +5.5%. The cohort was decoupled from the SaaS-disruption narrative — it traded as its own factor unrelated to the AI-eats-SaaS story. The cleanest evidence that space pure-plays don't trade as a SaaS proxy or AI-infrastructure proxy.
-3. Iran war kickoff (Feb 27 2026) drove the cohort -5.7% — risk-off pricing across the basket. But the war became a structural tailwind over March-April via the defense-repricing channel (per [[2026 Iran conflict defense repricing|Iran conflict defense repricing]] vault note). The initial reaction was sell-the-news; the structural impact was bullish.
+2. The [[Anthropic Managed Agents]] selloff day (Apr 10) is the most interesting cross-asset signal. [[SaaS]] cratered that day ([[Cloudflare]] and [[Akamai]] both -13-17% on [[Anthropic]]'s Managed Agents launch); space cohort RALLIED +5.5%. The cohort was decoupled from the [[SaaS]]-disruption narrative — it traded as its own factor unrelated to the AI-eats-[[SaaS]] story. The cleanest evidence that space pure-plays don't trade as a [[SaaS]] proxy or AI-infrastructure proxy.
+3. [[Iran]] war kickoff (Feb 27 2026) drove the cohort -5.7% — risk-off pricing across the basket. But the war became a structural tailwind over March-April via the defense-repricing channel (per [[Iran conflict defense repricing|Iran conflict defense repricing]] vault note). The initial reaction was sell-the-news; the structural impact was bullish.
 
 Largest +PC1 days reveal name-specific idiosyncratic spikes:
 
@@ -559,7 +570,7 @@ Largest +PC1 days reveal name-specific idiosyncratic spikes:
 | 2026-05-08 | +19.4% | RKLB +15.7pp idio (Q1 print) |
 | 2025-12-19 | +15.7% | LUNR +19.4pp idio (likely IM-2 / lunar mission news) |
 | 2026-04-02 | +12.2% | SPIR +7.6pp / PL +7.7pp idio (data-sleeve session) |
-| 2026-04-16 | +11.7% | PL +7.1pp idio (NGA contract or constellation news) |
+| [[2026-04-16]] | +11.7% | PL +7.1pp idio (NGA contract or constellation news) |
 | 2026-01-27 | +11.3% | RDW +18.0pp idio (likely SHIELD IDIQ inclusion announcement Jan 27) |
 
 The pattern: on big factor-up days, one or two names typically carry significant idiosyncratic alpha layered on top of the factor. The names doing the idiosyncratic heavy-lifting rotate — RKLB on May 8, LUNR on Dec 19, RDW on Jan 27, PL on Apr 2 / Apr 16. No single name is the cohort's "permanent alpha generator"; the catalyst rotation is part of what makes the cohort tradeable as a basket. The basket captures the factor; any individual name's positioning bets on which one will be the next idiosyncratic-alpha generator.
@@ -642,7 +653,7 @@ The data sleeve outperformed hardware by ~21pp on a cumulative-return basis, and
 
 Notable spread events:
 
-- Best 30-day data outperformance: window ending 2026-04-10 (+48.8% cumulative log-spread). This is the [[Anthropic Managed Agents selloff April 2026]] period when SaaS-like recurring-revenue businesses rallied as agentic-AI infrastructure plays while hardware/launch names lagged on Neutron-uncertainty and capital-markets pressure
+- Best 30-day data outperformance: window ending 2026-04-10 (+48.8% cumulative log-spread). This is the [[Anthropic Managed Agents selloff April 2026]] period when [[SaaS]]-like recurring-revenue businesses rallied as agentic-AI infrastructure plays while hardware/launch names lagged on Neutron-uncertainty and capital-markets pressure
 - Worst 30-day data window (hardware outperformed): ending 2026-01-06 (-29.5% cumulative log-spread). Hardware/launch names rallied on the SpaceX-IPO-anticipation runup that began late December 2025 while data names lagged on Q4 print uncertainty
 
 The implication for trading the PC2 axis: the spread is real and directional but episodic. It's not a "permanent risk premium" pair trade — it's more like a "regime indicator" where data outperforms when AI-recurring-revenue narratives dominate and hardware outperforms when launch-IPO-Golden-Dome narratives dominate. The PC2 axis tracks which thematic narrative is in the driver's seat on a given month.
@@ -653,7 +664,7 @@ Better expression of the cluster: rather than trade PC2 as a pair, monitor it as
 
 ## Tested hypothesis — Golden Dome defense-tech super-cluster (falsified)
 
-The KTOS finding raised a natural question: is there a broader "Golden Dome defense-tech" cluster that the space pure-plays are a sub-cluster of? If so, the right vault structure would be a parent Golden-Dome-thematic cluster note with two children (space pure-plays + defense-tech mid-caps). Test config: `scripts/cluster_configs/ktos.yaml` with candidate cohort KTOS / AVAV / [[Mercury Systems\|MRCY]] / [[BWXT]] / [[Heico\|HEI]], controls = defense primes + space pure-plays + ETFs.
+The KTOS finding raised a natural question: is there a broader "Golden Dome defense-tech" cluster that the space pure-plays are a sub-cluster of? If so, the right vault structure would be a parent Golden-Dome-thematic cluster note with two children (space pure-plays + defense-tech mid-caps). Test config: `scripts/cluster_configs/ktos.yaml` with candidate cohort KTOS / AVAV / [[Mercury|MRCY]] / [[BWXT]] / [[Heico\|HEI]], controls = defense primes + space pure-plays + ETFs.
 
 Result: hypothesis falsified. The proposed 5-name defense-tech mid-cap cluster does NOT cohere as a single tradeable factor.
 
@@ -670,8 +681,8 @@ The negative intra-advantage vs ETFs (-0.039) is the falsification — the candi
 The hierarchical clustering reveals the underlying structure:
 
 - [[Kratos]] + [[AeroVironment]] (KTOS+AVAV) form a tight 2-name micro-cluster (0.65 pairwise correlation). This is the "UAS / loitering munitions / drone-defense" pair. Could be a legitimate cluster if expanded with additional UAS / drone-defense names — but 2 names is too small to define a vault-level cohort without more candidates.
-- [[Mercury Systems]] + [[BWXT]] cluster with [[SPY]] and [[IWM]] rather than with each other. Translation: these names trade as small-cap-defense-electronics beta, not as a coherent thematic basket. They're conventionally classified as defense-tech but their daily-return profile is closer to "leveraged broad-market" than to "Golden Dome thematic."
-- [[Heico]] is a singleton. Aerospace components + commercial aerospace exposure decouple it from the rest of the defense-tech candidates. HEI is its own thing.
+- [[Mercury|Mercury Systems]] + [[BWXT]] cluster with [[SPY]] and [[IWM]] rather than with each other. Translation: these names trade as small-cap-defense-electronics beta, not as a coherent thematic basket. They're conventionally classified as defense-tech but their daily-return profile is closer to "leveraged broad-market" than to "Golden Dome thematic."
+- [[Heico]] is a singleton. [[Aerospace]] components + commercial aerospace exposure decouple it from the rest of the defense-tech candidates. HEI is its own thing.
 
 The vault implication is that the [[Space pure-plays]] cohort is NOT a sub-cluster of a broader Golden-Dome-thematic super-cluster. There is no such super-cluster. The space pure-plays are the cleanest equity expression of the Golden Dome theme that exists; the defense-tech mid-caps trade on their own (mostly non-thematic) factor exposures.
 
@@ -682,7 +693,7 @@ The KTOS-AVAV micro-cluster remains a candidate for separate validation as a "UA
 | Candidate | Avg corr to KTOS-AVAV | Verdict |
 |---|---|---|
 | KTOS-AVAV pair correlation | 0.638 (intra) | Real micro-cluster |
-| [[Mercury Systems\|MRCY]] | 0.543 | Below pair-internal — adding it loosens cluster |
+| [[Mercury|MRCY]] | 0.543 | Below pair-internal — adding it loosens cluster |
 | [[BWXT]] | 0.492 | Loosens cluster |
 | [[Leidos\|LDOS]] | 0.382 | Far below |
 | [[CACI]] | 0.359 | Far below |
@@ -694,12 +705,12 @@ The KTOS-AVAV pair vs adjacent benchmarks:
 | Reference | Pair avg correlation |
 |---|---|
 | [[ITA]] (aerospace + defense ETF) | 0.536 |
-| [[LHX]] (closest defense prime) | 0.453 |
+| [[L3Harris|LHX]] (closest defense prime) | 0.453 |
 | [[IWM]] (small-cap) | 0.411 |
 | [[SPY]] | 0.354 |
-| [[LMT]] / [[RTX]] / [[NOC]] | 0.30-0.35 |
+| [[Lockheed Martin|LMT]] / [[RTX]] / [[Northrop Grumman|NOC]] | 0.30-0.35 |
 
-Verdict on the UAS micro-cluster: KTOS-AVAV is a genuine 2-name micro-cluster (intra 0.638, separated from defense primes by +0.20 to +0.30, separated from broad market by +0.25-0.30). However, *adding any of the 6 tested defense-tech extras would loosen the cluster, not strengthen it* — MRCY at 0.543 is the closest extension candidate but adds noise relative to the pair's own 0.638 internal correlation. The micro-cluster is *real but small* — too small (2 names) to merit a full vault cohort note under current scope, but worth tracking as a candidate for expansion if pure-play UAS / loitering-munitions names like Karman Holdings (KRMN, when in local DB) or Red Cat Holdings (RCAT) become more liquid.
+Verdict on the UAS micro-cluster: KTOS-AVAV is a genuine 2-name micro-cluster (intra 0.638, separated from defense primes by +0.20 to +0.30, separated from broad market by +0.25-0.30). However, *adding any of the 6 tested defense-tech extras would loosen the cluster, not strengthen it* — MRCY at 0.543 is the closest extension candidate but adds noise relative to the pair's own 0.638 internal correlation. The micro-cluster is *real but small* — too small (2 names) to merit a full vault cohort note under current scope, but worth tracking as a candidate for expansion if pure-play UAS / loitering-munitions names like [[Karman Holdings]] (KRMN, when in local DB) or [[Red Cat Holdings]] (RCAT) become more liquid.
 
 For now, the structural read is that the KTOS-AVAV pair is the only defensible UAS-defense-tech micro-cluster — and it is genuinely distinct from both the space pure-plays cluster (KTOS-pair-to-space-cohort avg correlation was 0.428 per Golden Dome test) and from the defense-prime cluster (avg correlation 0.30-0.35). The pair sits in its own thematic space.
 
@@ -735,24 +746,24 @@ Small-cap high-vol names "should" be rate-sensitive, but the cohort isn't. Pairw
 
 | Rate proxy | Correlation to basket |
 |---|---|
-| TLT (long-bond) | -0.043 |
-| IEF (intermediate) | -0.049 |
-| SHY (short-bond) | -0.035 |
+| [[TLT]] (long-bond) | -0.043 |
+| [[IEF]] (intermediate) | -0.049 |
+| [[SHY]] (short-bond) | -0.035 |
 
-All three correlations are near zero. Per-name correlations to TLT range from +0.013 (RKLB) to -0.131 (PL) — also near zero across the cohort.
+All three correlations are near zero. Per-name correlations to [[TLT]] range from +0.013 (RKLB) to -0.131 (PL) — also near zero across the cohort.
 
-Multivariate regression results (basket returns ~ SPY + IWM + ITA + TLT):
+Multivariate regression results (basket returns ~ SPY + IWM + ITA + [[TLT]]):
 
 | Factor | Beta | Note |
 |---|---|---|
-| SPY | -0.530 | Slightly negative (vs -0.12 in the simpler model without TLT) |
-| IWM | +2.286 | Small-cap beta intact |
-| ITA | +1.007 | Defense beta intact |
-| TLT | -1.337 | Non-trivial negative — bonds rally hurts cohort at the margin |
+| [[SPY]] | -0.530 | Slightly negative (vs -0.12 in the simpler model without [[TLT]]) |
+| [[IWM]] | +2.286 | Small-cap beta intact |
+| [[ITA]] | +1.007 | [[Defense]] beta intact |
+| [[TLT]] | -1.337 | Non-trivial negative — bonds rally hurts cohort at the margin |
 
-R² goes from 41.3% (without TLT) to 43.4% (with TLT) — adding TLT contributes only +2.1pp of explained variance. The residual pure-play factor is still 56.6% — the rate factor is real but small relative to the cohort-specific factor.
+R² goes from 41.3% (without [[TLT]]) to 43.4% (with [[TLT]]) — adding [[TLT]] contributes only +2.1pp of explained variance. The residual pure-play factor is still 56.6% — the rate factor is real but small relative to the cohort-specific factor.
 
-The structural read: the cohort is structurally insulated from rate cycles in a way that most small-cap high-vol names are not. The most plausible mechanism is that the cohort's catalyst structure ([[Golden Dome]] contract awards, [[SpaceX IPO 2026|SpaceX IPO]] anticipation, [[2026 Iran conflict defense repricing|war-premium]] flows) is genuinely independent of rate expectations. Small-cap high-vol stocks typically pay a "duration penalty" — their cash flows are far in the future and discount-rate-sensitive — but the cohort's near-term catalyst flow (binary product launches, contract awards) makes the discount-rate effect second-order at best.
+The structural read: the cohort is structurally insulated from rate cycles in a way that most small-cap high-vol names are not. The most plausible mechanism is that the cohort's catalyst structure ([[Golden Dome]] contract awards, [[SpaceX IPO 2026|SpaceX IPO]] anticipation, [[Iran conflict defense repricing|war-premium]] flows) is genuinely independent of rate expectations. Small-cap high-vol stocks typically pay a "duration penalty" — their cash flows are far in the future and discount-rate-sensitive — but the cohort's near-term catalyst flow (binary product launches, contract awards) makes the discount-rate effect second-order at best.
 
 Anyone holding the basket as part of a portfolio gets factor exposure that's substantially uncorrelated with the rates trade — useful for portfolio construction, since most equity baskets carry meaningful rate beta.
 
@@ -796,7 +807,7 @@ Anyone holding the basket as part of a portfolio gets factor exposure that's sub
 ## Why this cluster trades together
 
 1. Shared funding-flow profile — all 7 names are small-cap (sub-$50B market cap), recent-IPO (2020-2024 listing), with high idiosyncratic vol (60-115%). They attract the same investor base (retail + small-cap-thematic funds + space-specialist managers) and lose/gain that base together. Daily flows move them in lockstep regardless of underlying business overlap.
-2. Shared catalyst environment — [[SpaceX IPO 2026|SpaceX IPO]] anticipation, [[Golden Dome]] contract awards, [[2026 Iran conflict defense repricing|Iran-war defense-spending]] backdrop, [[Starlink]] launch-demand fundamentals — all apply to the cohort asymmetrically but to every name. When any single catalyst lands (e.g., RKLB Q1 record on May 7), the basket re-rates together.
+2. Shared catalyst environment — [[SpaceX IPO 2026|SpaceX IPO]] anticipation, [[Golden Dome]] contract awards, [[Iran conflict defense repricing|Iran-war defense-spending]] backdrop, [[Starlink]] launch-demand fundamentals — all apply to the cohort asymmetrically but to every name. When any single catalyst lands (e.g., RKLB Q1 record on May 7), the basket re-rates together.
 3. Thin price discovery — small float + high short interest + retail-heavy ownership profile compounds basket co-movement. When one name moves, paired/basket trading expressions amplify the move across peers.
 4. Structurally similar TAM frames — every name's TAM presentation references the [[Space Capital]] $36B Q1 2026 investment data, the $1T+ space economy by 2030 framing, and the [[Satellite primer|infrastructure-not-exploration]] thesis. Bullish narrative shifts move the whole cohort.
 
@@ -811,7 +822,7 @@ The cohort does NOT share execution risk. Business-model heterogeneity (launch +
 | Market cap | $400M ([[BlackSky]]) to ~$45B ([[Rocket Lab]]) |
 | Beta to SPY (120d) | 1.20 ([[Planet Labs]]) to 3.51 ([[Rocket Lab]] / [[IREN]] comparison range) |
 | Idiosyncratic vol (60d) | 67% (RKLB) to 115% (SPIR) |
-| Listing year | 2020 (LUNR via SPAC) to 2024 |
+| Listing year | 2020 (LUNR via [[SPAC]]) to 2024 |
 | Profitability | Pre-profit cohort-wide; one ([[Rocket Lab]] Q1 2026) has shown record gross margin |
 | Backlog | RKLB $2.2B leads; remainder $100M-$500M typical |
 
@@ -823,14 +834,14 @@ The cohort does NOT share execution risk. Business-model heterogeneity (launch +
 |--------|-------|
 | Cohort multiple re-rates with [[SpaceX IPO 2026\|SpaceX June 2026 IPO]] | The IPO sets the read-across cap for the basket multiple |
 | [[Golden Dome]] production-contract phase | [[Rocket Lab]] + [[Raytheon]] SBI selection (May 8) is the first launch-tier prime to win at production scale |
-| [[2026 Iran conflict defense repricing]] routes through cohort | War premium that drove March-April defense-prime outperformance is now reaching launch-tier names |
+| [[Iran conflict defense repricing|2026 Iran conflict defense repricing]] routes through cohort | War premium that drove March-April defense-prime outperformance is now reaching launch-tier names |
 | Within-cluster dispersion offers single-name alpha | The 17x cumulative-return dispersion despite 0.62 correlation means basket exposure ≠ optimal exposure — single-name selection still matters |
 
 ---
 
 ## May 27 2026 - SpaceX IPO halo becomes a public-basket catalyst
 
-[[Reuters]]' May 27 space-stock piece is the cleanest external confirmation that the public market is using the cohort as a pre-IPO proxy for [[SpaceX]]. Reuters framed the move around the idea that a very large SpaceX listing could force investors to rethink the valuation of the space economy, and it named [[Rocket Lab]], [[Planet Labs]], [[Intuitive Machines]], [[AST SpaceMobile]], plus retail-trending microcaps such as [[Redwire]], Momentus, and Sidus Space.
+[[Reuters]]' May 27 space-stock piece is the cleanest external confirmation that the public market is using the cohort as a pre-IPO proxy for [[SpaceX]]. Reuters framed the move around the idea that a very large SpaceX listing could force investors to rethink the valuation of the space economy, and it named [[Rocket Lab]], [[Planet Labs]], [[Intuitive Machines]], [[AST SpaceMobile]], plus retail-trending microcaps such as [[Redwire]], Momentus, and Sidus [[Space]].
 
 Verified May 27 closes show the move was broad but uneven:
 
@@ -841,14 +852,14 @@ Verified May 27 closes show the move was broad but uneven:
 | ASTS | [[AST SpaceMobile]] | $129.60 | +8.3% | Direct-to-cell scarcity read-through |
 | RKLB | [[Rocket Lab]] | $150.23 | +4.9% | Most liquid public-space proxy, but less explosive than smaller hardware names |
 | PL | [[Planet Labs]] | $50.48 | +4.5% | Data sleeve participated despite lower historical PC1 loading |
-| UFO | Procure Space ETF | $66.65 | +1.9% | ETF wrapper participated, but diluted |
-| ARKX | ARK Space & Defense Innovation ETF | $36.40 | +0.2% | Broad aerospace/defense mix diluted the SpaceX halo |
+| UFO | Procure [[Space]] ETF | $66.65 | +1.9% | ETF wrapper participated, but diluted |
+| ARKX | ARK [[Space]] & [[Defense]] Innovation ETF | $36.40 | +0.2% | Broad aerospace/defense mix diluted the SpaceX halo |
 
 This reinforces the post-November regime-shift read: the market increasingly treats the public space names as one factor when the catalyst is sector-level capital allocation. The fundamental caution is unchanged. These companies did not receive new May 27 orders, launches, or earnings updates. The move was multiple expansion on scarcity and proxy demand. It is durable only if the SpaceX IPO expands the investor base for public space exposure rather than absorbing the proxy trade into `SPCX`.
 
 The refreshed cluster diagnostic says the halo move strengthened the existing basket thesis at the margin without changing the member set. Through May 27, the 1Y intra-cluster correlation is 0.625, PC1 explains 68.04% of cohort variance, and hierarchical clustering still groups RKLB, RDW, LUNR, BKSY, ASTS, SPIR, and PL together at the 0.5 distance threshold. That is the right conclusion: May 27 was not evidence for a new "SpaceX halo" cluster; it was evidence that the existing [[Space pure-plays]] cluster remains the public proxy basket.
 
-Momentus, Sidus Space, and Virgin Galactic belong outside the validated cohort for now. Reuters' mention of retail-trending tickers makes them useful as froth indicators, not as cluster members, because they are smaller, less liquid, and either absent from the local DB or structurally outside the seven-name factor.
+Momentus, Sidus [[Space]], and Virgin Galactic belong outside the validated cohort for now. Reuters' mention of retail-trending tickers makes them useful as froth indicators, not as cluster members, because they are smaller, less liquid, and either absent from the local DB or structurally outside the seven-name factor.
 
 *Sources: [[Reuters]] via Investing.com, "US space stocks rise on SpaceX IPO hype," May 27 2026, https://www.investing.com/news/stock-market-news/us-space-stocks-rise-on-spacex-ipo-hype-4712652; Reuters via CNA, https://www.channelnewsasia.com/business/us-space-stocks-rise-spacex-ipo-hype-6145121; [[Yahoo Finance]] daily closes pulled May 27 2026.*
 
@@ -859,6 +870,69 @@ Momentus, Sidus Space, and Virgin Galactic belong outside the validated cohort f
 - [[Space basket rally May 8 2026]] — Friday May 8 single-session basket rally, average +20.4%, range +10.8% to +34.2%
 - [[Rocket Lab]] Q1 2026 print (May 7) — the catalyst for the basket move
 - [[SpaceX IPO 2026]] — upcoming June 2026; sets the read-across cap
+
+---
+
+## Cluster validation compliance addendum (2026-06-07)
+
+Generated from `scripts/cluster_configs/rklb.yaml` using `scripts/cluster_analysis.py` methodology. The 1Y diagnostic window is 2025-06-06 to 2026-06-03 (189 observations); the rolling history starts at `2020-01-01` where data are available.
+
+### Required validation plots
+
+![[space-pureplays-cluster-correlation-1y.png]]
+
+*One-year correlation heatmap for the `[[Space]] pure-plays` validation universe.*
+
+![[space-pureplays-cluster-dendrogram-1y.png]]
+
+*Hierarchical clustering tree using average linkage on distance `1-|corr|`.*
+
+![[space-pureplays-cluster-pca-1y.png]]
+
+*PCA diagnostic for the candidate cohort; PC1 explains 68.8% of standardized daily-return variance.*
+
+### PC1 index weights vs cluster topology
+
+The topology table answers which names join the tree first or last. The raw PC1-mimic table answers which raw-return weights best replicate the standardized common factor after realized-volatility scaling. These are deliberately different readings of the same cluster.
+
+| Step | Left | Right | Distance (1-\|corr\|) | Read |
+|---|---|---|---|---|
+| 1 | RKLB | LUNR | 0.252 | Tightest merge |
+| 2 | RDW | ASTS | 0.292 | Candidate cohort merge step |
+| 3 | BKSY | RKLB+LUNR | 0.299 | Candidate cohort merge step |
+| 4 | RDW+ASTS | BKSY+RKLB+LUNR | 0.331 | Candidate cohort merge step |
+| 5 | PL | RDW+ASTS+BKSY+RKLB+LUNR | 0.401 | Candidate cohort merge step |
+| 6 | SPIR | PL+RDW+ASTS+BKSY+RKLB+LUNR | 0.425 | Final cohort join / loosest boundary |
+
+| Ticker | PC1 loading | Normalized loading weight | Ann. vol | Raw PC1-mimic weight |
+|---|---|---|---|---|
+| RKLB | 0.402 | 15.22% | 95.36% | 16.76% |
+| RDW | 0.374 | 14.14% | 114.12% | 13.01% |
+| LUNR | 0.385 | 14.56% | 116.00% | 13.17% |
+| BKSY | 0.392 | 14.85% | 110.57% | 14.10% |
+| ASTS | 0.386 | 14.62% | 108.37% | 14.16% |
+| SPIR | 0.346 | 13.10% | 107.07% | 12.84% |
+| PL | 0.357 | 13.51% | 88.95% | 15.95% |
+
+Interpretation: use the dendrogram / join-distance topology to identify the tight core and later-joining members; use the Raw PC1-mimic weight column only for investable factor-replication sizing.
+
+### Historical tightness evolution
+
+![[space-pureplays-cluster-rolling-tightness-90d.png]]
+
+*Ninety-day rolling tightness diagnostic: avg intra-correlation, PC1 share, core correlation, satellite-to-core correlation, and final candidate join distance.*
+
+| Year | Avg corr median | PC1 median | Core corr median | Satellite-to-core median | Final join distance median |
+|---|---|---|---|---|---|
+| 2022 | 0.268 | 42.9% | 0.228 | 0.385 | 0.902 |
+| 2023 | 0.245 | 38.6% | 0.206 | 0.327 | 0.940 |
+| 2024 | 0.240 | 36.7% | 0.218 | 0.291 | 0.892 |
+| 2025 | 0.466 | 55.1% | 0.439 | 0.543 | 0.715 |
+| 2026 | 0.644 | 69.7% | 0.625 | 0.699 | 0.450 |
+
+Latest 90D through 2026-06-03: avg corr 0.661, PC1 71.1%, core corr 0.647, satellite-to-core corr 0.695, final join distance 0.422.
+
+Historical verdict: regime-dependent but measurable cluster; cohesion exists, but the rolling path is not consistently tight enough to call structurally durable.
 
 ---
 
@@ -874,8 +948,8 @@ Momentus, Sidus Space, and Virgin Galactic belong outside the validated cohort f
 - [[Iran conflict defense repricing]] — war-premium backdrop
 
 ### Adjacent cohorts (control groups in validation)
-- Defense primes — [[Lockheed Martin]], [[RTX]], [[Northrop Grumman]], [[L3Harris]]
-- Defense + space ETFs — [[ITA]], [[XAR]]
+- [[Defense]] primes — [[Lockheed Martin]], [[RTX]], [[Northrop Grumman]], [[L3Harris]]
+- [[Defense]] + space ETFs — [[ITA]], [[XAR]]
 
 ### Private comparables
 - [[SpaceX]] — dominant private peer; IPO June 2026

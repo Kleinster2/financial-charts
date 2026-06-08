@@ -65,6 +65,73 @@ Procedure: `scripts/cluster_analysis.py --config scripts/cluster_configs/ins_car
 
 ---
 
+## Cluster validation compliance addendum (2026-06-07)
+
+Generated from `scripts/cluster_configs/ins_carriers.yaml` using `scripts/cluster_analysis.py` methodology. The 1Y diagnostic window is 2025-05-01 to 2026-04-30 (171 observations); the rolling history starts at `2020-01-01` where data are available.
+
+### Required validation plots
+
+![[ins-carriers-cluster-correlation-1y.png]]
+
+*One-year correlation heatmap for the `Insurance carriers` validation universe.*
+
+![[ins-carriers-cluster-dendrogram-1y.png]]
+
+*Hierarchical clustering tree using average linkage on distance `1-|corr|`.*
+
+![[ins-carriers-cluster-pca-1y.png]]
+
+*PCA diagnostic for the candidate cohort; PC1 explains 53.4% of standardized daily-return variance.*
+
+### PC1 index weights vs cluster topology
+
+The topology table answers which names join the tree first or last. The raw PC1-mimic table answers which raw-return weights best replicate the standardized common factor after realized-volatility scaling. These are deliberately different readings of the same cluster.
+
+| Step | Left | Right | Distance (1-\|corr\|) | Read |
+|---|---|---|---|---|
+| 1 | TRV | HIG | 0.187 | Tightest merge |
+| 2 | MET | PRU | 0.313 | Candidate cohort merge step |
+| 3 | PGR | ALL | 0.314 | Candidate cohort merge step |
+| 4 | CB | TRV+HIG | 0.335 | Candidate cohort merge step |
+| 5 | PGR+ALL | CB+TRV+HIG | 0.400 | Candidate cohort merge step |
+| 6 | AIG | MET+PRU | 0.570 | Candidate cohort merge step |
+| 7 | PGR+ALL+CB+TRV+HIG | AIG+MET+PRU | 0.690 | Final cohort join / loosest boundary |
+
+| Ticker | PC1 loading | Normalized loading weight | Ann. vol | Raw PC1-mimic weight |
+|---|---|---|---|---|
+| PGR | 0.339 | 12.21% | 25.01% | 10.27% |
+| CB | 0.384 | 13.81% | 18.21% | 15.96% |
+| TRV | 0.414 | 14.89% | 18.57% | 16.87% |
+| ALL | 0.388 | 13.97% | 21.93% | 13.40% |
+| MET | 0.283 | 10.18% | 23.82% | 9.00% |
+| PRU | 0.218 | 7.86% | 23.29% | 7.10% |
+| AIG | 0.323 | 11.65% | 24.30% | 10.08% |
+| HIG | 0.429 | 15.44% | 18.75% | 17.32% |
+
+Interpretation: use the dendrogram / join-distance topology to identify the tight core and later-joining members; use the Raw PC1-mimic weight column only for investable factor-replication sizing.
+
+### Historical tightness evolution
+
+![[ins-carriers-cluster-rolling-tightness-90d.png]]
+
+*Ninety-day rolling tightness diagnostic: avg intra-correlation, PC1 share, core correlation, satellite-to-core correlation, and final candidate join distance.*
+
+| Year | Avg corr median | PC1 median | Core corr median | Satellite-to-core median | Final join distance median |
+|---|---|---|---|---|---|
+| 2020 | 0.760 | 79.6% | 0.822 | 0.565 | 0.435 |
+| 2021 | 0.493 | 59.0% | 0.592 | 0.324 | 0.765 |
+| 2022 | 0.662 | 70.9% | 0.688 | 0.560 | 0.464 |
+| 2023 | 0.593 | 65.5% | 0.655 | 0.396 | 0.606 |
+| 2024 | 0.497 | 56.7% | 0.531 | 0.381 | 0.620 |
+| 2025 | 0.675 | 71.9% | 0.699 | 0.607 | 0.429 |
+| 2026 | 0.415 | 51.0% | 0.427 | 0.392 | 0.765 |
+
+Latest 90D through 2026-04-30: avg corr 0.402, PC1 50.4%, core corr 0.411, satellite-to-core corr 0.374, final join distance 0.811.
+
+Historical verdict: regime-dependent / fragmenting cluster; current rolling cohesion is below durable-cluster thresholds.
+
+---
+
 ## Related
 
 ### Sub-clusters

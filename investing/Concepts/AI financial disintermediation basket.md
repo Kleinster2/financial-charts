@@ -113,6 +113,75 @@ Watch for:
 
 ---
 
+## Cluster validation compliance addendum (2026-06-07)
+
+Generated from `scripts/cluster_configs/aifd.yaml` using `scripts/cluster_analysis.py` methodology. The 1Y diagnostic window is 2025-05-01 to 2026-04-30 (171 observations); the rolling history starts at `2020-01-01` where data are available.
+
+### Required validation plots
+
+![[aifd-cluster-correlation-1y.png]]
+
+*One-year correlation heatmap for the `AI financial disintermediation basket (AIFD)` validation universe.*
+
+![[aifd-cluster-dendrogram-1y.png]]
+
+*Hierarchical clustering tree using average linkage on distance `1-|corr|`.*
+
+![[aifd-cluster-pca-1y.png]]
+
+*PCA diagnostic for the candidate cohort; PC1 explains 43.9% of standardized daily-return variance.*
+
+### PC1 index weights vs cluster topology
+
+The topology table answers which names join the tree first or last. The raw PC1-mimic table answers which raw-return weights best replicate the standardized common factor after realized-volatility scaling. These are deliberately different readings of the same cluster.
+
+| Step | Left | Right | Distance (1-\|corr\|) | Read |
+|---|---|---|---|---|
+| 1 | AJG | BRO | 0.211 | Tightest merge |
+| 2 | AON | MMC | 0.216 | Candidate cohort merge step |
+| 3 | SCHW | RJF | 0.269 | Candidate cohort merge step |
+| 4 | AJG+BRO | AON+MMC | 0.275 | Candidate cohort merge step |
+| 5 | LPLA | SCHW+RJF | 0.330 | Candidate cohort merge step |
+| 6 | WTW | AJG+BRO+AON+MMC | 0.332 | Candidate cohort merge step |
+| 7 | RYAN | WTW+AJG+BRO+AON+MMC | 0.460 | Candidate cohort merge step |
+| 8 | SF | LPLA+SCHW+RJF | 0.684 | Candidate cohort merge step |
+| 9 | RYAN+WTW+AJG+BRO+AON+MMC | SF+LPLA+SCHW+RJF | 0.911 | Final cohort join / loosest boundary |
+
+| Ticker | PC1 loading | Normalized loading weight | Ann. vol | Raw PC1-mimic weight |
+|---|---|---|---|---|
+| WTW | 0.401 | 14.81% | 28.17% | 15.33% |
+| AJG | 0.430 | 15.90% | 31.60% | 14.67% |
+| AON | 0.422 | 15.60% | 25.09% | 18.13% |
+| RYAN | 0.338 | 12.49% | 41.82% | 8.71% |
+| BRO | 0.411 | 15.20% | 31.14% | 14.23% |
+| MMC | 0.409 | 15.11% | 24.77% | 17.79% |
+| SCHW | 0.103 | 3.79% | 22.47% | 4.92% |
+| RJF | 0.102 | 3.76% | 25.42% | 4.31% |
+| LPLA | 0.031 | 1.14% | 37.14% | 0.90% |
+| SF | 0.060 | 2.20% | 62.76% | 1.02% |
+
+Interpretation: use the dendrogram / join-distance topology to identify the tight core and later-joining members; use the Raw PC1-mimic weight column only for investable factor-replication sizing.
+
+### Historical tightness evolution
+
+![[aifd-cluster-rolling-tightness-90d.png]]
+
+*Ninety-day rolling tightness diagnostic: avg intra-correlation, PC1 share, core correlation, satellite-to-core correlation, and final candidate join distance.*
+
+| Year | Avg corr median | PC1 median | Core corr median | Satellite-to-core median | Final join distance median |
+|---|---|---|---|---|---|
+| 2022 | 0.595 | 65.0% | 0.588 | 0.623 | 0.674 |
+| 2023 | 0.587 | 64.0% | 0.577 | 0.632 | 0.573 |
+| 2024 | 0.369 | 45.0% | 0.360 | 0.430 | 0.787 |
+| 2025 | 0.550 | 59.7% | 0.536 | 0.610 | 0.608 |
+| 2026 | 0.304 | 43.3% | 0.278 | 0.397 | 0.931 |
+
+Latest 90D through 2026-03-16: avg corr 0.306, PC1 43.2%, core corr 0.279, satellite-to-core corr 0.414, final join distance 0.935.
+
+Historical verdict: regime-dependent / fragmenting cluster; current rolling cohesion is below durable-cluster thresholds.
+
+---
+
 ## Related
 
 - [[February 2026 AI Disruption Cascade]] — the broader repricing this basket sits inside
@@ -150,8 +219,8 @@ PC1 IS the insurance broker factor — wealth managers don't load on it at all. 
 
 Hierarchical clustering at 0.4 returns the two sub-clusters cleanly:
 
-- **Cluster 1: WTW, AJG, AON, BRO, MMC** → see [[Insurance brokers basket]] (intra-corr 0.67, PC1 72.2%)
-- **Cluster 2: SCHW, RJF, LPLA** → see [[Wealth managers basket]] (intra-corr ~0.69 in 3-name tight core, PC1 64.3%)
+- Cluster 1: WTW, AJG, AON, BRO, MMC → see [[Insurance brokers basket]] (intra-corr 0.67, PC1 72.2%)
+- Cluster 2: SCHW, RJF, LPLA → see [[Wealth managers basket]] (intra-corr ~0.69 in 3-name tight core, PC1 64.3%)
 - Singletons: RYAN (specialty broker), SF (mid-IB-exposed wealth platform)
 
 ### What this means for the AIFD framing
@@ -159,10 +228,10 @@ Hierarchical clustering at 0.4 returns the two sub-clusters cleanly:
 The note's original framing was correct on the SECTOR-LEVEL narrative (both insurance brokers and wealth managers face AI advisory replacement). But the equity-level cluster claim does not hold: the names trade as two completely separate factors, with cross-sub-cluster correlation of 0.09 — about as decoupled as two financial-services cohorts can be while both being public.
 
 Practical implications:
-- **Do not trade AIFD as a single basket.** Equal-weighted exposure dilutes idiosyncratic noise across two unrelated sub-factors.
-- **Trade the two sub-baskets separately.** Long [[Insurance brokers basket]] for commercial broker AI disruption; long [[Wealth managers basket]] for retail wealth AI disruption. Cross-sub-cluster correlation of 0.09 means a long-AIFD position is essentially long two unrelated 50% factor exposures.
-- **Watch for re-correlation.** If a future cross-sub-sector AI catalyst forces both halves to move together (e.g., a regulatory action affecting both), AIFD might reassemble as a meaningful cluster. Currently it does not.
-- **Keep the AIFD note** as the AI-disruption-event narrative parent. The two sub-cluster notes link back here as event lineage; this note retains the conceptual framework + thesis content.
+- Do not trade AIFD as a single basket. Equal-weighted exposure dilutes idiosyncratic noise across two unrelated sub-factors.
+- Trade the two sub-baskets separately. Long [[Insurance brokers basket]] for commercial broker AI disruption; long [[Wealth managers basket]] for retail wealth AI disruption. Cross-sub-cluster correlation of 0.09 means a long-AIFD position is essentially long two unrelated 50% factor exposures.
+- Watch for re-correlation. If a future cross-sub-sector AI catalyst forces both halves to move together (e.g., a regulatory action affecting both), AIFD might reassemble as a meaningful cluster. Currently it does not.
+- Keep the AIFD note as the AI-disruption-event narrative parent. The two sub-cluster notes link back here as event lineage; this note retains the conceptual framework + thesis content.
 
 Cross-cluster correlation finding is also notable: insurance brokers (0.13 vs wealth managers, 0.13 vs alt managers, 0.22 vs ETFs) consistently shows the LOWEST correlations of any financial-services cohort tested. The +0.58 separation between insurance brokers and wealth managers is the cleanest within-financial-services separation found in the entire validation pass.
 

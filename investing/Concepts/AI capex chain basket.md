@@ -188,6 +188,72 @@ The first scenario (capex pause) is the most likely cluster-cohesion test in the
 
 ---
 
+## Cluster validation compliance addendum (2026-06-07)
+
+Generated from `scripts/cluster_configs/hyperscaler_suppliers.yaml` using `scripts/cluster_analysis.py` methodology. The 1Y diagnostic window is 2025-05-01 to 2026-04-30 (171 observations); the rolling history starts at `2020-01-01` where data are available.
+
+### Required validation plots
+
+![[hyperscaler-suppliers-cluster-correlation-1y.png]]
+
+*One-year correlation heatmap for the `Hyperscaler supplier chain` validation universe.*
+
+![[hyperscaler-suppliers-cluster-dendrogram-1y.png]]
+
+*Hierarchical clustering tree using average linkage on distance `1-|corr|`.*
+
+![[hyperscaler-suppliers-cluster-pca-1y.png]]
+
+*PCA diagnostic for the candidate cohort; PC1 explains 65.8% of standardized daily-return variance.*
+
+### PC1 index weights vs cluster topology
+
+The topology table answers which names join the tree first or last. The raw PC1-mimic table answers which raw-return weights best replicate the standardized common factor after realized-volatility scaling. These are deliberately different readings of the same cluster.
+
+| Step | Left | Right | Distance (1-\|corr\|) | Read |
+|---|---|---|---|---|
+| 1 | AMAT | LRCX | 0.142 | Tightest merge |
+| 2 | KLAC | AMAT+LRCX | 0.171 | Candidate cohort merge step |
+| 3 | ASML | KLAC+AMAT+LRCX | 0.244 | Candidate cohort merge step |
+| 4 | TSM | ASML+KLAC+AMAT+LRCX | 0.326 | Candidate cohort merge step |
+| 5 | NVDA | AVGO | 0.419 | Candidate cohort merge step |
+| 6 | TSM+ASML+KLAC+AMAT+LRCX | NVDA+AVGO | 0.478 | Candidate cohort merge step |
+| 7 | AMD | TSM+ASML+KLAC+AMAT+LRCX+NVDA+AVGO | 0.486 | Final cohort join / loosest boundary |
+
+| Ticker | PC1 loading | Normalized loading weight | Ann. vol | Raw PC1-mimic weight |
+|---|---|---|---|---|
+| NVDA | 0.315 | 11.21% | 35.16% | 14.27% |
+| AMD | 0.304 | 10.79% | 60.07% | 8.04% |
+| AVGO | 0.303 | 10.78% | 45.03% | 10.72% |
+| TSM | 0.376 | 13.35% | 36.57% | 16.35% |
+| ASML | 0.366 | 13.00% | 40.87% | 14.24% |
+| AMAT | 0.378 | 13.43% | 48.59% | 12.38% |
+| KLAC | 0.377 | 13.40% | 49.15% | 12.21% |
+| LRCX | 0.395 | 14.05% | 53.35% | 11.80% |
+
+Interpretation: use the dendrogram / join-distance topology to identify the tight core and later-joining members; use the Raw PC1-mimic weight column only for investable factor-replication sizing.
+
+### Historical tightness evolution
+
+![[hyperscaler-suppliers-cluster-rolling-tightness-90d.png]]
+
+*Ninety-day rolling tightness diagnostic: avg intra-correlation, PC1 share, core correlation, satellite-to-core correlation, and final candidate join distance.*
+
+| Year | Avg corr median | PC1 median | Core corr median | Satellite-to-core median | Final join distance median |
+|---|---|---|---|---|---|
+| 2021 | 0.685 | 72.9% | 0.702 | 0.637 | 0.414 |
+| 2022 | 0.767 | 79.8% | 0.773 | 0.740 | 0.308 |
+| 2023 | 0.779 | 81.0% | 0.785 | 0.752 | 0.312 |
+| 2024 | 0.671 | 71.7% | 0.682 | 0.640 | 0.415 |
+| 2025 | 0.735 | 77.0% | 0.746 | 0.699 | 0.316 |
+| 2026 | 0.628 | 68.1% | 0.648 | 0.565 | 0.474 |
+
+Latest 90D through 2026-04-30: avg corr 0.619, PC1 67.5%, core corr 0.646, satellite-to-core corr 0.540, final join distance 0.497.
+
+Historical verdict: structurally durable cluster; rolling cohesion has usually stayed in single-factor territory.
+
+---
+
 ## Related
 
 ### Member actors

@@ -4,9 +4,20 @@
 
 ---
 
+![[gaming-chart.png]]
+*Gaming exposure spans publishers, platforms, engines, and betting-linked names; the chart is an overview artifact rather than proof of one tight tradeable basket.*
+
+## Correlation structure
+
+| Metric | Value | Interpretation |
+|--------|-------|----------------|
+| Avg correlation | 0.00 | Industry overview rather than validated single sector |
+| Main split | Publishers / platforms / engines / betting | Business models differ enough that the hub should point to sub-baskets |
+| Tradeable expression | [[Watchlist]] | Use individual names or sub-sector notes, not the whole hub as one basket |
+
 ## Market overview
 
-| Segment | 2025 Size | Growth |
+| [[Segment]] | 2025 Size | Growth |
 |---------|-----------|--------|
 | Mobile | ~$90B | Largest segment |
 | Console | ~$55B | Stable |
@@ -20,12 +31,12 @@
 | Company | Key IP | Market cap |
 |---------|--------|------------|
 | [[Microsoft]] | Xbox, Activision, Bethesda | $3T+ |
-| [[Sony]] | PlayStation, first-party studios | ~$100B |
+| [[Sony]] | [[PlayStation]], first-party studios | ~$100B |
 | [[Nintendo]] | Mario, Zelda, Pokémon | ~$70B |
-| [[Tencent]] | Honor of Kings, investments | — |
+| [[Tencent]] | [[Honor]] of Kings, investments | — |
 | [[Take-Two]] | GTA, NBA 2K, Red Dead | ~$30B |
 | [[Electronic Arts]] | EA Sports FC, Madden, Apex | ~$40B |
-| [[Activision Blizzard]] | Call of Duty, Warcraft | Microsoft sub |
+| [[Activision Blizzard]] | [[Call of Duty]], Warcraft | Microsoft sub |
 | [[Ubisoft]] | Assassin's Creed, Far Cry | ~$3B |
 
 ---
@@ -34,10 +45,10 @@
 
 | Platform | Owner | Strategy |
 |----------|-------|----------|
-| PlayStation | [[Sony]] | Premium exclusives |
+| [[PlayStation]] | [[Sony]] | Premium exclusives |
 | Xbox | [[Microsoft]] | Game Pass subscription |
-| Switch | [[Nintendo]] | Hybrid innovation |
-| [[Steam platform\|Steam]] | [[Valve]] (private) | PC distribution + SteamOS hardware ecosystem |
+| [[Switch]] | [[Nintendo]] | Hybrid innovation |
+| [[Steam platform\|Steam]] | [[Valve]] (private) | PC distribution + [[SteamOS]] hardware ecosystem |
 | [[Epic Games]] Store | [[Epic Games]] (private) | Exclusives, free games |
 
 ---
@@ -56,17 +67,17 @@
 
 | Company | Key games |
 |---------|-----------|
-| [[Tencent]] | Honor of Kings |
+| [[Tencent]] | [[Honor]] of Kings |
 | [[Roblox]] | Roblox (platform) |
-| Supercell (Tencent) | Clash of Clans |
+| [[Supercell]] (Tencent) | Clash of Clans |
 | King ([[Activision Blizzard]]) | Candy Crush |
-| miHoYo | Genshin Impact |
+| [[miHoYo]] | Genshin Impact |
 
 ---
 
-## Sports betting / iGaming
+## [[Sports betting]] / iGaming
 
-See [[US Sports Betting and iGaming]] for full sector coverage.
+See [[Sports betting|US sports betting and iGaming]] for full sector coverage.
 
 | Company | Focus | Status |
 |---------|-------|--------|
@@ -83,8 +94,8 @@ See [[US Sports Betting and iGaming]] for full sector coverage.
 
 | Platform | Owner | Focus |
 |----------|-------|-------|
-| Twitch | [[Amazon]] | Live streaming |
-| YouTube Gaming | [[Google]] | VOD + live |
+| [[Twitch]] | [[Amazon]] | Live streaming |
+| [[YouTube]] Gaming | [[Google]] | VOD + live |
 | [[Discord]] | Private | Community |
 
 ---
@@ -109,7 +120,7 @@ See [[US Sports Betting and iGaming]] for full sector coverage.
 | Live service | Recurring revenue focus |
 | AI | NPC behavior, content generation |
 | Cloud gaming | Emerging but slow |
-| SteamOS hardware | [[Valve]] extending the PC library into handheld, living-room, and VR form factors |
+| [[SteamOS]] hardware | [[Valve]] extending the PC library into handheld, living-room, and VR form factors |
 
 ---
 
@@ -153,21 +164,21 @@ See [[US Sports Betting and iGaming]] for full sector coverage.
 
 ### Publishers
 - [[Microsoft]] — Xbox, Activision
-- [[Sony]] — PlayStation
-- [[Nintendo]] — Switch, first-party
+- [[Sony]] — [[PlayStation]]
+- [[Nintendo]] — [[Switch]], first-party
 - [[Take-Two]] — GTA, 2K Sports
 - [[Electronic Arts]] — EA Sports
 - [[Roblox]] — UGC platform
 - [[Epic Games]] — private creator-platform and engine company; [[HOF Capital]] portfolio reference
 
-### Infrastructure
+### [[Infrastructure]]
 - [[Unity Technologies]] — game engine
 - [[Unreal Engine]] — real-time 3D engine
 - [[Discord]] — community platform
-- [[Valve]] — Steam platform + SteamOS hardware ecosystem
+- [[Valve]] — Steam platform + [[SteamOS]] hardware ecosystem
 
-### Sports betting / iGaming
-- [[US Sports Betting and iGaming]] — full sector note
+### [[Sports betting]] / iGaming
+- [[Sports betting|US sports betting and iGaming]] — full sector note
 - [[DraftKings]] — sports betting
 - [[FanDuel]] — sports betting (#1)
 - [[Fanatics]] — sports + commerce platform

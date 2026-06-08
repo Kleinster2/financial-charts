@@ -90,17 +90,17 @@ Watch for:
 
 The ALTM basket was originally constructed from a single-event catalyst (Feb 2-5 2026 SaaSpocalypse Wave 1). Cluster validation tests whether the six names continue to behave as a structural cluster on a 1-year window, distinct from adjacent-sector controls. Script: `scripts/cluster_analysis.py --config scripts/cluster_configs/altm.yaml`. Full procedure in `docs/cluster-validation.md`.
 
-**Result: validated.** ALTM is a tighter cluster than the boutique advisory cohort — intra-corr 0.76 (vs 0.73 for boutique), PC1 80.1% explained variance (vs 77.5%). Hierarchical clustering at 0.4 threshold returns exactly the six basket names without prompting.
+Result: validated. ALTM is a tighter cluster than the boutique advisory cohort — intra-corr 0.76 (vs 0.73 for boutique), PC1 80.1% explained variance (vs 77.5%). Hierarchical clustering at 0.4 threshold returns exactly the six basket names without prompting.
 
 ### Headline numbers (1Y, 2025-04-30 to 2026-04-30)
 
 | Diagnostic | Result | Interpretation |
 |---|---|---|
-| Avg intra-cluster correlation | **0.761** (range 0.68-0.85) | Strong cohesion; tighter than boutique advisory |
+| Avg intra-cluster correlation | 0.761 (range 0.68-0.85) | Strong cohesion; tighter than boutique advisory |
 | Tightest pair | KKR-BX = 0.85 | The two largest publicly-listed alts trade as twins |
 | Loosest pair | APO-BAM = 0.68 | Still well above any inter-group benchmark |
 | Hierarchical clustering at 0.4 | All 6 merge in single cluster | Boundary confirmed — no extras pulled in, no candidates dropped |
-| PCA — PC1 explained variance | **80.1%** | Single dominant factor; equal-weighted basket = factor |
+| PCA — PC1 explained variance | 80.1% | Single dominant factor; equal-weighted basket = factor |
 | PC1 loadings | 0.39-0.42 (all positive) | Near-equal loading; no within-cluster outliers |
 
 ### Group-pair correlations (cluster vs neighbors)
@@ -123,26 +123,85 @@ The largest within-financials-complex separation is from bulge brackets (+0.31).
 
 | Cluster | Members |
 |---|---|
-| **Alt asset managers (ALTM)** | **ARES, KKR, OWL, BX, APO, BAM** |
+| Alt asset managers (ALTM) | ARES, KKR, OWL, BX, APO, BAM |
 | REIT proxies | XLRE, VNQ (correlation 0.99 with each other) |
 | Broad financials block | BLK, PWP, LAZ, EVR, MC, GS, MS, JPM, XLF, SPY |
 | Standalone | AON (insurance broker), TROW, BEN (traditional managers) |
 
 Two notable findings:
 
-- **BLK clusters with broad financials, not ALTM.** Despite being included in `trad_mgr` controls, BlackRock trades more with bulge brackets / XLF / SPY than with the alt managers. Confirms that BLK's passive/index-heavy mix and capital-light business model puts it in a different factor than the alt-manager originate-and-hold model.
-- **TROW and BEN are standalones** at the 0.4 threshold — neither clusters with BLK nor ALTM. Traditional active managers face their own structural pressure (passive flows, fee compression) and trade idiosyncratically.
+- BLK clusters with broad financials, not ALTM. Despite being included in `trad_mgr` controls, BlackRock trades more with bulge brackets / XLF / SPY than with the alt managers. Confirms that BLK's passive/index-heavy mix and capital-light business model puts it in a different factor than the alt-manager originate-and-hold model.
+- TROW and BEN are standalones at the 0.4 threshold — neither clusters with BLK nor ALTM. Traditional active managers face their own structural pressure (passive flows, fee compression) and trade idiosyncratically.
 
 ### PCA on the candidate cohort
 
-PC1 = **80.1%** of variance. PC2 = 5.8%. PC3 = 5.1%. The cohort is overwhelmingly single-factor — even more so than boutique advisory (77.5%). Loadings are tight (0.39-0.42, all positive), meaning the equal-weighted basket is essentially the factor itself. Pair-trading any one ALTM name vs the basket isolates ~20% idiosyncratic noise; trading the basket cleanly isolates the alt-manager systematic factor.
+PC1 = 80.1% of variance. PC2 = 5.8%. PC3 = 5.1%. The cohort is overwhelmingly single-factor — even more so than boutique advisory (77.5%). Loadings are tight (0.39-0.42, all positive), meaning the equal-weighted basket is essentially the factor itself. Pair-trading any one ALTM name vs the basket isolates ~20% idiosyncratic noise; trading the basket cleanly isolates the alt-manager systematic factor.
 
 ### Conclusions
 
-1. **ALTM is real, tight, and stable.** Original basket (constructed from a single event in Feb 2026) holds up as a structural cluster on a full year of post-construction data. PC1 80.1% is among the tightest single-factor cohorts in the vault.
-2. **Cluster contains exactly these six names**: ARES, KKR, OWL, BX, APO, BAM. BLK does not belong (passive-heavy mix). Bulge brackets are the most distant within-financials comparator (+0.31 advantage).
-3. **The cluster is tradable as a basket.** Equal-weighted ALTM ≈ PC1. Useful for: (a) long basket vs short XLF to isolate alt-manager factor (clean +0.20 spread), (b) event-driven setups when a single alt manager prints — read-through to others is high (avg 0.76 correlation), (c) AI-disruption stress tests — original Feb 3-5 catalyst pattern is mathematically replicable.
-4. **The +0.63 separation from insurance brokers** parallels the boutique advisory finding — both clusters are about deal-cycle / origination economics, not generic financial-services beta. AON-type fee businesses operate on a different factor entirely.
+1. ALTM is real, tight, and stable. Original basket (constructed from a single event in Feb 2026) holds up as a structural cluster on a full year of post-construction data. PC1 80.1% is among the tightest single-factor cohorts in the vault.
+2. Cluster contains exactly these six names: ARES, KKR, OWL, BX, APO, BAM. BLK does not belong (passive-heavy mix). Bulge brackets are the most distant within-financials comparator (+0.31 advantage).
+3. The cluster is tradable as a basket. Equal-weighted ALTM ≈ PC1. Useful for: (a) long basket vs short XLF to isolate alt-manager factor (clean +0.20 spread), (b) event-driven setups when a single alt manager prints — read-through to others is high (avg 0.76 correlation), (c) AI-disruption stress tests — original Feb 3-5 catalyst pattern is mathematically replicable.
+4. The +0.63 separation from insurance brokers parallels the boutique advisory finding — both clusters are about deal-cycle / origination economics, not generic financial-services beta. AON-type fee businesses operate on a different factor entirely.
+
+---
+
+## Cluster validation compliance addendum (2026-06-07)
+
+Generated from `scripts/cluster_configs/altm.yaml` using `scripts/cluster_analysis.py` methodology. The 1Y diagnostic window is 2025-05-01 to 2026-04-30 (171 observations); the rolling history starts at `2020-01-01` where data are available.
+
+### Required validation plots
+
+![[altm-cluster-correlation-1y.png]]
+
+*One-year correlation heatmap for the `Alternative asset managers basket (ALTM)` validation universe.*
+
+![[altm-cluster-dendrogram-1y.png]]
+
+*Hierarchical clustering tree using average linkage on distance `1-|corr|`.*
+
+![[altm-cluster-pca-1y.png]]
+
+*PCA diagnostic for the candidate cohort; PC1 explains 80.4% of standardized daily-return variance.*
+
+### PC1 index weights vs cluster topology
+
+The topology table answers which names join the tree first or last. The raw PC1-mimic table answers which raw-return weights best replicate the standardized common factor after realized-volatility scaling. These are deliberately different readings of the same cluster.
+
+| Step | Left | Right | Distance (1-\|corr\|) | Read |
+|---|---|---|---|---|
+| 1 | KKR | BX | 0.151 | Tightest merge |
+| 2 | ARES | KKR+BX | 0.176 | Candidate cohort merge step |
+| 3 | APO | ARES+KKR+BX | 0.209 | Candidate cohort merge step |
+| 4 | OWL | APO+ARES+KKR+BX | 0.250 | Candidate cohort merge step |
+| 5 | BAM | OWL+APO+ARES+KKR+BX | 0.282 | Final cohort join / loosest boundary |
+
+| Ticker | PC1 loading | Normalized loading weight | Ann. vol | Raw PC1-mimic weight |
+|---|---|---|---|---|
+| ARES | 0.419 | 17.13% | 46.33% | 14.57% |
+| KKR | 0.423 | 17.29% | 40.96% | 16.63% |
+| OWL | 0.397 | 16.22% | 47.56% | 13.44% |
+| BX | 0.416 | 17.00% | 36.74% | 18.22% |
+| APO | 0.405 | 16.54% | 38.21% | 17.05% |
+| BAM | 0.387 | 15.82% | 31.03% | 20.09% |
+
+Interpretation: use the dendrogram / join-distance topology to identify the tight core and later-joining members; use the Raw PC1-mimic weight column only for investable factor-replication sizing.
+
+### Historical tightness evolution
+
+![[altm-cluster-rolling-tightness-90d.png]]
+
+*Ninety-day rolling tightness diagnostic: avg intra-correlation, PC1 share, core correlation, satellite-to-core correlation, and final candidate join distance.*
+
+| Year | Avg corr median | PC1 median | Core corr median | Satellite-to-core median | Final join distance median |
+|---|---|---|---|---|---|
+| 2024 | 0.569 | 64.3% | 0.560 | 0.584 | 0.510 |
+| 2025 | 0.874 | 89.5% | 0.866 | 0.889 | 0.161 |
+| 2026 | 0.751 | 79.3% | 0.740 | 0.771 | 0.289 |
+
+Latest 90D through 2026-04-30: avg corr 0.778, PC1 81.5%, core corr 0.763, satellite-to-core corr 0.807, final join distance 0.264.
+
+Historical verdict: structurally durable cluster; rolling cohesion has usually stayed in single-factor territory.
 
 ---
 
