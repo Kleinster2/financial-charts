@@ -5,9 +5,16 @@ aliases: []
 
 # Alessandro Michele
 
-**Fashion designer** — creative director of [[Valentino]] since March 2024. Previously transformed [[Gucci]] (2015-2022) into a cultural phenomenon, driving 51% revenue growth in 2017. Known for maximalist, eclectic aesthetic blending vintage references with gender-fluid sensibility.
+Fashion designer — creative director of [[Valentino]] since March 2024. Previously transformed [[Gucci]] (2015-2022) into a cultural phenomenon, driving 51% revenue growth in 2017. Known for maximalist, eclectic aesthetic blending vintage references with gender-fluid sensibility.
 
 ---
+
+## Quick stats
+
+| Metric | Value |
+|--------|-------|
+| Type | Individual |
+| Primary context | Luxury, Fashion, Creative |
 
 ## Overview
 
@@ -36,29 +43,29 @@ aliases: []
 
 ## Gucci transformation (2015-2022)
 
-**The breakthrough:** In January 2015, CEO Marco Bizzarri gave Michele one week to reshape a menswear show. The result was so striking that Kering appointed him creative director two days later.
+The breakthrough: In January 2015, CEO Marco Bizzarri gave Michele one week to reshape a menswear show. The result was so striking that Kering appointed him creative director two days later.
 
-**Results:**
+Results:
 - Q1 2017: 51% revenue increase — strongest in 20 years
 - Transformed Gucci from stale heritage brand to cultural phenomenon
 - Defined "maximalist" aesthetic that influenced entire industry
 - Strong partnership with CEO Bizzarri gave him creative freedom
 
-**The fade:** By 2021-2022, growth slowed as the maximalist look saturated. Michele departed November 2022 after seven years.
+The fade: By 2021-2022, growth slowed as the maximalist look saturated. Michele departed November 2022 after seven years.
 
-**Legacy:** Revenue roughly tripled during his tenure. Proved that bold creative vision can drive commercial success at scale.
+Legacy: Revenue roughly tripled during his tenure. Proved that bold creative vision can drive commercial success at scale.
 
 ---
 
 ## Valentino (2024–)
 
-**Context:** Replacing Pierpaolo Piccioli (25 years at house) at a struggling brand. Revenue declining, ownership in limbo.
+Context: Replacing Pierpaolo Piccioli (25 years at house) at a struggling brand. Revenue declining, ownership in limbo.
 
-**Early output:**
+Early output:
 - Resort 2025 lookbook (Jun 2024): 132 looks blending menswear/womenswear with Valentino archives
 - SS25 runway "Pavillon des Folies" (Sep 2024): 85 looks, eclectic maximalism, 1960s-80s references
 
-**The question:** Can Michele reinvent without repeating? His aesthetic is the opposite of Valentino Garavani's refined restraint. The brand needs commercial results, not just critical acclaim.
+The question: Can Michele reinvent without repeating? His aesthetic is the opposite of Valentino Garavani's refined restraint. The brand needs commercial results, not just critical acclaim.
 
 ---
 
@@ -66,9 +73,9 @@ aliases: []
 
 Describes himself as an "art archaeologist" rather than creative director — clothes need historical context.
 
-**Influences:** Cinema, theater, post-punk, glamour, vintage
+Influences: Cinema, theater, post-punk, glamour, vintage
 
-**Signature:** Gender-fluid silhouettes, jewel tones, layering, mixing high/low references, romantic maximalism
+Signature: Gender-fluid silhouettes, jewel tones, layering, mixing high/low references, romantic maximalism
 
 ---
 

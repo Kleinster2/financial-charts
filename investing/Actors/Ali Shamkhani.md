@@ -1,6 +1,11 @@
+---
+aliases: ["Ali Shamkhani"]
+tags: [actor, iran, individual, sanctioned, irgc]
+---
+
 #actor #iran #individual #sanctioned #irgc
 
-**Ali Shamkhani** — Former IRGC naval commander, Defense Minister, and Secretary of Iran's Supreme National Security Council (2013-2023). Currently advises Supreme Leader [[Ali Khamenei]]. US-sanctioned (2020). Father of oil trader [[Hossein Shamkhani]] ("Hector").
+Ali Shamkhani — Former IRGC naval commander, Defense Minister, and Secretary of Iran's Supreme National Security Council (2013-2023). Currently advises Supreme Leader [[Ali Khamenei]]. US-sanctioned (2020). Father of oil trader [[Hossein Shamkhani]] ("Hector").
 
 ---
 
@@ -41,7 +46,7 @@ Iran's top security body. Key role in:
 - Saudi Arabia rapprochement (2023)
 - UAE relations
 
-**2023 replacement:** Removed as secretary, but retained on advisory council to Supreme Leader.
+2023 replacement: Removed as secretary, but retained on advisory council to Supreme Leader.
 
 ---
 
@@ -78,17 +83,17 @@ Shamkhani was Iran's representative in Beijing-brokered deal to restore relation
 | 2022 turnover | ~$15B |
 | Operations | Iranian, Russian oil via Dubai |
 
-**Father's position:** Denies involvement in son's business. Told TV in 2008 he advised son to enter private sector rather than government.
+Father's position: Denies involvement in son's business. Told TV in 2008 he advised son to enter private sector rather than government.
 
 ---
 
 ## Why he matters
 
-1. **Security establishment:** Decades at top of IRGC and security apparatus
-2. **Current access:** Still advises Supreme Leader
-3. **Regional diplomacy:** Key figure in Saudi rapprochement
-4. **Family connection:** Son's oil network benefits from political cover
-5. **Sanctions target:** US-designated since 2020
+1. Security establishment: Decades at top of IRGC and security apparatus
+2. Current access: Still advises Supreme Leader
+3. Regional diplomacy: Key figure in Saudi rapprochement
+4. Family connection: Son's oil network benefits from political cover
+5. Sanctions target: US-designated since 2020
 
 ---
 

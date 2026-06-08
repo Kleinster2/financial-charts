@@ -5,9 +5,16 @@ aliases: [ADS, Adidas AG]
 
 # Adidas
 
-**Global sportswear giant** — in remarkable turnaround under CEO Bjørn Gulden (from Jan 2023). Revenue €23.7B (+12% CC, 2024), operating profit surged from €268M to €1.34B. Stock more than doubled since Yeezy exit. Retro sneaker revival (Samba, Gazelle) drove cultural relevance. Taking share from [[Nike]] globally. Targeting 10% operating margins in 2025.
+Global sportswear giant — in remarkable turnaround under CEO Bjørn Gulden (from Jan 2023). Revenue €23.7B (+12% CC, 2024), operating profit surged from €268M to €1.34B. Stock more than doubled since Yeezy exit. Retro sneaker revival (Samba, Gazelle) drove cultural relevance. Taking share from [[Nike]] globally. Targeting 10% operating margins in 2025.
 
 ---
+
+## Quick stats
+
+| Metric | Value |
+|--------|-------|
+| Type | Public company |
+| Primary context | Fashion, Athletic, Germany |
 
 ## Overview
 
@@ -45,9 +52,9 @@ aliases: [ADS, Adidas AG]
 
 ## The Gulden turnaround
 
-**The crisis (2022):** Adidas terminated Ye (Kanye West) partnership → €1.2B Yeezy revenue gone overnight. Stock collapsed. Operating loss of €700M.
+The crisis (2022): Adidas terminated Ye (Kanye West) partnership → €1.2B Yeezy revenue gone overnight. Stock collapsed. Operating loss of €700M.
 
-**Gulden's playbook (2023-2025):**
+Gulden's playbook (2023-2025):
 
 | Action | Result |
 |--------|--------|
@@ -64,12 +71,12 @@ aliases: [ADS, Adidas AG]
 
 | Model | Status |
 |-------|--------|
-| **Samba** | \#1 sneaker globally (2024) |
-| **Gazelle** | Fashion staple |
-| **Campus** | Growing fast |
-| **Spezial** | Collector/enthusiast |
+| Samba | \#1 sneaker globally (2024) |
+| Gazelle | Fashion staple |
+| Campus | Growing fast |
+| Spezial | Collector/enthusiast |
 
-**Risk:** Fashion cycles. Sambas/Gazelles can't stay on-trend forever. Adidas is managing this by controlling supply and spacing new colorways — but the clock is ticking.
+Risk: Fashion cycles. Sambas/Gazelles can't stay on-trend forever. Adidas is managing this by controlling supply and spacing new colorways — but the clock is ticking.
 
 ---
 
@@ -81,7 +88,7 @@ aliases: [ADS, Adidas AG]
 | Greater [[China]] | +10.3% | Recovery |
 | [[Japan]]/Korea | +10.1% | Strong |
 | [[Emerging markets]] | +19.4% | Excellent |
-| **North America** | **-1.6%** | Weakest (improving to double-digit growth by year-end) |
+| North America | -1.6% | Weakest (improving to double-digit growth by year-end) |
 
 ---
 
@@ -96,7 +103,7 @@ aliases: [ADS, Adidas AG]
 | Margin | 5.6% (recovering) | Higher but declining |
 | Stock (2024) | +16% | -27% |
 
-**Roles reversed:** For the first time in a decade, Adidas has cultural momentum and Nike doesn't. But Nike is 2x the size — even a partial recovery dwarfs Adidas.
+Roles reversed: For the first time in a decade, Adidas has cultural momentum and Nike doesn't. But Nike is 2x the size — even a partial recovery dwarfs Adidas.
 
 ---
 
@@ -113,7 +120,7 @@ aliases: [ADS, Adidas AG]
 
 ## Investment case
 
-**Bull:**
+Bull:
 - Turnaround ahead of schedule (operating profit 5x in 2 years)
 - Samba/Gazelle driving brand heat
 - Operating margin trajectory → 10%+
@@ -121,7 +128,7 @@ aliases: [ADS, Adidas AG]
 - Gulden is a proven operator (ex-Puma CEO)
 - [[China]] recovering (+10%)
 
-**Bear:**
+Bear:
 - Retro sneaker cycle will fade (fashion risk)
 - North America still weak (-1.6%)
 - Valuation rich (~30x forward earnings)

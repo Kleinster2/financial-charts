@@ -3,9 +3,16 @@ aliases: [AU, OAU]
 ---
 #actor #bloc #africa #institution
 
-**African Union** — Continental organization of 55 African states. Political union, not economic (that's [[AfCFTA]]). Peacekeeping, governance, integration.
+African Union — Continental organization of 55 African states. Political union, not economic (that's [[AfCFTA]]). Peacekeeping, governance, integration.
 
 ---
+
+## Quick stats
+
+| Metric | Value |
+|--------|-------|
+| Type | Institution / bloc |
+| Primary context | Bloc, Africa, Institution |
 
 ## Overview
 
@@ -24,12 +31,12 @@ aliases: [AU, OAU]
 
 | Body | Function |
 |------|----------|
-| **Assembly** | Heads of state, supreme body |
-| **Commission** | Executive, day-to-day |
-| **Pan-African Parliament** | Advisory legislature |
-| **Peace and Security Council** | Conflict resolution |
-| **ECOSOCC** | Civil society |
-| **African Court** | Human rights |
+| Assembly | Heads of state, supreme body |
+| Commission | Executive, day-to-day |
+| Pan-African Parliament | Advisory legislature |
+| Peace and Security Council | Conflict resolution |
+| ECOSOCC | Civil society |
+| African Court | Human rights |
 
 ---
 
@@ -37,13 +44,13 @@ aliases: [AU, OAU]
 
 | Country | GDP | Key sectors |
 |---------|-----|-------------|
-| **Nigeria** | $450B | [[Oil]], services |
-| **South [[Africa]]** | $400B | Mining, finance |
-| **Egypt** | $400B | Services, Suez |
-| **Algeria** | $190B | [[Oil]]/gas |
-| **Ethiopia** | $120B | [[Agriculture]], growth |
-| **[[Kenya]]** | $110B | Services, tech hub |
-| **Morocco** | $140B | Manufacturing, phosphates |
+| Nigeria | $450B | [[Oil]], services |
+| South [[Africa]] | $400B | Mining, finance |
+| Egypt | $400B | Services, Suez |
+| Algeria | $190B | [[Oil]]/gas |
+| Ethiopia | $120B | [[Agriculture]], growth |
+| [[Kenya]] | $110B | Services, tech hub |
+| Morocco | $140B | Manufacturing, phosphates |
 
 ---
 
@@ -51,14 +58,14 @@ aliases: [AU, OAU]
 
 | REC | Members | Focus |
 |-----|---------|-------|
-| **ECOWAS** | 15 (West) | Nigeria, Ghana, Côte d'Ivoire |
-| **SADC** | 16 (Southern) | South [[Africa]], Zimbabwe |
-| **EAC** | 7 (East) | [[Kenya]], Tanzania, Uganda |
-| **COMESA** | 21 (East/Southern) | Egypt, [[Kenya]] |
-| **ECCAS** | 11 (Central) | DRC, Cameroon |
-| **AMU** | 5 (North/Maghreb) | Morocco, Algeria (inactive) |
-| **IGAD** | 8 (Horn) | Ethiopia, Somalia |
-| **CEN-SAD** | 29 (Sahel-Sahara) | Libya-led (inactive) |
+| ECOWAS | 15 (West) | Nigeria, Ghana, Côte d'Ivoire |
+| SADC | 16 (Southern) | South [[Africa]], Zimbabwe |
+| EAC | 7 (East) | [[Kenya]], Tanzania, Uganda |
+| COMESA | 21 (East/Southern) | Egypt, [[Kenya]] |
+| ECCAS | 11 (Central) | DRC, Cameroon |
+| AMU | 5 (North/Maghreb) | Morocco, Algeria (inactive) |
+| IGAD | 8 (Horn) | Ethiopia, Somalia |
+| CEN-SAD | 29 (Sahel-Sahara) | Libya-led (inactive) |
 
 RECs = building blocks for continental integration.
 
@@ -88,7 +95,7 @@ AfCFTA is trade arm of AU integration vision.
 | Human capital | Education, health |
 | Culture | Pan-African identity |
 
-**"The [[Africa]] We Want"** — 50-year development vision.
+"The [[Africa]] We Want" — 50-year development vision.
 
 ---
 
@@ -135,12 +142,12 @@ AfCFTA is trade arm of AU integration vision.
 
 | Country | Theme |
 |---------|-------|
-| **Nigeria** | [[Oil]], fintech, population |
-| **South [[Africa]]** | Mining, finance |
-| **Egypt** | Suez, reforms |
-| **[[Kenya]]** | Tech hub, M-Pesa |
-| **Morocco** | Manufacturing, auto |
-| **Ethiopia** | Growth (if stable) |
+| Nigeria | [[Oil]], fintech, population |
+| South [[Africa]] | Mining, finance |
+| Egypt | Suez, reforms |
+| [[Kenya]] | Tech hub, M-Pesa |
+| Morocco | Manufacturing, auto |
+| Ethiopia | Growth (if stable) |
 
 ---
 
@@ -152,7 +159,7 @@ AfCFTA is trade arm of AU integration vision.
 | External partners | [[EU]], [[China]], US |
 | Self-financing | 0.2% import levy (some) |
 
-**Dependency:** External funding for much of budget.
+Dependency: External funding for much of budget.
 
 ---
 

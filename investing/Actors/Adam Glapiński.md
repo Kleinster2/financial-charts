@@ -1,8 +1,13 @@
+---
+aliases: ["Adam Glapiński"]
+tags: [actor, person, macro, poland]
+---
+
 # Adam Glapiński
 
 #actor #person #macro #poland
 
-**Adam Glapiński** — President of [[NBP|Narodowy Bank Polski]] (NBP) since 2016, professor, and vocal defender of Polish monetary independence. Led NBP's aggressive inflation response in 2021-2022, raising rates 9 months before the ECB. Author of the Nov 2025 report "The Polish Zloty and the Independence of NBP."
+Adam Glapiński — President of [[NBP|Narodowy Bank Polski]] (NBP) since 2016, professor, and vocal defender of Polish monetary independence. Led NBP's aggressive inflation response in 2021-2022, raising rates 9 months before the ECB. Author of the Nov 2025 report "The Polish Zloty and the Independence of NBP."
 
 ---
 
@@ -25,18 +30,18 @@
 | Metric | Poland (NBP) | Eurozone (ECB) |
 |--------|--------------|----------------|
 | First rate hike | Oct 2021 | Jul 2022 |
-| Lead time | **9 months ahead** | — |
+| Lead time | 9 months ahead | — |
 | Rate increase | +665bp (0.1% → 6.75%) | +450bp (0% → 4.5%) |
 | Peak inflation | 18.4% (Feb 2023) | 10.6% (Oct 2022) |
 | Inflation result | 2.8% (Feb 2024) | 2.4% (Feb 2024) |
 
-**Key insight:** NBP moved faster and harder than ECB, achieving comparable disinflation while Poland's economy outperformed the eurozone.
+Key insight: NBP moved faster and harder than ECB, achieving comparable disinflation while Poland's economy outperformed the eurozone.
 
 ### Poland vs eurozone outcomes (mid-2025)
 
 | Metric | Poland | Germany | EA-12 |
 |--------|--------|---------|-------|
-| GDP vs pre-pandemic | **+16%** | ~0% | ~+3% |
+| GDP vs pre-pandemic | +16% | ~0% | ~+3% |
 | Unemployment | Among lowest in EU | Rising | Mixed |
 | Inflation | ~2.5% (near target) | ~2% | ~2% |
 
@@ -48,10 +53,10 @@
 
 Glapiński argues Poland should retain the zloty because:
 
-1. **Independent rate-setting:** Polish economy differs from eurozone — faster growth requires different rates
-2. **Floating exchange rate:** Absorbs shocks through currency adjustment rather than unemployment/GDP
-3. **Euro area is not optimal currency area:** Limited labor mobility, no fiscal federalism, asymmetric shocks
-4. **Case study evidence:** Spain unemployment spiked to 25%, Baltic GDP fell 14-16% in 2009 — couldn't devalue
+1. Independent rate-setting: Polish economy differs from eurozone — faster growth requires different rates
+2. Floating exchange rate: Absorbs shocks through currency adjustment rather than unemployment/GDP
+3. Euro area is not optimal currency area: Limited labor mobility, no fiscal federalism, asymmetric shocks
+4. Case study evidence: Spain unemployment spiked to 25%, Baltic GDP fell 14-16% in 2009 — couldn't devalue
 
 From Nov 2025 report:
 > "For the Polish economy, the adoption of the euro would mean a significant increase in the risk of macroeconomic imbalance and a permanent slowdown in economic growth."

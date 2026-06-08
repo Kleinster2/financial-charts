@@ -59,3 +59,9 @@ The 24 remaining warnings are backlog by design: correlation-structure warnings 
 2. Private actor depth debt: cap table and funding-round table passes by private-capital cluster.
 3. Universal structure: missing frontmatter and missing Quick stats.
 4. Mechanical formatting: extra bold spans, only in scoped batches so the daily-note inventory stays readable.
+
+## Progress log
+
+### 2026-06-08 actor structure batch A
+
+Cleared the first bounded alphabetical actor-shape batch: 25 `Actors/` files, 12 new frontmatter blocks, 16 inserted `## Quick stats` sections, 3 heading-normalizations from `## Quick Stats` to `## Quick stats`, and 290 bold spans stripped inside the same touched set. The targeted structure assertion is clean for all 25 files. Full actor compliance still shows old public-company chart/securities/financials and private-company cap-table/funding debt on some touched names; that debt remains assigned to the cohort passes above.

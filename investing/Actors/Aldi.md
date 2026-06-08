@@ -1,8 +1,20 @@
+---
+aliases: ["Aldi"]
+tags: [actor, retail, grocery, germany, private]
+---
+
 #actor #retail #grocery #germany #private
 
-**Aldi** — German discount grocery chain. **$29B US sales (2024)**, larger than Trader Joe's. Plans 3,000+ US stores by 2028 (second only to Walmart). Private company owned by Albrecht family heirs. Known for 90%+ private-label products, no-frills stores, and fanatical customer base.
+Aldi — German discount grocery chain. $29B US sales (2024), larger than Trader Joe's. Plans 3,000+ US stores by 2028 (second only to Walmart). Private company owned by Albrecht family heirs. Known for 90%+ private-label products, no-frills stores, and fanatical customer base.
 
 ---
+
+## Quick stats
+
+| Metric | Value |
+|--------|-------|
+| Type | Private company |
+| Primary context | Retail, Grocery, Germany |
 
 ## Key facts
 
@@ -35,10 +47,10 @@ The brothers had different management styles and split the company:
 
 | Entity | Founder | Territory | Key asset |
 |--------|---------|-----------|-----------|
-| **Aldi Süd** | Karl Albrecht | Southern [[Germany]] | "Aldi" brand in US, [[UK]], [[Australia]], [[China]] |
-| **Aldi Nord** | Theo Albrecht | Northern [[Germany]] | [[Trader Joe's]] (acquired 1979) |
+| Aldi Süd | Karl Albrecht | Southern [[Germany]] | "Aldi" brand in US, [[UK]], [[Australia]], [[China]] |
+| Aldi Nord | Theo Albrecht | Northern [[Germany]] | [[Trader Joe's]] (acquired 1979) |
 
-**Important:** Aldi and Trader Joe's share lineage but are separately owned by different branches of the Albrecht family.
+Important: Aldi and Trader Joe's share lineage but are separately owned by different branches of the Albrecht family.
 
 ### US expansion
 
@@ -60,11 +72,11 @@ The brothers had different management styles and split the company:
 
 | Principle | Implementation |
 |-----------|----------------|
-| **Limited selection** | One type of rice, one type of beans — fewer SKUs = lower costs |
-| **Private-label dominance** | 90%+ store brands — no advertising/marketing costs |
-| **No frills** | No music, no decor, products in shipping boxes |
-| **Customer labor** | Quarter deposit for carts, bag your own groceries |
-| **Efficient workforce** | Fewer workers, paid 18% above retail average, measured on speed |
+| Limited selection | One type of rice, one type of beans — fewer SKUs = lower costs |
+| Private-label dominance | 90%+ store brands — no advertising/marketing costs |
+| No frills | No music, no decor, products in shipping boxes |
+| Customer labor | Quarter deposit for carts, bag your own groceries |
+| Efficient workforce | Fewer workers, paid 18% above retail average, measured on speed |
 
 ### The "Aisle of Shame"
 
@@ -95,7 +107,7 @@ Fans post finds on [[Reddit]] (r/aldi) and Facebook groups (4M+ members).
 | [[Walmart]] | ~$450B (grocery) | \#1 by far |
 | Kroger | ~$150B | Traditional supermarket |
 | [[Costco]] | ~$100B (grocery) | Membership/bulk |
-| **Aldi** | **$29B** | Fastest-growing by store count |
+| Aldi | $29B | Fastest-growing by store count |
 | [[Trader Joe's]] | ~$20B | Sister company (Aldi Nord) |
 | Lidl (US) | ~$3B | Struggling in US |
 
@@ -105,14 +117,14 @@ Fans post finds on [[Reddit]] (r/aldi) and Facebook groups (4M+ members).
 |-------|--------|---------|
 | Kroger | 1.0B | 1.1x |
 | Publix | 1.0B | 1.1x |
-| **Aldi** | **924M** | — |
+| Aldi | 924M | — |
 | Safeway | 821M | 0.9x |
 | H-E-B | 663M | 0.7x |
 | [[Trader Joe's]] | 387M | 0.4x |
 | Whole Foods | 339M | 0.4x |
 | Lidl | 63M | 0.07x |
 
-**Key insight:** Aldi draws 2.4x the foot traffic of sister chain Trader Joe's despite similar private-label model. Lidl's 63M visits confirms its US struggle — 15x less traffic than Aldi.
+Key insight: Aldi draws 2.4x the foot traffic of sister chain Trader Joe's despite similar private-label model. Lidl's 63M visits confirms its US struggle — 15x less traffic than Aldi.
 
 *Source: Bloomberg Businessweek (Jan 2026)*
 
@@ -150,7 +162,7 @@ Fans post finds on [[Reddit]] (r/aldi) and Facebook groups (4M+ members).
 
 ### Corporate structure
 
-- Aldi Süd now **3x size of Aldi Nord**
+- Aldi Süd now 3x size of Aldi Nord
 - Merger talks complicated by size disparity
 - Nord heirs unlikely to accept minority stake
 - Joint online store (2021) shut down Sept 2025 — couldn't compete with [[Amazon]]
@@ -203,7 +215,7 @@ Both brothers died (Karl 2014, Theo 2010). Next generation manages companies.
 
 ## Investment relevance
 
-**Not directly investable** (private), but impacts:
+Not directly investable (private), but impacts:
 
 | Company | Ticker | Impact |
 |---------|--------|--------|
@@ -214,7 +226,7 @@ Both brothers died (Karl 2014, Theo 2010). Next generation manages companies.
 | [[Mondelez]] | MDLZ | Lawsuit over Oreo knockoffs |
 | [[Costco]] | COST | Different model but overlapping customers |
 
-**Thesis implications:**
+Thesis implications:
 - Aldi's growth = pressure on traditional grocery margins
 - Private-label trend benefits Aldi model
 - If Aldi stumbles in US, benefits incumbents

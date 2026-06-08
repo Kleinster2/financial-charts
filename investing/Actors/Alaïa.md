@@ -1,12 +1,24 @@
+---
+aliases: ["Alaïa"]
+tags: [actor]
+---
+
 # Alaïa
 
 French fashion house with couture DNA. Known for sculptural, body-conscious designs. Part of [[Richemont]].
 
+## Quick stats
+
+| Metric | Value |
+|--------|-------|
+| Type | Actor |
+| Primary context | See note body |
+
 ## Business
 
-- **Founded:** 1964 by Azzedine Alaïa
-- **Owner:** [[Richemont]] (since 2007; previously Prada Group 2000-2007)
-- **Positioning:** Couture sensibility, timeless femininity
+- Founded: 1964 by Azzedine Alaïa
+- Owner: [[Richemont]] (since 2007; previously Prada Group 2000-2007)
+- Positioning: Couture sensibility, timeless femininity
 
 ## Creative Direction
 

@@ -17,8 +17,7 @@ The ABA's membership spans the full spectrum of US banking: community banks, reg
 
 The ABA reported that the US banking industry held $205B in farm loans (~38% of total farm lending) at end of 2024, making the agricultural lending reform push economically significant. The FCS, which benefits from tax-exempt status and implicit government backing, competes directly with commercial banks for farm loans — a competitive advantage the ABA argues is outdated and distortive. Beyond agriculture, the ABA is a central actor in every major banking regulation debate: it lobbied against the initial Basel III endgame proposal, pushed for fintech regulatory clarity, and advocates for bank-favorable consumer protection rules. Its annual lobbying spend consistently ranks among the top financial services trade groups.
 
-## Quick Stats
-
+## Quick stats
 | Attribute | Value |
 |-----------|-------|
 | Type | Trade association |

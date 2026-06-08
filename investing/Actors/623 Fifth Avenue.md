@@ -5,9 +5,16 @@ aliases: [Swiss Bank Tower, Saks Tower]
 
 # 623 Fifth Avenue
 
-**The tower behind Saks** — 36-story office building constructed in 1990 behind the [[611 Fifth Avenue]] Saks flagship, using air rights from the 1924 store. Separate ownership from the Saks retail building.
+The tower behind Saks — 36-story office building constructed in 1990 behind the [[611 Fifth Avenue]] Saks flagship, using air rights from the 1924 store. Separate ownership from the Saks retail building.
 
 ---
+
+## Quick stats
+
+| Metric | Value |
+|--------|-------|
+| Type | Real-estate asset |
+| Primary context | Building, Realestate, Nyc |
 
 ## Building details
 
@@ -31,10 +38,10 @@ When Investcorp acquired Saks in 1990, they monetized the flagship's unused deve
 
 | Component | What happened |
 |-----------|---------------|
-| **Air rights** | Sold to tower developer |
-| **Tower** | 36-story office building built behind store |
-| **Saks space** | Retained ~80,000 sq ft in tower for retail expansion |
-| **Separate ownership** | Tower and store became distinct assets |
+| Air rights | Sold to tower developer |
+| Tower | 36-story office building built behind store |
+| Saks space | Retained ~80,000 sq ft in tower for retail expansion |
+| Separate ownership | Tower and store became distinct assets |
 
 This created the unusual situation where the Saks flagship ([[611 Fifth Avenue]]) and the tower behind it ([[623 Fifth Avenue]]) have different owners.
 
@@ -59,7 +66,7 @@ This created the unusual situation where the Saks flagship ([[611 Fifth Avenue]]
 | Seller | [[Cohen Brothers Realty]] |
 | Context | [[Fifth Avenue luxury corridor]] recovery |
 
-**Strategic fit:** Vornado already owns significant Fifth Avenue real estate, including retail at 640 Fifth Avenue. This acquisition consolidates their corridor presence.
+Strategic fit: Vornado already owns significant Fifth Avenue real estate, including retail at 640 Fifth Avenue. This acquisition consolidates their corridor presence.
 
 ---
 
@@ -70,7 +77,7 @@ This created the unusual situation where the Saks flagship ([[611 Fifth Avenue]]
 | [[611 Fifth Avenue]] (1924 store) | [[Saks Global]] / HBC | Retail flagship |
 | [[623 Fifth Avenue]] (1990 tower) | [[Cohen Brothers Realty]] → [[Vornado Realty Trust]] | Office + Saks overflow |
 
-**The complication:** While Saks occupies ~80,000 sq ft in the tower, they don't own it. The tower sale to Vornado doesn't affect Saks's lease position but does change their landlord for that portion of their space.
+The complication: While Saks occupies ~80,000 sq ft in the tower, they don't own it. The tower sale to Vornado doesn't affect Saks's lease position but does change their landlord for that portion of their space.
 
 ---
 

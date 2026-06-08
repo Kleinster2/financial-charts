@@ -3,9 +3,16 @@ aliases: [AI.PA]
 ---
 #actor #semiconductor #materials #france #public
 
-**Air Liquide** — French industrial gas giant. Self-described "leading global and European supplier to the semiconductor industry." €2.5B electronics revenue (2024).
+Air Liquide — French industrial gas giant. Self-described "leading global and European supplier to the semiconductor industry." €2.5B electronics revenue (2024).
 
 ---
+
+## Quick stats
+
+| Metric | Value |
+|--------|-------|
+| Type | Public company |
+| Primary context | Semiconductor, Materials, France |
 
 ## Why Air Liquide matters
 
@@ -25,10 +32,10 @@ Largest European semiconductor gas supplier, expanding aggressively:
 
 | Segment | Products |
 |---------|----------|
-| **Carrier gases** | Ultra-pure N2, Ar, He, H2 |
-| **Specialty gases** | Etch, deposition, doping |
-| **Advanced materials** | Precursors for ALD/CVD |
-| **Equipment** | On-site gas generation |
+| Carrier gases | Ultra-pure N2, Ar, He, H2 |
+| Specialty gases | Etch, deposition, doping |
+| Advanced materials | Precursors for ALD/CVD |
+| Equipment | On-site gas generation |
 
 ---
 
@@ -40,22 +47,22 @@ Largest European semiconductor gas supplier, expanding aggressively:
 |---------|----------|-------|
 | Linde | Top tier | Merged with Praxair |
 | Air Products | Top tier | US leader |
-| **Air Liquide** | Top tier | [[Europe]] leader |
+| Air Liquide | Top tier | [[Europe]] leader |
 | [[Taiyo Nippon Sanso]] | Top tier | [[Japan]] leader |
 
-**Top 3-4 = 35%+ of specialty gas market.**
+Top 3-4 = 35%+ of specialty gas market.
 
 ---
 
 ## European semiconductor expansion
 
-**€250M+ investment (2025):**
+€250M+ investment (2025):
 - Largest-ever electronics investment in [[Europe]]
 - Dresden "Silicon Saxony" facility
 - Long-term contract with major fab (likely Intel/TSMC)
 - On-site high-purity gas production
 
-**Strategic rationale:**
+Strategic rationale:
 - European Chips Act driving fab investment
 - Intel, TSMC, [[Infineon]] expanding in [[Europe]]
 - Local supply = strategic value
@@ -75,9 +82,9 @@ Largest European semiconductor gas supplier, expanding aggressively:
 ## Why on-site supply matters
 
 Large fabs need massive gas volumes:
-- **[[Transport]] risk:** Ultra-pure gases degrade
-- **Security of supply:** Fab downtime = $M/hour
-- **Economics:** On-site production cheaper at scale
+- [[Transport]] risk: Ultra-pure gases degrade
+- Security of supply: Fab downtime = $M/hour
+- Economics: On-site production cheaper at scale
 
 Air Liquide builds gas plants inside or adjacent to fabs.
 
@@ -85,14 +92,14 @@ Air Liquide builds gas plants inside or adjacent to fabs.
 
 ## Investment case
 
-**Bull:**
+Bull:
 - European Chips Act tailwind
 - Diversified industrial gas base
 - On-site model = sticky customers
 - Semiconductor growing faster than base
 - [[ESG]] focus (low-GWP gases)
 
-**Bear:**
+Bear:
 - Semiconductor = small % of total
 - Competition from Linde, Air Products
 - [[Europe]] energy costs

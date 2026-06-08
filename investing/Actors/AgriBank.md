@@ -7,8 +7,7 @@ aliases: [AgriBank FCB]
 
 One of four funding banks in the [[Farm Credit System]]. Serves the Upper Midwest district, funding 11 affiliated associations. Largest farm real estate portfolio in the FCS.
 
-## Quick Stats
-
+## Quick stats
 | Attribute | Value |
 |-----------|-------|
 | Type | Farm Credit Bank |

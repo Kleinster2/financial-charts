@@ -3,17 +3,24 @@ aliases: [AGNC Investment, AGNC Investment Corp]
 ---
 #actor #finance #reit #mortgage #usa #public
 
-**AGNC Investment** — Pure-play Agency MBS mortgage REIT. Monthly dividends, ~14% yield. Higher leverage than [[Annaly Capital]]. NASDAQ: AGNC.
+AGNC Investment — Pure-play Agency MBS mortgage REIT. Monthly dividends, ~14% yield. Higher leverage than [[Annaly Capital]]. NASDAQ: AGNC.
 
 ---
+
+## Quick stats
+
+| Metric | Value |
+|--------|-------|
+| Type | Public REIT |
+| Primary context | Finance, Reit, Mortgage, Usa |
 
 ## Why it matters
 
 | Metric | Value |
 |--------|-------|
 | Ticker | AGNC |
-| Dividend yield | **~14%** |
-| Dividend frequency | **Monthly** |
+| Dividend yield | ~14% |
+| Dividend frequency | Monthly |
 | Strategy | Pure Agency MBS |
 | Leverage | 7.2–7.5x |
 
@@ -21,10 +28,10 @@ aliases: [AGNC Investment, AGNC Investment Corp]
 
 ## Business model
 
-**Pure Agency focus:**
+Pure Agency focus:
 - Invests exclusively in Agency residential MBS
 - Guaranteed by Fannie Mae, Freddie Mac, Ginnie Mae
-- **No credit risk** — only interest rate risk
+- No credit risk — only interest rate risk
 - Leveraged through repo market
 
 | Advantage | Detail |
@@ -45,12 +52,12 @@ aliases: [AGNC Investment, AGNC Investment Corp]
 
 | Metric | Value |
 |--------|-------|
-| Monthly dividend | **$0.12/share** |
+| Monthly dividend | $0.12/share |
 | Annualized | $1.44/share |
 | Yield | ~14% |
 | Stable since | April 2020 |
 
-**Warning:** AGNC has reduced dividends several times over past decade. mREIT dividends are volatile.
+Warning: AGNC has reduced dividends several times over past decade. mREIT dividends are volatile.
 
 ---
 
@@ -63,7 +70,7 @@ aliases: [AGNC Investment, AGNC Investment Corp]
 | Payout ratio (2025E) | <90% |
 | Liquidity (Sep 2025) | $7.2B |
 
-**Liquidity increased** from $6.4B prior quarter — supports dividend sustainability.
+Liquidity increased from $6.4B prior quarter — supports dividend sustainability.
 
 ---
 
@@ -78,13 +85,13 @@ aliases: [AGNC Investment, AGNC Investment Corp]
 | Credit risk | None | Some |
 | Rate sensitivity | Higher | Lower (MSR hedge) |
 
-**AGNC trade-off:** Higher yield but more rate-sensitive, no MSR hedge.
+AGNC trade-off: Higher yield but more rate-sensitive, no MSR hedge.
 
 ---
 
 ## Hedge position
 
-As of Sep 2025: Interest rate hedges covering **68%** of:
+As of Sep 2025: Interest rate hedges covering 68% of:
 - Investment securities repo
 - TBA securities positions
 - Other debt
@@ -99,25 +106,25 @@ As of Sep 2025: Interest rate hedges covering **68%** of:
 | Rates rising | MBS prices fall, book value down |
 | Stable rates | [[Carry trade]] works, dividends flow |
 
-**No MSR hedge:** Unlike Annaly, AGNC doesn't have MSR portfolio to offset rate moves.
+No MSR hedge: Unlike Annaly, AGNC doesn't have MSR portfolio to offset rate moves.
 
 ---
 
 ## Investment implications
 
-**Bull case:**
+Bull case:
 - High monthly yield (~14%)
 - Pure Agency = no credit risk
 - Simple, transparent strategy
 - Rates declining supportive
 
-**Bear case:**
+Bear case:
 - Dividend cut history
 - High leverage = volatility
 - Rate sensitivity
 - Negative convexity
 
-**Best for:** Income-focused investors comfortable with NAV volatility.
+Best for: Income-focused investors comfortable with NAV volatility.
 
 ---
 

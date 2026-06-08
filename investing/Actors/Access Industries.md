@@ -1,6 +1,11 @@
+---
+aliases: ["Access Industries"]
+tags: [actor, holdingcompany, privateequity, usa, music, media, chemicals]
+---
+
 #actor #holdingcompany #privateequity #usa #music #media #chemicals
 
-**Access Industries** — [[Len Blavatnik]]'s privately held multinational investment company. Founded 1986, HQ New York. Portfolio $35B+ across seven sectors. Controls [[Warner Music Group]] (72% economic, 98% voting). Building global sports streaming empire through DAZN. Known for contrarian, long-duration bets — chemicals during bankruptcy, music when "streaming was killing the industry."
+Access Industries — [[Len Blavatnik]]'s privately held multinational investment company. Founded 1986, HQ New York. Portfolio $35B+ across seven sectors. Controls [[Warner Music Group]] (72% economic, 98% voting). Building global sports streaming empire through DAZN. Known for contrarian, long-duration bets — chemicals during bankruptcy, music when "streaming was killing the industry."
 
 ---
 
@@ -21,13 +26,13 @@
 
 | Sector | Key holdings | Notes |
 |--------|-------------|-------|
-| **Entertainment** | [[Warner Music Group]] (72% economic) | Flagship asset, $3.3B → ~$11B |
-| **Global Media** | DAZN (majority), Deezer, A24 | Sports streaming consolidation |
-| **Chemicals** | LyondellBasell (~20%) | "Greatest deal in Wall Street history" — $8B personal profit |
-| **Energy** | Calpine | US power generation |
-| **Technology** | Various VC | Early/growth stage |
-| **Biotechnology** | Various | Portfolio approach |
-| **Strategic Equity / External Funds** | Opendoor, others | Public and private positions |
+| Entertainment | [[Warner Music Group]] (72% economic) | Flagship asset, $3.3B → ~$11B |
+| Global Media | DAZN (majority), Deezer, A24 | Sports streaming consolidation |
+| Chemicals | LyondellBasell (~20%) | "Greatest deal in Wall Street history" — $8B personal profit |
+| Energy | Calpine | US power generation |
+| Technology | Various VC | Early/growth stage |
+| Biotechnology | Various | Portfolio approach |
+| Strategic Equity / External Funds | Opendoor, others | Public and private positions |
 
 ---
 
@@ -78,12 +83,12 @@ Apollo invested $2B, made $12B, sold. Blavatnik bought their shares and kept rid
 
 | Trait | Evidence |
 |-------|---------|
-| **Contrarian** | WMG in 2011, LyondellBasell in bankruptcy |
-| **Patient/long-duration** | Holds for decades, never pressured to sell |
-| **Control-seeking** | Dual-class structures, majority stakes |
-| **No outside LPs** | All Blavatnik's personal capital — no fund lifecycle pressure |
-| **Sector-agnostic** | Chemicals → music → sports streaming → biotech |
-| **Empire builder** | DAZN consolidation strategy mirrors WMG approach |
+| Contrarian | WMG in 2011, LyondellBasell in bankruptcy |
+| Patient/long-duration | Holds for decades, never pressured to sell |
+| Control-seeking | Dual-class structures, majority stakes |
+| No outside LPs | All Blavatnik's personal capital — no fund lifecycle pressure |
+| Sector-agnostic | Chemicals → music → sports streaming → biotech |
+| Empire builder | DAZN consolidation strategy mirrors WMG approach |
 
 The private, single-LP structure is key — Blavatnik never faces redemption pressure, LP committees, or fund expiration dates. He can hold forever and add when others are forced to sell.
 

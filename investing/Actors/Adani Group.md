@@ -3,9 +3,16 @@ aliases: [Adani]
 ---
 #actor #conglomerate #india #infrastructure #energy
 
-**Adani Group** — Indian conglomerate. Ports, energy, airports, data centers. Gautam Adani founder. Post-Hindenburg recovery.
+Adani Group — Indian conglomerate. Ports, energy, airports, data centers. Gautam Adani founder. Post-Hindenburg recovery.
 
 ---
+
+## Quick stats
+
+| Metric | Value |
+|--------|-------|
+| Type | Actor |
+| Primary context | Conglomerate, India, Infrastructure, Energy |
 
 ## Why Adani matters
 
@@ -62,13 +69,13 @@ Stock has largely recovered; debt restructured.
 
 ## Investment thesis
 
-**Bull:**
+Bull:
 - India infrastructure growth
 - Ports monopoly-like position
 - Renewable energy scale
 - Data center opportunity
 
-**Bear:**
+Bear:
 - Governance concerns
 - Debt levels
 - Political risk
@@ -78,7 +85,7 @@ Stock has largely recovered; debt restructured.
 
 ## February 2026: $100B AI data center commitment
 
-At the [[India AI Impact Summit 2026]] (Feb 16–20), [[Adani Group]] announced a **$100B commitment for AI data centers** with renewable energy in [[India]] by 2035. The group expects an additional **$150B** in supporting industries including server manufacturing, cloud platforms, and electrical infrastructure.
+At the [[India AI Impact Summit 2026]] (Feb 16–20), [[Adani Group]] announced a $100B commitment for AI data centers with renewable energy in [[India]] by 2035. The group expects an additional $150B in supporting industries including server manufacturing, cloud platforms, and electrical infrastructure.
 
 | Detail | Value |
 |--------|-------|

@@ -3,9 +3,16 @@ aliases: [Agibot, Shanghai Agibot]
 ---
 #actor #robotics #humanoid #china
 
-**AGIBOT** — Chinese humanoid robotics company. US market debut at CES 2026.
+AGIBOT — Chinese humanoid robotics company. US market debut at CES 2026.
 
 ---
+
+## Quick stats
+
+| Metric | Value |
+|--------|-------|
+| Type | Actor |
+| Primary context | Robotics, Humanoid, China |
 
 ## Why AGIBOT matters
 
@@ -22,7 +29,7 @@ aliases: [Agibot, Shanghai Agibot]
 
 AGIBOT made its US market debut at CES 2026 with its full humanoid robot portfolio.
 
-**Significance:** Part of wave of Chinese humanoid companies entering US market.
+Significance: Part of wave of Chinese humanoid companies entering US market.
 
 ---
 
@@ -43,14 +50,14 @@ Units delivered: 5,000+ (by end of 2025, per company claims).
 
 | Company | Robot | Status |
 |---------|-------|--------|
-| **AGIBOT** | Portfolio | CES 2026 debut |
+| AGIBOT | Portfolio | CES 2026 debut |
 | [[Unitree]] | G1, H1, H2 | [[Shipping]], mass market |
 | Galbot | G1 | CES exhibitor |
 | EngineAI | SE01 | Development |
 | [[Fourier Intelligence]] | GR-1, GR-2, GR-3 | Healthcare/care-bot focus |
 | UBTech | Walker | Service, education |
 
-**[[China]] dominance:** 50% of CES 2026 humanoid exhibitors were Chinese.
+[[China]] dominance: 50% of CES 2026 humanoid exhibitors were Chinese.
 
 ---
 
@@ -58,7 +65,7 @@ Units delivered: 5,000+ (by end of 2025, per company claims).
 
 | Country | Humanoid patents (5 years) |
 |---------|---------------------------|
-| **[[China]]** | 7,705 |
+| [[China]] | 7,705 |
 | US | 1,561 |
 
 Source: [[Morgan Stanley]]
@@ -67,11 +74,11 @@ Source: [[Morgan Stanley]]
 
 ## AgiBot Night 2026
 
-Hosted a 60-minute live-streamed gala during [[China]]'s Spring Festival — billed as the **world's first large-scale entertainment event where humanoid robots served as primary performers** (not props). 200+ robots deployed across Tai Chi, drunken fist, dance, magic, and comedy.
+Hosted a 60-minute live-streamed gala during [[China]]'s Spring Festival — billed as the world's first large-scale entertainment event where humanoid robots served as primary performers (not props). 200+ robots deployed across Tai Chi, drunken fist, dance, magic, and comedy.
 
 Models featured: Lingxi X2 (synchronized dance), Expedition A2 (presentations — previously completed a 106km autonomous trek from Suzhou to Shanghai), Industrial G2 (force-controlled dance with humans), D1 quadruped.
 
-**Elf Xuan** (by AheadForm, developer [[Yuhang Hu]]): Hyper-realistic bionic robot with 42 independent facial motors, emotional expressions in a musical segment.
+Elf Xuan (by AheadForm, developer [[Yuhang Hu]]): Hyper-realistic bionic robot with 42 independent facial motors, emotional expressions in a musical segment.
 
 Strategic context: Response to industry skepticism about whether humanoid robotics prioritizes marketing over industrial utility. Rumored 2026 Hong Kong IPO. See [[2026 Spring Festival Gala]].
 
@@ -79,9 +86,9 @@ Strategic context: Response to industry skepticism about whether humanoid roboti
 
 ## Training farm revenue (Mar 2026)
 
-A key revenue source for [[AGIBOT]] and other Chinese humanoid manufacturers: state-funded robot training farms across [[China]] are purchasing robots en masse. The Hubei Humanoid Robot Innovation Center (Wuhan, Rmb200M facility) bought dozens of [[AGIBOT]] robots at **Rmb350,000 each**.
+A key revenue source for [[AGIBOT]] and other Chinese humanoid manufacturers: state-funded robot training farms across [[China]] are purchasing robots en masse. The Hubei Humanoid Robot Innovation Center (Wuhan, Rmb200M facility) bought dozens of [[AGIBOT]] robots at Rmb350,000 each.
 
-[[Bernstein]] estimates data collection sales made up **~20%** of [[China]]'s >20,000 humanoid robot shipments in 2025. Training centers are sustaining manufacturers while real-world commercial demand is still emerging. See [[Humanoid robotics]].
+[[Bernstein]] estimates data collection sales made up ~20% of [[China]]'s >20,000 humanoid robot shipments in 2025. Training centers are sustaining manufacturers while real-world commercial demand is still emerging. See [[Humanoid robotics]].
 
 *Source: FT (Ryan McMorrow), Mar 11, 2026*
 
@@ -99,7 +106,7 @@ A key revenue source for [[AGIBOT]] and other Chinese humanoid manufacturers: st
 
 ## Investment case
 
-**Bull:**
+Bull:
 - [[China]] manufacturing cost advantage
 - Government support (gala visibility = state endorsement)
 - Large domestic market
@@ -107,7 +114,7 @@ A key revenue source for [[AGIBOT]] and other Chinese humanoid manufacturers: st
 - 5,000+ units shipped by end 2025
 - Hong Kong IPO candidate (2026)
 
-**Bear:**
+Bear:
 - Private, limited access
 - US-[[China]] tensions (export risk)
 - Technology gap vs. leaders

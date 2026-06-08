@@ -3,9 +3,16 @@ aliases: [Envision AESC]
 ---
 #actor #batteries #japan #ev
 
-**AESC** — Battery manufacturer, originally Nissan's battery unit, now owned by Envision Group ([[China]]).
+AESC — Battery manufacturer, originally Nissan's battery unit, now owned by Envision Group ([[China]]).
 
 ---
+
+## Quick stats
+
+| Metric | Value |
+|--------|-------|
+| Type | Actor |
+| Primary context | Batteries, Japan, Ev |
 
 ## Why AESC matters
 
@@ -33,13 +40,13 @@ aliases: [Envision AESC]
 
 | Location | Status | Capacity |
 |----------|--------|----------|
-| **Sunderland, [[UK]]** | Operating | Nissan Leaf supply |
-| **Smyrna, Tennessee** | Operating | Nissan US |
-| **[[Japan]]** | Operating | Original facilities |
-| **[[China]]** | Operating | Multiple sites |
-| **Kentucky** | Under construction | 30 GWh |
-| **Spain** | Planned | For [[EU]] market |
-| **[[France]]** | Planned | Renault supply |
+| Sunderland, [[UK]] | Operating | Nissan Leaf supply |
+| Smyrna, Tennessee | Operating | Nissan US |
+| [[Japan]] | Operating | Original facilities |
+| [[China]] | Operating | Multiple sites |
+| Kentucky | Under construction | 30 GWh |
+| Spain | Planned | For [[EU]] market |
+| [[France]] | Planned | Renault supply |
 
 ---
 
@@ -47,11 +54,11 @@ aliases: [Envision AESC]
 
 | Customer | Models |
 |----------|--------|
-| **Nissan** | Leaf, Ariya |
-| **Renault** | Multiple EVs |
-| **Mercedes-Benz** | EV supply agreement |
-| **[[BMW]]** | Battery supply deal |
-| **Honda** | Partnership |
+| Nissan | Leaf, Ariya |
+| Renault | Multiple EVs |
+| Mercedes-Benz | EV supply agreement |
+| [[BMW]] | Battery supply deal |
+| Honda | Partnership |
 
 ---
 
@@ -62,7 +69,7 @@ aliases: [Envision AESC]
 | NMC | Standard offering |
 | LFP | Cost-focused models |
 
-**Cell-to-pack:** Developing integrated pack designs.
+Cell-to-pack: Developing integrated pack designs.
 
 ---
 
@@ -76,19 +83,19 @@ aliases: [Envision AESC]
 | [[Panasonic]] | ~6% | [[Tesla]] partnership |
 | [[SK On]] | ~5% | US expansion |
 | [[Samsung SDI]] | ~5% | Premium segment |
-| **AESC** | ~3% | Nissan/Renault captive |
+| AESC | ~3% | Nissan/Renault captive |
 
 ---
 
 ## Investment case
 
-**Bull:**
+Bull:
 - Locked-in OEM relationships (Nissan, Renault)
 - Envision backing (capital, [[China]] expertise)
 - Western expansion ([[UK]], US, [[EU]] plants)
 - Mercedes and [[BMW]] wins
 
-**Bear:**
+Bear:
 - Smaller scale vs. CATL, LG, BYD
 - Chinese ownership complicates Western expansion
 - Limited technology differentiation

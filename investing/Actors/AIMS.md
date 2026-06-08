@@ -1,6 +1,11 @@
+---
+aliases: ["AIMS"]
+tags: [actor, datacenter, malaysia, private]
+---
+
 #actor #datacenter #malaysia #private
 
-**AIMS** — Leading Southeast Asia data center operator. [[DigitalBridge]] majority stake (70%). Hosts Malaysia Internet Exchange (MyIX).
+AIMS — Leading Southeast Asia data center operator. [[DigitalBridge]] majority stake (70%). Hosts Malaysia Internet Exchange (MyIX).
 
 ---
 
@@ -31,9 +36,9 @@ Part of DigitalBridge's Southeast Asia edge platform formation.
 
 ## Expansion
 
-**Cyberjaya Block 3:** Completed July 2025, ahead of schedule. Part of capacity tripling initiative.
+Cyberjaya Block 3: Completed July 2025, ahead of schedule. Part of capacity tripling initiative.
 
-**Johor:** 300MW+ hyperscale campus in development. Regional footprint targeting 1GW across Australia, Malaysia, Japan, Taiwan, Hong Kong.
+Johor: 300MW+ hyperscale campus in development. Regional footprint targeting 1GW across Australia, Malaysia, Japan, Taiwan, Hong Kong.
 
 ---
 

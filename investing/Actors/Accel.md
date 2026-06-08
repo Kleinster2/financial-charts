@@ -1,10 +1,22 @@
+---
+aliases: ["Accel"]
+tags: [actor, vc, usa, private, multi_stage]
+---
+
 # Accel
 
 #actor #vc #usa #private #multi-stage
 
-**Accel** — Global VC firm, founded 1983. **~$9.5B AUM.** Famous for $12.7M Facebook investment (2005) for 10% — one of greatest VC returns ever. Portfolio: [[Atlassian]], Dropbox, [[Slack]], [[Spotify]], [[CrowdStrike]], UiPath, [[Supabase]]. Offices in Palo Alto, London, [[India]].
+Accel — Global VC firm, founded 1983. ~$9.5B AUM. Famous for $12.7M Facebook investment (2005) for 10% — one of greatest VC returns ever. Portfolio: [[Atlassian]], Dropbox, [[Slack]], [[Spotify]], [[CrowdStrike]], UiPath, [[Supabase]]. Offices in Palo Alto, London, [[India]].
 
 ---
+
+## Quick stats
+
+| Metric | Value |
+|--------|-------|
+| Type | Venture capital firm |
+| Primary context | Vc, Usa, Multi Stage |
 
 ## Key facts
 
@@ -36,7 +48,7 @@ Global strategy with dedicated [[India]] and [[Europe]] teams.
 
 ## The Facebook deal
 
-**The defining investment:** In May 2005, Accel invested $12.7M in Facebook for ~10% of the company — before the company had meaningful revenue.
+The defining investment: In May 2005, Accel invested $12.7M in Facebook for ~10% of the company — before the company had meaningful revenue.
 
 - Led by [[Jim Breyer]] (Managing Partner 1995-2011)
 - Facebook IPO'd in 2012 at $104B

@@ -1,6 +1,11 @@
+---
+aliases: ["A.S. Watson"]
+tags: [actor, company, retail, health, beauty, hongkong, ipo]
+---
+
 #actor #company #retail #health #beauty #hongkong #ipo
 
-**A.S. Watson** — World's largest health and beauty retailer. 17,000+ stores across 31 markets. Owns Watsons, Superdrug, The Perfume Shop. $24B revenue (2024). Owned by [[CK Hutchison]] ([[Li Ka-shing]]). Dual HK-London IPO targeting $30B valuation, Q2 2026 — would be one of largest global retail IPOs. [[Temasek]] (25% stake) expected to exit.
+A.S. Watson — World's largest health and beauty retailer. 17,000+ stores across 31 markets. Owns Watsons, Superdrug, The Perfume Shop. $24B revenue (2024). Owned by [[CK Hutchison]] ([[Li Ka-shing]]). Dual HK-London IPO targeting $30B valuation, Q2 2026 — would be one of largest global retail IPOs. [[Temasek]] (25% stake) expected to exit.
 
 ---
 
@@ -23,12 +28,12 @@
 
 | Brand | Region | Format |
 |-------|--------|--------|
-| **Watsons** | [[Asia]], [[Europe]] | Health & beauty |
-| **Superdrug** | [[UK]] | Health & beauty |
-| **The Perfume Shop** | [[UK]] | Fragrance retail |
-| **Kruidvat** | Benelux | Drugstore |
-| **Rossmann** | [[Germany]] (JV) | Drugstore |
-| **ICI Paris XL** | Benelux | Perfumery |
+| Watsons | [[Asia]], [[Europe]] | Health & beauty |
+| Superdrug | [[UK]] | Health & beauty |
+| The Perfume Shop | [[UK]] | Fragrance retail |
+| Kruidvat | Benelux | Drugstore |
+| Rossmann | [[Germany]] (JV) | Drugstore |
+| ICI Paris XL | Benelux | Perfumery |
 
 ---
 
@@ -36,7 +41,7 @@
 
 | Term | Value |
 |------|-------|
-| [[Target]] valuation | **$30B** |
+| [[Target]] valuation | $30B |
 | Amount to raise | ~$2B |
 | Exchanges | Hong Kong + London (dual) |
 | Advisors | [[Goldman Sachs]], [[UBS]] |

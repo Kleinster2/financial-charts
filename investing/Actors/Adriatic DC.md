@@ -1,8 +1,20 @@
+---
+aliases: ["Adriatic DC"]
+tags: [actor, datacenter, italy, private]
+---
+
 #actor #datacenter #italy #private
 
-**Adriatic DC** — Italian data center developer. €50B investment in Puglia region. 2GW planned capacity.
+Adriatic DC — Italian data center developer. €50B investment in Puglia region. 2GW planned capacity.
 
 ---
+
+## Quick stats
+
+| Metric | Value |
+|--------|-------|
+| Type | Private company |
+| Primary context | Datacenter, Italy |
 
 ## Why Adriatic DC matters
 
@@ -10,7 +22,7 @@ Example of AI infrastructure gold rush newcomers:
 
 | Metric | Value |
 |--------|-------|
-| Investment | **€50B** |
+| Investment | €50B |
 | Location | Puglia, Italy |
 | Capacity | 2GW |
 | Status | Planned |
@@ -20,7 +32,7 @@ Example of AI infrastructure gold rush newcomers:
 
 ## The project
 
-**Puglia mega-complex:**
+Puglia mega-complex:
 - Southwestern Italy location
 - €50B total investment
 - 2GW power capacity
@@ -30,22 +42,22 @@ Example of AI infrastructure gold rush newcomers:
 
 ## Risk profile
 
-**Speculative buildout:**
+Speculative buildout:
 
 | Risk | Assessment |
 |------|------------|
-| Anchor tenant | **None announced** |
+| Anchor tenant | None announced |
 | Financing | TBD |
 | Power infrastructure | Requires significant grid investment |
 | Competition | Many European DC projects |
 
-**Key concern:** Building spec without hyperscaler commitment.
+Key concern: Building spec without hyperscaler commitment.
 
 ---
 
 ## Context
 
-**Part of broader pattern:**
+Part of broader pattern:
 - Many newcomers entering AI data center market
 - Attracted by $178.5B US data center credit volume (2025)
 - Racing to build before capacity needs materialize
@@ -55,7 +67,7 @@ Example of AI infrastructure gold rush newcomers:
 
 ## Investment relevance
 
-**Cautionary example:**
+Cautionary example:
 - Large announced project without anchor tenant
 - Tests whether AI demand matches buildout pace
 - If successful: validates European AI infrastructure

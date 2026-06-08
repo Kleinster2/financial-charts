@@ -7,8 +7,7 @@ aliases: [AgFirst]
 
 One of four funding banks in the [[Farm Credit System]]. Serves the East district (Southeast and Mid-Atlantic), funding 16 affiliated associations.
 
-## Quick Stats
-
+## Quick stats
 | Attribute | Value |
 |-----------|-------|
 | Type | Farm Credit Bank |
