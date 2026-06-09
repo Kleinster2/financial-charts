@@ -66,6 +66,18 @@ Designed to attract hyperscale infrastructure investment.
 
 Milei views AI infrastructure as economic transformation lever.
 
+## AI legal framework (June 2026)
+
+On June 4 2026, President Javier Milei published an op-ed outlining legislation submitted to Congress for a dedicated AI deployment framework. The proposal rests on three pillars:
+
+- **Unregulated development**: Explicit commitment to keep AI free from premature or poorly understood regulation, allowing experimentation and deployment without the "deadly hand" of early intervention.
+
+- **Non-human corporations**: A new legal category for entities operated by AI agents or robots. Where these systems exercise independent judgment in unpredictable environments, limited liability is treated as a precondition for existence (analogous to the 1602 Dutch East India Company limited liability that enabled modern capitalism). Human shareholders are optional; final beneficiaries must be disclosed to prevent illicit use, but legitimate activity receives unmatched terms.
+
+- **Competitive fiscal regime**: Low corporate tax rates and the ability for shareholders to select the corporate governance law of their choosing. Framed as an invitation for AI companies to make Buenos Aires the equivalent of 17th-century Amsterdam for the AI age.
+
+The legislation positions Argentina as offering the most attractive legal and fiscal environment for frontier AI development. It builds on the country's recent progress: inflation brought under control, fiscal surplus achieved, sweeping deregulation enacted, and a 20-position improvement in the Heritage Economic Freedom Index in both 2024 and 2025 (largest gains of any nation in those years). Investments are noted as flowing into energy and mining.
+
 ---
 
 ## Energy advantage
