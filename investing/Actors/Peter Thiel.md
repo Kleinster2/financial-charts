@@ -113,3 +113,15 @@ Thiel's stake in Berlin-based [[Stark]] drew political heat during the [[Bundesw
 - [[Anduril]] — portfolio (defense AI)
 - [[Founders Fund]] — primary investment vehicle
 - [[Brex]] — portfolio (via Founders Fund)
+
+## Relocation experiments
+
+**Argentina move (April–May 2026)**
+
+Thiel temporarily relocated his family to Buenos Aires in April 2026 for an initial stay of roughly three months. He purchased a six-bedroom mansion in the Palermo Chico neighborhood (a leafy central area home to many embassies) and acquired land near Punta del Este, Uruguay, for a future residence. His children were enrolled in a local private school. While in Argentina, Thiel attended a Superclásico football match between Boca Juniors and River Plate and placed third in a chess tournament at a local club, telling the young players he hoped to return.
+
+Thiel met President Javier Milei at the presidential palace (first introduced in 2024 by Argentine businessman Alec Oxenford, now Milei’s ambassador in Washington). The two discussed the sustainability of Milei’s economic reforms and the question of wealth taxes. Milei later described the meeting on radio as one between two “anarcho-capitalists” and stated that “this idea of wealth taxes on the super-rich has a clear connotation of envy” and that “we consider taxes to be theft.” Thiel also met Economy Minister Luis Caputo, Deregulation Minister Federico Sturzenegger, and political strategist Santiago Caputo.
+
+Thiel has been impressed by the drop in Argentina’s annual inflation rate from a peak of 290% to 32.4% as of April 2026 and expressed a desire to “see this democratically elected libertarian exercise up close.” The move extends Thiel’s pattern of establishing bases outside the United States, following his 2011 New Zealand citizenship and early involvement in the seasteading movement. Milei’s government has signaled plans for a citizenship-by-investment scheme; Argentine officials stated Thiel has not applied. Cabinet chief Manuel Adorni called the visit “flattering” and welcomed billionaires seeking lower-regulation environments.
+
+Thiel’s spokesperson did not respond to requests for comment on the relocation.
