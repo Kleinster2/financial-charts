@@ -22,6 +22,7 @@ The Forethought framework uses `r` as the central shorthand:
 ## Related
 
 - [[AI R&D automation]] - broader automation and market-impact note
+- [[Recursive self-improvement]] - control/governance framing of the same loop (Anthropic's Jun 4 2026 "When AI builds itself" essay)
 - [[AI scaling laws]] - model-capability scaling context
 - [[AI compute demand curve]] - compute-demand implication
 - [[Redwood Research]] - source organization

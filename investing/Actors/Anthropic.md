@@ -256,6 +256,20 @@ Notable: Both Google AND Amazon invested (rare). Microsoft invested despite Open
 
 ## Recent developments
 
+### "When AI builds itself" — recursive self-improvement essay (Jun 4, 2026)
+
+On June 4, 2026, Anthropic published "When AI builds itself," a research-and-governance essay arguing that AI systems are approaching [[Recursive self-improvement|recursive self-improvement]] — the point at which an AI can autonomously design and build its own successor with little human input — and calling for a coordinated, verifiable mechanism to slow or pause frontier development if that threshold is crossed.
+
+The headline self-reported metrics: Claude authored more than 80% of the code merged into Anthropic's own codebase in May 2026 (up from low single digits before [[Claude Code]] launched in early 2025); engineers ship roughly 8x as much code per quarter as in the 2021–2024 baseline; Claude's success rate on the hardest open-ended coding tasks reached 76% in May 2026, up about 50 percentage points in six months; the task time-horizon Claude can complete went from ~4 minutes ([[Claude Opus]] 3, Mar 2024) to ~1.5 hours ([[Claude Sonnet]] 3.7, Mar 2025) to ~12 hours ([[Claude Opus]] 4.6, Mar 2026); and on internal AI-research work, Claude's suggested next research step beat the human choice 64% of the time in April 2026 (vs. 51% in November 2025), with a ~52x speedup on code-optimization tasks (vs. ~3x in May 2025).
+
+The risk Anthropic flags is compounding misalignment: behavior "rare and survivable today" could propagate and amplify as each model generation builds the next, until human control slips. Its proposed remedy is not a unilateral halt but a coordinated, verifiable pause that specifies "what triggers it, what lifts it, and who adjudicates," while conceding that verifying a rival has actually paused is harder than Cold War arms control because training runs are easier to conceal than "missile silos."
+
+The essay extends the February 2026 disclosure noted below (RLAIF repurposed to automate model improvement; 70–90% of Anthropic code already AI-written). It also lands three days after the June 1 confidential [[SEC]] S-1 ([[Anthropic IPO 2026]]) — a safety-risk disclosure and a capability flex arriving in the same week Anthropic is selling a near-$1tn IPO narrative. Full concept treatment, the capability-trajectory data, the loss-of-control risk model, and the investing read-through live in [[Recursive self-improvement]]. See also [[AI safety]], [[AI R&D automation]], and [[AI regulation]].
+
+*Sources: [Anthropic, "When AI builds itself," Jun 4 2026](https://www.anthropic.com/institute/recursive-self-improvement); [Scientific American](https://www.scientificamerican.com/article/anthropic-warns-ai-may-soon-begin-recursive-self-improvement/), [Axios](https://www.axios.com/2026/06/04/anthropic-warns-ai-build-successors), [CNN](https://www.cnn.com/2026/06/05/business/anthropic-calls-for-ai-brake-pedal), Jun 4–5 2026.*
+
+---
+
 ### Hassabis as early angel — disclosed (FT May 19 2026)
 
 The [[Financial Times]] reported that [[Demis Hassabis]] — [[Google DeepMind]] CEO — was a previously-undisclosed early angel investor in Anthropic. The position long predates [[Google]]'s corporate billions invested via the cloud and TPU partnerships. [[Dario Amodei]] considers Hassabis a role model, according to people close to the company.

@@ -150,6 +150,7 @@ Currently: [[Opus 4.6]] and [[GPT-5.4]] have "really pulled away" from Chinese m
 - [[Anthropic vs OpenAI compute race]] — how labs compete for scarce capacity
 - [[AI R&D automation]] — why compute may become a direct research-speed input
 - [[Software-only singularity]] — runaway version of the AI R&D feedback loop
+- [[Recursive self-improvement]] — successor-generation control framing; demand-steepener if the loop is real
 - [[SemiAnalysis]] — data source for supply chain tracking
 - [[Space data centers]] — proposed alternative (not viable this decade)
 - [[AI Infrastructure]] — sector overview

@@ -55,6 +55,7 @@ The market implication is straightforward: if AI R&D automation makes untrusted 
 - [[Anthropic vs OpenAI compute race]] - deliverable compute becomes strategic lead time, not only customer-serving capacity.
 - [[AI infrastructure financing risk]] - if labs chase compute because it controls research velocity, circular financing can intensify before ordinary revenue proof catches up.
 - [[AI safety]] - compressed research cycles reduce the time available for evaluation, control, and governance responses.
+- [[Recursive self-improvement]] - the control/governance framing of the same loop: when AI designs its own successors, misalignment can compound across generations; Anthropic's Jun 4 2026 "When AI builds itself" is the primary document.
 
 ---
 
@@ -68,6 +69,7 @@ The market implication is straightforward: if AI R&D automation makes untrusted 
 - [[Model lab economics]] - lab revenue / burn / capital structure
 - [[Anthropic vs OpenAI compute race]] - frontier-lab capacity competition
 - [[AI safety]] - safety and governance context
+- [[Recursive self-improvement]] - successor-generation / loss-of-control framing of the loop
 - [[Prompt injection]] - rendered-output and instruction-channel threat model
 
 ## Cross-vault

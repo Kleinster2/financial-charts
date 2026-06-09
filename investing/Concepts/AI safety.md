@@ -71,6 +71,7 @@ For the investing vault, this makes safety part of enterprise adoption. Model la
 - Government conflict -- whether national-security demand forces labs to weaken or clarify safety limits.
 - Audit market -- whether independent AI auditors, compliance tools, and regulators get enough access to evaluate frontier systems.
 - Labor and distribution policy -- whether model labs fund or support mechanisms for displaced workers and global gain-sharing.
+- Recursive self-improvement -- whether labs agree a verifiable, coordinated trigger to slow or pause before AI systems begin designing their own successors ([[Recursive self-improvement]]).
 
 ---
 
@@ -79,6 +80,7 @@ For the investing vault, this makes safety part of enterprise adoption. Model la
 - [[Anthropic]] -- safety-first model lab and main live case
 - [[Redwood Research]] -- nonprofit AI safety and control research organization
 - [[AI R&D automation]] -- safety pressure point as AI systems enter the research loop
+- [[Recursive self-improvement]] -- successor-generation control risk; Anthropic's Jun 4 2026 "When AI builds itself" essay
 - [[Chris Olah]] -- interpretability lead and May 2026 public-governance messenger
 - [[Mechanistic interpretability]] -- internal-observability branch of safety
 - [[AI regulation]] -- legal governance layer

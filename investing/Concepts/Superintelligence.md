@@ -34,6 +34,8 @@ aliases: [ASI, Artificial Superintelligence, AGI]
 
 ## Recursive self-improvement
 
+See [[Recursive self-improvement]] for the standalone concept note, including [[Anthropic]]'s June 4 2026 "When AI builds itself" essay, its capability metrics, and the loss-of-control risk model.
+
 The specific thesis behind [[Recursive]] (Richard Socher's new lab):
 
 **The idea**: Build AI that can improve itself without human feedback loops.
@@ -125,6 +127,7 @@ The closer labs get to superintelligence, the more safety matters:
 - [[Model lab economics]] — business model dynamics
 - [[Model landscape]] — competitive positioning
 - [[AI safety]] — alignment research
+- [[Recursive self-improvement]] — standalone concept note (Anthropic Jun 2026 framing)
 - [[OpenAI talent exodus]] — researcher departures
 
 ### Risks
