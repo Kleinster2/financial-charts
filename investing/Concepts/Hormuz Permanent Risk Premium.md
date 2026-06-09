@@ -189,6 +189,21 @@ The live test is whether the market keeps treating $90 Brent, explicit war-risk 
 
 ---
 
+## June 2026 — Tonne-mile expansion across container and LNG freight (The Merchant's News)
+
+The June 8–9 update from Giacomo Prandelli / The Merchant's News provides the cleanest multi-market confirmation yet that the Hormuz closure is driving structural tonne-mile expansion.
+
+- Asia–US West Coast container rates: +109% since the war began (late February), with a 20% jump in the most recent week alone (Xeneta data). Asia–North Europe +65%.
+- Same mechanism as crude tankers: rerouting around the Persian Gulf stretches voyages by thousands of miles, tightening effective capacity without any vessels leaving the water.
+- Second confirmation channel: JKM (Asian LNG) at $18.68/MMBtu vs Henry Hub at $3.20 — a $15.50 spread that is structural rather than cyclical, because gas physically cannot clear the arbitrage fast enough (liquefaction, specialized shipping, regasification).
+- Atlantic LNG freight (Spark30S) ran to $181k/day after the Ras Laffan attacks and remained >$100k into mid-April.
+
+This is the second independent freight market (after tankers) repricing the identical chokepoint within days. The post frames it as “the system repricing in slow motion while consensus argues about the ceasefire.”
+
+*Source: Giacomo Prandelli / The Merchant’s News, “Container Rates Up 109%, My 3 LNG Names Get The Same Trade.” (June 8/9 2026, paid after public section).*
+
+---
+
 ## Related
 
 - [[2026 Iran conflict market impact]] — the event that created the premium
