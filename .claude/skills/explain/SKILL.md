@@ -1,6 +1,6 @@
 ---
 name: explain
-description: "Plain-language briefing on a vault topic for a reader unfamiliar with the actors and subtopics. Same source material as /report (cross-vault read of existing notes) but written in journalistic-explainer voice with first-mention actor introductions and subtopic glosses. Use when the user wants to understand a topic without prior vault context, says /explain TOPIC, asks for a primer / briefing / explainer, or asks 'what's the situation with X' for someone not steeped in the threads. NOT for new research (use /deepdive), analytical synthesis for the vault user (use /report), or daily wrap-ups (use /newsletter)."
+description: "Plain-language briefing on a vault topic for a reader unfamiliar with the actors and subtopics — same cross-vault read as /report, journalistic-explainer voice with first-mention introductions and glosses. Use for /explain TOPIC, a primer / briefing / explainer, or 'what's the situation with X' for someone not steeped in the threads. NOT for new research (/deepdive), vault-reader synthesis (/report), or daily wrap-ups (/newsletter)."
 ---
 
 # /explain — Plain-Language Briefing on a Vault Topic
@@ -21,9 +21,8 @@ The audience test: `/report` is for the user reading the vault. `/explain` is fo
 ## Hard rules
 
 - Output saved to `investing/Reports/YYYY-MM-DD-explain-<topic-slug>.md`. Always in-vault, always dated, always prefixed `explain-` for sortability.
-- `[[wikilinks]]` preserved in body — explainers are printable per CLAUDE.md printing rule.
-- No bold in body. Headers only.
-- No bull/bear framing, no "the market isn't pricing X" claims, no investment recommendations. Same vault discipline as `/report`.
+- `[[wikilinks]]` preserved in body — explainers are printable per the repo printing rule.
+- Voice baseline: `docs/vault-note-guide.md` → "Voice and Writing Standards" — no bold in body, no bull/bear framing or "the market isn't pricing X" claims, no investment recommendations, no emojis.
 - Reports are disposable. Re-run anytime; old explainers are not load-bearing.
 
 ---
@@ -214,5 +213,5 @@ The same audit can be applied to `/report` runs, though less mechanically — `/
 - **Glossing terms a smart generalist already knows.** Don't define "GDP" or "OPEC" past first mention. Don't gloss "Trump" or "Xi" or "the Federal Reserve."
 - **Importing analytical claims the vault doesn't already make.** This skill is read-only. If the source notes don't say "X is the structural story," the explainer doesn't either. Describe what the vault says, in plain terms; don't add new framings.
 - **Vault-by-vault sections.** "Investing perspective:", "Geopolitics perspective:" — same anti-pattern as `/report`. Weave inline.
-- **Dropping wikilinks.** `[[NVIDIA]]` stays as `[[NVIDIA]]` in the output. CLAUDE.md printing rule applies.
+- **Dropping wikilinks.** `[[NVIDIA]]` stays as `[[NVIDIA]]` in the output. The repo printing rule applies.
 - **Section dump masquerading as explainer.** If your output reads like a Wikipedia summary of the primary note, you skipped the synthesis-into-narrative step. The cast / context / matters / watch structure is the test — restructure if needed.

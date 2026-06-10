@@ -62,13 +62,10 @@ For each story, identify:
 
 ### Voice rules
 
-- **Analytical, not editorial.** Present dynamics, not bull/bear calls. "The bet is X — if Y doesn't materialize, they just levered up" is good. "This is bullish" is not.
-- **Tensions, not market reads.** When two facts in a story pull in opposite directions, present both and name the tension. Never claim to know what "the market is missing" or "isn't pricing" — that requires positioning data, credit spreads, flow, and options markets we don't have. The newsletter surfaces contradictions; the reader decides whether they're priced.
+Baseline: `docs/vault-note-guide.md` → "Voice and Writing Standards" — analytical not editorial (no bull/bear calls), tensions named rather than "the market is missing" claims, exact figures with attribution, no bold in body, no emojis. Newsletter-specific:
+
 - **Structural, not reactive.** Connect today's news to the vault's accumulated knowledge. The newsletter's value is context the reader already has from the vault — surface it.
-- **Exact figures.** Dollar amounts, percentages, dates, named analysts with firms. No "significant" or "substantial."
 - **Sharp, not sterile.** Personal research voice — the reader is a macro-focused investor who already knows the basics. Don't explain what Apollo does. Do explain why their return on Fab 34 matters for how we think about Intel's cost of capital.
-- **No bold in body text.** Headers only.
-- **No emojis.**
 
 ### Charts (optional)
 

@@ -125,10 +125,9 @@ Watch: [next concrete thing to check].
 ```
 
 Style:
+- Voice baseline: `docs/vault-note-guide.md` → "Voice and Writing Standards" (no bold in body, no "the market is missing" claims without positioning/flow/options evidence, exact figures, no emojis).
 - Preserve `[[wikilinks]]` visibly.
-- No bold in body text. Headers only.
-- Prefer exact figures and dates already present in the touched notes.
-- Do not claim "the market is missing" unless the vault contains positioning, spreads, flows, or options evidence.
+- Prefer exact figures and dates already present in the touched notes — `/story` runs no fresh research.
 - Cards must stand alone. Never look for connections between or among cards. No "see Card X," no "in the same way as," no synthesis paragraph that ties multiple cards together, no Watch items that reach into another card's territory. Each card answers "what is this story" in isolation. The Story map table is a pure index, not a thesis.
 - Never assume the reader is familiar with the details. Every name gets a one-clause role tag the first time it appears (e.g., "Mike McKee, Bloomberg's Fed correspondent" not just "Mike McKee"); every acronym gets expanded on first use ("BDC — business development company"); every prior event referenced gets a brief in-card anchor ("Norway raised its wealth tax from 0.85% to 1.1% in 2022 and saw $54B in wealth leave the country" not just "the Norway 2022 case study"); every market level or threshold gets a why-it-matters clause ("4.25% on the 10Y is where Lyngen says duration becomes a buy"). The reader is not expected to have read the underlying notes, prior story reports, the daily note, or earlier cards. Cards are no longer length-capped — write the context that the story requires, not what fits in 80-150 words.
 

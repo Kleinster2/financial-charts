@@ -6,11 +6,13 @@
     "ingest",
     "earnings",
     "report",
+    "explain",
     "deepdive",
     "newsletter",
     "story",
     "daily-scan",
     "replicate",
-    "event-tape"
+    "event-tape",
+    "rebuild-quartz-now"
   ]
 }

@@ -357,6 +357,10 @@ These rules apply to all note bodies — actors, concepts, events, products, dai
 
 No bold in note bodies. Bold is only allowed for section headers and the note name on its first appearance. Not for emphasis, not for key terms, not as rhetorical stress. Evolution bullet openers (`**2022 — Founding.**`), key-term emphasis, and "not investable" stress all violate the rule. If something needs emphasis, restructure the sentence or use a dedicated section header. Compliance hooks flag this.
 
+No emojis — in note bodies or in synthesis artifacts (newsletters, reports, story cards, explainers).
+
+This section is the voice baseline for the synthesis skills (`/newsletter`, `/report`, `/story`, `/explain`): those skills point here and state only their skill-specific deltas.
+
 ### Plain language over jargon
 
 The vault should be self-contained for a general reader. On first use of any chemical formula, industry shorthand, or specialist notation, add a brief inline gloss. After that, the shorthand is fine.

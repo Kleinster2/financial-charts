@@ -1,6 +1,6 @@
 ---
 name: earnings
-description: "Full earnings ingestion pipeline for a ticker: check income_statement_quarterly/annual in market_data.db, find the latest quarterly results (SEC filings, press releases, StockAnalysis), INSERT the data with correct field conventions (GAAP diluted EPS, EBITDA as OI+D&A, all 15 columns), regenerate fundamentals/sankey/waterfall charts, and update actor + daily notes. Use this skill whenever the user mentions earnings, quarterly results, income statement data, inserting fundamentals, fixing EPS or financial data in the DB, or asks if a ticker's earnings are current. Also triggers on /earnings TICKER."
+description: "Full earnings ingestion pipeline for a ticker: check market_data.db, find the latest quarterly results, INSERT with the DB's field conventions, regenerate fundamentals/sankey/waterfall charts, update actor + daily notes. Use whenever the user mentions earnings, quarterly results, income statement data, inserting fundamentals, fixing EPS or financial data in the DB, or asks if a ticker's earnings are current. Also triggers on /earnings TICKER."
 ---
 
 # Earnings Processing

@@ -235,6 +235,7 @@ def build_scope_report(args: argparse.Namespace, scope: SkillParityScope) -> dic
                 "missing_by_runtime": {},
                 "codex_claude_drift": [],
                 "openclaw_unexpected_drift": [],
+                "unregistered_codex_mirrors": [],
             },
         }
 
@@ -258,6 +259,13 @@ def build_scope_report(args: argparse.Namespace, scope: SkillParityScope) -> dic
         for item in skills
         if item["openclaw_status"] == "different"
     ]
+    # The Codex directory exists solely as a mirror of the registered set, so any
+    # skill found there but absent from the scope manifest is drifting unchecked.
+    # (Claude can hold runtime-local skills; OpenClaw's directory is shared across
+    # scopes — neither supports this inference.)
+    unregistered_codex_mirrors = sorted(
+        set(inventory.get("codex", {})) - set(scope.skills)
+    )
 
     return {
         "scope": scope.name,
@@ -279,6 +287,7 @@ def build_scope_report(args: argparse.Namespace, scope: SkillParityScope) -> dic
             "missing_by_runtime": missing_by_runtime,
             "codex_claude_drift": codex_claude_drift,
             "openclaw_unexpected_drift": openclaw_unexpected_drift,
+            "unregistered_codex_mirrors": unregistered_codex_mirrors,
         },
     }
 
@@ -347,6 +356,10 @@ def print_scope_report(scope_report: dict[str, Any]) -> None:
         print_list(f"Missing in {runtime}", values)
     print_list("Codex/Claude drift", summary["codex_claude_drift"])
     print_list("OpenClaw unexpected drift", summary["openclaw_unexpected_drift"])
+    print_list(
+        "Unregistered Codex mirrors (in mirror dir but not in scope manifest)",
+        summary["unregistered_codex_mirrors"],
+    )
     print()
 
 
@@ -368,6 +381,7 @@ def has_scope_strict_failures(scope_report: dict[str, Any]) -> bool:
         has_missing
         or summary["codex_claude_drift"]
         or summary["openclaw_unexpected_drift"]
+        or summary["unregistered_codex_mirrors"]
     )
 
 

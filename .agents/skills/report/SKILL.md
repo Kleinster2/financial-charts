@@ -1,6 +1,6 @@
 ---
 name: report
-description: "Cross-vault topic synthesis. Reads existing notes across investing + sibling vaults (geopolitics, Brazil, history, technologies) and writes a 400-800 word narrative brief saved to investing/Reports/. Default is read-mostly and never modifies entity notes; optional --deepdive runs a bounded pre-report deepdive to create/expand weak anchor notes before synthesis. Use when the user asks to brief them on a topic, says /report TOPIC, wants a pointed read on something already in the vault, or asks for a report with a deepdive/research component. NOT for daily wrap-ups (use /newsletter)."
+description: "Cross-vault topic synthesis: reads existing notes across investing + sibling vaults and writes a narrative brief to investing/Reports/. Read-mostly — never modifies entity notes; --deepdive first repairs weak anchor notes. Use when the user asks to brief them on a topic, says /report TOPIC, wants a pointed read on something already in the vault, or asks for a report with a deepdive/research component. NOT for daily wrap-ups (/newsletter)."
 ---
 
 # /report — Cross-Vault Topic Synthesis
@@ -20,7 +20,7 @@ Usage: `/report <topic> [--lens neutral|allocator|contrarian|what-changed] [--si
 ## Hard rules
 
 - Output saved to `investing/Reports/YYYY-MM-DD-<topic-slug>.md`. Always in-vault, always dated.
-- `[[wikilinks]]` preserved in body — reports are printable per CLAUDE.md printing rule.
+- `[[wikilinks]]` preserved in body — reports are printable per the repo printing rule.
 - No bold in body. Headers only. Same voice rules as `/newsletter`.
 - All four sibling vaults (geopolitics, Brazil, history, technologies) consulted on every run; report integrates whatever they have.
 - Default mode writes only the report and the daily-note report line. `--deepdive` may also write entity/concept notes, stubs, charts, DB rows, and daily-note edit-log entries exactly as `/deepdive` requires.
@@ -68,7 +68,7 @@ Purpose: make the report synthesize from a vault state that is good enough to tr
 
 1. **Scope the anchors** — for single-topic reports, deepdive the resolved primary anchor. For comparison reports, deepdive both anchors that are missing, stubby, or stale enough to distort the comparison. For comma-separated sequential reports, run this phase separately per topic.
 
-2. **Follow `/deepdive` gates for source-note edits** — use `.claude/skills/deepdive/SKILL.md` as the controlling procedure for the entity type:
+2. **Follow `/deepdive` gates for source-note edits** — use the `/deepdive` skill as the controlling procedure for the entity type:
    - `check_before_create.py` before any new note.
    - Vault-search first, then web/source research.
    - SEC filings, DB setup, price freshness, chart generation, and price verification for public companies.
@@ -128,11 +128,7 @@ This is the only acceptable structure. If you find yourself writing "Background:
 | `contrarian` | Lead with the case the consensus notes are missing. Stress-test the dominant read. |
 | `what-changed` | Chronological delta only. What's moved since the topic was last fresh in the vault. Pairs naturally with `--since`. |
 
-**Voice rules** — inherit from `/newsletter`:
-- Analytical, not editorial. No bull/bear calls. No "the market isn't pricing X" claims.
-- Exact figures with sources. No "significant" or "substantial."
-- Sharp, not sterile. Reader is a macro-focused investor who has the vault context.
-- Tensions over conclusions. Surface contradictions; let the reader decide.
+**Voice rules** — baseline: `docs/vault-note-guide.md` → "Voice and Writing Standards" (analytical not editorial, no bull/bear or "the market isn't pricing X" claims, exact figures with sources, tensions over conclusions, no bold, no emojis). Report-specific: the reader is a macro-focused investor who has the vault context — sharp, not sterile.
 
 **Calibrate for high general knowledge, low subject-specific knowledge.** The reader is an informed macro investor — assume they know sigma, beta, IRR, EPS, NII, ROE, CDS, ETFs, OPEC, shipping incoterms (CIF, FOB), off-take, Mitsui / Sumitomo / other major trading houses, G20 heads of state (Milei, Lula, Boric, Xi, Trump), basic commodity terminology. Do NOT gloss any of those.
 
@@ -260,4 +256,4 @@ Inline `[[wikilinks]]` to entities. Inline `[History: X](obsidian://...)` to cro
 - **Editorial framing.** "This is bullish for X" is wrong. "The setup that would make X bullish requires Y; today Y is at Z" is right.
 - **Stealth deepdive.** Never edit source notes unless `--deepdive` is explicit. Normal `/report` writes only the report itself plus the daily-note report line.
 - **Runaway deepdive.** `--deepdive` prepares the anchor(s) for a better report; it does not chase every gap recursively. Essential first-order support only, then surface the rest.
-- **Dropping wikilinks.** `[[NVIDIA]]` stays as `[[NVIDIA]]` in the output, never collapsed to "NVIDIA" or "Nvidia". CLAUDE.md printing rule applies.
+- **Dropping wikilinks.** `[[NVIDIA]]` stays as `[[NVIDIA]]` in the output, never collapsed to "NVIDIA" or "Nvidia". The repo printing rule applies.

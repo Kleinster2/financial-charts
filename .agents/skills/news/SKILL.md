@@ -34,7 +34,7 @@ Wait for the user to select which articles to ingest.
 
 For each selected article: run `/ingest URL`.
 
-`/ingest` handles source acquisition, full entity enumeration, classification gates (verification, concept-vs-actor, vault-of-record, cold research), vault writes with compliance, and daily-note logging. Those rules live in `.claude/skills/ingest/SKILL.md` and `docs/research-workflow.md` — don't re-state them here.
+`/ingest` handles source acquisition, full entity enumeration, classification gates (verification, concept-vs-actor, vault-of-record, cold research), vault writes with compliance, and daily-note logging. Those rules live in the `/ingest` skill and `docs/research-workflow.md` — don't re-state them here.
 
 ## Phase 3: Downstream Impact Check
 

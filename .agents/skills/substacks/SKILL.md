@@ -1,6 +1,6 @@
 ---
 name: substacks
-description: "Sweep ~84 tracked newsletter/Substack sources (Chartbook, ChinaTalk, Robin Brooks, Vizier Report, Chips and Wafers, etc. — full list in docs/newsletter-sources.md) for new posts in a configurable window (default 48 hours). Cross-references vault coverage, presents a candidate table, clusters posts into themes when useful, and delegates ingestion to /ingest URL for each selected post. Use for /substacks, newsletter sweep, themed Substack ingestion, what did the substacks publish, weekend reading."
+description: "Sweep the tracked newsletter/Substack sources (Chartbook, ChinaTalk, Robin Brooks, Vizier Report, etc. — list of record: docs/newsletter-sources.md) for new posts in a configurable window (default 48 hours). Cross-references vault coverage, presents a candidate table, clusters posts into themes when useful, and delegates ingestion to /ingest URL for each selected post. Use for /substacks, newsletter sweep, themed Substack ingestion, what did the substacks publish, weekend reading."
 ---
 
 # Substack Sweep
@@ -16,7 +16,7 @@ Scan tracked newsletters and Substacks for new posts and ingest the vault-releva
 
 ## Phase 1: Source Scan
 
-1. Read `docs/newsletter-sources.md` for the full source list (~84 publications).
+1. Read `docs/newsletter-sources.md` for the full source list — that file is the count of record; prose never embeds the source count.
 2. Default window: posts in the last 48 hours. User can override (`/substacks 7d` for a week, `/substacks 14d` for two).
 3. For each source: navigate to the archive/homepage. WebFetch first; fall back to Chrome MCP on 403 (per `[[feedback_chrome_on_403]]`).
 4. Capture title, date, and a one-line summary for each post in the window.
@@ -30,7 +30,7 @@ For each new pub:
 2. Mirror the row to `~/clawd/TOOLS.md`
 3. Subscribe via `POST {pub}/api/v1/free` (idempotent — no-op if already subscribed; use the Chrome-MCP same-origin navigate-then-fetch pattern from `investing/Daily/2026-05-16.md` Round 3)
 
-At end of run, bump count references in `CLAUDE.md` + SKILL.md descriptions (one update covers all increments). Promote SKILL.md to Codex + OpenClaw mirrors via `python scripts/promote_shared_skill.py substacks --from claude` and verify parity.
+No count bumping: source counts live only in `docs/newsletter-sources.md`, never in skill descriptions or CLAUDE.md prose. Adding rows there (plus the `~/clawd/TOOLS.md` mirror) is the whole update.
 
 ## Phase 2: Candidate Table
 

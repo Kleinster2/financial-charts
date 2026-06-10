@@ -1,6 +1,6 @@
 ---
 name: daily-scan
-description: "Autonomous daily market scan. Updates market data, screens vault actors for sigma movers (2.5σ standard / 2.0σ high-vol / 6% absolute — see docs/movers-screening.md), audits ticker aliases for Phase-0-invisible names, audits per-ticker price freshness vs the latest SPY session, tracks IPO debuts and stale pre-IPO rounds, scans 8 tracked analysts (docs/analyst-watchlist.md) for new commentary, checks today's earnings calendar, writes a briefing to the daily note, and returns the briefing in chat. Time-of-day agnostic — pre-market, intraday, post-close all work. Use for /daily-scan, /morning-scan (legacy), daily sweep, what moved today, pre-market check, what's on the earnings calendar."
+description: "Autonomous daily market scan: updates market data, screens vault actors for sigma movers (thresholds: docs/movers-screening.md), runs ticker-alias/price-freshness/IPO/private-capital audits, scans the analyst watchlist (docs/analyst-watchlist.md), checks the earnings calendar, and writes the briefing to the daily note and chat. Time-of-day agnostic. Use for /daily-scan, /morning-scan (legacy), daily sweep, what moved today, pre-market check, what's on the earnings calendar."
 ---
 
 # Daily Scan
@@ -58,7 +58,7 @@ Don't fold the calendar into the vault as a standalone note — earnings calenda
 
 ### Phase 3: Analyst Scan
 
-Scan the 8 tracked analysts in `docs/analyst-watchlist.md`. For each:
+Scan the tracked analysts in `docs/analyst-watchlist.md` (that file is the list of record). For each:
 1. One WebSearch with the watchlist's search pattern, scoped to the last 48 hours.
 2. Only flag if they published something new.
 3. Check against the analyst's `Analysts/` note to see if commentary is already captured.
@@ -89,7 +89,7 @@ Draft the briefing in the exact form that will be both appended to the daily not
 [This week's vault-relevant earnings. Dates, consensus.]
 
 ## Analyst signals
-[Only if any of the 8 published overnight. Otherwise skip.]
+[Only if any tracked analyst published overnight. Otherwise skip.]
 
 ## Vault actions needed
 - [ ] Update [[Actor]] — catalyst from sigma move
