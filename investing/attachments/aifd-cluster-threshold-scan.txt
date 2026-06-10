@@ -13,7 +13,7 @@ Cohort size: 10
       0.55              3                        6                      0.6                    0   False
       0.60              3                        6                      0.6                    0   False
       0.65              3                        6                      0.6                    3   False
-      0.70              3                        6                      0.6                    3   False
+      0.70              2                        6                      0.6                    3   False
 
 --- STABLE RANGES (intact cohort, no contamination) ---
   None — cohort never returns as a clean single cluster at any threshold.

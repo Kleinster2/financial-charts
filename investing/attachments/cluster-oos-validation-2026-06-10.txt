@@ -1,0 +1,44 @@
+POST-DEFINITION OUT-OF-SAMPLE RE-VALIDATION — 2026-06-10 (final, repaired inputs)
+Null: random {N}-baskets from cleaned stock-only pool on each cohort's OOS window, 10000 draws, Phipson-Smyth p.
+Definition date = first git commit of the cohort's YAML config (data after it was never peeked at).
+Verdicts on ratio = OOS intra / in-sample intra; < 40 obs = PRELIMINARY.
+Rebuilt from scripts/cluster_registry.csv after the repaired-input recovery runs (MRSH alias fix; 13 frozen series backfilled).
+
+Cohort                                          N    defined  obs in-intra oos-intra  ratio  oos-PC1   p-oos  verdict
+---------------------------------------------------------------------------------------------------------------------
+Global luxury candidate basket                  9 2026-05-28    7      nan       nan    nan     nan%     nan  INSUFFICIENT_HISTORY (7 obs < 15)
+AI Compute                                      3 2026-05-11   19    0.557     0.587   1.05    73.2%  0.0112  PRELIMINARY OOS-CONFIRMED
+AI hyperscalers                                 5 2026-05-03   24    0.261     0.277   1.06    43.1%  0.0792  PRELIMINARY OOS-CONFIRMED
+Alternative asset managers basket (ALTM)        6 2026-05-03   24    0.770     0.739   0.96    78.6%  0.0001  PRELIMINARY OOS-CONFIRMED
+Appliance / housing durables                    5 2026-05-07   21    0.473     0.448   0.95    57.5%  0.0085  PRELIMINARY OOS-CONFIRMED
+Card networks duopoly                           2 2026-05-03   24    0.826     0.866   1.05    93.3%  0.0028  PRELIMINARY OOS-CONFIRMED
+Hyperscaler supplier chain                      8 2026-05-03   24    0.606     0.643   1.06    70.1%  0.0001  PRELIMINARY OOS-CONFIRMED
+Korea Memory                                    2 2026-05-11   20    0.735     0.801   1.09    90.1%  0.0089  PRELIMINARY OOS-CONFIRMED
+Life insurers pair                              2 2026-05-03   24    0.713     0.718   1.01    85.9%  0.0075  PRELIMINARY OOS-CONFIRMED
+Mega banks                                      5 2026-05-03   24    0.729     0.692   0.95    76.0%  0.0001  PRELIMINARY OOS-CONFIRMED
+Platform cyber                                  3 2026-05-03   24    0.686     0.686   1.00    79.3%  0.0011  PRELIMINARY OOS-CONFIRMED
+Security control points (SCP)                   6 2026-05-03   24    0.545     0.546   1.00    65.1%  0.0001  PRELIMINARY OOS-CONFIRMED
+Edge control-plane risk basket (ECPR)           3 2026-05-03   24    0.444    -0.001  -0.00    52.1%  0.6947  PRELIMINARY OOS-FAILED
+AI financial disintermediation basket (AIFD)   10 2026-05-03   24    0.330     0.425   1.29    54.6%  0.0002  PRELIMINARY OOS-STRENGTHENING
+Animal health                                   4 2026-05-07   21    0.336     0.462   1.37    60.8%  0.0143  PRELIMINARY OOS-STRENGTHENING
+Crypto-exposed financial platforms              2 2026-05-09   19    0.663     0.771   1.16    88.6%  0.0104  PRELIMINARY OOS-STRENGTHENING
+Crypto-to-AI converters                         7 2026-05-11   19    0.625     0.706   1.13    75.1%  0.0001  PRELIMINARY OOS-STRENGTHENING
+Cybersecurity consolidation                     4 2026-05-03   24    0.346     0.496   1.44    65.4%  0.0091  PRELIMINARY OOS-STRENGTHENING
+Defense primes                                  7 2026-05-03   24    0.450     0.597   1.33    66.5%  0.0001  PRELIMINARY OOS-STRENGTHENING
+Defense primes (core 6)                         6 2026-05-11   19    0.490     0.756   1.54    79.8%  0.0001  PRELIMINARY OOS-STRENGTHENING
+Foundry monopoly                                4 2026-05-03   20    0.207     0.329   1.59    51.1%  0.0683  PRELIMINARY OOS-STRENGTHENING
+Golden Dome defense-tech                        5 2026-05-10   19    0.404     0.675   1.67    74.9%  0.0001  PRELIMINARY OOS-STRENGTHENING
+Indian metals                                   4 2026-05-06   25    0.431     0.526   1.22    65.0%  0.0058  PRELIMINARY OOS-STRENGTHENING
+Insurance brokers basket                        6 2026-05-03   24    0.643     0.867   1.35    89.0%  0.0001  PRELIMINARY OOS-STRENGTHENING
+Insurance carriers                              8 2026-05-03   24    0.451     0.633   1.40    68.9%  0.0001  PRELIMINARY OOS-STRENGTHENING
+P&C insurance carriers                          5 2026-05-03   24    0.642     0.783   1.22    82.8%  0.0001  PRELIMINARY OOS-STRENGTHENING
+Payments                                        8 2026-05-03   24    0.394     0.453   1.15    52.6%  0.0001  PRELIMINARY OOS-STRENGTHENING
+Space pure-plays                                7 2026-05-10   19    0.563     0.671   1.19    72.0%  0.0001  PRELIMINARY OOS-STRENGTHENING
+US Memory                                       3 2026-05-11   19    0.700     0.824   1.18    88.3%  0.0002  PRELIMINARY OOS-STRENGTHENING
+WFE quartet                                     4 2026-05-03   24    0.799     0.881   1.10    91.1%  0.0001  PRELIMINARY OOS-STRENGTHENING
+Wealth managers basket                          4 2026-05-03   24    0.503     0.653   1.30    74.2%  0.0001  PRELIMINARY OOS-STRENGTHENING
+Boutique advisory                               6 2026-05-03   24    0.724     0.530   0.73    62.5%  0.0009  PRELIMINARY OOS-WEAKENED
+Fabless semiconductor                           4 2026-05-03   24    0.415     0.353   0.85    52.9%  0.0522  PRELIMINARY OOS-WEAKENED
+Mag 7                                           7 2026-05-03   24    0.310     0.226   0.73    37.9%  0.0510  PRELIMINARY OOS-WEAKENED
+
+Verdict counts: INSUFFICIENT_HISTORY 1, OOS-CONFIRMED 11, OOS-FAILED 1, OOS-STRENGTHENING 18, OOS-WEAKENED 3

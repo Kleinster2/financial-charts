@@ -1,21 +1,21 @@
 Boutique advisory PERMUTATION TESTS
 Window: 2025-05-01 -> 2026-04-30 (251 obs)
 Candidate cohort: PWP, LAZ, EVR, MC, HLI, PJT (N=6)
-Observed intra-corr: 0.7358    Observed PC1: 78.10%
+Observed intra-corr: 0.7310    Observed PC1: 77.70%
 
 --- RANDOM-BASKET NULL ---
 Permutations: 10000
 Universe source: DB prices_long (220 tickers with >=200 obs in window)
 Pool size: 214
 Intra-cluster correlation:
-  Null mean:        0.1667
-  Null 95th pct:    0.2953
+  Null mean:        0.1676
+  Null 95th pct:    0.2955
   Null 99th pct:    0.3580
   p-value (right):  0.000100    -> REJECTS random-basket null at p < 0.001
 PC1 explained variance:
-  Null mean:        33.15%
-  Null 95th pct:    43.11%
-  Null 99th pct:    48.37%
+  Null mean:        33.17%
+  Null 95th pct:    43.14%
+  Null 99th pct:    48.38%
   p-value (right):  0.000100    -> REJECTS random-basket null at p < 0.001
 
 --- INTERPRETATION ---

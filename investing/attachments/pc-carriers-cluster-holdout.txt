@@ -10,13 +10,13 @@ PC1 explained var:    78.76%
 Pairwise range:       [0.580, 0.832]
 
 --- TEST HALF (newer) ---
-Intra-correlation:    0.6466
-PC1 explained var:    71.87%
-Pairwise range:       [0.555, 0.822]
+Intra-correlation:    0.6449
+PC1 explained var:    71.74%
+Pairwise range:       [0.555, 0.820]
 
 --- STABILITY DIAGNOSTICS ---
-Intra-corr delta:     -0.0863   (test - train)
-PC1 variance delta:   -6.89pp
-PC1 loadings corr:    0.9300    (1.0 = identical factor structure)
+Intra-corr delta:     -0.0880   (test - train)
+PC1 variance delta:   -7.02pp
+PC1 loadings corr:    0.9282    (1.0 = identical factor structure)
 
 VERDICT: STABLE — test/train ratio 0.88 (durable cluster across regimes)

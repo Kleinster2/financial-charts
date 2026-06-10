@@ -2,7 +2,7 @@ US Memory HOLDOUT TEST
 Cohort: MU, SNDK, WDC (N=3)
 Window: 2y, split temporally at midpoint
 Train: 2024-05-08 -> 2025-05-08 (20 obs)
-Test:  2025-05-08 -> 2026-05-08 (170 obs)
+Test:  2025-05-08 -> 2026-05-08 (175 obs)
 
 --- TRAIN HALF (older) ---
 Intra-correlation:    nan
@@ -10,9 +10,9 @@ PC1 explained var:    nan%
 Pairwise range:       [nan, nan]
 
 --- TEST HALF (newer) ---
-Intra-correlation:    0.7014
-PC1 explained var:    80.10%
-Pairwise range:       [0.677, 0.741]
+Intra-correlation:    0.7024
+PC1 explained var:    80.18%
+Pairwise range:       [0.670, 0.750]
 
 --- STABILITY DIAGNOSTICS ---
 Intra-corr delta:     +nan   (test - train)

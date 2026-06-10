@@ -1,21 +1,21 @@
 US Memory PERMUTATION TESTS
 Window: 2025-05-09 -> 2026-05-08 (174 obs)
 Candidate cohort: MU, SNDK, WDC (N=3)
-Observed intra-corr: 0.7021    Observed PC1: 80.15%
+Observed intra-corr: 0.7031    Observed PC1: 80.22%
 
 --- RANDOM-BASKET NULL ---
 Permutations: 10000
 Universe source: DB prices_long (918 tickers with >=200 obs in window)
 Pool size: 915
 Intra-cluster correlation:
-  Null mean:        0.1419
-  Null 95th pct:    0.3265
-  Null 99th pct:    0.4256
+  Null mean:        0.1429
+  Null 95th pct:    0.3267
+  Null 99th pct:    0.4283
   p-value (right):  0.000100    -> REJECTS random-basket null at p < 0.001
 PC1 explained variance:
-  Null mean:        44.92%
-  Null 95th pct:    55.91%
-  Null 99th pct:    62.25%
+  Null mean:        44.95%
+  Null 95th pct:    55.99%
+  Null 99th pct:    62.32%
   p-value (right):  0.000100    -> REJECTS random-basket null at p < 0.001
 
 --- INTERPRETATION ---

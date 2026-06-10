@@ -1,8 +1,8 @@
 Insurance brokers basket HOLDOUT TEST
-Cohort: WTW, AJG, AON, BRO, MMC, RYAN (N=6)
+Cohort: WTW, AJG, AON, BRO, MRSH, RYAN (N=6)
 Window: 2y, split temporally at midpoint
 Train: 2024-04-30 -> 2025-04-30 (56 obs)
-Test:  2025-04-30 -> 2026-04-30 (134 obs)
+Test:  2025-04-30 -> 2026-04-30 (172 obs)
 
 --- TRAIN HALF (older) ---
 Intra-correlation:    0.6996
@@ -10,13 +10,13 @@ PC1 explained var:    75.14%
 Pairwise range:       [0.524, 0.822]
 
 --- TEST HALF (newer) ---
-Intra-correlation:    0.6646
-PC1 explained var:    72.40%
-Pairwise range:       [0.485, 0.799]
+Intra-correlation:    0.6566
+PC1 explained var:    71.75%
+Pairwise range:       [0.460, 0.797]
 
 --- STABILITY DIAGNOSTICS ---
-Intra-corr delta:     -0.0350   (test - train)
-PC1 variance delta:   -2.74pp
-PC1 loadings corr:    0.0593    (1.0 = identical factor structure)
+Intra-corr delta:     -0.0430   (test - train)
+PC1 variance delta:   -3.39pp
+PC1 loadings corr:    -0.0838    (1.0 = identical factor structure)
 
-VERDICT: STABLE — test/train ratio 0.95 (durable cluster across regimes)
+VERDICT: STABLE — test/train ratio 0.94 (durable cluster across regimes)

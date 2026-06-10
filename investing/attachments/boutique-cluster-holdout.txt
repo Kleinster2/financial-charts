@@ -2,7 +2,7 @@ Boutique advisory HOLDOUT TEST
 Cohort: PWP, LAZ, EVR, MC, HLI, PJT (N=6)
 Window: 2y, split temporally at midpoint
 Train: 2024-04-30 -> 2025-04-30 (249 obs)
-Test:  2025-04-30 -> 2026-04-30 (244 obs)
+Test:  2025-04-30 -> 2026-04-30 (252 obs)
 
 --- TRAIN HALF (older) ---
 Intra-correlation:    0.8066
@@ -10,13 +10,13 @@ PC1 explained var:    83.94%
 Pairwise range:       [0.721, 0.886]
 
 --- TEST HALF (newer) ---
-Intra-correlation:    0.7347
-PC1 explained var:    78.00%
-Pairwise range:       [0.620, 0.880]
+Intra-correlation:    0.7299
+PC1 explained var:    77.60%
+Pairwise range:       [0.613, 0.877]
 
 --- STABILITY DIAGNOSTICS ---
-Intra-corr delta:     -0.0719   (test - train)
-PC1 variance delta:   -5.94pp
-PC1 loadings corr:    0.7398    (1.0 = identical factor structure)
+Intra-corr delta:     -0.0767   (test - train)
+PC1 variance delta:   -6.34pp
+PC1 loadings corr:    0.7502    (1.0 = identical factor structure)
 
-VERDICT: STABLE — test/train ratio 0.91 (durable cluster across regimes)
+VERDICT: STABLE — test/train ratio 0.90 (durable cluster across regimes)

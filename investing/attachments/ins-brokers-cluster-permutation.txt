@@ -1,21 +1,21 @@
 Insurance brokers basket PERMUTATION TESTS
 Window: 2025-05-01 -> 2026-04-30 (171 obs)
-Candidate cohort: WTW, AJG, AON, BRO, MMC, RYAN (N=6)
-Observed intra-corr: 0.6623    Observed PC1: 72.21%
+Candidate cohort: WTW, AJG, AON, BRO, MRSH, RYAN (N=6)
+Observed intra-corr: 0.6548    Observed PC1: 71.61%
 
 --- RANDOM-BASKET NULL ---
 Permutations: 10000
 Universe source: DB prices_long (220 tickers with >=200 obs in window)
-Pool size: 219
+Pool size: 218
 Intra-cluster correlation:
-  Null mean:        0.1727
-  Null 95th pct:    0.3043
-  Null 99th pct:    0.3641
+  Null mean:        0.1746
+  Null 95th pct:    0.3055
+  Null 99th pct:    0.3635
   p-value (right):  0.000100    -> REJECTS random-basket null at p < 0.001
 PC1 explained variance:
-  Null mean:        33.66%
-  Null 95th pct:    43.94%
-  Null 99th pct:    48.71%
+  Null mean:        33.73%
+  Null 95th pct:    43.95%
+  Null 99th pct:    48.80%
   p-value (right):  0.000100    -> REJECTS random-basket null at p < 0.001
 
 --- INTERPRETATION ---

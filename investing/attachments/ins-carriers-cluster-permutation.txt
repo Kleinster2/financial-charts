@@ -1,21 +1,21 @@
 Insurance carriers PERMUTATION TESTS
 Window: 2025-05-01 -> 2026-04-30 (197 obs)
 Candidate cohort: PGR, CB, TRV, ALL, MET, PRU, AIG, HIG (N=8)
-Observed intra-corr: 0.4592    Observed PC1: 54.02%
+Observed intra-corr: 0.4595    Observed PC1: 54.01%
 
 --- RANDOM-BASKET NULL ---
 Permutations: 10000
 Universe source: DB prices_long (220 tickers with >=200 obs in window)
 Pool size: 220
 Intra-cluster correlation:
-  Null mean:        0.1712
-  Null 95th pct:    0.2806
-  Null 99th pct:    0.3354
+  Null mean:        0.1721
+  Null 95th pct:    0.2812
+  Null 99th pct:    0.3367
   p-value (right):  0.000300    -> REJECTS random-basket null at p < 0.001
 PC1 explained variance:
-  Null mean:        30.39%
-  Null 95th pct:    39.49%
-  Null 99th pct:    44.35%
+  Null mean:        30.42%
+  Null 95th pct:    39.52%
+  Null 99th pct:    44.29%
   p-value (right):  0.000200    -> REJECTS random-basket null at p < 0.001
 
 --- INTERPRETATION ---
