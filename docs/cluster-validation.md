@@ -622,6 +622,7 @@ If steps 5-6 cannot reach a defensible cluster, the conclusion is "this actor is
   - `scripts/cluster_threshold_scan.py` (threshold-stable range — boundary robustness)
   - `scripts/cluster_registry.py` (cross-cohort log + Bonferroni / Benjamini-Hochberg correction)
   - `scripts/cluster_oos_validation.py` (post-definition out-of-sample re-validation — the discovery-bias closer)
+  - `tests/cluster_statistics_tests.py` (synthetic-data regression tests pinning the statistical layer to ground truth; runs in `npm run test:consistency`)
   - `scripts/cluster_stability_check.py` (rolling window stability — YTD/1Y/2Y/3Y)
   - `scripts/chart_pc1_component.py` (PC1 factor index + rolling explained variance)
   - `scripts/cluster_deep_dive.py` (factor decomposition vs benchmarks + PC2 + missing-name screen)

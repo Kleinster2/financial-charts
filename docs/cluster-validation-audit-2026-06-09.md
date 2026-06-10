@@ -155,3 +155,15 @@ Headline findings:
 Operational footnote: the full re-run batch presumed dead mid-recovery was actually alive the whole time — a starved, block-buffered background process whose name (`python3.12`, the Windows Store shim) eluded a `Get-Process python` check. It was stopped cleanly via the harness task tools after the targeted recovery runs had already covered every repaired cohort; since it launched after the fixes, all its writes used repaired inputs and the registry stayed coherent. Lesson: judge background tasks by harness task state, not by process-name greps.
 
 Item 5 status: COMPLETE. Open items remaining: 6 (synthetic-data regression tests), 7 (secondary fixes).
+
+### Item 6 — synthetic-data regression tests (2026-06-10)
+
+`tests/cluster_statistics_tests.py` (16 tests, ~3.5s, hermetic — no DB/network/git; wired into `npm run test:consistency`). The statistical layer previously had zero coverage, which is how the polluted null and p = 0.0 defects shipped silently. Now pinned to ground truth:
+
+- Planted equicorrelation (rho 0.6, N=5, T=20k) recovered by `intra_correlation` within ±0.02; PC1 explained variance matches the closed form (1 + (N−1)ρ)/N; `pca_analysis` loadings positive and near-equal.
+- Hierarchical clustering recovers a planted 2-block structure exactly; threshold-cut semantics exact on a hand-built correlation matrix (singletons below pair distance, two clusters at 0.4, one above cross distance); average-linkage join-distance topology matches hand arithmetic to 9 decimals.
+- Phipson-Smyth p-values: floor exactly (k+1)/(n+1), never 0, ceiling 1.0; OOS `p_right_tail` returns nan on empty nulls.
+- Random-basket machinery end-to-end calibration: a planted ρ=0.6 cohort hits the p-floor against an independent 40-name synthetic universe whose null distribution centers on 0; impossible observations return exactly 1.0; no spurious sample skips.
+- Verdict bands (holdout STRENGTHENING/STABLE/WEAKENED/REGIME-DEPENDENT/INDETERMINATE; OOS grades + PRELIMINARY prefix) honor documented cut-points; `block_shuffle` permutation/bootstrap properties; `is_us_common_stock_ticker` accepts US names (incl. BRK-B) and rejects foreign suffixes, indices, futures, crypto pairs.
+
+Item 6 status: COMPLETE. Open item remaining: 7 (secondary fixes — holdout sign alignment, zero-variance guards in `pca_analysis`/rolling loop, beta/vol-matched null variant, weekly-return cross-region check).
