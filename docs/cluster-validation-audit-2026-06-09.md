@@ -1,5 +1,7 @@
 # Cluster validation framework — robustness audit (2026-06-09)
 
+Plain-language companion: `investing/Reports/2026-06-10-cluster-framework-explainer.md` (narrative version of the audit, remediation, and OOS pass, readable without prior context).
+
 Point-in-time audit of the cluster identification routine, prompted by the question "is our cluster identification routine robust?" Scope: `scripts/cluster_analysis.py`, `scripts/cluster_permutation_test.py`, `scripts/cluster_holdout_test.py`, `scripts/cluster_threshold_scan.py`, `scripts/cluster_registry.py`, `scripts/cluster_stability_check.py`, `scripts/cluster_registry.csv` (33 rows), `docs/cluster-validation.md`, the 34 YAML configs in `scripts/cluster_configs/`, and direct queries against `market_data.db` to measure the random-basket null pool. No fixes were applied as of this audit date; findings reference the code as committed on 2026-06-09.
 
 ## Verdict
