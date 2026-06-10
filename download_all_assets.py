@@ -1084,6 +1084,11 @@ EXCLUDED_TICKERS = [
     "EXAS",      # Exact Sciences — acquired by Abbott
     "MMC",       # Marsh McLennan — ticker changed to MRSH
     "LUXH",      # LuxUrban Hotels — bankruptcy/liquidation
+    # 2026-06-10 freshness-audit classification (docs/cluster-validation-audit-2026-06-09.md)
+    "FM",        # iShares Frontier & Select EM ETF — liquidated 2025-01-09; NOT First Quantum (that is FM.TO)
+    "NKLA",      # Nikola — bankruptcy Feb 2025, delisted
+    "HOUS",      # Anywhere Real Estate — acquired by Compass, closed Jan 2026
+    "CTRA",      # Coterra Energy — merged into Devon Energy, closed 2026-05-07
 ]
 
 # Foreign exchange tickers (major + EM pairs)
@@ -1166,6 +1171,42 @@ def get_cluster_config_tickers():
                     tickers.add(t)
     return sorted(tickers)
 
+
+def get_vault_actor_tickers():
+    """Tickers referenced by vault actor notes that the DB already tracks.
+
+    Companion to get_cluster_config_tickers(): names fetched once for an actor
+    note otherwise freeze at their fetch date. The 2026-06-10 freshness audit
+    found 51 stale tracked tickers this way (Jefferies frozen since Mar 16, a
+    20-name wave frozen on May 1). Only tickers already typed stock/equity/
+    etf/etn/fund in ticker_metadata are included — adding brand-new tickers
+    stays scripts/add_ticker.py's job, EXCLUDED_TICKERS still applies at the
+    group filter, and exchange-suffixed names stay with their groups.
+    """
+    import sqlite3
+    import sys as _s
+    scripts_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "scripts")
+    if scripts_dir not in _s.path:
+        _s.path.insert(0, scripts_dir)
+    try:
+        from check_vault_movers import get_all_vault_tickers
+        conn = sqlite3.connect(DB_PATH)
+        rows = conn.execute(
+            "SELECT ticker FROM ticker_metadata "
+            "WHERE data_type IN ('stock', 'equity', 'etf', 'etn', 'fund')"
+        ).fetchall()
+        conn.close()
+    except Exception as e:
+        print(f"  (vault-actor ticker group skipped: {e})")
+        return []
+    eligible = {r[0] for r in rows}
+    handled_suffixes = (".KS", ".SA", ".NS", ".TO", ".T", ".SS", ".SZ")
+    vault = {
+        t for t in get_all_vault_tickers()
+        if not any(t.endswith(s) for s in handled_suffixes)
+    }
+    return sorted(vault & eligible)
+
 # Non-index B3 tickers tracked in the vault (not in Ibovespa but have actor notes)
 VAULT_BRAZIL_TICKERS = [
     "RAIZ4.SA",   # Raizen — restructuring
@@ -1217,13 +1258,15 @@ def update_sp500_data(verbose: bool = True, assets=None, lookback_days: int = No
         # Build asset groups
         cluster_cfg_tickers = get_cluster_config_tickers()
         vprint(f"Cluster-config tickers included in stocks group: {len(cluster_cfg_tickers)}")
+        vault_actor_tickers = get_vault_actor_tickers()
+        vprint(f"Vault-actor tickers included in stocks group: {len(vault_actor_tickers)}")
         groups = {
             'stocks': [t for t in sorted(list(set(
                 sp500_tickers + ibov_tickers + OTHER_HIGH_PROFILE_STOCKS + EV_STOCKS + CRYPTO_STOCKS + QUANTUM_STOCKS +
                 ADTECH_STOCKS + GAMING_IGAMING_STOCKS + BIOTECH_STOCKS + MINING_RARE_EARTH_STOCKS + BATTERY_ENERGY_STORAGE_STOCKS +
                 NUCLEAR_ENERGY_STOCKS + AI_SEMICONDUCTOR_STOCKS + SPACE_AEROSPACE_STOCKS + DEFENSE_STOCKS +
                 FINTECH_LATAM_STOCKS + RECENT_IPOS_GROWTH + ROBOTICS_INDUSTRIAL + FIREARMS_STOCKS + DEFENSE_CONTRACTORS +
-                EUROPE_DEFENSE_STOCKS + EUROPE_STOCKS + cluster_cfg_tickers
+                EUROPE_DEFENSE_STOCKS + EUROPE_STOCKS + cluster_cfg_tickers + vault_actor_tickers
             ))) if t not in EXCLUDED_TICKERS],
             'etfs': [t for t in ETF_TICKERS if t not in EXCLUDED_TICKERS],
             'mutualfunds': MUTUAL_FUND_TICKERS,

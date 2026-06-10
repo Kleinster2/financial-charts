@@ -11,7 +11,7 @@ aliases: [FM, First Quantum, FQM]
 
 | Metric | Value |
 |--------|-------|
-| Ticker | FM (TSX) |
+| Ticker | FM.TO (TSX: FM; the unrelated US ticker FM was the iShares Frontier ETF, liquidated Jan 2025) |
 | Market cap | ~C$15B |
 | 2025 copper guidance (ex-Cobre Panama) | 390–410kt |
 | Net debt (Q3 2025) | $4.75B |

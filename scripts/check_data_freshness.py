@@ -138,9 +138,11 @@ def main() -> None:
             print(f"{'Ticker':<12} {'last close':<12} {'behind':>7} {'allow':>6}  source")
             for r in stale:
                 print(f"{r['ticker']:<12} {r['last_close']:<12} {r['sessions_behind']:>7} {r['allowance']:>6}  {r['source']}")
-            print("\nFix: scripts/add_ticker.py TICKER ... to backfill, then check why the name "
-                  "is missing from the refresh lists in download_all_assets.py (or whether it "
-                  "renamed/delisted -> EXCLUDED_TICKERS + vault 'Former ticker').")
+            print("\nFix: scripts/add_ticker.py TICKER ... to backfill. Vault-actor and "
+                  "cluster-config tickers auto-refresh daily (dynamic groups in "
+                  "download_all_assets.py), so a persistent offender is a rename/delisting "
+                  "candidate: verify the corporate action, then add to EXCLUDED_TICKERS and "
+                  "update the vault note's 'Former ticker'.")
 
     sys.exit(1 if stale else 0)
 
