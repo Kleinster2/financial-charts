@@ -5,7 +5,7 @@ tags: [concept, framework, cluster-validation, meta-analysis]
 
 # Vault cluster taxonomy
 
-Synthesis of cluster-validation findings across the vault's validated and falsified cohorts as of May 2026. Documents what was learned by applying the [[Space pure-plays]] framework to 8 cohorts with matched methodology (1Y window through 2026-05-07, threshold 0.5, identical PCA + factor-decomposition + subset-optimization scripts). The cross-cohort tests revealed structural patterns that recur — useful as a reference when validating new cohorts.
+Synthesis of cluster-validation findings across the vault's validated and falsified cohorts as of May 2026. Documents what was learned by applying the [[Space pure-plays]] framework to 8 cohorts with matched methodology (1Y window through 2026-05-07, threshold 0.5, identical PCA + factor-decomposition + subset-optimization scripts). The cross-cohort tests revealed structural patterns that recur — useful as a reference when validating new cohorts. Statistically re-validated June 9–10 2026 against a cleaned stock-only null with multiple-testing correction, and extended with a post-definition out-of-sample layer — see the June 2026 re-validation section.
 
 ---
 
@@ -22,13 +22,31 @@ Synthesis of cluster-validation findings across the vault's validated and falsif
 | [[Concepts/Defense primes basket\|Defense primes 6-core]] | 6 | 0.556 | 0.448-0.707 | 64.31% | 36.0% | Validated (after LDOS exclusion) |
 | [[Concepts/Defense primes basket\|Defense primes 7-name]] | 7 | 0.512 | 0.210-0.707 | 58.59% | — | Partial (LDOS drag) |
 | [[Concepts/Mag 7 cluster\|Mag 7]] | 7 | 0.316 | 0.078-0.461 | 41.82% | 14.6% | Falsified |
-| [[Concepts/Boutique advisory consolidation\|Boutique advisory consolidation]] | 6 | 0.73 (May 2025 figures) | — | 77% | — | Validated (older methodology — re-run pending) |
+| [[Concepts/Boutique advisory consolidation\|Boutique advisory consolidation]] | 6 | 0.731 (matched re-run 2026-06-10) | — | 77.70% | — | Validated (matched; holdout STABLE 0.90) |
 | [[Sectors/UAS defense micro-cluster\|UAS pair]] | 2 | 0.678 | (pair only) | — | — | Validated micro-cluster (KTOS-AVAV; current through Jun. 3) |
 
-All 8+ cohorts run with matched methodology except Boutique advisory (older numbers retained until re-run). [[Space pure-plays]] is the canonical worked example with all 19 analytical sections; [[Concepts/Mag 7 cluster|Mag 7]] is the canonical falsified counterpoint at same N=7.
+All cohorts now run with matched methodology — Boutique advisory's pending re-run completed 2026-06-10 (intra 0.731, PC1 77.70%, random-basket p at the 0.0001 floor), slotting it into the validated band exactly where the May 2025 figures suggested. [[Space pure-plays]] is the canonical worked example with all 19 analytical sections; [[Concepts/Mag 7 cluster|Mag 7]] is the canonical falsified counterpoint at same N=7. The table's intra-corr/PC1 figures are the May 2026 matched-window snapshot; every cohort's permutation p-value was re-measured 2026-06-09/10 against a cleaned stock-only null — see the June 2026 re-validation section below.
 
 ![[vault-cluster-taxonomy-intra-corr-chart.png]]
 *Cross-cohort intra-correlation comparison using the taxonomy table above. The chart shows the 0.50 validation floor, the updated UAS pair at 0.678 through Jun. 3 2026, and the falsified Mag 7 reference at 0.316; Boutique advisory remains marked as older-methodology until re-run.*
+
+---
+
+## June 2026 statistical re-validation campaign
+
+The 2026-06-09 robustness audit of the validation framework (`docs/cluster-validation-audit-2026-06-09.md`, plain-language companion in `investing/Reports/2026-06-10-cluster-framework-explainer.md`) found the random-basket null pool polluted with non-equity series (ETFs, FX pairs, crypto, macro, synthetic indices) and the permutation math capable of impossible p = 0.0 readings. Remediation landed 2026-06-10 — stock-only null pool (~920 US-listed names), Phipson-Smyth p-values at 10,000 permutations — and all 34 registry cohorts were re-graded. Three campaign results matter for this taxonomy:
+
+### 1. Honest p-values, and the distortion was size-dependent
+
+20 of 34 cohorts pass Bonferroni, 30 of 34 pass Benjamini-Hochberg FDR at alpha 0.05; the only outright failures (Foundry monopoly p = 0.328, [[AI hyperscalers]] 0.135, Animal health 0.065, [[Cybersecurity consolidation]] 0.051) were already falsified or never promoted — no validated cohort lost certification. The old pollution had distorted in both directions by cohort size: small-N cohorts were penalized by occasional all-crypto/all-FX null draws ([[Sectors/AI Compute\|AI Compute]] p 0.023 → 0.0026, [[Sectors/Korea Memory\|Korea Memory]] 0.006 → 0.0031, [[Concepts/Mag 7 cluster\|Mag 7]] 0.010 → 0.0050), while weak mid-size cohorts were flattered by FX/macro deflators ([[AI hyperscalers]] 0.028 → 0.135). Mag 7's falsification never rested on the permutation test anyway — the holdout (ratio 0.44, REGIME-DEPENDENT) and zero-width threshold scan carry it. A vol-matched null variant now exists for high-beta cohorts; [[Space pure-plays]] rejects all three nulls — independence, random-basket, and same-volatility baskets — at the 0.0001 floor, retiring the "it's just shared beta" critique by measurement.
+
+### 2. The registry is now a forward ledger (post-definition OOS pass)
+
+Every cohort carries a git-frozen definition date (first commit of its YAML config) and is re-validated quarterly on returns strictly after it — data discovery bias cannot have touched (`scripts/cluster_oos_validation.py`, §5 of the falsification framework in `docs/cluster-validation.md`). First pass 2026-06-10, all verdicts PRELIMINARY at 19–25 of the 40 required observations: 18 OOS-STRENGTHENING, 11 OOS-CONFIRMED, 3 OOS-WEAKENED ([[Concepts/Boutique advisory consolidation\|Boutique advisory]], Fabless semis, [[Concepts/Mag 7 cluster\|Mag 7]]), 1 OOS-FAILED (ECPR — see exploration log), 1 insufficient (luxury, defined May 28). Broad ratio inflation across defense/insurance STRENGTHENING rows (1.3–1.7) reflects ambient correlation rising in May–June 2026 (Hormuz, CPI anticipation); the OOS random-basket p is the control — those cohorts also beat random baskets on the same days at the floor. First non-preliminary verdicts land ~July 2026; status callouts only cite OOS verdicts once PRELIMINARY drops.
+
+### 3. Tensions queued for the July pass
+
+Two cohorts falsified in-sample are cohering out-of-sample: [[Cybersecurity consolidation]] (ratio 1.44, p = 0.0091) and Animal health (1.37, 0.0143). Boutique advisory's cooling is real but not a falsification — full six names, intra 0.724 → 0.530 post-definition, still beating random at p = 0.0009: a validated cluster descending from its May 1 print-event cohesion peak. Indian metals loosened on fresh data (intra 0.581 → 0.418 across windows) — watchlist.
 
 ---
 
@@ -38,6 +56,8 @@ This section records boundary tests, candidate screens, and falsified cluster hy
 
 | Date | Exploration | Status | Finding | Canonical evidence |
 |---|---|---|---|---|
+| 2026-06-10 | ECPR (edge control-plane risk basket: [[Cloudflare]], [[Akamai]], [[Fastly]]) post-definition OOS test | Falsified out-of-sample — first OOS falsification in the framework | The cohort passed every in-sample diagnostic (clean-null random-basket p = 0.0123, BH-pass), then its intra-correlation went 0.444 → −0.001 over the 24 sessions after its May 3 definition date; random baskets beat it 69% of the time on the same window. The boundary did not survive contact with unseen data — the exact failure mode in-sample validation cannot catch. Re-grade at the July pass when PRELIMINARY drops. | `scripts/cluster_registry.csv` (oos columns); `investing/attachments/cluster-oos-validation-2026-06-10.txt`; `docs/cluster-validation-audit-2026-06-09.md` item 5 |
+| 2026-06-09/10 | Full-registry statistical re-validation (clean null) + first OOS pass | 34 cohorts re-graded; no validated cohort lost certification | Stock-only null pool, Phipson-Smyth p at 10k draws: 20/34 Bonferroni, 30/34 BH-FDR. OOS first pass: 18 STRENGTHENING / 11 CONFIRMED / 3 WEAKENED / 1 FAILED / 1 insufficient, all PRELIMINARY. Distortion of old p-values was size-dependent (small-N penalized by crypto/FX null clumps, weak cohorts flattered by deflators). See the June 2026 re-validation section above. | `scripts/cluster_registry.csv`; `docs/cluster-validation-audit-2026-06-09.md` Status |
 | 2026-06-05 | [[Sectors/UAS defense micro-cluster\|UAS defense micro-cluster]] current-data validation | Existing micro-cluster held and tightened | KTOS-AVAV remains a real 2-name micro-cluster through 2026-06-03 with 0.678 trailing-1Y pair correlation, up from the prior 0.638 read. It is distinct from defense primes (pair avg 0.368), broad ETFs (0.443), and the [[Space pure-plays]] cohort (0.464), but still too small to treat as a full cohort. | [[Sectors/UAS defense micro-cluster\|UAS defense micro-cluster]]; `prices_long` current through 2026-06-03 |
 | 2026-06-05 | [[Space pure-plays]] current-data validation | Existing cluster held and tightened | Current local DB through 2026-06-03 still validates the seven-name cohort at the 0.5 threshold: 1Y intra-correlation 0.634, PC1 68.8%, pairwise range 0.538-0.748. The defense-prime separation widened to +0.357, confirming the public-space selloff is a space-beta sleeve rather than merely defense beta. | [[Space pure-plays]]; `scripts/cluster_configs/rklb.yaml`; `space-pureplays-cluster-jun03-*` diagnostics |
 | 2026-05-27 | [[Space pure-plays]] post-SpaceX-IPO-hype refresh | Existing cluster held | Refreshed `prices_long` through 2026-05-27 and fixed date filtering in `scripts/cluster_analysis.py`; the seven-name cohort still clustered together at the 0.5 threshold with 1Y intra-correlation 0.625 and PC1 68.0%. `VOYG` is the best watch-list addition candidate, `KTOS` remains a defense-tech boundary case, and `DXYZ` is an event co-mover rather than structural member. | [[Space pure-plays]]; `scripts/cluster_configs/rklb.yaml`; `space-pureplays-cluster-may27-*` diagnostics |
@@ -71,6 +91,7 @@ Cohort cohesion can move in three directions over time:
 | Stable | [[Sectors/Crypto-to-AI\|Crypto-to-AI]] (0.69-0.74 throughout 3Y) | Cluster identity formed early (2023-2024 AI capex flood) and stayed |
 | Stable | [[Concepts/Defense primes basket\|Defense primes 6-core]] (0.55-0.59 throughout) | DoD-customer factor is structurally durable, no narrative shift |
 | Loosening | [[Concepts/Mag 7 cluster\|Mag 7]] (0.47 → 0.32 over 3Y → YTD) | Cohort decoupling into individual catalyst paths post-2024 |
+| Event-peak decay | [[Concepts/Boutique advisory consolidation\|Boutique advisory]] (0.724 in-sample → 0.530 post-definition, Jun 2026 OOS pass) | Sector-print cohesion peak (May 1 2026) decaying toward baseline; still beats random (p = 0.0009) — cooling, not fragmenting |
 
 Cleanest signature of an institutional-basket-construction event: PC2 collapses while PC1 rises (Space pure-plays Nov 2025: PC2 21.2% → 7.9%, PC1 51.9% → 71.2%). Cleanest signature of fragmentation: intra-correlation falls monotonically across windows (Mag 7).
 
@@ -183,15 +204,15 @@ LMT + RTX + NOC + GD + HII + LHX. 7-name variant (with LDOS) only partially vali
 
 ### [[Concepts/Mag 7 cluster|Mag 7]] (N=7, intra-corr 0.316) — FALSIFIED
 
-AAPL, MSFT, GOOGL, AMZN, META, NVDA, TSLA. Below all three falsification thresholds: intra-corr below 0.50, PC1 below 50%, negative intra-advantage vs ETFs (-0.215). Essentially leveraged QQQ (R² 85.4% to broad benchmarks, only 14.6% specific factor). Cohort is loosening over time (0.47 → 0.32 over 3Y → YTD). Canonical reference for "what falsification looks like."
+AAPL, MSFT, GOOGL, AMZN, META, NVDA, TSLA. Below all three falsification thresholds: intra-corr below 0.50, PC1 below 50%, negative intra-advantage vs ETFs (-0.215). Essentially leveraged QQQ (R² 85.4% to broad benchmarks, only 14.6% specific factor). Cohort is loosening over time (0.47 → 0.32 over 3Y → YTD). Canonical reference for "what falsification looks like." Jun 2026 clean-null re-run: random-basket p = 0.0050/0.0106 (the old 0.010/0.027 was measured against a polluted pool) — the falsification rests on the holdout (0.44, REGIME-DEPENDENT) and zero-width threshold scan, not the permutation test; the OOS pass agrees (ratio 0.73, p = 0.051, PRELIMINARY OOS-WEAKENED).
 
 ### [[Sectors/UAS defense micro-cluster|UAS pair]] (N=2, intra-corr 0.678)
 
 KTOS + AVAV. Real micro-cluster too small to be a full cohort. Current Jun. 3 validation tightened the pair to 0.678 trailing-1Y correlation; adding any of 6 tested defense-tech expansion candidates (MRCY, BWXT, HEI, etc.) still loosens the cluster rather than tightening. Standalone 2-name pair pending future expansion candidates (Karman Holdings KRMN, Anduril when public).
 
-### [[Concepts/Boutique advisory consolidation|Boutique advisory consolidation]] (N=6, May 2025)
+### [[Concepts/Boutique advisory consolidation|Boutique advisory consolidation]] (N=6, intra-corr 0.731)
 
-PWP, LAZ, EVR, MC, HLI, PJT. Older basic-validation example using non-matched methodology (May 2025 published 0.73 intra-corr). The simpler single-page write-up format that pre-dates the [[Space pure-plays]] full reference treatment. Re-run with matched methodology pending — would slot into the validated band but exact placement TBD.
+PWP, LAZ, EVR, MC, HLI, PJT. Matched-methodology re-run completed 2026-06-10: intra-corr 0.731, PC1 77.70%, random-basket p at the 0.0001 floor, holdout STABLE (0.90) — the May 2025 published 0.73 figure held up almost exactly. The June OOS pass adds nuance: post-definition cohesion cooled to 0.530 (ratio 0.73, PRELIMINARY OOS-WEAKENED) while still beating random baskets at p = 0.0009 — the cohort is descending from its May 1 2026 sector-print cohesion peak, not fragmenting. Worth re-reading at the July pass. (The re-run also required repairing frozen PWP/LAZ/PJT price series — see the 2026-06-10 freshness audit.)
 
 ---
 
@@ -226,18 +247,18 @@ Multi-dimensional verdict: a cohort passes all four for "validated," fails one o
 
 ## Open questions / future cohort work
 
-1. Boutique advisory consolidation re-run — older methodology, should be re-run with matched parameters for direct cross-cohort comparison.
-2. Hyperscalers (MSFT, GOOGL, AMZN, META) — config exists (`hyperscalers.yaml`); per the Mag 7 note, an earlier hyperscaler test showed intra-corr 0.29 (falsified). Matched-methodology re-run would confirm.
-3. Card networks (V, MA, AXP, DFS) — config exists (`card_networks.yaml`); would be a small but clean test.
-4. Insurance brokers (AON, AJG, BRO, MMC, WTW) — config exists.
-5. Mega banks (JPM, BAC, WFC, C, GS, MS) — config exists.
-6. Payments — config exists.
-7. Foundry — config exists.
+1. ~~Boutique advisory consolidation re-run~~ — DONE 2026-06-10: intra 0.731, PC1 77.70%, p floor; validated, see summary card.
+2. ~~Hyperscalers re-run~~ — DONE 2026-06-09/10: falsification confirmed and now decisive at the permutation level on the clean null (p = 0.135 — cohesion indistinguishable from a random 5-pick); see [[AI hyperscalers]].
+3. ~~Card networks~~ — DONE (registry 2026-05-13, re-graded 2026-06-10): V/MA pair intra 0.827, p = 0.0012, threshold-stable width 0.40 (widest tested); validated pair.
+4. ~~Insurance brokers~~ — DONE: validated at full N=6 with intra 0.655 and p at the floor after the MRSH alias fix (the config had referenced Marsh McLennan's dead MMC ticker); OOS-STRENGTHENING (1.35).
+5. ~~Mega banks~~ — DONE: intra 0.729, p at the floor; validated; OOS-CONFIRMED (0.95).
+6. ~~Payments~~ — DONE: intra 0.395 — weak cohesion but p = 0.0006 (real, loose factor); OOS-STRENGTHENING (1.15). Not promoted to a validated callout.
+7. ~~Foundry~~ — DONE: falsified (p = 0.328 clean-null; 0.207 intra). TSM has subordinates, not peers.
 8. AI distillation wars — not yet tested as a cohort.
 9. Brazilian banks (ITUB, BBD, NU) — could be useful for cross-vault analysis.
 10. Chinese internet (BABA, JD, PDD, BIDU) — high-vol cohort like crypto miners; would test the framework outside US markets.
 
-Each would extend the cross-cohort taxonomy. The framework is now tested on 8+ cohorts and reproduces interpretable structural patterns reliably; additional cohorts would broaden the empirical base.
+Items 1–7 were resolved by the May 13 registry batch and the June 9–10 clean-null re-grade; full per-cohort numbers in `scripts/cluster_registry.csv`. The framework is now tested on 34 logged cohorts and reproduces interpretable structural patterns reliably; items 8–10 remain genuinely open.
 
 ---
 
@@ -276,7 +297,13 @@ The objective decomposition is the most consistently-useful pattern from this se
 - [[Concepts/Boutique advisory consolidation|Boutique advisory consolidation]]
 
 ### Scripts
-- `scripts/cluster_analysis.py` — basic validation
+- `scripts/cluster_analysis.py` — basic validation (incl. weekly async-close cross-check as of Jun 2026)
+- `scripts/cluster_permutation_test.py` — independence + random-basket + vol-matched nulls (clean stock-only pool, Phipson-Smyth)
+- `scripts/cluster_holdout_test.py` — temporal train/test split (sign-aligned loadings)
+- `scripts/cluster_threshold_scan.py` — threshold-stable range
+- `scripts/cluster_registry.py` — cross-cohort log + Bonferroni/BH correction (`scripts/cluster_registry.csv`)
+- `scripts/cluster_oos_validation.py` — post-definition out-of-sample pass (quarterly)
+- `tests/cluster_statistics_tests.py` — 21 synthetic-data regression tests on the statistical layer
 - `scripts/cluster_stability_check.py` — multi-window stability
 - `scripts/cluster_deep_dive.py` — factor decomposition + PC2 + missing-name screen
 - `scripts/cluster_subset_optimization.py` — optimal 2- and 3-name subsets
