@@ -468,6 +468,8 @@ def main():
                         help="Use raw returns instead of beta-adjusted (original behavior)")
     parser.add_argument("--show-stale", action="store_true",
                         help=f"List tickers skipped because their latest close is not on the {BENCHMARK} session date")
+    parser.add_argument("--json", action="store_true",
+                        help="Output structured JSON instead of the formatted table")
     args = parser.parse_args()
 
     backend, latest_date = pick_backend()
@@ -546,6 +548,30 @@ def main():
             flag_reasons[ticker] = reasons
             movers.append((ticker, actor, prev, curr, pct, z_score, vol, date, beta, raw_vol))
     movers.sort(key=lambda x: abs(x[5]), reverse=True)
+
+    if args.json:
+        structured = []
+        for t, a, p, c, pct, z, vol, d, beta, raw_vol in movers:
+            structured.append({
+                "ticker": t,
+                "actor": a,
+                "prev": p,
+                "last": c,
+                "change_pct": pct,
+                "sigma": z,
+                "beta": beta,
+                "idio_vol": vol,
+                "trigger": flag_reasons.get(t, []),
+                "date": d,
+            })
+        import json
+        print(json.dumps({
+            "backend": backend,
+            "latest_date": latest_date,
+            "count": len(structured),
+            "movers": structured
+        }, indent=2))
+        return
 
     if movers:
         print(f"\n** VAULT ACTORS WITH UNUSUAL MOVES (>={args.sigma}s, or >={args.high_vol_sigma}s if vol>{args.high_vol_threshold:.0f}%, or >={effective_pct_floor:.1f}% absolute):\n")

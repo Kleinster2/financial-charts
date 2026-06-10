@@ -472,6 +472,22 @@ Other highlights: Alexa+ driving 2x interaction, 3x purchase completions. 1M+ ro
 
 ---
 
+## Prime Video Originals Audience Performance (2026)
+
+Prime Video audience metrics for major originals provide leading indicators for the entertainment vertical’s contribution to ad revenue, Prime membership retention, content spend efficiency, and competitive positioning in the streaming wars (vs. Netflix, Disney+).
+
+- Off Campus (May 2026 debut, 8-episode binge): 36 million viewers in the first 12 days (including two full weekends). Ranked as Prime Video’s #3 most-viewed series debut ever (behind only *The Lord of the Rings: The Rings of Power* S1 and *Fallout* S1). Strongest debut season ever among women 18–34 (core demo for YA/romance). First season adapts Elle Kennedy’s *The Deal*; rights optioned 2019 (Leanna Billings/Billings Productions), developed with Temple Hill, straight-to-series order Oct 2024, early S2 renewal announced Feb 2026 (pre-premiere).
+
+- The Summer I Turned Pretty S3 (2025): 70 million viewers globally in the first 70 days (65% growth vs. S2); 25 million in the first 7 days (40% up from S2; viewership tripled from S1 in the same window). #1 among women 18–34 on Prime Video; 60% international (strong in UK, Germany, Brazil). Highest social engagement of any Prime Video series at the time (915 million).
+
+Broader context: These launches sit within the hockey romance / BookTok content wave, including the parallel breakout of *Heated Rivalry* (Rachel Reid’s *Game Changers* series — the prominent M/M rivals-to-lovers entry). Amazon has cited *The Summer I Turned Pretty*’s success as the benchmark for further investments like *Off Campus*.
+
+Economic read-through: Viewership scale and demo/international strength signal ad load potential, subscription stickiness, and content ROI. Supports monitoring entertainment as a growth lever alongside AWS, custom silicon, and infrastructure. Amazon’s “reached viewers” metric (at least some minutes watched).
+
+*Sources: Amazon internal disclosures via Variety, Deadline, Hollywood Reporter (May 2026).*
+
+---
+
 ## Debt profile
 
 $68.8B face value outstanding (Dec 2025), weighted-average life 14.1 years. Rated AA/AA-/A1 (Moody's positive outlook). May 2021 $18.5B deal set record for lowest-ever corporate bond spread. New shelf registration (S-3ASR) filed Feb 2026 signaling more issuance. $30B CP program, $15B revolver, $5B short-term revolver — all undrawn. See [[Amazon bonds]] for full inventory.
