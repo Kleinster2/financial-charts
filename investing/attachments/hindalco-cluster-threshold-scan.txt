@@ -5,15 +5,15 @@ Cohort size: 4
  threshold  n_subclusters  largest_subcluster_size  cohort_share_in_largest  contamination_count  intact
       0.20              4                        1                     0.25                    0   False
       0.25              4                        1                     0.25                    0   False
-      0.30              2                        2                     0.50                    0   False
-      0.35              2                        2                     0.50                    0   False
-      0.40              2                        2                     0.50                    0   False
-      0.45              2                        2                     0.50                    0   False
-      0.50              2                        2                     0.50                    0   False
-      0.55              2                        2                     0.50                    0   False
-      0.60              2                        2                     0.50                    1   False
-      0.65              1                        4                     1.00                    3   False
-      0.70              1                        4                     1.00                    3   False
+      0.30              3                        2                     0.50                    0   False
+      0.35              3                        2                     0.50                    0   False
+      0.40              3                        2                     0.50                    0   False
+      0.45              3                        2                     0.50                    1   False
+      0.50              2                        3                     0.75                    1   False
+      0.55              2                        3                     0.75                    1   False
+      0.60              2                        3                     0.75                    2   False
+      0.65              2                        3                     0.75                    2   False
+      0.70              2                        3                     0.75                    3   False
 
 --- STABLE RANGES (intact cohort, no contamination) ---
   None — cohort never returns as a clean single cluster at any threshold.
@@ -22,6 +22,9 @@ Cohort size: 4
 BOUNDARY-DEPENDENT: cohort does not form a clean cluster at any threshold tested. Falsification candidate.
 
 --- CONTAMINATION DETAIL (non-cohort names joining the cohort's largest cluster) ---
-  threshold 0.60: + COALINDIA.NS
-  threshold 0.65: + COALINDIA.NS,ADANIENT.NS,LT.NS
-  threshold 0.70: + COALINDIA.NS,ADANIENT.NS,LT.NS
+  threshold 0.45: + LT.NS
+  threshold 0.50: + LT.NS
+  threshold 0.55: + LT.NS
+  threshold 0.60: + ADANIENT.NS,LT.NS
+  threshold 0.65: + ADANIENT.NS,LT.NS
+  threshold 0.70: + RELIANCE.NS,ADANIENT.NS,LT.NS

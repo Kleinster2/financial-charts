@@ -20,14 +20,17 @@ Block-bootstrap variant (--block-size N>1) shuffles in blocks rather than
 individual days, preserving short-range autocorrelation (independence null only).
 
 Universe for random-basket null (in priority order):
-  --universe-file path.txt   one ticker per line, comments with #
-  Union of non-cluster groups from the YAML config  (default)
+  --universe-file path.txt     one ticker per line, comments with #
+  --universe-from-config       union of non-cluster groups from the YAML config
+  default: DB prices_long tickers typed stock/equity in ticker_metadata,
+           excluding foreign-suffixed listings, crypto pairs, indices, futures
+           (run scripts/backfill_ticker_types.py first if types are missing)
 
 Usage:
   python scripts/cluster_permutation_test.py --primary RKLB
   python scripts/cluster_permutation_test.py --primary MAG7 --n-perm 20000
   python scripts/cluster_permutation_test.py --primary RKLB --null random-basket
-  python scripts/cluster_permutation_test.py --primary RKLB --universe-file scripts/universes/large_cap_us.txt
+  python scripts/cluster_permutation_test.py --primary RKLB --universe-file scripts/universes/us_common_stocks.txt
 
 Outputs (in investing/attachments/):
   {prefix}-permutation.png    Null distributions + observed markers (one per null)
@@ -82,7 +85,7 @@ def parse_args() -> argparse.Namespace:
     p.add_argument("--universe-file", type=Path, help="Random-basket universe file (one ticker per line)")
     p.add_argument(
         "--universe-from-config", action="store_true",
-        help="Use union of non-cluster config groups as the random-basket universe (default: pull from DB ticker_metadata where data_type='stock')",
+        help="Use union of non-cluster config groups as the random-basket universe (default: all prices_long tickers typed stock/equity in ticker_metadata, excluding foreign-suffixed/crypto/index/future symbols)",
     )
     p.add_argument("--seed", type=int, default=42)
     return p.parse_args()
@@ -159,18 +162,39 @@ def default_universe_from_config(cfg: dict) -> list[str]:
     return list(dict.fromkeys(out))
 
 
+def is_us_common_stock_ticker(ticker: str) -> bool:
+    """Calendar-aligned US-listed name: no foreign exchange suffix (.KS/.PA/...),
+    no crypto pair (-USD), no index (^), no future (=F)."""
+    return not (
+        "." in ticker
+        or ticker.startswith("^")
+        or ticker.endswith("-USD")
+        or ticker.endswith("=F")
+    )
+
+
 def default_universe_from_db(window_start: str, window_end: str, min_obs: int = 200) -> list[str]:
+    """Common stocks only (ticker_metadata.data_type in stock/equity), excluding
+    foreign-suffixed listings, crypto pairs, indices, and futures. Untyped tickers
+    are conservatively excluded — run scripts/backfill_ticker_types.py to classify.
+    See docs/cluster-validation-audit-2026-06-09.md finding 1 for why this filter
+    is load-bearing: a polluted pool deflates the null and overstates every p-value."""
     sql = """
-        SELECT Ticker, COUNT(*) AS n
-        FROM prices_long
-        WHERE Date >= ? AND Date <= ?
-        GROUP BY Ticker
-        HAVING n >= ?
-        ORDER BY Ticker
+        SELECT p.Ticker
+        FROM (
+            SELECT Ticker, COUNT(*) AS n
+            FROM prices_long
+            WHERE date(Date) >= date(?) AND date(Date) <= date(?)
+            GROUP BY Ticker
+            HAVING n >= ?
+        ) p
+        JOIN ticker_metadata m ON m.ticker = p.Ticker
+        WHERE m.data_type IN ('stock', 'equity')
+        ORDER BY p.Ticker
     """
     with sqlite3.connect(DB) as conn:
         rows = conn.execute(sql, (window_start, window_end, min_obs)).fetchall()
-    return [r[0] for r in rows]
+    return [r[0] for r in rows if is_us_common_stock_ticker(r[0])]
 
 
 def load_universe_returns(universe: list[str], window_start: str, window_end: str, min_obs: int) -> pd.DataFrame:
@@ -181,7 +205,8 @@ def load_universe_returns(universe: list[str], window_start: str, window_end: st
     placeholders = ",".join("?" for _ in universe)
     sql = (
         f"SELECT Date, Ticker, Close FROM prices_long "
-        f"WHERE Ticker IN ({placeholders}) AND Date >= ? AND Date <= ? ORDER BY Date"
+        f"WHERE Ticker IN ({placeholders}) "
+        f"AND date(Date) >= date(?) AND date(Date) <= date(?) ORDER BY Date"
     )
     with sqlite3.connect(DB) as conn:
         df = pd.read_sql(sql, conn, params=universe + [window_start, window_end])
@@ -223,7 +248,9 @@ def run_random_basket_null(
 
 
 def p_value_right_tail(observed: float, null_dist: np.ndarray) -> float:
-    return float((null_dist >= observed).mean())
+    """Phipson-Smyth (k+1)/(n+1): a permutation p-value can never be 0;
+    the floor is 1/(n_perm+1)."""
+    return float((1 + (null_dist >= observed).sum()) / (1 + null_dist.size))
 
 
 def _hist_panel(ax, null_dist, observed, label, xlabel, p_val):
@@ -291,11 +318,14 @@ def _null_section(label: str, r: dict) -> list[str]:
 def write_summary(
     cfg: dict, candidate: list[str], rets: pd.DataFrame,
     intra_obs: float, pc1_obs: float, results: dict, out: Path,
+    missing: list[str] | None = None,
 ) -> None:
     lines = []
     lines.append(f"{cfg.get('name', cfg['prefix'])} PERMUTATION TESTS")
     lines.append(f"Window: {rets.index.min().date()} -> {rets.index.max().date()} ({len(rets)} obs)")
     lines.append(f"Candidate cohort: {', '.join(candidate)} (N={len(candidate)})")
+    if missing:
+        lines.append(f"WARNING — configured but EXCLUDED (no usable data in window): {', '.join(missing)}")
     lines.append(f"Observed intra-corr: {intra_obs:.4f}    Observed PC1: {pc1_obs*100:.2f}%")
     lines.append("")
 
@@ -339,6 +369,13 @@ def main() -> None:
     rets = load_returns(cohort_universe, start_1y, window_end)
     rets = rets.dropna(thresh=int(0.95 * len(rets.columns)))
     candidate = [t for t in cfg["groups"]["cluster"]["tickers"] if t in rets.columns]
+    missing = [t for t in cfg["groups"]["cluster"]["tickers"] if t not in candidate]
+    if missing:
+        print(
+            f"WARNING: {len(missing)} cluster ticker(s) have no usable data in the window "
+            f"and are EXCLUDED from the test: {', '.join(missing)}. "
+            f"Running on {len(candidate)} of {len(cfg['groups']['cluster']['tickers'])} configured names."
+        )
 
     intra_obs = intra_correlation(rets, candidate)
     pc1_obs = pc1_explained_variance(rets, candidate)
@@ -390,6 +427,7 @@ def main() -> None:
     write_summary(
         cfg, candidate, rets, intra_obs, pc1_obs, results,
         ATT / f"{prefix}-permutation.txt",
+        missing=missing,
     )
 
     try:

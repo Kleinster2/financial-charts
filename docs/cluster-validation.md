@@ -7,8 +7,8 @@ This is the rigorous version of the existing `## Sector correlation` section, wh
 > [!info] Reference examples + cross-cohort synthesis
 > [[Vault cluster taxonomy]] is the cross-cohort meta-analysis covering 8+ validated and falsified cohorts with matched methodology. Read it first to understand which cohort your candidate is most similar to. [[Space pure-plays]] is the canonical worked example (validated cluster, all advanced patterns documented). [[Mag 7 cluster]] is the canonical falsified-cluster example (same N=7 as Space pure-plays but intra-corr 0.316 vs 0.624). The three together cover validated, falsified, and the empirical patterns observed across the cross-cohort test set. [[Concepts/Boutique advisory consolidation|Boutique advisory consolidation]] is the older basic-validation example (single-page format without the advanced patterns).
 
-> [!warning] Known limitations — robustness audit 2026-06-09
-> A full audit of this framework (`docs/cluster-validation-audit-2026-06-09.md`) found the random-basket null pool polluted with macro series, synthetic indices, crypto pairs, and async international listings (anti-conservative — deflates the null), permutation resolution (n=1000, p-values stored as 0.0) insufficient for the registry's multiplicity correction, and config-bounded boundary tests. Registry p-values from the 2026-05-13 batch should be treated as anti-conservative until the null pool is fixed and the cohorts re-run. See the audit for the full tiered findings and remediation order.
+> [!info] Robustness audit (2026-06-09) + remediation (2026-06-10)
+> A full audit (`docs/cluster-validation-audit-2026-06-09.md`) found the random-basket null pool polluted (ETFs, FX pairs, crypto, macro series, synthetic indices, async foreign listings), impossible p = 0.0 entries at n_perm=1000, config-bounded boundary tests, and silent ticker dropout. Remediated 2026-06-10: `ticker_metadata` backfilled (1,231 tickers typed via `scripts/backfill_ticker_types.py`), the default null pool is now US-listed stock/equity names only (~920), p-values are Phipson-Smyth at 10,000 permutations, missing tickers warn loudly, and all 34 cohorts were re-run. Outcome: 20/34 pass Bonferroni, 30/34 pass Benjamini-Hochberg FDR; the only outright failures (Foundry, AI hyperscalers, Cybersecurity consolidation, Animal health) were already falsified in the vault or never promoted. The audit doc's Status section carries the full before/after; open items are post-definition out-of-sample re-validation and regression tests on the statistical layer.
 
 ## Scope of a cluster note: structure, not performance
 
@@ -394,7 +394,7 @@ Tests two nulls (default runs both):
 ```bash
 python scripts/cluster_permutation_test.py --primary RKLB
 python scripts/cluster_permutation_test.py --primary MAG7 --n-perm 10000
-python scripts/cluster_permutation_test.py --primary RKLB --null random-basket --universe-file scripts/universes/large_cap_us.txt
+python scripts/cluster_permutation_test.py --primary RKLB --null random-basket --universe-file scripts/universes/us_common_stocks.txt
 ```
 
 Output: histogram of null distribution with observed marker + p-values for each null. Interpretation:
@@ -402,13 +402,13 @@ Output: histogram of null distribution with observed marker + p-values for each 
 | Random-basket p | Verdict |
 |---|---|
 | p < 0.001 | Strong cluster (top 0.1% of random baskets) — Space pure-plays sits here |
-| 0.001 ≤ p < 0.01 | Real cluster but not extreme |
-| 0.01 ≤ p < 0.05 | Marginal — barely beats random — Mag 7 sits here |
+| 0.001 ≤ p < 0.01 | Real cluster but not extreme — Mag 7's intra-corr sits here on the clean null, which is why its falsification rests on holdout + threshold stability instead |
+| 0.01 ≤ p < 0.05 | Marginal — barely beats random |
 | p >= 0.05 | Falsified — cohesion is indistinguishable from a random N-pick |
 
-Worked examples (1Y window through 2026-05-07):
-- Space pure-plays: random-basket p < 0.001 for both intra-corr and PC1.
-- Mag 7: random-basket p = 0.010 (intra-corr) and 0.027 (PC1). Clears the threshold but the gap to a "real" cluster is enormous.
+Worked examples (re-run 2026-06-10 against the cleaned stock-only null, 10,000 permutations):
+- Space pure-plays: random-basket p = 0.0001 (the Phipson-Smyth floor — beat all 10,000 draws) on both intra-corr and PC1.
+- Mag 7: random-basket p = 0.0050 (intra-corr) and 0.0106 (PC1). Better than the polluted-pool reading (0.010/0.027) because the all-crypto/all-FX clumps that fattened the old null's right tail are gone — but the falsification never rested on the permutation test: the holdout ratio (0.44, REGIME-DEPENDENT) and the zero-width threshold scan are what kill Mag 7 as a basket.
 
 ### 2. Out-of-sample holdout test
 
@@ -431,7 +431,7 @@ Verdict bands:
 PC1 loadings correlation (train vs test) is a second diagnostic — values near 1.0 mean the same factor structure persists; values near 0 mean the factor flipped.
 
 Worked examples (2Y split):
-- Space pure-plays: ratio 1.37 (STRENGTHENING). PC1 loadings corr 0.56. The cohort tightened with the Nov 2025 regime shift.
+- Space pure-plays: ratio 1.37 (STRENGTHENING; 1.47 on the 2026-06-10 re-run window). PC1 loadings corr 0.56. The cohort tightened with the Nov 2025 regime shift.
 - Mag 7: ratio 0.44 (REGIME-DEPENDENT). PC1 loadings corr -0.08. The cohort was tight in 2024 (intra-corr 0.72) but the factor structure flipped — by 2025-2026 the names trade differently from how they used to. This is the strongest single falsifier of Mag 7 as a tradable basket.
 
 ### 3. Threshold stability scan
@@ -610,7 +610,7 @@ If steps 5-6 cannot reach a defensible cluster, the conclusion is "this actor is
 ### Worked examples by status
 
 - Canonical validated cluster: [[Space pure-plays]] (intra-corr 0.624, PC1 67.96%, random-basket p < 0.001 on both diagnostics, holdout ratio 1.37 STRENGTHENING, threshold stable [0.45, 0.50])
-- Canonical falsified cluster: [[Mag 7 cluster]] (intra-corr 0.316, PC1 41.82%, random-basket p = 0.010 / 0.027 — barely beats random, holdout ratio 0.44 REGIME-DEPENDENT, threshold zero-width BOUNDARY-DEPENDENT — never forms a clean cluster at any threshold; first non-cohort tickers to join are semis, not other Mag 7 names)
+- Canonical falsified cluster: [[Mag 7 cluster]] (intra-corr 0.316, PC1 41.82%, random-basket p = 0.0050 / 0.0106 on the Jun 2026 clean-null re-run, holdout ratio 0.44 REGIME-DEPENDENT, threshold zero-width BOUNDARY-DEPENDENT — never forms a clean cluster at any threshold; first non-cohort tickers to join are semis, not other Mag 7 names)
 - Older basic-validation example: [[Concepts/Boutique advisory consolidation|Boutique advisory consolidation]] (single-page write-up format, simpler structure than the full Space pure-plays treatment)
 - Config schemas: `scripts/cluster_configs/rklb.yaml` (canonical), `scripts/cluster_configs/mag7.yaml` (falsified), `scripts/cluster_configs/boutique_advisory.yaml` (basic example)
 

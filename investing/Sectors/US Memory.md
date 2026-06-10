@@ -6,7 +6,7 @@ aliases: [American memory]
 # US Memory
 
 > [!warning] Cluster status: partial validation (Jun 2026)
-> Intra-cluster correlation 0.696, PC1 79.72%, random-basket p < 0.001, threshold-stable width 0.10. [[Micron]] / [[SanDisk]] form the tight core and [[Western Digital]] joins at distance 0.332; at the loose 0.5 cut the cohort contaminates into broad semis / ETF beta, so this is a real [[Memory|memory]] sleeve but not fully independent from semiconductor beta.
+> Intra-cluster correlation 0.696, PC1 79.72%, random-basket p < 0.001, threshold-stable width 0.10. [[Micron]] / [[SanDisk]] form the tight core and [[Western Digital]] joins at distance 0.332; at the loose 0.5 cut the cohort contaminates into broad semis / ETF beta, so this is a real [[Memory|memory]] sleeve but not fully independent from semiconductor beta. Re-validated Jun 10 2026 against the cleaned stock-only null (p = 0.0001 floor at 10,000 permutations); the 2Y holdout stays indeterminate because [[SanDisk]] has no pre-Feb-2025 trading history, leaving the train half empty.
 
 US-based [[Memory|memory]] companies. Trades as a partial/validated cluster separate from [[Korea Memory]].
 

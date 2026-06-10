@@ -2,7 +2,7 @@ WFE quartet HOLDOUT TEST
 Cohort: ASML, AMAT, KLAC, LRCX (N=4)
 Window: 2y, split temporally at midpoint
 Train: 2024-04-30 -> 2025-04-30 (56 obs)
-Test:  2025-04-30 -> 2026-04-30 (171 obs)
+Test:  2025-04-30 -> 2026-04-30 (172 obs)
 
 --- TRAIN HALF (older) ---
 Intra-correlation:    0.9269
@@ -10,13 +10,13 @@ PC1 explained var:    94.55%
 Pairwise range:       [0.855, 0.968]
 
 --- TEST HALF (newer) ---
-Intra-correlation:    0.8035
-PC1 explained var:    85.31%
-Pairwise range:       [0.739, 0.857]
+Intra-correlation:    0.7971
+PC1 explained var:    84.83%
+Pairwise range:       [0.724, 0.858]
 
 --- STABILITY DIAGNOSTICS ---
-Intra-corr delta:     -0.1234   (test - train)
-PC1 variance delta:   -9.23pp
-PC1 loadings corr:    0.7581    (1.0 = identical factor structure)
+Intra-corr delta:     -0.1299   (test - train)
+PC1 variance delta:   -9.71pp
+PC1 loadings corr:    0.6874    (1.0 = identical factor structure)
 
-VERDICT: STABLE — test/train ratio 0.87 (durable cluster across regimes)
+VERDICT: STABLE — test/train ratio 0.86 (durable cluster across regimes)

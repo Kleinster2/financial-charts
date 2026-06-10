@@ -2,7 +2,7 @@ Appliance / housing durables HOLDOUT TEST
 Cohort: WHR, MAS, FBIN, NWL, SWK (N=5)
 Window: 2y, split temporally at midpoint
 Train: 2024-04-30 -> 2025-04-30 (56 obs)
-Test:  2025-04-30 -> 2026-04-30 (171 obs)
+Test:  2025-04-30 -> 2026-04-30 (172 obs)
 
 --- TRAIN HALF (older) ---
 Intra-correlation:    0.6692
@@ -10,13 +10,13 @@ PC1 explained var:    74.40%
 Pairwise range:       [0.284, 0.877]
 
 --- TEST HALF (newer) ---
-Intra-correlation:    0.4648
-PC1 explained var:    58.31%
-Pairwise range:       [0.199, 0.694]
+Intra-correlation:    0.4663
+PC1 explained var:    58.41%
+Pairwise range:       [0.200, 0.695]
 
 --- STABILITY DIAGNOSTICS ---
-Intra-corr delta:     -0.2043   (test - train)
-PC1 variance delta:   -16.08pp
-PC1 loadings corr:    0.7927    (1.0 = identical factor structure)
+Intra-corr delta:     -0.2029   (test - train)
+PC1 variance delta:   -15.99pp
+PC1 loadings corr:    0.7901    (1.0 = identical factor structure)
 
-VERDICT: WEAKENED — test/train ratio 0.69 (factor present but eroding)
+VERDICT: WEAKENED — test/train ratio 0.70 (factor present but eroding)

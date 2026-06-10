@@ -10,9 +10,9 @@ Cohort size: 5
       0.40              5                        1                      0.2                    0   False
       0.45              5                        1                      0.2                    0   False
       0.50              5                        1                      0.2                    1   False
-      0.55              3                        3                      0.6                    7   False
+      0.55              4                        2                      0.4                    7   False
       0.60              3                        3                      0.6                    7   False
-      0.65              3                        3                      0.6                    8   False
+      0.65              3                        3                      0.6                    7   False
       0.70              3                        3                      0.6                    8   False
 
 --- STABLE RANGES (intact cohort, no contamination) ---
@@ -25,5 +25,5 @@ BOUNDARY-DEPENDENT: cohort does not form a clean cluster at any threshold tested
   threshold 0.50: + CRM
   threshold 0.55: + NVDA,TSLA,XLK,QQQ,SMH...
   threshold 0.60: + NVDA,TSLA,XLK,QQQ,SMH...
-  threshold 0.65: + AAPL,NVDA,TSLA,XLK,QQQ...
+  threshold 0.65: + NVDA,TSLA,XLK,QQQ,SMH...
   threshold 0.70: + AAPL,NVDA,TSLA,XLK,QQQ...

@@ -2,7 +2,7 @@ Payments HOLDOUT TEST
 Cohort: V, MA, AXP, PYPL, FIS, FISV, COF, SHOP (N=8)
 Window: 2y, split temporally at midpoint
 Train: 2024-04-30 -> 2025-04-30 (110 obs)
-Test:  2025-04-30 -> 2026-04-30 (169 obs)
+Test:  2025-04-30 -> 2026-04-30 (170 obs)
 
 --- TRAIN HALF (older) ---
 Intra-correlation:    0.5953
@@ -10,13 +10,13 @@ PC1 explained var:    65.27%
 Pairwise range:       [0.285, 0.880]
 
 --- TEST HALF (newer) ---
-Intra-correlation:    0.3991
-PC1 explained var:    48.26%
-Pairwise range:       [0.172, 0.874]
+Intra-correlation:    0.3937
+PC1 explained var:    47.73%
+Pairwise range:       [0.172, 0.866]
 
 --- STABILITY DIAGNOSTICS ---
-Intra-corr delta:     -0.1962   (test - train)
-PC1 variance delta:   -17.01pp
-PC1 loadings corr:    0.0133    (1.0 = identical factor structure)
+Intra-corr delta:     -0.2016   (test - train)
+PC1 variance delta:   -17.53pp
+PC1 loadings corr:    -0.0121    (1.0 = identical factor structure)
 
-VERDICT: WEAKENED — test/train ratio 0.67 (factor present but eroding)
+VERDICT: WEAKENED — test/train ratio 0.66 (factor present but eroding)

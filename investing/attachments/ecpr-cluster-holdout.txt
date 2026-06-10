@@ -2,7 +2,7 @@ Edge control-plane risk basket (ECPR) HOLDOUT TEST
 Cohort: FSLY, AKAM, NET (N=3)
 Window: 2y, split temporally at midpoint
 Train: 2024-04-30 -> 2025-04-30 (56 obs)
-Test:  2025-04-30 -> 2026-04-30 (171 obs)
+Test:  2025-04-30 -> 2026-04-30 (172 obs)
 
 --- TRAIN HALF (older) ---
 Intra-correlation:    0.4877
@@ -10,13 +10,13 @@ PC1 explained var:    65.90%
 Pairwise range:       [0.447, 0.553]
 
 --- TEST HALF (newer) ---
-Intra-correlation:    0.4708
-PC1 explained var:    64.79%
-Pairwise range:       [0.418, 0.547]
+Intra-correlation:    0.4669
+PC1 explained var:    64.53%
+Pairwise range:       [0.421, 0.541]
 
 --- STABILITY DIAGNOSTICS ---
-Intra-corr delta:     -0.0170   (test - train)
-PC1 variance delta:   -1.11pp
-PC1 loadings corr:    -0.7408    (1.0 = identical factor structure)
+Intra-corr delta:     -0.0208   (test - train)
+PC1 variance delta:   -1.37pp
+PC1 loadings corr:    -0.6996    (1.0 = identical factor structure)
 
-VERDICT: STABLE — test/train ratio 0.97 (durable cluster across regimes)
+VERDICT: STABLE — test/train ratio 0.96 (durable cluster across regimes)

@@ -8,7 +8,7 @@ Cohort size: 6
       0.30              3                        4                    0.667                    0   False
       0.35              2                        5                    0.833                    0   False
       0.40              2                        5                    0.833                    0   False
-      0.45              1                        6                    1.000                    0    True
+      0.45              2                        5                    0.833                    0   False
       0.50              1                        6                    1.000                    0    True
       0.55              1                        6                    1.000                    0    True
       0.60              1                        6                    1.000                    0    True
@@ -16,11 +16,11 @@ Cohort size: 6
       0.70              1                        6                    1.000                    3   False
 
 --- STABLE RANGES (intact cohort, no contamination) ---
-  [0.45, 0.60]  width = 0.15  (WIDE)
-Total stable width: 0.15
+  [0.50, 0.60]  width = 0.10  (NARROW)
+Total stable width: 0.10
 
 --- VERDICT ---
-MODERATELY ROBUST: cohort intact across multiple thresholds but with a finite stable range.
+FRAGILE: cohort intact only at narrow threshold band(s). Validation depends on threshold pick.
 
 --- CONTAMINATION DETAIL (non-cohort names joining the cohort's largest cluster) ---
   threshold 0.65: + PGR,CB,TRV

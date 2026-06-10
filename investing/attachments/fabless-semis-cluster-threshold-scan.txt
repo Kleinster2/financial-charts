@@ -7,12 +7,12 @@ Cohort size: 4
       0.25              4                        1                     0.25                    0   False
       0.30              4                        1                     0.25                    0   False
       0.35              4                        1                     0.25                    0   False
-      0.40              4                        1                     0.25                   10   False
+      0.40              4                        1                     0.25                    0   False
       0.45              2                        3                     0.75                   10   False
       0.50              2                        3                     0.75                   10   False
       0.55              2                        3                     0.75                   10   False
       0.60              2                        3                     0.75                   12   False
-      0.65              1                        4                     1.00                   15   False
+      0.65              2                        3                     0.75                   14   False
       0.70              1                        4                     1.00                   15   False
 
 --- STABLE RANGES (intact cohort, no contamination) ---
@@ -22,7 +22,6 @@ Cohort size: 4
 BOUNDARY-DEPENDENT: cohort does not form a clean cluster at any threshold tested. Falsification candidate.
 
 --- CONTAMINATION DETAIL (non-cohort names joining the cohort's largest cluster) ---
-  threshold 0.40: + TSM,ASML,AMAT,KLAC,LRCX...
   threshold 0.45: + TSM,ASML,AMAT,KLAC,LRCX...
   threshold 0.50: + TSM,ASML,AMAT,KLAC,LRCX...
   threshold 0.55: + TSM,ASML,AMAT,KLAC,LRCX...

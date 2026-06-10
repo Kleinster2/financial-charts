@@ -1,0 +1,22 @@
+Global luxury candidate basket PERMUTATION TESTS
+Window: 2025-05-30 -> 2026-05-27 (135 obs)
+Candidate cohort: MC.PA, RMS.PA, KER.PA, CFR.SW, 1913.HK, MONC.MI, BRBY.L, BC.MI, ZGN (N=9)
+Observed intra-corr: 0.4928    Observed PC1: 56.22%
+
+--- RANDOM-BASKET NULL ---
+Permutations: 10000
+Universe source: DB prices_long (926 tickers with >=200 obs in window)
+Pool size: 925
+Intra-cluster correlation:
+  Null mean:        0.1417
+  Null 95th pct:    0.2298
+  Null 99th pct:    0.2731
+  p-value (right):  0.000100    -> REJECTS random-basket null at p < 0.001
+PC1 explained variance:
+  Null mean:        26.63%
+  Null 95th pct:    33.96%
+  Null 99th pct:    37.63%
+  p-value (right):  0.000100    -> REJECTS random-basket null at p < 0.001
+
+--- INTERPRETATION ---
+Random-basket null rejected: cohort is more cohesive than a random N-pick from the same universe. This is the meaningful pass.

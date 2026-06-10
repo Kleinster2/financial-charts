@@ -1,22 +1,22 @@
 Crypto-exposed financial platforms HOLDOUT TEST
 Cohort: COIN, HOOD (N=2)
 Window: 2y, split temporally at midpoint
-Train: 2024-05-13 -> 2025-05-13 (124 obs)
-Test:  2025-05-13 -> 2026-05-13 (200 obs)
+Train: 2024-06-10 -> 2025-06-10 (124 obs)
+Test:  2025-06-10 -> 2026-06-10 (210 obs)
 
 --- TRAIN HALF (older) ---
-Intra-correlation:    0.7876
-PC1 explained var:    89.38%
-Pairwise range:       [0.788, 0.788]
+Intra-correlation:    0.8016
+PC1 explained var:    90.08%
+Pairwise range:       [0.802, 0.802]
 
 --- TEST HALF (newer) ---
-Intra-correlation:    0.6655
-PC1 explained var:    83.28%
-Pairwise range:       [0.666, 0.666]
+Intra-correlation:    0.6645
+PC1 explained var:    83.22%
+Pairwise range:       [0.664, 0.664]
 
 --- STABILITY DIAGNOSTICS ---
-Intra-corr delta:     -0.1221   (test - train)
-PC1 variance delta:   -6.10pp
+Intra-corr delta:     -0.1372   (test - train)
+PC1 variance delta:   -6.86pp
 PC1 loadings corr:    nan    (1.0 = identical factor structure)
 
-VERDICT: WEAKENED — test/train ratio 0.84 (factor present but eroding)
+VERDICT: WEAKENED — test/train ratio 0.83 (factor present but eroding)

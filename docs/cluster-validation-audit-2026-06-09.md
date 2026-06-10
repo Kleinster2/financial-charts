@@ -102,3 +102,26 @@ Items 1–4 are mechanical; 5 is the methodological upgrade; 6 protects everythi
 ## Status
 
 - 2026-06-09: audit written; no fixes applied. Registry p-values (all 33 rows, batch of 2026-05-13, n_perm=1000) predate any null-pool fix and should be treated as anti-conservative until re-run.
+- 2026-06-09/10: remediation items 1-4 complete; all 34 cohorts re-run. Details below.
+
+### Remediation log (2026-06-10)
+
+Code and data:
+
+- `scripts/backfill_ticker_types.py` (new): classified 1,231 of 1,250 untyped `prices_long` tickers via pattern rules + Yahoo chart metadata — 830 stock, 230 etf, 105 currency, 48 crypto, 17 index, 1 other; 19 unresolvable (delisted names, internal `HL:*` series) left NULL and excluded. The 105 FX series were invisible to the original audit, which only measured macro/index/crypto pollution — the pool was dirtier than reported.
+- `cluster_permutation_test.py`: default universe now stock/equity-typed, US-listed only (921 eligible in the trailing-1Y window vs 1,230 polluted); `date()`-wrapped SQL removes the cohort-vs-null end-day asymmetry; Phipson-Smyth (k+1)/(n+1) p-values (p = 0.0 impossible); loud missing-ticker warnings in console and txt artifacts; help text corrected.
+- `cluster_analysis.py`: missing-ticker warnings in console and results.txt.
+- `cluster_stability_check.py`: rewritten — canonical `prices_long`, shared YAML config schema, standardized PCA. The old version also ran PCA on raw (non-standardized) returns, a fourth defect found during the port: its PC1 column was dominated by the highest-vol name.
+- `scripts/universes/us_common_stocks.txt` created (918 names, pinned snapshot); dangling doc references fixed.
+- One incidental pool observation: the obs-coverage filter (>=80% of cohort obs) reduces the effective pool to ~206 continuously-tracked names — and in the old runs this *enriched* the pollution, because FX/crypto/macro series are refreshed daily as a block and survived the filter disproportionately while partially-covered stocks dropped out.
+
+Re-run outcome (34 cohorts, 10,000 permutations, random-basket null + threshold scan + 2Y holdout; registry rows 2026-06-09/10 supersede 2026-05-13, which are kept for history):
+
+- 20/34 pass Bonferroni (0.00147), 30/34 pass Benjamini-Hochberg at alpha 0.05.
+- Outright failures: Foundry monopoly (p = 0.328), AI hyperscalers (0.135), Animal health (0.065), Cybersecurity consolidation (0.051) — every one was already marked falsified in the vault or never promoted to a note. No formerly-validated cohort lost certification.
+- Empirical correction to finding 1's directional claim: the polluted pool distorted p-values in BOTH directions, split by cohort size. Small-N cohorts were penalized by same-asset clumps in the null (occasional all-crypto/all-FX draws fattened the right tail): AI Compute 0.023 → 0.0026, COIN pair 0.008 → 0.0018, Card networks 0.002 → 0.0012, Korea Memory 0.006 → 0.0031, Mag 7 0.010 → 0.0050. Mid/large-N and weak cohorts were flattered by cross-asset deflators: AI hyperscalers 0.028 → 0.135, Animal health 0.025 → 0.065, Cybersecurity 0.019 → 0.051, Fabless 0.0041 → 0.0173, ECPR 0.0030 → 0.0123, AIFD 0.0032 → 0.0099.
+- Floor-value cohorts (p = 0.0001, beat all 10,000 draws): ALTM, Boutique advisory, Crypto-to-AI, Defense primes (both), Global luxury (first-time entry), Hyperscaler suppliers, Insurance brokers, Mega banks, P&C carriers, Platform cyber (0.0003), SCP, Space pure-plays, US Memory, WFE quartet (was 0.004).
+- Indian metals intra-corr fell 0.581 → 0.418 and holdout 0.79 → 0.57 between the April-window baseline and the re-run window — the cohort is loosening on fresh data, independent of the pool fix. Watchlist item.
+- US Memory 2Y holdout remains indeterminate (SNDK has no pre-Feb-2025 history; the train half is empty) — now flagged loudly instead of silently producing nan.
+
+Open items: 5 (registry `definition_date` + post-definition out-of-sample re-validation pass), 6 (synthetic-data regression tests), 7 (secondary: holdout sign alignment, zero-variance guards in `pca_analysis`/rolling loop, beta/vol-matched null variant, weekly-return cross-check for cross-region cohorts).

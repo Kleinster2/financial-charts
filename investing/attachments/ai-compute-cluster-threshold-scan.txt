@@ -7,10 +7,10 @@ Cohort size: 3
       0.25              3                        1                    0.333                    2   False
       0.30              3                        1                    0.333                    3   False
       0.35              3                        1                    0.333                    3   False
-      0.40              1                        3                    1.000                    4   False
+      0.40              1                        3                    1.000                    3   False
       0.45              1                        3                    1.000                    5   False
       0.50              1                        3                    1.000                    5   False
-      0.55              1                        3                    1.000                    5   False
+      0.55              1                        3                    1.000                    6   False
       0.60              1                        3                    1.000                    7   False
       0.65              1                        3                    1.000                    9   False
       0.70              1                        3                    1.000                    9   False
@@ -25,10 +25,10 @@ BOUNDARY-DEPENDENT: cohort does not form a clean cluster at any threshold tested
   threshold 0.25: + SMH,SOXX
   threshold 0.30: + SMH,SOXX,SPY
   threshold 0.35: + SMH,SOXX,SPY
-  threshold 0.40: + MU,SMH,SOXX,SPY
+  threshold 0.40: + SMH,SOXX,SPY
   threshold 0.45: + MU,AVGO,SMH,SOXX,SPY
   threshold 0.50: + MU,AVGO,SMH,SOXX,SPY
-  threshold 0.55: + MU,AVGO,SMH,SOXX,SPY
+  threshold 0.55: + MU,INTC,AVGO,SMH,SOXX...
   threshold 0.60: + MU,INTC,AVGO,GOOGL,SMH...
   threshold 0.65: + MU,INTC,AVGO,GOOGL,AMZN...
   threshold 0.70: + MU,INTC,AVGO,GOOGL,AMZN...

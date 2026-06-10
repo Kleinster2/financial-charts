@@ -12,7 +12,7 @@ Cohort size: 5
       0.50              3                        2                      0.4                    0   False
       0.55              2                        3                      0.6                    2   False
       0.60              1                        5                      1.0                    9   False
-      0.65              1                        5                      1.0                   14   False
+      0.65              1                        5                      1.0                    9   False
       0.70              1                        5                      1.0                   14   False
 
 --- STABLE RANGES (intact cohort, no contamination) ---
@@ -24,5 +24,5 @@ BOUNDARY-DEPENDENT: cohort does not form a clean cluster at any threshold tested
 --- CONTAMINATION DETAIL (non-cohort names joining the cohort's largest cluster) ---
   threshold 0.55: + SPY,IWM
   threshold 0.60: + RKLB,RDW,LUNR,BKSY,ASTS...
-  threshold 0.65: + LMT,RTX,NOC,LHX,RKLB...
+  threshold 0.65: + RKLB,RDW,LUNR,BKSY,ASTS...
   threshold 0.70: + LMT,RTX,NOC,LHX,RKLB...

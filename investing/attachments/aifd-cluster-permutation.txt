@@ -1,22 +1,22 @@
 AI financial disintermediation basket (AIFD) PERMUTATION TESTS
-Window: 2025-05-01 -> 2026-04-29 (170 obs)
+Window: 2025-05-01 -> 2026-04-30 (171 obs)
 Candidate cohort: WTW, AJG, AON, RYAN, BRO, MMC, SCHW, RJF, LPLA, SF (N=10)
 Observed intra-corr: 0.3167    Observed PC1: 43.87%
 
 --- RANDOM-BASKET NULL ---
-Permutations: 950
-Universe source: DB prices_long (425 tickers with >=200 obs in window)
-Pool size: 422
+Permutations: 10000
+Universe source: DB prices_long (220 tickers with >=200 obs in window)
+Pool size: 217
 Intra-cluster correlation:
-  Null mean:        0.1043
-  Null 95th pct:    0.2108
-  Null 99th pct:    0.2665
-  p-value (right):  0.003158    -> REJECTS random-basket null at p < 0.01
+  Null mean:        0.1710
+  Null 95th pct:    0.2692
+  Null 99th pct:    0.3164
+  p-value (right):  0.009899    -> REJECTS random-basket null at p < 0.01
 PC1 explained variance:
-  Null mean:        25.85%
-  Null 95th pct:    34.97%
-  Null 99th pct:    39.43%
-  p-value (right):  0.003158    -> REJECTS random-basket null at p < 0.01
+  Null mean:        28.52%
+  Null 95th pct:    36.94%
+  Null 99th pct:    40.81%
+  p-value (right):  0.002000    -> REJECTS random-basket null at p < 0.01
 
 --- INTERPRETATION ---
 Random-basket null rejected: cohort is more cohesive than a random N-pick from the same universe. This is the meaningful pass.

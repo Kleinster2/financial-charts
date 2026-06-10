@@ -1,22 +1,22 @@
 Golden Dome defense-tech PERMUTATION TESTS
-Window: 2025-05-09 -> 2026-05-07 (198 obs)
+Window: 2025-05-09 -> 2026-05-08 (199 obs)
 Candidate cohort: KTOS, AVAV, MRCY, BWXT, HEI (N=5)
-Observed intra-corr: 0.4031    Observed PC1: 52.99%
+Observed intra-corr: 0.4022    Observed PC1: 52.91%
 
 --- RANDOM-BASKET NULL ---
-Permutations: 997
-Universe source: DB prices_long (423 tickers with >=200 obs in window)
-Pool size: 422
+Permutations: 10000
+Universe source: DB prices_long (918 tickers with >=200 obs in window)
+Pool size: 913
 Intra-cluster correlation:
-  Null mean:        0.0995
-  Null 95th pct:    0.2505
-  Null 99th pct:    0.3288
-  p-value (right):  0.002006    -> REJECTS random-basket null at p < 0.01
+  Null mean:        0.1425
+  Null 95th pct:    0.2693
+  Null 99th pct:    0.3420
+  p-value (right):  0.001400    -> REJECTS random-basket null at p < 0.01
 PC1 explained variance:
-  Null mean:        33.07%
-  Null 95th pct:    43.65%
-  Null 99th pct:    48.93%
-  p-value (right):  0.005015    -> REJECTS random-basket null at p < 0.01
+  Null mean:        34.10%
+  Null 95th pct:    43.38%
+  Null 99th pct:    48.37%
+  p-value (right):  0.001700    -> REJECTS random-basket null at p < 0.01
 
 --- INTERPRETATION ---
 Random-basket null rejected: cohort is more cohesive than a random N-pick from the same universe. This is the meaningful pass.

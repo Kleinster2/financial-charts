@@ -2,7 +2,7 @@ Fabless semiconductor HOLDOUT TEST
 Cohort: NVDA, AMD, AVGO, QCOM (N=4)
 Window: 2y, split temporally at midpoint
 Train: 2024-04-30 -> 2025-04-30 (56 obs)
-Test:  2025-04-30 -> 2026-04-30 (171 obs)
+Test:  2025-04-30 -> 2026-04-30 (172 obs)
 
 --- TRAIN HALF (older) ---
 Intra-correlation:    0.7737
@@ -10,13 +10,13 @@ PC1 explained var:    83.06%
 Pairwise range:       [0.674, 0.833]
 
 --- TEST HALF (newer) ---
-Intra-correlation:    0.4261
-PC1 explained var:    57.68%
-Pairwise range:       [0.223, 0.604]
+Intra-correlation:    0.4025
+PC1 explained var:    56.04%
+Pairwise range:       [0.209, 0.581]
 
 --- STABILITY DIAGNOSTICS ---
-Intra-corr delta:     -0.3476   (test - train)
-PC1 variance delta:   -25.38pp
-PC1 loadings corr:    -0.5478    (1.0 = identical factor structure)
+Intra-corr delta:     -0.3711   (test - train)
+PC1 variance delta:   -27.02pp
+PC1 loadings corr:    -0.4778    (1.0 = identical factor structure)
 
-VERDICT: REGIME-DEPENDENT — test/train ratio 0.55 (cluster does not survive holdout)
+VERDICT: REGIME-DEPENDENT — test/train ratio 0.52 (cluster does not survive holdout)

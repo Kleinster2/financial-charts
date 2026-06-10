@@ -1,0 +1,27 @@
+Global luxury candidate basket THRESHOLD STABILITY SCAN
+Cohort size: 9
+
+--- ASSIGNMENT TABLE ---
+ threshold  n_subclusters  largest_subcluster_size  cohort_share_in_largest  contamination_count  intact
+      0.20              9                        1                    0.111                    0   False
+      0.25              9                        1                    0.111                    0   False
+      0.30              7                        2                    0.222                    0   False
+      0.35              6                        4                    0.444                    0   False
+      0.40              5                        5                    0.556                    0   False
+      0.45              4                        6                    0.667                    0   False
+      0.50              3                        7                    0.778                    0   False
+      0.55              3                        7                    0.778                    0   False
+      0.60              3                        7                    0.778                    1   False
+      0.65              3                        7                    0.778                    2   False
+      0.70              2                        8                    0.889                   10   False
+
+--- STABLE RANGES (intact cohort, no contamination) ---
+  None — cohort never returns as a clean single cluster at any threshold.
+
+--- VERDICT ---
+BOUNDARY-DEPENDENT: cohort does not form a clean cluster at any threshold tested. Falsification candidate.
+
+--- CONTAMINATION DETAIL (non-cohort names joining the cohort's largest cluster) ---
+  threshold 0.60: + OR.PA
+  threshold 0.65: + EL.PA,OR.PA
+  threshold 0.70: + EL.PA,OR.PA,EL,RACE,RL...

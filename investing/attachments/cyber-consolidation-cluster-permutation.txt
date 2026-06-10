@@ -1,22 +1,22 @@
 Cybersecurity consolidation PERMUTATION TESTS
-Window: 2025-05-01 -> 2026-04-29 (196 obs)
+Window: 2025-05-01 -> 2026-04-30 (197 obs)
 Candidate cohort: PANW, CRWD, MSFT, CSCO (N=4)
-Observed intra-corr: 0.3438    Observed PC1: 53.02%
+Observed intra-corr: 0.3401    Observed PC1: 52.86%
 
 --- RANDOM-BASKET NULL ---
-Permutations: 1000
-Universe source: DB prices_long (425 tickers with >=200 obs in window)
-Pool size: 422
+Permutations: 10000
+Universe source: DB prices_long (220 tickers with >=200 obs in window)
+Pool size: 220
 Intra-cluster correlation:
-  Null mean:        0.1014
-  Null 95th pct:    0.2823
-  Null 99th pct:    0.3710
-  p-value (right):  0.019000    -> REJECTS random-basket null at p < 0.05
+  Null mean:        0.1720
+  Null 95th pct:    0.3413
+  Null 99th pct:    0.4250
+  p-value (right):  0.050995    -> FAILS to reject random-basket null (p >= 0.05)
 PC1 explained variance:
-  Null mean:        37.19%
-  Null 95th pct:    49.01%
-  Null 99th pct:    55.54%
-  p-value (right):  0.022000    -> REJECTS random-basket null at p < 0.05
+  Null mean:        39.95%
+  Null 95th pct:    51.81%
+  Null 99th pct:    57.80%
+  p-value (right):  0.037796    -> REJECTS random-basket null at p < 0.05
 
 --- INTERPRETATION ---
-Random-basket null rejected: cohort is more cohesive than a random N-pick from the same universe. This is the meaningful pass.
+Random-basket null partially rejected: one diagnostic passes, one does not. Cohort cohesion is borderline relative to comparable random baskets.

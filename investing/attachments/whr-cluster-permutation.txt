@@ -1,22 +1,22 @@
 Appliance / housing durables PERMUTATION TESTS
-Window: 2025-05-01 -> 2026-04-29 (170 obs)
+Window: 2025-05-01 -> 2026-04-30 (171 obs)
 Candidate cohort: WHR, MAS, FBIN, NWL, SWK (N=5)
-Observed intra-corr: 0.4662    Observed PC1: 58.41%
+Observed intra-corr: 0.4676    Observed PC1: 58.50%
 
 --- RANDOM-BASKET NULL ---
-Permutations: 981
-Universe source: DB prices_long (425 tickers with >=200 obs in window)
-Pool size: 424
+Permutations: 10000
+Universe source: DB prices_long (220 tickers with >=200 obs in window)
+Pool size: 219
 Intra-cluster correlation:
-  Null mean:        0.0981
-  Null 95th pct:    0.2474
-  Null 99th pct:    0.3184
-  p-value (right):  0.001019    -> REJECTS random-basket null at p < 0.01
+  Null mean:        0.1716
+  Null 95th pct:    0.3184
+  Null 99th pct:    0.3846
+  p-value (right):  0.001100    -> REJECTS random-basket null at p < 0.01
 PC1 explained variance:
-  Null mean:        33.12%
-  Null 95th pct:    43.50%
-  Null 99th pct:    49.50%
-  p-value (right):  0.002039    -> REJECTS random-basket null at p < 0.01
+  Null mean:        36.11%
+  Null 95th pct:    47.18%
+  Null 99th pct:    52.20%
+  p-value (right):  0.001300    -> REJECTS random-basket null at p < 0.01
 
 --- INTERPRETATION ---
 Random-basket null rejected: cohort is more cohesive than a random N-pick from the same universe. This is the meaningful pass.

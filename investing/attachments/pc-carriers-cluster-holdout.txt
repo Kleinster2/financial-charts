@@ -2,7 +2,7 @@ P&C insurance carriers HOLDOUT TEST
 Cohort: PGR, CB, TRV, ALL, HIG (N=5)
 Window: 2y, split temporally at midpoint
 Train: 2024-04-30 -> 2025-04-30 (125 obs)
-Test:  2025-04-30 -> 2026-04-30 (197 obs)
+Test:  2025-04-30 -> 2026-04-30 (198 obs)
 
 --- TRAIN HALF (older) ---
 Intra-correlation:    0.7329
@@ -10,13 +10,13 @@ PC1 explained var:    78.76%
 Pairwise range:       [0.580, 0.832]
 
 --- TEST HALF (newer) ---
-Intra-correlation:    0.6473
-PC1 explained var:    71.93%
-Pairwise range:       [0.554, 0.823]
+Intra-correlation:    0.6466
+PC1 explained var:    71.87%
+Pairwise range:       [0.555, 0.822]
 
 --- STABILITY DIAGNOSTICS ---
-Intra-corr delta:     -0.0856   (test - train)
-PC1 variance delta:   -6.83pp
-PC1 loadings corr:    0.9341    (1.0 = identical factor structure)
+Intra-corr delta:     -0.0863   (test - train)
+PC1 variance delta:   -6.89pp
+PC1 loadings corr:    0.9300    (1.0 = identical factor structure)
 
 VERDICT: STABLE — test/train ratio 0.88 (durable cluster across regimes)

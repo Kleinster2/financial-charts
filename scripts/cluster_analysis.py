@@ -415,6 +415,10 @@ def write_summary(
     lines.append(f"Window 1y: {rets_1y.index.min().date()} -> {rets_1y.index.max().date()} ({len(rets_1y)} obs)")
     lines.append(f"Window 2y: {rets_2y.index.min().date()} -> {rets_2y.index.max().date()} ({len(rets_2y)} obs)")
     lines.append(f"Universe: {len(rets_1y.columns)} tickers across {len(cfg['groups'])} groups")
+    configured = [t for grp in cfg["groups"].values() for t in grp["tickers"]]
+    missing = [t for t in configured if t not in rets_1y.columns]
+    if missing:
+        lines.append(f"WARNING — configured but EXCLUDED (no usable data in 1Y window): {', '.join(missing)}")
     lines.append(f"Dendrogram cut threshold: {cfg['threshold']}")
     lines.append("")
 
@@ -534,6 +538,13 @@ def main() -> None:
     rets_2y = load_returns(cfg["groups"], start_2y, window_end)
     rets_1y = rets_1y.dropna(thresh=int(0.95 * len(rets_1y.columns)))
     rets_2y = rets_2y.dropna(thresh=int(0.95 * len(rets_2y.columns)))
+    configured = [t for grp in cfg["groups"].values() for t in grp["tickers"]]
+    missing = [t for t in configured if t not in rets_1y.columns]
+    if missing:
+        print(
+            f"WARNING: {len(missing)} configured ticker(s) have no usable data in the 1Y window "
+            f"and are EXCLUDED: {', '.join(missing)}"
+        )
     history_start = cfg.get("history_start", "2020-01-01")
     if isinstance(history_start, date):
         history_start = history_start.isoformat()

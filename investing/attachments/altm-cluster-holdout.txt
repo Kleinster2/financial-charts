@@ -2,7 +2,7 @@ Alternative asset managers basket (ALTM) HOLDOUT TEST
 Cohort: ARES, KKR, OWL, BX, APO, BAM (N=6)
 Window: 2y, split temporally at midpoint
 Train: 2024-04-30 -> 2025-04-30 (56 obs)
-Test:  2025-04-30 -> 2026-04-30 (171 obs)
+Test:  2025-04-30 -> 2026-04-30 (172 obs)
 
 --- TRAIN HALF (older) ---
 Intra-correlation:    0.9060
@@ -10,13 +10,13 @@ PC1 explained var:    92.18%
 Pairwise range:       [0.870, 0.946]
 
 --- TEST HALF (newer) ---
-Intra-correlation:    0.7605
-PC1 explained var:    80.12%
-Pairwise range:       [0.676, 0.847]
+Intra-correlation:    0.7639
+PC1 explained var:    80.40%
+Pairwise range:       [0.684, 0.848]
 
 --- STABILITY DIAGNOSTICS ---
-Intra-corr delta:     -0.1455   (test - train)
-PC1 variance delta:   -12.06pp
-PC1 loadings corr:    0.6998    (1.0 = identical factor structure)
+Intra-corr delta:     -0.1421   (test - train)
+PC1 variance delta:   -11.78pp
+PC1 loadings corr:    0.6979    (1.0 = identical factor structure)
 
 VERDICT: WEAKENED — test/train ratio 0.84 (factor present but eroding)

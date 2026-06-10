@@ -1,22 +1,22 @@
 Insurance brokers basket PERMUTATION TESTS
-Window: 2025-05-01 -> 2026-04-29 (170 obs)
+Window: 2025-05-01 -> 2026-04-30 (171 obs)
 Candidate cohort: WTW, AJG, AON, BRO, MMC, RYAN (N=6)
 Observed intra-corr: 0.6623    Observed PC1: 72.21%
 
 --- RANDOM-BASKET NULL ---
-Permutations: 977
-Universe source: DB prices_long (425 tickers with >=200 obs in window)
-Pool size: 424
+Permutations: 10000
+Universe source: DB prices_long (220 tickers with >=200 obs in window)
+Pool size: 219
 Intra-cluster correlation:
-  Null mean:        0.1058
-  Null 95th pct:    0.2386
-  Null 99th pct:    0.3221
-  p-value (right):  0.000000    -> REJECTS random-basket null at p < 0.001
+  Null mean:        0.1727
+  Null 95th pct:    0.3043
+  Null 99th pct:    0.3641
+  p-value (right):  0.000100    -> REJECTS random-basket null at p < 0.001
 PC1 explained variance:
-  Null mean:        30.91%
-  Null 95th pct:    41.43%
-  Null 99th pct:    47.37%
-  p-value (right):  0.000000    -> REJECTS random-basket null at p < 0.001
+  Null mean:        33.66%
+  Null 95th pct:    43.94%
+  Null 99th pct:    48.71%
+  p-value (right):  0.000100    -> REJECTS random-basket null at p < 0.001
 
 --- INTERPRETATION ---
 Random-basket null rejected: cohort is more cohesive than a random N-pick from the same universe. This is the meaningful pass.

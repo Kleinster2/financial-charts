@@ -1,0 +1,22 @@
+Global luxury candidate basket HOLDOUT TEST
+Cohort: MC.PA, RMS.PA, KER.PA, CFR.SW, 1913.HK, MONC.MI, BRBY.L, BC.MI, ZGN (N=9)
+Window: 2y, split temporally at midpoint
+Train: 2024-05-27 -> 2025-05-27 (47 obs)
+Test:  2025-05-27 -> 2026-05-27 (120 obs)
+
+--- TRAIN HALF (older) ---
+Intra-correlation:    0.5266
+PC1 explained var:    60.48%
+Pairwise range:       [0.152, 0.884]
+
+--- TEST HALF (newer) ---
+Intra-correlation:    0.4928
+PC1 explained var:    56.22%
+Pairwise range:       [0.218, 0.703]
+
+--- STABILITY DIAGNOSTICS ---
+Intra-corr delta:     -0.0338   (test - train)
+PC1 variance delta:   -4.26pp
+PC1 loadings corr:    0.7112    (1.0 = identical factor structure)
+
+VERDICT: STABLE — test/train ratio 0.94 (durable cluster across regimes)

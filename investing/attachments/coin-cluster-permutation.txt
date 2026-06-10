@@ -1,22 +1,22 @@
 Crypto-exposed financial platforms PERMUTATION TESTS
-Window: 2025-05-20 -> 2026-05-12 (199 obs)
+Window: 2025-06-17 -> 2026-06-08 (209 obs)
 Candidate cohort: COIN, HOOD (N=2)
-Observed intra-corr: 0.6563    Observed PC1: 82.82%
+Observed intra-corr: 0.6665    Observed PC1: 83.33%
 
 --- RANDOM-BASKET NULL ---
-Permutations: 999
-Universe source: DB prices_long (1129 tickers with >=200 obs in window)
-Pool size: 422
+Permutations: 10000
+Universe source: DB prices_long (918 tickers with >=200 obs in window)
+Pool size: 916
 Intra-cluster correlation:
-  Null mean:        0.0965
-  Null 95th pct:    0.4003
-  Null 99th pct:    0.5966
-  p-value (right):  0.008008    -> REJECTS random-basket null at p < 0.01
+  Null mean:        0.1351
+  Null 95th pct:    0.4010
+  Null 99th pct:    0.5477
+  p-value (right):  0.001800    -> REJECTS random-basket null at p < 0.01
 PC1 explained variance:
-  Null mean:        57.23%
-  Null 95th pct:    70.17%
-  Null 99th pct:    79.83%
-  p-value (right):  0.008008    -> REJECTS random-basket null at p < 0.01
+  Null mean:        58.15%
+  Null 95th pct:    70.07%
+  Null 99th pct:    77.39%
+  p-value (right):  0.001800    -> REJECTS random-basket null at p < 0.01
 
 --- INTERPRETATION ---
 Random-basket null rejected: cohort is more cohesive than a random N-pick from the same universe. This is the meaningful pass.

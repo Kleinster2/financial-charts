@@ -1,22 +1,22 @@
 Space pure-plays HOLDOUT TEST
 Cohort: RKLB, RDW, LUNR, BKSY, ASTS, SPIR, PL (N=7)
 Window: 2y, split temporally at midpoint
-Train: 2024-05-08 -> 2025-05-08 (55 obs)
-Test:  2025-05-08 -> 2026-05-08 (174 obs)
+Train: 2024-06-03 -> 2025-06-03 (249 obs)
+Test:  2025-06-03 -> 2026-06-03 (252 obs)
 
 --- TRAIN HALF (older) ---
-Intra-correlation:    0.4520
-PC1 explained var:    54.60%
-Pairwise range:       [-0.016, 0.728]
+Intra-correlation:    0.3890
+PC1 explained var:    49.33%
+Pairwise range:       [0.084, 0.699]
 
 --- TEST HALF (newer) ---
-Intra-correlation:    0.6187
-PC1 explained var:    67.49%
-Pairwise range:       [0.494, 0.749]
+Intra-correlation:    0.5724
+PC1 explained var:    63.62%
+Pairwise range:       [0.418, 0.704]
 
 --- STABILITY DIAGNOSTICS ---
-Intra-corr delta:     +0.1667   (test - train)
-PC1 variance delta:   +12.89pp
-PC1 loadings corr:    0.5629    (1.0 = identical factor structure)
+Intra-corr delta:     +0.1833   (test - train)
+PC1 variance delta:   +14.29pp
+PC1 loadings corr:    0.0719    (1.0 = identical factor structure)
 
-VERDICT: STRENGTHENING — test/train ratio 1.37 (basket consolidating; check for regime shift in the train half)
+VERDICT: STRENGTHENING — test/train ratio 1.47 (basket consolidating; check for regime shift in the train half)

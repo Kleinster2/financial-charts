@@ -2,7 +2,7 @@ AI Compute HOLDOUT TEST
 Cohort: TSM, NVDA, AMD (N=3)
 Window: 2y, split temporally at midpoint
 Train: 2024-05-08 -> 2025-05-08 (249 obs)
-Test:  2025-05-08 -> 2026-05-08 (251 obs)
+Test:  2025-05-08 -> 2026-05-08 (252 obs)
 
 --- TRAIN HALF (older) ---
 Intra-correlation:    0.6716
@@ -10,13 +10,13 @@ PC1 explained var:    78.18%
 Pairwise range:       [0.606, 0.763]
 
 --- TEST HALF (newer) ---
-Intra-correlation:    0.5683
-PC1 explained var:    71.28%
-Pairwise range:       [0.507, 0.639]
+Intra-correlation:    0.5635
+PC1 explained var:    70.96%
+Pairwise range:       [0.507, 0.637]
 
 --- STABILITY DIAGNOSTICS ---
-Intra-corr delta:     -0.1033   (test - train)
-PC1 variance delta:   -6.90pp
-PC1 loadings corr:    0.9903    (1.0 = identical factor structure)
+Intra-corr delta:     -0.1080   (test - train)
+PC1 variance delta:   -7.22pp
+PC1 loadings corr:    0.9988    (1.0 = identical factor structure)
 
-VERDICT: WEAKENED — test/train ratio 0.85 (factor present but eroding)
+VERDICT: WEAKENED — test/train ratio 0.84 (factor present but eroding)

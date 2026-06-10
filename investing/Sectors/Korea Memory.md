@@ -6,7 +6,7 @@ aliases: [Korean memory]
 # Korea Memory
 
 > [!success] Cluster status: validated micro-cluster (Jun 2026)
-> Pair correlation 0.756, PC1 87.82%, random-basket p = 0.006, threshold-stable width 0.45. [[Samsung]] / [[SK Hynix]] form a clean two-name [[Memory|memory]] pair at distance 0.244, with strong separation from [[US Memory]], [[EWY]], and semiconductor ETFs.
+> Pair correlation 0.756, PC1 87.82%, random-basket p = 0.0031, threshold-stable width 0.45. [[Samsung]] / [[SK Hynix]] form a clean two-name [[Memory|memory]] pair at distance 0.244, with strong separation from [[US Memory]], [[EWY]], and semiconductor ETFs. Re-validated Jun 10 2026 against the cleaned stock-only null (10,000 permutations, Phipson-Smyth; pair correlation 0.731 on the refreshed window, holdout ratio 1.36 STRENGTHENING).
 
 Korean [[Memory|memory]] giants. Trades as a distinct micro-cluster separate from [[US Memory]]. Dominates [[HBM]].
 

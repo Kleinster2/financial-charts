@@ -1,22 +1,22 @@
 Defense primes (core 6) PERMUTATION TESTS
-Window: 2025-05-09 -> 2026-05-07 (198 obs)
+Window: 2025-05-09 -> 2026-05-08 (199 obs)
 Candidate cohort: LMT, RTX, NOC, GD, HII, LHX (N=6)
-Observed intra-corr: 0.4821    Observed PC1: 57.08%
+Observed intra-corr: 0.4819    Observed PC1: 57.06%
 
 --- RANDOM-BASKET NULL ---
-Permutations: 988
-Universe source: DB prices_long (423 tickers with >=200 obs in window)
-Pool size: 422
+Permutations: 10000
+Universe source: DB prices_long (918 tickers with >=200 obs in window)
+Pool size: 912
 Intra-cluster correlation:
-  Null mean:        0.1049
-  Null 95th pct:    0.2488
-  Null 99th pct:    0.3058
-  p-value (right):  0.000000    -> REJECTS random-basket null at p < 0.001
+  Null mean:        0.1430
+  Null 95th pct:    0.2554
+  Null 99th pct:    0.3094
+  p-value (right):  0.000100    -> REJECTS random-basket null at p < 0.001
 PC1 explained variance:
-  Null mean:        30.94%
-  Null 95th pct:    41.78%
-  Null 99th pct:    47.58%
-  p-value (right):  0.002024    -> REJECTS random-basket null at p < 0.01
+  Null mean:        31.33%
+  Null 95th pct:    40.15%
+  Null 99th pct:    44.00%
+  p-value (right):  0.000100    -> REJECTS random-basket null at p < 0.001
 
 --- INTERPRETATION ---
 Random-basket null rejected: cohort is more cohesive than a random N-pick from the same universe. This is the meaningful pass.

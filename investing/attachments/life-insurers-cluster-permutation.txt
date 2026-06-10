@@ -1,22 +1,22 @@
 Life insurers pair PERMUTATION TESTS
-Window: 2025-05-01 -> 2026-04-29 (196 obs)
+Window: 2025-05-01 -> 2026-04-30 (197 obs)
 Candidate cohort: MET, PRU (N=2)
-Observed intra-corr: 0.7109    Observed PC1: 85.55%
+Observed intra-corr: 0.7100    Observed PC1: 85.50%
 
 --- RANDOM-BASKET NULL ---
-Permutations: 1000
-Universe source: DB prices_long (425 tickers with >=200 obs in window)
-Pool size: 422
+Permutations: 10000
+Universe source: DB prices_long (220 tickers with >=200 obs in window)
+Pool size: 220
 Intra-cluster correlation:
-  Null mean:        0.0968
-  Null 95th pct:    0.4028
-  Null 99th pct:    0.5947
-  p-value (right):  0.006000    -> REJECTS random-basket null at p < 0.01
+  Null mean:        0.1718
+  Null 95th pct:    0.4473
+  Null 99th pct:    0.6165
+  p-value (right):  0.003500    -> REJECTS random-basket null at p < 0.01
 PC1 explained variance:
-  Null mean:        57.21%
-  Null 95th pct:    70.19%
-  Null 99th pct:    79.73%
-  p-value (right):  0.006000    -> REJECTS random-basket null at p < 0.01
+  Null mean:        59.30%
+  Null 95th pct:    72.36%
+  Null 99th pct:    80.83%
+  p-value (right):  0.003500    -> REJECTS random-basket null at p < 0.01
 
 --- INTERPRETATION ---
 Random-basket null rejected: cohort is more cohesive than a random N-pick from the same universe. This is the meaningful pass.

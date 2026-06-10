@@ -2,7 +2,7 @@ Cybersecurity consolidation HOLDOUT TEST
 Cohort: PANW, CRWD, MSFT, CSCO (N=4)
 Window: 2y, split temporally at midpoint
 Train: 2024-04-30 -> 2025-04-30 (125 obs)
-Test:  2025-04-30 -> 2026-04-30 (197 obs)
+Test:  2025-04-30 -> 2026-04-30 (198 obs)
 
 --- TRAIN HALF (older) ---
 Intra-correlation:    0.5112
@@ -10,13 +10,13 @@ PC1 explained var:    63.49%
 Pairwise range:       [0.438, 0.601]
 
 --- TEST HALF (newer) ---
-Intra-correlation:    0.3438
-PC1 explained var:    53.02%
-Pairwise range:       [0.077, 0.702]
+Intra-correlation:    0.3400
+PC1 explained var:    52.86%
+Pairwise range:       [0.075, 0.702]
 
 --- STABILITY DIAGNOSTICS ---
-Intra-corr delta:     -0.1674   (test - train)
-PC1 variance delta:   -10.47pp
-PC1 loadings corr:    0.9973    (1.0 = identical factor structure)
+Intra-corr delta:     -0.1712   (test - train)
+PC1 variance delta:   -10.63pp
+PC1 loadings corr:    0.9974    (1.0 = identical factor structure)
 
 VERDICT: WEAKENED — test/train ratio 0.67 (factor present but eroding)

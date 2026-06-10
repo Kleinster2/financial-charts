@@ -1,22 +1,22 @@
 WFE quartet PERMUTATION TESTS
-Window: 2025-05-01 -> 2026-04-29 (250 obs)
+Window: 2025-05-01 -> 2026-04-30 (251 obs)
 Candidate cohort: ASML, AMAT, KLAC, LRCX (N=4)
-Observed intra-corr: 0.8037    Observed PC1: 85.33%
+Observed intra-corr: 0.7973    Observed PC1: 84.85%
 
 --- RANDOM-BASKET NULL ---
-Permutations: 1000
-Universe source: DB prices_long (425 tickers with >=200 obs in window)
-Pool size: 24
+Permutations: 10000
+Universe source: DB prices_long (220 tickers with >=200 obs in window)
+Pool size: 217
 Intra-cluster correlation:
-  Null mean:        0.2166
-  Null 95th pct:    0.4740
-  Null 99th pct:    0.5727
-  p-value (right):  0.004000    -> REJECTS random-basket null at p < 0.01
+  Null mean:        0.1696
+  Null 95th pct:    0.3404
+  Null 99th pct:    0.4317
+  p-value (right):  0.000100    -> REJECTS random-basket null at p < 0.001
 PC1 explained variance:
-  Null mean:        46.20%
-  Null 95th pct:    66.48%
-  Null 99th pct:    74.20%
-  p-value (right):  0.003000    -> REJECTS random-basket null at p < 0.01
+  Null mean:        39.76%
+  Null 95th pct:    51.76%
+  Null 99th pct:    58.27%
+  p-value (right):  0.000100    -> REJECTS random-basket null at p < 0.001
 
 --- INTERPRETATION ---
 Random-basket null rejected: cohort is more cohesive than a random N-pick from the same universe. This is the meaningful pass.

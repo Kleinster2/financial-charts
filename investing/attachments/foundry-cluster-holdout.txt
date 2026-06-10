@@ -2,7 +2,7 @@ Foundry monopoly HOLDOUT TEST
 Cohort: TSM, INTC, GFS, 005930.KS (N=4)
 Window: 2y, split temporally at midpoint
 Train: 2024-04-30 -> 2025-04-30 (219 obs)
-Test:  2025-04-30 -> 2026-04-30 (223 obs)
+Test:  2025-04-30 -> 2026-04-30 (224 obs)
 
 --- TRAIN HALF (older) ---
 Intra-correlation:    0.2925
@@ -10,13 +10,13 @@ PC1 explained var:    50.14%
 Pairwise range:       [0.037, 0.611]
 
 --- TEST HALF (newer) ---
-Intra-correlation:    0.2076
-PC1 explained var:    43.67%
-Pairwise range:       [0.046, 0.404]
+Intra-correlation:    0.2066
+PC1 explained var:    43.62%
+Pairwise range:       [0.042, 0.402]
 
 --- STABILITY DIAGNOSTICS ---
-Intra-corr delta:     -0.0850   (test - train)
-PC1 variance delta:   -6.47pp
-PC1 loadings corr:    0.9947    (1.0 = identical factor structure)
+Intra-corr delta:     -0.0860   (test - train)
+PC1 variance delta:   -6.52pp
+PC1 loadings corr:    0.9945    (1.0 = identical factor structure)
 
 VERDICT: WEAKENED — test/train ratio 0.71 (factor present but eroding)
