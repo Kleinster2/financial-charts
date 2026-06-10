@@ -1,0 +1,845 @@
+{
+  "scan_date": "2026-06-09",
+  "scan_time": "03:20:51",
+  "data_update_ok": true,
+  "latest_price_date": "2026-06-08 00:00:00",
+  "daily_note_exists": true,
+  "prediction_market_watchlist": {
+    "as_of": "2026-06-09",
+    "entries": 49,
+    "comparisons": [
+      {
+        "id": "bitcoin-150k-2026-cross-venue",
+        "note": "Bitcoin",
+        "threshold_pp": 5.0,
+        "legs": [
+          {
+            "label": "Kalshi BTC $150K by Dec. 31",
+            "provider": "kalshi",
+            "watch_id": "btc-upside-2026",
+            "market_id": "KXBTCMAXY-26DEC31-149999.99",
+            "price": 0.1
+          },
+          {
+            "label": "Polymarket BTC $150K by Dec. 31",
+            "provider": "polymarket",
+            "watch_id": "polymarket-bitcoin-150k",
+            "market_id": "will-bitcoin-hit-150k-by-december-31-2026",
+            "price": 0.095
+          }
+        ],
+        "spread_pp": 0.5
+      },
+      {
+        "id": "spacex-june-ipo-cross-venue",
+        "note": "SpaceX IPO 2026",
+        "threshold_pp": 8.0,
+        "legs": [
+          {
+            "label": "Kalshi SpaceX IPO before Jul. 1",
+            "provider": "kalshi",
+            "watch_id": "spacex-ipo-timing",
+            "market_id": "KXIPOSPACEX-26JUL01",
+            "price": 0.95
+          },
+          {
+            "label": "Polymarket SpaceX IPO by Jun. 30",
+            "provider": "polymarket",
+            "watch_id": "polymarket-spacex-ipo-timing",
+            "market_id": "will-spacex-ipo-by-june-30-2026-372-264-619",
+            "price": 0.9415
+          }
+        ],
+        "spread_pp": 0.85
+      },
+      {
+        "id": "openai-no-2026-ipo-cross-venue",
+        "note": "2026 IPO pipeline",
+        "threshold_pp": 8.0,
+        "legs": [
+          {
+            "label": "Kalshi no OpenAI IPO before Jan. 1, 2027",
+            "provider": "kalshi",
+            "watch_id": "openai-ipo-timing",
+            "market_id": "KXIPOOPENAI-27JAN01",
+            "price": 0.25
+          },
+          {
+            "label": "Polymarket no OpenAI IPO by Dec. 31",
+            "provider": "polymarket",
+            "watch_id": "polymarket-openai-ipo-valuation",
+            "market_id": "will-openai-not-ipo-by-december-31-2026",
+            "price": 0.285
+          }
+        ],
+        "spread_pp": 3.5
+      }
+    ],
+    "derived_metrics": [
+      {
+        "id": "spacex-ipo-implied-median-market-cap",
+        "watch_id": "polymarket-spacex-ipo-valuation",
+        "note": "SpaceX IPO 2026",
+        "label": "SpaceX IPO implied median closing market cap",
+        "method": "thresholds",
+        "percentile": 0.5,
+        "unit": "T",
+        "condition": null,
+        "value": 2.3771929824561404,
+        "bound": "interpolated",
+        "bucket": "above $2T / above $3T",
+        "input_probability": null
+      },
+      {
+        "id": "openai-ipo-implied-median-market-cap",
+        "watch_id": "polymarket-openai-ipo-valuation",
+        "note": "2026 IPO pipeline",
+        "label": "OpenAI IPO implied median closing market cap",
+        "method": "bands",
+        "percentile": 0.5,
+        "unit": "T",
+        "condition": "conditional on IPO by Dec. 31, 2026; excludes the no-IPO leg",
+        "value": 1.235204081632653,
+        "bound": "interpolated",
+        "bucket": "$1T-$1.25T",
+        "input_probability": 0.7185
+      },
+      {
+        "id": "anthropic-2026-npm-high-implied-median-valuation",
+        "watch_id": "polymarket-anthropic-valuation-2026",
+        "note": "Anthropic",
+        "label": "Anthropic 2026 NPM high-water implied median valuation",
+        "method": "thresholds",
+        "percentile": 0.5,
+        "unit": "T",
+        "condition": "high-water Nasdaq Private Market valuation by Dec. 31, 2026",
+        "value": 1.9326923076923077,
+        "bound": "interpolated",
+        "bucket": "above $1.75T / above $2.0T",
+        "input_probability": null
+      }
+    ],
+    "alerts": [
+      {
+        "level": "stale",
+        "kind": "stale",
+        "watch_id": "btc-upside-2026",
+        "note": "Bitcoin",
+        "message": "last read 12 days ago; cadence allows 8"
+      },
+      {
+        "level": "stale",
+        "kind": "stale",
+        "watch_id": "eth-upside-2026",
+        "note": "Ethereum",
+        "message": "last read 12 days ago; cadence allows 8"
+      },
+      {
+        "level": "stale",
+        "kind": "stale",
+        "watch_id": "commodity-weekly-ladders",
+        "note": "Commodities",
+        "message": "last read 12 days ago; cadence allows 2"
+      },
+      {
+        "level": "stale",
+        "kind": "stale",
+        "watch_id": "gasoline-cpi-stress",
+        "note": "2026 recession risk",
+        "message": "last read 12 days ago; cadence allows 2"
+      },
+      {
+        "level": "stale",
+        "kind": "stale",
+        "watch_id": "rates-fed-path",
+        "note": "Rate expectations",
+        "message": "last read 12 days ago; cadence allows 2"
+      },
+      {
+        "level": "stale",
+        "kind": "stale",
+        "watch_id": "ai-labor-challenger",
+        "note": "AI labor displacement",
+        "message": "last read 12 days ago; cadence allows 8"
+      },
+      {
+        "level": "stale",
+        "kind": "stale",
+        "watch_id": "ai-model-leadership",
+        "note": "AI benchmarks",
+        "message": "last read 12 days ago; cadence allows 8"
+      },
+      {
+        "level": "stale",
+        "kind": "stale",
+        "watch_id": "gpu-rental-prices",
+        "note": "GPU rental price index",
+        "message": "last read 12 days ago; cadence allows 8"
+      },
+      {
+        "level": "stale",
+        "kind": "stale",
+        "watch_id": "hormuz-normalization",
+        "note": "Strait of Hormuz",
+        "message": "last read 12 days ago; cadence allows 8"
+      },
+      {
+        "level": "stale",
+        "kind": "stale",
+        "watch_id": "ai-federal-law",
+        "note": "AI regulation",
+        "message": "last read 12 days ago; cadence allows 8"
+      },
+      {
+        "level": "stale",
+        "kind": "stale",
+        "watch_id": "ai-copyright-scotus",
+        "note": "AI regulation",
+        "message": "last read 12 days ago; cadence allows 8"
+      },
+      {
+        "level": "stale",
+        "kind": "stale",
+        "watch_id": "bitcoin-reserve",
+        "note": "Strategic Bitcoin Reserve",
+        "message": "last read 12 days ago; cadence allows 8"
+      },
+      {
+        "level": "stale",
+        "kind": "stale",
+        "watch_id": "tariff-effective-rate",
+        "note": "US-China tariffs",
+        "message": "last read 12 days ago; cadence allows 8"
+      },
+      {
+        "level": "stale",
+        "kind": "stale",
+        "watch_id": "tariff-revenue",
+        "note": "US-China tariffs",
+        "message": "last read 12 days ago; cadence allows 8"
+      },
+      {
+        "level": "stale",
+        "kind": "stale",
+        "watch_id": "tariff-scotus-hear",
+        "note": "SCOTUS IEEPA ruling",
+        "message": "last read 12 days ago; cadence allows 8"
+      },
+      {
+        "level": "stale",
+        "kind": "stale",
+        "watch_id": "powell-firing-attempt",
+        "note": "Fed independence",
+        "message": "last read 12 days ago; cadence allows 8"
+      },
+      {
+        "level": "stale",
+        "kind": "stale",
+        "watch_id": "independent-agency-removal",
+        "note": "Fed independence",
+        "message": "last read 12 days ago; cadence allows 8"
+      },
+      {
+        "level": "stale",
+        "kind": "stale",
+        "watch_id": "sec-quarterly-reporting",
+        "note": "SEC",
+        "message": "last read 12 days ago; cadence allows 8"
+      },
+      {
+        "level": "stale",
+        "kind": "stale",
+        "watch_id": "shutdown-count",
+        "note": "2026-05-20",
+        "message": "last read 12 days ago; cadence allows 8"
+      },
+      {
+        "level": "stale",
+        "kind": "stale",
+        "watch_id": "tesla-q2-deliveries",
+        "note": "Short Tesla",
+        "message": "last read 12 days ago; cadence allows 8"
+      },
+      {
+        "level": "stale",
+        "kind": "stale",
+        "watch_id": "tesla-q2-production",
+        "note": "Short Tesla",
+        "message": "last read 12 days ago; cadence allows 8"
+      },
+      {
+        "level": "stale",
+        "kind": "stale",
+        "watch_id": "spacex-ipo-timing",
+        "note": "SpaceX IPO 2026",
+        "message": "last read 12 days ago; cadence allows 2"
+      },
+      {
+        "level": "stale",
+        "kind": "stale",
+        "watch_id": "spacex-launch-cadence",
+        "note": "SpaceX IPO 2026",
+        "message": "last read 12 days ago; cadence allows 8"
+      },
+      {
+        "level": "stale",
+        "kind": "stale",
+        "watch_id": "ai-release-cadence-anthropic",
+        "note": "AI benchmarks",
+        "message": "last read 12 days ago; cadence allows 8"
+      },
+      {
+        "level": "stale",
+        "kind": "stale",
+        "watch_id": "ai-release-cadence-openai",
+        "note": "AI benchmarks",
+        "message": "last read 12 days ago; cadence allows 8"
+      },
+      {
+        "level": "stale",
+        "kind": "stale",
+        "watch_id": "polymarket-brazil-presidential-election",
+        "note": "2026 Brazil presidential election",
+        "message": "last read 12 days ago; cadence allows 2"
+      },
+      {
+        "level": "stale",
+        "kind": "stale",
+        "watch_id": "polymarket-bitcoin-150k",
+        "note": "Bitcoin",
+        "message": "last read 12 days ago; cadence allows 8"
+      },
+      {
+        "level": "stale",
+        "kind": "stale",
+        "watch_id": "polymarket-spacex-ipo-valuation",
+        "note": "SpaceX IPO 2026",
+        "message": "last read 12 days ago; cadence allows 2"
+      },
+      {
+        "level": "stale",
+        "kind": "stale",
+        "watch_id": "polymarket-spacex-ipo-timing",
+        "note": "SpaceX IPO 2026",
+        "message": "last read 12 days ago; cadence allows 2"
+      },
+      {
+        "level": "stale",
+        "kind": "stale",
+        "watch_id": "polymarket-anthropic-valuation-2026",
+        "note": "Anthropic",
+        "message": "last read 12 days ago; cadence allows 8"
+      }
+    ],
+    "counts": {
+      "stale": 30,
+      "material": 0,
+      "review": 0
+    }
+  },
+  "kalshi_watchlist": {
+    "as_of": "2026-06-09",
+    "entries": 49,
+    "comparisons": [
+      {
+        "id": "bitcoin-150k-2026-cross-venue",
+        "note": "Bitcoin",
+        "threshold_pp": 5.0,
+        "legs": [
+          {
+            "label": "Kalshi BTC $150K by Dec. 31",
+            "provider": "kalshi",
+            "watch_id": "btc-upside-2026",
+            "market_id": "KXBTCMAXY-26DEC31-149999.99",
+            "price": 0.1
+          },
+          {
+            "label": "Polymarket BTC $150K by Dec. 31",
+            "provider": "polymarket",
+            "watch_id": "polymarket-bitcoin-150k",
+            "market_id": "will-bitcoin-hit-150k-by-december-31-2026",
+            "price": 0.095
+          }
+        ],
+        "spread_pp": 0.5
+      },
+      {
+        "id": "spacex-june-ipo-cross-venue",
+        "note": "SpaceX IPO 2026",
+        "threshold_pp": 8.0,
+        "legs": [
+          {
+            "label": "Kalshi SpaceX IPO before Jul. 1",
+            "provider": "kalshi",
+            "watch_id": "spacex-ipo-timing",
+            "market_id": "KXIPOSPACEX-26JUL01",
+            "price": 0.95
+          },
+          {
+            "label": "Polymarket SpaceX IPO by Jun. 30",
+            "provider": "polymarket",
+            "watch_id": "polymarket-spacex-ipo-timing",
+            "market_id": "will-spacex-ipo-by-june-30-2026-372-264-619",
+            "price": 0.9415
+          }
+        ],
+        "spread_pp": 0.85
+      },
+      {
+        "id": "openai-no-2026-ipo-cross-venue",
+        "note": "2026 IPO pipeline",
+        "threshold_pp": 8.0,
+        "legs": [
+          {
+            "label": "Kalshi no OpenAI IPO before Jan. 1, 2027",
+            "provider": "kalshi",
+            "watch_id": "openai-ipo-timing",
+            "market_id": "KXIPOOPENAI-27JAN01",
+            "price": 0.25
+          },
+          {
+            "label": "Polymarket no OpenAI IPO by Dec. 31",
+            "provider": "polymarket",
+            "watch_id": "polymarket-openai-ipo-valuation",
+            "market_id": "will-openai-not-ipo-by-december-31-2026",
+            "price": 0.285
+          }
+        ],
+        "spread_pp": 3.5
+      }
+    ],
+    "derived_metrics": [
+      {
+        "id": "spacex-ipo-implied-median-market-cap",
+        "watch_id": "polymarket-spacex-ipo-valuation",
+        "note": "SpaceX IPO 2026",
+        "label": "SpaceX IPO implied median closing market cap",
+        "method": "thresholds",
+        "percentile": 0.5,
+        "unit": "T",
+        "condition": null,
+        "value": 2.3771929824561404,
+        "bound": "interpolated",
+        "bucket": "above $2T / above $3T",
+        "input_probability": null
+      },
+      {
+        "id": "openai-ipo-implied-median-market-cap",
+        "watch_id": "polymarket-openai-ipo-valuation",
+        "note": "2026 IPO pipeline",
+        "label": "OpenAI IPO implied median closing market cap",
+        "method": "bands",
+        "percentile": 0.5,
+        "unit": "T",
+        "condition": "conditional on IPO by Dec. 31, 2026; excludes the no-IPO leg",
+        "value": 1.235204081632653,
+        "bound": "interpolated",
+        "bucket": "$1T-$1.25T",
+        "input_probability": 0.7185
+      },
+      {
+        "id": "anthropic-2026-npm-high-implied-median-valuation",
+        "watch_id": "polymarket-anthropic-valuation-2026",
+        "note": "Anthropic",
+        "label": "Anthropic 2026 NPM high-water implied median valuation",
+        "method": "thresholds",
+        "percentile": 0.5,
+        "unit": "T",
+        "condition": "high-water Nasdaq Private Market valuation by Dec. 31, 2026",
+        "value": 1.9326923076923077,
+        "bound": "interpolated",
+        "bucket": "above $1.75T / above $2.0T",
+        "input_probability": null
+      }
+    ],
+    "alerts": [
+      {
+        "level": "stale",
+        "kind": "stale",
+        "watch_id": "btc-upside-2026",
+        "note": "Bitcoin",
+        "message": "last read 12 days ago; cadence allows 8"
+      },
+      {
+        "level": "stale",
+        "kind": "stale",
+        "watch_id": "eth-upside-2026",
+        "note": "Ethereum",
+        "message": "last read 12 days ago; cadence allows 8"
+      },
+      {
+        "level": "stale",
+        "kind": "stale",
+        "watch_id": "commodity-weekly-ladders",
+        "note": "Commodities",
+        "message": "last read 12 days ago; cadence allows 2"
+      },
+      {
+        "level": "stale",
+        "kind": "stale",
+        "watch_id": "gasoline-cpi-stress",
+        "note": "2026 recession risk",
+        "message": "last read 12 days ago; cadence allows 2"
+      },
+      {
+        "level": "stale",
+        "kind": "stale",
+        "watch_id": "rates-fed-path",
+        "note": "Rate expectations",
+        "message": "last read 12 days ago; cadence allows 2"
+      },
+      {
+        "level": "stale",
+        "kind": "stale",
+        "watch_id": "ai-labor-challenger",
+        "note": "AI labor displacement",
+        "message": "last read 12 days ago; cadence allows 8"
+      },
+      {
+        "level": "stale",
+        "kind": "stale",
+        "watch_id": "ai-model-leadership",
+        "note": "AI benchmarks",
+        "message": "last read 12 days ago; cadence allows 8"
+      },
+      {
+        "level": "stale",
+        "kind": "stale",
+        "watch_id": "gpu-rental-prices",
+        "note": "GPU rental price index",
+        "message": "last read 12 days ago; cadence allows 8"
+      },
+      {
+        "level": "stale",
+        "kind": "stale",
+        "watch_id": "hormuz-normalization",
+        "note": "Strait of Hormuz",
+        "message": "last read 12 days ago; cadence allows 8"
+      },
+      {
+        "level": "stale",
+        "kind": "stale",
+        "watch_id": "ai-federal-law",
+        "note": "AI regulation",
+        "message": "last read 12 days ago; cadence allows 8"
+      },
+      {
+        "level": "stale",
+        "kind": "stale",
+        "watch_id": "ai-copyright-scotus",
+        "note": "AI regulation",
+        "message": "last read 12 days ago; cadence allows 8"
+      },
+      {
+        "level": "stale",
+        "kind": "stale",
+        "watch_id": "bitcoin-reserve",
+        "note": "Strategic Bitcoin Reserve",
+        "message": "last read 12 days ago; cadence allows 8"
+      },
+      {
+        "level": "stale",
+        "kind": "stale",
+        "watch_id": "tariff-effective-rate",
+        "note": "US-China tariffs",
+        "message": "last read 12 days ago; cadence allows 8"
+      },
+      {
+        "level": "stale",
+        "kind": "stale",
+        "watch_id": "tariff-revenue",
+        "note": "US-China tariffs",
+        "message": "last read 12 days ago; cadence allows 8"
+      },
+      {
+        "level": "stale",
+        "kind": "stale",
+        "watch_id": "tariff-scotus-hear",
+        "note": "SCOTUS IEEPA ruling",
+        "message": "last read 12 days ago; cadence allows 8"
+      },
+      {
+        "level": "stale",
+        "kind": "stale",
+        "watch_id": "powell-firing-attempt",
+        "note": "Fed independence",
+        "message": "last read 12 days ago; cadence allows 8"
+      },
+      {
+        "level": "stale",
+        "kind": "stale",
+        "watch_id": "independent-agency-removal",
+        "note": "Fed independence",
+        "message": "last read 12 days ago; cadence allows 8"
+      },
+      {
+        "level": "stale",
+        "kind": "stale",
+        "watch_id": "sec-quarterly-reporting",
+        "note": "SEC",
+        "message": "last read 12 days ago; cadence allows 8"
+      },
+      {
+        "level": "stale",
+        "kind": "stale",
+        "watch_id": "shutdown-count",
+        "note": "2026-05-20",
+        "message": "last read 12 days ago; cadence allows 8"
+      },
+      {
+        "level": "stale",
+        "kind": "stale",
+        "watch_id": "tesla-q2-deliveries",
+        "note": "Short Tesla",
+        "message": "last read 12 days ago; cadence allows 8"
+      },
+      {
+        "level": "stale",
+        "kind": "stale",
+        "watch_id": "tesla-q2-production",
+        "note": "Short Tesla",
+        "message": "last read 12 days ago; cadence allows 8"
+      },
+      {
+        "level": "stale",
+        "kind": "stale",
+        "watch_id": "spacex-ipo-timing",
+        "note": "SpaceX IPO 2026",
+        "message": "last read 12 days ago; cadence allows 2"
+      },
+      {
+        "level": "stale",
+        "kind": "stale",
+        "watch_id": "spacex-launch-cadence",
+        "note": "SpaceX IPO 2026",
+        "message": "last read 12 days ago; cadence allows 8"
+      },
+      {
+        "level": "stale",
+        "kind": "stale",
+        "watch_id": "ai-release-cadence-anthropic",
+        "note": "AI benchmarks",
+        "message": "last read 12 days ago; cadence allows 8"
+      },
+      {
+        "level": "stale",
+        "kind": "stale",
+        "watch_id": "ai-release-cadence-openai",
+        "note": "AI benchmarks",
+        "message": "last read 12 days ago; cadence allows 8"
+      },
+      {
+        "level": "stale",
+        "kind": "stale",
+        "watch_id": "polymarket-brazil-presidential-election",
+        "note": "2026 Brazil presidential election",
+        "message": "last read 12 days ago; cadence allows 2"
+      },
+      {
+        "level": "stale",
+        "kind": "stale",
+        "watch_id": "polymarket-bitcoin-150k",
+        "note": "Bitcoin",
+        "message": "last read 12 days ago; cadence allows 8"
+      },
+      {
+        "level": "stale",
+        "kind": "stale",
+        "watch_id": "polymarket-spacex-ipo-valuation",
+        "note": "SpaceX IPO 2026",
+        "message": "last read 12 days ago; cadence allows 2"
+      },
+      {
+        "level": "stale",
+        "kind": "stale",
+        "watch_id": "polymarket-spacex-ipo-timing",
+        "note": "SpaceX IPO 2026",
+        "message": "last read 12 days ago; cadence allows 2"
+      },
+      {
+        "level": "stale",
+        "kind": "stale",
+        "watch_id": "polymarket-anthropic-valuation-2026",
+        "note": "Anthropic",
+        "message": "last read 12 days ago; cadence allows 8"
+      }
+    ],
+    "counts": {
+      "stale": 30,
+      "material": 0,
+      "review": 0
+    }
+  },
+  "analyst_watchlist": {
+    "source": "docs/analyst-watchlist.md",
+    "analysts": [
+      {
+        "name": "Helima Croft",
+        "folder": "Analysts",
+        "path": "investing/Analysts/Helima Croft.md",
+        "status": "ok"
+      },
+      {
+        "name": "Jeff Currie",
+        "folder": "Analysts",
+        "path": "investing/Analysts/Jeff Currie.md",
+        "status": "ok"
+      },
+      {
+        "name": "Natasha Kaneva",
+        "folder": "Analysts",
+        "path": "investing/Analysts/Natasha Kaneva.md",
+        "status": "ok"
+      },
+      {
+        "name": "Francisco Blanch",
+        "folder": "Analysts",
+        "path": "investing/Analysts/Francisco Blanch.md",
+        "status": "ok"
+      },
+      {
+        "name": "Lyn Alden",
+        "folder": "Analysts",
+        "path": "investing/Analysts/Lyn Alden.md",
+        "status": "ok"
+      },
+      {
+        "name": "Zoltan Pozsar",
+        "folder": "Analysts",
+        "path": "investing/Analysts/Zoltan Pozsar.md",
+        "status": "ok"
+      },
+      {
+        "name": "Ed Yardeni",
+        "folder": "Analysts",
+        "path": "investing/Analysts/Ed Yardeni.md",
+        "status": "ok"
+      },
+      {
+        "name": "Mike Wilson",
+        "folder": "Analysts",
+        "path": "investing/Analysts/Mike Wilson.md",
+        "status": "ok"
+      },
+      {
+        "name": "Brad Setser",
+        "folder": "Analysts",
+        "path": "investing/Analysts/Brad Setser.md",
+        "status": "ok"
+      }
+    ],
+    "missing": [],
+    "fallback_actors": []
+  },
+  "sigma_movers": [
+    "Using sqlite (latest data: 2026-06-08) \u2014 beta-adjusted (beta:120d, vol:60d)",
+    "Skipped 40 off-session tickers (latest close not on SPY session 2026-06-08).",
+    "SPY: +0.2% on 2026-06-08",
+    "** VAULT ACTORS WITH UNUSUAL MOVES (>=2.5s, or >=2.0s if vol>50%, or >=6.0% absolute):",
+    "Ticker   Actor                              Prev     Last   Change   Sigma   Beta  IdioVol Trigger",
+    "--------------------------------------------------------------------------------------------------",
+    "GLXY     Galaxy Digital                 $  25.14 $  30.51 +  21.4% +  5.6s  3.59x     59% >=2.5s, >=6.0%",
+    "KLAC     KLA                            $1929.20 $2108.06 +   9.3% +  3.5s  2.44x     39% >=2.5s, >=6.0%",
+    "AMAT     Applied Materials              $ 453.01 $ 492.17 +   8.6% +  3.2s  2.56x     40% >=2.5s, >=6.0%",
+    "MARA     Marathon                       $  12.32 $  13.78 +  11.9% +  2.9s  2.89x     60% >=2.5s, >=6.0%",
+    "ASML     ASML                           $1641.74 $1749.04 +   6.5% +  2.9s  2.49x     33% >=2.5s, >=6.0%",
+    "GBTC     Grayscale                      $  46.80 $  49.17 +   5.1% +  2.9s  1.70x     29% >=2.5s",
+    "HSY      Hershey                        $ 184.58 $ 175.90   -4.7%  -2.6s -0.00x     27% >=2.5s",
+    "AFL      Aflac                          $ 118.24 $ 115.24   -2.5%  -2.6s  0.07x     16% >=2.5s",
+    "LRCX     Lam Research                   $ 303.28 $ 324.45 +   7.0% +  2.4s  3.04x     41% >=6.0%",
+    "NTDOY    Nintendo                       $  11.51 $  12.23 +   6.3% +  2.3s -0.04x     45% >=6.0%",
+    "COIN     Coinbase                       $ 152.40 $ 162.11 +   6.4% +  1.9s  2.94x     54% >=6.0%",
+    "INTC     Intel                          $  99.17 $ 110.27 +  11.2% +  1.9s  3.20x     79% >=6.0%",
+    "WULF     TeraWulf                       $  24.00 $  25.86 +   7.8% +  1.8s  3.43x     60% >=6.0%",
+    "MU       Micron                         $ 864.01 $ 949.28 +   9.9% +  1.7s  3.14x     78% >=6.0%",
+    "IREN     IREN                           $  54.35 $  59.19 +   8.9% +  1.6s  3.79x     80% >=6.0%",
+    "CIFR     Cipher Mining                  $  22.45 $  24.29 +   8.2% +  1.4s  3.92x     78% >=6.0%",
+    "MRVL     Marvell                        $ 263.47 $ 288.85 +   9.6% +  1.4s  2.64x     85% >=6.0%",
+    "WIX      Wix                            $  52.39 $  48.21   -8.0%  -1.3s -0.06x     88% >=6.0%",
+    "STM      STMicro                        $  70.72 $  75.01 +   6.1% +  1.1s  0.84x     67% >=6.0%",
+    "HUT      Hut 8                          $ 112.24 $ 119.60 +   6.6% +  0.9s  4.94x     79% >=6.0%",
+    "DXYZ     Destiny Tech100                $  41.79 $  39.23   -6.1%  -0.8s  1.72x    139% >=6.0%"
+  ],
+  "recent_earnings": [
+    {
+      "ticker": "GOOG",
+      "last_report": "2027-12-31"
+    },
+    {
+      "ticker": "META",
+      "last_report": "2027-12-31"
+    },
+    {
+      "ticker": "AVGO",
+      "last_report": "2026-05-03"
+    },
+    {
+      "ticker": "AMAT",
+      "last_report": "2026-04-30"
+    },
+    {
+      "ticker": "CSCO",
+      "last_report": "2026-04-30"
+    },
+    {
+      "ticker": "GME",
+      "last_report": "2026-04-30"
+    },
+    {
+      "ticker": "MDT",
+      "last_report": "2026-04-30"
+    },
+    {
+      "ticker": "NVDA",
+      "last_report": "2026-04-30"
+    },
+    {
+      "ticker": "ADP",
+      "last_report": "2026-03-31"
+    },
+    {
+      "ticker": "APP",
+      "last_report": "2026-03-31"
+    },
+    {
+      "ticker": "ASTS",
+      "last_report": "2026-03-31"
+    },
+    {
+      "ticker": "BA",
+      "last_report": "2026-03-31"
+    },
+    {
+      "ticker": "BABA",
+      "last_report": "2026-03-31"
+    },
+    {
+      "ticker": "BAC",
+      "last_report": "2026-03-31"
+    },
+    {
+      "ticker": "BIRK",
+      "last_report": "2026-03-31"
+    },
+    {
+      "ticker": "BSBR",
+      "last_report": "2026-03-31"
+    },
+    {
+      "ticker": "CHTR",
+      "last_report": "2026-03-31"
+    },
+    {
+      "ticker": "CHYM",
+      "last_report": "2026-03-31"
+    },
+    {
+      "ticker": "COIN",
+      "last_report": "2026-03-31"
+    },
+    {
+      "ticker": "CORZ",
+      "last_report": "2026-03-31"
+    }
+  ]
+}
