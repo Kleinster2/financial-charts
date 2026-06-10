@@ -1,6 +1,6 @@
 ---
 name: daily-scan
-description: "Autonomous daily market scan. Updates market data, screens vault actors for sigma movers (2.5σ standard / 2.0σ high-vol / 6% absolute — see docs/movers-screening.md), audits ticker aliases for Phase-0-invisible names, tracks IPO debuts and stale pre-IPO rounds, scans 8 tracked analysts (docs/analyst-watchlist.md) for new commentary, checks today's earnings calendar, writes a briefing to the daily note, and returns the briefing in chat. Time-of-day agnostic — pre-market, intraday, post-close all work. Use for /daily-scan, /morning-scan (legacy), daily sweep, what moved today, pre-market check, what's on the earnings calendar."
+description: "Autonomous daily market scan. Updates market data, screens vault actors for sigma movers (2.5σ standard / 2.0σ high-vol / 6% absolute — see docs/movers-screening.md), audits ticker aliases for Phase-0-invisible names, audits per-ticker price freshness vs the latest SPY session, tracks IPO debuts and stale pre-IPO rounds, scans 8 tracked analysts (docs/analyst-watchlist.md) for new commentary, checks today's earnings calendar, writes a briefing to the daily note, and returns the briefing in chat. Time-of-day agnostic — pre-market, intraday, post-close all work. Use for /daily-scan, /morning-scan (legacy), daily sweep, what moved today, pre-market check, what's on the earnings calendar."
 ---
 
 # Daily Scan
@@ -23,11 +23,12 @@ Full screening logic and rationale: `docs/movers-screening.md`.
 
 1. `python scripts/daily_scan.py --output /tmp/daily_scan.json` — updates market data universally (`update_market_data.py --lookback 5 --assets all`; FRED indicators apply a monthly-safe lookback floor), runs `quick_movers.py` with the three-trigger default (2.5σ / 2.0σ high-vol / 6% absolute), reports data freshness.
 
-Run these three audit scripts in parallel with the sigma screen — they catch failure modes the sigma alone misses:
+Run these four audit scripts in parallel with the sigma screen — they catch failure modes the sigma alone misses:
 
 2. `python scripts/audit_vault_tickers.py --only-gaps` — actor notes with body-mentioned tickers missing from `aliases:` (Phase-0-invisible names).
 3. `python scripts/ipo_debut_tracker.py --tickers <candidates> --scan-stale-private` — pass any IPO ticker candidates from overnight news + scan vault for `#private` notes whose body mentions a NYSE/NASDAQ ticker pattern (likely IPO'd, status stale).
 4. `python scripts/ipo_debut_tracker.py --private-watch` — flags pre-IPO actors with funding rounds older than 120 days.
+5. `python scripts/check_data_freshness.py` — per-ticker freshness: every vault-actor and cluster-config ticker whose last close lags the latest SPY session beyond allowance (3 US sessions / 6 foreign). The global SPY date can look fresh while individual series silently rot — `quick_movers` drops stale names instead of erroring, so a frozen series simply vanishes from screening (the Marsh McLennan legacy series sat three months stale undetected before this check existed, 2026-06). For stale names: `scripts/add_ticker.py TICKER` backfills and self-triages (delisted names report SKIPPED); persistent offenders need a refresh-list home in `download_all_assets.py` or, if renamed/delisted, an `EXCLUDED_TICKERS` entry plus a vault "Former ticker" update.
 
 Read the JSON output. If any step failed, note it but continue — stale data is better than no scan.
 
@@ -79,7 +80,7 @@ Draft the briefing in the exact form that will be both appended to the daily not
 [Table: ticker, move, sigma, trigger, catalyst (if found)]
 
 ## Audit findings
-[Anything from audit_vault_tickers / ipo_debut_tracker / private-watch worth surfacing]
+[Anything from audit_vault_tickers / ipo_debut_tracker / private-watch / check_data_freshness worth surfacing. Stale tickers get the count + worst offenders + the fix command.]
 
 ## Overnight developments
 [2-4 paragraphs on the most important stories. Lead with vault-thesis-relevant. Exact figures, named sources.]
