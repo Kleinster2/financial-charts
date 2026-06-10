@@ -154,8 +154,15 @@ def stability_verdict(train_intra: float, test_intra: float) -> str:
 
 
 def loading_stability(train_loadings: pd.Series, test_loadings: pd.Series) -> float:
+    """Correlation of PC1 loadings across halves, sign-aligned.
+
+    PCA component signs are arbitrary per fit, so without alignment a perfect
+    factor match can read as -1.0. Test loadings are flipped when their dot
+    product with the train loadings is negative (2026-06-09 audit, item 7)."""
     if train_loadings.std() == 0 or test_loadings.std() == 0:
         return float("nan")
+    if float(np.dot(train_loadings, test_loadings)) < 0:
+        test_loadings = -test_loadings
     return float(train_loadings.corr(test_loadings))
 
 

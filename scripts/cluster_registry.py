@@ -66,6 +66,8 @@ COLUMNS = [
     "oos_vs_insample_ratio",
     "p_oos_random_basket",
     "oos_verdict",
+    "p_vol_matched_intra",
+    "p_vol_matched_pc1",
 ]
 
 
@@ -120,7 +122,7 @@ def load_registry() -> pd.DataFrame:
         "n_permutations", "train_intra", "test_intra", "train_pc1_pct",
         "test_pc1_pct", "stability_ratio", "threshold_stable_width",
         "oos_obs", "oos_intra", "oos_pc1_pct", "oos_vs_insample_ratio",
-        "p_oos_random_basket",
+        "p_oos_random_basket", "p_vol_matched_intra", "p_vol_matched_pc1",
     ]
     for col in numeric_cols:
         df[col] = pd.to_numeric(df[col], errors="coerce")

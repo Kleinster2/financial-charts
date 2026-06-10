@@ -36,6 +36,7 @@ from cluster_analysis import (
     correlation_matrix,
     hierarchical_cluster,
     pca_analysis,
+    weekly_cross_check,
 )
 from cluster_holdout_test import loading_stability, stability_verdict
 from cluster_oos_validation import grade, p_right_tail
@@ -46,6 +47,8 @@ from cluster_permutation_test import (
     p_value_right_tail,
     pc1_explained_variance,
     run_random_basket_null,
+    run_vol_matched_null,
+    vol_matched_sample,
 )
 from cluster_threshold_scan import assignments_at_threshold, scan
 
@@ -224,6 +227,63 @@ class VerdictBandTests(unittest.TestCase):
         self.assertEqual(grade(0.30, 50), "OOS-FAILED")
         self.assertEqual(grade(0.90, 39), "PRELIMINARY OOS-CONFIRMED")
         self.assertEqual(grade(float("nan"), 50), "INDETERMINATE")
+
+
+class Item7SecondaryFixTests(unittest.TestCase):
+    def test_loading_stability_is_sign_invariant(self):
+        # PCA component signs are arbitrary per fit; a flipped but identical
+        # factor must read +1.0, not -1.0.
+        v = pd.Series([0.45, 0.50, 0.55, 0.40])
+        self.assertAlmostEqual(loading_stability(v, -v), 1.0)
+        self.assertAlmostEqual(loading_stability(v, v), 1.0)
+
+    def test_pca_analysis_zero_variance_guard_names_ticker(self):
+        rets = correlated_returns([("A", 3, 0.5)], T=100, seed=9)
+        rets["HALT"] = 0.0
+        with tempfile.TemporaryDirectory() as tmp:
+            with self.assertRaises(SystemExit) as ctx:
+                pca_analysis(rets, ["A0", "A1", "A2", "HALT"], Path(tmp) / "x.png", "test")
+        self.assertIn("HALT", str(ctx.exception))
+
+    def test_weekly_cross_check_recovers_async_lead_lag_pair(self):
+        # B lags A by one day (the asynchronous-close geometry): daily
+        # correlation is ~0 but weekly sums share 4 of 5 terms (~0.8).
+        rng = np.random.default_rng(17)
+        a = rng.standard_normal(2000)
+        df = pd.DataFrame(
+            {"A": a, "B": np.roll(a, 1)},
+            index=pd.bdate_range("2018-01-01", periods=2000),
+        ).iloc[1:]
+        self.assertLess(abs(df.corr().loc["A", "B"]), 0.10)
+        weekly = weekly_cross_check(df, ["A", "B"])
+        self.assertIsNotNone(weekly)
+        self.assertGreater(weekly["intra"], 0.60)
+
+    def test_vol_matched_sampler_respects_vol_bands(self):
+        # Two clearly separated vol regimes: a high-vol cohort must draw
+        # exclusively from the high-vol half of the pool.
+        low = [(f"L{i}", 0.009 + i * 1e-5) for i in range(50)]
+        high = [(f"H{i}", 0.049 + i * 1e-5) for i in range(50)]
+        names = [n for n, _ in low + high]
+        vols = np.array([v for _, v in low + high])
+        rng = np.random.default_rng(23)
+        for _ in range(20):
+            sample = vol_matched_sample(names, vols, np.array([0.05] * 5), rng)
+            self.assertTrue(all(t.startswith("H") for t in sample), sample)
+
+    def test_vol_matched_null_is_tougher_when_vol_and_correlation_coincide(self):
+        # The bias the variant removes: if high-vol names are also more
+        # correlated (the Space pure-plays situation), unmatched random
+        # baskets dilute the null with low-vol independent names. The
+        # vol-matched null must sit materially higher.
+        low = correlated_returns([("L", 40, 0.0)], T=300, seed=41) * 0.01
+        high = correlated_returns([("H", 40, 0.3)], T=300, seed=43) * 0.05
+        universe = pd.concat([low, high], axis=1)
+        cohort_vols = pd.Series([0.05] * 5)
+        matched, _ = run_vol_matched_null(universe, cohort_vols, n_perm=200, seed=42)
+        unmatched, _ = run_random_basket_null(universe, cohort_n=5, n_perm=200, seed=42)
+        self.assertGreater(matched.mean(), unmatched.mean() + 0.10)
+        self.assertAlmostEqual(matched.mean(), 0.30, delta=0.05)
 
 
 class UniverseFilterTests(unittest.TestCase):

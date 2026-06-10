@@ -210,6 +210,12 @@ def pca_analysis(rets: pd.DataFrame, candidate: list[str], out: Path, title: str
     if len(sub) < 30:
         raise SystemExit(f"PCA requires >=30 obs across all {len(candidate)} candidate tickers; got {len(sub)}")
     daily_vol = sub.std()
+    zero_vol = daily_vol[daily_vol == 0].index.tolist()
+    if zero_vol:
+        raise SystemExit(
+            f"PCA aborted: zero-variance return series in window for {', '.join(zero_vol)} "
+            "(halted ticker or duplicated prices?)"
+        )
     standardized = (sub - sub.mean()) / daily_vol
     pca = PCA(n_components=min(5, len(candidate)))
     pca.fit(standardized)
@@ -313,9 +319,13 @@ def rolling_tightness_analysis(
     core = candidate[1:] if len(candidate) > 3 else candidate
     satellite = candidate[0] if len(candidate) > 3 else None
     rows = []
+    n_skipped_windows = 0
 
     for end_i in range(window, len(sub) + 1):
         w = sub.iloc[end_i - window:end_i]
+        if (w.std() == 0).any():
+            n_skipped_windows += 1
+            continue
         corr = w.corr()
         upper = corr.values[np.triu_indices_from(corr, k=1)]
 
@@ -348,6 +358,8 @@ def rolling_tightness_analysis(
             }
         )
 
+    if n_skipped_windows:
+        print(f"Rolling tightness: skipped {n_skipped_windows} window(s) containing a zero-variance series")
     rolling = pd.DataFrame(rows).set_index("Date")
 
     fig, axes = plt.subplots(2, 1, figsize=(11, 7), sharex=True)
@@ -388,6 +400,33 @@ def rolling_tightness_analysis(
     return rolling
 
 
+def weekly_cross_check(rets: pd.DataFrame, candidate: list[str]) -> dict | None:
+    """Weekly-return robustness check for asynchronous closes (audit item 7).
+
+    Daily correlations between markets with non-overlapping trading hours are
+    structurally depressed (the non-synchronous trading problem); weekly log
+    returns (calendar-week sums) restore most of the overlap. A weekly
+    intra-correlation materially above daily flags an async-close artifact —
+    a cross-region cohort that is tighter than its daily numbers suggest —
+    not a weaker cluster."""
+    if len(candidate) < 2:
+        return None
+    sub = rets[candidate].dropna(how="all")
+    weekly = sub.resample("W-FRI").sum(min_count=3).dropna()
+    if len(weekly) < 20 or (weekly.std() == 0).any():
+        return None
+    corr = weekly.corr()
+    upper = corr.values[np.triu_indices_from(corr, k=1)]
+    standardized = (weekly - weekly.mean()) / weekly.std()
+    pca = PCA(n_components=min(5, len(candidate)))
+    pca.fit(standardized)
+    return {
+        "n_weeks": len(weekly),
+        "intra": float(upper.mean()),
+        "pc1": float(pca.explained_variance_ratio_[0]),
+    }
+
+
 def avg_group_pair_correlations(corr: pd.DataFrame, universe: dict) -> dict:
     out = {}
     groups = list(universe.keys())
@@ -409,6 +448,7 @@ def write_summary(
     cfg: dict, rets_1y: pd.DataFrame, rets_2y: pd.DataFrame,
     corr_1y: pd.DataFrame, clusters_1y: dict, pca_result: dict,
     group_pair_corrs: dict, out: Path, rolling_tightness: pd.DataFrame | None = None,
+    weekly: dict | None = None,
 ) -> None:
     lines = []
     lines.append(f"{cfg.get('name', cfg['prefix'])} CLUSTER ANALYSIS")
@@ -484,6 +524,23 @@ def write_summary(
         lambda x: f"{x*100:.2f}%"
     )
     lines.append(pc1_weight_display.to_string())
+
+    if weekly is not None and upper.size:
+        lines.append("")
+        lines.append("--- WEEKLY-RETURN CROSS-CHECK (1Y, async-close robustness) ---")
+        daily_intra = float(upper.mean())
+        daily_pc1 = pca_result["explained_variance_ratio"][0]
+        lines.append(
+            f"Weeks: {weekly['n_weeks']}   "
+            f"Weekly intra-corr: {weekly['intra']:.3f} (daily {daily_intra:.3f})   "
+            f"Weekly PC1: {weekly['pc1']*100:.1f}% (daily {daily_pc1*100:.1f}%)"
+        )
+        if weekly["intra"] - daily_intra > 0.10:
+            lines.append(
+                "NOTE: weekly intra-corr exceeds daily by >0.10 — asynchronous closes are "
+                "depressing the daily numbers (cross-region cohort); the weekly reading is "
+                "the better estimate of economic co-movement."
+            )
 
     if rolling_tightness is not None and not rolling_tightness.empty:
         lines.append("")
@@ -588,9 +645,11 @@ def main() -> None:
     )
 
     group_pair_corrs = avg_group_pair_correlations(corr_1y, cfg["groups"])
+    weekly = weekly_cross_check(rets_1y, candidate)
     write_summary(
         cfg, rets_1y, rets_2y, corr_1y, clusters_1y, pca_result,
         group_pair_corrs, ATT / f"{prefix}-results.txt", rolling_tightness,
+        weekly=weekly,
     )
 
 

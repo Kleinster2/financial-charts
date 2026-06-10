@@ -79,8 +79,8 @@ def parse_args() -> argparse.Namespace:
     p.add_argument("--n-perm", type=int, default=10000, help="Number of permutations (default 10000)")
     p.add_argument("--block-size", type=int, default=1, help="Block size for independence-null block bootstrap (default 1)")
     p.add_argument(
-        "--null", choices=["independence", "random-basket", "both"], default="both",
-        help="Which null to test (default both)",
+        "--null", choices=["independence", "random-basket", "vol-matched", "both", "all"], default="both",
+        help="Which null to test: both = independence + random-basket (default); all adds the vol-matched basket null",
     )
     p.add_argument("--universe-file", type=Path, help="Random-basket universe file (one ticker per line)")
     p.add_argument(
@@ -248,6 +248,66 @@ def run_random_basket_null(
     return intra_null, pc1_null
 
 
+def vol_matched_sample(
+    pool_names: list[str], pool_vols: np.ndarray, cohort_vols: np.ndarray,
+    rng: np.random.Generator, band_frac: float = 0.10,
+) -> list[str]:
+    """One null basket matched to the cohort's volatility profile.
+
+    Pool tickers are pre-sorted by realized vol; each cohort member draws
+    (without replacement) from the tickers whose vol rank falls inside a band
+    of width band_frac centered on the member's own vol position. Removes the
+    'credit for shared beta/vol' bias of the unmatched random-basket null
+    (2026-06-09 audit, item 7): a high-vol cohort must now beat random
+    baskets of comparably high-vol names, not the mostly large-cap pool.
+    """
+    n = len(pool_names)
+    half = max(3, int(band_frac * n / 2))
+    used: set[str] = set()
+    sample: list[str] = []
+    for v in cohort_vols:
+        pos = int(np.searchsorted(pool_vols, v))
+        lo, hi = max(0, pos - half), min(n, pos + half)
+        candidates = [pool_names[i] for i in range(lo, hi) if pool_names[i] not in used]
+        if not candidates:
+            candidates = [t for t in pool_names if t not in used]
+        pick = candidates[int(rng.integers(len(candidates)))]
+        used.add(pick)
+        sample.append(pick)
+    return sample
+
+
+def run_vol_matched_null(
+    universe_rets: pd.DataFrame, cohort_vols: pd.Series, n_perm: int, seed: int,
+    min_obs: int = 30,
+):
+    rng = np.random.default_rng(seed + 2)
+    pool_vol_series = universe_rets.std().dropna().sort_values()
+    pool_names = list(pool_vol_series.index)
+    pool_vols = pool_vol_series.values
+    if len(pool_names) < len(cohort_vols):
+        raise SystemExit(
+            f"Universe has only {len(pool_names)} usable tickers; need >= {len(cohort_vols)}."
+        )
+    intra_null = np.empty(n_perm)
+    pc1_null = np.empty(n_perm)
+    n_skipped = 0
+    cv = cohort_vols.values
+    for i in range(n_perm):
+        sample = vol_matched_sample(pool_names, pool_vols, cv, rng)
+        sub = universe_rets[sample].dropna()
+        if len(sub) < min_obs or (sub.std() == 0).any():
+            n_skipped += 1
+            intra_null[i] = np.nan
+            pc1_null[i] = np.nan
+            continue
+        intra_null[i] = intra_correlation(universe_rets, sample)
+        pc1_null[i] = pc1_explained_variance(universe_rets, sample)
+        if (i + 1) % max(1, n_perm // 10) == 0:
+            print(f"  vol-matched sample {i+1}/{n_perm}  (pool {len(pool_names)}, skipped {n_skipped})")
+    return intra_null[~np.isnan(intra_null)], pc1_null[~np.isnan(pc1_null)]
+
+
 def p_value_right_tail(observed: float, null_dist: np.ndarray) -> float:
     """Phipson-Smyth (k+1)/(n+1): a permutation p-value can never be 0;
     the floor is 1/(n_perm+1)."""
@@ -348,6 +408,14 @@ def write_summary(
             lines.append("Random-basket null partially rejected: one diagnostic passes, one does not. Cohort cohesion is borderline relative to comparable random baskets.")
         else:
             lines.append("Random-basket null NOT rejected: cohort cohesion is indistinguishable from a random N-pick of comparable names. Cluster claim is falsified at conventional significance.")
+    if "vol-matched" in results:
+        vm = results["vol-matched"]
+        if vm["p_intra"] < 0.05 and vm["p_pc1"] < 0.05:
+            lines.append("Vol-matched null rejected: cohesion exceeds random baskets with the SAME volatility profile — the cluster factor is not just shared beta/vol.")
+        elif vm["p_intra"] < 0.05 or vm["p_pc1"] < 0.05:
+            lines.append("Vol-matched null partially rejected: one diagnostic passes against same-vol baskets. Part of the cohesion is shared risk level rather than a distinct cluster factor.")
+        else:
+            lines.append("Vol-matched null NOT rejected: cohesion is explained by shared volatility/beta — the cohort co-moves because its members are similar-risk names, not because of a distinct cluster factor.")
 
     out.write_text("\n".join(lines), encoding="utf-8")
     print("\n".join(lines))
@@ -384,7 +452,7 @@ def main() -> None:
 
     results = {}
 
-    if args.null in ("independence", "both"):
+    if args.null in ("independence", "both", "all"):
         print(f"Running {args.n_perm} independence-null permutations (block size {args.block_size})...")
         intra_null, pc1_null = run_independence_null(rets, candidate, args.n_perm, args.block_size, args.seed)
         results["independence"] = {
@@ -395,7 +463,9 @@ def main() -> None:
             "extra": {"Block size": args.block_size},
         }
 
-    if args.null in ("random-basket", "both"):
+    want_random_basket = args.null in ("random-basket", "both", "all")
+    want_vol_matched = args.null in ("vol-matched", "all")
+    if want_random_basket or want_vol_matched:
         if args.universe_file:
             universe = load_universe_file(args.universe_file)
             universe_source = f"file: {args.universe_file}"
@@ -409,15 +479,33 @@ def main() -> None:
         universe = [t for t in universe if t not in candidate]
         min_obs = int(0.8 * len(rets))
         universe_rets = load_universe_returns(universe, start_1y, window_end, min_obs)
-        print(f"Running {args.n_perm} random-basket permutations (pool of {len(universe_rets.columns)} tickers from {universe_source})...")
-        intra_null, pc1_null = run_random_basket_null(universe_rets, len(candidate), args.n_perm, args.seed)
-        results["random-basket"] = {
-            "intra_null": intra_null,
-            "pc1_null": pc1_null,
-            "p_intra": p_value_right_tail(intra_obs, intra_null),
-            "p_pc1": p_value_right_tail(pc1_obs, pc1_null),
-            "extra": {"Universe source": universe_source, "Pool size": len(universe_rets.columns)},
-        }
+
+        if want_random_basket:
+            print(f"Running {args.n_perm} random-basket permutations (pool of {len(universe_rets.columns)} tickers from {universe_source})...")
+            intra_null, pc1_null = run_random_basket_null(universe_rets, len(candidate), args.n_perm, args.seed)
+            results["random-basket"] = {
+                "intra_null": intra_null,
+                "pc1_null": pc1_null,
+                "p_intra": p_value_right_tail(intra_obs, intra_null),
+                "p_pc1": p_value_right_tail(pc1_obs, pc1_null),
+                "extra": {"Universe source": universe_source, "Pool size": len(universe_rets.columns)},
+            }
+
+        if want_vol_matched:
+            cohort_vols = rets[candidate].std()
+            print(f"Running {args.n_perm} vol-matched basket permutations (pool of {len(universe_rets.columns)} tickers, rank band +/-5%)...")
+            intra_null, pc1_null = run_vol_matched_null(universe_rets, cohort_vols, args.n_perm, args.seed)
+            results["vol-matched"] = {
+                "intra_null": intra_null,
+                "pc1_null": pc1_null,
+                "p_intra": p_value_right_tail(intra_obs, intra_null),
+                "p_pc1": p_value_right_tail(pc1_obs, pc1_null),
+                "extra": {
+                    "Universe source": universe_source,
+                    "Pool size": len(universe_rets.columns),
+                    "Matching": "realized-vol rank band +/-5% per member, without replacement",
+                },
+            }
 
     prefix = cfg["prefix"]
     plot_null_distributions(
@@ -445,6 +533,8 @@ def main() -> None:
             "p_independence_intra": results.get("independence", {}).get("p_intra"),
             "p_random_basket_intra": results.get("random-basket", {}).get("p_intra"),
             "p_random_basket_pc1": results.get("random-basket", {}).get("p_pc1"),
+            "p_vol_matched_intra": results.get("vol-matched", {}).get("p_intra"),
+            "p_vol_matched_pc1": results.get("vol-matched", {}).get("p_pc1"),
             "n_permutations": args.n_perm,
         })
     except Exception as e:

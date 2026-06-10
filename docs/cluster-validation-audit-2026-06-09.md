@@ -167,3 +167,18 @@ Item 5 status: COMPLETE. Open items remaining: 6 (synthetic-data regression test
 - Verdict bands (holdout STRENGTHENING/STABLE/WEAKENED/REGIME-DEPENDENT/INDETERMINATE; OOS grades + PRELIMINARY prefix) honor documented cut-points; `block_shuffle` permutation/bootstrap properties; `is_us_common_stock_ticker` accepts US names (incl. BRK-B) and rejects foreign suffixes, indices, futures, crypto pairs.
 
 Item 6 status: COMPLETE. Open item remaining: 7 (secondary fixes — holdout sign alignment, zero-variance guards in `pca_analysis`/rolling loop, beta/vol-matched null variant, weekly-return cross-region check).
+
+### Item 7 — secondary fixes (2026-06-10)
+
+All four landed, each with regression tests (suite now 21 tests):
+
+1. Holdout sign alignment (`cluster_holdout_test.loading_stability`): test-half PC1 loadings are flipped when their dot product with the train half is negative before correlating. A perfect factor match can no longer read as −1.0. Doc updated.
+2. Zero-variance guards: `pca_analysis` aborts with a message naming the offending ticker(s) instead of dividing by zero; the 90-day rolling-tightness loop skips (and counts) windows containing a zero-variance series instead of crashing mid-history.
+3. Vol-matched basket null (`--null vol-matched`, or `all`): each cohort member draws its null counterpart from the same realized-vol rank band (±5%, without replacement), so high-vol cohorts must beat comparably-volatile baskets rather than the large-cap-tilted pool. Registry gains `p_vol_matched_intra`/`p_vol_matched_pc1`. Empirical answer to Tier-3 finding 9 for the canonical case: Space pure-plays rejects even the vol-matched null at the Phipson-Smyth floor (p = 0.0001 at 10,000 draws; all three nulls floor-rejected in the regenerated artifact) — its cohesion is not just shared beta. The synthetic test pins the mechanism: when high vol and high correlation coincide in the pool, the matched null sits materially above the unmatched one (0.30 vs ~0.08 planted).
+4. Weekly-return cross-check (`cluster_analysis.weekly_cross_check`, new `WEEKLY-RETURN CROSS-CHECK` section in results.txt): intra-corr/PC1 recomputed on calendar-week log returns; flags when the weekly reading exceeds daily by >0.10 (asynchronous-close depression — the cross-region cohort is tighter than daily numbers suggest). The regression test reproduces the exact geometry: a one-day lead-lag pair reads ~0 daily and ~0.8 weekly.
+
+Item 7 status: COMPLETE.
+
+### Audit ledger: all remediation items (1-7) CLOSED as of 2026-06-10
+
+Tier 1-2 defects fixed and re-run; Tier 3 design limits addressed by the OOS pass (8), vol-matched null (9), weekly cross-check (10); N=2 cohorts (11) remain a documented caveat rather than a code change; test coverage (12) in place and wired to `npm run test:consistency`. Standing follow-up outside this audit's scope: a daily-scan freshness phase flagging vault-actor tickers whose last close lags SPY.

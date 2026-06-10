@@ -3,20 +3,52 @@ Window: 2025-06-04 -> 2026-06-03 (251 obs)
 Candidate cohort: RKLB, RDW, LUNR, BKSY, ASTS, SPIR, PL (N=7)
 Observed intra-corr: 0.5731    Observed PC1: 63.68%
 
+--- INDEPENDENCE NULL ---
+Permutations: 10000
+Block size: 1
+Intra-cluster correlation:
+  Null mean:        -0.0000
+  Null 95th pct:    0.0227
+  Null 99th pct:    0.0329
+  p-value (right):  0.000100    -> REJECTS independence null at p < 0.001
+PC1 explained variance:
+  Null mean:        17.74%
+  Null 95th pct:    19.04%
+  Null 99th pct:    19.72%
+  p-value (right):  0.000100    -> REJECTS independence null at p < 0.001
+
 --- RANDOM-BASKET NULL ---
 Permutations: 10000
 Universe source: DB prices_long (921 tickers with >=200 obs in window)
 Pool size: 206
 Intra-cluster correlation:
-  Null mean:        0.1695
-  Null 95th pct:    0.2844
-  Null 99th pct:    0.3404
+  Null mean:        0.1697
+  Null 95th pct:    0.2838
+  Null 99th pct:    0.3394
   p-value (right):  0.000100    -> REJECTS random-basket null at p < 0.001
 PC1 explained variance:
-  Null mean:        31.77%
-  Null 95th pct:    41.12%
-  Null 99th pct:    45.55%
+  Null mean:        31.74%
+  Null 95th pct:    41.09%
+  Null 99th pct:    45.31%
   p-value (right):  0.000100    -> REJECTS random-basket null at p < 0.001
 
+--- VOL-MATCHED NULL ---
+Permutations: 10000
+Universe source: DB prices_long (921 tickers with >=200 obs in window)
+Pool size: 206
+Matching: realized-vol rank band +/-5% per member, without replacement
+Intra-cluster correlation:
+  Null mean:        0.0929
+  Null 95th pct:    0.1715
+  Null 99th pct:    0.2078
+  p-value (right):  0.000100    -> REJECTS vol-matched null at p < 0.001
+PC1 explained variance:
+  Null mean:        25.39%
+  Null 95th pct:    31.34%
+  Null 99th pct:    33.90%
+  p-value (right):  0.000100    -> REJECTS vol-matched null at p < 0.001
+
 --- INTERPRETATION ---
+Independence null rejected: the cohort series co-move (necessary, not sufficient).
 Random-basket null rejected: cohort is more cohesive than a random N-pick from the same universe. This is the meaningful pass.
+Vol-matched null rejected: cohesion exceeds random baskets with the SAME volatility profile — the cluster factor is not just shared beta/vol.

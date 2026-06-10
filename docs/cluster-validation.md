@@ -229,6 +229,10 @@ Every cohort-owner note must include a short interpretation sentence distinguish
 
 If these disagree, say so explicitly. Example: "AMAT/LRCX/KLAC form the tight WFE trading core; ASML joins at a higher distance but receives the largest raw PC1-mimic weight because its realized volatility is lower."
 
+### Weekly cross-check (async-close robustness)
+
+`results.txt` also carries a `WEEKLY-RETURN CROSS-CHECK` section: intra-corr and PC1 recomputed on calendar-week log returns. Daily correlations between markets with non-overlapping trading hours are structurally depressed (the non-synchronous trading problem); weekly sums restore most of the overlap. If the weekly intra-corr exceeds the daily by more than 0.10, the output flags it: the cohort is tighter than its daily numbers suggest and the weekly reading is the better estimate of economic co-movement. Expect this on cross-region cohorts ([[Korea Memory]] vs US controls, Indian metals, global luxury); a large gap on an all-US cohort would instead suggest a data problem.
+
 ### 6. Conclusions to draft
 
 For the actor / cohort note, condense the output into a summary table + one paragraph. Include intra-correlation, PC1 explained variance, dendrogram boundary, nearest-neighbor separation, join-distance topology, PC1 index weights, and historical tightness evolution. See [[Space pure-plays]] for the canonical write-up format (most extensive worked example with all 19 analytical sections). For a simpler single-page format, see [[Concepts/Boutique advisory consolidation|Boutique advisory consolidation]].
@@ -392,9 +396,12 @@ Tests two nulls (default runs both):
 
 **Random-basket null** — repeatedly sample N=|cohort| tickers from the broader universe (DB `prices_long` with >=200 obs in the window) and compute their intra-corr + PC1. Tests "could the observed cohesion arise from a random N-pick of comparable names?" This is the meaningful pass.
 
+**Vol-matched basket null** (`--null vol-matched`, or `all` for all three) — like the random-basket null, but each cohort member draws its null counterpart from tickers in the same realized-vol rank band (±5%, without replacement). Removes the "credit for shared beta/vol" bias: a high-vol cohort must beat random baskets of comparably high-vol names, not the mostly large-cap pool. Run it whenever the cohort's realized vol sits far from the pool median (high-beta small caps, crypto-adjacent names). Worked example (Jun 2026): Space pure-plays rejects even the vol-matched null at the floor (p = 0.0001 at 10,000 draws) — the cluster factor is real beyond shared risk level.
+
 ```bash
 python scripts/cluster_permutation_test.py --primary RKLB
 python scripts/cluster_permutation_test.py --primary MAG7 --n-perm 10000
+python scripts/cluster_permutation_test.py --primary RKLB --null vol-matched
 python scripts/cluster_permutation_test.py --primary RKLB --null random-basket --universe-file scripts/universes/us_common_stocks.txt
 ```
 
@@ -429,7 +436,7 @@ Verdict bands:
 | 0.60 – 0.85 | WEAKENED — factor present but eroding |
 | < 0.60 | REGIME-DEPENDENT — cluster does not survive holdout |
 
-PC1 loadings correlation (train vs test) is a second diagnostic — values near 1.0 mean the same factor structure persists; values near 0 mean the factor flipped.
+PC1 loadings correlation (train vs test) is a second diagnostic — values near 1.0 mean the same factor structure persists; values near 0 mean a different structure. Sign-aligned as of 2026-06-10 (PCA component signs are arbitrary per fit; previously a perfect factor match could read as −1.0).
 
 Worked examples (2Y split):
 - Space pure-plays: ratio 1.37 (STRENGTHENING; 1.47 on the 2026-06-10 re-run window). PC1 loadings corr 0.56. The cohort tightened with the Nov 2025 regime shift.
