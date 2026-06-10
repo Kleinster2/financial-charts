@@ -7,6 +7,9 @@ This is the rigorous version of the existing `## Sector correlation` section, wh
 > [!info] Reference examples + cross-cohort synthesis
 > [[Vault cluster taxonomy]] is the cross-cohort meta-analysis covering 8+ validated and falsified cohorts with matched methodology. Read it first to understand which cohort your candidate is most similar to. [[Space pure-plays]] is the canonical worked example (validated cluster, all advanced patterns documented). [[Mag 7 cluster]] is the canonical falsified-cluster example (same N=7 as Space pure-plays but intra-corr 0.316 vs 0.624). The three together cover validated, falsified, and the empirical patterns observed across the cross-cohort test set. [[Concepts/Boutique advisory consolidation|Boutique advisory consolidation]] is the older basic-validation example (single-page format without the advanced patterns).
 
+> [!warning] Known limitations — robustness audit 2026-06-09
+> A full audit of this framework (`docs/cluster-validation-audit-2026-06-09.md`) found the random-basket null pool polluted with macro series, synthetic indices, crypto pairs, and async international listings (anti-conservative — deflates the null), permutation resolution (n=1000, p-values stored as 0.0) insufficient for the registry's multiplicity correction, and config-bounded boundary tests. Registry p-values from the 2026-05-13 batch should be treated as anti-conservative until the null pool is fixed and the cohorts re-run. See the audit for the full tiered findings and remediation order.
+
 ## Scope of a cluster note: structure, not performance
 
 Cluster notes identify structure — which tickers form durable groups and why. They are not for ranking the cluster's attractiveness, valuation, or relative performance versus benchmarks. Those questions belong in thesis notes or basket-tracker notes, not in the concept definition.
