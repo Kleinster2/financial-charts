@@ -380,8 +380,9 @@ The basic validation produces point estimates against heuristic thresholds (0.50
 | Out-of-sample stability | `scripts/cluster_holdout_test.py` | Does the cluster survive a temporal train/test split, or is it a single-regime artifact? |
 | Threshold stability | `scripts/cluster_threshold_scan.py` | Is the cohort intact across a range of dendrogram cuts, or only at one specific threshold? |
 | Multi-test correction | `scripts/cluster_registry.py` | Across all logged cohorts, which validations survive Bonferroni / FDR correction? |
+| Post-definition OOS | `scripts/cluster_oos_validation.py` | Does the cluster persist on data produced AFTER the cohort was defined — the only test discovery bias cannot game? |
 
-All four scripts share `cluster_analysis.py`'s config schema and data loaders. They auto-append diagnostics to `scripts/cluster_registry.csv` for cross-cohort accounting.
+All five scripts share `cluster_analysis.py`'s config schema and data loaders. They auto-append diagnostics to `scripts/cluster_registry.csv` for cross-cohort accounting.
 
 ### 1. Permutation p-values
 
@@ -486,8 +487,31 @@ The expected number of false discoveries after FDR control is `uncorrected_passe
 | Validated cohort but want to know if it's durable across regimes | `cluster_holdout_test.py` |
 | Cohort claim is borderline (intra-corr 0.50-0.60); want robust boundary | `cluster_threshold_scan.py` |
 | After screening many cohorts; want to know which survive correction | `cluster_registry.py correction` |
+| Quarterly, and whenever a cohort crosses ~40 post-definition obs | `cluster_oos_validation.py --all` |
 
-Required for every NEW cluster note: at minimum a random-basket p-value and a threshold-stable width. Holdout test is required when the cohort spans a known regime shift or when the cohort intra-corr is borderline. Multiple-testing correction is required quarterly across the active registry.
+Required for every NEW cluster note: at minimum a random-basket p-value and a threshold-stable width. Holdout test is required when the cohort spans a known regime shift or when the cohort intra-corr is borderline. Multiple-testing correction is required quarterly across the active registry, together with the post-definition OOS pass (section 5).
+
+### 5. Post-definition out-of-sample re-validation
+
+The four diagnostics above all interrogate the window in which the cohort was noticed — holdout splits within it, permutation resamples across it, threshold-scan re-cuts it. None can catch selection-on-the-dependent-variable: a cohort proposed *because* it just moved together will pass tests run on the window containing that move. `scripts/cluster_oos_validation.py` closes the hole by validating on returns strictly after the cohort's definition date — data nobody had seen when the boundary was drawn.
+
+Definition date = the date the cohort's YAML config was first committed to git (override with a `definition_date:` key). The first OOS return lands the trading day after. Per cohort the script computes OOS intra-correlation, standardized PC1, the ratio of OOS intra-corr to the in-sample baseline (1Y window ending at the definition date), and a random-basket p-value against the cleaned stock-only pool on the same OOS window — the null baskets face the identical short window, so the comparison stays valid at any length; only power is limited.
+
+```bash
+python scripts/cluster_oos_validation.py --all          # quarterly pass
+python scripts/cluster_oos_validation.py --primary RKLB # single cohort
+```
+
+Verdict bands (ratio = OOS intra / in-sample intra):
+
+| Ratio | Verdict |
+|---|---|
+| >= 1.10 | OOS-STRENGTHENING — cohesion rising on unseen data |
+| 0.85 – 1.10 | OOS-CONFIRMED — the cluster is real out of sample |
+| 0.60 – 0.85 | OOS-WEAKENED — cohesion eroding post-definition |
+| < 0.60 | OOS-FAILED — the boundary did not survive contact with unseen data |
+
+Cohorts with fewer than 40 OOS observations carry a PRELIMINARY prefix (low power); fewer than 15 reports INSUFFICIENT_HISTORY but still stamps `definition_date` into the registry. Results merge into `scripts/cluster_registry.csv` (columns `definition_date`, `oos_*`) and a consolidated table lands in `investing/attachments/cluster-oos-validation-{date}.txt`. A validated cohort's status callout may cite the OOS verdict once it leaves PRELIMINARY.
 
 ---
 
@@ -579,7 +603,7 @@ When you create or expand a public-company actor note:
 10. Embed the dendrogram + summary table in the actor or concept note. Include p-values in the status callout when available. For cohort-owner notes, include the join-distance table, PC1 index-weight table, and rolling historical-tightness chart, with sentences distinguishing topology from PC1-replication weights and current tightness from historical evolution.
 11. Log the validation in today's daily note: "validated [[Cluster name]] cohort (intra-corr X.XX, PC1 XX.X%, random-basket p X.XXX)".
 12. After any exploratory cluster screen, append a row to [[Vault cluster taxonomy#Ongoing exploration log]], even when the hypothesis is falsified.
-13. Quarterly: run `python scripts/cluster_registry.py correction` to check FDR-corrected status across all logged cohorts.
+13. Quarterly: run `python scripts/cluster_registry.py correction` to check FDR-corrected status across all logged cohorts, and `python scripts/cluster_oos_validation.py --all` for the post-definition out-of-sample pass.
 
 If steps 5-6 cannot reach a defensible cluster, the conclusion is "this actor is a sector orphan" — that is itself a valid finding (matches the existing `> [!warning] Sector Orphan` callout used by `add_sector_correlations.py`). Note it in the actor.
 
@@ -597,6 +621,7 @@ If steps 5-6 cannot reach a defensible cluster, the conclusion is "this actor is
   - `scripts/cluster_holdout_test.py` (temporal train/test split — regime durability)
   - `scripts/cluster_threshold_scan.py` (threshold-stable range — boundary robustness)
   - `scripts/cluster_registry.py` (cross-cohort log + Bonferroni / Benjamini-Hochberg correction)
+  - `scripts/cluster_oos_validation.py` (post-definition out-of-sample re-validation — the discovery-bias closer)
   - `scripts/cluster_stability_check.py` (rolling window stability — YTD/1Y/2Y/3Y)
   - `scripts/chart_pc1_component.py` (PC1 factor index + rolling explained variance)
   - `scripts/cluster_deep_dive.py` (factor decomposition vs benchmarks + PC2 + missing-name screen)

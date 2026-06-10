@@ -57,6 +57,15 @@ COLUMNS = [
     "stability_ratio",
     "threshold_stable_width",
     "threshold_stable_ranges",
+    "definition_date",
+    "oos_start",
+    "oos_end",
+    "oos_obs",
+    "oos_intra",
+    "oos_pc1_pct",
+    "oos_vs_insample_ratio",
+    "p_oos_random_basket",
+    "oos_verdict",
 ]
 
 
@@ -110,6 +119,8 @@ def load_registry() -> pd.DataFrame:
         "p_independence_intra", "p_random_basket_intra", "p_random_basket_pc1",
         "n_permutations", "train_intra", "test_intra", "train_pc1_pct",
         "test_pc1_pct", "stability_ratio", "threshold_stable_width",
+        "oos_obs", "oos_intra", "oos_pc1_pct", "oos_vs_insample_ratio",
+        "p_oos_random_basket",
     ]
     for col in numeric_cols:
         df[col] = pd.to_numeric(df[col], errors="coerce")
@@ -143,6 +154,8 @@ def cmd_summary(args: argparse.Namespace) -> None:
         p_rb_intra=("p_random_basket_intra", "min"),
         stability=("stability_ratio", "last"),
         thresh_width=("threshold_stable_width", "last"),
+        defined=("definition_date", "last"),
+        oos_verdict=("oos_verdict", "last"),
     ).reset_index()
     print(grouped.to_string(index=False))
 

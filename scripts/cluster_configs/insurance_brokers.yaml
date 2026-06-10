@@ -10,7 +10,7 @@ window_end: 2026-04-30
 groups:
   cluster:
     color: "#2962FF"
-    tickers: [WTW, AJG, AON, BRO, MMC, RYAN]
+    tickers: [WTW, AJG, AON, BRO, MRSH, RYAN]  # MRSH = Marsh McLennan (ticker changed from MMC on 2026-01-14)
   ins_carrier:
     color: "#7E57C2"
     tickers: [PGR, CB, TRV]

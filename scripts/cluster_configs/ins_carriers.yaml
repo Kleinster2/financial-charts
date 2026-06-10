@@ -13,7 +13,7 @@ groups:
     tickers: [PGR, CB, TRV, ALL, MET, PRU, AIG, HIG]
   ins_brokers:
     color: "#7E57C2"
-    tickers: [WTW, AJG, AON, BRO, MMC]
+    tickers: [WTW, AJG, AON, BRO, MRSH]  # MRSH = Marsh McLennan (formerly MMC)
   banks:
     color: "#FF6F00"
     tickers: [JPM, BAC, WFC]

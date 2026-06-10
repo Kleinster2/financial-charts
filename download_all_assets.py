@@ -1137,8 +1137,34 @@ def get_sp500_tickers():
         'name': [f"Company {i}" for i in range(len(tickers))],  # Placeholder names
         'sector': ["Unknown" for _ in range(len(tickers))]  # Placeholder sectors
     })
-    
+
     return tickers, sp500
+
+
+def get_cluster_config_tickers():
+    """Tickers from scripts/cluster_configs/*.yaml (all groups).
+
+    Cohort members fetched once via add_ticker.py for cluster validation
+    otherwise freeze at their fetch date (2026-06-10 audit: ELAN/FBIN froze on
+    the zts/whr config-creation day, the luxury foreign names on theirs).
+    Suffixes owned by dedicated exchange groups stay with those groups.
+    """
+    import yaml
+    from pathlib import Path
+    handled_suffixes = (".KS", ".SA", ".NS", ".TO", ".T", ".SS", ".SZ")
+    config_dir = Path(__file__).resolve().parent / "scripts" / "cluster_configs"
+    tickers = set()
+    for path in sorted(config_dir.glob("*.yaml")):
+        try:
+            cfg = yaml.safe_load(path.read_text(encoding="utf-8")) or {}
+        except Exception:
+            continue
+        for spec in (cfg.get("groups") or {}).values():
+            for t in spec.get("tickers", []) if isinstance(spec, dict) else []:
+                t = str(t)
+                if not any(t.endswith(s) for s in handled_suffixes):
+                    tickers.add(t)
+    return sorted(tickers)
 
 # Non-index B3 tickers tracked in the vault (not in Ibovespa but have actor notes)
 VAULT_BRAZIL_TICKERS = [
@@ -1189,13 +1215,15 @@ def update_sp500_data(verbose: bool = True, assets=None, lookback_days: int = No
         vprint(f"FX tickers generated: {len(FX_TICKERS)}; additional FX-like: {len(ADDITIONAL_FX_TICKERS)}")
         
         # Build asset groups
+        cluster_cfg_tickers = get_cluster_config_tickers()
+        vprint(f"Cluster-config tickers included in stocks group: {len(cluster_cfg_tickers)}")
         groups = {
             'stocks': [t for t in sorted(list(set(
                 sp500_tickers + ibov_tickers + OTHER_HIGH_PROFILE_STOCKS + EV_STOCKS + CRYPTO_STOCKS + QUANTUM_STOCKS +
                 ADTECH_STOCKS + GAMING_IGAMING_STOCKS + BIOTECH_STOCKS + MINING_RARE_EARTH_STOCKS + BATTERY_ENERGY_STORAGE_STOCKS +
                 NUCLEAR_ENERGY_STOCKS + AI_SEMICONDUCTOR_STOCKS + SPACE_AEROSPACE_STOCKS + DEFENSE_STOCKS +
                 FINTECH_LATAM_STOCKS + RECENT_IPOS_GROWTH + ROBOTICS_INDUSTRIAL + FIREARMS_STOCKS + DEFENSE_CONTRACTORS +
-                EUROPE_DEFENSE_STOCKS + EUROPE_STOCKS
+                EUROPE_DEFENSE_STOCKS + EUROPE_STOCKS + cluster_cfg_tickers
             ))) if t not in EXCLUDED_TICKERS],
             'etfs': [t for t in ETF_TICKERS if t not in EXCLUDED_TICKERS],
             'mutualfunds': MUTUAL_FUND_TICKERS,

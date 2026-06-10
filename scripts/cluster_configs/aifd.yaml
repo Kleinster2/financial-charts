@@ -2,7 +2,7 @@
 # Cohort from investing/Concepts/AI financial disintermediation basket.md (move-weighted from Feb 9-10 selloff)
 # Hypothesis: the basket may split into TWO clusters — insurance brokers and wealth managers — which
 # catalyzed on different days (Insurify Feb 9 vs Altruist Feb 10).
-# MMC has stale data (last update 2026-03-16); included anyway, partial-data handling.
+# Marsh McLennan trades as MRSH since 2026-01-14 (legacy MMC series frozen at 2026-03-16).
 name: AI financial disintermediation basket (AIFD)
 primary: WTW
 prefix: aifd-cluster
@@ -12,7 +12,7 @@ window_end: 2026-04-30
 groups:
   cluster:
     color: "#2962FF"
-    tickers: [WTW, AJG, AON, RYAN, BRO, MMC, SCHW, RJF, LPLA, SF]
+    tickers: [WTW, AJG, AON, RYAN, BRO, MRSH, SCHW, RJF, LPLA, SF]
   ins_carrier:
     color: "#7E57C2"
     tickers: [PGR, CB, TRV]

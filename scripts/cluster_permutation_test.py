@@ -219,6 +219,7 @@ def load_universe_returns(universe: list[str], window_start: str, window_end: st
 
 def run_random_basket_null(
     universe_rets: pd.DataFrame, cohort_n: int, n_perm: int, seed: int,
+    min_obs: int = 30,
 ):
     rng = np.random.default_rng(seed + 1)
     intra_null = np.empty(n_perm)
@@ -233,7 +234,7 @@ def run_random_basket_null(
     for i in range(n_perm):
         sample = list(rng.choice(pool, size=cohort_n, replace=False))
         sub = universe_rets[sample].dropna()
-        if len(sub) < 30 or (sub.std() == 0).any():
+        if len(sub) < min_obs or (sub.std() == 0).any():
             n_skipped += 1
             intra_null[i] = np.nan
             pc1_null[i] = np.nan
