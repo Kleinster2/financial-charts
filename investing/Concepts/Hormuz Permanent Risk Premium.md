@@ -189,6 +189,16 @@ The live test is whether the market keeps treating $90 Brent, explicit war-risk 
 
 ---
 
+## June 3 2026 — Exxon $150–170 oil guidance (The Merchant's News)
+
+The Jun 3 post from Giacomo Prandelli highlights Exxon’s Mike Chapman guiding toward $150–170 oil as the realistic range given the Hormuz reroute duration. The market is framed as mispricing the chokepoint by months — futures trading well below the level the physical supply chain (longer voyages, capacity constraints) actually supports. Portfolio positioned long 6 oil names on this view.
+
+This adds a trader/investor perspective on the duration risk underpricing, complementing the shipping data from later posts.
+
+*Source: Giacomo Prandelli / The Merchant’s News, “Exxon Just Said $160 Oil, My Book Is Long 6 Names.” (Jun 3 2026, paid after public section).*
+
+---
+
 ## June 2026 — Tonne-mile expansion across container and LNG freight (The Merchant's News)
 
 The June 8–9 update from Giacomo Prandelli / The Merchant's News provides the cleanest multi-market confirmation yet that the Hormuz closure is driving structural tonne-mile expansion.

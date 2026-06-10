@@ -77,6 +77,18 @@ Two CNBC appearances on the same day, escalating the chokepoint analysis from Ho
 
 CNBC Power Lunch (Mar 30): Discussed [[Houthi]] escalation and the effective closure of the [[Bab el-Mandeb]], which she said effectively shuts in all Middle Eastern oil. Context: 4-5M bbl/day transits that strait, and with [[Strait of Hormuz]] already closed, the entire Persian Gulf is now isolated from global markets via both eastern and western exit routes.
 
+### June 2026 — Persistent Hormuz closure and symbolic OPEC+ response (Energy Connects / Bloomberg, June 7–8 reporting)
+
+Croft's June commentary on the latest 188,000 bpd collective target increase for July by the seven OPEC+ nations (Saudi Arabia, Russia, Iraq, Kuwait, Kazakhstan, Algeria, Oman) continues the "stranded barrels" theme established in March. The increase is described as largely symbolic/paper because the Strait of Hormuz remains effectively closed.
+
+Key quote: *“At this stage we are basically talking about hypothetical future scenarios with the bulk of the barrels stranded.”*
+
+Additional context: Russian production fell to a 10-month low in May amid Ukrainian strikes on oil infrastructure. US supply surge and China import cuts have prevented a full crude price spiral, but fuels have surged, raising consumer and recession risks. UAE exit from OPEC effective May 1 noted as institutional shift.
+
+This reinforces the permanence of the insurance-driven closure and the irrelevance of spare capacity without export routes.
+
+Source: [Energy Connects / Bloomberg](https://www.energyconnects.com/news/oil/2026/june/opecplus-agrees-another-symbolic-quota-increase-for-july/)
+
 Full CNBC interview (Mar 30): Broader segment on the ramp-up of the Middle East conflict and the implications of a dual-chokepoint closure.
 
 ### Analytical escalation
