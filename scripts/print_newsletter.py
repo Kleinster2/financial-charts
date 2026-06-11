@@ -22,7 +22,7 @@ CHROME = Path(r"C:/Program Files/Google/Chrome/Application/chrome.exe")
 EDGE = Path(r"C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe")
 
 CSS = """
-@page { size: Letter; margin: 0.5in; }
+@page { size: Letter; margin: 0.5in 0.5in 0.7in 0.5in; }
 html, body { margin: 0; padding: 0; }
 body {
   font-family: Georgia, 'Times New Roman', serif;
@@ -140,6 +140,46 @@ def render_html(md_path: Path) -> str:
 </body></html>"""
 
 
+def stamp_page_numbers(pdf_path: Path) -> None:
+    """Stamp 'n / N' folios onto an existing PDF, bottom-center.
+
+    Chromium ignores @page margin-box content and Paged.js breaks the
+    two-column layout, so numbering is done post-render: a numbers-only
+    overlay PDF is generated with Chrome and merged page-by-page via pypdf.
+    """
+    from pypdf import PdfReader, PdfWriter
+
+    reader = PdfReader(str(pdf_path))
+    total = len(reader.pages)
+    pages_html = "".join(
+        f'<div class="pg"><span class="num">{i} / {total}</span></div>'
+        for i in range(1, total + 1)
+    )
+    overlay_html = f"""<!doctype html><html><head><meta charset="utf-8"><style>
+@page {{ size: Letter; margin: 0; }}
+html, body {{ margin: 0; padding: 0; }}
+.pg {{ position: relative; width: 8.5in; height: 10.98in; page-break-after: always; }}
+.num {{ position: absolute; bottom: 0.3in; left: 0; right: 0; text-align: center;
+       font-family: Georgia, 'Times New Roman', serif; font-size: 7.5pt; color: #666; }}
+</style></head><body>{pages_html}</body></html>"""
+
+    tmp_html = pdf_path.with_suffix(".folio.html")
+    tmp_pdf = pdf_path.with_suffix(".folio.pdf")
+    tmp_html.write_text(overlay_html, encoding="utf-8")
+    try:
+        html_to_pdf(tmp_html, tmp_pdf)
+        overlay = PdfReader(str(tmp_pdf))
+        writer = PdfWriter()
+        for page, folio in zip(reader.pages, overlay.pages):
+            page.merge_page(folio)
+            writer.add_page(page)
+        with open(pdf_path, "wb") as fh:
+            writer.write(fh)
+    finally:
+        tmp_html.unlink(missing_ok=True)
+        tmp_pdf.unlink(missing_ok=True)
+
+
 def html_to_pdf(html_path: Path, pdf_path: Path) -> None:
     if not CHROME.exists():
         sys.exit(f"Chrome not found at {CHROME}")
@@ -226,7 +266,8 @@ def main() -> None:
 
     html_path.write_text(render_html(md_path), encoding="utf-8")
     html_to_pdf(html_path, pdf_path)
-    print(f"PDF: {pdf_path}")
+    stamp_page_numbers(pdf_path)
+    print(f"PDF: {pdf_path} (page numbers stamped)")
 
     if not args.print:
         return
