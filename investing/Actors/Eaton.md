@@ -124,3 +124,4 @@ Eaton is more US-focused than European peers.
 - [[Power constraints]] — context (electrical infrastructure)
 - [[Long datacenter infrastructure]] — thesis (DC equipment)
 - [[Quanta Services]] — adjacent (installs electrical)
+- [[Power equipment complex]] — cohort test (Jun 2026): ETN+VRT core (0.264), but boundary-dependent — not separable from CAT/CMI/XLI

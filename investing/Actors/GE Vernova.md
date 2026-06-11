@@ -170,3 +170,6 @@ Bear case: wind losses can still consume attention and margin, tariffs are a rea
 
 ### Securities
 - [[GE Vernova securities note]]
+
+### Cohorts
+- [[Power equipment complex]] — cohort test (Jun 2026): semi-detached — joins candidates at 0.396 but cuts as a singleton in the full panel; backlog tape trades its own events

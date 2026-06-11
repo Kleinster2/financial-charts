@@ -1,5 +1,5 @@
 ---
-aliases: [NVDA]
+aliases: [NVDA, NVIDIA]
 ---
 #actor #fabless #ai #gpu
 

@@ -141,3 +141,4 @@ The structural read: Generac is becoming a cleaner [[Data center physical layer]
 - [[BYOP]] — on-site power context
 - [[Power constraints]] — backup power driver
 - [[Hyperscaler capex]] — demand driver
+- [[Power equipment complex]] — tested, not a member (Jun 2026): statistical singleton in every panel despite moving with the ETN/PWR bloc on Jun 10

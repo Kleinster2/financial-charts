@@ -1,0 +1,22 @@
+Power equipment complex HOLDOUT TEST
+Cohort: ETN, PWR, GEV, VRT (N=4)
+Window: 2y, split temporally at midpoint
+Train: 2024-06-10 -> 2025-06-10 (58 obs)
+Test:  2025-06-10 -> 2026-06-10 (193 obs)
+
+--- TRAIN HALF (older) ---
+Intra-correlation:    0.7855
+PC1 explained var:    84.02%
+Pairwise range:       [0.660, 0.894]
+
+--- TEST HALF (newer) ---
+Intra-correlation:    0.6499
+PC1 explained var:    73.82%
+Pairwise range:       [0.587, 0.736]
+
+--- STABILITY DIAGNOSTICS ---
+Intra-corr delta:     -0.1356   (test - train)
+PC1 variance delta:   -10.20pp
+PC1 loadings corr:    0.8222    (1.0 = identical factor structure)
+
+VERDICT: WEAKENED — test/train ratio 0.83 (factor present but eroding)

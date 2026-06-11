@@ -154,3 +154,4 @@ Quanta's scale and union labor relationships are moats.
 - [[Eaton]] — adjacent (electrical equipment)
 - [[NextEra Energy]] — customer (renewable interconnection)
 - [[Energy and Utilities]] — sector
+- [[Power equipment complex]] — cohort test (Jun 2026): joins the ETN/VRT core at 0.324; complex is boundary-dependent vs industrials

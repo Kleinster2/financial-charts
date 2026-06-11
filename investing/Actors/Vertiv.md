@@ -219,3 +219,4 @@ Transition from leveraged/secured capital structure to investment-grade/unsecure
 - [[Coherent]] — fellow S&P 500 addition (March 2026)
 - [[Schneider Electric]] — competitor (broad electrical)
 - [[Eaton]] — competitor (power)
+- [[Power equipment complex]] — cohort test (Jun 2026): tightest pair with [[Eaton]] (0.264); complex boundary-dependent vs industrials

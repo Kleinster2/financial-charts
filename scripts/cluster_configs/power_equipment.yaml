@@ -1,0 +1,31 @@
+# Power equipment complex — electrical equipment and grid builders monetizing the
+# AI-datacenter buildout. The June 10, 2026 risk-off bloc (ETN/GNRC/PWR -6-8%)
+# motivated formalization; candidate set is the four purest AI-electrical names
+# per the smallest-plausible-cohort rule, with GNRC tested via the engines/gensets
+# control group (it moved with the bloc on Jun 10 but cut as a singleton in the
+# SEI panel — let the dendrogram decide membership).
+# Boundary questions: distinct from engines/gensets industrials? from the validated
+# AI-power IPP factor? from broad industrials (XLI)?
+# Caveat: GEV listed Apr 2024 — 2y window/holdout train half is thin for it.
+name: Power equipment complex
+primary: ETN
+prefix: power-equipment-cluster
+threshold: 0.4
+window_end: 2026-06-10
+
+groups:
+  cluster:
+    color: "#2962FF"
+    tickers: [ETN, PWR, GEV, VRT]
+  engines_gensets:
+    color: "#7E57C2"
+    tickers: [GNRC, CAT, CMI]
+  ai_power_ipp:
+    color: "#FF6F00"
+    tickers: [VST, CEG, NRG, TLN]
+  speed_to_power:
+    color: "#00897B"
+    tickers: [SEI, BE]
+  etf:
+    color: "#9E9E9E"
+    tickers: [XLI, SPY, XLU]
