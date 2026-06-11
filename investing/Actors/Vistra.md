@@ -177,6 +177,7 @@ This is a shot across the bow for Vistra, Constellation, and Talen — incumbent
 - [[Meta]] — customer (2.6 GW 20-year nuclear deal, Jan 2026)
 - [[Constellation Energy]] — peer (larger nuclear fleet)
 - [[Talen Energy]] — peer ([[Amazon]] nuclear deal)
+- [[AI-power IPPs]] — validated cohort (0.773 intra, PC1 83%; VST+TLN tightest pair)
 - [[NuScale]] — peer (nuclear power)
 - [[Power constraints]] — thesis (AI power demand)
 - [[BYOP]] — policy (BYOG risk from PJM proposals)

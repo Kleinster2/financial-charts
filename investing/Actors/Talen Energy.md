@@ -100,6 +100,7 @@ PJM's "Bring Your Own Generation" proposal is a double-edged sword for Talen:
 - [[Amazon]] — [[Susquehanna]] partner
 - [[Vistra]] — peer ([[Meta]] deal, BYOG risk)
 - [[Constellation Energy]] — peer (TMI restart)
+- [[AI-power IPPs]] — validated cohort (tightest pair with [[Vistra]] at 0.185 join distance)
 - [[Nuclear power for AI]] — industry context
 - [[Power constraints]] — why nuclear matters
 - [[BYOP]] — policy (BYOG from PJM)

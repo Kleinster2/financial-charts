@@ -1,0 +1,22 @@
+AI-power IPPs HOLDOUT TEST
+Cohort: VST, CEG, NRG, TLN (N=4)
+Window: 2y, split temporally at midpoint
+Train: 2024-06-10 -> 2025-06-10 (58 obs)
+Test:  2025-06-10 -> 2026-06-10 (193 obs)
+
+--- TRAIN HALF (older) ---
+Intra-correlation:    0.8462
+PC1 explained var:    88.52%
+Pairwise range:       [0.741, 0.909]
+
+--- TEST HALF (newer) ---
+Intra-correlation:    0.7729
+PC1 explained var:    82.99%
+Pairwise range:       [0.734, 0.815]
+
+--- STABILITY DIAGNOSTICS ---
+Intra-corr delta:     -0.0733   (test - train)
+PC1 variance delta:   -5.53pp
+PC1 loadings corr:    0.9014    (1.0 = identical factor structure)
+
+VERDICT: STABLE — test/train ratio 0.91 (durable cluster across regimes)

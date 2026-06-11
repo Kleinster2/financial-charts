@@ -222,6 +222,7 @@ Buy rating consensus: avg PT $371.33. Market pricing in DC deal delay risk and p
 - [[Oklo]] — adjacent (SMR developer)
 - [[Morgan Stanley]] — analyst coverage (Arcaro, $385 PT)
 - [[Nuclear power for AI]] — thesis context
+- [[AI-power IPPs]] — validated cohort (0.773 intra with [[Vistra]]/[[NRG Energy]]/[[Talen Energy]])
 - [[Nuclear renaissance]] — industry context
 - [[Power constraints]] — nuclear addresses baseload need
 - [[BYOP]] — policy (BYOG risk from PJM proposals)

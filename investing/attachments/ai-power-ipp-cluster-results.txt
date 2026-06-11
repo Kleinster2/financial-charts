@@ -1,0 +1,76 @@
+AI-power IPPs CLUSTER ANALYSIS
+Window 1y: 2025-06-18 -> 2026-06-10 (193 obs)
+Window 2y: 2024-07-15 -> 2026-06-10 (251 obs)
+Universe: 15 tickers across 5 groups
+Dendrogram cut threshold: 0.4
+
+--- 1Y INTRA-CLUSTER PAIRWISE CORRELATIONS ---
+Ticker   VST   CEG   NRG   TLN
+Ticker                        
+VST     1.00  0.81  0.79  0.81
+CEG     0.81  1.00  0.74  0.75
+NRG     0.79  0.74  1.00  0.73
+TLN     0.81  0.75  0.73  1.00
+Average intra-cluster correlation: 0.773
+Range: [0.734, 0.815]
+
+--- AVG GROUP-PAIR CORRELATIONS (1Y) ---
+             cluster  regulat  grid_eq  nuclear      etf
+    cluster    0.773    0.111    0.470    0.368    0.263
+regulated_u    0.111    0.737    0.015   -0.025    0.235
+grid_equipm    0.470    0.015    0.627    0.441    0.251
+nuclear_fue    0.368   -0.025    0.441    0.766    0.202
+        etf    0.263    0.235    0.251    0.202    0.079
+
+Cluster vs others:
+  cluster vs regulated_utilities: 0.111  (intra advantage: +0.662)
+  cluster vs grid_equipment: 0.470  (intra advantage: +0.303)
+  cluster vs nuclear_fuel: 0.368  (intra advantage: +0.405)
+  cluster vs etf       : 0.263  (intra advantage: +0.510)
+
+--- HIERARCHICAL CLUSTERS (1Y, distance threshold 0.4) ---
+  Cluster 1: DUK, SO, AEP, XLU
+  Cluster 2: CCJ, UEC
+  Cluster 3: VST, CEG, NRG, TLN
+  Cluster 4: GEV, ETN, PWR
+  Cluster 5: SPY
+  Cluster 6: XLE
+
+--- CANDIDATE JOIN DISTANCES (1Y, average linkage, distance = 1-|corr|) ---
+ Step Left       Right Distance         Members
+    1  VST         TLN    0.185         VST+TLN
+    2  CEG     VST+TLN    0.221     CEG+VST+TLN
+    3  NRG CEG+VST+TLN    0.245 NRG+CEG+VST+TLN
+
+--- PCA ON CANDIDATE COHORT (1Y) ---
+Explained variance ratio:
+  PC1: 82.99%
+  PC2: 6.73%
+  PC3: 6.17%
+  PC4: 4.11%
+
+PC1 loadings:
+VST    0.514
+CEG    0.497
+NRG    0.491
+TLN    0.497
+
+--- PC1 INDEX WEIGHTS (1Y) ---
+PCA is run on standardized daily log returns. Raw PC1-mimic weights scale PC1 loading by inverse realized volatility.
+    PC1 loading Loading weight Ann vol Raw PC1-mimic weight
+VST       0.514         25.71%  51.13%               25.37%
+CEG       0.497         24.86%  49.54%               25.32%
+NRG       0.491         24.56%  46.27%               26.77%
+TLN       0.497         24.87%  55.65%               22.54%
+
+--- WEEKLY-RETURN CROSS-CHECK (1Y, async-close robustness) ---
+Weeks: 39   Weekly intra-corr: 0.647 (daily 0.773)   Weekly PC1: 73.7% (daily 83.0%)
+
+--- HISTORICAL TIGHTNESS EVOLUTION (90D ROLLING) ---
+     Avg corr    PC1 Core corr Satellite corr Final join distance
+Date                                                             
+2024    0.505  63.2%     0.415          0.585               0.541
+2025    0.810  85.8%     0.770          0.851               0.222
+2026    0.773  83.0%     0.747          0.802               0.250
+
+Latest 90D: avg corr 0.768, PC1 82.6%, core corr 0.737, satellite corr 0.799, final join distance 0.260

@@ -147,6 +147,7 @@ Not all "firm" power is equally firm. A useful framework:
 - [[Power grid primer]] — foundational grid concepts
 - [[Equinix Brasil]] — Brazil firm power case study (hydro + wind PPA)
 - [[Constellation Energy]] — largest US nuclear fleet (firm power leader)
+- [[AI-power IPPs]] — the validated four-name merchant cohort monetizing firm power for AI
 - [[Google]] — 24/7 CFE hourly matching pioneer
 - [[Fervo Energy]] — EGS pioneer, enhanced geothermal for data centers
 - [[Latin America AI competitiveness]] — regional firm power dynamics

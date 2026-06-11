@@ -1,0 +1,29 @@
+AI-power IPPs THRESHOLD STABILITY SCAN
+Cohort size: 4
+
+--- ASSIGNMENT TABLE ---
+ threshold  n_subclusters  largest_subcluster_size  cohort_share_in_largest  contamination_count  intact
+      0.20              3                        2                      0.5                    0   False
+      0.25              1                        4                      1.0                    0    True
+      0.30              1                        4                      1.0                    0    True
+      0.35              1                        4                      1.0                    0    True
+      0.40              1                        4                      1.0                    0    True
+      0.45              1                        4                      1.0                    0    True
+      0.50              1                        4                      1.0                    0    True
+      0.55              1                        4                      1.0                    4   False
+      0.60              1                        4                      1.0                    6   False
+      0.65              1                        4                      1.0                    6   False
+      0.70              1                        4                      1.0                    6   False
+
+--- STABLE RANGES (intact cohort, no contamination) ---
+  [0.25, 0.50]  width = 0.25  (WIDE)
+Total stable width: 0.25
+
+--- VERDICT ---
+ROBUST: cohort survives a wide range of thresholds; cluster boundary is not sensitive to threshold choice.
+
+--- CONTAMINATION DETAIL (non-cohort names joining the cohort's largest cluster) ---
+  threshold 0.55: + GEV,ETN,PWR,SPY
+  threshold 0.60: + GEV,ETN,PWR,CCJ,UEC...
+  threshold 0.65: + GEV,ETN,PWR,CCJ,UEC...
+  threshold 0.70: + GEV,ETN,PWR,CCJ,UEC...

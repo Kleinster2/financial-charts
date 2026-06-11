@@ -1,0 +1,28 @@
+# AI-power IPPs — merchant/independent power producers re-rated as AI-datacenter
+# power suppliers (hyperscaler PPAs, nuclear restarts, behind-the-meter deals).
+# Surfaced as the tightest block (0.773 intra, 1y) in the SEI speed-to-power
+# panel (2026-06-10); this config tests the cohort properly with its own controls.
+# Boundary questions: distinct from regulated utilities? from grid equipment?
+# from the nuclear fuel-cycle trade? from broad energy/market beta?
+name: AI-power IPPs
+primary: CEG
+prefix: ai-power-ipp-cluster
+threshold: 0.4
+window_end: 2026-06-10
+
+groups:
+  cluster:
+    color: "#2962FF"
+    tickers: [VST, CEG, NRG, TLN]
+  regulated_utilities:
+    color: "#7E57C2"
+    tickers: [DUK, SO, AEP]
+  grid_equipment:
+    color: "#FF6F00"
+    tickers: [GEV, ETN, PWR]
+  nuclear_fuel:
+    color: "#00897B"
+    tickers: [CCJ, UEC]
+  etf:
+    color: "#9E9E9E"
+    tickers: [XLU, SPY, XLE]

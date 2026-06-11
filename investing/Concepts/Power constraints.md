@@ -656,6 +656,7 @@ SoftBank's 5 GW French data-center plan is the nuclear-grid version of BYOP. Ins
 - [[Global DC grid strain]] — global context (Bloomberg Jun 2024)
 - [[Water constraints]] — companion constraint (water-power tradeoff)
 - [[Solaris Energy Infrastructure]] — listed pure-play monetizing interconnection delay (mobile turbine fleet, [[xAI]] anchor)
+- [[AI-power IPPs]] — validated merchant-power cohort (VST/CEG/NRG/TLN, 0.773 intra)
 - [[Nuclear power for AI]] — solution (baseload power)
 - [[AI hyperscalers]] — demand driver (69GW needed)
 - [[Hyperscaler capex]] — capex envelope that converts power scarcity into a funding and deployment constraint
