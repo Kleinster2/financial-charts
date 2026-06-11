@@ -147,6 +147,8 @@ def _looks_like_own_ticker(text, match, actor_name):
         "parent",
         "former ticker",
         "formerly",
+        "renamed from",
+        "ipo as",
         "founder of",
         "co-founder of",
         "competitor",
