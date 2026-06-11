@@ -1,0 +1,23 @@
+# Speed-to-power cohort — behind-the-meter / mobile generation monetizing the
+# data-center interconnection queue. SEI's power era only begins Sept 2024 (MER
+# close); the 2y window includes ~3 months of legacy oilfield-logistics SOI tape,
+# so weight the 1y window in interpretation.
+name: Speed-to-power
+primary: SEI
+prefix: sei-cluster
+threshold: 0.4
+window_end: 2026-06-10
+
+groups:
+  cluster:
+    color: "#2962FF"
+    tickers: [SEI, BE, GNRC]
+  power_oem_grid:
+    color: "#7E57C2"
+    tickers: [GEV, CAT, CMI, ETN, PWR]
+  ai_power_ipp:
+    color: "#FF6F00"
+    tickers: [VST, CEG, NRG, TLN]
+  etf:
+    color: "#9E9E9E"
+    tickers: [SPY, XLI, XLE, XLU]
