@@ -4,7 +4,7 @@ tags: [securities, cloud, ai-infrastructure]
 ---
 #securities #cloud
 
-**Oracle securities** — ORCL (NYSE). The most leveraged AI infrastructure play among hyperscalers — $133B debt stack, -$13.2B TTM FCF, stock down ~60% from Sep 2025 peak of ~$340. Trades on whether $553B RPO converts to revenue fast enough to outrun debt service. Mar 31 layoffs (20-30K) free $8-10B FCF, partially closing the gap.
+**Oracle securities** — ORCL (NYSE). The most leveraged AI infrastructure play among hyperscalers — $133B+ debt stack, FY2026 FCF -$23.7B, stock down ~40% from the Sep 2025 peak of ~$340. Trades on whether the $638B RPO (Jun 10, 2026 print; was $553B) converts to revenue fast enough to outrun debt service, with ~$40B more financing planned for FY2027. Mar 31 layoffs (20-30K) free $8-10B FCF, partially closing the gap.
 
 ---
 
@@ -32,8 +32,17 @@ tags: [securities, cloud, ai-infrastructure]
 | Mar 23, 2026 | $154.34 | Faded post-earnings rally |
 | Mar 30, 2026 | $138.80 | Broader market selloff (Iran war, tariff fears) |
 | Mar 31, 2026 | $142.78 | +6% on layoff news (market reads as cost discipline) |
+| Jun 10, 2026 | $204.58 | Pre-earnings close (recovered ~43% off the March lows into the print) |
+| Jun 10, 2026 AH | ~$190 → $199-202 | Q4 FY26: -7%+ on release, recovered to roughly -1% to -3% through the evening; final verdict = Jun 11 close |
 
-Stock tripled from ~$100 (mid-2023) to ~$340 (Sep 2025) on the AI infrastructure narrative, then gave back ~60% as the market repriced capex returns and fretted about [[OpenAI]] concentration risk (~$300B of $553B RPO). Down ~25% YTD at the time of the Mar 31 layoffs.
+Stock tripled from ~$100 (mid-2023) to ~$340 (Sep 2025) on the AI infrastructure narrative, then gave back ~60% as the market repriced capex returns and fretted about [[OpenAI]] concentration risk (~$300B of the then-$553B RPO). Recovered to ~$205 into the Q4 FY26 print (Jun 10, 2026).
+
+## Earnings reactions
+
+| Print | Date | Reaction |
+|-------|------|----------|
+| Q3 FY2026 (rev $17.19B vs $16.91B; IaaS +84%) | Mar 10-11, 2026 | +9.2% next session |
+| Q4 FY2026 (rev $19.18B +21%; RPO +$85B to $638B; capex $55.7B vs $50B guided; FCF -$23.7B) | Jun 10, 2026 | After hours: -7%+ initial, recovered to ~-1% to -3% ($199-202). Bookings beat sold on funding-model concerns. Same-day-close verdict not available; finalize at Jun 11 close |
 
 ---
 

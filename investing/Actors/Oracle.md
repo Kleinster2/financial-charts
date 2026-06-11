@@ -10,7 +10,7 @@ aliases:
 
 ## Synopsis
 
-Oracle is the most leveraged bet on AI infrastructure scaling among the hyperscalers. The company has committed $50B in FY2026 capex, funded by $57B in new debt issued over 18 months, pushing total debt to ~$133B — making it the largest non-financial investment-grade issuer on earth, rated BBB/Baa2 with negative outlooks (two notches above junk). The bet: [[Oracle Cloud Infrastructure]] (OCI) can sustain 84% [[IaaS]] growth (Q3 FY26, accelerating) and convert a $553B [[remaining performance obligations]] pipeline — roughly $300B tied to [[OpenAI]] — into the revenue ramp from $57B (FY25) to $90B (FY27 guidance).
+Oracle is the most leveraged bet on AI infrastructure scaling among the hyperscalers. FY2026 capex landed at $55.7B (vs ~$50B guided), funded by $43B of FY2026 debt plus $5B of equity on top of the prior stack, pushing total debt past ~$133B — the largest non-financial investment-grade issuer on earth, rated BBB/Baa2 with negative outlooks (two notches above junk). The bet: [[Oracle Cloud Infrastructure]] (OCI) can sustain 90%+ [[IaaS]] growth (+93% in Q4 FY26, accelerating from +84%) and convert a $638B [[remaining performance obligations]] pipeline (up from $553B at Q3; roughly $300B of the pre-print figure tied to [[OpenAI]]) into the revenue ramp from $57.4B (FY25) to $67.4B (FY26 actual) to ~$90B (FY27 guidance).
 
 The risk profile is binary. Bull case: OCI's architecture (built on [[Amazon]]'s mistakes, per [[Guggenheim Partners]]' [[John DiFucci]] — see Guggenheim thesis below), validated by [[Project Stargate]], [[xAI]]'s Colossus, and the [[TikTok]] data custodianship, proves that a #4 cloud can win the AI infrastructure wave where incumbents are capacity-constrained. DiFucci calls it a "decade stock" with a $400 PT and $166B FY30 revenue target. Bear case: the capital structure is fragile — negative free cash flow (-$13.2B TTM), massive client concentration ([[OpenAI]]), and a credit rating one bad quarter from a downgrade cycle. If AI infrastructure spending decelerates, Oracle's debt-funded buildout becomes an albatross. The Mar 31 layoffs (20-30K workers, ~18% of headcount) partially address the FCF gap — [[TD Cowen]] estimates $8-10B in freed cash flow — but also signal that the AI infrastructure bet requires cannibalizing the legacy workforce to fund. [[Larry Ellison]] (80+) remains the strategic center — his relationships with [[Elon Musk]], the Stargate JV partners, and the Trump administration drive deal flow. The CEO role passed to co-CEOs [[Clay Magouyrk]] (OCI) and [[Mike Sicilia]] in late 2025, partially de-risking operational succession, but Ellison's personal network remains irreplaceable.
 
@@ -312,6 +312,40 @@ Oracle has set Q4 FY2026 results for Wednesday, Jun. 10, 2026 after the market c
 | TikTok / equity-method impact | TikTok USDS economics begin mattering in Q4, even if non-operating. |
 
 Use `/earnings ORCL` after the release lands; do not pre-fill the Q4 row from guidance.
+
+---
+
+## Q4 FY2026 results (reported Jun 10, 2026)
+
+Preliminary, press-release basis; replace with 10-K finals when filed. The print graded against the watch table above:
+
+| Watch check | Answer |
+|---|---|
+| Cloud IaaS vs Q3's +84% | Accelerated again: OCI $5,787M, +93% USD. Total cloud $9,913M (+47%); SaaS $4,126M (+10%) |
+| RPO / [[OpenAI]] concentration | RPO $638B — up $85B in the quarter, +363% YoY. No fresh OpenAI split; new disclosure: prepaid and customer-supplied hardware portions of large AI contracts total $75B |
+| Capex / FCF path | Not resolved: Q4 capex $15.9B took FY2026 to $55,663M vs ~$50B guided; FY2026 operating cash flow $31,977M, free cash flow -$23,686M |
+| Project-finance commentary | FY2026 raised $43B debt + $5B equity; FY2027 plan: ~$40B more through debt and equity |
+| [[Bloom Energy]] / power | Release language: datacenters "intended to use clean energy from natural gas fuel cells" — the SOFC thread is now in the earnings narrative |
+| TikTok / equity method | No standalone disclosure in the release |
+
+Quarter (GAAP, $M): revenue 19,184 (+21% USD); operating income 6,133; net income 4,304; diluted EPS $1.45 (+21%; non-GAAP $2.11, +24%). Segments: Cloud 9,913, Software 6,824, Hardware 924, Services 1,523. Cost side: cost lines 6,672; S&M 2,068; R&D 2,613; G&A 444; intangible amortization 431; restructuring 823; interest expense 1,438; tax 1,066. Cash-flow D&A for the quarter: 2,847 (derived FY 9,294 minus nine-month 6,447 from the Q3 10-Q).
+
+FY2026 (GAAP, $M): revenue 67,357 (+17%); cloud 33,989 (+39%; IaaS 18,101, SaaS 15,888); operating income 20,606; net income 17,087; diluted EPS $5.83 (+34%; non-GAAP $7.63, +27%). Dividend $0.50/quarter (payable Jul 24, 2026).
+
+Guidance: Q1 FY2027 revenue +27-29%, cloud +57-64% USD, non-GAAP EPS $1.72-1.76 USD; FY2027 revenue ~$90B reaffirmed, non-GAAP EPS ~$8.05 (+18% adjusted).
+
+The tape's first verdict (after hours, Jun 10): from the $204.58 close, the stock fell 7%+ on the release, then recovered to roughly -1% to -3% ($199-202 area) through the evening per CNBC/TradingKey coverage. The bookings question was answered emphatically — $85B of net new RPO in a single quarter — and the market sold the funding model anyway: capex overshoot, negative $23.7B FCF, and another ~$40B of financing ahead. Same pattern as the Jan-Mar arc: demand is not the contested variable, the balance sheet is. Final close-to-close reaction belongs to the Jun 11 session (follow-up logged in the daily note).
+
+DB note: Q3 FY2026 (2026-02-28) and Q4 FY2026 (2026-05-31) quarterly rows plus the FY2026 annual row inserted from this release and the Q3 10-Q (quarters cross-foot to the annual exactly on revenue/OI/NI). The `operating_expenses` column in these rows is below-gross-profit OpEx reconciling exactly to GAAP OI; legacy Alpha Vantage rows use a different, internally inconsistent basis. The stored Q1 FY2026 D&A ($420M) is an Alpha Vantage error (actual H1 D&A was $3,881M per the Q2 10-Q) — flagged, not modified.
+
+![[orcl-fundamentals.png]]
+*Revenue and net income through FY2026 Q4: the revenue ramp is visible; the net-income line carries the restructuring and interest drag from the buildout.*
+
+![[orcl-sankey.png]]
+*FY2026 income statement: $67.4B revenue → $17.1B net income (25.4% net margin), with R&D at 15.2% of revenue and interest expense at $4.6B — the debt stack now a first-order P&L line.*
+
+![[orcl-waterfall.png]]
+*FY2026 waterfall: the bridge from $44.3B gross profit to $17.1B net income runs through $23.7B of operating expenses and $4.6B interest.*
 
 ---
 
