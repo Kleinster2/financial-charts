@@ -24,7 +24,7 @@ Each sibling vault has its own lens — the angle it looks at the world through:
 | History | "How did we get here" — durability, precedent, structural breaks, long-arc patterns |
 | Technologies | Foundational tech shifts — chip architectures, fab capacity, model breakthroughs, supply-chain evolution |
 | Geopolitics | Statecraft, alliances, sanctions architecture, military operations, diplomatic timelines |
-| Brazil | Brazilian actors, markets (BRL, B3, DI, Ibovespa, ADRs), domestic institutions, domestic policy |
+| Brazil | Non-economic Brazilian actors (politicians, courts, parties, institutions), markets (BRL, B3, DI, Ibovespa, ADRs), domestic policy. Economic actors (companies, funds, deals) route to Investing — see [Economic vs. non-economic actors](#economic-vs-non-economic-actors) |
 
 Content can touch multiple lenses — an Iran oil story engages investing (WTI price), geopolitics (Strait of Hormuz), and history (prior oil shocks). One lens is primary. The others get a 1-2 sentence gloss and an `obsidian://` link in the respective vaults.
 
@@ -51,8 +51,18 @@ This is the cleanest version of the lens test for history because history's lens
 | Alliance shifts, multilateral frameworks (BRICS, AUKUS) | Geopolitics | Market-impact lens only |
 | Brazilian domestic politics, institutions, Plano Real | Brazil | Market impact (BRL, B3, ADRs) only |
 | Brazilian macro policy, Copom decisions, fiscal framework | Brazil | Market impact only |
+| Brazilian companies, funds, banks, M&A, private-capital deals (economic actors) | Investing | Full treatment in `Actors/`, even when the company is Brazilian |
 | Current positioning, price action, portfolio impact | Investing | Full treatment |
 | Live policy triggers, active frameworks | Investing | Full treatment |
+
+### Economic vs. non-economic actors
+
+The Brazil/Investing split for *actors* (as opposed to events or policy) runs on one axis: economic vs. non-economic, not nationality.
+
+- Economic actors — companies, funds, asset managers, banks, exchanges, and the deals/M&A between them — live in the investing vault's `Actors/` folder regardless of country. A Brazilian frozen-foods maker, a São Paulo family office, a B3-listed bank are investing-vault actors. The Brazil vault gets at most a gloss + `obsidian://` link when domestic politics or institutions touch them.
+- Non-economic Brazilian actors — politicians, courts (STF), parties, regulators-as-institutions, civil-society and cultural figures — live in the Brazil vault.
+
+A company is not "Brazilian content" because it is headquartered in Brazil; it is economic content that happens to be Brazilian. Route on what the actor *is*, not where it sits.
 
 ### Warning signs that investing is being used as a dumping ground
 
