@@ -146,7 +146,13 @@ This explains [[GPU deployment bottleneck]]:
 
 ---
 
-*Updated 2026-01-04*
+## Geography of the buildout (2025)
+
+The US hosts ~75% of global AI-supercomputer performance and China ~15% — roughly 90% between them (Epoch AI). The FT's capacity-race visual story (Jul 31, 2025) framed the rest as a sovereign scramble — UAE and Saudi gigawatt programs, EU catch-up plans — with Europe's standout site the seawater-cooled 1.2 GW [[Start Campus]] campus at Sines, Portugal. See [[Sovereign AI race]] and [[Gulf Sovereign Capital Reallocation]] for the state-capital side.
+
+---
+
+*Updated 2026-01-04; geography section added 2026-06-10 (backfill)*
 
 ---
 

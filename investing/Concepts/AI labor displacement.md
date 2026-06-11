@@ -95,6 +95,20 @@ The visible layoffs are the tip. The invisible hiring freeze is the iceberg.
 
 ---
 
+## Canaries in the Coal Mine — the entry-level evidence
+
+"Canaries in the Coal Mine? Six Facts about the Recent Employment Effects of Artificial Intelligence" ([[Erik Brynjolfsson]], [[Bharat Chandar]], [[Ruyu Chen]], Stanford Digital Economy Lab; Nov 13, 2025 revision) — the strongest large-scale evidence to date, built on high-frequency administrative payroll data (ADP):
+
+- Early-career workers (ages 22-25) in the most AI-exposed occupations show a 16% relative decline in employment, controlling for firm-level factors.
+- Employment for less-exposed fields and for experienced workers in the same occupations is stable or growing — the displacement is concentrated at the entry level.
+- Adjustment is happening through employment, not compensation.
+- Declines concentrate where AI automates rather than augments labor — the augmentation/automation split is the load-bearing distinction.
+- Results are robust excluding tech firms and remote-friendly occupations.
+
+The Brynjolfsson FT op-ed (2026) pairs this with the macro print — US productivity ~2.7% in 2025 vs a ~1.4% prior-decade average — arguing firms are delegating codified junior tasks to software while augmented workers gain. See [[AI productivity]] for the take-off claim and its caveats.
+
+---
+
 ## The incentive structure
 
 Block's +24% stock reaction created a template:

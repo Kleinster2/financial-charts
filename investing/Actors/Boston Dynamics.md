@@ -29,6 +29,7 @@ aliases: []
 | 2017 | Sold to [[SoftBank]] — Google couldn't commercialize |
 | 2021 | Acquired by [[Hyundai]] for $1.1B (80% stake) |
 | 2024 | Electric Atlas unveiled — retired hydraulic version |
+| Oct 2024 | [[Toyota Research Institute]] research partnership — whole-body large behaviour models for humanoids |
 | Jan 2026 | Atlas production-ready, CES Best Robot, [[Google DeepMind]] AI partnership |
 
 Three owners in a decade — each struggled to commercialize the technology. [[Hyundai]] is the first with a clear deployment pathway: its own factories.
@@ -49,6 +50,8 @@ Three owners in a decade — each struggled to commercialize the technology. [[H
 ## Spot
 
 Quadruped (dog-like). Industrial inspection, construction monitoring, hazardous environments. ~$75K price point. Hundreds of customers globally (2025). Primary revenue generator today.
+
+Fleet >1,500 units deployed by Nov 2024 (FT). Number-one use is industrial inspection. Documented deployments: [[GSK]] uses a bespoke Spot to inspect tanks of Ventolin inhaler propellant; [[AB InBev]]'s Spot, tripped up by slippery canning-line floors while hunting air leaks, was retrained via machine-learning simulation and the fix rolled out to all Spots worldwide — fleet-wide software updates, like a phone.
 
 ---
 
@@ -128,4 +131,8 @@ Not directly investable — subsidiary of [[Hyundai]] Motor Group. Indirect expo
 - [[Reflex Robotics]] — competitor (wheeled humanoid, cheaper)
 - [[UBTECH]] — competitor (Walker S2, 1,000+ mass delivery)
 - [[CES 2026]] — Atlas production announcement, Best Robot award
+- [[Toyota Research Institute]] — whole-body behaviour-model research partnership (Oct 2024)
+- [[GSK]] — Spot industrial-inspection customer (Ventolin propellant tanks)
+- [[AB InBev]] — Spot deployment, fleet-wide ML-update case
+- [[Physical AI]] — field context; [[Diffusion models (robotics)]] — learning stack
 

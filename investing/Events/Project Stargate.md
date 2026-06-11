@@ -50,7 +50,7 @@ aliases: [Stargate, Stargate JV]
 | Power | Gigawatts of capacity |
 | Geography | Global expansion |
 
-**First site**: Under construction near Abilene, Texas (1.2 GW campus).
+**First site**: Under construction near Abilene, Texas (1.2 GW campus; 450,000+ [[NVIDIA]] GB200s deployed by [[Oracle]] under a 15-year lease, [[Crusoe Energy]] as developer — DCD, Jul 2025).
 
 **Status (Jan 2026):** Per SemiAnalysis, Abilene "not going BRRR" — progressing slower than OpenAI's UAE Stargate site which uses on-site gas turbines ([[BYOP]]).
 

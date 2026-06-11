@@ -1,3 +1,6 @@
+---
+aliases: [Jensen]
+---
 #actor #individual #usa #taiwan
 
 **Jensen Huang** — NVIDIA founder/CEO. Most powerful person in semiconductors. "Leather jacket diplomacy."
@@ -110,6 +113,12 @@ The narrower part of Huang's critique — that TPU 8t / 8i have not been submitt
 For the full customer list and competitive structure see [[Google TPU Competitive Position]] and [[TPU]].
 
 *Sources: FT, Apr 26 2026; Google Cloud Next 2026 keynote, Apr 22 2026.*
+
+---
+
+## Physical AI — "the next wave" (Computex, Jun 2024)
+
+Jensen's earliest big public framing of the robotics phase, delivered at Computex June 2024 and anchoring the FT's Nov 2024 robotics visual story: "This is not science fiction" — "The next wave of AI is physical AI," AI that understands the laws of physics and can work among us. The framing predates and scaffolds NVIDIA's later platform moves ([[Cosmos]] physical-AI models, [[Groot]] humanoid models, the CES 2026 full-stack robotics platform). Capital followed the framing: >$11bn of robotics and drone VC deals by late October 2024 ([[PitchBook]]). See [[Physical AI]] for the field structure.
 
 ---
 
@@ -230,3 +239,4 @@ See [[Groq]] for details.
 - [[Premium inference tokens]] — Apr 2026 market-segmentation thesis
 - [[Section 232 semiconductor tariff]] — credits as correct industrial-policy instrument
 - [[Donald Trump]] — credits tariff architecture as the correct export-control instrument
+- [[Physical AI]] — "next wave" framing (Computex, Jun 2024)

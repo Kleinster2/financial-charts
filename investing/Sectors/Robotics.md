@@ -339,6 +339,8 @@ For investment positioning, the Patel call sharpens an existing tension: [[VLA m
 - [[Serve Robotics]] — sidewalk delivery, acquired Diligent
 - [[Drones]] — aerial vehicles (separate sector)
 - [[Agentic AI]] — AI for physical world
+- [[Diffusion models (robotics)]] — the 2024 robot-learning breakthrough (action diffusion)
+- [[Toyota Research Institute]] — robot-learning lab; [[Boston Dynamics]] behaviour-model partner
 - [[AI Infrastructure]] — compute for training
 - [[Enterprise AI adoption]] — contrast case where peer information has not clearly moved AI plans
 - [[AI adoption curve]] — diffusion curve and peer-belief channel

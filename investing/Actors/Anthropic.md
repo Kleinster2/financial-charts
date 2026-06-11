@@ -820,6 +820,7 @@ Backstory (Patel, Mar 2026): Anthropic's compute team — both ex-Google — saw
 |--------|-------|
 | Chips | Over 1M Trainium2 already used; Trainium2/3/4 roadmap covered |
 | Capacity | Up to 5 GW; nearly 1 GW total Trainium2/3 capacity expected by end-2026 |
+| Flagship site | New Carlisle, Indiana — 1,200 acres, >2.2 GW full build (~30 buildings); opened Oct 2025, Anthropic-exclusive |
 | Spend commitment | More than $100B over ten years to AWS technologies |
 | Relationship | "Primary training partner and cloud provider" |
 | Amazon investment | $13B invested ($8B prior + $5B Apr 2026); up to $33B committed including future milestones |

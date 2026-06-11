@@ -328,6 +328,16 @@ Q3 FY26 (calendar Q1 2026) is the print where the [[Azure]] trajectory question 
 
 ---
 
+## US campus buildout and power procurement
+
+FY2025 capex landed at $88.7B against the ~$80B projected in January 2025 — the overshoot itself a datapoint for the [[AI capex arms race]].
+
+Wisconsin (Mount Pleasant, the ex-Foxconn site): the first $3.3B AI campus phase was followed by an April 2025 pause of second-phase construction for a design reevaluation citing "evolving technological requirements" — the power/cooling rescope pattern that defined the 2025 buildout (FT capacity-race visual story, Jul 31 2025). The pause resolved into a larger footprint: an additional $4B campus (Sept 2025) and village approval for 15 more data center buildings (Jan 2026).
+
+Power procurement: the 20-year, 835 MW PPA with [[Constellation Energy]] (Sept 2024) restarts Three Mile Island Unit 1 as the Crane Clean Energy Center — restart since pulled forward from 2028 toward 2027, backed by a $1B DOE loan to Constellation. The deal is the template case in [[Nuclear power for AI]] and [[Firm power]].
+
+---
+
 ## Azure model-agnostic strategy
 
 Unlike Google ([[Gemini]]-focused), Azure positioned as neutral AI facilitator:

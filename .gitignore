@@ -241,3 +241,6 @@ investing/Reports/*.mp3
 
 # Skill-creator eval run output (benchmark/grading/timing/transcripts — transient)
 .agents/skills/*-workspace/
+
+# Transient daily-scan output at repo root (archived copies live in scan_outputs/)
+/daily_scan_output.json

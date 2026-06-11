@@ -138,12 +138,14 @@ Anthropic using Trainium2/3 to train and deploy [[Claude]] models. Strategic ali
 
 | Project | Amount | Capacity | Timeline |
 |---------|--------|----------|----------|
-| Project Rainier (Indiana) | $11B | — | Opened Oct 2025 |
+| Project Rainier (Indiana) | $11B | >2.2 GW full build (~30 buildings) | Opened Oct 2025 |
 | Northern Indiana expansion | $15B | 2.4 GW | Announced Dec 2025 |
 | Government AI/supercomputing | $50B | 1.3 GW | Breaking ground 2026 |
 | AWS backlog | $200B | — | — |
 
 Total new capacity: 3.7 GW committed
+
+Rainier sits on 1,200 acres at New Carlisle (St Joseph County), Indiana — built exclusively to train and serve [[Anthropic]] models on [[Trainium]], with seven buildings online at the October 2025 opening and >2.2 GW of draw at full build, enough for ~1.6M homes. Part of the $15B Northern Indiana plan.
 
 ### AWS AI Factories (Dec 2025)
 - On-premises AI infrastructure for enterprises/government

@@ -523,6 +523,8 @@ Tulsa, Oklahoma (announced Apr. 21, 2026):
 - Meta paying the full cost of required water and wastewater service
 - Tulsa becomes Meta's 28th U.S. facility and 32nd worldwide
 
+Titan clusters: [[Mark Zuckerberg]] (Jul 14, 2025) branded the buildout as several multi-GW "titan clusters" — "hundreds of billions of dollars" into compute for superintelligence, Prometheus (Ohio) first online in 2026, Hyperion scaling toward 5 GW, a single cluster covering "a significant part of the footprint of Manhattan." The AI rescope predates the titan era: Meta halted 11 projects worldwide in 2022 — including Temple, TX (>$800M) — scrapping completed work to re-architect for AI workloads before resuming construction (Oct 2023); the FT's Jul 2025 capacity-race story used Temple as the emblem of the redesign wave.
+
 Hyperion (Louisiana):
 - 5GW eventual capacity
 - $27B committed via [[Blue Owl]] JV (80% Blue Owl, 20% Meta). SPV: "Beignet Investor"

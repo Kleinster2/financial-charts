@@ -206,6 +206,9 @@ Key arguments:
 | **Matt Yglesias** | Would like to see formal modeling; thinks treatment of fiscal policy is wrong |
 | **Tanmai Gopal** (PromptQL) | Estimated 70% of tasks cannot be automated because AI needs human context that's "too fluid" to keep updated |
 | **Deutsche Bank Research** | Prompted an AI to forecast: 92M jobs eliminated by 2030 but **170M new roles created** |
+| **Krishna Guha** ([[Evercore]]) | Via FT Alphaville's "The 'extreme and improbable' economics of Citrini's AI report" (Feb 24): even if the tech and microeconomics evolved as drawn, the macro would require "a set of extreme and improbable conditions" |
+| **Fidelity International / Liontrust** | Among the institutional critics of the report's economic logic (Bloomberg, Feb 26) |
+| **White House economist** | Called the scenario "science fiction" (Bloomberg, Feb 26) |
 
 ### "Are We Cooked?" analysis
 

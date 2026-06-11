@@ -613,6 +613,8 @@ CES 2026 announcements:
 
 See [[CES 2026]] for event details.
 
+The robotics platform stack traces back to Jensen's Computex June 2024 framing — "The next wave of AI is physical AI" — which anchored the FT's Nov 2024 robotics story alongside >$11bn of 2024 robotics/drone VC deals ([[PitchBook]]). [[Cosmos]] and [[Groot]] are the productisation of that thesis. See [[Physical AI]] and [[Diffusion models (robotics)]].
+
 ---
 
 ## Meta multiyear chip deal (Feb 17, 2026)

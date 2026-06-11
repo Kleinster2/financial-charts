@@ -131,6 +131,12 @@ Each wave follows the same arc: technology makes comparison free → incumbents 
 
 ---
 
+## Macro-scale: oligopoly rents and the GIC debate
+
+The [[Citrini 2028 Global Intelligence Crisis]] scenario (Feb 2026) is this thesis run at economy scale: AI agents make price discovery near-perfect and compete away the oligopoly rents embedded in friction — interchange, passive renewal premiums, commissions, per-seat software. The firm-level mechanism is the same arc as the waves above; the contested step is the macro transmission. Krishna Guha ([[Evercore]], via FT Alphaville Feb 24, 2026): even if the tech and microeconomics evolved as drawn, the macro would require "a set of extreme and improbable conditions." Rent compression at the firm level and depression at the macro level are separate claims — the gap between them is where the GIC debate lives.
+
+---
+
 ## Counter-thesis
 
 - Enterprise inertia — large corporations change vendors slowly. Multi-year contracts, switching costs, integration complexity.

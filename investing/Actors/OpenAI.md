@@ -288,7 +288,7 @@ $500B JV with [[SoftBank]] (40% ownership, financial lead), OpenAI (40%, operati
 
 | Site | Capacity | Status |
 |------|----------|--------|
-| Abilene, TX | Core facility | Operational; 2 GW expansion cancelled Mar 6, 2026 |
+| Abilene, TX | Core facility — 1.2 GW, 450,000+ GB200s under [[Oracle]] 15-yr lease | Operational; 2 GW expansion cancelled Mar 6, 2026 |
 | Shackelford County, TX | Planned | Announced Sep 2025 |
 | Dona Ana County, NM | Planned | Announced Sep 2025 |
 | Lordstown, OH | Under construction | Expected operational 2026 |

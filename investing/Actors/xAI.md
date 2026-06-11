@@ -166,6 +166,8 @@ Speed secrets:
 - Battery packs for load switching (generators too slow to react to millisecond GPU demands)
 - When municipal load high → seamless switch to generators without interrupting training
 
+Power path (2024-2025): TVA approved a 150 MW grid connection (Nov 2024); a second, xAI-funded substation (150-300 MW, $50M+ upfront) targeted October 2025 was set to relegate the turbines to backup. [[Solaris Energy Infrastructure]] rents xAI ~400 MW of its ~600 MW mobile-turbine fleet, with >1.1 GW of turbine capacity for xAI guided by Q2 2027 (SemiAnalysis; FT capacity-race story, Jul 2025).
+
 The Cybertruck bet: Tyler (engineer) bet Elon he could get a training run on new GPUs in 24 hours. He did. He got the Cybertruck.
 
 Regulatory controversy (2024-2026):

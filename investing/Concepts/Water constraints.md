@@ -13,6 +13,9 @@ Data center water consumption is emerging as a hard constraint on AI infrastruct
 | New AI DCs in water-scarce areas (past 3 years) | **160+** (70% increase vs prior 3 years) |
 | Global DC water consumption (current) | **560 billion liters/year** |
 | Global DC water consumption (2030 projection) | **1,200 billion liters/year** (2x+) |
+| US DC direct consumption (2023) | ~66 billion liters (Berkeley Lab) |
+| US DC indirect via electricity generation (2023) | ~800 billion liters (Berkeley Lab) |
+| [[Google]] freshwater withdrawals from medium/high-stress watersheds (2023) | 31% (16% medium + 15% high; environmental report) |
 
 ---
 

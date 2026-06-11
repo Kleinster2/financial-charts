@@ -63,7 +63,7 @@ See [[Rapidus]], [[Japan Semiconductor Revival]].
 | Population | 2,000 residents (target) |
 | Tech | [[Autonomous vehicles]], AI, robotics |
 
-Subsidiary: Woven by Toyota (formerly Toyota Research Institute)
+Subsidiaries: Woven by Toyota (Tokyo software arm, formerly TRI-AD) and the [[Toyota Research Institute]] (US research arm, Los Altos/Cambridge — robot learning, diffusion policies, [[Boston Dynamics]] behaviour-model partnership)
 
 ---
 
@@ -194,3 +194,5 @@ Toyota was overtaken by [[SoftBank]] as Japan's biggest company by market capita
 - [[Renesas]] — supplier (auto MCUs)
 - [[Infineon]] — supplier (power semis)
 - [[Automotive semiconductors]] — demand context
+- [[Toyota Research Institute]] — US research subsidiary (robot learning, [[Diffusion models (robotics)]])
+- [[Boston Dynamics]] — TRI whole-body behaviour-model partnership (Oct 2024)
