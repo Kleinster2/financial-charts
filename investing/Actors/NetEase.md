@@ -28,6 +28,18 @@ Three structural channels (inference):
 2. Blizzard partnership cycle — the 2023 pause and 2024 resumption is the canonical case of Chinese-Western gaming co-publishing under geopolitical friction; informative for [[Activision Blizzard|Blizzard]] (now Microsoft-owned) and broader Western gaming-IP exposure to China
 3. AI-in-gaming positioning — NetEase has invested in generative-AI tooling for game development and live-service operations; sits in the broader [[Generative AI]] thread as a content-application case
 
+## Q1 2026 results (May 21, 2026)
+
+| Metric | Actual | Context |
+|--------|--------|---------|
+| Net revenue | RMB 30.6B (US$4.43B), +6.1% YoY | vs ~$4.20B consensus |
+| Games & related VAS | RMB 25.7B (US$3.7B), +6.9% YoY | Core engine intact |
+| Non-GAAP EPS | $2.56/ADS | vs $2.02 consensus — +26.7% surprise |
+
+Momentum carried: +3.9% (+3.13σ) on Jun 10, 2026, still the cleanest positive China-internet mover in the vault screen three weeks after the print. Correction for the record: the Jun 10 daily scan quoted the beat as "$17.46 vs $12.99," an RMB-basis figure mislabeled as USD — the ADS figures above are the verified ones.
+
+*Source: NetEase 6-K (May 21, 2026); move verified against local closes.*
+
 ## Related
 
 - [[Tencent]] — primary competitor

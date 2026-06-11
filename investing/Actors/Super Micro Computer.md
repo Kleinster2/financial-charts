@@ -215,6 +215,20 @@ The uncomfortable question: Liaw co-founded SMCI in 1993, was forced out in 2018
 - Gross margin compressed to 6.4% (product mix, freight, production costs)
 - Component shortages and pricing volatility
 
+## $7B capital raise to fund the AI backlog (Jun 9-10, 2026)
+
+Announced June 9, 2026: $7.0B of concurrent financings to buy components for roughly $39B of AI server orders received "in recent weeks" from more than 20 customers — about a full year of revenue at the FY26 guide, landing all at once.
+
+| Tranche | Size | Terms |
+|---------|------|-------|
+| Common stock (underwritten) | ~$1.25B | Public offering |
+| Mandatory convertible preferred (depositary shares) | ~$3.75B | 1/20th interests, $1,000 liquidation preference, auto-converts ~Jun 1, 2029 |
+| At-the-market program | Up to $2.0B | Common stock, expected from Q3 2026 |
+
+Reaction: -7.6% after hours on the announcement (Jun 9), then -18.4% on Jun 10 (-2.49σ, the day's biggest vault mover) — roughly -26% over two sessions. The two-sided read from the daily scan stands: the order book confirms AI server demand is being placed (read-through positive for [[NVIDIA]] and [[Broadcom]]), while the raise confirms SMCI cannot self-fund its own backlog at 6.4% gross margins — working-capital intensity is the business model's bottleneck, and equity holders are paying for it. The 20+ customer count is the counterpoint to the 63% single-customer concentration above: the new orders diversify the book if they convert.
+
+*Sources: company announcement via Bloomberg (Jun 9, 2026); SEC FWP filing; move verified against local closes.*
+
 **Other:** Secured $2B revolving credit facility from [[JPMorgan]] through 2030.
 
 ---

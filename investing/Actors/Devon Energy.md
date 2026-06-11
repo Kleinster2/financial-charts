@@ -26,7 +26,7 @@ DVN trades as a core Oil & Gas E&P name (XOP r = 0.95).
 |--------|-------|
 | Ticker | DVN (NYSE) |
 | HQ | Oklahoma City, Oklahoma |
-| Production | ~700 Mboe/d (2025) |
+| Production | ~700 Mboe/d (2025, standalone); 1.38M boe/d guided 2026 (combined, post-[[Coterra Energy|Coterra]]) |
 
 ### US-Iran ceasefire impact (Apr 8, 2026)
 
@@ -56,8 +56,27 @@ Next catalyst: Q1 2026 results due May 5, 2026 after the close.
 
 ---
 
+## 2026 outlook — first post-merger guidance (Jun 2026)
+
+First combined outlook after the [[Devon-Coterra merger February 2026]]:
+
+| Item | Guidance |
+|------|----------|
+| Production | 1.38M boe/d, of which 500K bbl/d oil |
+| Capex | ~$4.9B (>60% Permian) |
+| Shareholder returns | Up to 70% of FCF: $0.32 quarterly dividend + $8B buyback program |
+| Debt | $1.25B retirement in 2026 |
+| Synergies | $600M in 2027; $1.0B annual pretax run-rate by YE2027 |
+| Activity | 31 rigs, 10 completion crews, 460-480 net wells |
+
+The market's first read paired the guidance with the Hormuz tape: +6.6% (+2.65σ) on Jun 10, 2026, with the negative SPY beta (-0.74) making the war-premium directionality mechanical. The fixed-plus-variable framework's variable leg now keys off the combined FCF base.
+
+*Source: Devon 8-K outlook release; move verified against local closes (Jun 10, 2026).*
+
 ## Related
 
+- [[Coterra Energy]] — merger partner (combined entity)
+- [[Devon-Coterra merger February 2026]] — the deal event note
 - [[Occidental Petroleum]] — multi-basin E&P peer
 - [[Diamondback Energy]] — Permian peer
 - [[ConocoPhillips]] — large-cap E&P peer

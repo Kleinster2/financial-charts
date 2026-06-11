@@ -148,6 +148,10 @@ LYV shows moderate Communications correlation (XLC r = 0.56).
 
 ---
 
+## Analyst signals
+
+- Morgan Stanley (Jun 10, 2026): price target raised to $200 from $185, Overweight maintained. Stock +3.7% (+2.63σ) on the day — the identified catalyst in the daily screen.
+
 ## Sources
 
 - [Live Nation IR](https://investors.livenationentertainment.com/)
