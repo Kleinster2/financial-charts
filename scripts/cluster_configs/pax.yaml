@@ -1,0 +1,20 @@
+# Listed alternative-asset managers — does Pátria (a Brazil/LatAm-focused alt
+# manager, NASDAQ: PAX) trade with the US alt-manager complex, or as an
+# EM/Brazil-idiosyncratic name? Common window is ~2023+ (BAM spun Dec 2022,
+# OWL/TPG recent IPOs; PAX IPO'd Jan 2021).
+name: Alt-asset managers
+primary: PAX
+prefix: pax-cluster
+threshold: 0.5
+window_end: 2026-06-10
+
+groups:
+  cluster:
+    color: "#2962FF"
+    tickers: [PAX, BX, KKR, APO, ARES, CG, OWL, TPG]
+  traditional_am:
+    color: "#7E57C2"
+    tickers: [BLK, BAM]
+  etf:
+    color: "#9E9E9E"
+    tickers: [SPY, XLF, EWZ]
