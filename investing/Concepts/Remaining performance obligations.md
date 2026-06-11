@@ -16,11 +16,19 @@ RPO represents binding commitments, not pipeline or bookings. For cloud/infrastr
 
 | Company | RPO | Context |
 |---------|-----|---------|
-| [[Oracle]] | $553B (Q3 FY26) | +325% YoY, ~$300B tied to [[OpenAI]]. "Bring your own chip" model reduces Oracle's capital at risk |
-| [[Microsoft]] | $298B (Q2 FY25) | Azure + Office 365 commitments |
+| [[Oracle]] | $638B (Q4 FY26, Jun 10 2026; was $553B Q3, ~$138B FY25) | +363% YoY, +$85B in Q4 alone; ~$300B of the pre-Q4 figure tied to [[OpenAI]]; new disclosure: $75B of large AI contracts is prepaid/customer-supplied hardware |
+| [[Microsoft]] | $625B (Q2 FY26) | +110% YoY; ~45% tied to [[OpenAI]]'s $250B Azure commitment |
 | [[Salesforce]] | ~$50B | Enterprise CRM contracts |
+
+## How to read it
+
+1. Conversion — current cloud revenue growth vs RPO growth: backlog accumulating faster than revenue converts means the gap (and the financing burden) widens. Oracle FY2026: RPO +363% against revenue +17%, mirrored by $55.7B capex and -$23.7B free cash flow.
+2. Concentration — who owes the money: a backlog with roughly half tied to one venture-stage counterparty carries different risk than a diversified book.
+3. Composition — duration and content: tenor extension can masquerade as demand acceleration, and prepaid/hardware components (Oracle: $75B) change what a dollar of RPO is worth.
 
 ## Related
 
-- [[Oracle]] — largest RPO in enterprise software ($553B)
+- [[Oracle]] — largest RPO in enterprise software ($638B, Jun 2026)
 - [[Oracle Cloud Infrastructure]] — primary delivery vehicle for Oracle RPO
+- [[Hyperscaler capex]] — the spend that converts backlog into capacity
+- [[AI capex arms race]] — the cycle frame
