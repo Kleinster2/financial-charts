@@ -1189,7 +1189,7 @@ aliases: []
         """Check that sector/concept hub notes embed a current visual artifact."""
         issues = []
 
-        has_chart = bool(re.search(r'!\[\[.*\.png\]\]', content, re.IGNORECASE))
+        has_chart = bool(re.search(r'!\[\[.*\.(png|jpe?g|gif|svg)\]\]', content, re.IGNORECASE))
         has_exemption = bool(re.search(
             r'('
             r'chart(ing)?|price|market|correlation|cluster|usage|fundamentals'
@@ -1327,7 +1327,7 @@ aliases: []
         lines = content.split("\n")
         for i, line in enumerate(lines):
             # Check if this is an image embed
-            if re.match(r'!\[\[.*\.png\]\]', line):
+            if re.match(r'!\[\[.*\.(png|jpe?g|gif|svg)\]\]', line, re.IGNORECASE):
                 # Next line should be italic caption or blank then italic
                 next_idx = i + 1
                 if next_idx < len(lines):
