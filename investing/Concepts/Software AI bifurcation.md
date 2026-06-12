@@ -67,8 +67,16 @@ The label is no longer enough.
 
 ---
 
+## The per-GW lens (Mar 2026)
+
+[[Clark Tang]]'s [[Revenue per GW]] framework gives the bifurcation a power-consumption axis. Software shows the highest revenue per GW outside the ad platforms — [[Snowflake]] ~$34B and [[Salesforce]] ~$31B per GW, derived by dividing [[AWS]] revenue/GW by product gross margins — but the number is an output, not an input: software sells value, not repackaged power, and cannot grow by adding gigawatts. Low raw COGS means the gross margin is reinvested into S&M to win large, long-duration contracts, which is why high revenue/GW coexists with thin operating margins (Snowflake's CY25 GAAP operating margin is negative; the framework substitutes non-GAAP). This is the inverse of the [[James Anderson]] / [[Morgan Samet]] capex concern above: the risk for software is not only that AI turns platforms into infrastructure buyers — it is that compute-light economics stop being a moat once model providers, who monetize compute directly at 50-70% estimated gross margins, absorb the workflow layer.
+
+---
+
 ## Related
 
+- [[Revenue per GW]] — the per-GW monetization axis
+- [[Clark Tang]] — framework author
 - [[Edge control-plane risk basket]]
 - [[Security control points]]
 - [[IGV]]

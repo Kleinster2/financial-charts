@@ -314,6 +314,7 @@ Sources:
 - [[AI financing structures]] — financing concept
 - [[AI infrastructure financing risk]] — counterpoint (cascade risk)
 - [[Hyperscaler capex]] — demand-side capex envelope that creates the funding need
+- [[Revenue per GW]] — whether the financed capacity earns its hurdle (monetization per GW by layer)
 - [[Blue Owl]] — key financier
 - [[Blackstone]] — key financier
 - [[CoreWeave]] — GPU-collateral pioneer

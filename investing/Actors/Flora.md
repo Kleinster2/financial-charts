@@ -33,7 +33,7 @@ tags: [actor, startup, ai, design]
 
 Node-based creative environment — designers connect generative AI models, tools, and workflows visually. Solves the fragmentation problem: brands/agencies currently juggle dozens of separate AI tools for images, video, copy, etc.
 
-**Customers:** [[Alibaba]], Brex, Pentagram (creative agency), Lionsgate.
+**Customers:** [[Alibaba]], Brex, Pentagram (creative agency), [[Lionsgate]].
 
 ---
 

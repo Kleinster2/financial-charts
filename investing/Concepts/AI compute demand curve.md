@@ -10,7 +10,7 @@ The numbers are staggering and accelerating. ~20 GW of incremental AI data cente
 
 [[Dylan Patel]] ([[SemiAnalysis]], Mar 2026) frames the core problem: AI demand doubles or triples annually, but the supply chain thinks it's expanding fast at 10-15% annual growth. Every player in the chain is building X-1 (or X÷2) of what the AI labs actually need, because "they're not AGI-pilled." The information asymmetry flows one direction: the labs see the revenue and capability curves; the supply chain sees last year's orders.
 
-Nearly $1T in CapEx is being invested in US data centers this year. The ROIC looks extremely high given [[Anthropic]]'s revenue trajectory ($4-6B/month adds). The question is no longer whether AI scaling happens — it's who captures the margin as each link in the chain becomes the binding constraint.
+Nearly $1T in CapEx is being invested in US data centers this year. The ROIC looks extremely high given [[Anthropic]]'s revenue trajectory ($4-6B/month adds). The question is no longer whether AI scaling happens — it's who captures the margin as each link in the chain becomes the binding constraint. The monetization side of the same curve — revenue and operating profit per GW by stack layer — is tracked in [[Revenue per GW]].
 
 ---
 
@@ -142,6 +142,7 @@ Currently: [[Opus 4.6]] and [[GPT-5.4]] have "really pulled away" from Chinese m
 - [[Lithography as binding constraint]] — the ultimate ceiling on compute scaling
 - [[GPU depreciation cycle]] — why GPU value increases as models improve
 - [[Hyperscaler capex]] — the spending driving demand
+- [[Revenue per GW]] — monetization per GW across the stack ([[Clark Tang]] framework)
 - [[Power constraints]] — prior bottleneck (now solvable)
 - [[Memory shortage 2025-2026]] — memory as co-constraint
 - [[ASML]] — EUV tool production ceiling

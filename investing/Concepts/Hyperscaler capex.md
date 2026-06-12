@@ -284,6 +284,12 @@ The timing is brutal — this skepticism is arriving alongside an oil shock ([[W
 
 ---
 
+## Monetization per GW (Mar 2026)
+
+The revenue-side pressure test of the $700B+ guide: [[Clark Tang]] ([[Altimeter Capital]], Mar 1 2026) built a cross-stack revenue-and-operating-profit-per-GW framework — infrastructure at $8-12B/GW (10-20% core rental operating margins), model providers at $22-31B/GW (50-70% estimated gross margins, inference-allocated), [[Google]]/[[Meta]] at $41-57B/GW (32-41% operating margins). Against a ~$8.5B/yr annualized cost per GW ([[Epoch AI]]), the stack clears its hurdle only through the monetization layers above raw rental — the same reason [[AWS]] had to climb from 17% operating margin (first segment disclosure, Q1 2015) to ~40% via software attach. Full numbers, methodology, and falsifiers: [[Revenue per GW]].
+
+---
+
 ## Financing the buildout
 
 Hyperscalers are using multiple structures:
@@ -333,6 +339,7 @@ For credit markets:
 ## Related
 
 - [[AI hyperscalers]] — the players
+- [[Revenue per GW]] — the monetization-side answer to "how is this paid for" ([[Clark Tang]], Mar 2026)
 - [[Amazon]], [[Google]], [[Meta]], [[Microsoft]], [[Oracle]] — Big 5 notes
 - [[CoreWeave]] — largest neocloud
 - [[AI infrastructure financing]] — how it's funded

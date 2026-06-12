@@ -58,6 +58,12 @@ The 1,000x figure is clearly aspirational and telescopic — it's not a 2027 for
 
 ---
 
+## Q4 FY26: the profitable-tokens claim (Feb 25, 2026)
+
+Asked on the Q4 FY26 call how the hyperscalers will pay for their investments, Jensen gave the thesis its most quotable form: "I am confident in their cash flow growing... in this new world of AI, compute is revenues... I am certain at this point that we are at the inflection point, we've reached the inflection point and we're generating profitable tokens that are productive for customers and profitable for the cloud service providers." (Quoted by [[Clark Tang]], Mar 1 2026.) The same call carried the "agentic AI inflection point has arrived" framing and the Grace [[Blackwell]] order-of-magnitude cost-per-token claim. Tang's [[Revenue per GW]] framework is the buy-side formalization of the same argument: monetization per GW by stack layer, with model providers' 50-70% estimated gross margins doing the load-bearing work.
+
+---
+
 ## May 2026 profitability reframing
 
 NVIDIA's Q1 FY2027 call sharpened the thesis from "AI needs more compute" to "compute capacity is operating leverage." In Jensen's closing remarks, he tied the parabolic demand claim directly to [[Agentic AI]] and token profitability: once tokens are profitable, model makers race to produce more of them, and the AI factory becomes a revenue engine rather than only a capex sink.
@@ -114,4 +120,5 @@ The thesis is most useful as a directional signal: Jensen believes AI infrastruc
 - [[Jevons Paradox]] — efficiency gains → more demand (supporting argument)
 - [[CUDA moat]] — durability determines NVIDIA's share of the 1,000x
 - [[Inference economics]] — cost structure of real-time AI compute
+- [[Revenue per GW]] — buy-side formalization of the profitable-tokens claim ([[Clark Tang]], Mar 2026)
 - [[Power constraints]] — physical limit on infrastructure deployment speed

@@ -49,7 +49,7 @@ Private company, no public cap table. [[RedBird Capital]]'s $100M+ was the initi
 |-------|------|-------------|-------|
 | Air | 2023 | [[Amazon]] | First film. $90M worldwide gross. SXSW premiere. |
 | The Instigators | 2024 | [[Apple]] TV+ | Heist comedy. Damon + Casey Affleck. |
-| Small Things Like These | 2024 | Lionsgate | Cillian Murphy. Berlinale Golden Bear winner. |
+| Small Things Like These | 2024 | [[Lionsgate]] | Cillian Murphy. Berlinale Golden Bear winner. |
 | Unstoppable | 2025 | [[Amazon]] MGM | Jharrel Jerome, Jennifer Lopez, Don Cheadle. |
 | The Accountant 2 | 2025 | [[Amazon]] MGM | Affleck sequel. |
 | Kiss of the Spider Woman | 2025 | [[Sony|Sony Pictures]] | Jennifer Lopez, Diego Luna. Broadway adaptation. |

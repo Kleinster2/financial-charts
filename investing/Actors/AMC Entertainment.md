@@ -35,7 +35,14 @@ AMC trades between Consumer and Software without a tight sector fit.
 
 ---
 
+## Apr 2, 2026 — tape note (reattributed)
+
+AMC closed $1.03 → $1.12 on April 2, 2026 (+8.7%), continuing to $1.28 by April 7 — verified against canonical DB closes. This move was previously mis-filed under [[AMC Networks]] (whose debt-exchange news broke the same week; ticker-collision via the former "AMC" alias on that note). The driver of AMC Entertainment's own move is not established here — recorded as tape only.
+
+---
+
 ## Related
 
 - [[Regal Cinemas]] — competitor
 - [[Fathom Events]] — event cinema partner
+- [[AMC Networks]] — unrelated cable/streaming company (name-collision risk; misattribution corrected 2026-06-12)

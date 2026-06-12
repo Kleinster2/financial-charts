@@ -1,0 +1,29 @@
+# Premium subscription content — does Starz (Nasdaq: STRZ), the premium
+# network/streamer separated from Lionsgate in May 2025, trade with the
+# premium-subscription cohort (AMCX is the closest business comp: small-cap
+# premium network mid-digital-transition; WBD carries HBO/Max; PSKY carries
+# Paramount+/Showtime; NFLX the scale pure-play)? Or does it trade
+# idiosyncratically on the Byron Allen takeover campaign and deleveraging
+# story? Window constrained (and analytically anchored) by the May 7, 2025
+# separation. LION rides as the former-sibling control — the LION-primary
+# run (lion.yaml) found STRZ's nearest tree neighbor was LION, not any
+# sector peer; this run tests the mirror question with the right cohort.
+name: Premium subscription content
+primary: STRZ
+prefix: strz-cluster
+threshold: 0.5
+window_end: 2026-06-10
+
+groups:
+  cluster:
+    color: "#2962FF"
+    tickers: [STRZ, AMCX, WBD, PSKY, NFLX]
+  former_sibling:
+    color: "#F44336"
+    tickers: [LION]
+  diversified_media:
+    color: "#7E57C2"
+    tickers: [DIS, CMCSA, FUBO]
+  etf:
+    color: "#9E9E9E"
+    tickers: [SPY, XLC]

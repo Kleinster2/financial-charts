@@ -10,7 +10,7 @@ tags:
   - private-equity
 ---
 
-Steven Mnuchin is the founder and managing partner of [[Liberty Strategic Capital]], a private equity firm he launched in 2021 after serving as US Treasury Secretary (2017-2021) under [[Donald Trump]]. Before government, Mnuchin spent 17 years at [[Goldman Sachs]] (reaching partner and CIO), then founded Dune Capital Management, and led the investor group (including [[George Soros]], [[John Paulson]], and Michael Dell) that acquired failed IndyMac Bank from the FDIC in 2009 for ~$1.6B, renamed it OneWest Bank, and sold it to CIT Group in 2015 for ~$3.4B. Liberty Strategic Capital raised $2.5B for its inaugural fund, investing in tech, telecom, and financial services — sectors where Mnuchin's Treasury contacts and regulatory knowledge provide deal-sourcing advantages. Key investments include Satellogic (satellite imagery) and a reported $2B+ investment in [[TikTok]]'s US operations.
+Steven Mnuchin is the founder and managing partner of [[Liberty Strategic Capital]], a private equity firm he launched in 2021 after serving as US Treasury Secretary (2017-2021) under [[Donald Trump]]. Before government, Mnuchin spent 17 years at [[Goldman Sachs]] (reaching partner and CIO), then founded Dune Capital Management, and led the investor group (including [[George Soros]], [[John Paulson]], and Michael Dell) that acquired failed IndyMac Bank from the FDIC in 2009 for ~$1.6B, renamed it OneWest Bank, and sold it to CIT Group in 2015 for ~$3.4B. Liberty Strategic Capital raised $2.5B for its inaugural fund, investing in tech, telecom, and financial services — sectors where Mnuchin's Treasury contacts and regulatory knowledge provide deal-sourcing advantages. Key investments include Satellogic (satellite imagery) and a reported $2B+ investment in [[TikTok]]'s US operations. In March 2026, Mnuchin's firm sold its 10.7% stake in [[Starz]] — originating from an earlier [[Lionsgate]] investment that converted in the May 2025 separation — to [[Byron Allen]] for ~$25M ($13.86/share).
 
 ## Quick stats
 
@@ -31,3 +31,4 @@ Steven Mnuchin is the founder and managing partner of [[Liberty Strategic Capita
 - [[TikTok]] — reported investment target for US operations
 - [[Qatar Economic Forum 2026]] — confirmed plenary speaker
 - [[George Soros]] — co-investor in IndyMac deal
+- [[Starz]] — sold 10.7% stake to [[Byron Allen]] (Mar 2026)

@@ -1,0 +1,27 @@
+# Studios & premium content — does Lionsgate (NYSE: LION), the pure-play
+# studio separated from Starz in May 2025, trade with the content/studio
+# complex (WBD, PSKY, NFLX, DIS), or idiosyncratically on slate/M&A
+# catalysts? Window is constrained (and analytically anchored) by the
+# May 7, 2025 separation — the date LION's current structure exists.
+# STRZ rides as the former-sibling control: did the split sever the link?
+# Note: pre-May-2024 "LION" rows are Screaming Eagle SPAC-shell trading
+# near trust value — irrelevant here given the 2025+ common window.
+name: Studios & premium content
+primary: LION
+prefix: lion-cluster
+threshold: 0.5
+window_end: 2026-06-10
+
+groups:
+  cluster:
+    color: "#2962FF"
+    tickers: [LION, WBD, PSKY, NFLX, DIS]
+  former_sibling:
+    color: "#F44336"
+    tickers: [STRZ]
+  diversified_media:
+    color: "#7E57C2"
+    tickers: [CMCSA, SONY, FOX, LYV]
+  etf:
+    color: "#9E9E9E"
+    tickers: [SPY, XLC]

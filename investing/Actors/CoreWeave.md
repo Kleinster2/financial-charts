@@ -77,6 +77,10 @@ Intrator's three pillars (Davos, Jan 2026):
 
 Key quote: "Planetary scale computing buildout" — infrastructure at a scale "that defied the imagination."
 
+### Revenue per GW and the margin debate (Mar 2026)
+
+[[Clark Tang]] ([[Altimeter Capital]], Mar 1 2026) pegs new accelerated-compute infrastructure at roughly $10B ARR per GW — consistent across [[Oracle]] OCI, CoreWeave, and [[NVIDIA]] figures — against core cloud's ~$12B/GW (derivable from [[AWS]] power disclosures). His framework plots CoreWeave at a 15% operating margin: a deliberate discount to the 20-30% long-term margins publicly discussed for the neocloud model and Oracle's GPU-cloud targets, assuming a shorter depreciation cycle and zero software attach. The bull case he leaves open is the [[AWS]] arc — 17% operating margin at first segment disclosure (Q1 2015), ~40% a decade later, built by attaching software to rented hardware at higher blended gross margins. Hardware rental alone starts at 10-20% operating margin; software attach is the whole margin story. See [[Revenue per GW]].
+
 ---
 
 ## Google-Blackstone TPU cloud peer (May 18, 2026)

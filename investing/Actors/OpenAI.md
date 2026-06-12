@@ -135,6 +135,12 @@ The bet is that scale — user scale, compute scale, capital scale — creates a
 | 2026 proj. | $20B+ entering year | |
 | 2030 proj. | $85B-280B (varies by source) | OpenAI internal projections |
 
+### Revenue per GW (disclosed, end-2025)
+
+OpenAI's own disclosure pairs the revenue line with its power footprint: compute grew 0.2 GW (2023) → 0.6 GW (2024) → ~1.9 GW (2025), so the $20B exit ARR works out to ~$10.5B ARR per GW, with CFO [[Sarah Friar]] calling the growth "on a scale never seen before." [[Clark Tang]] ([[Altimeter Capital]], Mar 1 2026) allocates that footprint ~60/40 inference/training, putting inference-allocated monetization at ~$22B revenue per GW at an estimated ~55% gross margin — deliberately an upper-bound basis. The training share is the swing variable: non-revenue-generating capacity is a feature or a bug depending on the slope of inference growth. Cross-stack comparison in [[Revenue per GW]].
+
+*Source: [OpenAI, "A business that scales with the value of intelligence"](https://openai.com/index/a-business-that-scales-with-the-value-of-intelligence/); [[Clark Tang]] X post, Mar 1 2026.*
+
 ### ChatGPT revenue (2024)
 
 [[ChatGPT]] generated $2.7B in 2024, ~75% of OpenAI's total revenue. ChatGPT H1 2025 downloads: 350M.
@@ -165,7 +171,7 @@ Profitability timeline: massive losses projected through 2028, cash-flow positiv
 | Jan 2023 | Strategic | ~$10B | ~$29B | [[Microsoft]] (cumulative ~$13B) |
 | Late 2023 | Secondary | — | ~$80B | Employee stock |
 | Oct 2024 | Series | $6.6B | $157B | [[Microsoft]], [[NVIDIA]], [[Thrive Capital]] |
-| Mar 2025 | SoftBank-led | $40B | $300B post | [[SoftBank]] ($30B), Microsoft, [[Coatue]], [[Altimeter]], Thrive, [[Founders Fund]], Magnetar |
+| Mar 2025 | SoftBank-led | $40B | $300B post | [[SoftBank]] ($30B), Microsoft, [[Coatue]], [[Altimeter Capital]], Thrive, [[Founders Fund]], Magnetar |
 | Oct 2025 | Employee secondary | ~$6.6B | $500B | SoftBank, Thrive, [[Dragoneer]], [[MGX]], [[T. Rowe Price]] |
 | Feb 27, 2026 | Mega-round | $122B | ~$852B post | [[Amazon]] ($50B), [[SoftBank]] ($30B), [[NVIDIA]] ($30B), plus tech giants, VCs, retail |
 

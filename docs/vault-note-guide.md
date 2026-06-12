@@ -246,6 +246,8 @@ Boundary: "Is this about the entity or about the market's pricing of the entity?
 
 Naming: `[Actor name] securities note` (lowercase, with " note" suffix to disambiguate from broker/dealer firms named "X Securities" like [[Citadel Securities]] or [[CITIC Securities]]). Examples: `Micron securities note`, `Brazil securities note`. Legacy notes named `[Actor name] securities` were renamed in May 2026 — the old name is preserved as a frontmatter alias for backwards-compat.
 
+Alias hygiene: never give an actor note an alias that is another listed company's ticker or common short name. Canonical incident (2026-06-12): `AMC Networks.md` carried the alias "AMC" — which is AMC Entertainment's ticker — and an AMC Entertainment tape move (+8.7% to $1.12) got mis-filed into AMC Networks' note grafted onto AMC Networks' debt-exchange news. Mover entries resolved through an ambiguous alias land on the wrong actor and survive until someone re-verifies the price against canonical closes. When two vault entities share a name fragment (AMC/AMCX, Apollo/Apollo Research), keep aliases strictly disjoint and add a "not to be confused with" line to both definition paragraphs.
+
 Folder: Securities notes live in `investing/Assets/`.
 
 Linking: Actor links to securities note in Related under `### Securities`. Securities note links back to actor as first Related entry. Same event can appear in both.

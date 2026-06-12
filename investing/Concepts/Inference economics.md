@@ -535,7 +535,7 @@ Patel calculated [[Anthropic]] gross margins at "a floor of 72%" by assuming all
 - Patel's calculation models per-token margin (high) and treats prior period's R&D compute as sunk; his 72% is closer to a unit-margin floor than to GAAP gross margin
 - The Information's figure is the GAAP-gross-margin reality including amortized training compute, third-party cloud markup, idle capacity, and consumer-subscription subsidies — all of which the per-token analysis in the Anthropic-margins section above already explains
 
-Either interpretation can be true simultaneously. The vault carries both attributions until further disclosure.
+Either interpretation can be true simultaneously. The vault carries both attributions until further disclosure. A third reference point: [[Clark Tang]] ([[Altimeter Capital]], Mar 1 2026) used an estimated 65% gross margin for [[Anthropic]] (and 55% for [[OpenAI]]) in his [[Revenue per GW]] framework — deliberately a gross-margin upper bound rather than a company disclosure, sitting between The Information's ~40% and Patel's 72% floor.
 
 *Source: [[Dylan Patel]] on [[Invest Like the Best]] (Apr 23, 2026)*
 
@@ -595,6 +595,7 @@ The [[Blackwell]] power-smoothing factor compounds the training-side problem on 
 - [[Separately Managed Accounts]] - parallel unit economics (fee structure vs true cost-to-serve)
 - [[Sovereign AI race]] - context (national strategies, GPU stockpiling)
 - [[Hyperscaler capex]] - supply side ($600B+ in 2026)
+- [[Revenue per GW]] - cross-stack monetization-per-GW comparator ([[Clark Tang]], Mar 2026)
 - [[AI infrastructure financing risk]] - bear case (circular capital flows)
 - [[DeepSeek]] - disruptor (14.37T tokens on OpenRouter, 10-30× cheaper than OpenAI)
 - [[Qwen]] - disruptor (700M+ downloads, Alibaba-backed)

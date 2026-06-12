@@ -1,5 +1,5 @@
 ---
-aliases: [AUR]
+aliases: [AUR, Aurora Innovation]
 ---
 #actor #ai #autonomous #usa #public
 

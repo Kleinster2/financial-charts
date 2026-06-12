@@ -457,6 +457,8 @@ $29B in new contracts signed this quarter under alternative funding/delivery mod
 
 AI infrastructure gross margin: 32% (above 30% guidance). Database services in OCI significantly higher.
 
+Per-GW context: [[Clark Tang]]'s cross-stack framework ([[Revenue per GW]], Mar 1 2026) pegs new accelerated-compute infrastructure at ~$10B ARR per GW consistently across OCI, [[CoreWeave]], and [[NVIDIA]] figures, and plotted the GPU-cloud rental layer using a 20% long-term Oracle margin characterization — below the 32% AI-infrastructure gross margin reported here. The bases differ (his is an operating-margin-style assumption for raw rental before software attach); the spread between the two numbers is effectively the software-attach and depreciation debate.
+
 AI agents: 1,000+ embedded AI agents live within Fusion applications. Launched AI Agent Studio for custom agent development.
 
 TikTok equity: 15% stake + board seat now closed. Financial impact starts Q4 FY2026 (equity method, nonoperating income/loss).

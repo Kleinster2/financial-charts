@@ -122,7 +122,7 @@ If the pricing holds, Ridges is a direct cost-disruption threat to [[Cursor]]'s 
 | Oct 6, 2025 | Mixed-set score rebounds to ~41% |
 | Oct 30, 2025 | V1 consumer product ships as IDE extension, ~$12/mo |
 | April 2026 | SN62 alpha token ~$45M market cap, top 15 Bittensor subnet |
-| Apr 10 2026 | [[Brad Gerstner]] ([[Altimeter]]) highlighted Ridges publicly on [[All-In Podcast]] |
+| Apr 10 2026 | [[Brad Gerstner]] ([[Altimeter Capital]]) highlighted Ridges publicly on [[All-In Podcast]] |
 
 ---
 

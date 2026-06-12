@@ -80,7 +80,7 @@ That validates the usage side of [[Enterprise AI adoption]], not the whole ROI c
 
 *Sources: [Exponential View, May 27 2026](https://www.exponentialview.co/p/why-ai-isnt-showing-up-on-your-bottom-line); [Anthropic Series G release, Feb 12 2026](https://www.anthropic.com/news/anthropic-raises-30-billion-series-g-funding-380-billion-post-money-valuation); [Anthropic Google/Broadcom partnership release, Apr 6 2026](https://www.anthropic.com/news/google-broadcom-partnership-compute); [Dealroom.co, May 2026](https://app.dealroom.co/news/note/the-250m-to--30b-rocket-ship-anthropic-s-cfo-pulls-back-the-curtain).*
 
-[[NVIDIA]] CEO [[Jensen Huang]] (Mar 2026): expects his recent $40B investment across Anthropic and [[OpenAI]] to be his "last money in" — both companies will go public this year. [[Brad Gerstner]] ([[Altimeter]]): Opus 4.6 crossed a threshold where models compete with labor budgets, not IT budgets — "you could not possibly have a $6B month by displacing IT budgets."
+[[NVIDIA]] CEO [[Jensen Huang]] (Mar 2026): expects his recent $40B investment across Anthropic and [[OpenAI]] to be his "last money in" — both companies will go public this year. [[Brad Gerstner]] ([[Altimeter Capital]]): Opus 4.6 crossed a threshold where models compete with labor budgets, not IT budgets — "you could not possibly have a $6B month by displacing IT budgets."
 
 Jensen on Anthropic's [[TPU]] usage (Dwarkesh, Apr 15, 2026): "[[Anthropic]] is a unique instance, not a trend." Characterizes Anthropic running part of its workload on [[Google]] [[TPU]] as bespoke rather than structural — Anthropic trains and serves simultaneously on [[NVIDIA]] GPUs, Google TPUs, and [[Trainium]] ([[AWS]]). "They run everywhere." The framing pushes back on the read that custom silicon is displacing NVIDIA at the frontier. For NVIDIA it matters: the TPU deal is frequently cited as evidence that frontier labs are migrating off GPUs. Jensen's rebuttal is that Anthropic is multihomed by design, not defecting.
 
@@ -139,7 +139,7 @@ The filing rides the run-rate arc: annualized revenue rose fivefold since the st
 | Mar 2025 | Strategic | $1B | - | Google (now $3B total) |
 | Sep 2025 | Series F | $13B | $183B | Iconiq, [[Fidelity]], Lightspeed, QIA |
 | Nov 2025 | Strategic | ~$15B | - | NVIDIA ($10B) + Microsoft ($5B) |
-| Feb 2026 | Series G | $30B | $380B | [[GIC]], [[Coatue]], [[D.E. Shaw]], [[Dragoneer]], [[Founders Fund]], [[Iconiq]], [[MGX]], [[Accel]], [[General Catalyst]], [[Jane Street]], [[QIA]], [[Altimeter]], [[Sequoia]] (36+ total) |
+| Feb 2026 | Series G | $30B | $380B | [[GIC]], [[Coatue]], [[D.E. Shaw]], [[Dragoneer]], [[Founders Fund]], [[Iconiq]], [[MGX]], [[Accel]], [[General Catalyst]], [[Jane Street]], [[QIA]], [[Altimeter Capital]], [[Sequoia]] (36+ total) |
 | Apr 2026 | Strategic | $5B upfront + up to $20B future | Not disclosed | [[Amazon]]; paired with $100B+ AWS/Trainium commitment |
 | Apr 2026 | Strategic | $10B upfront + up to $30B future | $350B pre-money (reported) | [[Google]]; paired with 5 GW Google Cloud capacity over five years |
 | May 2026 | Series H | $65B | $965B post-money | Led by [[Altimeter Capital]], [[Dragoneer]], [[Greenoaks]], and [[Sequoia Capital]]; co-led by Capital Group, Coatue, D1 Capital Partners, GIC, ICONIQ, and XN; includes $15B of previously committed hyperscaler investments |
@@ -223,7 +223,7 @@ The 20x climb (Jan 2024 $18.4B → Mar 2026 $380B) tracks Claude 3 → Claude 4 
 | [[Menlo Ventures]]                                                                | -        | ~2-4%          | $7.6-15.2B    | Early investor                      |
 | [[GIC]] / [[Coatue]]                                                              |          | ~2-3%          | $7.6-11.4B    | Series G co-leads                   |
 | [[Iconiq]]                                                                        | -        | ~1-2%          | $3.8-7.6B     | Series F + G                        |
-| [[Altimeter]] / [[Sequoia]]                                                       | TBD      | <1%            | TBD           | Series G (both also OpenAI backers) |
+| [[Altimeter Capital]] / [[Sequoia]]                                                       | TBD      | <1%            | TBD           | Series G (both also OpenAI backers) |
 | Other ([[QIA]], [[Jane Street]], [[Accel]], [[General Catalyst]], [[Fidelity]], etc.) | -        | ~10-15%        | $38-57B       | Series E/F/G participants           |
 
 *Estimates based on investment size vs. round valuation. Actual ownership undisclosed.*
@@ -250,7 +250,7 @@ The 20x climb (Jan 2024 $18.4B → Mar 2026 $380B) tracks Claude 3 → Claude 4 
 
 Capital raised/committed: ~$72B+ raised including Apr 2026 upfront Google/Amazon tranches; up to ~$122B+ including future Google/Amazon milestone commitments.
 
-Notable: Both Google AND Amazon invested (rare). Microsoft invested despite OpenAI partnership (hedging). [[Altimeter]] and [[Sequoia]] - both OpenAI backers - also investing in Anthropic's Series G. [[Demis Hassabis]] held an early angel position that was undisclosed until May 2026 — meaning Google's CEO of frontier AI was personally exposed to its largest competitor at both individual and corporate level.
+Notable: Both Google AND Amazon invested (rare). Microsoft invested despite OpenAI partnership (hedging). [[Altimeter Capital]] and [[Sequoia]] - both OpenAI backers - also investing in Anthropic's Series G. [[Demis Hassabis]] held an early angel position that was undisclosed until May 2026 — meaning Google's CEO of frontier AI was personally exposed to its largest competitor at both individual and corporate level.
 
 ---
 
@@ -348,7 +348,7 @@ See [[Anthropic hyperscaler financing surge April 2026]] for the event-level bre
 
 ### Q1 2026 operating profile
 
-Q1 2026 monthly revenue adds (disclosed on [[All-In Podcast]] Apr 10 2026 by [[Brad Gerstner]], [[Altimeter]]):
+Q1 2026 monthly revenue adds (disclosed on [[All-In Podcast]] Apr 10 2026 by [[Brad Gerstner]], [[Altimeter Capital]]):
 
 | Month | Revenue added |
 |-------|---------------|
@@ -554,7 +554,7 @@ Significance: First time a sitting White House official has publicly endorsed a 
 
 Originally sought $10B, closed at $30B due to excess investor demand - second-largest private tech financing on record (behind [[OpenAI]]'s $40B+). Nearly doubles prior $183B valuation to $380B. Comes just 5 months after $13B Series F. Employee tender offer also planned at $380B valuation.
 
-Co-leads: [[GIC]], [[Coatue]] ([[Philippe Laffont|Laffont]]: Anthropic has "ability to rapidly scale its offerings"). Co-investors: [[D.E. Shaw]], [[Dragoneer]], [[Founders Fund]], [[Iconiq]], [[MGX]], [[Accel]], [[General Catalyst]], [[Jane Street]], [[QIA]], [[Altimeter]], [[Sequoia]], 36+ investors total. Partial deployment of Nov 2025 [[NVIDIA]]/[[Microsoft]] commitments.
+Co-leads: [[GIC]], [[Coatue]] ([[Philippe Laffont|Laffont]]: Anthropic has "ability to rapidly scale its offerings"). Co-investors: [[D.E. Shaw]], [[Dragoneer]], [[Founders Fund]], [[Iconiq]], [[MGX]], [[Accel]], [[General Catalyst]], [[Jane Street]], [[QIA]], [[Altimeter Capital]], [[Sequoia]], 36+ investors total. Partial deployment of Nov 2025 [[NVIDIA]]/[[Microsoft]] commitments.
 
 Revenue run rate disclosed at $14B (from $9B weeks earlier). $1M+ ARR customers: 500 (from 12 two years ago). 8 of Fortune 10 are clients.
 
@@ -972,6 +972,12 @@ The revenue math is brutal: at current trajectory ($4B Jan, $6B Feb in revenue a
 Both targeting ~10 GW by end of 2027.
 
 See [[Anthropic vs OpenAI compute race]] for the full strategic comparison.
+
+---
+
+### Revenue per GW read (Tang, Mar 2026)
+
+[[Clark Tang]] ([[Altimeter Capital]], Mar 1 2026) puts Anthropic at ~$31B revenue per GW of inference-allocated capacity at an estimated 65% gross margin — the highest monetization-per-GW of any model provider in his cross-stack framework (vs [[OpenAI]] at ~$22B/GW and ~55% est. GM), reflecting what he calls "remarkably amazing utilization of their limited resources" and strong outside-in contribution margins. Both figures are deliberately gross-margin (not operating-margin) upper bounds, and assume Anthropic's footprint is more training-weighted than OpenAI's 60/40 inference/training split. The estimate slots between The Information's reported ~40% 2025 gross margin and [[Dylan Patel]]'s 72% floor calculation in the unresolved margin debate above. Full framework: [[Revenue per GW]].
 
 ---
 

@@ -417,6 +417,7 @@ The risk is concentrated in second-tier players (Oracle, CoreWeave, [[SoftBank]]
 ## Related
 
 - [[AI infrastructure financing]] — mechanism (how the capital flows)
+- [[Revenue per GW]] — the monetization math the bear case has to beat
 - [[CoreWeave]] — fragile (CDS 773 bps, 42% default probability)
 - [[Oracle]] — fragile (CDS 124-139 bps, CEO selling)
 - [[Masayoshi Son]] — exposed (54.6% Arm concentration)
