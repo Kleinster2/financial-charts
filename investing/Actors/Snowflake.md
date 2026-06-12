@@ -58,7 +58,22 @@ Margin inflection — the story has changed:
 | RPO (backlog) | $9.77B (+42% Y/Y) | Accelerating |
 | Net revenue retention | 125% | Stable |
 
-No longer burning cash. FY27 guide: 12.5% non-GAAP operating margin (up from ~9% FY26). Profitability gap with [[Palantir]] still wide, but trajectory reversed.
+No longer burning cash. FY27 guide: 12.5% non-GAAP operating margin (up from ~9% FY26; raised to 13.5% at the Q1 FY27 print below). Profitability gap with [[Palantir]] still wide, but trajectory reversed.
+
+### The GAAP/SBC wedge
+
+Everything in the margin-inflection story above is non-GAAP. On [[GAAP]], Snowflake still loses over $1B a year at the operating line:
+
+| Measure | Value | Source |
+|---|---|---|
+| GAAP operating margin, FY2023 / FY2024 / FY2025 | −40.8% / −39.0% / −40.2% | local `income_statement_annual` |
+| GAAP, TTM through Oct 2025 | −34.3% (op loss −$1.503B on $4.387B revenue) | local `income_statement_quarterly` |
+| GAAP, FY2026 quarterly path | −42.9% (Apr) → −29.7% (Jul) → −27.2% (Oct) | same |
+| Non-GAAP operating margin | ~9% FY26 (Q3 printed 11%, +450bp YoY); FY27 guided 13.5% | company prints/guidance |
+
+The ~43-point gap between the two bases is almost entirely stock-based compensation — roughly $1.5B/yr, mid-30s percent of revenue — plus employer payroll tax on equity and intangible amortization. SBC is non-cash, which is how "no longer burning cash" (FCF positive) coexists with a >$1B GAAP operating loss: the cost exits through the share count, not the cash-flow statement. The wedge narrows only if SBC grows slower than revenue, which the FY26 quarterly GAAP path suggests has started.
+
+Basis discipline matters whenever this name shows up in cross-stack comparisons: [[Clark Tang]]'s [[Revenue per GW]] chart plots Snowflake at +$3B operating income per GW (non-GAAP) beside a (35%) margin cell (GAAP) — the GAAP-consistent dot would be ≈ −$11.7B/GW. The full reconciliation lives in the [[Revenue per GW]] arithmetic audit.
 
 ---
 
@@ -231,6 +246,7 @@ Market read: SNOW closed +36.5% on May 28, which the stale local quick-mover dat
 
 ## Related
 
+- [[Revenue per GW]] — cross-stack per-GW comparison; its audit surfaced the GAAP/SBC wedge framing recorded above
 - [[Databricks]] — competitor (lakehouse vs warehouse, 14x AI revenue gap)
 - [[Palantir]] — partner (data + AI integration)
 - [[Observe]] — acquired for $1B (Feb 2026, AI observability)
