@@ -1,0 +1,30 @@
+# Seat-based horizontal SaaS — the cohort [[AI SaaS Disruption]] treats as one
+# trade (per-seat pricing breaking against AI-agent traffic; Aurelion "Trapped
+# Incumbents"). Does the market actually price these names as a single
+# disruption factor, or do they trade as idiosyncratic software names?
+# ADBE deliberately left OUT of the cluster (creative seat-software boundary
+# candidate — let the dendrogram say whether it belongs). Infra SaaS
+# (SNOW/DDOG/MDB) is the note's "Beneficiary" segment — the key distinctness
+# control: if the cohort fuses with infra, the market prices software beta,
+# not a disruption factor. DB note: CRM/NOW/ADBE/MSFT/ORCL series start
+# ~Feb 2025, so rolling-history diagnostics are short; the 1Y window is fully
+# covered.
+name: AI SaaS disruption basket
+primary: CRM
+prefix: ai-saas-cluster
+threshold: 0.5
+window_end: 2026-06-10
+
+groups:
+  cluster:
+    color: "#2962FF"
+    tickers: [CRM, WDAY, NOW, HUBS, MNDY, TEAM]
+  megacap_enterprise:
+    color: "#7E57C2"
+    tickers: [MSFT, ORCL, SAP, ADBE]
+  infra_saas:
+    color: "#00897B"
+    tickers: [SNOW, DDOG, MDB]
+  etf:
+    color: "#9E9E9E"
+    tickers: [IGV, QQQ, SPY]

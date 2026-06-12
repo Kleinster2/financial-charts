@@ -242,6 +242,8 @@ Full diagnostics: `scripts/cluster_configs/lion.yaml`, artifacts `lion-cluster-*
 | PC1 explained variance | 35.2% (weekly 40.6%) | PC2 (23.1%) and PC3 (16.7%) nearly as large — diffuse structure |
 | PC1 weights (raw mimic) | DIS 30.6%, WBD 19.4%, LION 19.3%, PSKY 18.8%, NFLX 11.9% | What little common factor exists is spread evenly |
 | 90D rolling avg corr | 0.168 (down from 0.337 in 2025) | Tightness is decaying, not building |
+| Random-basket p, 10k draws (intra / PC1) | 0.274 / 0.352 | Formal falsification — cohesion indistinguishable from a random 5-pick of US names |
+| Threshold-stable width | 0.00 (none) | Singletons at every cut through 0.55; the only name to join LION's branch below 0.70 is former sibling STRZ (at 0.60) |
 
 The verdict: there is no tradeable studio cluster. Each name trades its own restructuring story — WBD its breakup, PSKY its merger integration, LION its slate and M&A optionality, NFLX its subscriber economics. The mathematically validated read-through channel for LION is [[Starz]], a sentiment link inherited from the separation, not a sector factor. This confirms the [[Media]] hub's diagnosis (0.16 internal correlation) at the subsector level: peer comparisons for LION are narrative context, not hedging or replication instruments. The mirror STRZ-primary run over the premium-subscription cohort (`strz.yaml`, with AMCX added) reached the same verdict from the other direction — see [[Starz]] → Cluster validation.
 

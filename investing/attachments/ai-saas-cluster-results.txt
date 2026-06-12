@@ -1,0 +1,83 @@
+AI SaaS disruption basket CLUSTER ANALYSIS
+Window 1y: 2025-06-18 -> 2026-06-10 (193 obs)
+Window 2y: 2024-07-15 -> 2026-06-10 (251 obs)
+Universe: 16 tickers across 4 groups
+Dendrogram cut threshold: 0.5
+
+--- 1Y INTRA-CLUSTER PAIRWISE CORRELATIONS ---
+Ticker   CRM  WDAY   NOW  HUBS  MNDY  TEAM
+Ticker                                    
+CRM     1.00  0.76  0.78  0.79  0.59  0.73
+WDAY    0.76  1.00  0.76  0.71  0.64  0.73
+NOW     0.78  0.76  1.00  0.72  0.59  0.71
+HUBS    0.79  0.71  0.72  1.00  0.66  0.72
+MNDY    0.59  0.64  0.59  0.66  1.00  0.65
+TEAM    0.73  0.73  0.71  0.72  0.65  1.00
+Average intra-cluster correlation: 0.703
+Range: [0.585, 0.792]
+
+--- AVG GROUP-PAIR CORRELATIONS (1Y) ---
+             cluster  megacap  infra_s      etf
+    cluster    0.703    0.515    0.437    0.337
+megacap_ent    0.515    0.434    0.390    0.439
+ infra_saas    0.437    0.390    0.552    0.389
+        etf    0.337    0.439    0.389    0.672
+
+Cluster vs others:
+  cluster vs megacap_enterprise: 0.515  (intra advantage: +0.188)
+  cluster vs infra_saas: 0.437  (intra advantage: +0.266)
+  cluster vs etf       : 0.337  (intra advantage: +0.366)
+
+--- HIERARCHICAL CLUSTERS (1Y, distance threshold 0.5) ---
+  Cluster 1: CRM, WDAY, NOW, HUBS, MNDY, TEAM, MSFT, SAP, ADBE, IGV
+  Cluster 2: SNOW, DDOG, MDB
+  Cluster 3: QQQ, SPY
+  Cluster 4: ORCL
+
+--- CANDIDATE JOIN DISTANCES (1Y, average linkage, distance = 1-|corr|) ---
+ Step     Left                  Right Distance                     Members
+    1      CRM                   HUBS    0.208                    CRM+HUBS
+    2     WDAY                    NOW    0.235                    WDAY+NOW
+    3 CRM+HUBS               WDAY+NOW    0.257           CRM+HUBS+WDAY+NOW
+    4     TEAM      CRM+HUBS+WDAY+NOW    0.276      TEAM+CRM+HUBS+WDAY+NOW
+    5     MNDY TEAM+CRM+HUBS+WDAY+NOW    0.375 MNDY+TEAM+CRM+HUBS+WDAY+NOW
+
+--- PCA ON CANDIDATE COHORT (1Y) ---
+Explained variance ratio:
+  PC1: 75.39%
+  PC2: 7.99%
+  PC3: 5.11%
+  PC4: 4.72%
+  PC5: 3.75%
+
+PC1 loadings:
+CRM     0.421
+WDAY    0.417
+NOW     0.413
+HUBS    0.416
+MNDY    0.368
+TEAM    0.411
+
+--- PC1 INDEX WEIGHTS (1Y) ---
+PCA is run on standardized daily log returns. Raw PC1-mimic weights scale PC1 loading by inverse realized volatility.
+     PC1 loading Loading weight Ann vol Raw PC1-mimic weight
+CRM        0.421         17.22%  41.08%               23.02%
+WDAY       0.417         17.04%  46.56%               20.09%
+NOW        0.413         16.87%  55.98%               16.55%
+HUBS       0.416         17.01%  69.65%               13.41%
+MNDY       0.368         15.05%  63.17%               13.08%
+TEAM       0.411         16.80%  66.57%               13.85%
+
+--- WEEKLY-RETURN CROSS-CHECK (1Y, async-close robustness) ---
+Weeks: 39   Weekly intra-corr: 0.724 (daily 0.703)   Weekly PC1: 77.2% (daily 75.4%)
+
+--- HISTORICAL TIGHTNESS EVOLUTION (90D ROLLING) ---
+     Avg corr    PC1 Core corr Satellite corr Final join distance
+Date                                                             
+2022    0.711  76.1%     0.714          0.706               0.372
+2023    0.700  75.1%     0.711          0.686               0.341
+2024    0.470  56.3%     0.465          0.463               0.629
+2025    0.719  76.6%     0.714          0.725               0.317
+2026    0.672  73.1%     0.668          0.693               0.471
+
+Latest 90D: avg corr 0.735, PC1 78.1%, core corr 0.714, satellite corr 0.776, final join distance 0.346

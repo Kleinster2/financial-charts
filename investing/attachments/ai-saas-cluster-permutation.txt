@@ -1,0 +1,37 @@
+AI SaaS disruption basket PERMUTATION TESTS
+Window: 2025-06-18 -> 2026-06-10 (193 obs)
+Candidate cohort: CRM, WDAY, NOW, HUBS, MNDY, TEAM (N=6)
+Observed intra-corr: 0.7031    Observed PC1: 75.39%
+
+--- INDEPENDENCE NULL ---
+Permutations: 10000
+Block size: 1
+Intra-cluster correlation:
+  Null mean:        -0.0005
+  Null 95th pct:    0.0311
+  Null 99th pct:    0.0437
+  p-value (right):  0.000100    -> REJECTS independence null at p < 0.001
+PC1 explained variance:
+  Null mean:        20.71%
+  Null 95th pct:    22.42%
+  Null 99th pct:    23.37%
+  p-value (right):  0.000100    -> REJECTS independence null at p < 0.001
+
+--- RANDOM-BASKET NULL ---
+Permutations: 10000
+Universe source: DB prices_long (933 tickers with >=200 obs in window)
+Pool size: 927
+Intra-cluster correlation:
+  Null mean:        0.1369
+  Null 95th pct:    0.2476
+  Null 99th pct:    0.3007
+  p-value (right):  0.000100    -> REJECTS random-basket null at p < 0.001
+PC1 explained variance:
+  Null mean:        30.96%
+  Null 95th pct:    39.47%
+  Null 99th pct:    43.66%
+  p-value (right):  0.000100    -> REJECTS random-basket null at p < 0.001
+
+--- INTERPRETATION ---
+Independence null rejected: the cohort series co-move (necessary, not sufficient).
+Random-basket null rejected: cohort is more cohesive than a random N-pick from the same universe. This is the meaningful pass.

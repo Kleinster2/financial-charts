@@ -86,6 +86,8 @@ Finding: PAX does not belong to the US alt-manager cluster. The seven US alts fo
 | PAX PC1 loading | 0.262 (lowest; peers 0.35–0.38) | PAX loads weakest on the shared factor |
 | Weekly cross-check | intra 0.658, PC1 70.5% | Robust to async US/Brazil close timing |
 | Rolling tightness (latest 90D) | avg 0.709, PC1 75.1%, satellite 0.526 | PAX sits in the satellite, not the core |
+| Random-basket p, 10k draws (intra / PC1) | 0.0001 / 0.0001 | Cohort cohesion at the Phipson-Smyth floor — but the signal is the US-alt core, not PAX |
+| Threshold-stable width | 0.00 (none) | The PAX-inclusive cohort never assembles cleanly: BAM joins the US-alt cluster from 0.30 and BLK/XLF by 0.40, all before PAX attaches (~0.55) |
 
 ![[pax-cluster-dendrogram-1y.png]]
 *Hierarchical clustering (1Y, distance = 1−|corr|). The US alt managers join tightly; PAX is the last, most-distant join — a statistical singleton rather than a cohort member.*
@@ -96,7 +98,7 @@ Finding: PAX does not belong to the US alt-manager cluster. The seven US alts fo
 ![[pax-cluster-rolling-tightness-90d.png]]
 *90-day rolling cohort tightness. The 2024 loosening and 2025 re-tightening track the global risk cycle; PAX persistently reads as satellite, not core.*
 
-Takeaway: "mini-Blackstone of Latin America" is a business analogy, not a trading relationship. PAX is a low-correlation, idiosyncratic name — it tracks the US alts only marginally more than the broad market (most with [[KKR]] at 0.56, vs [[SPY]] at 0.49) and is not captured by a Brazil factor either ([[EWZ]] at 0.50). It reads as a singleton because its absolute correlations to everything are low — a genuine diversifier rather than a cohort member.
+Takeaway: "mini-Blackstone of Latin America" is a business analogy, not a trading relationship. PAX is a low-correlation, idiosyncratic name — it tracks the US alts only marginally more than the broad market (most with [[KKR]] at 0.56, vs [[SPY]] at 0.49) and is not captured by a Brazil factor either ([[EWZ]] at 0.50). It reads as a singleton because its absolute correlations to everything are low — a genuine diversifier rather than a cohort member. The 2026-06-12 statistical suite sharpens the point: the cohort's cohesion rejects the random-basket null at the floor (that's the US-alt core talking), but the threshold scan shows [[Brookfield Asset Management|BAM]] and [[BlackRock|BLK]] joining the US-alt cluster before PAX does — the "mini-Blackstone" is statistically farther from Blackstone than BlackRock is.
 
 ## Sector correlation
 

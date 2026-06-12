@@ -13,6 +13,9 @@ tags:
 
 # AI SaaS Disruption
 
+> [!warning] Cluster status: validated core, non-separable boundary (Jun 2026)
+> Intra-cluster correlation 0.703, PC1 75.4%, random-basket p = 0.0001 at 10,000 draws (null mean 0.137) — the seat-based horizontal SaaS basket (CRM, WDAY, NOW, HUBS, MNDY, TEAM) is a real, durable single factor (holdout ratio 0.90, STABLE). But it is not separable from the broader application-software complex: [[Adobe|ADBE]] and the IGV software ETF attach to the cohort's branch from distance 0.30, [[Microsoft|MSFT]]/[[SAP]] by 0.45 (threshold-stable width 0.00), while [[Oracle|ORCL]] detaches as a singleton. The basket is the dense core of the seat-software factor, not a standalone cluster. See "Cluster validation" below.
+
 The thesis that AI is commoditizing traditional SaaS by automating the core value proposition of most software products: providing a UI on top of a database. SaaS funding down ~60% from 2021 peak. The survivors are companies that either became AI companies (Notion, Figma, Excel) or sit at the infrastructure layer (foundation models, databases, developer tools).
 
 ## Synthesis
@@ -204,9 +207,89 @@ This does not repeal the disruption thesis. It sharpens the dispersion rule: the
 
 *Sources: [Okta Q1 FY2027 results / Business Wire](https://www.businesswire.com/news/home/20260528809289/en/Okta-Announces-First-Quarter-Fiscal-Year-2027-Financial-Results), May 28 2026; local `quick_movers.py` fallback screen, May 29 2026.*
 
+## Cluster validation
+
+Mathematical test of the cohort this note treats as one trade — the seat-based horizontal SaaS names: [[Salesforce]] (CRM), [[Workday]] (WDAY), [[ServiceNow]] (NOW), [[HubSpot]] (HUBS), [[Monday.com]] (MNDY), [[Atlassian]] (TEAM). Config: `scripts/cluster_configs/ai_saas.yaml`; 1Y window Jun 2025 → Jun 10 2026 (193 shared obs). Controls: megacap enterprise software ([[Microsoft]], [[Oracle]], [[SAP]], [[Adobe]]) — with Adobe deliberately left outside the candidate cohort so the dendrogram could rule on its membership; infrastructure SaaS ([[Snowflake]], [[Datadog]], [[MongoDB]] — the segment table's "Beneficiary" row); ETFs (IGV, QQQ, SPY). Run 2026-06-12; full numerics in `investing/attachments/ai-saas-cluster-results.txt`.
+
+![[ai-saas-cluster-dendrogram-1y.png]]
+
+*Hierarchical clustering (1Y, average linkage, distance = 1−|corr|). The six-name cohort assembles by 0.375 and stays intact at every cut above 0.40 — but never alone: ADBE and IGV attach from 0.30, MSFT and SAP by 0.45. ORCL is the only enterprise-software singleton on the panel. Infra SaaS (SNOW/DDOG/MDB) holds as its own separate cluster until 0.60.*
+
+| Diagnostic | Value | Read |
+|---|---|---|
+| Intra-cohort avg correlation (1Y) | 0.703 | Strong cohesion; pairwise range [0.585, 0.792] |
+| PC1 explained variance | 75.4% (weekly 77.2%) | Single-factor cohort; loadings nearly flat (0.37–0.42) |
+| Intra advantage vs infra SaaS | +0.266 | The "Beneficiary" segment is a genuinely different trade |
+| Intra advantage vs megacap enterprise | +0.188 | A distinct factor on top of shared software beta |
+| Intra advantage vs ETFs | +0.366 | Group average across IGV/QQQ/SPY — IGV alone sits inside the cohort's branch |
+| Random-basket p, 10k draws (intra / PC1) | 0.0001 / 0.0001 | Null mean 0.137, 99th pct 0.301 vs observed 0.703 — beats every draw |
+| Holdout (2y temporal split) | ratio 0.90, STABLE | Train 0.782 / test 0.703 — durable across regimes (train half thin at 58 obs) |
+| Threshold-stable width | 0.00 (none) | The cohort never appears alone: ADBE+IGV from 0.30, MSFT/SAP from 0.45, infra SaaS from 0.60 |
+| Hierarchical boundary (0.5) | Cohort + MSFT, SAP, ADBE, IGV | ORCL the only enterprise-software singleton |
+
+### Candidate join-distance topology
+
+| Step | Left | Right | Distance (1-\|corr\|) | Read |
+|---|---|---|---|---|
+| 1 | CRM | HUBS | 0.208 | Tightest merge — enterprise + SMB CRM |
+| 2 | WDAY | NOW | 0.235 | The HCM/ITSM workflow pair |
+| 3 | CRM+HUBS | WDAY+NOW | 0.257 | Four-name core assembles |
+| 4 | TEAM | core | 0.276 | Five-name tight core complete |
+| 5 | MNDY | core | 0.375 | Satellite joins last |
+
+Tight trading core: CRM, HUBS, WDAY, NOW, TEAM — fully assembled by 0.276. Satellite leg: MNDY, joining at 0.375 with the cohort's lowest PC1 loading (0.368) and lowest pairwise correlations (0.59–0.66 row).
+
+### PC1 index weights
+
+![[ai-saas-cluster-pca-1y.png]]
+
+*PCA on the candidate cohort: PC1 explains 75.4% of variance with near-flat loadings (0.37–0.42) — a single-factor basket with no dominant name.*
+
+| Ticker | PC1 loading | Loading weight | Ann. vol | Raw PC1-mimic weight |
+|---|---|---|---|---|
+| CRM | 0.421 | 17.2% | 41.1% | 23.0% |
+| WDAY | 0.417 | 17.0% | 46.6% | 20.1% |
+| NOW | 0.413 | 16.9% | 56.0% | 16.6% |
+| HUBS | 0.416 | 17.0% | 69.7% | 13.4% |
+| MNDY | 0.368 | 15.1% | 63.2% | 13.1% |
+| TEAM | 0.411 | 16.8% | 66.6% | 13.9% |
+
+PC1 replication disagrees with topology in the usual way: CRM takes the largest raw PC1-mimic weight (23.0%) because its realized vol (41%) is the cohort's lowest, while HUBS/MNDY/TEAM (63–70% vol) carry ~13% each despite near-equal loadings — MNDY is least central to the tree yet a full-weight factor participant once vol-adjusted. Use the join-distance topology for cluster purity and the raw PC1-mimic column only for investable factor-replication sizing.
+
+![[ai-saas-cluster-correlation-1y.png]]
+
+*Pairwise return-correlation heatmap, 1Y window. The cohort block is uniformly warm; the infra-SaaS block is its own island; ORCL's row is cool against everything in the application-software complex.*
+
+The boundary finding is the analytical payoff, in three parts:
+
+- ADBE attaches to the cohort's branch from distance 0.30 — before the candidate cohort itself has fully assembled. [[Aurelion Research]]'s "Trapped Incumbents" list (Salesforce, Workday, Adobe) is confirmed in correlation space: the market already trades [[Adobe]] as seat-software-under-AI-pressure, not as a creative franchise.
+- ORCL never joins — the only enterprise-software singleton at every threshold through 0.55. [[Oracle]] has left the application-software complex; it trades on OCI/AI-infrastructure economics ([[Hyperscaler capex]]). The cleanest single-ticker confirmation of the software bifurcation this note describes.
+- IGV glues to the cohort from 0.30, so the basket is approximately hedgeable via the software ETF: the disruption trade is the dense core of IGV, not a factor orthogonal to it. For position construction, IGV is the natural hedge leg; the +0.366 ETF intra-advantage is the group average and reflects QQQ/SPY distance, not IGV's.
+
+### Historical tightness evolution
+
+![[ai-saas-cluster-rolling-tightness-90d.png]]
+
+*Rolling 90-day tightness over available history. Tight through 2022–23 (~0.70–0.71, the rate-regime growth-software trade), loose through 2024 (0.470), re-tightened from 2025 (0.719) into the latest window (0.735, PC1 78.1%).*
+
+| Window | Avg corr | PC1 | Core corr | Satellite corr | Final join distance |
+|---|---|---|---|---|---|
+| 2022 | 0.711 | 76.1% | 0.714 | 0.706 | 0.372 |
+| 2023 | 0.700 | 75.1% | 0.711 | 0.686 | 0.341 |
+| 2024 | 0.470 | 56.3% | 0.465 | 0.463 | 0.629 |
+| 2025 | 0.719 | 76.6% | 0.714 | 0.725 | 0.317 |
+| 2026 YTD | 0.672 | 73.1% | 0.668 | 0.693 | 0.471 |
+| Latest 90D | 0.735 | 78.1% | 0.714 | 0.776 | 0.346 |
+
+Classification: durable but regime-dependent in level. The factor exists throughout the window — tight in 2022–23, loosened through 2024 (names trading single-name AI narratives), re-consolidated from 2025 as the disruption repricing became a basket trade. The 2024 loosening and 2025–26 re-tightening is the structurally interesting move — the re-bundling coincides with the disruption thesis becoming a single market trade, and the [[#May 7-8 2026 SaaS-trio crash — empirical confirmation|May 7–8 trio crash]] and [[#May 29 2026 software relief rally - adapters bid, thesis not repealed|May 29 relief rally]] both moved the cohort as one. Caveat: the DB's CRM/NOW series carry 2024 gaps (the 1Y window holds 193 shared obs), so the 2024 trough sits on thinner shared history — the direction (loose → re-tight) is robust, the level less so. The holdout loadings-correlation (−0.00) is uninformative for this cohort: with six near-uniform loadings the cross-sectional variance is ~zero and the statistic is noise; the stability ratio (0.90) is the meaningful number.
+
+Verdict: a real, durable, single-factor basket — but not a standalone cluster. The tradable expression of this note's thesis is the six names as the dense core of the seat-software complex, with [[Adobe]] inside the factor and [[Oracle]] outside it, benchmarked and hedged against IGV. Registry rows: `scripts/cluster_registry.csv` (2026-06-12); cross-cohort context in [[Vault cluster taxonomy#Ongoing exploration log]].
+
 ## Related
 
 - [[OpenAI]] — foundation model infrastructure
 - [[Anthropic]] — foundation model infrastructure
 - [[Microsoft]] — Copilot integration across Office/365
 - [[Celebrity AI Adoption]] — cultural acceptance enabling AI tool adoption
+- [[Vault cluster taxonomy]] — cross-cohort cluster-validation meta-analysis (this basket logged Jun 2026)
+- [[Software AI bifurcation]] — the ORCL-leaves-the-complex finding in fundamental terms

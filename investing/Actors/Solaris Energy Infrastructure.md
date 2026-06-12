@@ -136,6 +136,8 @@ Both converts may settle in cash, shares, or a mix at SEI's election; both being
 | Cohort vs AI-power IPPs | 0.383 | The IPP factor (intra 0.773) is a different trade |
 | PC1 explained variance (cohort) | 62.5% | Weak common factor for 3 names |
 | SEI annualized vol | 72.4% | Tape dominated by idiosyncratic events (contracts, short report, converts) |
+| Random-basket p, 10k draws (intra / PC1) | 0.0071 / 0.0088 | Co-movement is real — top 1% of random 3-picks — but cohesion still sits below the cluster bar |
+| Threshold-stable width | 0.00 (none) | The trio never forms a clean cluster at any cut; at 0.55 it fuses only by absorbing the equipment complex (GEV/CAT/CMI/ETN/PWR) |
 
 ![[sei-cluster-rolling-tightness-90d.png]]
 *Rolling 90-day tightness: the cohort's common factor is unstable through the window — episodic co-movement in AI-power risk-on phases, divergence otherwise.*

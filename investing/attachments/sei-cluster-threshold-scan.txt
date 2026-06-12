@@ -1,0 +1,28 @@
+Speed-to-power THRESHOLD STABILITY SCAN
+Cohort size: 3
+
+--- ASSIGNMENT TABLE ---
+ threshold  n_subclusters  largest_subcluster_size  cohort_share_in_largest  contamination_count  intact
+      0.20              3                        1                    0.333                    0   False
+      0.25              3                        1                    0.333                    0   False
+      0.30              3                        1                    0.333                    0   False
+      0.35              3                        1                    0.333                    0   False
+      0.40              3                        1                    0.333                    0   False
+      0.45              3                        1                    0.333                    0   False
+      0.50              2                        2                    0.667                    0   False
+      0.55              1                        3                    1.000                    7   False
+      0.60              1                        3                    1.000                    7   False
+      0.65              1                        3                    1.000                   12   False
+      0.70              1                        3                    1.000                   12   False
+
+--- STABLE RANGES (intact cohort, no contamination) ---
+  None — cohort never returns as a clean single cluster at any threshold.
+
+--- VERDICT ---
+BOUNDARY-DEPENDENT: cohort does not form a clean cluster at any threshold tested. Falsification candidate.
+
+--- CONTAMINATION DETAIL (non-cohort names joining the cohort's largest cluster) ---
+  threshold 0.55: + GEV,CAT,CMI,ETN,PWR...
+  threshold 0.60: + GEV,CAT,CMI,ETN,PWR...
+  threshold 0.65: + GEV,CAT,CMI,ETN,PWR...
+  threshold 0.70: + GEV,CAT,CMI,ETN,PWR...

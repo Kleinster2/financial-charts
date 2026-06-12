@@ -1,0 +1,22 @@
+AI SaaS disruption basket HOLDOUT TEST
+Cohort: CRM, WDAY, NOW, HUBS, MNDY, TEAM (N=6)
+Window: 2y, split temporally at midpoint
+Train: 2024-06-10 -> 2025-06-10 (58 obs)
+Test:  2025-06-10 -> 2026-06-10 (193 obs)
+
+--- TRAIN HALF (older) ---
+Intra-correlation:    0.7821
+PC1 explained var:    81.87%
+Pairwise range:       [0.706, 0.830]
+
+--- TEST HALF (newer) ---
+Intra-correlation:    0.7031
+PC1 explained var:    75.39%
+Pairwise range:       [0.585, 0.792]
+
+--- STABILITY DIAGNOSTICS ---
+Intra-corr delta:     -0.0790   (test - train)
+PC1 variance delta:   -6.48pp
+PC1 loadings corr:    -0.0002    (1.0 = identical factor structure)
+
+VERDICT: STABLE — test/train ratio 0.90 (durable cluster across regimes)

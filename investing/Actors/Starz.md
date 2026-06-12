@@ -151,6 +151,8 @@ STRZ-primary run 2026-06-12 (`scripts/cluster_configs/strz.yaml`, artifacts `str
 | First join | AMCX+PSKY at 0.623; STRZ joins at 0.687 | Far beyond a tradeable boundary |
 | PC1 explained variance | 38.2% (weekly 45.1%) | Slightly higher than the studio run (35.2%), still diffuse |
 | 90D rolling avg corr | 0.190 | Latest window; STRZ ann. vol 70.5%, highest in cohort |
+| Random-basket p, 10k draws (intra / PC1) | 0.157 / 0.175 | Formal falsification — cohesion indistinguishable from a random 5-pick of US names |
+| Threshold-stable width | 0.00 (none) | Singletons at every cut through 0.55; LION joins at 0.60 — the separation-sibling link is the only sub-0.70 structure |
 
 The verdict: STRZ is not part of any tradeable cluster. Its single strongest market relationship is [[Lionsgate]] — the separation severed the corporate link but left a sentiment channel stronger than any sector tie. The takeover campaign explains why: a 70% annualized-vol micro-cap trading on [[Byron Allen]] headlines and deleveraging milestones has no business sharing a factor with NFLX's subscriber economics or WBD's breakup. Peer tables in this note are narrative context, not hedging instruments.
 
