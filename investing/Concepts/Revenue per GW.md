@@ -93,6 +93,18 @@ Tang's cells sit 20-25 points above reported actuals and 15-30 below token-level
 
 5. The x-axis mixes bases. Model providers are plotted on the "Operating Profit / GW" axis using estimated gross profit; every other name uses reported operating income. [[Anthropic]] ($20B) plotting right of [[Google]] ($18B) is an artifact of that mix — on The Information's ~40% GM the dot moves to ~$12.4B/GW (left of both ad platforms), and on actual operating economics both labs are deeply negative (OpenAI's H1 2025 net loss alone was $13.5B). Tang discloses the GM-for-OM substitution in his footnote; the visual does not. Related basis notes: Azure's 40% OM is not separately disclosed (an Intelligent Cloud-style proxy) and CoreWeave's 15% is an explicit forward construct — only Google, Meta, AWS, and Salesforce sit on cleanly reported operating margins.
 
+Per-column basis map — what each margin cell actually includes (follow-up to the Snowflake question, Jun 12):
+
+| Column | Margin basis | Stock comp included? |
+|---|---|---|
+| [[Google]], [[Meta]], [[AWS]], [[Salesforce]] | Reported GAAP operating margin | Yes — absorbed (roughly 4-9% of revenue at these names) |
+| Azure | Proxy operating margin (not separately disclosed) | Implicitly yes |
+| [[CoreWeave]] | Forward construct (15%) | Moot — the wedge here is depreciation schedule + financing cost, not SBC |
+| [[Snowflake]] | Mixed in one column: non-GAAP OI (excludes SBC = 34% of revenue) beside GAAP margin (includes it) | Split across the two rows |
+| [[OpenAI]], [[Anthropic]] | Estimated gross margin (revenue minus compute rental) | No — equity comp, training, and all operating expense excluded by construction |
+
+Snowflake is therefore the only firm on the chart whose displayed positive profit requires excluding stock comp — but the labs' cells exclude it by construction (along with everything else below the gross line), and CoreWeave's cell has the same epistemic shape with a different lever (the margin is an output of a depreciation choice). [[Salesforce]] doubles as the chart's own proof the wedge can close: GAAP operating margin ran −8.1% (FY2021) → −2.5% → +9.3% → +14.4% → +19.0% (FY2025, local DB), with SBC falling toward ~8-9% of revenue — the graduation path [[Snowflake]]'s FY2027 SBC guidance claims to be on, roughly a decade behind.
+
 Sanity checks that pass: CoreWeave FY2025 revenue (~$5.0-5.1B) over ~500-590 MW active power ≈ $9-10B/GW ✓ on an active-power basis (using contracted 2.9 GW would give ~$1.7B/GW — basis choice matters); implied internet-app footprints are sane (Alphabet ~$400B ÷ 57 ≈ 7 GW; Meta ~$200B ÷ 41 ≈ 4.9 GW; AWS ~$123B ÷ 10 ≈ 12 GW — all inside third-party fleet estimates); AWS 17% (Q1 2015) and ~$700B/20 GW macro figures externally confirmed.
 
 Net: internally consistent throughout; the two most bullish dots require unstated choices (a fresher revenue numerator for OpenAI; a very training-heavy allocation for Anthropic); the software-bar methodology is mis-described though Snowflake's output lands correctly; and the model-provider gross margins are not independent estimates but the framework's own rental-rate and allocation assumptions restated — plotted on an axis where every other company shows reported operating profit.
