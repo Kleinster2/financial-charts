@@ -59,6 +59,7 @@ aliases: [Generally Accepted Accounting Principles, US GAAP, non-GAAP]
 | **Goodwill impairment** | Acquisition-heavy companies ([[Oracle]], [[Intel]]) |
 | **Revenue recognition (ASC 606)** | SaaS companies, multi-element arrangements |
 | **Stock-based compensation** | GAAP/non-GAAP spread across all tech names |
+| **Internally generated intangibles** | Expensed, not capitalized — basis of the [[Data as an asset]] recognition gap vs China |
 
 ---
 
@@ -81,3 +82,5 @@ aliases: [Generally Accepted Accounting Principles, US GAAP, non-GAAP]
 - [[Investment grade bonds]] — credit analysis uses GAAP financials
 - [[GPU deployment bottleneck]] — CIP accounting (GAAP treatment of undeployed assets)
 - [[AI infrastructure financing]] — on- vs off-balance-sheet structures
+- [[Data as an asset]] — GAAP recognizes no internally generated data asset; China does
+- [[FASB]] — standard-setter

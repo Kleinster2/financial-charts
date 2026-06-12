@@ -18,7 +18,7 @@ Stanford University-based public policy research center, founded 1919 by Herbert
 | Affiliation | Stanford University (independent unit) |
 | HQ | Stanford, California |
 | Type | Nonprofit policy research institute |
-| Notable visiting fellow (this vault) | [[Patrick Foulis]] — globalisation, FT contributing editor |
+| Notable visiting fellows (this vault) | [[Patrick Foulis]] — globalisation, FT contributing editor; [[Mike Kuiken]] — US-China, data policy |
 
 ---
 
@@ -31,5 +31,6 @@ The institution is one of a small number of US think tanks where economists, nat
 ## Related
 
 - [[Patrick Foulis]] — visiting fellow
+- [[Mike Kuiken]] — distinguished visiting fellow (US-China, [[Data as an asset]])
 - [[Brookings Institution]] — adjacent (DC-based, more centrist) think tank
 - [[United States]]
