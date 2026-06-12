@@ -44,6 +44,7 @@ class NoteChecker:
         self.vault_root = vault_root
         self.suggest_links = suggest_links
         self.existing_notes = self._index_existing_notes()
+        self.known_aliases = self._index_aliases()
         self.cross_vault_index = self._index_cross_vaults()
 
     @staticmethod
@@ -98,6 +99,45 @@ class NoteChecker:
                 continue
             notes.add(md_file.stem)
         return notes
+
+    def _index_aliases(self) -> set[str]:
+        """Index frontmatter aliases across the vault so [[Alias]] links resolve.
+
+        Without this, links like [[NVIDIA]] (alias of Nvidia.md) are flagged
+        dead even though Obsidian resolves them.
+        """
+        aliases = set()
+        for md_file in self.vault_root.rglob("*.md"):
+            path_str = str(md_file)
+            if any(seg in path_str for seg in (
+                "/Daily/", "\\Daily\\", "/Meta/", "\\Meta\\", "/Reports/", "\\Reports\\",
+            )):
+                continue
+            try:
+                with open(md_file, "r", encoding="utf-8") as f:
+                    header = f.read(2048)
+            except OSError:
+                continue
+            if not header.startswith("---"):
+                continue
+            end = header.find("---", 3)
+            if end == -1:
+                continue
+            fm = header[3:end]
+            inline = re.search(r'^aliases:\s*\[([^\]]*)\]', fm, re.MULTILINE)
+            if inline:
+                for a in inline.group(1).split(","):
+                    a = a.strip().strip('"').strip("'")
+                    if a:
+                        aliases.add(a)
+                continue
+            block = re.search(r'^aliases:\s*\n((?:\s+-\s+.+\n?)+)', fm, re.MULTILINE)
+            if block:
+                for a in re.findall(r'^\s+-\s+(.+?)$', block.group(1), re.MULTILINE):
+                    a = a.strip().strip('"').strip("'")
+                    if a:
+                        aliases.add(a)
+        return aliases
 
     def _index_cross_vaults(self) -> dict[str, list[tuple[str, str, str]]]:
         """Index notes in cross-vaults by name and aliases.
@@ -745,8 +785,8 @@ class NoteChecker:
                 continue
             seen.add(note_name)
 
-            # Check if note exists
-            if note_name not in self.existing_notes:
+            # Check if note exists (by filename or frontmatter alias)
+            if note_name not in self.existing_notes and note_name not in self.known_aliases:
                 issues.append(Issue("warning", "dead-link", f"Dead link: [[{link}]]"))
 
         return issues
@@ -766,7 +806,7 @@ class NoteChecker:
             if note_name in seen:
                 continue
             seen.add(note_name)
-            if note_name not in self.existing_notes:
+            if note_name not in self.existing_notes and note_name not in self.known_aliases:
                 dead.append(link)
         return dead
 
