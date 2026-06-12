@@ -3,7 +3,15 @@ aliases: [SNOW]
 ---
 #actor #data #usa #public
 
-**Snowflake** — Cloud data platform (warehouse, data lake, AI). Public (SNOW). 30% product revenue growth, ~7% non-GAAP operating margin (improving). [[Palantir]] partnership, [[Databricks]] competition.
+**Snowflake** — Cloud data platform (warehouse, data lake, AI). Public (NYSE: SNOW, single-class since Jul 2025). FY2027 guide: 31% product revenue growth, 13.5% non-GAAP operating margin. [[Palantir]] partnership, [[Databricks]] competition.
+
+## One-line read
+
+Snowflake is the enterprise data-warehouse incumbent repositioning as an AI control plane because consumption pricing monetizes whatever runs on governed enterprise data, with the bet being that agentic workloads (Cortex, Snowflake Intelligence, the $6B [[Amazon|AWS]] commitment) reaccelerate growth faster than [[Databricks]] closes the gap — and keep the May 2026 rerating ahead of the GAAP/SBC wedge.
+
+## Synopsis
+
+The arc runs largest-software-IPO-ever (Sept 16, 2020 at $120) → $401.89 peak (Nov 2021) → a two-year consumption-slowdown derate → [[Sridhar Ramaswamy]] replacing [[Frank Slootman]] (Feb 2024) and the AI pivot → the May 27, 2026 Q1 FY27 print (+33% revenue, both guides raised) that repriced the stock +36.5% in a session, $175.26 → $239.20. Governance simplified along the way: all Class B super-voting shares were eliminated July 3, 2025, leaving one class of common. The structural tension is unchanged — the fastest-improving large-cap margin story in software on a non-GAAP basis is still a ~$1.3B/yr GAAP loser whose wedge is stock comp, and its closest private competitor grows twice as fast.
 
 ---
 
@@ -27,10 +35,36 @@ Major data infrastructure, margin inflection underway:
 | Metric | Value |
 |--------|-------|
 | Ticker | SNOW |
-| Market cap | ~$58B |
+| Market cap | ~$83B (Jun 11, 2026 close $240.39) |
 | Growth | 30% product revenue Y/Y (Q4 FY26) |
 | Operating margin | ~7% non-GAAP (Q4 FY26) |
 | RPO | $9.77B (+42% Y/Y) |
+
+---
+
+## Leadership
+
+| Role | Person | Since |
+|---|---|---|
+| CEO | [[Sridhar Ramaswamy]] | Feb 2024 — ex-[[Google]] ads chief, Neeva co-founder |
+| CFO | [[Brian Robins]] | Signed the FY2026 10-K (Mar 20, 2026); succeeded Michael Scarpelli |
+| President of Products | Benoit Dageville | Co-founder (2012) |
+| Co-founder | Thierry Cruanes | 2012 |
+
+[[Frank Slootman]] (CEO 2019-2024) ran the IPO era; founder/billionaire detail in the Bloomberg table below.
+
+---
+
+## Evolution
+
+| Phase | Period | What defined it |
+|---|---|---|
+| Founding | 2012 | [[Oracle]] architects Dageville and Cruanes build the cloud-native warehouse |
+| Slootman era | 2019-2024 | IPO Sept 2020 at $120 (largest software IPO at the time); $401.89 peak Nov 2021 |
+| Derate | 2022-2023 | Consumption-model slowdown; stock into the $110-230 range |
+| Ramaswamy pivot | Feb 2024- | Cortex AI buildout; GAAP operating margin repair begins (−40.2% FY25 → −30.6% FY26) |
+| Single-class | Jul 3, 2025 | All Class B super-voting shares eliminated; Class A renamed common |
+| AI control-plane rerating | May 2026- | Q1 FY27 +33%, guides raised to 31%/13.5%; $6B [[Amazon|AWS]] Graviton/AI commitment; [[Natoma]] MCP acquisition; +36.5% repricing May 28 |
 
 ---
 
@@ -68,12 +102,42 @@ Everything in the margin-inflection story above is non-GAAP. On [[GAAP]], Snowfl
 |---|---|---|
 | GAAP operating margin, FY2023 / FY2024 / FY2025 | −40.8% / −39.0% / −40.2% | local `income_statement_annual` |
 | GAAP, TTM through Oct 2025 | −34.3% (op loss −$1.503B on $4.387B revenue) | local `income_statement_quarterly` |
-| GAAP, FY2026 quarterly path | −42.9% (Apr) → −29.7% (Jul) → −27.2% (Oct) | same |
+| GAAP, FY2026 full year | −30.6% (op loss −$1,435.2M on $4,683.9M revenue) | FY2026 10-K (DB row added Jun 12) |
+| GAAP, FY2026 quarterly path | −42.9% (Apr) → −29.7% (Jul) → −27.2% (Oct) → −24.8% (Jan, derived) | same + 10-K |
+| GAAP, Q1 FY2027 (Apr 2026) | −23.4% (−$326.2M on $1,391.0M) | Q1 FY27 10-Q |
 | Non-GAAP operating margin | ~9% FY26 (Q3 printed 11%, +450bp YoY); FY27 guided 13.5% | company prints/guidance |
 
-The ~43-point gap between the two bases is almost entirely stock-based compensation — roughly $1.5B/yr, mid-30s percent of revenue — plus employer payroll tax on equity and intangible amortization. SBC is non-cash, which is how "no longer burning cash" (FCF positive) coexists with a >$1B GAAP operating loss: the cost exits through the share count, not the cash-flow statement. The wedge narrows only if SBC grows slower than revenue, which the FY26 quarterly GAAP path suggests has started.
+The ~43-point gap between the two bases is almost entirely stock-based compensation — exact from the FY2026 10-K: $1,168.0M (42% of revenue) FY2024, $1,479.3M (41%) FY2025, $1,599.5M (34%) FY2026 — plus employer payroll tax on equity and intangible amortization. The 10-K guides SBC to keep rising in dollars but falling as a percent of revenue in FY2027. SBC is non-cash, which is how "no longer burning cash" (FCF positive) coexists with a >$1B GAAP operating loss: the cost exits through the share count, not the cash-flow statement. The wedge narrows only if SBC grows slower than revenue, which the FY26 quarterly GAAP path suggests has started.
 
 Basis discipline matters whenever this name shows up in cross-stack comparisons: [[Clark Tang]]'s [[Revenue per GW]] chart plots Snowflake at +$3B operating income per GW (non-GAAP) beside a (35%) margin cell (GAAP) — the GAAP-consistent dot would be ≈ −$11.7B/GW. The full reconciliation lives in the [[Revenue per GW]] arithmetic audit.
+
+---
+
+## Financials
+
+GAAP annual series (FY2026 10-K + local `income_statement_annual`; fiscal years end Jan 31):
+
+| FY | Revenue | Gross profit (GM) | Operating income (OM) | Net income (attr.) |
+|---|---|---|---|---|
+| FY2019 | $96.7M | $44.9M (46.5%) | −$185.5M | −$178.0M |
+| FY2020 | $264.7M | $148.2M (56.0%) | −$358.1M | −$348.5M |
+| FY2021 | $592.0M | $349.5M (59.0%) | −$543.9M (−91.9%) | −$539.1M |
+| FY2022 | $1,219.3M | $760.9M (62.4%) | −$715.0M (−58.6%) | −$679.9M |
+| FY2023 | $2,065.7M | $1,348.1M (65.3%) | −$842.3M (−40.8%) | −$796.7M |
+| FY2024 | $2,806.5M | $1,907.9M (68.0%) | −$1,094.8M (−39.0%) | −$836.1M |
+| FY2025 | $3,626.4M | $2,411.7M (66.5%) | −$1,456.0M (−40.2%) | −$1,285.6M |
+| FY2026 | $4,683.9M | $3,146.1M (67.2%) | −$1,435.2M (−30.6%) | −$1,331.6M (EPS −$3.95) |
+
+FY2026 opex detail (10-K): S&M $2,062.1M (44% of revenue), R&D $1,969.5M (42%), G&A $549.7M (12%) — total opex at 98% of revenue is the whole GAAP story in one line. Data note: the DB also carries 2014-2016 June-fiscal rows under the SNOW ticker — Alpha Vantage ticker-history pollution from an unrelated issuer (Snowflake's first fiscal year on record is FY2019); filtered at query time, never deleted, per the DB gate.
+
+![[snow-fundamentals-chart.png]]
+*Quarterly revenue (blue, right axis) vs net income (red) with price overlay (green), 2020-2026. Revenue compounds through every drawdown; the top-right revenue point is the Q1 FY27 print ($1.391B), and the red line's improvement from −$430M (Apr 2025) to −$296M (Apr 2026) is the GAAP repair the non-GAAP guides describe. Linear axes (levels).*
+
+![[snow-sankey.png]]
+*FY2026 income statement flow: $4.68B revenue → 67.2% gross margin, swallowed by $4.6B of opex (98% of revenue) → −$1.44B operating loss (−30.6%), −$1.33B net (−28.4%). The opex block is where the $1.6B of stock-based comp lives — the visual form of the GAAP/SBC wedge above.*
+
+![[snow-waterfall.png]]
+*FY2026 waterfall: gross profit $3.15B, less S&M $2.06B, R&D $1.97B, G&A $0.55B → −$1.44B operating loss; $104M of net other income narrows the net loss to $1.33B.*
 
 ---
 
@@ -118,6 +182,7 @@ IPO darling, long drawdown, incomplete recovery:
 - Peaked ~$400 (2021)
 - Now ~$155-170 range (~$58B market cap)
 - Q4 FY26 earnings: initially +6% AH, reversed to -2.5% on growth deceleration concerns (30% to 27% guided)
+- Superseded by the May 28, 2026 repricing: $175.26 → $239.20 (+36.5%) on the Q1 FY27 print; post-print closing high $280.16 (Jun 1); $240.39 close Jun 11 (~$83B market cap). Full price history: [[Snowflake securities note]]
 
 ---
 
@@ -144,7 +209,7 @@ Bear:
 
 | Name | Role | Net worth |
 |------|------|-----------|
-| Frank Slootman | Former CEO/Chairman | $3.1B |
+| [[Frank Slootman]] | Former CEO/Chairman | $3.1B |
 | Thierry Cruanes | Co-founder | $1.9B |
 | Benoit Dageville | Co-founder, President | $1.5B |
 | Michael Scarpelli | Former CFO | $1.0B |
@@ -164,13 +229,13 @@ Revenue: ~$4.7B fiscal 2026 (~15x since IPO). Guided $5.66B product revenue for 
 | Metric | Value |
 |--------|-------|
 | Ticker | SNOW |
-| Market cap | ~$58B |
-| Revenue | ~$4.7B (FY26) |
+| Market cap | ~$83B (Jun 11, 2026 close $240.39) |
+| Revenue | $4.684B (FY2026, 10-K) |
 | Product revenue | $4.24B (FY26, +30% Y/Y) |
 | RPO | $9.77B |
 | $1M+ customers | 733 |
 | HQ | Bozeman, MT |
-| CEO | Sridhar Ramaswamy |
+| CEO | [[Sridhar Ramaswamy]] |
 | Founded | 2012 |
 | IPO | Sept 2020 (largest software IPO) |
 
@@ -244,8 +309,41 @@ Market read: SNOW closed +36.5% on May 28, which the stale local quick-mover dat
 
 ---
 
+## Analyst timeline
+
+| Date | Action |
+|---|---|
+| ~Apr 2026 | TD Cowen PT $210 → $230 (pre-print) |
+| May 28 - early Jun 2026 | 30+ PT raises in a single day after the Q1 FY27 print: [[UBS]] $325 → $370, Scotiabank $285 → $320, Needham $300 → $330; Street mean ≈ $288 |
+| Jun 2026 | Ratings mix: 48 Buy/Outperform vs 6 Hold, 1 Sell — highest conviction in over a year |
+
+*Via aggregator coverage (Benzinga, TipRanks, MarketBeat, TIKR — Jun 2026); individual call dates not separately verified.*
+
+---
+
+## Ratings history
+
+No agency credit ratings disclosed in the FY2026 10-K. Only debt: $2.3B of convertible senior notes (FY2025 issuance; $2,279.8M net carrying value at Jan 31, 2026; $195.5M paid for capped calls), with FY2026 interest expense of just $8.3M — typical unrated converts. The stated absence is the finding: the balance-sheet question on this name is dilution (SBC plus converts), not credit.
+
+---
+
+## What to watch
+
+- Product revenue growth vs the 31% guide — reacceleration was the May 28 catalyst; a print back below ~28% unwinds the rerate premise.
+- GAAP operating margin path — the quarterly repair (−42.9% → −23.4% over five quarters) is the wedge closing; stalling near −20% while non-GAAP guides keep rising would mean SBC is re-expanding underneath.
+- SBC as a percent of revenue — 42% → 41% → 34%, guided lower for FY2027; re-acceleration breaks the GAAP convergence story.
+- [[Databricks]] gap — 2x growth and 14x AI revenue at the rival; any disclosed change in the AI-revenue gap is the competitive dial.
+- NRR at 126% — the consumption model's health gauge; a slide toward 120 historically precedes guide-downs.
+- Agentic attach — Snowflake Intelligence customer count (2,500+ at GA+3 months) and [[Natoma]]/MCP integration pace; this is the control-plane thesis becoming measurable.
+
+---
+
 ## Related
 
+### Securities
+- [[Snowflake securities note]] — NYSE: SNOW equity-market companion
+
+### Business and ecosystem
 - [[Revenue per GW]] — cross-stack per-GW comparison; its audit surfaced the GAAP/SBC wedge framing recorded above
 - [[Databricks]] — competitor (lakehouse vs warehouse, 14x AI revenue gap)
 - [[Palantir]] — partner (data + AI integration)
