@@ -1,0 +1,27 @@
+# Theatrical exhibition — does AMC Entertainment (NYSE: AMC), the
+# balance-sheet-impaired largest exhibitor, trade with the exhibition
+# cohort (CNK clean-balance-sheet #2, IMAX premium-format licensor), or
+# as a meme-flow/dilution idiosyncratic name? The 2024+ tape says the
+# box-office recovery lifted CNK/IMAX while AMC fell on serial dilution —
+# this run tests whether daily returns still share an exhibition factor
+# despite the divergent levels. LYV rides as the out-of-home spending
+# control, DIS as content-supply control.
+name: Theatrical exhibition
+primary: AMC
+prefix: amc-cluster
+threshold: 0.5
+window_end: 2026-06-11
+
+groups:
+  cluster:
+    color: "#2962FF"
+    tickers: [AMC, CNK, IMAX]
+  out_of_home:
+    color: "#F44336"
+    tickers: [LYV]
+  content_supply:
+    color: "#7E57C2"
+    tickers: [DIS, LION]
+  etf:
+    color: "#9E9E9E"
+    tickers: [SPY, XLY]

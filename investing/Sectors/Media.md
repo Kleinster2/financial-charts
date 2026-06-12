@@ -17,6 +17,8 @@ Hierarchical clustering (average linkage, 1−|corr|) across 22 US-listed media/
 | ROKU+SPY+XLC | 0.52–0.67 corr | [[Roku]] clusters with the market/sector ETFs, not with media peers — it trades as high-beta market proxy |
 | TTD+MGNI (3Y only) | 0.50 corr | The ad-tech buy-side/sell-side duo ([[Trade Desk]], [[Magnite]]) — the only genuine business pair that touches the boundary |
 
+Addendum (same day, `amc.yaml` run): theatrical exhibition — [[AMC Entertainment]]/[[Cinemark]]/[[IMAX]], not in the original 22-name sweep — is the closest thing to a real content-side factor: intra-cohort 0.327, PC1 55.5%, positive intra advantage vs every control. Still no fusion at 0.5 (CNK+IMAX join at 0.586), and the factor decays yearly (0.46–0.48 avg corr 2021–23 → 0.315 in 2026) as the COVID-era common shock fades. The box-office cycle is a weak-but-genuine factor; its cleanest carrier is [[Cinemark]].
+
 Pairs that form just above threshold (0.5–0.6 distance — structurally persistent, not tradeable):
 
 | Pair | Window | Read |
