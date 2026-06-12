@@ -55,6 +55,32 @@ All figures are Tang's run-rate estimates from public CY2025 data; the cells fla
 - Model providers use estimated GM instead of OM "to leave an upper bound on the profitability of these businesses which are fundamentally different software businesses than past ones."
 - [[Snowflake]] / [[Salesforce]] revenue/GW is derived (AWS revenue/GW divided by product gross margins) — an inference about how much compute their revenue rides on, not a disclosure. Snowflake's operating income uses CY25 non-GAAP OP% because GAAP is negative.
 
+### Arithmetic audit (Jun 12, 2026)
+
+Row-level internal check — revenue/GW × margin = operating income/GW:
+
+| Name | Stated math | Verdict |
+|---|---|---|
+| [[Google]] | $57B × 32% = $18.2B ≈ $18B | ✓ |
+| [[Meta]] | $41B × 41% = $16.8B ≈ $17B | ✓ |
+| [[AWS]] | $10B × 35% = $3.5B ≈ $4B | ✓ rounded up |
+| Azure | $9B × 40% = $3.6B ≈ $4B | ✓ rounded up |
+| [[CoreWeave]] | $10B × 15% = $1.5B ≈ $2B | ✓ rounded up |
+| [[OpenAI]] | $22B × 55% = $12.1B ≈ $12B | ✓ |
+| [[Anthropic]] | $31B × 65% = $20.2B ≈ $20B | ✓ |
+| [[Salesforce]] | $31B × 20% = $6.2B ≈ $6B | ✓ |
+| [[Snowflake]] | $34B × ~9% non-GAAP ≈ $3B; margin cell displays (35%) GAAP | basis mix, footnoted |
+
+Anchor-level checks and the three findings:
+
+1. OpenAI text figure is exact ($20B ÷ 1.9 GW = $10.53B), but the chart dot is not derivable from those stated inputs: $20B ÷ (1.9 GW × 60% inference) = $17.5B/GW, not $22B. It reconciles only with the end-February run-rate — The Information reported OpenAI topping $25B annualized at end-Feb 2026 (vs $21.4B at end-2025), and the chart is labeled "Run Rate": $25B ÷ 1.14 GW = $21.9B ≈ $22B ✓. So the numerator is Feb-2026 and the denominator end-2025 — defensible if capacity lagged revenue (consistent with [[Sarah Friar]]'s scarcity narrative), flattering by ~25% otherwise.
+2. Anthropic's $31B/GW is reconstructible only with an inference share of roughly 20% of footprint (~$14B Feb-2026 run-rate ÷ 0.45 GW on the ~2-2.25 GW early-2026 fleet per [[Dylan Patel]]). Directionally consistent with "more training for Anthro," but the unstated share does all the work — at a 40% inference share the figure halves to ~$15-16B/GW. The most assumption-sensitive dot on the chart.
+3. The software derivation as described ("dividing AWS Rev/GW by product gross margins") is garbled: $10B ÷ 0.76 = $13B, not $34B. The operation that produces his numbers is grossing up compute COGS — revenue/GW = $10B ÷ (1 − GM). Snowflake reconciles at its ~70% overall GM ($10B ÷ 0.30 ≈ $34B ✓; the implied ~130 MW footprint matches its ~$1.3B/yr cloud bill). Salesforce does not reconcile cleanly: $31B implies ~68% GM vs [[Salesforce]]'s actual ~77% (the formula gives ~$44B). Tang himself calls these bars context that is "meaningless" as an input metric.
+
+Sanity checks that pass: CoreWeave FY2025 revenue (~$5.0-5.1B) over ~500-590 MW active power ≈ $9-10B/GW ✓ on an active-power basis (using contracted 2.9 GW would give ~$1.7B/GW — basis choice matters); implied internet-app footprints are sane (Alphabet ~$400B ÷ 57 ≈ 7 GW; Meta ~$200B ÷ 41 ≈ 4.9 GW; AWS ~$123B ÷ 10 ≈ 12 GW — all inside third-party fleet estimates); AWS 17% (Q1 2015) and ~$700B/20 GW macro figures externally confirmed.
+
+Net: internally consistent throughout; the two most bullish dots require unstated choices (a fresher revenue numerator for OpenAI; a very training-heavy allocation for Anthropic), and the software-bar methodology is mis-described though Snowflake's output lands correctly.
+
 ---
 
 ## The cost side (the hurdle a GW must clear)
