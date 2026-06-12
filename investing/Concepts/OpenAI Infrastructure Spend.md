@@ -70,7 +70,7 @@ Key nuance: The $1.4T included partner commitments ([[SoftBank]], [[Oracle]] for
 
 The spending plan is meant to more directly tie to expected revenue growth — with $280B projected for 2030, split roughly equally between consumer ([[ChatGPT]]) and enterprise businesses. The implied compute-to-revenue ratio: ~2:1.
 
-CFO argument (Jan 2026): Sarah Frier published blog claiming revenue tracks compute 1:1 — 10x revenue growth (2023–2025) alongside 9.5x compute growth. Implies more capital = more revenue. The $600B/$280B ratio suggests this relationship may not hold at scale.
+CFO argument (Jan 2026): [[Sarah Friar]] published the "A business that scales with the value of intelligence" blog claiming revenue tracks compute 1:1 — 10x revenue growth (2023–2025) alongside 9.5x compute growth, an implied ~$10.5B ARR per GW (the anchor [[Revenue per GW]] later formalized). Implies more capital = more revenue. The $600B/$280B ratio suggests this relationship may not hold at scale.
 
 *Source: CNBC, Feb 20, 2026.*
 

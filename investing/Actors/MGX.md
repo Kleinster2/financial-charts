@@ -61,7 +61,7 @@ Explicitly avoids: AI consumer apps, neo-clouds, robotics, quantum computing, en
 
 MGX is among the investors Altman is meeting. This follows their participation in OpenAI's $6.6B round (Oct 2024).
 
-**Context:** OpenAI CFO Sarah Frier published blog arguing revenue tracks compute 1:1 — implying more capital = more revenue. Revenue grew 10x from 2023-2025 alongside 9.5x compute growth.
+**Context:** OpenAI CFO [[Sarah Friar]] published blog arguing revenue tracks compute 1:1 — implying more capital = more revenue. Revenue grew 10x from 2023-2025 alongside 9.5x compute growth.
 
 ---
 

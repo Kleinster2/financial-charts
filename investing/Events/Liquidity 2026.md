@@ -10,20 +10,25 @@ date: 2026-05-31
 
 # Liquidity 2026
 
-All-In Podcast's annual conference. May 31 - June 3, 2026, California. Speaker slots curated by [[Chamath Palihapitiya]].
+All-In Podcast's annual conference — private investor summit for LPs, fund managers, and entrepreneurs. Held May 31 - June 3, 2026, Yountville, Napa Valley. Speaker slots curated by [[Chamath Palihapitiya]].
 
 ---
 
-## Confirmed speakers
+## Speakers
 
 | Speaker | Affiliation | Notes |
 |---------|-------------|-------|
 | [[Dan Loeb]] | Third Point | Activist investor |
-| Sarah Frier | Journalist | |
+| [[Sarah Friar]] | [[OpenAI]] CFO | Pre-event stub misrecorded her as "journalist Sarah Frier" (a different, real person at Bloomberg) — corrected Jun 12, 2026 |
 | [[Bill Ackman]] | [[Pershing Square]] | |
 | [[Andrej Karpathy]] | Independent / ex-[[OpenAI]], ex-[[Tesla]] | Will do 5-10 min slides on "future of the world with AI" + fireside. Auto-research project generating attention |
+| [[Nikesh Arora]] | [[Palo Alto Networks]] chairman/CEO | Confirmed in pre-event press |
+| [[Andrew Feldman]] | [[Cerebras]] co-founder/CEO | Confirmed in pre-event press |
+| [[Dave McCormick]], [[John Fetterman]] | US Senators (R-PA, D-PA) | Confirmed in pre-event press |
 
-6 additional speaker slots TBA.
+## Post-event (held as scheduled)
+
+[[Sarah Friar]]'s appearance produced the most-circulated line — on AI-native finance hiring, she said she "probably wouldn't hire a finance person today" who doesn't know how to use a tool like [[Codex]] (Fortune, Jun 5 2026). She also recorded an [[All-In Podcast]] episode in the same window covering the IPO question, AI rivalries, the device, and $100B+ compute spend — unprocessed ingestion candidate.
 
 ---
 

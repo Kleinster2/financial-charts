@@ -28,6 +28,18 @@ The first chief financial officer at [[OpenAI]] since the company's transition t
 
 ---
 
+## Jan 2026 — the revenue-tracks-compute argument
+
+Friar's signature public-numbers move as CFO: the January 2026 [[OpenAI]] blog post ("A business that scales with the value of intelligence") disclosed revenue growth of 10x (2023-2025, ~$2B → $20B exit ARR) alongside compute growth of 9.5x (0.2 → 0.6 → ~1.9 GW) — an implied ~$10.5B ARR per GW and the claim that revenue tracks compute roughly 1:1, i.e., more capital converts to more revenue. The ratio became the load-bearing anchor of the per-GW monetization debate: [[Clark Tang]] derived the model-provider figure in his [[Revenue per GW]] framework from it (Mar 1, 2026), and [[Brad Gerstner]] quoted it as the "Sarah Friar number" in his 1 GW ≈ $50B build / ~$10B-a-year revenue / 5-6-year payback formula (Mar 13, 2026). The argument is double-edged: read bullishly it finances the buildout; read bearishly it says blended revenue only just matches the rental value of the footprint, leaving margins to the inference/training allocation. The tension with the Apr 28 WSJ report below is the arc to watch — the public claim says 1:1 pays for the contracts; her reported internal concern asks what happens if the slope bends.
+
+---
+
+## May 31 - Jun 3, 2026 — Liquidity summit + All-In appearance
+
+Spoke at [[Liquidity 2026]] (All-In's Yountville summit) and recorded an [[All-In Podcast]] episode in the same window covering the IPO question, AI rivalries, the hardware device, and $100B+ compute spend. The most-circulated line, on AI-native finance hiring: she "probably wouldn't hire a finance person today" who doesn't know how to use a tool like [[Codex]] (Fortune, Jun 5 2026).
+
+---
+
 ## Apr 28, 2026 — WSJ revenue miss attribution
 
 The [[Wall Street Journal]]'s April 28, 2026 report that [[OpenAI]] missed internal revenue and weekly-active-user targets cited Friar's internal concerns about whether the company can fund its committed compute contracts if revenue growth does not accelerate. The CFO concern surfacing in internal documents reaching reporters — rather than in public earnings guidance — was the most load-bearing detail in the WSJ story and the proximate driver of the subsequent sell-off across [[Oracle]] (-4.05%), [[CoreWeave]] (-5.83%), [[SoftBank]] (-10% Tokyo), and the broader chip stack ([[AMD]], [[Broadcom]], [[NVIDIA]], [[Marvell]]). See [[2026 OpenAI revenue miss]] for the full event context.
@@ -51,6 +63,8 @@ The framing matters because [[OpenAI]]'s official posture has been "buy as much 
 ## Related
 
 - [[OpenAI]] — current employer
+- [[Revenue per GW]] — her Jan 2026 disclosure is the framework's model-provider anchor
+- [[Liquidity 2026]] — speaker (May 31-Jun 3, 2026)
 - [[Sam Altman]] — CEO
 - [[Brad Lightcap]] — COO
 - [[Project Stargate]] — $500B infrastructure JV under her financial purview
