@@ -31,6 +31,8 @@ Analogy: model = CPU, context window = RAM, harness = operating system.
 
 Key insight: you can't download harnesses from Hugging Face. Manus took 6 months and 5 rewrites. LangChain spent a year on 4 architectures. This is where competitive moats form.
 
+The lab-side version of the same claim: [[Sarah Friar]] ([[OpenAI]] CFO, All-In at [[Liquidity 2026]], Jun 2 2026) — a year ago the talk was LLM commoditization, and "frankly, it's gone the opposite," because the harness is what carries memory and context into the model. Her example is enterprise intuition: all the data said the stock rises after the earnings call; the trader knew which fund was under pressure and had to sell its book. Memory plus context plus that intuition, brought into an enterprise environment, is what the models actually monetize — which is why everyone fights for "the layer that is closest to the customer where usually you take the largest portion of the profits of the ecosystem."
+
 ---
 
 ## Competitive landscape

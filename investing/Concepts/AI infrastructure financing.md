@@ -307,6 +307,12 @@ Sources:
 - [[Bloomberg]] (Oct 31, 2025) — off-balance-sheet trend
 - Morgan Stanley research
 
+---
+
+## The borrower's-eye view (Friar, Jun 2026)
+
+[[Sarah Friar]] ([[OpenAI]] CFO) described the structure from the inside at [[Liquidity 2026]] (All-In, Jun 2 2026): "what CSPs do for us, in effect, is they shift capex into opex. You pay as you get the revenue... we are riding somewhat on their ability to build and have capex and financing." The stated reason is credit, not preference: "I'm not yet an investment-grade type of entity where I can go get lower-cost debt financing" — so OpenAI rents investment-grade balance sheets ([[Oracle]], [[Microsoft]], [[Amazon]], [[Google]], [[CoreWeave]]) instead of borrowing on its own. The first step back toward owned capex is built-to-suit: a [[SoftBank]] (SB Energy) data center in Texas — "a little bit more capex required there." This is the same structure [[AI infrastructure financing risk]] describes from the outside: the buildout's credit risk concentrates on CSP balance sheets precisely because the anchor customer is sub-investment-grade.
+
 ## Related
 
 - [[AI infrastructure deals]] — detailed capital stacks (10 deals)

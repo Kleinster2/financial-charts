@@ -257,6 +257,7 @@ Reinforces [[Long memory]] thesis.
 | Apr 10, 2026 | Hoeschele, Hemani, Saharan depart for same destination (FT later identifies as [[Meta]]) |
 | Apr 28, 2026 | OpenAI internal-target miss report → SBG/ORCL/CRWV down |
 | Apr 29, 2026 | FT investigation: JV "effectively abandoned" in favor of bilateral deals; >8GW secured, $600B+ by 2030; Microsoft replaces Nscale at Narvik; Michigan as cheaper Abilene alternative; Anthropic capitulates with hundreds-of-billions sign-off |
+| Jun 1, 2026 | Michigan groundbreaking: 1 GW "The Barn" campus, Saline Township ([[Oracle]] complex; Related Digital + [[Blackstone]] developing, Walbridge building, Gov. Whitmer at the ribbon). 250 acres; first of three 550K sq ft buildings near complete; 2,500 union construction jobs; ~$1B taxes over lease term; compute out end-2027/early-2028 per [[Sarah Friar]]. Counterpoint: the township voted the project down (Fortune, May 6) and construction proceeded weeks later |
 | 2026 | UAE Stargate 200MW; Wisconsin site under construction ([[Oracle]]) |
 | 2026-2028 | 7GW buildout target |
 | 2029 | $500B deployment target |

@@ -52,6 +52,10 @@ Thermo Fisher beat Q1 expectations and raised full-year profit guidance, but the
 
 The market read the print as a quality-of-growth issue rather than a simple beat. Management said U.S. end markets should improve only modestly over the year, not return to normal, and finance chief Jim Meyer said the company felt it was appropriate to build a buffer into guidance for oil-driven cost pressure it may not be able to fully offset. That turns Thermo into a useful macro tell: one of the cleanest life-sciences franchises is still dealing with weak public-research funding and now has to price geopolitical inflation into guidance.
 
+## OpenAI customer confirmation (Jun 2026)
+
+[[Sarah Friar]] ([[OpenAI]] CFO) named Thermo Fisher as an enterprise customer she visited in Boston (All-In at [[Liquidity 2026]], Jun 2 2026). Use cases she cited: faster patient screening toward FDA approvals ("the difference between a breakthrough in four weeks and two weeks can literally be life or death") and productivity for a field sales force she approximated at 30-38K people. Context: OpenAI's own fastest [[Codex]] adoption is in go-to-market — the same function Thermo Fisher wants to make more efficient. A demand-side counterweight to the weak academic/government end-market story above: the commercial AI-productivity budget is live even while public-research funding lags.
+
 ## Charts
 
 ![[tmo-employees-chart.png]]

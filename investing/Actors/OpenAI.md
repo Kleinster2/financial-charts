@@ -20,7 +20,7 @@ tags: [actor, ai, modellab, usa, private]
 | H1 2025 net loss | $13.5B (incl. R&D $6.7B, S&M $2B) |
 | Gross margin | 33% (2025), down from 40% (2024) |
 | Inference costs (2025) | $8.4B; projected $14.1B (2026) |
-| ChatGPT WAU | 800M-900M (Mar 2026) |
+| ChatGPT WAU | 900M+ (announced Feb 27, 2026 with the $122B round; [[Sarah Friar]] "over 900 million" Jun 2, 2026) |
 | Paid subscribers | ~35M (Plus/Pro/Team/Enterprise) |
 | Enterprise/Team/Edu users | ~9M business users |
 | Business clients | ~1.5M |
@@ -106,7 +106,7 @@ The bet is that scale — user scale, compute scale, capital scale — creates a
 ### [[Consumer]] and enterprise
 
 - [[ChatGPT]] — consumer/enterprise interface (Free/$8 Go/$20 Plus/$200 Pro/Team/Enterprise/Edu)
-- [[Codex]] — coding agent (GPT-5.2-Codex), MacOS app launched Feb 2026, repo-scale reasoning. 2M+ WAU (Mar 2026, up 4x since Jan). Centerpiece of "superapp" strategy
+- [[Codex]] — coding agent (GPT-5.2-Codex), MacOS app launched Feb 2026, repo-scale reasoning. 5M users (Jun 1 2026 per [[Sarah Friar]]; 2M+ WAU Mar 2026, ~zero Jan). Centerpiece of "superapp" strategy
 - [[Sora]] — video generation (Sora 2/Sora 2 Pro); standalone app launched Sep 2025, usage flatlined. Shut down entirely Mar 2026. [[Disney]] $1B investment + licensing deal to integrate Sora into Disney+ cancelled (All-In pod, Mar 27)
 - Atlas — web browser (being merged into "superapp")
 - Deep Research — o3-powered comprehensive web research agent (launched Feb 2, 2025)
@@ -555,6 +555,62 @@ Market reaction: tokenized [[OpenAI]] contracts on perp DEXs crashed approximate
 Full structural treatment: [[Private market secondaries#Issuer pushback: the void-declaration mechanism (May 11-12, 2026)]] and [[Tokenized private shares#Issuer pushback: void declarations (May 11-12, 2026)]]. The dated-event hub is [[Anthropic SPV void May 11 2026]] (Events/) — carries the timeline, named-platform list, and the void-vs-voidable mechanics.
 
 *Sources: [Yahoo Finance / Bloomberg — Anthropic and OpenAI warn buyers](https://finance.yahoo.com/markets/stocks/articles/anthropic-openai-warn-buyers-unauthorized-180743368.html); [Spendnode synthesis](https://www.spendnode.io/blog/anthropic-voids-unauthorized-stock-trades-1-6t-tokenized-may-2026/); [TechCrunch](https://techcrunch.com/2026/05/12/anthropic-warns-investors-against-secondary-platforms-offering-access-to-its-shares/) (May 12, 2026, includes OpenAI parallel context).*
+
+---
+
+## Jun 2, 2026 — Friar at Liquidity 2026 (All-In live episode)
+
+[[Sarah Friar]]'s 32-minute live All-In appearance at [[Liquidity 2026]] (published Jun 2) is the most complete public statement of OpenAI's financial architecture since the Jan 2026 revenue-tracks-compute blog — taped as [[Sam Altman]] cut the ribbon on the Michigan Stargate site, and within a day of [[Anthropic]]'s confidential S-1, which was broken to her on stage ("It does not mean anything yet... you have to run now the gauntlet of the SEC").
+
+### IPO posture
+
+"An IPO is a milestone, not a destination... just another way to fundraise." The Feb/Mar 2026 mega-round confirmed at $122B — "largest by orders of magnitude," against Saudi Aramco's ~$30B as the largest IPO ever — and the trio (SpaceX, OpenAI, Anthropic) framed as "potentially three IPOs at a scale that will be bigger even than 2001, 2000." On sequencing: "the market is a weighing machine, not a popularity machine. No one remembers who won first, Google or Yahoo, Lyft or Uber." Her stated doctrine: "my job is maximum optionality." See [[2026 IPO pipeline]] and [[Anthropic IPO 2026]].
+
+### Business mix and usage
+
+- Revenue "getting pretty balanced, about 50/50" consumer/enterprise — a different picture from [[Chamath Palihapitiya]]'s Mar 27 characterization (~75% consumer subscriptions) in the Financials section above; both attributed, bases likely differ (rev rec vs run-rate, two months apart)
+- [[ChatGPT]] 900M+ weekly users; fastest-growing continent is Africa; fastest-growing languages Azerbaijani and Kazakh
+- [[Codex]]: 5M users, "from almost zero in January"; fastest internal takeoff is the go-to-market team, not engineering
+- Usage ladder: free users ~7 questions/day; first paid tier ~15; Plus ~3x free; Pro ~11x free
+- New head of revenue [[Denise Dresser]] (in seat since Dec 2025) — "a force of nature"
+- Search: "we know we have at least 11% of the search market" — understated, she argues, because a 50-question ChatGPT conversation counts as one session vs Google's per-refresh counting
+- Ads: experiments live in the free tier; commitments — model results never sponsored, an ad-free paid tier always offered. [[Fidji Simo]]'s framing, quoted by Friar: "If Google and Meta had a baby, it would be ChatGPT" — search-grade intent plus memory/context beyond [[Meta]]'s demographic lookalikes
+
+### Compute scarcity and planning
+
+- "We're going up that kind of vertical wall of demand right now and there's just not enough tokens available... in 2026, we still won't have enough compute"; 2027 "pretty limited as well"
+- Procurement focus is 2028-onward capacity; "where I feel most short of compute right now is starting to look at '30, '31, '32"
+- [[Sora]]'s shutdown was compute rationing ("we had to make a really tough choice cuz we didn't have enough compute") — video returns with multimodality, which needs real-time inference
+- Training stays on US soil ("a national asset in effect"); inference goes global
+- On [[xAI]]: "Elon ironically ended up being the one person that had too much compute... good job on figuring out how to sell that off" — CFO-level confirmation of the excess-capacity resale behind the [[Colossus]]/[[Anthropic]] lease
+- Revenue planning: 2026-27 is bottom-up P×Q by product (advertising explicitly in the model); outer years are compute-anchored — "this amount of compute should equate somewhat this amount of revenue." The CFO runs [[Revenue per GW]] in reverse as a planning method
+- A year ago she modeled an agentic developer product at ~$2,000/month and "nobody believed" — "kind of laughable in hindsight" (i.e., low)
+
+### Financing architecture
+
+Two years ago: one CSP ([[Microsoft]] Azure), one chip ([[NVIDIA]]), one product, one price point ($20/mo). Today: [[Oracle]], [[CoreWeave]], Microsoft, GCP, [[AWS]] plus small neoclouds — because "what CSPs do for us, in effect, is shift capex into opex. You pay as you get the revenue... we are riding somewhat on their ability to build and have capex and financing." Explicitly: "I'm not yet an investment-grade type of entity where I can go get lower-cost debt financing" — renting investment-grade balance sheets is the financing arbitrage. Built-to-suit begins with a [[SoftBank]] (SB Energy) data center in Texas — "a little bit more capex required there." See [[AI infrastructure financing]].
+
+### Chips
+
+[[NVIDIA]] remains the "absolute priority partner"; the next big training run (fall 2026) is on [[Rubin|Vera Rubin]]; [[AMD]] chips in the pipeline; [[Cerebras]] "already online — incredible low-latency chip, great for devs that want real-time coding" (the Jan 2026 750MW deal in production); own chip with [[Broadcom]]. She referenced a coming NVIDIA series the transcript renders as "Simon" — unverified; NVIDIA's previously announced post-Rubin architecture name was Feynman.
+
+### Michigan — Stargate "The Barn" groundbreaking (Jun 1)
+
+1 GW campus in Saline Township, MI (the [[Oracle]] complex; Related Digital and [[Blackstone]] developing, Walbridge building, Gov. Whitmer at the ribbon). Friar's community package: self-funded power ("it will not be the ratepayer that has to pay"), 2,500 union jobs, ~$1B in taxes to Michigan, $45M into education including [[Codex]] credits. Compute out "end of '27 or early '28." Counterpoint to the trust narrative: Fortune reported (May 6) that the township voted the project down, with construction starting weeks later. See [[Project Stargate]].
+
+### Unit economics
+
+- Serving-cost deflation: GPT-4 → GPT-5.4 cost down ~97% in ~2 years
+- [[GPT-5.5]]: prices raised 2x vs the prior model while per-token efficiency still nets customers ~20-30% lower cost per token — pricing decoupling from cost, "beyond cost-plus into something more akin to the value being created," with token scarcity compressing the adjustment
+- Per-GW input costs are rising (power, memory — "memory spike is on at the moment") but intelligence-per-chip is outpacing them, so per-unit cost sold falls
+- The allocation lever: "If I was optimizing only for today, I would give every token to the API" — API revenue per token is an order of magnitude above consumer; the consumer subsidy is deliberate ("an AI infrastructure layer utility like electricity")
+- Anti-commoditization: "a year ago people talked about the commoditization of the LLMs... frankly, it's gone the opposite" — the agentic harness carries memory/context into the enterprise (see [[Agent harnesses]])
+
+### Device
+
+"A consumer substrate that I cannot tell you what it is" — unveil by end-2026, on sale early 2027 (consistent with the 1H 2027 mass-production timing above). She has seen and tried it: "very natural... very lovable." Declined to confirm the puck/earpiece form factor.
+
+*Source: [All-In Podcast, Jun 2 2026](https://www.youtube.com/watch?v=TjrShuj_Zsg) (32m, taped at Liquidity 2026); groundbreaking corroboration: [Oracle press release, Jun 1](https://www.oracle.com/news/announcement/related-digital-oracle-openai-walbridge-and-governor-whitmer-celebrate-construction-of-stargate-campus-in-saline-township-2026-06-01/), [CNBC](https://www.cnbc.com/2026/06/01/stargate-project-michigan-live-updates.html), [Fortune township vote](https://fortune.com/2026/05/06/ai-data-center-michigan-saline-politics-farmland/); WAU corroboration: [TechCrunch, Feb 27 2026](https://techcrunch.com/2026/02/27/chatgpt-reaches-900m-weekly-active-users/).*
 
 ---
 

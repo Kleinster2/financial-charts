@@ -28,7 +28,7 @@ All-In Podcast's annual conference — private investor summit for LPs, fund man
 
 ## Post-event (held as scheduled)
 
-[[Sarah Friar]]'s appearance produced the most-circulated line — on AI-native finance hiring, she said she "probably wouldn't hire a finance person today" who doesn't know how to use a tool like [[Codex]] (Fortune, Jun 5 2026). She also recorded an [[All-In Podcast]] episode in the same window covering the IPO question, AI rivalries, the device, and $100B+ compute spend — unprocessed ingestion candidate.
+[[Sarah Friar]]'s appearance produced the most-circulated line — on AI-native finance hiring, she said she "probably wouldn't hire a finance person today" who doesn't know how to use a tool like [[Codex]] (Fortune, Jun 5 2026). She also recorded an [[All-In Podcast]] episode live at the summit covering the IPO question, AI rivalries, the device, and $100B+ compute spend — ingested Jun 12, 2026; full processing in [[OpenAI]] (Jun 2, 2026 section), [[Sarah Friar]], [[Revenue per GW]], [[Inference economics]], [[AI infrastructure financing]], [[AI compute demand curve]], [[Codex]], [[Agent harnesses]], [[Anthropic IPO 2026]], [[Project Stargate]].
 
 ---
 

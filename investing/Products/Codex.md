@@ -16,6 +16,7 @@ aliases: [OpenAI Codex]
 | Relaunch | Feb 2026 (coding agent) |
 | Model | GPT-5.2-Codex |
 | Competitor | [[Claude Code]] ([[Anthropic]]) |
+| Users | 5M (Jun 1 2026, per [[Sarah Friar]]); 2M+ WAU Mar 2026; ~zero Jan 2026 |
 
 ---
 
@@ -45,6 +46,8 @@ This echoes [[Peter Steinberger]]'s more detailed assessment (Lex Fridman, Feb 2
 ## Usage and traction (March 2026)
 
 [[Fidji Simo]] (X, Mar 2026): Codex now has 2M+ weekly active users, up ~4x since the start of 2026. OpenAI regained some ground against [[Claude Code]] after releasing GPT-5.4 (Mar 5) and updated Codex.
+
+[[Sarah Friar]] (All-In at [[Liquidity 2026]], Jun 2 2026): Codex "just hit 5 million over the weekend," from "almost zero in January" — a ~zero (Jan) → 2M+ (Mar) → 5M (end-May) 2026 adoption curve. Two notes from her: the fastest internal takeoff at OpenAI is in the go-to-market org, not engineering; and her hiring line — she "probably wouldn't hire a finance person today" who can't use a tool like Codex. The Michigan Stargate community package includes $45M of education spending delivered partly as Codex credits.
 
 Codex will be the centerpiece of OpenAI's "superapp" strategy — gaining expanded agentic capabilities beyond coding before [[ChatGPT]] and Atlas browser merge in.
 

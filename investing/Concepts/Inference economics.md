@@ -371,6 +371,8 @@ Reasoning models are excluded from per-token price comparisons because they gene
 
 *Source: [Epoch AI inference price trends](https://epoch.ai/data-insights/llm-inference-price-trends)*
 
+Provider-side confirmation from the inside (Jun 2026): [[Sarah Friar]] ([[OpenAI]] CFO, All-In at [[Liquidity 2026]], Jun 2) put OpenAI's own serving-cost deflation at ~97% from [[GPT]]-4 to GPT-5.4 in about two years — and described the pricing response: [[GPT-5.5]] launched at 2x the prior model's price while still netting customers ~20-30% lower cost per token on efficiency gains. Price is decoupling from cost — "beyond cost-plus into something more akin to the value being created," with token scarcity compressing the adjustment time. She also quantified the channel mix: API revenue per token runs "an order of magnitude" above consumer ("if I was optimizing only for today, I would give every token to the API"), with the consumer subsidy deliberate. Both readings of the deflation curve — margins competed away vs operating leverage captured — now have a CFO datapoint on the leverage side.
+
 ---
 
 ## The Jevons paradox in AI (March 2026)

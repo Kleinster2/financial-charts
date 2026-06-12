@@ -28,6 +28,12 @@ The filing is confidential, so no financial statements, share count, or price ra
 
 ---
 
+## OpenAI's on-stage reaction
+
+The filing was broken to [[OpenAI]] CFO [[Sarah Friar]] live at [[Liquidity 2026]] hours after announcement. Her response (All-In, Jun 2 2026): "It does not mean anything yet... you have to run now the gauntlet of the SEC, and who knows how long that takes for anyone." On sequencing: "the market is a weighing machine, not a popularity machine. No one remembers who won first, Google or Yahoo, Lyft or Uber" — and she framed the trio as "potentially three IPOs at a scale that will be bigger even than 2001, 2000," with capital returned via buybacks and M&A leaving "a lot of money sitting on the sidelines" to absorb them.
+
+---
+
 ## Why now — the valuation and revenue arc
 
 Anthropic's private valuation has risen more than 15-fold in 15 months: a March 2025 round valued the company at about $60bn; the May 28 2026 Series H closed at $965B post-money. The filing rides explosive revenue growth — annualized revenue (a run-rate estimate favored by fast-growing startups) has increased fivefold since the start of 2026, passing $47bn last month, up from roughly $10bn of annual revenue last year.

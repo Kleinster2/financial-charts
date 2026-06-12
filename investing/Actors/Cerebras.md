@@ -139,6 +139,8 @@ Significance: Among largest private AI hardware raises ever. Validates "last ind
 
 Game-changer: OpenAI diversifying beyond NVIDIA. Cerebras now has two mega-customers (OpenAI + [[G42]]).
 
+CFO-level production confirmation: [[Sarah Friar]] (All-In at [[Liquidity 2026]], Jun 2 2026) — Cerebras is "already online... an incredible low-latency chip, great for devs that want real-time coding," cited alongside [[NVIDIA]] (priority partner; fall training run on [[Rubin]]), [[AMD]] (pipeline), and the [[Broadcom]] own-chip program in OpenAI's multi-chip strategy.
+
 Why OpenAI chose Cerebras:
 - Inference cost advantage (SRAM)
 - Reduce NVIDIA dependency

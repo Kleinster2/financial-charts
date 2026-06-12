@@ -36,7 +36,9 @@ Friar's signature public-numbers move as CFO: the January 2026 [[OpenAI]] blog p
 
 ## May 31 - Jun 3, 2026 — Liquidity summit + All-In appearance
 
-Spoke at [[Liquidity 2026]] (All-In's Yountville summit) and recorded an [[All-In Podcast]] episode in the same window covering the IPO question, AI rivalries, the hardware device, and $100B+ compute spend. The most-circulated line, on AI-native finance hiring: she "probably wouldn't hire a finance person today" who doesn't know how to use a tool like [[Codex]] (Fortune, Jun 5 2026).
+Spoke at [[Liquidity 2026]] (All-In's Yountville summit) and recorded an [[All-In Podcast]] episode live there (published Jun 2, ingested Jun 12 — full processing in the [[OpenAI]] Jun 2 section). The most-circulated line, on AI-native finance hiring: she "probably wouldn't hire a finance person today" who doesn't know how to use a tool like [[Codex]] (Fortune, Jun 5 2026).
+
+The episode is her doctrine in compressed form. On capital: "my job is maximum optionality" — the $122B March round confirmed, against Saudi Aramco's ~$30B as the largest IPO ever; "an IPO is a milestone, not a destination"; on sequencing vs [[Anthropic]] (whose confidential S-1 was broken to her on stage): "the market is a weighing machine, not a popularity machine." On financing structure: CSPs "shift capex into opex... we are riding on their ability to build and have capex and financing," because "I'm not yet an investment-grade type of entity" — the clearest public statement of the IG-balance-sheet arbitrage in [[AI infrastructure financing]]. On planning: outer-year revenue is computed from compute — "this amount of compute should equate somewhat this amount of revenue" — confirming the [[Revenue per GW]] logic as OpenAI's internal method, with the hosts dating her gigawatts-to-cash framing to roughly late 2024, a year before the public blog. On the mix: API revenue per token is "an order of magnitude" above consumer, and the consumer subsidy is strategy ("an AI infrastructure layer utility like electricity").
 
 ---
 
