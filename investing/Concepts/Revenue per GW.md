@@ -39,7 +39,7 @@ What would falsify the optimistic read: inference ARR slope flattening while GW 
 | Neocloud | [[CoreWeave]] | $10B | $2B | 15% OM (Tang adjustment) | Rev/GW ✓ on active power (~$5.05B FY25 ÷ ~550 MW); on contracted 2.9 GW it would be ~$1.7B. The 15% OM is a forward construct, not reported |
 | Model provider | [[OpenAI]] | $22B | $12B | 55% est. GM | His stated inputs ($20B ÷ 1.14 GW) give $17.5B rev/GW; $22B needs the end-Feb $25B run-rate. On reported GM (~33% all-in / ~36% inference-only): gross profit ≈ $7-8B/GW. On operating basis: negative (H1 2025 net loss $13.5B) |
 | Model provider | [[Anthropic]] | $31B | $20B | 65% est. GM | Rev/GW requires an unstated ~20% inference share — ~$15-16B/GW at a 40% share. On The Information's ~40% GM: gross profit ≈ $12.4B/GW (left of both ad platforms). On operating basis: negative |
-| Software (context) | [[Snowflake]] | $34B | $3B | (35%) [[GAAP]] shown; OI uses CY25 non-GAAP | $3B is the ~9% non-GAAP pairing; the GAAP-consistent dot would be ≈ −$10 to −12B/GW. Rev/GW ✓ via cost gross-up at ~70% overall GM (implied ~130 MW footprint matches its ~$1.3B cloud bill) |
+| Software (context) | [[Snowflake]] | $34B | $3B | (35%) [[GAAP]] shown; OI uses CY25 non-GAAP | Both bases verified: (35%) = TTM GAAP OM through Oct 2025 (−34.3%); $3B = 8.8% ≈ FY26 non-GAAP guide of 9%. The GAAP-consistent dot would be ≈ −$11.7B/GW. Rev/GW ✓ via cost gross-up at ~70% overall GM (implied ~130 MW footprint matches its ~$1.3B cloud bill) |
 | Software (context) | [[Salesforce]] | $31B | $6B | 20% OM | OM ✓ reported, but rev/GW unreconciled — his stated derivation at CRM's ~77% GM gives ~$44B; $31B implies ~68% |
 
 All headline figures are Tang's run-rate estimates from public CY2025 data; the cells flagged red in the original chart (CoreWeave, OpenAI, Anthropic, Snowflake) are adjusted or estimated rather than reported. The restatement column folds in the [[Revenue per GW#Arithmetic audit (Jun 12, 2026)|arithmetic audit]] below: the four left rows survive on reported numbers; the model-provider dots are upper-bound constructs whose corrected positions (reported-margin gross profit ≈ $7-8B and ~$12.4B/GW) sit left of Google and Meta, not right of them.
@@ -70,6 +70,8 @@ Row-level internal check — revenue/GW × margin = operating income/GW:
 | [[Anthropic]] | $31B × 65% = $20.2B ≈ $20B | ✓ |
 | [[Salesforce]] | $31B × 20% = $6.2B ≈ $6B | ✓ |
 | [[Snowflake]] | $34B × ~9% non-GAAP ≈ $3B; margin cell displays (35%) GAAP | basis mix, footnoted |
+
+Snowflake's two bases both verify (Jun 12, checked against local `income_statement_quarterly` + the FY26 prints): the (35%) is the GAAP operating margin on a trailing-twelve-month window through Oct 31, 2025 — operating loss −$1.503B ÷ revenue $4.387B = −34.3% ≈ (35%) — the TTM of the four quarters publicly reported as of his Mar 1 post, not the last full fiscal year (FY2025, ended Jan 2025, was −40.2%). And the $3B OI/GW implies $3B ÷ $34B = 8.8%, matching Snowflake's FY26 non-GAAP operating-margin guide of 9% (Q3 FY26 printed 11%, +450bp YoY). So the cell is accurate on both bases; the only fault is displaying them unlabeled in one row.
 
 Anchor-level checks and the three findings:
 
