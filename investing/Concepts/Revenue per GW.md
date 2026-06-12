@@ -77,9 +77,23 @@ Anchor-level checks and the three findings:
 2. Anthropic's $31B/GW is reconstructible only with an inference share of roughly 20% of footprint (~$14B Feb-2026 run-rate ÷ 0.45 GW on the ~2-2.25 GW early-2026 fleet per [[Dylan Patel]]). Directionally consistent with "more training for Anthro," but the unstated share does all the work — at a 40% inference share the figure halves to ~$15-16B/GW. The most assumption-sensitive dot on the chart.
 3. The software derivation as described ("dividing AWS Rev/GW by product gross margins") is garbled: $10B ÷ 0.76 = $13B, not $34B. The operation that produces his numbers is grossing up compute COGS — revenue/GW = $10B ÷ (1 − GM). Snowflake reconciles at its ~70% overall GM ($10B ÷ 0.30 ≈ $34B ✓; the implied ~130 MW footprint matches its ~$1.3B/yr cloud bill). Salesforce does not reconcile cleanly: $31B implies ~68% GM vs [[Salesforce]]'s actual ~77% (the formula gives ~$44B). Tang himself calls these bars context that is "meaningless" as an input metric.
 
+4. The gross-margin columns are the framework's own assumptions wearing a margin costume. For both model providers, GM = 1 − (inference GW × rental $/GW) ÷ run-rate revenue reproduces the cells exactly: OpenAI 1 − (1.14 GW × $10B) ÷ $25B = 54.4% ≈ 55%; Anthropic 1 − (0.45 GW × $11B) ÷ $14B = 64.6% ≈ 65%. Revenue/GW, OI/GW, and GM% are therefore one degree of freedom presented as three data points — all derived from run-rate revenue (reported), inference share (assumed), and his own ~$10-11B/GW rental figure. Three construction choices all lean the same direction: every inference GW is assumed fully monetized (no idle-capacity or free-tier drag), compute is priced at clean rental (no Bedrock/Vertex-style cloud markup, which [[Dylan Patel]] puts at ~50% on Anthropic's third-party-served traffic), and non-compute COGS is zero. The margin stack the cells sit inside:
+
+| Basis | OpenAI | Anthropic |
+|---|---|---|
+| Reported / The Information actuals (2025) | ~33% all-in GM (down from 40% in 2024); inference-only ≈ 36% ($8.4B inference cost ÷ $13.1B recognized revenue) | ~40% projected (revised down from 50%; inference costs 23% over plan) |
+| Tang chart (estimated GM) | 55% | 65% |
+| Patel floor calculation (Apr 2026) | — | 72% |
+| Token-level output margins (Alderson-style, see [[Inference economics]]) | 80-95% | 80-95% |
+| 2028 target (The Information) | — | ~77% |
+
+Tang's cells sit 20-25 points above reported actuals and 15-30 below token-level margins — exactly what the construct implies: capacity priced at full rental but assumed fully utilized. Sensitivity: at Patel's $13B/GW rental, the OpenAI cell falls to ~41% and Anthropic's to ~58%; OpenAI at a 50/50 split rises to ~62%.
+
+5. The x-axis mixes bases. Model providers are plotted on the "Operating Profit / GW" axis using estimated gross profit; every other name uses reported operating income. [[Anthropic]] ($20B) plotting right of [[Google]] ($18B) is an artifact of that mix — on The Information's ~40% GM the dot moves to ~$12.4B/GW (left of both ad platforms), and on actual operating economics both labs are deeply negative (OpenAI's H1 2025 net loss alone was $13.5B). Tang discloses the GM-for-OM substitution in his footnote; the visual does not. Related basis notes: Azure's 40% OM is not separately disclosed (an Intelligent Cloud-style proxy) and CoreWeave's 15% is an explicit forward construct — only Google, Meta, AWS, and Salesforce sit on cleanly reported operating margins.
+
 Sanity checks that pass: CoreWeave FY2025 revenue (~$5.0-5.1B) over ~500-590 MW active power ≈ $9-10B/GW ✓ on an active-power basis (using contracted 2.9 GW would give ~$1.7B/GW — basis choice matters); implied internet-app footprints are sane (Alphabet ~$400B ÷ 57 ≈ 7 GW; Meta ~$200B ÷ 41 ≈ 4.9 GW; AWS ~$123B ÷ 10 ≈ 12 GW — all inside third-party fleet estimates); AWS 17% (Q1 2015) and ~$700B/20 GW macro figures externally confirmed.
 
-Net: internally consistent throughout; the two most bullish dots require unstated choices (a fresher revenue numerator for OpenAI; a very training-heavy allocation for Anthropic), and the software-bar methodology is mis-described though Snowflake's output lands correctly.
+Net: internally consistent throughout; the two most bullish dots require unstated choices (a fresher revenue numerator for OpenAI; a very training-heavy allocation for Anthropic); the software-bar methodology is mis-described though Snowflake's output lands correctly; and the model-provider gross margins are not independent estimates but the framework's own rental-rate and allocation assumptions restated — plotted on an axis where every other company shows reported operating profit.
 
 ---
 
