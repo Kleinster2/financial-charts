@@ -30,19 +30,19 @@ What would falsify the optimistic read: inference ARR slope flattening while GW 
 
 ## The numbers
 
-| Layer | Name | Revenue/GW | Op income/GW | Margin |
-|---|---|---|---|---|
-| Hyperscale internet apps | [[Google]] | $57B | $18B | 32% OM |
-| Hyperscale internet apps | [[Meta]] | $41B | $17B | 41% OM |
-| Cloud | [[AWS]] | $10B | $4B | 35% OM |
-| Cloud | Azure ([[Microsoft]]) | $9B | $4B | 40% OM |
-| Neocloud | [[CoreWeave]] | $10B | $2B | 15% OM (Tang adjustment) |
-| Model provider | [[OpenAI]] | $22B | $12B | 55% est. GM |
-| Model provider | [[Anthropic]] | $31B | $20B | 65% est. GM |
-| Software (context) | [[Snowflake]] | $34B | $3B | (35%) [[GAAP]] shown; OI uses CY25 non-GAAP |
-| Software (context) | [[Salesforce]] | $31B | $6B | 20% OM |
+| Layer | Name | Revenue/GW | Op income/GW | Margin | Audit restatement (Jun 12, 2026) |
+|---|---|---|---|---|---|
+| Hyperscale internet apps | [[Google]] | $57B | $18B | 32% OM | ✓ reported margins; implies ~7 GW fleet (sane) |
+| Hyperscale internet apps | [[Meta]] | $41B | $17B | 41% OM | ✓ reported margins; implies ~4.9 GW fleet (sane) |
+| Cloud | [[AWS]] | $10B | $4B | 35% OM | ✓ reported segment margins; implies ~12 GW fleet (sane) |
+| Cloud | Azure ([[Microsoft]]) | $9B | $4B | 40% OM | OM is a proxy — Azure margin not separately disclosed (Intelligent Cloud-style estimate) |
+| Neocloud | [[CoreWeave]] | $10B | $2B | 15% OM (Tang adjustment) | Rev/GW ✓ on active power (~$5.05B FY25 ÷ ~550 MW); on contracted 2.9 GW it would be ~$1.7B. The 15% OM is a forward construct, not reported |
+| Model provider | [[OpenAI]] | $22B | $12B | 55% est. GM | His stated inputs ($20B ÷ 1.14 GW) give $17.5B rev/GW; $22B needs the end-Feb $25B run-rate. On reported GM (~33% all-in / ~36% inference-only): gross profit ≈ $7-8B/GW. On operating basis: negative (H1 2025 net loss $13.5B) |
+| Model provider | [[Anthropic]] | $31B | $20B | 65% est. GM | Rev/GW requires an unstated ~20% inference share — ~$15-16B/GW at a 40% share. On The Information's ~40% GM: gross profit ≈ $12.4B/GW (left of both ad platforms). On operating basis: negative |
+| Software (context) | [[Snowflake]] | $34B | $3B | (35%) [[GAAP]] shown; OI uses CY25 non-GAAP | $3B is the ~9% non-GAAP pairing; the GAAP-consistent dot would be ≈ −$10 to −12B/GW. Rev/GW ✓ via cost gross-up at ~70% overall GM (implied ~130 MW footprint matches its ~$1.3B cloud bill) |
+| Software (context) | [[Salesforce]] | $31B | $6B | 20% OM | OM ✓ reported, but rev/GW unreconciled — his stated derivation at CRM's ~77% GM gives ~$44B; $31B implies ~68% |
 
-All figures are Tang's run-rate estimates from public CY2025 data; the cells flagged red in the original chart (CoreWeave, OpenAI, Anthropic, Snowflake) are adjusted or estimated rather than reported.
+All headline figures are Tang's run-rate estimates from public CY2025 data; the cells flagged red in the original chart (CoreWeave, OpenAI, Anthropic, Snowflake) are adjusted or estimated rather than reported. The restatement column folds in the [[Revenue per GW#Arithmetic audit (Jun 12, 2026)|arithmetic audit]] below: the four left rows survive on reported numbers; the model-provider dots are upper-bound constructs whose corrected positions (reported-margin gross profit ≈ $7-8B and ~$12.4B/GW) sit left of Google and Meta, not right of them.
 
 ---
 
