@@ -36,6 +36,7 @@ Total raised: $16.2M. The lightest-capitalized of Parallel's direct peers — a 
 
 - [[Parallel Web Systems]] — competitor (extraction overlaps Parallel's Extract API)
 - [[Exa]], [[Tavily]], [[Brave Search]] — peers
+- [[Agentic search infrastructure]] — the market cohort
 - [[AI agents]] — demand driver
 
 *Stub created 2026-06-13 — expand with product/pricing detail and investor set.*

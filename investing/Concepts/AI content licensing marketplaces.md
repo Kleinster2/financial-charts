@@ -30,30 +30,32 @@ Large publishers ([[News Corp]], [[Condé Nast]], [[New York Times]], People) ha
 
 ## Deal landscape
 
-**Direct deals (pre-marketplace):**
+Direct deals (pre-marketplace):
 - [[OpenAI]] — deals with [[News Corp]], [[Associated Press]], [[Condé Nast]], [[Time]], others
 - [[Perplexity]] — sued by two [[News Corp]] subsidiaries
 - [[Meta]] — content usage via Meta Platforms
 
-**Economics:** Tens of millions per year for large publishers. Pricing factors include content freshness, content type, exclusivity.
+Economics: tens of millions per year for large publishers. Pricing factors include content freshness, content type, exclusivity.
 
-**Litigation backdrop:** Publishers pursuing both litigation and licensing simultaneously. The marketplaces formalize the licensing path as the alternative to lawsuits.
+Litigation backdrop: publishers pursuing both litigation and licensing simultaneously. The marketplaces formalize the licensing path as the alternative to lawsuits.
 
 ---
 
 ## Strategic dynamics
 
-**For publishers:** Marketplaces aggregate demand — instead of negotiating bespoke deals with every AI company, publishers list once and set terms. Smaller publishers who can't get OpenAI's attention can still monetize.
+For publishers: marketplaces aggregate demand — instead of negotiating bespoke deals with every AI company, publishers list once and set terms. Smaller publishers who can't get OpenAI's attention can still monetize.
 
-**For AI companies:** Rights-cleared content reduces legal risk. Financial institutions especially need provenance — they can't feed copyrighted content into trading AI without licenses.
+For AI companies: rights-cleared content reduces legal risk. Financial institutions especially need provenance — they can't feed copyrighted content into trading AI without licenses.
 
-**For marketplace operators:** Platform economics — Microsoft/Amazon/Factiva take a cut of every transaction. Classic two-sided marketplace play. First to reach liquidity (enough publishers + enough buyers) wins.
+For marketplace operators: platform economics — Microsoft/Amazon/Factiva take a cut of every transaction. Classic two-sided marketplace play. First to reach liquidity (enough publishers + enough buyers) wins.
 
-**Tension:** The same companies building AI products that scrape content ([[Microsoft]], [[Amazon]]) are also building the marketplaces to license it. Publishers know this — Mark Howard (COO, [[Time]]): one-off deals are desirable but not readily available, so a marketplace with sufficient supply will attract demand.
+Tension: the same companies building AI products that scrape content ([[Microsoft]], [[Amazon]]) are also building the marketplaces to license it. Publishers know this — Mark Howard (COO, [[Time]]): one-off deals are desirable but not readily available, so a marketplace with sufficient supply will attract demand.
 
-**Three pricing models are now competing** to settle AI-content economics. Fixed-fee marketplaces ([[Microsoft]], [[Amazon]], [[Factiva]]) match publishers to buyers but still trade in flat, negotiated checks that favor the largest media groups. Per-scrape tolls ([[Tollbit]], [[Cloudflare]]) charge at the point of access, agnostic to how the content is used. [[Parallel Web Systems]]'s Index (May 2026) introduces a third model — per-inference attribution — paying contribution-weighted amounts computed at the moment an [[AI agents|agent]] produces output, using a Shapley-value framework so unique, hard-to-replace content earns more than commodity coverage. The per-inference model is the most aligned with actual value delivered but also the hardest to audit, and it puts a search-infrastructure startup ([[Parallel Web Systems]]) into the settlement layer that gatekeepers like [[Cloudflare]] already occupy at the access layer.
+Three pricing models are now competing to settle AI-content economics. Fixed-fee marketplaces ([[Microsoft]], [[Amazon]], [[Factiva]]) match publishers to buyers but still trade in flat, negotiated checks that favor the largest media groups. Per-scrape tolls ([[Tollbit]], [[Cloudflare]]) charge at the point of access, agnostic to how the content is used. [[Parallel Web Systems]]'s Index (May 2026) introduces a third model — per-inference attribution — paying contribution-weighted amounts computed at the moment an [[AI agents|agent]] produces output, using a Shapley-value framework so unique, hard-to-replace content earns more than commodity coverage. The per-inference model is the most aligned with actual value delivered but also the hardest to audit, and it puts a search-infrastructure startup ([[Parallel Web Systems]]) into the settlement layer that gatekeepers like [[Cloudflare]] already occupy at the access layer.
 
 *Source: WSJ (Feb 16, Alexandra Bruell); Parallel Index launch (Fortune, May 19 2026)*
+
+No comparative price chart is applicable to this note: the marketplace operators and publishers ([[Microsoft]], [[Amazon]], [[Dow Jones]], [[News Corp]], [[New York Times]]) are charted in their own actor notes, and this note maps deal structure and the three competing pricing models rather than a price series. (Chart data not applicable.)
 
 ---
 

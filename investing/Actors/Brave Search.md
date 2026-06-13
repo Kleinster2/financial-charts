@@ -36,6 +36,7 @@ Brave Software's headline raise was the 2017 Basic Attention Token (BAT) sale; e
 
 - [[Parallel Web Systems]] — competitor; faster on independent latency tests
 - [[Exa]], [[Tavily]], [[Firecrawl]] — peers
+- [[Agentic search infrastructure]] — the market cohort
 - [[Google]], [[Microsoft]] — search incumbents Brave indexes independently of
 - [[Brendan Eich]] — founder/CEO
 

@@ -173,6 +173,7 @@ The cleanest tell that this is a structural-thesis bet rather than a metrics bet
 - [[You.com]] — adjacent consumer AI search
 - [[OpenAI]], [[Anthropic]], [[Google]] — foundation-model first-party web tools; the disintermediation threat
 - [[AI content licensing marketplaces]] — category for Index
+- [[Agentic search infrastructure]] — the market cohort this sits in (peer set, valuations)
 - [[AI agents]] — the demand driver Parallel is built to serve
 - [[Sequoia Capital]] — Series B lead
 - [[Kleiner Perkins]], [[Index Ventures]] — Series A co-leads

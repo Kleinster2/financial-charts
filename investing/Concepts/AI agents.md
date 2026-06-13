@@ -113,7 +113,7 @@ That matters because it ties together the whole stack. Agents are what sell the 
 
 ## Market impact — SaaS meltdown (Feb 2026)
 
-The agent threat moved from theoretical to market-moving in early 2026. [[Anthropic]] and [[OpenAI]] announced general-purpose agents capable of replacing SaaS workflows for non-technical workers, triggering a -25% to -50% selloff in [[SaaS]] stocks while the [[S&P 500|SPY]] sat flat. The *[[Financial Times]]* editorial board (Feb 15) identified the core dynamic: agents become a new computing interface layer, a chokepoint for AI firms to claim corporate IT budgets that currently flow to SaaS incumbents. See [[SaaS stock meltdown 2026]].
+The agent threat moved from theoretical to market-moving in early 2026. [[Anthropic]] and [[OpenAI]] announced general-purpose agents capable of replacing SaaS workflows for non-technical workers, triggering a -25% to -50% selloff in [[SaaS]] stocks while the [[S&P 500|SPY]] sat flat. The *[[Financial Times]]* editorial board (Feb 15) identified the core dynamic: agents become a new computing interface layer, a chokepoint for AI firms to claim corporate IT budgets that currently flow to SaaS incumbents. See [[SaaS stock meltdown 2026]], which carries the market visual (software-vs-index price chart) for this dynamic; no standalone chart is applicable in this concept hub. (Chart data not applicable here.)
 
 ---
 

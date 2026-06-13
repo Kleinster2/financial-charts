@@ -23,14 +23,14 @@ aliases: [You, YouChat]
 
 AI-powered search engine with conversational interface.
 
-**Evolution:**
+Evolution:
 - Started as privacy-focused search alternative to [[Google]]
 - Pivoted toward AI assistant/chat (YouChat)
 - Competes with [[Perplexity]], [[Google]] AI Overviews
 
 ---
 
-## Funding
+## Funding history
 
 | Date | Round | Valuation | Notes |
 |------|-------|-----------|-------|
@@ -43,14 +43,14 @@ AI-powered search engine with conversational interface.
 | Company | Valuation | Focus |
 |---------|-----------|-------|
 | [[Perplexity]] | ~$9B | AI search |
-| **You.com** | $1.5B | AI search/assistant |
+| You.com | $1.5B | AI search/assistant |
 | [[Google]] | $2T+ | Search + AI |
 
 ---
 
 ## Strategy
 
-With founder Richard Socher now building [[Recursive]] (superintelligent AI lab), You.com may increasingly focus on **applications** while Recursive handles foundational research.
+With founder Richard Socher now building [[Recursive]] (superintelligent AI lab), You.com may increasingly focus on applications while Recursive handles foundational research.
 
 ---
 
@@ -62,6 +62,7 @@ With founder Richard Socher now building [[Recursive]] (superintelligent AI lab)
 ### Competitors
 - [[Perplexity]] — AI search
 - [[Google]] — incumbent search
+- [[Agentic search infrastructure]] — the API-search cohort (You.com as the consumer-adjacent member)
 - [[Bing]] / [[Microsoft]] — Copilot
 
 ### Socher's other ventures

@@ -43,7 +43,7 @@ Parag Agrawal is the founder and CEO of [[Parallel Web Systems]] and the former 
 
 Agrawal was elevated from CTO to CEO in November 2021 when Dorsey stepped down, an inside-engineer succession that surprised observers who expected a higher-profile external hire. His compensation as CEO was a $1M salary plus roughly $12.5M in stock. The tenure was consumed almost immediately by Musk's bid: Musk agreed to buy Twitter in April 2022, spent months trying to terminate the deal, and was forced to close it in October 2022. On the day the deal closed, Musk fired Agrawal along with CFO Ned Segal, legal head Vijaya Gadde, and general counsel Sean Edgett.
 
-Agrawal and the other ousted executives subsequently sued Musk and [[Twitter]] (by then X Corp) for unpaid severance — Agrawal's individually reported at roughly $42M, with the group claim well into nine figures — alleging Musk fired them "for cause" to avoid the payments. A federal court allowed the suit to proceed. The dispute is the seed of his post-Twitter independence: the severance fight, not a fresh raise, funded the gap before [[Parallel Web Systems]].
+In March 2024 Agrawal and three other ousted executives — CFO Ned Segal, chief legal officer Vijaya Gadde, and general counsel Sean Edgett — sued Musk and [[Twitter]] (by then X Corp) for roughly $128M in unpaid severance ($57M of it Agrawal's, each claiming a year's salary plus stock), alleging Musk fired them "for cause" to avoid the payments as "revenge" for being forced to close the deal. The case settled in October 2025 on undisclosed terms. The dispute is part of the seed of his post-Twitter independence: the severance fight, not a fresh raise, bridged the gap before [[Parallel Web Systems]].
 
 ---
 
@@ -69,4 +69,4 @@ Agrawal is a clean instance of the technical-founder-as-asset pattern: the compa
 - [[Sequoia Capital]], [[Kleiner Perkins]], [[Index Ventures]], [[Khosla Ventures]] — backers of Parallel
 - [[IIT Bombay]], [[Stanford University]] — education
 
-*Created 2026-06-13. Severance figure and litigation status per press reports; confirm against primary court records before citing a precise dollar amount.*
+*Created 2026-06-13; severance verified and updated. Severance suit: ~$57M individual / $128M for the four execs (Agrawal, Segal, Gadde, Edgett), filed Mar 2024, settled Oct 2025 on undisclosed terms (CNBC, CNN, Bloomberg). Other figures per company and press reporting.*
