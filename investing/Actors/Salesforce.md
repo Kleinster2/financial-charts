@@ -113,6 +113,23 @@ AI quality depends on data — Salesforce has the data.
 
 *Source: Company filings. Stock price = fiscal year-end close (Jan). Net income volatile due to acquisitions.*
 
+### GAAP operating margin — the SBC graduation arc
+
+Net income above is a noisy lens (FY2021 shows +$4.1B net while GAAP operating income was actually −$1.72B — the gap is below-the-line tax and strategic-investment items). GAAP operating margin is the clean read, and it tells the canonical story of a high-SBC software company growing into GAAP profitability:
+
+| FY | GAAP operating income | GAAP operating margin |
+|----|----------------------|----------------------|
+| 2020 | $0.20B | +1.2% |
+| 2021 | −$1.72B | −8.1% (trough — heaviest investment/SBC year) |
+| 2022 | −$0.66B | −2.5% |
+| 2023 | $2.92B | +9.3% (activist-pressure cost reset begins) |
+| 2024 | $5.01B | +14.4% |
+| 2025 | $7.21B | +19.0% |
+
+*Source: local `income_statement_annual`.*
+
+The −8.1% to +19.0% climb in four years is the [[Stock-based compensation|stock-based compensation]] wedge closing: SBC stopped growing faster than revenue, headcount discipline arrived under activist pressure ([[Elliott Management]], [[Starboard Value]], 2023), and the gap between the non-GAAP margin (~35%, cited throughout this note) and the GAAP margin narrowed from ~43 points to ~16. Salesforce is the reference case for this transition — and it is why [[Clark Tang]]'s [[Revenue per GW]] chart can plot Salesforce on an honest reported GAAP operating margin (20%) while [[Snowflake]] still needs a non-GAAP figure: SNOW is roughly where CRM was around FY2021-2022, and SNOW's FY2027 SBC guidance traces the same path about a decade behind. See [[Snowflake#The GAAP/SBC wedge|the Snowflake wedge]] for the parallel.
+
 ---
 
 ## Competitive position

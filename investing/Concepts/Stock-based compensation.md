@@ -270,6 +270,27 @@ A viral TikTok (Feb 2026) claimed Meta's "real" FCF drops from $43.6B to $1.6B a
 
 ---
 
+## The operating-margin wedge (income-statement view)
+
+The buyback/FCF sections above are the cash-flow side of SBC. There is a separate income-statement consequence: because GAAP expenses SBC (ASC 718) while non-GAAP results add it back, a company with heavy SBC can simultaneously report a positive non-GAAP operating margin and a negative GAAP operating margin. The gap between the two — the wedge — is approximately SBC as a percent of revenue (plus employer payroll tax on equity and intangible amortization).
+
+This is why the same company can look profitable and unprofitable in the same period depending on which number a chart or pitch deck cites. The wedge is widest for fast-growing software companies still scaling headcount on equity, and it closes as SBC grows slower than revenue.
+
+### Open vs. closed: two canonical cases
+
+| Company | GAAP operating margin | SBC % of revenue | Wedge state |
+|---|---|---|---|
+| [[Snowflake]] | −30.6% (FY2026), repairing from −40.2% | 34% (down from 41-42%) | Open — non-GAAP +9% vs GAAP −31% |
+| [[Salesforce]] | +19.0% (FY2025), up from −8.1% (FY2021) | ~8-9% (down from the high teens) | Closed — non-GAAP ~35% vs GAAP +19% |
+
+[[Salesforce]] is the reference case for the full transition: GAAP operating margin ran −8.1% (FY2021) → −2.5% → +9.3% → +14.4% → +19.0% (FY2025) as SBC fell as a share of revenue under activist pressure ([[Elliott Management]], [[Starboard Value]], 2023). [[Snowflake]] is roughly where Salesforce sat around FY2021-2022 — still GAAP-negative, non-GAAP-positive — with FY2027 guidance tracing the same glide path about a decade behind. Detail in [[Snowflake#The GAAP/SBC wedge|the Snowflake wedge]] and [[Salesforce#GAAP operating margin — the SBC graduation arc|the Salesforce arc]].
+
+### Why it matters for cross-company comparison
+
+When a chart plots companies on different margin bases, SBC is usually the hidden variable. [[Clark Tang]]'s [[Revenue per GW]] framework is a worked example: it plots [[Google]], [[Meta]], [[AWS]], and [[Salesforce]] on reported GAAP operating margins (SBC absorbed, ~4-9% of revenue at those names) but substitutes a non-GAAP figure for [[Snowflake]] and estimated gross margin for the model providers — so the apparent profitability ranking partly reflects which firms have closed the wedge and which have it excluded by construction. Reading any cross-stack margin comparison starts with asking whether SBC is inside or outside each cell.
+
+---
+
 ## Big Tech SBC comparison
 
 | Company | 2024 SBC | Revenue | SBC % Rev | Buyback sterilization |
@@ -329,6 +350,9 @@ Add SBC to capex in the FCF formula. Conceptually treats equity compensation as 
 ## Related
 
 - [[Meta]] — poster child for SBC/buyback dynamics
+- [[Snowflake]] — open operating-margin wedge (GAAP −31% vs non-GAAP +9%)
+- [[Salesforce]] — closed wedge; the graduation reference case (−8.1% → +19.0%)
+- [[Revenue per GW]] — cross-stack chart where the SBC basis decides the apparent margin ranking
 - [[Free cash flow]] — SBC excluded from standard FCF
 - [[Apple]] — gold standard for buyback efficiency (low sterilization)
 - [[Google]] — high absolute SBC but lower % of revenue
