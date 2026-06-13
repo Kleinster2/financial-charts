@@ -116,3 +116,7 @@ Data is the clearest case of value that everyone transacts and no one books. The
 - [[US-China Economic and Security Review Commission]] — flagged the debt-collateral risk
 - [[FTC]] — Toysmart data-sale intervention precedent
 - [[Hoover Institution]] — Kuiken's affiliation
+
+### Cross-vault
+- [Geopolitics: Data as a Factor of Production](obsidian://open?vault=geopolitics&file=Concepts%2FData%20as%20a%20Factor%20of%20Production) — US-China strategic-competition lens (intent vs indifference, data sovereignty)
+- [Technologies: Data as an Asset](obsidian://open?vault=technologies&file=Data%20as%20an%20Asset) — data as AI training feedstock; the measurement problem (non-rivalry, decay, provenance)

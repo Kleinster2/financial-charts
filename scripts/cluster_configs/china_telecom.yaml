@@ -1,0 +1,26 @@
+# China's three big state-owned telecoms — does China Unicom (0762.HK) trade as
+# a member of a tight China-telecom-sector cluster, as generic China equity beta
+# (FXI/KWEB), as a global telecom (T/VZ/TMUS), or as US-market beta (SPY)?
+# All three H-share telecoms have data back to ~2000-02; the "中特估" SOE value-up
+# re-rating (2023+) and a shared early-2025 step-change are the visible common factor.
+# China SOE H-share controls (PetroChina/CNOOC/Sinopec) excluded — only ~329 rows
+# (since 2025-02) in the DB, too short for a multi-year window.
+name: China big-3 telecoms
+primary: 0762.HK
+prefix: china-unicom-cluster
+threshold: 0.5
+window_end: 2026-06-12
+
+groups:
+  cluster:
+    color: "#2962FF"
+    tickers: ["0762.HK", "0941.HK", "0728.HK"]
+  us_telecom:
+    color: "#7E57C2"
+    tickers: [T, VZ, TMUS]
+  china_etf:
+    color: "#26A69A"
+    tickers: [FXI, KWEB]
+  etf:
+    color: "#9E9E9E"
+    tickers: [SPY]
