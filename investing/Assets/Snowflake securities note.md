@@ -44,7 +44,7 @@ Prices from local `prices_long` closes (4 PM ET).
 
 ## Correlation and cluster structure
 
-Validated in the Jun 12, 2026 [[AI SaaS Disruption]] cluster run: SNOW sits in a data-infrastructure sub-cluster with [[Datadog]] and [[MongoDB]] inside the broader AI-SaaS cohort (cohort intra-correlation 0.703; the cohort is inseparable from [[Adobe]] and the [[IGV]] software index at the boundary, while [[Oracle]] detaches as a singleton). Legacy pairwise correlations from the actor note: IGV 0.68, XLK 0.60, SMH 0.53, SPY 0.54. Read-through: SNOW trades as consumption-software beta with an AI-narrative overlay, not as AI infrastructure.
+Per the Jun 12, 2026 [[AI SaaS Disruption]] cluster run (16 names, 0.5 distance threshold), SNOW does not sit with the seat-software cohort — the hierarchical cut puts it in its own data-infrastructure cluster with [[Datadog]] and [[MongoDB]] (Cluster 2 of 4). The run's main factor is the seat-software cohort — [[Salesforce|CRM]], [[Workday]], [[ServiceNow]], [[HubSpot]], [[Monday.com|Monday]], [[Atlassian]] at intra-correlation 0.703 (PC1 75%) — which is inseparable from [[Microsoft]], [[SAP]], [[Adobe]] and the [[IGV]] software index at the boundary, while [[Oracle]] detaches as its own singleton (Cluster 4). So the 0.703 is the seat-software cohort's tightness, not SNOW's; SNOW's cluster is the smaller DDOG/MDB data-infra trio. Legacy pairwise correlations from the actor note: IGV 0.68, XLK 0.60, SMH 0.53, SPY 0.54. Read-through: SNOW trades with the usage-based data-infrastructure names (DDOG/MDB), distinct from both the seat-software disruption cohort and from Oracle's AI-infrastructure singleton.
 
 ---
 
