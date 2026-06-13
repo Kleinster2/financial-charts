@@ -19,9 +19,16 @@ from pathlib import Path
 
 
 def get_file_path_from_stdin():
-    """Extract file_path from hook JSON payload on stdin."""
+    """Extract file_path from hook JSON payload on stdin.
+
+    Read raw bytes and decode UTF-8 explicitly. On Windows, text-mode
+    sys.stdin defaults to cp1252, which mangles multi-byte UTF-8 paths
+    (e.g. CJK note names like 中特估) into mojibake before they ever reach
+    the edit log. The harness always sends UTF-8.
+    """
     try:
-        payload = json.load(sys.stdin)
+        raw = sys.stdin.buffer.read()
+        payload = json.loads(raw.decode("utf-8"))
         return payload.get("tool_input", {}).get("file_path", "")
     except Exception:
         return ""
@@ -120,6 +127,15 @@ def run_compliance_check(file_path, project_dir):
 
 
 def main():
+    # Windows defaults stdout/stderr to cp1252; printing a CJK note name
+    # (中特估) would raise UnicodeEncodeError. Reconfigure to UTF-8 so the
+    # hook's own status prints never crash on non-ASCII note names.
+    for stream in (sys.stdout, sys.stderr):
+        try:
+            stream.reconfigure(encoding="utf-8")
+        except Exception:
+            pass
+
     file_path = get_file_path_from_stdin()
     if not file_path:
         return
