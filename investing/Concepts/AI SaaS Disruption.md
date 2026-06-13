@@ -215,6 +215,8 @@ Mathematical test of the cohort this note treats as one trade — the seat-based
 
 *Hierarchical clustering (1Y, average linkage, distance = 1−|corr|). The six-name cohort assembles by 0.375 and stays intact at every cut above 0.40 — but never alone: ADBE and IGV attach from 0.30, MSFT and SAP by 0.45. ORCL is the only enterprise-software singleton on the panel. Infra SaaS (SNOW/DDOG/MDB) holds as its own separate cluster until 0.60.*
 
+The infra-SaaS trio (SNOW/[[Datadog|DDOG]]/[[MongoDB|MDB]]) was validated separately on Jun 13 as its own candidate cohort (`scripts/cluster_configs/snow.yaml`, primary [[Snowflake|SNOW]]; diagnostics in [[Snowflake securities note]]). It is distinct from the seat cohort here, but on its own it is *also* boundary-dependent (intra-corr 0.553, threshold-stable width 0.00) — real, regime-stable co-movement (random-basket p 0.0026, holdout 0.87) that never forms a clean standalone cluster. The read across both runs: "software" does not partition into clean sub-factors — seat-software, infra-SaaS, ADBE/IGV/MSFT/SAP are one entangled long-duration-growth complex; only [[Oracle|ORCL]] (AI-infra capex) and the market ETFs break out cleanly.
+
 | Diagnostic | Value | Read |
 |---|---|---|
 | Intra-cohort avg correlation (1Y) | 0.703 | Strong cohesion; pairwise range [0.585, 0.792] |

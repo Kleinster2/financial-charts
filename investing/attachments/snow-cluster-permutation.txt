@@ -1,0 +1,37 @@
+Consumption data-infra SaaS PERMUTATION TESTS
+Window: 2025-06-13 -> 2026-06-12 (251 obs)
+Candidate cohort: SNOW, DDOG, MDB (N=3)
+Observed intra-corr: 0.5527    Observed PC1: 70.19%
+
+--- INDEPENDENCE NULL ---
+Permutations: 10000
+Block size: 1
+Intra-cluster correlation:
+  Null mean:        0.0002
+  Null 95th pct:    0.0608
+  Null 99th pct:    0.0914
+  p-value (right):  0.000100    -> REJECTS independence null at p < 0.001
+PC1 explained variance:
+  Null mean:        36.59%
+  Null 95th pct:    39.52%
+  Null 99th pct:    41.51%
+  p-value (right):  0.000100    -> REJECTS independence null at p < 0.001
+
+--- RANDOM-BASKET NULL ---
+Permutations: 10000
+Universe source: DB prices_long (985 tickers with >=200 obs in window)
+Pool size: 227
+Intra-cluster correlation:
+  Null mean:        0.1620
+  Null 95th pct:    0.3659
+  Null 99th pct:    0.4718
+  p-value (right):  0.002600    -> REJECTS random-basket null at p < 0.01
+PC1 explained variance:
+  Null mean:        45.91%
+  Null 95th pct:    58.51%
+  Null 99th pct:    65.30%
+  p-value (right):  0.002800    -> REJECTS random-basket null at p < 0.01
+
+--- INTERPRETATION ---
+Independence null rejected: the cohort series co-move (necessary, not sufficient).
+Random-basket null rejected: cohort is more cohesive than a random N-pick from the same universe. This is the meaningful pass.

@@ -1,0 +1,33 @@
+# Consumption / usage-based data-infrastructure SaaS — the trio that fell out of
+# the [[AI SaaS Disruption]] run as its own Cluster 2 (SNOW/DDOG/MDB), separate
+# from the seat-software cohort. This validates them AS the candidate cohort:
+# do Snowflake (cloud data warehouse), Datadog (observability) and MongoDB
+# (managed database) trade as one consumption-infra factor, and is it
+# specifically these three or a broader usage-based-infra group?
+#   - infra_boundary (NET Cloudflare, ESTC Elastic): usage-based infra-SaaS left
+#     OUT of the candidate — let the dendrogram say whether the cohort is the
+#     trio or the wider consumption-infra set. CFLT (Confluent) excluded: series
+#     ends 2026-03-17 (stale), would distort the 1Y window.
+#   - seat_saas (CRM/NOW/WDAY/TEAM): the distinctness control. If the candidate
+#     fuses with these, the market prices generic software beta, not a
+#     consumption-infra factor.
+#   - etf (IGV/QQQ/SPY): software + market-beta baseline.
+name: Consumption data-infra SaaS
+primary: SNOW
+prefix: snow-cluster
+threshold: 0.4
+window_end: 2026-06-12
+
+groups:
+  cluster:
+    color: "#2962FF"
+    tickers: [SNOW, DDOG, MDB]
+  infra_boundary:
+    color: "#00897B"
+    tickers: [NET, ESTC]
+  seat_saas:
+    color: "#7E57C2"
+    tickers: [CRM, NOW, WDAY, TEAM]
+  etf:
+    color: "#9E9E9E"
+    tickers: [IGV, QQQ, SPY]

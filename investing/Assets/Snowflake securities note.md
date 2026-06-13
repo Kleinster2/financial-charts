@@ -44,7 +44,22 @@ Prices from local `prices_long` closes (4 PM ET).
 
 ## Correlation and cluster structure
 
-Per the Jun 12, 2026 [[AI SaaS Disruption]] cluster run (16 names, 0.5 distance threshold), SNOW does not sit with the seat-software cohort — the hierarchical cut puts it in its own data-infrastructure cluster with [[Datadog]] and [[MongoDB]] (Cluster 2 of 4). The run's main factor is the seat-software cohort — [[Salesforce|CRM]], [[Workday]], [[ServiceNow]], [[HubSpot]], [[Monday.com|Monday]], [[Atlassian]] at intra-correlation 0.703 (PC1 75%) — which is inseparable from [[Microsoft]], [[SAP]], [[Adobe]] and the [[IGV]] software index at the boundary, while [[Oracle]] detaches as its own singleton (Cluster 4). So the 0.703 is the seat-software cohort's tightness, not SNOW's; SNOW's cluster is the smaller DDOG/MDB data-infra trio. Legacy pairwise correlations from the actor note: IGV 0.68, XLK 0.60, SMH 0.53, SPY 0.54. Read-through: SNOW trades with the usage-based data-infrastructure names (DDOG/MDB), distinct from both the seat-software disruption cohort and from Oracle's AI-infrastructure singleton.
+SNOW/[[Datadog|DDOG]]/[[MongoDB|MDB]] surfaced as a separate grouping ("Cluster 2") inside the Jun-12 [[AI SaaS Disruption]] run, so on Jun 13 the trio was validated as its own candidate cohort (`scripts/cluster_configs/snow.yaml`, primary SNOW) against the full Gate-11 suite. The verdict: real but not distinct — a coherent slice of high-multiple software beta, not a separable "consumption data-infra" factor.
+
+![[snow-cluster-dendrogram-1y.png]]
+*1Y hierarchical clustering (avg linkage on 1−|corr|). SNOW/DDOG/MDB (blue, right) fuse only at ~0.43-0.46 and then join the seat-software complex (CRM/[[ServiceNow|NOW]]/[[Workday|WDAY]]/[[Atlassian|TEAM]]/[[IGV]], green) at ~0.49 — tighter than where the supposed consumption-infra peers attach ([[Cloudflare|NET]] joins at ~0.58; Elastic (ESTC) sits inside the seat-software cluster). The trio is closer to broad software than to its own thesis.*
+
+| Diagnostic | Value | Reading |
+|---|---|---|
+| Intra-cohort correlation (1Y) | 0.553 | Moderate — below the 0.6 "coherent sub-sector" bar |
+| PC1 explained variance | 70.2% | High, but mechanical at N=3 |
+| Random-basket p-value | 0.0026 | PASS — more cohesive than a random 3-pick (null mean 0.16) |
+| Holdout stability (test/train) | 0.87 | STABLE — factor structure durable across regimes (loadings corr 0.91) |
+| Threshold-scan clean width | 0.00 | FAIL — never a clean standalone cluster at any threshold |
+
+The two failing-vs-passing diagnostics are the whole story: the co-movement is real (permutation) and regime-durable (holdout), but there is no threshold where {SNOW, DDOG, MDB} clusters cleanly — tight enough to exclude seat-software (≤0.45) and the trio doesn't cohere; loose enough to bind it (≥0.50) and CRM/NOW/WDAY/TEAM/ESTC contaminate. The Jun-12 "Cluster 2" was a leftover artifact of a seat-heavy universe (the seat names fused into Cluster 1 first, dropping the trio out together). This is the [[Mag 7 cluster|Mag 7]] signature — passes the random-basket null, killed by zero threshold width.
+
+Legacy pairwise correlations from the actor note: [[IGV]] 0.68, [[XLK]] 0.60, [[SMH]] 0.53, [[SPY]] 0.54. Read-through: SNOW trades as long-duration / high-multiple software beta — co-moving with DDOG/MDB and the wider software complex — not as a distinct data-infrastructure factor.
 
 ---
 
@@ -60,7 +75,7 @@ The equity question is supply, not solvency: $1,599.5M of stock-based compensati
 - [[Snowflake]] — actor note (strategy, financials, the GAAP/SBC wedge)
 
 ### Peers / cluster
-- [[Datadog]], [[MongoDB]] — data-infrastructure sub-cluster co-members
+- [[Datadog]], [[MongoDB]] — co-move with SNOW, but validated as a non-distinct grouping (boundary-dependent; see Correlation and cluster structure)
 - [[Palantir]] — profitability-premium contrast
 - [[AI SaaS Disruption]] — validated cohort and diagnostics
 

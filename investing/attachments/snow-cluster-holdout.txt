@@ -1,0 +1,22 @@
+Consumption data-infra SaaS HOLDOUT TEST
+Cohort: SNOW, DDOG, MDB (N=3)
+Window: 2y, split temporally at midpoint
+Train: 2024-06-12 -> 2025-06-12 (249 obs)
+Test:  2025-06-12 -> 2026-06-12 (252 obs)
+
+--- TRAIN HALF (older) ---
+Intra-correlation:    0.6348
+PC1 explained var:    75.67%
+Pairwise range:       [0.597, 0.678]
+
+--- TEST HALF (newer) ---
+Intra-correlation:    0.5524
+PC1 explained var:    70.18%
+Pairwise range:       [0.514, 0.579]
+
+--- STABILITY DIAGNOSTICS ---
+Intra-corr delta:     -0.0824   (test - train)
+PC1 variance delta:   -5.50pp
+PC1 loadings corr:    0.9105    (1.0 = identical factor structure)
+
+VERDICT: STABLE — test/train ratio 0.87 (durable cluster across regimes)

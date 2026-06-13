@@ -1,0 +1,29 @@
+Consumption data-infra SaaS THRESHOLD STABILITY SCAN
+Cohort size: 3
+
+--- ASSIGNMENT TABLE ---
+ threshold  n_subclusters  largest_subcluster_size  cohort_share_in_largest  contamination_count  intact
+      0.20              3                        1                    0.333                    0   False
+      0.25              3                        1                    0.333                    0   False
+      0.30              3                        1                    0.333                    0   False
+      0.35              3                        1                    0.333                    0   False
+      0.40              3                        1                    0.333                    0   False
+      0.45              2                        2                    0.667                    0   False
+      0.50              1                        3                    1.000                    6   False
+      0.55              1                        3                    1.000                    6   False
+      0.60              1                        3                    1.000                    7   False
+      0.65              1                        3                    1.000                    7   False
+      0.70              1                        3                    1.000                    7   False
+
+--- STABLE RANGES (intact cohort, no contamination) ---
+  None — cohort never returns as a clean single cluster at any threshold.
+
+--- VERDICT ---
+BOUNDARY-DEPENDENT: cohort does not form a clean cluster at any threshold tested. Falsification candidate.
+
+--- CONTAMINATION DETAIL (non-cohort names joining the cohort's largest cluster) ---
+  threshold 0.50: + ESTC,CRM,NOW,WDAY,TEAM...
+  threshold 0.55: + ESTC,CRM,NOW,WDAY,TEAM...
+  threshold 0.60: + NET,ESTC,CRM,NOW,WDAY...
+  threshold 0.65: + NET,ESTC,CRM,NOW,WDAY...
+  threshold 0.70: + NET,ESTC,CRM,NOW,WDAY...

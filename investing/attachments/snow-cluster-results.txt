@@ -1,0 +1,72 @@
+Consumption data-infra SaaS CLUSTER ANALYSIS
+Window 1y: 2025-06-18 -> 2026-06-12 (195 obs)
+Window 2y: 2024-07-15 -> 2026-06-12 (253 obs)
+Universe: 12 tickers across 4 groups
+Dendrogram cut threshold: 0.4
+
+--- 1Y INTRA-CLUSTER PAIRWISE CORRELATIONS ---
+Ticker  SNOW  DDOG   MDB
+Ticker                  
+SNOW    1.00  0.57  0.57
+DDOG    0.57  1.00  0.51
+MDB     0.57  0.51  1.00
+Average intra-cluster correlation: 0.553
+Range: [0.514, 0.573]
+
+--- AVG GROUP-PAIR CORRELATIONS (1Y) ---
+             cluster  infra_b  seat_sa      etf
+    cluster    0.553    0.505    0.463    0.386
+infra_bound    0.505    0.426    0.483    0.387
+  seat_saas    0.463    0.483    0.746    0.346
+        etf    0.386    0.387    0.346    0.666
+
+Cluster vs others:
+  cluster vs infra_boundary: 0.505  (intra advantage: +0.048)
+  cluster vs seat_saas : 0.463  (intra advantage: +0.090)
+  cluster vs etf       : 0.386  (intra advantage: +0.167)
+
+--- HIERARCHICAL CLUSTERS (1Y, distance threshold 0.4) ---
+  Cluster 1: QQQ, SPY
+  Cluster 2: ESTC, CRM, NOW, WDAY, TEAM, IGV
+  Cluster 3: SNOW
+  Cluster 4: DDOG
+  Cluster 5: MDB
+  Cluster 6: NET
+
+--- CANDIDATE JOIN DISTANCES (1Y, average linkage, distance = 1-|corr|) ---
+ Step Left     Right Distance       Members
+    1 SNOW      DDOG    0.427     SNOW+DDOG
+    2  MDB SNOW+DDOG    0.456 MDB+SNOW+DDOG
+
+--- PCA ON CANDIDATE COHORT (1Y) ---
+Explained variance ratio:
+  PC1: 70.24%
+  PC2: 16.18%
+  PC3: 13.58%
+
+PC1 loadings:
+SNOW    0.590
+DDOG    0.571
+MDB     0.571
+
+--- PC1 INDEX WEIGHTS (1Y) ---
+PCA is run on standardized daily log returns. Raw PC1-mimic weights scale PC1 loading by inverse realized volatility.
+     PC1 loading Loading weight Ann vol Raw PC1-mimic weight
+SNOW       0.590         34.10%  67.70%               35.23%
+DDOG       0.571         32.95%  66.47%               34.68%
+MDB        0.571         32.95%  76.60%               30.09%
+
+--- WEEKLY-RETURN CROSS-CHECK (1Y, async-close robustness) ---
+Weeks: 39   Weekly intra-corr: 0.503 (daily 0.553)   Weekly PC1: 67.0% (daily 70.2%)
+
+--- HISTORICAL TIGHTNESS EVOLUTION (90D ROLLING) ---
+     Avg corr    PC1 Core corr Satellite corr Final join distance
+Date                                                             
+2021    0.546  69.8%     0.546            nan               0.476
+2022    0.834  88.9%     0.834            nan               0.190
+2023    0.743  82.9%     0.743            nan               0.278
+2024    0.568  71.3%     0.568            nan               0.461
+2025    0.595  73.0%     0.595            nan               0.437
+2026    0.594  73.1%     0.594            nan               0.457
+
+Latest 90D: avg corr 0.614, PC1 74.3%, core corr 0.614, satellite corr nan, final join distance 0.400
