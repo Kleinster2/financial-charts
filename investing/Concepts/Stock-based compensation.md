@@ -18,40 +18,40 @@ tags:
 
 ### Stock options
 
-**Right to buy shares at a fixed price (strike/exercise price) after vesting.**
+Right to buy shares at a fixed price (strike/exercise price) after vesting.
 
 | Term | Meaning |
 |------|---------|
-| **Grant date** | When options are awarded |
-| **Strike price** | Fixed purchase price (usually FMV at grant) |
-| **Vesting** | Period before options become exercisable |
-| **Exercise** | Employee pays strike price, receives shares |
-| **Expiration** | Options expire if not exercised (typically 10 years) |
+| Grant date | When options are awarded |
+| Strike price | Fixed purchase price (usually FMV at grant) |
+| Vesting | Period before options become exercisable |
+| Exercise | Employee pays strike price, receives shares |
+| Expiration | Options expire if not exercised (typically 10 years) |
 
-**Example:** Employee gets 10,000 options at $100 strike, 4-year vest. After 2 years, 5,000 are vested. Stock is at $200. Employee exercises: pays $100 × 5,000 = $500K, gets shares worth $1M. Profit = $500K.
+Example: Employee gets 10,000 options at $100 strike, 4-year vest. After 2 years, 5,000 are vested. Stock is at $200. Employee exercises: pays $100 × 5,000 = $500K, gets shares worth $1M. Profit = $500K.
 
-**Two types:**
-- **ISOs (Incentive Stock Options)** — tax-advantaged, only for employees, $100K/year cap, AMT risk
-- **NSOs (Non-Qualified Stock Options)** — taxed as ordinary income at exercise, no cap, available to anyone (contractors, advisors)
+Two types:
+- ISOs (Incentive Stock Options) — tax-advantaged, only for employees, $100K/year cap, AMT risk
+- NSOs (Non-Qualified Stock Options) — taxed as ordinary income at exercise, no cap, available to anyone (contractors, advisors)
 
-**Key risk:** Options can be **underwater** (stock below strike) → worthless. This is why options fell out of favor after the 2000 dot-com crash.
+Key risk: Options can be underwater (stock below strike) → worthless. This is why options fell out of favor after the 2000 dot-com crash.
 
 ### Restricted Stock Units (RSUs)
 
-**Promise to deliver shares after vesting. No strike price — they're always worth something.**
+Promise to deliver shares after vesting. No strike price — they're always worth something.
 
 | Term | Meaning |
 |------|---------|
-| **Grant** | Company promises X shares |
-| **Vesting** | Shares delivered on schedule |
-| **Settlement** | Actual shares deposited in brokerage |
-| **Tax event** | Ordinary income at FMV on vesting date |
+| Grant | Company promises X shares |
+| Vesting | Shares delivered on schedule |
+| Settlement | Actual shares deposited in brokerage |
+| Tax event | Ordinary income at FMV on vesting date |
 
-**Standard vesting:** 4-year with 1-year cliff. 25% vests at year 1, then monthly/quarterly thereafter.
+Standard vesting: 4-year with 1-year cliff. 25% vests at year 1, then monthly/quarterly thereafter.
 
-**Why RSUs dominate now:** After the 2008 crash, underwater options were useless for retention. RSUs always have value, making them better golden handcuffs. ~90% of Big Tech SBC is RSUs today.
+Why RSUs dominate now: After the 2008 crash, underwater options were useless for retention. RSUs always have value, making them better golden handcuffs. ~90% of Big Tech SBC is RSUs today.
 
-**Sell-to-cover:** Most employees immediately sell enough shares at vesting to cover the tax bill (~37-50% marginal rate). This creates predictable selling pressure on vesting dates.
+Sell-to-cover: Most employees immediately sell enough shares at vesting to cover the tax bill (~37-50% marginal rate). This creates predictable selling pressure on vesting dates.
 
 ### Performance Stock Units (PSUs)
 
@@ -67,17 +67,17 @@ Employees buy stock at a discount (typically 15%) through payroll deductions. Us
 
 | Type | Structure | Common at |
 |------|-----------|-----------|
-| **4-year with 1-year cliff** | 0% year 1, 25% at cliff, then monthly | Standard tech (Google, Meta, most startups) |
-| **4-year quarterly** | 6.25% per quarter, no cliff | Some public companies |
-| **3-year annual** | 33% per year | Microsoft, some finance |
-| **Back-loaded** | 5/15/40/40 over 4 years | Amazon (infamous) |
-| **Front-loaded** | Large initial grant, smaller refreshers | Apple tendency |
+| 4-year with 1-year cliff | 0% year 1, 25% at cliff, then monthly | Standard tech (Google, Meta, most startups) |
+| 4-year quarterly | 6.25% per quarter, no cliff | Some public companies |
+| 3-year annual | 33% per year | Microsoft, some finance |
+| Back-loaded | 5/15/40/40 over 4 years | Amazon (infamous) |
+| Front-loaded | Large initial grant, smaller refreshers | Apple tendency |
 
-**Amazon's back-loading:** Only 5% vests in year 1, 15% in year 2, then 40% in each of years 3-4. Designed to filter out short-tenure employees. Paired with cash signing bonuses to compensate for low early vesting.
+Amazon's back-loading: Only 5% vests in year 1, 15% in year 2, then 40% in each of years 3-4. Designed to filter out short-tenure employees. Paired with cash signing bonuses to compensate for low early vesting.
 
-**Refresh grants:** Annual additional RSU grants to retain employees. The "golden handcuffs" — at any given time, an employee has unvested equity across multiple overlapping grants. Leaving = forfeiting all unvested shares.
+Refresh grants: Annual additional RSU grants to retain employees. The "golden handcuffs" — at any given time, an employee has unvested equity across multiple overlapping grants. Leaving = forfeiting all unvested shares.
 
-**Cliff risk:** If an employee is fired before the 1-year cliff, they get nothing. Creates perverse incentives around performance reviews near cliff dates.
+Cliff risk: If an employee is fired before the 1-year cliff, they get nothing. Creates perverse incentives around performance reviews near cliff dates.
 
 ---
 
@@ -87,45 +87,45 @@ Employees buy stock at a discount (typically 15%) through payroll deductions. Us
 
 | Company | Primary instrument | Vesting | Structure | Notable features |
 |---------|-------------------|---------|-----------|------------------|
-| **[[Google\|Alphabet]]** | RSUs | 4yr, 1yr cliff, then quarterly | Standard | Generous refreshers; ~$22B annual SBC (2024) |
-| **[[Amazon]]** | RSUs | 4yr back-loaded: 5/15/40/40 | Unique | Cash signing bonus offsets low early vesting. ~$20-22B SBC. Highest attrition pressure from schedule |
-| **[[Apple]]** | RSUs | 4yr, annual vesting (25%/yr) | Front-loaded grants | Lower SBC/revenue (~2.8%) than peers. Large initial grants, smaller refreshers. Gold standard for buyback efficiency |
-| **[[Meta]]** | RSUs | 4yr, 1yr cliff, then quarterly | Standard | ~$20.4B SBC (2025). Cut equity awards 5% (2026), 10% (2025). 82% buyback sterilization |
-| **[[Microsoft]]** | RSUs | 4yr, annual vesting (25%/yr) | Standard | ~$10B SBC. Some PSUs for executives. Lower sterilization than Meta |
-| **[[NVIDIA]]** | RSUs | 4yr, 1yr cliff, then semi-annually | Standard | Semi-annual vesting dates (every 6 months). Refreshers based on performance scale (5-9). Massive paper wealth creation from stock run-up |
-| **[[Tesla]]** | Stock options + RSUs | Varies; options historically dominant | Options-heavy | Musk's $56B option package (voided by Delaware court, reapproved in Texas). Options used more than RSUs historically. Lower base salary, higher option leverage |
+| [[Google\|Alphabet]] | RSUs | 4yr, 1yr cliff, then quarterly | Standard | Generous refreshers; ~$22B annual SBC (2024) |
+| [[Amazon]] | RSUs | 4yr back-loaded: 5/15/40/40 | Unique | Cash signing bonus offsets low early vesting. ~$20-22B SBC. Highest attrition pressure from schedule |
+| [[Apple]] | RSUs | 4yr, annual vesting (25%/yr) | Front-loaded grants | Lower SBC/revenue (~2.8%) than peers. Large initial grants, smaller refreshers. Gold standard for buyback efficiency |
+| [[Meta]] | RSUs | 4yr, 1yr cliff, then quarterly | Standard | ~$20.4B SBC (2025). Cut equity awards 5% (2026), 10% (2025). 82% buyback sterilization |
+| [[Microsoft]] | RSUs | 4yr, annual vesting (25%/yr) | Standard | ~$10B SBC. Some PSUs for executives. Lower sterilization than Meta |
+| [[NVIDIA]] | RSUs | 4yr, 1yr cliff, then semi-annually | Standard | Semi-annual vesting dates (every 6 months). Refreshers based on performance scale (5-9). Massive paper wealth creation from stock run-up |
+| [[Tesla]] | Stock options + RSUs | Varies; options historically dominant | Options-heavy | Musk's $56B option package (voided by Delaware court, reapproved in Texas). Options used more than RSUs historically. Lower base salary, higher option leverage |
 
 ### Non-Mag 7 notable approaches
 
 | Company | Approach | Why it's different |
 |---------|----------|--------------------|
-| **Netflix** | **Cash-first + stock options** | Employees choose how much salary to allocate to options (purchased at 40% of market price). No RSUs. Highest cash comp in tech. Philosophy: let employees decide their own risk appetite |
-| **Stripe** (private) | RSUs with annual conversion | RSUs converted to cash value yearly — limits both upside and downside. Double-trigger vesting (time + liquidity event). Controversial among employees |
-| **[[Salesforce]]** | RSUs | 4yr, quarterly vesting | Standard with PSUs for senior leaders |
-| **Palantir** | RSUs + options | Heavy SBC — ~25-30% of revenue historically. Among the worst SBC/revenue ratios in tech |
-| **Coinbase** | RSUs | 4yr, 1yr cliff, quarterly | Standard. High SBC relative to revenue given crypto volatility |
-| **Uber** | RSUs | 4yr, 1yr cliff, quarterly | Standard. SBC ~15% of revenue — improving but still high |
+| Netflix | Cash-first + stock options | Employees choose how much salary to allocate to options (purchased at 40% of market price). No RSUs. Highest cash comp in tech. Philosophy: let employees decide their own risk appetite |
+| Stripe (private) | RSUs with annual conversion | RSUs converted to cash value yearly — limits both upside and downside. Double-trigger vesting (time + liquidity event). Controversial among employees |
+| [[Salesforce]] | RSUs | 4yr, quarterly vesting | Standard with PSUs for senior leaders |
+| Palantir | RSUs + options | Heavy SBC — ~25-30% of revenue historically. Among the worst SBC/revenue ratios in tech |
+| Coinbase | RSUs | 4yr, 1yr cliff, quarterly | Standard. High SBC relative to revenue given crypto volatility |
+| Uber | RSUs | 4yr, 1yr cliff, quarterly | Standard. SBC ~15% of revenue — improving but still high |
 
 ### Private companies (startups)
 
 | Stage | Typical instrument | Notes |
 |-------|-------------------|-------|
-| **Pre-seed/Seed** | Stock options (ISOs) | Low strike price (409A valuation). High upside if company succeeds. 4yr vest, 1yr cliff standard |
-| **Series A-C** | Stock options (ISOs) | Strike price rising with each round. Early employees have lowest strikes |
-| **Late-stage** | Mix of options + RSUs | RSUs become more common as IPO approaches. Double-trigger vesting (time + IPO/acquisition) protects employees from tax on illiquid stock |
-| **Pre-IPO** | RSUs with double-trigger | Standard at Stripe, SpaceX, etc. No tax event until both vesting AND liquidity event occur |
+| Pre-seed/Seed | Stock options (ISOs) | Low strike price (409A valuation). High upside if company succeeds. 4yr vest, 1yr cliff standard |
+| Series A-C | Stock options (ISOs) | Strike price rising with each round. Early employees have lowest strikes |
+| Late-stage | Mix of options + RSUs | RSUs become more common as IPO approaches. Double-trigger vesting (time + IPO/acquisition) protects employees from tax on illiquid stock |
+| Pre-IPO | RSUs with double-trigger | Standard at Stripe, SpaceX, etc. No tax event until both vesting AND liquidity event occur |
 
-**Double-trigger explained:** At public companies, RSUs vest and immediately create a tax event (you owe income tax on shares you received). At private companies, double-trigger delays the tax event until a liquidity event (IPO, acquisition, or tender offer). Without this, employees would owe tax on stock they can't sell.
+Double-trigger explained: At public companies, RSUs vest and immediately create a tax event (you owe income tax on shares you received). At private companies, double-trigger delays the tax event until a liquidity event (IPO, acquisition, or tender offer). Without this, employees would owe tax on stock they can't sell.
 
 ### By philosophy
 
 | Philosophy | Companies | Logic |
 |------------|-----------|-------|
-| **Cash-first** | Netflix | Adults can decide what to do with their own money. Reduces golden handcuffs, but also reduces retention |
-| **Equity-heavy** | Tesla, Palantir, early-stage startups | Aligns employees with long-term stock performance. Attracts believers, repels mercenaries |
-| **Back-loaded retention** | Amazon | Forces employees to stay 3-4 years for the bulk of their equity. High attrition in years 1-2 is a feature, not a bug |
-| **Balanced** | Google, Meta, Microsoft, Apple | Standard 4-year vest, competitive refreshers. Retention through continuous new grants rather than schedule manipulation |
-| **Performance-gated** | Executive PSUs everywhere | Vest only if targets hit. Strongest alignment but can incentivize short-term metric gaming |
+| Cash-first | Netflix | Adults can decide what to do with their own money. Reduces golden handcuffs, but also reduces retention |
+| Equity-heavy | Tesla, Palantir, early-stage startups | Aligns employees with long-term stock performance. Attracts believers, repels mercenaries |
+| Back-loaded retention | Amazon | Forces employees to stay 3-4 years for the bulk of their equity. High attrition in years 1-2 is a feature, not a bug |
+| Balanced | Google, Meta, Microsoft, Apple | Standard 4-year vest, competitive refreshers. Retention through continuous new grants rather than schedule manipulation |
+| Performance-gated | Executive PSUs everywhere | Vest only if targets hit. Strongest alignment but can incentivize short-term metric gaming |
 
 ---
 
@@ -135,20 +135,20 @@ Employees buy stock at a discount (typically 15%) through payroll deductions. Us
 
 | Event | Options (NSO) | RSUs |
 |-------|---------------|------|
-| **Grant** | No tax | No tax |
-| **Vesting** | No tax | Ordinary income on FMV |
-| **Exercise** | Ordinary income on spread (FMV − strike) | N/A |
-| **Sale** | Capital gains on post-exercise appreciation | Capital gains on post-vest appreciation |
+| Grant | No tax | No tax |
+| Vesting | No tax | Ordinary income on FMV |
+| Exercise | Ordinary income on spread (FMV − strike) | N/A |
+| Sale | Capital gains on post-exercise appreciation | Capital gains on post-vest appreciation |
 
 ### For companies
 
 | Benefit | Detail |
 |---------|--------|
-| **Tax deduction** | Company deducts SBC at exercise/vesting value (not grant-date expense) |
-| **Deduction > expense** | If stock rises between grant and vest, tax deduction exceeds GAAP expense |
-| **Cash tax savings** | Meta saved ~$4-5B in taxes annually from SBC deductions |
+| Tax deduction | Company deducts SBC at exercise/vesting value (not grant-date expense) |
+| Deduction > expense | If stock rises between grant and vest, tax deduction exceeds GAAP expense |
+| Cash tax savings | Meta saved ~$4-5B in taxes annually from SBC deductions |
 
-**The tax windfall:** When stock rises significantly, the company's tax deduction (based on vesting-date value) far exceeds the GAAP expense (based on grant-date fair value). This creates a cash tax benefit that shows up in operating cash flow — further inflating reported FCF.
+The tax windfall: When stock rises significantly, the company's tax deduction (based on vesting-date value) far exceeds the GAAP expense (based on grant-date fair value). This creates a cash tax benefit that shows up in operating cash flow — further inflating reported FCF.
 
 ### Section 409A (private companies)
 
@@ -160,24 +160,24 @@ Private company stock must be independently valued (409A valuation) to set exerc
 
 | Rule | Detail |
 |------|--------|
-| **ASC 718** | SBC must be expensed at fair value on income statement |
-| **Grant-date measurement** | Options valued using Black-Scholes or Monte Carlo at grant |
-| **RSU measurement** | Valued at stock price on grant date |
-| **Amortization** | Expense recognized ratably over vesting period |
-| **Non-cash addback** | Added back to operating cash flow on cash flow statement |
+| ASC 718 | SBC must be expensed at fair value on income statement |
+| Grant-date measurement | Options valued using Black-Scholes or Monte Carlo at grant |
+| RSU measurement | Valued at stock price on grant date |
+| Amortization | Expense recognized ratably over vesting period |
+| Non-cash addback | Added back to operating cash flow on cash flow statement |
 
-**Pre-2006:** Companies could use "intrinsic value" method → at-the-money options had zero expense. SFAS 123R (now ASC 718) closed this loophole.
+Pre-2006: Companies could use "intrinsic value" method → at-the-money options had zero expense. SFAS 123R (now ASC 718) closed this loophole.
 
 ---
 
 ## Mechanics (summary)
 
-1. **Company grants RSUs/options** to employees as part of compensation
-2. **Expense recognized** on income statement over vesting period (non-cash)
-3. **Shares issued** when they vest/exercise → dilutes existing shareholders
-4. **Company withholds shares** for tax (sell-to-cover) or employee sells
-5. **Company buys back shares** to offset dilution → costs real cash
-6. **SBC is excluded from FCF** because it's a "non-cash" expense under GAAP
+1. Company grants RSUs/options to employees as part of compensation
+2. Expense recognized on income statement over vesting period (non-cash)
+3. Shares issued when they vest/exercise → dilutes existing shareholders
+4. Company withholds shares for tax (sell-to-cover) or employee sells
+5. Company buys back shares to offset dilution → costs real cash
+6. SBC is excluded from FCF because it's a "non-cash" expense under GAAP
 
 The paradox: SBC is "non-cash" on the income statement, but requires cash buybacks to prevent dilution. The cash cost is real — it just shows up in a different line item (financing activities, not operations).
 
@@ -185,29 +185,29 @@ The paradox: SBC is "non-cash" on the income statement, but requires cash buybac
 
 ## The FCF debate
 
-**Standard FCF formula:**
+Standard FCF formula:
 ```
 FCF = Operating Cash Flow − Capex
 ```
 
 SBC is added back to operating cash flow (non-cash item), so FCF looks higher than it would if employees were paid in cash.
 
-**Adjusted FCF (SBC-inclusive):**
+Adjusted FCF (SBC-inclusive):
 ```
 Adjusted FCF = Operating Cash Flow − Capex − SBC
 ```
 
-**Why it matters:** A company with $40B FCF and $20B SBC has very different economics than one with $40B FCF and $2B SBC, even though both report the same headline FCF.
+Why it matters: A company with $40B FCF and $20B SBC has very different economics than one with $40B FCF and $2B SBC, even though both report the same headline FCF.
 
 ### Three schools of thought
 
 | Approach | Treatment | Used by |
 |----------|-----------|---------|
-| **Ignore SBC** | Use reported FCF as-is | Most sell-side, momentum investors |
-| **Subtract SBC from FCF** | Treat SBC as a cash-equivalent expense | Buffett, value investors, some buyside |
-| **Use diluted share count** | Don't adjust FCF, but value on fully diluted basis | Middle ground approach |
+| Ignore SBC | Use reported FCF as-is | Most sell-side, momentum investors |
+| Subtract SBC from FCF | Treat SBC as a cash-equivalent expense | Buffett, value investors, some buyside |
+| Use diluted share count | Don't adjust FCF, but value on fully diluted basis | Middle ground approach |
 
-**Buffett's view:** "If options aren't a form of compensation, what are they? If compensation isn't an expense, what is it? And if expenses shouldn't go into the calculation of earnings, where in the world should they go?"
+Buffett's view: "If options aren't a form of compensation, what are they? If compensation isn't an expense, what is it? And if expenses shouldn't go into the calculation of earnings, where in the world should they go?"
 
 ---
 
@@ -215,7 +215,7 @@ Adjusted FCF = Operating Cash Flow − Capex − SBC
 
 Companies issue shares via SBC → must buy them back to prevent dilution → buybacks "sterilize" SBC but consume real cash.
 
-**The trap:** Investors see headline buyback numbers and assume shareholder-friendly capital return. In reality, a large % of buybacks merely offset SBC dilution — shareholders aren't getting richer, they're staying even.
+The trap: Investors see headline buyback numbers and assume shareholder-friendly capital return. In reality, a large % of buybacks merely offset SBC dilution — shareholders aren't getting richer, they're staying even.
 
 ### Sterilization ratio
 
@@ -249,7 +249,7 @@ Higher ratio = more buybacks wasted on treading water vs. actual share count red
 |--------|-------|
 | Total buybacks (2017-2025) | ~$148B |
 | Share count reduction | Only 3.9% |
-| Sterilization rate | **82%** of buybacks offset SBC |
+| Sterilization rate | 82% of buybacks offset SBC |
 | FCF consumed by sterilization | ~64% over period |
 
 Only 18% of $148B in buybacks actually reduced the float. The rest just offset dilution.
@@ -258,11 +258,11 @@ Only 18% of $148B in buybacks actually reduced the float. The rest just offset d
 
 A viral TikTok (Feb 2026) claimed Meta's "real" FCF drops from $43.6B to $1.6B after subtracting $42B in SBC. The math is flawed:
 
-1. **SBC was ~$20B, not $42B.** The video inflated the number by ~2×
-2. **Double-counting.** If you subtract SBC from FCF, you can't also count the buyback cash spent to offset that same SBC. The cost is already reflected in lower net cash
-3. **"1,000× FCF" is nonsensical.** Even using adjusted FCF ($43.6B − $20.4B = ~$23.2B), Meta trades at ~70× adjusted FCF — expensive but not absurd
+1. SBC was ~$20B, not $42B. The video inflated the number by ~2×
+2. Double-counting. If you subtract SBC from FCF, you can't also count the buyback cash spent to offset that same SBC. The cost is already reflected in lower net cash
+3. "1,000× FCF" is nonsensical. Even using adjusted FCF ($43.6B − $20.4B = ~$23.2B), Meta trades at ~70× adjusted FCF — expensive but not absurd
 
-**What IS fair criticism:**
+What IS fair criticism:
 - 82% buyback sterilization is genuinely high
 - SBC as ~10% of revenue is a real cost investors should adjust for
 - The gap between reported FCF and SBC-adjusted FCF is material (~$20B)
@@ -283,7 +283,10 @@ This is why the same company can look profitable and unprofitable in the same pe
 | [[Snowflake]] | −30.6% (FY2026), repairing from −40.2% | 34% (down from 41-42%) | Open — non-GAAP +9% vs GAAP −31% |
 | [[Salesforce]] | +19.0% (FY2025), up from −8.1% (FY2021) | ~8-9% (down from the high teens) | Closed — non-GAAP ~35% vs GAAP +19% |
 
-[[Salesforce]] is the reference case for the full transition: GAAP operating margin ran −8.1% (FY2021) → −2.5% → +9.3% → +14.4% → +19.0% (FY2025) as SBC fell as a share of revenue under activist pressure ([[Elliott Management]], [[Starboard Value]], 2023). [[Snowflake]] is roughly where Salesforce sat around FY2021-2022 — still GAAP-negative, non-GAAP-positive — with FY2027 guidance tracing the same glide path about a decade behind. Detail in [[Snowflake#The GAAP/SBC wedge|the Snowflake wedge]] and [[Salesforce#GAAP operating margin — the SBC graduation arc|the Salesforce arc]].
+[[Salesforce]] is the reference case for the full transition: GAAP operating margin ran −8.1% (FY2021) → −2.5% → +9.3% → +14.4% → +19.0% → +20.1% (FY2026) as SBC fell as a share of revenue under activist pressure ([[Elliott Management]], [[Starboard Value]], 2023). [[Snowflake]] is roughly where Salesforce sat around FY2021-2022 — still GAAP-negative, non-GAAP-positive — with FY2027 guidance tracing the same glide path about a decade behind. Detail in [[Snowflake#The GAAP/SBC wedge|the Snowflake wedge]] and [[Salesforce#GAAP operating margin — the SBC graduation arc|the Salesforce arc]].
+
+![[sbc-operating-margin-wedge.png]]
+*GAAP operating margin by fiscal year, two SBC-heavy software companies. [[Salesforce]] (blue) crosses into GAAP profitability around FY2022-23 and reaches +20% — the wedge closed. [[Snowflake]] (teal) repairs from −92% to −31% but stays deeply GAAP-negative — the wedge still open, non-GAAP-positive only because SBC (34% of revenue) is added back. Same business model, a decade apart on the same curve. Source: company filings via local `income_statement_annual`. Linear axis.*
 
 ### Why it matters for cross-company comparison
 
@@ -327,11 +330,11 @@ Add SBC to capex in the FCF formula. Conceptually treats equity compensation as 
 
 | Benefit | Detail |
 |---------|--------|
-| **Cash preservation** | Pay employees without cash outflow |
-| **Alignment** | Employees care about stock price |
-| **Tax deduction** | Companies deduct SBC at exercise/vesting (usually higher than grant-date value) |
-| **FCF optics** | Inflates the headline metric investors watch |
-| **Retention** | Vesting schedules create golden handcuffs |
+| Cash preservation | Pay employees without cash outflow |
+| Alignment | Employees care about stock price |
+| Tax deduction | Companies deduct SBC at exercise/vesting (usually higher than grant-date value) |
+| FCF optics | Inflates the headline metric investors watch |
+| Retention | Vesting schedules create golden handcuffs |
 
 ---
 
@@ -339,11 +342,11 @@ Add SBC to capex in the FCF formula. Conceptually treats equity compensation as 
 
 | Issue | Detail |
 |-------|--------|
-| **Dilution** | Shareholders lose ownership without cash return |
-| **Buyback treadmill** | Cash wasted maintaining share count, not growing it |
-| **Moral hazard** | Employees prefer SBC → pushes companies toward equity-heavy comp |
-| **Market cap circularity** | Higher stock price → SBC worth more → need more buybacks → less real cash for shareholders |
-| **Cuts signal distress** | When companies cut SBC (as [[Meta]] did 5% in 2025, 10% in 2024), employees may leave for competitors |
+| Dilution | Shareholders lose ownership without cash return |
+| Buyback treadmill | Cash wasted maintaining share count, not growing it |
+| Moral hazard | Employees prefer SBC → pushes companies toward equity-heavy comp |
+| Market cap circularity | Higher stock price → SBC worth more → need more buybacks → less real cash for shareholders |
+| Cuts signal distress | When companies cut SBC (as [[Meta]] did 5% in 2025, 10% in 2024), employees may leave for competitors |
 
 ---
 

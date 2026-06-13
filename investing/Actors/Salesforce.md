@@ -117,18 +117,19 @@ AI quality depends on data — Salesforce has the data.
 
 Net income above is a noisy lens (FY2021 shows +$4.1B net while GAAP operating income was actually −$1.72B — the gap is below-the-line tax and strategic-investment items). GAAP operating margin is the clean read, and it tells the canonical story of a high-SBC software company growing into GAAP profitability:
 
-| FY | GAAP operating income | GAAP operating margin |
-|----|----------------------|----------------------|
-| 2020 | $0.20B | +1.2% |
-| 2021 | −$1.72B | −8.1% (trough — heaviest investment/SBC year) |
-| 2022 | −$0.66B | −2.5% |
-| 2023 | $2.92B | +9.3% (activist-pressure cost reset begins) |
-| 2024 | $5.01B | +14.4% |
-| 2025 | $7.21B | +19.0% |
+| FY | GAAP operating income | GAAP operating margin | SBC (% of revenue) |
+|----|----------------------|----------------------|----|
+| 2020 | $0.20B | +1.2% | — |
+| 2021 | −$1.72B | −8.1% (trough — heaviest investment/SBC year) | — |
+| 2022 | −$0.66B | −2.5% | — |
+| 2023 | $2.92B | +9.3% (activist-pressure cost reset begins) | — |
+| 2024 | $5.01B | +14.4% | $2.80B (8.0%) |
+| 2025 | $7.21B | +19.0% | $3.20B (8.4%) |
+| 2026 | $8.33B | +20.1% | $3.52B (8.5%) |
 
-*Source: local `income_statement_annual`.*
+*Source: local `income_statement_annual`; SBC from the FY2026 10-K equity statement.*
 
-The −8.1% to +19.0% climb in four years is the [[Stock-based compensation|stock-based compensation]] wedge closing: SBC stopped growing faster than revenue, headcount discipline arrived under activist pressure ([[Elliott Management]], [[Starboard Value]], 2023), and the gap between the non-GAAP margin (~35%, cited throughout this note) and the GAAP margin narrowed from ~43 points to ~16. Salesforce is the reference case for this transition — and it is why [[Clark Tang]]'s [[Revenue per GW]] chart can plot Salesforce on an honest reported GAAP operating margin (20%) while [[Snowflake]] still needs a non-GAAP figure: SNOW is roughly where CRM was around FY2021-2022, and SNOW's FY2027 SBC guidance traces the same path about a decade behind. See [[Snowflake#The GAAP/SBC wedge|the Snowflake wedge]] for the parallel.
+The −8.1% (FY2021) to +20.1% (FY2026) climb is the [[Stock-based compensation|stock-based compensation]] wedge closing: SBC stopped growing faster than revenue (now steady at ~8-8.5%), and headcount discipline arrived under activist pressure ([[Elliott Management]], [[Starboard Value]], 2023). The remaining gap between the ~34% non-GAAP operating margin (cited throughout this note) and the +20.1% GAAP margin is ~14 points — roughly 8.5 of which is SBC, with most of the rest acquired-intangible amortization (Slack, [[Informatica]]). That is a far narrower wedge than [[Snowflake]]'s ~43-point gap (non-GAAP +9% vs GAAP −31%): Salesforce is the reference case for the completed transition, which is why [[Clark Tang]]'s [[Revenue per GW]] chart can plot it on an honest reported GAAP operating margin (20%) while Snowflake still needs a non-GAAP figure. SNOW is roughly where CRM sat around FY2021-2022, and its FY2027 SBC guidance traces the same path about a decade behind. See [[Snowflake#The GAAP/SBC wedge|the Snowflake wedge]] for the parallel.
 
 ---
 
@@ -281,6 +282,12 @@ The tension: if Benioff is right that the valuation is unjustly depressed, the l
 ![[salesforce-fundamentals-chart.png]]
 *Revenue compounding steadily ($6.7B FY2016 → $41.5B FY2026). Net income volatile from acquisition-related charges but inflecting upward on margin discipline*
 
+![[crm-sankey.png]]
+*FY2026 income statement: $41.5B revenue → 77.7% gross margin → $23.9B opex (58% of revenue) → $8.3B operating income (+20.1%) → $7.5B net (18%). The positive, GAAP-profitable flow — opex at 58% of revenue, not 98% — is the visual contrast to a still-scaling software name like [[Snowflake]] (see its Sankey). The wedge is closed.*
+
+![[crm-waterfall.png]]
+*FY2026 waterfall: gross profit $32.3B, less the opex stack → $8.3B GAAP operating income → $7.5B net. SBC ($3.5B, ~8.5% of revenue) sits inside the opex bars but no longer swamps them.*
+
 ![[crm-employees-chart.png]]
 *Headcount: 76,453 (2025) — up 5.2% YoY*
 
@@ -320,6 +327,10 @@ The tension: if Benioff is right that the valuation is unjustly depressed, the l
 
 ## Related
 
+### Securities
+- [[Salesforce securities note]] — NYSE: CRM equity-market companion
+
+### Business and ecosystem
 - [[Microsoft]] — competitor (Dynamics, Copilot)
 - [[ServiceNow]] — competitor (enterprise workflows)
 - [[Agentic AI]] — context (Agentforce strategy)

@@ -2,6 +2,8 @@
 charts:
   recursive-self-improvement-chart.png:
     skip: true
+  sbc-operating-margin-wedge.png:
+    skip: true
   skhynix-vs-peers.png:
     tickers: 000660.KS,SMH
     normalize: true
