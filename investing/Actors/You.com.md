@@ -63,7 +63,7 @@ With founder Richard Socher now building [[Recursive]] (superintelligent AI lab)
 - [[Perplexity]] — AI search
 - [[Google]] — incumbent search
 - [[Agentic search infrastructure]] — the API-search cohort (You.com as the consumer-adjacent member)
-- [[Bing]] / [[Microsoft]] — Copilot
+- [[Microsoft]] — Bing / Copilot
 
 ### Socher's other ventures
 - [[Recursive]] — new AI lab ($4B)
