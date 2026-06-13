@@ -91,6 +91,22 @@ China Telecom's ADR (CHA) was removed from the NYSE in 2021 under [[Executive Or
 
 China Telecom is the highest-volatility member of the bloc (22.8% annualized) and its best performer since 2021 (~+250% normalized) — the cloud-growth tilt on top of the shared dividend/value-up factor.
 
+### Context test — telecom vs cloud vs SOE-energy
+
+`scripts/cluster_configs/china_telecom_context.yaml`. To test whether [[Tianyi Cloud]] has pulled China Telecom toward the cloud complex (and whether the telecom bloc is really a telecom factor or just China-SOE-H-share beta), the three telecoms were clustered against the China cloud/internet complex ([[Alibaba|9988.HK]], [[Tencent|0700.HK]], [[Baidu|9888.HK]]), the SOE-energy majors ([[PetroChina|0857.HK]], [[CNOOC|0883.HK]], [[Sinopec|0386.HK]]), and ETF controls — all HK-listed for same-session correlations.
+
+![[china-telecom-context-dendrogram-1y.png]]
+*Five clean clusters at the 0.5 threshold: the three telecoms (blue) stay their own group; the cloud trio (purple) forms a separate tight cluster; the SOE-energy names (orange) cluster apart (Sinopec a singleton); KWEB+SPY are market beta. Notably the telecom and cloud branches are siblings — they join each other (~0.75) before anything else.*
+
+| Relationship | Avg corr (1Y) | Read |
+|---|---|---|
+| Intra-telecom | 0.635 | the bloc holds |
+| Telecom vs cloud | 0.253 | adjacent but not merged |
+| Telecom vs SOE-energy | 0.219 | a telecom factor, not generic SOE-H-share beta |
+| Telecom vs ETF | 0.027 | not market beta |
+
+Two findings. First, the bloc is genuinely a telecom factor: the telecoms cluster separately from the SOE-energy majors (correlation 0.219 vs 0.635 intra), so this is not just "China state-champion H-share" beta. Second, despite Tianyi Cloud being #2 in China IaaS in the fundamentals, China Telecom still trades with [[China Unicom]] and [[China Mobile]] (joining them at distances 0.29 and 0.40), not with the cloud complex (correlation 0.253). The cloud story is real in the income statement but has not yet migrated into the stock's return behavior — the telecom and cloud clusters are sibling branches, the closest thing to a bridge, but the merge has not happened.
+
 ---
 
 ## What to watch
@@ -106,7 +122,7 @@ China Telecom is the highest-volatility member of the bloc (22.8% annualized) an
 
 China Telecom is the most interesting of the three on fundamentals because it is the one with a credible non-utility growth story. Tianyi Cloud at >RMB120bn and #2 in China's public-cloud IaaS is not a rounding error bolted onto a connectivity business — it is a genuine cloud platform that happens to sit inside an SOE. That is why China Telecom has been the bloc's best performer since 2021 (~+250% vs Mobile's ~+180% and Unicom's ~+130%): the market is paying for cloud growth on top of the shared [[中特估]] dividend re-rating.
 
-The cluster math complicates the stock-picking case, though. PC1 at ~78% means China Telecom still mostly trades the China-telecom factor — its cloud-driven outperformance shows up as the highest beta/volatility in the bloc (22.8% annualized), not as decoupling. So the cloud story is real in the fundamentals and visible in the levels, but on daily returns China Telecom remains a high-beta expression of the same policy trade rather than an independent cloud name. The investable question is whether Tianyi Cloud eventually grows large enough to break China Telecom out of the bloc — at which point it would start trading with [[Alibaba Cloud]] and the cloud complex rather than with [[China Mobile]] and [[China Unicom]]. It has not happened yet; the cohort is still one tight cluster.
+The cluster math complicates the stock-picking case, though. PC1 at ~78% means China Telecom still mostly trades the China-telecom factor — its cloud-driven outperformance shows up as the highest beta/volatility in the bloc (22.8% annualized), not as decoupling. So the cloud story is real in the fundamentals and visible in the levels, but on daily returns China Telecom remains a high-beta expression of the same policy trade rather than an independent cloud name. The investable question is whether Tianyi Cloud eventually grows large enough to break China Telecom out of the bloc — at which point it would start trading with [[Alibaba Cloud]] and the cloud complex rather than with [[China Mobile]] and [[China Unicom]]. The context test above answers it empirically for now: it has not happened. China Telecom clusters with its telecom peers, not with [[Alibaba]]/[[Tencent]]/[[Baidu]] (telecom-vs-cloud correlation 0.253 vs 0.635 intra-bloc) — though the telecom and cloud branches are statistical siblings, the nearest thing to a bridge. The cloud tilt is visible in the fundamentals and in the levels (China Telecom's outperformance) but not yet in daily co-movement. The signal to watch is the telecom-vs-cloud correlation rising over time — that would be the cluster fracturing in real time.
 
 ---
 

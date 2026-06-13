@@ -1,0 +1,27 @@
+# Analytical test (not a per-actor config): place China Telecom (0728.HK) in a
+# cohort with (a) its telecom bloc, (b) China SOE-energy H-shares, and (c) the
+# China cloud/internet complex, to answer two questions from the telecom deepdives:
+#   #4  Do the telecoms cluster as a TELECOM factor, or just as generic China-SOE
+#       H-share beta? (soe_energy control: PetroChina/CNOOC/Sinopec)
+#   #10 Is Tianyi Cloud pulling China Telecom toward the CLOUD complex? (cloud
+#       control: Alibaba/Tencent/Baidu HK lines)
+# Cloud + telecom + energy are all HK-listed -> same session, clean daily corr.
+name: China Telecom in context — telecom vs SOE-energy vs cloud
+primary: 0728.HK
+prefix: china-telecom-context
+threshold: 0.5
+window_end: 2026-06-12
+
+groups:
+  cluster:
+    color: "#2962FF"
+    tickers: ["0728.HK", "0762.HK", "0941.HK"]
+  soe_energy:
+    color: "#EF6C00"
+    tickers: ["0857.HK", "0883.HK", "0386.HK"]
+  cloud:
+    color: "#7E57C2"
+    tickers: ["9988.HK", "0700.HK", "9888.HK"]
+  etf:
+    color: "#9E9E9E"
+    tickers: [KWEB, SPY]

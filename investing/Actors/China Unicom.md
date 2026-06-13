@@ -136,6 +136,8 @@ Verdict: a genuine, tight, durable cluster — the China big-3 telecoms form a d
 ![[china-unicom-cluster-rolling-tightness-90d.png]]
 *Rolling 90-day tightness: the factor is stable and high across the whole 2020–2026 window (avg corr 0.66–0.75, PC1 77–83%), tightening into 2025–26 as the [[中特估]] re-rating consolidated the bloc.*
 
+A control test against the China SOE-energy majors ([[PetroChina]], [[CNOOC]], [[Sinopec]]) confirms this is a telecom factor, not generic state-champion-H-share beta: the telecoms cluster separately from the energy SOEs (cross-group correlation 0.219 vs 0.635 intra-telecom). Full context test — including the cloud complex — in [[China Telecom]].
+
 The trading implication: China Unicom is a China-telecom-sector instrument, hedgeable against its two domestic peers but not against global telecoms or a China ETF. Within the bloc it is the lowest-beta member on raw correlation but carries the highest idiosyncratic volatility (21.7% ann vol vs China Mobile's 11.8%) — the laggard that moves with the group but lags its re-rating, as the price chart in [[China Unicom securities note]] shows.
 
 ---
