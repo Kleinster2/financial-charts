@@ -5,6 +5,18 @@ aliases: [Brookfield Corp, BAM, Brookfield Asset Management, BN]
 
 **Brookfield** — Global infrastructure giant. $1T+ AUM. Data centers part of broader portfolio.
 
+## Entity structure (BN vs BAM)
+
+"Brookfield" spans two separately-listed entities that this note covers together and are easily conflated:
+
+- Brookfield Corporation (BN, NYSE/TSX) — the parent owner-operator: a large balance sheet holding ~73% of BAM, plus Wealth Solutions / insurance (~$140B+ assets) and a portfolio of real estate, renewables, infrastructure and PE. Reports distributable earnings (DE).
+- Brookfield Asset Management (BAM, NYSE/TSX) — the asset-light, pure-play listed manager spun out of BN in December 2022. Collects fees on $600B+ fee-bearing capital ($1T+ total AUM); FY2025 fee-related earnings $3.0B (+22%). This is the entity in the listed alt-manager cohort ([[Alternative asset managers basket]] / ALTM). Bruce Flatt chairs; Connor Teskey was named BAM CEO in early 2026.
+
+The AUM/FRE and cohort content below describes BAM (the manager); the insurance, balance-sheet and owner-operator content describes BN. Note for charting: the DB ticker BAM carries only post-Dec-2022 listed-manager history — pre-2023 Alpha Vantage rows are the legacy Brookfield Asset Management Inc (now BN) and must not be charted as the current entity.
+
+![[bam-vs-bx-kkr-apo-price-chart.png]]
+*BAM (blue) vs cohort peers [[Blackstone\|BX]], [[KKR]], [[Apollo\|APO]], normalized from Jan 2023 (log scale). BAM trades as a member of the alt-manager complex — co-moving with the bloc at the lower-return end. Cohort cluster validation lives in [[Alternative asset managers basket]].*
+
 ---
 
 ## Sector correlation
@@ -35,13 +47,13 @@ Brookfield is one of world's largest infrastructure investors:
 
 ## Data center strategy
 
-**Approach:**
+Approach:
 - Infrastructure lens (power, connectivity)
 - Data centers as subset of digital infra
 - Less concentrated than [[Blue Owl]] or [[Blackstone]]
 - Global footprint
 
-**Recent moves:**
+Recent moves:
 - Increased DC investment
 - Focus on powered shell / build-to-suit
 - Renewable energy integration (own assets)
@@ -56,33 +68,33 @@ Brookfield owns massive renewable energy portfolio:
 - Addresses [[Power constraints]]
 - Differentiated from pure financial buyers
 
-**Global energy transition strategy:** $20B raised (2024)
+Global energy transition strategy: $20B raised (2024)
 
-**[[Asia]] Pacific expansion (Nov 2025):**
+[[Asia]] Pacific expansion (Nov 2025):
 
 | Deal | Location | Type |
 |------|----------|------|
 | Alba Renewables Pte | Philippines, Thailand | Acquisition |
 | Wind project | Vietnam | New investment |
 
-**Daniel Cheng (Head of Renewable Power, [[Asia]] Pacific):** "There's a very clear and mature market for investors to buy these operational assets that are long-term contracted."
+Daniel Cheng (Head of Renewable Power, [[Asia]] Pacific): "There's a very clear and mature market for investors to buy these operational assets that are long-term contracted."
 
 ---
 
 ## Clean energy M&A outlook (Jan 2026)
 
-**Brookfield sees M&A revival:**
+Brookfield sees M&A revival:
 - Asset owners lowering price expectations
 - Buyers willing to pay for clean energy capacity
 - Data center demand supporting renewables
 - Less policy/tariff/rate uncertainty than 2025
 
-**2025 context:**
+2025 context:
 - Clean energy M&A slumped to lowest since 2017 (55.3 GW)
 - Average deal premium: 12% (down from 46% in 2024)
 - Overall M&A hit $4.5T (2nd best on record) — renewables missed out
 
-**Valuation reset (S&P Clean Energy Transition Index forward P/E):**
+Valuation reset (S&P Clean Energy Transition Index forward P/E):
 
 | Period | P/E |
 |--------|-----|
@@ -90,7 +102,7 @@ Brookfield owns massive renewable energy portfolio:
 | 2024 trough | ~12x |
 | Current | ~20x (recovering) |
 
-**Brookfield positioned:** Operational assets with credible offtake preferred over development-stage projects.
+Brookfield positioned: Operational assets with credible offtake preferred over development-stage projects.
 
 ---
 
@@ -109,7 +121,7 @@ Brookfield + [[Cameco]] acquired [[Westinghouse]] (2023):
 |------|-----|----------|-----------------|
 | [[Blackstone]] | $1T+ | [[QTS]] platform | Own/operate |
 | [[Blue Owl]] | $273B | Pure DC finance | JV model |
-| **Brookfield** | $900B+ | Part of infra | Renewables integration |
+| Brookfield | $900B+ | Part of infra | Renewables integration |
 | [[DigitalBridge]] | $80B+ | Pure-play digital | Specialized |
 
 Brookfield is generalist infrastructure; others more DC-focused.
@@ -134,20 +146,20 @@ Brookfield is generalist infrastructure; others more DC-focused.
 
 Wealth Solutions: DE $1.7B, annuity sales $20B, insurance assets $143B.
 
-Key: Launched **inaugural AI infrastructure fund** in 2025. With $188B deployable capital and $603B fee-bearing capital, Brookfield is a major allocator to AI buildout. Validates [[ALTM]] thesis — alt managers are capital deployers benefiting from AI infrastructure demand, not intermediaries being disrupted.
+Key: Launched inaugural AI infrastructure fund in 2025. With $188B deployable capital and $603B fee-bearing capital, Brookfield is a major allocator to AI buildout. Validates [[ALTM]] thesis — alt managers are capital deployers benefiting from AI infrastructure demand, not intermediaries being disrupted.
 
 ---
 
 ## Feb 24, 2026: Ori acquisition → Radiant launch
 
-Acquired UK cloud-computing firm **[[Radiant (Brookfield)|Ori Industries]]** (backed by [[Saudi Aramco]] Ventures), merged it into **[[Radiant (Brookfield)|Radiant]]** — a new GPU-as-a-service company.
+Acquired UK cloud-computing firm [[Radiant (Brookfield)|Ori Industries]] (backed by [[Saudi Aramco]] Ventures), merged it into [[Radiant (Brookfield)|Radiant]] — a new GPU-as-a-service company.
 
-- **Model:** Take-or-pay GPU leasing to investment-grade customers across ~5-year chip life
-- **GPU supplier:** [[NVIDIA]] (including forthcoming [[Rubin]] chips)
-- **Target:** Sovereign cloud, Europe initially, Middle East expansion
-- **AI capex thesis:** Brookfield estimates $7T total AI investment needed, $3T for compute
-- **Fund context:** First deployment from AI infrastructure fund (seeking $10B commitments, up to $100B with leverage)
-- Also investing up to **$5B in [[Bloom Energy]]** (fuel cells for data centers)
+- Model: Take-or-pay GPU leasing to investment-grade customers across ~5-year chip life
+- GPU supplier: [[NVIDIA]] (including forthcoming [[Rubin]] chips)
+- Target: Sovereign cloud, Europe initially, Middle East expansion
+- AI capex thesis: Brookfield estimates $7T total AI investment needed, $3T for compute
+- Fund context: First deployment from AI infrastructure fund (seeking $10B commitments, up to $100B with leverage)
+- Also investing up to $5B in [[Bloom Energy]] (fuel cells for data centers)
 
 Sikander Rashid (Head of AI Infrastructure): "I think of it as a leasing business."
 
@@ -159,19 +171,19 @@ See [[Radiant (Brookfield)]] for full details.
 
 ### The full-stack thesis
 
-Brookfield is the **only major alt manager that owns every layer** of the AI infrastructure stack:
+Brookfield is the only major alt manager that owns every layer of the AI infrastructure stack:
 
 | Layer | Brookfield asset | Competitor gap |
 |-------|-----------------|----------------|
-| **Capital** | $188B deployable, $100B AI program | [[Blackstone]] has scale but not power assets |
-| **Power generation** | Owns hydro, wind, solar globally | [[Blue Owl]]/[[DigitalBridge]] don't own generation |
-| **Power innovation** | $5B [[Bloom Energy]] fuel cells | Bypasses 3-5 year grid connection waits |
-| **Nuclear** | [[Westinghouse]] (with [[Cameco]]) | Unique nuclear exposure for baseload |
-| **Data centers** | DC operator investments | Generalist, not pure-play |
-| **GPUs/Compute** | [[Radiant (Brookfield)|Radiant]] (GPU-as-a-service) | First alt manager to own this layer |
-| **Software** | Ori platform (orchestration, inference, K8s) | Most infra investors have zero software |
+| Capital | $188B deployable, $100B AI program | [[Blackstone]] has scale but not power assets |
+| Power generation | Owns hydro, wind, solar globally | [[Blue Owl]]/[[DigitalBridge]] don't own generation |
+| Power innovation | $5B [[Bloom Energy]] fuel cells | Bypasses 3-5 year grid connection waits |
+| Nuclear | [[Westinghouse]] (with [[Cameco]]) | Unique nuclear exposure for baseload |
+| Data centers | DC operator investments | Generalist, not pure-play |
+| GPUs/Compute | [[Radiant (Brookfield)|Radiant]] (GPU-as-a-service) | First alt manager to own this layer |
+| Software | Ori platform (orchestration, inference, K8s) | Most infra investors have zero software |
 
-No other infrastructure investor can bundle power + space + compute + software in a single contract. This is Brookfield's bet: that the AI buildout needs an **infrastructure intermediary**, not just cloud providers.
+No other infrastructure investor can bundle power + space + compute + software in a single contract. This is Brookfield's bet: that the AI buildout needs an infrastructure intermediary, not just cloud providers.
 
 ### Structural factors
 
@@ -190,7 +202,7 @@ No other infrastructure investor can bundle power + space + compute + software i
 
 ### The historical analogy
 
-Brookfield is attempting what **J.P. Morgan did for railroads** and **infrastructure funds did for telecom**: provide the financial intermediation layer that makes a massive capital-intensive buildout possible. The AI buildout ($7T over a decade) is too large for tech companies to fund from cash flow alone. Someone has to intermediate between long-term capital (pension funds, sovereign wealth) and short-term infrastructure needs (GPUs, power, data centers). Brookfield is betting that "someone" is them.
+Brookfield is attempting what J.P. Morgan did for railroads and infrastructure funds did for telecom: provide the financial intermediation layer that makes a massive capital-intensive buildout possible. The AI buildout ($7T over a decade) is too large for tech companies to fund from cash flow alone. Someone has to intermediate between long-term capital (pension funds, sovereign wealth) and short-term infrastructure needs (GPUs, power, data centers). Brookfield is betting that "someone" is them.
 
 ---
 

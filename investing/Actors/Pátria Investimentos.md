@@ -71,7 +71,7 @@ See [[Pátria Investimentos securities note]] for price history, peer-relative p
 
 ## Cluster validation — where does PAX actually trade?
 
-Candidate cohort: PAX plus the listed US alternative-asset managers ([[Blackstone\|BX]], [[KKR]], [[Apollo\|APO]], [[Ares Management\|ARES]], [[Carlyle\|CG]], [[Blue Owl\|OWL]], [[TPG]]); controls = traditional asset managers ([[BlackRock\|BLK]], [[Brookfield\|BAM]]) and ETFs (SPY, XLF, EWZ). Config: `scripts/cluster_configs/pax.yaml`; 1-year window to 2026-06-10. The broader complex is profiled in [[Alternative asset manager]].
+Candidate cohort: PAX plus the listed US alternative-asset managers ([[Blackstone\|BX]], [[KKR]], [[Apollo\|APO]], [[Ares Management\|ARES]], [[Carlyle\|CG]], [[Blue Owl\|OWL]], [[TPG]]); controls = traditional asset managers ([[BlackRock\|BLK]], [[Brookfield\|BAM]]) and ETFs (SPY, XLF, EWZ). Config: `scripts/cluster_configs/pax.yaml`; 1-year window to 2026-06-10. The validated US cohort PAX sits outside is [[Alternative asset managers basket]] (ALTM); the complex is profiled in [[Alternative asset manager]].
 
 Finding: PAX does not belong to the US alt-manager cluster. The seven US alts form a tight bloc (pairwise join distances 0.15–0.27) that absorbs even the traditional managers and the financials ETF before PAX attaches — PAX joins only at distance 0.494, and hierarchical clustering at threshold 0.5 leaves PAX as its own singleton while everything else collapses into one US-financials cluster. PAX's own pairwise correlations to the cohort run only ~0.49–0.56 (the 0.70 cohort-average is inflated by the tight US-alt-to-US-alt pairs); its low absolute correlations and high idiosyncratic variance — reflecting Brazil/EM and firm-specific drivers — are what push it out as a singleton.
 
