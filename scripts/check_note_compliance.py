@@ -32,6 +32,20 @@ class Issue(NamedTuple):
     message: str
 
 
+# Single-word note names that collide with common English words. The
+# missing-link / table-cell checks would otherwise flag every prose use of
+# "gold standard", "linear axis", "cash flow", "promise to deliver", etc. as a
+# missing wikilink to the same-named note. Whole-word, case-sensitive matches
+# against these note names are suppressed. Extend as new collisions surface.
+COMMON_WORD_NOTE_NAMES = frozenset({
+    "Gold", "Flow", "Linear", "Promise", "Texas", "Acquired", "Pure", "Post",
+    "Open", "Closed", "Premium", "Target", "Index", "Average", "Watch", "Grid",
+    "Street", "Vision", "Driver", "Brand", "Career", "Talent", "Labs", "Battery",
+    "Solar", "Chip", "Finance", "Property", "Auto", "Seed", "Round", "Theme",
+    "Entity", "Medium", "Wire", "Reflexivity", "Action", "Move", "Event",
+})
+
+
 class NoteChecker:
     # Cross-vault directories to check for matching notes
     CROSS_VAULTS = {
@@ -943,6 +957,8 @@ aliases: []
             if note_name == filepath.stem:  # Skip self
                 continue
             if note_name in linked:  # Already linked
+                continue
+            if note_name in COMMON_WORD_NOTE_NAMES:  # Common-word collision (e.g. "Gold", "Flow")
                 continue
 
             # Case-sensitive whole-word match in content without links

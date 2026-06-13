@@ -105,6 +105,7 @@
 - [[Capital allocation]] — use of FCF
 - [[Valuation]] — DCF models
 - [[Owner earnings]] — Buffett version
+- [[Stock-based compensation]] — the non-cash add-back that inflates FCF; subtract it for SBC-adjusted FCF
 
 ---
 

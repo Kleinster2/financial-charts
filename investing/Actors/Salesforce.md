@@ -5,7 +5,7 @@ aliases: [CRM]
 
 **Salesforce** — \#1 CRM platform globally. Enterprise cloud pioneer. Einstein AI and Agentforce for AI-powered sales/service.
 
-World's #1 CRM platform with ~$193B market cap, $41.5B FY2026 revenue, and 150,000+ customers across Sales, Service, Marketing, Commerce, Slack, Tableau, and MuleSoft clouds. AI pivot centers on Agentforce — autonomous AI agents that take actions, not just chat — with $800M ARR (+169% YoY), 29,000 cumulative deals, and a $2/conversation pricing model. Combined Agentforce + Data 360 ARR ~$2.9B (+200% YoY). The bull case: Agentforce is the enterprise AI agent platform winner, pricing model aligns usage with value, and CRM dominance gives unmatched distribution for AI upsell. The bear case: AI agent monetization is still early and unproven at scale, competition from Microsoft Copilot and vertical AI startups, and organic growth in core CRM is slowing.
+World's #1 CRM platform with ~$193B market cap, $41.5B FY2026 revenue, and 150,000+ customers across Sales, Service, Marketing, Commerce, Slack, Tableau, and MuleSoft clouds. AI pivot centers on [[Agentforce]] — autonomous AI agents that take actions, not just chat — with $800M ARR (+169% YoY), 29,000 cumulative deals, and a $2/conversation pricing model. Combined Agentforce + Data 360 ARR ~$2.9B (+200% YoY). The bull case: Agentforce is the enterprise AI agent platform winner, pricing model aligns usage with value, and CRM dominance gives unmatched distribution for AI upsell. The bear case: AI agent monetization is still early and unproven at scale, competition from [[Microsoft]] [[Copilot]] and vertical AI startups, and organic growth in core CRM is slowing.
 
 ---
 
@@ -13,12 +13,12 @@ World's #1 CRM platform with ~$193B market cap, $41.5B FY2026 revenue, and 150,0
 
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
-| Software | IGV | 0.74 |
-| [[Consumer]] | XLY | 0.53 |
-| Technology | XLK | 0.50 |
-| *S&P 500* | *SPY* | *0.50* |
+| Software | [[IGV]] | 0.74 |
+| [[Consumer]] | [[XLY]] | 0.53 |
+| Technology | [[XLK]] | 0.50 |
+| *[[S&P 500]]* | *[[SPY]]* | *0.50* |
 
-CRM trades as a core Software name (IGV r = 0.74).
+CRM trades as a core Software name ([[IGV]] r = 0.74).
 
 ---
 
@@ -26,7 +26,7 @@ CRM trades as a core Software name (IGV r = 0.74).
 
 | Metric | Value |
 |--------|-------|
-| Ticker | CRM (NYSE) |
+| Ticker | CRM ([[NYSE]]) |
 | Market cap | ~$180B (Mar 2026, down ~25% YTD) |
 | Revenue (FY2026) | $41.5B |
 | Position | \#1 CRM globally |
@@ -58,7 +58,7 @@ Einstein AI → Agentforce:
 
 | Product | Function |
 |---------|----------|
-| Einstein GPT | Gen AI across clouds |
+| Einstein [[GPT]] | Gen AI across clouds |
 | Einstein Copilot | Conversational assistant |
 | Agentforce | Autonomous [[AI agents]] |
 | Data Cloud | Customer data platform |
@@ -115,7 +115,7 @@ AI quality depends on data — Salesforce has the data.
 
 ### GAAP operating margin — the SBC graduation arc
 
-Net income above is a noisy lens (FY2021 shows +$4.1B net while GAAP operating income was actually −$1.72B — the gap is below-the-line tax and strategic-investment items). GAAP operating margin is the clean read, and it tells the canonical story of a high-SBC software company growing into GAAP profitability:
+Net income above is a noisy lens (FY2021 shows +$4.1B net while [[GAAP]] operating income was actually −$1.72B — the gap is below-the-line tax and strategic-investment items). GAAP operating margin is the clean read, and it tells the canonical story of a high-SBC software company growing into GAAP profitability:
 
 | FY | GAAP operating income | GAAP operating margin | SBC (% of revenue) |
 |----|----------------------|----------------------|----|
@@ -274,10 +274,24 @@ The tension: if Benioff is right that the valuation is unjustly depressed, the l
 
 ---
 
+## Analyst timeline
+
+| Date | Action |
+|---|---|
+| Feb 25, 2026 | Stock −5.6% on the Q4 FY26 print despite the EPS beat — the FY2027 organic-growth guide (~7-8%) was the disappointment |
+| ~Q2 2026 | [[Piper Sandler]] PT $325 → $395 (one of the more bullish desks) |
+| Jun 2026 | Street consensus: ~58 analysts, average PT ~$274, "Buy" consensus (~79% buy-rated); average target cut ~17% over the prior three months as the growth-deceleration narrative set in |
+
+The setup the targets price: a high-conviction Buy consensus with a ~50%+ implied upside to the average target, against a tape ($165.89 Jun 12) that keeps fading on growth concerns and AI-disruption overhang — the gap between sell-side conviction and price action is itself the [[Software AI bifurcation]] debate.
+
+*Via aggregator coverage (StockAnalysis, ChartMill, TipRanks, Zacks — Jun 2026); price from local `prices_long`. Individual call dates not separately verified.*
+
+---
+
 ## Charts
 
 ![[crm-vs-peers.png]]
-*CRM vs [[Nasdaq|QQQ]] since 2018 — CRM +80% vs QQQ +300%. Significant underperformance as growth decelerated post-pandemic*
+*CRM vs the [[Nasdaq]] ([[QQQ]]) since 2018 — CRM +80% vs QQQ +300%. Significant underperformance as growth decelerated post-pandemic*
 
 ![[salesforce-fundamentals-chart.png]]
 *Revenue compounding steadily ($6.7B FY2016 → $41.5B FY2026). Net income volatile from acquisition-related charges but inflecting upward on margin discipline*
@@ -304,7 +318,7 @@ The tension: if Benioff is right that the valuation is unjustly depressed, the l
 | Amy Weaver | CFO | 2021 |
 | Brian Millham | President, COO | 2023 |
 
-[[Marc Benioff]] founded Salesforce after leaving [[Oracle]]. Pioneered the SaaS/cloud model.
+[[Marc Benioff]] founded Salesforce after leaving [[Oracle]]. Pioneered the [[SaaS]]/cloud model.
 
 ---
 

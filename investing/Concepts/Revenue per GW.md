@@ -162,6 +162,7 @@ Cluster-validation disposition: no tradeable peer cohort is claimed here — the
 - [[GPU-as-a-Service]] — neocloud rental economics
 - [[GPU rental price index]] — market pricing of the rental layer
 - [[Data center physical layer]] — what a GW physically is
+- [[Stock-based compensation]] — the basis variable behind the margin cells (Snowflake non-GAAP vs the GAAP names)
 - [[OpenAI]], [[Anthropic]], [[CoreWeave]], [[Oracle]], [[Google]], [[Meta]], [[Amazon]], [[Microsoft]], [[Snowflake]], [[Salesforce]] — plotted names
 
 *Sources: [Clark Tang on X, Mar 1 2026](https://x.com/_clarktang) (97.4K views); [OpenAI, "A business that scales with the value of intelligence"](https://openai.com/index/a-business-that-scales-with-the-value-of-intelligence/) ($20B run-rate + 0.2/0.6/1.9 GW footprint); [Epoch AI, 1-GW datacenter TCO](https://epoch.ai/data-insights/ai-datacenter-cost-breakdown); [Amazon Q1 2015 10-Q](https://www.sec.gov/Archives/edgar/data/1018724/000101872415000038/amzn-20150331x10q.htm) (first AWS segment disclosure, 17% OM); [NVIDIA Q4 FY26 press release](https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000019/q4fy26pr.htm); [Investing.com on per-GW build cost](https://www.investing.com/news/stock-market-news/how-much-does-a-gw-of-data-center-capacity-actually-cost-4314046).*

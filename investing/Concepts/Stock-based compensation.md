@@ -14,6 +14,14 @@ tags:
 
 ---
 
+## Synthesis
+
+SBC is the single accounting line that most reliably makes a software company look better than it is, and it does so in two separate places. On the cash-flow statement it is added back as "non-cash," inflating [[Free cash flow]] even though preventing the dilution it causes consumes real cash through buybacks — the buyback-treadmill and sterilization dynamics that make [[Meta]]'s ~$148B of buybacks reduce share count by only ~4%. On the income statement it opens a wedge between GAAP and non-GAAP operating margin roughly equal to SBC as a percent of revenue, which is how a company can be simultaneously "profitable" (non-GAAP) and loss-making (GAAP) in the same period — [[Snowflake]] today, [[Salesforce]] a decade ago.
+
+The investor's job is to put SBC back: subtract it from FCF, value on a fully diluted share count, and read GAAP operating margin rather than the non-GAAP figure the company leads with. The wedge is not permanent — it closes as SBC grows slower than revenue, which is the graduation [[Salesforce]] completed (GAAP operating margin −8.1% to +20% over five years) and [[Snowflake]] is mid-way through. When a cross-company chart ranks businesses by margin, the first question is whether SBC is inside or outside each cell; the apparent ranking often reflects accounting basis more than economics (see [[Revenue per GW]]).
+
+---
+
 ## Instruments
 
 ### Stock options
@@ -99,12 +107,12 @@ Cliff risk: If an employee is fired before the 1-year cliff, they get nothing. C
 
 | Company | Approach | Why it's different |
 |---------|----------|--------------------|
-| Netflix | Cash-first + stock options | Employees choose how much salary to allocate to options (purchased at 40% of market price). No RSUs. Highest cash comp in tech. Philosophy: let employees decide their own risk appetite |
-| Stripe (private) | RSUs with annual conversion | RSUs converted to cash value yearly — limits both upside and downside. Double-trigger vesting (time + liquidity event). Controversial among employees |
+| [[Netflix]] | Cash-first + stock options | Employees choose how much salary to allocate to options (purchased at 40% of market price). No RSUs. Highest cash comp in tech. Philosophy: let employees decide their own risk appetite |
+| [[Stripe]] (private) | RSUs with annual conversion | RSUs converted to cash value yearly — limits both upside and downside. Double-trigger vesting (time + liquidity event). Controversial among employees |
 | [[Salesforce]] | RSUs | 4yr, quarterly vesting | Standard with PSUs for senior leaders |
-| Palantir | RSUs + options | Heavy SBC — ~25-30% of revenue historically. Among the worst SBC/revenue ratios in tech |
-| Coinbase | RSUs | 4yr, 1yr cliff, quarterly | Standard. High SBC relative to revenue given crypto volatility |
-| Uber | RSUs | 4yr, 1yr cliff, quarterly | Standard. SBC ~15% of revenue — improving but still high |
+| [[Palantir]] | RSUs + options | Heavy SBC — ~25-30% of revenue historically. Among the worst SBC/revenue ratios in tech |
+| [[Coinbase]] | RSUs | 4yr, 1yr cliff, quarterly | Standard. High SBC relative to revenue given crypto volatility |
+| [[Uber]] | RSUs | 4yr, 1yr cliff, quarterly | Standard. SBC ~15% of revenue — improving but still high |
 
 ### Private companies (startups)
 
@@ -113,7 +121,7 @@ Cliff risk: If an employee is fired before the 1-year cliff, they get nothing. C
 | Pre-seed/Seed | Stock options (ISOs) | Low strike price (409A valuation). High upside if company succeeds. 4yr vest, 1yr cliff standard |
 | Series A-C | Stock options (ISOs) | Strike price rising with each round. Early employees have lowest strikes |
 | Late-stage | Mix of options + RSUs | RSUs become more common as IPO approaches. Double-trigger vesting (time + IPO/acquisition) protects employees from tax on illiquid stock |
-| Pre-IPO | RSUs with double-trigger | Standard at Stripe, SpaceX, etc. No tax event until both vesting AND liquidity event occur |
+| Pre-IPO | RSUs with double-trigger | Standard at [[Stripe]], [[SpaceX]], etc. No tax event until both vesting AND liquidity event occur |
 
 Double-trigger explained: At public companies, RSUs vest and immediately create a tax event (you owe income tax on shares you received). At private companies, double-trigger delays the tax event until a liquidity event (IPO, acquisition, or tender offer). Without this, employees would owe tax on stock they can't sell.
 
@@ -121,9 +129,9 @@ Double-trigger explained: At public companies, RSUs vest and immediately create 
 
 | Philosophy | Companies | Logic |
 |------------|-----------|-------|
-| Cash-first | Netflix | Adults can decide what to do with their own money. Reduces golden handcuffs, but also reduces retention |
+| Cash-first | [[Netflix]] | Adults can decide what to do with their own money. Reduces golden handcuffs, but also reduces retention |
 | Equity-heavy | Tesla, Palantir, early-stage startups | Aligns employees with long-term stock performance. Attracts believers, repels mercenaries |
-| Back-loaded retention | Amazon | Forces employees to stay 3-4 years for the bulk of their equity. High attrition in years 1-2 is a feature, not a bug |
+| Back-loaded retention | [[Amazon]] | Forces employees to stay 3-4 years for the bulk of their equity. High attrition in years 1-2 is a feature, not a bug |
 | Balanced | Google, Meta, Microsoft, Apple | Standard 4-year vest, competitive refreshers. Retention through continuous new grants rather than schedule manipulation |
 | Performance-gated | Executive PSUs everywhere | Vest only if targets hit. Strongest alignment but can incentivize short-term metric gaming |
 
@@ -145,14 +153,14 @@ Double-trigger explained: At public companies, RSUs vest and immediately create 
 | Benefit | Detail |
 |---------|--------|
 | Tax deduction | Company deducts SBC at exercise/vesting value (not grant-date expense) |
-| Deduction > expense | If stock rises between grant and vest, tax deduction exceeds GAAP expense |
+| Deduction > expense | If stock rises between grant and vest, tax deduction exceeds [[GAAP]] expense |
 | Cash tax savings | Meta saved ~$4-5B in taxes annually from SBC deductions |
 
 The tax windfall: When stock rises significantly, the company's tax deduction (based on vesting-date value) far exceeds the GAAP expense (based on grant-date fair value). This creates a cash tax benefit that shows up in operating cash flow — further inflating reported FCF.
 
 ### Section 409A (private companies)
 
-Private company stock must be independently valued (409A valuation) to set exercise prices. Undervaluation → IRS penalties. This is why startups hire firms like Carta, Armanino, or the Big 4 for annual 409A reports.
+Private company stock must be independently valued (409A valuation) to set exercise prices. Undervaluation → IRS penalties. This is why startups hire firms like [[Carta]], Armanino, or the Big 4 for annual 409A reports.
 
 ---
 
@@ -256,7 +264,7 @@ Only 18% of $148B in buybacks actually reduced the float. The rest just offset d
 
 ### The TikTok math (why it's wrong)
 
-A viral TikTok (Feb 2026) claimed Meta's "real" FCF drops from $43.6B to $1.6B after subtracting $42B in SBC. The math is flawed:
+A viral [[TikTok]] (Feb 2026) claimed [[Meta]]'s "real" FCF drops from $43.6B to $1.6B after subtracting $42B in SBC. The math is flawed:
 
 1. SBC was ~$20B, not $42B. The video inflated the number by ~2×
 2. Double-counting. If you subtract SBC from FCF, you can't also count the buyback cash spent to offset that same SBC. The cost is already reflected in lower net cash
@@ -368,6 +376,6 @@ Sources:
 - TDM Growth Partners, "SBC Dilution Benchmarking — 2024 Update" (2025)
 - MacroTrends — Meta SBC data
 - mannhowie.com, "How to treat stock compensation when valuing companies?"
-- Warren Buffett, 2002 Berkshire Hathaway annual letter
+- [[Warren Buffett]], 2002 [[Berkshire Hathaway]] annual letter
 
 *Created 2026-02-26*

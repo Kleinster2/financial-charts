@@ -5,7 +5,7 @@ ticker: CRM
 ---
 #securities
 
-Salesforce securities — NYSE: CRM, single-class common (par $0.001), [[Dow Jones Industrial Average|Dow]] component. Equity-market note for [[Salesforce]]: the stock that round-tripped from a $306 pandemic peak (2021) to $130 (2023) on a growth scare, recovered on the margin-discipline story, and now trades near $166 — a mature, GAAP-profitable enterprise-software platform priced on the tension between completed margin expansion and the AI-agent disruption question.
+Salesforce securities — NYSE: CRM, single-class common (par $0.001), Dow Jones Industrial Average component. Equity-market note for [[Salesforce]]: the stock that round-tripped from a $306 pandemic peak (2021) to $130 (2023) on a growth scare, recovered on the margin-discipline story, and now trades near $166 — a mature, GAAP-profitable enterprise-software platform priced on the tension between completed margin expansion and the AI-agent disruption question.
 
 ---
 
@@ -14,7 +14,7 @@ Salesforce securities — NYSE: CRM, single-class common (par $0.001), [[Dow Jon
 | Metric | Value |
 |--------|-------|
 | Exchange / ticker | NYSE: CRM |
-| Index membership | [[Dow Jones Industrial Average]], [[S&P 500]] |
+| Index membership | Dow Jones Industrial Average, [[S&P 500]] |
 | Close (2026-06-12) | $165.89 |
 | 2021 peak | $306.73 |
 | 2023 low | $133.38 |
