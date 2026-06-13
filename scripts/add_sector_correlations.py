@@ -77,7 +77,7 @@ def load_all_prices(conn, tickers, start_date):
         query = f'SELECT Date, {cols} FROM stock_prices_daily WHERE Date >= ? ORDER BY Date'
         wide_df = pd.read_sql(query, conn, params=(start_date,))
         if not wide_df.empty:
-            wide_df['Date'] = pd.to_datetime(wide_df['Date'])
+            wide_df['Date'] = pd.to_datetime(wide_df['Date'], format='mixed')
             frames.append(wide_df.set_index('Date'))
 
     if long_tickers:
@@ -90,7 +90,7 @@ def load_all_prices(conn, tickers, start_date):
         '''
         long_df = pd.read_sql(long_query, conn, params=(*long_tickers, start_date))
         if not long_df.empty:
-            long_df['Date'] = pd.to_datetime(long_df['Date'])
+            long_df['Date'] = pd.to_datetime(long_df['Date'], format='mixed')
             long_wide = long_df.pivot_table(index='Date', columns='Ticker', values='Close', aggfunc='last')
             frames.append(long_wide)
 
