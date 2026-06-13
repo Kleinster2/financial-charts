@@ -131,3 +131,5 @@ The agent threat moved from theoretical to market-moving in early 2026. [[Anthro
 - [[AI consolidation]] — Big Tech agent competition
 - [[OpenAI hardware program]] — agent-as-OS device thesis (io companion + Kuo smartphone)
 - [[Noah Smith]] — human verification / keeping agents on task
+- [[Parallel Web Systems]] — web search/research infrastructure agents call (the read layer); founded by [[Parag Agrawal]]
+- [[Tavily]], [[Exa]] — peer agent-search infrastructure

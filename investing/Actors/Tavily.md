@@ -32,5 +32,7 @@ Customers: [[IBM]], [[Cohere]], [[Groq]], Fortune 500 enterprises across finance
 ## Related
 
 - [[Nebius]] — acquirer ($275M, Feb 2026)
+- [[Parallel Web Systems]] — closest direct competitor (agent search/research infra); $2B valuation, founded by ex-[[Twitter]] CEO [[Parag Agrawal]]
+- [[Exa]], [[Firecrawl]], [[Brave Search]] — peers in agent search infrastructure
 - [[Agentic AI]] — category
 - [[Israel]] — home market

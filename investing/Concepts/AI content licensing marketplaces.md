@@ -24,6 +24,7 @@ Large publishers ([[News Corp]], [[Condé Nast]], [[New York Times]], People) ha
 | [[Factiva]] ([[Dow Jones]]) | Licensing intermediary | Deals to sell AI rights to 8,100+ news sources (>25% of its total). Emma O'Brian (GM): financial institutions feeding rights-cleared content into AI for real-time trades. Almar Latour (Dow Jones CEO): "working toward a new business model to value information in the era of gen AI" |
 | [[Tollbit]] | Bot gatekeeper | Helps publishers block AI bots and charge per-thousand-page-scrape. [[Newsweek]] uses it |
 | [[Cloudflare]] | Bot gatekeeper | Helps publishers block unauthorized AI scraping |
+| [[Parallel Web Systems]] | Per-inference attribution | Index (May 2026): Shapley-value compensation tied to each source's contribution to an AI agent's output at inference time. Launch partners incl. [[The Atlantic]], [[Fortune]], PR Newswire, [[PitchBook]], ZoomInfo, Enigma. Founder [[Parag Agrawal]] (ex-[[Twitter]] CEO) |
 
 ---
 
@@ -50,7 +51,9 @@ Large publishers ([[News Corp]], [[Condé Nast]], [[New York Times]], People) ha
 
 **Tension:** The same companies building AI products that scrape content ([[Microsoft]], [[Amazon]]) are also building the marketplaces to license it. Publishers know this — Mark Howard (COO, [[Time]]): one-off deals are desirable but not readily available, so a marketplace with sufficient supply will attract demand.
 
-*Source: WSJ (Feb 16, Alexandra Bruell)*
+**Three pricing models are now competing** to settle AI-content economics. Fixed-fee marketplaces ([[Microsoft]], [[Amazon]], [[Factiva]]) match publishers to buyers but still trade in flat, negotiated checks that favor the largest media groups. Per-scrape tolls ([[Tollbit]], [[Cloudflare]]) charge at the point of access, agnostic to how the content is used. [[Parallel Web Systems]]'s Index (May 2026) introduces a third model — per-inference attribution — paying contribution-weighted amounts computed at the moment an [[AI agents|agent]] produces output, using a Shapley-value framework so unique, hard-to-replace content earns more than commodity coverage. The per-inference model is the most aligned with actual value delivered but also the hardest to audit, and it puts a search-infrastructure startup ([[Parallel Web Systems]]) into the settlement layer that gatekeepers like [[Cloudflare]] already occupy at the access layer.
+
+*Source: WSJ (Feb 16, Alexandra Bruell); Parallel Index launch (Fortune, May 19 2026)*
 
 ---
 
@@ -64,4 +67,7 @@ Large publishers ([[News Corp]], [[Condé Nast]], [[New York Times]], People) ha
 - [[News Corp]] — major publisher with deals + lawsuits
 - [[New York Times]] — publisher with AI licensing deals
 - [[Cloudflare]] — bot blocking for publishers
+- [[Parallel Web Systems]] — Index: per-inference, Shapley-value content compensation
+- [[Parag Agrawal]] — founder of Parallel; ex-[[Twitter]] CEO
+- [[AI agents]] — the consumers whose usage Index meters and prices
 - [[AI training data]] — underlying resource being monetized
