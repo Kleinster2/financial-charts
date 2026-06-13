@@ -3,7 +3,7 @@ aliases: [SATS, EchoStar Corporation, Dish Network, DISH, Hughes Network Systems
 tags: [actor, satellite, telecom, usa, public]
 ---
 
-EchoStar — Satellite communications, pay-TV, and wireless company transformed into the highest-leverage public proxy for [[SpaceX]]. Sold ~$20B in spectrum licenses to SpaceX in exchange for ~$11B in Class A stock (~2.8% stake, ~51.9M shares). At SpaceX's $1.75T IPO target, that stake is worth ~$49B — multiples of EchoStar's own ~$32B market cap. Added to [[S&P 500]] on Mar 23, 2026. Legacy businesses (Dish TV, [[Boost Mobile]], Hughes satellite broadband) are in decline or runoff; the investment case is almost entirely the SpaceX stake.
+EchoStar — Satellite communications, pay-TV, and wireless company transformed into the highest-leverage public proxy for [[SpaceX]]. Sold ~$20B in spectrum licenses to SpaceX in exchange for ~$11B in Class A stock (~2.8% stake, ~51.9M shares). At SpaceX's Jun. 12, 2026 market-close valuation near $2.1T, that stake would be worth roughly $59B before deal-closing and transfer risk. Added to [[S&P 500]] on Mar 23, 2026. Legacy businesses (Dish TV, [[Boost Mobile]], Hughes satellite broadband) are in decline or runoff; the investment case is almost entirely the SpaceX stake.
 
 The transformation is structurally unusual: EchoStar spent a decade accumulating wireless spectrum that looked like a stranded asset, then converted it into a 2.8% stake in the most valuable private company in history. The question is whether the SpaceX deals close on schedule ($8.5B cash + equity, targeted Nov 2027) before the $26.3B debt wall forces a reckoning. If they do, SATS is worth materially more than its current price. If they don't — or if SpaceX IPOs below $1.75T — the legacy business generates an adjusted net loss of ~$1B/year on a CCC+ credit rating.
 
@@ -233,10 +233,20 @@ Both frame the thesis almost entirely around SpaceX stake value. Legacy operatio
 
 ---
 
+## Jun. 12 2026 SpaceX debut: proxy unwind despite higher mark
+
+[[SpaceX]] closed its first public session at $160.95, up 19% from the $135 IPO price, with Nasdaq-listed market value around $2.1T. Mechanically, that lifts EchoStar's eventual 2.8% SpaceX stake value from the pre-IPO $49B target frame to roughly $59B.
+
+SATS nevertheless fell 10.97% on Jun. 12 (128.13 → 114.08). Against canonical June 12 closes, the move screens at -3.38σ beta-adjusted — the cleanest sigma event in the proxy basket (see [[SpaceX debut proxy unwind]]). That is the diagnostic piece: this was not "SpaceX down, SATS down" ([[SPY]] rose +0.54% on the session). It was the proxy trade unwinding once the clean public instrument existed. Public-market scarcity value migrated from the levered proxy toward `SPCX`, while SATS still carries FCC/DOJ closing risk, debt timing risk, and legacy-business drag.
+
+*Sources: canonical `prices_long` closes; [Guardian live market close — SpaceX ends day at $160.95 / ~$2.1T valuation](https://www.theguardian.com/business/live/2026/jun/12/spacex-float-us-stock-market-share-elon-musk-trillionaire-largest-ipo-ever-live-news-updates).*
+
+---
+
 ## Investment case
 
 Bull:
-- SpaceX stake worth ~$49B at $1.75T IPO vs ~$32B market cap — 50%+ upside if the deal closes and SpaceX prices at target
+- SpaceX stake worth roughly ~$59B at the Jun. 12 public close near $2.1T, versus ~$49B at the prior $1.75T target frame
 - AT&T cash ($23B) solves the 2026 debt wall
 - S&P 500 inclusion drives passive buying flows
 - EchoStar Capital could compound via space-economy M&A

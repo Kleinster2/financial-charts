@@ -314,6 +314,16 @@ This is not the same as an AST-specific operational miss. It is a valuation and 
 
 ---
 
+## Jun. 12 2026 SpaceX debut proxy unwind
+
+ASTS fell 15.53% on Jun. 12 (97.56 → 82.41) while [[SpaceX]] itself closed its first public session up 19% at $160.95. Against canonical June 12 closes, the ASTS move screens at -2.70σ beta-adjusted — with SATS, one of the two cleanest sigma events in the [[SpaceX debut proxy unwind]].
+
+The read is close to SATS but less direct: once `SPCX` became buyable, the market no longer needed to pay the same scarcity premium for public space proxies. ASTS remains a direct-to-cell execution story, not a SpaceX ownership vehicle, so a SpaceX up day can still be an ASTS down day if the proxy bid migrates into the new primary listing.
+
+*Sources: [Guardian live market close — SpaceX ends day at $160.95 / ~$2.1T valuation](https://www.theguardian.com/business/live/2026/jun/12/spacex-float-us-stock-market-share-elon-musk-trillionaire-largest-ipo-ever-live-news-updates); live ASTS quote snapshot Jun. 12 2026; local fallback sigma screen.*
+
+---
+
 ## Financials
 
 ASTS is a pre-profit, recently-SPAC'd satellite company with limited historical disclosure. The income statement is dominated by program-build-out spending (engineering services, D&A on Block 1 satellites) rather than commercial revenue, which is still ramping from US government milestones and gateway hardware sales toward the FY 2026 $150-200M guide.

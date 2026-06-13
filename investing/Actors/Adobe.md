@@ -3,7 +3,7 @@ aliases: [ADBE]
 ---
 #actor #saas #creative #enterprise #usa #public
 
-**Adobe** — Creative and marketing cloud. $24B revenue. Firefly AI. AI-influenced ARR >33% of business. CEO [[Shantanu Narayen]] announced departure after 18 years (Mar 12, 2026) alongside record Q1 FY26 revenue of $6.4B (+12%). Stock down ~23% YTD 2026 amid deep market skepticism about Adobe's ability to thrive in the AI era.
+**Adobe** — Creative and marketing cloud. $24B+ revenue. Firefly AI. AI-influenced ARR >33% of business. CEO [[Shantanu Narayen]] announced departure after 18 years (Mar 12, 2026), and CFO Dan Durn announced his exit after the Q2 FY2026 print. Stock down ~37% YTD 2026 amid deep market skepticism about Adobe's ability to thrive in the AI era.
 
 ---
 
@@ -94,20 +94,15 @@ Digital Experience: Marketing, analytics, commerce
 
 ---
 
-## Q2 FY2026 earnings watch (Jun. 11, 2026)
+## Q2 FY2026 print (Jun. 11-12, 2026): beat, raised guide, CFO exit, stock still breaks
 
-Adobe has set Q2 FY2026 results for Thursday, Jun. 11, 2026 after the market close, with the investor call from 2-3 PM Pacific. The print is the software-side test of the same market regime that hit AI chips on Jun. 5: AI exposure is no longer enough; investors need evidence that AI-native competition is not eroding creative subscription economics.
+Adobe reported Q2 FY2026 revenue of $6.62B (+13% YoY), GAAP EPS of $4.25, non-GAAP EPS of $5.96, total ARR of $27.10B, operating cash flow of $2.17B, and AI-first ARR above $500M. Management raised FY2026 revenue guidance to $26.5-26.6B and non-GAAP EPS to $24.35-24.45. On fundamentals alone, this was not a miss.
 
-| Check | Why it matters |
-|---|---|
-| Digital Media ARR and net new ARR | The cleanest read on whether Creative Cloud pricing and retention still hold. |
-| Firefly / AI-influenced ARR disclosure | Tests whether AI is monetizing inside Adobe's suite rather than merely defending churn. |
-| Digital Experience growth | Shows whether enterprise marketing spend is holding up in a higher-rate tape. |
-| FY26 revenue and EPS guide | The stock entered the print with AI-disruption skepticism; guidance quality matters more than a headline beat. |
-| Buyback cadence | Adobe has used repurchases aggressively; the market will read buybacks against slowing growth. |
-| CEO succession update | [[Shantanu Narayen]]'s departure makes the Q2 call a governance and strategy checkpoint. |
+The stock reaction says the market is grading leadership continuity and AI monetization quality, not only quarterly revenue. CFO Dan Durn will leave for [[Marvell Technology]], with Steve Day becoming interim CFO on Jun. 15. That follows [[Shantanu Narayen]]'s already-announced CEO transition, so the Q2 beat landed inside a two-seat leadership vacuum.
 
-Use `/earnings ADBE` after the release lands; keep this as a watch list until the actual figures are published.
+ADBE closed Jun. 12 at $204.02, down 6.76% on the day (218.80 → 204.02). Against canonical June 12 closes, the move screens at -2.40σ beta-adjusted. The read: a clean operating print did not repair the AI-disruption discount because Adobe is now also asking investors to underwrite a CEO + CFO transition while it leans harder into freemium AI adoption.
+
+*Sources: [Adobe Q2 FY2026 earnings release via SEC](https://www.sec.gov/Archives/edgar/data/796343/000079634326000109/adbeex991q226.htm); [Reuters via Investing.com — Adobe CFO exit fans strategy worries](https://m.investing.com/news/stock-market-news/adobe-raises-annual-revenue-forecast-cfo-to-exit-4738292?ampMode=1); live quote snapshot Jun. 12 2026.*
 
 ---
 
@@ -160,8 +155,9 @@ Bear:
 |--------|-------|
 | Ticker | ADBE |
 | Exchange | [[Nasdaq]] |
-| Revenue | ~$24B (FY25); Q1 FY26 $6.4B (+12%) |
+| Revenue | FY2026 guide $26.5-26.6B; Q2 FY26 $6.62B (+13%) |
 | CEO | [[Shantanu Narayen]] (departing, successor TBD) |
+| CFO | Steve Day interim from Jun. 15, 2026 |
 | Focus | Creative/Marketing cloud |
 
 ---

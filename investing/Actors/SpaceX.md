@@ -3,7 +3,7 @@ aliases: [Starshield]
 ---
 #actor #space #usa #private
 
-SpaceX — Musk's rocket/satellite company. [[Starlink]] dominates satellite internet. Acquired [[xAI]] Feb 2026 and is now in Jun. 2026 IPO roadshow price discovery: expected $135/share, 555.6M primary Class A shares, roughly $75B base gross proceeds, and `SPCX` on [[Nasdaq]] / [[Nasdaq]] Texas. The Jun. 5 FT update adds a customer-offtake layer: [[Google Cloud]] at $920M/month for 110,000 [[NVIDIA]] GPUs through Jun. 2029.
+SpaceX — Musk's rocket/satellite company. [[Starlink]] dominates satellite internet. Acquired [[xAI]] Feb 2026 and listed publicly on Jun. 12, 2026 as `SPCX` on [[Nasdaq]] / [[Nasdaq]] Texas. The IPO priced at $135/share, raised roughly $75B base gross proceeds, and closed its first session at $160.95, implying about $2.1T of market value. The Jun. 5 FT update adds a customer-offtake layer: [[Google Cloud]] at $920M/month for 110,000 [[NVIDIA]] GPUs through Jun. 2029.
 
 ---
 
@@ -53,7 +53,11 @@ The arc: greenhouse on Mars → laughed out of Russia → $100M personal bet →
 
 ## IPO (2026)
 
-Public S-1 filed May 20, 2026; Jun. 3 S-1/A and Jun. 4 FWP filled the roadshow terms. SpaceX is offering 555,555,555 primary Class A shares at an expected $135/share, or roughly $75.0B gross proceeds before the 15% primary over-allotment, with final pricing expected Jun. 11 and trading expected Jun. 12 on [[Nasdaq]] / [[Nasdaq]] Texas under `SPCX`. AP/Reuters mirrors report a roughly $1.77T valuation at those terms. The deal remains structurally unprecedented: [[Goldman Sachs]] now has the lead-left / strategic-adviser role, [[Morgan Stanley]] has the stabilization mandate, [[Elon Musk]] retains about 82.4% voting power after the offering, Musk has a 366-day lock-up, and other holders have staggered release windows. [[Nasdaq]], [[FTSE Russell]], and [[S&P Dow Jones Indices]] have rewritten, confirmed, or reviewed index inclusion rules to accommodate the listing.
+Public S-1 filed May 20, 2026; Jun. 3 S-1/A and Jun. 4 FWP filled the roadshow terms. SpaceX priced the offering at $135/share, raised roughly $75.0B base gross proceeds before any 15% primary over-allotment, and began trading Jun. 12 on [[Nasdaq]] / [[Nasdaq]] Texas under `SPCX`. The first session closed at $160.95, up 19% from the IPO price, with Nasdaq-listed market value around $2.1T. The deal remains structurally unprecedented: [[Goldman Sachs]] had the lead-left / strategic-adviser role, [[Morgan Stanley]] had the stabilization mandate, [[Elon Musk]] retains supervoting control, Musk has a 366-day lock-up, and other holders have staggered release windows. [[Nasdaq]], [[FTSE Russell]], and [[S&P Dow Jones Indices]] have rewritten, confirmed, or reviewed index inclusion rules to accommodate the listing.
+
+The first-day trading read was two-sided. The IPO was a clean success for `SPCX` itself, but it also pulled scarcity premium out of public space proxies. Canonical June 12 closes show [[EchoStar]] (SATS) -10.97%, [[AST SpaceMobile]] (ASTS) -15.53%, [[Rocket Lab]] (RKLB) -10.79%, [[Intuitive Machines]] (LUNR) -13.12%, and [[Redwire]] (RDW) -11.53%, all against a +0.54% [[SPY]] session. On the `quick_movers.py` beta/idio-vol framework, SATS (-3.38σ) and ASTS (-2.70σ) are the clearest sigma events; the high-vol launch/space hardware names were large in percentage terms but cleared only the high-vol 2.0σ bar (RKLB, LUNR) or the 6% absolute floor (RDW). See [[SpaceX debut proxy unwind]].
+
+*Source for close: [Guardian live market close — SpaceX ends day at $160.95 / ~$2.1T valuation](https://www.theguardian.com/business/live/2026/jun/12/spacex-float-us-stock-market-share-elon-musk-trillionaire-largest-ipo-ever-live-news-updates).*
 
 The public filing confirms the financial shape that the leaked S-1 excerpts implied. The issuer is no longer standalone historical SpaceX: its financial statements retrospectively combine [[xAI]] and [[Twitter|X]] under common-control accounting, producing 2025 consolidated revenue of $18.674B and a $4.937B net loss. Segment disclosure is the clean read: Space revenue $4.086B / operating loss $657M; Connectivity revenue $11.387B / operating income $4.423B; AI revenue $3.201B / operating loss $6.355B. [[Starlink]] is now visibly the profit engine funding the AI and orbital-compute story.
 
@@ -523,10 +527,10 @@ The flat 17-month stretch at $137B (Jan 2024 – Jun 2025) reflects a quiet peri
 
 | Metric | Value |
 |--------|-------|
-| Status | Jun. 3 S-1/A + Jun. 4 FWP roadshow terms filed; IPO planned on [[Nasdaq]] / [[Nasdaq]] Texas under `SPCX` |
-| Valuation | Reported roughly $1.77T at expected $135/share roadshow terms; final price still due Jun. 11 |
-| IPO timing | Final pricing expected Jun. 11, 2026; trading expected Jun. 12 |
-| IPO raise | 555.6M primary Class A shares at expected $135/share, about $75B base gross proceeds; up to about $86.25B with 15% primary over-allotment |
+| Status | Public on [[Nasdaq]] / [[Nasdaq]] Texas under `SPCX` since Jun. 12, 2026 |
+| Valuation | ~$2.1T at Jun. 12 first-session close ($160.95) |
+| IPO timing | Priced Jun. 11, 2026; began trading Jun. 12, 2026 |
+| IPO raise | 555.6M primary Class A shares at $135/share, about $75B base gross proceeds; up to about $86.25B with 15% primary over-allotment |
 | Satellites | 9,000+ (1M applied for) |
 | Starlink subscribers | 10.3M (Mar. 31, 2026 S-1 metric) |
 | 2025 revenue | $18.674B consolidated, recast including [[xAI]] / [[Twitter]] / X |
@@ -536,7 +540,7 @@ The flat 17-month stretch at $137B (Jan 2024 – Jun 2025) reflects a quiet peri
 | External AI capacity revenue | Google + Anthropic compute deals >$26B annual revenue (FT, Jun. 5 2026) |
 | CEO | [[Elon Musk]] |
 
-*Updated 2026-06-06 from Jun. 5 FT Google compute-capacity lease update.*
+*Updated 2026-06-12 from first public trading close.*
 
 ---
 
