@@ -592,7 +592,7 @@ Two years ago: one CSP ([[Microsoft]] Azure), one chip ([[NVIDIA]]), one product
 
 ### Chips
 
-[[NVIDIA]] remains the "absolute priority partner"; the next big training run (fall 2026) is on [[Rubin|Vera Rubin]]; [[AMD]] chips in the pipeline; [[Cerebras]] "already online — incredible low-latency chip, great for devs that want real-time coding" (the Jan 2026 750MW deal in production); own chip with [[Broadcom]]. She referenced a coming NVIDIA series the transcript renders as "Simon" — unverified; NVIDIA's previously announced post-Rubin architecture name was Feynman.
+[[NVIDIA]] remains the "absolute priority partner"; the next big training run (fall 2026) is on [[Rubin|Vera Rubin]]; [[AMD]] chips in the pipeline; [[Cerebras]] "already online — incredible low-latency chip, great for devs that want real-time coding" (the Jan 2026 750MW deal in production); own chip with [[Broadcom]]. She referenced a coming [[NVIDIA]] chip series the transcript renders as "Simon" — not a real NVIDIA codename. NVIDIA's confirmed post-[[Rubin|Vera Rubin]] architecture is Feynman (2028, per the GTC 2026 roadmap; Rubin → Rubin Ultra 2026-27 → Feynman 2028), so the transcript term is a mis-transcription rather than a new product. Verified Jun 13, 2026 against the published NVIDIA roadmap.
 
 ### Michigan — Stargate "The Barn" groundbreaking (Jun 1)
 
