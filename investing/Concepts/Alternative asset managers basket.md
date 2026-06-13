@@ -25,7 +25,7 @@ Move-weighted from Feb 2-5 Wave 1 selloff. Bigger drop = higher weight.
 | OWL | [[Blue Owl]] | 21% | -13.3% |
 | BX | [[Blackstone]] | 16% | -10.2% |
 | APO | [[Apollo]] | 8% | -5.3% |
-| BAM | [[Brookfield]] | 7% | -4.1% |
+| BAM | [[Brookfield Asset Management]] | 7% | -4.1% |
 
 Total: 100% — 6 constituents, move-weighted
 

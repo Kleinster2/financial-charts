@@ -1,34 +1,24 @@
 ---
-aliases: [Brookfield Corp, BAM, Brookfield Asset Management, BN]
+aliases: [Brookfield Corp, Brookfield Corporation, BN]
 ---
-#actor #finance #infrastructure #canada
+#actor #investor #finance #infrastructure #canada
 
-**Brookfield** — Global infrastructure giant. $1T+ AUM. Data centers part of broader portfolio.
+**Brookfield** (Brookfield Corporation, BN) — Global infrastructure and alternative-investment giant; the parent owner-operator. $1T+ group AUM. Owns ~73% of the listed manager [[Brookfield Asset Management]] (BAM) plus Wealth Solutions / insurance and a large direct investment portfolio. Data centers part of the broader portfolio.
 
 ## Entity structure (BN vs BAM)
 
 "Brookfield" spans two separately-listed entities that this note covers together and are easily conflated:
 
 - Brookfield Corporation (BN, NYSE/TSX) — the parent owner-operator: a large balance sheet holding ~73% of BAM, plus Wealth Solutions / insurance (~$140B+ assets) and a portfolio of real estate, renewables, infrastructure and PE. Reports distributable earnings (DE).
-- Brookfield Asset Management (BAM, NYSE/TSX) — the asset-light, pure-play listed manager spun out of BN in December 2022. Collects fees on $600B+ fee-bearing capital ($1T+ total AUM); FY2025 fee-related earnings $3.0B (+22%). This is the entity in the listed alt-manager cohort ([[Alternative asset managers basket]] / ALTM). Bruce Flatt chairs; Connor Teskey was named BAM CEO in early 2026.
+- Brookfield Asset Management (BAM, NYSE/TSX) — the asset-light, pure-play listed manager spun out of BN in December 2022 (BN retains ~73%). FY2025 FRE $3.0B on $603B fee-bearing capital; the Brookfield entity in the listed alt-manager cohort ([[Alternative asset managers basket]] / ALTM). Full treatment in [[Brookfield Asset Management]].
 
-The AUM/FRE and cohort content below describes BAM (the manager); the insurance, balance-sheet and owner-operator content describes BN. Note for charting: the DB ticker BAM carries only post-Dec-2022 listed-manager history — pre-2023 Alpha Vantage rows are the legacy Brookfield Asset Management Inc (now BN) and must not be charted as the current entity.
-
-![[bam-vs-bx-kkr-apo-price-chart.png]]
-*BAM (blue) vs cohort peers [[Blackstone\|BX]], [[KKR]], [[Apollo\|APO]], normalized from Jan 2023 (log scale). BAM trades as a member of the alt-manager complex — co-moving with the bloc at the lower-return end. Cohort cluster validation lives in [[Alternative asset managers basket]].*
+This note covers BN — the parent owner-operator: the investing platform, renewables, insurance and the AI-infrastructure thesis below. The fee-stream manager (BAM) has its own note. Charting caveat: the BAM ticker's pre-2023 Alpha Vantage rows are legacy Brookfield Asset Management Inc (now BN).
 
 ---
 
 ## Sector correlation
 
-| Sector | ETF | Correlation |
-|--------|-----|-------------|
-| [[Banks\|Regional Banks]] | KRE | 0.79 |
-| Financials | XLF | 0.75 |
-| [[Consumer]] | XLY | 0.70 |
-| *S&P 500* | *SPY* | *0.73* |
-
-BAM trades as a core Regional Banks name (KRE r = 0.79).
+Brookfield Corporation (BN) price data is not yet ingested in the DB — its chart/price data is unavailable here. The listed manager [[Brookfield Asset Management]] (BAM) carries the tracked correlation profile (BAM trades as a core Regional Banks name, KRE 0.79); see that note.
 
 ---
 
@@ -210,7 +200,7 @@ Brookfield is attempting what J.P. Morgan did for railroads and infrastructure f
 
 | Metric | Value |
 |--------|-------|
-| Tickers | BN (Corp), BAM (Asset Mgmt) |
+| Ticker | BN (Brookfield Corporation); listed manager is [[Brookfield Asset Management]] (BAM) |
 | AUM | $1T+ |
 | HQ | Toronto |
 | Focus | Infrastructure, renewables, RE, PE |
