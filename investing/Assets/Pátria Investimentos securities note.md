@@ -41,7 +41,7 @@ Despite fee-earning AUM growth of 38% and FRE compounding double digits, PAX tra
 ## Peer-relative performance
 
 ![[pax-vs-bx-kkr-apo-cg-price-chart.png]]
-*PAX (blue) vs US alt managers [[Blackstone\|BX]], [[KKR]], [[Apollo Global Management\|APO]], [[Carlyle Group\|CG]], normalized to IPO (Jan 2021 = 100, log scale). PAX has materially lagged the US complex over the period — the divergence the cluster work quantifies: PAX is a Brazil/EM-beta name, not a US-alt co-mover.*
+*PAX (blue) vs US alt managers [[Blackstone\|BX]], [[KKR]], [[Apollo\|APO]], [[Carlyle\|CG]], normalized to IPO (Jan 2021 = 100, log scale). PAX has materially lagged the US complex over the period — the divergence the cluster work quantifies: PAX is a Brazil/EM-beta name, not a US-alt co-mover.*
 
 ## Correlation structure
 

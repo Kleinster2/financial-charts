@@ -1,0 +1,84 @@
+Alt-asset managers CLUSTER ANALYSIS
+Window 1y: 2025-06-18 -> 2026-06-12 (195 obs)
+Window 2y: 2024-07-15 -> 2026-06-12 (253 obs)
+Universe: 11 tickers across 3 groups
+Dendrogram cut threshold: 0.5
+
+--- 1Y INTRA-CLUSTER PAIRWISE CORRELATIONS ---
+Ticker   APO    BX   KKR  ARES    CG   OWL   TPG   BAM
+Ticker                                                
+APO     1.00  0.76  0.81  0.79  0.70  0.72  0.75  0.69
+BX      0.76  1.00  0.85  0.81  0.75  0.75  0.76  0.74
+KKR     0.81  0.85  1.00  0.83  0.75  0.72  0.79  0.77
+ARES    0.79  0.81  0.83  1.00  0.69  0.80  0.79  0.72
+CG      0.70  0.75  0.75  0.69  1.00  0.67  0.78  0.70
+OWL     0.72  0.75  0.72  0.80  0.67  1.00  0.75  0.70
+TPG     0.75  0.76  0.79  0.79  0.78  0.75  1.00  0.72
+BAM     0.69  0.74  0.77  0.72  0.70  0.70  0.72  1.00
+Average intra-cluster correlation: 0.751
+Range: [0.667, 0.848]
+
+--- AVG GROUP-PAIR CORRELATIONS (1Y) ---
+             cluster  traditi      etf
+    cluster    0.751    0.622    0.559
+traditional    0.622      nan    0.645
+        etf    0.559    0.645    0.607
+
+Cluster vs others:
+  cluster vs traditional_am: 0.622  (intra advantage: +0.129)
+  cluster vs etf       : 0.559  (intra advantage: +0.192)
+
+--- HIERARCHICAL CLUSTERS (1Y, distance threshold 0.5) ---
+  Cluster 1: APO, BX, KKR, ARES, CG, OWL, TPG, BAM, BLK, SPY, XLF
+
+--- CANDIDATE JOIN DISTANCES (1Y, average linkage, distance = 1-|corr|) ---
+ Step            Left                      Right Distance                        Members
+    1              BX                        KKR    0.152                         BX+KKR
+    2            ARES                     BX+KKR    0.178                    ARES+BX+KKR
+    3             APO                ARES+BX+KKR    0.214                APO+ARES+BX+KKR
+    4              CG                        TPG    0.220                         CG+TPG
+    5 APO+ARES+BX+KKR                     CG+TPG    0.253         APO+ARES+BX+KKR+CG+TPG
+    6             OWL     APO+ARES+BX+KKR+CG+TPG    0.267     OWL+APO+ARES+BX+KKR+CG+TPG
+    7             BAM OWL+APO+ARES+BX+KKR+CG+TPG    0.281 BAM+OWL+APO+ARES+BX+KKR+CG+TPG
+
+--- PCA ON CANDIDATE COHORT (1Y) ---
+Explained variance ratio:
+  PC1: 78.29%
+  PC2: 4.72%
+  PC3: 3.99%
+  PC4: 3.90%
+  PC5: 3.04%
+
+PC1 loadings:
+APO     0.351
+BX      0.363
+KKR     0.369
+ARES    0.363
+CG      0.340
+OWL     0.344
+TPG     0.357
+BAM     0.340
+
+--- PC1 INDEX WEIGHTS (1Y) ---
+PCA is run on standardized daily log returns. Raw PC1-mimic weights scale PC1 loading by inverse realized volatility.
+     PC1 loading Loading weight Ann vol Raw PC1-mimic weight
+APO        0.351         12.41%  37.38%               13.04%
+BX         0.363         12.83%  37.63%               13.39%
+KKR        0.369         13.05%  40.03%               12.80%
+ARES       0.363         12.86%  45.51%               11.10%
+CG         0.340         12.04%  37.95%               12.46%
+OWL        0.344         12.15%  48.13%                9.92%
+TPG        0.357         12.64%  40.10%               12.38%
+BAM        0.340         12.03%  31.67%               14.92%
+
+--- WEEKLY-RETURN CROSS-CHECK (1Y, async-close robustness) ---
+Weeks: 39   Weekly intra-corr: 0.690 (daily 0.751)   Weekly PC1: 73.0% (daily 78.3%)
+
+--- HISTORICAL TIGHTNESS EVOLUTION (90D ROLLING) ---
+     Avg corr    PC1 Core corr Satellite corr Final join distance
+Date                                                             
+2024    0.570  62.7%     0.581          0.535               0.500
+2025    0.859  87.7%     0.855          0.860               0.179
+2026    0.747  78.0%     0.748          0.751               0.289
+
+Latest 90D: avg corr 0.751, PC1 78.3%, core corr 0.747, satellite corr 0.762, final join distance 0.288

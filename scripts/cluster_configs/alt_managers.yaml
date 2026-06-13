@@ -1,0 +1,21 @@
+# Listed alternative-asset managers — the US/global alt-manager complex that
+# re-rated on the fee-related-earnings (FRE) multiple. The PAX run already showed
+# these names form the tight core (all join at 0.15-0.30) while PAX itself is a
+# singleton; this config validates the core cohort on its own terms.
+# Common window ~2023+ (BAM spun from Brookfield Corp Dec 2022; OWL/TPG recent IPOs).
+name: Alt-asset managers
+primary: APO
+prefix: altmgr-cluster
+threshold: 0.5
+window_end: 2026-06-12
+
+groups:
+  cluster:
+    color: "#2962FF"
+    tickers: [APO, BX, KKR, ARES, CG, OWL, TPG, BAM]
+  traditional_am:
+    color: "#7E57C2"
+    tickers: [BLK]
+  etf:
+    color: "#9E9E9E"
+    tickers: [SPY, XLF]
