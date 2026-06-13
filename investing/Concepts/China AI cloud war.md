@@ -19,8 +19,8 @@ This isn't a single race — it's five companies running on five different track
 
 [[ByteDance]]'s MaaS platform. Market leader by token volume: 120T daily tokens by April 2026, 49.2% MaaS market share (IDC H1 2025). Restructured cloud sales commissions to pay more for MaaS than traditional infrastructure. The 99.3% price cut (May 2024: ¥0.12 → ¥0.0008/1K tokens) was intentional: flood the market, capture developer ecosystem, monetize later. MaaS revenue target: >¥10B for 2026 (raised twice). One of only three companies globally past 100T daily inference (with [[OpenAI]] and [[Google]]).
 
-**Chosen metric:** Token volume.
-**Risk:** Permanent low margins — becoming the "dumb pipe" of AI.
+Chosen metric: Token volume.
+Risk: Permanent low margins — becoming the "dumb pipe" of AI.
 
 ### [[Alibaba Cloud]] — Vertical integration play
 
@@ -28,8 +28,8 @@ China's #1 cloud (~35% share). CEO Eddie Wu created "Alibaba Token Hub" as a fir
 
 The open-source [[Qwen]] strategy (1B+ downloads, 100K+ derivatives) drives IaaS demand — developers need Alibaba Cloud to run Qwen at scale — while starving MaaS-only competitors of the private deployment market.
 
-**Chosen metric:** Total AI revenue.
-**Risk:** Defending the fortress while a faster ecosystem grows outside its walls.
+Chosen metric: Total AI revenue.
+Risk: Defending the fortress while a faster ecosystem grows outside its walls.
 
 ### [[Tencent Cloud]] — Neutral aggregator play
 
@@ -39,8 +39,8 @@ The asymmetric bet: WeChat's 1.3B+ MAU. If models commoditize (Tencent's explici
 
 [[Hello China Tech]]'s May 27 public preview adds a tougher stress test. Tencent's agent wave now spans WorkBuddy, CodeBuddy, QClaw, DataBuddy, Ardot, Marvis, browser, input, meetings, and planned WeChat Mini Program skills. But the same source cites Yuanbao at 57.35M monthly active users versus [[Doubao]] at 345M and [[Qwen]] at 166M, [[Tencent Cloud]] at #5 / 8% in public-cloud [[IaaS]], and the top three MaaS players excluding Tencent while holding nearly 90% combined. Distribution is Tencent's advantage; infrastructure is the constraint.
 
-**Chosen metric:** Platform reach / distribution.
-**Risk:** If one model pulls decisively ahead, aggregation loses its value proposition.
+Chosen metric: Platform reach / distribution.
+Risk: If one model pulls decisively ahead, aggregation loses its value proposition.
 
 ### [[Huawei Cloud]] — Domestic hardware stack play
 
@@ -48,15 +48,26 @@ The sovereignty bet: only major Chinese cloud built entirely on domestic hardwar
 
 [[ByteDance]] and [[Alibaba]] order Huawei's chips but run their own clouds on top. Huawei is becoming the chip supplier to the token economy rather than the cloud operator. Internationally leverages telecom incumbency in SEA, Middle East, Africa.
 
-**Chosen metric:** Sovereignty / security compliance.
-**Risk:** Winning the hardware layer while losing the platform layer.
+Chosen metric: Sovereignty / security compliance.
+Risk: Winning the hardware layer while losing the platform layer.
 
 ### [[Baidu]] — Productized enterprise AI
 
 17% MaaS market share (IDC H1 2025). Revenue from productized, industry-tailored AI solutions rather than raw token volume. Claims #1 in contract volume and value for large model projects in H1 2025. Core strengths: [[Ernie]] model family, autonomous driving ([[Apollo Go]]), search (6B+ daily queries), Qingduo AI creative platform (2,000+ ad creatives/hour).
 
-**Chosen metric:** Enterprise AI contract value.
-**Risk:** Scale disadvantage as the market shifts to platform-level competition.
+Chosen metric: Enterprise AI contract value.
+Risk: Scale disadvantage as the market shifts to platform-level competition.
+
+### The state-operator clouds — the cohort the leaderboard understates
+
+The five-way framing above is the tech-giant race. It omits a fourth track that is large by revenue and dominant where it matters most to the state: the telecom-operator clouds. [[China Telecom]]'s [[Tianyi Cloud]] reported FY2025 revenue above RMB120bn — comparable to or larger than [[Huawei Cloud]] and [[Tencent Cloud]] — and China Telecom cites it as #2 in China public-cloud IaaS behind [[Alibaba Cloud]]. [[China Mobile]] (Mobile Cloud, ~RMB56bn H1 2025) and [[China Unicom]] (Unicom Cloud) run the other two.
+
+The measurement is contested and worth stating carefully: independent trackers (Omdia, Canalys) rank the narrow public-cloud-IaaS market as [[Alibaba Cloud]] ~33–36%, [[Huawei Cloud]] ~16–19%, [[Tencent Cloud]] ~9–15% — and place the telecom clouds differently because much of their revenue is government, private, and systems-integration cloud rather than pure public IaaS. So the telecom clouds are simultaneously huge by reported revenue and lower on the public-IaaS leaderboard, depending on the cut.
+
+What is not contested is where they win: government, SOE, and provincial/municipal cloud, where the operators' state ownership, security posture, and national footprint are decisive — the same buyer [[Huawei Cloud]] targets, and the reason Huawei's external cloud growth stalled (the telecom clouds are taking the state segment). They are also the builders of the [[东数西算]] national computing layer, converting their land/power/fiber into intelligent-computing capacity (China Telecom 91 EFLOPS, [[China Unicom]] 45 EFLOPS).
+
+Chosen metric: Government/SOE cloud revenue + state computing capacity.
+Risk: Integration-heavy, lower-margin, policy-dependent revenue; weak in the developer/MaaS layer where the token economy is growing fastest.
 
 ---
 
@@ -92,7 +103,7 @@ The five strategies target different customer segments with different buying cri
 
 | Segment | Likely winner | Why |
 |---------|--------------|-----|
-| Government / SOEs | [[Huawei Cloud]] | Sovereignty mandates, domestic hardware requirement |
+| Government / SOEs | [[Huawei Cloud]] + the telecom clouds ([[Tianyi Cloud]] etc.) | Sovereignty mandates, domestic hardware, state ownership; the operators contest this hardest |
 | Large enterprises | [[Alibaba Cloud]] | Full-stack integration, decade of enterprise relationships |
 | Developers / startups | [[Volcano Engine]] | Cheapest tokens, fastest onboarding, MaaS-first |
 | Consumers / social | [[Tencent Cloud]] | WeChat distribution, Yuanbao embedded in daily workflow |
@@ -108,12 +119,12 @@ The open question is which segment generates the most long-term value. Enterpris
 |---|---|---|---|---|---|
 | Strategy | Commodity tokens | Vertical integration | Neutral aggregator | Domestic hardware | Productized AI |
 | Chosen metric | Token volume | Total AI revenue | Platform reach | Sovereignty | Contract value |
-| Cloud share | 13% rev, 49% tokens | **~35%** | Legacy all-cloud estimate ~20%; public [[IaaS]] #5 / 8% in May 2026 data cited by [[Hello China Tech]] | #2-3, declining | 17% MaaS |
-| Revenue trend | Explosive (small base) | **+36%** | +22% | **-3.5%** external | — |
+| Cloud share | 13% rev, 49% tokens | ~35% | Legacy all-cloud estimate ~20%; public [[IaaS]] #5 / 8% in May 2026 data cited by [[Hello China Tech]] | #2-3, declining | 17% MaaS |
+| Revenue trend | Explosive (small base) | +36% | +22% | -3.5% external | — |
 | Key model | [[Doubao]] | [[Qwen]] | [[Hunyuan]] | — | [[Ernie]] |
-| Distribution | Douyin/TikTok | Taobao/Alipay/DingTalk | **WeChat 1.3B MAU** | Telecom/govt | Search/auto |
+| Distribution | Douyin/TikTok | Taobao/Alipay/DingTalk | WeChat 1.3B MAU | Telecom/govt | Search/auto |
 
-*Updated 2026-05-25*
+*Updated 2026-06-13 (added the state-operator cloud cohort — Tianyi/Mobile/Unicom).*
 
 ---
 
@@ -124,6 +135,12 @@ The open question is which segment generates the most long-term value. Enterpris
 - [[Alibaba Cloud]] — #1 China, Token Hub
 - [[Tencent Cloud]] — TokenHub aggregator
 - [[Huawei Cloud]] — domestic hardware play
+
+### State-operator clouds
+- [[Tianyi Cloud]] — [[China Telecom]]; largest of the operator clouds (>RMB120bn)
+- [[China Mobile]] — Mobile Cloud
+- [[China Unicom]] — Unicom Cloud
+- [[东数西算]] — the national computing buildout the operators run
 
 ### Parent companies
 - [[ByteDance]] — Volcano Engine parent

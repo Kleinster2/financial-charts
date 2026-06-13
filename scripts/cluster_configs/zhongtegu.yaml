@@ -1,0 +1,19 @@
+# Is 中特估 (the SOE value-up theme) one tradeable factor, or several sub-factors
+# (banks / energy / telecoms) united only by the common dividend-yield driver?
+# Candidate cohort = the 10 big central-SOE H-shares across the three lead 中特估
+# sectors; controls = FXI (China large-cap) and SPY. PC1 on the 10-name cohort
+# answers "one factor?"; the dendrogram topology + the 10x10 correlation matrix
+# show whether banks/energy/telecoms co-move or form separate blocs.
+name: 中特估 cohort — banks + energy + telecoms
+primary: 1398.HK
+prefix: zhongtegu-cluster
+threshold: 0.5
+window_end: 2026-06-12
+
+groups:
+  cluster:
+    color: "#2962FF"
+    tickers: ["1398.HK", "0939.HK", "1288.HK", "3988.HK", "0857.HK", "0883.HK", "0386.HK", "0762.HK", "0941.HK", "0728.HK"]
+  etf:
+    color: "#9E9E9E"
+    tickers: [FXI, SPY]
