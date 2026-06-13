@@ -59,6 +59,38 @@ Stated use cases from customers: agents that write software code, enrich and ana
 
 ---
 
+## Technical architecture
+
+The founding technical premise is one sentence: LLMs ingest tokens, not web pages. Consumer search is optimized for short keyword queries, clickable titles, and ad yield, returning teaser snippets that an agent then has to scrape and summarize — adding latency, token cost, and brittle failure points. Parallel rebuilds the stack so the agent is the first-class consumer. Critically, Parallel is an orchestration-and-index layer that sits over frontier models — it does not train its own LLM — so its moat is three things a foundation model does not automatically have: a proprietary web index, the agentic harness that drives it, and a calibrated trust layer.
+
+### Search API — the retrieval layer
+Instead of keywords, the agent submits an objective (e.g. "When was the United Nations established? Prefer UN websites") plus optional queries. The API returns LLM-ready ranked URLs with extended, information-rich excerpts — the spans most relevant to the objective, with explicit freshness and length controls, sized to slot directly into a context window — rather than link titles. This collapses the separate scrape-and-summarize layer most agent stacks bolt on. It runs on Parallel's own crawler and index ("engineered for machine consumption"), in two latency profiles: Base (2–5s) and Pro (15–60s, prioritizing freshness/relevance).
+
+### Task API — the deep-research engine
+The flagship is an agentic multi-step research system exposed as compute-tiered "processors." The architecture is held constant and scaled by budget — Parallel states that Parallel 600 and 1200 are "the same architecture as Parallel Ultra…but with 2x and 4x the compute and cost." Compute budget maps almost linearly to accuracy on their hard internal multi-hop benchmark:
+
+| Processor | CPM | Accuracy (hard multi-hop set) |
+|-----------|-----|-------------------------------|
+| Base | $10 | 4% |
+| Core | $25 | 7% |
+| Pro | $100 | 17% |
+| Ultra | $300 | 27% |
+| Parallel 600 | $600 | 39% |
+| Parallel 1200 | $1,200 | 48% |
+
+Three engineering ideas make this work:
+- Adaptive computation — the agent does not impose a uniform ceiling. A simple factual lookup can terminate in ~2 iterations for a few cents; a complex multi-source comparison runs ~15 iterations on a larger budget. Customers dial performance up for critical tasks, down for routine ones.
+- Parallel tool calling — the namesake technique. The agent scales width (issuing multiple search/fetch calls in a single step), not just depth (sequential steps), which improves accuracy on hard benchmarks while cutting turns, API cost, and wall-clock time. This is the source of the "50x research volume for the same compute budget" claim.
+- Context compaction — on long research sessions, when accumulated history (reasoning, intermediate results, execution summaries) approaches the model's context limit, a summarization pass condenses earlier turns while preserving key findings and the current trajectory.
+
+### Basis — the trust layer
+Auto-included on the Core/Pro/Ultra processors, Basis attaches four things to every output field: citations (source URLs), reasoning (why the field was answered that way), excerpts (the supporting text from the cited URL), and a calibrated confidence (low/medium/high). The confidences are empirically calibrated, not arbitrary: high-confidence answers show 2–3x lower error than the dataset baseline, low-confidence answers run ~35–62% error and are flagged for human review. The payoff is a hybrid human/AI workflow where reviewers touch only the low-confidence slice, cutting error roughly 2x versus reviewing everything — a direct attack on the hallucination/verifiability problem that blocks agents from high-liability domains (insurance, finance, legal).
+
+### Why the latency gap is structural
+The independent ~13.6s deep-research latency that [[Brave Search]] beats by ~20x is not a bug to be patched away — it is the cost of the iterative agentic loop (multiple model calls, multiple fetches, verification). Parallel's bet is accuracy-per-dollar on hard, multi-step tasks, not single-shot speed; the low-latency lane is the separate Search API (Base 2–5s). The benchmark wins are measured by holding a frontier model fixed (a single GPT-5.4 agent, two tools, a 25-tool-call budget) and swapping the search backend — so they isolate index/retrieval quality, which is exactly the layer Parallel controls.
+
+---
+
 ## Benchmarks — self-reported vs independent
 
 Parallel markets aggressive head-to-head benchmark wins, but third-party tests are more equivocal — the central evidentiary tension in the name.
@@ -110,7 +142,7 @@ Parallel sits at the infrastructure layer, a different altitude from consumer an
 
 The structural bet is that the agentic web is a distinct market from human search, and that a neutral, model-agnostic infrastructure provider can own its retrieval and settlement layers the way [[Stripe]] owns payments or [[Twilio]] owns messaging. Two tensions decide whether that holds.
 
-First, disintermediation from above. [[OpenAI]], [[Anthropic]], and [[Google]] all ship first-party web search and research inside their models; every quarter those native tools improve, the addressable space for a standalone API narrows. Parallel's defense is being better on hard multi-step research and being model-neutral — useful to a developer who wants to switch foundation models without rewiring their web layer. Whether neutrality is worth a premium when the incumbent tool is "free" inside the model subscription is unproven.
+First, disintermediation from above. [[OpenAI]], [[Anthropic]], and [[Google]] all ship first-party web search and research inside their models; every quarter those native tools improve, the addressable space for a standalone API narrows. The defensible core (see [[#Technical architecture]]) is concrete — a proprietary machine-first index, the parallel-tool-calling harness, and the Basis trust layer — but because Parallel orchestrates frontier models rather than training one, all three sit in exactly the band a foundation-model lab could build inward, which is what keeps the threat live. Parallel's defense is being better on hard multi-step research and being model-neutral — useful to a developer who wants to switch foundation models without rewiring their web layer. Whether neutrality is worth a premium when the incumbent tool is "free" inside the model subscription is unproven.
 
 Second, the valuation runs ahead of disclosed economics. A $2B mark on undisclosed revenue, set five months after a $740M round, prices the option on owning the agent-web layer, not the current business. The Index product is the more defensible idea — if it reaches liquidity it becomes a two-sided network (publishers + agents) with switching costs, which a pure search API lacks — but it is one month old at the time of writing and competes against incumbents ([[Cloudflare]]) that already sit in front of most of the web's traffic.
 
@@ -146,5 +178,8 @@ The cleanest tell that this is a structural-thesis bet rather than a metrics bet
 - [[Kleiner Perkins]], [[Index Ventures]] — Series A co-leads
 - [[Khosla Ventures]], [[First Round Capital]], [[Spark Capital]] — investors
 - [[Clay]], [[Harvey]], [[Notion]], [[Opendoor]], [[Genpact]] — customers
+
+### Cross-vault
+- [Technologies: Deep Research Systems](obsidian://open?vault=technologies&file=Deep%20Research%20Systems) — the vendor-neutral method/architecture Parallel exemplifies
 
 *Created 2026-06-13. Private company — figures from funding announcements and Parallel's published materials; revenue undisclosed.*
