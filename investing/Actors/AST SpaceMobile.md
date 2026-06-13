@@ -5,7 +5,9 @@ aliases: [ASTS]
 
 # AST SpaceMobile
 
-Direct-to-cell satellite broadband company. Building "cell towers in the sky" — BlueBird satellites transmit 4G/5G directly to unmodified smartphones. Pre-revenue commercialization phase with massive carrier partnerships.
+Direct-to-cell satellite broadband company. Building "cell towers in the sky" — BlueBird satellites transmit 4G/[[5G]] directly to unmodified smartphones. Pre-revenue commercialization phase with massive carrier partnerships.
+
+AST SpaceMobile is the only scaled public pure-play in direct-to-cell satellite broadband: its [[#Satellite constellation|BlueBird constellation]] reaches unmodified phones, backed by roughly 50 mobile-network-operator partnerships ([[AT&T]], [[Verizon]], [[Vodafone]], [[stc]]) spanning ~3B subscribers. The investment object is a pre-revenue option on execution — scaling from 7 to a 45-60-satellite [[#2026 launch schedule|year-end-2026 target]] against ~$700M/yr cash burn funded by [[#Ratings history|convertible notes]] — and the equity is a high-beta [[Space pure-plays|space-cohort]] proxy whose tape is driven as much by [[SpaceX IPO 2026|SpaceX-IPO]] flow as by the still-nascent carrier-revenue ramp ([[#Risks|key risks]]). Founder-CEO [[Abel Avellan]] retains super-voting control; the instrument and share structure live in [[AST SpaceMobile securities note]].
 
 ---
 
@@ -13,10 +15,10 @@ Direct-to-cell satellite broadband company. Building "cell towers in the sky" �
 
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
-| Technology | XLK | 0.52 |
-| [[Semiconductors]] | SMH | 0.49 |
-| Industrials | XLI | 0.48 |
-| *S&P 500* | *SPY* | *0.47* |
+| Technology | [[XLK]] | 0.52 |
+| [[Semiconductors]] | [[SMH]] | 0.49 |
+| Industrials | [[XLI]] | 0.48 |
+| *[[S&P 500]]* | *[[SPY]]* | *0.47* |
 
 ASTS shows moderate Technology correlation (XLK r = 0.52).
 
@@ -28,11 +30,11 @@ Only pure-play direct-to-cell satellite company with carrier deals spanning ~3B 
 
 ---
 
-## Key stats
+## Quick stats
 
 | Metric | Value |
 |--------|-------|
-| Ticker | ASTS (NASDAQ) |
+| Ticker | ASTS ([[Nasdaq]]) |
 | Market cap | ~$29-38B (Feb 2026) |
 | Revenue (Q4 2025) | $54.31M (beat consensus by 29%) |
 | Revenue (Q3 2025) | $14.7M (up from $1.1M YoY) |
@@ -54,9 +56,9 @@ Only pure-play direct-to-cell satellite company with carrier deals spanning ~3B 
 |-----------|------|-----------|--------|
 | BlueWalker 3 | Test | 693 sq ft | Test platform |
 | BlueBirds 1-5 | Block 1 | ~700 sq ft each | Operational |
-| **BlueBird 6** | **Block 2** | **2,400 sq ft** | **Launched Dec 23, 2025** |
+| BlueBird 6 | Block 2 | 2,400 sq ft | Launched Dec 23, 2025 |
 
-**Total in orbit: 7** (BlueWalker 3 + BlueBirds 1-6)
+Total in orbit: 7 (BlueWalker 3 + BlueBirds 1-6)
 
 BlueBird 6 is the largest commercial communications array ever deployed in LEO. Peak data rates up to 120 Mbps to unmodified phones.
 
@@ -64,7 +66,7 @@ BlueBird 6 is the largest commercial communications array ever deployed in LEO. 
 
 - BlueBird 7 shipping to Florida, target late Feb 2026
 - 4 additional launches planned before March 2026
-- **Target: 45-60 satellites by end of 2026**
+- Target: 45-60 satellites by end of 2026
 - 90 satellites needed for global continuous service
 - 243 satellites planned by end of 2028 (FCC filing)
 
@@ -76,11 +78,11 @@ BlueBird 6 is the largest commercial communications array ever deployed in LEO. 
 |---------|------|-------|
 | [[AT&T]] | Through 2030 | Beta service H1 2026, FirstNet, enterprise, IoT |
 | [[Verizon]] | $100M investment (May 2024) | Continental US coverage, investor + strategic partner |
-| Vodafone | Global | European markets |
+| [[Vodafone]] | Global | European markets |
 | Rakuten | Japan | |
-| stc Group | 10-year, $175M upfront | Saudi Arabia + MENA, 3 gateways + NOC in Riyadh |
-| Vi (Vodafone Idea) | India | Direct-to-device |
-| **50+ MNOs total** | ~3B subscribers | Global coverage |
+| [[stc]] Group | 10-year, $175M upfront | Saudi Arabia + MENA, 3 gateways + NOC in Riyadh |
+| Vi ([[Vodafone Idea]]) | India | Direct-to-device |
+| 50+ MNOs total | ~3B subscribers | Global coverage |
 
 Uses "a segment" of both AT&T and Verizon's 850 MHz spectrum for US coverage.
 
@@ -88,7 +90,7 @@ Uses "a segment" of both AT&T and Verizon's 850 MHz spectrum for US coverage.
 
 - First native VoLTE voice calls over satellite on unmodified smartphones (AT&T network)
 - Successful VoLTE calls on Verizon network via BlueBirds 1-5
-- [[Google]] + AT&T partnership for Android satellite connectivity
+- [[Google]] + [[AT&T]] partnership for [[Android]] satellite connectivity
 
 ---
 
@@ -103,24 +105,24 @@ Uses "a segment" of both AT&T and Verizon's 850 MHz spectrum for US coverage.
 
 | Competitor | Approach | Status |
 |-----------|----------|--------|
-| [[Starlink]] (T-Mobile) | Direct-to-cell add-on | Testing, limited bandwidth |
-| [[Amazon]] LEO (AT&T) | Fixed broadband, **not** direct-to-cell | Launching 2026 |
-| [[Globalstar]] (Apple) | Emergency SOS, not broadband D2D | Operational |
+| [[Starlink]] ([[T-Mobile]]) | Direct-to-cell add-on | Testing, limited bandwidth |
+| [[Amazon]] LEO ([[AT&T]]) | Fixed broadband, not direct-to-cell | Launching 2026 |
+| [[Globalstar]] ([[Apple]]) | Emergency SOS, not broadband D2D | Operational |
 
-**Key differentiator:** Only company offering full broadband (voice, data, video) direct-to-cell from space. Starlink D2D limited to messaging/low bandwidth. Amazon LEO targets enterprise fixed broadband.
+Key differentiator: Only company offering full broadband (voice, data, video) direct-to-cell from space. Starlink D2D limited to messaging/low bandwidth. Amazon LEO targets enterprise fixed broadband.
 
-**Feb 2026 AT&T-Amazon LEO selloff:** ASTS dropped ~11% on Feb 4 when AT&T announced Amazon LEO partnership. AT&T clarified LEO deal is for enterprise fixed broadband — does not impact AST SpaceMobile plans. Different use cases.
+Feb 2026 AT&T-Amazon LEO selloff: ASTS dropped ~11% on Feb 4 when AT&T announced Amazon LEO partnership. AT&T clarified LEO deal is for enterprise fixed broadband — does not impact AST SpaceMobile plans. Different use cases.
 
 ---
 
 ## Risks
 
-- **Execution risk** — scaling from 7 to 60+ satellites is unprecedented manufacturing/launch challenge
-- **Cash burn** — $700M/year with $1.2B cash; will need additional capital
-- **Valuation** — 778x P/S assumes massive future revenue that hasn't materialized
-- **Technology risk** — consistent broadband from LEO to unmodified phones is unproven at scale
-- **Competition** — Amazon, SpaceX have far deeper pockets
-- **Spectrum dependency** — relies on carrier partners' spectrum allocations
+- Execution risk — scaling from 7 to 60+ satellites is unprecedented manufacturing/launch challenge
+- Cash burn — $700M/year with $1.2B cash; will need additional capital
+- [[Valuation]] — 778x P/S assumes massive future revenue that hasn't materialized
+- Technology risk — consistent broadband from LEO to unmodified phones is unproven at scale
+- Competition — Amazon, SpaceX have far deeper pockets
+- Spectrum dependency — relies on carrier partners' spectrum allocations
 
 ---
 
@@ -136,7 +138,7 @@ Uses "a segment" of both AT&T and Verizon's 850 MHz spectrum for US coverage.
 
 ## March 2026: UBS price target doubled
 
-UBS raised ASTS price target from $43 to $85 on March 4, 2026. Stock rose +9.8% to $86.92. The raise reflects increased conviction in the direct-to-cell broadband opportunity as constellation deployment progresses. War-driven demand for resilient communications infrastructure likely contributed to sentiment.
+[[UBS]] raised ASTS price target from $43 to $85 on March 4, 2026. Stock rose +9.8% to $86.92. The raise reflects increased conviction in the direct-to-cell broadband opportunity as constellation deployment progresses. War-driven demand for resilient communications infrastructure likely contributed to sentiment.
 
 ---
 
@@ -152,7 +154,7 @@ ASTS surged +10.4% on March 25, driven by two catalysts:
 
 1. [[SpaceX]] IPO filing reportedly imminent — The Information reported SpaceX may file its $75B IPO prospectus as soon as this week at a $1.75T valuation. The report lifted the entire space sector: [[Rocket Lab]] (RKLB) +10%, [[Firefly Aerospace]] (FLY) +16%, York Space (YSS) +5%. The logic: a SpaceX public listing validates the space sector and draws institutional capital toward space infrastructure broadly.
 
-2. NASA "Project Ignition" — a $20B plan for a semi-permanent moon base by 2032. While AST's core business is direct-to-cell connectivity on Earth with limited near-term ties to lunar infrastructure, investors extrapolated sector momentum. [[Intuitive Machines]] (LUNR) +14.5% holds the key NASA Earth-to-moon communications contract, narrowing AST's immediate opportunity beyond Earth.
+2. [[NASA]] "Project Ignition" — a $20B plan for a semi-permanent moon base by 2032. While AST's core business is direct-to-cell connectivity on Earth with limited near-term ties to lunar infrastructure, investors extrapolated sector momentum. [[Intuitive Machines]] (LUNR) +14.5% holds the key NASA Earth-to-moon communications contract, narrowing AST's immediate opportunity beyond Earth.
 
 The connection between these catalysts and AST's actual revenue trajectory is indirect — the rally is sector sentiment, not fundamental. AST's value proposition remains the ~3B-subscriber carrier partnerships and BlueBird constellation buildout, not space exploration.
 
@@ -180,7 +182,7 @@ ASTS reports Q1 2026 earnings the following Monday. Market expectations (per [[B
 
 ### Bloomberg piece: "meme-stock mania is back"
 
-Bloomberg framed the May 8 ASTS move as evidence of returning meme-stock dynamics — but the underlying structural reads (FCC approval, Falcon 9 confirmation, Texas manufacturing scale, [[SpaceX IPO 2026|SpaceX IPO]] comp tailwind) suggest the move is closer to "catalyst-driven re-rating with elevated speculative tail" than pure meme dynamics. The meme-stock framing matters because it sets up the asymmetric risk for Monday's earnings — a print that disappoints into a 14.8% Friday rally will reverse violently.
+[[Bloomberg]] framed the May 8 ASTS move as evidence of returning meme-stock dynamics — but the underlying structural reads (FCC approval, Falcon 9 confirmation, Texas manufacturing scale, [[SpaceX IPO 2026|SpaceX IPO]] comp tailwind) suggest the move is closer to "catalyst-driven re-rating with elevated speculative tail" than pure meme dynamics. The meme-stock framing matters because it sets up the asymmetric risk for Monday's earnings — a print that disappoints into a 14.8% Friday rally will reverse violently.
 
 *Sources: [Bloomberg — ASTS meme-stock mania](https://www.bloomberg.com/news/features/2026-05-08/spacex-rival-ast-spacemobile-asts-proves-meme-stock-mania-is-back); [TipRanks — ASTS earnings preview after Friday rally](https://www.tipranks.com/news/ast-spacemobile-asts-earnings-preview-what-to-watch-after-fridays-rally); [Foreign Policy Journal — ASTS at $74](https://www.foreignpolicyjournal.com/2026/05/08/ast-spacemobile-asts-stock-price-surges-to-74-but-satellite-setbacks-and-spacex-ipo-risk-weigh-on-the-story/); [TS2 — ASTS Monday earnings test](https://ts2.tech/en/ast-spacemobile-stock-faces-big-monday-test-after-fcc-win-bluebird-setback/), May 8 2026.*
 
@@ -228,7 +230,7 @@ ASTS reported Q1 2026 after market close on May 11. The print delivered substant
 |---|---|---|---|
 | Revenue | $14.7M | $38.24M | — |
 | Net loss attributable to common | -$191.0M | — | — |
-| EPS (GAAP basic/diluted) | -$0.66 | -$0.23 (adjusted) | — |
+| EPS ([[GAAP]] basic/diluted) | -$0.66 | -$0.23 (adjusted) | — |
 | Pro forma cash | $3.5B | — | $3.9B (prior guide) |
 | FY 2026 revenue guide | $150-200M (reaffirmed) | — | — |
 | FY 2026 pipeline | $1.2B+ commercial | — | $1B+ pledged |
@@ -241,23 +243,23 @@ All figures in USD thousands except EPS.
 |---|---|---|
 | Products revenue (incl. $7.85M related-party) | 13,406 | 375 |
 | Services revenue | 1,329 | 343 |
-| **Total revenue** | **14,735** | **718** |
+| Total revenue | 14,735 | 718 |
 | Cost of revenue — products (incl. $4.87M related-party) | 11,063 | — |
 | Cost of revenue — services | 586 | — |
 | Engineering services costs | 84,097 | 27,204 |
 | General and administrative costs | 43,657 | 18,384 |
 | Research and development costs | 7,129 | 7,135 |
 | Depreciation and amortization | 17,615 | 10,958 |
-| **Total operating expenses** | **164,147** | **63,681** |
+| Total operating expenses | 164,147 | 63,681 |
 | Operating loss | (149,412) | (62,963) |
 | Warrant liability remeasurement | (1,174) | (3,206) |
 | Interest expense | (24,278) | (4,736) |
 | Interest income | 26,998 | 8,196 |
 | Other (expense) income, net | (100,546) | (751) |
 | Income tax expense | (1,169) | (168) |
-| **Net loss before NCI** | **(249,581)** | **(63,628)** |
+| Net loss before NCI | (249,581) | (63,628) |
 | Less: NCI allocation | (58,569) | (17,922) |
-| **Net loss attributable to common** | **(191,012)** | **(45,706)** |
+| Net loss attributable to common | (191,012) | (45,706) |
 | EPS (basic and diluted, $) | (0.66) | (0.20) |
 | Weighted-avg shares (Class A) | 290,689,457 | 223,974,396 |
 
@@ -273,10 +275,10 @@ The $14.7M Q1 revenue is below the Zacks $38.24M consensus, but management's fra
 
 Three of the four key watch items from the preview confirmed cleanly:
 
-1. **BlueBird 8-10 launch timeline intact** — All three satellites confirmed launching to LEO in **mid-June** (within the ~30-day-from-Q1-call window management had previously articulated). The launch sequence supports the 45-satellite end-of-2026 framework.
-2. **Production pipeline operational** — BlueBird 11 through BlueBird 33 in *advanced stages of production and assembly*. The 23-satellite production pipeline (in addition to BB8-10 launching mid-June) represents the back-loaded 2026 deployment that fills the 45-satellite year-end target.
-3. **45-satellite end-of-2026 target** — Management implicitly reaffirmed the 45-satellite year-end target despite BlueBird-1 loss; the 23-satellite production pipeline (BB11-33) plus BB8-10 launches gives 26 additional satellites within the year, supporting the path to 45 even with BB-1 attrition.
-4. **Cash runway extended** — $3.5B vs prior $3.9B implies ~$400M Q1 cash outflow (in the middle of the $420-500M implied range). Cash position remains 7-8Q runway at this burn pace, lengthened slightly by the convertible-debt raise announced concurrent with the print.
+1. BlueBird 8-10 launch timeline intact — All three satellites confirmed launching to LEO in mid-June (within the ~30-day-from-Q1-call window management had previously articulated). The launch sequence supports the 45-satellite end-of-2026 framework.
+2. Production pipeline operational — BlueBird 11 through BlueBird 33 in *advanced stages of production and assembly*. The 23-satellite production pipeline (in addition to BB8-10 launching mid-June) represents the back-loaded 2026 deployment that fills the 45-satellite year-end target.
+3. 45-satellite end-of-2026 target — Management implicitly reaffirmed the 45-satellite year-end target despite BlueBird-1 loss; the 23-satellite production pipeline (BB11-33) plus BB8-10 launches gives 26 additional satellites within the year, supporting the path to 45 even with BB-1 attrition.
+4. Cash runway extended — $3.5B vs prior $3.9B implies ~$400M Q1 cash outflow (in the middle of the $420-500M implied range). Cash position remains 7-8Q runway at this burn pace, lengthened slightly by the convertible-debt raise announced concurrent with the print.
 
 ### Stock reaction (post-close)
 
@@ -346,7 +348,60 @@ The DB carries only Q1 2026 quarterly data as of this run; older quarters (Q4 20
 
 ---
 
+## Leadership
+
+| Role | Name | Since |
+|------|------|-------|
+| CEO, Chairman & Founder | [[Abel Avellan]] | 2017 |
+| CFO & Chief Legal Officer | Andrew Johnson | 2024 |
+| President & Chief Strategy Officer | Scott Wisniewski | 2024 |
+| COO | Shanti Gupta | — |
+| CTO | Huiwen Yao | — |
+| Chief Commercial Officer | Chris Ivory | — |
+
+[[Abel Avellan]] founded the company in 2017 (after founding and selling Emerging Markets Communications) and retains super-voting Class C control. Scott Wisniewski was elevated to President in a mid-2024 commercialization-focused realignment; Andrew Johnson moved from General Counsel into a combined CFO / Chief Legal Officer role around the 2024-2025 turn.
+
+---
+
+## Evolution
+
+- 2017 — [[Abel Avellan]] founds AST & Science to build space-based cellular broadband to unmodified phones.
+- 2021 — public via [[SPAC]] merger (New Providence Acquisition Corp), an Up-C listing on [[Nasdaq]] as ASTS; strategic investors [[Vodafone]], Rakuten, and [[American Tower]] anchor.
+- 2022 — BlueWalker 3 test satellite launched, the largest commercial array then in LEO; first direct-to-phone calls and texts demonstrated.
+- 2023-2024 — BlueBird Block 1 program; [[AT&T]] and [[Verizon]] commercial agreements; the equity re-rates off penny levels as the constellation thesis gains credibility.
+- Dec 2025 — BlueBird 6 (Block 2, 2,400 sq ft) launched, the largest commercial comms array in LEO.
+- 2026 — [[FCC]] approval for up to 248 satellites; Falcon 9 launch cadence with [[SpaceX]]; the 45-60-satellite year-end target; convertible-note refinancings reshape the balance sheet.
+
+---
+
+## Analyst timeline
+
+Coverage is wide and split — roughly 11 analysts, a ~$90 median price target against a $41-$117 range. The dispersion is itself the signal: ASTS is a binary execution bet, so targets cluster around scenarios rather than a base case.
+
+| Date | Firm | Action | Target |
+|------|------|--------|--------|
+| Mar 4, 2026 | [[UBS]] | Raised, conviction on direct-to-cell opportunity | $43 → $85 |
+| ~Apr 2026 | [[Bank of America]] | Flagged BlueBird-1 loss leaves ~7 satellites short of the 45-unit 2026 target | — |
+| Jun 2026 | B. Riley | Raised, Buy | $60 → $95 |
+| Jun 2026 | [[Barclays]] | Lowered, Underweight | $65 → $60 |
+
+Consensus sits around a weak Buy/Hold; the bull-bear gap maps directly to the deployment-cadence and carrier-revenue-conversion questions in [[#What to watch|What to watch]].
+
+---
+
+## Ratings history
+
+AST SpaceMobile carries no public S&P, [[Moody's]], or Fitch credit rating. It is a pre-profit issuer that funds the constellation build through equity-linked convertible notes rather than rated debt: as of Dec 31, 2025, $575.0M of 2.375% convertible senior notes due 2032 and $50M of 4.25% convertible senior notes due 2032 were outstanding, after Feb 2026 cash-and-equity repurchases (~$433.7M for $250M face of the 2.375% notes; ~$180.5M for $46.5M face of the 4.25% notes) that drove the Q1 2026 induced-conversion expense. The absence of an agency rating is itself the finding — capital access runs through the equity and convertible markets, so dilution and conversion terms, not a credit spread, are the binding cost-of-capital variable.
+
+---
+
 ## Related
+
+### Securities
+
+- [[AST SpaceMobile securities note]] — ASTS instrument: Up-C / controlled-company share structure, price record, capital structure
+
+### Entities and sectors
 
 - [[Amazon]] — AT&T's LEO partner (different use case)
 - [[AT&T]] — primary US carrier partner
