@@ -18,8 +18,8 @@ from datetime import datetime
 from pathlib import Path
 
 
-def get_file_path_from_stdin():
-    """Extract file_path from hook JSON payload on stdin.
+def read_hook_payload():
+    """Parse the PostToolUse JSON payload from stdin.
 
     Read raw bytes and decode UTF-8 explicitly. On Windows, text-mode
     sys.stdin defaults to cp1252, which mangles multi-byte UTF-8 paths
@@ -28,10 +28,46 @@ def get_file_path_from_stdin():
     """
     try:
         raw = sys.stdin.buffer.read()
-        payload = json.loads(raw.decode("utf-8"))
-        return payload.get("tool_input", {}).get("file_path", "")
+        return json.loads(raw.decode("utf-8"))
     except Exception:
-        return ""
+        return {}
+
+
+SESSION_EDITS_SUBDIR = os.path.join(".claude", ".session_edits")
+
+
+def record_session_edit(note_name, session_id, project_dir):
+    """Record this session's vault-note edit in a per-session, per-day sidecar.
+
+    The Stop-hook gate (check_daily_summary.py) reads only the stopping
+    session's sidecar, so a concurrent session's in-progress edits no longer
+    deadlock whichever session stops first. No session_id -> skip (the Stop
+    hook then falls back to its legacy edit-log scan).
+    """
+    safe_sid = re.sub(r"[^A-Za-z0-9_-]", "", session_id or "")[:64]
+    if not safe_sid:
+        return
+    today = datetime.now().strftime("%Y-%m-%d")
+    sess_dir = os.path.join(project_dir, SESSION_EDITS_SUBDIR)
+    try:
+        os.makedirs(sess_dir, exist_ok=True)
+        # Opportunistic cleanup: drop sidecars from previous days.
+        for fn in os.listdir(sess_dir):
+            if fn.endswith(".txt") and not fn.startswith(f"{today}_"):
+                try:
+                    os.remove(os.path.join(sess_dir, fn))
+                except OSError:
+                    pass
+        path = os.path.join(sess_dir, f"{today}_{safe_sid}.txt")
+        existing = set()
+        if os.path.isfile(path):
+            with open(path, "r", encoding="utf-8") as f:
+                existing = {ln.strip() for ln in f if ln.strip()}
+        if note_name not in existing:
+            with open(path, "a", encoding="utf-8") as f:
+                f.write(note_name + "\n")
+    except Exception:
+        pass
 
 
 def normalize_path(p):
@@ -136,7 +172,9 @@ def main():
         except Exception:
             pass
 
-    file_path = get_file_path_from_stdin()
+    payload = read_hook_payload()
+    file_path = payload.get("tool_input", {}).get("file_path", "")
+    session_id = payload.get("session_id", "")
     if not file_path:
         return
 
@@ -152,6 +190,16 @@ def main():
         return
 
     project_dir = get_project_dir()
+
+    # Don't treat edits to today's daily note itself as a logged entity.
+    today = datetime.now().strftime("%Y-%m-%d")
+    if file_path.endswith(f"investing/Daily/{today}.md"):
+        return
+
+    note_name = Path(file_path).stem
+
+    # 0. Record this session's edit so the Stop-hook gate can scope to it.
+    record_session_edit(note_name, session_id, project_dir)
 
     # 1. Log to daily note
     try:

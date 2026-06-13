@@ -361,6 +361,7 @@ Add SBC to capex in the FCF formula. Conceptually treats equity compensation as 
 ## Related
 
 - [[Meta]] — poster child for SBC/buyback dynamics
+- [[Owner earnings]] — Buffett's pre-SBC measure of owner cash; would today subtract SBC
 - [[Snowflake]] — open operating-margin wedge (GAAP −31% vs non-GAAP +9%)
 - [[Salesforce]] — closed wedge; the graduation reference case (−8.1% → +19.0%)
 - [[Revenue per GW]] — cross-stack chart where the SBC basis decides the apparent margin ranking

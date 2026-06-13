@@ -1,18 +1,31 @@
 #!/usr/bin/env python3
-"""Stop hook: ensure entities recently logged in the daily note's edit log
-also appear in the '## Notes created/expanded' summary section.
+"""Stop hook: ensure the entities THIS session edited today also appear in the
+daily note's '## Notes created/expanded' summary section.
+
+Session-aware: the PostToolUse hook (quick_compliance_check.py) records each
+vault-note edit into a per-session sidecar under .claude/.session_edits/. This
+hook reads only the stopping session's sidecar, so a concurrent session's
+in-progress edits no longer deadlock whichever session stops first. When no
+session_id is available (manual run / older harness) it falls back to the legacy
+behavior: every edit-log entry from the last 120 minutes.
+
+The pre-commit hook remains the hard enforcement (it blocks committing staged
+vault notes that aren't logged); this gate is the earlier, session-scoped nudge.
 
 Exit codes:
-  0  pass (no recent entries, no daily note, or all entities summarized)
-  2  block — recent edits lack a matching summary line
+  0  pass (no daily note, this session edited nothing, or all entities summarized)
+  2  block — this session's edits lack a matching summary line
   1  unexpected error
 """
 
+import json
 import os
 import re
 import sys
 import unicodedata
 from datetime import datetime, timedelta
+
+SESSION_EDITS_SUBDIR = os.path.join(".claude", ".session_edits")
 
 
 def get_project_dir():
@@ -47,25 +60,57 @@ def read_note(path):
         return unicodedata.normalize("NFC", f.read())
 
 
-def main():
-    today = datetime.now()
-    today_str = today.strftime("%Y-%m-%d")
-    project_dir = get_project_dir()
+def get_session_id():
+    """Read session_id from the Stop-hook JSON payload on stdin (UTF-8).
 
-    daily_note = os.path.join(project_dir, "investing", "Daily", f"{today_str}.md")
-    if not os.path.isfile(daily_note):
-        return 0
+    Returns "" when unavailable (manual run / older harness), which the caller
+    treats as a signal to fall back to the legacy edit-log scan.
+    """
+    try:
+        raw = sys.stdin.buffer.read()
+        if not raw:
+            return ""
+        return json.loads(raw.decode("utf-8")).get("session_id", "") or ""
+    except Exception:
+        return ""
 
-    text = read_note(daily_note)
+
+def safe_session_id(session_id):
+    return re.sub(r"[^A-Za-z0-9_-]", "", session_id or "")[:64]
+
+
+def session_edits_path(project_dir, today_str, session_id):
+    return os.path.join(
+        project_dir, SESSION_EDITS_SUBDIR, f"{today_str}_{safe_session_id(session_id)}.txt"
+    )
+
+
+def read_session_entities(project_dir, today_str, session_id):
+    """Entities this session edited today, from its sidecar.
+
+    None  -> no usable session_id; caller falls back to the legacy edit-log scan
+    []    -> session known but made no tracked vault-note edits today (pass)
+    [...] -> the entities to verify against the summary
+    """
+    if not safe_session_id(session_id):
+        return None
+    path = session_edits_path(project_dir, today_str, session_id)
+    if not os.path.isfile(path):
+        return []
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            return [unicodedata.normalize("NFC", ln.strip()) for ln in f if ln.strip()]
+    except Exception:
+        return []
+
+
+def legacy_recent_entities(text, today):
+    """Original behavior: entities from edit-log entries in the last 120 minutes."""
     edit_log = get_markdown_section(text, "## Edit log")
     if not edit_log.strip():
-        return 0
-
-    # Only entries from the last 120 minutes count, to avoid false positives
-    # from prior sessions whose summaries may not yet be written.
+        return []
     cutoff = timedelta(minutes=120)
     entry_re = re.compile(r"^\s*-\s+(\d{1,2}):(\d{2})\s+-\s+edited\s+\[\[([^\]|]+)")
-
     recent = []
     for line in edit_log.splitlines():
         m = entry_re.match(line)
@@ -79,8 +124,29 @@ def main():
         diff = today - entry_time
         if timedelta(0) <= diff <= cutoff:
             recent.append(unicodedata.normalize("NFC", entity))
+    return recent
 
-    entities = sorted(set(recent))
+
+def main():
+    today = datetime.now()
+    today_str = today.strftime("%Y-%m-%d")
+    project_dir = get_project_dir()
+    session_id = get_session_id()
+
+    daily_note = os.path.join(project_dir, "investing", "Daily", f"{today_str}.md")
+    if not os.path.isfile(daily_note):
+        return 0
+
+    text = read_note(daily_note)
+
+    session_entities = read_session_entities(project_dir, today_str, session_id)
+    if session_entities is None:
+        # No session id (manual run / older harness) -> legacy edit-log scan.
+        entities = sorted(set(legacy_recent_entities(text, today)))
+    else:
+        # Session-aware: only this session's own vault-note edits.
+        entities = sorted(set(session_entities))
+
     if not entities:
         return 0
 

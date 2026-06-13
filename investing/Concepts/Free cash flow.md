@@ -4,14 +4,22 @@
 
 ---
 
+## Synthesis
+
+Free cash flow earns its "earnings are an opinion, cash is a fact" reputation because it is harder to manipulate than net income — capex timing and working-capital swings show up in cash where they hide in accruals. But the metric has one large, deliberate blind spot: it adds back [[Stock-based compensation]] as non-cash, which is exactly how a heavily equity-paying software company reports robust FCF while diluting shareholders every quarter. The honest version subtracts SBC (or values on a fully diluted share count), which is what separates a company like [[Apple]] (buybacks far exceed SBC, FCF is real owner cash) from one whose buybacks merely sterilize dilution. The "Red flags" below — persistent negative FCF, FCF far below earnings, and "stock comp ignored" — are the checklist for telling reported FCF from owner cash; the related concept is [[Owner earnings]], Buffett's pre-SBC-era formulation of the same idea.
+
+Chart data not applicable — this is a formula-and-ratio reference; company-specific FCF lives in the actor notes, and the SBC-adjustment case is charted in [[Stock-based compensation]].
+
+---
+
 ## FCF calculation
 
 | Method | Formula |
 |--------|---------|
-| **Simple** | Operating cash flow - Capex |
-| **Detailed** | EBIT(1-t) + D&A - Capex - ΔNWC |
-| **Levered** | FCF - Interest expense |
-| **Unlevered** | EBIT(1-t) + D&A - Capex - ΔNWC |
+| Simple | Operating cash flow - Capex |
+| Detailed | EBIT(1-t) + D&A - Capex - ΔNWC |
+| Levered | FCF - Interest expense |
+| Unlevered | EBIT(1-t) + D&A - Capex - ΔNWC |
 
 ---
 
@@ -25,7 +33,7 @@
 | Working capital | Captured | Hidden |
 | Cash reality | Yes | No |
 
-**"Earnings are an opinion, cash is a fact."**
+*"Earnings are an opinion, cash is a fact."*
 
 ---
 
@@ -71,7 +79,7 @@
 | 3-5% | Expensive, needs growth |
 | <3% | Very expensive |
 
-**FCF Yield = FCF / Market Cap**
+FCF Yield = FCF / Market Cap
 
 ---
 

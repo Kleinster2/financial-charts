@@ -45,6 +45,14 @@ COMMON_WORD_NOTE_NAMES = frozenset({
     "Entity", "Medium", "Wire", "Reflexivity", "Action", "Move", "Event",
 })
 
+# Concept names that are inherently plural-only (mass nouns) — the singular form
+# is wrong or means something different ("owner earning" is not a thing). The
+# singular-name check skips these instead of suggesting a nonsensical rename.
+INHERENTLY_PLURAL_CONCEPTS = frozenset({
+    "Owner earnings", "Earnings", "Retained earnings", "Proceeds", "Savings",
+    "Winnings", "Earnings", "Owner's earnings",
+})
+
 
 class NoteChecker:
     # Cross-vault directories to check for matching notes
@@ -591,6 +599,10 @@ class NoteChecker:
         """Check that concept notes use singular names."""
         issues = []
         name = filepath.stem
+
+        # Skip inherently-plural concept names (mass nouns with no sensible singular)
+        if name in INHERENTLY_PLURAL_CONCEPTS:
+            return issues
 
         # Skip if name doesn't end in 's' or ends in common non-plural suffixes
         non_plural_suffixes = ('ss', 'us', 'is', 'sis', 'ness', 'ics', 'ous')
