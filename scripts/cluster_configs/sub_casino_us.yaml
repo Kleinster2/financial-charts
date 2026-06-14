@@ -1,0 +1,22 @@
+# Sub-cohort robustness test: the US-domestic casino group (MGM + Caesars + Boyd),
+# the US leg of the geographically-split casino cohort. Does MGM+CZR+BYD stand alone,
+# or merge with the Macau names / US consumer?
+name: Sub - Casino US group
+primary: MGM
+prefix: sub-casino-us
+threshold: 0.5
+window_end: 2026-06-12
+definition_date: 2026-06-14
+groups:
+  cluster:
+    color: "#2962FF"
+    tickers: [MGM, CZR, BYD]
+  macau:
+    color: "#F4511E"
+    tickers: [LVS, WYNN]
+  consumer:
+    color: "#7E57C2"
+    tickers: [XLY]
+  etf:
+    color: "#9E9E9E"
+    tickers: [SPY]

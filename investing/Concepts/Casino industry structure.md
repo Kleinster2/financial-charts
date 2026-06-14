@@ -111,6 +111,99 @@ Macau market share (2025-26 estimates): Sands China ~25%, [[Galaxy Entertainment
 
 ---
 
+## Cluster validation
+
+> [!warning] Cluster status: real gaming beta, but splits by geography and is regime-dependent (June 2026)
+> The five big US-listed casino operators do not trade as one durable factor. Intra-corr is 0.430 (weekly 0.380), PC1 only 54.8% (large PC2 19.9% — the split). They pass the cohesion nulls (random-basket p 0.0033, vol-matched 0.0011) on shared gaming/consumer beta, but the cohort is FRAGILE on threshold and REGIME-DEPENDENT on holdout (ratio 0.57 — it does not survive). The defining structure is the geographic split the [[#Regulatory moats by market|regulatory-moats]] section predicts: a Macau leg [[Las Vegas Sands]]+[[Wynn Resorts]] (join 0.369) and a US-domestic leg [[MGM Resorts]]+[[Caesars Entertainment]]+[[Boyd Gaming]] (MGM+CZR 0.446, BYD at 0.511), the two halves merging only at 0.645 — MGM sits on the US side, its Strip/BetMGM exposure dominating its Macau leg in the tape. The cohort was a tight factor in the 2021–23 COVID recovery (0.75) and fragmented to 0.44 by 2026 as Macau and US diverged. The sub-cohort robustness sweep is decisive: the Macau pair (LVS/WYNN, intra 0.631) is moderately robust — stable band [0.40, 0.60], width 0.20, the widest in the vault's sweep — while the US group (MGM/CZR/BYD, 0.511) is fragile. The only robust, tradeable structure is the Macau pair. See below.
+
+This is the geographic-split case: a "casino sector" that is really two factors split by end-market — Macau VIP/mass gaming (China consumer + policy, the concession-reset overhang) and US-domestic gaming (US consumer + regional + digital). The shared-driver law holds in its split form: same industry, different dominant drivers (China vs US demand), so they trade apart, and only the same-driver pair (the two Macau operators) is a real standalone cluster.
+
+### Diagnostics summary
+
+| Diagnostic | Value | Read |
+|---|---|---|
+| Intra-cluster corr (1Y) | 0.430 | Loose; weekly 0.380; PC1 54.8% (multi-factor) |
+| Random-basket null p | 0.0033 | Passes — real shared gaming beta |
+| Vol-matched null p | 0.0011 | Real beyond shared vol |
+| Holdout (2Y split) | REGIME-DEPENDENT 0.57 | Was a factor (2021–23), fragmented; does not survive |
+| Threshold clean width | 0.05 (point) | FRAGILE — only intact above 0.65 (after the halves merge) |
+| Sub-cohort: Macau (LVS/WYNN) | 0.631, width 0.20 | Moderately robust — the tradeable factor |
+| Sub-cohort: US (MGM/CZR/BYD) | 0.511, width 0.05 | Fragile |
+| Intra-adv vs China (KWEB) | +0.257 | Full cohort distinct from China; the Macau leg less so |
+| Intra-adv vs consumer / market | +0.071 / +0.120 | Weakly distinct |
+
+1Y daily log returns through 2026-06-12, threshold 0.5. All US-listed (synchronous). Configs: `scripts/cluster_configs/casinos.yaml` + `sub_casino_macau.yaml` / `sub_casino_us.yaml`; registry row 2026-06-14. Terminology: [[Cohort, cluster, basket]].
+
+### Boundary — splits Macau vs US
+
+![[casinos-cluster-dendrogram-1y.png]]
+*Hierarchical clustering at 0.5. The cohort splits: [[Las Vegas Sands]]+[[Wynn Resorts]] (Macau) form one cluster, [[MGM Resorts]]+[[Caesars Entertainment]] another, [[Boyd Gaming]] joins the US group, and the controls (KWEB/XLY/SPY) cluster separately. No single casino factor — two geographic ones.*
+
+The threshold scan keeps the 5-name cohort intact only above 0.65 — i.e. only after the Macau and US halves have merged into one loose block. Below that they are separate. This is the [[Solar]] signature (a sector that splits by driver) with geography as the splitting variable.
+
+### Topology and sub-cohort robustness
+
+| Join step | Names | Distance (1-\|corr\|) | Read |
+|---|---|---|---|
+| 1 | LVS + WYNN | 0.369 | Macau pair (corr 0.63) |
+| 2 | MGM + CZR | 0.446 | US Strip/digital pair |
+| 3 | BYD + (MGM+CZR) | 0.511 | US regional joins the US group |
+| 4 | (LVS+WYNN) + (US group) | 0.645 | The two geographies merge — well above 0.5 |
+
+| Sub-cohort | Intra-corr | Stable width | Verdict |
+|---|---|---|---|
+| Macau (LVS/WYNN) | 0.631 | 0.20 [0.40–0.60] | Moderately robust |
+| US (MGM/CZR/BYD) | 0.511 | 0.05 [0.55–0.60] | Fragile |
+
+The Macau pair is the only robust standalone structure — the China/Macau VIP-and-mass gaming factor (the two operators most levered to Macau GGR and the concession framework). The US group is fragile: [[MGM Resorts]] (Strip + BetMGM + Macau), [[Caesars Entertainment]] (digital + leverage), and [[Boyd Gaming]] (regional) each carry idiosyncratic exposures that keep them from forming a tight US-gaming factor.
+
+### PC1 index weights
+
+![[casinos-cluster-pca-1y.png]]
+*PCA on the candidate cohort. PC1 explains only 54.8% with a large PC2 (19.9%) — the Macau/US split. Loadings are dispersed.*
+
+| Ticker | PC1 loading | Loading weight | Ann vol | Raw PC1-mimic weight |
+|---|---|---|---|---|
+| Las Vegas Sands (LVS) | 0.394 | 17.7% | 37.6% | 17.4% |
+| Wynn Resorts (WYNN) | 0.486 | 21.9% | 35.5% | 22.7% |
+| MGM Resorts (MGM) | 0.499 | 22.4% | 40.7% | 20.4% |
+| Caesars (CZR) | 0.399 | 18.0% | 52.6% | 12.6% |
+| Boyd (BYD) | 0.446 | 20.1% | 27.5% | 26.9% |
+
+The dispersed loadings (0.39–0.50) and the large PC2 confirm there is no single dominant factor — the cohort is two geographic sub-factors averaged.
+
+### Distinctness
+
+![[casinos-cluster-correlation-1y.png]]
+*1Y pairwise correlation heatmap. The warmest cell is [[Las Vegas Sands]]–[[Wynn Resorts]] (Macau, 0.63); the US names form a separate, looser warm corner; cross-geography pairs are cool. The whole cohort is cool against China (KWEB) — but the Macau leg specifically carries the China exposure.*
+
+The full cohort is distinct from China (+0.257 vs KWEB) only because the US names dilute it; the Macau pair carries the China/Macau-consumer exposure. It is weakly distinct from US consumer (+0.071 vs XLY — the US names trade with the consumer) and the market (+0.120).
+
+### Historical tightness evolution
+
+![[casinos-cluster-rolling-tightness-90d.png]]
+*Rolling 90-day cohesion, 2021–2026. A fragmenting cohort: tight in the 2021–23 COVID-recovery era (0.62–0.75, all casinos recovered together) and decohering to 0.44 by 2026 as the Macau recovery and the US consumer cycle pulled apart.*
+
+| Window | Avg intra-corr | PC1 | Final join distance |
+|---|---|---|---|
+| 2022 | 0.745 | 79.6% | 0.310 |
+| 2023 | 0.716 | 77.3% | 0.358 |
+| 2024 | 0.625 | 70.1% | 0.437 |
+| 2026 | 0.444 | 56.4% | 0.653 |
+
+*Regime-dependent: the casino names cohered when a single shock dominated (COVID collapse and reopening, 2020–23) and fragmented once Macau and US returned to their separate cycles — the cohort is a crisis correlation, not a standing factor.*
+
+### The read-through
+
+- Casinos are two factors, not one. The "sector" splits by geography — Macau ([[Las Vegas Sands]]/[[Wynn Resorts]]) vs US-domestic ([[MGM Resorts]]/[[Caesars Entertainment]]/[[Boyd Gaming]]) — merging only at 0.645 and regime-dependent on holdout.
+- Only the Macau pair is tradeable as a cluster. LVS+WYNN (0.631, moderately robust, the widest sub-cohort band in the vault) is the China/Macau gaming factor; the US group is fragile, idiosyncratic names.
+- It was a crisis correlation. The cohort cohered when COVID dominated everything (2021–23, 0.75) and fragmented as Macau and US returned to separate cycles — own the Macau pair for Macau-gaming exposure, single names for US.
+- Geography is the splitting variable. Same industry, different dominant demand drivers (China vs US) — the shared-driver law in its split form, with geographic end-market as the cut.
+
+Method and terminology: `docs/cluster-validation.md`, [[Cohort, cluster, basket]], [[Vault cluster taxonomy]] (cohort row + sub-cohort robustness sweep).
+
+---
+
 ## Related
 
 ### Operators

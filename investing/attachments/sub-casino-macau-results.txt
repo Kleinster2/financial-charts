@@ -1,0 +1,67 @@
+Sub - Casino Macau pair CLUSTER ANALYSIS
+Window 1y: 2025-06-18 -> 2026-06-12 (195 obs)
+Window 2y: 2024-07-15 -> 2026-06-12 (253 obs)
+Universe: 7 tickers across 4 groups
+Dendrogram cut threshold: 0.5
+
+--- 1Y INTRA-CLUSTER PAIRWISE CORRELATIONS ---
+Ticker   LVS  WYNN
+Ticker            
+LVS     1.00  0.63
+WYNN    0.63  1.00
+Average intra-cluster correlation: 0.631
+Range: [0.631, 0.631]
+
+--- AVG GROUP-PAIR CORRELATIONS (1Y) ---
+             cluster  us_casi    china      etf
+    cluster    0.631    0.355    0.243    0.347
+ us_casinos    0.355    0.511    0.126    0.285
+      china    0.243    0.126      nan    0.575
+        etf    0.347    0.285    0.575      nan
+
+Cluster vs others:
+  cluster vs us_casinos: 0.355  (intra advantage: +0.276)
+  cluster vs china     : 0.243  (intra advantage: +0.388)
+  cluster vs etf       : 0.347  (intra advantage: +0.284)
+
+--- HIERARCHICAL CLUSTERS (1Y, distance threshold 0.5) ---
+  Cluster 1: KWEB, SPY
+  Cluster 2: LVS, WYNN
+  Cluster 3: MGM, CZR
+  Cluster 4: BYD
+
+--- CANDIDATE JOIN DISTANCES (1Y, average linkage, distance = 1-|corr|) ---
+ Step Left Right Distance  Members
+    1  LVS  WYNN    0.369 LVS+WYNN
+
+--- PCA ON CANDIDATE COHORT (1Y) ---
+Explained variance ratio:
+  PC1: 81.57%
+  PC2: 18.43%
+
+PC1 loadings:
+LVS     0.707
+WYNN    0.707
+
+--- PC1 INDEX WEIGHTS (1Y) ---
+PCA is run on standardized daily log returns. Raw PC1-mimic weights scale PC1 loading by inverse realized volatility.
+     PC1 loading Loading weight Ann vol Raw PC1-mimic weight
+LVS        0.707         50.00%  37.55%               48.62%
+WYNN       0.707         50.00%  35.54%               51.38%
+
+--- WEEKLY-RETURN CROSS-CHECK (1Y, async-close robustness) ---
+Weeks: 39   Weekly intra-corr: 0.733 (daily 0.631)   Weekly PC1: 86.6% (daily 81.6%)
+NOTE: weekly intra-corr exceeds daily by >0.10 — asynchronous closes are depressing the daily numbers (cross-region cohort); the weekly reading is the better estimate of economic co-movement.
+
+--- HISTORICAL TIGHTNESS EVOLUTION (90D ROLLING) ---
+     Avg corr    PC1 Core corr Satellite corr Final join distance
+Date                                                             
+2020    0.905  95.3%     0.905            nan               0.095
+2021    0.883  94.2%     0.883            nan               0.117
+2022    0.865  93.3%     0.865            nan               0.135
+2023    0.800  90.0%     0.800            nan               0.200
+2024    0.743  87.2%     0.743            nan               0.257
+2025    0.770  88.5%     0.770            nan               0.230
+2026    0.543  77.2%     0.543            nan               0.457
+
+Latest 90D: avg corr 0.581, PC1 79.0%, core corr 0.581, satellite corr nan, final join distance 0.419

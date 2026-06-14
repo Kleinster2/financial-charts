@@ -1,0 +1,22 @@
+# Sub-cohort robustness test: the Macau casino pair (Las Vegas Sands + Wynn Resorts),
+# the Macau-exposed leg of the geographically-split casino cohort. Does LVS+WYNN stand
+# alone, or merge with the US-domestic casinos / China sentiment?
+name: Sub - Casino Macau pair
+primary: LVS
+prefix: sub-casino-macau
+threshold: 0.5
+window_end: 2026-06-12
+definition_date: 2026-06-14
+groups:
+  cluster:
+    color: "#2962FF"
+    tickers: [LVS, WYNN]
+  us_casinos:
+    color: "#F4511E"
+    tickers: [MGM, CZR, BYD]
+  china:
+    color: "#7E57C2"
+    tickers: [KWEB]
+  etf:
+    color: "#9E9E9E"
+    tickers: [SPY]

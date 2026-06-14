@@ -1,0 +1,70 @@
+Sub - Casino US group CLUSTER ANALYSIS
+Window 1y: 2025-06-18 -> 2026-06-12 (195 obs)
+Window 2y: 2024-07-15 -> 2026-06-12 (253 obs)
+Universe: 7 tickers across 4 groups
+Dendrogram cut threshold: 0.5
+
+--- 1Y INTRA-CLUSTER PAIRWISE CORRELATIONS ---
+Ticker   MGM   CZR   BYD
+Ticker                  
+MGM     1.00  0.55  0.54
+CZR     0.55  1.00  0.44
+BYD     0.54  0.44  1.00
+Average intra-cluster correlation: 0.511
+Range: [0.436, 0.554]
+
+--- AVG GROUP-PAIR CORRELATIONS (1Y) ---
+             cluster    macau  consume      etf
+    cluster    0.511    0.355    0.364    0.285
+      macau    0.355    0.631    0.351    0.347
+   consumer    0.364    0.351      nan    0.813
+        etf    0.285    0.347    0.813      nan
+
+Cluster vs others:
+  cluster vs macau     : 0.355  (intra advantage: +0.155)
+  cluster vs consumer  : 0.364  (intra advantage: +0.147)
+  cluster vs etf       : 0.285  (intra advantage: +0.226)
+
+--- HIERARCHICAL CLUSTERS (1Y, distance threshold 0.5) ---
+  Cluster 1: XLY, SPY
+  Cluster 2: LVS, WYNN
+  Cluster 3: MGM, CZR
+  Cluster 4: BYD
+
+--- CANDIDATE JOIN DISTANCES (1Y, average linkage, distance = 1-|corr|) ---
+ Step Left   Right Distance     Members
+    1  MGM     CZR    0.446     MGM+CZR
+    2  BYD MGM+CZR    0.511 BYD+MGM+CZR
+
+--- PCA ON CANDIDATE COHORT (1Y) ---
+Explained variance ratio:
+  PC1: 67.44%
+  PC2: 18.80%
+  PC3: 13.76%
+
+PC1 loadings:
+MGM    0.604
+CZR    0.566
+BYD    0.561
+
+--- PC1 INDEX WEIGHTS (1Y) ---
+PCA is run on standardized daily log returns. Raw PC1-mimic weights scale PC1 loading by inverse realized volatility.
+    PC1 loading Loading weight Ann vol Raw PC1-mimic weight
+MGM       0.604         34.88%  40.69%               32.24%
+CZR       0.566         32.70%  52.58%               23.39%
+BYD       0.561         32.42%  27.49%               44.36%
+
+--- WEEKLY-RETURN CROSS-CHECK (1Y, async-close robustness) ---
+Weeks: 39   Weekly intra-corr: 0.377 (daily 0.511)   Weekly PC1: 58.8% (daily 67.4%)
+
+--- HISTORICAL TIGHTNESS EVOLUTION (90D ROLLING) ---
+     Avg corr    PC1 Core corr Satellite corr Final join distance
+Date                                                             
+2021    0.671  78.1%     0.671            nan               0.344
+2022    0.786  85.7%     0.786            nan               0.229
+2023    0.809  87.2%     0.809            nan               0.209
+2024    0.699  79.9%     0.699            nan               0.328
+2025    0.746  83.1%     0.746            nan               0.261
+2026    0.592  72.8%     0.592            nan               0.436
+
+Latest 90D: avg corr 0.453, PC1 63.7%, core corr 0.453, satellite corr nan, final join distance 0.584
