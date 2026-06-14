@@ -44,7 +44,7 @@ COMMON_WORD_NOTE_NAMES = frozenset({
     "Street", "Vision", "Driver", "Brand", "Career", "Talent", "Labs", "Battery",
     "Solar", "Chip", "Finance", "Property", "Auto", "Seed", "Round", "Theme",
     "Entity", "Medium", "Wire", "Reflexivity", "Action", "Move", "Event",
-    "Memory", "Infrastructure", "Specialized",
+    "Memory", "Infrastructure", "Specialized", "Storage", "Paradox",
 })
 
 # Concept names that are inherently plural-only (mass nouns) — the singular form
@@ -1033,7 +1033,7 @@ aliases: []
         content_without_links = re.sub(r'\[\[[^\]]+\]\]', '', content)
 
         # Sort by length descending so "AMD Ventures" matches before "AMD"
-        for note_name in sorted(self.existing_notes, key=len, reverse=True):
+        for note_name in sorted(self.existing_notes, key=lambda n: (-len(n), n)):
             if note_name == filepath.stem:  # Skip self
                 continue
             if note_name in linked:  # Already linked
@@ -1041,6 +1041,8 @@ aliases: []
             if note_name in COMMON_WORD_NOTE_NAMES:  # Common-word collision (e.g. "Gold", "Flow")
                 continue
             if note_name.isdigit():  # Pure numbers (e.g. "99") are never entity references
+                continue
+            if re.match(r"^\d{4}-\d{2}-\d{2}$", note_name):  # Daily-note dates (e.g. "2026-04-12")
                 continue
 
             # Case-sensitive whole-word match in content without links
@@ -1108,7 +1110,7 @@ aliases: []
         content_without_links = re.sub(r'\[\[[^\]]+\]\]', '', content)
 
         # Sort by length descending so "AMD Ventures" matches before "AMD"
-        for note_name in sorted(self.existing_notes, key=len, reverse=True):
+        for note_name in sorted(self.existing_notes, key=lambda n: (-len(n), n)):
             if note_name == filepath.stem:  # Skip self
                 continue
             if note_name in linked:  # Already linked
@@ -2124,10 +2126,14 @@ aliases: []
         oneliner_plain = re.sub(r'\[\[[^\]]+\]\]', '', oneliner)
 
         # Check if any existing note names appear unlinked in the one-liner
-        for note_name in sorted(self.existing_notes, key=len, reverse=True):
+        for note_name in sorted(self.existing_notes, key=lambda n: (-len(n), n)):
             if note_name == filepath.stem:
                 continue
             if len(note_name) < 4:  # Skip very short names
+                continue
+            if note_name in COMMON_WORD_NOTE_NAMES:  # Common-word collision
+                continue
+            if note_name.isdigit() or re.match(r"^\d{4}-\d{2}-\d{2}$", note_name):
                 continue
             if re.search(rf'\b{re.escape(note_name)}\b', oneliner_plain):
                 issues.append(Issue("warning", "oneliner-link",

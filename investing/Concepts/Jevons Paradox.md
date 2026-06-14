@@ -1,8 +1,16 @@
 #concept #economics #demand
 
-**Jevons Paradox** — Efficiency improvements in resource use increase total consumption, not decrease it. Named after William Stanley Jevons (1865) who observed coal consumption rose as steam engines became more efficient.
+Jevons Paradox — Efficiency improvements in resource use increase total consumption, not decrease it. Named after William Stanley Jevons (1865) who observed coal consumption rose as steam engines became more efficient.
 
-> **Key insight:** When something gets cheaper/more efficient, demand doesn't stay flat — it explodes. This is the core counter-argument to "efficiency will reduce GPU demand."
+> Key insight: When something gets cheaper/more efficient, demand doesn't stay flat — it explodes. This is the core counter-argument to "efficiency will reduce GPU demand."
+
+---
+
+## Synthesis
+
+The note's value is that one mechanism — cheaper unit cost expands the addressable market faster than it shrinks per-unit use — keeps resolving the same recurring panic at every layer of the AI stack. The [[DeepSeek day]] selloff feared efficient models would cut GPU demand; the [[TurboQuant]] selloff feared KV-cache compression would cut [[HBM]] demand; the AI-jobs debate fears coding agents will cut engineering headcount. In each case the Jevons reading is the same: lower cost unlocks latent demand — more use cases, more concurrent agents, more software worth building — that swamps the per-task saving, so total consumption rises. The discipline the note enforces is to check the preconditions rather than assume the paradox: it holds where demand is elastic, the market is unsaturated, and there is no hard cap (all true for AI compute), and fails where demand is inelastic or capped. The investable consequence is that efficiency news the tape first reads as bearish for a compute or memory supplier is, on the Jevons reading, usually a demand-expansion catalyst priced backwards in the first reaction — the pattern [[Samsung]]'s post-TurboQuant guidance and the post-[[DeepSeek day]] recovery both bore out.
+
+(Chart data not applicable — a definitional economics concept; the AI-specific quantification lives in [[Inference economics]].)
 
 ---
 
@@ -12,11 +20,11 @@
 |-----------|---------|
 | More efficient → less demand | More efficient → lower cost → more use cases → more demand |
 
-**Historical examples:**
+Historical examples:
 
 | Technology | Efficiency gain | Consumption outcome |
 |------------|-----------------|---------------------|
-| Steam engines | 3x efficiency | Coal use increased 10x |
+| Steam engines | 3x efficiency | [[Coal]] use increased 10x |
 | LED lighting | 80% less power | Lighting usage exploded |
 | Cloud compute | 90% cost reduction | Compute usage 100x |
 | Air travel | Cheaper per mile | Total miles flown soared |
@@ -27,7 +35,7 @@
 
 ## Application to AI compute
 
-**The [[DeepSeek]] day debate:**
+The [[DeepSeek]] day debate:
 
 | Bear case (efficiency reduces demand) | Bull case (Jevons Paradox) |
 |--------------------------------------|----------------------------|
@@ -35,7 +43,7 @@
 | MoE reduces compute per query | Lower cost → new use cases emerge |
 | [[China]] proves efficiency can substitute | Total compute demand still grows |
 
-**The resolution:** Both can be true. Compute per task falls, but number of tasks grows faster.
+The resolution: Both can be true. Compute per task falls, but number of tasks grows faster.
 
 ---
 
@@ -59,23 +67,23 @@
 | Saturated market | Refrigerators (everyone already has one) |
 | Regulatory limits | Carbon emissions (capped by policy) |
 
-**Does AI fit these exceptions?** No. AI demand is highly elastic, market is unsaturated, no hard caps.
+Does AI fit these exceptions? No. AI demand is highly elastic, market is unsaturated, no hard caps.
 
 ---
 
 ## Investment implications
 
-**For [[Long NVIDIA]]:**
+For [[Long NVIDIA]]:
 - Efficiency gains are real but don't kill the thesis
 - Cheaper inference = more inference = more GPUs (eventually)
 - Watch for demand elasticity evidence
 
-**For [[DeepSeek day]] interpretation:**
+For [[DeepSeek day]] interpretation:
 - Market panicked about efficiency killing demand
 - Jevons Paradox suggests panic was overdone
 - Recovery confirmed this interpretation
 
-**The key metric:** Total AI compute consumed, not compute per query.
+The key metric: Total AI compute consumed, not compute per query.
 
 ---
 
@@ -93,7 +101,7 @@ Karpathy is "cautiously optimistic" near-term but uncertain long-term. He points
 
 [[Google]] Research's [[TurboQuant]] algorithm (unveiled Mar 25, 2026) claimed 6x KV-cache compression and 4-8x reduction in cost-per-token for LLM inference. First-order reading: memory demand falls, [[HBM]] loses. [[Samsung]] and [[SK Hynix]] shares fell sharply, along with [[Micron]] and [[SanDisk]].
 
-The Jevons counter-reading came from multiple voices in Seoul (Financial Times, Apr 12 2026):
+The Jevons counter-reading came from multiple voices in Seoul ([[Financial Times]], Apr 12 2026):
 
 - Professor Kwon Seok-joon (Sungkyunkwan University): "dramatically cheaper inference unlocks workloads previously too expensive to run" — real-time coding assistants, multiple concurrent [[AI agents|agent]] sessions — "driving total compute demand higher, not lower."
 - Kim Young-gun ([[Mirae Asset]] Securities): "déjà vu" over [[Kubernetes]]. When that [[Google]]-designed containerization technology spread in the late 2010s, there were concerns that server and memory demand would fall because companies could get more from the same hardware. "In practice, the opposite occurred, with lower costs encouraging much greater usage." Kim read TurboQuant as the same shape.
