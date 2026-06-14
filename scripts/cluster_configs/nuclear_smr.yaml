@@ -1,0 +1,45 @@
+# Nuclear / SMR pure-play basket — the listed expression of the [[Long nuclear]] /
+# [[Nuclear renaissance]] thesis, minus the large-cap operating utilities.
+# Hypothesis: the "nuclear renaissance" trade is treated as one basket by the
+# tape, but the candidate spans three archetypes with very different return
+# drivers, so hierarchical clustering may split it into sub-blocs:
+#   - SMR developers (OKLO fast-fission, SMR=NuScale NRC-approved, NNE=Nano
+#     Nuclear microreactor): pre-revenue story stocks, binary/regulatory-driven.
+#   - Uranium fuel cycle (CCJ=Cameco miner+Westinghouse, UEC=Uranium Energy
+#     miner, LEU=Centrus HALEU enrichment): commodity/uranium-price-linked.
+#   - BWXT=BWX Technologies: established, profitable naval-reactor + SMR
+#     components — may trade with industrials/utilities rather than the pure-plays.
+# The whole 7-name basket is the candidate; let the dendrogram say whether it is
+# one nuclear factor or a directory of SMR-dev / fuel-cycle sub-factors.
+#
+# Controls (each answers a specific distinctness question):
+#   - nuclear_utilities (CEG/VST/TLN): the operating-fleet / IPP expression of
+#     the same AI-power-demand thesis. Tests "is the basket just nuclear-
+#     generation / merchant-power beta?" (CEG/VST already sit in the AI-power-IPP
+#     cluster, so they are the natural adjacent cohort, not basket members.)
+#   - sector_etf (URA Global X Uranium = miners+fuel; NLR VanEck Uranium+Nuclear
+#     = incl. utilities): the uranium/nuclear sector benchmark. Tests "is the
+#     fuel-cycle sub-bloc just the uranium ETF?" and how much of the move is
+#     generic sector beta vs basket-specific.
+#   - etf (SPY broad market, IWM Russell 2000): the developers are small/mid-cap
+#     growth — IWM tests generic small-cap risk-on vs a nuclear-specific factor.
+name: Nuclear / SMR
+primary: OKLO
+prefix: nuclear-smr-cluster
+threshold: 0.5
+window_end: 2026-06-12
+definition_date: 2026-06-13
+
+groups:
+  cluster:
+    color: "#2962FF"
+    tickers: [OKLO, SMR, NNE, LEU, CCJ, BWXT, UEC]
+  nuclear_utilities:
+    color: "#7E57C2"
+    tickers: [CEG, VST, TLN]
+  sector_etf:
+    color: "#00897B"
+    tickers: [URA, NLR]
+  etf:
+    color: "#9E9E9E"
+    tickers: [SPY, IWM]

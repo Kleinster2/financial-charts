@@ -16,6 +16,7 @@ Usage:
 """
 
 import argparse
+import json
 from collections import Counter
 from datetime import date
 import re
@@ -62,12 +63,16 @@ class NoteChecker:
         "history": Path("C:/Users/klein/obsidian/history"),
     }
 
-    def __init__(self, vault_root: Path, suggest_links: bool = False):
+    def __init__(self, vault_root: Path, suggest_links: bool = False, use_index_cache: bool = True):
         self.vault_root = vault_root
         self.suggest_links = suggest_links
+        self._use_index_cache = use_index_cache
+        self._new_index_cache: dict = {}
         self.existing_notes = self._index_existing_notes()
-        self.known_aliases = self._index_aliases()
-        self.cross_vault_index = self._index_cross_vaults()
+        cache = self._load_index_cache()
+        self.known_aliases = self._index_aliases(cache)
+        self.cross_vault_index = self._index_cross_vaults(cache)
+        self._save_index_cache(self._new_index_cache)
 
     @staticmethod
     def _has_tag(content: str, tag: str) -> bool:
@@ -122,11 +127,119 @@ class NoteChecker:
             notes.add(md_file.stem)
         return notes
 
-    def _index_aliases(self) -> set[str]:
+    # --- Per-file alias index cache -------------------------------------------
+    # Alias indexing reads file content (vault headers + full cross-vault notes),
+    # which dominates NoteChecker() startup. The cache memoizes parsed aliases
+    # per file, keyed by (mtime_ns, size), so only changed files are re-read.
+    # existing_notes above is rglob-only (no reads) and stays uncached.
+    INDEX_CACHE_VERSION = 1
+
+    @staticmethod
+    def _parse_frontmatter_aliases(text: str) -> list[str]:
+        """Extract aliases from a note's leading YAML frontmatter (inline or block)."""
+        out: list[str] = []
+        if not text.startswith("---"):
+            return out
+        end = text.find("---", 3)
+        if end == -1:
+            return out
+        fm = text[3:end]
+        inline = re.search(r'^aliases:\s*\[([^\]]*)\]', fm, re.MULTILINE)
+        if inline:
+            for a in inline.group(1).split(","):
+                a = a.strip().strip('"').strip("'")
+                if a:
+                    out.append(a)
+            return out
+        block = re.search(r'^aliases:\s*\n((?:\s+-\s+.+\n?)+)', fm, re.MULTILINE)
+        if block:
+            for a in re.findall(r'^\s+-\s+(.+?)$', block.group(1), re.MULTILINE):
+                a = a.strip().strip('"').strip("'")
+                if a:
+                    out.append(a)
+        return out
+
+    def _index_cache_path(self) -> Path:
+        """Sidecar cache path, keyed to the vault root's parent so temporary test
+        vaults write into their own tempdir and never touch the real cache."""
+        return self.vault_root.parent / ".note_index_cache.json"
+
+    def _scope_signature(self) -> list[str]:
+        """Roots the cache depends on; if this set changes the cache is rebuilt."""
+        sig = [str(self.vault_root)]
+        for name, path in self.CROSS_VAULTS.items():
+            if path.exists():
+                sig.append(f"{name}:{path}")
+        return sorted(sig)
+
+    def _load_index_cache(self) -> dict:
+        """Load the per-file alias cache, or {} on miss / format change / disabled."""
+        if not self._use_index_cache:
+            return {}
+        try:
+            raw = json.loads(self._index_cache_path().read_text(encoding="utf-8"))
+        except (OSError, ValueError):
+            return {}
+        if raw.get("version") != self.INDEX_CACHE_VERSION:
+            return {}
+        if raw.get("scopes") != self._scope_signature():
+            return {}
+        return raw.get("files", {})
+
+    def _save_index_cache(self, new_cache: dict) -> None:
+        """Atomically persist the rebuilt per-file alias cache."""
+        if not self._use_index_cache:
+            return
+        payload = {
+            "version": self.INDEX_CACHE_VERSION,
+            "scopes": self._scope_signature(),
+            "files": new_cache,
+        }
+        try:
+            path = self._index_cache_path()
+            tmp = path.with_name(path.name + ".tmp")
+            tmp.write_text(json.dumps(payload), encoding="utf-8")
+            tmp.replace(path)  # atomic; tolerant of concurrent sessions
+        except OSError:
+            pass
+
+    def _file_aliases(self, md_file: Path, cache: dict, scope: str, header_only: bool) -> list[str]:
+        """Frontmatter aliases for a file, reusing the cache when (mtime, size) match.
+
+        Reads the file only on a cache miss — the expensive part of indexing. The
+        kept/rebuilt entry is recorded in self._new_index_cache for persistence.
+        """
+        key = str(md_file)
+        try:
+            st = md_file.stat()
+        except OSError:
+            return []
+        hit = cache.get(key)
+        if (hit and hit.get("mtime_ns") == st.st_mtime_ns
+                and hit.get("size") == st.st_size and hit.get("scope") == scope):
+            self._new_index_cache[key] = hit
+            return hit["aliases"]
+        try:
+            if header_only:
+                with open(md_file, "r", encoding="utf-8") as f:
+                    text = f.read(2048)
+            else:
+                text = md_file.read_text(encoding="utf-8", errors="ignore")
+        except (OSError, UnicodeDecodeError):
+            return []
+        aliases = self._parse_frontmatter_aliases(text)
+        self._new_index_cache[key] = {
+            "mtime_ns": st.st_mtime_ns, "size": st.st_size,
+            "scope": scope, "aliases": aliases,
+        }
+        return aliases
+
+    def _index_aliases(self, cache: dict) -> set[str]:
         """Index frontmatter aliases across the vault so [[Alias]] links resolve.
 
         Without this, links like [[NVIDIA]] (alias of Nvidia.md) are flagged
-        dead even though Obsidian resolves them.
+        dead even though Obsidian resolves them. Alias parsing is cached per file
+        (see _file_aliases); only changed files are re-read from disk.
         """
         aliases = set()
         for md_file in self.vault_root.rglob("*.md"):
@@ -135,37 +248,16 @@ class NoteChecker:
                 "/Daily/", "\\Daily\\", "/Meta/", "\\Meta\\", "/Reports/", "\\Reports\\",
             )):
                 continue
-            try:
-                with open(md_file, "r", encoding="utf-8") as f:
-                    header = f.read(2048)
-            except OSError:
-                continue
-            if not header.startswith("---"):
-                continue
-            end = header.find("---", 3)
-            if end == -1:
-                continue
-            fm = header[3:end]
-            inline = re.search(r'^aliases:\s*\[([^\]]*)\]', fm, re.MULTILINE)
-            if inline:
-                for a in inline.group(1).split(","):
-                    a = a.strip().strip('"').strip("'")
-                    if a:
-                        aliases.add(a)
-                continue
-            block = re.search(r'^aliases:\s*\n((?:\s+-\s+.+\n?)+)', fm, re.MULTILINE)
-            if block:
-                for a in re.findall(r'^\s+-\s+(.+?)$', block.group(1), re.MULTILINE):
-                    a = a.strip().strip('"').strip("'")
-                    if a:
-                        aliases.add(a)
+            for a in self._file_aliases(md_file, cache, scope="investing", header_only=True):
+                aliases.add(a)
         return aliases
 
-    def _index_cross_vaults(self) -> dict[str, list[tuple[str, str, str]]]:
+    def _index_cross_vaults(self, cache: dict) -> dict[str, list[tuple[str, str, str]]]:
         """Index notes in cross-vaults by name and aliases.
 
         Returns dict mapping lowercased name/alias -> list of (vault_name, note_stem, relative_path).
-        Only indexes vaults that exist on disk.
+        Only indexes vaults that exist on disk. Alias parsing is cached per file
+        (see _file_aliases); only changed files are re-read from disk.
         """
         index: dict[str, list[tuple[str, str, str]]] = {}
 
@@ -185,41 +277,11 @@ class NoteChecker:
                 rel_path = rel.replace("\\", "/").replace(".md", "")
 
                 # Index by filename
-                key = stem.lower()
-                if key not in index:
-                    index[key] = []
-                index[key].append((vault_name, stem, rel_path))
+                index.setdefault(stem.lower(), []).append((vault_name, stem, rel_path))
 
-                # Index by aliases from frontmatter
-                try:
-                    content = md_file.read_text(encoding="utf-8", errors="ignore")
-                except (OSError, UnicodeDecodeError):
-                    continue
-
-                if content.startswith("---"):
-                    end = content.find("---", 3)
-                    if end != -1:
-                        fm = content[3:end]
-                        # Inline: aliases: [A, B, C]
-                        inline = re.search(r'^aliases:\s*\[([^\]]*)\]', fm, re.MULTILINE)
-                        if inline:
-                            for alias in inline.group(1).split(","):
-                                alias = alias.strip().strip('"').strip("'")
-                                if alias:
-                                    akey = alias.lower()
-                                    if akey not in index:
-                                        index[akey] = []
-                                    index[akey].append((vault_name, stem, rel_path))
-                        # Block: aliases:\n  - A\n  - B
-                        block = re.search(r'^aliases:\s*\n((?:\s+-\s+.+\n?)+)', fm, re.MULTILINE)
-                        if block:
-                            for alias in re.findall(r'^\s+-\s+(.+?)$', block.group(1), re.MULTILINE):
-                                alias = alias.strip().strip('"').strip("'")
-                                if alias:
-                                    akey = alias.lower()
-                                    if akey not in index:
-                                        index[akey] = []
-                                    index[akey].append((vault_name, stem, rel_path))
+                # Index by aliases from frontmatter (cached, full read on miss)
+                for alias in self._file_aliases(md_file, cache, scope=vault_name, header_only=False):
+                    index.setdefault(alias.lower(), []).append((vault_name, stem, rel_path))
 
         return index
 
@@ -348,6 +410,7 @@ class NoteChecker:
             issues.extend(self._check_related_section(content, filepath))
             issues.extend(self._check_quick_stats(content, filepath, missing_severity="error"))
             issues.extend(self._check_table_formatting(content, filepath))
+            issues.extend(self._check_unsourced_work_claim(content, filepath))
             return issues
 
         # Remaining checks are actor-specific
@@ -422,6 +485,10 @@ class NoteChecker:
         # Synopsis check (actor notes, not stubs)
         if note_type in ("actor", "etf", "benchmark"):
             issues.extend(self._check_synopsis(content, filepath))
+
+        # Unsourced superlative work-claim check (people — catches vague/fabricated book claims)
+        if is_person:
+            issues.extend(self._check_unsourced_work_claim(content, filepath))
 
         # Analyst timeline check (public companies, not ETFs/people/geographies/products)
         if is_public and not is_public_exempt and not is_etf and not is_person and not is_geography and not is_product:
@@ -1683,6 +1750,63 @@ aliases: []
 
         return issues
 
+    def _check_unsourced_work_claim(self, content: str, filepath: Path) -> list[Issue]:
+        """Flag a superlative book/work claim that names no concrete titled work.
+
+        The vault convention is to cite specific works ("Author of *Title* (Year)").
+        A sentence that asserts a definitive / seminal / canonical / authoritative
+        book or text WITHOUT an italicized title, a quoted title, or a source URL
+        matches the fabrication shape that produced the invented "definitive book
+        on RLHF" rather than a real citation. Warning-level — it nudges "name the
+        work or cite it"; it never blocks an edit. A bare [[wikilink]] does not
+        count as a title (it is usually a concept link), and "forthcoming" works
+        (no title yet) and titled claims are exempt.
+        """
+        issues = []
+
+        body = content
+        if content.startswith("---"):
+            second_dash = content.find("---", 3)
+            if second_dash != -1:
+                body = content[second_dash + 3:]
+
+        body = re.sub(r"```.*?```", "", body, flags=re.DOTALL)  # drop fenced code
+
+        qualifier = r"(?:definitive|seminal|canonical|authoritative|landmark|foundational|go-to)"
+        work_noun = r"(?:books?|textbooks?|guides?|treatises?|monographs?|accounts?)"
+        trigger = re.compile(
+            rf"\b{qualifier}\b[\w\s,'’-]{{0,24}}?\b{work_noun}\b", re.IGNORECASE
+        )
+        # Concrete reference in the same sentence: italic *title*, "quoted title"
+        # (straight or curly), or a source URL.
+        concrete = re.compile(
+            r"(?<!\*)\*(?!\*)[^*\n]{2,}\*(?!\*)"
+            r"|[\"“][^\"”\n]{2,}[\"”]"
+            r"|https?://"
+        )
+
+        for line in body.split("\n"):
+            stripped = line.strip()
+            if not stripped or stripped[0] in "|>#!":
+                continue
+            for sent in re.split(r"(?<=[.!?])\s+", stripped):
+                if not trigger.search(sent):
+                    continue
+                if re.search(r"forthcoming", sent, re.IGNORECASE):
+                    continue
+                if concrete.search(sent):
+                    continue
+                claim = re.sub(r"\s+", " ", sent).strip()
+                if len(claim) > 110:
+                    claim = claim[:110] + "…"
+                issues.append(Issue(
+                    "warning", "unsourced-work-claim",
+                    f"Superlative work claim with no concrete title or source: "
+                    f"\"{claim}\". Name the specific work (*Title* (Year)) or cite it."
+                ))
+
+        return issues
+
     def _check_analyst_timeline(self, content: str, filepath: Path) -> list[Issue]:
         """Check for Analyst timeline section in public company notes.
 
@@ -2388,6 +2512,16 @@ def get_changed_files(vault_root: Path) -> list[Path]:
 
 
 def main():
+    # Windows defaults stdout/stderr to cp1252; printing a non-ASCII note name
+    # (e.g. "Adam Glapiński") under output redirection raises UnicodeEncodeError
+    # and aborts a full --all sweep partway. Force UTF-8 so reports never crash
+    # on accented/CJK note names (matches the PostToolUse hook's handling).
+    for _stream in (sys.stdout, sys.stderr):
+        try:
+            _stream.reconfigure(encoding="utf-8")
+        except Exception:
+            pass
+
     parser = argparse.ArgumentParser(description="Check vault notes for compliance")
     parser.add_argument("files", nargs="*", help="Files to check")
     parser.add_argument("--changed", action="store_true", help="Check git-changed files only")
@@ -2403,6 +2537,8 @@ def main():
     parser.add_argument("--limit", "-n", type=int, help="Stop after N files")
     parser.add_argument("--offset", type=int, default=0, help="Skip first N files")
     parser.add_argument("--verbose", "-v", action="store_true", help="Show passing checks too")
+    parser.add_argument("--no-index-cache", action="store_true",
+                        help="Disable the per-file vault index cache (rebuild from disk every run)")
     args = parser.parse_args()
 
     # Find vault root
@@ -2416,7 +2552,7 @@ def main():
     # --fix for link suggestions requires --suggest-links
     # (bold fix always works with --fix)
 
-    checker = NoteChecker(vault_root, suggest_links=args.suggest_links)
+    checker = NoteChecker(vault_root, suggest_links=args.suggest_links, use_index_cache=not args.no_index_cache)
 
     # Handle focused market-reaction peer coverage sweep.
     if args.market_reaction_peer_sweep:

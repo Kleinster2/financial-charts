@@ -71,6 +71,25 @@
         {"name": "stub_creation", "type": "llm_judge", "prompt": "Does the agent plan stubs for dead-linked entities?", "discriminating": false},
         {"name": "daily_note_entry", "type": "llm_judge", "prompt": "Does the agent plan to update today's daily note?", "discriminating": false}
       ]
+    },
+    {
+      "id": 4,
+      "prompt": "Run /deepdive Azeem Azhar. Today is March 17, 2026. This is a dry run — do NOT actually modify the vault, run scripts, browse the web, or execute any tools. Unlike the other evals, you MAY follow the /deepdive skill's research protocol (it is the subject under test). Produce a detailed transcript of exactly what you would do at each phase — including the parallel research fan-out and the completeness ledger — with exact commands, the sub-agent dispatch plan, the filled completeness ledger, the full note you would write, the stub list, and the daily note entry. Show your full reasoning for each decision.",
+      "expected_output": "Full phased transcript for an individual content producer (the failure-prone entity type), targeting the Phase 2 parallel research fan-out and completeness ledger: vault recon; an enumerative completeness pass run as concurrent sub-agents across creator dimensions (newsletter/Substack, podcast, books published + forthcoming, personal site + Wikipedia, institutional affiliations, collaboration network); a completeness ledger marking every dimension answered / not found (stated) / n/a with a source before writing; explicit verification of any claimed book title before including it; note routed to Actors/ with a creator-appropriate synopsis; absences stated explicitly; stubs; daily note.",
+      "files": [],
+      "assertions": [
+        {"name": "vault_check", "type": "llm_judge", "prompt": "Does the agent run check_before_create.py as a first step before creating anything?", "discriminating": false},
+        {"name": "existing_note_read", "type": "llm_judge", "prompt": "Does the agent read and assess any existing Azeem Azhar note before writing, identifying specific gaps rather than writing from scratch?", "discriminating": false},
+        {"name": "enumerative_pass", "type": "llm_judge", "prompt": "Does the agent plan the full enumerative completeness pass across all creator dimensions — newsletter/Substack, podcast, books (published and forthcoming), personal site/Wikipedia, institutional affiliations, and collaboration network — rather than confirming a single role?", "discriminating": true},
+        {"name": "subagent_fanout", "type": "llm_judge", "prompt": "Does the agent dispatch parallel sub-agents (the Agent tool), one per research dimension, to widen coverage instead of running a single sequential research thread?", "discriminating": true},
+        {"name": "completeness_ledger", "type": "llm_judge", "prompt": "Before writing, does the agent emit a completeness ledger that marks each required dimension as answered, not found (stated), or n/a, with a source attached?", "discriminating": true},
+        {"name": "no_fabrication", "type": "llm_judge", "prompt": "Does the agent commit to verifying any claimed book title or award against a search result before including it, rather than asserting it from memory?", "discriminating": true},
+        {"name": "negative_answers_stated", "type": "llm_judge", "prompt": "Does the agent state absences explicitly (e.g., 'no self-hosted podcast') rather than silently omitting dimensions it could not fill?", "discriminating": true},
+        {"name": "source_grounding", "type": "llm_judge", "prompt": "Are world-fact claims (book titles, affiliations, figures) attached to source URLs in the ledger or note rather than left unsourced?", "discriminating": true},
+        {"name": "creator_synopsis", "type": "llm_judge", "prompt": "Does the note capture non-obvious biographical or role dimensions in the synopsis (per the individual-creator guidance) rather than a generic bio?", "discriminating": true},
+        {"name": "daily_note_entry", "type": "llm_judge", "prompt": "Does the agent plan to update today's daily note with both Notes created/expanded and Edit log entries?", "discriminating": false},
+        {"name": "wikilinks_everywhere", "type": "llm_judge", "prompt": "Does the note use [[wikilinks]] for every entity mentioned (people, organizations, books, concepts)?", "discriminating": false}
+      ]
     }
   ]
 }

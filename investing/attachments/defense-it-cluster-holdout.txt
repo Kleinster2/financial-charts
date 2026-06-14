@@ -1,0 +1,22 @@
+Defense IT services HOLDOUT TEST
+Cohort: LDOS, BAH, CACI, SAIC (N=4)
+Window: 2y, split temporally at midpoint
+Train: 2024-06-12 -> 2025-06-12 (125 obs)
+Test:  2025-06-12 -> 2026-06-12 (213 obs)
+
+--- TRAIN HALF (older) ---
+Intra-correlation:    0.7072
+PC1 explained var:    78.18%
+Pairwise range:       [0.602, 0.793]
+
+--- TEST HALF (newer) ---
+Intra-correlation:    0.5994
+PC1 explained var:    69.99%
+Pairwise range:       [0.534, 0.751]
+
+--- STABILITY DIAGNOSTICS ---
+Intra-corr delta:     -0.1079   (test - train)
+PC1 variance delta:   -8.18pp
+PC1 loadings corr:    -0.7020    (1.0 = identical factor structure)
+
+VERDICT: WEAKENED — test/train ratio 0.85 (factor present but eroding)

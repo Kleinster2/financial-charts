@@ -19,16 +19,16 @@ Major defense contractors (excluding Boeing). Trades as a moderate cluster (0.49
 
 | Metric | Value | Interpretation |
 |--------|-------|----------------|
-| **Avg correlation** | **0.49** | Moderate (valid sector) |
+| Avg correlation | 0.49 | Moderate (valid sector) |
 | Range | 0.37 - 0.59 | LMT-RTX to GD-LHX |
-| vs SPY | **0.11-0.34** | Very market-uncorrelated |
+| vs SPY | 0.11-0.34 | Very market-uncorrelated |
 | vs ITA | 0.24-0.43 | Weak (ITA is BA-heavy) |
 | Period | 2024-01 to present | |
 
-**Pairwise detail:**
+Pairwise detail:
 | Pair | Correlation |
 |------|-------------|
-| GD - LHX | **0.59** |
+| GD - LHX | 0.59 |
 | LMT - LHX | 0.54 |
 | RTX - NOC | 0.53 |
 | RTX - GD | 0.53 |
@@ -39,7 +39,7 @@ Major defense contractors (excluding Boeing). Trades as a moderate cluster (0.49
 | NOC - GD | 0.43 |
 | LMT - RTX | 0.37 |
 
-**No good ETF benchmark.** ITA (0.24-0.43) is Boeing-heavy and tracks SPY at 0.65.
+No good ETF benchmark. ITA (0.24-0.43) is Boeing-heavy and tracks SPY at 0.65.
 
 ---
 
@@ -76,7 +76,7 @@ The consequence of losing dual-use companies: loss of volume, loss of R&D stimul
 
 | Stock | Correlation with Primes | Notes |
 |-------|------------------------|-------|
-| BA | **0.12-0.33** | Commercial aerospace story |
+| BA | 0.12-0.33 | Commercial aerospace story |
 
 Boeing trades on 737 MAX production, 787 ramp, and commercial aviation — not defense budgets. Including BA weakens sector correlation from 0.49 to 0.40.
 
@@ -113,7 +113,7 @@ This makes defense a natural hedge against growth/tech exposure.
 | Defense Primes | 0.49 | Hardware, platforms |
 | [[Defense IT Services]] | 0.61 | Services, labor |
 
-Different risk profiles — primes have program risk, IT services have recompete risk.
+Different risk profiles — primes have program risk, IT services have recompete risk. The IT-services cohort (LDOS/BAH/CACI/SAIC) is now formally validated as a distinct cluster — intra 0.604, +0.310 intra-advantage versus the primes, passing all three permutation nulls; see [[Defense IT Services#Cluster validation]]. This is the constructive answer to the LDOS exclusion from the [[Defense primes basket]] 6-name core.
 
 ---
 

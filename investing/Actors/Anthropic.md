@@ -256,6 +256,22 @@ Notable: Both Google AND Amazon invested (rare). Microsoft invested despite Open
 
 ## Recent developments
 
+### Jun 12 — Commerce export ban; Fable 5 / Mythos 5 taken offline
+
+On Friday June 12, 2026, the [[Donald Trump|Trump]] administration placed [[Anthropic]]'s two most capable models under export controls, and Anthropic responded by disabling both for every customer worldwide — the first time a leading AI lab has pulled a publicly deployed model offline because of direct federal intervention. Commerce Secretary [[Howard Lutnick]] sent [[Dario Amodei]] a letter stating that [[Claude Fable 5]] (`claude-fable-5`, the public model) and [[Claude Mythos|Mythos 5]] (`claude-mythos-5`, the [[Project Glasswing]]-restricted sibling) are now subject to export restrictions: use by customers outside the US and by foreign nationals inside the US is prohibited. Because foreign governments, companies, individuals, and some of Anthropic's own foreign-born employees all fall within that scope, Anthropic concluded it could not comply selectively and shut both models off entirely. Per Anthropic (directive received 5:21 PM ET): "The net effect of this order is that we must abruptly disable Fable 5 and Mythos 5 for all our customers to ensure compliance." All other [[Claude]] models — [[Claude Opus|Opus 4.8]], [[Claude Sonnet|Sonnet 4.6]], [[Claude Haiku|Haiku 4.5]] — remain available. Anthropic added that the letter "did not provide specific details of [the government's] national-security concern."
+
+The trigger was a method for bypassing Fable 5's safety classifiers — the cyber, bio/chem, and distillation guardrails that separate the public model from [[Claude Mythos|Mythos]]-class capability. The jailbreak research was done by [[Amazon]] researchers — Anthropic's largest investor — who used a sequence of prompts to get the model to surface information on a handful of software vulnerabilities. Anthropic's rebuttal: the demonstration identified only "a small number of previously known, minor vulnerabilities... other publicly available models are able to discover them as well without requiring a bypass," the disclosed jailbreaks "provide no Mythos-specific uplift," and the same capability is "widely available from other models (including [[OpenAI]]'s GPT-5.5)." Katie Moussouris (Luta Security), who reviewed the report, said the output "would be of more use to people defending computer networks than to those attacking them" and called the action "a complete overreaction because this is exactly the kind of prompting that defenders would do."
+
+Read-through:
+- Second government front. This stacks on the [[Pentagon AI access dispute 2026|Pentagon supply-chain-risk designation]] (Feb 27), which Anthropic is already litigating (WSJ, Mar 16), and the months-long feud over military-use guardrails. [[David Sacks]] and other administration figures have accused Anthropic of "doomerism" — warning of AI risk while shipping ever-more-capable models. The ban runs through a recently signed [[Donald Trump|Trump]] executive order giving national-security and cyber officials more say over how models are evaluated before release (see [[AI regulation]]).
+- The model-vs-chip contradiction. Jimmy Goodrich (UC Institute on Global Conflict and Cooperation): "It's puzzling Commerce will forcefully act to control AI models that may pose national-security risks, but then allow the chips that produce these models to be sold to our foreign adversaries." The action also bars US allies (UK, EU) from Anthropic's top tier — the first deployed-model export control and the inverse of the chip regime's adversary focus. Folded into [[Export controls#First deployed-model export control — Anthropic Fable 5 / Mythos 5 (Jun 12, 2026)|Export controls]] as the realization of the Apr 23 [[Export controls#White House distillation memo (Apr 23, 2026)|distillation-memo]] prediction.
+- IPO overhang. The halt lands 11 days after the June 1 confidential [[Anthropic IPO 2026|S-1]] and pauses the [[Claude Mythos|Mythos]] cyber-capability story ("rolling out to US allies") that the filing coverage named.
+- Cyber-defense pause. Governments and companies had been using Mythos/Fable to find and patch software vulnerabilities; the halt suspends those defensive efforts for an unknown duration. Anthropic calls the move a misunderstanding that "does not adhere to" principles of transparency and technical grounding, and says it will restore access "as soon as possible."
+
+*Sources: WSJ (Amrith Ramkumar), Jun 13 2026; [Anthropic statement, Jun 12 2026](https://www.anthropic.com/news/fable-mythos-access); [Axios, Jun 12](https://www.axios.com/2026/06/12/anthropic-trump-mythos-fable-national-security); [CNBC, Jun 12](https://www.cnbc.com/2026/06/12/anthropic-disables-access-to-fable-5-and-mythos-5-to-comply-with-government-directive.html); [Fortune, Jun 13](https://fortune.com/2026/06/13/anthropic-disables-fable-mythos-export-controls-national-security-threat/); [NBC News](https://www.nbcnews.com/tech/tech-news/anthropic-suspends-new-ai-models-fable-mythos-government-directive-rcna349901).*
+
+---
+
 ### "When AI builds itself" — recursive self-improvement essay (Jun 4, 2026)
 
 On June 4, 2026, Anthropic published "When AI builds itself," a research-and-governance essay arguing that AI systems are approaching [[Recursive self-improvement|recursive self-improvement]] — the point at which an AI can autonomously design and build its own successor with little human input — and calling for a coordinated, verifiable mechanism to slow or pause frontier development if that threshold is crossed.
@@ -1091,6 +1107,23 @@ The leak occurred via Anthropic's off-the-shelf CMS, which defaults to public ac
 
 ---
 
+## Claude Fable 5 / Mythos 5 — first public Mythos-class release (June 9, 2026)
+
+On June 9, 2026, Anthropic shipped the first publicly available Mythos-class models, closing the release path the [[Claude Mythos]] leak opened in March. [[Claude Fable 5]] (`claude-fable-5`) is generally available; Mythos 5 (`claude-mythos-5`) stays restricted to [[Project Glasswing]]. They are the same underlying model — the difference is a safety-classifier layer in Fable 5 that declines cybersecurity, biology/chemistry, and distillation requests and routes them to [[Claude Opus|Opus 4.8]] (under 5% of sessions). 1M context, $10/$50 per million tokens (less than half Mythos Preview's price), mandatory 30-day retention for all Mythos-class traffic even for prior zero-retention customers.
+
+Strategic read for Anthropic:
+
+- The classifier-and-fallback design is the mechanism that let Anthropic monetize Mythos-class capability broadly while keeping the cyber-offensive slice gated — the commercial answer to the financial-stability-perimeter concerns that pulled the model into the [[Scott Bessent|Bessent]]–[[Jerome Powell|Powell]] bank-CEO meeting in April. It converts a restricted-capability liability into a premium revenue tier.
+- It shipped days after Anthropic's June 4 "When AI builds itself" essay urging a "coordinated brake pedal" on the frontier and warning about [[Recursive self-improvement]]. The most-powerful-public-model / slow-the-frontier juxtaposition in the same week is the cleanest recent illustration of Anthropic's dual posture — capability deployment and safety advocacy in parallel, with safeguards offered as the reconciler.
+- Pricing at $10/$50 (double Opus 4.8's standard $5/$25) and a June 23 credit cliff on subscription plans "pending capacity restoration" read as compute-constrained rationing — consistent with the [[Anthropic vs OpenAI compute race|conservative-compute]] framing and the April hyperscaler-financing surge.
+- Lands into the IPO run-up ([[Anthropic IPO 2026]]) and against [[OpenAI]]'s [[OpenAI Spud|Spud]].
+
+Full product detail in [[Claude Fable 5]]; capability and cyber lineage in [[Claude Mythos]].
+
+*Sources: [Anthropic, Claude Fable 5 and Claude Mythos 5](https://www.anthropic.com/news/claude-fable-5-mythos-5), June 9 2026; [TechCrunch](https://techcrunch.com/2026/06/09/anthropics-claude-fable-5-is-a-version-of-mythos-the-public-can-access-today/), June 9 2026.*
+
+---
+
 ## Q4 2026 IPO discussion (March 2026)
 
 Anthropic is in discussions about an initial public offering that could happen as soon as Q4 2026. Bankers vying to take the company public have said it could raise as much as $60B — which would be the second-largest IPO ever after [[SpaceX]]'s planned ~$75B raise.
@@ -1266,6 +1299,7 @@ The strategy parallels [[Microsoft]]'s 1990s arc — OS vendor to desktop owner 
 - [[February 2026 AI Disruption Cascade]] - both caused it (Cowork Plugins) and reversed it (enterprise partnerships)
 - [[Gambit Security]] - discovered Claude Mexico hack (Feb 2026, [[Unit 8200]] veterans)
 - [[Claude Mythos]] - next frontier model (Capybara tier), revealed via data leak Mar 26
+- [[Claude Fable 5]] - first public Mythos-class model (Jun 9 2026); safety-gated GA sibling of Mythos 5
 - [[OpenAI]] - competing with "Spud" model; raising $120B+ total; sweetening PE deals at 17.5% preferred returns
 - [[Private market secondaries]] - concept hub; May 11 2026 void declaration adds the issuer-pushback mechanism subsection
 - [[Tokenized private shares]] - concept hub; Anthropic tokenized perps on [[Ventuals]] / [[PreStocks]] hit ~$1.6T implied valuation before void notice

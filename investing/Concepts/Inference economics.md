@@ -6,6 +6,12 @@ Training gets the headlines. Inference is where the money is - or isn't.
 
 ---
 
+## Synthesis
+
+The organizing fact is the input/output cost asymmetry: prefill (reading context) is roughly 1,000x cheaper than decode (generating tokens), so per-token API margins run 80-95% even as headline prices fall 50-200x a year. That settles the "is inference a money pit" debate cleanly — per-token economics were never the problem; the losses sit in amortized training, idle capacity, hyperscaler markup, and below-cost consumer subscriptions. Two forces then pull against each other. Commoditization pushes margins toward zero: open-source models ([[DeepSeek]], [[Qwen]], [[Llama]]) plus [[Open-source inference engines|open-source serving]] establish a near-marginal-cost floor, and [[NVIDIA]]'s Groq acquisition is a defensive move to own the inference layer before it commoditizes. The [[Jevons paradox]] pulls the other way: as price collapses, demand and architectural intensity (reasoning depth, agentic loops) explode, so aggregate spend rises even as unit cost craters. The reconciliation is a router-mediated, segmented market — cheap models for routine work, premium models where value, latency, or trust justify them. The sharper counterpoint is [[Dylan Patel]]'s: frontier-tier capacity is demand-bound and allocated by relationship, so the scarce good is not tokens but access to the frontier. The investable tension is whether margin compression (the commodity case) or capacity rationing (the scarcity case) dominates — and the same heterogeneous GPU cluster can be a low-margin training liability or a profitable inference annuity depending on which regime holds (see [[Training-to-inference cluster rotation]]).
+
+---
+
 ## The price collapse (Dec 2025-May 2026)
 
 | Provider | Model | Input / Output per 1M tokens |
@@ -47,7 +53,7 @@ The distinction between promotion and floor matters. A temporary discount is cus
 
 The May 29 WSJ / Hindustan Times report is the clearest demand-side confirmation that inference is now a managed corporate cost center. Usage is not collapsing; it is being governed. Enterprises have hit annual AI budgets early, seen bills double or triple, and started routing employees toward cheaper or internally standardized tools. That is the economic moment when AI moves from "innovation budget" to operating expense.
 
-Google's I/O 2026 keynote gives the scale backdrop: more than 3.2 quadrillion tokens per month across Google surfaces, roughly 19B tokens per minute through model APIs, and more than 375 Google Cloud customers each over 1T tokens in the prior year. The same keynote pitched Gemini 3.5 Flash as a cost-control product, not only a model launch, arguing that shifting routine workloads away from more expensive frontier models could save very large enterprises more than $1B annually.
+Google's I/O 2026 keynote gives the scale backdrop: more than 3.2 quadrillion tokens per month across Google surfaces, roughly 19B tokens per minute through model APIs, and more than 375 Google Cloud customers each over 1T tokens in the prior year. The same keynote pitched [[Gemini]] 3.5 Flash as a cost-control product, not only a model launch, arguing that shifting routine workloads away from more expensive frontier models could save very large enterprises more than $1B annually.
 
 The inference-economics implication is segmentation. Premium models can still hold price where the task is high-value, latency-sensitive, or trust-sensitive. Routine summarization, basic coding help, internal chat, and low-risk agent loops will be routed to cheaper models or homegrown tools. The market is therefore unlikely to be one commodity token price or one premium token price; it becomes a router-mediated stack.
 
@@ -123,7 +129,7 @@ H100 rental market (Feb 2026):
 
 | Provider type | Cost per H100/hr | Notes |
 |---------------|-------------------|-------|
-| Specialist (Hyperbolic, Hyperstack, Nebius) | $1.49-$1.90 | Lowest retail |
+| Specialist (Hyperbolic, Hyperstack, [[Nebius]]) | $1.49-$1.90 | Lowest retail |
 | Mid-tier (Lambda, Together.ai) | $1.85-$2.50 | Reserved capacity |
 | Hyperscaler on-demand ([[AWS]], [[Google Cloud\|GCP]], [[Microsoft\|Azure]]) | $2.85-$6.98 | Highest retail |
 | Spot/preemptible | $2.00-$2.50 | Interruptible |
@@ -136,7 +142,7 @@ Full cluster economics:
 - Cooling/facilities upgrades: $15K-$100K depending on scale
 - True operational cost for 8×H100 cluster: $8-$15/hr all-in (hardware, power, cooling, ops)
 
-Anthropic doesn't pay retail. [[Anthropic]] runs on [[AWS]] infrastructure via a multi-billion-dollar partnership (Amazon invested $4B+ into Anthropic). They likely pay significantly below retail H100 rates, possibly 30-50% below public on-demand pricing. This is the critical unknown - Anthropic's actual negotiated rate determines whether their margins are good or amazing.
+Anthropic doesn't pay retail. [[Anthropic]] runs on [[AWS]] infrastructure via a multi-billion-dollar partnership ([[Amazon]] invested $4B+ into Anthropic). They likely pay significantly below retail H100 rates, possibly 30-50% below public on-demand pricing. This is the critical unknown - Anthropic's actual negotiated rate determines whether their margins are good or amazing.
 
 ---
 
@@ -220,9 +226,9 @@ Revenue trajectory:
 - Feb 2026: $14B ARR (10× annual growth for 3 consecutive years)
 - [[Claude Code]] alone: >$2.5B ARR (from zero in ~9 months)
 - Target: $20-26B ARR by end of 2026, $70B by 2028
-- 500+ customers spending >$1M/year; 8 of Fortune 10 are customers
+- 500+ customers spending >$1M/year; 8 of [[Fortune]] 10 are customers
 
-*Source: [Shanaka Anslem Perera](https://shanakaanslemperera.substack.com/p/the-growth-miracle-and-the-six-fractures) (Feb 2026), The Information (Jan 2026)*
+*Source: [[Shanaka Anslem Perera]] ([substack](https://shanakaanslemperera.substack.com/p/the-growth-miracle-and-the-six-fractures)) (Feb 2026), The Information (Jan 2026)*
 
 ---
 
@@ -241,7 +247,7 @@ The plans (Feb 2026):
 
 Reverse-engineering the Max 20× rate limits:
 
-A Reddit user ([andrew-kramer-inno](https://www.reddit.com/r/ClaudeAI/comments/1ppkhat/)) methodically tested the limits (Dec 2025):
+A [[Reddit]] user ([andrew-kramer-inno](https://www.reddit.com/r/ClaudeAI/comments/1ppkhat/)) methodically tested the limits (Dec 2025):
 
 | Metric | Value |
 |--------|-------|
@@ -325,11 +331,11 @@ Not all inference is equal. Some patterns invert the favorable I/O ratio:
 |----------|-------------|-------------------|
 | Video generation | Tiny text prompt → millions of output tokens (frames) | Inverted ratio - massive output from minimal input |
 | Extended thinking on hard problems | Moderate input → enormous hidden output | 10-100K+ invisible thinking tokens per query |
-| ChatGPT Pro $200/mo power users | Long conversational sessions with huge output | High output volume, no rate limits (OpenAI initially had none) |
+| [[ChatGPT]] Pro $200/mo power users | Long conversational sessions with huge output | High output volume, no rate limits (OpenAI initially had none) |
 | Image generation | Text → dense visual output | Different compute profile entirely (diffusion models) |
 | Real-time voice/audio | Continuous streaming output | Sustained high-throughput output generation |
 
-[[OpenAI]] CEO Sam Altman admitted the $200/mo ChatGPT Pro plan was "losing money" on some users - this is why. When users generate massive output without corresponding input, the favorable asymmetry inverts.
+[[OpenAI]] CEO [[Sam Altman]] admitted the $200/mo ChatGPT Pro plan was "losing money" on some users - this is why. When users generate massive output without corresponding input, the favorable asymmetry inverts.
 
 ---
 
@@ -379,7 +385,7 @@ Provider-side confirmation from the inside (Jun 2026): [[Sarah Friar]] ([[OpenAI
 
 Despite token prices falling ~1,000×, total enterprise AI spending surged 320% in 2025. This is the textbook [[Jevons paradox]] — efficiency gains expand the addressable market faster than they reduce unit costs.
 
-The mechanism: at $20/MTok, only high-value enterprise applications justified LLM deployment. At $0.40/MTok, every SaaS product, internal tool, and consumer app embeds AI. The addressable market expanded by orders of magnitude.
+The mechanism: at $20/MTok, only high-value enterprise applications justified LLM deployment. At $0.40/MTok, every [[SaaS]] product, internal tool, and consumer app embeds AI. The addressable market expanded by orders of magnitude.
 
 Structural amplifier: as prices fall, firms increase architectural complexity — reasoning depth, agentic loops, multi-step chains. Token intensity per task rises even as cost per token falls. The architecture-induced demand growth dominates the price effect.
 
@@ -395,9 +401,9 @@ The implication for sovereign AI consumption: falling prices don't mean falling 
 
 | Region | 2024 | 2034 est. | Share (2024) |
 |--------|------|-----------|-------------|
-| North America | $35.4B | $123.9B | 38-45% |
+| [[North America]] | $35.4B | $123.9B | 38-45% |
 | Asia-Pacific | $20.4B | $71.6B | 22-29% |
-| Europe | $17.3B | $60.6B | 19-28% |
+| [[Europe]] | $17.3B | $60.6B | 19-28% |
 | Global total | $97.2B (2024) → $113.5B (2025) → $255B (2030) | | |
 
 *Sources: MarketsandMarkets, Polaris, Grand View Research (ranges reflect differing methodologies)*
@@ -408,24 +414,24 @@ The best empirical proxy for country-level consumption comes from [[OpenRouter]]
 
 | Rank | Country | Share of token volume |
 |------|---------|----------------------|
-| 1 | United States | 47.17% |
+| 1 | [[United States]] | 47.17% |
 | 2 | [[Singapore]] | 9.21% |
 | 3 | [[Germany]] | 7.51% |
 | 4 | [[China]] | 6.01% |
 | 5 | [[South Korea]] | 2.88% |
-| 6 | Netherlands | 2.65% |
+| 6 | [[Netherlands]] | 2.65% |
 | 7 | [[United Kingdom]] | 2.52% |
-| 8 | Canada | 1.90% |
+| 8 | [[Canada]] | 1.90% |
 | 9 | [[Japan]] | 1.77% |
 | 10 | [[India]] | 1.62% |
 
-Regional trend: Asia's share doubled from ~13% (early 2024) to ~31% (late 2025).
+Regional trend: [[Asia]]'s share doubled from ~13% (early 2024) to ~31% (late 2025).
 
-Continental breakdown: North America 47.22%, Asia 28.61%, Europe 21.32%, South America 1.21%, Oceania 1.18%, Africa 0.46%.
+Continental breakdown: North America 47.22%, Asia 28.61%, Europe 21.32%, South America 1.21%, Oceania 1.18%, [[Africa]] 0.46%.
 
 Caveats: OpenRouter skews developer/startup. Enterprise consumption via direct API contracts (OpenAI, Anthropic, Google) is invisible here. China's domestic consumption (via [[DeepSeek]], [[Qwen]], [[Baidu]]) is massively undercounted — most Chinese inference never touches Western routers. Singapore's outsized share likely reflects regional corporate billing addresses, not per-capita AI usage.
 
-*Source: [OpenRouter State of AI 2025](https://openrouter.ai/state-of-ai), [a16z analysis](https://a16z.com/state-of-ai/)*
+*Source: [OpenRouter State of AI 2025](https://openrouter.ai/state-of-ai), [[a16z]] [analysis](https://a16z.com/state-of-ai/)*
 
 ### Model ecosystem share
 
@@ -434,10 +440,10 @@ Caveats: OpenRouter skews developer/startup. Enterprise consumption via direct A
 | [[DeepSeek]] | 14.37T | China |
 | [[Qwen]] (Alibaba) | 5.59T | China |
 | [[Llama]] (Meta) | 3.96T | US |
-| [[Mistral]] | 2.92T | France |
+| [[Mistral]] | 2.92T | [[France]] |
 | [[OpenAI]] | 1.65T | US |
 
-Chinese open-source models grew from ~1.2% of global usage (late 2024) to ~30% (late 2025). [[Qwen]] surpassed 700M downloads on Hugging Face by January 2026. Simplified Chinese is the second-largest language by token volume (~5%), after English (82.87%).
+Chinese open-source models grew from ~1.2% of global usage (late 2024) to ~30% (late 2025). [[Qwen]] surpassed 700M downloads on [[Hugging Face]] by January 2026. Simplified Chinese is the second-largest language by token volume (~5%), after English (82.87%).
 
 Proprietary models still handle ~70% of total tokens. Open-source ~30%, of which Chinese OSS averages ~13% (spiking to 30% some weeks when new models drop).
 
@@ -472,15 +478,15 @@ Nobody is systematically tracking "Country X consumed Y tokens at $Z cost." The 
 
 | Country | Commitment | % of GDP | Type |
 |---------|------------|----------|------|
-| China | $722B grid expansion | ~4% | Infrastructure |
+| [[China]] | $722B grid expansion | ~4% | Infrastructure |
 | [[Saudi Arabia]] | $100B+ across initiatives | ~10% | Capex + partnerships |
 | [[Qatar]] | $20B AI data centers | 9% | Capex |
 | [[South Korea]] | SWF targeting AI/chips | 5.7% (over 5 yrs) | Investment vehicle |
 | [[India]] | $1.2B AI Mission | <0.1% | Government program |
-| [[Japan]] | $50B+ semiconductors | ~1% | Industrial policy |
+| [[Japan]] | $50B+ semiconductors | ~1% | [[Industrial policy]] |
 | [[Brazil]] | $4B AI initiative | <0.1% | Government program |
 
-*Source: [Moody's sovereign AI fiscal risk analysis](https://fortune.com/2026/02/27/ai-spending-fiscal-risk-productivity-moodys/) (Feb 2026)*
+*Source: [[Moody's]] [sovereign AI fiscal-risk analysis](https://fortune.com/2026/02/27/ai-spending-fiscal-risk-productivity-moodys/) (Feb 2026)*
 
 ### The measurement gap
 
@@ -491,14 +497,14 @@ Why nobody tracks sovereign token consumption:
 4. Token prices falling 50-200×/yr make spending a moving target even if volume were known
 5. Military and government AI inference is classified in most countries
 
-[[Gartner]] projects sovereign cloud IaaS at $80B globally in 2026 (+35.6% YoY). [[McKinsey]] estimates sovereign AI could be a $600B market by 2030, with 30-40% of all AI workloads pushed to sovereign environments by regulation. But these are infrastructure estimates, not consumption metrics.
+[[Gartner]] projects sovereign cloud [[IaaS]] at $80B globally in 2026 (+35.6% YoY). [[McKinsey]] estimates sovereign AI could be a $600B market by 2030, with 30-40% of all AI workloads pushed to sovereign environments by regulation. But these are infrastructure estimates, not consumption metrics.
 
 The closest thing to a country-level token consumption tracker would combine:
 - Cloud provider regional revenue splits (AWS, Azure, GCP)
 - [[Epoch AI]] GPU cluster database (500+ clusters by country)
 - OpenRouter-style routing data (developer segment only)
 - Electricity consumption by AI data centers, by geography
-- Enterprise surveys (Gartner, IDC)
+- Enterprise surveys (Gartner, [[IDC]])
 
 Nobody has assembled this. It's a thesis-worthy research gap.
 
@@ -534,7 +540,7 @@ This is the demand-side counterpart to [[Idea-execution inversion|the idea-execu
 
 Patel calculated [[Anthropic]] gross margins at "a floor of 72%" by assuming all incremental compute went to inference. The calculation appears to contradict [The Information](https://www.theinformation.com/articles/anthropic-lowers-profit-margin-projection-revenue-skyrockets) (Jan 2026), which reported actual gross margin at ~40% for 2025, revised down from 50%, with inference costs 23% above plan and a 77% target by 2028. The discrepancy is large enough to matter for [[Long Anthropic|Anthropic equity-thesis]] modeling. Two interpretations:
 
-- Patel's calculation models per-token margin (high) and treats prior period's R&D compute as sunk; his 72% is closer to a unit-margin floor than to GAAP gross margin
+- Patel's calculation models per-token margin (high) and treats prior period's R&D compute as sunk; his 72% is closer to a unit-margin floor than to [[GAAP]] gross margin
 - The Information's figure is the GAAP-gross-margin reality including amortized training compute, third-party cloud markup, idle capacity, and consumer-subscription subsidies — all of which the per-token analysis in the Anthropic-margins section above already explains
 
 Either interpretation can be true simultaneously. The vault carries both attributions until further disclosure. A third reference point: [[Clark Tang]] ([[Altimeter Capital]], Mar 1 2026) used an estimated 65% gross margin for [[Anthropic]] (and 55% for [[OpenAI]]) in his [[Revenue per GW]] framework — deliberately a gross-margin upper bound rather than a company disclosure, sitting between The Information's ~40% and Patel's 72% floor.
@@ -551,8 +557,8 @@ Training and inference impose opposite constraints on cluster homogeneity. The a
 
 Distributed training of frontier models is *synchronous*: every GPU in the cluster has to finish its forward and backward pass before the cluster can advance to the next step. In a 100,000-GPU cluster, that means 99,999 GPUs sit idle waiting for whichever GPU is slowest. Two things make this brutal in practice:
 
-1. The straggler effect on heterogeneous hardware. If a cluster mixes [[H100]], H200, and [[Blackwell|GB200]] in one fabric — Mirae estimates the [[Colossus|Colossus 1]] mix at ~150K H100 + ~50K H200 + ~20K GB200 — every step is paced by the H100s. The GB200s realize a fraction of their theoretical FLOPs because they spend most of every step waiting. ML-systems literature (HetCCL, MegaScale, HETHUB) treats this as the central problem of heterogeneous-cluster training; mitigation requires GPU-aware micro-batching, custom pipeline-parallel partitioning, and stack-level work that did not exist for general-purpose training infrastructure as of mid-2026.
-2. NCCL ring topology latency at >100K GPUs. [[NVIDIA]]'s Collective Communications Library (NCCL) was optimized for ring topologies that scale gracefully to 1K-10K GPUs. Past 100K, ring traversal latency dominates step time — GPUs idle waiting for data to traverse the network fabric. [[Google]] sidestepped this by building custom Optical Circuit Switching (OCS) topology for TPU pods; [[xAI]] has not yet matched that work.
+1. The straggler effect on heterogeneous hardware. If a cluster mixes [[H100]], [[H200]], and [[Blackwell|GB200]] in one fabric — Mirae estimates the [[Colossus|Colossus 1]] mix at ~150K H100 + ~50K H200 + ~20K GB200 — every step is paced by the H100s. The GB200s realize a fraction of their theoretical FLOPs because they spend most of every step waiting. ML-systems literature (HetCCL, MegaScale, HETHUB) treats this as the central problem of heterogeneous-cluster training; mitigation requires GPU-aware micro-batching, custom pipeline-parallel partitioning, and stack-level work that did not exist for general-purpose training infrastructure as of mid-2026.
+2. NCCL ring topology latency at >100K GPUs. [[NVIDIA]]'s Collective Communications Library (NCCL) was optimized for ring topologies that scale gracefully to 1K-10K GPUs. Past 100K, ring traversal latency dominates step time — GPUs idle waiting for data to traverse the network fabric. [[Google]] sidestepped this by building custom Optical Circuit Switching (OCS) topology for [[TPU]] pods; [[xAI]] has not yet matched that work.
 
 The MFU consequence: [[xAI]] reported (per [[The Information]]) a Model FLOPs Utilization of approximately 11% on Colossus during training, against an industry-norm range of 35-46% for [[Meta]] (~43%) and [[Google]] (~46%). The gap is large enough that a frontier-model training run on Colossus 1 is roughly 4× slower per dollar than the same run at Meta. (The earlier 32-36% MFU [[OpenAI]] reportedly hit on 25K [[A100]]s during GPT-4 training is consistent with the industry-norm degradation curve at 25K-scale; the 11% figure is what happens when scale, heterogeneity, and topology limits compound.)
 
@@ -580,7 +586,7 @@ This is the technical mechanism behind the [[Training-to-inference cluster rotat
 
 The [[Blackwell]] power-smoothing factor compounds the training-side problem on a cluster like Colossus 1. [[NVIDIA]] documents power smoothing as a hardware feature on GB200/GB300 specifically because Blackwell draws power so aggressively that uneven workloads (irregular ramps, frequent stop-starts) can damage chips at the silicon level. Software stacks optimized for [[Hopper]] do not understand the GB200 power profile, and Zeeshan Patel (former xAI multimodal pre-training lead) reports observed cases of GB200s being physically destroyed by xAI's Hopper-era stack imposing irregular loads. Inference workloads tend to be steadier in power draw than training (no synchronized backward-pass spikes across tens of thousands of GPUs), partially mitigating this on the inference side.
 
-*Sources: Mirae Asset Securities note (May 8, 2026); [[The Information]] on xAI MFU; ML-systems literature (HetCCL arXiv:2601.22585, MegaScale arXiv:2402.15627); [[NVIDIA]] documentation on GB200 power smoothing; [[Lambda Labs]] (X/Twitter) on fleet-utilization vs MFU distinction.*
+*Sources: [[Mirae Asset]] Securities note (May 8, 2026); [[The Information]] on xAI MFU; ML-systems literature (HetCCL arXiv:2601.22585, MegaScale arXiv:2402.15627); [[NVIDIA]] documentation on GB200 power smoothing; [[Lambda Labs]] (X/[[Twitter]]) on fleet-utilization vs MFU distinction.*
 
 ---
 

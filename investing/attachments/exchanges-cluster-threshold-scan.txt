@@ -1,0 +1,25 @@
+Exchange operators THRESHOLD STABILITY SCAN
+Cohort size: 4
+
+--- ASSIGNMENT TABLE ---
+ threshold  n_subclusters  largest_subcluster_size  cohort_share_in_largest  contamination_count  intact
+      0.20              4                        1                     0.25                    0   False
+      0.25              4                        1                     0.25                    0   False
+      0.30              4                        1                     0.25                    0   False
+      0.35              4                        1                     0.25                    0   False
+      0.40              4                        1                     0.25                    0   False
+      0.45              3                        2                     0.50                    0   False
+      0.50              2                        2                     0.50                    0   False
+      0.55              2                        2                     0.50                    0   False
+      0.60              2                        2                     0.50                    0   False
+      0.65              2                        2                     0.50                    0   False
+      0.70              2                        2                     0.50                    2   False
+
+--- STABLE RANGES (intact cohort, no contamination) ---
+  None — cohort never returns as a clean single cluster at any threshold.
+
+--- VERDICT ---
+BOUNDARY-DEPENDENT: cohort does not form a clean cluster at any threshold tested. Falsification candidate.
+
+--- CONTAMINATION DETAIL (non-cohort names joining the cohort's largest cluster) ---
+  threshold 0.70: + MKTX,TW

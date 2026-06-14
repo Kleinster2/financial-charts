@@ -9,8 +9,8 @@ aliases: [LDOS]
 |--------|-------|
 | Ticker | LDOS (NYSE) |
 | Market cap | ~$25B |
-| Revenue | **$17.3B** (TTM Dec 2025) |
-| CEO | **Tom Bell** |
+| Revenue | $17.3B (TTM Dec 2025) |
+| CEO | Tom Bell |
 | Employees | ~47,000 |
 | HQ | Reston, VA |
 | Founded | 1969 (as SAIC) |
@@ -30,14 +30,23 @@ LDOS shows moderate Defense correlation (ITA r = 0.58).
 
 ---
 
+## Cluster validation
+
+LDOS is the primary actor of the [[Defense IT Services#Cluster validation|defense-IT-services cluster]] (LDOS, [[Booz Allen Hamilton|BAH]], [[CACI]], [[SAIC]]; intra-corr 0.604, PC1 70.4%, validated June 2026). This is LDOS's structural home — it was excluded from the [[Defense primes basket]] for dragging the hardware-prime cohort (lowest PC1 loading there), and the cluster work confirms why: LDOS trades on the GovCon-IT labor and recompete factor, +0.310 of intra-advantage away from the primes. It anchors the cohort with the highest PC1-mimic weight (lowest realized volatility). The cohort rejects the random-basket and vol-matched nulls (p = 0.0004 / 0.0001); cohesion is regime-sensitive (holdout WEAKENED 0.85). Full diagnostic in [[Defense IT Services#Cluster validation]].
+
+![[defense-it-cluster-dendrogram-1y.png]]
+*LDOS clusters with the GovCon-IT names (BAH/CACI/SAIC + KBR), separate from the hardware primes.*
+
+---
+
 ## Business segments
 
 | Segment | Focus |
 |---------|-------|
-| **Defense** | ISR, logistics, mission systems |
-| **Intelligence** | IC support, classified programs |
-| **Civil** | FAA, NASA, federal civilian |
-| **Health** | VA, military health systems |
+| Defense | ISR, logistics, mission systems |
+| Intelligence | IC support, classified programs |
+| Civil | FAA, NASA, federal civilian |
+| Health | VA, military health systems |
 
 ---
 
@@ -45,10 +54,23 @@ LDOS shows moderate Defense correlation (ITA r = 0.58).
 
 | Program | Description |
 |---------|-------------|
-| **Sentinel ICBM** | Ground systems integration |
-| **F-16 FMS** | $987M sustainment (10-year) |
-| **Air traffic modernization** | Kazakhstan (19-year) |
-| **DTRA IT support** | Defense threat reduction |
+| Sentinel ICBM | Ground systems integration |
+| F-16 FMS | $987M sustainment (10-year) |
+| Air traffic modernization | Kazakhstan (19-year) |
+| DTRA IT support | Defense threat reduction |
+
+---
+
+## Charts
+
+![[leidos-price-chart.png]]
+*LDOS since 2019 — the GovCon-IT scale leader; the May 2026 selloff on DOGE top-line concerns shows at the right edge.*
+
+![[leidos-fundamentals-chart.png]]
+*Revenue $15.4B → $17.2B (FY2023–FY2026); net income recovered from the FY2023 goodwill-impairment trough ($0.2B) to $1.45B as margins normalized.*
+
+![[leidos-sankey.png]]
+*FY2026 (ended Jan 2, 2026): revenue $17.2B → cost of revenues $14.1B → operating income $2.1B → net income $1.45B.*
 
 ---
 
@@ -91,12 +113,12 @@ Kudu Dynamics acquisition (May 2025) — offensive cyber and electromagnetic spe
 
 | Factor | Leidos strength |
 |--------|-----------------|
-| Scale | **\#1 by revenue** |
+| Scale | \#1 by revenue |
 | Diversification | Defense + civil + health |
 | Sentinel role | Critical ICBM program |
 | M&A track record | Proven integrator |
 
-**vs peers:** Larger than [[GDIT]], [[SAIC]], [[CACI]], [[Peraton]], [[ManTech]], [[Booz Allen Hamilton]].
+vs peers: Larger than [[GDIT]], [[SAIC]], [[CACI]], [[Peraton]], [[ManTech]], [[Booz Allen Hamilton]].
 
 ---
 
@@ -136,7 +158,10 @@ The Intelligence & Digital + Homeland segment outperformance suggests cyber/inte
 
 ## Related
 
-**Peers:**
+### Securities
+- [[Leidos securities note]] — NYSE: LDOS equity companion
+
+Peers:
 - [[SAIC]] — split from same company (2013)
 - [[GDIT]] — GD subsidiary
 - [[CACI]] — C5ISR, space
@@ -145,14 +170,14 @@ The Intelligence & Digital + Homeland segment outperformance suggests cyber/inte
 - [[Booz Allen Hamilton]] — AI leader
 - [[Huntington Ingalls]] — defense peer (also down on May 5 print)
 
-**Acquisitions:**
+Acquisitions:
 - Kudu Dynamics — AI cyber (2025)
 - Dynetics — missiles, space (2020)
 
-**Programs:**
+Programs:
 - Sentinel ICBM — ground systems
 
-**Sectors:**
+Sectors:
 - [[Defense IT Services]] — primary sector
 - [[Defense]] — parent sector
 

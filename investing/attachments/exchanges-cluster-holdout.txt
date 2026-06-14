@@ -1,0 +1,22 @@
+Exchange operators HOLDOUT TEST
+Cohort: CME, ICE, NDAQ, CBOE (N=4)
+Window: 2y, split temporally at midpoint
+Train: 2024-06-12 -> 2025-06-12 (125 obs)
+Test:  2025-06-12 -> 2026-06-12 (213 obs)
+
+--- TRAIN HALF (older) ---
+Intra-correlation:    0.3635
+PC1 explained var:    52.55%
+Pairwise range:       [0.127, 0.576]
+
+--- TEST HALF (newer) ---
+Intra-correlation:    0.3785
+PC1 explained var:    53.56%
+Pairwise range:       [0.173, 0.592]
+
+--- STABILITY DIAGNOSTICS ---
+Intra-corr delta:     +0.0151   (test - train)
+PC1 variance delta:   +1.01pp
+PC1 loadings corr:    0.9760    (1.0 = identical factor structure)
+
+VERDICT: STABLE — test/train ratio 1.04 (durable cluster across regimes)

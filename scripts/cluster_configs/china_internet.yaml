@@ -1,0 +1,28 @@
+# Chinese internet platforms — taxonomy open-question #10. Do the US-listed
+# ADR five (Alibaba, JD.com, PDD, Baidu, NetEase) trade as one China-platform
+# factor, or fragment into e-commerce / search-AI / gaming sleeves? First
+# framework test outside US-listed-only cohorts at the candidate level.
+# US megacap internet is the key distinctness control (same business models,
+# different jurisdiction); KWEB/FXI/CQQQ test whether the cohort is just the
+# China ETF; VWO tests the EM-beta read. 0700.HK and TME excluded (not in DB);
+# all five candidates are ADRs, so async-close effects are minimal — the
+# weekly cross-check confirms.
+name: Chinese internet platforms
+primary: BABA
+prefix: china-internet-cluster
+threshold: 0.5
+window_end: 2026-06-10
+
+groups:
+  cluster:
+    color: "#2962FF"
+    tickers: [BABA, JD, PDD, BIDU, NTES]
+  us_internet:
+    color: "#7E57C2"
+    tickers: [AMZN, GOOGL, META]
+  china_etf:
+    color: "#FF6F00"
+    tickers: [KWEB, FXI, CQQQ]
+  etf:
+    color: "#9E9E9E"
+    tickers: [SPY, QQQ, VWO]

@@ -1,0 +1,54 @@
+Exchange operators PERMUTATION TESTS
+Window: 2025-06-18 -> 2026-06-12 (212 obs)
+Candidate cohort: CME, ICE, NDAQ, CBOE (N=4)
+Observed intra-corr: 0.3775    Observed PC1: 53.47%
+
+--- INDEPENDENCE NULL ---
+Permutations: 10000
+Block size: 1
+Intra-cluster correlation:
+  Null mean:        0.0001
+  Null 95th pct:    0.0465
+  Null 99th pct:    0.0683
+  p-value (right):  0.000100    -> REJECTS independence null at p < 0.001
+PC1 explained variance:
+  Null mean:        28.85%
+  Null 95th pct:    31.14%
+  Null 99th pct:    32.31%
+  p-value (right):  0.000100    -> REJECTS independence null at p < 0.001
+
+--- RANDOM-BASKET NULL ---
+Permutations: 10000
+Universe source: DB prices_long (991 tickers with >=200 obs in window)
+Pool size: 987
+Intra-cluster correlation:
+  Null mean:        0.1503
+  Null 95th pct:    0.3186
+  Null 99th pct:    0.4156
+  p-value (right):  0.019498    -> REJECTS random-basket null at p < 0.05
+PC1 explained variance:
+  Null mean:        38.97%
+  Null 95th pct:    50.58%
+  Null 99th pct:    57.64%
+  p-value (right):  0.024498    -> REJECTS random-basket null at p < 0.05
+
+--- VOL-MATCHED NULL ---
+Permutations: 10000
+Universe source: DB prices_long (991 tickers with >=200 obs in window)
+Pool size: 987
+Matching: realized-vol rank band +/-5% per member, without replacement
+Intra-cluster correlation:
+  Null mean:        0.1736
+  Null 95th pct:    0.3374
+  Null 99th pct:    0.4238
+  p-value (right):  0.023998    -> REJECTS vol-matched null at p < 0.05
+PC1 explained variance:
+  Null mean:        40.46%
+  Null 95th pct:    51.72%
+  Null 99th pct:    57.94%
+  p-value (right):  0.031597    -> REJECTS vol-matched null at p < 0.05
+
+--- INTERPRETATION ---
+Independence null rejected: the cohort series co-move (necessary, not sufficient).
+Random-basket null rejected: cohort is more cohesive than a random N-pick from the same universe. This is the meaningful pass.
+Vol-matched null rejected: cohesion exceeds random baskets with the SAME volatility profile — the cluster factor is not just shared beta/vol.

@@ -48,6 +48,9 @@ Self-sufficiency progress:
 - Lithography still major gap (no EUV capability)
 - Etch and deposition catching up
 
+![[002371.SZ-vs-688012.SS-amat-asml.png]]
+*Normalized total return since the Oct 7 2022 [[BIS]] export controls (through Jun 12 2026): [[Applied Materials|AMAT]] +607%, [[ASML]] +342%, [[Naura Technology|Naura]] (002371.SZ) +262%, [[AMEC]] (688012.SS) +251%. The whole WFE complex rode the AI-capex supercycle; Western equipment makers outperformed China's domestic-mandate beneficiaries on equity return despite being "squeezed from both sides" on revenue. The China-WFE win above is a revenue/market-share story (Naura +30%, AMEC +44% H1 revenue), not a stock-return one. Source: financial-charts.*
+
 > "Before, domestic fabs like SMIC would prefer U.S. equipment. But that changed starting with the 2023 U.S export restrictions, when Chinese fabs had no choice but to work with domestic suppliers."
 
 ---
@@ -534,7 +537,22 @@ The evidence is still preliminary. Reuters noted Huawei did not provide independ
 
 ---
 
-*Updated 2026-05-25*
+## First deployed-model export control — Anthropic Fable 5 / Mythos 5 (Jun 12, 2026)
+
+The full-stack containment regime flagged in the [[Export controls#White House distillation memo (Apr 23, 2026)|April 23 distillation memo]] arrived as concrete action. On June 12, 2026, [[Commerce Department|Commerce]] Secretary [[Howard Lutnick]] placed [[Anthropic]]'s [[Claude Fable 5]] and [[Claude Mythos|Mythos 5]] under export controls — prohibiting use by any foreign national outside or inside the US — and Anthropic disabled both models for all customers to comply. This is the first time a generally deployed US AI model (not weights, not chips) has been pulled under the export-control regime, completing the predicted shift from a semiconductor regime to model-access governance.
+
+Two features make it a distinct policy datapoint:
+
+- It targets allies, not adversaries. The restriction's breadth means US allies such as the [[UK]] and [[EU]] lose access to Anthropic's top tier — the opposite of the chip regime's adversary focus, and a reversal of the [[American AI Export Program]]'s "American models everywhere" goal. [[Claude Mythos|Mythos]] had been rolling out to US allies for cyber defense; the ban pauses that.
+- It contradicts the chip posture. Jimmy Goodrich (UC Institute on Global Conflict and Cooperation): "It's puzzling Commerce will forcefully act to control AI models that may pose national-security risks, but then allow the chips that produce these models to be sold to our foreign adversaries." The administration has been loosening [[NVIDIA]] H200 / [[Blackwell]] access to [[China]] (managed access, [[Section 232 semiconductor tariff|Section 232]]) while hard-banning a US model to allies — an inversion of the [[David Sacks|Sacks]] / [[Michael Kratsios|Kratsios]] "deny adversaries, proliferate to allies" logic.
+
+The trigger was a jailbreak of Fable 5's safety classifiers demonstrated by [[Amazon]] researchers; Anthropic disputes the severity ("no Mythos-specific uplift," capability "widely available from other models"). Full event detail in [[Anthropic#Jun 12 — Commerce export ban; Fable 5 / Mythos 5 taken offline|Anthropic]]; product status in [[Claude Fable 5]] and [[Claude Mythos]]. The statecraft lens (allies blocked; weaponized interdependence at the model layer) lives in the geopolitics vault: [Geopolitics: Anthropic model export ban (June 2026)](obsidian://open?vault=geopolitics&file=Events%2FAnthropic%20model%20export%20ban%20%28June%202026%29).
+
+*Sources: WSJ (Amrith Ramkumar) Jun 13 2026; [Anthropic statement Jun 12 2026](https://www.anthropic.com/news/fable-mythos-access); Axios / CNBC / Fortune Jun 12–13 2026.*
+
+---
+
+*Updated 2026-06-13*
 
 ## Related
 
@@ -570,3 +588,6 @@ The evidence is still preliminary. Reuters noted Huawei did not provide independ
 - [[Tau Scaling Law]] — Huawei's post-node scaling framework under sanctions
 - [[LogicFolding]] — Huawei architecture tied to the Tau Scaling roadmap
 - [[He Tingbo]] — Huawei semiconductor executive who presented the framework
+- [[Anthropic]] — first deployed-model export control (Fable 5 / Mythos 5 ban, Jun 12 2026)
+- [[Howard Lutnick]] — Commerce Secretary who signed the Anthropic model-export directive
+- [[Claude Fable 5]] / [[Claude Mythos]] — the banned models

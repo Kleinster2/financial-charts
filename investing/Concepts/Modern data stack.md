@@ -66,3 +66,4 @@ Sources → Ingestion → Storage → Transform → BI/Analytics
 - [[Data lakehouse]] — storage architecture
 - [[Streaming data]] — real-time ingestion alternative
 - [[Data gravity]] — stack accumulates switching costs
+- [[Data catalog disruption]] — the governance/catalog layer's exposure to open agent-readable knowledge formats ([[Open Knowledge Format]])

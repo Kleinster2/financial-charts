@@ -1,0 +1,22 @@
+Nuclear / SMR HOLDOUT TEST
+Cohort: OKLO, SMR, NNE, LEU, CCJ, BWXT, UEC (N=7)
+Window: 2y, split temporally at midpoint
+Train: 2024-06-12 -> 2025-06-12 (125 obs)
+Test:  2025-06-12 -> 2026-06-12 (213 obs)
+
+--- TRAIN HALF (older) ---
+Intra-correlation:    0.6132
+PC1 explained var:    67.14%
+Pairwise range:       [0.458, 0.845]
+
+--- TEST HALF (newer) ---
+Intra-correlation:    0.6114
+PC1 explained var:    67.02%
+Pairwise range:       [0.392, 0.786]
+
+--- STABILITY DIAGNOSTICS ---
+Intra-corr delta:     -0.0018   (test - train)
+PC1 variance delta:   -0.12pp
+PC1 loadings corr:    -0.0048    (1.0 = identical factor structure)
+
+VERDICT: STABLE — test/train ratio 1.00 (durable cluster across regimes)

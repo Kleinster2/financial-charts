@@ -86,6 +86,27 @@ Most entities already have some vault presence. The default path is expansion, n
 - No ticker, no Quick stats with financial metrics — use concept-relevant metrics (production volumes, cost curves, mandate timelines)
 - The note's value is connecting actors to a theme — wikilink every relevant company, regulator, and policy
 
+### Parallel research fan-out (hard or multi-dimension entities)
+
+For any entity that needs coverage across several independent dimensions — private companies, individual content producers, or any subject where one sequential thread risks answering the immediate question and stopping — fan the research out across concurrent sub-agents (the Agent tool) rather than running a single thread. This is width over depth: many retrieval paths at once, the local equivalent of issuing many search/fetch calls in one step. It raises coverage and cuts wall-clock, and it structurally prevents the single-thread completeness misses documented above (the missed-platforms and fabricated-book failures in Individual content producers). Reserve it for hard or multi-dimension entities — a thin stub-to-stub expansion does not need a fan-out.
+
+- **Dispatch one sub-agent per dimension.** Give each: the entity, what the vault note already contains, its single assigned dimension, the primary/target sources to prefer, and an output contract — return findings as `claim — value — source URL`, plus an explicit `NOT FOUND` for anything in its dimension it could not confirm. Use `Explore` for search-heavy dimensions, `general-purpose` for multi-step ones.
+- **Dimensions are entity-type-specific** (reuse the dimension sets from the entity-type steps above):
+  - Public company: recent developments/catalysts; competitive set + market share; analyst coverage + price targets; regulatory/legal exposure. SEC segments and DB prices stay on the main thread — they are scripted, not searched.
+  - Private company: funding history (rounds, dates, amounts, valuations, leads); investor roster + board; named customers/partnerships; product/tech + competitive set.
+  - Individual creator: newsletter/Substack; podcast(s); books (published + forthcoming); personal site + Wikipedia/Wikidata; institutional affiliations; collaboration network — one dimension per agent.
+- **Consolidate** every return into the completeness ledger below, keeping the source URL attached to each fact and reconciling conflicts across agents. Sub-agent output is raw input, not final copy — apply every vault rule (wikilinks, no bold in note bodies, sourcing) before it enters the note.
+- **Caveat:** sub-agents start cold and hit the same fetch/403 wall — give each enough context to work, and on a 403 they fall back to Chrome per CLAUDE.md. Fan-out buys coverage and speed, not a 403 bypass.
+
+### Completeness ledger (research done-criterion)
+
+Before leaving Phase 2, emit a completeness ledger — a table with one row per required dimension for the entity type and three columns: Dimension | Status (`answered` / `not found (stated)` / `n/a`) | Source. Research is not done until the ledger is filled.
+
+- **No row may be blank.** `not found (stated)` is a valid, required status — a silent gap is an unanswered question; a stated absence ("no self-hosted podcast") is a finding the note records. This is the operational form of "negative answers count as completeness data."
+- **Every world-fact claim headed for the Synopsis/Synthesis carries a source.** Book titles, awards, funding figures, role and affiliation claims each need a source URL in the ledger. A claim with no source does not enter the note. This is the anti-fabrication gate — exactly the check that catches an invented book title (the "definitive book on RLHF" pattern) before it ships.
+- **Dimension rows mirror the fan-out dimensions** for the entity type above. A `NOT FOUND` returned by a sub-agent becomes `not found (stated)`, and the note states the absence.
+- The ledger is a pre-write checkpoint, not a permanent note section. Log "completeness ledger filled" in the daily-note edit log.
+
 ## Phase 3: Write the Note
 
 CLAUDE.md defines note structure, formatting, and quality standards in detail. Follow those. Key reminders the skill adds:
@@ -98,6 +119,7 @@ CLAUDE.md defines note structure, formatting, and quality standards in detail. F
   - Both slots are required for actors. They are structural slots, not bull/bear scaffolding — the rest of the note still presents dynamics, not binary editorial frames (`vault-note-guide.md` → "Vault is factual/conceptual, not thesis/trade"). For concept and event notes that anchor an active investment case, include a watch-list; the one-line read is actor-specific.
 - **Quotes**: extract and date every relevant quote from sources. Format: `[[Firm]] analyst Name (Feb 13): *"quote text"*`
 - **Narrative-read-back gate (done criterion for actor notes):** before declaring the deepdive done, write the one-paragraph narrative read of the entity *using only the note*. If anything in that narrative is sharper in chat than in the file, the file is the bug — port it back. Self-check; do not wait to be asked "is all that in the notes?" Synthesis emerging in conversation that could have been lifted from the note = the note is missing a slot.
+- **Completeness-ledger gate (research done-criterion):** the Phase 2 completeness ledger (see Phase 2 → **Completeness ledger**) must be filled before writing — every required dimension marked `answered` / `not found (stated)` / `n/a`, and every world-fact claim (book titles, awards, funding figures, affiliations) carrying a source. A claim with no source does not enter the note.
 
 ## Phase 4: Charts (public companies only)
 

@@ -64,7 +64,7 @@ Major data infrastructure, margin inflection underway:
 | Derate | 2022-2023 | Consumption-model slowdown; stock into the $110-230 range |
 | Ramaswamy pivot | Feb 2024- | Cortex AI buildout; GAAP operating margin repair begins (−40.2% FY25 → −30.6% FY26) |
 | Single-class | Jul 3, 2025 | All Class B super-voting shares eliminated; Class A renamed common |
-| AI control-plane rerating | May 2026- | Q1 FY27 +33%, guides raised to 31%/13.5%; $6B [[Amazon|AWS]] Graviton/AI commitment; [[Natoma]] MCP acquisition; +36.5% repricing May 28 |
+| AI control-plane rerating | May 2026- | Q1 FY27 +33%, guides raised to 31%/13.5%; $6B [[Amazon\|AWS]] Graviton/AI commitment; [[Natoma]] MCP acquisition; +36.5% repricing May 28 |
 
 ---
 
@@ -172,6 +172,10 @@ Cortex AI + Snowflake Intelligence:
 - AI feature accounts: 9,100 (up from 7,300 in Q3 FY26)
 - AI revenue run rate exceeded $100M — a quarter ahead of internal projections
 - Still playing catch-up to [[Databricks]], which has 14x more AI revenue ($1.4B vs ~$100M)
+
+### Standard-setting — Open Semantic Interchange
+
+Beyond products, Snowflake's quieter AI-control-plane lever is standard-setting. In September 2025 it launched the [[Open Semantic Interchange]] (OSI), a vendor-neutral specification for the machine-readable semantic model (how a metric like "active customer" is defined so it stays consistent across BI and AI agents). By mid-2026 OSI had grown to a 50+ organization consortium spanning the catalog vendors ([[Collibra]], [[Alation]], [[Atlan]]), [[Databricks]], [[Salesforce]]/dbt, and even [[Google]] and AWS. Leading the consortium is a strategic asset distinct from any single feature: it lets Snowflake shape the interface through which agents consume governed enterprise data, and it is the incumbents' collaborative answer to single-vendor formats like [[Google]]'s [[Open Knowledge Format]]. The market read-through — value migrating from standalone catalogs to the standard-setter/serving owner — is the [[Data catalog disruption]] thesis, where Snowflake screens as the cleanest public beneficiary.
 
 ---
 
@@ -335,6 +339,7 @@ No agency credit ratings disclosed in the FY2026 10-K. Only debt: $2.3B of conve
 - [[Databricks]] gap — 2x growth and 14x AI revenue at the rival; any disclosed change in the AI-revenue gap is the competitive dial.
 - NRR at 126% — the consumption model's health gauge; a slide toward 120 historically precedes guide-downs.
 - Agentic attach — Snowflake Intelligence customer count (2,500+ at GA+3 months) and [[Natoma]]/MCP integration pace; this is the control-plane thesis becoming measurable.
+- Standard-setting — OSI ([[Open Semantic Interchange]]) membership/adoption and whether the semantic standard shows up as a default in shipped agent products; the dial on the [[Data catalog disruption]] beneficiary read.
 
 ---
 
@@ -344,6 +349,8 @@ No agency credit ratings disclosed in the FY2026 10-K. Only debt: $2.3B of conve
 - [[Snowflake securities note]] — NYSE: SNOW equity-market companion
 
 ### Business and ecosystem
+- [[Open Semantic Interchange]] — the semantic-model standard Snowflake leads (standard-setting moat)
+- [[Data catalog disruption]] — the thesis where Snowflake screens as the cleanest public beneficiary
 - [[Revenue per GW]] — cross-stack per-GW comparison; its audit surfaced the GAAP/SBC wedge framing recorded above
 - [[Databricks]] — competitor (lakehouse vs warehouse, 14x AI revenue gap)
 - [[Palantir]] — partner (data + AI integration)

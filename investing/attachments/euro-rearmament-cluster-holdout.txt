@@ -1,0 +1,22 @@
+European rearmament HOLDOUT TEST
+Cohort: RHM.DE, BA.L, LDO.MI, SAAB-B.ST, HO.PA, HAG.DE, KOG.OL (N=7)
+Window: 2y, split temporally at midpoint
+Train: 2024-06-12 -> 2025-06-12 (50 obs)
+Test:  2025-06-12 -> 2026-06-12 (176 obs)
+
+--- TRAIN HALF (older) ---
+Intra-correlation:    0.6288
+PC1 explained var:    68.50%
+Pairwise range:       [0.444, 0.769]
+
+--- TEST HALF (newer) ---
+Intra-correlation:    0.6494
+PC1 explained var:    71.17%
+Pairwise range:       [0.370, 0.783]
+
+--- STABILITY DIAGNOSTICS ---
+Intra-corr delta:     +0.0206   (test - train)
+PC1 variance delta:   +2.66pp
+PC1 loadings corr:    0.7861    (1.0 = identical factor structure)
+
+VERDICT: STABLE — test/train ratio 1.03 (durable cluster across regimes)

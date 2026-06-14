@@ -16,15 +16,15 @@ Government and defense IT services contractors. Distinct from hardware primes �
 
 | Metric | Value | Interpretation |
 |--------|-------|----------------|
-| **Avg correlation** | **0.61** | Strong (tight sector) |
+| Avg correlation | 0.61 | Strong (tight sector) |
 | Range | 0.56 - 0.65 | LDOS-BAH to LDOS-CACI |
 | vs Hardware primes | ~0.35 | Distinct clusters |
 | Period | 2024-01 to present | |
 
-**Pairwise detail:**
+Pairwise detail:
 | Pair | Correlation |
 |------|-------------|
-| LDOS - CACI | **0.65** |
+| LDOS - CACI | 0.65 |
 | LDOS - SAIC | 0.63 |
 | SAIC - CACI | 0.62 |
 | BAH - SAIC | 0.61 |
@@ -35,11 +35,94 @@ IT Services trades distinctly from hardware primes — different business model 
 
 ---
 
+## Cluster validation
+
+> [!success] Cluster status: validated — moderate, distinct from the hardware primes (June 2026)
+> The four listed GovCon-IT pure-plays ([[Leidos]], [[Booz Allen Hamilton]], [[CACI]], [[SAIC]]) form a real single-factor cluster: intra-corr 0.604, PC1 70.4%, rejecting the independence, random-basket and vol-matched nulls (p = 0.0001 / 0.0004 / 0.0001). Hierarchical clustering separates them cleanly from the hardware primes ([[Defense primes basket\|LMT/RTX/NOC/GD/LHX]], intra-advantage +0.310) and from commercial IT-services ([[Accenture]]/[[Cognizant]], +0.296). This resolves the pattern-7 boundary question left open by [[Defense primes basket]]: [[Leidos]] is not a sector orphan — it is a core member of this cohort, which is exactly why it dragged the hardware-primes validation. Two caveats: cohesion is regime-sensitive (holdout WEAKENED 0.85; tighter in budget-up years, looser in the 2024 DOGE-scrutiny dispersion) and the boundary extends to KBR (the dendrogram's natural fifth member) while [[Parsons]] stays out. See below.
+
+This formalizes the informal "Correlation structure" numbers above. Same DoD-customer end-market as the hardware primes, but a distinct factor: IT-services trade on the labor and recompete cycle (cost-plus, clearance-gated headcount), the primes on the product and program cycle — and the math puts +0.310 of intra-advantage between them.
+
+### Diagnostics summary
+
+| Diagnostic | Value | Read |
+|---|---|---|
+| Intra-cluster corr (1Y) | 0.604 [0.522–0.748] | Moderate–strong, single factor |
+| PC1 explained variance | 70.4% (PC2 14.0%) | Single-factor |
+| Random-basket p (10k) | 0.0004 | Beats random 4-picks (null mean 0.149) |
+| Vol-matched p (10k) | 0.0001 | Real factor, not shared vol |
+| Holdout ratio (2Y split) | 0.85 — WEAKENED | Train 0.707 / test 0.599; off the 2024 peak |
+| Threshold clean band | [0.44, 0.48], width 0.04 | FRAGILE — KBR joins just above (extends, not breaks) |
+| Intra-adv vs hardware primes | +0.310 | The LDOS-exclusion finding — distinct factor |
+| Intra-adv vs commercial IT | +0.296 | Distinct from [[Accenture]]/[[Cognizant]] |
+| Intra-adv vs [[SPY]]/[[ITA]] | +0.420 | Strongly market-uncorrelated |
+
+1Y daily log returns through 2026-06-12 (214 obs), threshold 0.5. Config: `scripts/cluster_configs/defense_it.yaml`; registry row 2026-06-13. Terminology: [[Cohort, cluster, basket]].
+
+### Boundary — distinct from the primes, extends to KBR
+
+![[defense-it-cluster-dendrogram-1y.png]]
+*Hierarchical clustering at 0.5. The four GovCon-IT names cluster together and pull in KBR; the hardware primes (LMT/RTX/NOC/GD/LHX) form a separate cluster, commercial IT ([[Accenture]]/[[Cognizant]]) a third, and [[Parsons]] sits alone. LDOS clusters with IT-services, not the primes — the clean answer to the [[Defense primes basket]] exclusion.*
+
+The threshold scan finds a clean four-name band at [0.44, 0.48] (width 0.04, fragile); one step looser KBR joins, then [[Parsons]]. So the cohort is real but its exact membership is a boundary call — four names tight, or five with KBR. Unlike a falsification, the contaminator is a same-business cousin, not a foreign sector.
+
+### Topology — two service pairs
+
+| Join step | Names | Distance (1-\|corr\|) | Read |
+|---|---|---|---|
+| 1 | BAH + SAIC | 0.252 | Consulting / IT-modernization pair |
+| 2 | LDOS + CACI | 0.383 | C5ISR / cyber / ISR pair |
+| 3 | (BAH+SAIC) + (LDOS+CACI) | 0.435 | The two pairs merge |
+
+The cohort is two service-model pairs: [[Booz Allen Hamilton]]+[[SAIC]] (broad consulting and IT modernization) and [[Leidos]]+[[CACI]] (C5ISR, cyber, ISR), bridging at join distance 0.435.
+
+### PC1 index weights
+
+![[defense-it-cluster-pca-1y.png]]
+*PCA scree and PC1 loadings. PC1 explains 70.4% with near-identical loadings (0.47–0.52) — a clean single factor with no outlier.*
+
+| Ticker | PC1 loading | Loading weight | Ann vol | Raw PC1-mimic weight |
+|---|---|---|---|---|
+| LDOS | 0.497 | 24.9% | 31.5% | 28.6% |
+| BAH | 0.510 | 25.5% | 41.6% | 22.3% |
+| CACI | 0.473 | 23.7% | 33.1% | 25.9% |
+| SAIC | 0.519 | 26.0% | 40.6% | 23.2% |
+
+Topology and the PC1-mimic basket barely diverge here — the loadings are nearly equal, so the raw PC1-mimic weights tilt only modestly toward the lower-volatility names ([[Leidos]] 28.6% at 31.5% vol versus [[Booz Allen Hamilton]] 22.3% at 41.6%). A near-equal-weighted basket reproduces the factor.
+
+### Distinctness
+
+![[defense-it-cluster-correlation-1y.png]]
+*1Y pairwise correlation heatmap. The four GovCon-IT names form a warm block, visibly cooler against the hardware primes and commercial IT.*
+
+### Historical tightness evolution
+
+![[defense-it-cluster-rolling-tightness-90d.png]]
+*Rolling 90-day cohesion since 2021 — durable but regime-sensitive: tight in budget-expansion years (0.745 in 2022, 0.696 in 2025), looser in the 2024 DOGE contract-scrutiny dispersion (0.526).*
+
+| Window | Avg intra-corr | PC1 | Final join distance |
+|---|---|---|---|
+| 2022 | 0.745 | 80.9% | 0.290 |
+| 2024 | 0.526 | 64.6% | 0.509 |
+| 2025 | 0.696 | 77.4% | 0.349 |
+| Latest 90d | 0.679 | 76.0% | 0.371 |
+
+*Durable but regime-sensitive: the cluster never falls below ~0.53 and re-tightens with budget visibility, but it is not a single-regime factor like the tightest cohorts. The 2Y holdout (0.85, WEAKENED) reflects the same erosion from the 2024–25 peak.*
+
+### The read-through
+
+- Two factors in one end-market. The DoD-customer umbrella holds a hardware-prime factor ([[Defense primes basket]], product/program cycle) and a separate GovCon-IT factor (labor/recompete cycle), +0.310 apart. A "defense" sleeve that mixes them is two positions, not one.
+- LDOS's home, resolved. [[Leidos]] anchors this cohort (highest PC1-mimic weight); its exclusion from the hardware primes was correct and now has a constructive answer — it belongs here.
+- Membership is four-or-five. KBR is the dendrogram's natural fifth member; [[Parsons]] is not. The tradeable cohort is [[Leidos]]/[[Booz Allen Hamilton]]/[[CACI]]/[[SAIC]], optionally with KBR.
+
+Method and terminology: `docs/cluster-validation.md`, [[Cohort, cluster, basket]], [[Vault cluster taxonomy]]. Post-definition OOS re-validation is queued for the July 2026 quarterly pass (definition date 2026-06-13).
+
+---
+
 ## Market size
 
 | Segment | 2024 | 2033E | CAGR |
 |---------|------|-------|------|
-| Federal IT spending | **>$100B** | — | — |
+| Federal IT spending | >$100B | — | — |
 | Defense cybersecurity | $30B | $79B | 11.4% |
 | Internal security | $52B | $77B (2031) | 6.6% |
 
@@ -75,12 +158,12 @@ Largest AI supplier to U.S. government.
 
 | Metric | Value |
 |--------|-------|
-| Revenue (FY Mar 2025) | **$12.0B** (+12% YoY) |
+| Revenue (FY Mar 2025) | $12.0B (+12% YoY) |
 | Net income | $935M (+56% YoY) |
-| Backlog | **$38B** (Jun 2025) |
+| Backlog | $38B (Jun 2025) |
 | AI revenue | ~$800M |
 
-**Segment mix (FY24):**
+Segment mix (FY24):
 - Defense: 47% (fastest growing, +20% YoY)
 - Civil: 34%
 - Intelligence: 17%
@@ -91,13 +174,13 @@ Largest AI supplier to U.S. government.
 
 | Characteristic | Implication |
 |----------------|-------------|
-| **Cost-plus contracts** | Stable margins, limited upside |
-| **Labor-intensive** | Revenue = headcount × bill rate |
-| **Clearance moat** | TS/SCI workforce hard to replicate |
-| **Recompete risk** | 3-5 year contract cycles |
-| **Backlog visibility** | Multi-year revenue predictability |
+| Cost-plus contracts | Stable margins, limited upside |
+| Labor-intensive | Revenue = headcount × bill rate |
+| Clearance moat | TS/SCI workforce hard to replicate |
+| Recompete risk | 3-5 year contract cycles |
+| Backlog visibility | Multi-year revenue predictability |
 
-**Margins:** Operating margins typically 7-10% (lower than hardware primes at 10-12%).
+Margins: Operating margins typically 7-10% (lower than hardware primes at 10-12%).
 
 ---
 
@@ -105,11 +188,11 @@ Largest AI supplier to U.S. government.
 
 | Driver | Detail |
 |--------|--------|
-| **IT modernization** | Legacy system replacement, cloud migration |
-| **Cybersecurity** | Zero-trust mandates, threat escalation |
-| **AI/ML adoption** | Booz Allen leads, others catching up |
-| **Classified programs** | Intelligence community expansion |
-| **DoD budget growth** | FY25 $850B → FY27 $1.5T proposed |
+| IT modernization | Legacy system replacement, cloud migration |
+| Cybersecurity | Zero-trust mandates, threat escalation |
+| AI/ML adoption | Booz Allen leads, others catching up |
+| Classified programs | Intelligence community expansion |
+| DoD budget growth | FY25 $850B → FY27 $1.5T proposed |
 
 ---
 
@@ -148,7 +231,7 @@ Consolidation ongoing — scale matters for large recompetes.
 | Agile M&A | Private (Peraton, ManTech) | Slower public cos |
 | Price aggression | PE-backed | Public margin pressure |
 
-**PE ownership advantage:** Private companies (Peraton/Veritas, ManTech/Carlyle) can bid aggressively without quarterly earnings pressure.
+PE ownership advantage: Private companies (Peraton/Veritas, ManTech/Carlyle) can bid aggressively without quarterly earnings pressure.
 
 ---
 
@@ -156,11 +239,11 @@ Consolidation ongoing — scale matters for large recompetes.
 
 | Metric | Definition | Target | Why it matters |
 |--------|------------|--------|----------------|
-| **Book-to-Bill** | Awards / Revenue | >1.0x | Backlog growth |
-| **Backlog** | Funded + unfunded | Growing | Revenue visibility |
-| **Organic growth** | Ex-M&A revenue growth | 5-10% | Underlying demand |
-| **EBITDA margin** | EBITDA / Revenue | 10-12% | Profitability |
-| **Attrition** | Employee turnover | <15% | Clearance retention |
+| Book-to-Bill | Awards / Revenue | >1.0x | Backlog growth |
+| Backlog | Funded + unfunded | Growing | Revenue visibility |
+| Organic growth | Ex-M&A revenue growth | 5-10% | Underlying demand |
+| EBITDA margin | EBITDA / Revenue | 10-12% | Profitability |
+| Attrition | Employee turnover | <15% | Clearance retention |
 
 ---
 
@@ -168,11 +251,11 @@ Consolidation ongoing — scale matters for large recompetes.
 
 | Risk | Impact |
 |------|--------|
-| **Recompete losses** | Revenue cliffs |
-| **DOGE efficiency** | Contract scrutiny, cuts |
-| **Clearance processing delays** | Hiring constraints |
-| **Wage inflation** | Margin compression |
-| **Protest culture** | Award delays |
+| Recompete losses | Revenue cliffs |
+| DOGE efficiency | Contract scrutiny, cuts |
+| Clearance processing delays | Hiring constraints |
+| Wage inflation | Margin compression |
+| Protest culture | Award delays |
 
 ---
 
@@ -191,13 +274,13 @@ Consolidation ongoing — scale matters for large recompetes.
 
 ## Investment considerations
 
-**Bull case:**
+Bull case:
 - Structural IT modernization demand
 - Cybersecurity spending durable
 - AI adoption accelerating (Booz Allen leads)
 - Budget growth tailwind
 
-**Bear case:**
+Bear case:
 - [[DOGE]] contract scrutiny
 - Recompete risk always present
 - Margin pressure from PE-backed competitors
@@ -207,7 +290,7 @@ Consolidation ongoing — scale matters for large recompetes.
 
 ## Related
 
-**Companies:**
+Companies:
 - [[Leidos]] — largest by revenue
 - [[Booz Allen Hamilton]] — AI leader
 - [[SAIC]] — IT modernization
@@ -217,15 +300,15 @@ Consolidation ongoing — scale matters for large recompetes.
 - [[General Dynamics IT]] — part of GD
 - [[Palantir]] — AI analytics (different model)
 
-**Investors:**
+Investors:
 - [[Carlyle Group]] — owns ManTech
 - [[Veritas Capital]] — owns Peraton
 
-**Sectors:**
+Sectors:
 - [[Defense]] — parent sector
 - [[Cybersecurity]] — overlapping capability
 
-**Concepts:**
+Concepts:
 - [[DOGE]] — efficiency risk
 - [[Agentic AI]] — transformation driver
 

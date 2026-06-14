@@ -2,6 +2,8 @@
 
 **Pentagon AI access dispute (2026)** — escalating confrontation between the US military and frontier AI labs over the terms of military AI deployment. The Pentagon is demanding "all lawful use" without restriction; [[Anthropic]] alone is holding two red lines (autonomous weapons, mass surveillance of Americans). Culminated in [[Pete Hegseth|Defense Secretary Hegseth]] issuing a Friday deadline with threats of [[Defense Production Act]] invocation and "supply-chain risk" designation.
 
+Update (June 12, 2026): a second government front opened when [[Commerce Department|Commerce]] placed [[Anthropic]]'s [[Claude Fable 5]] and [[Claude Mythos|Mythos 5]] under export controls, prompting Anthropic to disable both models for all customers. Distinct from this Pentagon dispute (military-use guardrails) but part of the same widening Anthropic-administration conflict. See [[Anthropic#Jun 12 — Commerce export ban; Fable 5 / Mythos 5 taken offline|Anthropic]] and [[Export controls#First deployed-model export control — Anthropic Fable 5 / Mythos 5 (Jun 12, 2026)|Export controls]].
+
 ---
 
 ## Quick facts

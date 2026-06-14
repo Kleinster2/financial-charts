@@ -173,6 +173,7 @@ The market response matters: Capgemini still fell 3.5% on the day. Investors are
 - [[Alternative asset managers basket]] — control group (sold off in Wave 1, recovered — not real intermediaries)
 - [[PE software talent drain]] — structural reason PE software portfolios can't respond to AI disruption
 - [[Hyperscaler disintermediation]] — related concept (infrastructure layer)
+- [[Data catalog disruption]] — the same pattern one layer down: the data-catalog/governance vendor layer commoditized by [[Open Knowledge Format]]
 - [[Anthropic]] — Cowork plugins triggered SaaS selloff
 - [[OpenAI]] — ChatGPT app directory enabled insurance disruption
 - [[Altruist wealth management selloff February 2026]] — wealth management disintermediation event

@@ -9,8 +9,8 @@ aliases: [CACI International]
 |--------|-------|
 | Ticker | CACI (NYSE) |
 | Market cap | ~$13B |
-| Revenue | **$8.6B** (FY Jun 2025) |
-| CEO | **John Mengucci** |
+| Revenue | $8.6B (FY Jun 2025) |
+| CEO | John Mengucci |
 | Employees | ~24,000 |
 | HQ | Reston, VA |
 | Founded | 1962 |
@@ -37,11 +37,24 @@ CACI trades between Defense and Industrials without a tight sector fit.
 
 | Domain | Capabilities |
 |--------|--------------|
-| **C5ISR** | Command, control, communications, computers, cyber, intelligence, surveillance, reconnaissance |
-| **Electronic warfare** | RF spectrum, EW systems |
-| **Space** | Counter-space, satellite systems |
-| **Cyber** | Offensive/defensive operations |
-| **Counter-UAS** | Drone defense systems |
+| C5ISR | Command, control, communications, computers, cyber, intelligence, surveillance, reconnaissance |
+| Electronic warfare | RF spectrum, EW systems |
+| Space | Counter-space, satellite systems |
+| Cyber | Offensive/defensive operations |
+| Counter-UAS | Drone defense systems |
+
+---
+
+## Charts
+
+![[caci-price-chart.png]]
+*CACI since 2019 — the strongest grower of the four; the ~$519 share price reflects its low share count (~22M).*
+
+![[caci-fundamentals-chart.png]]
+*Revenue $6.7B → $8.6B (FY2023–FY2025, year ending June) — the fastest organic-plus-M&A growth in the cohort; net income $385M → $500M.*
+
+![[caci-sankey.png]]
+*FY2025 (ended Jun 30, 2025): revenue $8.63B → direct costs $5.84B → income from operations $764M → net income $500M.*
 
 ---
 
@@ -54,10 +67,10 @@ CACI trades between Defense and Industrials without a tight sector fit.
 | EPS | $22.32 (+20%) | $27-28 |
 | Contract awards | $9.6B | — |
 | Book-to-bill | 1.1x | — |
-| Backlog | **$31.4B** | — |
+| Backlog | $31.4B | — |
 | Free cash flow | — | $710M+ |
 
-**Organic growth:** 7.2% in FY2025 — outpacing most peers.
+Organic growth: 7.2% in FY2025 — outpacing most peers.
 
 ---
 
@@ -88,7 +101,7 @@ $2.6B space-tech acquisition announced 2025.
 
 | Role | Person | Notes |
 |------|--------|-------|
-| CEO | **John Mengucci** | ACG Public Company Executive of Year |
+| CEO | John Mengucci | ACG Public Company Executive of Year |
 
 Under Mengucci: 14% revenue growth, $8.1B→$8.6B, strong contract wins.
 
@@ -98,12 +111,12 @@ Under Mengucci: 14% revenue growth, $8.1B→$8.6B, strong contract wins.
 
 | Factor | CACI strength |
 |--------|---------------|
-| Growth | **Fastest among peers** (+13% organic) |
+| Growth | Fastest among peers (+13% organic) |
 | Space/EW | Differentiated capabilities |
 | Backlog | $31B+ |
 | C5ISR | Deep expertise |
 
-**vs peers:** Similar scale to [[SAIC]] ($7.5B), smaller than [[Leidos]] ($17B), [[Booz Allen Hamilton]] ($12B), [[GDIT]] ($10B).
+vs peers: Similar scale to [[SAIC]] ($7.5B), smaller than [[Leidos]] ($17B), [[Booz Allen Hamilton]] ($12B), [[GDIT]] ($10B).
 
 ---
 
@@ -122,7 +135,10 @@ Under Mengucci: 14% revenue growth, $8.1B→$8.6B, strong contract wins.
 
 ## Related
 
-**Peers:**
+### Securities
+- [[CACI securities note]] — NYSE: CACI equity companion
+
+Peers:
 - [[Leidos]] — largest defense IT
 - [[GDIT]] — GD subsidiary
 - [[SAIC]] — similar scale
@@ -130,11 +146,11 @@ Under Mengucci: 14% revenue growth, $8.1B→$8.6B, strong contract wins.
 - [[ManTech]] — Carlyle-owned
 - [[Booz Allen Hamilton]] — AI leader
 
-**Focus areas:**
+Focus areas:
 - [[Space]] — counter-space, satellites
 - [[Electronic warfare]] — RF spectrum
 
-**Sectors:**
+Sectors:
 - [[Defense IT Services]] — primary sector
 - [[Defense]] — parent sector
 

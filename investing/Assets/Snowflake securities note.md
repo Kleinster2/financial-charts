@@ -34,7 +34,7 @@ Snowflake securities — NYSE: SNOW, single-class common since July 3, 2025 (all
 | Nov 2021 | $401.89 | All-time high |
 | 2022-2024 | ~$110-230 range | Consumption-slowdown derate |
 | May 27, 2026 | $175.26 | Last close before the Q1 FY27 print |
-| May 28, 2026 | $239.20 | +36.5% — Q1 FY27 reacceleration (+33% revenue, raised guides, $6B [[Amazon|AWS]] commitment) |
+| May 28, 2026 | $239.20 | +36.5% — Q1 FY27 reacceleration (+33% revenue, raised guides, $6B [[Amazon\|AWS]] commitment) |
 | Jun 1, 2026 | $280.16 | Post-print closing high |
 | Jun 11, 2026 | $240.39 | Settled; ~$83B market cap |
 
@@ -80,6 +80,7 @@ The equity question is supply, not solvency: $1,599.5M of stock-based compensati
 - [[AI SaaS Disruption]] — validated cohort and diagnostics
 
 ### Concepts
+- [[Data catalog disruption]] — standards-war read-through: SNOW as the cleanest public beneficiary via leading [[Open Semantic Interchange]] (the standard-setter/serving-owner leg of the agentic-control-plane rerating)
 - [[Revenue per GW]] — where SNOW's dual-basis margin display got audited
 
 *Created 2026-06-12 (compliance backfill).*

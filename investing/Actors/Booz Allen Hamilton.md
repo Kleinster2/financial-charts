@@ -3,14 +3,14 @@ aliases: [BAH, Booz Allen]
 ---
 #actor #defense #it #ai #consulting #usa #public
 
-**Booz Allen Hamilton** — Defense and government consulting powerhouse. **Largest AI supplier to U.S. government.** Founded 1914. Deep ties to every cabinet-level department.
+**Booz Allen Hamilton** — Defense and government consulting powerhouse. Largest AI supplier to U.S. government. Founded 1914. Deep ties to every cabinet-level department.
 
 | Metric | Value |
 |--------|-------|
 | Ticker | BAH (NYSE) |
 | Market cap | ~$18B |
-| Revenue | **$12.0B** (FY Mar 2025) |
-| CEO | **Horacio Rozanski** |
+| Revenue | $12.0B (FY Mar 2025) |
+| CEO | Horacio Rozanski |
 | Employees | ~33,400 |
 | HQ | McLean, VA |
 | Founded | 1914 |
@@ -35,12 +35,12 @@ BAH trades between Software and Financials without a tight sector fit.
 
 ## Why Booz Allen matters
 
-**\#1 AI supplier to U.S. government** — not just an IT contractor, but the government's AI partner.
+\#1 AI supplier to U.S. government — not just an IT contractor, but the government's AI partner.
 
 | Metric | Value |
 |--------|-------|
-| AI revenue | **~$800M** (FY2025) |
-| Backlog | **$38B** (Jun 2025) |
+| AI revenue | ~$800M (FY2025) |
+| Backlog | $38B (Jun 2025) |
 | Defense segment | 47% of revenue |
 | Civil segment | 34% |
 | Intelligence | 17% |
@@ -49,7 +49,7 @@ BAH trades between Software and Financials without a tight sector fit.
 
 ## a16z partnership (Jan 2026)
 
-**First-ever government tech acceleration partner for [[Andreessen Horowitz]].**
+First-ever government tech acceleration partner for [[Andreessen Horowitz]].
 
 | Focus areas |
 |-------------|
@@ -59,6 +59,19 @@ BAH trades between Software and Financials without a tight sector fit.
 | Electronic warfare |
 
 Goal: Build, accelerate, deploy technologies for U.S. national security and civilian missions.
+
+---
+
+## Charts
+
+![[booz-allen-hamilton-price-chart.png]]
+*BAH since 2019 — a steady compounder; recent softness reflects the federal-efficiency (DOGE) overhang.*
+
+![[booz-allen-hamilton-fundamentals-chart.png]]
+*Revenue $10.7B → $11.2B (FY2024–FY2026, year ending March); net income $851M in FY2026, down from FY2025's $935M (which carried an unusually low tax rate).*
+
+![[booz-allen-hamilton-sankey.png]]
+*FY2026 (ended Mar 31, 2026): revenue $11.2B → direct delivery cost $8.8B → operating income $1.03B → net income $851M.*
 
 ---
 
@@ -78,9 +91,9 @@ Strong growth driven by AI demand across defense and civilian agencies.
 
 | Segment | % Revenue | Growth |
 |---------|-----------|--------|
-| **Defense** | 47% | +20% YoY (fastest) |
-| **Civil** | 34% | — |
-| **Intelligence** | 17% | — |
+| Defense | 47% | +20% YoY (fastest) |
+| Civil | 34% | — |
+| Intelligence | 17% | — |
 
 ---
 
@@ -100,13 +113,13 @@ PAR acquisition: Expanded geospatial intelligence, advanced tech, mission suppor
 
 | Role | Person | Since |
 |------|--------|-------|
-| CEO, President, Chairman | **Horacio Rozanski** | CEO 2015, Chairman 2024 |
+| CEO, President, Chairman | Horacio Rozanski | CEO 2015, Chairman 2024 |
 
 Rozanski: Argentine immigrant, Booz Allen intern in 1991, rose through ranks. 2025 Wash100 Award winner (3rd time).
 
-**On AI race (Feb 2025):** "U.S. cannot afford to be second in AI to China."
+On AI race (Feb 2025): "U.S. cannot afford to be second in AI to China."
 
-**CFO transition:** Matthew Calderone resigned; COO serving as interim CFO.
+CFO transition: Matthew Calderone resigned; COO serving as interim CFO.
 
 ---
 
@@ -120,13 +133,13 @@ Rozanski: Argentine immigrant, Booz Allen intern in 1991, rose through ranks. 20
 
 | Factor | Booz Allen strength |
 |--------|---------------------|
-| AI | **\#1 government AI supplier** |
+| AI | \#1 government AI supplier |
 | Consulting DNA | Strategy + implementation |
 | Clearances | Deep IC relationships |
 | Brand | 110-year history |
 | Backlog | $38B visibility |
 
-**vs peers:** Higher-margin consulting model than pure IT services. More strategic advisory than [[Leidos]], [[GDIT]], [[SAIC]].
+vs peers: Higher-margin consulting model than pure IT services. More strategic advisory than [[Leidos]], [[GDIT]], [[SAIC]].
 
 ---
 
@@ -145,10 +158,13 @@ Rozanski: Argentine immigrant, Booz Allen intern in 1991, rose through ranks. 20
 
 ## Related
 
-**Partnerships:**
+### Securities
+- [[Booz Allen Hamilton securities note]] — NYSE: BAH equity companion
+
+Partnerships:
 - [[Andreessen Horowitz]] — first government tech acceleration partner (2026)
 
-**Peers:**
+Peers:
 - [[Leidos]] — largest by revenue
 - [[GDIT]] — GD subsidiary
 - [[SAIC]] — IT modernization
@@ -156,10 +172,10 @@ Rozanski: Argentine immigrant, Booz Allen intern in 1991, rose through ranks. 20
 - [[Peraton]] — Veritas-owned
 - [[ManTech]] — Carlyle-owned
 
-**Historical:**
+Historical:
 - [[Carlyle Group]] — took BAH public (2010)
 
-**Sectors:**
+Sectors:
 - [[Defense IT Services]] — primary sector
 - [[Defense]] — parent sector
 - [[Agentic AI]] — government AI leadership

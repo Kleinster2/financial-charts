@@ -6,7 +6,7 @@ parent_actor: "Anthropic"
 
 # Claude Mythos
 
-[[Anthropic]]'s next-generation [[Claude]] model, leaked on 2026-03-27 through a misconfigured content management system and then surfaced officially through [[Project Glasswing]]. Capybara is a new tier above [[Claude Opus|Opus]] — the first expansion of [[Anthropic]]'s three-tier naming hierarchy since [[Claude]] launched. As of May 28, 2026, Mythos Preview remains restricted to defensive-cyber partners, but Anthropic says Mythos-class models are expected to reach all customers in the coming weeks once stronger cyber safeguards are in place.
+[[Anthropic]]'s next-generation [[Claude]] model, leaked on 2026-03-27 through a misconfigured content management system and then surfaced officially through [[Project Glasswing]]. Capybara is a new tier above [[Claude Opus|Opus]] — the first expansion of [[Anthropic]]'s three-tier naming hierarchy since [[Claude]] launched. As of May 28, 2026, Mythos Preview remained restricted to defensive-cyber partners, with Anthropic saying Mythos-class models were expected to reach all customers in the coming weeks once stronger cyber safeguards were in place. That release arrived on June 9, 2026 as [[Claude Fable 5]] — the safety-gated, generally available public model — alongside Mythos 5, the [[Project Glasswing]]-restricted sibling with the classifiers lifted.
 
 ---
 
@@ -18,7 +18,7 @@ parent_actor: "Anthropic"
 | Product family | [[Claude]] |
 | Tier | Capybara (above Opus) |
 | Codename | Mythos |
-| Status | Restricted [[Project Glasswing]] preview; Mythos-class general availability expected "in the coming weeks" (Anthropic, May 28 2026) |
+| Status | Suspended for all customers Jun 12 2026 (US export-control directive); Mythos 5 restricted to [[Project Glasswing]]; public Mythos-class release shipped as [[Claude Fable 5]] (Jun 9 2026) |
 | Leak date | 2026-03-27 |
 | Leak vector | Misconfigured CMS — ~3,000 unpublished assets publicly searchable |
 | Discovered by | Alexandre Pauwels (Cambridge), Roy Paz (LayerX Security) |
@@ -87,6 +87,26 @@ The market read: Mythos is moving from exceptional restricted capability toward 
 
 ---
 
+## June 9 2026 — public release (Fable 5 / Mythos 5)
+
+The release path closed on June 9, 2026, when [[Anthropic]] shipped the first public Mythos-class models: [[Claude Fable 5]] (`claude-fable-5`, generally available) and Mythos 5 (`claude-mythos-5`, [[Project Glasswing]] only). They are the same underlying model — 1M-token context, 128K max output, $10/$50 per million tokens, "less than half the price of Mythos Preview." The only difference is that Fable 5 carries safety classifiers that decline cybersecurity, biology/chemistry, and distillation requests and fall back to [[Claude Opus|Opus 4.8]] (under 5% of sessions), while Mythos 5 has those classifiers lifted. Both carry mandatory 30-day data retention applied even to prior zero-retention customers.
+
+This operationalizes the "deliberately weakened at cyber" public release that [[Dylan Patel]] flagged from the Glasswing model card (Apr 23) — but as a runtime classifier-and-fallback layer rather than a separately retrained weaker model. The restricted capability this note has tracked since the March leak is now a generally available commercial tier, with the cyber-offensive slice gated at inference rather than withheld entirely. The investable signal stated in the May section — vulnerability discovery cheap enough that disclosure and patching capacity becomes the scarce resource — now reaches every API customer in safety-shaped form.
+
+The timing is notable: the launch came days after Anthropic publicly urged frontier labs to adopt a "coordinated brake pedal" and warned about [[Recursive self-improvement]] (its June 4 "When AI builds itself" essay). Full product specifications, benchmarks, safety mechanics, and the market read are in [[Claude Fable 5]].
+
+*Sources: [Anthropic, Claude Fable 5 and Claude Mythos 5](https://www.anthropic.com/news/claude-fable-5-mythos-5), June 9 2026; [Anthropic API docs](https://platform.claude.com/docs/en/about-claude/models/introducing-claude-fable-5-and-claude-mythos-5), June 9 2026.*
+
+---
+
+## June 12 2026 — export-control ban; Mythos 5 and Fable 5 pulled offline
+
+Three days after the public release, the [[Donald Trump|Trump]] administration placed both [[Claude Mythos|Mythos 5]] and [[Claude Fable 5]] under export controls (Commerce Secretary [[Howard Lutnick]] letter to [[Dario Amodei]], June 12), barring use by foreign nationals inside and outside the US. [[Anthropic]] disabled both models for all customers to comply; all other [[Claude]] models stayed live. The proximate trigger was a jailbreak of Fable 5's classifiers — the safety layer that gates Mythos-class cyber capability — demonstrated by [[Amazon]] researchers; Anthropic says it yielded only "previously known, minor vulnerabilities" with "no Mythos-specific uplift," and that the same capability is "widely available from other models." This is the first deployed-model export control (see [[Export controls#First deployed-model export control — Anthropic Fable 5 / Mythos 5 (Jun 12, 2026)|Export controls]]) and the second government front against Anthropic after the [[Pentagon AI access dispute 2026|Pentagon supply-chain designation]]. Full detail in [[Anthropic#Jun 12 — Commerce export ban; Fable 5 / Mythos 5 taken offline|Anthropic]].
+
+*Source: [Anthropic statement, Jun 12 2026](https://www.anthropic.com/news/fable-mythos-access); WSJ (Amrith Ramkumar) / Axios / CNBC / Fortune, Jun 12–13 2026.*
+
+---
+
 ## Model tier: Capybara
 
 | Tier | Model class | Positioning |
@@ -108,7 +128,9 @@ Whether Capybara becomes a permanent tier or is specific to the Mythos generatio
 | 2026-03-27 | [[Anthropic]] spokesperson confirms model exists, describes "step change" in reasoning/coding/cybersecurity | — |
 | 2026-04-07 | [[Project Glasswing]] officially launches as restricted defensive-cyber deployment for Mythos Preview | Reframes Mythos as dual-use cyber capability, not normal consumer model launch |
 | 2026-05-22 | Anthropic says roughly 50 Glasswing partners found more than 10,000 high- or critical-severity vulnerabilities; open-source scan bottleneck shifts to verification/disclosure/patching | Validates AI-native vulnerability-discovery capability while showing maintainer and CVD capacity constraints |
-| 2026-05-28 | [[Claude Opus|Opus 4.8]] launches; Anthropic says Mythos-class models are expected for all customers in coming weeks | Raises probability that Mythos moves from restricted preview to commercial release path |
+| 2026-05-28 | [[Claude Opus\|Opus 4.8]] launches; Anthropic says Mythos-class models are expected for all customers in coming weeks | Raises probability that Mythos moves from restricted preview to commercial release path |
+| 2026-06-09 | Public Mythos-class release ships: [[Claude Fable 5]] (GA) + Mythos 5 ([[Project Glasswing]]) | Restricted capability becomes a commercial tier |
+| 2026-06-12 | US export-control directive; Anthropic disables Fable 5 + Mythos 5 for all customers | First deployed-model export control; cyber-defense use paused |
 
 ---
 
@@ -175,6 +197,7 @@ Mythos is also the named catalyst in the bug-bounty case of [[AI producer-evalua
 - [[Anthropic]] — parent company
 - [[Project Glasswing]] — controlled early-access program for Mythos Preview
 - [[Claude]] — product family
+- [[Claude Fable 5]] — the public, safety-gated Mythos-class release (Jun 9 2026); same model as Mythos 5
 - [[Claude Opus]] — current generally available top tier (Opus 4.8), which Mythos Preview still reportedly surpasses
 - [[Claude Code Security]] — Anthropic's existing AI vulnerability scanner
 - [[OpenAI Spud]] — OpenAI's competing next-gen model, teased the same week

@@ -1,0 +1,37 @@
+# European rearmament cohort — the listed European defense pure-plays riding the
+# post-Ukraine / NATO-burden-shift rearmament wave (the [[Long global rearmament]]
+# thesis, European leg). Hypothesis: these seven trade as one "European rearmament"
+# factor, distinct from the US hardware primes — i.e., the rearmament trade has a
+# European sleeve that is NOT just US-defense beta or general European-equity beta.
+# Candidate spans vehicles/ammo (Rheinmetall), diversified primes (BAE, Leonardo,
+# Thales), missiles/maritime (Kongsberg, Saab) and sensors (Hensoldt), so the
+# dendrogram may split it by archetype.
+# Controls (each a specific distinctness question):
+#   - us_primes (LMT/RTX/NOC/GD/LHX): THE comparative — is European rearmament a
+#     distinct factor, or does it just move with the US [[Defense primes basket]]?
+#   - europe_etf (VGK Vanguard FTSE Europe): is the cohort just broad European
+#     equity beta, or a rearmament-specific factor on top of it?
+#   - etf (ITA US aerospace+defense, SPY broad market): generic vs cohort-specific.
+# NOTE: cross-region cohort (Frankfurt/London/Milan/Stockholm/Paris/Oslo listings
+# vs US-listed controls) — daily correlations are depressed by non-synchronous
+# trading hours; read the WEEKLY-RETURN CROSS-CHECK as the better co-movement estimate.
+name: European rearmament
+primary: RHM.DE
+prefix: euro-rearmament-cluster
+threshold: 0.5
+window_end: 2026-06-12
+definition_date: 2026-06-13
+
+groups:
+  cluster:
+    color: "#2962FF"
+    tickers: ["RHM.DE", "BA.L", "LDO.MI", "SAAB-B.ST", "HO.PA", "HAG.DE", "KOG.OL"]
+  us_primes:
+    color: "#7E57C2"
+    tickers: [LMT, RTX, NOC, GD, LHX]
+  europe_etf:
+    color: "#00897B"
+    tickers: [VGK]
+  etf:
+    color: "#9E9E9E"
+    tickers: [ITA, SPY]

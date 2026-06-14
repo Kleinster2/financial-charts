@@ -1,0 +1,37 @@
+Chinese internet platforms PERMUTATION TESTS
+Window: 2025-06-11 -> 2026-06-10 (251 obs)
+Candidate cohort: BABA, JD, PDD, BIDU, NTES (N=5)
+Observed intra-corr: 0.5094    Observed PC1: 61.25%
+
+--- INDEPENDENCE NULL ---
+Permutations: 10000
+Block size: 1
+Intra-cluster correlation:
+  Null mean:        -0.0002
+  Null 95th pct:    0.0329
+  Null 99th pct:    0.0495
+  p-value (right):  0.000100    -> REJECTS independence null at p < 0.001
+PC1 explained variance:
+  Null mean:        23.56%
+  Null 95th pct:    25.29%
+  Null 99th pct:    26.09%
+  p-value (right):  0.000100    -> REJECTS independence null at p < 0.001
+
+--- RANDOM-BASKET NULL ---
+Permutations: 10000
+Universe source: DB prices_long (933 tickers with >=200 obs in window)
+Pool size: 225
+Intra-cluster correlation:
+  Null mean:        0.1610
+  Null 95th pct:    0.3035
+  Null 99th pct:    0.3788
+  p-value (right):  0.000400    -> REJECTS random-basket null at p < 0.001
+PC1 explained variance:
+  Null mean:        35.48%
+  Null 95th pct:    46.05%
+  Null 99th pct:    51.74%
+  p-value (right):  0.000600    -> REJECTS random-basket null at p < 0.001
+
+--- INTERPRETATION ---
+Independence null rejected: the cohort series co-move (necessary, not sufficient).
+Random-basket null rejected: cohort is more cohesive than a random N-pick from the same universe. This is the meaningful pass.

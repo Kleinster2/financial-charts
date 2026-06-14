@@ -1,0 +1,40 @@
+# Defense IT services (GovCon-IT) — the pattern-7 boundary-refinement test for the
+# LDOS exclusion. [[Leidos]] (LDOS) was dropped from the [[Defense primes basket]]
+# 6-name core because it dragged the 7-name validation (it is the IT-services
+# singleton among hardware primes). This run asks the natural follow-up: does LDOS
+# instead cohere with the other listed GovCon-IT pure-plays — [[Booz Allen Hamilton]]
+# (BAH), [[CACI]], [[SAIC]] — as its own cluster? The [[Defense IT Services]] sector
+# hub already asserts this informally (0.61 avg corr, ~0.35 vs hardware primes); this
+# formalizes or refutes it.
+# Controls (each a specific distinctness question):
+#   - defense_primes (LMT/RTX/NOC/GD/LHX): THE key control — the cohort LDOS was
+#     excluded from. Tests "is GovCon-IT distinct from the hardware primes?" and
+#     "does LDOS sit with IT-services or with the primes?" (boundary refinement).
+#   - commercial_it (ACN Accenture, CTSH Cognizant): is GovCon-IT distinct from
+#     commercial IT-services / consulting, or just generic IT-services beta?
+#   - govcon_adjacent (PSN Parsons, KBR): boundary-expansion test — do the
+#     engineering/government-services names join the IT-services cluster, or stay out?
+#   - etf (SPY broad market, ITA aerospace+defense): generic vs cohort-specific.
+name: Defense IT services
+primary: LDOS
+prefix: defense-it-cluster
+threshold: 0.5
+window_end: 2026-06-12
+definition_date: 2026-06-13
+
+groups:
+  cluster:
+    color: "#2962FF"
+    tickers: [LDOS, BAH, CACI, SAIC]
+  defense_primes:
+    color: "#7E57C2"
+    tickers: [LMT, RTX, NOC, GD, LHX]
+  commercial_it:
+    color: "#00897B"
+    tickers: [ACN, CTSH]
+  govcon_adjacent:
+    color: "#F4511E"
+    tickers: [PSN, KBR]
+  etf:
+    color: "#9E9E9E"
+    tickers: [SPY, ITA]

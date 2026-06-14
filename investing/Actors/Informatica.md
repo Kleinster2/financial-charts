@@ -27,5 +27,6 @@ Enterprise data management company. Taken private by [[Permira]] and [[CPP Inves
 - [[CPP Investments]] — former PE co-owner
 - [[Salesforce]] — acquirer in 2025
 - [[PE software talent drain]] — PE-to-acquisition lifecycle example
+- [[Data catalog disruption]] — catalog-vendor disruption thesis (Informatica as the absorbed-into-platform case)
 
 *Created 2026-02-11*

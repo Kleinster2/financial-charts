@@ -1,0 +1,30 @@
+# Brazilian banks — taxonomy open-question #9. Do the ADR-listed incumbent
+# banks (Itaú, Bradesco, Santander Brasil) form one tradeable factor, and
+# where do the disruptor (Nubank) and the capital-markets platforms
+# (BTG Pactual, XP) attach? NU is deliberately OUTSIDE the candidate cohort —
+# the dendrogram rules on whether digital and incumbent banking share a
+# factor. STNE/PAGS ride as the payments-adjacent control, pre-screening the
+# Brazil-fintech cohort (audit item 11). BPAC11.SA is B3-listed — weekly
+# cross-check covers the (mild) async-close question.
+name: Brazilian banks
+primary: ITUB
+prefix: brazil-banks-cluster
+threshold: 0.5
+window_end: 2026-06-10
+
+groups:
+  cluster:
+    color: "#2962FF"
+    tickers: [ITUB, BBD, BSBR]
+  digital_disruptor:
+    color: "#F44336"
+    tickers: [NU]
+  brazil_capmkts:
+    color: "#7E57C2"
+    tickers: [BPAC11.SA, XP]
+  brazil_fintech:
+    color: "#00897B"
+    tickers: [STNE, PAGS]
+  etf:
+    color: "#9E9E9E"
+    tickers: [EWZ, XLF, SPY]

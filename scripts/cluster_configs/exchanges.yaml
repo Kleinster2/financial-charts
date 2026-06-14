@@ -1,0 +1,35 @@
+# Exchange operators — the listed US exchange oligopoly (CME, ICE, Nasdaq, Cboe).
+# Hypothesis: a WFE-type ceiling candidate — a tight, near-single-factor oligopoly
+# cluster (like the [[Sectors/WFE|WFE quartet]] at 0.804) bound by recurring
+# transaction/data/listing revenue, network-effect moats, and rate/volatility-driven
+# volumes. Question: do the four trade as one exchange factor, and is it distinct from
+# the financial-data "toll roads" they increasingly resemble?
+# Controls (each a specific distinctness question):
+#   - electronic_trading (MKTX MarketAxess, TW Tradeweb): boundary test — do the
+#     fixed-income e-trading venues join the exchange cluster, or trade apart?
+#   - data_providers (SPGI, MCO, MSCI): the "data toll road" comparator — exchanges
+#     and index/ratings providers share a recurring-data-revenue model; are they
+#     distinct factors?
+#   - etf (IAI iShares US Broker-Dealers & Securities Exchanges, XLF financials,
+#     SPY market): IAI is the sector ETF — is the cohort just IAI? XLF/SPY test
+#     generic financials vs broad-market beta.
+name: Exchange operators
+primary: CME
+prefix: exchanges-cluster
+threshold: 0.5
+window_end: 2026-06-12
+definition_date: 2026-06-13
+
+groups:
+  cluster:
+    color: "#2962FF"
+    tickers: [CME, ICE, NDAQ, CBOE]
+  electronic_trading:
+    color: "#F4511E"
+    tickers: [MKTX, TW]
+  data_providers:
+    color: "#7E57C2"
+    tickers: [SPGI, MCO, MSCI]
+  etf:
+    color: "#9E9E9E"
+    tickers: [IAI, XLF, SPY]

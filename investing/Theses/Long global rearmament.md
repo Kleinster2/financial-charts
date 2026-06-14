@@ -13,10 +13,10 @@ Global defense spending entering structural upcycle:
 
 | Metric | 2024 | 2040 (S&P est) |
 |--------|------|----------------|
-| Global spending | ~$2.5T | **$6T** |
+| Global spending | ~$2.5T | $6T |
 | Growth | — | +140% |
 
-**Drivers:**
+Drivers:
 - Great power competition (US-[[China]], [[Russia]]-NATO)
 - Ukraine war exposed stockpile gaps
 - [[Taiwan]] contingency planning
@@ -34,7 +34,7 @@ This is not cyclical — it's structural realignment after 30 years of post-Cold
 | Metric | Value |
 |--------|-------|
 | FY25 | ~$895B |
-| FY27 proposed | **$1.5T** (+68%) |
+| FY27 proposed | $1.5T (+68%) |
 | Programs | Golden Dome, NGAD, B-21, hypersonics |
 
 See [[Trump defense budget]], [[US Defense Industry]].
@@ -122,7 +122,7 @@ Stockpile replenishment = years of demand:
 | General Dynamics | GD | Ammunition |
 | [[Olin]] | OLN | Small arms ammo |
 
-**Materials:**
+Materials:
 - [[Copper]] — 0.5kg per 155mm shell, 2nd highest material in defense
 - Rare earths — guidance, motors
 - Titanium — airframes
@@ -189,6 +189,8 @@ Not pricing in structural spending increase.
 - [[Golden Dome]] — $1T+ program
 - [[Copper]] — supply chain
 - [[US Defense Industry]], [[European Defense Industry]], [[Korean Defense Industry]] — regional plays
+- [[European rearmament]] — the validated equity cluster for the European leg (six-name core RHM/BA/LDO/SAAB/HO/HAG; a distinct factor, +0.340 intra-advantage over the US [[Defense primes basket]])
+- [[Defense primes basket]] — the validated US hardware-prime cluster; [[Defense IT Services]] — the US GovCon-IT cluster
 
 ---
 

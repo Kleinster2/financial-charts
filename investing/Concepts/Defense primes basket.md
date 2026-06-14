@@ -6,7 +6,7 @@ tags: [basket/internal, defense, industrials, government]
 # Defense primes basket
 
 > [!success] Cluster status: validated at 6-name core, partial at 7-name (May 2026 matched methodology)
-> 7-name cohort: intra-corr 0.512, PC1 58.59%, hierarchical clustering at 0.5 splits into 5-name core (LMT/RTX/NOC/HII/LHX) + GD/LDOS pair + singletons. 6-name core (excluding LDOS): intra-corr 0.556, PC1 64.31%, ALL 6 cluster together. LDOS is the IT-services singleton that drags the 7-name validation; removing it materially tightens the cohort. The cluster validates as 6-name (LMT/RTX/NOC/GD/HII/LHX) — DoD-customer factor is real, especially when IT-services are excluded. See full diagnostic below + cross-cohort comparison vs [[Space pure-plays]] (validated 0.624) and [[Concepts/Mag 7 cluster|Mag 7]] (falsified 0.316).
+> 7-name cohort: intra-corr 0.512, PC1 58.59%, hierarchical clustering at 0.5 splits into 5-name core (LMT/RTX/NOC/HII/LHX) + GD/LDOS pair + singletons. 6-name core (excluding LDOS): intra-corr 0.556, PC1 64.31%, ALL 6 cluster together. LDOS is the IT-services singleton that drags the 7-name validation; removing it materially tightens the cohort. The cluster validates as 6-name (LMT/RTX/NOC/GD/HII/LHX) — DoD-customer factor is real, especially when IT-services are excluded. See full diagnostic below + cross-cohort comparison vs [[Space pure-plays]] (validated 0.624) and [[Concepts/Mag 7 cluster|Mag 7]] (falsified 0.316). LDOS's constructive home is now confirmed: it validates as a core member of the [[Defense IT Services#Cluster validation|defense-IT-services cluster]] (LDOS/BAH/CACI/SAIC, intra 0.604, +0.310 intra-advantage vs the primes) — the pattern-7 other side of this exclusion.
 
 The seven public US defense primes — Lockheed Martin, RTX, Northrop Grumman, General Dynamics, Huntington Ingalls Industries, L3Harris, Leidos — share the DoD-customer end-market but split by program-type at the equity level. The cluster validates against external comparators (commercial aerospace BA; broader industrials HON/CAT/DE) but does not fully cohere internally.
 
@@ -163,6 +163,11 @@ Historical verdict: regime-dependent but measurable cluster; cohesion exists, bu
 
 - [[Defense supply chain]] — upstream supplier landscape
 - [[Trump defense budget]] — political driver of DoD-customer factor
+
+### Related defense cohorts
+
+- [[European rearmament]] — the European defense cluster, a distinct factor +0.340 of intra-advantage from this US-primes cohort (two regional defense factors, not one)
+- [[Defense IT Services]] — the US GovCon-IT cluster ([[Leidos]]'s structural home, the constructive other side of the LDOS exclusion)
 - [[European defense spending]] — international comparator
 - [[Defense Production Act]] — regulatory framework
 - [[Private capital in defense tech]] — adjacent private-market thesis

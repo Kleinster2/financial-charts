@@ -82,6 +82,7 @@ Anthropic is private, so there is no listed-equity reaction to measure directly 
 - [[SpaceX]] debut (pricing as early as June 11) as the first read on public appetite for the trophy cohort — a weak SpaceX print would pressure the Anthropic and OpenAI timelines.
 - Whether the Series H is in fact the last private round, or whether market conditions push Anthropic back toward private capital.
 - Index fast-entry treatment (the [[SpaceX IPO 2026#Index inclusion — structural rule changes|Nasdaq / FTSE Russell rule changes]]) applied to a >$1tn Anthropic listing.
+- Regulatory overhang from the [[Anthropic#Jun 12 — Commerce export ban; Fable 5 / Mythos 5 taken offline|June 12 Commerce export-control ban]] on [[Claude Fable 5|Fable 5]] / [[Claude Mythos|Mythos 5]] — a second active government front alongside the [[Pentagon AI access dispute 2026|Pentagon designation]] lawsuit, pausing the cyber-capability story the filing coverage named, 11 days after the S-1. An S-1 risk-factor item, and a test of whether the ban is resolved before pricing.
 
 ---
 

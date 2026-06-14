@@ -20,6 +20,15 @@ OKLO shows moderate Technology correlation ([[XLK]] r = 0.56).
 
 ---
 
+## Cluster validation
+
+OKLO is the primary actor of the [[Nuclear renaissance#Cluster validation|Nuclear / SMR cohort]] ([[Oklo]], [[NuScale]], [[Nano Nuclear]], [[Centrus Energy]], [[Cameco]], [[BWXT]], [[Uranium Energy Corp]]; intra-corr 0.645, PC1 69.9%, validated June 2026). OKLO anchors the SMR-developer sub-bloc — OKLO+SMR are the tightest pair (join distance 0.169) — and is the highest-volatility name in the cohort (~104% annualized). The cohort rejects the random-basket and vol-matched nulls at the 0.0001 floor and the holdout is STABLE, but it has zero threshold width: the URA/NLR uranium ETFs sit inside the cluster at every cut, so the basket trades as the sector ETF rather than a distinct factor. Full diagnostic, topology, and PC1 weights in [[Nuclear renaissance#Cluster validation]].
+
+![[nuclear-smr-cluster-dendrogram-1y.png]]
+*Hierarchical clustering of the Nuclear / SMR cohort vs nuclear utilities and uranium/market ETFs — OKLO clusters with the pure-plays, distinct from the operating utilities (CEG/VST/TLN).*
+
+---
+
 ## Why Oklo matters
 
 [[Sam Altman]]'s nuclear bet — now scaling from concept to deployment with a 14 GW pipeline, $2.6B cash hoard, and binding deals with [[Meta]] (1.2 GW) and [[Equinix]] (500 MW). The story shifted from "pre-revenue startup" to "pre-revenue infrastructure company with hyperscaler demand locked."

@@ -1,0 +1,54 @@
+European rearmament PERMUTATION TESTS
+Window: 2025-06-18 -> 2026-06-12 (185 obs)
+Candidate cohort: RHM.DE, BA.L, LDO.MI, SAAB-B.ST, HO.PA, HAG.DE, KOG.OL (N=7)
+Observed intra-corr: 0.6494    Observed PC1: 71.17%
+
+--- INDEPENDENCE NULL ---
+Permutations: 10000
+Block size: 1
+Intra-cluster correlation:
+  Null mean:        0.0000
+  Null 95th pct:    0.0275
+  Null 99th pct:    0.0392
+  p-value (right):  0.000100    -> REJECTS independence null at p < 0.001
+PC1 explained variance:
+  Null mean:        18.40%
+  Null 95th pct:    19.92%
+  Null 99th pct:    20.65%
+  p-value (right):  0.000100    -> REJECTS independence null at p < 0.001
+
+--- RANDOM-BASKET NULL ---
+Permutations: 10000
+Universe source: DB prices_long (989 tickers with >=200 obs in window)
+Pool size: 989
+Intra-cluster correlation:
+  Null mean:        0.1493
+  Null 95th pct:    0.2646
+  Null 99th pct:    0.3286
+  p-value (right):  0.000100    -> REJECTS random-basket null at p < 0.001
+PC1 explained variance:
+  Null mean:        30.31%
+  Null 95th pct:    39.80%
+  Null 99th pct:    45.14%
+  p-value (right):  0.000100    -> REJECTS random-basket null at p < 0.001
+
+--- VOL-MATCHED NULL ---
+Permutations: 10000
+Universe source: DB prices_long (989 tickers with >=200 obs in window)
+Pool size: 989
+Matching: realized-vol rank band +/-5% per member, without replacement
+Intra-cluster correlation:
+  Null mean:        0.1589
+  Null 95th pct:    0.2531
+  Null 99th pct:    0.2968
+  p-value (right):  0.000100    -> REJECTS vol-matched null at p < 0.001
+PC1 explained variance:
+  Null mean:        30.27%
+  Null 95th pct:    37.91%
+  Null 99th pct:    41.66%
+  p-value (right):  0.000100    -> REJECTS vol-matched null at p < 0.001
+
+--- INTERPRETATION ---
+Independence null rejected: the cohort series co-move (necessary, not sufficient).
+Random-basket null rejected: cohort is more cohesive than a random N-pick from the same universe. This is the meaningful pass.
+Vol-matched null rejected: cohesion exceeds random baskets with the SAME volatility profile — the cluster factor is not just shared beta/vol.

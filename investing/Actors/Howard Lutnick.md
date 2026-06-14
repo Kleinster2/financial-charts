@@ -64,6 +64,12 @@ September 11, 2001: [[Cantor Fitzgerald]] occupied floors 101-105 of the North T
 
 ---
 
+## Anthropic export-control directive (June 12, 2026)
+
+As Commerce Secretary, Lutnick signed the letter to [[Dario Amodei]] placing [[Anthropic]]'s [[Claude Fable 5]] and [[Claude Mythos|Mythos 5]] under export controls — barring their use by foreign nationals inside and outside the US — which led Anthropic to disable both models for all customers on June 12, 2026. It is the first time [[Commerce Department|Commerce]] has placed a generally deployed US AI model under the [[Export controls|export-control]] regime, extending Lutnick's remit from chips and tariffs into model-access governance. The letter cited national-security authority but, per Anthropic, "did not provide specific details" of the concern; the trigger was a disputed jailbreak of Fable 5's safety classifiers demonstrated by [[Amazon]] researchers. See [[Anthropic#Jun 12 — Commerce export ban; Fable 5 / Mythos 5 taken offline|Anthropic]] and [[Export controls#First deployed-model export control — Anthropic Fable 5 / Mythos 5 (Jun 12, 2026)|Export controls]].
+
+---
+
 ## Policy positions
 
 | Issue | Position |
@@ -102,6 +108,8 @@ September 11, 2001: [[Cantor Fitzgerald]] occupied floors 101-105 of the North T
 - [[Learning Resources v Trump]] — SCOTUS ruling striking down IEEPA tariffs (Feb 2026)
 - [[Jeffrey Epstein]] — business dealings contradicting public statements
 - [[Section 232 semiconductor tariff]] — Commerce-administered tariff authority
+- [[Anthropic]] — June 2026 Commerce export-control directive on [[Claude Fable 5]] / [[Claude Mythos|Mythos 5]]
+- [[Export controls]] — model-access governance now part of the Commerce remit
 
 ### Cross-vault
 - [Geopolitics: US tariff policy](obsidian://open?vault=geopolitics&file=Concepts%2FUS%20tariff%20policy) — tariff architecture from a statecraft perspective

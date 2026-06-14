@@ -1,0 +1,72 @@
+China Telecom in context — telecom vs SOE-energy vs cloud CLUSTER ANALYSIS
+Window 1y: 2025-06-13 -> 2026-06-12 (227 obs)
+Window 2y: 2024-06-13 -> 2026-06-12 (445 obs)
+Universe: 11 tickers across 4 groups
+Dendrogram cut threshold: 0.5
+
+--- 1Y INTRA-CLUSTER PAIRWISE CORRELATIONS ---
+Ticker   0728.HK  0762.HK  0941.HK
+Ticker                            
+0728.HK     1.00     0.71     0.59
+0762.HK     0.71     1.00     0.60
+0941.HK     0.59     0.60     1.00
+Average intra-cluster correlation: 0.635
+Range: [0.594, 0.711]
+
+--- AVG GROUP-PAIR CORRELATIONS (1Y) ---
+             cluster  soe_ene    cloud      etf
+    cluster    0.635    0.219    0.253    0.027
+ soe_energy    0.219    0.542    0.079    0.005
+      cloud    0.253    0.079    0.630    0.235
+        etf    0.027    0.005    0.235    0.530
+
+Cluster vs others:
+  cluster vs soe_energy: 0.219  (intra advantage: +0.415)
+  cluster vs cloud     : 0.253  (intra advantage: +0.382)
+  cluster vs etf       : 0.027  (intra advantage: +0.607)
+
+--- HIERARCHICAL CLUSTERS (1Y, distance threshold 0.5) ---
+  Cluster 1: 0857.HK, 0883.HK
+  Cluster 2: 0386.HK
+  Cluster 3: KWEB, SPY
+  Cluster 4: 9988.HK, 0700.HK, 9888.HK
+  Cluster 5: 0728.HK, 0762.HK, 0941.HK
+
+--- CANDIDATE JOIN DISTANCES (1Y, average linkage, distance = 1-|corr|) ---
+ Step    Left           Right Distance                 Members
+    1 0728.HK         0762.HK    0.289         0728.HK+0762.HK
+    2 0941.HK 0728.HK+0762.HK    0.403 0941.HK+0728.HK+0762.HK
+
+--- PCA ON CANDIDATE COHORT (1Y) ---
+Explained variance ratio:
+  PC1: 75.70%
+  PC2: 14.67%
+  PC3: 9.63%
+
+PC1 loadings:
+0728.HK    0.588
+0762.HK    0.590
+0941.HK    0.553
+
+--- PC1 INDEX WEIGHTS (1Y) ---
+PCA is run on standardized daily log returns. Raw PC1-mimic weights scale PC1 loading by inverse realized volatility.
+        PC1 loading Loading weight Ann vol Raw PC1-mimic weight
+0728.HK       0.588         33.98%  21.18%               26.57%
+0762.HK       0.590         34.07%  21.12%               26.72%
+0941.HK       0.553         31.94%  11.32%               46.71%
+
+--- WEEKLY-RETURN CROSS-CHECK (1Y, async-close robustness) ---
+Weeks: 49   Weekly intra-corr: 0.523 (daily 0.635)   Weekly PC1: 68.3% (daily 75.7%)
+
+--- HISTORICAL TIGHTNESS EVOLUTION (90D ROLLING) ---
+     Avg corr    PC1 Core corr Satellite corr Final join distance
+Date                                                             
+2020    0.752  83.5%     0.752            nan               0.274
+2021    0.656  77.2%     0.656            nan               0.387
+2022    0.688  79.2%     0.688            nan               0.325
+2023    0.675  78.4%     0.675            nan               0.356
+2024    0.686  79.1%     0.686            nan               0.331
+2025    0.731  82.1%     0.731            nan               0.299
+2026    0.738  82.6%     0.738            nan               0.292
+
+Latest 90D: avg corr 0.734, PC1 82.3%, core corr 0.734, satellite corr nan, final join distance 0.316

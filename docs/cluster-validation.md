@@ -4,6 +4,9 @@ For every public-company actor note, the "where does this name actually trade" q
 
 This is the rigorous version of the existing `## Sector correlation` section, which only correlates the actor against 3-4 ETFs. Cluster validation extends that to a candidate peer cohort + adjacent-sector controls + broad-market benchmarks, and runs three diagnostics.
 
+> [!tip] Terminology — cohort vs cluster vs basket
+> Precise vocabulary: a *cohort* is the candidate set you propose and test (the group literally named `cluster` in the config); a *cluster* is the statistical verdict that the cohort actually trades as one factor; a *basket* is the tradeable expression of a validated cluster. A cohort is or isn't a cluster; a validated cluster may or may not deserve a bespoke basket (a liquid sector ETF can replicate it). Full glossary: [[Cohort, cluster, basket]].
+
 > [!info] Reference examples + cross-cohort synthesis
 > [[Vault cluster taxonomy]] is the cross-cohort meta-analysis covering 8+ validated and falsified cohorts with matched methodology. Read it first to understand which cohort your candidate is most similar to. [[Space pure-plays]] is the canonical worked example (validated cluster, all advanced patterns documented). [[Mag 7 cluster]] is the canonical falsified-cluster example (same N=7 as Space pure-plays but intra-corr 0.316 vs 0.624). The three together cover validated, falsified, and the empirical patterns observed across the cross-cohort test set. [[Concepts/Boutique advisory consolidation|Boutique advisory consolidation]] is the older basic-validation example (single-page format without the advanced patterns).
 

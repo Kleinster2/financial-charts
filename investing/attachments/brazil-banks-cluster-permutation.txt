@@ -1,0 +1,37 @@
+Brazilian banks PERMUTATION TESTS
+Window: 2025-06-18 -> 2026-06-10 (193 obs)
+Candidate cohort: ITUB, BBD, BSBR (N=3)
+Observed intra-corr: 0.8467    Observed PC1: 89.79%
+
+--- INDEPENDENCE NULL ---
+Permutations: 10000
+Block size: 1
+Intra-cluster correlation:
+  Null mean:        0.0005
+  Null 95th pct:    0.0684
+  Null 99th pct:    0.1000
+  p-value (right):  0.000100    -> REJECTS independence null at p < 0.001
+PC1 explained variance:
+  Null mean:        37.10%
+  Null 95th pct:    40.14%
+  Null 99th pct:    41.81%
+  p-value (right):  0.000100    -> REJECTS independence null at p < 0.001
+
+--- RANDOM-BASKET NULL ---
+Permutations: 10000
+Universe source: DB prices_long (933 tickers with >=200 obs in window)
+Pool size: 930
+Intra-cluster correlation:
+  Null mean:        0.1352
+  Null 95th pct:    0.3197
+  Null 99th pct:    0.4138
+  p-value (right):  0.000100    -> REJECTS random-basket null at p < 0.001
+PC1 explained variance:
+  Null mean:        44.66%
+  Null 95th pct:    55.65%
+  Null 99th pct:    61.40%
+  p-value (right):  0.000100    -> REJECTS random-basket null at p < 0.001
+
+--- INTERPRETATION ---
+Independence null rejected: the cohort series co-move (necessary, not sufficient).
+Random-basket null rejected: cohort is more cohesive than a random N-pick from the same universe. This is the meaningful pass.

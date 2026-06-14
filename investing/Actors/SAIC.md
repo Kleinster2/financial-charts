@@ -9,8 +9,8 @@ aliases: [Science Applications International]
 |--------|-------|
 | Ticker | SAIC (NYSE) |
 | Market cap | ~$4.6B |
-| Revenue | **$7.5B** (FY Jan 2025) |
-| Interim CEO | **James Reagan** (Oct 2025) |
+| Revenue | $7.5B (FY Jan 2025) |
+| Interim CEO | James Reagan (Oct 2025) |
 | Employees | ~24,000 |
 | HQ | Reston, VA |
 | Founded | 2013 (split from original SAIC) |
@@ -37,8 +37,8 @@ SAIC trades between Defense and Software without a tight sector fit.
 
 | Segment | Focus |
 |---------|-------|
-| **Defense & Intelligence** | DoD, IC mission support |
-| **Civilian** | Federal civilian agencies |
+| Defense & Intelligence | DoD, IC mission support |
+| Civilian | Federal civilian agencies |
 
 ---
 
@@ -46,7 +46,7 @@ SAIC trades between Defense and Software without a tight sector fit.
 
 | Role | Person | Notes |
 |------|--------|-------|
-| Interim CEO | **James Reagan** | Board member since 2023 |
+| Interim CEO | James Reagan | Board member since 2023 |
 | Prior CEO | Toni Townes-Whitley | Departed Oct 2025 |
 
 Reagan background: CFO at [[Leidos]], Vencore, PAE. Nearly 20 years defense/govservices leadership.
@@ -57,11 +57,24 @@ Reagan background: CFO at [[Leidos]], Vencore, PAE. Nearly 20 years defense/govs
 
 | Date | Contract | Value | Customer |
 |------|----------|-------|----------|
-| Nov 2025 | COBRA warfighting tech | **$1.4B** | DoD |
+| Nov 2025 | COBRA warfighting tech | $1.4B | DoD |
 | Jun 2025 | Prototype engineering | $928M | — |
 | Jul 2025 | Fleet deployment training | $202M | U.S. Navy |
 | 2025 | Undersea warfare | $242M | NUWC Newport |
 | Mar 2025 | Army ASTRO software | $1.8B | U.S. Army |
+
+---
+
+## Charts
+
+![[saic-price-chart.png]]
+*SAIC since 2019 — the slowest grower; a roughly flat ~$7.4B revenue base.*
+
+![[saic-fundamentals-chart.png]]
+*Revenue roughly flat at $7.4–7.5B (FY2024–FY2026, year ending late Jan/early Feb); net income $358M in FY2026 (FY2024's $477M was inflated by a $240M divestiture gain).*
+
+![[saic-sankey.png]]
+*FY2026 (ended Jan 30, 2026): revenue $7.26B → cost of revenues $6.39B → operating income $521M → net income $358M.*
 
 ---
 
@@ -76,7 +89,7 @@ Reagan background: CFO at [[Leidos]], Vencore, PAE. Nearly 20 years defense/govs
 | Backlog | $23.8B |
 | Market cap | ~$4.6B |
 
-**Note:** Market cap down ~40% YoY — leadership transition, margin pressure.
+Note: Market cap down ~40% YoY — leadership transition, margin pressure.
 
 ---
 
@@ -100,7 +113,7 @@ Reagan background: CFO at [[Leidos]], Vencore, PAE. Nearly 20 years defense/govs
 | Cloud migration | Key capability |
 | Leadership | In transition |
 
-**vs peers:** Smaller than [[Leidos]] ($17B), [[GDIT]] ($10B+), [[Booz Allen Hamilton]] ($12B). Similar scale to [[CACI]] ($8.6B).
+vs peers: Smaller than [[Leidos]] ($17B), [[GDIT]] ($10B+), [[Booz Allen Hamilton]] ($12B). Similar scale to [[CACI]] ($8.6B).
 
 ---
 
@@ -118,10 +131,13 @@ Reagan background: CFO at [[Leidos]], Vencore, PAE. Nearly 20 years defense/govs
 
 ## Related
 
-**History:**
+### Securities
+- [[SAIC securities note]] — NYSE: SAIC equity companion
+
+History:
 - [[Leidos]] — split from same company (2013)
 
-**Peers:**
+Peers:
 - [[Leidos]] — largest defense IT
 - [[GDIT]] — GD subsidiary
 - [[CACI]] — C5ISR, space
@@ -129,7 +145,7 @@ Reagan background: CFO at [[Leidos]], Vencore, PAE. Nearly 20 years defense/govs
 - [[ManTech]] — Carlyle-owned
 - [[Booz Allen Hamilton]] — AI leader
 
-**Sectors:**
+Sectors:
 - [[Defense IT Services]] — primary sector
 - [[Defense]] — parent sector
 
