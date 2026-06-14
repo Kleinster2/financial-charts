@@ -1,0 +1,22 @@
+Homebuilders HOLDOUT TEST
+Cohort: DHI, LEN, PHM, NVR, TOL (N=5)
+Window: 2y, split temporally at midpoint
+Train: 2024-06-12 -> 2025-06-12 (58 obs)
+Test:  2025-06-12 -> 2026-06-12 (195 obs)
+
+--- TRAIN HALF (older) ---
+Intra-correlation:    0.8469
+PC1 explained var:    87.90%
+Pairwise range:       [0.733, 0.954]
+
+--- TEST HALF (newer) ---
+Intra-correlation:    0.7849
+PC1 explained var:    83.02%
+Pairwise range:       [0.656, 0.902]
+
+--- STABILITY DIAGNOSTICS ---
+Intra-corr delta:     -0.0620   (test - train)
+PC1 variance delta:   -4.88pp
+PC1 loadings corr:    0.4033    (1.0 = identical factor structure)
+
+VERDICT: STABLE — test/train ratio 0.93 (durable cluster across regimes)

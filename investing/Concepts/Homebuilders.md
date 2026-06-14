@@ -63,6 +63,95 @@ The homebuilder cohort sits at the center of a wider consumer-cyclical-cluster r
 
 ---
 
+## Cluster validation
+
+> [!success] Cluster status: validated — durable housing-construction factor, distinct from title insurance (June 2026)
+> The five public homebuilders trade as one tight, durable factor: [[D.R. Horton]], [[Lennar]], [[PulteGroup]], [[NVR]] and [[Toll Brothers]] intra-correlate 0.785 (weekly 0.756), PC1 83.0%, rejecting the independence, random-basket and vol-matched nulls all at the 0.0001 floor, with all five joining a tight tree (DHI+PHM at 0.10 → TOL 0.14 → LEN 0.18 → NVR 0.31). Holdout STABLE (0.93) and the cohort has held 0.76–0.90 every year since 2021 — one of the most durable factors in the vault set. It is overwhelmingly distinct from broad financials and the market (+0.404) and, the key cross-cohort finding, distinct from the validated [[Title Insurance|title-insurance trio]] (+0.397, separate dendrogram cluster): housing is two equity factors, not one — new construction (builders) and transaction/refi volume (title insurers), on the same rate driver but trading apart. The one thing it is not distinct from is its own ETF: −0.099 vs ITB, which sits inside the cohort's cluster from the lowest threshold. The clean way to own the factor is ITB, not single-name selection. See below.
+
+The cohort is the equity expression of the US housing-construction cycle: rates → mortgage affordability → order volume and ASP, overlaid with land, labor and materials costs. The homogeneity of the business (all five build and sell homes to the same rate-sensitive buyer) is why the cohort is so tight and so ETF-like — there is little idiosyncratic dispersion to separate the names. [[NVR]] is the mild outlier (joins last at 0.311, lowest PC1 loading) on its asset-light land-option model, but it is still firmly inside.
+
+### Diagnostics summary
+
+| Diagnostic | Value | Read |
+|---|---|---|
+| Intra-cluster corr (1Y) | 0.785 | Very tight; weekly 0.756 (all US-listed) |
+| PC1 explained variance | 83.0% | Strong single factor |
+| Independence null p | 0.0001 | Series co-move |
+| Random-basket null p | 0.0001 | Beats a random 5-pick at the floor |
+| Vol-matched null p | 0.0001 | Real beyond shared vol |
+| Holdout (2Y split) | STABLE 0.93 | Durable across regimes |
+| Threshold clean width | 0.00 | Only contaminant is ITB (the cohort's own ETF) |
+| Intra-adv vs title insurance | +0.397 | Distinct — housing is two factors |
+| Intra-adv vs financials/market | +0.404 | Not a financials or broad-market trade |
+| Intra-adv vs ITB (own ETF) | −0.099 | It IS the homebuilder ETF — own ITB |
+
+1Y daily log returns through 2026-06-12, threshold 0.5. All US-listed (synchronous). Config: `scripts/cluster_configs/homebuilders.yaml`; registry row 2026-06-14. Terminology: [[Cohort, cluster, basket]].
+
+### Boundary — a clean cluster, distinct from title insurance
+
+![[homebuilders-cluster-dendrogram-1y.png]]
+*Hierarchical clustering at 0.5. The five homebuilders form one tight cluster with the homebuilder ETF (ITB). The validated [[Title Insurance|title-insurance trio]] (FNF/FAF/STC) sits in a separate cluster, and financials/market (XLF/SPY) in another. Housing splits into two distinct equity factors — construction and transaction — on the same rate driver.*
+
+The threshold scan's only contaminant from 0.20 to 0.60 is ITB — the cohort's own ETF, which trivially sits inside it. The title insurers and broad financials do not join until 0.65+. So the homebuilders are a clean, tight cluster distinct from every other factor; the "boundary-dependent" label is an artifact of including the cohort's own ETF as a control, and it is precisely the ETF-replicability finding: this factor is ITB.
+
+### Topology — a homogeneous five-name block
+
+| Join step | Names | Distance (1-\|corr\|) | Read |
+|---|---|---|---|
+| 1 | DHI + PHM | 0.098 | Tightest pair (corr 0.90) — the volume builders |
+| 2 | TOL + (DHI+PHM) | 0.141 | Luxury builder joins inside the cluster |
+| 3 | LEN + core | 0.175 | Lennar joins |
+| 4 | NVR + rest | 0.311 | Asset-light outlier joins last — still tight |
+
+All five join below distance 0.31 (correlation above 0.69) — a homogeneous block with no real core/satellite structure. Even [[Toll Brothers]] (luxury, lower rate-beta) and [[NVR]] (asset-light land options) sit inside the cluster; the differences in business model are second-order to the shared rate/housing-cycle factor.
+
+### PC1 index weights
+
+![[homebuilders-cluster-pca-1y.png]]
+*PCA on the cohort. PC1 explains 83.0% with near-even loadings (0.40–0.47) — a clean single factor. Volatilities are moderate (26–37%), far below the high-beta narrative cohorts.*
+
+| Ticker | PC1 loading | Loading weight | Ann vol | Raw PC1-mimic weight |
+|---|---|---|---|---|
+| D.R. Horton (DHI) | 0.464 | 20.8% | 35.0% | 19.4% |
+| Lennar (LEN) | 0.446 | 20.0% | 37.0% | 17.6% |
+| PulteGroup (PHM) | 0.470 | 21.0% | 32.1% | 21.4% |
+| NVR (NVR) | 0.401 | 18.0% | 26.4% | 22.1% |
+| Toll Brothers (TOL) | 0.452 | 20.3% | 33.9% | 19.5% |
+
+The lower-vol [[NVR]] takes the largest raw PC1-mimic weight despite the lowest loading — its asset-light model dampens volatility, so it needs more notional to reproduce the common move. Otherwise the basket is close to equal-weighted.
+
+### Distinctness
+
+![[homebuilders-cluster-correlation-1y.png]]
+*1Y pairwise correlation heatmap. The homebuilder block is uniformly hot (0.66–0.90) and warm against ITB. It is distinctly cooler against the title insurers (FNF/FAF/STC) and broad financials (XLF) — the two-housing-factors split made visible.*
+
+The cohort is distinct from everything but its own ETF: +0.397 vs the [[Title Insurance|title trio]], +0.404 vs financials/market, and −0.099 vs ITB. The investable reads: housing carries two factors (own builders via ITB and title insurers separately if you want both), and within builders there is no stock-picking edge over the ETF.
+
+### Historical tightness evolution
+
+![[homebuilders-cluster-rolling-tightness-90d.png]]
+*Rolling 90-day cohesion, 2021–2026. Structurally durable: 0.82–0.90 through the 2021–24 rate-shock cycle, easing to 0.76 in 2026 but never breaking — a standing factor, not a momentary one.*
+
+| Window | Avg intra-corr | PC1 | Final join distance |
+|---|---|---|---|
+| 2022 | 0.895 | 91.6% | 0.117 |
+| 2023 | 0.903 | 92.3% | 0.117 |
+| 2024 | 0.872 | 89.8% | 0.187 |
+| 2026 | 0.760 | 81.2% | 0.370 |
+
+*Durable: one of the steadiest cohorts in the set — tight through the entire 2022–24 rate shock (0.90), easing only modestly into 2026. A structural housing-cycle factor, in contrast to the newly-formed quantum/crypto narrative cohorts.*
+
+### The read-through
+
+- Own ITB, not the names. The five builders are a tight, durable factor (intra 0.785, all nulls at the floor) that IS the homebuilder ETF (−0.099 vs ITB) — single-name selection adds no factor edge; differences ([[NVR]] asset-light, [[Toll Brothers]] luxury) are second-order.
+- Housing is two factors. The +0.397 split from the [[Title Insurance|title trio]] means construction (builders) and transaction/refi (title insurers) are distinct equity factors on the same rate driver. A "housing" view is really two trades; to own both, own both cohorts.
+- It is a structural factor, not a momentum one. Durable 0.76–0.90 across the 2021–26 rate cycle, moderate vol (26–37%) — the opposite profile to the validated-but-newly-formed quantum/crypto cohorts.
+- Not a financials trade. +0.404 vs XLF — despite being rate-sensitive financials-adjacent, the builders trade on the housing-construction cycle, not bank/insurer dynamics.
+
+Method and terminology: `docs/cluster-validation.md`, [[Cohort, cluster, basket]], [[Vault cluster taxonomy]]. Post-definition OOS re-validation queued for the next quarterly pass (definition date 2026-06-14).
+
+---
+
 ## Related
 
 - [[D.R. Horton]] — largest US homebuilder

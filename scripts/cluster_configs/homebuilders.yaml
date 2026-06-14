@@ -1,0 +1,38 @@
+# Homebuilders — the big US public homebuilders. A homogeneous business (build and sell
+# homes) with one dominant macro driver — mortgage rates -> affordability -> demand:
+#   - D.R. Horton (DHI) — #1 by volume
+#   - Lennar (LEN) — #2
+#   - PulteGroup (PHM)
+#   - NVR (NVR) — asset-light land-option model
+#   - Toll Brothers (TOL) — luxury / move-up
+# Hypothesis: a tight, clean validation (homogeneous sector, one rate/housing driver) —
+# likely even tighter than the validated title-insurance trio. Two key cross-cohort
+# questions: (1) are homebuilders the SAME housing factor as title insurance, or distinct
+# (new construction vs transaction/refi volume)? (2) is it just homebuilder-ETF beta
+# (ITB)? All US-listed (synchronous).
+# Controls (each a distinctness question):
+#   - title (FNF, FAF, STC): the validated [[Title Insurance|pure-title trio]] — same
+#     housing cycle. Do builders and title insurers trade as one housing factor or two?
+#   - housing_etf (ITB): the homebuilder ETF — ETF-replicability test (the cohort IS
+#     most of ITB, so a negative intra-advantage = "own the ETF").
+#   - etf (XLF financials/rate-sensitive, SPY market): beta controls.
+name: Homebuilders
+primary: DHI
+prefix: homebuilders-cluster
+threshold: 0.5
+window_end: 2026-06-12
+definition_date: 2026-06-14
+
+groups:
+  cluster:
+    color: "#2962FF"
+    tickers: [DHI, LEN, PHM, NVR, TOL]
+  title:
+    color: "#F4511E"
+    tickers: [FNF, FAF, STC]
+  housing_etf:
+    color: "#7E57C2"
+    tickers: [ITB]
+  etf:
+    color: "#9E9E9E"
+    tickers: [XLF, SPY]
