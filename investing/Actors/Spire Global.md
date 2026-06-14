@@ -96,7 +96,7 @@ Spire's reported financials have a structural break in 2025: the company sold it
 | 2024 | $110.5M | -$102.8M |
 | 2025 | $71.6M | +$51.3M (maritime-divestiture gain) |
 
-*Source: company filings via local fundamentals data. The 2025 revenue drop is the maritime divestiture, not demand loss — ex-maritime revenue grew ~44% YoY; the +$51.3M net income is the one-time Kpler gain. A spurious -$25B value in the local Q4 2025 quarterly net-income field is a data-feed glitch, excluded here.*
+*Source: company filings via local fundamentals data. The 2025 revenue drop is the maritime divestiture, not demand loss — ex-maritime revenue grew ~44% YoY; the +$51.3M net income is the one-time Kpler gain.*
 
 ![[spire-global-fundamentals-chart.png]]
 *Reported annual revenue (blue) and GAAP net income (red). The 2025 revenue step-down and net-income spike are both the Kpler maritime divestiture — read the pre-2025 trajectory for the operating trend and the post-2025 base for the refocused, debt-free company.*
