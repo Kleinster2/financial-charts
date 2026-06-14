@@ -1,0 +1,66 @@
+Sub - Ad-tech SSP pair CLUSTER ANALYSIS
+Window 1y: 2025-06-18 -> 2026-06-12 (195 obs)
+Window 2y: 2024-07-15 -> 2026-06-12 (253 obs)
+Universe: 9 tickers across 4 groups
+Dendrogram cut threshold: 0.5
+
+--- 1Y INTRA-CLUSTER PAIRWISE CORRELATIONS ---
+Ticker  PUBM  MGNI
+Ticker            
+PUBM     1.0   0.5
+MGNI     0.5   1.0
+Average intra-cluster correlation: 0.504
+Range: [0.504, 0.504]
+
+--- AVG GROUP-PAIR CORRELATIONS (1Y) ---
+             cluster  adtech_  ad_gian      etf
+    cluster    0.504    0.377    0.178    0.291
+adtech_othe    0.377    0.323    0.173    0.282
+  ad_giants    0.178    0.173    0.237    0.530
+        etf    0.291    0.282    0.530    0.942
+
+Cluster vs others:
+  cluster vs adtech_other: 0.377  (intra advantage: +0.127)
+  cluster vs ad_giants : 0.178  (intra advantage: +0.326)
+  cluster vs etf       : 0.291  (intra advantage: +0.213)
+
+--- HIERARCHICAL CLUSTERS (1Y, distance threshold 0.5) ---
+  Cluster 1: TTD, DV
+  Cluster 2: PUBM, MGNI
+  Cluster 3: GOOGL, QQQ, SPY
+  Cluster 4: META
+  Cluster 5: APP
+
+--- CANDIDATE JOIN DISTANCES (1Y, average linkage, distance = 1-|corr|) ---
+ Step Left Right Distance   Members
+    1 PUBM  MGNI    0.496 PUBM+MGNI
+
+--- PCA ON CANDIDATE COHORT (1Y) ---
+Explained variance ratio:
+  PC1: 75.20%
+  PC2: 24.80%
+
+PC1 loadings:
+PUBM    0.707
+MGNI    0.707
+
+--- PC1 INDEX WEIGHTS (1Y) ---
+PCA is run on standardized daily log returns. Raw PC1-mimic weights scale PC1 loading by inverse realized volatility.
+     PC1 loading Loading weight Ann vol Raw PC1-mimic weight
+PUBM       0.707         50.00%  65.53%               46.90%
+MGNI       0.707         50.00%  57.87%               53.10%
+
+--- WEEKLY-RETURN CROSS-CHECK (1Y, async-close robustness) ---
+Weeks: 39   Weekly intra-corr: 0.578 (daily 0.504)   Weekly PC1: 78.9% (daily 75.2%)
+
+--- HISTORICAL TIGHTNESS EVOLUTION (90D ROLLING) ---
+     Avg corr    PC1 Core corr Satellite corr Final join distance
+Date                                                             
+2021    0.641  82.0%     0.641            nan               0.359
+2022    0.642  82.1%     0.642            nan               0.358
+2023    0.426  71.3%     0.426            nan               0.574
+2024    0.499  75.0%     0.499            nan               0.501
+2025    0.641  82.1%     0.641            nan               0.359
+2026    0.618  80.9%     0.618            nan               0.382
+
+Latest 90D: avg corr 0.676, PC1 83.8%, core corr 0.676, satellite corr nan, final join distance 0.324

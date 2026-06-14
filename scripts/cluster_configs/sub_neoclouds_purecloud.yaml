@@ -1,0 +1,23 @@
+# Sub-cohort robustness test: the neocloud pure-GPU-cloud pair (CoreWeave + Nebius),
+# flagged inside the neoclouds "not distinct from Crypto-to-AI" verdict as the only
+# non-miner sleeve. Does CRWV+NBIS stand alone, or merge with the miner-converts and
+# the broader Crypto-to-AI / bitcoin factor?
+name: Sub - Neocloud pure-cloud pair
+primary: CRWV
+prefix: sub-neoclouds-purecloud
+threshold: 0.5
+window_end: 2026-06-12
+definition_date: 2026-06-14
+groups:
+  cluster:
+    color: "#2962FF"
+    tickers: [CRWV, NBIS]
+  converters:
+    color: "#F4511E"
+    tickers: [IREN, CIFR, APLD]
+  miners:
+    color: "#7E57C2"
+    tickers: [CORZ, HUT, WULF, MARA, CLSK, RIOT]
+  etf:
+    color: "#9E9E9E"
+    tickers: [IBIT, SPY]

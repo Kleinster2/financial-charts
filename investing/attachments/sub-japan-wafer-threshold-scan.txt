@@ -1,0 +1,27 @@
+Sub - Japan wafer pair THRESHOLD STABILITY SCAN
+Cohort size: 2
+
+--- ASSIGNMENT TABLE ---
+ threshold  n_subclusters  largest_subcluster_size  cohort_share_in_largest  contamination_count  intact
+      0.20              2                        1                      0.5                    0   False
+      0.25              2                        1                      0.5                    0   False
+      0.30              2                        1                      0.5                    0   False
+      0.35              2                        1                      0.5                    0   False
+      0.40              2                        1                      0.5                    0   False
+      0.45              2                        1                      0.5                    0   False
+      0.50              2                        1                      0.5                    0   False
+      0.55              2                        1                      0.5                    0   False
+      0.60              1                        2                      1.0                    0    True
+      0.65              1                        2                      1.0                    3   False
+      0.70              1                        2                      1.0                    3   False
+
+--- STABLE RANGES (intact cohort, no contamination) ---
+  [0.60, 0.60]  width = 0.00  (POINT)
+Total stable width: 0.00
+
+--- VERDICT ---
+FRAGILE: cohort intact only at narrow threshold band(s). Validation depends on threshold pick.
+
+--- CONTAMINATION DETAIL (non-cohort names joining the cohort's largest cluster) ---
+  threshold 0.65: + 4186.T,8035.T,6920.T
+  threshold 0.70: + 4186.T,8035.T,6920.T

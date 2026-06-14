@@ -1,0 +1,58 @@
+Sub - Neocloud pure-cloud pair CLUSTER ANALYSIS
+Window 1y: 2025-06-18 -> 2026-06-12 (195 obs)
+Window 2y: 2024-10-29 -> 2026-06-12 (236 obs)
+Universe: 13 tickers across 4 groups
+Dendrogram cut threshold: 0.5
+
+--- 1Y INTRA-CLUSTER PAIRWISE CORRELATIONS ---
+Ticker  CRWV  NBIS
+Ticker            
+CRWV    1.00  0.73
+NBIS    0.73  1.00
+Average intra-cluster correlation: 0.728
+Range: [0.728, 0.728]
+
+--- AVG GROUP-PAIR CORRELATIONS (1Y) ---
+             cluster  convert   miners      etf
+    cluster    0.728    0.563    0.548    0.426
+ converters    0.563    0.709    0.674    0.469
+     miners    0.548    0.674    0.696    0.567
+        etf    0.426    0.469    0.567    0.547
+
+Cluster vs others:
+  cluster vs converters: 0.563  (intra advantage: +0.165)
+  cluster vs miners    : 0.548  (intra advantage: +0.180)
+  cluster vs etf       : 0.426  (intra advantage: +0.302)
+
+--- HIERARCHICAL CLUSTERS (1Y, distance threshold 0.5) ---
+  Cluster 1: CRWV, NBIS, IREN, CIFR, APLD, CORZ, HUT, WULF, MARA, CLSK, RIOT, IBIT, SPY
+
+--- CANDIDATE JOIN DISTANCES (1Y, average linkage, distance = 1-|corr|) ---
+ Step Left Right Distance   Members
+    1 CRWV  NBIS    0.272 CRWV+NBIS
+
+--- PCA ON CANDIDATE COHORT (1Y) ---
+Explained variance ratio:
+  PC1: 86.41%
+  PC2: 13.59%
+
+PC1 loadings:
+CRWV    0.707
+NBIS    0.707
+
+--- PC1 INDEX WEIGHTS (1Y) ---
+PCA is run on standardized daily log returns. Raw PC1-mimic weights scale PC1 loading by inverse realized volatility.
+     PC1 loading Loading weight Ann vol Raw PC1-mimic weight
+CRWV       0.707         50.00%  91.92%               50.79%
+NBIS       0.707         50.00%  94.87%               49.21%
+
+--- WEEKLY-RETURN CROSS-CHECK (1Y, async-close robustness) ---
+Weeks: 39   Weekly intra-corr: 0.678 (daily 0.728)   Weekly PC1: 83.9% (daily 86.4%)
+
+--- HISTORICAL TIGHTNESS EVOLUTION (90D ROLLING) ---
+     Avg corr    PC1 Core corr Satellite corr Final join distance
+Date                                                             
+2025    0.608  80.4%     0.608            nan               0.392
+2026    0.790  89.5%     0.790            nan               0.210
+
+Latest 90D: avg corr 0.811, PC1 90.5%, core corr 0.811, satellite corr nan, final join distance 0.189

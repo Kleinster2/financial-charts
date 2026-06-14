@@ -95,6 +95,24 @@ This section records boundary tests, candidate screens, and falsified cluster hy
 
 ---
 
+## Sub-cohort robustness sweep
+
+When a cohort's dendrogram splits, or a tight sub-pair sits inside a falsified or not-separable verdict, the question is whether the sub-piece is a robust standalone cluster or just the tightest corner of a loose cohort. This sweep (2026-06-14) ran a threshold scan + intra-corr on every flagged sub-pair: a config with the sub-group as `cluster` and the parent cohort's other members + the sector ETF as controls. No permutation — the threshold-stable width and intra-corr classify it. Configs: `scripts/cluster_configs/sub_*.yaml`.
+
+| Sub-cohort | Parent (verdict) | Intra-corr | Stable width | Verdict |
+|---|---|---|---|---|
+| Neoclouds pure-cloud ([[CoreWeave]]+[[Nebius]]) | [[Neoclouds]] (real, not distinct from Crypto-to-AI) | 0.728 | 0.10 [0.30–0.40] | Moderately robust |
+| Solar residential ([[Enphase]]+[[SolarEdge]]) | [[Solar]] (real, ETF-replicable + split) | 0.697 | 0.10 [0.35–0.45] | Moderately robust |
+| AI-optics interconnect ([[Credo Technology Group]]+[[Astera Labs]]) | [[AI interconnect]] (not one cohort) | 0.599 | 0.10 [0.45–0.55] | Moderately robust |
+| Ad-tech SSP ([[PubMatic]]+[[Magnite]]) | [[Ad-tech]] (falsified) | 0.504 | 0.05 [0.50–0.55] | Fragile |
+| Japan wafer ([[Shin-Etsu]]+[[Sumco]]) | [[Japan semi materials]] (falsified) | 0.443 | 0.00 (point) | Fragile |
+
+Findings: (1) None of the flagged sub-pairs is STRONGLY robust (stable width ≥0.20) — the best are moderately robust (width 0.10); the sub-structure inside these cohorts is real but never a strong standalone factor. (2) The cut is at intra-corr ≈0.60 — the three moderately-robust pairs are ≥0.60 (CRWV+NBIS 0.73, ENPH+SEDG 0.70, CRDO+ALAB 0.60), the two fragile ones below (PUBM+MGNI 0.50, Shin-Etsu+Sumco 0.44). (3) Practical read: where the parent is falsified or ETF-replicable, a moderately-robust sub-pair (≥0.60) is the only tradeable structure (CRWV+NBIS the pure-cloud sleeve, ENPH+SEDG the residential-inverter duopoly, CRDO+ALAB the in-rack interconnect pair); a fragile sub-pair is not even that — it is threshold-dependent.
+
+This sweep is now a standard step (checklist §10 in `docs/cluster-validation.md`): any cohort that splits or reads not-separable gets its sub-pieces threshold-scanned and classified here.
+
+---
+
 ## Structural patterns observed across cohorts
 
 ### 1. Cohort size does not determine cluster structure

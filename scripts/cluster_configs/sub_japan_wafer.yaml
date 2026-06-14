@@ -1,0 +1,23 @@
+# Sub-cohort robustness test: the Japan wafer duopoly (Shin-Etsu 4063.T + Sumco
+# 3436.T), flagged as the one coherent pair inside the falsified Japan-semi-materials
+# cohort. Does the wafer pair stand alone, or merge with the photoresist/conglomerate
+# names and Japan semi equipment?
+name: Sub - Japan wafer pair
+primary: "4063.T"
+prefix: sub-japan-wafer
+threshold: 0.5
+window_end: 2026-06-12
+definition_date: 2026-06-14
+groups:
+  cluster:
+    color: "#2962FF"
+    tickers: ["4063.T", "3436.T"]
+  jp_materials_other:
+    color: "#F4511E"
+    tickers: ["4186.T", "4005.T", "4901.T"]
+  jp_equipment:
+    color: "#7E57C2"
+    tickers: ["8035.T", "6920.T"]
+  etf:
+    color: "#9E9E9E"
+    tickers: [SOXX]

@@ -1,0 +1,20 @@
+# Sub-cohort robustness test: the residential-solar inverter pair (Enphase +
+# SolarEdge), the tightest sub-structure inside the solar "real-but-ETF-replicable +
+# split" verdict. Does ENPH+SEDG stand alone, or merge with the rest of residential
+# (Sunrun), the utility-scale names, and the solar ETF?
+name: Sub - Solar residential pair
+primary: ENPH
+prefix: sub-solar-residential
+threshold: 0.5
+window_end: 2026-06-12
+definition_date: 2026-06-14
+groups:
+  cluster:
+    color: "#2962FF"
+    tickers: [ENPH, SEDG]
+  solar_other:
+    color: "#F4511E"
+    tickers: [FSLR, NXT, RUN]
+  etf:
+    color: "#9E9E9E"
+    tickers: [TAN, SPY]

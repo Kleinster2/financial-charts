@@ -182,7 +182,7 @@ If *every* comparator shows <0.10 intra advantage, the candidate cluster is prob
 This is the boundary test. The algorithm has no prior label about which names you proposed — it groups purely on return distance. If the algorithm-discovered cluster matches your proposed cohort exactly, the boundary is mathematically validated. If it doesn't:
 
 - Algorithm includes names you didn't propose → those names belong; add them.
-- Algorithm splits your proposed cohort → the cohort is two sub-clusters; either tighten the definition or treat it as two clusters.
+- Algorithm splits your proposed cohort → the cohort is two sub-clusters; either tighten the definition or treat it as two clusters. Run the sub-cohort robustness check (Checklist §10): threshold-scan each sub-piece and classify it ROBUST / MODERATELY ROBUST / FRAGILE. A split cohort's tradeable structure (if any) is a moderately-robust sub-pair, not the parent — and empirically a sub-pair only comes back robust at intra-corr ≳0.60; below ~0.55 it is fragile (threshold-dependent), i.e. not a real standalone cluster.
 - Algorithm merges your cohort with a comparator group → your cohort is not distinct from that comparator at this threshold; either tighten threshold (0.3) or accept that it is a sub-cluster of the larger group.
 
 ### 4. PCA on the candidate cohort
@@ -648,10 +648,11 @@ When you create or expand a public-company actor note:
 7. Run `python scripts/cluster_threshold_scan.py --primary {ticker}` (stable threshold width required).
 8. If the cohort spans a known regime shift OR intra-corr is borderline (0.50-0.60), run `python scripts/cluster_holdout_test.py --primary {ticker} --window 2y`.
 9. Iterate the candidate list if the math says the boundary is wrong.
-10. Embed the dendrogram + summary table in the actor or concept note. Include p-values in the status callout when available. For cohort-owner notes, include the join-distance table, PC1 index-weight table, and rolling historical-tightness chart, with sentences distinguishing topology from PC1-replication weights and current tightness from historical evolution.
-11. Log the validation in today's daily note: "validated [[Cluster name]] cohort (intra-corr X.XX, PC1 XX.X%, random-basket p X.XXX)".
-12. After any exploratory cluster screen, append a row to [[Vault cluster taxonomy#Ongoing exploration log]], even when the hypothesis is falsified.
-13. Quarterly: run `python scripts/cluster_registry.py correction` to check FDR-corrected status across all logged cohorts, and `python scripts/cluster_oos_validation.py --all` for the post-definition out-of-sample pass.
+10. Sub-cohort robustness check (required when the cohort splits or reads not-separable). If the dendrogram splits the candidate into sub-groups, OR a sub-pair sits at intra-corr ≳0.60 while the full cohort is below the validation floor or reads "real-but-not-separable / ETF-replicable", classify each sub-piece. Write `scripts/cluster_configs/sub_{name}.yaml` with the sub-group as `cluster` and the parent cohort's other members + the sector ETF as controls; run `python scripts/cluster_threshold_scan.py --config ...` and read the intra-corr from `cluster_analysis.py`. Label ROBUST (stable width ≥0.20) / MODERATELY ROBUST (0.10–0.20) / FRAGILE (<0.10). No permutation needed. The empirical cut is intra-corr ≈0.60 — sub-pairs ≥0.60 come back moderately robust, below ~0.55 fragile. Record the verdict in the cohort note's topology section and in [[Vault cluster taxonomy#Sub-cohort robustness sweep]]. (Worked sweep: the 2026-06-14 five-pair pass — neoclouds pure-cloud / solar residential / AI-optics interconnect moderately robust; ad-tech SSP / Japan wafer fragile.)
+11. Embed the dendrogram + summary table in the actor or concept note. Include p-values in the status callout when available. For cohort-owner notes, include the join-distance table, PC1 index-weight table, and rolling historical-tightness chart, with sentences distinguishing topology from PC1-replication weights and current tightness from historical evolution.
+12. Log the validation in today's daily note: "validated [[Cluster name]] cohort (intra-corr X.XX, PC1 XX.X%, random-basket p X.XXX)".
+13. After any exploratory cluster screen, append a row to [[Vault cluster taxonomy#Ongoing exploration log]], even when the hypothesis is falsified.
+14. Quarterly: run `python scripts/cluster_registry.py correction` to check FDR-corrected status across all logged cohorts, and `python scripts/cluster_oos_validation.py --all` for the post-definition out-of-sample pass.
 
 If steps 5-6 cannot reach a defensible cluster, the conclusion is "this actor is a sector orphan" — that is itself a valid finding (matches the existing `> [!warning] Sector Orphan` callout used by `add_sector_correlations.py`). Note it in the actor.
 

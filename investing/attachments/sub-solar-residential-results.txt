@@ -1,0 +1,62 @@
+Sub - Solar residential pair CLUSTER ANALYSIS
+Window 1y: 2025-06-18 -> 2026-06-12 (195 obs)
+Window 2y: 2024-07-15 -> 2026-06-12 (253 obs)
+Universe: 7 tickers across 3 groups
+Dendrogram cut threshold: 0.5
+
+--- 1Y INTRA-CLUSTER PAIRWISE CORRELATIONS ---
+Ticker  ENPH  SEDG
+Ticker            
+ENPH     1.0   0.7
+SEDG     0.7   1.0
+Average intra-cluster correlation: 0.697
+Range: [0.697, 0.697]
+
+--- AVG GROUP-PAIR CORRELATIONS (1Y) ---
+             cluster  solar_o      etf
+    cluster    0.697    0.473    0.533
+solar_other    0.473    0.528    0.564
+        etf    0.533    0.564    0.549
+
+Cluster vs others:
+  cluster vs solar_other: 0.473  (intra advantage: +0.224)
+  cluster vs etf       : 0.533  (intra advantage: +0.165)
+
+--- HIERARCHICAL CLUSTERS (1Y, distance threshold 0.5) ---
+  Cluster 1: ENPH, SEDG, FSLR, NXT, RUN, TAN
+  Cluster 2: SPY
+
+--- CANDIDATE JOIN DISTANCES (1Y, average linkage, distance = 1-|corr|) ---
+ Step Left Right Distance   Members
+    1 ENPH  SEDG    0.303 ENPH+SEDG
+
+--- PCA ON CANDIDATE COHORT (1Y) ---
+Explained variance ratio:
+  PC1: 84.86%
+  PC2: 15.14%
+
+PC1 loadings:
+ENPH    0.707
+SEDG    0.707
+
+--- PC1 INDEX WEIGHTS (1Y) ---
+PCA is run on standardized daily log returns. Raw PC1-mimic weights scale PC1 loading by inverse realized volatility.
+     PC1 loading Loading weight Ann vol Raw PC1-mimic weight
+ENPH       0.707         50.00%  85.90%               53.53%
+SEDG       0.707         50.00%  98.95%               46.47%
+
+--- WEEKLY-RETURN CROSS-CHECK (1Y, async-close robustness) ---
+Weeks: 39   Weekly intra-corr: 0.628 (daily 0.697)   Weekly PC1: 81.4% (daily 84.9%)
+
+--- HISTORICAL TIGHTNESS EVOLUTION (90D ROLLING) ---
+     Avg corr    PC1 Core corr Satellite corr Final join distance
+Date                                                             
+2020    0.757  87.8%     0.757            nan               0.243
+2021    0.764  88.2%     0.764            nan               0.236
+2022    0.844  92.2%     0.844            nan               0.156
+2023    0.689  84.5%     0.689            nan               0.311
+2024    0.814  90.7%     0.814            nan               0.186
+2025    0.794  89.7%     0.794            nan               0.206
+2026    0.644  82.2%     0.644            nan               0.356
+
+Latest 90D: avg corr 0.713, PC1 85.7%, core corr 0.713, satellite corr nan, final join distance 0.287

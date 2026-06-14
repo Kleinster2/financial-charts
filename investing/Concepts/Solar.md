@@ -88,6 +88,7 @@ The cohort is distinct only from the broad market (+0.175 vs SPY); it is negativ
 
 - Own TAN, not the names. The solar names are a real cohort (passes all nulls) but solar-ETF beta (−0.212 vs TAN) — no stock-picking factor edge over the ETF.
 - It is two factors, split by driver. Residential ([[Enphase]]/[[SolarEdge]]/[[Sunrun]]) trades on interest rates; utility-scale ([[First Solar]]/[[Nextracker]]) on tariffs/IRA policy. They join only at 0.530 and are pulling apart — the real expression of a solar view is one half vs the other.
+- The only standalone micro-cluster is the residential-inverter pair. The sub-cohort robustness sweep ([[Vault cluster taxonomy#Sub-cohort robustness sweep]]) classifies [[Enphase]]+[[SolarEdge]] (intra-corr 0.70) as moderately robust — stable threshold band [0.35–0.45], the only sub-structure in solar that holds up on its own. [[Sunrun]] (the residential installer) and the utility-scale pair are looser. So the tradeable cluster inside solar is the ENPH+SEDG inverter duopoly, not "solar" — and even that is moderately, not strongly, robust.
 - The split is widening in real time. Holdout loadings corr 0.29 (vs airlines' 0.97) and intra-corr eroding 0.61 → 0.43 — the factor structure is non-stationary as the two drivers diverge.
 - The structural inverse of airlines. There one shared driver (fuel) bound different models; here two different drivers (rates vs tariffs) split one sector. The lesson is symmetric: cohesion tracks shared dominant drivers, not shared industry labels.
 
