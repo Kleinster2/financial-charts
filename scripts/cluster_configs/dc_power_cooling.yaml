@@ -1,0 +1,41 @@
+# Data-center power & cooling — the electrical and thermal "plumbing" of the AI buildout.
+# The listed equipment names levered to AI-datacenter power density and cooling demand:
+#   - Vertiv (VRT) — the marquee pure-play: datacenter power + thermal management
+#   - Eaton (ETN) — electrical equipment / power distribution (diversified industrial)
+#   - nVent Electric (NVT) — electrical enclosures, connections, liquid-cooling
+#   - GE Vernova (GEV) — power-generation equipment (gas turbines, grid) — the "supply the
+#     electricity" leg; spun off Apr 2024, so the binding history constraint (~2yr)
+#   - Powell Industries (POWL) — small-cap electrical infrastructure (datacenter + LNG)
+# Hypothesis: a distinct "AI power/electrification" factor. Open questions: does power
+# GENERATION (GEV) bind with in-datacenter power DISTRIBUTION/cooling (VRT/NVT), or split?
+# Is the cohort distinct from broad industrials (XLI) and utilities (XLU), or just
+# AI-capex / NVDA beta one rung downstream? POWL (small-cap, partly LNG-driven) may be the
+# outlier. All US-listed — synchronous, no async caveat.
+# Controls (each a distinctness question):
+#   - industrials (XLI): is the cohort distinct from broad industrials beta?
+#   - power_util (XLU): utilities/power beta — for the GEV generation leg.
+#   - ai_demand (NVDA): the AI-capex driver — is power/cooling just NVDA beta downstream?
+#   - etf (SPY): broad market.
+name: DC power and cooling
+primary: VRT
+prefix: dcpower-cluster
+threshold: 0.5
+window_end: 2026-06-12
+definition_date: 2026-06-14
+
+groups:
+  cluster:
+    color: "#2962FF"
+    tickers: [VRT, ETN, NVT, GEV, POWL]
+  industrials:
+    color: "#F4511E"
+    tickers: [XLI]
+  power_util:
+    color: "#7E57C2"
+    tickers: [XLU]
+  ai_demand:
+    color: "#26A69A"
+    tickers: [NVDA]
+  etf:
+    color: "#9E9E9E"
+    tickers: [SPY]

@@ -1,0 +1,22 @@
+DC power and cooling HOLDOUT TEST
+Cohort: VRT, ETN, NVT, GEV, POWL (N=5)
+Window: 2y, split temporally at midpoint
+Train: 2024-06-12 -> 2025-06-12 (58 obs)
+Test:  2025-06-12 -> 2026-06-12 (195 obs)
+
+--- TRAIN HALF (older) ---
+Intra-correlation:    0.7197
+PC1 explained var:    78.27%
+Pairwise range:       [0.523, 0.912]
+
+--- TEST HALF (newer) ---
+Intra-correlation:    0.5969
+PC1 explained var:    68.02%
+Pairwise range:       [0.407, 0.734]
+
+--- STABILITY DIAGNOSTICS ---
+Intra-corr delta:     -0.1228   (test - train)
+PC1 variance delta:   -10.25pp
+PC1 loadings corr:    0.9128    (1.0 = identical factor structure)
+
+VERDICT: WEAKENED — test/train ratio 0.83 (factor present but eroding)
