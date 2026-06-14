@@ -79,6 +79,12 @@ The story of Planet Labs is the story of NASA engineers who looked at the $500M-
 
 Q3 FY2026 (Oct '25): $81.3M revenue (+33% YoY), beat consensus $74.1M. Operating cash flow $28.6M (+601% YoY). Cash and equivalents $443M. Total liabilities $757M (elevated by contract-related obligations from SKY Perfect JSAT and German deals).
 
+![[planet-labs-fundamentals-chart.png]]
+*Reported annual revenue (blue) and GAAP net income (red), fiscal years ending Jan 31. Revenue compounds steadily; the FY2026 (Jan '26) net-loss step-down reflects non-cash charges on top of the operating loss. See the table above for the cleaner operating-loss and FCF trajectory.*
+
+![[planet-labs-sankey.png]]
+*Reported income-statement Sankey for the latest fiscal year — revenue-to-bottom-line flow showing the ~58% gross margin and the operating-expense gap that still drives the GAAP loss despite FCF turning positive.*
+
 ---
 
 ## Business model
@@ -241,6 +247,12 @@ Net buyers: 178 institutions added, 115 decreased. Smart money piling in during 
 ---
 
 ## Related
+
+### Securities
+
+- [[Planet Labs securities note]] — PL instrument: price record, FCF inflection, cohort context
+
+### Entities and peers
 
 - [[Google]] — Suncatcher partner, equity holder, Terra Bella seller
 - [[Space data centers]] — Suncatcher initiative

@@ -7,6 +7,22 @@ tags: [actor, satellite, defense, usa, public]
 
 ---
 
+## Sector correlation
+
+> [!warning] Sector Orphan
+> BKSY does not trade tightly with any sector ETF (max r = 0.41 with XLK).
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Technology | XLK | 0.41 |
+| [[Semiconductors]] | SMH | 0.36 |
+| [[Defense]] | ITA | 0.32 |
+| *S&P 500* | *SPY* | *0.39* |
+
+BKSY trades between Technology and Semiconductors without a tight sector fit.
+
+---
+
 ## Quick stats
 
 | Metric | Value |
@@ -74,7 +90,36 @@ Implication: BKSY's Q1 reset is a structural drag, but the basket re-rating give
 
 ---
 
+## Financials
+
+BlackSky is a pre-profit geospatial-intelligence company on an asset-heavy, government-contract revenue model. Revenue has grown steadily ($21M in 2020 to $107M in 2025) but operating expenses still run above revenue (FY2025 opex 111% of revenue), so the path to profit depends on backlog conversion and operating leverage on the [[NGA EOCL contract|EOCL]] and Gen-3 constellation. GAAP net income is noisy from de-SPAC warrant remeasurement — the -$245.6M 2021 loss is the de-SPAC year (warrant and transaction costs), not operating.
+
+| Year | Revenue | Net income (GAAP) |
+|------|---------|-------------------|
+| 2020 | $21.1M | -$19.5M |
+| 2021 | $34.1M | -$245.6M (de-SPAC year) |
+| 2022 | $65.4M | -$74.2M |
+| 2023 | $94.5M | -$53.9M |
+| 2024 | $102.1M | -$57.2M |
+| 2025 | $106.6M | -$70.3M |
+
+*Source: company filings via local fundamentals data. Q1 2026 revenue was $20.8M (net loss -$29.7M) — the print that drove the -25% May 7 reaction, missing the ~$28M consensus.*
+
+![[blacksky-fundamentals-chart.png]]
+*Revenue (blue) and GAAP net income (red). The 2021 trough is the de-SPAC warrant/transaction charge; the underlying revenue line grows steadily.*
+
+![[blacksky-sankey.png]]
+*FY2025 income statement: revenue $107M → 66.9% gross margin → operating expenses at 111% of revenue → -44% operating margin → -65.9% net margin. Gross margin is healthy; the gap to profitability is operating-expense scale against a still-small revenue base.*
+
+---
+
 ## Related
+
+### Securities
+
+- [[BlackSky securities note]] — BKSY instrument: price record, de-SPAC structure, cohort context
+
+### Entities and peers
 
 - [[Spire Global]] — peer commercial satellite company
 - [[Planet Labs]] — peer Earth observation company

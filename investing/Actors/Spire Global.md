@@ -83,6 +83,26 @@ Spire sits at the intersection of three accelerating trends: proliferated LEO co
 
 ---
 
+## Financials
+
+Spire's reported financials have a structural break in 2025: the company sold its maritime AIS business to Kpler for ~$233.5M (see [[#Maritime divestiture]]), which wiped out its debt, booked a one-time gain, and dropped reported revenue (maritime had been a large segment). So the GAAP arc reads in two pieces — the pre-divestiture build to $110.5M (2024), and the post-divestiture, debt-free, three-vertical base (weather, space services, aviation) of $71.6M (2025), where ex-maritime revenue was still growing ~44% YoY. The +$51.3M 2025 net income is the divestiture gain, not operating profit; the underlying business is still pre-profit, guiding to EBITDA breakeven by Q4 2026 / Q1 2027.
+
+| Year | Revenue | Net income (GAAP) |
+|------|---------|-------------------|
+| 2020 | $28.5M | -$32.5M |
+| 2021 | $43.4M | -$38.1M |
+| 2022 | $70.8M | -$99.0M |
+| 2023 | $97.6M | -$77.6M |
+| 2024 | $110.5M | -$102.8M |
+| 2025 | $71.6M | +$51.3M (maritime-divestiture gain) |
+
+*Source: company filings via local fundamentals data. The 2025 revenue drop is the maritime divestiture, not demand loss — ex-maritime revenue grew ~44% YoY; the +$51.3M net income is the one-time Kpler gain. A spurious -$25B value in the local Q4 2025 quarterly net-income field is a data-feed glitch, excluded here.*
+
+![[spire-global-fundamentals-chart.png]]
+*Reported annual revenue (blue) and GAAP net income (red). The 2025 revenue step-down and net-income spike are both the Kpler maritime divestiture — read the pre-2025 trajectory for the operating trend and the post-2025 base for the refocused, debt-free company.*
+
+---
+
 ## Business segments
 
 ### Weather (GNSS radio occultation)
