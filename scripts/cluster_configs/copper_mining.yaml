@@ -1,0 +1,41 @@
+# Copper mining — the listed copper miners, tested as a commodity-price cohort. This
+# is the first commodity-beta cohort in the campaign: the question is not whether they
+# cohere (commodity cohorts usually do) but what binds them — the copper PRICE, or a
+# copper-EQUITY factor distinct from it (operating leverage, jurisdiction, cost curve).
+# Members (all North American listings — NYSE/TSX, ~synchronous, so no async caveat):
+#   - [[Freeport-McMoRan]] (FCX) — largest US copper major (also gold/moly)
+#   - [[Southern Copper]] (SCCO) — pure copper, Peru/Mexico
+#   - [[Teck Resources]] (TECK) — copper + zinc (sold coal 2024)
+#   - [[Ero Copper]] (ERO) — copper pure-play (Brazil ops)
+#   - [[Ivanhoe Mines]] (IVN.TO) — copper pure-play (Kamoa-Kakula, DRC)
+#   - [[First Quantum Minerals]] (FM.TO) — copper (Cobre Panamá overhang)
+#
+# Controls (each a specific distinctness question):
+#   - copper_price (CPER, copper-futures ETF): is the cohort just the copper price, or
+#     do the equities carry an operating-leverage / equity factor on top of it?
+#   - miner_etf (COPX copper-miners ETF, GDX gold-miners ETF): COPX is the replicability
+#     benchmark (it literally holds these names — a near-zero intra-advantage means the
+#     cohort is ETF-replicable, the nuclear/URA shape); GDX tests copper-specific vs
+#     generic miner beta.
+#   - broad (BHP diversified major, SPY market): distinct from diversified mining and
+#     from broad market?
+name: Copper mining
+primary: FCX
+prefix: copper-cluster
+threshold: 0.5
+window_end: 2026-06-12
+definition_date: 2026-06-14
+
+groups:
+  cluster:
+    color: "#2962FF"
+    tickers: [FCX, SCCO, TECK, ERO, "IVN.TO", "FM.TO"]
+  copper_price:
+    color: "#F4511E"
+    tickers: [CPER]
+  miner_etf:
+    color: "#7E57C2"
+    tickers: [COPX, GDX]
+  broad:
+    color: "#9E9E9E"
+    tickers: [BHP, SPY]

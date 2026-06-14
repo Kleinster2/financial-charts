@@ -1,0 +1,22 @@
+Copper mining HOLDOUT TEST
+Cohort: FCX, SCCO, TECK, ERO, IVN.TO, FM.TO (N=6)
+Window: 2y, split temporally at midpoint
+Train: 2024-06-12 -> 2025-06-12 (53 obs)
+Test:  2025-06-12 -> 2026-06-12 (150 obs)
+
+--- TRAIN HALF (older) ---
+Intra-correlation:    0.8672
+PC1 explained var:    89.00%
+Pairwise range:       [0.806, 0.964]
+
+--- TEST HALF (newer) ---
+Intra-correlation:    0.7070
+PC1 explained var:    75.83%
+Pairwise range:       [0.529, 0.822]
+
+--- STABILITY DIAGNOSTICS ---
+Intra-corr delta:     -0.1602   (test - train)
+PC1 variance delta:   -13.17pp
+PC1 loadings corr:    -0.1109    (1.0 = identical factor structure)
+
+VERDICT: WEAKENED — test/train ratio 0.82 (factor present but eroding)

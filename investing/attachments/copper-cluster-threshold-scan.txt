@@ -1,0 +1,35 @@
+Copper mining THRESHOLD STABILITY SCAN
+Cohort size: 6
+
+--- ASSIGNMENT TABLE ---
+ threshold  n_subclusters  largest_subcluster_size  cohort_share_in_largest  contamination_count  intact
+      0.20              4                        3                    0.500                    1   False
+      0.25              3                        4                    0.667                    2   False
+      0.30              2                        5                    0.833                    3   False
+      0.35              2                        5                    0.833                    4   False
+      0.40              1                        6                    1.000                    4   False
+      0.45              1                        6                    1.000                    5   False
+      0.50              1                        6                    1.000                    5   False
+      0.55              1                        6                    1.000                    5   False
+      0.60              1                        6                    1.000                    5   False
+      0.65              1                        6                    1.000                    5   False
+      0.70              1                        6                    1.000                    5   False
+
+--- STABLE RANGES (intact cohort, no contamination) ---
+  None — cohort never returns as a clean single cluster at any threshold.
+
+--- VERDICT ---
+BOUNDARY-DEPENDENT: cohort does not form a clean cluster at any threshold tested. Falsification candidate.
+
+--- CONTAMINATION DETAIL (non-cohort names joining the cohort's largest cluster) ---
+  threshold 0.20: + COPX
+  threshold 0.25: + COPX,BHP
+  threshold 0.30: + CPER,COPX,BHP
+  threshold 0.35: + CPER,COPX,GDX,BHP
+  threshold 0.40: + CPER,COPX,GDX,BHP
+  threshold 0.45: + CPER,COPX,GDX,BHP,SPY
+  threshold 0.50: + CPER,COPX,GDX,BHP,SPY
+  threshold 0.55: + CPER,COPX,GDX,BHP,SPY
+  threshold 0.60: + CPER,COPX,GDX,BHP,SPY
+  threshold 0.65: + CPER,COPX,GDX,BHP,SPY
+  threshold 0.70: + CPER,COPX,GDX,BHP,SPY
