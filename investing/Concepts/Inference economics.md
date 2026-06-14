@@ -592,6 +592,7 @@ The [[Blackwell]] power-smoothing factor compounds the training-side problem on 
 - [[OpenAI]] - exposed (GPT-5 $30/$60 vs [[DeepSeek]] $0.27/$1.10)
 - [[Anthropic]] - exposed (API pricing pressure)
 - [[Open source commoditization]] - driver ([[DeepSeek]], [[Llama]], [[Mistral]])
+- [[Open-source inference engines]] - supply-side engines (vLLM/[[Inferact]], SGLang/[[RadixArk]], LMCache/[[TensorMesh]]) behind cheap self-hosted serving
 - [[Model lab economics]] - context (training vs inference margins)
 - [[CUDA moat]] - context (NVIDIA trying to own inference)
 - [[Separately Managed Accounts]] - parallel unit economics (fee structure vs true cost-to-serve)

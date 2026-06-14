@@ -5,7 +5,7 @@ tags: [actor, ai, search, agentic, private, usa]
 
 #actor #ai #search #agentic #private #usa
 
-One-line read: **Exa** is the neural-search challenger in the agent-web layer — a model trained to predict links rather than match keywords — now a $2.2B [[Andreessen Horowitz|a16z]]-backed peer to [[Parallel Web Systems]], betting that a purpose-built semantic index beats both keyword search and foundation-model first-party tools; the watch being whether "predict-the-next-link" embeddings hold a quality edge as the labs build retrieval inward.
+The neural-search challenger in the agent-web layer — a model trained to predict links rather than match keywords — now a $2.2B [[Andreessen Horowitz|a16z]]-backed peer to [[Parallel Web Systems]], betting that a purpose-built semantic index beats both keyword search and foundation-model first-party tools; the watch being whether "predict-the-next-link" embeddings hold a quality edge as the labs build retrieval inward.
 
 ---
 
@@ -42,8 +42,8 @@ Exa (formerly Metaphor Systems) is an AI-native web search company offering a ne
 |-------|------|--------|-----------|------------------|
 | Seed (as Metaphor) | 2022 (YC W22) | — | — | [[Y Combinator]] |
 | Series A | Jul 2024 | $17M | — | [[Lightspeed Venture Partners]], [[NVIDIA]] (NVentures), [[Y Combinator]] |
-| Series B | Sep 2025 | $85M | $700M | Benchmark (lead); [[Lightspeed Venture Partners]], [[Y Combinator]], [[NVIDIA]] NVentures |
-| Series C | May 2026 | $250M | $2.2B | [[Andreessen Horowitz]] (lead, Sarah Wang to board); Benchmark, [[Lightspeed Venture Partners]], [[Y Combinator]]; angels Scott Wu, Igor Babuschkin, Tal Broda |
+| Series B | Sep 2025 | $85M | $700M | [[Benchmark]] (lead); [[Lightspeed Venture Partners]], [[Y Combinator]], [[NVIDIA]] NVentures |
+| Series C | May 2026 | $250M | $2.2B | [[Andreessen Horowitz]] (lead, Sarah Wang to board); [[Benchmark]], [[Lightspeed Venture Partners]], [[Y Combinator]]; angels Scott Wu, Igor Babuschkin, Tal Broda |
 
 Total raised: ~$352M. The Series C is earmarked for training the next generation of models and scaling infrastructure to "hundreds of thousands of searches per second." [[NVIDIA]]'s venture arm backed the early rounds (mirroring its [[Perplexity]] stake) before [[Andreessen Horowitz]] led the growth round.
 

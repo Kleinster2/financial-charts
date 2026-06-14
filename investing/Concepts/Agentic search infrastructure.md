@@ -44,6 +44,7 @@ The cohort spans two technically distinct functions, and several names do both:
 - Two technical theories of the moat — [[Exa]] bets on owning a purpose-trained index (hard for a generalist to replicate); [[Parallel Web Systems]] bets on the orchestration harness over commodity retrieval. The near-identical valuations make the pair a clean test of which holds.
 - Consolidation has begun — [[Tavily]] → [[Nebius]] ($275M) shows infra-cloud players buying the layer. The two ~$2B names are now too expensive to acqui-hire and must reach escape velocity or anchor a larger platform.
 - Content-settlement adjacency — owning agent read-traffic positions a player to also meter and pay for the content consumed; Parallel's Index extends into that settlement layer (see [[AI content licensing marketplaces]]).
+- Disintermediation from below — the [[Open-source inference engines]] cluster (vLLM/[[Inferact]], SGLang/[[RadixArk]], LMCache/[[TensorMesh]]) lets agent builders run open-weight models cheaply instead of paying lab APIs, eroding the cost base from the other side. The cohort is squeezed top and bottom.
 
 All constituents are private, so there is no public price series to chart. (Market data not applicable.)
 
@@ -60,6 +61,9 @@ All constituents are private, so there is no public price series to chart. (Mark
 - [[AI content licensing marketplaces]] — the content-payment layer this cohort touches
 - [[AI agents]] — the demand driver
 - [[Nebius]] — acquirer consolidating the layer
+- [[Data catalog disruption]] — sibling "built for agents, not humans" shift, in the data-catalog/governance layer
+- [[Open-source inference engines]] — the below-disintermediation vector (cheap self-hosted serving erodes lab-API dependence)
+- [[SerpAPI]] — adjacent SERP-access API (raw engine results vs agent-native excerpts)
 
 ### Cross-vault
 - [Technologies: Deep Research Systems](obsidian://open?vault=technologies&file=Deep%20Research%20Systems) — the vendor-neutral method/architecture behind this market
