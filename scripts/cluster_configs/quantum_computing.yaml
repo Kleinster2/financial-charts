@@ -1,0 +1,43 @@
+# Quantum computing — the listed pure-play quantum-computing names. The canonical
+# "quantum stocks" basket, all small/mid-cap with no commercialized revenue:
+#   - IonQ (IONQ) — trapped-ion; the largest/most-liquid pure-play
+#   - Rigetti (RGTI) — superconducting (de-SPAC 2022)
+#   - D-Wave Quantum (QBTS) — quantum annealing (de-SPAC 2022)
+#   - Quantum Computing Inc (QUBT) — photonic; the smallest, most speculative
+# Hypothesis (the GLP-1 mirror): GLP-1 falsified because each name had a dominant
+# NON-theme business that decoupled it. The quantum pure-plays have no fundamental
+# anchor at all — no revenue, pure narrative — so they may cohere precisely because
+# there is nothing idiosyncratic to pull them apart: they ARE the quantum-sentiment
+# trade. Open question: is that cohesion a distinct "quantum" factor, or just
+# unprofitable-growth / retail-momentum (ARKK) and small-cap (IWM) beta?
+# All US-listed (synchronous). De-SPAC price history pre-deal is the ~$10 SPAC trust;
+# the 1Y window is well after both de-SPACs, so clean.
+# Controls (each a distinctness question):
+#   - spec_growth (ARKK): unprofitable-growth / retail-momentum beta — the key test.
+#   - small_cap (IWM): Russell 2000 small-cap beta.
+#   - incumbent (IBM): the diversified quantum incumbent — do the pure-plays trade
+#     with the big quantum player, or is IBM just IBM?
+#   - etf (SPY): broad market.
+name: Quantum computing
+primary: IONQ
+prefix: quantum-cluster
+threshold: 0.5
+window_end: 2026-06-12
+definition_date: 2026-06-14
+
+groups:
+  cluster:
+    color: "#2962FF"
+    tickers: [IONQ, RGTI, QBTS, QUBT]
+  spec_growth:
+    color: "#F4511E"
+    tickers: [ARKK]
+  small_cap:
+    color: "#7E57C2"
+    tickers: [IWM]
+  incumbent:
+    color: "#26A69A"
+    tickers: [IBM]
+  etf:
+    color: "#9E9E9E"
+    tickers: [SPY]

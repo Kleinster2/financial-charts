@@ -1,0 +1,54 @@
+Quantum computing PERMUTATION TESTS
+Window: 2025-06-18 -> 2026-06-12 (212 obs)
+Candidate cohort: IONQ, RGTI, QBTS, QUBT (N=4)
+Observed intra-corr: 0.8163    Observed PC1: 86.26%
+
+--- INDEPENDENCE NULL ---
+Permutations: 10000
+Block size: 1
+Intra-cluster correlation:
+  Null mean:        -0.0004
+  Null 95th pct:    0.0470
+  Null 99th pct:    0.0686
+  p-value (right):  0.000100    -> REJECTS independence null at p < 0.001
+PC1 explained variance:
+  Null mean:        28.84%
+  Null 95th pct:    31.13%
+  Null 99th pct:    32.45%
+  p-value (right):  0.000100    -> REJECTS independence null at p < 0.001
+
+--- RANDOM-BASKET NULL ---
+Permutations: 10000
+Universe source: DB prices_long (1016 tickers with >=200 obs in window)
+Pool size: 1012
+Intra-cluster correlation:
+  Null mean:        0.1503
+  Null 95th pct:    0.3150
+  Null 99th pct:    0.4145
+  p-value (right):  0.000100    -> REJECTS random-basket null at p < 0.001
+PC1 explained variance:
+  Null mean:        38.97%
+  Null 95th pct:    50.30%
+  Null 99th pct:    57.49%
+  p-value (right):  0.000100    -> REJECTS random-basket null at p < 0.001
+
+--- VOL-MATCHED NULL ---
+Permutations: 10000
+Universe source: DB prices_long (1016 tickers with >=200 obs in window)
+Pool size: 1012
+Matching: realized-vol rank band +/-5% per member, without replacement
+Intra-cluster correlation:
+  Null mean:        0.2326
+  Null 95th pct:    0.4408
+  Null 99th pct:    0.5200
+  p-value (right):  0.000100    -> REJECTS vol-matched null at p < 0.001
+PC1 explained variance:
+  Null mean:        44.37%
+  Null 95th pct:    58.69%
+  Null 99th pct:    64.42%
+  p-value (right):  0.000100    -> REJECTS vol-matched null at p < 0.001
+
+--- INTERPRETATION ---
+Independence null rejected: the cohort series co-move (necessary, not sufficient).
+Random-basket null rejected: cohort is more cohesive than a random N-pick from the same universe. This is the meaningful pass.
+Vol-matched null rejected: cohesion exceeds random baskets with the SAME volatility profile — the cluster factor is not just shared beta/vol.
