@@ -19,7 +19,7 @@
     {
       "name": "personal-vault",
       "description": "Repo-local personal vault communications workflows.",
-      "root": "C:/Users/klein/obsidian/personal",
+      "root": "~/obsidian/personal",
       "optional": true,
       "skills": [
         "comms-sweep",

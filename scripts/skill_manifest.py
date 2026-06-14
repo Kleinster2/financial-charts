@@ -83,7 +83,7 @@ def _resolve_path(value: str, base: Path) -> Path:
     if value == "$OPENCLAW_SKILLS_DIR":
         return DEFAULT_OPENCLAW_SKILLS_DIR
 
-    expanded = os.path.expandvars(value)
+    expanded = os.path.expanduser(os.path.expandvars(value))
     path = Path(expanded)
     if not path.is_absolute():
         path = base / path
