@@ -1,0 +1,22 @@
+Title insurance (pure-title trio) HOLDOUT TEST
+Cohort: FNF, FAF, STC (N=3)
+Window: 2y, split temporally at midpoint
+Train: 2024-06-12 -> 2025-06-12 (249 obs)
+Test:  2025-06-12 -> 2026-06-12 (252 obs)
+
+--- TRAIN HALF (older) ---
+Intra-correlation:    0.7415
+PC1 explained var:    82.81%
+Pairwise range:       [0.702, 0.815]
+
+--- TEST HALF (newer) ---
+Intra-correlation:    0.7344
+PC1 explained var:    82.32%
+Pairwise range:       [0.693, 0.792]
+
+--- STABILITY DIAGNOSTICS ---
+Intra-corr delta:     -0.0071   (test - train)
+PC1 variance delta:   -0.49pp
+PC1 loadings corr:    0.9825    (1.0 = identical factor structure)
+
+VERDICT: STABLE — test/train ratio 0.99 (durable cluster across regimes)

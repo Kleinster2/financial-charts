@@ -1,0 +1,32 @@
+# Title insurance — the validated pure-title core, after the 4-name cohort was tested
+# and ORI separated as the diversified outlier (it joins the trio only at distance 0.632,
+# PC1 loading 0.350, trading on its large general-insurance book rather than title).
+# The clean cohort is the three pure-title underwriters:
+#   - Fidelity National Financial (FNF) — #1 title underwriter
+#   - First American Financial (FAF) — #2, purest large title play
+#   - Stewart Information Services (STC) — #4 pure-title underwriter
+# All NYSE-listed (synchronous). See title_insurance.yaml for the 4-name test (ORI outlier).
+# Controls (distinctness questions):
+#   - insurance (KIE): distinct from insurance broadly? (dendrogram: yes, separate cluster)
+#   - housing (ITB homebuilders): trade with the housing cycle or transaction/refi-specific?
+#   - etf (XLF financials, SPY market): beta controls.
+name: Title insurance (pure-title trio)
+primary: FNF
+prefix: titletrio-cluster
+threshold: 0.5
+window_end: 2026-06-12
+definition_date: 2026-06-14
+
+groups:
+  cluster:
+    color: "#2962FF"
+    tickers: [FNF, FAF, STC]
+  insurance:
+    color: "#F4511E"
+    tickers: [KIE]
+  housing:
+    color: "#7E57C2"
+    tickers: [ITB]
+  etf:
+    color: "#9E9E9E"
+    tickers: [XLF, SPY]

@@ -1,0 +1,37 @@
+# Title insurance — the US title-insurance oligopoly. The "big four" underwriters that
+# hold ~80%+ of the market, all NYSE-listed (synchronous, no async caveat):
+#   - Fidelity National Financial (FNF) — #1 by share (also an F&G annuity/insurance arm)
+#   - First American Financial (FAF) — #2, the purest large title play
+#   - Old Republic International (ORI) — diversified (large general-insurance segment beyond title)
+#   - Stewart Information Services (STC) — #4, smaller pure-title underwriter
+# Hypothesis: an oligopoly bound by one dominant macro driver — US housing-transaction
+# volume (existing-home sales + refis), which is rate-sensitive — so likely a tight cohort
+# (à la WFE). Open question: the diversified names (ORI's general insurance, FNF's F&G
+# annuity arm) may split from the pure-title plays (FAF, STC) — a diversification outlier
+# test like the Japan-materials conglomerates.
+# Controls (each a distinctness question):
+#   - insurance (KIE, SPDR insurance ETF): are title insurers distinct from insurance
+#     broadly? Their one-time-premium, transaction-driven model is unlike P&C/life.
+#   - housing (ITB, homebuilders): do they trade with the housing cycle, or is title
+#     transaction/refi volume a different beast from new-construction?
+#   - etf (XLF financials, SPY market): financials-beta and broad-market controls.
+name: Title insurance
+primary: FNF
+prefix: titleinsurance-cluster
+threshold: 0.5
+window_end: 2026-06-12
+definition_date: 2026-06-14
+
+groups:
+  cluster:
+    color: "#2962FF"
+    tickers: [FNF, FAF, ORI, STC]
+  insurance:
+    color: "#F4511E"
+    tickers: [KIE]
+  housing:
+    color: "#7E57C2"
+    tickers: [ITB]
+  etf:
+    color: "#9E9E9E"
+    tickers: [XLF, SPY]
