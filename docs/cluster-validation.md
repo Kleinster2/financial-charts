@@ -122,6 +122,8 @@ Three principles:
 
 3. Always include broad ETFs (XLF/SPY for US financials, IWM for small-cap, sector-specific ETFs as appropriate). The cluster's correlation to broad benchmarks tells you how much of the move is generic risk-on/risk-off vs cluster-specific.
 
+4. For non-US cohorts, include at least one same-market control group — same exchange, same currency, same trading session as the cohort. It is the only distinctness comparison free of async-close and FX distortion; US controls and USD ETFs are read for direction only. See "Non-US cohorts — async close, currency, and the same-market-control rule" under Interpreting the output.
+
 ### Choosing the threshold
 
 The 1-|corr| distance threshold defaults to 0.4. Members with pairwise distance below the threshold are bundled into one cluster. Empirically:
@@ -235,6 +237,20 @@ If these disagree, say so explicitly. Example: "AMAT/LRCX/KLAC form the tight WF
 ### Weekly cross-check (async-close robustness)
 
 `results.txt` also carries a `WEEKLY-RETURN CROSS-CHECK` section: intra-corr and PC1 recomputed on calendar-week log returns. Daily correlations between markets with non-overlapping trading hours are structurally depressed (the non-synchronous trading problem); weekly sums restore most of the overlap. If the weekly intra-corr exceeds the daily by more than 0.10, the output flags it: the cohort is tighter than its daily numbers suggest and the weekly reading is the better estimate of economic co-movement. Expect this on cross-region cohorts ([[Korea Memory]] vs US controls, Indian metals, global luxury); a large gap on an all-US cohort would instead suggest a data problem.
+
+### Non-US cohorts — async close, currency, and the same-market-control rule
+
+When the cohort is listed outside the US, daily correlations distort in two compounding ways — and the distortion runs in *opposite directions* for cohesion and for distinctness, so it is not enough to "expect lower numbers."
+
+- **Async close depresses cross-market daily correlations.** Tokyo closes ~14h before New York, Frankfurt ~5h before. Any daily correlation between a non-US name and a US name is mechanically understated because the two never trade on the same information at the same time (the non-synchronous trading problem). For an *all-foreign* cohort measured against *US* controls this fakes distinctness: the cohort looks far more separate from its US comparators and ETF benchmarks than it economically is. In the [[Japan semi materials]] test the Tokyo cohort showed a +0.31 "intra-advantage" vs US materials peers and US/Japan ETFs — almost entirely the close gap, not real factor separation.
+- **Currency denomination adds a one-sided FX leg.** A cohort priced in JPY co-moves partly on JPY/USD; the same names seen by a USD investor carry that FX move. Intra-cohort correlation measured in the *local* currency (all members same currency) is the clean business-co-movement number and excludes FX — use it. But comparing a local-currency cohort to a USD-denominated ETF (e.g., EWJ for Japan) mixes an FX leg into one side only, muddying the cross-market read further on top of async.
+
+Two rules follow:
+
+1. **Build at least one same-market control.** The only distinctness test free of async and FX is against another cohort listed in the same market and currency, trading the same session. For [[Japan semi materials]] the clean control was Japanese semiconductor *equipment* ([[Tokyo Electron]] + [[Lasertec]]): same exchange, same yen, same close. That comparison (+0.069 — barely distinct, and the equipment pair at 0.623 was the *tighter* cohort) is the one that carried the verdict; the US-control numbers were read for direction only. Design the config (principle 4 under "Choosing groups") so a same-market control exists whenever the cohort is non-US.
+2. **Read the weekly cross-check, not the daily, for everything cross-border.** The weekly resample restores most of the lost overlap (see the section above). An all-foreign cohort's *intra*-corr is already synchronous — all members share one close, so daily intra is fine — but every cohort-vs-US-control number should be taken from the weekly pass. And a weekly intra that *collapses* well below daily ([[Japan semi materials]]: 0.145 weekly vs 0.381 daily) is itself evidence the daily cohesion was partly same-day common noise, not a persistent factor.
+
+The random-basket null also carries a caveat for foreign cohorts. The cleaned null pool is US-listed common stocks (the 2026-06-09 audit removed async foreign listings from it), so a Tokyo cohort's cohesion is compared against US-synchronous baskets. Both sides are measured on their own internal (synchronous) correlations, so the test stays roughly valid — but report it as approximate, not exact, for a non-US cohort, and lean on the same-market control and the holdout for the verdict.
 
 ### 6. Conclusions to draft
 
