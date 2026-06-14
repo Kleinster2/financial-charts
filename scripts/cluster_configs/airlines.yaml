@@ -1,0 +1,35 @@
+# Airlines — the big US passenger airlines. A classic cyclical: jet-fuel cost +
+# travel demand + capacity discipline drive the whole group:
+#   - Delta (DAL), United (UAL), American (AAL) — legacy network / hub-and-spoke carriers
+#   - Southwest (LUV) — the original low-cost / point-to-point carrier
+#   - Alaska Air (ALK) — mid-size, low-cost-leaning (acquired Hawaiian 2024)
+# Hypothesis: a tight, validated cyclical factor (airlines famously move together on
+# oil and demand). Built-in split test: do the legacy carriers (DAL/UAL/AAL) trade with
+# the low-cost names (LUV/ALK), or does the business model split them into sub-factors —
+# the value-chain-split law applied to a traditional cyclical? Distinctness questions:
+# is it just oil-inverse / fuel beta, or distinct from broad transports? All US-listed.
+# Controls:
+#   - transports (IYT): broad transports (airlines + rails + truckers + parcel). Are
+#     airlines a distinct factor within transports?
+#   - fuel (USO): oil — airlines' dominant cost (inverse exposure). Is it just fuel beta?
+#   - etf (SPY): broad market.
+name: Airlines
+primary: DAL
+prefix: airlines-cluster
+threshold: 0.5
+window_end: 2026-06-12
+definition_date: 2026-06-14
+
+groups:
+  cluster:
+    color: "#2962FF"
+    tickers: [DAL, UAL, AAL, LUV, ALK]
+  transports:
+    color: "#F4511E"
+    tickers: [IYT]
+  fuel:
+    color: "#7E57C2"
+    tickers: [USO]
+  etf:
+    color: "#9E9E9E"
+    tickers: [SPY]
