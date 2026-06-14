@@ -1,0 +1,37 @@
+# DTC telehealth / digital health — the listed "telehealth" names, tested for whether
+# the label is a tradeable factor or a bucket of structurally different businesses.
+# The candidate set (per the audit) spans four distinct business models:
+#   - [[Hims & Hers]] (HIMS) — DTC subscription wellness (ED, hair, GLP-1 weight-loss, mental health)
+#   - [[LifeMD]] (LFMD) — DTC subscription telehealth, the small-cap HIMS analogue
+#   - [[Teladoc Health]] (TDOC) — enterprise / B2B virtual care (Livongo), the ex-pandemic giant
+#   - [[GoodRx]] (GDRX) — prescription-discount marketplace (not telehealth per se)
+#   - [[Doximity]] (DOCS) — physician network / B2B platform (ads + hiring), the profitable one
+# Hypothesis: FALSIFICATION — these trade on their own franchise/regulatory stories
+# (the medtech shape), maybe with a HIMS+LFMD DTC-subscription sub-pair. All US-listed,
+# synchronous — no async caveat.
+#
+# Controls (each a specific distinctness question):
+#   - growth (ARKK): unprofitable-growth / innovation beta — is "telehealth" just the
+#     high-beta growth trade these names all rode (and crashed with)?
+#   - healthcare (XLV): healthcare-sector beta — distinct from broad healthcare?
+#   - etf (IWM small-cap, SPY market): small-cap and broad-market beta.
+name: DTC telehealth
+primary: HIMS
+prefix: dtctelehealth-cluster
+threshold: 0.5
+window_end: 2026-06-12
+definition_date: 2026-06-14
+
+groups:
+  cluster:
+    color: "#2962FF"
+    tickers: [HIMS, TDOC, GDRX, DOCS, LFMD]
+  growth:
+    color: "#F4511E"
+    tickers: [ARKK]
+  healthcare:
+    color: "#7E57C2"
+    tickers: [XLV]
+  etf:
+    color: "#9E9E9E"
+    tickers: [IWM, SPY]

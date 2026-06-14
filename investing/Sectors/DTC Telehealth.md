@@ -144,6 +144,95 @@ The sector is bifurcated: DTC cash-pay (HIMS) briefly worked until the compoundi
 
 ---
 
+## Cluster validation
+
+> [!failure] Cluster status: falsified — a label, not a factor (June 2026)
+> The listed "telehealth" names do not trade as one factor — this is the most fragmented cohort the framework has measured. [[Hims & Hers]] (HIMS), [[Teladoc]] (TDOC), [[GoodRx]] (GDRX), [[Doximity]] (DOCS) and [[LifeMD]] (LFMD) intra-correlate just 0.273 (PC1 only 42.3%, variance spread across PC2–PC5), shatter into five singletons at threshold 0.5, and — decisively — fail the random-basket null (p 0.107): the cohesion is indistinguishable from a random five-pick of comparable names. The negative intra-advantage vs unprofitable-growth beta (ARKK, −0.099) and vs small-cap/market (IWM/SPY, −0.054) is the verdict: whatever co-moves is the high-beta growth trade these names rode and crashed with, not a telehealth factor. The label bundles four unrelated businesses — DTC subscription (HIMS/LFMD), enterprise virtual care (TDOC), Rx-discount marketplace (GDRX), physician-network B2B (DOCS) — each on its own franchise and regulatory story. Holdout WEAKENED (0.68); never tight in any year (0.41 in 2022 → 0.27 now). See below.
+
+The business read matches the statistics: there is no "telehealth basket" to own. The names share a sector label and a 2020–21 boom-and-bust arc, but their economics diverge completely — [[Doximity]] is a profitable, high-margin physician-advertising platform; [[Teladoc]] is a stalled enterprise-care provider still writing down [[Livongo]]; [[GoodRx]] arbitrages pharmacy pricing; [[Hims & Hers]] and [[LifeMD]] are DTC subscription brands riding the GLP-1 weight-loss wave. The only faint structure is the HIMS–LFMD DTC-subscription tie (0.40), too loose to be a cluster.
+
+### Diagnostics summary
+
+| Diagnostic | Value | Read |
+|---|---|---|
+| Intra-cluster corr (1Y) | 0.273 [0.103–0.402] | Far below the 0.50 floor — lowest in the batch |
+| PC1 explained variance | 42.3% | No common factor (weekly 55.5%) |
+| Independence null p (10k) | 0.0001 | They co-move a little |
+| Random-basket null p (10k) | 0.107 | FAILS — cohesion = a random 5-pick. Falsified. |
+| Vol-matched null p (10k) | 0.050 / 0.071 | Marginal — part of the cohesion is shared vol |
+| Holdout (2Y split) | WEAKENED 0.68 | 0.40 train → 0.27 test |
+| Threshold clean width | 0.00 | Five singletons — never a cluster |
+| Intra-adv vs growth (ARKK) | −0.099 | Negative — it is unprofitable-growth beta |
+| Intra-adv vs healthcare (XLV) | +0.167 | Weakly distinct from defensive healthcare |
+| Intra-adv vs market (IWM/SPY) | −0.054 | Negative — correlates more with small-cap/market |
+
+1Y daily log returns through 2026-06-12, threshold 0.5. All members US-listed (synchronous). Config: `scripts/cluster_configs/dtc_telehealth.yaml`; registry row 2026-06-14. Terminology: [[Cohort, cluster, basket]].
+
+### Boundary — five singletons
+
+![[dtctelehealth-cluster-dendrogram-1y.png]]
+*Hierarchical clustering at 0.5. The five telehealth names are five separate singletons; the only cluster on the chart is the ARKK/IWM/SPY growth-and-market-beta block (even XLV is a singleton). The cohort has no internal structure to find.*
+
+The threshold scan returns zero clean width — the names never form a single cluster at any cut. This is the [[Medtech]] / [[Theatrical exhibition]] signature (a sector or end-market label that is not a return factor), and the random-basket failure (p 0.107) puts it alongside [[Theatrical exhibition]] (p 0.099) as a pure dispersion falsification — weaker even than [[Medtech]], which at least beat random via shared healthcare beta.
+
+### Topology — nothing joins below the cut
+
+| Join step | Names | Distance (1-\|corr\|) | Read |
+|---|---|---|---|
+| 1 | TDOC + LFMD | 0.598 | First join — already above 0.5 |
+| 2 | HIMS + (TDOC+LFMD) | 0.632 | The DTC/enterprise loose group |
+| 3 | GDRX + above | 0.745 | Rx marketplace joins far out |
+| 4 | DOCS + rest | 0.794 | Physician network last — the biggest outlier |
+
+Nothing joins below the 0.5 threshold — the cohort has no tight core. [[Doximity]] is the structural outlier (joins last at 0.794, lowest PC1 loading 0.347, its weakest pair [[LifeMD]] at 0.10), consistent with its profitable B2B-platform model being unrelated to the cash-pay and enterprise-care names.
+
+### PC1 index weights
+
+![[dtctelehealth-cluster-pca-1y.png]]
+*PCA scree and PC1 loadings. PC1 explains only 42.3% with a long tail (PC2 18%, PC3 16%, PC4 13%, PC5 11%) — a genuinely five-factor set, not one factor with dispersion.*
+
+| Ticker | PC1 loading | Loading weight | Ann vol | Raw PC1-mimic weight |
+|---|---|---|---|---|
+| Hims & Hers (HIMS) | 0.489 | 22.0% | 90.5% | 17.1% |
+| Teladoc (TDOC) | 0.500 | 22.6% | 58.5% | 27.1% |
+| GoodRx (GDRX) | 0.401 | 18.1% | 69.0% | 18.5% |
+| Doximity (DOCS) | 0.347 | 15.7% | 59.4% | 18.5% |
+| LifeMD (LFMD) | 0.479 | 21.6% | 80.8% | 18.8% |
+
+The near-even loadings only look factor-like because no name dominates a 42%-PC1 — there is no shared factor for any of them to load heavily on. Realized vols span 58–91% (these are high-beta names), which is why the marginal vol-matched result matters: even against same-vol baskets the cohesion barely registers.
+
+### Distinctness — it is growth beta, not telehealth
+
+![[dtctelehealth-cluster-correlation-1y.png]]
+*1Y pairwise correlation heatmap. Uniformly cool — the warmest cell is HIMS–LFMD (0.40). The block is no warmer internally than against ARKK; the negative intra-advantage vs growth beta is the whole story.*
+
+The negative advantage vs ARKK (−0.099) and IWM/SPY (−0.054) is the cleanest possible statement of "label without a factor": the telehealth names correlate more with the unprofitable-growth trade and the broad small-cap market than with each other. There is no telehealth-specific return factor — only five idiosyncratic franchises that happened to ride the same 2020–21 growth bubble.
+
+### Historical tightness evolution
+
+![[dtctelehealth-cluster-rolling-tightness-90d.png]]
+*Rolling 90-day cohesion, 2022–2026. Never tight: 0.41 at the 2022 post-bubble high, collapsing to 0.24 in 2024 and 0.27 now. There was no era in which these traded as one factor.*
+
+| Window | Avg intra-corr | PC1 | Final join distance |
+|---|---|---|---|
+| 2022 | 0.412 | 53.1% | 0.633 |
+| 2024 | 0.238 | 40.0% | 0.820 |
+| 2025 | 0.332 | 47.7% | 0.774 |
+| 2026 | 0.273 | 42.8% | 0.835 |
+
+*Persistently fragmented — the cohesion never crossed the 0.50 floor in any window, and the final join distance stayed above 0.6 throughout. This is not a cohort that decayed; it never was one.*
+
+### The read-through
+
+- There is no telehealth basket. Intra 0.273, fails the random-basket null, five singletons — the label does not correspond to a return factor. A "DTC telehealth" basket is five unrelated bets plus shared growth beta.
+- What co-moves is ARKK, not telehealth. The negative intra-advantage vs unprofitable-growth beta means the only common thread is the high-beta growth trade. To express that view, own ARKK; to express a telehealth view, you are choosing single-name franchises.
+- Each name is its own story. [[Doximity]] (profitable physician-ad platform), [[Teladoc]] (stalled enterprise care), [[GoodRx]] (Rx-price arbitrage), [[Hims & Hers]]/[[LifeMD]] (GLP-1-driven DTC subscription) — different revenue models, different catalysts, no shared factor.
+- The cleanest falsification in the set. It fails the random-basket null outright (like [[Theatrical exhibition]]), unlike [[Medtech]] which at least beat random via shared healthcare beta — there is not even a sector-beta factor binding these.
+
+Method and terminology: `docs/cluster-validation.md`, [[Cohort, cluster, basket]], [[Vault cluster taxonomy]]. Post-definition OOS re-validation queued for the next quarterly pass (definition date 2026-06-14).
+
+---
+
 ## Related
 
 - [[Telehealth]] — concept overview (regulation, history, business models)
@@ -151,6 +240,10 @@ The sector is bifurcated: DTC cash-pay (HIMS) briefly worked until the compoundi
 - [[Ro]] — Novo's preferred D2C partner, private at $7B
 - [[Hims & Hers]] — largest public DTC platform, regulatory headwinds
 - [[Teladoc]] — B2B comparison, down 98% from peak
+- [[LifeMD]] — small-cap DTC-subscription peer (closest model tie to HIMS)
+- [[GoodRx]] — Rx-discount marketplace (adjacent; loosest cohort member)
+- [[Doximity]] — physician-network B2B platform (the profitable outlier)
+- [[Cohort, cluster, basket]] — terminology for the cluster validation above
 - [[Healthcare]] — parent sector
 - [[Biopharma]] — drug supply dynamics
 
