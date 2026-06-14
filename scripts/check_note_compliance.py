@@ -154,9 +154,12 @@ class NoteChecker(IndexMixin, FixMixin, AnalyticsMixin):
 
         names_to_check = {note_name} | aliases
 
-        # Find matches in cross-vaults, tracking whether match was via stem
+        # Find matches in cross-vaults, tracking whether match was via stem.
+        # Iterate names in sorted order so the alias-only "first match wins"
+        # choice and the matches insertion order are deterministic (set order
+        # is per-process hash-randomized).
         matches = {}  # vault_name -> (note_stem, rel_path, matched_via_stem)
-        for name in names_to_check:
+        for name in sorted(names_to_check):
             if name in self.CROSS_VAULT_IGNORE:
                 continue
             if name in self.cross_vault_index:
@@ -174,7 +177,7 @@ class NoteChecker(IndexMixin, FixMixin, AnalyticsMixin):
             return issues
 
         # Check if content already has cross-vault links for each matched vault
-        for vault_name, (stem, rel_path, via_stem) in matches.items():
+        for vault_name, (stem, rel_path, via_stem) in sorted(matches.items()):
             # For alias-only matches, require stems to refer to the same entity
             if not via_stem and note_name != stem.lower():
                 continue
@@ -1814,7 +1817,7 @@ class NoteChecker(IndexMixin, FixMixin, AnalyticsMixin):
 
         this_name = filepath.stem
 
-        for target_name in linked_names:
+        for target_name in sorted(linked_names):
             # Find the target file
             target_path = None
             for md_file in self.vault_root.rglob(f"{target_name}.md"):
