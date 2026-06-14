@@ -1,6 +1,7 @@
 import unittest
 from pathlib import Path
 import os
+import re
 import sys
 import subprocess
 from tempfile import TemporaryDirectory
@@ -415,6 +416,150 @@ It adds more detail about the firm's platform, portfolio construction, and priva
         issues = self.check_synthetic_actor(content)
 
         self.assertFalse(any(issue.rule == "founder-edge" for issue in issues))
+
+
+class UnsourcedWorkClaimTests(unittest.TestCase):
+    """Lock in the unsourced superlative book/work-claim check."""
+
+    def _work_claims(self, content: str):
+        with TemporaryDirectory(dir=_TMP_DIR) as tmpdir:
+            vault = Path(tmpdir) / "investing"
+            actors = vault / "Actors"
+            actors.mkdir(parents=True)
+            note = actors / "Synthetic Person.md"
+            note.write_text(content, encoding="utf-8")
+
+            original_cross_vaults = NoteChecker.CROSS_VAULTS
+            NoteChecker.CROSS_VAULTS = {}
+            try:
+                checker = NoteChecker(vault, use_index_cache=False)
+                issues = checker.check_note(note)
+            finally:
+                NoteChecker.CROSS_VAULTS = original_cross_vaults
+        return [i for i in issues if i.rule == "unsourced-work-claim"]
+
+    def test_superlative_claim_without_title_is_flagged(self) -> None:
+        content = """---
+aliases: [Synthetic Person]
+tags: [actor, person]
+---
+#actor #person
+
+**Synthetic Person** is a writer and researcher.
+
+Author of the definitive book on widget theory, widely regarded as essential reading.
+
+## Related
+- [[Synthetic Topic]]
+"""
+        claims = self._work_claims(content)
+        self.assertEqual(len(claims), 1)
+        self.assertIn("definitive book", claims[0].message)
+
+    def test_titled_quoted_and_forthcoming_claims_pass(self) -> None:
+        content = """---
+aliases: [Synthetic Person]
+tags: [actor, person]
+---
+#actor #person
+
+**Synthetic Person** is a writer and researcher.
+
+Author of the landmark guide *Specific Title* (2024) to gadgets.
+He wrote the seminal account "Quoted Title" (2019) on macro history.
+Has a forthcoming book on globalisation.
+
+## Related
+- [[Synthetic Topic]]
+"""
+        self.assertEqual(self._work_claims(content), [])
+
+
+class DeterministicOrderingTests(unittest.TestCase):
+    """Output order must not depend on set iteration order (hash seed).
+
+    These pin the sorted() invariants added for the set-iteration checks; a
+    regression that drops a sort would reorder issues and fail here.
+    """
+
+    def test_missing_link_issues_alphabetical_within_length(self) -> None:
+        with TemporaryDirectory(dir=_TMP_DIR) as tmpdir:
+            vault = Path(tmpdir) / "investing"
+            actors = vault / "Actors"
+            actors.mkdir(parents=True)
+            # Equal-length names so ordering is decided by the alphabetical
+            # tiebreak (the part that was set-hash-dependent), not length.
+            for name in ["Brav Group", "Char Group", "Alfa Group"]:
+                (actors / f"{name}.md").write_text("#actor\n\nstub.\n", encoding="utf-8")
+            note = actors / "Target Co.md"
+            body = ("#actor\n\nTarget Co works with Alfa Group, Brav Group, "
+                    "and Char Group across projects.\n")
+            note.write_text(body, encoding="utf-8")
+
+            original = NoteChecker.CROSS_VAULTS
+            NoteChecker.CROSS_VAULTS = {}
+            try:
+                checker = NoteChecker(vault, use_index_cache=False)
+                issues = checker._check_missing_links(body, note)
+            finally:
+                NoteChecker.CROSS_VAULTS = original
+
+        names = [re.search(r"'([^']+)'", i.message).group(1)
+                 for i in issues if i.rule == "missing-link"]
+        self.assertEqual(names, ["Alfa Group", "Brav Group", "Char Group"])
+
+    def test_bidirectional_issues_sorted(self) -> None:
+        with TemporaryDirectory(dir=_TMP_DIR) as tmpdir:
+            vault = Path(tmpdir) / "investing"
+            concepts = vault / "Concepts"
+            concepts.mkdir(parents=True)
+            for name in ["Zeta Theme", "Mu Theme", "Alfa Theme"]:
+                (concepts / f"{name}.md").write_text(
+                    "#concept\n\nstub.\n\n## Related\n- [[Other]]\n", encoding="utf-8")
+            note = concepts / "Source Theme.md"
+            body = ("#concept\n\nstub.\n\n## Related\n"
+                    "- [[Zeta Theme]]\n- [[Alfa Theme]]\n- [[Mu Theme]]\n")
+            note.write_text(body, encoding="utf-8")
+
+            original = NoteChecker.CROSS_VAULTS
+            NoteChecker.CROSS_VAULTS = {}
+            try:
+                checker = NoteChecker(vault, use_index_cache=False)
+                issues = checker._check_bidirectional_related(body, note)
+            finally:
+                NoteChecker.CROSS_VAULTS = original
+
+        targets = [re.search(r"\[\[([^\]]+)\]\]", i.message).group(1)
+                   for i in issues if i.rule == "bidirectional-related"]
+        self.assertEqual(targets, ["Alfa Theme", "Mu Theme", "Zeta Theme"])
+
+    def test_cross_vault_issues_sorted_by_vault(self) -> None:
+        with TemporaryDirectory(dir=_TMP_DIR) as tmpdir:
+            vault = Path(tmpdir) / "investing"
+            actors = vault / "Actors"
+            actors.mkdir(parents=True)
+            content = "---\naliases: []\n---\n#actor\n\n**Synthetic** is a company.\n"
+            note = actors / "Synthetic.md"
+            note.write_text(content, encoding="utf-8")
+
+            original = NoteChecker.CROSS_VAULTS
+            NoteChecker.CROSS_VAULTS = {}
+            try:
+                checker = NoteChecker(vault, use_index_cache=False)
+                # Stem matches multiple vaults; emitted issues must be vault-sorted.
+                checker.cross_vault_index = {
+                    "synthetic": [
+                        ("technologies", "Synthetic", "Actors/Synthetic"),
+                        ("geopolitics", "Synthetic", "Actors/Synthetic"),
+                    ]
+                }
+                issues = checker._check_cross_vault_links(content, note)
+            finally:
+                NoteChecker.CROSS_VAULTS = original
+
+        vaults = [re.search(r"exists in (\w+) vault", i.message).group(1)
+                  for i in issues if i.rule == "cross-vault"]
+        self.assertEqual(vaults, ["geopolitics", "technologies"])
 
 
 if __name__ == "__main__":
