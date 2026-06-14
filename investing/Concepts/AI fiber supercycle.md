@@ -5,6 +5,9 @@ aliases: [Fiber supercycle, AI fiber demand, Data center fiber]
 
 **AI fiber supercycle** — Explosive growth in fiber-optic demand driven by AI data center buildout. Hyperscalers signing multi-billion dollar, multi-year supply deals with optical infrastructure providers.
 
+![[glw-vs-cohr-cien-lite.png]]
+*Normalized performance since Jan 2024 of the listed optical complex — [[Corning]] (GLW, blue), [[Coherent]] (COHR), [[Ciena]] (CIEN), [[Lumentum]] (LITE). The names re-rated together as AI datacenter demand turned optics from a second-order beneficiary into a priced bottleneck — the co-movement that the [[AI interconnect]] cluster test confirms (the optical sleeve trades as one complex). Data through 2026-06-12.*
+
 ---
 
 ## Why AI drives fiber demand
@@ -141,6 +144,12 @@ Bear:
 | Fiber pricing | Supply/demand balance |
 | Long-term supply agreements | Commitment level |
 | Data center construction starts | Forward demand |
+
+---
+
+## Cluster read-through — the optical names trade as one complex
+
+A June 2026 cluster test of the listed AI-interconnect equities found that the optical sleeve — [[Coherent]] (COHR, transceivers/lasers) and [[Ciena]] (CIEN, optical systems) — is not distinct from the broad optical peers [[Lumentum]] (LITE) and [[Fabrinet]] (FN): the four cluster together (negative intra-advantage vs the peers), so "AI optics" is the optical-components complex, not a separable factor within it. These optical names are the equity expression of the fiber/optical demand thesis on this page; the electrical-interconnect silicon ([[Credo Technology Group]], [[Astera Labs]]) is a separate micro-cohort that does not trade with them. See [[AI interconnect#Cluster validation]] for the full decomposition.
 
 ---
 

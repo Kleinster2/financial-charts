@@ -26,7 +26,7 @@ Networking and connectivity semiconductor cluster. AVGO, QCOM, MRVL trade togeth
 
 | Metric | Value | Interpretation |
 |--------|-------|----------------|
-| **Avg correlation** | 0.58 | Moderate-strong (valid cluster) |
+| Avg correlation | 0.58 | Moderate-strong (valid cluster) |
 | Range | 0.55 - 0.63 | AVGO-QCOM to AVGO-MRVL |
 | vs AI/Compute cluster | ~0.35 | Distinct clusters |
 | Period | 2024-01 to present | |
@@ -76,6 +76,12 @@ The important detail is the product mix: management tied the acceleration to 800
 Cluster read-through: the [[Connectivity]] child remains a looser trading cluster than [[AI Compute]], but the business exposure is converging. [[Broadcom]] and Marvell are now the two public names where custom AI silicon and networking sit in the same P&L, while [[Qualcomm]] keeps the cluster partly tied to mobile/RF cycles. Do not treat this as a new cluster-validation result until the correlations are rerun; treat it as a fundamental watch item.
 
 *Sources: [Marvell Q1 FY2027 release](https://investor.marvell.com/news-events/press-releases/detail/1023/marvell-technology-inc-reports-first-quarter-of-fiscal-year-2027-financial-results), [Marvell Q1 FY2027 financial/business results presentation](https://d1io3yog0oux5.cloudfront.net/_6c98e153147f20a85f8f719ed2bcb520/marvell/db/3734/35382/presentation/2026_05_27_Marvell_Q1_FY27_financial_business_results_FINAL.pdf), [[Reuters]] via [StreetInsider](https://www.streetinsider.com/Reuters/Marvell%2Bforecasts%2Bquarterly%2Brevenue%2Babove%2Bestimates%2Bon%2BAI%2Bchip%2Bdemand/26557948.html), May 27 2026.*
+
+---
+
+## Adjacent cohort — AI interconnect silicon
+
+The in-rack electrical-interconnect names — [[Credo Technology Group]] (CRDO, active electrical cables) and [[Astera Labs]] (ALAB, PCIe/CXL retimers) — form a validated micro-cohort (pair correlation 0.61, 91–95% annualized vol) that trades adjacent to, but apart from, the big-cap networking semis here. They are the connectivity-silicon sleeve of the [[AI interconnect]] complex. The June 2026 cluster test found the four-name "AI optics/networking" basket is not one factor: this pair separates cleanly from the optical names ([[Coherent]]/[[Ciena]]), which trade with the broad optical complex instead. See [[AI interconnect#Cluster validation]].
 
 ---
 

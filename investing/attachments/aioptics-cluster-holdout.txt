@@ -1,0 +1,22 @@
+AI optics / networking HOLDOUT TEST
+Cohort: COHR, CIEN, CRDO, ALAB (N=4)
+Window: 2y, split temporally at midpoint
+Train: 2024-06-12 -> 2025-06-12 (249 obs)
+Test:  2025-06-12 -> 2026-06-12 (252 obs)
+
+--- TRAIN HALF (older) ---
+Intra-correlation:    0.6632
+PC1 explained var:    74.76%
+Pairwise range:       [0.601, 0.735]
+
+--- TEST HALF (newer) ---
+Intra-correlation:    0.4835
+PC1 explained var:    61.30%
+Pairwise range:       [0.388, 0.684]
+
+--- STABILITY DIAGNOSTICS ---
+Intra-corr delta:     -0.1796   (test - train)
+PC1 variance delta:   -13.46pp
+PC1 loadings corr:    0.1198    (1.0 = identical factor structure)
+
+VERDICT: WEAKENED — test/train ratio 0.73 (factor present but eroding)

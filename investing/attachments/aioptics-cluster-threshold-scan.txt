@@ -1,0 +1,34 @@
+AI optics / networking THRESHOLD STABILITY SCAN
+Cohort size: 4
+
+--- ASSIGNMENT TABLE ---
+ threshold  n_subclusters  largest_subcluster_size  cohort_share_in_largest  contamination_count  intact
+      0.20              4                        1                     0.25                    0   False
+      0.25              4                        1                     0.25                    1   False
+      0.30              4                        1                     0.25                    1   False
+      0.35              3                        2                     0.50                    2   False
+      0.40              2                        2                     0.50                    2   False
+      0.45              2                        2                     0.50                    2   False
+      0.50              2                        2                     0.50                    2   False
+      0.55              2                        2                     0.50                    6   False
+      0.60              1                        4                     1.00                    7   False
+      0.65              1                        4                     1.00                    7   False
+      0.70              1                        4                     1.00                    7   False
+
+--- STABLE RANGES (intact cohort, no contamination) ---
+  None — cohort never returns as a clean single cluster at any threshold.
+
+--- VERDICT ---
+BOUNDARY-DEPENDENT: cohort does not form a clean cluster at any threshold tested. Falsification candidate.
+
+--- CONTAMINATION DETAIL (non-cohort names joining the cohort's largest cluster) ---
+  threshold 0.25: + LITE
+  threshold 0.30: + LITE
+  threshold 0.35: + LITE,FN
+  threshold 0.40: + LITE,FN
+  threshold 0.45: + LITE,FN
+  threshold 0.50: + LITE,FN
+  threshold 0.55: + LITE,FN,AVGO,NVDA,SMH...
+  threshold 0.60: + LITE,FN,ANET,AVGO,NVDA...
+  threshold 0.65: + LITE,FN,ANET,AVGO,NVDA...
+  threshold 0.70: + LITE,FN,ANET,AVGO,NVDA...

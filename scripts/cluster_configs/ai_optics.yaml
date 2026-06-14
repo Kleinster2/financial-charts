@@ -1,0 +1,42 @@
+# AI optics / networking — the listed datacenter-interconnect names that sell the
+# "plumbing" of the AI buildout: optical transceivers / lasers ([[Coherent]] COHR),
+# optical networking systems ([[Ciena]] CIEN), and the electrical-interconnect
+# connectivity silicon — active electrical cables ([[Credo Technology]] CRDO) and
+# PCIe/CXL retimers ([[Astera Labs]] ALAB).
+# Hypothesis: an "AI interconnect" factor distinct from AI-compute (NVDA) and from
+# the networking-systems / switching giants (ANET, AVGO).
+# Open question (flagged in the audit): the cohort spans two business types —
+# optical (COHR/CIEN) vs electrical connectivity (CRDO/ALAB) — so the dendrogram
+# may split into an optical sleeve and a connectivity sleeve rather than one factor;
+# and the broad optical peers (LITE/FN) may merge in, making the real cohort
+# "AI optics" generally rather than these four specifically.
+# Controls (each a specific distinctness question):
+#   - optical_peers (LITE Lumentum, FN Fabrinet): the obvious optical-component
+#     peers. Does the named cohort separate from broad optics, or do LITE/FN merge?
+#   - ai_networking (ANET Arista, AVGO Broadcom): the large-cap networking-systems
+#     and switching-silicon giants. Is the cohort distinct from the networking tier?
+#   - ai_compute (NVDA): the GPU demand driver — is this just NVDA / AI-demand beta?
+#   - etf (SMH semis, SPY market): SMH semis benchmark; SPY broad market.
+name: AI optics / networking
+primary: COHR
+prefix: aioptics-cluster
+threshold: 0.5
+window_end: 2026-06-12
+definition_date: 2026-06-14
+
+groups:
+  cluster:
+    color: "#2962FF"
+    tickers: [COHR, CIEN, CRDO, ALAB]
+  optical_peers:
+    color: "#F4511E"
+    tickers: [LITE, FN]
+  ai_networking:
+    color: "#7E57C2"
+    tickers: [ANET, AVGO]
+  ai_compute:
+    color: "#26A69A"
+    tickers: [NVDA]
+  etf:
+    color: "#9E9E9E"
+    tickers: [SMH, SPY]
