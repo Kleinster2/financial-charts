@@ -37,7 +37,7 @@ US holders were left to convert to the Hong Kong line or exit. The episode is a 
 
 ## Price history
 
-0762.HK closed HK$7.20 (2026-06-12). The instrument's defining feature is the 2021–2026 re-rating: after years as a flat, unloved utility (the blue line spent 2021–2022 below its starting level), all three Chinese telecoms inflected upward through 2023–2025 on the [[中特估|China special-valuation / SOE value-up theme]] — high dividend yield, state "national team" buying, capex discipline turning into free cash flow. A shared step-change in early 2025 lifted the whole bloc.
+0762.HK closed HK$7.20 (2026-06-12). The instrument's defining feature is the 2021–2026 re-rating: after years as a flat, unloved utility (the blue line spent 2021–2022 below its starting level), all three Chinese telecoms inflected upward through 2023–2025 on the [[China special valuation|China special-valuation / SOE value-up theme]] — high dividend yield, state "national team" buying, capex discipline turning into free cash flow. A shared step-change in early 2025 lifted the whole bloc.
 
 ![[0762.HK-vs-0941.HK-vs-0728.HK-price-chart.png]]
 *0762.HK (blue) vs [[China Mobile\|0941.HK]] (red) and [[China Telecom\|0728.HK]] (green), normalized from January 2021. China Telecom led (~+250%), China Mobile next (~+180%), China Unicom the laggard (~+130%) — but all three trace the same path, the visible signature of the China-telecom cluster. The early-2025 common jump is the bloc re-rating in unison.*
@@ -80,4 +80,4 @@ Hedge/expression: 0762.HK is hedgeable against 0941.HK and 0728.HK (same factor)
 - [[China Mobile]] — cluster peer (0941.HK)
 - [[China Telecom]] — cluster peer (0728.HK)
 - [[Executive Order 13959]] — the ADR delisting trigger
-- [[中特估]] — the SOE value-up re-rating driving the 2021–2026 price action
+- [[China special valuation]] — the SOE value-up re-rating driving the 2021–2026 price action

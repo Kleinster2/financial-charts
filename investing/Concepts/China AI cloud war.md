@@ -64,7 +64,7 @@ The five-way framing above is the tech-giant race. It omits a fourth track that 
 
 The measurement is contested and worth stating carefully: independent trackers (Omdia, Canalys) rank the narrow public-cloud-IaaS market as [[Alibaba Cloud]] ~33–36%, [[Huawei Cloud]] ~16–19%, [[Tencent Cloud]] ~9–15% — and place the telecom clouds differently because much of their revenue is government, private, and systems-integration cloud rather than pure public IaaS. So the telecom clouds are simultaneously huge by reported revenue and lower on the public-IaaS leaderboard, depending on the cut.
 
-What is not contested is where they win: government, SOE, and provincial/municipal cloud, where the operators' state ownership, security posture, and national footprint are decisive — the same buyer [[Huawei Cloud]] targets, and the reason Huawei's external cloud growth stalled (the telecom clouds are taking the state segment). They are also the builders of the [[东数西算]] national computing layer, converting their land/power/fiber into intelligent-computing capacity (China Telecom 91 EFLOPS, [[China Unicom]] 45 EFLOPS).
+What is not contested is where they win: government, SOE, and provincial/municipal cloud, where the operators' state ownership, security posture, and national footprint are decisive — the same buyer [[Huawei Cloud]] targets, and the reason Huawei's external cloud growth stalled (the telecom clouds are taking the state segment). They are also the builders of the [[East Data West Compute]] national computing layer, converting their land/power/fiber into intelligent-computing capacity (China Telecom 91 EFLOPS, [[China Unicom]] 45 EFLOPS).
 
 Chosen metric: Government/SOE cloud revenue + state computing capacity.
 Risk: Integration-heavy, lower-margin, policy-dependent revenue; weak in the developer/MaaS layer where the token economy is growing fastest.
@@ -140,7 +140,7 @@ The open question is which segment generates the most long-term value. Enterpris
 - [[Tianyi Cloud]] — [[China Telecom]]; largest of the operator clouds (>RMB120bn)
 - [[China Mobile]] — Mobile Cloud
 - [[China Unicom]] — Unicom Cloud
-- [[东数西算]] — the national computing buildout the operators run
+- [[East Data West Compute]] — the national computing buildout the operators run
 
 ### Parent companies
 - [[ByteDance]] — Volcano Engine parent

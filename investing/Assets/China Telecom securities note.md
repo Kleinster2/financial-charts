@@ -29,7 +29,7 @@ China Telecom's ADR (CHA) was removed from the NYSE in 2021 under [[Executive Or
 
 ## Price history
 
-0728.HK closed HK$4.91 (2026-06-12). China Telecom is the strongest performer of the three telecoms in the 2021–2026 re-rating — the bloc-wide [[中特估|SOE value-up theme]] (dividend yield, national-team buying, capex discipline) amplified by its cloud-growth tilt.
+0728.HK closed HK$4.91 (2026-06-12). China Telecom is the strongest performer of the three telecoms in the 2021–2026 re-rating — the bloc-wide [[China special valuation|SOE value-up theme]] (dividend yield, national-team buying, capex discipline) amplified by its cloud-growth tilt.
 
 ![[0728.HK-vs-0762.HK-vs-0941.HK-price-chart.png]]
 *0728.HK (blue) vs [[China Unicom\|0762.HK]] (red) and [[China Mobile\|0941.HK]] (green), normalized from January 2021. China Telecom led the bloc (~+250%), ahead of China Mobile (~+180%) and China Unicom (~+130%) — but all three trace the same path, the signature of the China-telecom cluster.*
@@ -70,4 +70,4 @@ Cluster validation (`scripts/cluster_configs/china_telecom.yaml`, full diagnosti
 - [[China Unicom]] — bloc peer (0762.HK); carries the full cluster cohort analysis
 - [[China Mobile]] — bloc peer (0941.HK)
 - [[Executive Order 13959]] — the ADR delisting trigger
-- [[中特估]] — the SOE value-up re-rating driving the 2021–2026 price action
+- [[China special valuation]] — the SOE value-up re-rating driving the 2021–2026 price action

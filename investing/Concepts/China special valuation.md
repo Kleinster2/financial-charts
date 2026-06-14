@@ -1,11 +1,11 @@
 ---
-aliases: [China special valuation, SOE value-up, China Special Valuation System, 中国特色估值体系, zhongtegu, Zhongte valuation]
+aliases: [中特估, SOE value-up, China Special Valuation System, 中国特色估值体系, zhongtegu, Zhongte valuation]
 tags: [concept, china, equities, soe, valuation, dividends]
 ---
 
 #concept #china #equities #soe #valuation
 
-**中特估** (zhōngtègū, "valuation system with Chinese characteristics" / 中国特色估值体系) — the policy-backed re-rating of [[China|Chinese]] state-owned enterprises, premised on the claim that SOEs trade at unjustifiably low valuations relative to their fundamentals and strategic importance. Proposed by CSRC Chairman Yi Huiman in November 2022 and amplified by a collapsing domestic bond yield that turned high-dividend SOEs into bond substitutes, it drove a multi-year re-rating of state banks, energy majors, and telecoms — the structural force behind the 2023–2026 outperformance of names like [[China Mobile]], [[PetroChina]], and the rest of the state-champion complex.
+**China special valuation** (中特估, zhōngtègū, "valuation system with Chinese characteristics" / 中国特色估值体系) — the policy-backed re-rating of [[China|Chinese]] state-owned enterprises, premised on the claim that SOEs trade at unjustifiably low valuations relative to their fundamentals and strategic importance. Proposed by CSRC Chairman Yi Huiman in November 2022 and amplified by a collapsing domestic bond yield that turned high-dividend SOEs into bond substitutes, it drove a multi-year re-rating of state banks, energy majors, and telecoms — the structural force behind the 2023–2026 outperformance of names like [[China Mobile]], [[PetroChina]], and the rest of the state-champion complex.
 
 ---
 

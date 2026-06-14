@@ -29,7 +29,7 @@ China Mobile's ADR (CHL) was the first of the three Chinese telecom ADRs removed
 
 ## Price history
 
-0941.HK closed HK$81.80 (2026-06-12). Like the rest of the bloc, the defining feature is the 2021–2026 re-rating: a long-unloved utility re-rated through 2023–2025 on the [[中特估|SOE value-up theme]] — high dividend yield, "national team" buying, capex discipline turning into cash returns — with a shared step-change across all three telecoms in early 2025.
+0941.HK closed HK$81.80 (2026-06-12). Like the rest of the bloc, the defining feature is the 2021–2026 re-rating: a long-unloved utility re-rated through 2023–2025 on the [[China special valuation|SOE value-up theme]] — high dividend yield, "national team" buying, capex discipline turning into cash returns — with a shared step-change across all three telecoms in early 2025.
 
 ![[0941.HK-vs-0762.HK-vs-0728.HK-price-chart.png]]
 *0941.HK (blue) vs [[China Unicom\|0762.HK]] (red) and [[China Telecom\|0728.HK]] (green), normalized from January 2021. China Mobile (~+180%) sits between the bloc leader China Telecom (~+250%) and the laggard China Unicom (~+130%) — all three trace the same path, the signature of the China-telecom cluster.*
@@ -70,4 +70,4 @@ Cluster validation (`scripts/cluster_configs/china_telecom.yaml`, full diagnosti
 - [[China Unicom]] — bloc peer (0762.HK); carries the full cluster cohort analysis
 - [[China Telecom]] — bloc peer (0728.HK)
 - [[Executive Order 13959]] — the ADR delisting trigger
-- [[中特估]] — the SOE value-up re-rating driving the 2021–2026 price action
+- [[China special valuation]] — the SOE value-up re-rating driving the 2021–2026 price action

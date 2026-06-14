@@ -7,7 +7,7 @@ tags: [actor, china, telecom, soe]
 
 **China Mobile** — [[China]]'s largest telecom operator and the dominant, most profitable of the three state-owned carriers (with [[China Unicom]] and [[China Telecom]]), with ~1.0bn mobile customers and ~RMB1.05tn revenue. The anchor of the China-telecom bloc: the lowest-volatility, highest-dividend member, run as a cash-returning value-up vehicle while it builds Mobile Cloud and computing capacity for its next leg of growth.
 
-One-line read: China Mobile is the high-margin core of a tight, state-driven China-telecom bloc that has re-rated on the [[中特估|SOE value-up theme]], with the forward bet being whether ~RMB1tn of revenue can keep compounding at low-single-digits and the dividend keep ratcheting now that mobile is saturated and profit growth has stalled (net profit dipped −0.9% in 2025).
+One-line read: China Mobile is the high-margin core of a tight, state-driven China-telecom bloc that has re-rated on the [[China special valuation|SOE value-up theme]], with the forward bet being whether ~RMB1tn of revenue can keep compounding at low-single-digits and the dividend keep ratcheting now that mobile is saturated and profit growth has stalled (net profit dipped −0.9% in 2025).
 
 ---
 
@@ -24,7 +24,7 @@ One-line read: China Mobile is the high-margin core of a tight, state-driven Chi
 | Mobile Cloud revenue (H1 2025) | RMB 56.1bn (+11.3%) |
 | Controlling shareholder | China Mobile Communications Group (SASAC) |
 
-China Mobile is the largest member of the bloc by a wide margin — its ~RMB137bn net profit exceeds [[China Unicom]] (RMB20.8bn) and [[China Telecom]] (RMB33.2bn) combined, and its ~13% net margin roughly doubles theirs. It is the index-weight anchor of any China-telecom exposure and the cleanest dividend-yield expression of the [[中特估]] re-rating.
+China Mobile is the largest member of the bloc by a wide margin — its ~RMB137bn net profit exceeds [[China Unicom]] (RMB20.8bn) and [[China Telecom]] (RMB33.2bn) combined, and its ~13% net margin roughly doubles theirs. It is the index-weight anchor of any China-telecom exposure and the cleanest dividend-yield expression of the [[China special valuation]] re-rating.
 
 ---
 
@@ -48,9 +48,9 @@ China Mobile is the largest member of the bloc by a wide margin — its ~RMB137b
 
 ## Operations and the dividend
 
-China Mobile's connectivity base is saturated; the equity story is increasingly the payout. The company raised its final dividend (HK$2.52/share; ~HK$5.27 annual) and has guided toward a rising cash-return ratio — the engine of its [[中特估]] re-rating. Capex is disciplined (RMB25.8bn on 5G in H1 2025; 2.6mn cumulative 5G base stations). 5G network customers reached 642mn. The growth optionality sits in:
+China Mobile's connectivity base is saturated; the equity story is increasingly the payout. The company raised its final dividend (HK$2.52/share; ~HK$5.27 annual) and has guided toward a rising cash-return ratio — the engine of its [[China special valuation]] re-rating. Capex is disciplined (RMB25.8bn on 5G in H1 2025; 2.6mn cumulative 5G base stations). 5G network customers reached 642mn. The growth optionality sits in:
 
-- Mobile Cloud (移动云) — H1 2025 revenue RMB56.1bn (+11.3%), part of the same state-directed cloud/computing buildout the bloc is running (see [[东数西算]]).
+- Mobile Cloud (移动云) — H1 2025 revenue RMB56.1bn (+11.3%), part of the same state-directed cloud/computing buildout the bloc is running (see [[East Data West Compute]]).
 - Computing and AI infrastructure — China Mobile is one of the three telecoms converting their power/land/fiber footprint into intelligent-computing capacity.
 
 The open question is identical to its peers: can fast-growing-but-small cloud/computing offset a flat connectivity core large enough that even double-digit cloud growth barely moves the consolidated line.
@@ -95,7 +95,7 @@ China Mobile is the lowest-volatility member (11.8% annualized vs [[China Unicom
 ## What to watch
 
 - Profit inflection — 2025's −0.9% net-income dip is the first of the period. Whether this is a one-off or the start of mobile-saturation margin pressure determines if the dividend case still has earnings behind it.
-- Dividend ratio — the [[中特估]] re-rating rests on a rising payout. China Mobile's guided cash-return increases are the single most-watched dial.
+- Dividend ratio — the [[China special valuation]] re-rating rests on a rising payout. China Mobile's guided cash-return increases are the single most-watched dial.
 - Mobile Cloud / computing scale — RMB56.1bn H1 and +11.3% growth; the question is whether it can grow large enough to offset a flat ~RMB1tn connectivity core.
 - The bloc — with PC1 ~78%, China Mobile co-moves with [[China Unicom]] and [[China Telecom]]; watch sector-wide dividend/policy signals.
 
@@ -105,7 +105,7 @@ China Mobile is the lowest-volatility member (11.8% annualized vs [[China Unicom
 
 China Mobile is the bloc's centre of gravity and its safest expression: lowest volatility, highest margin, biggest dividend, and a balance sheet that lets it keep raising the payout. The cluster work (PC1 ~78%, the three telecoms a clean group separate from both US telecoms and China ETFs) says owning China Mobile is owning the China-telecom-policy factor in its most defensive form — Unicom is the higher-beta version of the same trade, Telecom the cloud-tilted one.
 
-The tension is that the engine driving the re-rating — a ratcheting dividend funded by capex discipline on a saturated, ~13%-margin business — is now bumping against the growth ceiling: revenue +0.9% and the first net-profit decline of the cycle in 2025. A dividend story needs earnings that at least hold; a sustained profit slide would force the choice between payout growth and reinvestment in the cloud/computing pivot. That pivot (Mobile Cloud +11.3%, the [[东数西算]] buildout) is real but small relative to a RMB1tn base — the same arithmetic problem all three carriers face. China Mobile has the most cash to fund both the dividend and the buildout, which is exactly why it trades as the bloc's anchor rather than its option.
+The tension is that the engine driving the re-rating — a ratcheting dividend funded by capex discipline on a saturated, ~13%-margin business — is now bumping against the growth ceiling: revenue +0.9% and the first net-profit decline of the cycle in 2025. A dividend story needs earnings that at least hold; a sustained profit slide would force the choice between payout growth and reinvestment in the cloud/computing pivot. That pivot (Mobile Cloud +11.3%, the [[East Data West Compute]] buildout) is real but small relative to a RMB1tn base — the same arithmetic problem all three carriers face. China Mobile has the most cash to fund both the dividend and the buildout, which is exactly why it trades as the bloc's anchor rather than its option.
 
 ---
 
@@ -139,8 +139,8 @@ The tension is that the engine driving the re-rating — a ratcheting dividend f
 - [[China Tower]] — jointly-owned tower company
 
 ### Themes
-- [[中特估]] — China special valuation / SOE value-up re-rating
-- [[东数西算]] — East Data West Compute; the national computing buildout
+- [[China special valuation]] — China special valuation / SOE value-up re-rating
+- [[East Data West Compute]] — East Data West Compute; the national computing buildout
 - [[Executive Order 13959]] — the 2021 NYSE delisting trigger
 
 ### Infrastructure

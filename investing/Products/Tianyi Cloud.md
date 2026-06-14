@@ -5,7 +5,7 @@ tags: [product, china, cloud, ai-infrastructure]
 
 #product #china #cloud #ai-infrastructure
 
-**Tianyi Cloud** (天翼云) — [[China Telecom]]'s public-cloud platform and the largest of the three Chinese telecom-operator clouds. FY2025 revenue exceeded RMB120bn, which China Telecom cites as #2 in China public-cloud IaaS behind [[Alibaba Cloud]]. The vehicle that makes China Telecom the cloud/AI leader of the three state telecoms, built on the [[东数西算]] national computing buildout and anchored in the government and SOE segment.
+**Tianyi Cloud** (天翼云) — [[China Telecom]]'s public-cloud platform and the largest of the three Chinese telecom-operator clouds. FY2025 revenue exceeded RMB120bn, which China Telecom cites as #2 in China public-cloud IaaS behind [[Alibaba Cloud]]. The vehicle that makes China Telecom the cloud/AI leader of the three state telecoms, built on the [[East Data West Compute]] national computing buildout and anchored in the government and SOE segment.
 
 ---
 
@@ -25,7 +25,7 @@ The reconciliation: a large share of Tianyi's revenue is government, state-enter
 ## Where it wins
 
 - Government, SOE, and provincial/municipal cloud — where China Telecom's state ownership, security posture, and national footprint are decisive. This is the same buyer [[Huawei Cloud]] targets, and the telecom clouds taking the state segment is part of why Huawei's external cloud growth stalled.
-- The [[东数西算]] buildout — China Telecom converts its land, power, and fiber into intelligent-computing capacity (91 EFLOPS, roughly double [[China Unicom]]'s 45 EFLOPS), the supply side of the state cloud.
+- The [[East Data West Compute]] buildout — China Telecom converts its land, power, and fiber into intelligent-computing capacity (91 EFLOPS, roughly double [[China Unicom]]'s 45 EFLOPS), the supply side of the state cloud.
 - AI-related revenue grew ~89% (H1 2025), the fastest-growing line.
 
 ## Where it lags
@@ -60,5 +60,5 @@ Tianyi is the single biggest reason [[China Telecom]] has a credible non-utility
 - [[Alibaba Cloud]] — #1 China public cloud
 - [[Huawei Cloud]] — the other big state-segment competitor
 - [[China AI cloud war]] — competitive landscape (state-operator cohort)
-- [[东数西算]] — the national computing buildout it draws on
+- [[East Data West Compute]] — the national computing buildout it draws on
 - [[China token economy]] — the MaaS/token layer where Tianyi is light

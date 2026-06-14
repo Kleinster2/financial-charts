@@ -5,7 +5,7 @@ tags: [actor, china, banks, soe, stub]
 
 #actor #china #banks #soe #stub
 
-**China Construction Bank** (CCB) — the second-largest of [[China|China's]] big-four state banks, with historic strength in infrastructure and mortgage lending. A core [[中特估]] holding alongside [[ICBC]], [[Agricultural Bank of China]], and [[Bank of China]] — high-dividend, state-controlled, deep book discount. Listed in Hong Kong (0939.HK) and Shanghai (601939.SS); part of the tightest sub-bloc (bank intra-correlation 0.72–0.89) in the vault's 中特估 cluster.
+**China Construction Bank** (CCB) — the second-largest of [[China|China's]] big-four state banks, with historic strength in infrastructure and mortgage lending. A core [[China special valuation]] holding alongside [[ICBC]], [[Agricultural Bank of China]], and [[Bank of China]] — high-dividend, state-controlled, deep book discount. Listed in Hong Kong (0939.HK) and Shanghai (601939.SS); part of the tightest sub-bloc (bank intra-correlation 0.72–0.89) in the vault's 中特估 cluster.
 
 ---
 
@@ -25,7 +25,7 @@ tags: [actor, china, banks, soe, stub]
 
 ## Related
 
-- [[中特估]] — SOE value-up re-rating
+- [[China special valuation]] — SOE value-up re-rating
 - [[ICBC]], [[Agricultural Bank of China]], [[Bank of China]] — fellow big-four state banks
 - [[China government bond yields]] — the low-yield backdrop
 - [[China]]

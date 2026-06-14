@@ -7,7 +7,7 @@ tags: [actor, china, telecom, soe]
 
 **China Unicom** — the smallest of [[China]]'s three state-owned mobile network operators (behind [[China Mobile]] and [[China Telecom]]), with ~356mn mobile subscribers and ~1.25bn total connections. A regulated SOE pivoting from a flat connectivity business toward computing power, data centers, and AI services. Notable in this vault as the first Chinese enterprise to put data on its balance sheet under the 2024 [[Data as an asset|data-asset accounting rule]] — RMB204mn drawn from its subscriber base.
 
-One-line read: China Unicom is the laggard of a tight, state-driven China-telecom bloc that has re-rated 2–4x since 2021 on the [[中特估|SOE value-up theme]], with the forward bet being whether the AI/computing pivot (AI revenue +140% in 2025) can turn a flat top line into a growth story before the dividend-driven re-rating exhausts itself.
+One-line read: China Unicom is the laggard of a tight, state-driven China-telecom bloc that has re-rated 2–4x since 2021 on the [[China special valuation|SOE value-up theme]], with the forward bet being whether the AI/computing pivot (AI revenue +140% in 2025) can turn a flat top line into a growth story before the dividend-driven re-rating exhausts itself.
 
 ---
 
@@ -77,7 +77,7 @@ China Unicom's growth has migrated entirely to "strategic emerging industries," 
 | 5G private networks | RMB 12.3bn | +50% |
 | International | RMB 13.6bn | +9% |
 
-Intelligent computing capacity reached 45 EFLOPS; 5G-Advanced base stations are deployed in 330+ cities. This is the same pivot [[China Mobile]] and [[China Telecom]] are running — state-directed buildout of domestic AI/computing infrastructure ("[[东数西算|East Data West Compute]]"-style capacity), using the telecoms' land, power, and fiber footprint. Unicom Cloud and the "computing power network" are the vehicles. Whether AI/IDC revenue (small base, fast growth) can offset the flat connectivity core is the operating question.
+Intelligent computing capacity reached 45 EFLOPS; 5G-Advanced base stations are deployed in 330+ cities. This is the same pivot [[China Mobile]] and [[China Telecom]] are running — state-directed buildout of domestic AI/computing infrastructure ("[[East Data West Compute|East Data West Compute]]"-style capacity), using the telecoms' land, power, and fiber footprint. Unicom Cloud and the "computing power network" are the vehicles. Whether AI/IDC revenue (small base, fast growth) can offset the flat connectivity core is the operating question.
 
 ---
 
@@ -140,7 +140,7 @@ Verdict: a genuine, tight, durable cluster — the China big-3 telecoms form a d
 *PC1 explains 77.9% of cohort variance with near-equal loadings — a single, balanced common factor (Chinese telecom regulation + SOE value-up policy + state ownership), not one name dragging the others.*
 
 ![[china-unicom-cluster-rolling-tightness-90d.png]]
-*Rolling 90-day tightness: the factor is stable and high across the whole 2020–2026 window (avg corr 0.66–0.75, PC1 77–83%), tightening into 2025–26 as the [[中特估]] re-rating consolidated the bloc.*
+*Rolling 90-day tightness: the factor is stable and high across the whole 2020–2026 window (avg corr 0.66–0.75, PC1 77–83%), tightening into 2025–26 as the [[China special valuation]] re-rating consolidated the bloc.*
 
 A control test against the China SOE-energy majors ([[PetroChina]], [[CNOOC]], [[Sinopec]]) confirms this is a telecom factor, not generic state-champion-H-share beta: the telecoms cluster separately from the energy SOEs (cross-group correlation 0.219 vs 0.635 intra-telecom). Full context test — including the cloud complex — in [[China Telecom]].
 
@@ -152,7 +152,7 @@ The trading implication: China Unicom is a China-telecom-sector instrument, hedg
 
 - AI / computing revenue mix — computing was >15% of revenue in 2025 and AI revenue grew +140%. If the computing/IDC/AI stack keeps compounding while connectivity stays flat, the equity re-rates from utility to growth. A stall here leaves only the dividend case.
 - Capex discipline — capex fell to 16% of service revenue and FCF jumped +28.5%. Rising capex (a new AI-infrastructure buildout cycle) would pressure the FCF/dividend story that underpins the SOE re-rating.
-- Dividend / payout policy — the [[中特估]] re-rating is dividend-driven. Payout-ratio increases sustain it; a pause breaks it.
+- Dividend / payout policy — the [[China special valuation]] re-rating is dividend-driven. Payout-ratio increases sustain it; a pause breaks it.
 - The bloc, not the name — given PC1 at ~78%, China Unicom mostly trades the China-telecom factor. Watch [[China Mobile]] and [[China Telecom]] policy/dividend signals as much as Unicom's own.
 - Data-asset accounting — whether the RMB204mn data-asset line grows materially, and whether peers follow, signals if [[Data as an asset|the MOF rule]] is becoming real or stays symbolic.
 
@@ -199,7 +199,7 @@ The fundamental tension is the one every flat-growth utility pivoting to AI face
 ### Themes
 - [[Data as an asset]] — first balance-sheet data-asset filing under China's 2024 rule
 - [[National Data Administration]] — China data-governance regime
-- [[中特估]] — China special valuation / SOE value-up re-rating
+- [[China special valuation]] — China special valuation / SOE value-up re-rating
 - [[Executive Order 13959]] — the 2021 NYSE delisting trigger
 - [[Xinchuang]] — domestic-technology substitution context
 
