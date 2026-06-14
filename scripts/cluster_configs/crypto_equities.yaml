@@ -1,0 +1,37 @@
+# Crypto equities — the listed crypto-FINANCIAL proxies (distinct from the bitcoin
+# miners, which are in the validated [[Sectors/Crypto-to-AI]] cohort):
+#   - Coinbase (COIN) — crypto exchange (trading volume + custody + USDC economics)
+#   - Strategy / MicroStrategy (MSTR) — levered bitcoin-treasury company (a BTC proxy)
+#   - Robinhood (HOOD) — retail broker (crypto + equities + options); diversified
+#   - Circle (CRCL) — USDC stablecoin issuer (rate-exposed reserve income); IPO Jun 2025
+# Hypothesis: a real cohort that IS bitcoin beta — the crypto analogue of copper
+# (real cohesion but replicable by the commodity ETF, here IBIT). Open question: the
+# names have different drivers — MSTR is pure levered BTC, COIN is crypto-volume,
+# HOOD is a diversified broker (crypto one segment), CRCL is stablecoin AUM + interest
+# rates (NOT BTC-price-levered) — so the cohort may split a pure-BTC core (MSTR/COIN)
+# from HOOD (broker) and CRCL (the rate-exposed outlier). All US-listed (synchronous).
+# CRCL is young (IPO 2025-06-05) — covers the 1Y window but limits the 2Y holdout.
+# Controls (each a distinctness question):
+#   - btc (IBIT spot-bitcoin ETF): THE key test — is the cohort just bitcoin beta?
+#   - financials (XLF): COIN/HOOD are financials — distinct from broad financials?
+#   - etf (QQQ growth/Nasdaq, SPY market): high-beta-growth and market controls.
+name: Crypto equities
+primary: COIN
+prefix: cryptoeq-cluster
+threshold: 0.5
+window_end: 2026-06-12
+definition_date: 2026-06-14
+
+groups:
+  cluster:
+    color: "#2962FF"
+    tickers: [COIN, MSTR, HOOD, CRCL]
+  btc:
+    color: "#F4511E"
+    tickers: [IBIT]
+  financials:
+    color: "#7E57C2"
+    tickers: [XLF]
+  etf:
+    color: "#9E9E9E"
+    tickers: [QQQ, SPY]
