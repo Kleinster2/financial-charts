@@ -1,0 +1,22 @@
+Solar HOLDOUT TEST
+Cohort: FSLR, ENPH, SEDG, RUN, NXT (N=5)
+Window: 2y, split temporally at midpoint
+Train: 2024-06-12 -> 2025-06-12 (58 obs)
+Test:  2025-06-12 -> 2026-06-12 (195 obs)
+
+--- TRAIN HALF (older) ---
+Intra-correlation:    0.6346
+PC1 explained var:    71.30%
+Pairwise range:       [0.475, 0.815]
+
+--- TEST HALF (newer) ---
+Intra-correlation:    0.5120
+PC1 explained var:    61.02%
+Pairwise range:       [0.421, 0.697]
+
+--- STABILITY DIAGNOSTICS ---
+Intra-corr delta:     -0.1226   (test - train)
+PC1 variance delta:   -10.29pp
+PC1 loadings corr:    0.2854    (1.0 = identical factor structure)
+
+VERDICT: WEAKENED — test/train ratio 0.81 (factor present but eroding)
