@@ -76,9 +76,9 @@ def correlated_returns(blocks, T, seed, start="2020-01-01"):
 
 
 def handbuilt_corr(values, names):
-    m = pd.DataFrame(values, index=names, columns=names, dtype=float)
-    np.fill_diagonal(m.values, 1.0)
-    return m
+    arr = np.array(values, dtype=float)  # writeable: df.values is read-only under pandas CoW
+    np.fill_diagonal(arr, 1.0)
+    return pd.DataFrame(arr, index=names, columns=names, dtype=float)
 
 
 class PlantedStructureRecoveryTests(unittest.TestCase):
