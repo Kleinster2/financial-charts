@@ -1,0 +1,44 @@
+# IoT cellular module makers — the listed pure-plays in embedded cellular
+# connectivity modules. Core is the Chinese duopoly:
+#   - Quectel (603236.SS, Shanghai) — global #1 cellular IoT module maker (~31% share)
+#   - Fibocom (300638.SZ, Shenzhen) — #2 (~10% share)
+# Candidate third (per the audit's "Quectel/Fibocom + SIVE.ST micro-pair"):
+#   - Sivers Semiconductors (SIVE.ST, Stockholm) — an mmWave/photonics chip maker, a
+#     different business; included to test whether it belongs to the IoT-module factor
+#     or trades on its own AI-optics momentum. Likely an outlier (business + market + async).
+# Hypothesis: a Quectel+Fibocom micro-pair (à la the UAS KTOS-AVAV pair); Sivers outlier.
+#
+# ASYNC/FX CAVEAT (critical — see docs/cluster-validation.md "Non-US cohorts"):
+# this cohort is async WITHIN itself. Quectel-Fibocom are both China A-shares
+# (synchronous, same session, RMB), but each-vs-Sivers (Stockholm, ~8h gap) is async,
+# so the daily intra-cohort number is itself depressed by the China-Sweden leg — the
+# weekly cross-check is load-bearing for the cohesion verdict, not just the controls.
+# SMTC/SOXX/ASHR are US-listed (async vs China and Sweden). The only clean
+# (synchronous, same-currency) distinctness test is Quectel/Fibocom vs SMIC
+# (688981.SS) — both Shanghai-listed, same session, same RMB.
+#
+# Controls:
+#   - china_semi (688981.SS SMIC): same-market (Shanghai A-share) synchronous control
+#     for the Chinese pair — do the IoT modules separate from China-semi/tech beta?
+#   - western_iot (SMTC Semtech): Western cellular-IoT peer (owns Sierra Wireless).
+#   - etf (ASHR China A-share beta, SOXX semis beta): beta controls (US-listed, async).
+name: IoT cellular modules
+primary: 603236.SS
+prefix: iotmodule-cluster
+threshold: 0.5
+window_end: 2026-06-12
+definition_date: 2026-06-14
+
+groups:
+  cluster:
+    color: "#2962FF"
+    tickers: ["603236.SS", "300638.SZ", "SIVE.ST"]
+  china_semi:
+    color: "#F4511E"
+    tickers: ["688981.SS"]
+  western_iot:
+    color: "#7E57C2"
+    tickers: [SMTC]
+  etf:
+    color: "#9E9E9E"
+    tickers: [ASHR, SOXX]

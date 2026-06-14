@@ -26,7 +26,7 @@ Snowflake securities — NYSE: SNOW, single-class common since July 3, 2025 (all
 ## Price
 
 ![[snow-vs-pltr-ddog-mdb-price-chart.png]]
-*SNOW (blue) vs [[Palantir]], [[Datadog]], [[MongoDB]], normalized from June 2024. PLTR's +450-800% band is the GAAP-profitability premium the rest of the cohort lacks. The data-infrastructure trio — SNOW, DDOG, MDB — visibly co-moves, matching the Jun 2026 cluster finding that they form their own sub-cluster inside the AI-SaaS cohort. SNOW's late-May 2026 vertical is the Q1 FY27 repricing. Log y-axis (normalized returns).*
+*SNOW (blue) vs [[Palantir]], [[Datadog]], [[MongoDB]], normalized from June 2024. PLTR's +450-800% band is the GAAP-profitability premium the rest of the cohort lacks. The data-infrastructure trio — SNOW, DDOG, MDB — visibly co-moves, but the Jun-13 Gate-11 validation (Correlation and cluster structure, below) shows that co-movement is a slice of broad software beta, not a separable cluster. SNOW's late-May 2026 vertical is the Q1 FY27 repricing. Log y-axis (normalized returns).*
 
 | Date | Print | Note |
 |---|---|---|

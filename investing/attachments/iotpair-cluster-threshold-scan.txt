@@ -1,0 +1,23 @@
+IoT module duopoly THRESHOLD STABILITY SCAN
+Cohort size: 2
+
+--- ASSIGNMENT TABLE ---
+ threshold  n_subclusters  largest_subcluster_size  cohort_share_in_largest  contamination_count  intact
+      0.20              2                        1                      0.5                    0   False
+      0.25              2                        1                      0.5                    0   False
+      0.30              2                        1                      0.5                    0   False
+      0.35              1                        2                      1.0                    0    True
+      0.40              1                        2                      1.0                    0    True
+      0.45              1                        2                      1.0                    0    True
+      0.50              1                        2                      1.0                    0    True
+      0.55              1                        2                      1.0                    0    True
+      0.60              1                        2                      1.0                    0    True
+      0.65              1                        2                      1.0                    0    True
+      0.70              1                        2                      1.0                    0    True
+
+--- STABLE RANGES (intact cohort, no contamination) ---
+  [0.35, 0.70]  width = 0.35  (WIDE)
+Total stable width: 0.35
+
+--- VERDICT ---
+ROBUST: cohort survives a wide range of thresholds; cluster boundary is not sensitive to threshold choice.

@@ -1,0 +1,22 @@
+IoT module duopoly HOLDOUT TEST
+Cohort: 603236.SS, 300638.SZ (N=2)
+Window: 2y, split temporally at midpoint
+Train: 2024-06-12 -> 2025-06-12 (241 obs)
+Test:  2025-06-12 -> 2026-06-12 (244 obs)
+
+--- TRAIN HALF (older) ---
+Intra-correlation:    0.6399
+PC1 explained var:    82.00%
+Pairwise range:       [0.640, 0.640]
+
+--- TEST HALF (newer) ---
+Intra-correlation:    0.6611
+PC1 explained var:    83.05%
+Pairwise range:       [0.661, 0.661]
+
+--- STABILITY DIAGNOSTICS ---
+Intra-corr delta:     +0.0212   (test - train)
+PC1 variance delta:   +1.06pp
+PC1 loadings corr:    nan    (1.0 = identical factor structure)
+
+VERDICT: STABLE — test/train ratio 1.03 (durable cluster across regimes)

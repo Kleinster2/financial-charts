@@ -82,6 +82,7 @@ China Telecom's ADR (CHA) was removed from the NYSE in 2021 under [[Executive Or
 | PC1 explained variance | 77.9% | one dominant common factor |
 | China Telecom ann. vol | 22.83% | highest in the bloc |
 | Cluster vs china_etf / us_telecom | 0.19 / 0.05 | not generic China beta, not a global-telecom co-mover |
+| Random-basket / vol-matched p (10k) | 0.0007 / 0.018 | validated — beats random and same-vol baskets; holdout STABLE 0.85 |
 
 ![[china-telecom-cluster-dendrogram-1y.png]]
 *Three clean clusters at the 0.5 threshold — the China telecoms fuse with each other (0728 pairs first with 0762 at distance 0.25) long before joining US telecoms or the China/US-market ETFs.*

@@ -126,6 +126,12 @@ Verdict: a genuine, tight, durable cluster — the China big-3 telecoms form a d
 | Cluster vs china_etf corr | 0.192 | NOT generic China beta |
 | Cluster vs us_telecom corr | 0.047 | NOT a global-telecom co-mover |
 | Historical tightness | PC1 77–83% every year 2020–2026 | durable, not a recent artifact; tightening in 2025–26 |
+| Random-basket p (10k) | 0.0007 | beats a random 3-pick from the US-stock pool — a real factor, not chance |
+| Vol-matched p (10k) | 0.018 | cohesion exceeds same-volatility baskets — not just shared beta/vol |
+| Holdout ratio (2Y split) | 0.85 — STABLE | train 0.75 / test 0.64; loadings corr 0.97 — durable factor structure |
+| Threshold stable band | 0.40–0.70 (ROBUST) | cluster intact across a wide range of cuts |
+
+*Null tests run 2026-06-14 (closeout, window through 2026-06-12, fresh intra 0.638 / PC1 75.9%): the bloc rejects the independence (p 0.0001), random-basket (p 0.0007) and vol-matched (p 0.018) nulls and holds STABLE out of sample — a validated, durable single factor. Registry row 2026-06-14; config `scripts/cluster_configs/china_telecom.yaml`.*
 
 ![[china-unicom-cluster-dendrogram-1y.png]]
 *Three clean clusters at the 0.5 threshold — the China telecoms (0762/0941/0728) fuse with each other long before joining anything else. US telecoms and the China/US-market ETFs form separate clusters.*

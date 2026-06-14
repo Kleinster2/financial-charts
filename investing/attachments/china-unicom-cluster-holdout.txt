@@ -1,0 +1,22 @@
+China big-3 telecoms HOLDOUT TEST
+Cohort: 0762.HK, 0941.HK, 0728.HK (N=3)
+Window: 2y, split temporally at midpoint
+Train: 2024-06-12 -> 2025-06-12 (244 obs)
+Test:  2025-06-12 -> 2026-06-12 (247 obs)
+
+--- TRAIN HALF (older) ---
+Intra-correlation:    0.7510
+PC1 explained var:    83.41%
+Pairwise range:       [0.725, 0.787]
+
+--- TEST HALF (newer) ---
+Intra-correlation:    0.6390
+PC1 explained var:    75.97%
+Pairwise range:       [0.606, 0.705]
+
+--- STABILITY DIAGNOSTICS ---
+Intra-corr delta:     -0.1120   (test - train)
+PC1 variance delta:   -7.44pp
+PC1 loadings corr:    0.9701    (1.0 = identical factor structure)
+
+VERDICT: STABLE — test/train ratio 0.85 (durable cluster across regimes)

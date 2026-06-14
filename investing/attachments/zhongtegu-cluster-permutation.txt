@@ -1,0 +1,54 @@
+中特估 cohort — banks + energy + telecoms PERMUTATION TESTS
+Window: 2025-06-13 -> 2026-06-12 (246 obs)
+Candidate cohort: 1398.HK, 0939.HK, 1288.HK, 3988.HK, 0857.HK, 0883.HK, 0386.HK, 0762.HK, 0941.HK, 0728.HK (N=10)
+Observed intra-corr: 0.3715    Observed PC1: 44.87%
+
+--- INDEPENDENCE NULL ---
+Permutations: 10000
+Block size: 1
+Intra-cluster correlation:
+  Null mean:        -0.0000
+  Null 95th pct:    0.0161
+  Null 99th pct:    0.0234
+  p-value (right):  0.000100    -> REJECTS independence null at p < 0.001
+PC1 explained variance:
+  Null mean:        13.28%
+  Null 95th pct:    14.23%
+  Null 99th pct:    14.70%
+  p-value (right):  0.000100    -> REJECTS independence null at p < 0.001
+
+--- RANDOM-BASKET NULL ---
+Permutations: 10000
+Universe source: DB prices_long (1002 tickers with >=200 obs in window)
+Pool size: 248
+Intra-cluster correlation:
+  Null mean:        0.1679
+  Null 95th pct:    0.2627
+  Null 99th pct:    0.3066
+  p-value (right):  0.000600    -> REJECTS random-basket null at p < 0.001
+PC1 explained variance:
+  Null mean:        28.45%
+  Null 95th pct:    36.57%
+  Null 99th pct:    40.48%
+  p-value (right):  0.000800    -> REJECTS random-basket null at p < 0.001
+
+--- VOL-MATCHED NULL ---
+Permutations: 10000
+Universe source: DB prices_long (1002 tickers with >=200 obs in window)
+Pool size: 248
+Matching: realized-vol rank band +/-5% per member, without replacement
+Intra-cluster correlation:
+  Null mean:        0.2673
+  Null 95th pct:    0.3869
+  Null 99th pct:    0.4403
+  p-value (right):  0.074493    -> FAILS to reject vol-matched null (p >= 0.05)
+PC1 explained variance:
+  Null mean:        38.41%
+  Null 95th pct:    47.64%
+  Null 99th pct:    51.83%
+  p-value (right):  0.122988    -> FAILS to reject vol-matched null (p >= 0.05)
+
+--- INTERPRETATION ---
+Independence null rejected: the cohort series co-move (necessary, not sufficient).
+Random-basket null rejected: cohort is more cohesive than a random N-pick from the same universe. This is the meaningful pass.
+Vol-matched null NOT rejected: cohesion is explained by shared volatility/beta — the cohort co-moves because its members are similar-risk names, not because of a distinct cluster factor.

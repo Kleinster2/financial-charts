@@ -1,0 +1,22 @@
+IoT cellular modules HOLDOUT TEST
+Cohort: 603236.SS, 300638.SZ, SIVE.ST (N=3)
+Window: 2y, split temporally at midpoint
+Train: 2024-06-12 -> 2025-06-12 (218 obs)
+Test:  2025-06-12 -> 2026-06-12 (227 obs)
+
+--- TRAIN HALF (older) ---
+Intra-correlation:    0.1874
+PC1 explained var:    54.25%
+Pairwise range:       [-0.074, 0.624]
+
+--- TEST HALF (newer) ---
+Intra-correlation:    0.2273
+PC1 explained var:    55.37%
+Pairwise range:       [0.007, 0.661]
+
+--- STABILITY DIAGNOSTICS ---
+Intra-corr delta:     +0.0399   (test - train)
+PC1 variance delta:   +1.12pp
+PC1 loadings corr:    1.0000    (1.0 = identical factor structure)
+
+VERDICT: STRENGTHENING — test/train ratio 1.21 (basket consolidating; check for regime shift in the train half)

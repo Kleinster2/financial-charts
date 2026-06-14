@@ -1,0 +1,34 @@
+# IoT cellular module duopoly — the validated 2-name micro-pair after the audit's
+# 3-name "Quectel/Fibocom + SIVE.ST" cohort was tested and Sivers rejected (zero
+# correlation, an AI-optics name not an IoT-module maker). This is the clean pair:
+#   - Quectel (603236.SS, Shanghai) — global #1 cellular IoT module maker
+#   - Fibocom (300638.SZ, Shenzhen) — #2
+# Both China A-shares, SAME trading session and currency, so the pair correlation
+# is SYNCHRONOUS and clean (no async caveat WITHIN the pair). Micro-cluster à la the
+# UAS KTOS-AVAV pair. See iot_modules.yaml for the 3-name falsification (Sivers out).
+#
+# Controls (the only clean distinctness test is china_semi — same Shanghai session):
+#   - china_semi (688981.SS SMIC): same-market synchronous control — does the IoT pair
+#     separate from China-semi/tech beta? (dendrogram: yes, zero contamination)
+#   - western_iot (SMTC Semtech): Western cellular-IoT peer (US-listed, async).
+#   - etf (ASHR China A-share beta, SOXX semis beta): beta controls (US-listed, async).
+name: IoT module duopoly
+primary: 603236.SS
+prefix: iotpair-cluster
+threshold: 0.5
+window_end: 2026-06-12
+definition_date: 2026-06-14
+
+groups:
+  cluster:
+    color: "#2962FF"
+    tickers: ["603236.SS", "300638.SZ"]
+  china_semi:
+    color: "#F4511E"
+    tickers: ["688981.SS"]
+  western_iot:
+    color: "#7E57C2"
+    tickers: [SMTC]
+  etf:
+    color: "#9E9E9E"
+    tickers: [ASHR, SOXX]

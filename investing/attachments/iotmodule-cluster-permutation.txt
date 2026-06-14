@@ -1,0 +1,54 @@
+IoT cellular modules PERMUTATION TESTS
+Window: 2025-06-13 -> 2026-06-12 (239 obs)
+Candidate cohort: 603236.SS, 300638.SZ, SIVE.ST (N=3)
+Observed intra-corr: 0.2272    Observed PC1: 55.37%
+
+--- INDEPENDENCE NULL ---
+Permutations: 10000
+Block size: 1
+Intra-cluster correlation:
+  Null mean:        0.0005
+  Null 95th pct:    0.0638
+  Null 99th pct:    0.0911
+  p-value (right):  0.000100    -> REJECTS independence null at p < 0.001
+PC1 explained variance:
+  Null mean:        36.82%
+  Null 95th pct:    39.74%
+  Null 99th pct:    41.23%
+  p-value (right):  0.000100    -> REJECTS independence null at p < 0.001
+
+--- RANDOM-BASKET NULL ---
+Permutations: 10000
+Universe source: DB prices_long (1002 tickers with >=200 obs in window)
+Pool size: 249
+Intra-cluster correlation:
+  Null mean:        0.1651
+  Null 95th pct:    0.3733
+  Null 99th pct:    0.4862
+  p-value (right):  0.276972    -> FAILS to reject random-basket null (p >= 0.05)
+PC1 explained variance:
+  Null mean:        46.15%
+  Null 95th pct:    59.16%
+  Null 99th pct:    66.43%
+  p-value (right):  0.106189    -> FAILS to reject random-basket null (p >= 0.05)
+
+--- VOL-MATCHED NULL ---
+Permutations: 10000
+Universe source: DB prices_long (1002 tickers with >=200 obs in window)
+Pool size: 249
+Matching: realized-vol rank band +/-5% per member, without replacement
+Intra-cluster correlation:
+  Null mean:        0.1441
+  Null 95th pct:    0.3154
+  Null 99th pct:    0.4267
+  p-value (right):  0.164084    -> FAILS to reject vol-matched null (p >= 0.05)
+PC1 explained variance:
+  Null mean:        43.99%
+  Null 95th pct:    55.17%
+  Null 99th pct:    62.59%
+  p-value (right):  0.048595    -> REJECTS vol-matched null at p < 0.05
+
+--- INTERPRETATION ---
+Independence null rejected: the cohort series co-move (necessary, not sufficient).
+Random-basket null NOT rejected: cohort cohesion is indistinguishable from a random N-pick of comparable names. Cluster claim is falsified at conventional significance.
+Vol-matched null partially rejected: one diagnostic passes against same-vol baskets. Part of the cohesion is shared risk level rather than a distinct cluster factor.

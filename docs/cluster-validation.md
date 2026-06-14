@@ -477,13 +477,25 @@ Verdict bands:
 | >= 0.20 | ROBUST — cohort survives a wide threshold range |
 | 0.10 – 0.20 | MODERATELY ROBUST — finite stable range |
 | 0.05 – 0.10 | FRAGILE — validation depends on threshold pick |
-| 0.00 | BOUNDARY-DEPENDENT — cohort never forms a clean cluster at any threshold (falsification) |
+| 0.00 | BOUNDARY-DEPENDENT — cohort never isolates as a clean cluster at any threshold. Falsification *candidate* — read with intra-corr + holdout (see "Reading zero-width" below) |
 
 Worked examples (default step 0.05):
 - Space pure-plays: stable range [0.45, 0.50] (width 0.05, FRAGILE). At threshold 0.55+, IWM and SPY contaminate the cluster (the cohort starts trading with broad small-cap risk-on at looser cuts).
 - Mag 7: zero stable range. The 7 names are singletons at every threshold ≤ 0.55, and the first non-cohort tickers to join their cluster are semis (TSM, ASML, AMAT, KLAC, LRCX) — Mag 7 names are MORE similar to semis than to each other.
 
-This is the cleanest binary falsification result in the framework: a cohort that never forms a single cluster at any threshold is not a cluster.
+#### Reading zero-width (registry sweep, 2026-06-13)
+
+Zero width is the *common* outcome, not a rare death sentence: of 46 logged cohorts, 31 are zero-width, 14 have a clean band, 1 is unscanned. So zero-width alone does not falsify — it must be read with intra-corr and holdout, because it is bimodal:
+
+| Pattern | Read | Registry examples |
+|---|---|---|
+| Zero width + low intra (≲0.45) + regime-dependent holdout (<0.60) | Genuine falsification — not a factor | [[Mag 7 cluster\|Mag 7]] (0.315, holdout 0.44), AI hyperscalers (0.265, 0.41), Studios & premium content (0.174), Foundry monopoly (0.207) |
+| Zero width + high intra (≳0.70) + stable holdout | Real factor, but *embedded* — co-moves genuinely yet never separates from a parent complex (or its config controls are too tight) | Brazilian banks (0.847), WFE quartet (0.797), Mega banks (0.729), [[AI SaaS Disruption\|AI SaaS]] (0.703, holdout 0.90) |
+| Zero width + moderate intra (~0.5–0.7) + stable holdout | Coherent slice of a broader factor, not its own basket | Consumption data-infra SaaS / SNOW (0.553, holdout 0.87), [[Security control points\|SCP]] (0.544) |
+
+The discriminator is the pair {intra-corr, holdout ratio}, not the width number. A zero-width cohort that *passes* the random-basket null and holds its factor structure out-of-sample (e.g. Brazilian banks, AI SaaS, SNOW) is a real co-movement that is simply not a *separable* basket — distinct from a zero-width cohort that also fails holdout (Mag 7, AI hyperscalers), which is not a factor at all. Caveat from the 2026-06-09 audit: boundary tests are config-bounded, so a few high-intra zero-width rows (especially N=3 with tight controls) may be control-choice artifacts rather than true non-separability — re-run with leaner controls before asserting "embedded" vs "would-isolate."
+
+The clean binary result is the *non*zero-width pass: a cohort with a contiguous stable band (the 14 above — card networks, AI-power IPPs, defense primes, etc.) is a genuinely separable cluster. The threshold scan's value is sorting those 14 from the 31, not auto-rejecting every zero.
 
 ### 4. Multiple-testing correction
 

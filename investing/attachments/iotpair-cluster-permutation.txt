@@ -1,0 +1,54 @@
+IoT module duopoly PERMUTATION TESTS
+Window: 2025-06-13 -> 2026-06-12 (243 obs)
+Candidate cohort: 603236.SS, 300638.SZ (N=2)
+Observed intra-corr: 0.6610    Observed PC1: 83.05%
+
+--- INDEPENDENCE NULL ---
+Permutations: 10000
+Block size: 1
+Intra-cluster correlation:
+  Null mean:        0.0003
+  Null 95th pct:    0.1054
+  Null 99th pct:    0.1508
+  p-value (right):  0.000100    -> REJECTS independence null at p < 0.001
+PC1 explained variance:
+  Null mean:        52.59%
+  Null 95th pct:    56.25%
+  Null 99th pct:    58.29%
+  p-value (right):  0.000100    -> REJECTS independence null at p < 0.001
+
+--- RANDOM-BASKET NULL ---
+Permutations: 10000
+Universe source: DB prices_long (1002 tickers with >=200 obs in window)
+Pool size: 248
+Intra-cluster correlation:
+  Null mean:        0.1680
+  Null 95th pct:    0.4625
+  Null 99th pct:    0.6282
+  p-value (right):  0.008099    -> REJECTS random-basket null at p < 0.01
+PC1 explained variance:
+  Null mean:        59.25%
+  Null 95th pct:    73.13%
+  Null 99th pct:    81.41%
+  p-value (right):  0.008099    -> REJECTS random-basket null at p < 0.01
+
+--- VOL-MATCHED NULL ---
+Permutations: 10000
+Universe source: DB prices_long (1002 tickers with >=200 obs in window)
+Pool size: 248
+Matching: realized-vol rank band +/-5% per member, without replacement
+Intra-cluster correlation:
+  Null mean:        0.1594
+  Null 95th pct:    0.4119
+  Null 99th pct:    0.5351
+  p-value (right):  0.003000    -> REJECTS vol-matched null at p < 0.01
+PC1 explained variance:
+  Null mean:        58.56%
+  Null 95th pct:    70.60%
+  Null 99th pct:    76.75%
+  p-value (right):  0.003000    -> REJECTS vol-matched null at p < 0.01
+
+--- INTERPRETATION ---
+Independence null rejected: the cohort series co-move (necessary, not sufficient).
+Random-basket null rejected: cohort is more cohesive than a random N-pick from the same universe. This is the meaningful pass.
+Vol-matched null rejected: cohesion exceeds random baskets with the SAME volatility profile — the cluster factor is not just shared beta/vol.
