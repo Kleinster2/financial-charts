@@ -1,27 +1,27 @@
 Theatrical exhibition CLUSTER ANALYSIS
-Window 1y: 2025-06-18 -> 2026-06-10 (193 obs)
-Window 2y: 2024-07-15 -> 2026-06-10 (251 obs)
+Window 1y: 2025-06-18 -> 2026-06-11 (194 obs)
+Window 2y: 2024-07-15 -> 2026-06-11 (252 obs)
 Universe: 8 tickers across 4 groups
 Dendrogram cut threshold: 0.5
 
 --- 1Y INTRA-CLUSTER PAIRWISE CORRELATIONS ---
 Ticker   AMC   CNK  IMAX
 Ticker                  
-AMC     1.00  0.39  0.17
-CNK     0.39  1.00  0.41
+AMC     1.00  0.40  0.17
+CNK     0.40  1.00  0.41
 IMAX    0.17  0.41  1.00
-Average intra-cluster correlation: 0.327
-Range: [0.174, 0.414]
+Average intra-cluster correlation: 0.328
+Range: [0.172, 0.412]
 
 --- AVG GROUP-PAIR CORRELATIONS (1Y) ---
              cluster  out_of_  content      etf
-    cluster    0.327    0.098    0.227    0.174
-out_of_home    0.098      nan    0.182    0.282
-content_sup    0.227    0.182    0.227    0.325
-        etf    0.174    0.282    0.325    0.807
+    cluster    0.328    0.102    0.227    0.174
+out_of_home    0.102      nan    0.185    0.288
+content_sup    0.227    0.185    0.228    0.328
+        etf    0.174    0.288    0.328    0.813
 
 Cluster vs others:
-  cluster vs out_of_home: 0.098  (intra advantage: +0.228)
+  cluster vs out_of_home: 0.102  (intra advantage: +0.225)
   cluster vs content_supply: 0.227  (intra advantage: +0.100)
   cluster vs etf       : 0.174  (intra advantage: +0.153)
 
@@ -36,29 +36,29 @@ Cluster vs others:
 
 --- CANDIDATE JOIN DISTANCES (1Y, average linkage, distance = 1-|corr|) ---
  Step Left    Right Distance      Members
-    1  CNK     IMAX    0.586     CNK+IMAX
-    2  AMC CNK+IMAX    0.717 AMC+CNK+IMAX
+    1  CNK     IMAX    0.588     CNK+IMAX
+    2  AMC CNK+IMAX    0.715 AMC+CNK+IMAX
 
 --- PCA ON CANDIDATE COHORT (1Y) ---
 Explained variance ratio:
-  PC1: 55.45%
-  PC2: 27.55%
-  PC3: 17.00%
+  PC1: 55.52%
+  PC2: 27.59%
+  PC3: 16.88%
 
 PC1 loadings:
-AMC     0.528
+AMC     0.531
 CNK     0.652
-IMAX    0.545
+IMAX    0.541
 
 --- PC1 INDEX WEIGHTS (1Y) ---
 PCA is run on standardized daily log returns. Raw PC1-mimic weights scale PC1 loading by inverse realized volatility.
      PC1 loading Loading weight Ann vol Raw PC1-mimic weight
-AMC        0.528         30.61%  70.29%               20.54%
-CNK        0.652         37.80%  41.18%               43.30%
-IMAX       0.545         31.59%  41.20%               36.16%
+AMC        0.531         30.79%  71.07%               20.48%
+CNK        0.652         37.84%  41.18%               43.44%
+IMAX       0.541         31.37%  41.10%               36.09%
 
 --- WEEKLY-RETURN CROSS-CHECK (1Y, async-close robustness) ---
-Weeks: 39   Weekly intra-corr: 0.279 (daily 0.327)   Weekly PC1: 52.5% (daily 55.4%)
+Weeks: 39   Weekly intra-corr: 0.299 (daily 0.328)   Weekly PC1: 53.8% (daily 55.5%)
 
 --- HISTORICAL TIGHTNESS EVOLUTION (90D ROLLING) ---
      Avg corr    PC1 Core corr Satellite corr Final join distance
@@ -68,6 +68,6 @@ Date
 2023    0.476  65.6%     0.476            nan               0.627
 2024    0.393  60.3%     0.393            nan               0.686
 2025    0.392  59.9%     0.392            nan               0.689
-2026    0.315  54.9%     0.315            nan               0.761
+2026    0.316  54.9%     0.316            nan               0.761
 
-Latest 90D: avg corr 0.350, PC1 57.3%, core corr 0.350, satellite corr nan, final join distance 0.726
+Latest 90D: avg corr 0.355, PC1 57.6%, core corr 0.355, satellite corr nan, final join distance 0.727

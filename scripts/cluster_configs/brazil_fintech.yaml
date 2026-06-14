@@ -1,0 +1,31 @@
+# Brazil / LatAm fintech cohort — the listed disruptors ([[StoneCo]] STNE,
+# [[PagSeguro]] PAGS, [[Nubank]] NU, [[MercadoLibre]] MELI, [[XP Inc]] XP).
+# The companion test to the validated Brazilian-banks cohort (ITUB/BBD/BSBR,
+# intra 0.847): do the fintech disruptors trade as their own factor, distinct from
+# the incumbent banks they are taking share from? The names span sub-models —
+# acquirer/payments (STNE, PAGS), neobank (NU), e-commerce + Mercado Pago (MELI),
+# investment platform (XP) — so the dendrogram may split, with MELI the likely
+# outlier (e-commerce-primary, pan-LatAm).
+# Controls (each a specific distinctness question):
+#   - brazil_banks (ITUB, BBD, BSBR): the incumbents — are the fintechs a distinct
+#     disruptor factor, or do they trade with the banks (same BRL/Selic/credit cycle)?
+#   - etf (EWZ iShares MSCI Brazil, EEM emerging markets, SPY US market): EWZ is the
+#     sector benchmark — is the cohort just EWZ/EM beta, or a fintech-specific factor?
+# All members are US-listed ADRs, so no async-close issue despite the Brazil domicile.
+name: Brazil fintech
+primary: NU
+prefix: brazil-fintech-cluster
+threshold: 0.5
+window_end: 2026-06-12
+definition_date: 2026-06-14
+
+groups:
+  cluster:
+    color: "#2962FF"
+    tickers: [STNE, PAGS, NU, MELI, XP]
+  brazil_banks:
+    color: "#7E57C2"
+    tickers: [ITUB, BBD, BSBR]
+  etf:
+    color: "#9E9E9E"
+    tickers: [EWZ, EEM, SPY]

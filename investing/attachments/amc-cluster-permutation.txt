@@ -1,0 +1,37 @@
+Theatrical exhibition PERMUTATION TESTS
+Window: 2025-06-12 -> 2026-06-11 (251 obs)
+Candidate cohort: AMC, CNK, IMAX (N=3)
+Observed intra-corr: 0.3276    Observed PC1: 55.52%
+
+--- INDEPENDENCE NULL ---
+Permutations: 10000
+Block size: 1
+Intra-cluster correlation:
+  Null mean:        -0.0001
+  Null 95th pct:    0.0695
+  Null 99th pct:    0.1013
+  p-value (right):  0.000100    -> REJECTS independence null at p < 0.001
+PC1 explained variance:
+  Null mean:        37.12%
+  Null 95th pct:    40.23%
+  Null 99th pct:    41.83%
+  p-value (right):  0.000100    -> REJECTS independence null at p < 0.001
+
+--- RANDOM-BASKET NULL ---
+Permutations: 10000
+Universe source: DB prices_long (993 tickers with >=200 obs in window)
+Pool size: 237
+Intra-cluster correlation:
+  Null mean:        0.1672
+  Null 95th pct:    0.3765
+  Null 99th pct:    0.4791
+  p-value (right):  0.099890    -> FAILS to reject random-basket null (p >= 0.05)
+PC1 explained variance:
+  Null mean:        46.28%
+  Null 95th pct:    59.23%
+  Null 99th pct:    65.76%
+  p-value (right):  0.107989    -> FAILS to reject random-basket null (p >= 0.05)
+
+--- INTERPRETATION ---
+Independence null rejected: the cohort series co-move (necessary, not sufficient).
+Random-basket null NOT rejected: cohort cohesion is indistinguishable from a random N-pick of comparable names. Cluster claim is falsified at conventional significance.

@@ -176,6 +176,9 @@ Historical verdict: regime-dependent but measurable cluster; cohesion exists, bu
 ### Sister
 - [[DC REITs]] — traditional data center [[REITs]]
 
+### Adjacent cohort
+- [[Neoclouds]] — the GPU-cloud + miner-convert cohort (CRWV/NBIS/IREN/CIFR/APLD) that validated 2026-06-14 as *not distinct* from this one (intra-advantage +0.000; the miners contaminate it from threshold 0.35). The converters (IREN/CIFR/APLD) belong to this Crypto-to-AI factor; CRWV/NBIS are the pure-GPU-cloud sleeve.
+
 ### Actors
 - [[Core Scientific]] — largest, CoreWeave partnership
 - [[Hut 8]] — hybrid strategy

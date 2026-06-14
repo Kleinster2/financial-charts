@@ -88,6 +88,86 @@ The one-line version: [[Brazil fintech]] is what fintech looks like after paymen
 
 ---
 
+## Cluster validation
+
+> [!warning] Cluster status: real cohort, but not a separable factor (June 2026)
+> The listed fintech disruptors ([[StoneCo]], [[PagSeguro]], [[Nubank]], [[XP Inc]], with [[MercadoLibre]] as an outlier) form a real, regime-durable cohort — intra-corr 0.570, PC1 66.1%, rejects the random-basket null at the 0.0001 floor, holdout STABLE (1.03). But they are not a *distinct* factor: at the 0.5 threshold the fintechs, the incumbent banks ([[Itaú Unibanco]]/[[Bradesco]]/Santander Brasil) and the Brazil ETF ([[EWZ]]) all merge into one cluster, and the intra-advantage vs the banks is negative (−0.044 — the fintechs correlate more with the incumbents than with themselves) and just +0.063 vs the ETFs. The disruption is real in the business but invisible in the tape: fintechs and banks trade as one Brazil-financials / EM-beta factor on [[Brazilian real|BRL]], [[Selic rate|Selic]], and risk-on/off. [[MercadoLibre]] is the e-commerce outlier (a singleton, joins only at 0.546). See below.
+
+This is the structural counterpart to the qualitative [[#Synthesis|synthesis]] above: Pix collapsed the payments moat and the disruptors took share, but at the equity-factor level the fintechs and the banks they are disrupting move together — there is no separable "fintech disruption" basket, only Brazil-financials exposure (≈ [[EWZ]]) with a higher beta.
+
+### Diagnostics summary
+
+| Diagnostic | Value | Read |
+|---|---|---|
+| Intra-cluster corr (1Y) | 0.570 [0.395–0.731] | Moderate; weekly 0.607 |
+| PC1 explained variance | 66.1% (PC2 13.5%) | Dominant-factor |
+| Random-basket p (10k) | 0.0001 | Real cohesion — beats random 5-picks at the floor |
+| Holdout ratio (2Y split) | 1.03 — STABLE | Train 0.555 / test 0.570, loadings corr 0.75 — durable |
+| Threshold clean width | 0.00 | Cannot isolate from the banks + [[EWZ]] — it is Brazil-financials |
+| Intra-adv vs Brazilian banks | −0.044 | Negative — not distinct from the incumbents |
+| Intra-adv vs [[EWZ]]/EEM/[[SPY]] | +0.063 | Barely distinct — ≈ Brazil/EM ETF beta |
+
+1Y daily log returns through 2026-06-12, threshold 0.5. All members US-listed ADRs (no async-close issue). Config: `scripts/cluster_configs/brazil_fintech.yaml`; registry row 2026-06-14. Terminology: [[Cohort, cluster, basket]].
+
+### Boundary — inseparable from the banks; MELI the outlier
+
+![[brazil-fintech-cluster-dendrogram-1y.png]]
+*Hierarchical clustering at 0.5. The four financial fintechs ([[StoneCo]], [[PagSeguro]], [[Nubank]], [[XP Inc]]) cohere — but they merge into one cluster with the incumbent banks (ITUB/BBD/BSBR) and the Brazil/EM ETFs (EWZ/EEM), not apart from them. Only [[MercadoLibre]] stands alone, as the e-commerce-primary name. There is no fintech-vs-bank separation in the tape.*
+
+The threshold scan returns zero width — like [[Nuclear renaissance|Nuclear / SMR]], the cohort is real but inseparable from the sector benchmark it lives inside (here the Brazilian banks + [[EWZ]]). The contrast with the validated [[Vault cluster taxonomy|Brazilian banks cohort]] (intra 0.847) is the tell: the banks form a tight, distinct cluster; the fintechs are a higher-beta sleeve of the same Brazil-financials factor.
+
+### Topology — a four-name financial core plus an e-commerce outlier
+
+| Join step | Names | Distance (1-\|corr\|) | Read |
+|---|---|---|---|
+| 1 | STNE + PAGS | 0.269 | The acquirer pair (merchant payments) |
+| 2 | + XP | 0.334 | Investment platform joins |
+| 3 | + NU | 0.394 | Neobank joins — the four-name financial core |
+| 4 | + MELI | 0.546 | E-commerce ([[MercadoLibre]]) joins far out — the outlier |
+
+The tradeable core is the four financial fintechs (all join ≤ 0.394); [[MercadoLibre]] is the satellite (0.546), its returns driven by pan-LatAm e-commerce rather than the Brazil-financials factor that binds the others.
+
+### PC1 index weights
+
+![[brazil-fintech-cluster-pca-1y.png]]
+*PCA scree and PC1 loadings. PC1 explains 66.1% with even loadings (0.45–0.49) across the four financial fintechs; [[MercadoLibre]] is the low loading (0.367), confirming its outlier status.*
+
+| Ticker | PC1 loading | Loading weight | Ann vol | Raw PC1-mimic weight |
+|---|---|---|---|---|
+| STNE | 0.448 | 20.1% | 57.5% | 16.1% |
+| PAGS | 0.493 | 22.2% | 46.1% | 22.0% |
+| NU | 0.452 | 20.3% | 38.9% | 24.0% |
+| MELI | 0.367 | 16.5% | 42.2% | 17.9% |
+| XP | 0.465 | 20.9% | 48.0% | 20.0% |
+
+The PC1-mimic basket tilts to the lower-volatility [[Nubank]] (24.0%, 39% vol) and underweights the high-vol [[StoneCo]] (16.1%, 58% vol) — to reproduce the standardized factor you lean on the calmer neobank, not the high-beta acquirer.
+
+### Distinctness
+
+![[brazil-fintech-cluster-correlation-1y.png]]
+*1Y pairwise correlation heatmap. The four financial fintechs form a warm block, but it is not cooler against the incumbent banks — the cohort-vs-banks correlation (0.614) exceeds the cohort's internal correlation (0.570), the negative intra-advantage made visible.*
+
+### Historical tightness evolution
+
+![[brazil-fintech-cluster-rolling-tightness-90d.png]]
+*Rolling 90-day cohesion. Moderately durable — a 2024 dip (0.462) on the Brazil-rates/fiscal stress, recovering to 0.60 in 2026. The cohort is a stable Brazil-financials sleeve, not a fragmenting one.*
+
+| Window | Avg intra-corr | PC1 | Final join distance |
+|---|---|---|---|
+| 2022 | 0.605 | 68.7% | 0.475 |
+| 2024 | 0.462 | 57.9% | 0.639 |
+| 2026 | 0.598 | 68.4% | 0.529 |
+
+*Structurally durable: the cluster never breaks below ~0.46 and re-tightens with the Brazil cycle. The STABLE holdout (1.03, loadings corr 0.75) confirms the same factor persists across regimes — it is a real cohort, just not a separable one.*
+
+### The read-through
+
+- There is no "fintech disruption" basket distinct from the banks. The fintechs trade as a higher-beta sleeve of Brazil-financials (negative intra-advantage vs ITUB/BBD/BSBR, ≈ [[EWZ]] beta). To express the disruption thesis you cannot simply be long the fintech cohort and short the banks expecting a clean factor — they move together on [[Brazilian real|BRL]] and [[Selic rate|Selic]].
+- The tradeable core is the four financial fintechs. [[StoneCo]]/[[PagSeguro]] (acquirers), [[Nubank]] (neobank), [[XP Inc]] (platform) cohere; [[MercadoLibre]] is a separate e-commerce factor — do not treat Mercado Pago exposure as a Brazil-fintech proxy.
+- The banks are the cleaner cluster. The validated Brazilian-banks cohort (intra 0.847) is far tighter than this one (0.570) — the incumbents are a purer single-factor trade than their disruptors.
+
+Method and terminology: `docs/cluster-validation.md`, [[Cohort, cluster, basket]], [[Vault cluster taxonomy]]. Post-definition OOS re-validation is queued for the next quarterly pass (definition date 2026-06-14).
+
 ## Sources
 
 - [Banco Central do Brasil — Pix em números](https://www.bcb.gov.br/estabilidadefinanceira/pix-em-numeros-estatisticas)

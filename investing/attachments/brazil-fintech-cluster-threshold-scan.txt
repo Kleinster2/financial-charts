@@ -1,0 +1,31 @@
+Brazil fintech THRESHOLD STABILITY SCAN
+Cohort size: 5
+
+--- ASSIGNMENT TABLE ---
+ threshold  n_subclusters  largest_subcluster_size  cohort_share_in_largest  contamination_count  intact
+      0.20              5                        1                      0.2                    0   False
+      0.25              5                        1                      0.2                    0   False
+      0.30              4                        2                      0.4                    0   False
+      0.35              4                        2                      0.4                    0   False
+      0.40              2                        4                      0.8                    4   False
+      0.45              2                        4                      0.8                    4   False
+      0.50              2                        4                      0.8                    6   False
+      0.55              2                        4                      0.8                    6   False
+      0.60              1                        5                      1.0                    6   False
+      0.65              1                        5                      1.0                    6   False
+      0.70              1                        5                      1.0                    6   False
+
+--- STABLE RANGES (intact cohort, no contamination) ---
+  None — cohort never returns as a clean single cluster at any threshold.
+
+--- VERDICT ---
+BOUNDARY-DEPENDENT: cohort does not form a clean cluster at any threshold tested. Falsification candidate.
+
+--- CONTAMINATION DETAIL (non-cohort names joining the cohort's largest cluster) ---
+  threshold 0.40: + ITUB,BBD,BSBR,EWZ
+  threshold 0.45: + ITUB,BBD,BSBR,EWZ
+  threshold 0.50: + ITUB,BBD,BSBR,EWZ,EEM...
+  threshold 0.55: + ITUB,BBD,BSBR,EWZ,EEM...
+  threshold 0.60: + ITUB,BBD,BSBR,EWZ,EEM...
+  threshold 0.65: + ITUB,BBD,BSBR,EWZ,EEM...
+  threshold 0.70: + ITUB,BBD,BSBR,EWZ,EEM...

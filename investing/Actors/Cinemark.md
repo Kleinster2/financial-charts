@@ -35,6 +35,7 @@ Cinemark is the factor carrier for theatrical exhibition: in the 2026-06-12 clus
 
 - [[AMC Entertainment]] — #1 exhibitor, levered/diluted contrast
 - [[IMAX]] — premium-format licensor peer
+- [[Theatrical exhibition]] — cluster validation (falsified): Cinemark is the only pure operating exhibitor — the cleanest single-name box-office expression, not a basket
 - [[Regal Cinemas]] — #3 US exhibitor (Cineworld)
 - [[Media]] — sector
 

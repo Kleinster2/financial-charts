@@ -1,0 +1,36 @@
+# Neoclouds — the listed AI-GPU-cloud / datacenter names: pure GPU clouds
+# ([[CoreWeave]] CRWV, [[Nebius]] NBIS) and the bitcoin-miner-to-AI-datacenter
+# converters ([[IREN]], [[Cipher Mining]] CIFR, [[Applied Digital]] APLD).
+# Hypothesis: a neocloud factor distinct from both the pure crypto miners and the
+# hyperscalers. Open question (flagged in the audit): the converters overlap the
+# validated [[Sectors/Crypto-to-AI|Crypto-to-AI]] cohort — so the dendrogram may
+# split the neoclouds into a pure-cloud sleeve (CRWV/NBIS) and a miner-convert
+# sleeve (IREN/CIFR/APLD) that trades with the miners on BTC beta.
+# Controls (each a specific distinctness question):
+#   - crypto_to_ai (CORZ, HUT, WULF, MARA, CLSK, RIOT): the validated miner cohort
+#     (IREN moved into the neocloud candidate, so it is excluded here). Do the
+#     neoclouds — especially the converters — separate from the pure miners?
+#   - ai_demand (NVDA, MSFT): the GPU supplier + a hyperscaler — is the neocloud
+#     factor distinct from AI-compute / cloud-capex demand, or just NVDA beta?
+#   - etf (IBIT bitcoin, SPY market): IBIT tests how much of the converters' move
+#     is BTC beta; SPY broad market.
+name: Neoclouds
+primary: CRWV
+prefix: neoclouds-cluster
+threshold: 0.5
+window_end: 2026-06-12
+definition_date: 2026-06-14
+
+groups:
+  cluster:
+    color: "#2962FF"
+    tickers: [CRWV, NBIS, IREN, CIFR, APLD]
+  crypto_to_ai:
+    color: "#F4511E"
+    tickers: [CORZ, HUT, WULF, MARA, CLSK, RIOT]
+  ai_demand:
+    color: "#7E57C2"
+    tickers: [NVDA, MSFT]
+  etf:
+    color: "#9E9E9E"
+    tickers: [IBIT, SPY]

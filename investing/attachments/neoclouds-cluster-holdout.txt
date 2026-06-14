@@ -1,0 +1,21 @@
+Neoclouds HOLDOUT TEST
+Cohort: CRWV, NBIS, IREN, CIFR, APLD (N=5)
+Window: 2y, split temporally at midpoint
+Train: 2024-06-12 -> 2025-06-12 (15 obs)
+Test:  2025-06-12 -> 2026-06-12 (195 obs)
+
+--- TRAIN HALF (older) ---
+Intra-correlation:    nan
+PC1 explained var:    nan%
+Pairwise range:       [nan, nan]
+
+--- TEST HALF (newer) ---
+Intra-correlation:    0.6235
+PC1 explained var:    69.92%
+Pairwise range:       [0.497, 0.790]
+
+--- STABILITY DIAGNOSTICS ---
+Intra-corr delta:     +nan   (test - train)
+PC1 variance delta:   +nanpp
+
+VERDICT: INDETERMINATE — insufficient data

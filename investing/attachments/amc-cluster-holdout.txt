@@ -1,0 +1,22 @@
+Theatrical exhibition HOLDOUT TEST
+Cohort: AMC, CNK, IMAX (N=3)
+Window: 2y, split temporally at midpoint
+Train: 2024-06-11 -> 2025-06-11 (58 obs)
+Test:  2025-06-11 -> 2026-06-11 (194 obs)
+
+--- TRAIN HALF (older) ---
+Intra-correlation:    0.4054
+PC1 explained var:    61.37%
+Pairwise range:       [0.243, 0.650]
+
+--- TEST HALF (newer) ---
+Intra-correlation:    0.3276
+PC1 explained var:    55.52%
+Pairwise range:       [0.172, 0.412]
+
+--- STABILITY DIAGNOSTICS ---
+Intra-corr delta:     -0.0779   (test - train)
+PC1 variance delta:   -5.85pp
+PC1 loadings corr:    0.6398    (1.0 = identical factor structure)
+
+VERDICT: WEAKENED — test/train ratio 0.81 (factor present but eroding)

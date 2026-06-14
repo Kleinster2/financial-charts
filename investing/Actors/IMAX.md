@@ -35,6 +35,7 @@ IMAX is the asset-light way to own the event-film cycle: blockbuster-heavy slate
 
 - [[AMC Entertainment]] — exhibitor partner/peer (levered contrast)
 - [[Cinemark]] — exhibitor peer
+- [[Theatrical exhibition]] — cluster validation (falsified): IMAX trades as an asset-light licensor, not an exhibitor (0.17 correlation with [[AMC Entertainment]])
 - [[Media]] — sector
 
 *Created 2026-06-12 as a comp/cluster stub (IMAX added to DB same day); expand on a catalyst.*

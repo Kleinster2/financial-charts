@@ -1,0 +1,22 @@
+Brazil fintech HOLDOUT TEST
+Cohort: STNE, PAGS, NU, MELI, XP (N=5)
+Window: 2y, split temporally at midpoint
+Train: 2024-06-12 -> 2025-06-12 (102 obs)
+Test:  2025-06-12 -> 2026-06-12 (195 obs)
+
+--- TRAIN HALF (older) ---
+Intra-correlation:    0.5550
+PC1 explained var:    65.02%
+Pairwise range:       [0.335, 0.852]
+
+--- TEST HALF (newer) ---
+Intra-correlation:    0.5700
+PC1 explained var:    66.08%
+Pairwise range:       [0.395, 0.731]
+
+--- STABILITY DIAGNOSTICS ---
+Intra-corr delta:     +0.0150   (test - train)
+PC1 variance delta:   +1.06pp
+PC1 loadings corr:    0.7485    (1.0 = identical factor structure)
+
+VERDICT: STABLE — test/train ratio 1.03 (durable cluster across regimes)

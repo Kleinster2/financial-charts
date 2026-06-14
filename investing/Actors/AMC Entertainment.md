@@ -176,6 +176,7 @@ What would change the read: an executed refinancing that cuts the ~$450M interes
 - [[Dalian Wanda Group]] — former majority owner (stake erased by dilution)
 - [[AMC Networks]] — unrelated cable/streaming company (name-collision risk; misattribution corrected 2026-06-12)
 - [[Live Nation]] — out-of-home entertainment spend comp
+- [[Theatrical exhibition]] — cluster validation (falsified): AMC is the meme/levered outlier, just 0.17 correlation with [[IMAX]] — not a theatrical-exhibition proxy
 - [[Media]] — sector
 
 ### Securities
