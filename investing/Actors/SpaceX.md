@@ -528,6 +528,7 @@ The flat 17-month stretch at $137B (Jan 2024 – Jun 2025) reflects a quiet peri
 | Metric | Value |
 |--------|-------|
 | Status | Public on [[Nasdaq]] / [[Nasdaq]] Texas under `SPCX` since Jun. 12, 2026 |
+| Public instrument | [[SpaceX securities note\|SPCX]] — Class A, dual-class, ~4% float |
 | Valuation | ~$2.1T at Jun. 12 first-session close ($160.95) |
 | IPO timing | Priced Jun. 11, 2026; began trading Jun. 12, 2026 |
 | IPO raise | 555.6M primary Class A shares at $135/share, about $75B base gross proceeds; up to about $86.25B with 15% primary over-allotment |
@@ -541,6 +542,38 @@ The flat 17-month stretch at $137B (Jan 2024 – Jun 2025) reflects a quiet peri
 | CEO | [[Elon Musk]] |
 
 *Updated 2026-06-12 from first public trading close.*
+
+---
+
+## Financials
+
+Consolidated statements of operations from the [[SEC]] S-1/A (a common-control recast combining [[SpaceX]], [[xAI]], and [[Twitter|X]]), in $ millions:
+
+| Line | 2023 | 2024 | 2025 |
+|---|---:|---:|---:|
+| Revenue | 10,387 | 14,015 | 18,674 |
+| Cost of revenue | 6,110 | 7,996 | 9,451 |
+| Gross profit | 4,277 | 6,019 | 9,223 |
+| Research and development | 2,105 | 3,464 | 8,643 |
+| Selling, general & administrative | 1,665 | 1,813 | 2,644 |
+| Restructuring | 237 | 213 | 487 |
+| Impairment | 3,775 | 63 | 38 |
+| Operating income (loss) | (3,505) | 466 | (2,589) |
+| Interest expense | (1,693) | (1,580) | (1,945) |
+| Net income (loss) | (4,628) | 791 | (4,937) |
+
+The shape is the IPO problem in three numbers: revenue compounding (+35% in 2024, +33% in 2025), R&D exploding from $2.1B to $8.6B as [[xAI]] / [[Colossus]] compute spend loads onto the consolidated entity, and a $466M 2024 operating profit flipping to a $2.589B 2025 operating loss. The 2023 line carries a one-time $3,775M [[Twitter|X]] goodwill impairment from the recast. Segment disclosure shows where the cross-subsidy runs: [[Connectivity]] ([[Starlink]]) is the profit engine ($11.387B revenue / $4.423B operating income in 2025), [[Space]] is modestly loss-making (−$657M), and AI is the loss-and-optionality layer ($3.201B revenue / −$6.355B operating loss).
+
+![[spacex-fundamentals-chart.png]]
+*Consolidated revenue (blue) and net income (red), FY2023-2025, $B, linear axis. Revenue climbs $10.4B → $18.7B while net income tents — a $791M 2024 profit flanked by 2023 and 2025 losses. The divergence is the R&D ramp, not a revenue problem. Price overlay suppressed: `SPCX` has only one trading session.*
+
+![[spacex-waterfall.png]]
+*FY2025 income-statement bridge. Revenue $18.7B → 49.4% gross margin → R&D ($8.6B) and SG&A ($2.6B) drive a −13.9% operating margin → interest and tax take it to a −26.4% net margin (−$4.9B). R&D alone is 46% of revenue.*
+
+![[spacex-sankey.png]]
+*The same FY2025 statement as flow. The R&D ribbon (46% of revenue) is the visual point: the consolidated entity spends nearly half its revenue building compute and launch capability, which is why a 49% gross-margin business still posts a net loss.*
+
+Price, share structure, float, and index mechanics for the public instrument live in [[SpaceX securities note]].
 
 ---
 
@@ -602,6 +635,7 @@ Reuters also said it remained unclear whether Intel or the Terafab developers wo
 
 ## Related
 
+- [[SpaceX securities note]] — the public Class A instrument (SPCX): share structure, float / lock-up schedule, index mechanics, price record
 - [[SpaceX IPO 2026]] — full IPO event: deal structure, index rules, banks, sector contagion, $200B absorption test
 - [[SpaceX xAI merger]] — Feb 2026 acquisition, $1.25T combined
 - [[Elon Musk]] — CEO

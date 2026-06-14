@@ -23,7 +23,7 @@ On June 12, 2026 — the first public trading session for [[SpaceX]] (`SPCX`) �
 | RKLB | [[Rocket Lab]] | 114.78 | 102.39 | -10.79% | -2.13σ | 3.84 | 98% | ≥2.0σ hv, ≥6% |
 | RDW | [[Redwire]] | 17.09 | 15.12 | -11.53% | -1.85σ | 4.19 | 123% | ≥6% |
 
-*Source: canonical `prices_long` closes; beta-adjusted sigma via `quick_movers.py` against the June 12 [[SPY]] session. SpaceX debut price per [Guardian live market close](https://www.theguardian.com/business/live/2026/jun/12/spacex-float-us-stock-market-share-elon-musk-trillionaire-largest-ipo-ever-live-news-updates); `SPCX` is not yet in canonical price data.*
+*Source: canonical `prices_long` closes; beta-adjusted sigma via `quick_movers.py` against the June 12 [[SPY]] session. SpaceX debut price per [Guardian live market close](https://www.theguardian.com/business/live/2026/jun/12/spacex-float-us-stock-market-share-elon-musk-trillionaire-largest-ipo-ever-live-news-updates); `SPCX` entered canonical price data on Jun. 13 (one session: $160.95 close on Jun. 12). Instrument detail in [[SpaceX securities note]].*
 
 ![[spacex-debut-proxy-unwind.png]]
 *Five public space proxies normalized to 100 on Apr. 15, 2026. The synchronized cliff on Jun. 12 is the proxy unwind — a common catalyst hitting names with otherwise unrelated fundamentals and volatilities.*
