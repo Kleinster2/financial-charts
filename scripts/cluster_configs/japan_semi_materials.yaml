@@ -1,0 +1,47 @@
+# Japan semiconductor materials — the Tokyo-listed names that dominate the chip
+# materials chokepoint: photoresists and silicon wafers. The union of the vehicles
+# named in [[Long Japan photoresists]] and [[Long Japan wafers]]:
+#   - [[Tokyo Ohka Kogyo]] (4186.T) — photoresist pure-play (cleanest after JSR went private)
+#   - [[Shin-Etsu]] (4063.T) — wafers + photoresists + PVC (the linchpin, in both theses)
+#   - [[Sumco]] (3436.T) — silicon-wafer pure-play
+#   - [[Sumitomo Chemical]] (4005.T) — diversified (petrochem/pharma; ~15% semi)
+#   - [[Fujifilm]] (4901.T) — diversified (healthcare-dominant; ~15% semi)
+# Hypothesis: a "Japan materials chokepoint" factor. Open question (flagged in the
+# audit): the two diversified conglomerates (Sumitomo Chem, Fujifilm) trade mostly on
+# petrochem/healthcare, so the dendrogram may split a pure-play materials core
+# (TOK/Shin-Etsu/Sumco) from the conglomerates — the materials analogue of the AI-optics
+# optical-vs-interconnect split. JSR (4185.T) excluded — private since the 2024 JIC buyout.
+#
+# ASYNC/FX CAVEAT: the cluster + jp_semi_equip are Tokyo-listed (JPY), so intra-cohort
+# and cohort-vs-equipment correlations are SYNCHRONOUS and clean. The US-listed controls
+# (ENTG, EWJ, SOXX) close ~14h later and are USD-denominated, so cohort-vs-US-ETF daily
+# correlations are understated by async close AND muddied by JPY/USD FX — read those via
+# the weekly cross-check, not the daily number. WAF.DE (Frankfurt/EUR) is partial-async.
+#
+# Controls (each a specific distinctness question):
+#   - jp_semi_equip (8035.T Tokyo Electron, 6920.T Lasertec): Japanese semi EQUIPMENT,
+#     same market/currency/session — the cleanest control. Within the Japan chip supply
+#     chain, do materials and equipment form separate factors?
+#   - global_materials (ENTG Entegris, WAF.DE Siltronic): non-Japan materials peers. Is
+#     this a JAPAN factor, or one global "semi materials" factor regardless of geography?
+#   - etf (EWJ Japan, SOXX semis): Japan-beta and semiconductor-cycle-beta controls.
+name: Japan semi materials
+primary: 4063.T
+prefix: jpmaterials-cluster
+threshold: 0.5
+window_end: 2026-06-12
+definition_date: 2026-06-14
+
+groups:
+  cluster:
+    color: "#2962FF"
+    tickers: ["4186.T", "4063.T", "3436.T", "4005.T", "4901.T"]
+  jp_semi_equip:
+    color: "#F4511E"
+    tickers: ["8035.T", "6920.T"]
+  global_materials:
+    color: "#7E57C2"
+    tickers: [ENTG, "WAF.DE"]
+  etf:
+    color: "#9E9E9E"
+    tickers: [EWJ, SOXX]

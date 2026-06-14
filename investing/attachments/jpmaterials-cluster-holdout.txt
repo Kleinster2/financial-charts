@@ -1,0 +1,22 @@
+Japan semi materials HOLDOUT TEST
+Cohort: 4186.T, 4063.T, 3436.T, 4005.T, 4901.T (N=5)
+Window: 2y, split temporally at midpoint
+Train: 2024-06-12 -> 2025-06-12 (243 obs)
+Test:  2025-06-12 -> 2026-06-12 (244 obs)
+
+--- TRAIN HALF (older) ---
+Intra-correlation:    0.6072
+PC1 explained var:    68.83%
+Pairwise range:       [0.488, 0.732]
+
+--- TEST HALF (newer) ---
+Intra-correlation:    0.3580
+PC1 explained var:    48.86%
+Pairwise range:       [0.287, 0.459]
+
+--- STABILITY DIAGNOSTICS ---
+Intra-corr delta:     -0.2493   (test - train)
+PC1 variance delta:   -19.97pp
+PC1 loadings corr:    0.6251    (1.0 = identical factor structure)
+
+VERDICT: REGIME-DEPENDENT — test/train ratio 0.59 (cluster does not survive holdout)
