@@ -1,0 +1,38 @@
+# Cruise lines — the big-3 US cruise operators. The direct replication test of the
+# airlines result: another travel-cyclical with a shared demand + fuel driver and
+# different business models (Carnival CCL mass-market value, Royal Caribbean RCL
+# premium/innovation, Norwegian NCLH upscale). All heavily levered post-COVID.
+#   - Carnival (CCL), Royal Caribbean (RCL), Norwegian Cruise Line Holdings (NCLH)
+# Hypothesis (per the shared-driver law): one tight cyclical factor, no business-model
+# split — like airlines (0.76, no split). Cross-cohort questions: do cruises trade as
+# the SAME travel/reopening factor as airlines, or distinct? And do they share the
+# airlines' inverse-fuel signature (cruises are less fuel-intensive, so likely weaker)?
+# All US-listed.
+# Controls (each a distinctness question):
+#   - airlines (DAL, UAL): the sibling travel-cyclical — one travel factor or two?
+#   - consumer (XLY): consumer-discretionary beta — just reopening/consumer beta?
+#   - fuel (USO): oil — airlines were strongly inverse (-0.49); are cruises too?
+#   - etf (SPY): broad market.
+name: Cruise lines
+primary: RCL
+prefix: cruise-cluster
+threshold: 0.5
+window_end: 2026-06-12
+definition_date: 2026-06-14
+
+groups:
+  cluster:
+    color: "#2962FF"
+    tickers: [CCL, RCL, NCLH]
+  airlines:
+    color: "#F4511E"
+    tickers: [DAL, UAL]
+  consumer:
+    color: "#7E57C2"
+    tickers: [XLY]
+  fuel:
+    color: "#26A69A"
+    tickers: [USO]
+  etf:
+    color: "#9E9E9E"
+    tickers: [SPY]

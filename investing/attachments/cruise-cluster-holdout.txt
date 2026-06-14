@@ -1,0 +1,22 @@
+Cruise lines HOLDOUT TEST
+Cohort: CCL, RCL, NCLH (N=3)
+Window: 2y, split temporally at midpoint
+Train: 2024-06-12 -> 2025-06-12 (125 obs)
+Test:  2025-06-12 -> 2026-06-12 (213 obs)
+
+--- TRAIN HALF (older) ---
+Intra-correlation:    0.8741
+PC1 explained var:    91.62%
+Pairwise range:       [0.834, 0.912]
+
+--- TEST HALF (newer) ---
+Intra-correlation:    0.7927
+PC1 explained var:    86.21%
+Pairwise range:       [0.737, 0.831]
+
+--- STABILITY DIAGNOSTICS ---
+Intra-corr delta:     -0.0814   (test - train)
+PC1 variance delta:   -5.42pp
+PC1 loadings corr:    0.9666    (1.0 = identical factor structure)
+
+VERDICT: STABLE — test/train ratio 0.91 (durable cluster across regimes)
