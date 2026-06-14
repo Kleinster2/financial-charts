@@ -2,9 +2,9 @@
 
 # Short Standalone ASICs
 
-**Status**: High conviction — consolidation underway
-**Created**: 2026-01-02
-**Last reviewed**: 2026-06-05
+Status: High conviction — consolidation underway
+Created: 2026-01-02
+Last reviewed: 2026-06-05
 
 ---
 
@@ -28,7 +28,7 @@ NVIDIA's 3 Rubin variants + ecosystem make standalone competition nearly impossi
 | Networking (InfiniBand, NVSwitch) | Buy from NVIDIA anyway |
 | Scale economics | Small volumes |
 
-**The math**: Why build your own when NVIDIA offers mix-and-match?
+The math: Why build your own when NVIDIA offers mix-and-match?
 
 ---
 
@@ -36,10 +36,10 @@ NVIDIA's 3 Rubin variants + ecosystem make standalone competition nearly impossi
 
 | Player | Why survives |
 |--------|--------------|
-| **NVIDIA** | Platform owner, 3 variants |
-| **Google TPU** | Vertical integration, captive workload |
-| **Amazon Trainium** | Vertical integration, AWS lock-in |
-| **[[Cerebras]]** | Unique niche (wafer-scale), strategic scarcity |
+| NVIDIA | Platform owner, 3 variants |
+| Google TPU | Vertical integration, captive workload |
+| Amazon Trainium | Vertical integration, AWS lock-in |
+| [[Cerebras]] | Unique niche (wafer-scale), strategic scarcity |
 
 These survive because they either own the platform or have architectural uniqueness NVIDIA can't replicate.
 
@@ -49,12 +49,12 @@ These survive because they either own the platform or have architectural uniquen
 
 | Player | Problem |
 |--------|---------|
-| **[[Meta]] ASIC** | "Surprisingly weak" — may buy Rubin instead |
-| **[[Microsoft]] ASIC** | Can't compete with Rubin variants |
-| **[[Intel]]/[[SambaNova]]** | Late, weaker, acquired for defense |
-| **[[Graphcore]]** | Already struggling |
-| **[[Tenstorrent]]** | Niche, limited traction |
-| **Most VC-backed startups** | Ecosystem gravity |
+| [[Meta]] ASIC | "Surprisingly weak" — may buy Rubin instead |
+| [[Microsoft]] ASIC | Can't compete with Rubin variants |
+| [[Intel]]/[[SambaNova]] | Late, weaker, acquired for defense |
+| [[Graphcore]] | Already struggling |
+| [[Tenstorrent]] | Niche, limited traction |
+| Most VC-backed startups | Ecosystem gravity |
 
 ---
 
@@ -102,9 +102,9 @@ The equity selloff matters for a different reason: AVGO fell because the 2027 AI
 
 ## How to express this
 
-**Direct short**: Difficult — most targets are private or inside conglomerates.
+Direct short: Difficult — most targets are private or inside conglomerates.
 
-**Indirect expressions**:
+Indirect expressions:
 
 | Position | Rationale |
 |----------|-----------|
@@ -112,6 +112,14 @@ The equity selloff matters for a different reason: AVGO fell because the 2027 AI
 | Careful on Broadcom ASIC exposure | TAM risk |
 | Avoid ASIC startup investments | High failure rate |
 | Long Cerebras (speculative) | Survivor with scarcity value |
+
+---
+
+## Cluster structure — the AVGO/MRVL custom-silicon pair
+
+Cluster validation of the fabless cohort (NVDA/AMD/AVGO/QCOM + [[Marvell]], 2026-06-14) confirms that the AVGO/MRVL axis this thesis trades is the real micro-structure. [[Broadcom]] and [[Marvell]] correlate 0.47 over the trailing year — the tightest custom-ASIC pair in the cohort — and Marvell attaches to the AI-compute names as a satellite. But the broader fabless cohort is not a durable cluster: intra-correlation 0.412, negative intra-advantage versus the semis ETFs (SMH/SOXX, −0.214 — it is semis-beta), and a regime-dependent holdout (ratio 0.58). It was a tight AI-compute-boom trade (0.755 in 2022) that has decoupled to 0.39 by 2026, and [[Qualcomm]] is the structural outlier (mobile/handset, joins last).
+
+The read-through for expression: trade the custom-silicon view as the AVGO/MRVL pair, not as a fabless basket. The basket is semis-ETF beta and carries no thesis-specific factor; only the ASIC pair does. Full diagnostic in [[Vault cluster taxonomy]] (2026-06-14 exploration log).
 
 ---
 
@@ -129,11 +137,11 @@ Watch for [[Meta]] capex guidance on custom silicon.
 
 ## Link to other theses
 
-**[[Long NVIDIA]]**: Platform winner from ASIC consolidation.
+[[Long NVIDIA]]: Platform winner from ASIC consolidation.
 
-**[[Long Cerebras]]**: Survivor because of unique architecture.
+[[Long Cerebras]]: Survivor because of unique architecture.
 
-**[[Long Broadcom]]**: Mixed — designs ASICs but TAM at risk.
+[[Long Broadcom]]: Mixed — designs ASICs but TAM at risk.
 
 ---
 

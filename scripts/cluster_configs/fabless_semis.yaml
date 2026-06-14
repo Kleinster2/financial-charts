@@ -3,16 +3,21 @@
 # (vs foundries 0.21). Test whether NVDA/AMD/AVGO/QCOM is a real cluster — note that
 # AICX validation showed AMD and AVGO as singletons within that broader supplier cohort,
 # so this test may also fail.
+# 2026-06-14 boundary refinement: added [[Marvell]] (MRVL) — the audit flagged it as the
+# natural fifth member, and the [[Short standalone ASICs]] thesis trades the AVGO/MRVL
+# custom-silicon axis, so MRVL should attach to AVGO if the cohort coheres. Window
+# refreshed to 2026-06-12. Definition date reset (membership change).
 name: Fabless semiconductor
 primary: NVDA
 prefix: fabless-semis-cluster
 threshold: 0.4
-window_end: 2026-04-30
+window_end: 2026-06-12
+definition_date: 2026-06-14
 
 groups:
   cluster:
     color: "#2962FF"
-    tickers: [NVDA, AMD, AVGO, QCOM]
+    tickers: [NVDA, AMD, AVGO, QCOM, MRVL]
   ai_supplier_chain:
     color: "#7E57C2"
     tickers: [TSM, ASML, AMAT, KLAC, LRCX, MU]
