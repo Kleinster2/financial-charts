@@ -65,8 +65,9 @@ def parse_args() -> argparse.Namespace:
 
 def assignments_at_threshold(corr: pd.DataFrame, threshold: float) -> dict[str, int]:
     dist = 1 - corr.abs()
-    np.fill_diagonal(dist.values, 0)
-    condensed = squareform(dist.values, checks=False)
+    dist_arr = dist.to_numpy(copy=True)  # writeable: df.values is read-only under pandas CoW
+    np.fill_diagonal(dist_arr, 0)
+    condensed = squareform(dist_arr, checks=False)
     Z = linkage(condensed, method="average")
     flat = fcluster(Z, t=threshold, criterion="distance")
     return dict(zip(corr.columns, [int(c) for c in flat]))

@@ -178,8 +178,9 @@ def plot_correlation_heatmap(
 
 def hierarchical_cluster(corr: pd.DataFrame, universe: dict, threshold: float, out: Path, title: str) -> dict:
     dist = 1 - corr.abs()
-    np.fill_diagonal(dist.values, 0)
-    condensed = squareform(dist.values, checks=False)
+    dist_arr = dist.to_numpy(copy=True)  # writeable: df.values is read-only under pandas CoW
+    np.fill_diagonal(dist_arr, 0)
+    condensed = squareform(dist_arr, checks=False)
     Z = linkage(condensed, method="average")
 
     fig, ax = plt.subplots(figsize=(max(10, 0.55 * len(corr.columns)), 6))
@@ -275,8 +276,9 @@ def candidate_join_distances(corr: pd.DataFrame, candidate: list[str]) -> pd.Dat
         return pd.DataFrame(columns=["Step", "Left", "Right", "Distance", "Members"])
 
     dist = 1 - sub.abs()
-    np.fill_diagonal(dist.values, 0)
-    Z = linkage(squareform(dist.values, checks=False), method="average")
+    dist_arr = dist.to_numpy(copy=True)  # writeable: df.values is read-only under pandas CoW
+    np.fill_diagonal(dist_arr, 0)
+    Z = linkage(squareform(dist_arr, checks=False), method="average")
 
     clusters: dict[int, list[str]] = {i: [ticker] for i, ticker in enumerate(tickers)}
     rows = []
@@ -334,8 +336,9 @@ def rolling_tightness_analysis(
         pca.fit(standardized)
 
         dist = 1 - corr.abs()
-        np.fill_diagonal(dist.values, 0)
-        Z = linkage(squareform(dist.values, checks=False), method="average")
+        dist_arr = dist.to_numpy(copy=True)  # writeable: df.values is read-only under pandas CoW
+        np.fill_diagonal(dist_arr, 0)
+        Z = linkage(squareform(dist_arr, checks=False), method="average")
 
         core_corr = np.nan
         if len(core) >= 2 and all(t in corr.columns for t in core):
