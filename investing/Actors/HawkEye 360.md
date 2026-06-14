@@ -23,9 +23,9 @@ The investing-vault relevance is the cleanest pure-play public-equity exposure t
 ![[hawkeye-360-price-chart.png]]
 *HAWK from its May 7, 2026 NYSE debut (+30% to $34) through Jun. 12 ($23.81) — the post-IPO drift back below the first-day pop. Only ~one month of trading history (26 sessions); the series deepens with time.*
 
-### Fundamentals — deferred (local data unreliable)
+### Fundamentals — deferred (data corrected; series too short)
 
-The fundamentals chart and income-statement Sankey are deliberately deferred. HAWK is one month public, so local `income_statement_annual` carries only two pre-IPO years, and the FY2025 row pulled from Alpha Vantage is wrong — it shows $177.4M revenue / -$10.2M net loss, whereas the verified S-1 figures are $117.7M revenue (+74% YoY) and roughly breakeven, positive net income ($24.8M adjusted EBITDA). Charting the bad data would contradict the verified figures in the Financials section below. Re-run after the first as-public 10-K (early 2027) gives a clean multi-year series.
+The local `income_statement_annual` FY2025 row from Alpha Vantage was wrong ($177.4M revenue / -$10.2M net loss) and has been corrected to the verified S-1 figures (revenue $117.7M / +74% YoY, ~breakeven net income, $24.8M adjusted EBITDA); the unverifiable cost-side fields were nulled pending the first 10-K. Even with clean data, the fundamentals chart and income-statement Sankey remain deferred: only two annual points exist (FY2024-FY2025) against one month of post-IPO price, so a fundamentals chart is dominated by the price series and a Sankey lacks the as-reported cost breakdown. Re-run after the first as-public 10-K (early 2027) for a meaningful multi-year series.
 
 For pre-IPO disclosure data, see "Financials (S-1 disclosed, FY 2025)" section below.
 

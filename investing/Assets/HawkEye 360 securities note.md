@@ -38,7 +38,7 @@ HawkEye 360 securities — NYSE: HAWK. Equity-market note for [[HawkEye 360]], t
 
 HAWK is the rare profitable space IPO. At the $26 IPO price the ~$2.4B valuation implied ~26x EV/FY2025-revenue; the $34 first-day close pushed it to ~$3.15B. The differentiator from the cohort is operating profitability at IPO (positive net income + $24.8M adjusted EBITDA on $117.7M revenue) against a 7x backlog build — most space pure-plays ([[BlackSky]], [[Spire Global]], [[Intuitive Machines]]) carry GAAP losses. The drift from $34 to ~$24 in the first month reflects post-pop normalization plus the broader space-cohort risk-off through the [[SpaceX debut proxy unwind]] window.
 
-A local-data caveat: the as-public fundamentals series is one month old, and the Alpha Vantage FY2025 figure ($177.4M / -$10.2M) is unreliable versus the verified S-1 ($117.7M / breakeven) — see [[HawkEye 360#Charts|the actor note]]. The fundamentals chart and Sankey are deferred until the first 10-K (early 2027) provides a clean series.
+A local-data caveat: the as-public fundamentals series is one month old. The Alpha Vantage FY2025 row was wrong ($177.4M / -$10.2M) and has been corrected to the verified S-1 figures ($117.7M / breakeven); the fundamentals chart and Sankey stay deferred until the first 10-K (early 2027) provides enough annual points for a meaningful multi-year series — see [[HawkEye 360#Charts|the actor note]].
 
 ---
 

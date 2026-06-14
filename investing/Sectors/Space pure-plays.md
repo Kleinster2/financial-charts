@@ -55,32 +55,33 @@ Excluded from the validated cluster (different structural profile):
 
 ## Cluster validation diagnostic
 
-Per CLAUDE.md Hard Gate 11. Config: `scripts/cluster_configs/rklb.yaml`. Latest refresh run used the RKLB config with output prefix `space-pureplays-cluster-jun03`. Window: 1-year daily returns through 2026-06-03 (189 observations).
+Per CLAUDE.md Hard Gate 11. Config: `scripts/cluster_configs/rklb.yaml`. Latest refresh run (2026-06-14) is the eight-name cohort with [[Voyager|VOYG]] promoted (see the Voyager decision in the missing-name screen below). Window: 1-year daily returns through 2026-06-03 (189 observations).
 
-### Diagnostic summary
+### Diagnostic summary (8-name cohort)
 
 | Diagnostic | Value | Read |
 |---|---|---|
-| Intra-cluster avg correlation (1Y) | 0.634 | Tight; range 0.538-0.748 |
-| Hierarchical clustering @ 0.5 threshold | All 7 names in single cluster | RKLB, RDW, LUNR, BKSY, ASTS, SPIR, PL |
-| PC1 explained variance | 68.80% | One factor drives ~2/3 of variance |
-| PC1 loadings | 0.346-0.402 across all 7 | Single common factor, no sub-cluster splits |
+| Intra-cluster avg correlation (1Y) | 0.629 | Tight; range 0.519-0.748 |
+| Hierarchical clustering @ 0.5 threshold | All 8 names in single cluster | RKLB, RDW, LUNR, BKSY, ASTS, SPIR, PL, VOYG |
+| PC1 explained variance | 67.77% | One factor drives ~2/3 of variance |
+| PC1 loadings | 0.322-0.379 across all 8 | Single common factor, no sub-cluster splits |
 
-The June 3 refresh confirms the existing cluster rather than redefining it. Cohesion is slightly stronger than the May 27 refresh: intra-cluster correlation moved from 0.625 to 0.634 and PC1 from 68.04% to 68.80%. The important finding is stability through a risk-off tape: the selloff in public space names did not split into disconnected single-name stories; it kept all seven public pure-plays inside the same statistical basket.
+The 2026-06-14 refresh added [[Voyager|VOYG]] as the eighth member and confirms the cluster holds: all eight names still form a single hierarchical cluster, intra-correlation 0.629 (barely below the seven-name 0.634 — VOYG is additive, not dilutive), PC1 67.77%. VOYG joins the core at distance 0.349 — ahead of [[Planet Labs|PL]] (0.414) and [[Spire Global|SPIR]] (0.432), so it is more central to the factor than two existing members, not a fringe addition. The earlier seven-name reads (May 27 0.625 / Jun 3 0.634) remain the history; the eight-name figure is the current cohort. The finding holds through a risk-off tape: the selloff in public space names did not split into disconnected single-name stories; it kept all eight pure-plays inside the same statistical basket.
 
 ### Pairwise correlations (1Y)
 
-| | RKLB | RDW | LUNR | BKSY | ASTS | SPIR | PL |
-|---|---|---|---|---|---|---|---|
-| RKLB | 1.00 | 0.70 | 0.75 | 0.73 | 0.72 | 0.56 | 0.64 |
-| RDW | 0.70 | 1.00 | 0.62 | 0.63 | 0.71 | 0.55 | 0.54 |
-| LUNR | 0.75 | 0.62 | 1.00 | 0.68 | 0.67 | 0.56 | 0.61 |
-| BKSY | 0.73 | 0.63 | 0.68 | 1.00 | 0.67 | 0.63 | 0.66 |
-| ASTS | 0.72 | 0.71 | 0.67 | 0.67 | 1.00 | 0.58 | 0.56 |
-| SPIR | 0.56 | 0.55 | 0.56 | 0.63 | 0.58 | 1.00 | 0.57 |
-| PL | 0.64 | 0.54 | 0.61 | 0.66 | 0.56 | 0.57 | 1.00 |
+| | RKLB | RDW | LUNR | BKSY | ASTS | SPIR | PL | VOYG |
+|---|---|---|---|---|---|---|---|---|
+| RKLB | 1.00 | 0.70 | 0.75 | 0.73 | 0.72 | 0.56 | 0.64 | 0.67 |
+| RDW | 0.70 | 1.00 | 0.62 | 0.63 | 0.71 | 0.55 | 0.54 | 0.63 |
+| LUNR | 0.75 | 0.62 | 1.00 | 0.68 | 0.67 | 0.56 | 0.61 | 0.69 |
+| BKSY | 0.73 | 0.63 | 0.68 | 1.00 | 0.67 | 0.63 | 0.66 | 0.65 |
+| ASTS | 0.72 | 0.71 | 0.67 | 0.67 | 1.00 | 0.58 | 0.56 | 0.62 |
+| SPIR | 0.56 | 0.55 | 0.56 | 0.63 | 0.58 | 1.00 | 0.57 | 0.53 |
+| PL | 0.64 | 0.54 | 0.61 | 0.66 | 0.56 | 0.57 | 1.00 | 0.52 |
+| VOYG | 0.67 | 0.63 | 0.69 | 0.65 | 0.62 | 0.53 | 0.52 | 1.00 |
 
-Tightest pairs: RKLB-LUNR (0.75) and RKLB-BKSY (0.73) — launch + space-systems alignment keeps RKLB near the cohort's center of gravity. Loosest: RDW-PL (0.54) — hardware vs pure-data businesses. SPIR is still the cohort's softest member, but its pairwise floor has lifted versus the May 27 refresh.
+Tightest pairs: RKLB-LUNR (0.75) and RKLB-BKSY (0.73) — launch + space-systems alignment keeps RKLB near the cohort's center of gravity. New member VOYG's tightest ties are LUNR (0.69) and RKLB (0.67), i.e. it docks onto the launch/space-systems core, not the data sleeve (PL 0.52, SPIR 0.53 are its loosest). Loosest pairs overall: PL-VOYG (0.52) and RDW-PL (0.54) — hardware/launch vs pure-data businesses. SPIR remains the cohort's softest member.
 
 ### Separation from controls
 
