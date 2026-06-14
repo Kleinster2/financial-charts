@@ -8,7 +8,7 @@ Training gets the headlines. Inference is where the money is - or isn't.
 
 ## Synthesis
 
-The organizing fact is the input/output cost asymmetry: prefill (reading context) is roughly 1,000x cheaper than decode (generating tokens), so per-token API margins run 80-95% even as headline prices fall 50-200x a year. That settles the "is inference a money pit" debate cleanly — per-token economics were never the problem; the losses sit in amortized training, idle capacity, hyperscaler markup, and below-cost consumer subscriptions. Two forces then pull against each other. Commoditization pushes margins toward zero: open-source models ([[DeepSeek]], [[Qwen]], [[Llama]]) plus [[Open-source inference engines|open-source serving]] establish a near-marginal-cost floor, and [[NVIDIA]]'s Groq acquisition is a defensive move to own the inference layer before it commoditizes. The [[Jevons paradox]] pulls the other way: as price collapses, demand and architectural intensity (reasoning depth, agentic loops) explode, so aggregate spend rises even as unit cost craters. The reconciliation is a router-mediated, segmented market — cheap models for routine work, premium models where value, latency, or trust justify them. The sharper counterpoint is [[Dylan Patel]]'s: frontier-tier capacity is demand-bound and allocated by relationship, so the scarce good is not tokens but access to the frontier. The investable tension is whether margin compression (the commodity case) or capacity rationing (the scarcity case) dominates — and the same heterogeneous GPU cluster can be a low-margin training liability or a profitable inference annuity depending on which regime holds (see [[Training-to-inference cluster rotation]]).
+The organizing fact is the input/output cost asymmetry: prefill (reading context) is roughly 1,000x cheaper than decode (generating tokens), so per-token API margins run 80-95% even as headline prices fall 50-200x a year. That settles the "is inference a money pit" debate cleanly — per-token economics were never the problem; the losses sit in amortized training, idle capacity, hyperscaler markup, and below-cost consumer subscriptions. Two forces then pull against each other. Commoditization pushes margins toward zero: open-source models ([[DeepSeek]], [[Qwen]], [[Llama]]) plus [[Open-source inference engines|open-source serving]] establish a near-marginal-cost floor, and [[NVIDIA]]'s Groq acquisition is a defensive move to own the inference layer before it commoditizes. The [[Jevons Paradox]] pulls the other way: as price collapses, demand and architectural intensity (reasoning depth, agentic loops) explode, so aggregate spend rises even as unit cost craters. The reconciliation is a router-mediated, segmented market — cheap models for routine work, premium models where value, latency, or trust justify them. The sharper counterpoint is [[Dylan Patel]]'s: frontier-tier capacity is demand-bound and allocated by relationship, so the scarce good is not tokens but access to the frontier. The investable tension is whether margin compression (the commodity case) or capacity rationing (the scarcity case) dominates — and the same heterogeneous GPU cluster can be a low-margin training liability or a profitable inference annuity depending on which regime holds (see [[Training-to-inference cluster rotation]]).
 
 ---
 
@@ -383,7 +383,7 @@ Provider-side confirmation from the inside (Jun 2026): [[Sarah Friar]] ([[OpenAI
 
 ## The Jevons paradox in AI (March 2026)
 
-Despite token prices falling ~1,000×, total enterprise AI spending surged 320% in 2025. This is the textbook [[Jevons paradox]] — efficiency gains expand the addressable market faster than they reduce unit costs.
+Despite token prices falling ~1,000×, total enterprise AI spending surged 320% in 2025. This is the textbook [[Jevons Paradox]] — efficiency gains expand the addressable market faster than they reduce unit costs.
 
 The mechanism: at $20/MTok, only high-value enterprise applications justified LLM deployment. At $0.40/MTok, every [[SaaS]] product, internal tool, and consumer app embeds AI. The addressable market expanded by orders of magnitude.
 
@@ -437,8 +437,8 @@ Caveats: OpenRouter skews developer/startup. Enterprise consumption via direct A
 
 | Model family | Tokens processed (Nov 2024-Nov 2025) | Origin |
 |-------------|---------------------------------------|--------|
-| [[DeepSeek]] | 14.37T | China |
-| [[Qwen]] (Alibaba) | 5.59T | China |
+| [[DeepSeek]] | 14.37T | [[China]] |
+| [[Qwen]] (Alibaba) | 5.59T | [[China]] |
 | [[Llama]] (Meta) | 3.96T | US |
 | [[Mistral]] | 2.92T | [[France]] |
 | [[OpenAI]] | 1.65T | US |

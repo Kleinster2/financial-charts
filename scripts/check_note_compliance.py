@@ -44,6 +44,7 @@ COMMON_WORD_NOTE_NAMES = frozenset({
     "Street", "Vision", "Driver", "Brand", "Career", "Talent", "Labs", "Battery",
     "Solar", "Chip", "Finance", "Property", "Auto", "Seed", "Round", "Theme",
     "Entity", "Medium", "Wire", "Reflexivity", "Action", "Move", "Event",
+    "Memory", "Infrastructure", "Specialized",
 })
 
 # Concept names that are inherently plural-only (mass nouns) — the singular form
@@ -1038,6 +1039,8 @@ aliases: []
             if note_name in linked:  # Already linked
                 continue
             if note_name in COMMON_WORD_NOTE_NAMES:  # Common-word collision (e.g. "Gold", "Flow")
+                continue
+            if note_name.isdigit():  # Pure numbers (e.g. "99") are never entity references
                 continue
 
             # Case-sensitive whole-word match in content without links
@@ -2162,7 +2165,10 @@ aliases: []
                 if not clean or len(clean) < 3:
                     continue
                 # Check if the cell text exactly matches a note name
-                if clean in self.existing_notes and clean != filepath.stem and clean not in seen:
+                if (clean in self.existing_notes and clean != filepath.stem
+                        and clean not in seen
+                        and clean not in COMMON_WORD_NOTE_NAMES
+                        and not clean.isdigit()):
                     seen.add(clean)
                     issues.append(Issue("warning", "table-cell-link",
                         f"Table cell '{clean}' matches existing note — use [[{clean}]]"))
