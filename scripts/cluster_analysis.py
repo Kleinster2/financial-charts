@@ -44,8 +44,20 @@ from __future__ import annotations
 
 import argparse
 import sqlite3
+import sys
 from datetime import date, timedelta
 from pathlib import Path
+
+# Windows consoles default to cp1252; printing a non-ASCII cohort name (e.g.
+# the CJK "中特估") raises UnicodeEncodeError. In the test scripts that crash
+# happens *before* the registry row is written, so the row silently never lands
+# (exit 0 — it looks like it ran). Reconfigure stdout/stderr to UTF-8 on import
+# so every script in the cluster family (all import from this module) is safe.
+for _stream in (sys.stdout, sys.stderr):
+    try:
+        _stream.reconfigure(encoding="utf-8")
+    except (AttributeError, ValueError):
+        pass
 
 import matplotlib
 
