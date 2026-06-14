@@ -12,7 +12,7 @@ window_end: 2026-06-03
 groups:
   cluster:
     color: "#2962FF"
-    tickers: [RKLB, RDW, LUNR, BKSY, ASTS, SPIR, PL]
+    tickers: [RKLB, RDW, LUNR, BKSY, ASTS, SPIR, PL, VOYG]  # VOYG promoted to 8th member 2026-06-14 (catalyst-cycle confirmation: Jun 12 proxy unwind)
   defense_primes:
     color: "#7E57C2"
     tickers: [LMT, RTX, NOC, LHX]  # heritage defense; control to test "space = defense beta"

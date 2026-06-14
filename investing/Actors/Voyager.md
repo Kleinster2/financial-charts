@@ -3,7 +3,7 @@ aliases: [Voyager Technologies, Voyager Space, VOYG]
 ---
 #actor #space #usa #public #commercial-station
 
-**Voyager Technologies** — NYSE: VOYG. Public space-tech holding. Operates [[Star Lab]] (commercial space station joint venture, 67% Voyager-owned) competing in [[Commercial LEO Destinations]]. JV partners: [[Airbus]] (30.5%), [[Palantir]] (1%), [[Mitsubishi]] (0.8%), [[MDA]] (0.8%). IPO June 11, 2025 at $31; opened +125% to $69.75 ($3.8B initial valuation). Raised $409.4M net.
+**Voyager Technologies** — NYSE: VOYG. Public space-tech holding. Operates [[Star Lab]] (commercial space station joint venture, 67% Voyager-owned) competing in [[Commercial LEO Destinations]]. JV partners: [[Airbus]] (30.5%), [[Palantir]] (1%), [[Mitsubishi]] (0.8%), [[MDA]] (0.8%). IPO June 11, 2025 at $31; opened +125% to $69.75 ($3.8B initial valuation). Raised $409.4M net. As of June 2026, VOYG is a validated member of the [[Space pure-plays]] cohort — promoted to the eighth member after the [[SpaceX debut proxy unwind]] (Jun 12) confirmed it trades with the basket (fell -14% with the cohort; 0.565 average correlation to the seven prior members).
 
 The 10K is the cleanest publicly disclosed primary source on [[SpaceX]] [[Starship]] economics: $90M / $900/kg early pricing for the Star Lab launch contract — the price point [[Space Capital]] (Apr 2026) used to anchor the SLS-vs-Starship cost comparison driving NASA's architecture restructure.
 

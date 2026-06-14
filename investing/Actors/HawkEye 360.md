@@ -16,9 +16,16 @@ The investing-vault relevance is the cleanest pure-play public-equity exposure t
 > [!info] Newly public — data accumulating
 > HAWK began NYSE trading May 7, 2026. Sector correlation requires ~60+ trading days of return data to compute meaningfully. Re-run `python scripts/add_sector_correlations.py --ticker HAWK` after roughly Q3 2026 (mid-August) to populate the standard correlation table. Until then, expected sector neighbors: [[Defense]] (ITA), [[Aerospace & Defense]] (PPA), [[Software]] (IGV), [[Technology]] (XLK), [[Russell 2000]] small-cap (IWM).
 
-## Charts (pending data accumulation)
+## Charts
 
-Price chart (`hawkeye-360-price-chart.png`), fundamentals chart (`hawkeye-360-fundamentals-chart.png`), and Sankey (`hawkeye-360-sankey.png`) are pending. HAWK ticker not yet ingested into `prices_long` (1 trading day of history); fundamentals not yet in `income_statement_annual` (Q1 2026 will be the first as-public quarterly disclosure, expected August 2026 first earnings call). Re-run after first 10-K filing in early 2027 for the full historical fundamentals chart.
+### Price
+
+![[hawkeye-360-price-chart.png]]
+*HAWK from its May 7, 2026 NYSE debut (+30% to $34) through Jun. 12 ($23.81) — the post-IPO drift back below the first-day pop. Only ~one month of trading history (26 sessions); the series deepens with time.*
+
+### Fundamentals — deferred (local data unreliable)
+
+The fundamentals chart and income-statement Sankey are deliberately deferred. HAWK is one month public, so local `income_statement_annual` carries only two pre-IPO years, and the FY2025 row pulled from Alpha Vantage is wrong — it shows $177.4M revenue / -$10.2M net loss, whereas the verified S-1 figures are $117.7M revenue (+74% YoY) and roughly breakeven, positive net income ($24.8M adjusted EBITDA). Charting the bad data would contradict the verified figures in the Financials section below. Re-run after the first as-public 10-K (early 2027) gives a clean multi-year series.
 
 For pre-IPO disclosure data, see "Financials (S-1 disclosed, FY 2025)" section below.
 
@@ -147,7 +154,7 @@ For the [[Iran conflict supply chain cascade|Iran-war intelligence cycle]] threa
 
 ### Securities
 
-- [[HawkEye 360 securities]] — HAWK price history, valuation, ratings (companion securities note)
+- [[HawkEye 360 securities note]] — HAWK price history, valuation, profitability (companion securities note)
 
 ---
 
