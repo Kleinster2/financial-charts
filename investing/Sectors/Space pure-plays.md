@@ -289,7 +289,7 @@ Refreshed after the June 5 VOYG / KTOS price update using canonical `prices_long
 | [[Iridium Communications]] (IRDM) | Satellite communications | 0.388 | Exclude - different services-revenue beta profile |
 | [[Globalstar]] (GSAT) | Satellite communications / spectrum | 0.342 | Exclude - satellite operator, not same risk factor |
 | [[Destiny Tech100]] (DXYZ) | SpaceX proxy + closed-end private-tech basket | 0.278 | Exclude - tactical SpaceX-event co-mover, not structural cohort member |
-| [[EchoStar]] (SATS) | Satellite operator + spectrum holder | 0.231 | Exclude - different beta profile |
+| [[EchoStar]] (SATS) | Satellite operator + spectrum holder | 0.231 | Exclude — different beta profile; the canonical tactical SpaceX-event co-mover (see [[SpaceX debut proxy unwind]]) |
 | [[Momentus]] (MNTS) | Orbital transfer micro-cap | 0.177 | Exclude - idiosyncratic / retail-froth profile |
 
 Non-company controls validate the screen but are not eligible cohort members. `DDSD`, the internal space-and-defense drawdown basket, shows 0.768 average correlation because it was built from the theme itself. [[XAR]] shows 0.564 because aerospace/defense ETF flows now overlap with the space-factor trade, but an ETF is a benchmark/control, not a cluster member.

@@ -10,6 +10,22 @@ Intuitive Machines (LUNR) — Houston-based lunar services company. NASA CLPS pr
 
 ---
 
+## Sector correlation
+
+> [!warning] Sector Orphan
+> LUNR does not trade tightly with any sector ETF (max r = 0.44 with XLK).
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Technology | XLK | 0.44 |
+| [[Defense]] | ITA | 0.44 |
+| Industrials | XLI | 0.39 |
+| *S&P 500* | *SPY* | *0.41* |
+
+LUNR trades between Technology and Defense without a tight sector fit.
+
+---
+
 ## Quick stats
 
 | Detail | Value |
@@ -47,7 +63,42 @@ The move looks like pure factor expression rather than new LUNR-specific fundame
 
 ---
 
+## Financials
+
+Intuitive Machines is a pre-profit lunar-services and space-infrastructure company whose reported GAAP net income is dominated by non-cash warrant and earnout fair-value remeasurement — the +$62.8M 2023 gain and -$283.4M 2024 loss are remeasurement-driven, not operating. The operating story is a backlog-and-milestone business ([[NASA]] [[CLPS]] landers, lunar data relay, and, since Jan 2026, the [[Lanteris Space Holdings]] propulsion/components acquisition) scaling toward a $900M-$1B FY2026 revenue guide.
+
+| Year | Revenue | Net income (GAAP) |
+|------|---------|-------------------|
+| 2020 | $44.3M | -$4.3M |
+| 2021 | $72.6M | -$35.6M |
+| 2022 | $85.9M | -$6.4M |
+| 2023 | $79.5M | +$62.8M (remeasurement gain) |
+| 2024 | $228.0M | -$283.4M (remeasurement loss) |
+| 2025 | $210.1M | -$83.3M |
+
+*Source: company filings via local fundamentals data. The net-income line swings on warrant/earnout remeasurement; read the operating loss and adjusted EBITDA for the underlying trajectory.*
+
+![[intuitive-machines-fundamentals-chart.png]]
+*Revenue (blue) and GAAP net income (red) — the 2023 spike and 2024 trough are non-cash remeasurement, not operations.*
+
+![[intuitive-machines-sankey.png]]
+*FY2025 income statement: revenue $210M → 15.6% gross margin → -41.5% operating margin → -39.7% net margin. The cost base is dominated by COGS (84% of revenue) on a fixed-price, milestone-contract model with thin gross margins.*
+
+### Q1 2026 (reported May 2026): record revenue, first positive adjusted EBITDA
+
+Q1 2026 revenue was $186.7M, nearly triple Q1 2025's $62.5M, though it missed the ~$200-205M consensus. Operating loss $39.2M; net loss attributable -$37.4M / -$0.25 EPS. The quarter delivered the company's first positive adjusted EBITDA (+$2.7M). The jump is the [[Lanteris Space Holdings]] acquisition (closed Jan 13, 2026), which contributed $141.6M of product revenue. Backlog surged to a record $1.1B (from $213M at year-end 2025), fueled by Lanteris plus $429M in new awards. Management reaffirmed FY2026 guidance of $900M-$1B revenue and positive adjusted EBITDA.
+
+*Sources: [Intuitive Machines Q1 2026 release](https://investors.intuitivemachines.com/news-releases/news-release-details/intuitive-machines-reports-first-quarter-2026-financial-results); 10-Q.*
+
+---
+
 ## Related
+
+### Securities
+
+- [[Intuitive Machines securities note]] — LUNR instrument: price record, capital structure, cohort context
+
+### Entities and sectors
 
 - [[NASA]] — CLPS contracts
 - [[Astrobotic]] — CLPS competitor
