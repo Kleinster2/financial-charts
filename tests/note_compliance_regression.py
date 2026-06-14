@@ -1,5 +1,6 @@
 import unittest
 from pathlib import Path
+import os
 import sys
 import subprocess
 from tempfile import TemporaryDirectory
@@ -7,6 +8,10 @@ from tempfile import TemporaryDirectory
 sys.dont_write_bytecode = True
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
+
+# Use C:/tmp when it exists (local Windows convenience); fall back to the
+# platform default temp dir elsewhere (e.g. the Linux CI runner).
+_TMP_DIR = "C:/tmp" if os.path.isdir("C:/tmp") else None
 
 from scripts.check_note_compliance import NoteChecker
 
@@ -100,7 +105,7 @@ Rate-sensitive equities sold off.
 
 class AnalystStructureTests(unittest.TestCase):
     def check_synthetic_analyst(self, content: str):
-        with TemporaryDirectory(dir="C:/tmp") as tmpdir:
+        with TemporaryDirectory(dir=_TMP_DIR) as tmpdir:
             vault = Path(tmpdir) / "investing"
             analysts = vault / "Analysts"
             analysts.mkdir(parents=True)
@@ -180,7 +185,7 @@ Synthetic Analyst -- Test analyst.
 
 class SectorConceptChartTests(unittest.TestCase):
     def check_synthetic_note(self, folder: str, filename: str, content: str):
-        with TemporaryDirectory(dir="C:/tmp") as tmpdir:
+        with TemporaryDirectory(dir=_TMP_DIR) as tmpdir:
             vault = Path(tmpdir) / "investing"
             note_dir = vault / folder
             note_dir.mkdir(parents=True)
@@ -265,7 +270,7 @@ Avg correlation: 0.67.
 
 class PrivateCapitalFounderEdgeTests(unittest.TestCase):
     def check_synthetic_actor(self, content: str):
-        with TemporaryDirectory(dir="C:/tmp") as tmpdir:
+        with TemporaryDirectory(dir=_TMP_DIR) as tmpdir:
             vault = Path(tmpdir) / "investing"
             actors = vault / "Actors"
             actors.mkdir(parents=True)
