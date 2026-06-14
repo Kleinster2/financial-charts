@@ -8,3 +8,6 @@ python-dotenv  # Alpha Vantage API key loading
 pytz           # Timezone handling for FX NY close
 scipy          # cluster_analysis.py + cluster_statistics_tests.py (hierarchical clustering, stats)
 PyYAML         # cluster_configs/*.yaml + kalshi_watchlist_tests.py
+numpy          # cluster analysis + stats (explicit; also a pandas dependency)
+matplotlib     # cluster dendrogram/PCA chart rendering
+scikit-learn   # cluster_analysis.py (PCA / clustering)
