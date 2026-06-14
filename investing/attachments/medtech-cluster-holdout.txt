@@ -1,0 +1,22 @@
+Medtech HOLDOUT TEST
+Cohort: MDT, BSX, ISRG, RMD, SYK, EW, ABT (N=7)
+Window: 2y, split temporally at midpoint
+Train: 2024-06-12 -> 2025-06-12 (125 obs)
+Test:  2025-06-12 -> 2026-06-12 (213 obs)
+
+--- TRAIN HALF (older) ---
+Intra-correlation:    0.3879
+PC1 explained var:    49.51%
+Pairwise range:       [0.006, 0.757]
+
+--- TEST HALF (newer) ---
+Intra-correlation:    0.3292
+PC1 explained var:    43.15%
+Pairwise range:       [0.061, 0.513]
+
+--- STABILITY DIAGNOSTICS ---
+Intra-corr delta:     -0.0587   (test - train)
+PC1 variance delta:   -6.36pp
+PC1 loadings corr:    0.2872    (1.0 = identical factor structure)
+
+VERDICT: WEAKENED — test/train ratio 0.85 (factor present but eroding)

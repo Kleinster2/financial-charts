@@ -1,0 +1,31 @@
+# Medtech / medical-device majors — the listed US device makers ([[Medtronic]],
+# [[Boston Scientific]], [[Intuitive Surgical]], [[ResMed]], [[Stryker]],
+# [[Edwards Lifesciences]], [[Abbott]]). Hypothesis: a defensive secular-growth
+# healthcare-device cluster bound by procedure volumes, hospital capex,
+# reimbursement, and device-approval cycles. But the names span very different
+# product franchises (robotic surgery, heart valves, sleep apnea, orthopedics,
+# diagnostics+nutrition), so the dendrogram may split by franchise or flag the
+# diversified/high-multiple outliers (ABT, ISRG).
+# Controls (each a specific distinctness question):
+#   - pharma (LLY, MRK, PFE): big pharma — adjacent healthcare, different
+#     sub-sector. Tests "is medtech distinct from pharma, or just healthcare beta?"
+#   - etf (IHI iShares US Medical Devices, XLV health-care sector, SPY market):
+#     IHI is the sector ETF — is the cohort just IHI? XLV/SPY test healthcare vs
+#     broad-market beta.
+name: Medtech
+primary: MDT
+prefix: medtech-cluster
+threshold: 0.5
+window_end: 2026-06-12
+definition_date: 2026-06-14
+
+groups:
+  cluster:
+    color: "#2962FF"
+    tickers: [MDT, BSX, ISRG, RMD, SYK, EW, ABT]
+  pharma:
+    color: "#7E57C2"
+    tickers: [LLY, MRK, PFE]
+  etf:
+    color: "#9E9E9E"
+    tickers: [IHI, XLV, SPY]
