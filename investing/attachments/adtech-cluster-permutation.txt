@@ -1,0 +1,54 @@
+Ad-tech PERMUTATION TESTS
+Window: 2025-06-18 -> 2026-06-12 (212 obs)
+Candidate cohort: TTD, APP, PUBM, DV, MGNI (N=5)
+Observed intra-corr: 0.2899    Observed PC1: 45.44%
+
+--- INDEPENDENCE NULL ---
+Permutations: 10000
+Block size: 1
+Intra-cluster correlation:
+  Null mean:        0.0002
+  Null 95th pct:    0.0370
+  Null 99th pct:    0.0536
+  p-value (right):  0.000100    -> REJECTS independence null at p < 0.001
+PC1 explained variance:
+  Null mean:        23.89%
+  Null 95th pct:    26.00%
+  Null 99th pct:    27.35%
+  p-value (right):  0.000100    -> REJECTS independence null at p < 0.001
+
+--- RANDOM-BASKET NULL ---
+Permutations: 10000
+Universe source: DB prices_long (1017 tickers with >=200 obs in window)
+Pool size: 1012
+Intra-cluster correlation:
+  Null mean:        0.1494
+  Null 95th pct:    0.2909
+  Null 99th pct:    0.3678
+  p-value (right):  0.051495    -> FAILS to reject random-basket null (p >= 0.05)
+PC1 explained variance:
+  Null mean:        34.92%
+  Null 95th pct:    45.53%
+  Null 99th pct:    51.56%
+  p-value (right):  0.051395    -> FAILS to reject random-basket null (p >= 0.05)
+
+--- VOL-MATCHED NULL ---
+Permutations: 10000
+Universe source: DB prices_long (1017 tickers with >=200 obs in window)
+Pool size: 1012
+Matching: realized-vol rank band +/-5% per member, without replacement
+Intra-cluster correlation:
+  Null mean:        0.1840
+  Null 95th pct:    0.3033
+  Null 99th pct:    0.3684
+  p-value (right):  0.069193    -> FAILS to reject vol-matched null (p >= 0.05)
+PC1 explained variance:
+  Null mean:        36.56%
+  Null 95th pct:    45.54%
+  Null 99th pct:    50.25%
+  p-value (right):  0.051795    -> FAILS to reject vol-matched null (p >= 0.05)
+
+--- INTERPRETATION ---
+Independence null rejected: the cohort series co-move (necessary, not sufficient).
+Random-basket null NOT rejected: cohort cohesion is indistinguishable from a random N-pick of comparable names. Cluster claim is falsified at conventional significance.
+Vol-matched null NOT rejected: cohesion is explained by shared volatility/beta — the cohort co-moves because its members are similar-risk names, not because of a distinct cluster factor.

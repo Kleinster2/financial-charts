@@ -1,0 +1,38 @@
+# Ad-tech — the listed independent programmatic-advertising names. The label spans
+# genuinely different sub-businesses, which is the test:
+#   - The Trade Desk (TTD) — the big independent demand-side platform (DSP), CTV-heavy
+#   - AppLovin (APP) — mobile app monetization + the AXON AI ad engine (a hybrid that
+#     re-rated to mega-cap; the clearest decoupler from the rest)
+#   - PubMatic (PUBM) — supply-side platform (SSP)
+#   - Magnite (MGNI) — supply-side platform (SSP)
+#   - DoubleVerify (DV) — ad verification / measurement
+# Hypothesis: NOT one factor. TTD/APP decoupled hard through 2025-26 (APP's AI engine
+# ripped, TTD struggled), and the names are 4-5 different businesses (DSP vs SSP vs app
+# monetization vs measurement). Likely a falsification or a split: an SSP pair (PUBM/MGNI),
+# TTD as the DSP, APP the outlier, DV the measurement leg — the GLP-1 / medtech shape
+# (a sector label over names with different dominant drivers). All US-listed (synchronous).
+# Controls (each a distinctness question):
+#   - ad_giants (META, GOOGL): the walled-garden ad platforms the independents compete
+#     with / depend on. Is the cohort distinct from the big ad platforms?
+#   - growth (QQQ): high-beta Nasdaq growth — just software/growth beta?
+#   - etf (SPY): broad market.
+name: Ad-tech
+primary: TTD
+prefix: adtech-cluster
+threshold: 0.5
+window_end: 2026-06-12
+definition_date: 2026-06-14
+
+groups:
+  cluster:
+    color: "#2962FF"
+    tickers: [TTD, APP, PUBM, DV, MGNI]
+  ad_giants:
+    color: "#F4511E"
+    tickers: [META, GOOGL]
+  growth:
+    color: "#7E57C2"
+    tickers: [QQQ]
+  etf:
+    color: "#9E9E9E"
+    tickers: [SPY]
