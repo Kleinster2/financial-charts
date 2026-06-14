@@ -1,0 +1,31 @@
+Financial data providers THRESHOLD STABILITY SCAN
+Cohort size: 7
+
+--- ASSIGNMENT TABLE ---
+ threshold  n_subclusters  largest_subcluster_size  cohort_share_in_largest  contamination_count  intact
+      0.20              6                        2                    0.286                    0   False
+      0.25              5                        2                    0.286                    0   False
+      0.30              4                        3                    0.429                    0   False
+      0.35              4                        3                    0.429                    0   False
+      0.40              3                        3                    0.429                    1   False
+      0.45              2                        5                    0.714                    1   False
+      0.50              1                        7                    1.000                    1   False
+      0.55              1                        7                    1.000                    2   False
+      0.60              1                        7                    1.000                    2   False
+      0.65              1                        7                    1.000                    2   False
+      0.70              1                        7                    1.000                    2   False
+
+--- STABLE RANGES (intact cohort, no contamination) ---
+  None — cohort never returns as a clean single cluster at any threshold.
+
+--- VERDICT ---
+BOUNDARY-DEPENDENT: cohort does not form a clean cluster at any threshold tested. Falsification candidate.
+
+--- CONTAMINATION DETAIL (non-cohort names joining the cohort's largest cluster) ---
+  threshold 0.40: + NDAQ
+  threshold 0.45: + NDAQ
+  threshold 0.50: + NDAQ
+  threshold 0.55: + ICE,NDAQ
+  threshold 0.60: + ICE,NDAQ
+  threshold 0.65: + ICE,NDAQ
+  threshold 0.70: + ICE,NDAQ

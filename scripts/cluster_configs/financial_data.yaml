@@ -1,0 +1,36 @@
+# Financial data / index / ratings providers — the "data toll roads" of the
+# capital markets ([[S&P Global]], [[Moody's]], [[MSCI]], [[FactSet]],
+# [[Thomson Reuters]], [[RELX]], [[Morningstar]]). Hypothesis: a tight recurring-
+# subscription-revenue cluster — index licensing, credit ratings, analytics, and
+# data terminals priced on AUM/seats rather than transaction volume.
+# This run also closes the loop from the [[Exchange operators]] falsification, which
+# found ICE and Nasdaq clustering with SPGI/MCO/MSCI rather than with the
+# transaction exchanges. ICE/NDAQ are included as a boundary group: do the two
+# data-pivoted exchanges join the financial-data cluster?
+# Controls (each a specific distinctness question):
+#   - exchanges_boundary (ICE, NDAQ): the constructive test — do the data-pivoted
+#     exchanges belong to this cluster (as the Exchange operators run implied)?
+#   - derivatives (CME, CBOE): the transaction/volatility exchanges that should
+#     NOT join — the contrast that confirms the split is business-model, not sector.
+#   - etf (SPY broad market, XLF financials): generic financials vs a cohort-
+#     specific data factor.
+name: Financial data providers
+primary: SPGI
+prefix: financial-data-cluster
+threshold: 0.5
+window_end: 2026-06-12
+definition_date: 2026-06-14
+
+groups:
+  cluster:
+    color: "#2962FF"
+    tickers: [SPGI, MCO, MSCI, FDS, TRI, RELX, MORN]
+  exchanges_boundary:
+    color: "#F4511E"
+    tickers: [ICE, NDAQ]
+  derivatives:
+    color: "#7E57C2"
+    tickers: [CME, CBOE]
+  etf:
+    color: "#9E9E9E"
+    tickers: [SPY, XLF]

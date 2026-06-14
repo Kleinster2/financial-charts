@@ -1,0 +1,22 @@
+Financial data providers HOLDOUT TEST
+Cohort: SPGI, MCO, MSCI, FDS, TRI, RELX, MORN (N=7)
+Window: 2y, split temporally at midpoint
+Train: 2024-06-12 -> 2025-06-12 (58 obs)
+Test:  2025-06-12 -> 2026-06-12 (195 obs)
+
+--- TRAIN HALF (older) ---
+Intra-correlation:    0.7442
+PC1 explained var:    78.46%
+Pairwise range:       [0.537, 0.948]
+
+--- TEST HALF (newer) ---
+Intra-correlation:    0.6067
+PC1 explained var:    66.54%
+Pairwise range:       [0.425, 0.885]
+
+--- STABILITY DIAGNOSTICS ---
+Intra-corr delta:     -0.1375   (test - train)
+PC1 variance delta:   -11.91pp
+PC1 loadings corr:    0.9065    (1.0 = identical factor structure)
+
+VERDICT: WEAKENED — test/train ratio 0.82 (factor present but eroding)

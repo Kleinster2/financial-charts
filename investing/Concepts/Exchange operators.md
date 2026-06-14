@@ -83,7 +83,7 @@ Because PC1 captures only ~52% of variance, the raw PC1-mimic basket is not an i
 ### The read-through
 
 - Do not trade "exchanges" as one basket. The four-name cohort has no single factor (intra 0.360, PC1 52%, zero threshold width). A long-exchanges sleeve holding all four is at least two positions.
-- ICE and Nasdaq are data toll roads. They cluster with [[S&P Global]], [[Moody's]], and [[MSCI]] — the recurring-data / index / ratings complex — not with the transaction exchanges. The real cluster they belong to is the financial-data cohort (an untested candidate flagged in [[Vault cluster taxonomy]]).
+- ICE and Nasdaq are data toll roads. They cluster with [[S&P Global]], [[Moody's]], and [[MSCI]] — the recurring-data / index / ratings complex — not with the transaction exchanges. The real cluster they belong to is the now-validated [[Financial data providers]] cohort (2026-06-14): NDAQ joins it as a full member and ICE on the boundary, and the cohort is +0.554 of intra-advantage from the CME/CBOE derivatives pair.
 - CME and CBOE are the derivatives/volatility pair. Transaction-volume-driven, they re-rate on rate and volatility shocks; this is the closest thing to a genuine "exchange" sub-factor in the set.
 - The WFE contrast is the lesson. An oligopoly + a moat does not make a cluster — [[Sectors/WFE|WFE]] coheres at 0.804 because the four serve the same customers on one capex cycle; the exchanges fragmented because two of them changed what business they are in.
 
@@ -94,7 +94,7 @@ Method and terminology: `docs/cluster-validation.md`, [[Cohort, cluster, basket]
 - [[Vault cluster taxonomy]] — cross-cohort comparison; this joins [[Mag 7 cluster]] and [[Foundry monopoly consolidation|Foundry monopoly]] as a documented falsification
 - [[Sectors/WFE]] — the validated oligopoly ceiling (the contrast: why a moat is not a cluster)
 - [[CME Group]], [[Intercontinental Exchange]], [[Nasdaq]], [[CBOE]] — the four members
-- [[S&P Global]], [[Moody's]], [[MSCI]] — the financial-data complex ICE and Nasdaq actually trade with
+- [[Financial data providers]] — the validated cohort ICE and Nasdaq actually belong to (closes this falsification's loop); members include [[S&P Global]], [[Moody's]], [[MSCI]]
 - [[Cohort, cluster, basket]] — terminology
 
 *Created 2026-06-13.*
