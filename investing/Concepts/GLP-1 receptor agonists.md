@@ -93,7 +93,7 @@ Liraglutide's patent cliff is relevant because it set the precedent for the comp
 
 | Drug | Company | Mechanism | Status | Key data |
 |------|---------|-----------|--------|----------|
-| [[Foundayo]] (orforglipron) | [[Eli Lilly]] | Oral small-molecule GLP-1 | **FDA-approved April 1, 2026; launched April 2026** | 27.3 lbs (12.4%) weight loss at highest dose, 72 weeks (ATTAIN-1); no food/water restrictions; $149/mo self-pay, $25/mo with insurance |
+| [[Foundayo]] (orforglipron) | [[Eli Lilly]] | Oral small-molecule GLP-1 | FDA-approved April 1, 2026; launched April 2026 | 27.3 lbs (12.4%) weight loss at highest dose, 72 weeks (ATTAIN-1); no food/water restrictions; $149/mo self-pay, $25/mo with insurance |
 | CagriSema | [[Novo Nordisk]] | GLP-1 + amylin (cagrilintide + semaglutide) | Filed for FDA approval 2025 | ~22.7% weight loss at 68 weeks; FDA response expected 2026, launch ~2027 |
 | Amycretin | [[Novo Nordisk]] | Dual GLP-1/amylin (single molecule) | Phase 2; Phase 3 launching early 2026 | 22% weight loss in 36 weeks; potential best-in-class |
 | Survodutide | [[Boehringer Ingelheim]]/[[Zealand Pharma]] | Dual GLP-1/glucagon | Phase 3 | Also in Phase 3 for MASH; approval trajectory 2027-28 |
@@ -309,6 +309,91 @@ FTC issued notice to [[Novo Nordisk]] in Apr 2024 identifying improper listing o
 - Retatrutide Phase 3 readouts -- 7 trials reporting in 2026; 28.7% weight loss if tolerability improves
 - CagriSema FDA response -- Novo's next-gen combo; if approved, could reverse growth narrative
 - Food/alcohol spending data -- tracking second-order demand destruction
+
+---
+
+## Cluster validation
+
+> [!failure] Cluster status: falsified — a narrative, not a return factor (June 2026)
+> The listed obesity-drug names do not trade as one cohort. Intra-corr is 0.289 and collapses to 0.004 on weekly returns; PC1 explains only 47.7% (variance spread across PC2–PC4). The random-basket null is NOT rejected (p 0.076) — the cohesion is indistinguishable from a random 4-pick of comparable names — and the intra-advantage is negative on every axis (−0.021 vs big pharma, −0.162 vs biotech, −0.099 vs health/market): the names correlate more with their sector and biotech ETFs than with each other. They scatter to three homes — [[Eli Lilly]]+[[Amgen]] cluster with the health ETF (large-cap pharma), [[Viking Therapeutics]] with biotech (XBI), and [[Novo Nordisk]] is a singleton (joins last at 0.816). The "duopoly" [[Eli Lilly]]/[[Novo Nordisk]] do not even trade together. Threshold BOUNDARY-DEPENDENT (zero width); holdout reads ratio 0.91 but with PC1 loadings correlation −0.247 — the factor structure inverts between halves, so it is stably near-zero, not a stable cluster. See below.
+
+This is the equity-structure counterpart to everything above: GLP-1s are reshaping pharma, food, and insurance economics in the real world, but "obesity" is not a tradeable factor. Each name trades on its dominant return driver — [[Eli Lilly]] and [[Novo Nordisk]] on their own franchises and pipelines (and they diverged sharply through 2024–26 as Lilly pulled ahead), [[Viking Therapeutics]] as a catalyst-driven biotech, [[Amgen]] as a diversified biotech with MariTide as one asset — not on a shared obesity beta.
+
+### Diagnostics summary
+
+| Diagnostic | Value | Read |
+|---|---|---|
+| Intra-cluster corr (1Y) | 0.289 | Below floor; weekly 0.004 — essentially zero |
+| PC1 explained variance | 47.7% | Multi-factor (PC2 22.8%, PC3 17.9%) |
+| Independence null p | 0.0001 | Series co-move a little |
+| Random-basket null p | 0.076 | NOT rejected — no better than a random 4-pick |
+| Vol-matched null p | 0.043 | Marginal — barely beats same-vol baskets |
+| Holdout (2Y split) | ratio 0.91, loadings corr −0.247 | Stably near-zero; factor structure inverts |
+| Threshold clean width | 0.00 | Never a clean cluster |
+| Intra-adv vs pharma (PFE/MRK) | −0.021 | Negative — not distinct from big pharma |
+| Intra-adv vs biotech (XBI) | −0.162 | Negative — VKTX is biotech beta |
+| Intra-adv vs health/market (XLV/SPY) | −0.099 | Negative — correlates more with ETFs than itself |
+
+1Y daily log returns through 2026-06-12, threshold 0.5. All US-listed (NVO via ADR) — synchronous, so the weekly collapse to 0.004 is genuine, not async. Config: `scripts/cluster_configs/glp1_obesity.yaml`; registry row 2026-06-14. Terminology: [[Cohort, cluster, basket]].
+
+### Boundary — the names scatter to three homes
+
+![[glp1-cluster-dendrogram-1y.png]]
+*Hierarchical clustering at 0.5. The four obesity names do not cluster together: [[Eli Lilly]]+[[Amgen]] join the health ETF (XLV), [[Viking Therapeutics]] joins the biotech ETF (XBI), and [[Novo Nordisk]] sits alone. [[Pfizer]] and [[Merck]] are their own singletons. There is no obesity cluster — each name maps to a different existing factor.*
+
+The threshold scan returns zero width — XLV contaminates the LLY/AMGN pair from threshold 0.30, and the cohort never forms a clean single cluster. This is the [[Medtech]] / [[Theatrical exhibition]] signature (a label, not a factor), and the random-basket failure (p 0.076) puts it firmly in the pure-dispersion camp rather than the "real-but-not-separable" one.
+
+### Distinctness
+
+![[glp1-cluster-correlation-1y.png]]
+*1Y pairwise correlation heatmap. No warm block — the only above-0.45 pair is [[Eli Lilly]]–[[Amgen]] (large-cap pharma co-movement, not obesity). Every name is at least as warm against its sector/biotech ETF as against the others, the negative intra-advantage made visible.*
+
+### PC1 index weights
+
+![[glp1-cluster-pca-1y.png]]
+*PCA on the candidate cohort. PC1 explains only 47.7% with a long tail — no dominant common factor. [[Novo Nordisk]] carries the lowest loading (0.333), the singleton signature.*
+
+| Ticker | PC1 loading | Loading weight | Ann vol | Raw PC1-mimic weight |
+|---|---|---|---|---|
+| Eli Lilly (LLY) | 0.594 | 30.3% | 36.8% | 32.3% |
+| Novo Nordisk (NVO) | 0.333 | 17.0% | 56.0% | 11.9% |
+| Viking Therapeutics (VKTX) | 0.490 | 25.0% | 59.0% | 16.6% |
+| Amgen (AMGN) | 0.544 | 27.8% | 27.6% | 39.3% |
+
+The loadings are dispersed and the volatilities span a 2x range (AMGN 27.6% to VKTX 59.0%) — these are not comparable risk objects, and no equal-weighted basket reproduces a common factor because there is not one to reproduce.
+
+### Topology — the duopoly does not even pair
+
+| Join step | Names | Distance (1-\|corr\|) | Read |
+|---|---|---|---|
+| 1 | LLY + AMGN | 0.485 | Large-cap pharma co-movement (not obesity) |
+| 2 | VKTX + (LLY+AMGN) | 0.667 | Biotech name joins far out |
+| 3 | NVO + rest | 0.816 | The incumbent #2 joins last — a singleton |
+
+The most obesity-concentrated name ([[Novo Nordisk]]) is the least connected to the rest — it joins only at 0.816, decoupled by its own 2024–26 pipeline setbacks and share loss to [[Eli Lilly]]. The two names that define the theme do not form a pair.
+
+### Historical tightness evolution
+
+![[glp1-cluster-rolling-tightness-90d.png]]
+*Rolling 90-day cohesion, 2021–2026. Never tight — 0.22–0.35 in every year, with weekly correlation near zero throughout. There was never an obesity factor to break down.*
+
+| Window | Avg intra-corr | PC1 | Final join distance |
+|---|---|---|---|
+| 2022 | 0.224 | 42.7% | 0.842 |
+| 2023 | 0.347 | 53.4% | 0.807 |
+| 2024 | 0.240 | 49.2% | 0.912 |
+| 2026 | 0.282 | 48.2% | 0.882 |
+
+*Falsified across the whole history: the names have never cohered (final join distance 0.76–0.91 every year), so there is no regime in which an "obesity basket" was a single factor — the narrative grew explosively while the equity correlation stayed near zero.*
+
+### The read-through
+
+- There is no obesity trade as a basket. Intra 0.289 (weekly 0.004), random-basket null failed, negative intra-advantage everywhere — owning all four names buys three unrelated risks plus market beta, not a theme.
+- The incumbents are large-cap pharma, not an "obesity duopoly." [[Eli Lilly]] and [[Novo Nordisk]] trade on their own franchises and diverged through 2024–26; LLY clusters with [[Amgen]] and the health ETF, NVO with nothing. For the theme, single-name selection (LLY's execution lead) dominates any basket.
+- [[Viking Therapeutics]] is a biotech bet, not an obesity bet. Its negative intra-advantage vs the cohort and tight link to XBI mark it as catalyst-driven biotech beta — the VK2735 readouts, not the obesity factor, drive it.
+- A narrative is not a factor. The most-discussed equity story of the decade has no factor signature — the cleanest case in the campaign of a real-world theme that is invisible in the tape.
+
+Method and terminology: `docs/cluster-validation.md`, [[Cohort, cluster, basket]], [[Vault cluster taxonomy]]. Post-definition OOS re-validation queued for the next quarterly pass (definition date 2026-06-14).
 
 ---
 

@@ -1,0 +1,22 @@
+GLP-1 obesity HOLDOUT TEST
+Cohort: LLY, NVO, VKTX, AMGN (N=4)
+Window: 2y, split temporally at midpoint
+Train: 2024-06-12 -> 2025-06-12 (58 obs)
+Test:  2025-06-12 -> 2026-06-12 (195 obs)
+
+--- TRAIN HALF (older) ---
+Intra-correlation:    0.3174
+PC1 explained var:    49.90%
+Pairwise range:       [0.183, 0.610]
+
+--- TEST HALF (newer) ---
+Intra-correlation:    0.2886
+PC1 explained var:    47.67%
+Pairwise range:       [0.117, 0.515]
+
+--- STABILITY DIAGNOSTICS ---
+Intra-corr delta:     -0.0287   (test - train)
+PC1 variance delta:   -2.23pp
+PC1 loadings corr:    -0.2470    (1.0 = identical factor structure)
+
+VERDICT: STABLE — test/train ratio 0.91 (durable cluster across regimes)

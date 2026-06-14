@@ -1,0 +1,38 @@
+# GLP-1 / obesity complex — do the listed obesity-drug names trade as one factor?
+# Candidate cohort:
+#   - Eli Lilly (LLY) — incumbent #1 (tirzepatide: Mounjaro/Zepbound; oral orforglipron)
+#   - Novo Nordisk (NVO, NYSE ADR — US-synchronous) — incumbent #2 (semaglutide: Ozempic/Wegovy)
+#   - Viking Therapeutics (VKTX) — leading clinical-stage pipeline challenger (VK2735)
+#   - Amgen (AMGN) — diversified-biotech obesity entrant (MariTide)
+# Hypothesis: "obesity" may NOT be a clean factor. LLY/NVO are mega-cap diversified pharma
+# (LLY especially — oncology/immunology beyond obesity; NVO more obesity-concentrated) and
+# may trade on broad-pharma + own-pipeline; VKTX is a high-beta single-asset biotech lottery
+# ticket; AMGN is diversified biotech with MariTide as one asset. Likely split: an LLY/NVO
+# incumbent pair vs a pipeline/biotech leg (VKTX) — the obesity analogue of the title-insurance
+# pure-play-vs-diversified or the AI-optics incumbent-vs-speculative split.
+# All US-listed (NVO via ADR) — synchronous, no async caveat.
+# Controls (distinctness questions):
+#   - pharma (PFE, MRK): big pharma without obesity leadership — is the cohort distinct from
+#     large-pharma beta? (PFE has a lapsed oral-GLP-1 program; MRK essentially none.)
+#   - biotech (XBI): biotech-beta control — is VKTX just XBI beta?
+#   - etf (XLV health sector, SPY market): sector and market controls.
+name: GLP-1 obesity
+primary: LLY
+prefix: glp1-cluster
+threshold: 0.5
+window_end: 2026-06-12
+definition_date: 2026-06-14
+
+groups:
+  cluster:
+    color: "#2962FF"
+    tickers: [LLY, NVO, VKTX, AMGN]
+  pharma:
+    color: "#F4511E"
+    tickers: [PFE, MRK]
+  biotech:
+    color: "#7E57C2"
+    tickers: [XBI]
+  etf:
+    color: "#9E9E9E"
+    tickers: [XLV, SPY]
