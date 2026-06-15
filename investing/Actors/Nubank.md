@@ -188,6 +188,7 @@ Vélez is Colombian, [[Stanford]]/Sequoia background.
 - [[Revolut]] — peer (global neobank)
 - [[Block]] — peer (fintech)
 - [[Fintech]] — sector
+- [[Brazilian Depositary Receipts]] — ROXO34 (ex-NUBR33), Nubank's não-patrocinado Level I BDR on [[B3]]
 
 ### Financial inclusion context
 - [[Brazil]]'s ~215M population at ~$10K per capita inflection — the classic "emerging middle class digitization" sweet spot

@@ -158,6 +158,7 @@ Management guidance:
 
 ### Securities
 - [[PagSeguro securities note]] — NYSE: PAGS equity-market companion
+- [[Brazilian Depositary Receipts]] — PAGS34, PagSeguro's não-patrocinado Level I BDR on [[B3]]
 
 ### Competitors
 - [[Nubank]] — competitor (larger, digital bank focus)

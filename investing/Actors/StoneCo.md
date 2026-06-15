@@ -183,6 +183,7 @@ Why StoneCo matters:
 
 ### Securities
 - [[StoneCo securities note]] — Nasdaq: STNE equity-market companion
+- [[Brazilian Depositary Receipts]] — STOC31, StoneCo's patrocinado Level I BDR on [[B3]]
 
 ### Founders
 - André Street — co-founder, stepped down 2024

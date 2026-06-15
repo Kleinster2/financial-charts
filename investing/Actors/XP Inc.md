@@ -149,6 +149,7 @@ Bear:
 - [[Banco Inter]] — digital bank competitor
 - [[Nu Holdings]] — digital banking competitor (127M clients but investment platform secondary)
 - [[Brazil]] — domestic market
+- [[Brazilian Depositary Receipts]] — XPBR31, XP's patrocinado Level I BDR on [[B3]]
 - [[Rico Investimentos]], [[Clear Corretora]], [[Banco Modal]] — acquired brands
 
 ---

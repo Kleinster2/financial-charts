@@ -78,6 +78,7 @@ The note will be expanded with concrete segment numbers (Mercado Pago TPV, GMV, 
 - [[Stone]] — fintech peer
 - [[Shein]] / [[Temu]] — competitive pressure entering LATAM marketplace
 - [[Brazil]] — primary market
+- [[Brazilian Depositary Receipts]] — MELI34, MercadoLibre's não-patrocinado Level I BDR on [[B3]]
 - [[Argentina]] — secondary market with FX-translation drag
 - [[Mexico]] — second-largest growth market
 

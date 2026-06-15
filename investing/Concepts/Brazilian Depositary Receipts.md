@@ -51,7 +51,7 @@ The missing R$20k isenção is the line that matters. A Brazilian holding ordina
 A Brazil resident has two ways to hold a foreign name, and the BDR is only one of them:
 
 - BDR on [[B3]] — in reais, through a local home broker, no offshore account and no câmbio. The depositary holds the underlying abroad and the receipt settles domestically.
-- Direct offshore — buy the actual foreign share through an international broker ([[Interactive Brokers]], [[BTG Pactual]] international, [[Avenue Securities|Avenue]], [[Banco Inter|Inter]], [[Nomad]]), settling in USD outside Brazil.
+- Direct offshore — buy the actual foreign share through an international broker ([[Interactive Brokers]], [[BTG Pactual]] international, [[Avenue Securities|Avenue]], [[Banco Inter|Inter]], [[Nomad]]), settling in USD outside Brazil. See [[Offshore investing for Brazilians]] for the platform cohort, mechanics, and tax.
 
 The trade-off is convenience versus directness. The BDR keeps everything inside the Brazilian system in reais but adds a depositary layer, can be far less liquid than the home listing, and carries the worse tax treatment. The offshore account gives direct ownership, voting where it exists, and usually deeper liquidity, at the cost of currency conversion and offshore reporting. Both embed USD/BRL — neither is a currency-hedged way to own the company.
 
@@ -60,10 +60,15 @@ The trade-off is convenience versus directness. The BDR keeps everything inside 
 | Ticker | Company | Type (by suffix) | Securities / actor note |
 |---|---|---|---|
 | SPCX34 | [[SpaceX]] | Não patrocinado Nível I (34) | [[SpaceX securities note]] |
-| AURA33 | [[Aura Minerals]] | Patrocinado Nível III (33) — primary B3 listing | [[Aura Minerals]] |
-| INBR31 | [[Banco Inter]] | Patrocinado Nível I (31) — Nasdaq-migration receipt | [[Banco Inter]] |
+| MELI34 | [[MercadoLibre]] | Não patrocinado Nível I (34) | [[MercadoLibre]] |
+| ROXO34 | [[Nubank]] | Não patrocinado Nível I (34; ex-NUBR33) | [[Nubank]] |
+| PAGS34 | [[PagSeguro]] | Não patrocinado Nível I (34) | [[PagSeguro securities note]] |
+| XPBR31 | [[XP Inc]] | Patrocinado Nível I (31) | [[XP Inc]] |
+| STOC31 | [[StoneCo]] | Patrocinado Nível I (31) | [[StoneCo securities note]] |
+| INBR32 | [[Banco Inter]] | Patrocinado Nível II (32) — Nasdaq-migration receipt | [[Banco Inter]] |
+| AURA33 | [[Aura Minerals]] | Patrocinado Nível III (33) — primary B3 listing | [[Aura Minerals securities note]] |
 
-The three in-vault cases span the spectrum: [[SpaceX securities note|SPCX34]] is a depositary-created receipt of a US IPO the company did not register in Brazil; [[Aura Minerals|AURA33]] is a foreign-domiciled, Brazil-linked miner that used a sponsored Level III BDR as its actual fundraising listing on [[B3]]; [[Banco Inter|INBR31]] is the sponsored receipt Brazilian holders received when the bank redomiciled to a US ([[Nasdaq]]: INTR) holding company. Same wrapper, three different reasons to exist.
+The in-vault cases now span every category, and the suffix reads the spectrum top to bottom. The unsponsored Level I line (34) is the most common — [[SpaceX securities note|SPCX34]], [[MercadoLibre|MELI34]], [[Nubank|ROXO34]] (re-tickered from NUBR33 in Aug 2023), and [[PagSeguro|PAGS34]] are depositary-created receipts of US-listed companies with no Brazilian sponsorship. The sponsored lines reflect deeper company involvement: [[XP Inc|XPBR31]] and [[StoneCo|STOC31]] are patrocinado Level I, [[Banco Inter|INBR32]] is patrocinado Level II (the receipt Brazilian holders got when the bank redomiciled to [[Nasdaq]]: INTR), and [[Aura Minerals|AURA33]] is the lone patrocinado Level III — a foreign-domiciled, Brazil-linked miner that used the BDR as its actual fundraising listing on [[B3]]. Same wrapper, eight different reasons to exist.
 
 ## Synthesis
 
@@ -75,6 +80,8 @@ For the vault the instrument matters because it makes US coverage directly actio
 
 - [[B3]] — the exchange where BDRs are admitted and trade
 - [[CVM]] — the regulator; defines the sponsored/unsponsored levels and authorized the 2020 retail opening
+- [[Offshore investing for Brazilians]] — the offshore (USD, abroad) counterpart route
+- [[Foreign private issuer]] — the US wrapper on a foreign company, mirror of the BDR's Brazilian wrapper
 - [[SpaceX securities note]] — SPCX34, the unsponsored Level I receipt that prompted this note
 - [[Aura Minerals]] — AURA33, sponsored Level III used as a primary B3 listing
 - [[Banco Inter]] — INBR31, sponsored Level I from the Nasdaq redomicile

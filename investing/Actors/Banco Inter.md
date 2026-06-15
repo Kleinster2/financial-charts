@@ -32,7 +32,7 @@ INTR trades between Technology and Semiconductors without a tight sector fit.
 | CEO | João Vitor Menin (since Jul 2024; Rubens's son) |
 | Chairman | [[Rubens Menin]] |
 | Employees | ~4,100 |
-| Listed | NASDAQ: INTR / BDR: INBR31 |
+| Listed | NASDAQ: INTR / BDR: INBR32 |
 | Market cap | ~$4.1B (Feb 2026) |
 | FY2025 gross revenue | R$15B |
 | FY2025 net income | R$1.3B (~$250M) |
@@ -170,7 +170,7 @@ Bear:
 - [[BTG Pactual]] — competitor
 - [[Banco Central do Brasil]] — regulator
 - [[Brazil]] — domestic market
-- [[Brazilian Depositary Receipts]] — INBR31, the sponsored Level I BDR from the [[Nasdaq]] redomicile
+- [[Brazilian Depositary Receipts]] — INBR32, the sponsored Level II BDR from the [[Nasdaq]] redomicile
 
 ---
 
