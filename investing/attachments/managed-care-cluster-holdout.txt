@@ -1,0 +1,22 @@
+Managed care HOLDOUT TEST
+Cohort: UNH, ELV, HUM, CI, CVS (N=5)
+Window: 2y, split temporally at midpoint
+Train: 2024-06-12 -> 2025-06-12 (125 obs)
+Test:  2025-06-12 -> 2026-06-12 (213 obs)
+
+--- TRAIN HALF (older) ---
+Intra-correlation:    0.4373
+PC1 explained var:    55.21%
+Pairwise range:       [0.273, 0.670]
+
+--- TEST HALF (newer) ---
+Intra-correlation:    0.4713
+PC1 explained var:    58.06%
+Pairwise range:       [0.311, 0.585]
+
+--- STABILITY DIAGNOSTICS ---
+Intra-corr delta:     +0.0340   (test - train)
+PC1 variance delta:   +2.85pp
+PC1 loadings corr:    -0.2645    (1.0 = identical factor structure)
+
+VERDICT: STABLE — test/train ratio 1.08 (durable cluster across regimes)

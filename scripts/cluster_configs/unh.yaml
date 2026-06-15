@@ -1,0 +1,17 @@
+name: Managed care
+primary: UNH
+prefix: managed-care-cluster
+threshold: 0.5
+window_end: 2026-06-12
+history_start: 2020-01-01
+
+groups:
+  cluster:                      # candidate: big diversified managed-care / health insurers
+    color: "#2962FF"
+    tickers: [UNH, ELV, HUM, CI, CVS]
+  medicaid:                     # adjacent control: Medicaid-focused MCOs (more government-exposed)
+    color: "#7E57C2"
+    tickers: [CNC, MOH]
+  etf:                          # sector + provider + market benchmarks
+    color: "#9E9E9E"
+    tickers: [XLV, IHF, SPY]
