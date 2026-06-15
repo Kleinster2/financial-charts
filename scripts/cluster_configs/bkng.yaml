@@ -1,0 +1,20 @@
+name: Online travel
+primary: BKNG
+prefix: online-travel-cluster
+threshold: 0.5
+window_end: 2026-06-12
+history_start: 2021-01-01
+
+groups:
+  cluster:                      # candidate: the big-3 online travel agencies (OTAs)
+    color: "#2962FF"
+    tickers: [BKNG, ABNB, EXPE]
+  travel:                       # adjacent control: validated travel cyclicals (airlines + cruises)
+    color: "#7E57C2"
+    tickers: [DAL, UAL, CCL, RCL]
+  hotels:                       # adjacent control: hotel operators
+    color: "#26A69A"
+    tickers: [MAR, HLT]
+  etf:                          # consumer-discretionary + market benchmarks
+    color: "#9E9E9E"
+    tickers: [XLY, SPY]

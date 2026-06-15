@@ -1,0 +1,22 @@
+Online travel HOLDOUT TEST
+Cohort: BKNG, ABNB, EXPE (N=3)
+Window: 2y, split temporally at midpoint
+Train: 2024-06-12 -> 2025-06-12 (58 obs)
+Test:  2025-06-12 -> 2026-06-12 (195 obs)
+
+--- TRAIN HALF (older) ---
+Intra-correlation:    0.7974
+PC1 explained var:    86.54%
+Pairwise range:       [0.720, 0.842]
+
+--- TEST HALF (newer) ---
+Intra-correlation:    0.5851
+PC1 explained var:    72.48%
+Pairwise range:       [0.500, 0.697]
+
+--- STABILITY DIAGNOSTICS ---
+Intra-corr delta:     -0.2123   (test - train)
+PC1 variance delta:   -14.06pp
+PC1 loadings corr:    0.1876    (1.0 = identical factor structure)
+
+VERDICT: WEAKENED — test/train ratio 0.73 (factor present but eroding)
