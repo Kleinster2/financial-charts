@@ -1,0 +1,22 @@
+# Sub-cohort robustness test: the US-listed tobacco pair (Altria + Philip Morris), the
+# US leg of the boundary-dependent tobacco-majors cohort. Looser than the UK pair (0.498)
+# because PM's smoke-free pivot (IQOS/Zyn) has decoupled it from MO's US combustibles.
+name: Sub - Tobacco US pair
+primary: MO
+prefix: sub-tobacco-us
+threshold: 0.5
+window_end: 2026-06-12
+definition_date: 2026-06-14
+groups:
+  cluster:
+    color: "#2962FF"
+    tickers: [MO, PM]
+  uk_pair:
+    color: "#F4511E"
+    tickers: [BTI, IMBBY]
+  staples:
+    color: "#26A69A"
+    tickers: [XLP]
+  etf:
+    color: "#9E9E9E"
+    tickers: [SPY]

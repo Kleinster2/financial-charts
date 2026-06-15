@@ -24,3 +24,4 @@ tags: [actor, tobacco, consumer, uk]
 
 - [[Philip Morris]] — Competitor
 - [[Altria]] — US competitor
+- [[Tobacco majors basket]] — the four-name Western nicotine cluster; BTI anchors the UK pair with [[Imperial Brands]]

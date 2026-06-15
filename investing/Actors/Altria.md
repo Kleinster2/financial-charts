@@ -40,3 +40,4 @@ MO trades between Consumer Staples and Utilities without a tight sector fit.
 
 - [[Philip Morris]] — International spinoff (2008)
 - [[British American Tobacco]] — Competitor
+- [[Tobacco majors basket]] — the four-name Western nicotine cluster; MO anchors the US pair with [[Philip Morris]]

@@ -1,0 +1,29 @@
+Sub - Tobacco US pair THRESHOLD STABILITY SCAN
+Cohort size: 2
+
+--- ASSIGNMENT TABLE ---
+ threshold  n_subclusters  largest_subcluster_size  cohort_share_in_largest  contamination_count  intact
+      0.20              2                        1                      0.5                    0   False
+      0.25              2                        1                      0.5                    0   False
+      0.30              2                        1                      0.5                    0   False
+      0.35              2                        1                      0.5                    0   False
+      0.40              2                        1                      0.5                    0   False
+      0.45              2                        1                      0.5                    0   False
+      0.50              2                        1                      0.5                    1   False
+      0.55              2                        1                      0.5                    1   False
+      0.60              1                        2                      1.0                    3   False
+      0.65              1                        2                      1.0                    3   False
+      0.70              1                        2                      1.0                    3   False
+
+--- STABLE RANGES (intact cohort, no contamination) ---
+  None — cohort never returns as a clean single cluster at any threshold.
+
+--- VERDICT ---
+BOUNDARY-DEPENDENT: cohort does not form a clean cluster at any threshold tested. Falsification candidate.
+
+--- CONTAMINATION DETAIL (non-cohort names joining the cohort's largest cluster) ---
+  threshold 0.50: + XLP
+  threshold 0.55: + XLP
+  threshold 0.60: + BTI,IMBBY,XLP
+  threshold 0.65: + BTI,IMBBY,XLP
+  threshold 0.70: + BTI,IMBBY,XLP

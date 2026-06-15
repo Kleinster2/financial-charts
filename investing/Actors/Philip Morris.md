@@ -106,6 +106,7 @@ Zyn: Acquired Swedish Match (2022) for $16B. Nicotine pouches, fastest-growing c
 - [[Altria]] — US tobacco (former parent)
 - [[British American Tobacco]] — Competitor
 - [[Swedish Match]] — Acquired 2022
+- [[Tobacco majors basket]] — the four-name Western nicotine cluster; PM is the smoke-free outlier whose pivot loosens the cohort
 
 ---
 

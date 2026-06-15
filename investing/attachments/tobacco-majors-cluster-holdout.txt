@@ -1,0 +1,22 @@
+Tobacco majors HOLDOUT TEST
+Cohort: MO, PM, BTI, IMBBY (N=4)
+Window: 2y, split temporally at midpoint
+Train: 2024-06-12 -> 2025-06-12 (58 obs)
+Test:  2025-06-12 -> 2026-06-12 (195 obs)
+
+--- TRAIN HALF (older) ---
+Intra-correlation:    0.6737
+PC1 explained var:    75.61%
+Pairwise range:       [0.601, 0.807]
+
+--- TEST HALF (newer) ---
+Intra-correlation:    0.5121
+PC1 explained var:    63.62%
+Pairwise range:       [0.383, 0.629]
+
+--- STABILITY DIAGNOSTICS ---
+Intra-corr delta:     -0.1616   (test - train)
+PC1 variance delta:   -11.99pp
+PC1 loadings corr:    0.6602    (1.0 = identical factor structure)
+
+VERDICT: WEAKENED — test/train ratio 0.76 (factor present but eroding)

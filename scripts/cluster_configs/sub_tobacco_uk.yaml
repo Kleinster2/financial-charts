@@ -1,0 +1,23 @@
+# Sub-cohort robustness test: the UK tobacco pair (British American Tobacco + Imperial Brands),
+# the UK-listed, GBP/London-close leg of the boundary-dependent tobacco-majors cohort. Tightest
+# pair in the cohort (0.629) — but do they stand alone, or is the tightness partly shared
+# London-close async + GBP exposure rather than a pure tobacco factor?
+name: Sub - Tobacco UK pair
+primary: BTI
+prefix: sub-tobacco-uk
+threshold: 0.5
+window_end: 2026-06-12
+definition_date: 2026-06-14
+groups:
+  cluster:
+    color: "#2962FF"
+    tickers: [BTI, IMBBY]
+  us_pair:
+    color: "#F4511E"
+    tickers: [MO, PM]
+  staples:
+    color: "#26A69A"
+    tickers: [XLP]
+  etf:
+    color: "#9E9E9E"
+    tickers: [SPY]
