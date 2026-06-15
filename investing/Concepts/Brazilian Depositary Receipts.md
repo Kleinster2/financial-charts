@@ -51,7 +51,7 @@ The missing R$20k isenção is the line that matters. A Brazilian holding ordina
 A Brazil resident has two ways to hold a foreign name, and the BDR is only one of them:
 
 - BDR on [[B3]] — in reais, through a local home broker, no offshore account and no câmbio. The depositary holds the underlying abroad and the receipt settles domestically.
-- Direct offshore — buy the actual foreign share through an international broker ([[Interactive Brokers]], [[BTG Pactual]] international, Avenue, Inter, Nomad), settling in USD outside Brazil.
+- Direct offshore — buy the actual foreign share through an international broker ([[Interactive Brokers]], [[BTG Pactual]] international, [[Avenue Securities|Avenue]], [[Banco Inter|Inter]], [[Nomad]]), settling in USD outside Brazil.
 
 The trade-off is convenience versus directness. The BDR keeps everything inside the Brazilian system in reais but adds a depositary layer, can be far less liquid than the home listing, and carries the worse tax treatment. The offshore account gives direct ownership, voting where it exists, and usually deeper liquidity, at the cost of currency conversion and offshore reporting. Both embed USD/BRL — neither is a currency-hedged way to own the company.
 
