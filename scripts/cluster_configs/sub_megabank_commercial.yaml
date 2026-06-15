@@ -1,0 +1,23 @@
+# Sub-cohort robustness test: the commercial-bank core (JPMorgan + Bank of America +
+# Wells Fargo + US Bancorp), the deposit-and-lending leg of the mega-bank block. Citi (C)
+# is EXCLUDED here because the full-cohort dendrogram defects it into the GS/MS/SPY block.
+# Does the deposit-lending core stand alone, or just merge with regionals (KRE) / XLF?
+name: Sub - Megabank commercial core
+primary: JPM
+prefix: sub-megabank-commercial
+threshold: 0.4
+window_end: 2026-06-12
+definition_date: 2026-06-14
+groups:
+  cluster:
+    color: "#2962FF"
+    tickers: [JPM, BAC, WFC, USB]
+  invest_banks:
+    color: "#7E57C2"
+    tickers: [GS, MS]
+  regional_proxy:
+    color: "#FF6F00"
+    tickers: [KRE]
+  etf:
+    color: "#9E9E9E"
+    tickers: [XLF, SPY]

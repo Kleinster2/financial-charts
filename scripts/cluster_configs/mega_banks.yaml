@@ -5,7 +5,8 @@ name: Mega banks
 primary: JPM
 prefix: mega-banks-cluster
 threshold: 0.4
-window_end: 2026-04-30
+window_end: 2026-06-12
+definition_date: 2026-06-14
 
 groups:
   cluster:

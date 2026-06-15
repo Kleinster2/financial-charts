@@ -7,6 +7,8 @@ tags: [concept/cluster, banking, financials]
 
 > [!success] Cluster status: validated as cohort, but boundary equals XLF (May 2026)
 > Intra-cluster correlation 0.70 (range 0.61-0.78), PC1 75.8% explained variance — strong cohesion. BUT hierarchical clustering at 0.4 merges JPM/BAC/C/WFC/USB with GS, MS, KRE (regional banks), and XLF (financials ETF) into ONE block. The cluster IS the financials sector. There is no "mega bank" sub-factor distinct from XLF — at the equity level, the 5 names ARE the dominant constituents of XLF. The +0.59 separation from insurance carriers is the only meaningful within-financials distinction. See "Cluster validation" section below.
+>
+> Refreshed 2026-06-14 (1Y to 2026-06-12): verdict holds — commercial-5 intra 0.697, PC1 75.83%, stable to two decimals. The sub-cohort sweep sharpens it: the commercial core (JPM/BAC/WFC/USB) is boundary-dependent — XLF contaminates at threshold 0.30 and it never forms a clean island at any threshold — while the GS/MS investment-bank pair holds only across a narrow band (stable width 0.10, intra 0.839, SPY contaminates at 0.35). Citigroup now defects to the capital-markets pole, trading with GS/MS/SPY rather than the deposit-lending core. See the [[#Current-window refresh and sub-cohort sweep (2026-06-14)]] subsection.
 
 The five largest US universal banks — JPMorgan, Bank of America, Citigroup, Wells Fargo, US Bancorp — cohere tightly as a cluster (intra 0.70, PC1 76%) but the cluster boundary at 0.4 threshold extends to include investment banks (GS, MS), regional banks (KRE), and the broad financials ETF (XLF). Translation: at the 1-year horizon, "mega banks" = "banks" = "XLF financials." The math validates the cluster but says it isn't a separable basket from XLF.
 
@@ -64,6 +66,21 @@ Three implications:
 - Investment banks (GS, MS) trade with the mega bank cohort at the 0.4 threshold — at this horizon, the i-bank vs commercial-bank distinction is not a separable factor. Tighter threshold (0.3) might separate them.
 - Regional banks (KRE) also merge with mega banks at 0.4 — the rate-cycle and credit-cycle factors dominate within-banking distinctions at the 1Y horizon.
 - The ONLY clean within-financials separation is from insurance carriers (+0.59) — see [[Insurance carriers basket]] / [[P&C insurance carriers basket]].
+
+### Current-window refresh and sub-cohort sweep (2026-06-14)
+
+Re-run on the 2025-06-13 to 2026-06-12 window confirms the May verdict and answers the open question above (whether a tighter threshold separates the investment banks). Two new findings.
+
+First, a dendrogram defection. At the 0.4 threshold the block no longer reads as one undifferentiated cluster: JPM, BAC, WFC, USB merge with KRE and XLF (Cluster 1), while Citigroup splits off with GS, MS and SPY (Cluster 2). Citi trades with the investment banks and market beta, not the deposit-lending core — its large markets/trading desk and global footprint pull it toward the capital-markets pole. The May note flagged C as the obvious idiosyncratic name; the refresh shows the lean is systematic, not event-noise.
+
+Second, the sub-cohort robustness sweep (per `docs/cluster-validation.md` §10) measures whether either business-model leg is a tradeable sub-factor:
+
+| Sub-cohort | Intra-corr | Stable width | Label | Why it is not separable |
+|---|---|---|---|---|
+| Commercial core (JPM, BAC, WFC, USB) | 0.722 | 0.00 | boundary-dependent | XLF contaminates at threshold 0.30; never a clean island |
+| Investment-bank pair (GS, MS) | 0.839 | 0.10 (band 0.20-0.30) | fragile | SPY contaminates at 0.35 — what binds them is market beta |
+
+The juxtaposition is the cleanest illustration in the vault that correlation is not separability. GS+MS is the highest-correlated pair measured anywhere in the cluster campaign (0.839) yet only fragile, because the two investment banks are bound by broad market beta rather than any idiosyncratic investment-banking factor that would wall them off from SPY. The commercial core is tighter than it looks (0.722) but even less separable — XLF sits directly on top of it. Compare the Macau casino pair documented in [[Casino industry structure]] (LVS+WYNN, intra 0.631, stable width 0.20): less correlated than either bank leg, yet more separable, because a specific Macau gaming-policy factor walls it off from US consumer and market beta. Inside US banking there is no such idiosyncratic wall — the commercial banks ARE XLF, the investment banks ARE market beta, and the only thing that ever decouples is a single name on a restructuring story.
 
 ---
 

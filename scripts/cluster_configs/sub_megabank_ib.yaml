@@ -1,0 +1,20 @@
+# Sub-cohort robustness test: the bulge-bracket investment-bank pair (Goldman Sachs +
+# Morgan Stanley), the capital-markets leg of the mega-bank block. Does the IB pair stand
+# alone as a tradeable sub-factor (like the Macau casino pair), or merge with the
+# deposit-lending commercial banks / market beta (SPY)?
+name: Sub - Megabank investment-bank pair
+primary: GS
+prefix: sub-megabank-ib
+threshold: 0.4
+window_end: 2026-06-12
+definition_date: 2026-06-14
+groups:
+  cluster:
+    color: "#2962FF"
+    tickers: [GS, MS]
+  commercial:
+    color: "#F4511E"
+    tickers: [JPM, BAC, WFC, USB]
+  etf:
+    color: "#9E9E9E"
+    tickers: [XLF, SPY]
