@@ -35,6 +35,9 @@ Largest digital bank outside [[China]].
 ![[nu-fundamentals-chart.png]]
 *NU quarterly revenue and net income. Revenue hockey-sticking toward $5B/quarter. Net income turned positive mid-2023 and accelerated through ~$895M in Q4 2025. Alpha Vantage data through Q3 2025; Q4 2025 ($4.86B rev, $895M net income) not yet reflected.*
 
+![[nu-sankey.png]]
+*FY2024 income statement (latest reconciling annual in the DB). For a digital bank, "COGS" captures interest/funding expense plus credit-loss provisions and "Gross Profit" is net revenue after them: $11.1B revenue → 46% net revenue → 25% operating margin → $2.0B net income (18% margin). As a [[Foreign private issuer]] Nubank files 6-K/IFRS, so the annual cadence lags — FY2025 net income reached ~$2.87B.*
+
 ---
 
 ## Sector correlation
@@ -189,6 +192,9 @@ Vélez is Colombian, [[Stanford]]/Sequoia background.
 - [[Block]] — peer (fintech)
 - [[Fintech]] — sector
 - [[Brazilian Depositary Receipts]] — ROXO34 (ex-NUBR33), Nubank's não-patrocinado Level I BDR on [[B3]]
+
+### Securities
+- [[Nubank securities note]] — NYSE: NU equity-market companion (dual-class, FPI)
 
 ### Financial inclusion context
 - [[Brazil]]'s ~215M population at ~$10K per capita inflection — the classic "emerging middle class digitization" sweet spot
