@@ -8,6 +8,8 @@ tags: [concept, finance, capital-markets, m&a]
 > [!success] Cluster status: validated (May 2026)
 > Intra-cluster correlation 0.73, PC1 77.5% explained variance. Hierarchical clustering at 0.4 returns exactly the 6 candidate names (PWP, LAZ, EVR, MC, HLI, PJT). Most distant comparator: insurance brokers (+0.60 advantage). See "Cluster validation — statistical analysis" section below.
 
+> [!warning] OOS watch (preliminary, 2026-06-15 capstone): cohesion is cooling out of sample — graded OOS-WEAKENED, full six names intra 0.724 → 0.530 post-definition, but still beating random baskets at p 0.0009. This is a validated cluster descending from its May-1-print-event cohesion peak, not a falsification. The validated status stands; re-grade at the July pass when PRELIMINARY drops. See the [[2026-06-15-cluster-validation-capstone|2026-06-15 capstone]].
+
 Independent investment-banking advisory firms ("boutique" banks) have taken a growing share of global M&A fee income since the 2008 financial crisis, on the back of the "conflict-free advice" pitch — no lending relationships, no trading book, no underwriting inventory to clear. As the category has matured past its growth phase, the top independents have started consolidating among themselves, buying smaller local or specialist shops to close gaps in geographic and sector coverage. The 2025–2026 wave of deals — [[Evercore]] / [[Robey Warshaw]] ([[UK]], Jul 2025), [[Perella Weinberg Partners]] / [[Devon Park]] (secondaries, 2025), [[Perella Weinberg Partners]] / [[Gleacher Shacklock]] ([[UK]], Apr 2026) — is the clearest signal that boutiques now compete with each other, not just with the bulge brackets.
 
 ---

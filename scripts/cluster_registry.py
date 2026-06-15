@@ -27,6 +27,7 @@ from __future__ import annotations
 
 import argparse
 import csv
+import sys
 from datetime import date
 from pathlib import Path
 
@@ -275,6 +276,10 @@ def parse_args() -> argparse.Namespace:
 
 
 def main() -> None:
+    # Registry cohort names include CJK (e.g. 中特估); force UTF-8 stdout so
+    # `correction`/`list`/`summary` don't crash on the default Windows cp1252.
+    if hasattr(sys.stdout, "reconfigure"):
+        sys.stdout.reconfigure(encoding="utf-8")
     args = parse_args()
     if args.cmd == "list":
         cmd_list(args)

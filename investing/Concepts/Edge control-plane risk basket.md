@@ -13,6 +13,8 @@ tags:
 
 > [!warning] Cluster status: weak cluster (May 2026)
 > Intra-cluster correlation 0.47 (below the 0.50 floor), PC1 64.8%. Hierarchical clustering at 0.4 returns ALL THREE names (FSLY, AKAM, NET) as singletons — no cluster forms at the standard threshold. The basket is a risk factor that turns on during control-plane narrative shocks (event-driven), not a permanent structural cluster. See "Cluster validation — weak cluster confirmed" section below.
+>
+> OOS-FAILED (preliminary): this cohort is the framework's first out-of-sample falsification. It passed the in-sample clean-null random-basket test (p 0.0123, BH-pass), then its intra-correlation went 0.444 → ~−0.001 over the 24 sessions after its May 3 definition date — random baskets beat it on 69% of post-definition days. The boundary did not survive contact with unseen data. To be formally downgraded from "weak cluster" to falsified at the July pass when PRELIMINARY drops. See the [[2026-06-15-cluster-validation-capstone|2026-06-15 capstone]].
 
 Plain English: not all AI infrastructure is safe just because AI traffic grows. If model vendors bundle execution, state, permissions, and tracing into their own hosted agent runtimes, the edge layer closest to that control plane can get repriced hard.
 
