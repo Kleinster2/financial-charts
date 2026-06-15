@@ -1,0 +1,22 @@
+# Sub-cohort robustness test: the lithium PRODUCER core (Albemarle + SQM + Sigma), excluding
+# the pre-revenue developer LAC that splits off in the full cohort. Does the producer trio form
+# a robust sub-cluster, or does LIT (its ETF) still contaminate it?
+name: Sub - Lithium producers
+primary: ALB
+prefix: sub-lithium-producers
+threshold: 0.5
+window_end: 2026-06-12
+definition_date: 2026-06-14
+groups:
+  cluster:
+    color: "#2962FF"
+    tickers: [ALB, SQM, SGML]
+  developer:
+    color: "#F4511E"
+    tickers: [LAC]
+  lithium_etf:
+    color: "#26A69A"
+    tickers: [LIT]
+  etf:
+    color: "#9E9E9E"
+    tickers: [SPY]

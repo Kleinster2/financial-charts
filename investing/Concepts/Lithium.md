@@ -267,6 +267,7 @@ See [[Albemarle]] and [[SQM]] actor notes for stock-specific updates; underlying
 
 - [[Albemarle]] — \#1 Western producer
 - [[SQM]] — Chilean producer (\#2 global)
+- [[Lithium equity beta]] — the listed lithium-miner cohort (validated: a real but loose factor, ETF-replicable by LIT)
 - [[Rio Tinto]] — diversifying into lithium (Arcadium acquisition)
 - [[BYD]] — major EV/battery producer
 - [[Tesla]] — EV demand driver

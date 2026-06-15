@@ -124,6 +124,7 @@ Downside risks:
 ## Related
 
 - [[Lithium]] — commodity (Apr 16 sigma-dispersion event)
+- [[Lithium equity beta]] — the lithium-miner cluster; LAC is the developer that splits off (a lithium option, not lithium beta)
 - [[Lithium Triangle]] — contrast (US-domestic vs South American brine)
 - [[Lithium Argentina]] — sister entity (LAAC), post-2023 separation
 - [[General Motors]] — JV partner, off-take counterparty

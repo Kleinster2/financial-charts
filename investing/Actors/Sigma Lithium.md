@@ -101,6 +101,7 @@ Sigma sits at the intersection of three flows the vault tracks:
 ## Related
 
 - [[Lithium]] — commodity (Apr 16 sigma-dispersion event)
+- [[Lithium equity beta]] — the lithium-miner cluster; SGML the extreme-vol Brazil producer
 - [[Brazil]] — country context (Lithium Valley)
 - [[Lithium Triangle]] — competing geography (Chile/Argentina/Bolivia)
 - [[Atlas Lithium]] — Brazilian peer (Neves project, lower-cost development)

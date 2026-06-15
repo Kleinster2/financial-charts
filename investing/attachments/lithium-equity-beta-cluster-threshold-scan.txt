@@ -1,0 +1,33 @@
+Lithium equity beta THRESHOLD STABILITY SCAN
+Cohort size: 4
+
+--- ASSIGNMENT TABLE ---
+ threshold  n_subclusters  largest_subcluster_size  cohort_share_in_largest  contamination_count  intact
+      0.20              3                        2                     0.50                    0   False
+      0.25              3                        2                     0.50                    0   False
+      0.30              3                        2                     0.50                    1   False
+      0.35              3                        2                     0.50                    1   False
+      0.40              3                        2                     0.50                    1   False
+      0.45              2                        3                     0.75                    1   False
+      0.50              2                        3                     0.75                    1   False
+      0.55              2                        3                     0.75                    1   False
+      0.60              1                        4                     1.00                    1   False
+      0.65              1                        4                     1.00                    3   False
+      0.70              1                        4                     1.00                    3   False
+
+--- STABLE RANGES (intact cohort, no contamination) ---
+  None — cohort never returns as a clean single cluster at any threshold.
+
+--- VERDICT ---
+BOUNDARY-DEPENDENT: cohort does not form a clean cluster at any threshold tested. Falsification candidate.
+
+--- CONTAMINATION DETAIL (non-cohort names joining the cohort's largest cluster) ---
+  threshold 0.30: + LIT
+  threshold 0.35: + LIT
+  threshold 0.40: + LIT
+  threshold 0.45: + LIT
+  threshold 0.50: + LIT
+  threshold 0.55: + LIT
+  threshold 0.60: + LIT
+  threshold 0.65: + LIT,XLB,SPY
+  threshold 0.70: + LIT,XLB,SPY

@@ -1,0 +1,22 @@
+Lithium equity beta HOLDOUT TEST
+Cohort: ALB, SQM, LAC, SGML (N=4)
+Window: 2y, split temporally at midpoint
+Train: 2024-06-12 -> 2025-06-12 (58 obs)
+Test:  2025-06-12 -> 2026-06-12 (195 obs)
+
+--- TRAIN HALF (older) ---
+Intra-correlation:    0.6747
+PC1 explained var:    76.00%
+Pairwise range:       [0.505, 0.834]
+
+--- TEST HALF (newer) ---
+Intra-correlation:    0.5212
+PC1 explained var:    64.92%
+Pairwise range:       [0.362, 0.800]
+
+--- STABILITY DIAGNOSTICS ---
+Intra-corr delta:     -0.1535   (test - train)
+PC1 variance delta:   -11.09pp
+PC1 loadings corr:    0.8718    (1.0 = identical factor structure)
+
+VERDICT: WEAKENED — test/train ratio 0.77 (factor present but eroding)

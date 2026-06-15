@@ -224,6 +224,7 @@ Cross-name reads:
 ## Related
 
 - [[Lithium]] — commodity
+- [[Lithium equity beta]] — the lithium-miner cluster; ALB is the PC1 anchor of the producer core
 - [[SQM]] — competitor ([[Chile]])
 - [[Sigma Lithium]] — Brazilian producer (Grota do Cirilo, emerging peer)
 - [[Atlas Lithium]] — Brazilian developer (Neves, 145% IRR)

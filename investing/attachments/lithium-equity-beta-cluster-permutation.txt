@@ -1,0 +1,54 @@
+Lithium equity beta PERMUTATION TESTS
+Window: 2025-06-18 -> 2026-06-12 (195 obs)
+Candidate cohort: ALB, SQM, LAC, SGML (N=4)
+Observed intra-corr: 0.5212    Observed PC1: 64.92%
+
+--- INDEPENDENCE NULL ---
+Permutations: 10000
+Block size: 1
+Intra-cluster correlation:
+  Null mean:        -0.0000
+  Null 95th pct:    0.0492
+  Null 99th pct:    0.0708
+  p-value (right):  0.000100    -> REJECTS independence null at p < 0.001
+PC1 explained variance:
+  Null mean:        29.02%
+  Null 95th pct:    31.41%
+  Null 99th pct:    32.67%
+  p-value (right):  0.000100    -> REJECTS independence null at p < 0.001
+
+--- RANDOM-BASKET NULL ---
+Permutations: 10000
+Universe source: DB prices_long (1036 tickers with >=200 obs in window)
+Pool size: 1032
+Intra-cluster correlation:
+  Null mean:        0.1493
+  Null 95th pct:    0.3133
+  Null 99th pct:    0.4046
+  p-value (right):  0.001000    -> REJECTS random-basket null at p < 0.001
+PC1 explained variance:
+  Null mean:        38.88%
+  Null 95th pct:    50.24%
+  Null 99th pct:    56.60%
+  p-value (right):  0.001100    -> REJECTS random-basket null at p < 0.01
+
+--- VOL-MATCHED NULL ---
+Permutations: 10000
+Universe source: DB prices_long (1036 tickers with >=200 obs in window)
+Pool size: 1032
+Matching: realized-vol rank band +/-5% per member, without replacement
+Intra-cluster correlation:
+  Null mean:        0.1771
+  Null 95th pct:    0.3289
+  Null 99th pct:    0.3919
+  p-value (right):  0.000300    -> REJECTS vol-matched null at p < 0.001
+PC1 explained variance:
+  Null mean:        39.91%
+  Null 95th pct:    50.65%
+  Null 99th pct:    55.27%
+  p-value (right):  0.000300    -> REJECTS vol-matched null at p < 0.001
+
+--- INTERPRETATION ---
+Independence null rejected: the cohort series co-move (necessary, not sufficient).
+Random-basket null rejected: cohort is more cohesive than a random N-pick from the same universe. This is the meaningful pass.
+Vol-matched null rejected: cohesion exceeds random baskets with the SAME volatility profile — the cluster factor is not just shared beta/vol.

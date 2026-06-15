@@ -177,6 +177,7 @@ Next catalyst: Q1 2026 earnings release scheduled for May 27, 2026.
 ## Related
 
 - [[Lithium]] — commodity
+- [[Lithium equity beta]] — the lithium-miner cluster; SQM the diversified (looser) producer
 - [[Albemarle]] — competitor (\#1 Western)
 - [[Sigma Lithium]] · [[Atlas Lithium]] · [[AMG]] — Brazilian lithium producers (non-Triangle peers)
 - [[Chile]] — country (political risk)
