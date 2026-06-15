@@ -70,6 +70,22 @@ The trade-off is convenience versus directness. The BDR keeps everything inside 
 
 The in-vault cases now span every category, and the suffix reads the spectrum top to bottom. The unsponsored Level I line (34) is the most common — [[SpaceX securities note|SPCX34]], [[MercadoLibre|MELI34]], [[Nubank|ROXO34]] (re-tickered from NUBR33 in Aug 2023), and [[PagSeguro|PAGS34]] are depositary-created receipts of US-listed companies with no Brazilian sponsorship. The sponsored lines reflect deeper company involvement: [[XP Inc|XPBR31]] and [[StoneCo|STOC31]] are patrocinado Level I, [[Banco Inter|INBR32]] is patrocinado Level II (the receipt Brazilian holders got when the bank redomiciled to [[Nasdaq]]: INTR), and [[Aura Minerals|AURA33]] is the lone patrocinado Level III — a foreign-domiciled, Brazil-linked miner that used the BDR as its actual fundraising listing on [[B3]]. Same wrapper, eight different reasons to exist.
 
+## Most liquid BDRs
+
+The cases above are the vault's covered BDRs — Brazil-linked names plus the SpaceX and Aura situations — but they are not the most traded. BDR turnover on [[B3]] reached roughly R$1bn/day in the first half of 2025, and the volume concentrates in the US-megacap unsponsored Level I line (suffix 34) — the "Magnificent 7," not the domestic names. The liquidity leaders are Tesla and Nvidia, each turning over more than R$130mn/day:
+
+| BDR | Company | Note |
+|---|---|---|
+| TSLA34 | [[Tesla]] | most-traded BDR (~R$138mn/day, 1H 2025) |
+| NVDC34 | [[Nvidia]] | #2 (~R$132mn/day) |
+| AAPL34 | [[Apple]] | |
+| MSFT34 | [[Microsoft]] | |
+| AMZO34 | [[Amazon]] | |
+| GOGL34 | [[Alphabet]] | |
+| M1TA34 | [[Meta]] | ex-FBOK34, re-tickered after the Facebook → Meta rename |
+
+All seven are não patrocinado Nível I, the same form as [[SpaceX securities note|SPCX34]] — a depositary creates the receipt off the US listing with no company involvement. The tickers are deliberately offset from the US symbols to avoid clashing with B3 codes: Amazon is AMZO34 (not AMZN34), Nvidia NVDC34, Alphabet GOGL34, Meta M1TA34. For a Brazilian these are the practical face of the BDR market — the deepest, most liquid way to hold the megacaps in reais — while the typed examples above illustrate the structural range.
+
 ## Synthesis
 
 A BDR is an access wrapper, not a distinct asset, so the analytical content sits in four structural reads rather than in valuation. First, voting: the depositary is the shareholder of record, so a BDR holder usually gets none — moot for a controlled dual-class name like [[SpaceX securities note|SPCX]], where public Class A already carries almost no vote against [[Elon Musk]]'s supervoting Class B, but a real giveaway for names where the vote has value. Second, liquidity: the BDR line can be a thin shadow of the home market, with wider spreads, and that is most acute for a freshly listed receipt sitting on top of an already thin-float IPO. Third, tax: the absent R$20k isenção makes the BDR the less efficient wrapper for an active trader, which is the honest argument for the offshore route. Fourth, currency: the receipt embeds USD/BRL with no hedged class, so a BDR is always simultaneously a position in the company and in the real.
