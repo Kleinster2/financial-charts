@@ -585,6 +585,10 @@ The pattern repeats from Abilene: OpenAI walks from a non-creditworthy or wrong-
 
 ## Related
 
+### Securities
+- [[Microsoft securities note]] — MSFT equity-market companion (instruments, MSFT34 BDR, price)
+
+### Ecosystem and peers
 - [[AI hyperscalers]] — Tier 1 spender
 - [[NVIDIA]] — primary GPU supplier
 - [[TSMC]] — foundry (Maia, Cobalt chips)

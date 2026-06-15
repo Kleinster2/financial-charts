@@ -577,6 +577,10 @@ Strategic tension: Apple either renegotiates terms with a new Amazon-owned Globa
 
 ## Related
 
+### Securities
+- [[Apple securities note]] — AAPL equity-market companion (instruments, AAPL34 BDR, price)
+
+### Ecosystem
 - [[TSMC]] — exclusive foundry partner (A-series, M-series)
 - [[NVIDIA]] — peer locking TSMC 2nm capacity
 - [[MP Materials]] — rare earth supplier ($500M deal)
