@@ -1,0 +1,81 @@
+Pharma majors CLUSTER ANALYSIS
+Window 1y: 2025-06-18 -> 2026-06-12 (195 obs)
+Window 2y: 2024-07-15 -> 2026-06-12 (253 obs)
+Universe: 11 tickers across 3 groups
+Dendrogram cut threshold: 0.5
+
+--- 1Y INTRA-CLUSTER PAIRWISE CORRELATIONS ---
+Ticker   LLY   PFE   MRK  ABBV   BMY
+Ticker                              
+LLY     1.00  0.37  0.38  0.28  0.40
+PFE     0.37  1.00  0.50  0.36  0.57
+MRK     0.38  0.50  1.00  0.37  0.43
+ABBV    0.28  0.36  0.37  1.00  0.47
+BMY     0.40  0.57  0.43  0.47  1.00
+Average intra-cluster correlation: 0.412
+Range: [0.283, 0.569]
+
+--- AVG GROUP-PAIR CORRELATIONS (1Y) ---
+             cluster  biotech      etf
+    cluster    0.412    0.407    0.418
+    biotech    0.407    0.479    0.493
+        etf    0.418    0.493    0.560
+
+Cluster vs others:
+  cluster vs biotech   : 0.407  (intra advantage: +0.005)
+  cluster vs etf       : 0.418  (intra advantage: +-0.005)
+
+--- HIERARCHICAL CLUSTERS (1Y, distance threshold 0.5) ---
+  Cluster 1: PFE, BMY
+  Cluster 2: LLY, AMGN, VRTX, XLV, IBB
+  Cluster 3: MRK
+  Cluster 4: GILD
+  Cluster 5: ABBV
+  Cluster 6: SPY
+
+--- CANDIDATE JOIN DISTANCES (1Y, average linkage, distance = 1-|corr|) ---
+ Step Left            Right Distance              Members
+    1  PFE              BMY    0.431              PFE+BMY
+    2  MRK          PFE+BMY    0.537          MRK+PFE+BMY
+    3 ABBV      MRK+PFE+BMY    0.601     ABBV+MRK+PFE+BMY
+    4  LLY ABBV+MRK+PFE+BMY    0.642 LLY+ABBV+MRK+PFE+BMY
+
+--- PCA ON CANDIDATE COHORT (1Y) ---
+Explained variance ratio:
+  PC1: 53.27%
+  PC2: 14.57%
+  PC3: 12.94%
+  PC4: 11.44%
+  PC5: 7.78%
+
+PC1 loadings:
+LLY     0.397
+PFE     0.479
+MRK     0.452
+ABBV    0.409
+BMY     0.491
+
+--- PC1 INDEX WEIGHTS (1Y) ---
+PCA is run on standardized daily log returns. Raw PC1-mimic weights scale PC1 loading by inverse realized volatility.
+     PC1 loading Loading weight Ann vol Raw PC1-mimic weight
+LLY        0.397         17.84%  36.78%               13.03%
+PFE        0.479         21.47%  23.39%               24.67%
+MRK        0.452         20.26%  27.09%               20.10%
+ABBV       0.409         18.37%  24.72%               19.97%
+BMY        0.491         22.06%  26.66%               22.23%
+
+--- WEEKLY-RETURN CROSS-CHECK (1Y, async-close robustness) ---
+Weeks: 39   Weekly intra-corr: 0.327 (daily 0.412)   Weekly PC1: 46.8% (daily 53.3%)
+
+--- HISTORICAL TIGHTNESS EVOLUTION (90D ROLLING) ---
+     Avg corr    PC1 Core corr Satellite corr Final join distance
+Date                                                             
+2020    0.628  70.5%     0.674          0.563               0.439
+2021    0.474  58.4%     0.529          0.414               0.597
+2022    0.517  61.9%     0.471          0.577               0.581
+2023    0.353  48.6%     0.420          0.293               0.696
+2024    0.204  39.2%     0.270          0.108               0.874
+2025    0.433  56.2%     0.521          0.332               0.711
+2026    0.369  50.1%     0.390          0.331               0.691
+
+Latest 90D: avg corr 0.379, PC1 50.7%, core corr 0.396, satellite corr 0.354, final join distance 0.661

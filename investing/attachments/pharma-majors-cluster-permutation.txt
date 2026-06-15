@@ -1,0 +1,37 @@
+Pharma majors PERMUTATION TESTS
+Window: 2025-06-18 -> 2026-06-12 (212 obs)
+Candidate cohort: LLY, PFE, MRK, ABBV, BMY (N=5)
+Observed intra-corr: 0.4019    Observed PC1: 52.68%
+
+--- INDEPENDENCE NULL ---
+Permutations: 10000
+Block size: 1
+Intra-cluster correlation:
+  Null mean:        0.0003
+  Null 95th pct:    0.0376
+  Null 99th pct:    0.0524
+  p-value (right):  0.000100    -> REJECTS independence null at p < 0.001
+PC1 explained variance:
+  Null mean:        23.88%
+  Null 95th pct:    25.78%
+  Null 99th pct:    26.63%
+  p-value (right):  0.000100    -> REJECTS independence null at p < 0.001
+
+--- RANDOM-BASKET NULL ---
+Permutations: 10000
+Universe source: DB prices_long (1052 tickers with >=200 obs in window)
+Pool size: 1047
+Intra-cluster correlation:
+  Null mean:        0.1513
+  Null 95th pct:    0.2965
+  Null 99th pct:    0.3751
+  p-value (right):  0.005000    -> REJECTS random-basket null at p < 0.01
+PC1 explained variance:
+  Null mean:        35.03%
+  Null 95th pct:    45.89%
+  Null 99th pct:    51.72%
+  p-value (right):  0.007899    -> REJECTS random-basket null at p < 0.01
+
+--- INTERPRETATION ---
+Independence null rejected: the cohort series co-move (necessary, not sufficient).
+Random-basket null rejected: cohort is more cohesive than a random N-pick from the same universe. This is the meaningful pass.

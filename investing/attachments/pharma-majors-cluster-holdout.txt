@@ -1,0 +1,22 @@
+Pharma majors HOLDOUT TEST
+Cohort: LLY, PFE, MRK, ABBV, BMY (N=5)
+Window: 2y, split temporally at midpoint
+Train: 2024-06-12 -> 2025-06-12 (125 obs)
+Test:  2025-06-12 -> 2026-06-12 (213 obs)
+
+--- TRAIN HALF (older) ---
+Intra-correlation:    0.3171
+PC1 explained var:    46.06%
+Pairwise range:       [0.146, 0.562]
+
+--- TEST HALF (newer) ---
+Intra-correlation:    0.4059
+PC1 explained var:    53.00%
+Pairwise range:       [0.182, 0.548]
+
+--- STABILITY DIAGNOSTICS ---
+Intra-corr delta:     +0.0889   (test - train)
+PC1 variance delta:   +6.94pp
+PC1 loadings corr:    0.3249    (1.0 = identical factor structure)
+
+VERDICT: STRENGTHENING — test/train ratio 1.28 (basket consolidating; check for regime shift in the train half)

@@ -1,0 +1,17 @@
+name: Pharma majors
+primary: LLY
+prefix: pharma-majors-cluster
+threshold: 0.5
+window_end: 2026-06-12
+history_start: 2020-01-01
+
+groups:
+  cluster:                      # candidate: big-cap US pharma
+    color: "#2962FF"
+    tickers: [LLY, PFE, MRK, ABBV, BMY]
+  biotech:                      # adjacent control: large-cap biotech
+    color: "#7E57C2"
+    tickers: [GILD, AMGN, VRTX]
+  etf:                          # health + biotech + market benchmarks
+    color: "#9E9E9E"
+    tickers: [XLV, IBB, SPY]
