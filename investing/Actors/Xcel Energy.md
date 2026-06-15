@@ -48,6 +48,7 @@ Xcel's meteorology team modeled after [[PG&E]]'s PSPS framework. VP Wildfire Ris
 
 - [[Utility wildfire risk]] — PSPS expansion, Colorado fire weather
 - [[PG&E]] — PSPS framework origin
+- [[Regulated utilities]] — the regulated-electric cluster; XEL is a core member
 - [[Energy and Utilities]] — sector
 
 *Created 2026-02-08*

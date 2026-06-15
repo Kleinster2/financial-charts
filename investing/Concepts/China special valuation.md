@@ -112,5 +112,8 @@ The signature is not just SOEs rising but SOEs rising while the old growth/inter
 - [[China government bond yields]] — the yield collapse that drives the dividend bid
 - [[China]] — SASAC / policy context
 
+### Defensive-factor contrast
+- [[Regulated utilities]] / [[Tobacco majors basket]] — the defensives that PASS the vol-matched null (real shared business); 中特估 FAILS it, the signature of a duration basket (only a shared low-vol, high-dividend financial profile)
+
 ### Contrast
 - [[KWEB]] — China internet/growth complex; the leadership 中特估 rotated away from

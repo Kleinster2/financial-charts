@@ -221,6 +221,7 @@ Bear:
 - [[Dominion Energy securities note]] — equity-market / chart companion
 
 ### Operating thesis
+- [[Regulated utilities]] — the regulated-electric cluster; D is a core member
 - [[Power constraints]] — embodiment of grid limits for AI
 - [[BYOP]] — alternative (on-site power bypasses Dominion)
 - [[Bloom Energy]] — competitor (on-site fuel cells bypass grid)

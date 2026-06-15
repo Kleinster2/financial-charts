@@ -1,0 +1,12 @@
+# Sub-cohort: the pure-regulated electric core (DUK/SO/D/AEP/XEL), excluding the NEE hybrid
+name: Sub - Regulated utility core
+primary: DUK
+prefix: sub-regulated-core
+threshold: 0.5
+window_end: 2026-06-12
+definition_date: 2026-06-15
+groups:
+  cluster: {color: "#2962FF", tickers: [DUK, SO, D, AEP, XEL]}
+  hybrid: {color: "#F4511E", tickers: [NEE]}
+  sector_etf: {color: "#26A69A", tickers: [XLU]}
+  etf: {color: "#9E9E9E", tickers: [SPY]}

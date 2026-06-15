@@ -119,5 +119,6 @@ Significant carbon-free baseload for data centers.
 - [[Southern Company]] — peer (Southeast utility)
 - [[Dominion Energy]] — peer (Virginia utility)
 - [[NextEra Energy]] — peer (\#1 utility)
+- [[Regulated utilities]] — the regulated-electric cluster; DUK anchors the tight pair with [[Southern Company]] (0.853)
 - [[Power constraints]] — context (DC power demand)
 - [[Long nuclear]] — thesis (nuclear fleet value)

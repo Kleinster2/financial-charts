@@ -1,0 +1,30 @@
+# Regulated utilities — the second defensive cohort after tobacco, and the duration-basket test.
+# Core question is the VOL-MATCHED null: do regulated electric utilities cohere as a real
+# regulated-utility factor (pass, like tobacco), or are they a bond-proxy DURATION basket that
+# co-moves only because they are all low-vol, high-dividend, rate-sensitive names (fail, like
+# China special valuation)? Controls test the two alternatives directly: TLT = is it just long-
+# duration rates; XLU = is it just the sector ETF; CEG/VST = are they distinct from the merchant
+# AI-power IPPs ([[AI-power IPPs]]). NEE is the hybrid (regulated FPL + the largest renewables
+# developer) — watch whether its growth premium splits it from the pure-regulated names.
+name: Regulated utilities
+primary: DUK
+prefix: regulated-utilities-cluster
+threshold: 0.5
+window_end: 2026-06-12
+definition_date: 2026-06-15
+groups:
+  cluster:
+    color: "#2962FF"
+    tickers: [DUK, SO, D, AEP, NEE, XEL]
+  sector_etf:
+    color: "#26A69A"
+    tickers: [XLU]
+  duration:
+    color: "#FFB300"
+    tickers: [TLT]
+  merchant_ipp:
+    color: "#7E57C2"
+    tickers: [CEG, VST]
+  etf:
+    color: "#9E9E9E"
+    tickers: [SPY]

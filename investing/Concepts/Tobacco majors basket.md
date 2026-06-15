@@ -134,6 +134,7 @@ Three reads:
 
 ### Adjacent concept notes
 - [[China special valuation]] — the duration-basket counter-case (failed the vol-matched null tobacco passes)
+- [[Regulated utilities]] — the second defensive that passes the vol-matched null (real business → real factor), but cleanly ETF-replicable (= XLU) where tobacco is not
 - [[Mega banks basket]] — the within-financials cluster, the opposite verdict (cohesive but = XLF)
 - [[Alcohol industry decline]] — the other "sin stock" secular-decline staple
 - [[Vault cluster taxonomy]] — the cross-cohort map

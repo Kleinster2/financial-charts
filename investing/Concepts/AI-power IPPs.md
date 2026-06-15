@@ -110,6 +110,7 @@ Full numerics: `investing/attachments/ai-power-ipp-cluster-results.txt`, `-holdo
 - [[Solaris Energy Infrastructure]] — adjacent speed-to-power name (statistically distinct; its panel surfaced this cohort)
 - [[Hyperscaler capex]] — the demand side
 - [[BYOP]] — policy risk channel (PJM BYOG proposals)
+- [[Regulated utilities]] — the regulated counterpart; rate-base utilities are a DISTINCT factor from these merchant generators (only 0.129 correlation, +0.473 separation)
 - [[Energy and Utilities]] — sector hub
 - [[Power equipment complex]] — the contrast case: equipment co-moves but is boundary-dependent vs industrials (Jun 2026 test); the IPP factor is the standalone trade
 

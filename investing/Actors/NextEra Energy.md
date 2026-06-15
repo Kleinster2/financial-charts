@@ -271,6 +271,7 @@ The flow data validates the existing thesis without changing the structural fram
 - [[NextEra Energy securities note]] — equity-market / chart companion
 
 ### Operating thesis
+- [[Regulated utilities]] — the regulated cluster; NEE is the hybrid (regulated FPL + renewables) that SPLITS off, on its renewables-growth premium
 - [[Power constraints]] — thesis context (NextEra solves grid gap via BYOG)
 - [[BYOP]] — NextEra's model (Bring Your Own Generation)
 - [[Energy security as investment thesis]] — 2026 sector flow context (US AI-power leg)
