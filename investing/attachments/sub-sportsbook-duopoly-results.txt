@@ -1,0 +1,70 @@
+Sports-betting duopoly (DKNG+FLUT) CLUSTER ANALYSIS
+Window 1y: 2025-06-18 -> 2026-06-12 (195 obs)
+Window 2y: 2024-07-15 -> 2026-06-12 (253 obs)
+Universe: 11 tickers across 5 groups
+Dendrogram cut threshold: 0.5
+
+--- 1Y INTRA-CLUSTER PAIRWISE CORRELATIONS ---
+Ticker  DKNG  FLUT
+Ticker            
+DKNG    1.00  0.68
+FLUT    0.68  1.00
+Average intra-cluster correlation: 0.681
+Range: [0.681, 0.681]
+
+--- AVG GROUP-PAIR CORRELATIONS (1Y) ---
+             cluster  operato      b2b  casinos      etf
+    cluster    0.681    0.397    0.396    0.387    0.234
+   operator    0.397      nan    0.324    0.368    0.255
+        b2b    0.396    0.324    0.390    0.276    0.237
+    casinos    0.387    0.368    0.276    0.581    0.320
+        etf    0.234    0.255    0.237    0.320    0.797
+
+Cluster vs others:
+  cluster vs operator  : 0.397  (intra advantage: +0.284)
+  cluster vs b2b       : 0.396  (intra advantage: +0.284)
+  cluster vs casinos   : 0.387  (intra advantage: +0.293)
+  cluster vs etf       : 0.234  (intra advantage: +0.447)
+
+--- HIERARCHICAL CLUSTERS (1Y, distance threshold 0.5) ---
+  Cluster 1: SPY, XLY, IWM
+  Cluster 2: MGM, CZR, PENN
+  Cluster 3: DKNG, FLUT
+  Cluster 4: GENI
+  Cluster 5: RSI
+  Cluster 6: SRAD
+
+--- CANDIDATE JOIN DISTANCES (1Y, average linkage, distance = 1-|corr|) ---
+ Step Left Right Distance   Members
+    1 DKNG  FLUT    0.319 DKNG+FLUT
+
+--- PCA ON CANDIDATE COHORT (1Y) ---
+Explained variance ratio:
+  PC1: 84.03%
+  PC2: 15.97%
+
+PC1 loadings:
+DKNG    0.707
+FLUT    0.707
+
+--- PC1 INDEX WEIGHTS (1Y) ---
+PCA is run on standardized daily log returns. Raw PC1-mimic weights scale PC1 loading by inverse realized volatility.
+     PC1 loading Loading weight Ann vol Raw PC1-mimic weight
+DKNG       0.707         50.00%  52.07%               47.70%
+FLUT       0.707         50.00%  47.48%               52.30%
+
+--- WEEKLY-RETURN CROSS-CHECK (1Y, async-close robustness) ---
+Weeks: 39   Weekly intra-corr: 0.656 (daily 0.681)   Weekly PC1: 82.8% (daily 84.0%)
+
+--- HISTORICAL TIGHTNESS EVOLUTION (90D ROLLING) ---
+     Avg corr    PC1 Core corr Satellite corr Final join distance
+Date                                                             
+2020    0.196  59.8%     0.196            nan               0.804
+2021    0.336  66.8%     0.336            nan               0.664
+2022    0.440  72.0%     0.440            nan               0.560
+2023    0.465  73.3%     0.465            nan               0.535
+2024    0.499  74.9%     0.499            nan               0.501
+2025    0.710  85.5%     0.710            nan               0.290
+2026    0.645  82.3%     0.645            nan               0.355
+
+Latest 90D: avg corr 0.652, PC1 82.6%, core corr 0.652, satellite corr nan, final join distance 0.348

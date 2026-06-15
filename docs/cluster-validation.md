@@ -565,7 +565,21 @@ Cohorts with fewer than 40 OOS observations carry a PRELIMINARY prefix (low powe
 
 ## Where the diagnostic lives in the vault
 
-Single source of truth: the durable cluster validation diagnostic lives in exactly one note — the `Sectors/` child note (or `Concepts/` note) that owns the cohort identity. Examples:
+Single source of truth: the durable cluster validation diagnostic lives in exactly one note — the note that owns the cohort identity. For a real multi-name cohort it never lives canonically in an actor or securities note; those carry only a one-line pointer back to the owner.
+
+### Which note owns the cohort
+
+Resolve the owner by one test — *is the cluster a lens on an existing subject, the subject itself, or a non-result?*
+
+| Case | Owner note | Why | Examples |
+|---|---|---|---|
+| Lens on a subject that already has a home | `## Cluster validation` section in the existing `Sectors/` or `Concepts/` note | The factor structure is one more lens on the same entity (market structure, economics, moats); a separate note would split one subject across two files | [[Casino industry structure]], [[Sports betting]], [[Airlines]], [[Homebuilders]], [[Mega banks basket]], [[Tobacco majors basket]] |
+| The cluster *is* a new factor-concept with no existing home | NEW standalone `Concepts/` note for the cohort | The finding itself is the knowledge (e.g. "these miners ARE the commodity price"), distinct from any sector hub | [[Copper equity beta]], [[Gold equity beta]], [[Lithium equity beta]], [[Quantum computing]], [[Crypto equities]] |
+| Falsified single-name / sector-orphan | `## Cluster validation` section in the actor or securities note | There is no cohort to own — the finding is an actor-level fact ("this name has no peers") | [[TKO securities note]] |
+
+Do not carve out a duplicate standalone note for a cohort that already has a section-home, just for filename uniformity. Physical placement varies by case; discoverability is provided uniformly by [[Vault cluster taxonomy]] (the cross-cohort index) and `scripts/cluster_registry.csv` (every run's metrics), which catalogue every cohort regardless of where its diagnostic lives. When the natural owner is a mature, cascade-risky hub (bold-heavy, edit-prone), the right move is a clean child concept note that owns the cohort and cross-links the hub — that is a justified standalone (ownership clarity), not the same thing as fragmenting for uniformity.
+
+The owner notes below show the section-and-standalone pattern in practice:
 
 | Cohort note | Type | Cohort |
 |---|---|---|

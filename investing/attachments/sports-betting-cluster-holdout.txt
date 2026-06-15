@@ -1,0 +1,22 @@
+Online sports betting HOLDOUT TEST
+Cohort: DKNG, FLUT, RSI (N=3)
+Window: 2y, split temporally at midpoint
+Train: 2024-06-12 -> 2025-06-12 (125 obs)
+Test:  2025-06-12 -> 2026-06-12 (213 obs)
+
+--- TRAIN HALF (older) ---
+Intra-correlation:    0.5455
+PC1 explained var:    69.91%
+Pairwise range:       [0.421, 0.669]
+
+--- TEST HALF (newer) ---
+Intra-correlation:    0.4517
+PC1 explained var:    64.12%
+Pairwise range:       [0.278, 0.661]
+
+--- STABILITY DIAGNOSTICS ---
+Intra-corr delta:     -0.0938   (test - train)
+PC1 variance delta:   -5.79pp
+PC1 loadings corr:    0.9772    (1.0 = identical factor structure)
+
+VERDICT: WEAKENED — test/train ratio 0.83 (factor present but eroding)

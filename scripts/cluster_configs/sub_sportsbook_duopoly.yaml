@@ -1,0 +1,23 @@
+name: Sports-betting duopoly (DKNG+FLUT)
+primary: DKNG
+prefix: sub-sportsbook-duopoly
+threshold: 0.5
+window_end: 2026-06-12
+history_start: 2020-01-01
+
+groups:
+  cluster:                      # the two dominant US online sportsbooks (~80% combined handle)
+    color: "#2962FF"
+    tickers: [DKNG, FLUT]
+  operator:                     # the small operator left out of the pair
+    color: "#42A5F5"
+    tickers: [RSI]
+  b2b:
+    color: "#7E57C2"
+    tickers: [GENI, SRAD]
+  casinos:
+    color: "#26A69A"
+    tickers: [MGM, CZR, PENN]
+  etf:
+    color: "#9E9E9E"
+    tickers: [SPY, XLY, IWM]

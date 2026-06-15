@@ -5,6 +5,9 @@ aliases: [US sports betting, iGaming, Online sports betting, OSB, Sports wagerin
 
 # US Sports Betting & iGaming
 
+> [!warning] Cluster status: partial — the duopoly is the factor (Jun 2026)
+> The DKNG/FLUT/RSI operator cohort has intra-corr 0.49 (PC1 66.6%) — a real, distinct factor (rejects the random-basket null at p 0.012; positive intra-advantage vs casinos +0.11, B2B suppliers +0.12, market +0.25) but below the tight-validation floor. The robust tradeable structure is the [[DraftKings|DKNG]]+[[Flutter Entertainment|FLUT]] duopoly (intra 0.681, threshold-stable [0.35–0.55]); [[Rush Street Interactive|RSI]] is a satellite and the B2B data suppliers don't cluster. The market-structure duopoly is the equity factor. See "Cluster validation" below.
+
 Post-[[PASPA]] regulated sports wagering and online casino gaming in the United States. From zero legal states (outside Nevada) in May 2018 to 39 states with some form of legal sports betting by early 2026. The fastest-growing segment of US commercial gaming, driven by mobile-first platforms, state-by-state legalization, and a structural shift from illegal to regulated markets.
 
 ---
@@ -419,6 +422,83 @@ There is no comprehensive federal sports betting regulation. The tribal gaming f
 | [[Fanatics]] | ~$25B (est. 2026) | #3 US sportsbook; IPO expected eventually |
 | [[Kalshi]] | $11B | Prediction market; regulatory arbitrage play |
 | [[Polymarket]] | $9-10B | Offshore prediction market; crypto-based |
+
+---
+
+## Cluster validation
+
+The market-structure duopoly described above shows up directly in the equity factor structure. The candidate cohort is the three listed US online-betting operators — [[DraftKings|DKNG]], [[Flutter Entertainment|FLUT]] (FanDuel), and [[Rush Street Interactive|RSI]] (BetRivers) — tested against the B2B data suppliers ([[Genius Sports]], [[Sportradar]]), the omni-channel casino operators ([[MGM Resorts|MGM]], [[Caesars Entertainment|CZR]], [[Penn Entertainment|PENN]]), and broad benchmarks (SPY, XLY, IWM).
+
+### Diagnostics summary
+
+| Diagnostic | Value | Read |
+|---|---|---|
+| Intra-cluster corr (1Y) | 0.491 [0.346–0.681] | partial — just below the 0.50 floor; weekly 0.494 (all US-listed) |
+| PC1 explained variance | 66.6% | dominant factor, meaningful PC2 (23.2%) |
+| Independence null p | 0.0001 | series co-move |
+| Random-basket null p | 0.012 | rejects — real cohesion, not a random 3-pick |
+| Holdout (2Y split) | WEAKENED 0.83 | loadings corr 0.98 — same factor, eroding tightness |
+| Threshold clean width | 0.00 | BOUNDARY-DEPENDENT — the RSI satellite blocks a clean 3-name cluster |
+| Intra-adv vs casinos (MGM/CZR/PENN) | +0.11 | distinct from land-based gaming |
+| Intra-adv vs B2B suppliers (GENI/SRAD) | +0.12 | distinct from picks-and-shovels |
+| Intra-adv vs market (SPY/XLY/IWM) | +0.25 | distinct from broad beta |
+| Sub-pair DKNG+FLUT | 0.681, stable [0.35–0.55] | ROBUST — the tradeable expression |
+
+1Y daily log returns through 2026-06-12, threshold 0.5. All US-listed (synchronous). Config: `scripts/cluster_configs/dkng.yaml` + sub-pair `sub_sportsbook_duopoly.yaml`; registry rows 2026-06-15. Terminology: [[Cohort, cluster, basket]].
+
+### Boundary — the duopoly clusters, casinos sit apart
+
+![[sports-betting-cluster-dendrogram-1y.png]]
+*Hierarchical clustering at 0.5. DKNG+FLUT form the tight sportsbook factor (red, join 0.32); the casinos MGM/CZR/PENN cluster separately (green) — online betting is distinct from land-based gaming; RSI, Genius Sports and Sportradar are singletons. ETF block in orange.*
+
+The threshold scan never returns the 3-name cohort as a clean cluster (zero stable width): DKNG+FLUT hold from the tightest cut, but RSI only joins at 0.60 and at looser cuts the B2B supplier GENI and then the casinos contaminate. The nearest neighbors are the casino operators and the B2B suppliers, both kept at a positive intra-advantage — so online betting is its own factor, just not a tight three-name one.
+
+### Topology — a duopoly core with an RSI satellite
+
+Reading the candidate cohort by join distance (average linkage, 1−|corr|):
+
+| Join step | Names | Distance (1-\|corr\|) | Read |
+|---|---|---|---|
+| 1 | DKNG + FLUT | 0.319 | the duopoly core (corr 0.68) |
+| 2 | RSI + (DKNG+FLUT) | 0.603 | satellite — joins above the 0.5 cut |
+
+The split is by scale, not business model: FanDuel ([[Flutter Entertainment]]) and [[DraftKings]] — ~70–75% combined GGR share — are the tight core, while the small operator [[Rush Street Interactive|RSI]] trades as a satellite. The sub-pair check confirms the duopoly is the real cluster (intra 0.681, threshold-stable across [0.35–0.55], ROBUST), and it is the only standalone tradeable expression here.
+
+### PC1 index weights
+
+![[sports-betting-cluster-pca-1y.png]]
+*PCA on the cohort. PC1 explains 66.6% with a meaningful PC2 (23.2%) — the secondary axis is the RSI satellite pulling away from the DKNG/FLUT core.*
+
+| Ticker | PC1 loading | Loading weight | Ann vol | Raw PC1-mimic weight |
+|---|---|---|---|---|
+| DraftKings (DKNG) | 0.630 | 36.6% | 52.1% | 34.5% |
+| Flutter (FLUT) | 0.601 | 34.9% | 47.5% | 36.1% |
+| Rush Street (RSI) | 0.491 | 28.5% | 47.5% | 29.5% |
+
+DKNG carries the highest PC1 loading but its higher volatility (52%) trims its raw PC1-mimic weight below FLUT's — the lower-vol Flutter is the larger investable weight to reproduce the standardized factor. RSI's lower loading marks it as the satellite.
+
+### Distinctness — distinct from casinos, suppliers, and the market
+
+![[sports-betting-cluster-correlation-1y.png]]
+*1Y pairwise correlation heatmap. The DKNG/FLUT cell is hot; RSI is cooler against the pair; the casino block (MGM/CZR/PENN) and the B2B suppliers form their own warm cells, distinct from the operators.*
+
+All three intra-advantages are positive — casinos +0.11, B2B suppliers +0.12, market +0.25 — so the online-betting operators are a genuinely distinct factor (unlike [[TKO securities note#Cluster validation|TKO]], whose advantage was negative). The casino control clusters separately: omni-channel land-based operators ([[MGM Resorts]], [[Caesars Entertainment]], [[Penn Entertainment]]) trade on a different factor than the online-first books, even though all carry digital arms. The B2B suppliers ([[Genius Sports]], [[Sportradar]]) don't cluster with the operators or each other — data licensing and integrity is a different business than betting margin.
+
+### Historical tightness evolution
+
+![[sports-betting-cluster-rolling-tightness-90d.png]]
+*Rolling 90-day cohesion, 2021–2026. The factor consolidated as the operators scaled (0.35 in 2021 → 0.54 in 2025), then softened into 2026 (0.48) — the eroding tightness the holdout flags.*
+
+| Year | Avg intra-corr | PC1 |
+|---|---|---|
+| 2021 | 0.352 | 56.8% |
+| 2022 | 0.518 | 68.2% |
+| 2023 | 0.441 | 62.9% |
+| 2024 | 0.503 | 67.0% |
+| 2025 | 0.543 | 69.9% |
+| 2026 | 0.476 | 65.5% |
+
+The cohesion built through the land-grab and rationalization phases as the operators converged on the same parlay/iGaming playbook, then began eroding in 2026 — partly as the [[Prediction markets]] threat (Kalshi/Polymarket) introduced a new shared risk that hits the names unevenly, partly as their state-mix and product economics diverge. The split axis is scale: contrast land-based [[Casino industry structure|casinos]] (which split by geography, only the Macau pair robust) and [[TKO securities note#Cluster validation|TKO]] (no factor at all) — here the duopoly is the factor and the small operator is the satellite.
 
 ---
 

@@ -1,0 +1,20 @@
+name: Online sports betting
+primary: DKNG
+prefix: sports-betting-cluster
+threshold: 0.5
+window_end: 2026-06-12
+history_start: 2020-01-01
+
+groups:
+  cluster:                      # candidate cohort: US online sportsbook / iGaming operators
+    color: "#2962FF"
+    tickers: [DKNG, FLUT, RSI]
+  b2b:                          # adjacent control: sports-data / betting-tech suppliers (picks & shovels)
+    color: "#7E57C2"
+    tickers: [GENI, SRAD]
+  casinos:                      # adjacent control: omni-channel casino operators (land-based + digital)
+    color: "#26A69A"
+    tickers: [MGM, CZR, PENN]
+  etf:                          # broad-market + sector benchmarks
+    color: "#9E9E9E"
+    tickers: [SPY, XLY, IWM]
