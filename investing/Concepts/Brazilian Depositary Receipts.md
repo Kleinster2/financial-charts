@@ -5,7 +5,7 @@ tags: [concept, instrument, brazil, b3, cross-listing]
 
 # Brazilian Depositary Receipts
 
-A Brazilian Depositary Receipt (BDR) is a certificate issued by a Brazilian depositary institution that represents shares of a foreign-listed company and trades on [[B3]] in reais, letting a [[Brazil]]-resident investor hold a non-Brazilian equity without an offshore account or câmbio. The whole instrument splits along one axis that governs everything else: whether the foreign company sponsors the program. [[#Sponsorship and levels|Patrocinado (sponsored)]] BDRs run in three levels with the issuer's involvement and graduated [[CVM]] disclosure; [[#Sponsorship and levels|não-patrocinado (unsponsored)]] BDRs exist only as Level I, created by a depositary without the company's participation, and are the bulk of the US-stock receipts a retail investor sees. The ticker's last digits encode the type — [[#Sponsorship and levels|31 through 35]] — so the symbol itself tells you what you are holding. Since [[#Who can buy|2020]] the unsponsored Level I line is open to retail, not just qualified investors, which is why a name like [[SpaceX securities note|SPCX34]] can list on [[B3]] the same day as its [[Nasdaq]] debut. For an investor the decisions that matter are [[#Taxation for a Brazil resident|tax]] (no R$20k isenção) and [[#Synthesis|liquidity, voting, and currency]], not the legal plumbing.
+A Brazilian Depositary Receipt (BDR) is a certificate issued by a Brazilian depositary institution that represents shares of a foreign-listed company and trades on [[B3]] in reais, letting a [[Brazil]]-resident investor hold a non-Brazilian equity without an offshore account or câmbio. It is the Brazilian member of the [[Depositary receipts|depositary-receipt]] family — the same instrument as the US [[American Depositary Receipts|ADR]], built on the same sponsored/unsponsored, multi-level template under Brazilian rules. The whole instrument splits along one axis that governs everything else: whether the foreign company sponsors the program. [[#Sponsorship and levels|Patrocinado (sponsored)]] BDRs run in three levels with the issuer's involvement and graduated [[CVM]] disclosure; [[#Sponsorship and levels|não-patrocinado (unsponsored)]] BDRs exist only as Level I, created by a depositary without the company's participation, and are the bulk of the US-stock receipts a retail investor sees. The ticker's last digits encode the type — [[#Sponsorship and levels|31 through 35]] — so the symbol itself tells you what you are holding. Since [[#Who can buy|2020]] the unsponsored Level I line is open to retail, not just qualified investors, which is why a name like [[SpaceX securities note|SPCX34]] can list on [[B3]] the same day as its [[Nasdaq]] debut. For an investor the decisions that matter are [[#Taxation for a Brazil resident|tax]] (no R$20k isenção) and [[#Synthesis|liquidity, voting, and currency]], not the legal plumbing.
 
 ## What a BDR is
 
@@ -94,6 +94,8 @@ For the vault the instrument matters because it makes US coverage directly actio
 
 ## Related
 
+- [[Depositary receipts]] — the parent instrument class (ADR / GDR / BDR)
+- [[American Depositary Receipts]] — the US sibling variant
 - [[B3]] — the exchange where BDRs are admitted and trade
 - [[CVM]] — the regulator; defines the sponsored/unsponsored levels and authorized the 2020 retail opening
 - [[Offshore investing for Brazilians]] — the offshore (USD, abroad) counterpart route
