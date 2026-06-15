@@ -117,6 +117,7 @@ Method and terminology: `docs/cluster-validation.md`, [[Cohort, cluster, basket]
 - [[Gold equity beta]] — the sibling commodity-beta cohort; gold replicates this note's law (real, ETF-replicable, = the metal) but is tighter and bull-strengthening where copper weakened
 - [[Lithium equity beta]] — the third commodity-beta cohort; the loosest of the family (no spot instrument, developers + cross-region ADRs)
 - [[Uranium equity beta]] — the fourth commodity-beta cohort; tight + durable (sustained bull), with the family's biggest miners-vs-metal wedge (+0.180)
+- [[Steel and aluminum equity beta]] — the processed-metal control case: a multi-commodity label is TWO factors (steel + aluminum), confirming each single commodity = one cohort
 - [[Vault cluster taxonomy]] — cross-cohort comparison
 - [[Cohort, cluster, basket]] — terminology
 

@@ -1,0 +1,12 @@
+# Sub-cohort: US steel producers (Nucor + Steel Dynamics EAF + Cleveland-Cliffs integrated)
+name: Sub - Steel producers
+primary: NUE
+prefix: sub-steel
+threshold: 0.5
+window_end: 2026-06-12
+definition_date: 2026-06-15
+groups:
+  cluster: {color: "#2962FF", tickers: [NUE, STLD, CLF]}
+  aluminum: {color: "#F4511E", tickers: [AA, CENX]}
+  steel_etf: {color: "#26A69A", tickers: [SLX]}
+  etf: {color: "#9E9E9E", tickers: [SPY]}

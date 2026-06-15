@@ -1,0 +1,22 @@
+Steel and aluminum equity beta HOLDOUT TEST
+Cohort: NUE, STLD, CLF, AA, CENX (N=5)
+Window: 2y, split temporally at midpoint
+Train: 2024-06-12 -> 2025-06-12 (58 obs)
+Test:  2025-06-12 -> 2026-06-12 (195 obs)
+
+--- TRAIN HALF (older) ---
+Intra-correlation:    0.6727
+PC1 explained var:    74.14%
+Pairwise range:       [0.463, 0.945]
+
+--- TEST HALF (newer) ---
+Intra-correlation:    0.4736
+PC1 explained var:    58.19%
+Pairwise range:       [0.221, 0.845]
+
+--- STABILITY DIAGNOSTICS ---
+Intra-corr delta:     -0.1991   (test - train)
+PC1 variance delta:   -15.95pp
+PC1 loadings corr:    0.7788    (1.0 = identical factor structure)
+
+VERDICT: WEAKENED — test/train ratio 0.70 (factor present but eroding)

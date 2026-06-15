@@ -127,6 +127,7 @@ Gold is the second confirmation of the commodity-beta law that [[Copper equity b
 - [[Copper equity beta]] — the first commodity-beta cohort; gold replicates its law
 - [[Lithium equity beta]] — the third commodity-beta cohort; the loosest of the family (no spot instrument, cross-region noise)
 - [[Uranium equity beta]] — the fourth; tight + STABLE like gold (both sustained bulls), but the equities sit far from spot (+0.180 wedge vs gold's +0.070)
+- [[Steel and aluminum equity beta]] — the processed-metal control case: "metals" splits into two factors (steel, aluminum), confirming the family is granular to a single commodity
 - [[Gold]] — the underlying metal and macro driver
 - [[Gold mining consolidation]] — the sector M&A backdrop (record prices funding deals)
 - [[Vault cluster taxonomy]] — the cross-cohort map

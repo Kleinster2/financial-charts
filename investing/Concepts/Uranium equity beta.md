@@ -126,6 +126,7 @@ Uranium completes the commodity-beta family and extends it on one axis the other
 - [[Uranium]] — the commodity (spot, term contracts, supply deficit) the cohort prices the future of
 - [[Nuclear renaissance]] — the demand cohort (reactors/SMRs/utilities); the buildout thesis driving the miners
 - [[Copper equity beta]] / [[Gold equity beta]] / [[Lithium equity beta]] — the rest of the commodity-beta family
+- [[Steel and aluminum equity beta]] — the processed-metal control case: "metals" splits into two factors, confirming each single commodity = one cohort
 - [[Vault cluster taxonomy]] — the cross-cohort map
 
 ### Methodology

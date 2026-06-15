@@ -1,0 +1,30 @@
+Steel and aluminum equity beta THRESHOLD STABILITY SCAN
+Cohort size: 5
+
+--- ASSIGNMENT TABLE ---
+ threshold  n_subclusters  largest_subcluster_size  cohort_share_in_largest  contamination_count  intact
+      0.20              4                        2                      0.4                    0   False
+      0.25              4                        2                      0.4                    0   False
+      0.30              4                        2                      0.4                    0   False
+      0.35              3                        2                      0.4                    0   False
+      0.40              3                        2                      0.4                    0   False
+      0.45              3                        2                      0.4                    4   False
+      0.50              2                        3                      0.6                    4   False
+      0.55              2                        3                      0.6                    4   False
+      0.60              1                        5                      1.0                    4   False
+      0.65              1                        5                      1.0                    4   False
+      0.70              1                        5                      1.0                    4   False
+
+--- STABLE RANGES (intact cohort, no contamination) ---
+  None — cohort never returns as a clean single cluster at any threshold.
+
+--- VERDICT ---
+BOUNDARY-DEPENDENT: cohort does not form a clean cluster at any threshold tested. Falsification candidate.
+
+--- CONTAMINATION DETAIL (non-cohort names joining the cohort's largest cluster) ---
+  threshold 0.45: + SLX,XME,XLB,SPY
+  threshold 0.50: + SLX,XME,XLB,SPY
+  threshold 0.55: + SLX,XME,XLB,SPY
+  threshold 0.60: + SLX,XME,XLB,SPY
+  threshold 0.65: + SLX,XME,XLB,SPY
+  threshold 0.70: + SLX,XME,XLB,SPY

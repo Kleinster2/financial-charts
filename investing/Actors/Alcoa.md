@@ -31,5 +31,6 @@ tags:
 
 - [[Caustic Soda]] -- major consumer (Bayer process)
 - [[Aluminum]] -- primary product
+- [[Steel and aluminum equity beta]] -- the metals-producer cohort; AA anchors the robust aluminum pair with [[Century Aluminum]]
 - [[Rio Tinto]] -- alumina peer
 - [[South32]] -- alumina peer

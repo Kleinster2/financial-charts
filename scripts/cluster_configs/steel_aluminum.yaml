@@ -1,0 +1,30 @@
+# Steel and aluminum equity beta — are the listed processed-metal producers ONE "metals" factor,
+# or do steel and aluminum split into two? Unlike the mined-metal family (copper/gold/lithium/
+# uranium), these are processed-metal producers driven by different commodities (HRC/scrap steel
+# vs alumina/power-cost aluminum) and different demand (auto/construction vs packaging/EV/grid).
+# Combined candidate: 3 US steelmakers (NUE/STLD EAF mini-mills, CLF integrated + iron ore) +
+# 2 aluminum (AA alumina+aluminum, CENX primary). Controls: SLX (steel ETF) tests steel-ETF
+# replicability; XME (metals & mining) the broad metals complex; XLB materials; SPY market.
+# X (US Steel) excluded — delisted into Nippon Steel, June 2025.
+name: Steel and aluminum equity beta
+primary: NUE
+prefix: steel-aluminum-cluster
+threshold: 0.5
+window_end: 2026-06-12
+definition_date: 2026-06-15
+groups:
+  cluster:
+    color: "#2962FF"
+    tickers: [NUE, STLD, CLF, AA, CENX]
+  steel_etf:
+    color: "#26A69A"
+    tickers: [SLX]
+  metals_etf:
+    color: "#7E57C2"
+    tickers: [XME]
+  materials:
+    color: "#FF6F00"
+    tickers: [XLB]
+  etf:
+    color: "#9E9E9E"
+    tickers: [SPY]

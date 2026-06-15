@@ -185,6 +185,7 @@ Over **30M tonnes/year** new alumina capacity coming online in China, Indonesia,
 - [[Companhia Brasileira de Aluminio|CBA]] — Brazil's largest, Chinalco acquisition target
 - [[Emirates Global Aluminium]] — UAE producer (Mubadala/Dubai)
 - [[Alcoa]] — US pure-play
+- [[Steel and aluminum equity beta]] — the listed-producer cohort (validated: aluminum AA/CENX is a robust standalone factor, distinct from steel)
 - [[Rio Tinto]] — diversified major with aluminum ops
 - [[Novelis]] — global \#1 in flat-rolled aluminium; subsidiary of [[Hindalco Industries]]; supplies [[Ford]] F-Series
 - [[China]] — dominant producer/consumer
