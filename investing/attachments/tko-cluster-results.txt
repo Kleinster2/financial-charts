@@ -1,0 +1,76 @@
+Live sports and entertainment rights CLUSTER ANALYSIS
+Window 1y: 2025-06-18 -> 2026-06-12 (195 obs)
+Window 2y: 2024-07-15 -> 2026-06-12 (253 obs)
+Universe: 12 tickers across 4 groups
+Dendrogram cut threshold: 0.5
+
+--- 1Y INTRA-CLUSTER PAIRWISE CORRELATIONS ---
+Ticker   TKO   LYV  FWONK
+Ticker                   
+TKO     1.00  0.25   0.32
+LYV     0.25  1.00   0.24
+FWONK   0.32  0.24   1.00
+Average intra-cluster correlation: 0.272
+Range: [0.239, 0.325]
+
+--- AVG GROUP-PAIR CORRELATIONS (1Y) ---
+             cluster  live_sp    media      etf
+    cluster    0.272    0.281    0.138    0.278
+live_sports    0.281    0.351    0.124    0.298
+      media    0.138    0.124    0.020    0.195
+        etf    0.278    0.298    0.195    0.722
+
+Cluster vs others:
+  cluster vs live_sports: 0.281  (intra advantage: +-0.010)
+  cluster vs media     : 0.138  (intra advantage: +0.133)
+  cluster vs etf       : 0.278  (intra advantage: +-0.007)
+
+--- HIERARCHICAL CLUSTERS (1Y, distance threshold 0.5) ---
+  Cluster 1: SPY, XLC, XLY
+  Cluster 2: LYV
+  Cluster 3: MSGE
+  Cluster 4: MSGS
+  Cluster 5: TKO
+  Cluster 6: MANU
+  Cluster 7: FWONK
+  Cluster 8: NFLX
+  Cluster 9: WBD
+  Cluster 10: FOXA
+
+--- CANDIDATE JOIN DISTANCES (1Y, average linkage, distance = 1-|corr|) ---
+ Step Left     Right Distance       Members
+    1  TKO     FWONK    0.675     TKO+FWONK
+    2  LYV TKO+FWONK    0.755 LYV+TKO+FWONK
+
+--- PCA ON CANDIDATE COHORT (1Y) ---
+Explained variance ratio:
+  PC1: 51.50%
+  PC2: 26.00%
+  PC3: 22.50%
+
+PC1 loadings:
+TKO      0.600
+LYV      0.537
+FWONK    0.593
+
+--- PC1 INDEX WEIGHTS (1Y) ---
+PCA is run on standardized daily log returns. Raw PC1-mimic weights scale PC1 loading by inverse realized volatility.
+      PC1 loading Loading weight Ann vol Raw PC1-mimic weight
+TKO         0.600         34.70%  31.63%               32.26%
+LYV         0.537         31.02%  32.98%               27.66%
+FWONK       0.593         34.28%  25.15%               40.09%
+
+--- WEEKLY-RETURN CROSS-CHECK (1Y, async-close robustness) ---
+Weeks: 39   Weekly intra-corr: 0.338 (daily 0.272)   Weekly PC1: 56.0% (daily 51.5%)
+
+--- HISTORICAL TIGHTNESS EVOLUTION (90D ROLLING) ---
+     Avg corr    PC1 Core corr Satellite corr Final join distance
+Date                                                             
+2021    0.248  50.5%     0.248            nan               0.830
+2022    0.247  50.3%     0.247            nan               0.823
+2023    0.250  50.8%     0.250            nan               0.835
+2024    0.203  47.2%     0.203            nan               0.848
+2025    0.456  63.8%     0.456            nan               0.561
+2026    0.266  51.1%     0.266            nan               0.753
+
+Latest 90D: avg corr 0.305, PC1 53.7%, core corr 0.305, satellite corr nan, final join distance 0.705

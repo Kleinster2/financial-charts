@@ -1,0 +1,37 @@
+Live sports and entertainment rights PERMUTATION TESTS
+Window: 2025-06-13 -> 2026-06-12 (251 obs)
+Candidate cohort: TKO, LYV, FWONK (N=3)
+Observed intra-corr: 0.2715    Observed PC1: 51.50%
+
+--- INDEPENDENCE NULL ---
+Permutations: 10000
+Block size: 1
+Intra-cluster correlation:
+  Null mean:        -0.0005
+  Null 95th pct:    0.0697
+  Null 99th pct:    0.0974
+  p-value (right):  0.000100    -> REJECTS independence null at p < 0.001
+PC1 explained variance:
+  Null mean:        37.11%
+  Null 95th pct:    40.18%
+  Null 99th pct:    41.74%
+  p-value (right):  0.000100    -> REJECTS independence null at p < 0.001
+
+--- RANDOM-BASKET NULL ---
+Permutations: 10000
+Universe source: DB prices_long (1035 tickers with >=200 obs in window)
+Pool size: 278
+Intra-cluster correlation:
+  Null mean:        0.1652
+  Null 95th pct:    0.3715
+  Null 99th pct:    0.4659
+  p-value (right):  0.170383    -> FAILS to reject random-basket null (p >= 0.05)
+PC1 explained variance:
+  Null mean:        46.08%
+  Null 95th pct:    58.74%
+  Null 99th pct:    65.04%
+  p-value (right):  0.197580    -> FAILS to reject random-basket null (p >= 0.05)
+
+--- INTERPRETATION ---
+Independence null rejected: the cohort series co-move (necessary, not sufficient).
+Random-basket null NOT rejected: cohort cohesion is indistinguishable from a random N-pick of comparable names. Cluster claim is falsified at conventional significance.

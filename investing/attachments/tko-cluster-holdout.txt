@@ -1,0 +1,22 @@
+Live sports and entertainment rights HOLDOUT TEST
+Cohort: TKO, LYV, FWONK (N=3)
+Window: 2y, split temporally at midpoint
+Train: 2024-06-12 -> 2025-06-12 (58 obs)
+Test:  2025-06-12 -> 2026-06-12 (195 obs)
+
+--- TRAIN HALF (older) ---
+Intra-correlation:    0.5053
+PC1 explained var:    67.08%
+Pairwise range:       [0.455, 0.575]
+
+--- TEST HALF (newer) ---
+Intra-correlation:    0.2715
+PC1 explained var:    51.50%
+Pairwise range:       [0.239, 0.325]
+
+--- STABILITY DIAGNOSTICS ---
+Intra-corr delta:     -0.2337   (test - train)
+PC1 variance delta:   -15.58pp
+PC1 loadings corr:    -0.5902    (1.0 = identical factor structure)
+
+VERDICT: REGIME-DEPENDENT — test/train ratio 0.54 (cluster does not survive holdout)

@@ -1,0 +1,20 @@
+name: Live sports and entertainment rights
+primary: TKO
+prefix: tko-cluster
+threshold: 0.5
+window_end: 2026-06-12
+history_start: 2020-01-01
+
+groups:
+  cluster:                      # candidate cohort: live-sports/entertainment rights & promotion
+    color: "#2962FF"
+    tickers: [TKO, LYV, FWONK]
+  live_sports:                  # adjacent control: live-sports/venue/club pure-plays
+    color: "#7E57C2"
+    tickers: [MSGS, MSGE, MANU]
+  media:                        # adjacent control: broad media/streaming
+    color: "#26A69A"
+    tickers: [NFLX, WBD, FOXA]
+  etf:                          # broad-market + sector benchmarks
+    color: "#9E9E9E"
+    tickers: [SPY, XLC, XLY]
