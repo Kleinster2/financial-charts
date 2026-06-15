@@ -32,7 +32,12 @@ ACTORS = Path(__file__).parent.parent / "investing" / "Actors"
 SQLITE_DB = Path(__file__).parent.parent / "market_data.db"
 DUCK_DB = Path(__file__).parent.parent / "market_data.duckdb"
 SKIP = {"AI","US","UK","EU","HQ","PE","RE","DC","VC","CEO","CTO","COO","CFO","IPO",
-        "SA","SE","AG","NV","AB","LP","NA","AM","GP","BE","IT","OR","ON","TD","BN","BAM"}
+        "SA","SE","AG","NV","AB","LP","NA","AM","GP","BE","IT","OR","ON","TD","BN","BAM",
+        # GOLD: former Barrick NYSE ticker. Barrick renamed to Barrick Mining and moved to
+        # ticker B (May 2025); the DB GOLD series is now an unrelated "Gold.com" instrument.
+        # GOLD is still an alias in Barrick Gold.md, so exclude it here to prevent the
+        # Gold.com price from surfacing as a phantom Barrick mover. Use B for Barrick.
+        "GOLD"}
 DEFAULT_SIGMA = 2.5
 DEFAULT_PCT_FLOOR = 6.0  # always-on absolute-% backstop (catches borderline-sigma names like CHYM at -7.5% / 1.71s)
 HIGH_VOL_THRESHOLD = 50.0  # idiosyncratic vol % above which a lower sigma applies
