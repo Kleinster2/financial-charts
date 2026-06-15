@@ -2,7 +2,7 @@
   "name": "financial-charts",
   "private": true,
   "devDependencies": {
-    "@playwright/test": "^1.60.0"
+    "@playwright/test": "^1.61.0"
   },
   "scripts": {
     "test:consistency": "python scripts/check_skill_parity.py --all-scopes --strict --optional-openclaw && python tests/note_compliance_regression.py && python tests/kalshi_watchlist_tests.py && python tests/cluster_statistics_tests.py && python scripts/check_note_compliance.py --market-reaction-peer-sweep && python scripts/audit_note_taxonomy.py",
