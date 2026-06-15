@@ -1,0 +1,22 @@
+Oil and gas majors HOLDOUT TEST
+Cohort: XOM, CVX, COP, EOG (N=4)
+Window: 2y, split temporally at midpoint
+Train: 2024-06-12 -> 2025-06-12 (125 obs)
+Test:  2025-06-12 -> 2026-06-12 (213 obs)
+
+--- TRAIN HALF (older) ---
+Intra-correlation:    0.8331
+PC1 explained var:    87.49%
+Pairwise range:       [0.808, 0.864]
+
+--- TEST HALF (newer) ---
+Intra-correlation:    0.8068
+PC1 explained var:    85.52%
+Pairwise range:       [0.758, 0.858]
+
+--- STABILITY DIAGNOSTICS ---
+Intra-corr delta:     -0.0263   (test - train)
+PC1 variance delta:   -1.98pp
+PC1 loadings corr:    0.0377    (1.0 = identical factor structure)
+
+VERDICT: STABLE — test/train ratio 0.97 (durable cluster across regimes)

@@ -1,0 +1,20 @@
+name: Oil and gas majors
+primary: XOM
+prefix: oil-majors-cluster
+threshold: 0.5
+window_end: 2026-06-12
+history_start: 2020-01-01
+
+groups:
+  cluster:                      # candidate: big-cap US oil & gas producers (integrated majors + large E&P)
+    color: "#2962FF"
+    tickers: [XOM, CVX, COP, EOG]
+  services:                     # adjacent control: oilfield services (picks & shovels)
+    color: "#7E57C2"
+    tickers: [SLB, HAL, BKR]
+  refiners:                     # adjacent control: downstream / refining (margin business)
+    color: "#26A69A"
+    tickers: [VLO, MPC, PSX]
+  etf:                          # sector + commodity benchmarks
+    color: "#9E9E9E"
+    tickers: [XLE, XOP, USO]

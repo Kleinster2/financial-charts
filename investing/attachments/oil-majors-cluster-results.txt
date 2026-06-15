@@ -1,0 +1,74 @@
+Oil and gas majors CLUSTER ANALYSIS
+Window 1y: 2025-06-18 -> 2026-06-12 (195 obs)
+Window 2y: 2024-07-15 -> 2026-06-12 (253 obs)
+Universe: 13 tickers across 4 groups
+Dendrogram cut threshold: 0.5
+
+--- 1Y INTRA-CLUSTER PAIRWISE CORRELATIONS ---
+Ticker   XOM   CVX   COP   EOG
+Ticker                        
+XOM     1.00  0.84  0.80  0.77
+CVX     0.84  1.00  0.80  0.75
+COP     0.80  0.80  1.00  0.85
+EOG     0.77  0.75  0.85  1.00
+Average intra-cluster correlation: 0.802
+Range: [0.754, 0.853]
+
+--- AVG GROUP-PAIR CORRELATIONS (1Y) ---
+             cluster  service  refiner      etf
+    cluster    0.802    0.463    0.631    0.761
+   services    0.463    0.686    0.423    0.359
+   refiners    0.631    0.423    0.841    0.643
+        etf    0.761    0.359    0.643    0.710
+
+Cluster vs others:
+  cluster vs services  : 0.463  (intra advantage: +0.339)
+  cluster vs refiners  : 0.631  (intra advantage: +0.171)
+  cluster vs etf       : 0.761  (intra advantage: +0.041)
+
+--- HIERARCHICAL CLUSTERS (1Y, distance threshold 0.5) ---
+  Cluster 1: SLB, HAL, BKR
+  Cluster 2: XOM, CVX, COP, EOG, VLO, MPC, PSX, XLE, XOP, USO
+
+--- CANDIDATE JOIN DISTANCES (1Y, average linkage, distance = 1-|corr|) ---
+ Step    Left   Right Distance         Members
+    1     COP     EOG    0.147         COP+EOG
+    2     XOM     CVX    0.161         XOM+CVX
+    3 COP+EOG XOM+CVX    0.219 COP+EOG+XOM+CVX
+
+--- PCA ON CANDIDATE COHORT (1Y) ---
+Explained variance ratio:
+  PC1: 85.18%
+  PC2: 7.24%
+  PC3: 4.15%
+  PC4: 3.43%
+
+PC1 loadings:
+XOM    0.499
+CVX    0.499
+COP    0.507
+EOG    0.495
+
+--- PC1 INDEX WEIGHTS (1Y) ---
+PCA is run on standardized daily log returns. Raw PC1-mimic weights scale PC1 loading by inverse realized volatility.
+    PC1 loading Loading weight Ann vol Raw PC1-mimic weight
+XOM       0.499         24.97%  25.41%               25.80%
+CVX       0.499         24.93%  23.21%               28.21%
+COP       0.507         25.35%  30.50%               21.84%
+EOG       0.495         24.75%  26.92%               24.15%
+
+--- WEEKLY-RETURN CROSS-CHECK (1Y, async-close robustness) ---
+Weeks: 39   Weekly intra-corr: 0.809 (daily 0.802)   Weekly PC1: 85.7% (daily 85.2%)
+
+--- HISTORICAL TIGHTNESS EVOLUTION (90D ROLLING) ---
+     Avg corr    PC1 Core corr Satellite corr Final join distance
+Date                                                             
+2020    0.847  88.6%     0.864          0.829               0.171
+2021    0.856  89.2%     0.867          0.851               0.160
+2022    0.838  87.9%     0.840          0.840               0.187
+2023    0.837  87.8%     0.838          0.835               0.184
+2024    0.790  84.3%     0.802          0.779               0.248
+2025    0.837  87.8%     0.835          0.836               0.178
+2026    0.764  82.3%     0.746          0.780               0.266
+
+Latest 90D: avg corr 0.851, PC1 88.8%, core corr 0.873, satellite corr 0.829, final join distance 0.165
