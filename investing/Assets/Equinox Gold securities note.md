@@ -18,11 +18,11 @@ EQX is [[Equinox Gold]]'s dual-listed common stock — it trades on NYSE America
 | Asset type | Common shares |
 | Share count | Expanded materially in the June 2025 Calibre all-share merger |
 | Reporting | IFRS; SEC 6-K interims |
-| Dividend | None material — growth / reinvestment profile |
+| Dividend | Inaugural quarterly $0.015/share (Q1 2026), after the Brazil-sale deleveraging |
 
 ## Share structure
 
-EQX is an all-common-share issuer with no dual-class controlling structure; its defining capital-structure event is the June 2025 all-share combination with Calibre Mining, which issued a large block of new Equinox shares to Calibre holders and roughly reset the share count and float. As a [[Foreign private issuer]], EQX furnishes 6-K interims and reports under IFRS rather than filing 10-Qs — so the cleanest share-count and per-share history comes from the 6-K/MD&A around the merger, not the standard vendor feed.
+EQX is an all-common-share issuer with no dual-class controlling structure; its defining capital-structure event is the June 2025 all-share combination with [[Calibre Mining]], which issued a large block of new Equinox shares to Calibre holders and roughly reset the share count and float. A second all-share issuance is pending: the May 2026 [[Orla Mining]] merger would issue roughly one Equinox share per Orla share, leaving Equinox holders ~67% and Orla ~33% of the combined company (close expected Q3 2026). Between the two deals, the January 2026 sale of the Brazil operations (~$1.015B) repaid ~$990M of debt and funded an inaugural dividend. As a [[Foreign private issuer]], EQX furnishes 6-K interims and reports under IFRS rather than filing 10-Qs — so the cleanest share-count and per-share history comes from the 6-K/MD&A around each deal, not the standard vendor feed.
 
 ## Price record and peer comparison
 
@@ -35,7 +35,7 @@ EQX is an all-common-share issuer with no dual-class controlling structure; its 
 | GDX (gold miners ETF) | sector benchmark; EQX outperformed |
 | AUGO (Aura Minerals) | smaller, higher-beta Americas peer; outperformed EQX |
 
-As a single-name gold producer, EQX's economically meaningful correlation is to the gold complex (GDX) and the gold price; the dividend is immaterial, so the case is production growth and the gold tape, not yield.
+As a single-name gold producer, EQX's economically meaningful correlation is to the gold complex (GDX) and the gold price; the new dividend is small, so the case is still production growth, the gold tape, and the pending [[Orla Mining]] merger rather than yield.
 
 ## Related
 

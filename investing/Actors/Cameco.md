@@ -132,6 +132,7 @@ Uranium up 3x in 4 years.
 ## Related
 
 - [[Uranium]] — commodity (Cameco is largest Western producer)
+- [[Uranium equity beta]] — the uranium-miner cluster; CCJ is the lowest-vol PC1 anchor
 - [[Constellation Energy]] — customer (nuclear fuel buyer)
 - [[Vistra]] — customer (nuclear fuel buyer)
 - [[NuScale]] — SMR developer (future demand)

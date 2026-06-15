@@ -59,7 +59,7 @@ No performance fee. Ongoing charges 0.31% — extremely low for an active trust.
 | 15 | [[Spotify]] | Public | 1.9% |
 | 16 | [[Ferrari]] | Public | 1.8% |
 | 17 | [[Moderna]] | Public | 1.7% |
-| 18 | [[Nu Holdings]] | Public | 1.6% |
+| 18 | [[Nubank]] | Public | 1.6% |
 | 19 | [[Adyen]] | Public | 1.5% |
 | 20 | [[CATL]] | Public | 1.4% |
 

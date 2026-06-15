@@ -1,0 +1,22 @@
+Uranium equity beta HOLDOUT TEST
+Cohort: CCJ, UEC, DNN, NXE, UUUU, URG (N=6)
+Window: 2y, split temporally at midpoint
+Train: 2024-06-12 -> 2025-06-12 (58 obs)
+Test:  2025-06-12 -> 2026-06-12 (195 obs)
+
+--- TRAIN HALF (older) ---
+Intra-correlation:    0.7564
+PC1 explained var:    80.13%
+Pairwise range:       [0.526, 0.904]
+
+--- TEST HALF (newer) ---
+Intra-correlation:    0.7648
+PC1 explained var:    80.61%
+Pairwise range:       [0.634, 0.890]
+
+--- STABILITY DIAGNOSTICS ---
+Intra-corr delta:     +0.0084   (test - train)
+PC1 variance delta:   +0.48pp
+PC1 loadings corr:    0.8974    (1.0 = identical factor structure)
+
+VERDICT: STABLE — test/train ratio 1.01 (durable cluster across regimes)

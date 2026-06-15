@@ -105,6 +105,7 @@ US has near-zero uranium production historically. UEC is changing that.
 ## Related
 
 - [[Cameco]] — Larger Western peer
+- [[Uranium equity beta]] — the uranium-miner cluster; UEC is a core member
 - [[Kazatomprom]] — Global leader
 - [[Centrus Energy]] — Downstream (enrichment)
 - [[Nuclear power for AI]] — Demand driver

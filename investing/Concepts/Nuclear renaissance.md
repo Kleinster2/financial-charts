@@ -323,6 +323,7 @@ The qualitative thesis — nuclear re-rated as AI infrastructure, validated by h
 
 - [[Project Stargate]] — $500B demand shock
 - [[Uranium]] — fuel commodity
+- [[Uranium equity beta]] — the uranium-miner cluster (the fuel producers; distinct from this reactor/SMR cohort, but the demand thesis here is what the miners price)
 - [[Constellation Energy]] — winner (largest US fleet, +150% in 2024)
 - [[Vistra]] — winner (Texas nuclear + gas, +260% in 2024)
 - [[Cameco]] — upstream (uranium mining, Westinghouse stake)

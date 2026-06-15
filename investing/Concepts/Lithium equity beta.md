@@ -119,6 +119,7 @@ Lithium is the third confirmation of the commodity-beta law, and it stress-tests
 - [[Lithium]] — the commodity (crash, rebound, deficit, demand) the cohort cannot be distinguished from
 - [[Copper equity beta]] — the first commodity-beta cohort
 - [[Gold equity beta]] — the second; the regime-tightness contrast (gold strengthened, lithium weakened)
+- [[Uranium equity beta]] — the fourth; tight + durable, and the family's biggest miners-vs-metal wedge (developer optionality) — the opposite end from lithium
 - [[Batteries]] / [[Battery supply chain]] — the demand thesis
 - [[Vault cluster taxonomy]] — the cross-cohort map
 

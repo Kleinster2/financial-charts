@@ -1,0 +1,35 @@
+Uranium equity beta THRESHOLD STABILITY SCAN
+Cohort size: 6
+
+--- ASSIGNMENT TABLE ---
+ threshold  n_subclusters  largest_subcluster_size  cohort_share_in_largest  contamination_count  intact
+      0.20              3                        4                    0.667                    2   False
+      0.25              2                        5                    0.833                    2   False
+      0.30              2                        5                    0.833                    2   False
+      0.35              1                        6                    1.000                    2   False
+      0.40              1                        6                    1.000                    3   False
+      0.45              1                        6                    1.000                    3   False
+      0.50              1                        6                    1.000                    3   False
+      0.55              1                        6                    1.000                    4   False
+      0.60              1                        6                    1.000                    4   False
+      0.65              1                        6                    1.000                    4   False
+      0.70              1                        6                    1.000                    4   False
+
+--- STABLE RANGES (intact cohort, no contamination) ---
+  None — cohort never returns as a clean single cluster at any threshold.
+
+--- VERDICT ---
+BOUNDARY-DEPENDENT: cohort does not form a clean cluster at any threshold tested. Falsification candidate.
+
+--- CONTAMINATION DETAIL (non-cohort names joining the cohort's largest cluster) ---
+  threshold 0.20: + URNM,URA
+  threshold 0.25: + URNM,URA
+  threshold 0.30: + URNM,URA
+  threshold 0.35: + URNM,URA
+  threshold 0.40: + URNM,URA,SRUUF
+  threshold 0.45: + URNM,URA,SRUUF
+  threshold 0.50: + URNM,URA,SRUUF
+  threshold 0.55: + URNM,URA,SRUUF,SPY
+  threshold 0.60: + URNM,URA,SRUUF,SPY
+  threshold 0.65: + URNM,URA,SRUUF,SPY
+  threshold 0.70: + URNM,URA,SRUUF,SPY

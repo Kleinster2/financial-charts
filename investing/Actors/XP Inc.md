@@ -147,7 +147,7 @@ Bear:
 - [[Itaú Unibanco]] — former 49.9% owner, now 7.87%
 - [[BTG Pactual]] — main competitor in investment distribution
 - [[Banco Inter]] — digital bank competitor
-- [[Nu Holdings]] — digital banking competitor (127M clients but investment platform secondary)
+- [[Nubank]] — digital banking competitor (127M clients but investment platform secondary)
 - [[Brazil]] — domestic market
 - [[Brazilian Depositary Receipts]] — XPBR31, XP's patrocinado Level I BDR on [[B3]]
 - [[Rico Investimentos]], [[Clear Corretora]], [[Banco Modal]] — acquired brands

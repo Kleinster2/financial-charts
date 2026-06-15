@@ -3,7 +3,7 @@ aliases: [Inter, Inter&Co, INTR, BIDI11, Banco Inter S.A., Intermedium]
 ---
 #actor #brazil #fintech #digital-bank
 
-Banco Inter — Brazilian digital bank / super-app. Founded 1994 as Intermedium Financeira by [[Rubens Menin]] (also founder of [[MRV Engenharia]]). 100% digital since 2015. Migrated from B3 to NASDAQ in 2022. 43M+ clients, second-largest digital bank in [[Brazil]] by client count after [[Nu Holdings]].
+Banco Inter — Brazilian digital bank / super-app. Founded 1994 as Intermedium Financeira by [[Rubens Menin]] (also founder of [[MRV Engenharia]]). 100% digital since 2015. Migrated from B3 to NASDAQ in 2022. 43M+ clients, second-largest digital bank in [[Brazil]] by client count after [[Nubank]].
 
 ---
 
@@ -153,7 +153,7 @@ Bull:
 Bear:
 - 90+ day NPL rising (4.7%) — credit quality risk as portfolio grows aggressively
 - 60/30/30 target requires ROE to double and efficiency ratio to improve 15pp — ambitious
-- [[Nu Holdings]] at 127M clients dwarfs Inter's 43M
+- [[Nubank]] at 127M clients dwarfs Inter's 43M
 - [[Brazil]] macro: high [[Selic]] rate environment
 - Menin family concentration — founder/family control
 - Stock at $8.51 — well below NASDAQ migration levels
@@ -165,7 +165,7 @@ Bear:
 - [[Rubens Menin]] — founder, Chairman
 - [[MRV Engenharia]] — sister company (same founder), homebuilder synergy
 - [[SoftBank]] — ~16% shareholder
-- [[Nu Holdings]] — main digital banking competitor (127M clients)
+- [[Nubank]] — main digital banking competitor (127M clients)
 - [[XP Inc]] — competitor in investment distribution
 - [[BTG Pactual]] — competitor
 - [[Banco Central do Brasil]] — regulator

@@ -126,6 +126,7 @@ UUUU surged **+9.6%** to $23.37 on March 4, 2026. The [[2026 Iran conflict marke
 
 - [[Uranium Energy Corp]] — US uranium peer
 - [[Cameco]] — Larger uranium peer
+- [[Uranium equity beta]] — the uranium-miner cluster; UUUU the highest-vol member (rare-earth book added +156%)
 - [[MP Materials]] — US REE peer (light REE focus)
 - [[Nuclear power for AI]] — [[Uranium]] demand driver
 - [[Dysprosium]], [[Terbium]] — Heavy REEs they can process

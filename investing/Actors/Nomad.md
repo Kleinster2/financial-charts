@@ -70,7 +70,7 @@ The recurring economics sit in the FX spread on every BRL→USD funding flow plu
 - [[Brazilian Depositary Receipts]] — the onshore (B3, reais) alternative to Nomad's offshore route
 - [[Interactive Brokers]] — global alternative custodian
 - [[Itaú Unibanco]] — owner of rival Avenue
-- [[Nu Holdings]] — Brazilian fintech adjacency
+- [[Nubank]] — Brazilian fintech adjacency
 
 ---
 

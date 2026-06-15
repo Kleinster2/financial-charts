@@ -148,6 +148,7 @@ The market read is not bearish for [[Uranium]] so much as it is timing-disciplin
 
 - [[Nuclear power for AI]] — demand driver
 - [[Nuclear renaissance]] — macro thesis
+- [[Uranium equity beta]] — the listed uranium-miner cohort (validated: tight, ETF-replicable by URNM, but a buildout-thesis trade +0.180 from spot)
 - [[Cameco]] — major producer
 - [[Uranium Energy Corp]] — US producer
 - [[China nuclear buildout]] — demand growth
