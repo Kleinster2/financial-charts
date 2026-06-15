@@ -114,6 +114,7 @@ Method and terminology: `docs/cluster-validation.md`, [[Cohort, cluster, basket]
 - [[Freeport-McMoRan]], [[Southern Copper]], [[Teck Resources]], [[Ero Copper]], [[Ivanhoe Mines]], [[First Quantum Minerals]] — the cohort members
 - [[BHP]] — diversified major (control); the copper miners are not distinct from it
 - [[Nuclear renaissance]] — the other validated-but-ETF-replicable cohort (same shape, commodity vs theme)
+- [[Gold equity beta]] — the sibling commodity-beta cohort; gold replicates this note's law (real, ETF-replicable, = the metal) but is tighter and bull-strengthening where copper weakened
 - [[Vault cluster taxonomy]] — cross-cohort comparison
 - [[Cohort, cluster, basket]] — terminology
 

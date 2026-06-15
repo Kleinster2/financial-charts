@@ -135,3 +135,4 @@ Previous boom cycles marred by bad acquisitions.
 - [[Agnico Eagle]] — peer (\#2 gold miner)
 - [[Barrick Gold]] — peer, Nevada JV partner
 - [[Silver]] — precious metals complex
+- [[Gold equity beta]] — the gold-miner cluster; NEM is the most central PC1 name

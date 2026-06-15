@@ -86,4 +86,5 @@ aliases: [Gold M&A, Gold miner M&A]
 - [[Allied Gold]] — recent target
 - [[Newmont]] — major, divesting non-core
 - [[Barrick Gold]] — major
+- [[Gold equity beta]] — the listed-miner cluster (validated: gold miners = the gold price, ETF-replicable)
 - [[Agnico Eagle]] — mid-tier acquirer

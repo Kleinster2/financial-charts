@@ -123,3 +123,4 @@ Agnico = quality, Newmont = scale.
 - [[Newmont]] — peer (\#1 gold miner)
 - [[Barrick Gold]] — peer
 - [[Silver]] — precious metals complex
+- [[Gold equity beta]] — the gold-miner cluster; AEM-KGC is the tightest pair (0.938)

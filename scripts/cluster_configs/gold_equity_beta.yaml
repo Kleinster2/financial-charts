@@ -1,0 +1,28 @@
+# Gold equity beta — do the listed gold miners trade as one factor, and is that factor
+# distinct from the gold price (GLD) and the miner ETFs (GDX/GDXJ)? The gold analogue of the
+# copper-miners validation. Hypothesis from copper: a commodity cohort coheres trivially
+# (all levered to one price) and is ETF-replicable — but gold miners carry famous operating
+# leverage + cost inflation + jurisdiction idiosyncrasy, so the miners-vs-GLD intra-advantage
+# is the whole question (copper's was a trivial +0.033).
+# Six liquid North American gold producers (synchronous NYSE/TSX listings, so daily corr is
+# clean). NOTE: Barrick is ticker B (renamed from GOLD, May 2025); the DB ticker GOLD now maps
+# to an unrelated "Gold.com" series and must NOT be used for Barrick.
+name: Gold equity beta
+primary: NEM
+prefix: gold-equity-beta-cluster
+threshold: 0.5
+window_end: 2026-06-12
+definition_date: 2026-06-14
+groups:
+  cluster:
+    color: "#2962FF"
+    tickers: [NEM, B, AEM, KGC, AGI, BTG]
+  metal:
+    color: "#FFB300"
+    tickers: [GLD]
+  miner_etf:
+    color: "#26A69A"
+    tickers: [GDX, GDXJ]
+  etf:
+    color: "#9E9E9E"
+    tickers: [SPY]

@@ -1,0 +1,22 @@
+Gold equity beta HOLDOUT TEST
+Cohort: NEM, B, AEM, KGC, AGI, BTG (N=6)
+Window: 2y, split temporally at midpoint
+Train: 2024-06-12 -> 2025-06-12 (58 obs)
+Test:  2025-06-12 -> 2026-06-12 (195 obs)
+
+--- TRAIN HALF (older) ---
+Intra-correlation:    0.8103
+PC1 explained var:    84.23%
+Pairwise range:       [0.757, 0.884]
+
+--- TEST HALF (newer) ---
+Intra-correlation:    0.8502
+PC1 explained var:    87.60%
+Pairwise range:       [0.766, 0.938]
+
+--- STABILITY DIAGNOSTICS ---
+Intra-corr delta:     +0.0399   (test - train)
+PC1 variance delta:   +3.37pp
+PC1 loadings corr:    0.6067    (1.0 = identical factor structure)
+
+VERDICT: STABLE — test/train ratio 1.05 (durable cluster across regimes)

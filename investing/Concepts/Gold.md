@@ -303,6 +303,7 @@ Sentiment indicators:
 - [[Barrick Gold]] — major producer
 - [[Zijin Mining]] — [[China]]'s largest, aggressive acquirer
 - [[Gold mining consolidation]] — M&A wave at record prices
+- [[Gold equity beta]] — the listed gold-miner cohort (validated: the miners trade as the gold price, ETF-replicable by GDX, with only a bull-amplified leverage premium)
 
 ---
 

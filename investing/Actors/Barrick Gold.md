@@ -162,6 +162,7 @@ Barrick dropped from #2 to #3 in gold production in 2025 due to Mali shutdown. T
 ### Peers
 - [[Newmont]] — largest gold miner
 - [[Agnico Eagle]] — peer (#2 gold producer)
+- [[Gold equity beta]] — the gold-miner cluster (B is a core senior member, joins Newmont at 0.099 distance)
 
 ### Copper
 - [[Copper Mining]] — sector

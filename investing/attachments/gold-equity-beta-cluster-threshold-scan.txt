@@ -1,0 +1,35 @@
+Gold equity beta THRESHOLD STABILITY SCAN
+Cohort size: 6
+
+--- ASSIGNMENT TABLE ---
+ threshold  n_subclusters  largest_subcluster_size  cohort_share_in_largest  contamination_count  intact
+      0.20              1                        6                      1.0                    3   False
+      0.25              1                        6                      1.0                    3   False
+      0.30              1                        6                      1.0                    3   False
+      0.35              1                        6                      1.0                    3   False
+      0.40              1                        6                      1.0                    3   False
+      0.45              1                        6                      1.0                    3   False
+      0.50              1                        6                      1.0                    3   False
+      0.55              1                        6                      1.0                    4   False
+      0.60              1                        6                      1.0                    4   False
+      0.65              1                        6                      1.0                    4   False
+      0.70              1                        6                      1.0                    4   False
+
+--- STABLE RANGES (intact cohort, no contamination) ---
+  None — cohort never returns as a clean single cluster at any threshold.
+
+--- VERDICT ---
+BOUNDARY-DEPENDENT: cohort does not form a clean cluster at any threshold tested. Falsification candidate.
+
+--- CONTAMINATION DETAIL (non-cohort names joining the cohort's largest cluster) ---
+  threshold 0.20: + GLD,GDX,GDXJ
+  threshold 0.25: + GLD,GDX,GDXJ
+  threshold 0.30: + GLD,GDX,GDXJ
+  threshold 0.35: + GLD,GDX,GDXJ
+  threshold 0.40: + GLD,GDX,GDXJ
+  threshold 0.45: + GLD,GDX,GDXJ
+  threshold 0.50: + GLD,GDX,GDXJ
+  threshold 0.55: + GLD,GDX,GDXJ,SPY
+  threshold 0.60: + GLD,GDX,GDXJ,SPY
+  threshold 0.65: + GLD,GDX,GDXJ,SPY
+  threshold 0.70: + GLD,GDX,GDXJ,SPY
