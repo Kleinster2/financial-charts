@@ -20,6 +20,7 @@ Amazon securities covers the market-facing side of [[Amazon]]: AMZN equity, ETF 
 | ETF exposure | [[XLK]] | Technology overlap through AWS and AI infrastructure |
 | Options | AMZN options chain | Highly liquid single-stock options |
 | Debt | [[Amazon bonds]] | Debt inventory and AI-capex financing context |
+| BDR | AMZO34 ([[B3]]) | Unsponsored Level I BDR — reais access |
 
 ---
 
@@ -37,3 +38,4 @@ The main 2026 market variables are AWS growth, AI capex intensity, Trainium adop
 - [[Trainium]] — custom silicon used by Anthropic
 - [[Anthropic hyperscaler financing surge April 2026]] — AWS/Trainium customer financing event
 - [[AI Infrastructure]] — sector context
+- [[Brazilian Depositary Receipts]] — AMZO34, the unsponsored Level I BDR for reais access on [[B3]]

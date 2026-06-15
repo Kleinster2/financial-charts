@@ -22,6 +22,7 @@ Google securities covers the market-facing side of [[Google]] / [[Alphabet]]: th
 | Options | GOOGL / GOOG options chain | Highly liquid single-stock options |
 | Debt | [[Alphabet bonds]] | AI capex funding and rate-market read-through |
 | Equity issuance | [[Alphabet equity raise June 2026]] | Up-to-$80B AI infrastructure funding package; dilution / share-count read-through |
+| BDR | GOGL34 ([[B3]]) | Unsponsored Level I BDR — reais access |
 
 ---
 
@@ -53,3 +54,4 @@ The pricing question is whether investors treat the issuance as capacity-positiv
 - [[AI infrastructure financing]] — funding stack
 - [[AI infrastructure financing risk]] — dilution / financing-risk channel
 - [[AI Infrastructure]] — sector context
+- [[Brazilian Depositary Receipts]] — GOGL34, the unsponsored Level I BDR for reais access on [[B3]]

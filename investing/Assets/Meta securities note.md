@@ -16,6 +16,7 @@ Meta securities — Nasdaq: META. Equity-market note for [[Meta]], where adverti
 | Exchange | Nasdaq |
 | Ticker | META |
 | Security | Common equity |
+| B3 BDR | M1TA34 (unsponsored Level I; ex-FBOK34) |
 
 ---
 
@@ -45,3 +46,6 @@ The tape believed the financing report was dilution-relevant for Meta specifical
 
 ### Parent
 - [[Meta]]
+
+### Access
+- [[Brazilian Depositary Receipts]] — M1TA34, the unsponsored Level I BDR for reais access on [[B3]]

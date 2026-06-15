@@ -18,6 +18,7 @@ tags: [securities, semiconductors, ai, gpu]
 | ETF exposure | QQQ | Invesco Nasdaq-100 — top-5 holding |
 | Options | NVDA options chain | Most liquid single-stock options in the world |
 | 10:1 stock split | Jun 10, 2024 | All prices in this note are split-adjusted |
+| BDR | NVDC34 ([[B3]]) | Unsponsored Level I — #2 most-traded BDR on B3 |
 
 ---
 
@@ -136,3 +137,4 @@ Persistently low SI despite valuation concerns. The cost of being wrong on an NV
 - [[Hans Mosesmann]] — Rosenblatt analyst (first $1K+ pre-split PT)
 - [[Gene Munster]] — [[Deepwater Asset Management]]
 - [[Short interest]] — interpretation framework
+- [[Brazilian Depositary Receipts]] — NVDC34, the unsponsored Level I BDR for reais access on [[B3]]

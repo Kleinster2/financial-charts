@@ -16,6 +16,7 @@ Tesla securities — NASDAQ: TSLA. Equity-market note for [[Tesla]].
 | Exchange | NASDAQ |
 | Ticker | TSLA |
 | Security | Common equity |
+| B3 BDR | TSLA34 (unsponsored Level I) — most-traded BDR on [[B3]] |
 
 ---
 
@@ -31,3 +32,6 @@ Tesla securities — NASDAQ: TSLA. Equity-market note for [[Tesla]].
 
 ### Parent
 - [[Tesla]]
+
+### Access
+- [[Brazilian Depositary Receipts]] — TSLA34, the unsponsored Level I BDR for reais access on [[B3]]
