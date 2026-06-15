@@ -170,6 +170,7 @@ Bear:
 - [[BTG Pactual]] — competitor
 - [[Banco Central do Brasil]] — regulator
 - [[Brazil]] — domestic market
+- [[Brazilian Depositary Receipts]] — INBR31, the sponsored Level I BDR from the [[Nasdaq]] redomicile
 
 ---
 

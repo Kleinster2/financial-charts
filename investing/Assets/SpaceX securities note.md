@@ -65,6 +65,21 @@ A pure [[Float-adjusted market capitalization|float-adjusted]] index would treat
 
 The practical effect: SPCX can be far larger in [[QQQ]] than in a pure total-market float product, but nowhere near a full-market-cap weight in either, and the [[S&P 500]] is gated by float rather than by the headline valuation. Full rule detail and source filings in [[SpaceX IPO 2026]].
 
+## Brazil access — SPCX34 BDR
+
+A Brazil-resident investor does not need an offshore account to hold SPCX. [[B3]] admitted an unsponsored Level I [[Brazilian Depositary Receipts]] receipt, ticker SPCX34, on Jun. 12, 2026 — the same session as the [[Nasdaq]] debut. The 34 suffix marks it não patrocinado: a Brazilian depositary created the receipt off the US listing without [[SpaceX]]'s participation, so it carries lighter disclosure and no foreign-issuer registration.
+
+| Item | Value |
+|---|---|
+| Ticker | SPCX34 (on [[B3]]) |
+| Type | Unsponsored Level I [[Brazilian Depositary Receipts]] |
+| Paridade | 1:15 — one [[Nasdaq]] SPCX share = 15 SPCX34 BDRs |
+| Listing | Jun. 12, 2026 (same day as the IPO) |
+| Early quote | ~R$54.74 vs ~R$675 for a full share at the $135 IPO price; B3 cited an R$50–70 band |
+| Settlement | Reais, through a local home broker — no câmbio |
+
+The receipt tracks SPCX one-for-fifteen, adjusted by USD/BRL, so a SPCX34 holder is long the company and short the real in one position. Three frictions matter. The BDR carries no vote — moot here, since public Class A already has almost none against [[Elon Musk]]'s ~82.4% Class B control. Local liquidity in a one-session-old receipt sitting on a ~4% float will be thin, with wider spreads than the [[Nasdaq]] line. And the Brazilian tax treatment is worse than for local shares: 15% on any gain with no R$20k/month isenção (detail in [[Brazilian Depositary Receipts#Taxation for a Brazil resident|BDR tax]]). The alternative is to buy SPCX directly offshore through an international broker ([[Interactive Brokers]], [[BTG Pactual]] international, Avenue, Inter, Nomad) in USD — [[BTG Pactual]] was itself an international co-manager on the offering. Full instrument mechanics in [[Brazilian Depositary Receipts]].
+
 ## Trading character — proxy unwind and the float wedge
 
 SPCX debuted as the new primary instrument for a theme that had been traded for years through substitutes, and the first session showed the substitution mechanically. SpaceX closed up 19% while every public space proxy fell on an up-tape (+0.54% [[SPY]]): [[EchoStar]] (SATS) -10.97% / -3.38σ, [[AST SpaceMobile]] (ASTS) -15.53% / -2.70σ, [[Intuitive Machines]] (LUNR) -13.12%, [[Rocket Lab]] (RKLB) -10.79%, and [[Redwire]] (RDW) -11.53%. The scarcity premium those names carried for being "the only way in" migrated into SPCX itself. See [[SpaceX debut proxy unwind]].
@@ -94,6 +109,7 @@ The public price record is one session old. The pre-IPO private price arc ($0.10
 - [[Nasdaq 100]] — fast-entry target; modified-cap weighting
 - [[FTSE Russell]] — fast-entry eligibility across Russell U.S. + FTSE GEIS
 - [[Float-adjusted market capitalization]] — why index weight starts from float, not full value
+- [[Brazilian Depositary Receipts]] — SPCX34, the B3 receipt for Brazil-resident access
 - [[Space pure-plays]] — cohort the instrument trades within
 - [[EchoStar]] — ownership proxy (SATS), ~2.8% SpaceX stake
 - [[Space]] — sector

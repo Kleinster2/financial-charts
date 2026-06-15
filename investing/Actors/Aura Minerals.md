@@ -141,3 +141,4 @@ CEO upgraded production guidance to **600,000+ GEO per year** (up from former 45
 - [[Copper]] — secondary commodity (Aranzazu)
 - [[CDI]] — BRL floating rate benchmark
 - [[Scala Data Centers]] — comparable BRL debenture + swap structure
+- [[Brazilian Depositary Receipts]] — AURA33, the sponsored Level III BDR that is Aura's primary [[B3]] listing
