@@ -42,7 +42,7 @@ The meta-finding: in this universe the only things that cohere are (a) literal s
 | [[Warner Bros Discovery]] | WBD | 117M | Max, sale/spinoff evaluation |
 | [[Comcast]] | CMCSA | 72M+ | Peacock, cable parent |
 | [[Paramount Global]] | PARA | 72M+ | Paramount+, merger target |
-| [[Roku]] | ROKU | 90M+ | Platform/OS, not content |
+| [[Roku]] | ROKU | 100M+ | Platform/OS, not content; pending [[Fox Corporation]] acquisition (June 2026) |
 
 ### Audio streaming
 | Company | Ticker | Users | Notes |
@@ -97,7 +97,7 @@ The meta-finding: in this universe the only things that cohere are (a) literal s
 |---------|--------|------|-------|
 | [[Trade Desk]] | TTD | DSP (buy-side) | #1 independent, 45% CTV |
 | [[Magnite]] | MGNI | SSP (sell-side) | #1 independent, 50%+ CTV |
-| [[Roku]] | ROKU | Platform + ads | 90M accounts, ARPU focus |
+| [[Roku]] | ROKU | Platform + ads | 100M+ households; pending [[Fox Corporation]] deal |
 
 ### TV hardware
 | Company | Ticker | Position | Notes |

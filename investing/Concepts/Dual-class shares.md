@@ -40,7 +40,7 @@ A founder with 15% economic ownership but 100% Class B shares can hold >60% of t
 | [[DoorDash]] | 2020 | 3-class, 20:1 Class B | Tony Xu ~79% votes (co-founders proxy votes to CEO) | None |
 | [[Lyft]] | 2019 | 20:1 Class B | Founders ~49% votes | — |
 | [[Pinterest]] | 2019 | 20:1 Class B | Silbermann ~37% votes | — |
-| [[Roku]] | 2017 | 10:1 Class B | Anthony Wood control | — |
+| [[Roku]] | 2017 | 10:1 Class B | Anthony Wood control | Both classes convert at $160 in pending [[Fox Corporation]] deal (2026) |
 | [[Rivian]] | 2021 | Dual-class at $12B IPO | — | — |
 
 ### Recent IPOs (2023-2024)

@@ -525,7 +525,7 @@ Google's smart TV operating system — successor to Android TV (2014), rebranded
 | Android TV / Google TV | ~35% (global leader) | \#3-4 behind [[Roku]], [[Samsung]] Tizen |
 | [[Samsung]] Tizen | ~20% | \#2 |
 | [[LG]] webOS | ~25% | Strong |
-| [[Roku]] | ~10% globally | \#1 in US (90M+ streaming households) |
+| [[Roku]] | ~10% globally | \#1 in US (100M+ streaming households) |
 | [[Amazon]] Fire TV | — | \#2-3 in US |
 
 Global vs US disconnect: Google TV leads globally (40% ex-North America, ex-China per research firms) but trails in the lucrative US market where ad monetization is highest. Many global devices are pay-TV operator set-top boxes with minimal monetization for Google.

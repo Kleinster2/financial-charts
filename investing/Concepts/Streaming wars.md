@@ -129,7 +129,7 @@ The competitive battle between streaming services for subscribers, content, and 
 | **Disney** | IP moat, profitable now |
 | **WBD** | Turnaround/takeout play |
 | **Paramount** | Merger premium |
-| **[[Roku]]** | Platform beneficiary |
+| **[[Roku]]** | Platform beneficiary; pending [[Fox Corporation]] acquisition ($160/share, June 2026) — being absorbed into a media owner |
 
 ---
 

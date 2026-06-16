@@ -113,8 +113,8 @@ Connected TV (CTV) advertising — the fastest-growing segment of digital advert
 | Service | Owner | MAU |
 |---------|-------|-----|
 | Pluto TV | [[Paramount Global]] | 80M+ |
-| Tubi | [[Fox Corporation]] | 80M+ |
-| The Roku Channel | [[Roku]] | Built into 90M accounts |
+| [[Tubi]] | [[Fox Corporation]] | 100M+ |
+| The Roku Channel | [[Roku]] | Built into 100M+ households |
 | Freevee | [[Amazon]] | Significant |
 
 **FAST = fastest-growing CTV segment.**

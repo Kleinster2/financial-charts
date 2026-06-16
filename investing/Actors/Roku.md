@@ -31,6 +31,16 @@ The ~$25B equity value reprices Roku from independent CTV platform to the distri
 
 ---
 
+## Leadership
+
+| Role | Person | Note |
+|------|--------|------|
+| Founder, Chairman & CEO | Anthony Wood | Founded Roku 2002 (spun out of a Netflix set-top project); has led it since. Controls the company via 10:1 super-voting Class B stock (see [[Dual-class shares]]) |
+
+Wood's super-voting control is a deal-relevant fact: founder consent was effectively required for the [[Fox Corporation]] sale, and both share classes (his Class B included) convert at the same $160. His backing is why the board could approve cleanly — but it also means the standalone-Roku constituency had limited ability to block a take-under if they viewed $160 as light.
+
+---
+
 ## Sector correlation
 
 | Sector | ETF | Correlation |
@@ -118,9 +128,17 @@ ROKU trades as a core Consumer name (XLY r = 0.75).
 
 ---
 
-## Financial trajectory
+## Financials
 
 By Q1 2026 Roku had inflected from "near breakeven" to GAAP-profitable with a sharply rising free cash flow line — the operating leverage the platform model promised is finally showing.
+
+| Fiscal year | Total revenue | Platform revenue | Note |
+|-------------|---------------|------------------|------|
+| FY2024 | ~$3.9B | — | Near-breakeven |
+| FY2025 | ~$4.6B | ~$4.11B | Platform ~+12%; devices ~$660M |
+| Q1 2026 | $1.25B (+22%) | $1.13B (+28%) | First GAAP-profitable run-rate |
+
+*Annual figures from Roku earnings releases; DB-sourced verification and the fundamentals/Sankey charts are deferred this session (empty local `market_data.db`, Yahoo egress blocked).*
 
 | Metric (Q1 2026) | Value | YoY |
 |--------|-------|-----|
