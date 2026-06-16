@@ -7,7 +7,7 @@ aliases:
 ---
 #actor #company #bank #brazil #public
 
-[[Santander]]'s Brazilian subsidiary — #5 bank in Brazil, largest foreign bank. [[B3]]: SANB11, NYSE ADR: BSBR. ~R$116B market cap (~$23B). Contributes ~30% of Santander group profits. Built through Banespa (2000) and Banco Real (2007) acquisitions.
+[[Santander]]'s Brazilian subsidiary — #5 bank in Brazil, largest foreign bank. [[B3]]: SANB11, NYSE [[American Depositary Receipts|ADR]]: BSBR. ~R$116B market cap (~$23B). Contributes ~30% of Santander group profits. Built through Banespa (2000) and Banco Real (2007) acquisitions.
 
 ---
 

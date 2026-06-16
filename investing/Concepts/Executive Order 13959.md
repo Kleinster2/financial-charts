@@ -24,7 +24,7 @@ tags: [concept, us-china, regulation, capital-markets, sanctions, stub]
 
 ## Related
 
-- [[China Unicom]] — delisted ADR (CHU)
+- [[China Unicom]] — delisted [[American Depositary Receipts|ADR]] (CHU)
 - [[China Mobile]] — delisted ADR (CHL)
 - [[China Telecom]] — delisted ADR (CHA)
 - [[China Unicom securities note]] — delisting mechanics

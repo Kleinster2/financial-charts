@@ -46,7 +46,7 @@ HFCAA is frequently conflated with the [[Executive Order 13959]] delistings, but
 | Status | defused 2022, standing lever | active list, expanded under Biden |
 | Marquee names | [[Alibaba]], [[Baidu]], [[JD.com]], PDD | the three telecoms ([[China Mobile]] etc.) |
 
-Together they form a two-track capital-markets pressure system: one keyed to disclosure, one to security ties. The telecoms hit by EO 13959 were delisted for *who they are*; the broader ADR complex was threatened by HFCAA for *how they were audited*.
+Together they form a two-track capital-markets pressure system: one keyed to disclosure, one to security ties. The telecoms hit by EO 13959 were delisted for *who they are*; the broader [[American Depositary Receipts|ADR]] complex was threatened by HFCAA for *how they were audited*.
 
 ---
 

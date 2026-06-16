@@ -67,7 +67,7 @@ China Telecom returned to the Shanghai exchange (601728.SS) in August 2021 via a
 
 ## NYSE delisting (2021)
 
-China Telecom's ADR (CHA) was removed from the NYSE in 2021 under [[Executive Order 13959]], alongside [[China Mobile]] (CHL) and [[China Unicom]] (CHU). Mechanics in [[China Telecom securities note]].
+China Telecom's [[American Depositary Receipts|ADR]] (CHA) was removed from the NYSE in 2021 under [[Executive Order 13959]], alongside [[China Mobile]] (CHL) and [[China Unicom]] (CHU). Mechanics in [[China Telecom securities note]].
 
 ---
 

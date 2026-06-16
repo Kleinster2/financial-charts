@@ -154,7 +154,7 @@ Reserve estimates: Proven reserves (1P) at 11.4B boe ([[Petrobras]] alone, risin
 | Controlling group total | 50.26% | 19.01% | 37.06% |
 | Free float | 49.74% | 80.99% | 62.94% |
 
-Total shares: 12.89B (7.44B common + 5.45B preferred). ADRs = 21.51% of total capital. PBR (common ADR) has voting rights; PBR.A (preferred) has priority dividends but no vote. Each ADR = 2 underlying shares.
+Total shares: 12.89B (7.44B common + 5.45B preferred). [[American Depositary Receipts|ADRs]] = 21.51% of total capital. PBR (common ADR) has voting rights; PBR.A (preferred) has priority dividends but no vote. Each ADR = 2 underlying shares.
 
 ---
 

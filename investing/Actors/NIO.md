@@ -153,7 +153,7 @@ Analyst consensus: Hold, $6.05 target (~21% upside from $5)
 
 ![[nio-price-chart.png]]
 
-*NIO remains a high-beta China EV ADR; the Apr 2026 [[Automotive AI]] / [[Shenji]] update adds chip-control optionality to the older battery-swap thesis.*
+*NIO remains a high-beta China EV [[American Depositary Receipts|ADR]]; the Apr 2026 [[Automotive AI]] / [[Shenji]] update adds chip-control optionality to the older battery-swap thesis.*
 
 NIO has limited financial disclosure in the local chart pipeline: fundamentals chart data unavailable, income statement data unavailable, and historical financials data unavailable in the standardized vault database as of Apr 24, 2026. The Q4 2025 operating-profit section above carries the current company-level financial signal.
 

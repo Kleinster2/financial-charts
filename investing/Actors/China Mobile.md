@@ -65,7 +65,7 @@ China Mobile's distinct corporate-finance event was its January 2022 return to t
 
 ## NYSE delisting (2021)
 
-China Mobile's ADR (CHL) was the first of the three telecom ADRs removed from the NYSE, in January 2021, under [[Executive Order 13959]] — the November 2020 Trump order barring US persons from holding "Communist Chinese military companies." [[China Unicom]] (CHU) and [[China Telecom]] (CHA) followed. The three now trade only in Hong Kong and on mainland exchanges. Mechanics in [[China Mobile securities note]].
+China Mobile's [[American Depositary Receipts|ADR]] (CHL) was the first of the three telecom ADRs removed from the NYSE, in January 2021, under [[Executive Order 13959]] — the November 2020 Trump order barring US persons from holding "Communist Chinese military companies." [[China Unicom]] (CHU) and [[China Telecom]] (CHA) followed. The three now trade only in Hong Kong and on mainland exchanges. Mechanics in [[China Mobile securities note]].
 
 ---
 

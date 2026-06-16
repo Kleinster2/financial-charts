@@ -39,7 +39,7 @@ China Unicom's corporate structure is a three-layer chain that confuses headline
 | China United Network Communications Ltd | 600050.SS (Shanghai, 2002) | A-share arm; site of the 2017 mixed-ownership reform |
 | China Unicom (Hong Kong) Ltd | 0762.HK (HK, 2000) | the H-share entity holding the operating telecom business |
 
-The financial figures in this note are the consolidated operating results reported by the Hong Kong entity (0762.HK). The A-share 600050.SS reports on the same operating business but with different minority-interest accounting; the two should not be compared line-for-line. Instrument-level detail (H-share vs A-share vs the delisted ADR) lives in [[China Unicom securities note]].
+The financial figures in this note are the consolidated operating results reported by the Hong Kong entity (0762.HK). The A-share 600050.SS reports on the same operating business but with different minority-interest accounting; the two should not be compared line-for-line. Instrument-level detail (H-share vs A-share vs the delisted [[American Depositary Receipts|ADR]]) lives in [[China Unicom securities note]].
 
 ---
 

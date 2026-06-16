@@ -3,7 +3,7 @@ aliases: [ERJ, EMBJ, EMBR3, Embraer S.A.]
 ---
 #actor #aerospace #brazil #public
 
-**Embraer** — Brazilian aerospace company and the world's third-largest aircraft manufacturer. Dominates the 70-150 seat commercial jet segment, operates a growing defense export platform around the [[C-390 Millennium]], and runs a high-margin aftermarket services business. ADR trades as EMBJ on NYSE (changed from ERJ in Nov 2025); primary listing EMBR3 on [[B3]].
+**Embraer** — Brazilian aerospace company and the world's third-largest aircraft manufacturer. Dominates the 70-150 seat commercial jet segment, operates a growing defense export platform around the [[C-390 Millennium]], and runs a high-margin aftermarket services business. [[American Depositary Receipts|ADR]] trades as EMBJ on NYSE (changed from ERJ in Nov 2025); primary listing EMBR3 on [[B3]].
 
 ---
 
