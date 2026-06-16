@@ -1,0 +1,82 @@
+Restaurants and QSR CLUSTER ANALYSIS
+Window 1y: 2025-06-18 -> 2026-06-15 (196 obs)
+Window 2y: 2024-07-15 -> 2026-06-15 (254 obs)
+Universe: 10 tickers across 3 groups
+Dendrogram cut threshold: 0.5
+
+--- 1Y INTRA-CLUSTER PAIRWISE CORRELATIONS ---
+Ticker   MCD  SBUX   CMG   YUM   DRI
+Ticker                              
+MCD     1.00  0.28  0.27  0.57  0.29
+SBUX    0.28  1.00  0.38  0.28  0.42
+CMG     0.27  0.38  1.00  0.29  0.47
+YUM     0.57  0.28  0.29  1.00  0.40
+DRI     0.29  0.42  0.47  0.40  1.00
+Average intra-cluster correlation: 0.364
+Range: [0.268, 0.567]
+
+--- AVG GROUP-PAIR CORRELATIONS (1Y) ---
+             cluster  staples      etf
+    cluster    0.364    0.236    0.270
+    staples    0.236    0.538    0.150
+        etf    0.270    0.150    0.325
+
+Cluster vs others:
+  cluster vs staples   : 0.236  (intra advantage: +0.128)
+  cluster vs etf       : 0.270  (intra advantage: +0.094)
+
+--- HIERARCHICAL CLUSTERS (1Y, distance threshold 0.5) ---
+  Cluster 1: KO, PEP, XLP
+  Cluster 2: MCD, YUM
+  Cluster 3: XLY, SPY
+  Cluster 4: CMG
+  Cluster 5: DRI
+  Cluster 6: SBUX
+
+--- CANDIDATE JOIN DISTANCES (1Y, average linkage, distance = 1-|corr|) ---
+ Step    Left        Right Distance              Members
+    1     MCD          YUM    0.433              MCD+YUM
+    2     CMG          DRI    0.532              CMG+DRI
+    3    SBUX      CMG+DRI    0.603         SBUX+CMG+DRI
+    4 MCD+YUM SBUX+CMG+DRI    0.698 MCD+YUM+SBUX+CMG+DRI
+
+--- PCA ON CANDIDATE COHORT (1Y) ---
+Explained variance ratio:
+  PC1: 49.19%
+  PC2: 19.17%
+  PC3: 12.70%
+  PC4: 10.86%
+  PC5: 8.09%
+
+PC1 loadings:
+MCD     0.436
+SBUX    0.423
+CMG     0.434
+YUM     0.467
+DRI     0.474
+
+--- PC1 INDEX WEIGHTS (1Y) ---
+PCA is run on standardized daily log returns. Raw PC1-mimic weights scale PC1 loading by inverse realized volatility.
+     PC1 loading Loading weight Ann vol Raw PC1-mimic weight
+MCD        0.436         19.54%  16.65%               28.48%
+SBUX       0.423         18.95%  28.51%               16.13%
+CMG        0.434         19.41%  39.68%               11.88%
+YUM        0.467         20.91%  21.62%               23.48%
+DRI        0.474         21.20%  25.70%               20.03%
+
+--- WEEKLY-RETURN CROSS-CHECK (1Y, async-close robustness) ---
+Weeks: 39   Weekly intra-corr: 0.472 (daily 0.364)   Weekly PC1: 57.9% (daily 49.2%)
+NOTE: weekly intra-corr exceeds daily by >0.10 — asynchronous closes are depressing the daily numbers (cross-region cohort); the weekly reading is the better estimate of economic co-movement.
+
+--- HISTORICAL TIGHTNESS EVOLUTION (90D ROLLING) ---
+     Avg corr    PC1 Core corr Satellite corr Final join distance
+Date                                                             
+2020    0.853  88.3%     0.827          0.893               0.185
+2021    0.381  51.3%     0.358          0.418               0.718
+2022    0.630  70.5%     0.640          0.605               0.420
+2023    0.453  57.1%     0.420          0.515               0.634
+2024    0.313  47.1%     0.322          0.329               0.816
+2025    0.318  45.7%     0.324          0.310               0.743
+2026    0.353  48.4%     0.363          0.346               0.726
+
+Latest 90D: avg corr 0.365, PC1 49.4%, core corr 0.368, satellite corr 0.361, final join distance 0.713

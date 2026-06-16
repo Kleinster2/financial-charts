@@ -1,0 +1,22 @@
+Restaurants and QSR HOLDOUT TEST
+Cohort: MCD, SBUX, CMG, YUM, DRI (N=5)
+Window: 2y, split temporally at midpoint
+Train: 2024-06-15 -> 2025-06-15 (123 obs)
+Test:  2025-06-15 -> 2026-06-15 (214 obs)
+
+--- TRAIN HALF (older) ---
+Intra-correlation:    0.3255
+PC1 explained var:    46.17%
+Pairwise range:       [0.195, 0.560]
+
+--- TEST HALF (newer) ---
+Intra-correlation:    0.3205
+PC1 explained var:    45.72%
+Pairwise range:       [0.203, 0.506]
+
+--- STABILITY DIAGNOSTICS ---
+Intra-corr delta:     -0.0050   (test - train)
+PC1 variance delta:   -0.45pp
+PC1 loadings corr:    0.5249    (1.0 = identical factor structure)
+
+VERDICT: STABLE — test/train ratio 0.98 (durable cluster across regimes)

@@ -1,0 +1,37 @@
+Restaurants and QSR PERMUTATION TESTS
+Window: 2025-06-18 -> 2026-06-15 (213 obs)
+Candidate cohort: MCD, SBUX, CMG, YUM, DRI (N=5)
+Observed intra-corr: 0.3282    Observed PC1: 46.34%
+
+--- INDEPENDENCE NULL ---
+Permutations: 10000
+Block size: 1
+Intra-cluster correlation:
+  Null mean:        0.0005
+  Null 95th pct:    0.0370
+  Null 99th pct:    0.0525
+  p-value (right):  0.000100    -> REJECTS independence null at p < 0.001
+PC1 explained variance:
+  Null mean:        23.86%
+  Null 95th pct:    25.72%
+  Null 99th pct:    26.71%
+  p-value (right):  0.000100    -> REJECTS independence null at p < 0.001
+
+--- RANDOM-BASKET NULL ---
+Permutations: 10000
+Universe source: DB prices_long (1052 tickers with >=200 obs in window)
+Pool size: 1047
+Intra-cluster correlation:
+  Null mean:        0.1521
+  Null 95th pct:    0.2961
+  Null 99th pct:    0.3699
+  p-value (right):  0.025097    -> REJECTS random-basket null at p < 0.05
+PC1 explained variance:
+  Null mean:        35.09%
+  Null 95th pct:    45.78%
+  Null 99th pct:    51.40%
+  p-value (right):  0.042896    -> REJECTS random-basket null at p < 0.05
+
+--- INTERPRETATION ---
+Independence null rejected: the cohort series co-move (necessary, not sufficient).
+Random-basket null rejected: cohort is more cohesive than a random N-pick from the same universe. This is the meaningful pass.

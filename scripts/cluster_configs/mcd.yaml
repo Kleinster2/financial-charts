@@ -1,0 +1,17 @@
+name: Restaurants and QSR
+primary: MCD
+prefix: restaurants-cluster
+threshold: 0.5
+window_end: 2026-06-15
+history_start: 2020-01-01
+
+groups:
+  cluster:                      # candidate: big-cap restaurants (QSR + fast-casual + casual dining)
+    color: "#2962FF"
+    tickers: [MCD, SBUX, CMG, YUM, DRI]
+  staples:                      # adjacent control: packaged-food/beverage staples
+    color: "#7E57C2"
+    tickers: [KO, PEP]
+  etf:                          # consumer-discretionary + staples + market benchmarks
+    color: "#9E9E9E"
+    tickers: [XLY, XLP, SPY]
