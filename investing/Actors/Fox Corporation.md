@@ -15,14 +15,16 @@ Announced June 15, 2026: Fox agreed to acquire [[Roku]] in a cash-and-stock deal
 |------|--------|
 | Enterprise value | $22B |
 | Equity value | $25B |
-| Offer | $160/Roku share, 28% premium to June 10 close |
-| Financing | 60% cash / 40% equity |
+| Offer | $160/Roku share, ~28% premium to June 10 close |
+| Consideration | $96.00 cash + 0.9693 FOXA shares per Roku share (≈60% cash / 40% equity) |
+| Pro forma ownership | FOX holders ~73% / Roku holders ~27% |
 | New debt | $8.3B |
 | New equity | 152M new Class A (FOXA) shares |
-| Cost synergies | ~$400M projected |
-| Roku reach | 44% of US connected-TV viewing hours |
+| Cost synergies | ~$400M run-rate; FCF/share accretive by 2nd full year |
+| Expected close | H1 2027 |
+| Roku reach | 44% of US connected-TV viewing hours; 100M+ households |
 
-Rationale: Fox gains a connected-TV distribution layer for its sports, news, and [[Tubi]] assets; the combined entity would rank as the \#3 US media provider by viewership (~10.2% share), ahead of [[Paramount Skydance]] and [[Netflix]] (per Motley Fool).
+Rationale: Fox gains a connected-TV distribution layer for its sports, news, and [[Tubi]] assets; the combined entity would rank as the \#3 US media provider by viewership (~10.2% share), ahead of [[Paramount Skydance]] and [[Netflix]] (per Motley Fool). Fox intends to keep [[Tubi]] and The Roku Channel as separate FAST brands rather than merge them — buying Roku for its OS/distribution and first-party data, not to consolidate the two streaming services.
 
 Market reaction (June 15): FOXA −18.1% / FOX −16.7% — a −10σ idiosyncratic move on near-zero market beta, driven by the new debt and Class A dilution rather than the strategic logic. [[Roku]] traded roughly flat into the $160 terms after running up on deal rumors the prior week. Integration risk flagged: Roku's low-margin streaming hardware sits outside Fox's media-advertising model. The move was confirmed fundamental (not a data/corporate-action artifact) against RTTNews, Motley Fool, and Yahoo/Reuters.
 
@@ -95,11 +97,12 @@ FOX shows moderate Regional Banks correlation (KRE r = 0.64).
 | Metric | Value |
 |--------|-------|
 | Model | FAST (free, ad-supported) |
-| MAU | 80M+ |
-| Revenue | ~$1B+ |
+| MAU | 100M+ (2026) |
+| Revenue growth | +27% YoY (FQ1 2026) |
+| Profitability | First profitable quarter, FQ1 2026; guided 20–25% op margin |
 | Content | Licensed library, originals |
 
-**Strategy:** Not competing with [[Netflix]] — different model.
+**Strategy:** Not competing with [[Netflix]] — different model. Tubi turned its first profit in FQ1 2026, validating Fox's FAST bet and setting up the [[Roku]] acquisition: Fox intends to run [[Tubi]] and The Roku Channel as **separate** FAST brands, not merge them. See [[Tubi]].
 
 ---
 
