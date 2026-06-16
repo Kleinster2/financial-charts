@@ -5,7 +5,7 @@ tags: [concept, instrument, securities, cross-listing]
 
 # Depositary receipts
 
-A depositary receipt (DR) is a negotiable certificate issued by a local depositary bank against shares of a foreign company held in custody abroad, letting that company's equity trade on a domestic exchange in local currency without a direct cross-listing. It is the general instrument class behind several national variants — the [[American Depositary Receipts|ADR]] in the US, the GDR across global markets, and the [[Brazilian Depositary Receipts|BDR]] on [[B3]] — all built on one template: a depositary holds the underlying shares, issues receipts against them at a set ratio, and the receipt tracks the underlying price adjusted for FX. The holder gets economic exposure; voting and other rights pass through, or not, depending on the program. The two axes that organize every DR market are the same — whether the issuer sponsors the program, and what listing/disclosure level it accepts — which is why the BDR's níveis and the ADR's levels are the same idea in two jurisdictions.
+A depositary receipt (DR) is a negotiable certificate issued by a local depositary bank against shares of a foreign company held in custody abroad, letting that company's equity trade on a domestic exchange in local currency without a direct cross-listing. It is the general instrument class behind several national variants — the [[American Depositary Receipts|ADR]] in the US, the [[Global Depositary Receipts|GDR]] across global markets, and the [[Brazilian Depositary Receipts|BDR]] on [[B3]] — all built on one template: a depositary holds the underlying shares, issues receipts against them at a set ratio, and the receipt tracks the underlying price adjusted for FX. The holder gets economic exposure; voting and other rights pass through, or not, depending on the program. The two axes that organize every DR market are the same — whether the issuer sponsors the program, and what listing/disclosure level it accepts — which is why the BDR's níveis and the ADR's levels are the same idea in two jurisdictions.
 
 ## What a depositary receipt is
 
@@ -20,9 +20,14 @@ The universal first split. A sponsored DR is created with the foreign company's 
 | Receipt | Market | Structure |
 |---|---|---|
 | [[American Depositary Receipts]] | US — NYSE / Nasdaq / OTC | Levels I–III + Rule 144A; the largest DR market |
-| GDR (Global Depositary Receipt) | Multi-market — London, Luxembourg, often via 144A / Reg S | for issuers tapping several markets at once |
+| [[Global Depositary Receipts]] | London / Luxembourg | Rule 144A + Reg S; EM cross-border capital raises |
 | [[Brazilian Depositary Receipts]] | B3 (Brazil) | Níveis I–III; the 31–35 ticker-suffix convention |
-| Others | HDR (Hong Kong), IDR (India), JDR (Japan), EDR | the same template under other regulators |
+| [[Chinese Depositary Receipts]] | STAR Market / Shenzhen | the US-listing homecoming vehicle (since 2018) |
+| [[Hong Kong Depositary Receipts]] | SEHK | framework since 2008; Vale the pioneer; underused |
+| [[Indian Depositary Receipts]] | BSE / NSE | SEBI 2009; defunct since 2020 |
+| [[Japanese Depositary Receipts]] | TSE / JPX | trust-based beneficiary certificates; niche |
+| [[European Depositary Receipts]] | Euronext | EUR-denominated; largely historical |
+| Others | TDR (Taiwan), KDR (Korea), RDR (Russia) | the same template under other regulators |
 
 ## Why companies cross-list via DRs
 
