@@ -19,7 +19,7 @@ Announced June 15, 2026: [[Fox Corporation]] agreed to acquire Roku in a cash-an
 | Stock-leg value | $64.00 (FOXA reference $66.03, its 10-day VWAP to June 10) |
 | Split | 60% cash / 40% Fox stock |
 | Enterprise value | ~$22B |
-| Equity value | ~$23–25B |
+| Equity value | ~$25B |
 | Pro forma ownership | Fox holders ~73% / Roku holders ~27% |
 | Cost synergies | ~$400M run-rate; FCF-accretive by year 2 |
 | Rationale | Fox gains Roku's [[Connected TV]] platform (~44% of US CTV viewing hours) |
@@ -59,7 +59,7 @@ ROKU trades as a core Consumer name (XLY r = 0.75). With the Fox deal, its forwa
 | Metric | Value |
 |--------|-------|
 | Ticker | ROKU |
-| Market cap | ~$20B (June 15 close); deal values equity at ~$23–25B |
+| Market cap | ~$20B (June 15 close); deal values equity at ~$25B |
 | Households | 100M+ globally (June 2026, per [[Anthony Wood]]) |
 | Active accounts | 90M+ (2024) |
 | Streaming hours | 32B+ quarterly |

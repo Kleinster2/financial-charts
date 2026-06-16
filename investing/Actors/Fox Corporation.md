@@ -14,13 +14,15 @@ Announced June 15, 2026: Fox agreed to acquire [[Roku]] in a cash-and-stock deal
 | Term | Detail |
 |------|--------|
 | Enterprise value | ~$22B |
-| Equity value | ~$23–25B |
+| Equity value | ~$25B |
 | Offer | $160.00/Roku share headline (no premium % stated; +36.8% over Roku's $116.94 unaffected close June 10) |
 | Consideration | $96.00 cash + 0.9693 FOXA shares per Roku share (stock leg $64.00 at $66.03 FOXA reference VWAP) |
 | Financing | 60% cash / 40% equity |
 | Pro forma ownership | Fox holders ~73% / Roku holders ~27% |
-| New debt | $8.3B |
-| New equity | 152M new Class A (FOXA) shares |
+| New debt | $8.3B new transaction debt (confirmed, 8-K Ex. 99.2) |
+| Bridge facility | $12B committed bridge (backstops the cash leg) |
+| New equity | 152M new Class A (FOXA) shares (~$10B; confirmed, 8-K Ex. 99.2) |
+| Sources at close | $8.3B debt + $9.1B cash + ~$10B FOX stock = $27.4B |
 | Cost synergies | ~$400M run-rate; FCF-accretive by year 2 |
 | Expected close | 1H 2027 |
 | Roku reach | 44% of US connected-TV viewing hours |
@@ -180,6 +182,7 @@ FOX shows moderate Regional Banks correlation (KRE r = 0.64).
 
 ## Sources
 
+- [SEC Form 8-K — Fox Corporation, filed 2026-06-15 (Item 7.01; Ex. 99.1 joint press release, Ex. 99.2 investor presentation with sources & uses)](https://www.sec.gov/Archives/edgar/data/0001754301/000119312526270285/d151410dex992.htm)
 - [Fox Corporation IR](https://investor.foxcorporation.com/)
 - [RTTNews — Fox shares drop 15% following Roku acquisition (2026-06-15)](https://www.rttnews.com/story.aspx?Id=3660339)
 - [Motley Fool — Fox stock down 15% after $22B Roku deal (2026-06-15)](https://www.fool.com/investing/2026/06/15/fox-stock-is-down-15-after-announcing-a-usd22-billion-roku-deal-is-this-a-buying-opportunity/)
