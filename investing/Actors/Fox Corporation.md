@@ -3,7 +3,28 @@ aliases: [FOX, FOXA, Fox News, Fox Sports]
 ---
 #actor #media #news #sports #usa #public
 
-**Fox Corporation** — News and sports focused media. Fox News dominant. Sold entertainment to Disney (2019). Murdoch controlled.
+**Fox Corporation** — News and sports focused media. Fox News dominant. Sold entertainment to Disney (2019). Murdoch controlled. June 2026: agreed to acquire [[Roku]] for $22B — the largest deal since the Disney sale and a pivot into connected-TV distribution.
+
+---
+
+## Roku acquisition (June 2026)
+
+Announced June 15, 2026: Fox agreed to acquire [[Roku]] in a cash-and-stock deal. Both boards approved.
+
+| Term | Detail |
+|------|--------|
+| Enterprise value | $22B |
+| Equity value | $25B |
+| Offer | $160/Roku share, 28% premium to June 10 close |
+| Financing | 60% cash / 40% equity |
+| New debt | $8.3B |
+| New equity | 152M new Class A (FOXA) shares |
+| Cost synergies | ~$400M projected |
+| Roku reach | 44% of US connected-TV viewing hours |
+
+Rationale: Fox gains a connected-TV distribution layer for its sports, news, and [[Tubi]] assets; the combined entity would rank as the \#3 US media provider by viewership (~10.2% share), ahead of [[Paramount Skydance]] and [[Netflix]] (per Motley Fool).
+
+Market reaction (June 15): FOXA −18.1% / FOX −16.7% — a −10σ idiosyncratic move on near-zero market beta, driven by the new debt and Class A dilution rather than the strategic logic. [[Roku]] traded roughly flat into the $160 terms after running up on deal rumors the prior week. Integration risk flagged: Roku's low-margin streaming hardware sits outside Fox's media-advertising model. The move was confirmed fundamental (not a data/corporate-action artifact) against RTTNews, Motley Fool, and Yahoo/Reuters.
 
 ---
 
@@ -157,5 +178,7 @@ FOX shows moderate Regional Banks correlation (KRE r = 0.64).
 ## Sources
 
 - [Fox Corporation IR](https://investor.foxcorporation.com/)
+- [RTTNews — Fox shares drop 15% following Roku acquisition (2026-06-15)](https://www.rttnews.com/story.aspx?Id=3660339)
+- [Motley Fool — Fox stock down 15% after $22B Roku deal (2026-06-15)](https://www.fool.com/investing/2026/06/15/fox-stock-is-down-15-after-announcing-a-usd22-billion-roku-deal-is-this-a-buying-opportunity/)
 
 *Created 2026-01-16*

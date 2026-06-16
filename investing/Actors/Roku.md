@@ -3,7 +3,24 @@ aliases: [ROKU]
 ---
 #actor #streaming #platform #usa #public
 
-**Roku** — Streaming platform/OS leader. 90M+ active accounts. Revenue from ads, not hardware. Platform play, not content.
+**Roku** — Streaming platform/OS leader. 90M+ active accounts. Revenue from ads, not hardware. Platform play, not content. June 2026: agreed to be acquired by [[Fox Corporation]] for $22B enterprise value ($160/share).
+
+---
+
+## Acquisition by Fox (June 2026)
+
+Announced June 15, 2026: [[Fox Corporation]] agreed to acquire Roku. Both boards approved.
+
+| Term | Detail |
+|------|--------|
+| Acquirer | [[Fox Corporation]] |
+| Offer | $160/share, 28% premium to June 10 close |
+| Enterprise value | $22B |
+| Equity value | $25B |
+| Consideration | 60% cash / 40% Fox equity |
+| Rationale | Fox gains Roku's CTV platform (44% of US connected-TV hours) |
+
+The $25B equity value sits well above Roku's ~$12B standalone market cap, repricing it from independent CTV platform to the distribution arm of a combined Fox-Roku media entity (projected \#3 US media by viewership). Roku shares held roughly flat into the terms — they had already run up on deal rumors the prior week — while [[Fox Corporation|Fox]] fell ~15–18% on debt-and-dilution concerns ($8.3B new debt + 152M new Class A shares).
 
 ---
 
@@ -144,5 +161,7 @@ ROKU trades as a core Consumer name (XLY r = 0.75).
 ## Sources
 
 - [Roku IR](https://www.roku.com/investor)
+- [Motley Fool — Fox stock down 15% after $22B Roku deal (2026-06-15)](https://www.fool.com/investing/2026/06/15/fox-stock-is-down-15-after-announcing-a-usd22-billion-roku-deal-is-this-a-buying-opportunity/)
+- [RTTNews — Fox shares drop 15% following Roku acquisition (2026-06-15)](https://www.rttnews.com/story.aspx?Id=3660339)
 
 *Created 2026-01-16*
