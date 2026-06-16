@@ -99,6 +99,25 @@ The read-through: J&J already absorbed the cliff faster than feared (Q1 2026 pri
 
 ---
 
+## Pre-cliff M&A as a playbook
+
+Acquisition sprees ahead of patent expirations are not occasional — they are the default corporate response, repeating across every major issuer. The timing is close to forced: a cliff arrives on a known date (patent filing plus ~20 years), but internal R&D can't be scheduled to land on it, so the blockbuster's peak free cash flow gets recycled into de-risked external assets that fill the specific revenue hole on a modellable clock. Buying clinical/late-stage programs converts an uncertain pipeline into dated revenue — which is what re-rates the stock.
+
+| Acquirer | Cliff exposure | Pre-cliff deals (price, year) | Thrust |
+|----------|----------------|-------------------------------|--------|
+| [[Pfizer]] | Eliquis (EU 2026), Ibrance/Xtandi/Prevnar (~2028) | Seagen $43B (2023) | ADC oncology |
+| [[Merck]] | [[Keytruda]] (2028) | Daiichi Sankyo ADC pact up to $22B, ~$4B upfront (2023); Prometheus $10.8B (2023) | ADC + immunology |
+| [[AbbVie]] | Humira (2023) | [[Allergan]] $63B (2020); ImmunoGen $10.1B, Cerevel $8.7B (2024) | Aesthetics, ADC, neuro |
+| [[Bristol-Myers Squibb]] | Revlimid/Opdivo/Eliquis | Celgene $74B (2019); Karuna $14B, Mirati $4.8B, RayzeBio $4.1B (2023-24) | Neuro, oncology, radiopharma |
+| [[Amgen]] | mature biologics | Horizon Therapeutics $27.8B (2023) | Rare disease / inflammation |
+| [[Johnson & Johnson]] | STELARA (2025-26) | [[Halda Therapeutics]] $3.05B (2025); [[Firefly Bio]] $1B (2026) | Targeted oncology ([[RIPTAC]], DAC) |
+
+The crowding tell: three of the largest recent deals — Pfizer/Seagen, Merck/Daiichi, [[Johnson & Johnson]]/[[Firefly Bio]] — are all [[Antibody-drug conjugate]] / next-gen conjugate plays. The post-cliff oncology toolkit is being bid up by multiple cash-rich buyers at once, which inflates prices and raises the bar for any single deal to pay off.
+
+The discriminator between a smart pre-emption and panic-buying at a hype-cycle top is deal *quality*, not deal *count* — same-therapeutic-area, cash-funded, pipeline-ramping-before-the-cliff is the cliffhanger pattern; unrelated, debt-funded, late-arriving deals are the value-trap pattern (see the table below).
+
+---
+
 ## What separates winners from losers
 
 | Factor | Favorable | Unfavorable |
