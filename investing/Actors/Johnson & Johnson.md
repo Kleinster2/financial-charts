@@ -90,6 +90,23 @@ Passes along sector readthrough for [[Eli Lilly]], [[Merck]], [[Pfizer]] (all Q1
 
 ---
 
+## M&A — oncology pipeline rebuild
+
+With STELARA losing exclusivity to biosimilars, J&J is buying clinical- and preclinical-stage oncology platforms to replace the lost revenue — a textbook [[Patent cliffs|patent-cliff]] cash-deployment response (surplus free cash flow funding the next generation of drugs).
+
+| Target | Price | Announced / Closed | Stage | Modality | Lead |
+|--------|-------|--------------------|-------|----------|------|
+| [[Halda Therapeutics]] | $3.05B | Nov 17, 2025 / Dec 29, 2025 | Clinical | [[RIPTAC]] "hold and kill" | HLD-0915 (prostate cancer) |
+| [[Firefly Bio]] | $1.0B cash | Jun 8, 2026 / close later 2026 | Preclinical | [[Degrader-antibody conjugate\|DAC]] | [[KRAS]]-driven solid tumors |
+
+[[Halda Therapeutics]] (New Haven, CT; founded 2019) brought a clinical-stage, once-daily oral prostate-cancer asset built on its [[RIPTAC]] mechanism — a bifunctional molecule that forms a lethal complex only in cells carrying a tumor-selective protein, sparing normal cells.
+
+[[Firefly Bio]] (founded 2022; ~$100M raised, Versant Ventures-backed) is a bet on the [[Antibody-drug conjugate|degrader-antibody conjugate]] modality — antibody-delivered [[Protein degrader|protein-degrader]] payloads with a proprietary stability linker, targeting KRAS-driven tumors. Preclinical, so the value is the platform, not near-term sales. John Reed (head of R&D) framed it as a way to "overcome the limitations of current treatments and diversify our pipeline."
+
+Both deals are small relative to J&J's ~$500B market cap — the strategic read is pipeline optionality in next-generation targeted oncology, not a needle-mover on the stock.
+
+---
+
 ## Kenvue spinoff (2023)
 
 | Detail | Value |
@@ -105,7 +122,7 @@ Passes along sector readthrough for [[Eli Lilly]], [[Merck]], [[Pfizer]] (all Q1
 
 | Issue | Impact |
 |-------|--------|
-| STELARA biosimilars | ~1,070 bps headwind |
+| STELARA biosimilars ([[Patent cliffs\|patent cliff]]) | ~1,070 bps headwind |
 | Talc litigation | Ongoing settlement |
 | Tariffs | ~$400M impact (MedTech) |
 
@@ -120,6 +137,26 @@ J&J repatriated significant overseas cash under the [[Tax Cuts and Jobs Act]] on
 ### FY2025 country-by-country disclosures (March 2026)
 
 New FASB-mandated disclosures: income booked in [[Ireland]] and [[Switzerland]] shaved $808mn — 2 percentage points — off J&J's US corporate tax rate, bringing the effective rate to 17.7%. See [[Pharma jurisdictional tax arbitrage]].
+
+---
+
+## Financials
+
+| FY | Revenue | Gross profit | Operating income | Net income |
+|----|---------|--------------|------------------|------------|
+| 2024 | $88.8B | $61.4B | $22.1B | $14.1B |
+| 2023 | $85.2B | $58.4B | $21.9B | $35.2B* |
+| 2022 | $80.0B | $55.4B | $21.0B | $17.9B |
+| 2021 | $78.7B | $55.3B | $20.9B | $20.9B |
+| 2020 | $82.6B | $54.2B | $19.7B | $14.7B |
+
+*FY2023 net income is inflated by the one-time gain on the [[Kenvue]] separation. The 2022→2023 revenue step-down reflects Kenvue deconsolidation (consumer health left the perimeter), not organic decline — pharma + MedTech then resumed growth into FY2024.
+
+![[jnj-fundamentals-chart.png]]
+*Quarterly revenue (~$20-24B/qtr) is steady; net income is volatile on one-offs — the 2018 trough is the [[Tax Cuts and Jobs Act]] repatriation charge, the 2023 spike is the [[Kenvue]] separation gain. Price (green) re-rated hard from 2012 and again post-2024.*
+
+![[jnj-sankey.png]]
+*FY2024 income flow: $88.8B revenue → 69.1% gross margin → 24.9% operating margin → 15.8% net margin. OpEx ($39.2B) is the dominant cost line, well above COGS ($27.5B) — typical of a high-gross-margin pharma carrying heavy SG&A and R&D.*
 
 ---
 
@@ -158,10 +195,17 @@ Bear:
 
 ## Related
 
+### Securities
+
+- [[Johnson & Johnson securities note]] — price history, valuation, trading profile
+
 - [[Biopharma]] — sector
 - [[Eli Lilly]] — pharma peer
 - [[Pfizer]] — pharma peer
 - [[Medtronic]] — MedTech peer
+- [[Halda Therapeutics]] — $3.05B oncology acquisition (closed Dec 2025)
+- [[Firefly Bio]] — $1B DAC-platform acquisition (June 2026)
+- [[Patent cliffs]] — STELARA cliff driving the M&A spree
 - [[Tax Cuts and Jobs Act]] — repatriation (2018)
 - [[Pharma jurisdictional tax arbitrage]] — $808M saved via Ireland/Switzerland, 17.7% effective rate (FY2025)
 
@@ -170,5 +214,7 @@ Bear:
 ## Sources
 
 - [J&J Q3 2025](https://www.investor.jnj.com/investor-news/news-details/2025/Johnson--Johnson-Reports-Q3-2025-Results-Raises-2025-Sales-Outlook/)
+- [BioPharma Dive — J&J/Firefly Bio ($1B, June 2026)](https://www.biopharmadive.com/news/jnj-firefly-acquisition-deal-cancer-degrader-antibody-conjugate/822223/)
+- [NJBIZ — J&J completes $3.05B Halda acquisition](https://njbiz.com/jj-halda-therapeutics-acquisition/)
 
 *Created 2026-01-09*
