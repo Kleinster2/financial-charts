@@ -1,0 +1,69 @@
+US telecom CLUSTER ANALYSIS
+Window 1y: 2025-06-18 -> 2026-06-15 (196 obs)
+Window 2y: 2024-07-15 -> 2026-06-15 (254 obs)
+Universe: 7 tickers across 3 groups
+Dendrogram cut threshold: 0.5
+
+--- 1Y INTRA-CLUSTER PAIRWISE CORRELATIONS ---
+Ticker     T    VZ  TMUS
+Ticker                  
+T       1.00  0.69  0.64
+VZ      0.69  1.00  0.57
+TMUS    0.64  0.57  1.00
+Average intra-cluster correlation: 0.632
+Range: [0.568, 0.687]
+
+--- AVG GROUP-PAIR CORRELATIONS (1Y) ---
+             cluster    cable      etf
+    cluster    0.632    0.354   -0.045
+      cable    0.354    0.721    0.207
+        etf   -0.045    0.207    0.679
+
+Cluster vs others:
+  cluster vs cable     : 0.354  (intra advantage: +0.277)
+  cluster vs etf       : -0.045  (intra advantage: +0.677)
+
+--- HIERARCHICAL CLUSTERS (1Y, distance threshold 0.5) ---
+  Cluster 1: XLC, SPY
+  Cluster 2: CHTR, CMCSA
+  Cluster 3: T, VZ, TMUS
+
+--- CANDIDATE JOIN DISTANCES (1Y, average linkage, distance = 1-|corr|) ---
+ Step Left Right Distance   Members
+    1    T    VZ    0.313      T+VZ
+    2 TMUS  T+VZ    0.396 TMUS+T+VZ
+
+--- PCA ON CANDIDATE COHORT (1Y) ---
+Explained variance ratio:
+  PC1: 75.49%
+  PC2: 14.58%
+  PC3: 9.93%
+
+PC1 loadings:
+T       0.596
+VZ      0.575
+TMUS    0.560
+
+--- PC1 INDEX WEIGHTS (1Y) ---
+PCA is run on standardized daily log returns. Raw PC1-mimic weights scale PC1 loading by inverse realized volatility.
+     PC1 loading Loading weight Ann vol Raw PC1-mimic weight
+T          0.596         34.43%  22.70%               35.76%
+VZ         0.575         33.23%  23.38%               33.52%
+TMUS       0.560         32.34%  24.82%               30.72%
+
+--- WEEKLY-RETURN CROSS-CHECK (1Y, async-close robustness) ---
+Weeks: 39   Weekly intra-corr: 0.753 (daily 0.632)   Weekly PC1: 83.6% (daily 75.5%)
+NOTE: weekly intra-corr exceeds daily by >0.10 — asynchronous closes are depressing the daily numbers (cross-region cohort); the weekly reading is the better estimate of economic co-movement.
+
+--- HISTORICAL TIGHTNESS EVOLUTION (90D ROLLING) ---
+     Avg corr    PC1 Core corr Satellite corr Final join distance
+Date                                                             
+2020    0.428  64.3%     0.428            nan               0.762
+2021    0.307  55.2%     0.307            nan               0.810
+2022    0.414  61.5%     0.414            nan               0.674
+2023    0.487  66.5%     0.487            nan               0.584
+2024    0.402  61.5%     0.402            nan               0.749
+2025    0.625  75.0%     0.625            nan               0.408
+2026    0.629  75.3%     0.629            nan               0.387
+
+Latest 90D: avg corr 0.678, PC1 78.6%, core corr 0.678, satellite corr nan, final join distance 0.372

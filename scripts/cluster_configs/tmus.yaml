@@ -1,0 +1,17 @@
+name: US telecom
+primary: TMUS
+prefix: us-telecom-cluster
+threshold: 0.5
+window_end: 2026-06-15
+history_start: 2020-01-01
+
+groups:
+  cluster:                      # candidate: the big-3 US wireless carriers
+    color: "#2962FF"
+    tickers: [T, VZ, TMUS]
+  cable:                        # adjacent control: cable / broadband
+    color: "#7E57C2"
+    tickers: [CHTR, CMCSA]
+  etf:                          # communication-services + market benchmarks
+    color: "#9E9E9E"
+    tickers: [XLC, SPY]

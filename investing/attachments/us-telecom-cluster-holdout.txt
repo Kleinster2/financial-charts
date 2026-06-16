@@ -1,0 +1,22 @@
+US telecom HOLDOUT TEST
+Cohort: T, VZ, TMUS (N=3)
+Window: 2y, split temporally at midpoint
+Train: 2024-06-15 -> 2025-06-15 (123 obs)
+Test:  2025-06-15 -> 2026-06-15 (214 obs)
+
+--- TRAIN HALF (older) ---
+Intra-correlation:    0.5468
+PC1 explained var:    70.01%
+Pairwise range:       [0.459, 0.689]
+
+--- TEST HALF (newer) ---
+Intra-correlation:    0.6518
+PC1 explained var:    76.81%
+Pairwise range:       [0.599, 0.694]
+
+--- STABILITY DIAGNOSTICS ---
+Intra-corr delta:     +0.1050   (test - train)
+PC1 variance delta:   +6.80pp
+PC1 loadings corr:    0.7024    (1.0 = identical factor structure)
+
+VERDICT: STRENGTHENING — test/train ratio 1.19 (basket consolidating; check for regime shift in the train half)

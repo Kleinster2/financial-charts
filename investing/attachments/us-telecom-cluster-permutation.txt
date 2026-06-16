@@ -1,0 +1,37 @@
+US telecom PERMUTATION TESTS
+Window: 2025-06-18 -> 2026-06-15 (213 obs)
+Candidate cohort: T, VZ, TMUS (N=3)
+Observed intra-corr: 0.6402    Observed PC1: 76.06%
+
+--- INDEPENDENCE NULL ---
+Permutations: 10000
+Block size: 1
+Intra-cluster correlation:
+  Null mean:        -0.0005
+  Null 95th pct:    0.0668
+  Null 99th pct:    0.0945
+  p-value (right):  0.000100    -> REJECTS independence null at p < 0.001
+PC1 explained variance:
+  Null mean:        36.94%
+  Null 95th pct:    39.95%
+  Null 99th pct:    41.44%
+  p-value (right):  0.000100    -> REJECTS independence null at p < 0.001
+
+--- RANDOM-BASKET NULL ---
+Permutations: 10000
+Universe source: DB prices_long (1052 tickers with >=200 obs in window)
+Pool size: 1049
+Intra-cluster correlation:
+  Null mean:        0.1512
+  Null 95th pct:    0.3498
+  Null 99th pct:    0.4730
+  p-value (right):  0.000800    -> REJECTS random-basket null at p < 0.001
+PC1 explained variance:
+  Null mean:        45.63%
+  Null 95th pct:    57.54%
+  Null 99th pct:    65.56%
+  p-value (right):  0.000900    -> REJECTS random-basket null at p < 0.001
+
+--- INTERPRETATION ---
+Independence null rejected: the cohort series co-move (necessary, not sufficient).
+Random-basket null rejected: cohort is more cohesive than a random N-pick from the same universe. This is the meaningful pass.
