@@ -3,24 +3,41 @@ aliases: [ROKU]
 ---
 #actor #streaming #platform #usa #public
 
-**Roku** — Streaming platform/OS leader. 90M+ active accounts. Revenue from ads, not hardware. Platform play, not content. June 2026: agreed to be acquired by [[Fox Corporation]] for $22B enterprise value ($160/share).
+**Roku** — Streaming platform/OS leader and US [[Connected TV]] gateway. 100M+ households globally. Revenue from ads, not hardware — a platform play, not a content play. June 2026: agreed to be acquired by [[Fox Corporation]] for ~$22B enterprise value ($160/share headline), repricing it from independent CTV platform to the distribution arm of a combined Fox-Roku media entity.
 
 ---
 
-## Acquisition by Fox (June 2026)
+## Acquisition by [[Fox Corporation]] (June 2026)
 
-Announced June 15, 2026: [[Fox Corporation]] agreed to acquire Roku. Both boards approved.
+Announced June 15, 2026: [[Fox Corporation]] agreed to acquire Roku in a cash-and-stock deal unanimously approved by both boards. Expected to close in the first half of 2027.
 
 | Term | Detail |
 |------|--------|
 | Acquirer | [[Fox Corporation]] |
-| Offer | $160/share, 28% premium to June 10 close |
-| Enterprise value | $22B |
-| Equity value | $25B |
-| Consideration | 60% cash / 40% Fox equity |
-| Rationale | Fox gains Roku's CTV platform (44% of US connected-TV hours) |
+| Headline price | $160.00 per Roku share |
+| Consideration | $96.00 cash + 0.9693 [[Fox Corporation\|FOXA]] shares per Roku share |
+| Stock-leg value | $64.00 (FOXA reference $66.03, its 10-day VWAP to June 10) |
+| Split | 60% cash / 40% Fox stock |
+| Enterprise value | ~$22B |
+| Equity value | ~$23–25B |
+| Pro forma ownership | Fox holders ~73% / Roku holders ~27% |
+| Cost synergies | ~$400M run-rate; FCF-accretive by year 2 |
+| Rationale | Fox gains Roku's [[Connected TV]] platform (~44% of US CTV viewing hours) |
 
-The $25B equity value sits well above Roku's ~$12B standalone market cap, repricing it from independent CTV platform to the distribution arm of a combined Fox-Roku media entity (projected \#3 US media by viewership). Roku shares held roughly flat into the terms — they had already run up on deal rumors the prior week — while [[Fox Corporation|Fox]] fell ~15–18% on debt-and-dilution concerns ($8.3B new debt + 152M new Class A shares).
+The press release stated no premium percentage. Against Roku's last unaffected close of $116.94 (June 10, before the June 12 leak-driven +20% jump), the $160 headline is a +36.8% premium; the "28% premium" repeated in early coverage maps to a longer-VWAP reference price (~$125), not the June 10 close.
+
+Quotes: [[Anthony Wood]] (Roku founder-CEO) — "Over the past two decades, we've built Roku into the leading TV streaming platform, reaching more than 100 million households globally." [[Lachlan Murdoch]] (Fox CEO) called it "a defining moment for FOX, and a natural extension" of its post-2019 focus on live news and sports.
+
+### The merger-arb spread
+
+The stock leg (0.9693 FOXA shares) means the value Roku holders ultimately receive floats with Fox's share price — and Fox fell hard on the announcement (FOXA −16.8%, FOX −15.2% on June 15; a −10σ idiosyncratic move on near-zero market beta, driven by $8.3B new debt and 152M new Class A shares, not the strategic logic). Mapping the package to closing prices:
+
+| Date | FOXA close | Implied package ($96 + 0.9693×FOXA) | ROKU close | ROKU vs package |
+|------|-----------|------|-----------|-----|
+| June 10 (deal reference) | 66.03 | $160.01 | 116.94 | — |
+| June 15 (announcement) | 54.76 | $149.08 | 140.90 | −5.5% |
+
+Fox's drop cut the implied package from $160 to ~$149. Roku at $140.90 trades ~12% below the $160 headline and ~5.5% below the devalued package — a wide [[Merger Arbitrage|merger-arb]] spread pricing real completion risk into a deal that does not close until 1H 2027: regulatory review, the floating stock leg, and Fox's financing all sit between signing and close. See [[Merger Arbitrage]].
 
 ---
 
@@ -33,7 +50,7 @@ The $25B equity value sits well above Roku's ~$12B standalone market cap, repric
 | Software | IGV | 0.67 |
 | *S&P 500* | *SPY* | *0.71* |
 
-ROKU trades as a core Consumer name (XLY r = 0.75).
+ROKU trades as a core Consumer name (XLY r = 0.75). With the Fox deal, its forward correlation profile will increasingly track deal-spread and [[Fox Corporation|Fox]]-stock dynamics rather than the streaming complex.
 
 ---
 
@@ -42,8 +59,9 @@ ROKU trades as a core Consumer name (XLY r = 0.75).
 | Metric | Value |
 |--------|-------|
 | Ticker | ROKU |
-| Market cap | ~$12B |
-| Active accounts | **90M+** |
+| Market cap | ~$20B (June 15 close); deal values equity at ~$23–25B |
+| Households | 100M+ globally (June 2026, per [[Anthony Wood]]) |
+| Active accounts | 90M+ (2024) |
 | Streaming hours | 32B+ quarterly |
 | Revenue (2024) | ~$3.9B |
 
@@ -53,10 +71,10 @@ ROKU trades as a core Consumer name (XLY r = 0.75).
 
 | Segment | Revenue % | Description |
 |---------|-----------|-------------|
-| **Platform** | ~85% | Ads, content distribution, OS licensing |
-| **Devices** | ~15% | TVs, streaming players (low/no margin) |
+| Platform | ~85% | Ads, content distribution, OS licensing |
+| Devices | ~15% | TVs, streaming players (low/no margin) |
 
-**Key insight:** Roku is an advertising company, not a hardware company.
+Key insight: Roku is an advertising company, not a hardware company — devices are a customer-acquisition cost for a [[Platform economics|platform]] business.
 
 ---
 
@@ -69,7 +87,7 @@ ROKU trades as a core Consumer name (XLY r = 0.75).
 | The Roku Channel | FAST, growing |
 | OS licensing | TV manufacturers |
 
-**Moat:** Installed base, OS stickiness, ad inventory.
+Moat: installed base, OS stickiness, ad inventory — the [[Connected TV]] gateway position.
 
 ---
 
@@ -79,7 +97,7 @@ ROKU trades as a core Consumer name (XLY r = 0.75).
 |--------|-------|
 | Model | FAST (free, ad-supported) |
 | Content | Licensed movies, shows, originals |
-| Reach | \#1 FAST channel |
+| Reach | #1 FAST channel |
 | Monetization | 100% ad revenue to Roku |
 
 ---
@@ -93,7 +111,7 @@ ROKU trades as a core Consumer name (XLY r = 0.75).
 | [[Apple]] TV | Low (premium niche) |
 | Smart TV OS ([[Samsung]], LG) | Medium |
 
-**Advantage:** Platform agnostic, US market share leader.
+Advantage: platform agnostic, US market-share leader in [[Connected TV]].
 
 ---
 
@@ -101,11 +119,11 @@ ROKU trades as a core Consumer name (XLY r = 0.75).
 
 | Region | Status |
 |--------|--------|
-| **US** | Dominant (~40% share) |
-| **[[Canada]]** | Strong |
-| **[[Mexico]]** | Growing |
-| **[[UK]]** | Established |
-| **[[Germany]]** | Expanding |
+| US | Dominant (~40% share) |
+| [[Canada]] | Strong |
+| [[Mexico]] | Growing |
+| [[UK]] | Established |
+| [[Germany]] | Expanding |
 
 ---
 
@@ -122,19 +140,9 @@ ROKU trades as a core Consumer name (XLY r = 0.75).
 
 ## Investment case
 
-**Bull:**
-- [[Platform economics]] (recurring, high-margin)
-- 90M+ account base
-- CTV ad market growing
-- OS licensing upside
-- FAST leadership (The Roku Channel)
+The thesis pre-deal rested on [[Platform economics]] (recurring, high-margin ad and licensing revenue), a 100M+ household base, a growing CTV ad market, OS-licensing upside, and FAST leadership through The Roku Channel — against the offsetting pressures of [[Amazon]]/[[Google]] competition, hardware commoditization, a saturating US market, slow international expansion, and a persistent valuation premium.
 
-**Bear:**
-- [[Amazon]]/[[Google]] competition
-- Hardware commoditization
-- US market saturating
-- International expansion slow
-- Valuation premium
+With the [[Fox Corporation]] agreement, the standalone thesis is largely superseded by deal mechanics: the trade is now a [[Merger Arbitrage|merger-arb]] position on a 1H-2027 close, where the realized value floats with Fox's share price (40% stock consideration) and the spread reflects regulatory, financing, and completion risk rather than Roku's operating trajectory.
 
 ---
 
@@ -143,14 +151,19 @@ ROKU trades as a core Consumer name (XLY r = 0.75).
 | Metric | Value |
 |--------|-------|
 | Ticker | ROKU |
-| Active accounts | 90M+ |
+| Households | 100M+ globally |
 | Model | Platform/ads |
-| Key metric | ARPU |
+| Key metric | ARPU (~$43) |
+| Status | Acquisition target — [[Fox Corporation]] ($160/share, 1H 2027 close) |
 
 ---
 
 ## Related
 
+- [[Fox Corporation]] — acquirer (June 2026)
+- [[Anthony Wood]] — founder & CEO
+- [[Connected TV]] — the market Roku leads
+- [[Merger Arbitrage]] — framework for the deal spread
 - [[Netflix]] — content partner
 - [[Comcast]] — Peacock distribution
 - [[Cord-cutting]] — secular tailwind
@@ -160,8 +173,10 @@ ROKU trades as a core Consumer name (XLY r = 0.75).
 
 ## Sources
 
+- [Fox Corporation to Acquire Roku, Inc. — press release (2026-06-15)](https://www.prnewswire.com/news-releases/fox-corporation-to-acquire-roku-inc-302800220.html)
+- [Fox Corp Investor — acquisition announcement (2026-06-15)](https://investor.foxcorporation.com/news/corp-press-releases/2026/fox-corporation-to-acquire-roku-inc/)
+- [CNBC — Fox to buy Roku for $22 billion (2026-06-15)](https://www.cnbc.com/2026/06/15/fox-to-buy-roku.html)
 - [Roku IR](https://www.roku.com/investor)
 - [Motley Fool — Fox stock down 15% after $22B Roku deal (2026-06-15)](https://www.fool.com/investing/2026/06/15/fox-stock-is-down-15-after-announcing-a-usd22-billion-roku-deal-is-this-a-buying-opportunity/)
-- [RTTNews — Fox shares drop 15% following Roku acquisition (2026-06-15)](https://www.rttnews.com/story.aspx?Id=3660339)
 
 *Created 2026-01-16*

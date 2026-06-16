@@ -13,18 +13,21 @@ Announced June 15, 2026: Fox agreed to acquire [[Roku]] in a cash-and-stock deal
 
 | Term | Detail |
 |------|--------|
-| Enterprise value | $22B |
-| Equity value | $25B |
-| Offer | $160/Roku share, 28% premium to June 10 close |
+| Enterprise value | ~$22B |
+| Equity value | ~$23–25B |
+| Offer | $160.00/Roku share headline (no premium % stated; +36.8% over Roku's $116.94 unaffected close June 10) |
+| Consideration | $96.00 cash + 0.9693 FOXA shares per Roku share (stock leg $64.00 at $66.03 FOXA reference VWAP) |
 | Financing | 60% cash / 40% equity |
+| Pro forma ownership | Fox holders ~73% / Roku holders ~27% |
 | New debt | $8.3B |
 | New equity | 152M new Class A (FOXA) shares |
-| Cost synergies | ~$400M projected |
+| Cost synergies | ~$400M run-rate; FCF-accretive by year 2 |
+| Expected close | 1H 2027 |
 | Roku reach | 44% of US connected-TV viewing hours |
 
 Rationale: Fox gains a connected-TV distribution layer for its sports, news, and [[Tubi]] assets; the combined entity would rank as the \#3 US media provider by viewership (~10.2% share), ahead of [[Paramount Skydance]] and [[Netflix]] (per Motley Fool).
 
-Market reaction (June 15): FOXA −18.1% / FOX −16.7% — a −10σ idiosyncratic move on near-zero market beta, driven by the new debt and Class A dilution rather than the strategic logic. [[Roku]] traded roughly flat into the $160 terms after running up on deal rumors the prior week. Integration risk flagged: Roku's low-margin streaming hardware sits outside Fox's media-advertising model. The move was confirmed fundamental (not a data/corporate-action artifact) against RTTNews, Motley Fool, and Yahoo/Reuters.
+Market reaction (June 15): FOXA −18.1% / FOX −16.7% — a −10σ idiosyncratic move on near-zero market beta, driven by the new debt and Class A dilution rather than the strategic logic. [[Roku]] jumped ~20% on June 12 (the leak) and settled at $140.90 on June 15 — ~12% below the $160 headline and ~5.5% below the implied package (~$149 once FOXA's drop is run through the 0.9693 stock leg), a wide [[Merger Arbitrage|merger-arb]] spread pricing completion risk into the 1H-2027 close. Integration risk flagged: Roku's low-margin streaming hardware sits outside Fox's media-advertising model, though the strategic prize is Roku's [[Connected TV]] platform. The move was confirmed fundamental (not a data/corporate-action artifact) against RTTNews, Motley Fool, and Yahoo/Reuters.
 
 ---
 
