@@ -118,6 +118,30 @@ The discriminator between a smart pre-emption and panic-buying at a hype-cycle t
 
 ---
 
+## Capital allocation: why M&A, and why then
+
+### Why not just return the cash (dividend or buyback)?
+
+A dividend solves a cash-surplus problem; a cliff is a revenue problem — you can't dividend your way out of a shrinking top line. The deeper logic:
+
+- Temporary cash can't fund a permanent commitment. Pharma dividends are a one-way ratchet — these are dividend aristocrats ([[AbbVie]], [[Johnson & Johnson]]) and the market punishes a cut savagely. Pre-cliff free cash flow is by definition about to fall off, so hiking the payout on a dying blockbuster pre-commits to a future cut. M&A is a one-time use of one-time cash; the profiles match.
+- The prize is the re-rating, not the yield. Cliff names trade at ~9-11x because the market is pricing decline; returning the cash confirms the melting-ice-cube thesis and keeps the multiple depressed. Replacing the pipeline flips the narrative from extinction to growth and re-rates the P/E toward ~18-21x — expansion that dwarfs any dividend yield ([[AbbVie]]: +460%, 11x→21x).
+- Returning cash signals no opportunities above the cost of capital. For a firm with a known revenue hole to fill, that is an admission of strategic failure — and management comp/boards are wired to grow the franchise, not wind it down.
+- It is not either/or. Pharma are simultaneously among the largest dividend payers and the largest acquirers; the dividend grows at a defensible low-single-digit clip, buybacks flex on top, and the marginal pre-cliff dollar plus debt capacity goes to M&A because the payout is already "full" at a level they can defend through the cliff.
+- Buyback nuance: if pure cash return were the goal, buybacks beat a dividend hike (no permanent commitment). Choosing M&A even over buybacks shows it is genuinely about revenue replacement — except when targets are overpriced (the crowded [[Antibody-drug conjugate]] auction), where return can beat overpaying.
+
+### Why wait until the cliff to buy?
+
+Two clocks both point to "a few years before the cliff," not a decade:
+
+- You can't buy what doesn't exist yet. Replacement modalities ([[Antibody-drug conjugate|ADCs]], [[RIPTAC]]s, protein degraders) only become buyable once human data de-risks them; buying earlier means paying preclinical-odds lottery prices for shots that mostly fail. The sweet spot is de-risked enough to underwrite, before it is proven and priced for perfection.
+- The replacement's own patent clock. Buy a drug too early and you burn its 20-year exclusivity sitting in trials before it earns a dollar. The ideal is to acquire something that launches as the blockbuster rolls off, maximizing the overlap of the new drug's protected life with the revenue gap.
+- Late binding preserves optionality and present value: watch the data and the competition resolve, then buy the winner, rather than carrying trial risk yourself and discounting far-future cash flows. Cash flow and balance-sheet capacity also peak in the late pre-cliff years, so firepower and deadline coincide.
+
+The behavioral counterweight: much of the waiting is procrastination, not optimization. Short CEO horizons mean a cliff eight years out is the next executive's problem, so the urgency — and the willingness to overpay — only arrives when the deadline is imminent. Because everyone defers to the same window, the auctions crowd and prices spike. The best allocators don't fully wait: they seed internal R&D and small early-stage partnerships years out ([[Eli Lilly]], [[Novo Nordisk]] historically) so they are never forced buyers at the top. Waiting a bit is smart sequencing; waiting entirely is a tell that management was caught flat-footed — and pays the premium for it.
+
+---
+
 ## What separates winners from losers
 
 | Factor | Favorable | Unfavorable |
