@@ -63,7 +63,7 @@ ROKU trades as a core Consumer name (XLY r = 0.75). With the Fox deal, its forwa
 | Households | 100M+ globally (June 2026, per [[Anthony Wood]]) |
 | Active accounts | 90M+ (2024) |
 | Streaming hours | 32B+ quarterly |
-| Revenue (2024) | ~$3.9B |
+| Revenue | $4.74B (FY2025); $4.11B (FY2024) |
 
 ---
 
@@ -127,13 +127,34 @@ Advantage: platform agnostic, US market-share leader in [[Connected TV]].
 
 ---
 
-## Financial trajectory
+## Financials
+
+![[roku-fundamentals-chart.png]]
+
+*Revenue (blue), net income (red), price (green). Revenue has compounded every year since 2015; the deep 2022–2023 net-income trough was the post-pandemic ad recession plus over-hiring, and Roku has since cut costs back toward profitability. The stock round-tripped the entire 2021 streaming bubble before the Fox bid.*
+
+| FY | Revenue | Net income |
+|----|---------|-----------|
+| 2016 | $0.40B | −$43M |
+| 2017 | $0.51B | −$64M |
+| 2018 | $0.74B | −$9M |
+| 2019 | $1.13B | −$60M |
+| 2020 | $1.78B | −$18M |
+| 2021 | $2.76B | +$242M |
+| 2022 | $3.13B | −$498M |
+| 2023 | $3.48B | −$710M |
+| 2024 | $4.11B | −$129M |
+| 2025 | $4.74B | +$88M |
+
+![[roku-sankey.png]]
+
+*FY2025 income statement. Gross margin ~44%, but operating expense (~$2.1B) consumes essentially all gross profit — operating margin −0.1%. The $88M net profit is effectively the ~$94M of other income (interest on Roku's cash), not operating earnings: Roku is still running at operating breakeven.*
 
 | Metric | Trend |
 |--------|-------|
-| Revenue | Growing ~15% |
-| Platform revenue | Growing faster |
-| Profitability | Near breakeven |
+| Revenue | ~$4.7B (FY2025), growing ~15% |
+| Platform revenue | Growing faster than devices |
+| Profitability | First GAAP profit since 2021 (+$88M, FY2025); operating income still ~breakeven |
 | [[Free cash flow]] | Improving |
 
 ---
@@ -160,6 +181,10 @@ With the [[Fox Corporation]] agreement, the standalone thesis is largely superse
 
 ## Related
 
+### Securities
+- [[Roku securities note]] — equity-market note (price, deal spread)
+
+### Deal & business
 - [[Fox Corporation]] — acquirer (June 2026)
 - [[Anthony Wood]] — founder & CEO
 - [[Connected TV]] — the market Roku leads
