@@ -115,6 +115,9 @@ Streaming is the same shock-dependent pattern the [[Restaurants]] cohort shows: 
 - [[Platform economics]] — why owning the OS matters
 - [[Fox Corporation]] — acquired into CTV via Roku (June 2026)
 
+### Cross-vault
+- [Technologies: Connected TV](obsidian://open?vault=technologies&file=Connected%20TV) — the delivery-stack (codecs, ABR, CDNs, smart-TV OSes) and the OS-as-gateway technology lens
+
 ---
 
 *Created 2026-06-16*
