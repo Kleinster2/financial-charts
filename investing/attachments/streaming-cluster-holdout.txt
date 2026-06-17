@@ -1,0 +1,22 @@
+Streaming / CTV HOLDOUT TEST
+Cohort: ROKU, NFLX, WBD, PSKY, DIS, TTD (N=6)
+Window: 2y, split temporally at midpoint
+Train: 2024-06-15 -> 2025-06-15 (123 obs)
+Test:  2025-06-15 -> 2026-06-15 (214 obs)
+
+--- TRAIN HALF (older) ---
+Intra-correlation:    0.4165
+PC1 explained var:    52.24%
+Pairwise range:       [0.209, 0.663]
+
+--- TEST HALF (newer) ---
+Intra-correlation:    0.2261
+PC1 explained var:    37.43%
+Pairwise range:       [-0.136, 0.403]
+
+--- STABILITY DIAGNOSTICS ---
+Intra-corr delta:     -0.1904   (test - train)
+PC1 variance delta:   -14.81pp
+PC1 loadings corr:    0.3438    (1.0 = identical factor structure)
+
+VERDICT: REGIME-DEPENDENT — test/train ratio 0.54 (cluster does not survive holdout)

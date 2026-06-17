@@ -1,0 +1,17 @@
+name: Streaming / CTV
+primary: ROKU
+prefix: streaming-cluster
+threshold: 0.5
+window_end: 2026-06-15
+history_start: 2020-01-01
+
+groups:
+  cluster:                      # candidate: the streaming / CTV complex (content + platform + ad-tech)
+    color: "#2962FF"
+    tickers: [ROKU, NFLX, WBD, PSKY, DIS, TTD]
+  cable:                        # control: linear / broadband old media
+    color: "#7E57C2"
+    tickers: [CMCSA, CHTR]
+  etf:                          # benchmarks: comms-services, consumer-disc, market
+    color: "#9E9E9E"
+    tickers: [XLC, XLY, SPY]
