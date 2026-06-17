@@ -930,6 +930,14 @@ Stock: +3.5% AH initially, settled ~+0.7%. 63 analysts: 60 Buy. Consensus PT $26
 
 ---
 
+## Sovereign AI — Latin America (Petrobras anchor)
+
+NVIDIA's sovereign-AI push (the $30B FY2026 sovereign revenue line above) extends to Latin America through its "IA Soberana" (Sovereign AI) government program. Per Marcio Aguiar, NVIDIA's enterprise lead for Latin America (CBN *Futuramente*, Jun 2026): [[Brazil]] and Mexico are the region's two anchor markets; smaller LatAm states are adopting faster but lack the project critical mass to justify the largest systems. The flagship enterprise anchor is [[Petrobras]] — NVIDIA's largest client in [[Brazil]] and its second-largest oil & gas customer globally after [[Saudi Aramco]] (HPC for pre-salt seismic and reservoir simulation; see [[Petrobras#AI / high-performance computing]]). Aguiar framed the regional build-out as a "small steps" supercomputing strategy and flagged Brazil's risk of exporting minerals and talent rather than climbing the AI value chain. Market context — the PBIA plan, the REDATA data-center tax regime, and the 93.6%-renewable grid — sits in [[Brazil AI]].
+
+*Source: Marcio Aguiar (NVIDIA Enterprise, Latin America) on CBN's Futuramente podcast, Jun 2026; Petrobras client ranking corroborated by BNamericas.*
+
+---
+
 ## April 30, 2026: B300 server prices near $1M in China as smuggling crackdown bites
 
 [[Reuters]] reported (Apr 30, 2026) that strong Chinese demand for AI computing equipment has nearly doubled prices for [[NVIDIA]]'s [[B300]] servers to about 7 million yuan ($1 million) each, as a U.S. crackdown on chip smuggling dries up black-market supply. The same eight-GPU [[B300]] server sells for about $550,000 in the United States, up from roughly $500,000 late last year — implying a China premium of roughly 80%.

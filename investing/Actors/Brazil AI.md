@@ -22,7 +22,7 @@ Clean energy + AI infrastructure:
 
 ## Brazilian AI Plan (PBIA)
 
-**2024-2028 strategy:**
+### 2024-2028 strategy
 - BRL 23B (~$4B) investment
 - AI infrastructure buildout
 - Capacity building
@@ -33,7 +33,7 @@ Clean energy + AI infrastructure:
 
 ## Renewable energy advantage
 
-**Why hyperscalers want [[Brazil]]:**
+### Why hyperscalers want [[Brazil]]
 
 | Factor | [[Brazil]] |
 |--------|--------|
@@ -49,7 +49,7 @@ Clean AI = [[Brazil]]'s pitch.
 
 ## Data center boom
 
-**Hyperscaler investments:**
+### Hyperscaler investments
 
 | Company | Investment |
 |---------|------------|
@@ -62,14 +62,14 @@ Clean AI = [[Brazil]]'s pitch.
 
 ## REDATA (Special Tax Regime for Data Centers)
 
-**PM 1,318/2025** — Published September 18, 2025. Brazil's flagship policy to attract hyperscale DC investment.
+PM 1,318/2025 — Published September 18, 2025. Brazil's flagship policy to attract hyperscale DC investment.
 
 | Aspect | Value |
 |--------|-------|
 | Legislation | Provisional Measure 1,318/2025 |
 | Effective | January 1, 2026 |
 | Budget | R$5.2B (2026 budget bill) |
-| Investment potential | **R$2T over 10 years** |
+| Investment potential | R$2T over 10 years |
 | Duration | 5 years (PIS/Cofins/IPI only through Dec 2026 due to tax reform) |
 
 ### Tax suspensions
@@ -85,7 +85,7 @@ Clean AI = [[Brazil]]'s pitch.
 | Requirement | Value |
 |-------------|-------|
 | Domestic market allocation | ≥10% of capacity |
-| Energy source | **100% clean/renewable** |
+| Energy source | 100% clean/renewable |
 | Water usage effectiveness | ≤0.05 L/kWh (annual) |
 | R&D investment | ≥2% of acquired product value |
 | Regional incentive | 20% lower domestic requirement for North/Northeast/Central-West |
@@ -97,11 +97,11 @@ Clean AI = [[Brazil]]'s pitch.
 | PM published | September 17, 2025 |
 | Public consultation closed | October 26, 2025 |
 | Tax benefits effective | January 1, 2026 |
-| **Conversion deadline** | **February 25, 2026** |
+| Conversion deadline | February 25, 2026 |
 
-**⚠️ Legislative risk:** As of late January 2026, Congress has not formed the Joint Committee to review PM 1,318/25. Industry groups urging prioritization. If not converted to law by Feb 25, the PM expires and tax benefits end.
+⚠️ Legislative risk: As of late January 2026, Congress has not formed the Joint Committee to review PM 1,318/25. Industry groups urging prioritization. If not converted to law by Feb 25, the PM expires and tax benefits end.
 
-**Why it matters:** Positions Brazil as LatAm's AI infrastructure hub. The 100% renewable + strict WUE requirements align with hyperscaler sustainability mandates. R$2T investment potential = decades of DC buildout — but hinges on Congressional action.
+Why it matters: Positions Brazil as LatAm's AI infrastructure hub. The 100% renewable + strict WUE requirements align with hyperscaler sustainability mandates. R$2T investment potential = decades of DC buildout — but hinges on Congressional action.
 
 ### MP expired; PL 278/2026 pending Senate (Feb–Apr 2026)
 
@@ -121,7 +121,7 @@ REDATA tax benefits are in limbo. PIS/Cofins, IPI, and import-duty suspensions u
 
 ## Marco Legal (PL 2338/2023)
 
-**Brazil's AI governance framework** — mirrors EU AI Act but emphasizes social inclusion. Separate from REDATA (infrastructure); this is the "govern it" legislation.
+Brazil's AI governance framework — mirrors EU AI Act but emphasizes social inclusion. Separate from REDATA (infrastructure); this is the "govern it" legislation.
 
 | Milestone | Date |
 |-----------|------|
@@ -129,7 +129,7 @@ REDATA tax benefits are in limbo. PIS/Cofins, IPI, and import-duty suspensions u
 | Senate approval | December 10, 2024 |
 | Sent to Chamber | March 17, 2025 |
 | Special committee formed | April 29, 2025 |
-| **Status** | **In Chamber of Deputies** |
+| Status | In Chamber of Deputies |
 
 ### Key provisions
 
@@ -148,13 +148,13 @@ REDATA tax benefits are in limbo. PIS/Cofins, IPI, and import-duty suspensions u
 | CNJ Resolution 615/2025 | Judiciary AI governance — risk framework, mandatory registration in "Sinapses" platform, human-in-the-loop for judicial decisions |
 | Law 15.123/2025 | Increased penalties for AI-enabled psychological violence against women |
 
-**Political context:** Lula administration pushing to pass before 2026 elections. If enacted, Brazil becomes LatAm's AI regulatory leader — potential model for Argentina, Chile.
+Political context: Lula administration pushing to pass before 2026 elections. If enacted, Brazil becomes LatAm's AI regulatory leader — potential model for Argentina, Chile.
 
 ---
 
 ## Semiconductor ambitions
 
-**National Semiconductor Plan:**
+### National Semiconductor Plan
 - Join global supply chain
 - Domestic fab aspirations
 - [[China]] partnerships (G20)
@@ -162,9 +162,19 @@ REDATA tax benefits are in limbo. PIS/Cofins, IPI, and import-duty suspensions u
 
 ---
 
+## Domestic AI compute base & NVIDIA engagement
+
+Beyond the inbound hyperscaler buildout, [[Brazil]] already operates a meaningful enterprise AI compute base — anchored by [[Petrobras]], which runs Latin America's largest enterprise HPC fleet (the Tatu supercomputer, 224 [[Nvidia]] A100 GPUs, 2023; the Harpia expansion via a ~R$150M Lenovo contract) for pre-salt seismic and reservoir simulation. Petrobras is NVIDIA's largest client in Brazil and its second-largest oil & gas customer globally after [[Saudi Aramco]] — Brazil's de facto national AI supercomputing anchor today.
+
+[[Nvidia]] engages the region through its "IA Soberana" (Sovereign AI) government program. Per Marcio Aguiar, NVIDIA's enterprise lead for Latin America (CBN *Futuramente*, Jun 2026): Brazil and Mexico are the region's two anchor markets, but Brazil "still lacks the critical mass of projects" to justify a top-tier national supercomputer versus countries already further along — built, in his framing, "one small step at a time." His sharpest point is a value-chain warning: Brazil risks staying an exporter of critical minerals and talent (researchers leaving for better-equipped labs abroad) rather than climbing into higher-value AI development — exactly the trap REDATA and the PBIA are meant to escape.
+
+*Source: Marcio Aguiar (NVIDIA Enterprise, Latin America) on CBN's Futuramente podcast (Jun 2026); Data Center Dynamics (Tatu); BNamericas (NVIDIA oil & gas ranking / Harpia).*
+
+---
+
 ## [[China]] connection
 
-**G20 Summit 2024:**
+### G20 Summit 2024
 - 37 MOUs with [[China]]
 - Joint AI laboratory
 - Semiconductor partnerships
@@ -189,9 +199,9 @@ Balancing US and [[China]].
 
 | Challenge | Impact |
 |-----------|--------|
-| **REDATA conversion** | Must pass by Feb 25, 2026 or tax benefits expire |
-| **PL 278/2026 Senate vote** | MP 1,318/25 expired Feb 25, 2026; replacement bill passed Chamber, pending Senate |
-| **Marco Legal passage** | AI governance framework in Chamber; 2026 election pressure |
+| REDATA conversion | Must pass by Feb 25, 2026 or tax benefits expire |
+| PL 278/2026 Senate vote | MP 1,318/25 expired Feb 25, 2026; replacement bill passed Chamber, pending Senate |
+| Marco Legal passage | AI governance framework in Chamber; 2026 election pressure |
 | Infrastructure gaps | Connectivity |
 | Talent development | Skills shortage |
 | [[China]] balancing | Geopolitical risk |
@@ -200,7 +210,7 @@ Balancing US and [[China]].
 
 ## Investment implications
 
-**[[Brazil]] AI = exposure via:**
+### [[Brazil]] AI = exposure via
 - Hyperscalers (AWS, MSFT, GOOGL)
 - Data center [[REITs]] expanding
 - Renewable energy plays
@@ -226,6 +236,8 @@ Balancing US and [[China]].
 
 ## Related
 
+- [[Petrobras]] — largest domestic AI compute base (NVIDIA HPC: Tatu, Harpia)
+- [[Nvidia]] — IA Soberana / sovereign-AI engagement; Petrobras anchor client
 - [[Latin America AI competitiveness]] — regional context (Brazil leads LatAm in AI readiness)
 - [[Data Centers]] — sector overview, Brazil section
 - [[Scala Data Centers]] — largest LatAm DC operator, REDATA beneficiary

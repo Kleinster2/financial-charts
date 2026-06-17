@@ -144,6 +144,21 @@ Reserve estimates: Proven reserves (1P) at 11.4B boe ([[Petrobras]] alone, risin
 
 ---
 
+## AI / high-performance computing
+
+Petrobras runs one of Latin America's largest enterprise HPC fleets — the compute base behind the seismic imaging and reservoir simulation that make pre-salt E&P viable. It is [[Nvidia]]'s largest client in [[Brazil]] and, per NVIDIA, its second-largest oil & gas customer globally after [[Saudi Aramco]].
+
+| System | Detail |
+|--------|--------|
+| Tatu | First dedicated AI supercomputer — 224 [[Nvidia]] A100 GPUs, ~R$36M (~US$6.8M), live March 2023 (Rio de Janeiro), for E&P geosciences |
+| Harpia | HPC expansion via a ~R$150M Lenovo contract supplying GPUs, servers, and racks |
+
+Why it matters: the ~$6.50/boe pre-salt lifting cost and 154% reserve replacement that anchor the bull case above are downstream of compute — imaging through 2,000m+ of salt and reservoir simulation are GPU-bound workloads, so Petrobras's HPC scale is an operational moat, not a side note. It is also a concrete datapoint on enterprise and sovereign-adjacent [[Nvidia]] demand in [[Brazil]], and feeds [[Brazil AI]]'s national compute-base story.
+
+*Sources: NVIDIA's Marcio Aguiar (enterprise lead, Latin America) on CBN's Futuramente podcast (Jun 2026); Data Center Dynamics (Tatu); BNamericas (NVIDIA oil & gas client ranking; Harpia/Lenovo contract).*
+
+---
+
 ## Ownership structure
 
 | Shareholder | Common (PETR3) | Preferred (PETR4) | Total capital |
@@ -334,6 +349,8 @@ Bear:
 - [[B3]] — primary listing (PETR3/PETR4)
 - [[ExxonMobil]], [[Shell]], [[Saudi Aramco]] — global peers
 - [[Strait of Hormuz]] — current supply disruption driver
+- [[Nvidia]] — HPC/AI compute supplier; Petrobras is NVIDIA's largest Brazil client
+- [[Brazil AI]] — national AI compute-base context
 
 ### Cross-vault
 - [Geopolitics: Brazil](obsidian://open?vault=geopolitics&file=Actors%2FBrazil) — institutional dynamics, Lula governance
