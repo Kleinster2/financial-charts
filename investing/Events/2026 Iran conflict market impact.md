@@ -487,6 +487,12 @@ Price-verification note: the FT table's "Brent >$100" was war-peak framing, not 
 
 *Source: [[Financial Times]], "Iran war inflation shock set to fall short of 2022 surge" (Sam Fleming and Valentina Romei, June 1 2026); Consensus Economics.*
 
+### June 14-15, 2026 — the framework deal ends the war
+
+The ceasefire-extension diplomacy this hub tracked into June consummated in a signed framework. On June 14 [[Donald Trump]] and Iranian officials announced a memorandum of understanding — to be signed June 19 in Switzerland — halting the war, reopening the [[Strait of Hormuz]] within the week, lifting the US blockade, and opening a 60-day window to negotiate Iran's nuclear program for phased economic incentives. Markets staged a peace-dividend rotation on June 15: WTI settled below $81 and [[Brent crude]] fell as much as 5.7% below $83 (both ~30% off the war peak), while the [[S&P 500]] (+1.7%), Nasdaq 100 (+3.1%), Dow and S&P Industrials (records) rallied. The single-name tape inverted the war trades — oil majors, refiners, oilfield services ([[Schlumberger]]), defense ([[Leidos]]), shipping ([[ZIM Integrated Shipping]]) and steel down; semis/AI-infra, nuclear, quantum and crypto up; gold miners popped then faded; regional banks ([[Truist]] −5.7σ) sold off on the rate-trade unwind. Full resolution detail, terms, and the cross-asset rotation in [[US-Iran framework deal June 2026]]. The open question this hub has posed since March — whether resolution is durable or another false dawn (the April 8 ceasefire broke in 72 hours) — now turns on the June 19 signing and physical tanker transits, not headlines.
+
+*Sources: NBC, Al Jazeera, Bloomberg, Britannica (June 14–15 2026); single-name moves from canonical `prices_long` (`/daily-scan`). Full sourcing in [[US-Iran framework deal June 2026]].*
+
 ---
 
 ## Expert panels
@@ -501,6 +507,7 @@ Two major expert panels produced the deepest structural analysis:
 ## Related
 
 - [[US-Iran nuclear escalation February 2026]] — pre-strike market reaction and scenario analysis (Feb 18)
+- [[US-Iran framework deal June 2026]] — the resolution event (Jun 14–15); the peace-dividend rotation
 - [[Operation Epic Fury]] — military operation
 - [[Iran]] — actor
 - [[Strait of Hormuz]] — oil chokepoint
