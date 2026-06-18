@@ -1,0 +1,37 @@
+Tower REITs PERMUTATION TESTS
+Window: 2025-06-18 -> 2026-06-15 (213 obs)
+Candidate cohort: AMT, CCI, SBAC (N=3)
+Observed intra-corr: 0.7429    Observed PC1: 82.93%
+
+--- INDEPENDENCE NULL ---
+Permutations: 10000
+Block size: 1
+Intra-cluster correlation:
+  Null mean:        -0.0003
+  Null 95th pct:    0.0649
+  Null 99th pct:    0.0955
+  p-value (right):  0.000100    -> REJECTS independence null at p < 0.001
+PC1 explained variance:
+  Null mean:        36.91%
+  Null 95th pct:    39.93%
+  Null 99th pct:    41.44%
+  p-value (right):  0.000100    -> REJECTS independence null at p < 0.001
+
+--- RANDOM-BASKET NULL ---
+Permutations: 10000
+Universe source: DB prices_long (1052 tickers with >=200 obs in window)
+Pool size: 1049
+Intra-cluster correlation:
+  Null mean:        0.1507
+  Null 95th pct:    0.3590
+  Null 99th pct:    0.4709
+  p-value (right):  0.000100    -> REJECTS random-basket null at p < 0.001
+PC1 explained variance:
+  Null mean:        45.65%
+  Null 95th pct:    58.09%
+  Null 99th pct:    65.32%
+  p-value (right):  0.000100    -> REJECTS random-basket null at p < 0.001
+
+--- INTERPRETATION ---
+Independence null rejected: the cohort series co-move (necessary, not sufficient).
+Random-basket null rejected: cohort is more cohesive than a random N-pick from the same universe. This is the meaningful pass.

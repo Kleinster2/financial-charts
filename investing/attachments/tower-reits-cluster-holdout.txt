@@ -1,0 +1,22 @@
+Tower REITs HOLDOUT TEST
+Cohort: AMT, CCI, SBAC (N=3)
+Window: 2y, split temporally at midpoint
+Train: 2024-06-15 -> 2025-06-15 (123 obs)
+Test:  2025-06-15 -> 2026-06-15 (214 obs)
+
+--- TRAIN HALF (older) ---
+Intra-correlation:    0.8391
+PC1 explained var:    89.28%
+Pairwise range:       [0.809, 0.873]
+
+--- TEST HALF (newer) ---
+Intra-correlation:    0.7427
+PC1 explained var:    82.91%
+Pairwise range:       [0.679, 0.833]
+
+--- STABILITY DIAGNOSTICS ---
+Intra-corr delta:     -0.0964   (test - train)
+PC1 variance delta:   -6.37pp
+PC1 loadings corr:    -0.9104    (1.0 = identical factor structure)
+
+VERDICT: STABLE — test/train ratio 0.89 (durable cluster across regimes)

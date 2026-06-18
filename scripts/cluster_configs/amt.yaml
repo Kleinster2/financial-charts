@@ -1,0 +1,17 @@
+name: Tower REITs
+primary: AMT
+prefix: tower-reits-cluster
+threshold: 0.5
+window_end: 2026-06-15
+history_start: 2020-01-01
+
+groups:
+  cluster:                      # candidate: US cell-tower REITs
+    color: "#2962FF"
+    tickers: [AMT, CCI, SBAC]
+  dc_reits:                     # adjacent control: data-center REITs (digital-infra, AI/cloud demand)
+    color: "#7E57C2"
+    tickers: [EQIX, DLR]
+  etf:                          # REIT ETF + rate proxy + market
+    color: "#9E9E9E"
+    tickers: [VNQ, TLT, SPY]

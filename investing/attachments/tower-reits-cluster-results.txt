@@ -1,0 +1,69 @@
+Tower REITs CLUSTER ANALYSIS
+Window 1y: 2025-06-18 -> 2026-06-15 (196 obs)
+Window 2y: 2024-07-15 -> 2026-06-15 (254 obs)
+Universe: 8 tickers across 3 groups
+Dendrogram cut threshold: 0.5
+
+--- 1Y INTRA-CLUSTER PAIRWISE CORRELATIONS ---
+Ticker   AMT   CCI  SBAC
+Ticker                  
+AMT     1.00  0.82  0.65
+CCI     0.82  1.00  0.71
+SBAC    0.65  0.71  1.00
+Average intra-cluster correlation: 0.730
+Range: [0.654, 0.823]
+
+--- AVG GROUP-PAIR CORRELATIONS (1Y) ---
+             cluster  dc_reit      etf
+    cluster    0.730    0.313    0.284
+   dc_reits    0.313    0.632    0.381
+        etf    0.284    0.381    0.372
+
+Cluster vs others:
+  cluster vs dc_reits  : 0.313  (intra advantage: +0.418)
+  cluster vs etf       : 0.284  (intra advantage: +0.447)
+
+--- HIERARCHICAL CLUSTERS (1Y, distance threshold 0.5) ---
+  Cluster 1: AMT, CCI, SBAC, VNQ
+  Cluster 2: EQIX, DLR
+  Cluster 3: SPY
+  Cluster 4: TLT
+
+--- CANDIDATE JOIN DISTANCES (1Y, average linkage, distance = 1-|corr|) ---
+ Step Left   Right Distance      Members
+    1  AMT     CCI    0.177      AMT+CCI
+    2 SBAC AMT+CCI    0.316 SBAC+AMT+CCI
+
+--- PCA ON CANDIDATE COHORT (1Y) ---
+Explained variance ratio:
+  PC1: 82.10%
+  PC2: 12.23%
+  PC3: 5.67%
+
+PC1 loadings:
+AMT     0.582
+CCI     0.597
+SBAC    0.552
+
+--- PC1 INDEX WEIGHTS (1Y) ---
+PCA is run on standardized daily log returns. Raw PC1-mimic weights scale PC1 loading by inverse realized volatility.
+     PC1 loading Loading weight Ann vol Raw PC1-mimic weight
+AMT        0.582         33.64%  25.66%               38.10%
+CCI        0.597         34.49%  28.67%               34.95%
+SBAC       0.552         31.87%  34.37%               26.95%
+
+--- WEEKLY-RETURN CROSS-CHECK (1Y, async-close robustness) ---
+Weeks: 39   Weekly intra-corr: 0.794 (daily 0.730)   Weekly PC1: 86.4% (daily 82.1%)
+
+--- HISTORICAL TIGHTNESS EVOLUTION (90D ROLLING) ---
+     Avg corr    PC1 Core corr Satellite corr Final join distance
+Date                                                             
+2020    0.888  92.5%     0.888            nan               0.120
+2021    0.797  86.4%     0.797            nan               0.210
+2022    0.831  88.8%     0.831            nan               0.195
+2023    0.828  88.5%     0.828            nan               0.181
+2024    0.817  87.8%     0.817            nan               0.208
+2025    0.825  88.3%     0.825            nan               0.201
+2026    0.769  84.6%     0.769            nan               0.245
+
+Latest 90D: avg corr 0.721, PC1 81.5%, core corr 0.721, satellite corr nan, final join distance 0.340
