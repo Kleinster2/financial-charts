@@ -3,7 +3,29 @@ aliases: [PWRL, Powerlaw, PowerLaw10]
 ---
 #actor #fund #usa
 
-Powerlaw Corp — non-diversified closed-end fund filing to list on [[Nasdaq]] under PWRL, giving retail investors access to top private AI/defense/space companies. Part of [[Akkadian Ventures]] platform. Direct listing (resale of existing shares, not an IPO). Still pending [[SEC]]/Nasdaq approval as of Feb 23, 2026.
+Powerlaw Corp — non-diversified closed-end fund listed on [[Nasdaq]] under PWRL since May 27, 2026, giving retail investors access to top private AI/defense/space companies. Part of the [[Akkadian Ventures]] platform (advised by Powerlaw Fund Adviser, LLC). Listed via direct listing — resale of existing shares, not an IPO. Trades at a premium to NAV: ~$17.50 (Jun 17, 2026) versus $15.31 NAV/share (May 31), down from a ~$28 debut pop.
+
+---
+
+## Listing and price
+
+Listed on [[Nasdaq]] via direct listing on May 27, 2026 — 43,242,931 shares registered for resale by existing holders, with Stifel, Nicolaus & Company as designated adviser (no underwriter, no new capital raised). Trading opened at $27.68 and peaked at $28.85 (May 28) before fading ~39% to ~$17.50 by mid-June — the direct-listing pop-and-fade familiar to retail private-access vehicles, amplified by the staged lock-up releases.
+
+![[pwrl-price-chart.png]]
+
+*PWRL since the May 27 debut. The ~$28 opening implied a ~90% premium to the then-NAV (~$14–15); by June 17 the price ($17.50) sits ~14% above the May-31 NAV of $15.31 — the premium compressed as the launch frenzy faded, though PWRL still trades above NAV, like peer [[Destiny Tech100]] (DXYZ). Linear axis (price level); NAV is struck only monthly, so the premium is approximate between marks.*
+
+---
+
+## Financials
+
+As a closed-end fund, PWRL reports NAV and holdings, not an operating income statement. Standard operating-company financials do not apply here — fundamentals chart data unavailable, income statement data unavailable, historical financials data unavailable in the revenue/net-income sense. The fund's economics are its NAV and portfolio: NAV $662M / $15.31 per share (May 31, 2026, +9.6% on the month) against a 3.63% annual expense load, with returns coming as unrealized appreciation on the private holdings plus any secondary gains. See the [[#Listing and price]] section for the premium to NAV and [[#Fee structure]] for the expense detail.
+
+---
+
+## Sector correlation
+
+Listed only since May 27, 2026 — too few observations for a meaningful correlation profile. As a closed-end fund of illiquid private holdings, PWRL's price is driven by its premium/discount to NAV and the fade from the debut pop rather than sector beta; a correlation table will be added once it has sufficient trading history.
 
 ---
 
@@ -11,10 +33,13 @@ Powerlaw Corp — non-diversified closed-end fund filing to list on [[Nasdaq]] u
 
 | Metric | Value |
 |--------|-------|
-| Ticker | PWRL (pending Nasdaq approval) |
+| Ticker | PWRL (Nasdaq, live since May 27, 2026) |
 | Structure | Non-diversified closed-end management investment company |
 | Registered under | Investment Company Act of 1940 |
-| NAV | ~$475M |
+| NAV (total) | $662M (May 31, 2026; ~$475M at the Feb filing) |
+| NAV per share | $15.31 (May 31, 2026; $13.97 on May 13) |
+| Price | ~$17.50 (Jun 17, 2026) — ~14% premium to NAV |
+| Debut | $27.68 open (May 27); peaked $28.85, faded ~39% to ~$17.50 |
 | AUM (platform) | >$1.2B |
 | Portfolio cost basis | ~$355M across 18 companies (Dec 31, 2025) |
 | Private tech exposure | 99% of investments |
@@ -47,6 +72,8 @@ Powerlaw Corp — non-diversified closed-end fund filing to list on [[Nasdaq]] u
 
 Total: 18 portfolio companies. Portfolio grew from 9 companies / ~$76M fair value (Jun 30, 2025) to 18 companies / ~$355M cost basis (Dec 31, 2025).
 
+As of the May 2026 NAV report, [[SpaceX]] is the largest holding by fair value — ~$117.0M, 19.37% of net assets (May 13, 2026) — overtaking [[OpenAI]], which led on cost basis at Dec 31, 2025. The shift reflects SpaceX's marked-up secondary valuation (the ~$1.25T round with [[xAI]]) rather than new purchases.
+
 ### N-2 filing detail (Jun 30, 2025 snapshot)
 
 9 companies, ~$74.2M at cost, ~$76M at fair value. Individual fair values not disclosed.
@@ -69,7 +96,7 @@ Total: 18 portfolio companies. Portfolio grew from 9 companies / ~$76M fair valu
 
 ## Listing structure
 
-Direct listing — filing to list 43.2M shares of common stock for resale by existing stockholders. Not a traditional underwritten IPO; no new capital raised. Stifel determines when shares are ready to trade and approves opening price.
+Direct listing — listed 43,242,931 shares of common stock for resale by existing stockholders; began trading May 27, 2026 at a $27.68 open. Not a traditional underwritten IPO; no new capital raised. Stifel determined when shares were ready to trade and approved the opening price.
 
 Reverse stock split Dec 23, 2025: every 12 shares consolidated into 1.
 
@@ -185,7 +212,7 @@ PWRL is one of four major vehicles giving retail investors exposure to private A
 
 | Feature | PWRL | [[Destiny Tech100\|DXYZ]] | RVI ([[Robinhood]]) | VCX (Fundrise) |
 |---------|------|------|-----|-----|
-| Exchange | Nasdaq (pending) | [[NYSE]] (live since Mar 2024) | [[NYSE]] (filing) | [[NYSE]] (approved, expected Mar 2026) |
+| Exchange | Nasdaq (live May 2026) | [[NYSE]] (live since Mar 2024) | [[NYSE]] (filing) | [[NYSE]] (approved, expected Mar 2026) |
 | NAV | ~$475M | ~$20/share | $1B target | ~$457M |
 | Management fee | 2.50% | Undisclosed | 2.00% (1.00% first 6mo) | 1.85% |
 | Holds OpenAI | Yes ($114.4M) | Yes | No | Yes |
@@ -213,26 +240,16 @@ PWRL would be among the first pure-play listed vehicles for this exposure, but f
 
 ## Investment case
 
-Bull:
-- Rare retail access to top private AI/defense/space companies
-- Portfolio concentrated in highest-profile names (OpenAI, SpaceX, Anthropic, Anduril)
-- If any holdings IPO, fund benefits from markup to public market valuations
-- Akkadian has 15-year track record, 750+ secondary transactions, zero counterparty defaults
-
-Bear:
-- Closed-end funds typically trade at discount to NAV (DXYZ is an exception — 41% premium)
-- Highest fee load among peers (3.63% total expenses vs 1.85% for Fundrise)
-- Adviser determines NAV and earns fees on that NAV — structural conflict
-- Illiquid underlying holdings — quarterly NAV only
-- No control or board seats — pure passive exposure
-- No distributions anticipated — pure capital appreciation play
-- Direct listing means no underwriter price stabilization
-- Linqto bankruptcy as cautionary precedent for retail private-market vehicles
+PWRL offers rare retail access to a concentrated book of the highest-profile private AI/defense/space names ([[OpenAI]], [[SpaceX]], [[Anthropic]], [[Anduril]]), run by an [[Akkadian Ventures|Akkadian]] platform with a 15-year secondary-market track record (750+ transactions, zero counterparty defaults); if any holding IPOs, the fund marks up toward its public valuation. Against that, the structure carries the heaviest cost and conflict load among peers — 3.63% total expenses (vs 1.85% for [[Fundrise]]), an adviser that both sets the quarterly NAV and earns fees on it, illiquid holdings priced only monthly, no board seats or distributions, and no underwriter price stabilization on the direct listing. The closed-end wrapper usually trades at a discount to NAV, but PWRL — like [[Destiny Tech100|DXYZ]] — has so far traded at a premium, one that has compressed from ~90% at the debut pop toward ~14% by mid-June; the [[Linqto]] bankruptcy remains the cautionary precedent for retail private-market vehicles.
 
 ---
 
 ## Related
 
+### Securities
+- [[Powerlaw Corp securities note]] — the PWRL share (price chart, NAV premium/discount, lock-up dynamics)
+
+### Platform & holdings
 - [[Akkadian Ventures]] — parent platform (SF-based secondary market specialist, ~$900M AUM excluding this fund)
 - [[OpenAI]] — largest holding ($114.4M at cost, ~32% of portfolio)
 - [[SpaceX]] — second-largest holding ($39.8M at cost)
@@ -256,9 +273,13 @@ Bear:
 
 ## Sources
 
+- [Businesswire — Powerlaw Corp. Begins Trading on Nasdaq as PWRL (2026-05-27)](https://www.businesswire.com/news/home/20260527046646/en/Powerlaw-Corp.-Begins-Trading-on-Nasdaq-as-PWRL)
+- [Businesswire — PWRL Reports NAV and NAV per Share for May 2026 (2026-06-09)](https://www.businesswire.com/news/home/20260609515774/en/Powerlaw-Corp.-Nasdaq-PWRL-Reports-Net-Asset-Value-NAV-and-NAV-per-Share-for-May-2026)
+- [Businesswire — PWRL Announces Largest Portfolio Holding: SpaceX (2026-06-05)](https://www.businesswire.com/news/home/20260605707215/en/Powerlaw-Corp.-Nasdaq-PWRL-Announces-Largest-Portfolio-Holding-SpaceX)
 - [Bloomberg](https://www.bloomberg.com/news/articles/2026-02-17/powerlaw-listing-to-give-investors-access-to-anthropic-spacex) (Feb 17, 2026)
 - SEC N-2 filing, CIK 2052053 (original Sep 17, 2025; N-2/A amendment Feb 2026)
 - [Yahoo Finance](https://finance.yahoo.com/news/retail-investors-access-spacex-anthropic-192720896.html)
 - [PE Insights](https://pe-insights.com/retail-investors-eye-spacex-and-anthropic-via-475m-powerlaw-listing/)
+- PWRL price data in `prices_long` (added 2026-06-17; debut 2026-05-27)
 
-*Created 2026-02-17 · Updated 2026-02-23*
+*Created 2026-02-17 · Updated 2026-06-17 (Nasdaq listing May 27, May NAV $15.31/sh, SpaceX now top holding)*
