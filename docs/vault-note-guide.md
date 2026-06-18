@@ -256,6 +256,8 @@ Applies to: Any actor with tradeable instruments (companies, countries, institut
 
 Does NOT apply to: Actors without tradeable instruments. Stubs don't need a securities note.
 
+Funds and ETFs are NOT split: a closed-end fund, ETF, mutual fund, sovereign-wealth fund, or other listed investment vehicle IS the tradeable instrument — there is no entity-vs-stock duality to separate. The fund note keeps its own price / NAV / premium-discount content inline (a price chart, not a fundamentals/Sankey chart, since a fund has no operating income statement). The compliance checker exempts `#fund`/`#etf`/`#cef` notes from the securities-split, fundamentals, Sankey, and historical-financials checks; a fund's "financials" are its NAV and holdings. Example: [[Powerlaw Corp]] (PWRL, closed-end fund) carries its Listing/price and NAV content in the single actor note — no separate securities note.
+
 Reference: See [[Micron]] and [[Micron securities note]] as template.
 
 ---

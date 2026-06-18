@@ -19,7 +19,7 @@ Listed on [[Nasdaq]] via direct listing on May 27, 2026 — 43,242,931 shares re
 
 ## Financials
 
-As a closed-end fund, PWRL reports NAV and holdings, not an operating income statement. Standard operating-company financials do not apply here — fundamentals chart data unavailable, income statement data unavailable, historical financials data unavailable in the revenue/net-income sense. The fund's economics are its NAV and portfolio: NAV $662M / $15.31 per share (May 31, 2026, +9.6% on the month) against a 3.63% annual expense load, with returns coming as unrealized appreciation on the private holdings plus any secondary gains. See the [[#Listing and price]] section for the premium to NAV and [[#Fee structure]] for the expense detail.
+As a closed-end fund, PWRL reports NAV and holdings rather than an operating income statement — there is no revenue/net-income line to chart, and a Sankey or fundamentals chart does not apply. The fund's economics are its NAV and portfolio: NAV $662M / $15.31 per share (May 31, 2026, +9.6% on the month) against a 3.63% annual expense load, with returns coming as unrealized appreciation on the private holdings plus any secondary gains. See the [[#Listing and price]] section for the premium to NAV and [[#Fee structure]] for the expense detail.
 
 ---
 
@@ -246,10 +246,6 @@ PWRL offers rare retail access to a concentrated book of the highest-profile pri
 
 ## Related
 
-### Securities
-- [[Powerlaw Corp securities note]] — the PWRL share (price chart, NAV premium/discount, lock-up dynamics)
-
-### Platform & holdings
 - [[Akkadian Ventures]] — parent platform (SF-based secondary market specialist, ~$900M AUM excluding this fund)
 - [[OpenAI]] — largest holding ($114.4M at cost, ~32% of portfolio)
 - [[SpaceX]] — second-largest holding ($39.8M at cost)

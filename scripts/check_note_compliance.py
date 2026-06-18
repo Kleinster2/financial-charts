@@ -253,6 +253,11 @@ class NoteChecker(IndexMixin, FixMixin, AnalyticsMixin):
 
         is_public = self._is_public_company(content)
         is_etf = note_type in ("etf", "benchmark") or self._has_tag(content, "#etf") or self._has_tag(content, "#benchmark")
+        # A fund (closed-end fund, mutual fund, listed investment vehicle) IS the tradeable
+        # security — like an ETF, it has no actor/securities split and no operating income
+        # statement, so it is exempt from the securities-split, fundamentals, Sankey, and
+        # historical-financials checks (its economics are NAV + holdings, not revenue/net income).
+        is_fund = note_type in ("fund", "closed-end-fund") or self._has_tag(content, "#fund") or self._has_tag(content, "#closed-end-fund") or self._has_tag(content, "#cef")
         is_private = self._has_tag(content, "#private")
         is_person = self._has_tag(content, "#person")
         is_geography = self._has_tag(content, "#geography") or any(self._has_tag(content, tag) for tag in ["#country", "#region", "#city"])
@@ -286,19 +291,19 @@ class NoteChecker(IndexMixin, FixMixin, AnalyticsMixin):
             issues.extend(self._check_sector_correlation(content, filepath))
 
         # Fundamentals chart (public companies only, not ETFs/products)
-        if is_public and not is_public_exempt and not is_etf and not is_person and not is_geography and not is_vc and not is_product:
+        if is_public and not is_public_exempt and not is_etf and not is_fund and not is_person and not is_geography and not is_vc and not is_product:
             issues.extend(self._check_fundamentals_chart(content, filepath))
 
         # Sankey chart (public companies only, not ETFs/products)
-        if is_public and not is_public_exempt and not is_etf and not is_person and not is_geography and not is_vc and not is_product:
+        if is_public and not is_public_exempt and not is_etf and not is_fund and not is_person and not is_geography and not is_vc and not is_product:
             issues.extend(self._check_sankey_chart(content, filepath))
 
         # Actor/Securities split (public companies in Actors/, not people/geographies/products)
-        if is_public and not is_public_exempt and not is_etf and not is_person and not is_geography and not is_vc and not is_product:
+        if is_public and not is_public_exempt and not is_etf and not is_fund and not is_person and not is_geography and not is_vc and not is_product:
             issues.extend(self._check_securities_split(content, filepath))
 
         # Financials checks (not products - those go on parent company)
-        if is_public and not is_public_exempt and not is_etf and not is_person and not is_geography and not is_vc and not is_product:
+        if is_public and not is_public_exempt and not is_etf and not is_fund and not is_person and not is_geography and not is_vc and not is_product:
             issues.extend(self._check_historical_financials(content, filepath))
 
         # Cap table checks (private companies, not investment firms or products)
