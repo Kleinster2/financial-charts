@@ -86,27 +86,38 @@ scripts/diagnostics/*.py
 /identify_*.py
 /try_*.py
 /patch_*.py
-# scripts/one_off/ is a tracked/scratch mix — keep its one-off scratch ignored by prefix:
-scripts/one_off/cleanup_*.py
-scripts/one_off/test_*.py
-scripts/one_off/try_*.py
-scripts/one_off/patch_*.py
-simple_*.py
-temp_*.py
-backup_*.py
+# scripts/one_off/ is a tracked/scratch mix — ignore untracked scratch .py (already-tracked tools
+# stay tracked; gitignore never untracks) and recover the few referenced in committed docs:
+scripts/one_off/*.py
+!scripts/one_off/export_portfolio.py
+!scripts/one_off/generate_allw_replication.py
+!scripts/one_off/import_investing_bond_csvs.py
+# Remaining one-off prefixes: root-only so committed scripts/ tools track without -f.
+# !exemptions re-include real ROOT tools the broad rules had masked or forced via -f.
+/simple_*.py
+/temp_*.py
+/backup_*.py
+!backup_workspace.py
 !scripts/backup_db.py
-export_*.py
-fix_*.py
-populate_*.py
-search_*.py
-calculate_*.py
-decompose_*.py
-fetch_*.py
+/export_*.py
+/fix_*.py
+# one-off applied data-fix (sibling fix_alias_wikilinks.py IS a committed tool) — keep local:
+scripts/fix_truncated_names.py
+/populate_*.py
+/search_*.py
+/calculate_*.py
+!calculate_portfolio_value.py
+/decompose_*.py
+/fetch_*.py
+!fetch_fundamentals.py
+!fetch_b3_yield_curve.py
+!fetch_jgb_direct.py
+!fetch_jgb_yields.py
 !scripts/fetch_employees.py
-generate_*.py
-get_*.py
-import_*.py
-*_metadata.py
+/generate_*.py
+/get_*.py
+/import_*.py
+/*_metadata.py
 create_fundamentals_tables.py
 refetch*.log
 batch*.log
