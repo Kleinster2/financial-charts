@@ -6,8 +6,8 @@ Cohort size: 4
       0.20              2                        3                     0.75                    0   False
       0.25              1                        4                     1.00                    0    True
       0.30              1                        4                     1.00                    5   False
-      0.35              1                        4                     1.00                    5   False
-      0.40              1                        4                     1.00                    6   False
+      0.35              1                        4                     1.00                    6   False
+      0.40              1                        4                     1.00                    7   False
       0.45              1                        4                     1.00                    9   False
       0.50              1                        4                     1.00                    9   False
       0.55              1                        4                     1.00                    9   False
@@ -24,8 +24,8 @@ FRAGILE: cohort intact only at narrow threshold band(s). Validation depends on t
 
 --- CONTAMINATION DETAIL (non-cohort names joining the cohort's largest cluster) ---
   threshold 0.30: + TSM,SMH,SOXX,XLK,SPY
-  threshold 0.35: + TSM,SMH,SOXX,XLK,SPY
-  threshold 0.40: + TSM,MU,SMH,SOXX,XLK...
+  threshold 0.35: + TSM,MU,SMH,SOXX,XLK...
+  threshold 0.40: + TSM,MU,AMD,SMH,SOXX...
   threshold 0.45: + NVDA,TSM,MU,AMD,AVGO...
   threshold 0.50: + NVDA,TSM,MU,AMD,AVGO...
   threshold 0.55: + NVDA,TSM,MU,AMD,AVGO...

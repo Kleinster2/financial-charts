@@ -5,8 +5,9 @@
 name: WFE quartet
 primary: ASML
 prefix: wfe-quartet-cluster
-threshold: 0.4
-window_end: 2026-04-30
+threshold: 0.5
+window_end: 2026-06-18
+history_start: 2020-01-01
 
 groups:
   cluster:

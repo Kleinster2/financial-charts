@@ -1,22 +1,54 @@
 WFE quartet PERMUTATION TESTS
-Window: 2025-05-01 -> 2026-04-30 (251 obs)
+Window: 2025-06-20 -> 2026-06-18 (251 obs)
 Candidate cohort: ASML, AMAT, KLAC, LRCX (N=4)
-Observed intra-corr: 0.7973    Observed PC1: 84.85%
+Observed intra-corr: 0.8210    Observed PC1: 86.61%
+
+--- INDEPENDENCE NULL ---
+Permutations: 10000
+Block size: 1
+Intra-cluster correlation:
+  Null mean:        0.0004
+  Null 95th pct:    0.0431
+  Null 99th pct:    0.0604
+  p-value (right):  0.000100    -> REJECTS independence null at p < 0.001
+PC1 explained variance:
+  Null mean:        28.53%
+  Null 95th pct:    30.58%
+  Null 99th pct:    31.65%
+  p-value (right):  0.000100    -> REJECTS independence null at p < 0.001
 
 --- RANDOM-BASKET NULL ---
 Permutations: 10000
-Universe source: DB prices_long (220 tickers with >=200 obs in window)
-Pool size: 217
+Universe source: DB prices_long (1052 tickers with >=200 obs in window)
+Pool size: 291
 Intra-cluster correlation:
-  Null mean:        0.1696
-  Null 95th pct:    0.3404
-  Null 99th pct:    0.4317
+  Null mean:        0.1686
+  Null 95th pct:    0.3331
+  Null 99th pct:    0.4228
   p-value (right):  0.000100    -> REJECTS random-basket null at p < 0.001
 PC1 explained variance:
-  Null mean:        39.76%
-  Null 95th pct:    51.76%
-  Null 99th pct:    58.27%
+  Null mean:        39.71%
+  Null 95th pct:    51.19%
+  Null 99th pct:    57.67%
   p-value (right):  0.000100    -> REJECTS random-basket null at p < 0.001
 
+--- VOL-MATCHED NULL ---
+Permutations: 10000
+Universe source: DB prices_long (1052 tickers with >=200 obs in window)
+Pool size: 291
+Matching: realized-vol rank band +/-5% per member, without replacement
+Intra-cluster correlation:
+  Null mean:        0.1785
+  Null 95th pct:    0.3317
+  Null 99th pct:    0.4265
+  p-value (right):  0.000100    -> REJECTS vol-matched null at p < 0.001
+PC1 explained variance:
+  Null mean:        40.24%
+  Null 95th pct:    52.14%
+  Null 99th pct:    59.85%
+  p-value (right):  0.000100    -> REJECTS vol-matched null at p < 0.001
+
 --- INTERPRETATION ---
+Independence null rejected: the cohort series co-move (necessary, not sufficient).
 Random-basket null rejected: cohort is more cohesive than a random N-pick from the same universe. This is the meaningful pass.
+Vol-matched null rejected: cohesion exceeds random baskets with the SAME volatility profile — the cluster factor is not just shared beta/vol.
