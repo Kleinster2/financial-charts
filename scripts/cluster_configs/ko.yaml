@@ -1,0 +1,17 @@
+name: Packaged food and beverages
+primary: KO
+prefix: staples-food-cluster
+threshold: 0.5
+window_end: 2026-06-18
+history_start: 2020-01-01
+
+groups:
+  cluster:                      # candidate: packaged food + beverage staples
+    color: "#2962FF"
+    tickers: [KO, PEP, MDLZ, GIS, HSY, KHC]
+  household:                    # adjacent: household-products staples
+    color: "#7E57C2"
+    tickers: [PG, CL, KMB]
+  etf:                          # staples ETF (replicability) + market
+    color: "#9E9E9E"
+    tickers: [XLP, SPY]
