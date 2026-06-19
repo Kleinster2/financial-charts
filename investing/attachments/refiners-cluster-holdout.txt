@@ -1,0 +1,22 @@
+Refiners HOLDOUT TEST
+Cohort: VLO, MPC, PSX, PBF, DK, DINO (N=6)
+Window: 2y, split temporally at midpoint
+Train: 2024-06-18 -> 2025-06-18 (58 obs)
+Test:  2025-06-18 -> 2026-06-18 (199 obs)
+
+--- TRAIN HALF (older) ---
+Intra-correlation:    0.8686
+PC1 explained var:    89.22%
+Pairwise range:       [0.725, 0.958]
+
+--- TEST HALF (newer) ---
+Intra-correlation:    0.7640
+PC1 explained var:    80.38%
+Pairwise range:       [0.670, 0.859]
+
+--- STABILITY DIAGNOSTICS ---
+Intra-corr delta:     -0.1047   (test - train)
+PC1 variance delta:   -8.84pp
+PC1 loadings corr:    0.8724    (1.0 = identical factor structure)
+
+VERDICT: STABLE — test/train ratio 0.88 (durable cluster across regimes)
