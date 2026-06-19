@@ -74,14 +74,23 @@ charting_app/workspace.json
 # One-off utility scripts (keep locally, don't commit)
 # check_*.py is root-only: committed check tools live in scripts/check_*.py and must track normally
 /check_*.py
-# scripts/diagnostics/ is a scratch folder — keep its one-off check_* scripts ignored
-scripts/diagnostics/check_*.py
-cleanup_*.py
-verify_*.py
-test_*.py
-identify_*.py
-try_*.py
-patch_*.py
+# scripts/diagnostics/ is a scratch folder (only smoke/status committed) — ignore the rest:
+scripts/diagnostics/*.py
+!scripts/diagnostics/bcomtr_integration_smoke.py
+!scripts/diagnostics/smoke_check.py
+!scripts/diagnostics/status_report.py
+# Root-only (committed tools in scripts/ — e.g. scripts/patch_db_value.py — track without -f).
+/cleanup_*.py
+/verify_*.py
+/test_*.py
+/identify_*.py
+/try_*.py
+/patch_*.py
+# scripts/one_off/ is a tracked/scratch mix — keep its one-off scratch ignored by prefix:
+scripts/one_off/cleanup_*.py
+scripts/one_off/test_*.py
+scripts/one_off/try_*.py
+scripts/one_off/patch_*.py
 simple_*.py
 temp_*.py
 backup_*.py
