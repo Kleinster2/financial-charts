@@ -8,17 +8,7 @@ Open research threads, tracked across sessions. When a thread resolves, move it 
 
 ## Active
 
-### Network energy positioning
-- **Opened:** 2026-02-14
-- **Status:** early
-- **Question:** What are the smart energy trades right now? OXY vs PSX vs other names.
-- **Findings so far:**
-  - Martin Cohen likes OXY, holds SoundHound (SOUN), Destiny Tech100 (DXYZ), Baron Partners Fund (BPTRX, ~29% SpaceX)
-  - Henri Swieca switched from OXY to PSX
-- **Next steps:**
-  - [ ] Dig into why Swieca rotated — refining margins vs upstream exposure?
-  - [ ] Check if PSX move aligns with Venezuela thesis already in vault
-  - [ ] Look into SOUN — why does Cohen hold it?
+_No active threads._
 
 <!-- Template:
 ### Thread title
@@ -33,6 +23,19 @@ Open research threads, tracked across sessions. When a thread resolves, move it 
 -->
 
 ## Parked
+
+### Network energy positioning
+- **Opened:** 2026-02-14
+- **Parked:** 2026-06-18 — attributions never sourced, could not be verified, thread stale.
+- **Status:** parked (stale)
+- **Question:** What are the smart energy trades right now? OXY vs PSX vs other names.
+- **Original findings (UNVERIFIED — no source doc was ever logged):**
+  - "Martin Cohen likes OXY, holds SoundHound (SOUN), Destiny Tech100 (DXYZ), Baron Partners Fund (BPTRX, ~29% SpaceX)" — no identifiable source; "Martin Cohen" is not a vault actor; the basket entities exist in the vault but the attribution is unconfirmed.
+  - "Henri Swieca switched from OXY to PSX" — unconfirmable. [[Talpion Fund Management]]'s only retrievable 13F (2011) held neither OXY nor PSX; no recent filing surfaces the rotation; the [[Henry Swieca]] note carries no energy positioning.
+- **Resolved without research (already covered):**
+  - PSX ↔ Venezuela alignment is covered in [[Phillips 66]] ("Why Phillips 66 matters for Venezuela") and [[Venezuela oil rebuild]] (PSX = Tier 3 heavy-crude buyer, Moderate beta).
+- **To revive:** supply the original source for the Martin Cohen / Swieca tip so the attributions can be verified, or reframe around the verifiable OXY (upstream crude-price beta) vs PSX (downstream refining-margin + midstream beta) Venezuela-supply trade with fresh data.
+- **Related:** [[Phillips 66]], [[Occidental Petroleum]], [[Venezuela oil rebuild]], [[Henry Swieca]], [[SoundHound]], [[Talpion Fund Management]]
 
 <!-- Threads you're not actively pursuing but want to revisit -->
 
