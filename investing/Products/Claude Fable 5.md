@@ -19,6 +19,12 @@ On June 12, 2026, [[Anthropic]] disabled Fable 5 for every customer to comply wi
 
 The trigger was a jailbreak of Fable 5's safety classifiers (the cyber / bio-chem / distillation layer described below) demonstrated by [[Amazon]] researchers. Anthropic says the technique surfaced only "previously known, minor vulnerabilities" with "no Mythos-specific uplift," discoverable by other public models without a bypass. Full event detail, quotes, and market read in [[Anthropic#Jun 12 — Commerce export ban; Fable 5 / Mythos 5 taken offline|Anthropic]].
 
+### Update — still offline June 19; Anthropic–Trump deal talks
+
+A week in, Fable 5 and [[Claude Mythos|Mythos 5]] remain disabled for every customer — no access has been restored as of June 19, 2026. Anthropic and [[Donald Trump|Trump]]-administration officials have been negotiating a path back, working toward a deal to reinstate both models (reported by The Globe and Mail). At a June 17 press conference in Seoul, Anthropic Managing Director of International [[Chris Ciauri]] said the firm is "very confident that in the coming days, the models will become available again," while declining to set an official date or detail the conditions.
+
+The reported trigger has widened beyond the [[Amazon]]-researcher jailbreak. The Washington Post reported that a Korean telecommunications company with [[Claude Mythos|Mythos]] access — one of [[Project Glasswing]]'s roughly 150 partners — drew the directive over suspected ties to [[China]], putting Korea at the center of the dispute. Anthropic has held its line: "we disagree that the finding of a narrow potential jailbreak should be cause for recalling a commercial model deployed to hundreds of millions of people." Prediction markets ([[Kalshi]]) price roughly a 57% chance access returns before July 1. Full event detail and the policy read-through in [[Anthropic#Jun 12 — Commerce export ban; Fable 5 / Mythos 5 taken offline|Anthropic]] and [[Export controls#First deployed-model export control — Anthropic Fable 5 / Mythos 5 (Jun 12, 2026)|Export controls]].
+
 ---
 
 ## Quick stats
@@ -29,7 +35,7 @@ The trigger was a jailbreak of Fable 5's safety classifiers (the cyber / bio-che
 | Product family | [[Claude]] |
 | Tier | Capybara (above [[Claude Opus]]); Mythos-class |
 | Released | June 9, 2026 |
-| Status | Suspended for all customers June 12, 2026 (US export-control directive) |
+| Status | Suspended for all customers since June 12, 2026 (US export-control directive); still offline as of June 19 — Anthropic expects restoration "in coming days" |
 | API model ID | `claude-fable-5` |
 | Restricted sibling | [[Claude Mythos]] 5 (`claude-mythos-5`, [[Project Glasswing]] only) |
 | Context window | 1M tokens (default) |
@@ -132,3 +138,6 @@ The release lands into a crowded competitive and capital-markets window: [[OpenA
 - [Anthropic, "Claude Fable 5 and Claude Mythos 5"](https://www.anthropic.com/news/claude-fable-5-mythos-5), June 9, 2026
 - [Anthropic, "Introducing Claude Fable 5 and Claude Mythos 5" (API docs)](https://platform.claude.com/docs/en/about-claude/models/introducing-claude-fable-5-and-claude-mythos-5), June 9, 2026
 - [TechCrunch, "Anthropic's Claude Fable 5 is a version of Mythos the public can access today"](https://techcrunch.com/2026/06/09/anthropics-claude-fable-5-is-a-version-of-mythos-the-public-can-access-today/), June 9, 2026
+- [Korea JoongAng Daily (Park Eun-jee), "Anthropic confident of re-enabling Mythos, Fable 5 access 'in coming days'"](https://www.koreajoongangdaily.com/business/anthropic-confident-of-reenabling-mythos-fable-5-access-in-coming-days-executive/12727522), June 18, 2026 — Ciauri Seoul press conference; the Korea-telecom / China-ties trigger (per Washington Post); Project Glasswing ~150 partners
+- The Globe and Mail, "Anthropic, Trump officials working toward deal to restore Fable 5 and Mythos 5," June 2026
+- [Kalshi, Fable 5 restoration market](https://news.kalshi.com/p/fable-5-odds-anthropic-access-restored-july-57-percent) — ~57% chance of restoration before July 1 (read June 19, 2026)

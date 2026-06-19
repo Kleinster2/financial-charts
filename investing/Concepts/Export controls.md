@@ -548,7 +548,9 @@ Two features make it a distinct policy datapoint:
 
 The trigger was a jailbreak of Fable 5's safety classifiers demonstrated by [[Amazon]] researchers; Anthropic disputes the severity ("no Mythos-specific uplift," capability "widely available from other models"). Full event detail in [[Anthropic#Jun 12 — Commerce export ban; Fable 5 / Mythos 5 taken offline|Anthropic]]; product status in [[Claude Fable 5]] and [[Claude Mythos]]. The statecraft lens (allies blocked; weaponized interdependence at the model layer) lives in the geopolitics vault: [Geopolitics: Anthropic model export ban (June 2026)](obsidian://open?vault=geopolitics&file=Events%2FAnthropic%20model%20export%20ban%20%28June%202026%29).
 
-*Sources: WSJ (Amrith Ramkumar) Jun 13 2026; [Anthropic statement Jun 12 2026](https://www.anthropic.com/news/fable-mythos-access); Axios / CNBC / Fortune Jun 12–13 2026.*
+As of June 19, the ban holds — Fable 5 and [[Claude Mythos|Mythos 5]] remain offline a week on, with Anthropic and [[Donald Trump|Trump]]-administration officials negotiating a restoration (The Globe and Mail) and Anthropic's MD International [[Chris Ciauri]] saying access should return "in the coming days" (June 17, Seoul). The trigger sharpens the model-access-governance read: the Washington Post reported the directive traces to a Korean telecommunications firm with [[Claude Mythos|Mythos]] access — a [[Project Glasswing]] partner — and suspected [[China]] ties. That is the distillation-memo fear in concrete form — not a chip crossing a border, but a controlled model reachable by an end user with adversary exposure — so the control lands on the model and its allied user base rather than on the hardware.
+
+*Sources: WSJ (Amrith Ramkumar) Jun 13 2026; [Anthropic statement Jun 12 2026](https://www.anthropic.com/news/fable-mythos-access); Axios / CNBC / Fortune Jun 12–13 2026; Korea JoongAng Daily (Park Eun-jee), Jun 18 2026; The Globe and Mail, Jun 2026.*
 
 ---
 

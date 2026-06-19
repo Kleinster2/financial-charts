@@ -2,7 +2,7 @@
 
 **Pentagon AI access dispute (2026)** — escalating confrontation between the US military and frontier AI labs over the terms of military AI deployment. The Pentagon is demanding "all lawful use" without restriction; [[Anthropic]] alone is holding two red lines (autonomous weapons, mass surveillance of Americans). Culminated in [[Pete Hegseth|Defense Secretary Hegseth]] issuing a Friday deadline with threats of [[Defense Production Act]] invocation and "supply-chain risk" designation.
 
-Update (June 12, 2026): a second government front opened when [[Commerce Department|Commerce]] placed [[Anthropic]]'s [[Claude Fable 5]] and [[Claude Mythos|Mythos 5]] under export controls, prompting Anthropic to disable both models for all customers. Distinct from this Pentagon dispute (military-use guardrails) but part of the same widening Anthropic-administration conflict. See [[Anthropic#Jun 12 — Commerce export ban; Fable 5 / Mythos 5 taken offline|Anthropic]] and [[Export controls#First deployed-model export control — Anthropic Fable 5 / Mythos 5 (Jun 12, 2026)|Export controls]].
+Update (June 12, 2026): a second government front opened when [[Commerce Department|Commerce]] placed [[Anthropic]]'s [[Claude Fable 5]] and [[Claude Mythos|Mythos 5]] under export controls, prompting Anthropic to disable both models for all customers. Distinct from this Pentagon dispute (military-use guardrails) but part of the same widening Anthropic-administration conflict. See [[Anthropic#Jun 12 — Commerce export ban; Fable 5 / Mythos 5 taken offline|Anthropic]] and [[Export controls#First deployed-model export control — Anthropic Fable 5 / Mythos 5 (Jun 12, 2026)|Export controls]]. Five days earlier, NSPM-11 (June 5) had codified the administration's military-AI-use stance into national-security policy, ordering contract termination for vendors that restrict government use (see the NSPM-11 section below).
 
 ---
 
@@ -85,8 +85,8 @@ Anthropic is willing to adapt its usage policies for the Pentagon. In December c
 
 Two hard lines:
 
-1. Fully autonomous weapons — weapons systems that fire without human involvement. Anthropic's position: AI is not reliable enough to operate weapons autonomously. Crucially, Anthropic has **no objection in principle** to autonomous weapons — [[Dario Amodei]] told CBS the models "just aren't ready yet." Internal reasoning: like self-driving cars, AI-controlled weapons could eventually reduce civilian casualties vs. human operators, but current models risk battlefield confusion, civilian deaths, and friendly fire. The Pentagon proposed a "cloud only" compromise — Claude stays in data centers, not on drones. Anthropic rejected this as meaningless: modern drone swarms run on mesh networks that push computation to the edge, collapsing any cloud/device distinction. A model making battlefield decisions from the cloud is functionally identical to one on the drone.
-2. Mass surveillance of Americans — domestic intelligence collection at scale. Anthropic's position: no laws or regulations yet cover how AI could be used for this. The Pentagon wanted Claude to analyze **commercial bulk data** on US citizens — GPS data, Google search results, credit card transactions, and chatbot conversations — through a carve-out allowing surveillance on behalf of domestic agencies like [[DHS]]. Per Ross Anderson ([[The Atlantic]]), the two sides were close to a deal on Friday Feb 27: the Pentagon agreed to remove "weasel words" on autonomous weapons language, but the bulk data surveillance demand was the final dealbreaker.
+1. Fully autonomous weapons — weapons systems that fire without human involvement. Anthropic's position: AI is not reliable enough to operate weapons autonomously. Crucially, Anthropic has no objection in principle to autonomous weapons — [[Dario Amodei]] told CBS the models "just aren't ready yet." Internal reasoning: like self-driving cars, AI-controlled weapons could eventually reduce civilian casualties vs. human operators, but current models risk battlefield confusion, civilian deaths, and friendly fire. The Pentagon proposed a "cloud only" compromise — Claude stays in data centers, not on drones. Anthropic rejected this as meaningless: modern drone swarms run on mesh networks that push computation to the edge, collapsing any cloud/device distinction. A model making battlefield decisions from the cloud is functionally identical to one on the drone.
+2. Mass surveillance of Americans — domestic intelligence collection at scale. Anthropic's position: no laws or regulations yet cover how AI could be used for this. The Pentagon wanted Claude to analyze commercial bulk data on US citizens — GPS data, Google search results, credit card transactions, and chatbot conversations — through a carve-out allowing surveillance on behalf of domestic agencies like [[DHS]]. Per Ross Anderson ([[The Atlantic]]), the two sides were close to a deal on Friday Feb 27: the Pentagon agreed to remove "weasel words" on autonomous weapons language, but the bulk data surveillance demand was the final dealbreaker.
 
 [[Dario Amodei]] wrote that AI should support national defense "in all ways except those which would make us more like our autocratic adversaries." After the Feb 24 meeting, an Anthropic spokesperson described it as a "good-faith conversation." Sources say the company has no intention of easing restrictions.
 
@@ -134,13 +134,13 @@ This is the most operationally consequential development. It breaks Anthropic's 
 
 Three developments shifted the dynamic:
 
-1. **Anthropic rejects final offer:** Dario said contract language received from the Pentagon made "virtually no progress" on the two red lines. The company will not accept.
+1. Anthropic rejects final offer: Dario said contract language received from the Pentagon made "virtually no progress" on the two red lines. The company will not accept.
 
-2. **Pentagon retreats from DPA:** Chief spokesperson Sean Parnell walked back the Defense Production Act threat. New language: "we will terminate our partnership with Anthropic and deem them a supply chain risk." DPA invocation no longer explicitly threatened — the legal uncertainty of applying a Korean War-era goods statute to AI usage policies likely spooked Pentagon lawyers.
+2. Pentagon retreats from DPA: Chief spokesperson Sean Parnell walked back the Defense Production Act threat. New language: "we will terminate our partnership with Anthropic and deem them a supply chain risk." DPA invocation no longer explicitly threatened — the legal uncertainty of applying a Korean War-era goods statute to AI usage policies likely spooked Pentagon lawyers.
 
-3. **Jensen Huang weighs in:** NVIDIA CEO told CNBC the dispute is "not the end of the world" — notable given NVIDIA's $10B Anthropic investment and massive Pentagon supply relationship. Positioned as neutral broker between the two sides.
+3. Jensen Huang weighs in: NVIDIA CEO told CNBC the dispute is "not the end of the world" — notable given NVIDIA's $10B Anthropic investment and massive Pentagon supply relationship. Positioned as neutral broker between the two sides.
 
-**Net effect:** The DPA de-escalation is meaningful — it was the most legally aggressive and precedent-setting threat. But termination + supply-chain risk designation still carries real consequences for Anthropic's government business and potentially the broader defense supply chain.
+Net effect: The DPA de-escalation is meaningful — it was the most legally aggressive and precedent-setting threat. But termination + supply-chain risk designation still carries real consequences for Anthropic's government business and potentially the broader defense supply chain.
 
 *Sources: Axios (Feb 26), CNBC (Feb 26)*
 
@@ -150,7 +150,7 @@ Three developments shifted the dynamic:
 
 - Feb 27: Hegseth designated Anthropic a "Supply-Chain Risk to National Security." Effective immediately: no contractor, supplier, or partner doing business with the US military may conduct commercial activity with Anthropic. Far broader than the ~$200M contract loss.
 - Feb 27: Trump ordered ALL US government agencies to cease use of Anthropic with 6-month phaseout
-- Feb 27: ~2 hours later, [[OpenAI]] CEO [[Sam Altman]] announced Pentagon deal to deploy on classified networks. Agreed to "any lawful purpose." Altman posted the announcement **four times** — community noted three times on Friday alone (note: "government officials have contradicted Sam's claim, saying OpenAI will allow the Department of War to use their models for all lawful purposes"). Reposted Saturday/Sunday to avoid the community note.
+- Feb 27: ~2 hours later, [[OpenAI]] CEO [[Sam Altman]] announced Pentagon deal to deploy on classified networks. Agreed to "any lawful purpose." Altman posted the announcement four times — community noted three times on Friday alone (note: "government officials have contradicted Sam's claim, saying OpenAI will allow the Department of War to use their models for all lawful purposes"). Reposted Saturday/Sunday to avoid the community note.
 - Anthropic response: Will challenge designation in court. [[Dario Amodei|Dario]]: "retaliatory and punitive." Called it "legally unsound" and "dangerous precedent."
 - Lawfare analysis: designation "won't survive first contact with the legal system" — punishes domestic company for negotiating contract terms, not security violation
 - Hundreds of tech workers signed open letter urging DoD withdrawal (signatories from [[OpenAI]], Slack, IBM, Cursor, Salesforce Ventures)
@@ -164,7 +164,7 @@ Three developments shifted the dynamic:
 - [[Claude]] surged from #42 to #1 on Apple US App Store free-app chart by Saturday Feb 28, overtaking [[ChatGPT]]
 - Anthropic hit all-time record for Claude sign-ups
 - Surge crashed Claude servers (elevated errors before restoration)
-- Mar 5: Claude went down **multiple times** during the day — down for hours at a stretch, first time any major AI model had sustained outages from pure user demand. Users "furiously posting" on Reddit about having moved their workflows onto the platform
+- Mar 5: Claude went down multiple times during the day — down for hours at a stretch, first time any major AI model had sustained outages from pure user demand. Users "furiously posting" on Reddit about having moved their workflows onto the platform
 - [[Katy Perry]] tweeted herself purchasing a Claude subscription with a heart emoji
 - Chalk messages drawn outside Anthropic's SF headquarters: "resist," "we believe in you," "we love you"
 - Public response overwhelmingly pro-Anthropic
@@ -186,23 +186,23 @@ Three developments shifted the dynamic:
 
 ## Mar 4 — Industry mobilizes, Palantir exposure, NATO expansion
 
-**ITI letter:** The [[Information Technology Industry Council]] — members include [[NVIDIA]], [[Amazon]], [[Apple]], [[OpenAI]] — sent a letter to the Pentagon: "We are concerned by recent reports regarding the Department of War's consideration of imposing a supply-chain risk designation in response to a procurement dispute." Does not name Anthropic.
+ITI letter: The [[Information Technology Industry Council]] — members include [[NVIDIA]], [[Amazon]], [[Apple]], [[OpenAI]] — sent a letter to the Pentagon: "We are concerned by recent reports regarding the Department of War's consideration of imposing a supply-chain risk designation in response to a procurement dispute." Does not name Anthropic.
 
-**Investor mobilization:** [[Dario Amodei]] in talks with [[Amazon]] CEO [[Andy Jassy]]. VCs [[Lightspeed Venture Partners|Lightspeed]] and [[Iconiq Capital|Iconiq]] coordinating with other investors on solutions. Some reaching out to Trump administration contacts. Focus: preventing supply-chain risk designation from killing enterprise sales. Investor tension: some frustrated Dario "antagonized rather than cultivated" Pentagon officials, but acknowledge he can't capitulate without alienating employees and consumers.
+Investor mobilization: [[Dario Amodei]] in talks with [[Amazon]] CEO [[Andy Jassy]]. VCs [[Lightspeed Venture Partners|Lightspeed]] and [[Iconiq Capital|Iconiq]] coordinating with other investors on solutions. Some reaching out to Trump administration contacts. Focus: preventing supply-chain risk designation from killing enterprise sales. Investor tension: some frustrated Dario "antagonized rather than cultivated" Pentagon officials, but acknowledge he can't capitulate without alienating employees and consumers.
 
-**Revenue surge:** Anthropic run rate now ~$19B (up from $14B weeks ago). Claude was #1 most-downloaded free app in Apple App Store on Monday. Enterprise sales ~80% of revenue. Employee share sales in process.
+Revenue surge: Anthropic run rate now ~$19B (up from $14B weeks ago). Claude was #1 most-downloaded free app in Apple App Store on Monday. Enterprise sales ~80% of revenue. Employee share sales in process.
 
-**Palantir Maven exposure:** [[Palantir]]'s Maven Smart Systems — Pentagon's flagship AI program for intelligence analysis and targeting — uses Claude code in multiple prompts and workflows. Maven-related contracts with DoD and national security agencies potentially >$1B. Palantir will need to replace Claude and rebuild parts of the software — timeline unclear. [[Alex Karp]] at defense tech conference: companies that claim AI will take white-collar jobs and "screw the military" could lead to "nationalization of our technology."
+Palantir Maven exposure: [[Palantir]]'s Maven Smart Systems — Pentagon's flagship AI program for intelligence analysis and targeting — uses Claude code in multiple prompts and workflows. Maven-related contracts with DoD and national security agencies potentially >$1B. Palantir will need to replace Claude and rebuild parts of the software — timeline unclear. [[Alex Karp]] at defense tech conference: companies that claim AI will take white-collar jobs and "screw the military" could lead to "nationalization of our technology."
 
-**Defense contractor compliance:** [[Lockheed Martin]]: "We will follow the president's and the Department of War's direction. We expect minimal impacts." [[General Dynamics]], [[RTX]], [[L3Harris]] declined to comment. Contractors complying despite questionable legal basis — same pattern as DEI certification removal last year. Franklin Turner (govt contracts attorney): "the threat is the point... it has already done harm." Jason Workmaster (Miller Chevalier): designation is "highly aggressive" with "high likelihood that DOD would be found not to have the authority." Alan Rozenshtein (UMinn law): "Capitalism and free markets rely on the rule of law. This is the opposite of that."
+Defense contractor compliance: [[Lockheed Martin]]: "We will follow the president's and the Department of War's direction. We expect minimal impacts." [[General Dynamics]], [[RTX]], [[L3Harris]] declined to comment. Contractors complying despite questionable legal basis — same pattern as DEI certification removal last year. Franklin Turner (govt contracts attorney): "the threat is the point... it has already done harm." Jason Workmaster (Miller Chevalier): designation is "highly aggressive" with "high likelihood that DOD would be found not to have the authority." Alan Rozenshtein (UMinn law): "Capitalism and free markets rely on the rule of law. This is the opposite of that."
 
-**Legal authorities:** DOD Supply Chain Risk Authority can bar contractors from using Anthropic in government work but likely cannot ban it from their entire business. FASCSA requires specific steps (opportunity to respond, congressional notification) that haven't been publicly satisfied. Precedent: FASCSA used last year to bar intelligence agencies from [[Acronis AG]] (Swiss cybersecurity).
+Legal authorities: DOD Supply Chain Risk Authority can bar contractors from using Anthropic in government work but likely cannot ban it from their entire business. FASCSA requires specific steps (opportunity to respond, congressional notification) that haven't been publicly satisfied. Precedent: FASCSA used last year to bar intelligence agencies from [[Acronis AG]] (Swiss cybersecurity).
 
-**OpenAI NATO expansion:** [[OpenAI]] considering contract to deploy on [[NATO]]'s unclassified networks. [[Sam Altman]] initially told company meeting it was "all NATO classified networks" — corrected to unclassified. Pentagon deal now includes explicit language that AI won't be used by [[NSA]]. Altman on Pentagon deal: "a complex, but right decision with extremely difficult brand consequences."
+OpenAI NATO expansion: [[OpenAI]] considering contract to deploy on [[NATO]]'s unclassified networks. [[Sam Altman]] initially told company meeting it was "all NATO classified networks" — corrected to unclassified. Pentagon deal now includes explicit language that AI won't be used by [[NSA]]. Altman on Pentagon deal: "a complex, but right decision with extremely difficult brand consequences."
 
-**OpenAI defends Anthropic:** Connie LaRossa (OpenAI national security policy) at Aspen Digital: "Our red lines were the same as Anthropic's... We are actually working to have the secure risk designation removed from Anthropic. That shouldn't be applied to a U.S. industry counterpart with such an important tool."
+OpenAI defends Anthropic: Connie LaRossa (OpenAI national security policy) at Aspen Digital: "Our red lines were the same as Anthropic's... We are actually working to have the secure risk designation removed from Anthropic. That shouldn't be applied to a U.S. industry counterpart with such an important tool."
 
-**[[State Department]]** switching to [[OpenAI]] following Trump's 6-month phaseout order.
+[[State Department]] switching to [[OpenAI]] following Trump's 6-month phaseout order.
 
 *Sources: Reuters (Mar 3-4)*
 
@@ -212,21 +212,21 @@ Three developments shifted the dynamic:
 
 A 1,600-word internal memo from [[Dario Amodei]] to Anthropic employees leaked publicly. Key claims:
 
-**On OpenAI's safeguards:** Dario characterized OpenAI's safety provisions as *"maybe 20% real, but 80% safety theater"* — a classifier layer (courtesy of [[Palantir]]) that flags certain applications and denies some, but which he says would be *"easily overridden."* The Pentagon can ask the models to do whatever it wants; OpenAI has a safety layer on top (essentially model refusals). Dario says Anthropic was offered the same arrangement and refused.
+On OpenAI's safeguards: Dario characterized OpenAI's safety provisions as *"maybe 20% real, but 80% safety theater"* — a classifier layer (courtesy of [[Palantir]]) that flags certain applications and denies some, but which he says would be *"easily overridden."* The Pentagon can ask the models to do whatever it wants; OpenAI has a safety layer on top (essentially model refusals). Dario says Anthropic was offered the same arrangement and refused.
 
-**Palantir's pitch:** Dario claims [[Palantir]] told him directly: *"You have some unhappy employees. You need to offer them something that placates them or makes what is happening invisible to them. That's the service we provide."*
+Palantir's pitch: Dario claims [[Palantir]] told him directly: *"You have some unhappy employees. You need to offer them something that placates them or makes what is happening invisible to them. That's the service we provide."*
 
-**Cloud vs on-device:** The Atlantic reported the Pentagon offered to keep AI models in the cloud, not on-device in weapons. [[OpenAI]] touted this safeguard. Anthropic's view: if the model is making battlefield decisions from the cloud, that's *"a distinction without a difference."*
+Cloud vs on-device: The Atlantic reported the Pentagon offered to keep AI models in the cloud, not on-device in weapons. [[OpenAI]] touted this safeguard. Anthropic's view: if the model is making battlefield decisions from the cloud, that's *"a distinction without a difference."*
 
-**Autonomous weapons:** Dario notes human-in-the-loop is currently Pentagon *policy*, not law. The Department of War claims it's law. Dario: *"Policy can be changed unilaterally"* — meaning the constraint is not durable.
+Autonomous weapons: Dario notes human-in-the-loop is currently Pentagon *policy*, not law. The Department of War claims it's law. Dario: *"Policy can be changed unilaterally"* — meaning the constraint is not durable.
 
-**On OpenAI's motives:** *"The main reason OpenAI accepted these terms and that we did not is that they cared about placating employees. We, on the other hand, actually cared about preventing abuses."*
+On OpenAI's motives: *"The main reason OpenAI accepted these terms and that we did not is that they cared about placating employees. We, on the other hand, actually cared about preventing abuses."*
 
-**Political donations:** Dario claims the real reason the DoW/Trump administration dislikes Anthropic: *"We haven't donated to Trump. [[Greg Brockman]], OpenAI's president, has donated a lot, around $25 million."*
+Political donations: Dario claims the real reason the DoW/Trump administration dislikes Anthropic: *"We haven't donated to Trump. [[Greg Brockman]], OpenAI's president, has donated a lot, around $25 million."*
 
-**On OpenAI employees:** *"Due to selection effects, they're sort of a gullible bunch."* OpenAI employees pushed back publicly.
+On OpenAI employees: *"Due to selection effects, they're sort of a gullible bunch."* OpenAI employees pushed back publicly.
 
-**Dario's retraction** (~Mar 5-6): *"That memo probably shouldn't have been published and it was a difficult day for the company. I apologize for the tone. It does not reflect my careful or considered views."*
+Dario's retraction (~Mar 5-6): *"That memo probably shouldn't have been published and it was a difficult day for the company. I apologize for the tone. It does not reflect my careful or considered views."*
 
 *Sources: leaked memo (reported by AI Explained, ~Mar 6); Atlantic (cloud vs on-device reporting)*
 
@@ -238,7 +238,7 @@ The Washington Post reported that [[Claude]], deployed inside a [[Palantir]] sys
 
 This may not violate Anthropic's terms of service — the DoW's 6-month phaseout period means Claude remains authorized for use. But it undercuts the clean narrative of Anthropic as the lab that drew the line on military AI: their model is actively being used for targeting in a war zone, under the terms they originally agreed to before the dispute.
 
-Per Ross Anderson's sourcing: Claude is now **deeply integrated** operationally into Pentagon classified systems after only ~6 months. [[Pete Hegseth|Hegseth]], who reportedly has "no love" for [[Dario Amodei]], nonetheless told officials: **"we need Claude."**
+Per Ross Anderson's sourcing: Claude is now deeply integrated operationally into Pentagon classified systems after only ~6 months. [[Pete Hegseth|Hegseth]], who reportedly has "no love" for [[Dario Amodei]], nonetheless told officials: "we need Claude."
 
 *Source: Washington Post (~Mar 6, reported by AI Explained)*
 
@@ -261,6 +261,16 @@ Per Ross Anderson's sourcing: Claude is now **deeply integrated** operationally 
 ## Revenue update (Mar 6)
 
 [[Anthropic]] revenue has doubled since the start of 2026: $9B → $20B run rate. The Pentagon backlash is accelerating consumer and enterprise adoption simultaneously.
+
+---
+
+## June 5, 2026 — NSPM-11 codifies the Pentagon's position
+
+Three months after the supply-chain-risk designation, the [[Donald Trump|Trump]] administration hardened the dispute into national-security policy. On June 5, 2026, the President signed National Security Presidential Memorandum NSPM-11, "AI in the National Security Enterprise," directing the [[Pete Hegseth|Secretary of War]], the Director of National Intelligence, and other agency heads to accelerate AI adoption, streamline procurement, and revoke Biden-era guardrails. The operative clause for this dispute: agencies must pursue "termination for default or for convenience" of contracts with AI companies that have "repeatedly demonstrated a pattern of conduct" inconsistent with the memo — vendors that restrict how the government uses their models. The memo does not name [[Anthropic]], but it is widely read as the codification of the Anthropic fight; it pairs the termination order with a "strictly limited waiver" process to keep a contract where "necessary to responsibly steward United States national security" (reportedly the mechanism keeping [[Claude]] at the [[NSA]]). It also orders [[Pete Hegseth|Hegseth]] to revise DoDD 3000.09 (Autonomy in Weapons Systems) within 90 days — the directive at the center of Anthropic's autonomous-weapons red line.
+
+NSPM-11 converts what had been an ad hoc procurement fight into standing policy: the "all lawful use" demand is now an executive instruction with a contract-termination trigger, not a one-off Pentagon position. It is a distinct instrument from the June 12 [[Export controls#First deployed-model export control — Anthropic Fable 5 / Mythos 5 (Jun 12, 2026)|Commerce export ban]] on [[Claude Fable 5]] / [[Claude Mythos|Mythos 5]] (military-use governance vs. export control), but both are fronts in the same widening Anthropic-administration conflict. There is no MOU resolving either — the government acts through unilateral directives, Anthropic through litigation and negotiation.
+
+*Sources: [White House Fact Sheet, "President Donald J. Trump Signs Historic Directive on AI in the National Security Enterprise"](https://www.whitehouse.gov/fact-sheets/2026/06/fact-sheet-president-donald-j-trump-signs-historic-directive-on-ai-in-the-national-security-enterprise/), Jun 2026; [EPIC](https://epic.org/white-house-publishes-national-security-presidential-memorandum-removing-guardrails-on-ai/); [Crowell & Moring](https://www.crowell.com/en/insights/client-alerts/national-security-memorandum-aims-to-accelerate-deployment-of-ai-and-streamline-procurement-aligned-to-administration-policies/); [Breaking Defense](https://breakingdefense.com/2026/06/trump-memo-on-ai-aims-to-avoid-repeat-of-anthropic-debacle/); [Small Wars Journal](https://smallwarsjournal.com/2026/06/08/speed-over-caution-what-nspm-11-means/).*
 
 ---
 
