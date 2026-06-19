@@ -72,7 +72,10 @@ charting_app/workspace.json
  # test_api.py
 
 # One-off utility scripts (keep locally, don't commit)
-check_*.py
+# check_*.py is root-only: committed check tools live in scripts/check_*.py and must track normally
+/check_*.py
+# scripts/diagnostics/ is a scratch folder — keep its one-off check_* scripts ignored
+scripts/diagnostics/check_*.py
 cleanup_*.py
 verify_*.py
 test_*.py
