@@ -186,7 +186,7 @@ The deal effectively lets Roku holders crystallize the platform-economics bull c
 
 Three structural reads the facts support:
 
-1. **This is a deal-arb name, not a CTV-platform name, until H1 2027.** The investment question collapsed on June 15 from "does platform monetization compound fast enough to justify the multiple?" to "does this specific merger close, and at what realized FOXA-linked value?" Because ~40% of consideration is stock, Roku holders are now partly long FOXA — and FOXA just took a ~−10σ hit. The position is a bet on deal completion *and* Fox's post-deal equity, not on Roku's ad business in isolation.
+1. **This is a deal-arb name, not a CTV-platform name, until H1 2027.** The investment question collapsed on June 15 from "does platform monetization compound fast enough to justify the multiple?" to a [[Merger Arbitrage|merger-arbitrage]] question: does this specific merger close, and at what realized FOXA-linked value? Because ~40% of consideration is stock, Roku holders are now partly long FOXA — and FOXA just took a ~−10σ hit. The position is a bet on deal completion *and* Fox's post-deal equity, not on Roku's ad business in isolation.
 
 2. **The bid validated the platform thesis at the moment it was being proven.** Roku reached 100M households and turned GAAP-profitable with record FCF in Q1 2026 — the operating-leverage inflection the bull case always promised. Fox is paying a ~28% premium to acquire a distribution layer (44% of US CTV hours) precisely as Roku's standalone economics stopped being speculative. The acquirer captured the inflection; standalone holders get it crystallized as cash-plus-stock instead of as a re-rate.
 
@@ -209,6 +209,7 @@ Three structural reads the facts support:
 ## Related
 
 - [[Fox Corporation]] — pending acquirer (June 2026)
+- [[Merger Arbitrage]] — the framework for the now-dominant deal-close/spread question
 - [[Tubi]] — Fox's FAST service, combines with The Roku Channel post-deal
 - [[CTV advertising]] — core monetization engine
 - [[Digital Advertising]] — parent ad-spend cycle

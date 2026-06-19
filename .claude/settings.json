@@ -18,7 +18,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "python C:/Users/klein/financial-charts/.claude/scripts/quick_compliance_check.py",
+            "command": "python \"$CLAUDE_PROJECT_DIR/.claude/scripts/quick_compliance_check.py\"",
             "timeout": 15
           }
         ]
@@ -29,12 +29,12 @@
         "hooks": [
           {
             "type": "command",
-            "command": "python C:/Users/klein/financial-charts/.claude/scripts/check_daily_summary.py",
+            "command": "python \"$CLAUDE_PROJECT_DIR/.claude/scripts/check_daily_summary.py\"",
             "timeout": 10
           },
           {
             "type": "command",
-            "command": "python C:/Users/klein/financial-charts/.claude/scripts/check_tech_changelog.py",
+            "command": "[ -f \"$CLAUDE_PROJECT_DIR/.claude/scripts/check_tech_changelog.py\" ] && python \"$CLAUDE_PROJECT_DIR/.claude/scripts/check_tech_changelog.py\" || true",
             "timeout": 10
           }
         ]
