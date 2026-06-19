@@ -1,0 +1,17 @@
+name: Hotels and lodging
+primary: MAR
+prefix: hotels-cluster
+threshold: 0.5
+window_end: 2026-06-18
+history_start: 2021-01-01
+
+groups:
+  cluster:                      # candidate: asset-light hotel franchisors
+    color: "#2962FF"
+    tickers: [MAR, HLT, H, WH, CHH]
+  travel:                       # the other validated travel cyclicals (airlines / cruises / OTAs)
+    color: "#7E57C2"
+    tickers: [DAL, UAL, CCL, RCL, BKNG, ABNB]
+  etf:                          # leisure/travel ETF (replicability) + discretionary + market
+    color: "#9E9E9E"
+    tickers: [PEJ, XLY, SPY]

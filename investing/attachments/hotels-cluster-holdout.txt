@@ -1,0 +1,22 @@
+Hotels and lodging HOLDOUT TEST
+Cohort: MAR, HLT, H, WH, CHH (N=5)
+Window: 2y, split temporally at midpoint
+Train: 2024-06-18 -> 2025-06-18 (58 obs)
+Test:  2025-06-18 -> 2026-06-18 (160 obs)
+
+--- TRAIN HALF (older) ---
+Intra-correlation:    0.8474
+PC1 explained var:    87.92%
+Pairwise range:       [0.723, 0.938]
+
+--- TEST HALF (newer) ---
+Intra-correlation:    0.5838
+PC1 explained var:    67.17%
+Pairwise range:       [0.360, 0.825]
+
+--- STABILITY DIAGNOSTICS ---
+Intra-corr delta:     -0.2636   (test - train)
+PC1 variance delta:   -20.75pp
+PC1 loadings corr:    0.9321    (1.0 = identical factor structure)
+
+VERDICT: WEAKENED — test/train ratio 0.69 (factor present but eroding)
