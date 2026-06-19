@@ -86,9 +86,10 @@ scripts/diagnostics/*.py
 /identify_*.py
 /try_*.py
 /patch_*.py
-# scripts/one_off/ is a tracked/scratch mix — ignore untracked scratch .py (already-tracked tools
+# scripts/one_off/ is a tracked/scratch mix — ignore untracked scratch .py/.js (already-tracked tools
 # stay tracked; gitignore never untracks) and recover the few referenced in committed docs:
 scripts/one_off/*.py
+scripts/one_off/*.js
 !scripts/one_off/export_portfolio.py
 !scripts/one_off/generate_allw_replication.py
 !scripts/one_off/import_investing_bond_csvs.py
@@ -122,15 +123,9 @@ create_fundamentals_tables.py
 refetch*.log
 batch*.log
 
-# Temporary workspace/JS files
-add_apple_bond.js
-add_bond_to_workspace.js
-add_china_charts.js
-add_china_indices_*.js
-restore_and_cleanup.js
-cleanup_*.js
-find_*.js
-create_bonds_page.js
+# Temporary workspace/JS files: all were one-off scripts under scripts/one_off/ (now covered by
+# scripts/one_off/*.js above) or charting_sandbox/ (sandbox block below). Audited 2026-06-19 — the
+# old broad add_*/cleanup_*/find_* JS patterns masked no real files, so they're consolidated away.
 
 # Config files with potential secrets
 .alphavantage_config.json
