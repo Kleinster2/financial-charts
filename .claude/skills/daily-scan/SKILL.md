@@ -30,6 +30,8 @@ Run these four audit scripts in parallel with the sigma screen — they catch fa
 4. `python scripts/ipo_debut_tracker.py --private-watch` — flags pre-IPO actors with funding rounds older than 120 days.
 5. `python scripts/check_data_freshness.py` — per-ticker freshness: every vault-actor and cluster-config ticker whose last close lags the latest SPY session beyond allowance (3 US sessions / 6 foreign). The global SPY date can look fresh while individual series silently rot — `quick_movers` drops stale names instead of erroring, so a frozen series simply vanishes from screening (the Marsh McLennan legacy series sat three months stale undetected before this check existed, 2026-06). For stale names: `scripts/add_ticker.py TICKER` backfills and self-triages (delisted names report SKIPPED). Vault-actor and cluster-config tickers auto-refresh daily via dynamic groups in `download_all_assets.py`, so a persistent offender is a rename/delisting candidate: verify the corporate action, then add an `EXCLUDED_TICKERS` entry plus a vault "Former ticker" update.
 
+6. `python scripts/check_split_discontinuities.py` — flags un-back-adjusted stock splits: a single-day price break at a clean split ratio (2:1, 10:1, ...) with a sustained level shift, in vault/cluster tickers. This is the failure `check_data_freshness` misses — a split-corrupted series is perfectly fresh but wrong, and it silently inverts cluster verdicts and `quick_movers` (the WFE quartet collapsed from intra 0.82 to 0.42 on an un-adjusted KLA 10:1 split, Jun 2026; `update_market_data.py --lookback N` structurally cannot back-adjust history for a split inside its window). LIKELY-SPLIT rows must be fixed before the series is trusted: `scripts/add_ticker.py TICKER` re-fetches the back-adjusted history (forward splits + most reverse splits), or a manual pre-break ×factor adjustment when the vendor hasn't recorded the split yet (common for fresh reverse splits). REVIEW rows are large clean-factor moves whose level shift isn't clearly sustained (possible split vs genuine crash / vol spike — eyeball). `--all` sweeps the whole DB, not just tracked tickers.
+
 Read the JSON output. If any step failed, note it but continue — stale data is better than no scan.
 
 ### Phase 1: News Sweep (AI-powered)
@@ -80,7 +82,7 @@ Draft the briefing in the exact form that will be both appended to the daily not
 [Table: ticker, move, sigma, trigger, catalyst (if found)]
 
 ## Audit findings
-[Anything from audit_vault_tickers / ipo_debut_tracker / private-watch / check_data_freshness worth surfacing. Stale tickers get the count + worst offenders + the fix command.]
+[Anything from audit_vault_tickers / ipo_debut_tracker / private-watch / check_data_freshness / check_split_discontinuities worth surfacing. Stale tickers get the count + worst offenders + the fix command; LIKELY-SPLIT discontinuities get the ticker + ratio + fix command.]
 
 ## Overnight developments
 [2-4 paragraphs on the most important stories. Lead with vault-thesis-relevant. Exact figures, named sources.]
