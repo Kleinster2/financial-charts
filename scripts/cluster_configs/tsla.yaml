@@ -1,0 +1,17 @@
+name: Automakers and EV
+primary: TSLA
+prefix: autos-ev-cluster
+threshold: 0.5
+window_end: 2026-06-18
+history_start: 2021-01-01
+
+groups:
+  cluster:                      # candidate: US-listed automakers (legacy + EV pure-plays)
+    color: "#2962FF"
+    tickers: [TSLA, GM, F, RIVN, LCID]
+  tech:                         # Mag-7/tech control — does TSLA trade here instead?
+    color: "#7E57C2"
+    tickers: [AAPL, MSFT, NVDA]
+  etf:                          # auto ETF (replicability) + discretionary + nasdaq + market
+    color: "#9E9E9E"
+    tickers: [CARZ, XLY, QQQ, SPY]

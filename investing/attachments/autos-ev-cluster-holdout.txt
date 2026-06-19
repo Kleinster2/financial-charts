@@ -1,0 +1,22 @@
+Automakers and EV HOLDOUT TEST
+Cohort: TSLA, GM, F, RIVN, LCID (N=5)
+Window: 2y, split temporally at midpoint
+Train: 2024-06-18 -> 2025-06-18 (124 obs)
+Test:  2025-06-18 -> 2026-06-18 (216 obs)
+
+--- TRAIN HALF (older) ---
+Intra-correlation:    0.4347
+PC1 explained var:    54.91%
+Pairwise range:       [0.259, 0.691]
+
+--- TEST HALF (newer) ---
+Intra-correlation:    0.2881
+PC1 explained var:    43.14%
+Pairwise range:       [0.198, 0.580]
+
+--- STABILITY DIAGNOSTICS ---
+Intra-corr delta:     -0.1466   (test - train)
+PC1 variance delta:   -11.77pp
+PC1 loadings corr:    0.6592    (1.0 = identical factor structure)
+
+VERDICT: WEAKENED — test/train ratio 0.66 (factor present but eroding)
