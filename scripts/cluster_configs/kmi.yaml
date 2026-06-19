@@ -1,0 +1,17 @@
+name: Midstream and pipelines
+primary: KMI
+prefix: midstream-cluster
+threshold: 0.5
+window_end: 2026-06-18
+history_start: 2020-01-01
+
+groups:
+  cluster:                      # candidate: large-cap US midstream (C-corp + MLP)
+    color: "#2962FF"
+    tickers: [KMI, WMB, OKE, EPD, ET, MPLX]
+  majors:                       # crude pole (validated oil-majors cohort)
+    color: "#7E57C2"
+    tickers: [XOM, CVX, COP, EOG]
+  etf:                          # MLP ETF (replicability) + energy + utilities (yield proxy) + market
+    color: "#9E9E9E"
+    tickers: [AMLP, XLE, XLU, SPY]

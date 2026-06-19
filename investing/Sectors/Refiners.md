@@ -95,6 +95,7 @@ Latest 90-day reading: intra 0.786, PC1 82.3%. The refining-margin factor is dur
 
 - [[Oil and gas equity beta]] — the crude pole (= XLE); refiners merge with it at ~0.49 (only +0.193 distinct)
 - [[Oilfield services]] — the services pole (= OIH); sharply distinct from refiners (+0.403); the value-chain leg that DOES decouple from crude
+- [[Midstream and pipelines]] — the transport pole (= AMLP); the most crude-decoupled leg (its own cluster, also distinct from utilities), completing the four-leg energy value chain
 - [[Valero]], [[Marathon Petroleum]], [[Phillips 66]] — the large independents + integrated-downstream
 - [[PBF Energy]], [[Delek US]], [[HF Sinclair]] — the smaller / mid-cap refiners
 - [[Gulf Coast refiners]] — the USGC heavy-crude complex (the Venezuela-return thesis sub-angle)

@@ -98,6 +98,7 @@ Latest 90-day reading: intra 0.658, PC1 71.6%. Unlike the oil majors (holdout 0.
 
 - [[Oil and gas equity beta]] — the oil-majors cohort (= XLE); the crude pole of the energy value-chain split (services is +0.254 distinct)
 - [[Refiners]] — the downstream leg (= CRAK); sharply distinct from services (+0.403), but unlike services it stays attached to crude (only +0.193 from the majors)
+- [[Midstream and pipelines]] — the transport leg (= AMLP); the fourth energy pole — the most crude-decoupled but loosest/least durable
 - [[Schlumberger]], [[Halliburton]], [[Baker Hughes]] — the diversified big three
 - [[NOV]], [[TechnipFMC]], [[Weatherford]] — equipment / subsea / services
 - [[Transocean]], [[Patterson-UTI]], [[Helmerich & Payne]] — drillers (split offshore vs onshore across the two poles)

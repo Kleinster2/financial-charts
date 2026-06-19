@@ -1,0 +1,22 @@
+Midstream and pipelines HOLDOUT TEST
+Cohort: KMI, WMB, OKE, EPD, ET, MPLX (N=6)
+Window: 2y, split temporally at midpoint
+Train: 2024-06-18 -> 2025-06-18 (58 obs)
+Test:  2025-06-18 -> 2026-06-18 (199 obs)
+
+--- TRAIN HALF (older) ---
+Intra-correlation:    0.8178
+PC1 explained var:    84.83%
+Pairwise range:       [0.765, 0.942]
+
+--- TEST HALF (newer) ---
+Intra-correlation:    0.5574
+PC1 explained var:    63.49%
+Pairwise range:       [0.425, 0.834]
+
+--- STABILITY DIAGNOSTICS ---
+Intra-corr delta:     -0.2604   (test - train)
+PC1 variance delta:   -21.34pp
+PC1 loadings corr:    0.7114    (1.0 = identical factor structure)
+
+VERDICT: WEAKENED — test/train ratio 0.68 (factor present but eroding)

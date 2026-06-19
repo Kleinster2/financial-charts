@@ -95,6 +95,7 @@ The cohort is more durable than copper (holdout 0.82) or lithium (0.77) and riva
 - [[ConocoPhillips]], [[EOG Resources]] — the large-cap E&P members
 - [[Oilfield services]] — the services/equipment leg one step down the value chain; the validated cohort behind this note's "+0.34 services" finding — a distinct activity/capex-cycle factor (= OIH), the crude pole's sibling in the energy value-chain split
 - [[Refiners]] — the downstream leg (= CRAK); only weakly distinct from the majors (+0.193, the crack-spread offset partial), so unlike services it stays attached to the crude pole
+- [[Midstream and pipelines]] — the transport leg (= AMLP); the most crude-decoupled (its own cluster, also distinct from utilities), but the loosest and least durable of the four legs
 - [[Energy and Utilities]] — the broad sector hub
 - [[Vault cluster taxonomy]] — cross-cohort meta-analysis
 

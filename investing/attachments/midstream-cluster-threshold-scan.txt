@@ -1,0 +1,31 @@
+Midstream and pipelines THRESHOLD STABILITY SCAN
+Cohort size: 6
+
+--- ASSIGNMENT TABLE ---
+ threshold  n_subclusters  largest_subcluster_size  cohort_share_in_largest  contamination_count  intact
+      0.20              5                        2                    0.333                    0   False
+      0.25              5                        2                    0.333                    0   False
+      0.30              4                        2                    0.333                    0   False
+      0.35              4                        2                    0.333                    0   False
+      0.40              3                        3                    0.500                    1   False
+      0.45              2                        5                    0.833                    1   False
+      0.50              2                        5                    0.833                    1   False
+      0.55              2                        5                    0.833                    6   False
+      0.60              2                        5                    0.833                    6   False
+      0.65              1                        6                    1.000                    6   False
+      0.70              1                        6                    1.000                    6   False
+
+--- STABLE RANGES (intact cohort, no contamination) ---
+  None — cohort never returns as a clean single cluster at any threshold.
+
+--- VERDICT ---
+BOUNDARY-DEPENDENT: cohort does not form a clean cluster at any threshold tested. Falsification candidate.
+
+--- CONTAMINATION DETAIL (non-cohort names joining the cohort's largest cluster) ---
+  threshold 0.40: + AMLP
+  threshold 0.45: + AMLP
+  threshold 0.50: + AMLP
+  threshold 0.55: + XOM,CVX,COP,EOG,AMLP...
+  threshold 0.60: + XOM,CVX,COP,EOG,AMLP...
+  threshold 0.65: + XOM,CVX,COP,EOG,AMLP...
+  threshold 0.70: + XOM,CVX,COP,EOG,AMLP...
