@@ -93,6 +93,7 @@ The cohort is more durable than copper (holdout 0.82) or lithium (0.77) and riva
 - [[Oil]] — the underlying commodity driver
 - [[ExxonMobil]], [[Chevron]] — the integrated majors (tightest pairs)
 - [[ConocoPhillips]], [[EOG Resources]] — the large-cap E&P members
+- [[Oilfield services]] — the services/equipment leg one step down the value chain; the validated cohort behind this note's "+0.34 services" finding — a distinct activity/capex-cycle factor (= OIH), the crude pole's sibling in the energy value-chain split
 - [[Energy and Utilities]] — the broad sector hub
 - [[Vault cluster taxonomy]] — cross-cohort meta-analysis
 

@@ -1,0 +1,20 @@
+name: Oilfield services
+primary: SLB
+prefix: oilfield-services-cluster
+threshold: 0.5
+window_end: 2026-06-18
+history_start: 2020-01-01
+
+groups:
+  cluster:                      # candidate: diversified oilfield-services + equipment majors
+    color: "#2962FF"
+    tickers: [SLB, HAL, BKR, NOV, FTI, WFRD]
+  majors:                       # validated oil-majors cohort — is OFS distinct from crude-price beta?
+    color: "#7E57C2"
+    tickers: [XOM, CVX, COP, EOG]
+  drillers:                     # adjacent OFS sub-sector (rig utilization vs service intensity)
+    color: "#FF6F00"
+    tickers: [PTEN, HP, RIG]
+  etf:                          # oil-services ETF (replicability test) + energy + market
+    color: "#9E9E9E"
+    tickers: [OIH, XLE, XOP, SPY]
