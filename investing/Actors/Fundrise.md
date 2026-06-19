@@ -1,15 +1,11 @@
 ---
-aliases: [Fundrise Innovation Fund, VCX]
-ticker: VCX
-exchange: NYSE
+aliases: [Fundrise Inc, Rise Companies Corp]
 ---
-#actor #fund #usa
+#actor #private #fintech #usa
 
-Fundrise — real estate and venture investment platform. The Fundrise Innovation Fund listed on [[NYSE]] under VCX on Mar 19, 2026, giving retail investors access to private AI/tech companies. One of the first and largest public venture capital funds on a major U.S. exchange.
+Fundrise — Washington, D.C.-based financial-technology company (founded 2010 by brothers [[Ben Miller]] and Dan Miller; platform launched 2012 as the first US online real-estate investment platform). The largest direct-to-investor alternatives investment manager in the US, it runs a multi-asset platform spanning real estate (eREITs), private credit, and venture capital — ~$3B of investor-equity AUM (~$7B total assets) across 385,000+ active investors as of 2025.
 
-![[vcx-price-chart.png]]
-
-First-day action was wild — NAV ~$19/share, opened ~$31, briefly spiked to $125, closed at $76. By early April trading around $112, a massive premium to NAV reflecting demand for private AI exposure in public wrapper.
+Fundrise is the platform company, distinct from the funds it sponsors. Its venture vehicle, the [[Fundrise Innovation Fund]] (NYSE: VCX), listed in March 2026 as one of the first public retail venture funds; Fundrise also sponsors a family of real-estate eREITs and an income fund. The company itself is private and VC-backed.
 
 ---
 
@@ -17,37 +13,44 @@ First-day action was wild — NAV ~$19/share, opened ~$31, briefly spiked to $12
 
 | Metric | Value |
 |--------|-------|
-| Ticker | VCX ([[NYSE]]) |
-| Listed | Mar 19, 2026 |
-| AUM | $650M+ (at listing) |
-| NAV/share | ~$19 (at listing) |
-| Price | $112.00 (Apr 10, 2026) |
-| Management fee | 1.85% |
-| Active investors | 100,000+ |
-| 2025 return | ~43.5% |
-| Launched | Jul 2022 (as private fund) |
-| Structure | Evergreen/permanent fund (continuously raises capital) |
-| Minimum investment | $10 (pre-listing) |
+| Founded | 2010 (platform launched 2012) |
+| Founders | [[Ben Miller]], Dan Miller |
+| CEO | [[Ben Miller]] |
+| HQ | Washington, D.C. |
+| Status | Private (VC-backed) |
+| Total assets | ~$7B (2025); ~$3B investor equity |
+| Active investors | 385,000+ |
+| Products | eREITs (real estate), private credit, venture ([[Fundrise Innovation Fund]] / VCX) |
 
 ---
 
-## Key holdings
+## Funding history
 
-[[OpenAI]], [[SpaceX]], [[Anthropic]], [[Databricks]], [[Anduril]], [[Ramp]], [[Stripe]] — these 7 represent ~75% of fund.
+Privately held and venture-backed: ~$53.7M raised across 7 rounds (2 seed, 4 early-stage, 1 debt) from 22 investors. The company now funds growth largely from platform revenue and the funds it manages rather than further equity raises.
+
+| Round | Date | Notes |
+|-------|------|-------|
+| Seed | Jan 2011 | First round |
+| Series A | May 2014 | Led by [[Renren]] (Chinese internet group) |
+| Early-stage rounds | 2015–2020 | Investors include [[Goldman Sachs]] |
+| Debt | Jun 2021 | Largest round (conventional debt; amount undisclosed) |
+
+Total raised ~$53.7M; investors include [[Goldman Sachs]] and [[Renren]].
 
 ---
 
 ## Related
 
-### Securities
-- [[Fundrise securities note]] — VCX price history and technicals
+### Funds sponsored
+- [[Fundrise Innovation Fund]] — its listed venture fund (NYSE: VCX)
 
-### Competitors
-- [[Powerlaw Corp]] — competitor (PWRL, pending [[Nasdaq]])
-- [[Destiny Tech100]] — competitor (DXYZ, live on NYSE)
-- [[Robinhood]] — competitor (RVI, filing for NYSE)
+### Peers (retail private-access vehicles)
+- [[Destiny Tech100]] — DXYZ
+- [[Powerlaw Corp]] — PWRL
 
-### Venues
-- [[NYSE]] — listing venue
+### People
+- [[Ben Miller]] — co-founder & CEO
 
-*Created 2026-02-23*
+---
+
+*Created 2026-06-19 (split out from the former "Fundrise" note, which was the VCX fund and is now [[Fundrise Innovation Fund]])*

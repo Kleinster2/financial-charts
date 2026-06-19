@@ -126,7 +126,7 @@ Dynamic adjustment: if average closing price for 10 trading days before a releas
 
 Management fee payable regardless of performance — even if NAV declines. Computed on gross assets (including any borrowed amounts), not net.
 
-For comparison: [[Destiny Tech100]] undisclosed, [[Robinhood]] Ventures 2.0% (1.0% first 6 months), [[Fundrise]] Innovation Fund 1.85%. PWRL is the most expensive among peers.
+For comparison: [[Destiny Tech100]] undisclosed, [[Robinhood]] Ventures 2.0% (1.0% first 6 months), [[Fundrise Innovation Fund]] 1.85%. PWRL is the most expensive among peers.
 
 ---
 
@@ -208,7 +208,7 @@ Precedent: [[Linqto]], a similar platform offering pre-IPO equity to retail inve
 
 ## Competitive landscape
 
-PWRL is one of four major vehicles giving retail investors exposure to private AI/tech companies. See also [[Destiny Tech100]], [[Robinhood]] Ventures (RVI), [[Fundrise]] Innovation Fund (VCX).
+PWRL is one of four major vehicles giving retail investors exposure to private AI/tech companies. See also [[Destiny Tech100]], [[Robinhood]] Ventures (RVI), [[Fundrise Innovation Fund]] (VCX).
 
 | Feature | PWRL | [[Destiny Tech100\|DXYZ]] | RVI ([[Robinhood]]) | VCX (Fundrise) |
 |---------|------|------|-----|-----|
@@ -240,7 +240,7 @@ PWRL would be among the first pure-play listed vehicles for this exposure, but f
 
 ## Investment case
 
-PWRL offers rare retail access to a concentrated book of the highest-profile private AI/defense/space names ([[OpenAI]], [[SpaceX]], [[Anthropic]], [[Anduril]]), run by an [[Akkadian Ventures|Akkadian]] platform with a 15-year secondary-market track record (750+ transactions, zero counterparty defaults); if any holding IPOs, the fund marks up toward its public valuation. Against that, the structure carries the heaviest cost and conflict load among peers — 3.63% total expenses (vs 1.85% for [[Fundrise]]), an adviser that both sets the quarterly NAV and earns fees on it, illiquid holdings priced only monthly, no board seats or distributions, and no underwriter price stabilization on the direct listing. The closed-end wrapper usually trades at a discount to NAV, but PWRL — like [[Destiny Tech100|DXYZ]] — has so far traded at a premium, one that has compressed from ~90% at the debut pop toward ~14% by mid-June; the [[Linqto]] bankruptcy remains the cautionary precedent for retail private-market vehicles.
+PWRL offers rare retail access to a concentrated book of the highest-profile private AI/defense/space names ([[OpenAI]], [[SpaceX]], [[Anthropic]], [[Anduril]]), run by an [[Akkadian Ventures|Akkadian]] platform with a 15-year secondary-market track record (750+ transactions, zero counterparty defaults); if any holding IPOs, the fund marks up toward its public valuation. Against that, the structure carries the heaviest cost and conflict load among peers — 3.63% total expenses (vs 1.85% for [[Fundrise Innovation Fund]]), an adviser that both sets the quarterly NAV and earns fees on it, illiquid holdings priced only monthly, no board seats or distributions, and no underwriter price stabilization on the direct listing. The closed-end wrapper usually trades at a discount to NAV, but PWRL — like [[Destiny Tech100|DXYZ]] — has so far traded at a premium, one that has compressed from ~90% at the debut pop toward ~14% by mid-June; the [[Linqto]] bankruptcy remains the cautionary precedent for retail private-market vehicles.
 
 ---
 
@@ -262,7 +262,7 @@ PWRL offers rare retail access to a concentrated book of the highest-profile pri
 - [[Nasdaq]] — listing venue
 - [[Destiny Tech100]] — competitor (DXYZ, live on NYSE)
 - [[Robinhood]] — competitor (RVI, filing for NYSE)
-- [[Fundrise]] — competitor (VCX, approved for NYSE, expected Mar 2026)
+- [[Fundrise Innovation Fund]] — competitor (VCX, approved for NYSE, expected Mar 2026)
 - [[Private Market Access]] — concept note on the broader trend
 
 ---

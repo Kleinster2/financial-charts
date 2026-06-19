@@ -202,10 +202,6 @@ Bear:
 
 ## Related
 
-### Securities
-
-- [[Destiny Tech100 securities note]] — DXYZ common stock; closed-end fund, 13.7M float, May 12 close $53.40 after -25.05% void-declaration drawdown
-
 ### Entities
 
 - [[SpaceX]] -- largest holding
@@ -215,7 +211,7 @@ Bear:
 - [[Crypto]] -- fund structure draws comparisons to crypto speculation dynamics
 - [[Private Market Access]] — concept note on the retail private equity trend
 - [[Powerlaw Corp]] — competitor (PWRL, pending Nasdaq)
-- [[Fundrise]] — competitor (VCX, approved for NYSE, expected Mar 2026)
+- [[Fundrise Innovation Fund]] — competitor (VCX, live on NYSE since Mar 2026)
 
 ---
 
@@ -245,7 +241,7 @@ Three distinct reads:
 
 1. **Pre-IPO bid for SpaceX** — investors are willing to pay a 173% premium for 16.2% SpaceX exposure rather than wait for direct access. The framing implies $54.60 × 1.0 (DXYZ price) ÷ 0.162 (SpaceX weight) ≈ $336 of implied SpaceX exposure value per share — versus the fund's stated SpaceX position value. The premium has both gating (SpaceX shares are illiquid) and timing (IPO date uncertain) components, but the magnitude is closer to "blind faith in retail-IPO-fever-priced-in" than to "discount-rate-driven valuation."
 2. **Premium contraction on IPO** — the trade has tail risk on both sides. Tail upside: SpaceX prices the IPO above the $1.75T framework + fund-priced exposure stays high. Tail downside: premium snaps to zero on IPO (NAV ≈ $19.97 vs $54.60 stock) = -63% drawdown immediately.
-3. **The Fundrise VCX competitive overhang** — [[Fundrise]] VCX is approved for NYSE listing March 2026, with similar pre-IPO holdings (SpaceX exposure). VCX is structured at NAV without DXYZ's CEF premium mechanism, which could become an "arb the premium" trade for institutional capital once both vehicles are accessible.
+3. **The Fundrise VCX competitive overhang** — [[Fundrise Innovation Fund]] (VCX) is live on NYSE (since March 2026), with similar pre-IPO holdings (SpaceX exposure). VCX is structured at NAV without DXYZ's CEF premium mechanism, which could become an "arb the premium" trade for institutional capital once both vehicles are accessible.
 
 ### Cross-name read with [[Vault cluster taxonomy]]
 
