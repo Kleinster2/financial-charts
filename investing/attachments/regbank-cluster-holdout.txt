@@ -1,0 +1,22 @@
+Regional banks HOLDOUT TEST
+Cohort: RF, KEY, CFG, HBAN, FITB, MTB (N=6)
+Window: 2y, split temporally at midpoint
+Train: 2024-06-18 -> 2025-06-18 (124 obs)
+Test:  2025-06-18 -> 2026-06-18 (216 obs)
+
+--- TRAIN HALF (older) ---
+Intra-correlation:    0.9115
+PC1 explained var:    92.65%
+Pairwise range:       [0.848, 0.960]
+
+--- TEST HALF (newer) ---
+Intra-correlation:    0.8701
+PC1 explained var:    89.18%
+Pairwise range:       [0.827, 0.909]
+
+--- STABILITY DIAGNOSTICS ---
+Intra-corr delta:     -0.0414   (test - train)
+PC1 variance delta:   -3.47pp
+PC1 loadings corr:    -0.7059    (1.0 = identical factor structure)
+
+VERDICT: STABLE — test/train ratio 0.95 (durable cluster across regimes)

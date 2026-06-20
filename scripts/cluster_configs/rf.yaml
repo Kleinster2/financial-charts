@@ -1,0 +1,17 @@
+name: Regional banks
+primary: RF
+prefix: regbank-cluster
+threshold: 0.5
+window_end: 2026-06-18
+history_start: 2020-01-01
+
+groups:
+  cluster:                      # candidate: mid-cap US regional banks
+    color: "#2962FF"
+    tickers: [RF, KEY, CFG, HBAN, FITB, MTB]
+  money_center:                 # the megabanks — are regionals a distinct factor?
+    color: "#7E57C2"
+    tickers: [JPM, BAC]
+  etf:                          # regional-bank ETF (replicability) + broad financials + market
+    color: "#9E9E9E"
+    tickers: [KRE, XLF, SPY]
