@@ -59,9 +59,9 @@ FOX shows moderate Regional Banks correlation (KRE r = 0.64).
 
 | Segment | Revenue % | Description |
 |---------|-----------|-------------|
-| **Cable Network** | ~55% | Fox News, Fox Business, FS1, FS2 |
-| **Television** | ~35% | Fox broadcast, local stations |
-| **Other** | ~10% | Tubi, Credible |
+| Cable Network | ~55% | Fox News, Fox Business, FS1, FS2 |
+| Television | ~35% | Fox broadcast, local stations |
+| Other | ~10% | Tubi, Credible |
 
 ---
 
@@ -74,7 +74,7 @@ FOX shows moderate Regional Banks correlation (KRE r = 0.64).
 | Revenue share | ~50% of company |
 | Margin | Very high |
 
-**Moat:** Brand loyalty, talent roster, political positioning.
+Moat: Brand loyalty, talent roster, political positioning.
 
 ---
 
@@ -88,7 +88,7 @@ FOX shows moderate Regional Banks correlation (KRE r = 0.64).
 | College Football | Big Ten, Big 12 |
 | NASCAR | Through 2024+ |
 
-**Strategy:** Sports = live content moat.
+Strategy: Sports = live content moat.
 
 ---
 
@@ -102,7 +102,7 @@ FOX shows moderate Regional Banks correlation (KRE r = 0.64).
 | Profitability | First profitable quarter, FQ1 2026; guided 20–25% op margin |
 | Content | Licensed library, originals |
 
-**Strategy:** Not competing with [[Netflix]] — different model. Tubi turned its first profit in FQ1 2026, validating Fox's FAST bet and setting up the [[Roku]] acquisition: Fox intends to run [[Tubi]] and The Roku Channel as **separate** FAST brands, not merge them. See [[Tubi]].
+Strategy: Not competing with [[Netflix]] — different model. Tubi turned its first profit in FQ1 2026, validating Fox's FAST bet and setting up the [[Roku]] acquisition: Fox intends to run [[Tubi]] and The Roku Channel as separate FAST brands, not merge them. See [[Tubi]].
 
 ---
 
@@ -115,7 +115,7 @@ FOX shows moderate Regional Banks correlation (KRE r = 0.64).
 | National Geographic | Fox broadcast |
 | Hulu stake | Local stations |
 
-**Result:** Focused company on news + sports.
+Result: Focused company on news + sports.
 
 ---
 
@@ -126,7 +126,7 @@ FOX shows moderate Regional Banks correlation (KRE r = 0.64).
 | Murdoch Family Trust | ~39% voting |
 | Public | ~61% voting |
 
-**Succession:** [[Lachlan Murdoch]] as CEO after Rupert's reduced role.
+Succession: [[Lachlan Murdoch]] as CEO after Rupert's reduced role.
 
 ---
 
@@ -142,14 +142,14 @@ FOX shows moderate Regional Banks correlation (KRE r = 0.64).
 
 ## Investment case
 
-**Bull:**
+Bull:
 - Fox News cash cow
 - Sports rights locked in
 - Tubi growth (FAST model)
 - World Cup 2026 catalyst
 - Focused strategy post-Disney sale
 
-**Bear:**
+Bear:
 - [[Cord-cutting]] impacts cable
 - Demographic challenges (aging viewers)
 - Legal/reputational risks
