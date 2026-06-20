@@ -26,6 +26,11 @@ The strategic pivot is toward decarbonization: ArcelorMittal is investing in hyd
 
 ---
 
+## Price
+
+![[mt-vs-spy-chart.png]]
+*Normalized total return, MT (NYSE) vs [[SPY]]. Cyclical steel beta — tracks Chinese steel demand and European industrial activity. Equity series added 2026-06-19; MT also appears as a USD bond issuer in cross-border portfolios.*
+
 ## Related
 
 - [[Ukraine]] — operates largest steel plant (Kryvyi Rih)

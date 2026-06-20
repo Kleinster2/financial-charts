@@ -128,6 +128,11 @@ Headcount reduction of ~1,000 roles as part of restructuring. >50% of cost savin
 
 ---
 
+## Price
+
+![[glen-vs-spy-chart.png]]
+*Normalized total return, Glencore (GLEN.L, pence) vs [[SPY]]. Copper + coal + trading cyclical. Equity series added 2026-06-19; Glencore also appears as a USD bond issuer in cross-border portfolios.*
+
 ## Related
 
 - [[Teck Resources]] — sold coal business to Glencore

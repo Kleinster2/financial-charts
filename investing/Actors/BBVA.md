@@ -76,6 +76,11 @@ See [[Venezuela]].
 
 ---
 
+## Price
+
+![[bbva-vs-spy-chart.png]]
+*Normalized total return, BBVA (NYSE ADR) vs [[SPY]]. European-bank beta with a LatAm ([[Mexico]]) and Turkey overlay. Equity series added 2026-06-19 for instrument coverage; BBVA also appears as a USD bond issuer in cross-border portfolios.*
+
 ## Related
 
 - [[Venezuela]] — only major foreign bank with presence
