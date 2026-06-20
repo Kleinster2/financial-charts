@@ -510,7 +510,10 @@ The current patchwork guarantees regulators learn *less* about deployed AI syste
 
 ---
 
-## Kalshi federal-law overlay (May 20, 2026)
+## Kalshi federal-law overlay (May 20 snapshot; chart through Jun 20)
+
+![[ai-regulation-chart.png]]
+*Market-implied probability through 2026 that US federal AI law passes before Jan 1, 2027 (blue) and that the [[Supreme Court]] hears an AI-copyright case before 2027 (red); [[Kalshi]] daily close. The federal-law line peaked near 44% in early February — the height of the [[David Sacks|Sacks]] / [[Michael Kratsios|Kratsios]] preemption push — then faded to 19% by June 20 as the 60-Senate-vote reality set in, with the copyright-SCOTUS line drifting from ~26% to 12%. The prediction market increasingly doubts a federal statute lands before 2027. Custom Kalshi chart, not chart-registry tracked.*
 
 [[Kalshi]]'s KXAILEGISLATION-27 market prices whether AI regulation becomes US federal law before Jan. 1, 2027. At the May 20 API read, the contract last traded at 29c with a 28c / 31c bid-ask, 40,598.82 volume, and 14,409.59 open interest. That makes federal AI law in 2026 a live possibility, but not the base case.
 

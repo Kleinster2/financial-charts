@@ -1,5 +1,7 @@
 ---
 charts:
+  ai-regulation-chart.png:
+    skip: true
   recursive-self-improvement-chart.png:
     skip: true
   sbc-operating-margin-wedge.png:
