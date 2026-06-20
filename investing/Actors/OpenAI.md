@@ -5,7 +5,7 @@ tags: [actor, ai, modellab, usa, private]
 
 # OpenAI
 
-**OpenAI** — the company that made AI a consumer product, then became a $840B private enterprise trying to outspend every competitor to stay on top. Founded in 2015 as a nonprofit research lab by [[Sam Altman]], [[Ilya Sutskever]], [[Greg Brockman]], and others (including [[Elon Musk]], who left the board in 2018), it reorganized into a capped-profit entity in 2019, then completed conversion to a public benefit corporation in October 2025. Revenue tripled from ~$6B to $20B ARR in 2025, driven by [[ChatGPT]]'s 800M+ weekly active users and 35M+ paid subscribers. But the numbers underneath are brutal: $13.5B net loss in H1 2025, gross margins compressing from 40% to 33% as inference costs quadruple, and no path to profitability before 2029. The bull case is distribution dominance — 64% market share in consumer generative AI, 900M+ users, deepening enterprise penetration. The bear case is that [[Anthropic]] is closing the quality gap while burning 14x less cash, [[Google]] is displacing ChatGPT in the Apple ecosystem, and OpenAI's entire safety brain trust has walked out the door. The $110B mega-round (Feb 2026) buys runway but at a valuation ($840B post-money) that demands flawless execution on the $600B infrastructure buildout, the [[Project Stargate]] partnership, and the bet that the personal agent platform — not just the model — becomes the moat.
+**OpenAI** — the company that made AI a consumer product, then became an $852B private enterprise trying to outspend every competitor to stay on top. Founded in 2015 as a nonprofit research lab by [[Sam Altman]], [[Ilya Sutskever]], [[Greg Brockman]], and others (including [[Elon Musk]], who left the board in 2018), it reorganized into a capped-profit entity in 2019, then completed conversion to a public benefit corporation in October 2025. Revenue tripled from ~$6B to $20B ARR in 2025, driven by [[ChatGPT]]'s 800M+ weekly active users and 35M+ paid subscribers. But the numbers underneath are brutal: $13.5B net loss in H1 2025, gross margins compressing from 40% to 33% as inference costs quadruple, and no path to profitability before 2029. The bull case is distribution dominance — 64% market share in consumer generative AI, 900M+ users, deepening enterprise penetration. The bear case is that [[Anthropic]] is closing the quality gap while burning 14x less cash, [[Google]] is displacing ChatGPT in the Apple ecosystem, and OpenAI's entire safety brain trust has walked out the door. The $122B mega-round (closed Apr 1, 2026) buys runway but at a valuation ($852B post-money) that demands flawless execution on the $600B infrastructure buildout, the [[Project Stargate]] partnership, and the bet that the personal agent platform — not just the model — becomes the moat.
 
 ---
 
@@ -471,7 +471,7 @@ Three OpenAI updates landed in the same 48-hour window, all reinforcing the [[Pr
 
 Memory upgrade: [[ChatGPT]] Plus and Pro users now get more personalized continuous responses pulling from past chats, saved memories, files, and Gmail context (where connected). Memory sources are now visible across consumer plans for clearer control and edits.
 
-The cleanest read on GPT-5.5 vs prior: [[OpenAI]]'s default-model cadence has accelerated. [[GPT-5.4]] in March, [[GPT-5.4-Cyber]] in April (cybersecurity variant), now [[GPT-5.5]] Instant in May — three default-model updates in three months. This is the clearest competitive response to [[Anthropic]]'s [[Claude Sonnet]] 4.6 (Feb 17) → [[Claude Opus]] 4.7 (April 23) → [[Claude Mythos]] (training, not yet shipped per [[Mythos]] leak section above) sequence. Both labs are now shipping default-model updates roughly monthly — a step-change vs the quarterly cadence of 2024-2025.
+The cleanest read on GPT-5.5 vs prior: [[OpenAI]]'s model cadence has accelerated. [[GPT-5.4]] in March, [[GPT-5.4-Cyber]] in April plus the full [[GPT-5.5]] (codename [[OpenAI Spud|Spud]]) on April 23 — the same day as [[Claude Opus]] 4.7, a fresh simultaneous-release pair — and now GPT-5.5 Instant as the ChatGPT default in May. This is the clearest competitive response to [[Anthropic]]'s [[Claude Sonnet]] 4.6 (Feb 17) → [[Claude Opus]] 4.7 (April 23) → [[Claude Mythos]] (training, not yet shipped per [[Mythos]] leak section above) sequence. Both labs are now shipping default-model updates roughly monthly — a step-change vs the quarterly cadence of 2024-2025.
 
 ### Brockman: $50B compute spend in 2026 (May 5)
 
@@ -522,6 +522,16 @@ The tension is the burn line. FT reports OpenAI has told investors it expects to
 Jun. 5 prediction-market refresh: the daily-scan cross-venue divergence was stale-state noise. [[Kalshi]]'s before-Jan. 1 2027 leg printed 75c, while [[Polymarket]]'s direct no-2026 leg printed 28.5c, so both venues still price 2026 as the base case but at a cooler roughly 72-75% range. See [[2026 IPO pipeline]] for the Jun. 5 cross-venue refresh.
 
 *Source: [[Financial Times|FT]] article, May 23 2026: https://www.ft.com/content/ae9bb47d-bd1d-473c-b4c5-abae0420cc12.*
+
+---
+
+## June 8, 2026 — confidential S-1 filing
+
+[[OpenAI]] confirmed on June 8, 2026 that it had confidentially submitted a draft registration statement on Form S-1 to the [[SEC]] — a week after [[Anthropic]]'s June 1 filing and three weeks after [[SpaceX]]'s public S-1, completing the trophy trio's entry into the public-market queue. [[Goldman Sachs]], [[Morgan Stanley]], and [[JPMorgan]] are leading the offering. Reported valuation framing runs $730B–$1tn (against the $852B Apr 1 private mark), with a listing targeted as early as September 2026 above $1tn — though OpenAI publicly cautioned the timing is undecided and "it may be a while."
+
+This converts the [[OpenAI#May 23, 2026 — accelerated IPO window and runway math|May 23 accelerated-window leaks]] into a concrete filing, and sharpens the runway framing: of the three trophy issuers, OpenAI is the most runway-dependent — the IPO doubles as a financing event for the ~$600B pre-2030 burn and the [[Project Stargate]] compute commitments. The prediction markets keep its timing the most contested of the three; the [[2026 IPO pipeline]] Kalshi / Polymarket overlays still price a 2026 listing at only ~72-75%, cooler than the near-locked [[SpaceX]] and the confidentially-filed [[Anthropic]].
+
+*Sources: OpenAI confirmation, June 8 2026; AI Weekly; IND Money; CryptoBriefing — June 8–9 2026. Cross-ref: [[2026 IPO pipeline]], [[Anthropic IPO 2026]].*
 
 ---
 
