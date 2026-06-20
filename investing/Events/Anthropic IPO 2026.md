@@ -20,7 +20,7 @@ The filing is confidential, so no financial statements, share count, or price ra
 | Regulator | [[SEC]] (review period before any public S-1) |
 | Expected valuation | Above $1tn (investor anticipation; no price target set) |
 | Share count / price range | Not set |
-| Likely timing | Wall Street debut possible "within a few months," conditional on SEC review + market conditions |
+| Likely timing | Wall Street debut possible "within a few months," conditional on SEC review + market conditions; some reports cite a ~October 2026 Nasdaq target, others (FutureSearch) ~December — Anthropic has set no date |
 | Last private round | $65B Series H closed ≈ May 28, 2026 at $965B post-money — multiple investors say it is likely the final private round |
 | Race position | Ahead of [[OpenAI]] (readying its own confidential filing); behind [[SpaceX]] (public S-1 May 20, targeting ~$1.75tn listing in coming weeks) |
 
@@ -45,6 +45,8 @@ Anthropic's private valuation has risen more than 15-fold in 15 months: a March 
 | 2026 run-rate revenue | >$47bn last month | 5x since start of 2026; up from ~$10bn annual last year |
 | Expected IPO valuation | >$1tn | Investor anticipation; no target set |
 
+Beyond the financial co-leads, the Series H pulled in strategic chip and memory partners — [[Samsung]], [[SK Hynix]], and [[Micron]] — alongside roughly $15bn of previously committed hyperscaler money, including $5bn from [[Amazon]] ([Anthropic, "Series H"](https://www.anthropic.com/news/series-h), May 28 2026). The memory-maker participation ties the raise to the compute-supply chain rather than to pure financial capital, and feeds reported expectations that [[Samsung]] could win AI-chip foundry orders from Anthropic — folding the listing into the same chip-supply story the vault tracks under [[Memory shortage 2025-2026]] and [[Foundry Wars]].
+
 The growth engine is enterprise-first: the coding model [[Claude Code]] and the AI agent [[Claude Cowork]] are the named traction drivers. The cyber model [[Claude Mythos|Mythos]] — being rolled out to US allies including the EU — is the capability story that "spooked governments and financial institutions," sitting alongside the revenue narrative rather than driving near-term sales.
 
 ---
@@ -63,7 +65,7 @@ The filing slots Anthropic into the combined public-market capacity test the vau
 |--------|----------------------|----------------|
 | [[SpaceX]] | Public S-1 filed May 20; pricing as early as June 11 | ~$1.75tn-$2tn target; up to $75B raise |
 | Anthropic | Confidential draft S-1 filed June 1 | >$1tn expected; listing in coming months |
-| [[OpenAI]] | Confidential filing "imminent" per FT | ~$852B recent private mark |
+| [[OpenAI]] | Confidential draft S-1 filed June 8 (FT had flagged it "imminent" on June 1) | ~$852B recent private mark |
 
 The [[2026 IPO pipeline#May 25 Reuters aftermarket screen|Reuters aftermarket screen]] sharpens the risk: even oversubscribed trophy IPOs have underperformed the [[S&P 500]] roughly three-quarters of the time over the past five years, because private investors capture most of the compounding before the public buyer arrives. Anthropic's near-$1tn private mark means the public buyer's margin of safety is already thin.
 
@@ -78,7 +80,7 @@ Anthropic is private, so there is no listed-equity reaction to measure directly 
 ## Watch for
 
 - Public S-1 / amended prospectus filling in financials, share count, and price range (the first hard look at margins and the capacity-obligation drag).
-- [[OpenAI]] confidential filing — the FT says it is imminent; two trillion-dollar AI labs in the queue at once raises the absorption stakes.
+- [[OpenAI]] confidential filing — OpenAI filed its own confidential draft S-1 on June 8 (the FT had flagged it imminent on June 1); two trillion-dollar AI labs are now in the queue at once, raising the absorption stakes.
 - [[SpaceX]] debut (pricing as early as June 11) as the first read on public appetite for the trophy cohort — a weak SpaceX print would pressure the Anthropic and OpenAI timelines.
 - Whether the Series H is in fact the last private round, or whether market conditions push Anthropic back toward private capital.
 - Index fast-entry treatment (the [[SpaceX IPO 2026#Index inclusion — structural rule changes|Nasdaq / FTSE Russell rule changes]]) applied to a >$1tn Anthropic listing.
