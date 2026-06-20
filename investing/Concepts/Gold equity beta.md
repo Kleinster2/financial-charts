@@ -125,6 +125,7 @@ Gold is the second confirmation of the commodity-beta law that [[Copper equity b
 
 ### Adjacent concept notes
 - [[Copper equity beta]] — the first commodity-beta cohort; gold replicates its law
+- [[Precious metals royalties]] — the capital-light gold sibling (FNV/WPM/RGLD/OR); same verdict (= gold/GDX), confirming the commodity-beta law is model-agnostic
 - [[Lithium equity beta]] — the third commodity-beta cohort; the loosest of the family (no spot instrument, cross-region noise)
 - [[Uranium equity beta]] — the fourth; tight + STABLE like gold (both sustained bulls), but the equities sit far from spot (+0.180 wedge vs gold's +0.070)
 - [[Steel and aluminum equity beta]] — the processed-metal control case: "metals" splits into two factors (steel, aluminum), confirming the family is granular to a single commodity

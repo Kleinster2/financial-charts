@@ -1,0 +1,34 @@
+# Precious-metals royalty & streaming — does the capital-light royalty model trade as a factor
+# distinct from the gold miners and the metal, or does it also collapse to gold?
+# Companion to Gold equity beta (where the MINERS = gold, ETF-replicable by GDX). Royalty/streaming
+# companies (FNV/WPM/RGLD/OR) don't mine: they buy future production streams and royalties at fixed
+# cost, so they carry no operating or capital-cost exposure, lower realized vol, portfolio
+# diversification across dozens of mines, and embedded optionality on the metal price and on reserve
+# expansion. The structural question: do they cohere as their OWN factor, distinct from GDX (the gold
+# miners ETF — which HOLDS FNV and WPM as top-10 weights) and from GLD (the metal itself)?
+# The analog-semi parallel applies: a name can sit inside an ETF that does not track it, because the
+# ETF is dominated by a different pole (here, the big miners NEM/AEM/Barrick). If the royalties out-
+# cohere GDX, the business model earns a distinct factor; if they = GDX/GLD, the commodity-beta law is
+# model-agnostic and the metal dominates everything. Four liquid names: FNV (Franco-Nevada, the
+# bellwether), WPM (Wheaton Precious Metals, gold+silver streams), RGLD (Royal Gold), OR (Osisko Gold
+# Royalties, the mid-cap). SAND (Sandstorm) excluded — yfinance download failed twice (2026-06-20).
+name: Precious metals royalties
+primary: FNV
+prefix: royalties-cluster
+threshold: 0.5
+window_end: 2026-06-18
+definition_date: 2026-06-20
+history_start: 2020-01-01
+groups:
+  cluster:
+    color: "#2962FF"
+    tickers: [FNV, WPM, RGLD, "OR"]
+  miners_etf:
+    color: "#26A69A"
+    tickers: [GDX, GDXJ]
+  metal:
+    color: "#FFB300"
+    tickers: [GLD]
+  etf:
+    color: "#9E9E9E"
+    tickers: [SPY]
