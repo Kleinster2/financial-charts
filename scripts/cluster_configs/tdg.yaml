@@ -1,0 +1,17 @@
+name: Aerospace aftermarket
+primary: TDG
+prefix: aero-aftermkt-cluster
+threshold: 0.5
+window_end: 2026-06-18
+history_start: 2020-06-01
+
+groups:
+  cluster:                      # candidate: proprietary aerospace components / aftermarket compounders
+    color: "#2962FF"
+    tickers: [TDG, HEI, HWM, CW]
+  primes:                       # defense primes — are the aftermarket names distinct?
+    color: "#7E57C2"
+    tickers: [LMT, GD]
+  etf:                          # aerospace & defense ETF (replicability) + industrials + market
+    color: "#9E9E9E"
+    tickers: [ITA, XLI, SPY]

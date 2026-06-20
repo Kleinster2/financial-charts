@@ -1,0 +1,22 @@
+Aerospace aftermarket HOLDOUT TEST
+Cohort: TDG, HEI, HWM, CW (N=4)
+Window: 2y, split temporally at midpoint
+Train: 2024-06-18 -> 2025-06-18 (58 obs)
+Test:  2025-06-18 -> 2026-06-18 (199 obs)
+
+--- TRAIN HALF (older) ---
+Intra-correlation:    0.7256
+PC1 explained var:    79.47%
+Pairwise range:       [0.660, 0.800]
+
+--- TEST HALF (newer) ---
+Intra-correlation:    0.5179
+PC1 explained var:    64.27%
+Pairwise range:       [0.328, 0.691]
+
+--- STABILITY DIAGNOSTICS ---
+Intra-corr delta:     -0.2077   (test - train)
+PC1 variance delta:   -15.19pp
+PC1 loadings corr:    0.4499    (1.0 = identical factor structure)
+
+VERDICT: WEAKENED — test/train ratio 0.71 (factor present but eroding)
