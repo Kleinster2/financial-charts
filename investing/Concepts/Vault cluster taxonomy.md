@@ -7,6 +7,8 @@ tags: [concept, framework, cluster-validation, meta-analysis]
 
 Synthesis of cluster-validation findings across the vault's validated and falsified cohorts as of May 2026. Documents what was learned by applying the [[Space pure-plays]] framework to 8 cohorts with matched methodology (1Y window through 2026-05-07, threshold 0.5, identical PCA + factor-decomposition + subset-optimization scripts). The cross-cohort tests revealed structural patterns that recur — useful as a reference when validating new cohorts. Statistically re-validated June 9–10 2026 against a cleaned stock-only null with multiple-testing correction, and extended with a post-definition out-of-sample layer — see the June 2026 re-validation section. For the vocabulary used throughout — cohort (candidate), cluster (verdict), basket (tradeable expression) — see [[Cohort, cluster, basket]].
 
+> [!abstract] Campaign capstone (2026-06-20): [[2026-06-20-cluster-campaign-synthesis]] — the structural law of distinctness, the seven distinct non-ETF factors, the ETF-replicable majority, and the falsification taxonomy, across all 110 logged cohorts. Co-movement is common (96/110 pass the FDR-corrected random-basket null); distinctness is rare (7 cohorts out-cohere every liquid ETF).
+
 ---
 
 ## Cross-cohort comparison (matched methodology)
