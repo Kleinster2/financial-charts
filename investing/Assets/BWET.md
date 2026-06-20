@@ -111,6 +111,7 @@ The comparison is not academic: both ETFs are managed by [[Breakwave Advisors]],
 - [[Hormuz Permanent Risk Premium]] — structural thesis
 - [[Strait of Hormuz]] — chokepoint
 - [[Ras Tanura]] — TD3C loading port
+- [[Tankers]] — the listed crude/product tanker equity cohort (BWET prices the freight rate; the cohort is the distinct equity factor)
 - [[Frontline]] — listed VLCC comparable
 - [[DHT Holdings]] — listed VLCC comparable
 - [[BNO]] — Brent oil ETF flow comparator

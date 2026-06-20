@@ -1,0 +1,30 @@
+Tankers THRESHOLD STABILITY SCAN
+Cohort size: 5
+
+--- ASSIGNMENT TABLE ---
+ threshold  n_subclusters  largest_subcluster_size  cohort_share_in_largest  contamination_count  intact
+      0.20              2                        4                      0.8                    0   False
+      0.25              2                        4                      0.8                    0   False
+      0.30              1                        5                      1.0                    0    True
+      0.35              1                        5                      1.0                    0    True
+      0.40              1                        5                      1.0                    0    True
+      0.45              1                        5                      1.0                    0    True
+      0.50              1                        5                      1.0                    2   False
+      0.55              1                        5                      1.0                    2   False
+      0.60              1                        5                      1.0                    2   False
+      0.65              1                        5                      1.0                    2   False
+      0.70              1                        5                      1.0                    2   False
+
+--- STABLE RANGES (intact cohort, no contamination) ---
+  [0.30, 0.45]  width = 0.15  (WIDE)
+Total stable width: 0.15
+
+--- VERDICT ---
+MODERATELY ROBUST: cohort intact across multiple thresholds but with a finite stable range.
+
+--- CONTAMINATION DETAIL (non-cohort names joining the cohort's largest cluster) ---
+  threshold 0.50: + BOAT,SEA
+  threshold 0.55: + BOAT,SEA
+  threshold 0.60: + BOAT,SEA
+  threshold 0.65: + BOAT,SEA
+  threshold 0.70: + BOAT,SEA

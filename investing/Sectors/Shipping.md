@@ -90,7 +90,7 @@ Full detail: [[Iran conflict supply chain cascade#Container shipping disruption]
 | Western alternatives | Liebherr, Konecranes (long-dated) |
 | Crude tanker rate exposure (ETF) | [[BWET]] — [[Breakwave Advisors]] tanker FFA exposure |
 | Dry bulk rate exposure (ETF) | [[BDRY]] — [[Breakwave Advisors]] dry bulk FFA exposure |
-| Crude tanker rate exposure (equities) | [[Frontline]], [[DHT Holdings]] |
+| Crude tanker rate exposure (equities) | [[Tankers]] cohort — [[Frontline]], [[DHT Holdings]], [[Scorpio Tankers]], [[International Seaways]], [[Teekay Tankers]] |
 
 ---
 
@@ -165,6 +165,7 @@ That gap says the investable shipping thesis is still narrow. The purer rate ins
 
 ## Related
 
+- [[Tankers]] — crude/product tanker equity cohort (validated distinct cluster factor)
 - [[BWET]] — crude tanker shipping ETF
 - [[BDRY]] — dry bulk shipping ETF
 - [[BNO]] — Brent oil ETF flow comparator

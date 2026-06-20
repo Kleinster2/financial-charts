@@ -1,0 +1,14 @@
+name: Tankers
+primary: FRO
+prefix: tankers-cluster
+threshold: 0.5
+window_end: 2026-06-18
+history_start: 2020-01-01
+
+groups:
+  cluster:                      # candidate: listed crude + product tanker owners
+    color: "#2962FF"
+    tickers: [FRO, STNG, INSW, DHT, TNK]
+  etf:                          # shipping ETFs (replicability) + energy + market
+    color: "#9E9E9E"
+    tickers: [BOAT, SEA, XLE, SPY]

@@ -1,0 +1,22 @@
+Tankers HOLDOUT TEST
+Cohort: FRO, STNG, INSW, DHT, TNK (N=5)
+Window: 2y, split temporally at midpoint
+Train: 2024-06-18 -> 2025-06-18 (249 obs)
+Test:  2025-06-18 -> 2026-06-18 (252 obs)
+
+--- TRAIN HALF (older) ---
+Intra-correlation:    0.8327
+PC1 explained var:    86.64%
+Pairwise range:       [0.769, 0.897]
+
+--- TEST HALF (newer) ---
+Intra-correlation:    0.7946
+PC1 explained var:    83.64%
+Pairwise range:       [0.692, 0.886]
+
+--- STABILITY DIAGNOSTICS ---
+Intra-corr delta:     -0.0381   (test - train)
+PC1 variance delta:   -3.00pp
+PC1 loadings corr:    0.9327    (1.0 = identical factor structure)
+
+VERDICT: STABLE — test/train ratio 0.95 (durable cluster across regimes)
