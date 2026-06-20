@@ -1,0 +1,54 @@
+Auto parts retail PERMUTATION TESTS
+Window: 2025-06-26 -> 2026-06-18 (215 obs)
+Candidate cohort: ORLY, AZO, AAP, GPC, LKQ (N=5)
+Observed intra-corr: 0.4466    Observed PC1: 55.99%
+
+--- INDEPENDENCE NULL ---
+Permutations: 10000
+Block size: 1
+Intra-cluster correlation:
+  Null mean:        0.0002
+  Null 95th pct:    0.0363
+  Null 99th pct:    0.0541
+  p-value (right):  0.000100    -> REJECTS independence null at p < 0.001
+PC1 explained variance:
+  Null mean:        23.87%
+  Null 95th pct:    25.80%
+  Null 99th pct:    26.87%
+  p-value (right):  0.000100    -> REJECTS independence null at p < 0.001
+
+--- RANDOM-BASKET NULL ---
+Permutations: 10000
+Universe source: DB prices_long (1094 tickers with >=200 obs in window)
+Pool size: 1038
+Intra-cluster correlation:
+  Null mean:        0.1422
+  Null 95th pct:    0.2716
+  Null 99th pct:    0.3422
+  p-value (right):  0.000600    -> REJECTS random-basket null at p < 0.001
+PC1 explained variance:
+  Null mean:        34.19%
+  Null 95th pct:    43.70%
+  Null 99th pct:    48.75%
+  p-value (right):  0.000700    -> REJECTS random-basket null at p < 0.001
+
+--- VOL-MATCHED NULL ---
+Permutations: 10000
+Universe source: DB prices_long (1094 tickers with >=200 obs in window)
+Pool size: 1038
+Matching: realized-vol rank band +/-5% per member, without replacement
+Intra-cluster correlation:
+  Null mean:        0.1481
+  Null 95th pct:    0.2739
+  Null 99th pct:    0.3379
+  p-value (right):  0.000400    -> REJECTS vol-matched null at p < 0.001
+PC1 explained variance:
+  Null mean:        34.47%
+  Null 95th pct:    43.71%
+  Null 99th pct:    48.35%
+  p-value (right):  0.000500    -> REJECTS vol-matched null at p < 0.001
+
+--- INTERPRETATION ---
+Independence null rejected: the cohort series co-move (necessary, not sufficient).
+Random-basket null rejected: cohort is more cohesive than a random N-pick from the same universe. This is the meaningful pass.
+Vol-matched null rejected: cohesion exceeds random baskets with the SAME volatility profile — the cluster factor is not just shared beta/vol.

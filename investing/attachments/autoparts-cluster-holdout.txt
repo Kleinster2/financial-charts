@@ -1,0 +1,22 @@
+Auto parts retail HOLDOUT TEST
+Cohort: ORLY, AZO, AAP, GPC, LKQ (N=5)
+Window: 2y, split temporally at midpoint
+Train: 2024-06-18 -> 2025-06-18 (124 obs)
+Test:  2025-06-18 -> 2026-06-18 (216 obs)
+
+--- TRAIN HALF (older) ---
+Intra-correlation:    0.3856
+PC1 explained var:    51.76%
+Pairwise range:       [0.225, 0.791]
+
+--- TEST HALF (newer) ---
+Intra-correlation:    0.4465
+PC1 explained var:    55.98%
+Pairwise range:       [0.211, 0.783]
+
+--- STABILITY DIAGNOSTICS ---
+Intra-corr delta:     +0.0609   (test - train)
+PC1 variance delta:   +4.23pp
+PC1 loadings corr:    0.3929    (1.0 = identical factor structure)
+
+VERDICT: STRENGTHENING — test/train ratio 1.16 (basket consolidating; check for regime shift in the train half)

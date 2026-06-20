@@ -1,0 +1,17 @@
+name: Auto parts DIY/DIFM core
+primary: ORLY
+prefix: sub-autoparts
+threshold: 0.5
+window_end: 2026-06-18
+history_start: 2020-01-01
+
+groups:
+  cluster:                      # the premium DIY/DIFM leaders
+    color: "#2962FF"
+    tickers: [ORLY, AZO]
+  laggards:                     # the rest of the parent cohort
+    color: "#7E57C2"
+    tickers: [AAP, GPC, LKQ]
+  etf:                          # retail (replicability) + discretionary + market
+    color: "#9E9E9E"
+    tickers: [XRT, XLY, SPY]

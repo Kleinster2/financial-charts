@@ -1,0 +1,14 @@
+name: Auto parts retail
+primary: ORLY
+prefix: autoparts-cluster
+threshold: 0.5
+window_end: 2026-06-18
+history_start: 2020-01-01
+
+groups:
+  cluster:                      # candidate: listed auto-parts retail & distribution
+    color: "#2962FF"
+    tickers: [ORLY, AZO, AAP, GPC, LKQ]
+  etf:                          # retail ETF (replicability) + discretionary + market
+    color: "#9E9E9E"
+    tickers: [XRT, XLY, SPY]
