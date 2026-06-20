@@ -172,6 +172,10 @@ Heavy issuance on Mag 7 stocks creates vol imbalances = structuring opportunity.
 
 ---
 
+## Offshore / cross-border variants
+
+Beyond the US autocallable market, "structured product" also covers offshore investment-and-insurance wrappers marketed to emerging-market investors for asset protection. The cautionary archetype is Investors Trust — a unit-linked offshore product heavily sold in [[Brazil]] for patrimony shielding, with a multi-year (around eight-year) lock-up and exit penalties (roughly 30% plus a recurring annual charge) that can cost a forced early redeemer well over half of capital. It is the offshore mirror of the domestic COE trap: a seductive wrapper whose real economics favor the distributor, sold rather than bought. See [[Brazilian fixed income]].
+
 ## Related products
 
 - [[SPXFP structured notes]] — rates + equity play
