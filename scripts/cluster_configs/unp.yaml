@@ -1,0 +1,17 @@
+name: Railroads
+primary: UNP
+prefix: railroads-cluster
+threshold: 0.5
+window_end: 2026-06-18
+history_start: 2020-01-01
+
+groups:
+  cluster:                      # candidate: North American Class I railroads
+    color: "#2962FF"
+    tickers: [UNP, CSX, NSC, CP, CNI]
+  freight:                      # adjacent freight/logistics
+    color: "#7E57C2"
+    tickers: [ODFL, UPS, FDX]
+  etf:                          # transports ETF (replicability) + industrials + market
+    color: "#9E9E9E"
+    tickers: [IYT, XLI, SPY]

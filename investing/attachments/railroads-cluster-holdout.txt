@@ -1,0 +1,22 @@
+Railroads HOLDOUT TEST
+Cohort: UNP, CSX, NSC, CP, CNI (N=5)
+Window: 2y, split temporally at midpoint
+Train: 2024-06-18 -> 2025-06-18 (58 obs)
+Test:  2025-06-18 -> 2026-06-18 (199 obs)
+
+--- TRAIN HALF (older) ---
+Intra-correlation:    0.7970
+PC1 explained var:    83.85%
+Pairwise range:       [0.653, 0.928]
+
+--- TEST HALF (newer) ---
+Intra-correlation:    0.6452
+PC1 explained var:    71.77%
+Pairwise range:       [0.495, 0.905]
+
+--- STABILITY DIAGNOSTICS ---
+Intra-corr delta:     -0.1518   (test - train)
+PC1 variance delta:   -12.08pp
+PC1 loadings corr:    -0.0331    (1.0 = identical factor structure)
+
+VERDICT: WEAKENED — test/train ratio 0.81 (factor present but eroding)
