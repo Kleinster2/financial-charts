@@ -1,0 +1,30 @@
+---
+aliases: [Masco, MAS, Masco Corporation]
+tags: [actor, company, industrials, building-products, usa, stub]
+---
+
+# Masco
+
+Masco (NYSE: MAS) is a US building-products maker focused on repair-and-remodel demand — Behr paints (sold largely through [[Home Depot]]) and plumbing brands (Delta, Hansgrohe). A member of the [[Building products]] cohort, in the housing-products pole.
+
+## Quick stats
+
+| Metric | Value |
+|--------|-------|
+| Tickers | MAS (NYSE) |
+| Model | Paints (Behr) + plumbing (Delta) — R&R-weighted |
+| Profile | Late-cycle, repair-and-remodel demand |
+| Peers | Owens Corning (OC), Fortune Brands (FBIN), Allegion (ALLE) |
+
+## Cluster validation
+
+Member of the [[Building products#Cluster validation|building-products cohort]] (1Y through 2026-06-18) — a real-but-not-distinct cohort that splits into two ETF poles. MAS sits in the housing-products pole ([[Masco|MAS]]/[[Owens Corning|OC]]/[[Allegion|ALLE]]/[[A.O. Smith|AOS]]/[[Fortune Brands|FBIN]], internal intra 0.617), which clusters with the homebuilders ETF [[XHB]] — residential R&R/housing beta, not a distinct factor. Full diagnostic in [[Building products]].
+
+## Related
+
+- [[Building products]] — the cohort and theme
+- [[Owens Corning]], [[Fortune Brands]], [[Allegion]], [[A.O. Smith]] — the housing-products pole
+- [[Home Depot]] — key Behr channel
+- [[XHB]] — the homebuilders ETF the pole tracks
+
+*Stub created 2026-06-20 to support [[Building products]]. Expansion candidate: Behr/Home Depot concentration, R&R vs new-construction mix, margins, financials.*

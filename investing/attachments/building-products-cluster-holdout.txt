@@ -1,0 +1,22 @@
+Building products HOLDOUT TEST
+Cohort: CARR, TT, JCI, LII, MAS, OC, ALLE, AOS, FBIN (N=9)
+Window: 2y, split temporally at midpoint
+Train: 2024-06-18 -> 2025-06-18 (58 obs)
+Test:  2025-06-18 -> 2026-06-18 (199 obs)
+
+--- TRAIN HALF (older) ---
+Intra-correlation:    0.6415
+PC1 explained var:    68.68%
+Pairwise range:       [0.401, 0.827]
+
+--- TEST HALF (newer) ---
+Intra-correlation:    0.5230
+PC1 explained var:    58.00%
+Pairwise range:       [0.242, 0.752]
+
+--- STABILITY DIAGNOSTICS ---
+Intra-corr delta:     -0.1185   (test - train)
+PC1 variance delta:   -10.67pp
+PC1 loadings corr:    -0.3696    (1.0 = identical factor structure)
+
+VERDICT: WEAKENED — test/train ratio 0.82 (factor present but eroding)

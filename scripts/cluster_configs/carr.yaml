@@ -1,0 +1,20 @@
+name: Building products
+primary: CARR
+prefix: building-products-cluster
+threshold: 0.5
+window_end: 2026-06-18
+history_start: 2020-06-01
+
+groups:
+  cluster:                      # candidate: GICS building-products manufacturers (HVAC + diversified)
+    color: "#2962FF"
+    tickers: [CARR, TT, JCI, LII, MAS, OC, ALLE, AOS, FBIN]
+  materials:                    # adjacent construction materials (aggregates) — different driver (infra)
+    color: "#7E57C2"
+    tickers: [VMC, MLM]
+  homebuilders:                 # the demand side (housing starts)
+    color: "#26A69A"
+    tickers: [DHI, LEN]
+  etf:                          # homebuilders ETF (replicability) + industrials + market
+    color: "#9E9E9E"
+    tickers: [XHB, XLI, SPY]

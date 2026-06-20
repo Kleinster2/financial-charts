@@ -1,0 +1,17 @@
+name: HVAC sub-cohort
+primary: CARR
+prefix: sub-hvac
+threshold: 0.5
+window_end: 2026-06-18
+history_start: 2020-06-01
+
+groups:
+  cluster:                      # the HVAC pole of the building-products cohort
+    color: "#2962FF"
+    tickers: [CARR, TT, JCI, LII]
+  building_products:            # the rest of the parent cohort (housing-products pole)
+    color: "#7E57C2"
+    tickers: [MAS, OC, ALLE, AOS, FBIN]
+  etf:                          # industrials (replicability) + homebuilders + market
+    color: "#9E9E9E"
+    tickers: [XLI, XHB, SPY]

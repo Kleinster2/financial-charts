@@ -1,0 +1,71 @@
+HVAC sub-cohort CLUSTER ANALYSIS
+Window 1y: 2025-07-08 -> 2026-06-18 (198 obs)
+Window 2y: 2024-07-15 -> 2026-06-18 (257 obs)
+Universe: 12 tickers across 3 groups
+Dendrogram cut threshold: 0.5
+
+--- 1Y INTRA-CLUSTER PAIRWISE CORRELATIONS ---
+Ticker  CARR    TT   JCI   LII
+Ticker                        
+CARR    1.00  0.62  0.60  0.75
+TT      0.62  1.00  0.71  0.66
+JCI     0.60  0.71  1.00  0.48
+LII     0.75  0.66  0.48  1.00
+Average intra-cluster correlation: 0.637
+Range: [0.480, 0.753]
+
+--- AVG GROUP-PAIR CORRELATIONS (1Y) ---
+             cluster  buildin      etf
+    cluster    0.637    0.443    0.581
+building_pr    0.443    0.617    0.578
+        etf    0.581    0.578    0.680
+
+Cluster vs others:
+  cluster vs building_products: 0.443  (intra advantage: +0.194)
+  cluster vs etf       : 0.581  (intra advantage: +0.056)
+
+--- HIERARCHICAL CLUSTERS (1Y, distance threshold 0.5) ---
+  Cluster 1: MAS, OC, ALLE, AOS, FBIN, XHB
+  Cluster 2: CARR, TT, JCI, LII, XLI, SPY
+
+--- CANDIDATE JOIN DISTANCES (1Y, average linkage, distance = 1-|corr|) ---
+ Step     Left  Right Distance         Members
+    1     CARR    LII    0.247        CARR+LII
+    2       TT    JCI    0.291          TT+JCI
+    3 CARR+LII TT+JCI    0.409 CARR+LII+TT+JCI
+
+--- PCA ON CANDIDATE COHORT (1Y) ---
+Explained variance ratio:
+  PC1: 72.86%
+  PC2: 14.36%
+  PC3: 8.18%
+  PC4: 4.60%
+
+PC1 loadings:
+CARR    0.512
+TT      0.513
+JCI     0.476
+LII     0.497
+
+--- PC1 INDEX WEIGHTS (1Y) ---
+PCA is run on standardized daily log returns. Raw PC1-mimic weights scale PC1 loading by inverse realized volatility.
+     PC1 loading Loading weight Ann vol Raw PC1-mimic weight
+CARR       0.512         25.62%  38.45%               22.15%
+TT         0.513         25.68%  28.63%               29.82%
+JCI        0.476         23.82%  30.67%               25.82%
+LII        0.497         24.88%  37.25%               22.20%
+
+--- WEEKLY-RETURN CROSS-CHECK (1Y, async-close robustness) ---
+Weeks: 40   Weekly intra-corr: 0.553 (daily 0.637)   Weekly PC1: 66.8% (daily 72.9%)
+
+--- HISTORICAL TIGHTNESS EVOLUTION (90D ROLLING) ---
+     Avg corr    PC1 Core corr Satellite corr Final join distance
+Date                                                             
+2021    0.691  76.9%     0.692          0.692               0.354
+2022    0.750  81.4%     0.739          0.761               0.305
+2023    0.733  80.2%     0.698          0.767               0.348
+2024    0.568  67.9%     0.501          0.642               0.507
+2025    0.674  75.5%     0.659          0.694               0.358
+2026    0.637  73.0%     0.592          0.671               0.437
+
+Latest 90D: avg corr 0.747, PC1 81.1%, core corr 0.749, satellite corr 0.745, final join distance 0.294
