@@ -96,6 +96,7 @@ Latest 90-day reading: intra 0.410, PC1 53.3%. Biotech is durably loose — neve
 - [[Gilead]], [[Amgen]], [[Vertex]] — the higher-cohesion names (AMGN/VRTX the one ETF-coincident pair)
 - [[Regeneron]], [[Biogen]] — the idiosyncratic singletons
 - [[Eli Lilly]] — the GLP-1 outlier that broke even the pharma cohort
+- [[Athletic footwear and apparel]] — the sibling falsification by idiosyncratic drivers (regime-dependent, where biotech is durably loose)
 - [[Vault cluster taxonomy]] — cross-cohort meta-analysis
 
 ---

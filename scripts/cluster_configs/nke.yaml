@@ -1,0 +1,17 @@
+name: Athletic footwear and apparel
+primary: NKE
+prefix: apparel-cluster
+threshold: 0.5
+window_end: 2026-06-18
+history_start: 2021-10-01
+
+groups:
+  cluster:                      # candidate: athletic/lifestyle footwear & athleisure brands
+    color: "#2962FF"
+    tickers: [NKE, LULU, DECK, ONON, UAA, CROX]
+  apparel:                      # adjacent broad apparel/accessories (different driver)
+    color: "#7E57C2"
+    tickers: [RL, TPR, VFC]
+  etf:                          # retail ETF (replicability) + discretionary + market
+    color: "#9E9E9E"
+    tickers: [XRT, XLY, SPY]

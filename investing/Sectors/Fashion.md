@@ -126,6 +126,7 @@ See [[Saks bankruptcy]], [[Department store decline]], [[Retail apocalypse]].
 - [[Shein]] — ultra-fast fashion disruptor
 - [[Nike]] · [[Adidas]] · [[Lululemon]] — athletic/athleisure
 - [[Puma]] · [[On Running]] · [[Deckers]] — athletic competitors
+- [[Athletic footwear and apparel]] — cluster validation of the athletic-brand names (falsified: retail-discretionary beta, not a distinct factor)
 - [[H&M]] · [[Fast Retailing]] — fast fashion/basics
 - [[Ralph Lauren]] · [[Hugo Boss]] — premium fashion
 - [[Canada Goose]] · [[Brunello Cucinelli]] — luxury outerwear/cashmere

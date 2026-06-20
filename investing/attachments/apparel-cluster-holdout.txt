@@ -1,0 +1,22 @@
+Athletic footwear and apparel HOLDOUT TEST
+Cohort: NKE, LULU, DECK, ONON, UAA, CROX (N=6)
+Window: 2y, split temporally at midpoint
+Train: 2024-06-18 -> 2025-06-18 (58 obs)
+Test:  2025-06-18 -> 2026-06-18 (199 obs)
+
+--- TRAIN HALF (older) ---
+Intra-correlation:    0.6202
+PC1 explained var:    69.01%
+Pairwise range:       [0.402, 0.829]
+
+--- TEST HALF (newer) ---
+Intra-correlation:    0.3718
+PC1 explained var:    47.78%
+Pairwise range:       [0.297, 0.507]
+
+--- STABILITY DIAGNOSTICS ---
+Intra-corr delta:     -0.2484   (test - train)
+PC1 variance delta:   -21.23pp
+PC1 loadings corr:    0.2178    (1.0 = identical factor structure)
+
+VERDICT: REGIME-DEPENDENT — test/train ratio 0.60 (cluster does not survive holdout)
