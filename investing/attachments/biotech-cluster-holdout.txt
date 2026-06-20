@@ -1,0 +1,22 @@
+Big biotech HOLDOUT TEST
+Cohort: GILD, AMGN, VRTX, REGN, BIIB (N=5)
+Window: 2y, split temporally at midpoint
+Train: 2024-06-18 -> 2025-06-18 (124 obs)
+Test:  2025-06-18 -> 2026-06-18 (216 obs)
+
+--- TRAIN HALF (older) ---
+Intra-correlation:    0.3952
+PC1 explained var:    51.72%
+Pairwise range:       [0.302, 0.516]
+
+--- TEST HALF (newer) ---
+Intra-correlation:    0.3487
+PC1 explained var:    48.47%
+Pairwise range:       [0.200, 0.478]
+
+--- STABILITY DIAGNOSTICS ---
+Intra-corr delta:     -0.0465   (test - train)
+PC1 variance delta:   -3.26pp
+PC1 loadings corr:    0.8484    (1.0 = identical factor structure)
+
+VERDICT: STABLE — test/train ratio 0.88 (durable cluster across regimes)
