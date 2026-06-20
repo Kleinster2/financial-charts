@@ -25,14 +25,23 @@ Universe = vault actor tickers + cluster-config tickers (same as
 check_data_freshness.py), intersected with prices_long, minus EXCLUDED_TICKERS
 and macro/index series. Pass --all to scan every ticker in prices_long.
 
+The price heuristic is a SCREEN, not a verdict: a real −44% earnings crash or a
+10x rally pattern-matches a clean split ratio. `--verify-yf` cross-checks each
+flag against yfinance's recorded split history (targeted — only the handful of
+flagged tickers, so it stays cheap) and SUPPRESSES any flag with no recorded
+split in the trailing --verify-months window: that flag is a real move, not an
+un-back-adjusted split. It fails OPEN (keeps the flag) on any yfinance error, so
+it never suppresses a genuine split. /daily-scan runs with --verify-yf.
+
 Usage:
-  python scripts/check_split_discontinuities.py                 # human table
+  python scripts/check_split_discontinuities.py                 # human table (price heuristic only)
+  python scripts/check_split_discontinuities.py --verify-yf     # + yfinance cross-check (suppress real moves)
   python scripts/check_split_discontinuities.py --json          # machine-readable
   python scripts/check_split_discontinuities.py --all           # whole DB, not just tracked
   python scripts/check_split_discontinuities.py --window-days 60
 
-Exit code 1 when any LIKELY-SPLIT is found (cron/CI alert-friendly); REVIEW-only
-or clean exits 0. Part of /daily-scan Phase 0 (see
+Exit code 1 when any LIKELY-SPLIT is found (cron/CI alert-friendly); REVIEW-only,
+SUPPRESSED-only, or clean exits 0. Part of /daily-scan Phase 0 (see
 .claude/skills/daily-scan/SKILL.md). Read-only — never mutates the DB.
 """
 
@@ -74,6 +83,15 @@ def parse_args() -> argparse.Namespace:
                         "volatile to call a split vs normal vol (default 0.08)")
     p.add_argument("--all", action="store_true",
                    help="Scan every ticker in prices_long, not just tracked vault/cluster tickers")
+    p.add_argument("--verify-yf", action="store_true",
+                   help="Cross-check each flag against yfinance's recorded splits and SUPPRESS any "
+                        "flag with no recorded split near the period (it is a real crash/rally that "
+                        "pattern-matches a split ratio, not an un-back-adjusted split). Targeted "
+                        "(only flagged tickers) so it stays cheap; fails open on network errors.")
+    p.add_argument("--verify-months", type=int, default=15,
+                   help="Trailing window (months) of yfinance split history a flag is checked against "
+                        "under --verify-yf (default 15; covers vendor split-date mis-dating like FUBO's "
+                        "3-month offset)")
     p.add_argument("--json", action="store_true", help="Machine-readable output")
     return p.parse_args()
 
@@ -167,6 +185,70 @@ def fix_hint(f: dict) -> str:
             f"(x{f['nearest_factor']}).")
 
 
+def yf_recent_splits(ticker: str, since: dt.date) -> tuple[list[tuple[str, float]], bool]:
+    """yfinance splits for `ticker` on/after `since`.
+
+    Returns (splits, ok) where splits is [(YYYY-MM-DD, factor), ...] and ok is
+    False if the lookup failed (network/parse error) — so the caller can fail
+    OPEN (keep the flag) rather than wrongly suppress a real split.
+    """
+    try:
+        import yfinance as yf  # lazy: only --verify-yf pays the dependency
+        sp = yf.Ticker(ticker).splits
+        if sp is None or len(sp) == 0:
+            return [], True
+        out = []
+        for idx, ratio in sp.items():
+            d = idx.date() if hasattr(idx, "date") else dt.date.fromisoformat(str(idx)[:10])
+            if d >= since:
+                out.append((d.isoformat(), float(ratio)))
+        return out, True
+    except Exception:
+        return [], False
+
+
+# A genuine un-adjusted split sits at (or within vendor mis-dating slack of) the
+# flagged discontinuity. If yfinance's nearest split is FURTHER than this from the
+# flag, the flag is a separate real move and the split itself is elsewhere (and
+# usually already adjusted) -> downgrade to REVIEW rather than cry "fix this split".
+SPLIT_PROXIMITY_DAYS = 45
+
+
+def verify_findings(findings: list[dict], verify_months: int, max_date: str) -> None:
+    """Annotate each finding in place using yfinance's recorded split history:
+      - no recorded split          -> SUPPRESSED (real crash/rally)
+      - split within proximity     -> kept (genuine un-adjusted split)
+      - split only far from flag   -> downgrade LIKELY->REVIEW (separate real move)
+      - lookup failed              -> kept, fail-open
+    """
+    since = dt.date.fromisoformat(max_date[:10]) - dt.timedelta(days=int(verify_months * 30.4))
+    cache: dict[str, tuple[list[tuple[str, float]], bool]] = {}
+    for f in findings:
+        t = f["ticker"]
+        if t not in cache:
+            cache[t] = yf_recent_splits(t, since)
+        splits, ok = cache[t]
+        if not ok:
+            f["yf_verify"] = "check-failed"      # fail open: keep original classification
+            continue
+        if not splits:
+            f["yf_verify"] = "no-split"          # real move -> suppress
+            f["classification"] = "SUPPRESSED"
+            continue
+        flag_date = dt.date.fromisoformat(f["date"])
+        nearest = min(splits, key=lambda s: abs((dt.date.fromisoformat(s[0]) - flag_date).days))
+        gap = abs((dt.date.fromisoformat(nearest[0]) - flag_date).days)
+        f["yf_splits"] = splits
+        f["yf_nearest_split"] = nearest[0]
+        f["yf_split_gap_days"] = gap
+        if gap <= SPLIT_PROXIMITY_DAYS:
+            f["yf_verify"] = "split-confirmed"   # genuine un-adjusted split at the flag
+        else:
+            f["yf_verify"] = "split-distant"     # flag is a separate real move
+            if f["classification"] == "LIKELY-SPLIT":
+                f["classification"] = "REVIEW"
+
+
 def main() -> None:
     try:  # avoid cp1252 mojibake on Windows consoles
         sys.stdout.reconfigure(encoding="utf-8")
@@ -187,22 +269,31 @@ def main() -> None:
     findings = [f for t in sorted(series) if (f := analyze(t, series[t], args))]
     for f in findings:
         f["source"] = universe.get(f["ticker"], "?")
+    if args.verify_yf and findings:
+        verify_findings(findings, args.verify_months, max_date)
     likely = [f for f in findings if f["classification"] == "LIKELY-SPLIT"]
     review = [f for f in findings if f["classification"] == "REVIEW"]
+    suppressed = [f for f in findings if f["classification"] == "SUPPRESSED"]
 
     if args.json:
         print(json.dumps({
             "scan_window_start": cutoff, "scan_window_end": max_date[:10],
-            "tickers_scanned": len(series), "likely_count": len(likely),
-            "review_count": len(review), "likely": likely, "review": review,
+            "tickers_scanned": len(series), "verified_yf": args.verify_yf,
+            "likely_count": len(likely), "review_count": len(review),
+            "suppressed_count": len(suppressed),
+            "likely": likely, "review": review, "suppressed": suppressed,
         }, indent=2))
     else:
         print(f"Split-discontinuity scan: {cutoff} .. {max_date[:10]}  "
               f"({len(series)} tickers{' — whole DB' if args.all else ' — vault+cluster'})")
-        if not likely and not review:
+        if args.verify_yf:
+            print(f"(yfinance cross-check on: {len(suppressed)} flag(s) suppressed as real moves "
+                  f"with no recorded split in the trailing {args.verify_months} months)")
+        if not likely and not review and not suppressed:
             print("Clean — no split-shaped discontinuities in window.")
         if likely:
-            print(f"\nLIKELY SPLITS ({len(likely)}) — un-back-adjusted, fix before trusting the series:")
+            tag = " (yfinance-confirmed)" if args.verify_yf else ""
+            print(f"\nLIKELY SPLITS ({len(likely)}){tag} — un-back-adjusted, fix before trusting the series:")
             print(f"{'ticker':<10} {'date':<11} {'dir':<5} {'ratio':>6} {'~fac':>5} {'facErr':>7} {'lvlShift':>8}  source")
             for f in likely:
                 print(f"{f['ticker']:<10} {f['date']:<11} {f['direction']:<5} {f['ratio']:>6} "
@@ -216,9 +307,20 @@ def main() -> None:
             print(f"\nREVIEW ({len(review)}) — large clean-factor move but level shift not clearly sustained "
                   f"(could be a split, a genuine crash, or a vol spike — eyeball it):")
             for f in review:
+                note = ""
+                if f.get("yf_verify") == "split-distant":
+                    note = (f"  [yf split {f['yf_nearest_split']} is {f['yf_split_gap_days']}d from the flag "
+                            f"— likely a separate real move; the split itself looks already adjusted]")
                 print(f"  {f['ticker']:<10} {f['date']} {f['direction']} ratio {f['ratio']} "
                       f"(~{f['nearest_factor']}, err {f['factor_err']*100:.0f}%, lvlShift {f['level_ratio']}, "
-                      f"noise {f['surrounding_noise']*100:.0f}%)  {f['source']}")
+                      f"noise {f['surrounding_noise']*100:.0f}%)  {f['source']}{note}")
+        if suppressed:
+            print(f"\nSUPPRESSED ({len(suppressed)}) — flagged by the price heuristic but yfinance records "
+                  f"NO split in the trailing {args.verify_months} months: a real crash/rally that matches a "
+                  f"split ratio, not an un-back-adjusted split. Left as-is:")
+            for f in suppressed:
+                print(f"  {f['ticker']:<10} {f['date']} {f['direction']} ratio {f['ratio']} "
+                      f"(~{f['nearest_factor']})  {f['source']}")
 
     sys.exit(1 if likely else 0)
 
