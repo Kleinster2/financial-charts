@@ -455,6 +455,18 @@ EU criticism (Sacks): "Bad case of main character syndrome" — when EU talks ab
 
 ---
 
+## US national-security AI directives (2026)
+
+A separate federal track from the state-preemption push above: the [[Donald Trump|Trump]] administration's national-security AI policy, which collided directly with [[Anthropic]] in mid-2026.
+
+- [[NSPM-11]] (National Security Presidential Memorandum 11, June 5 2026) — "AI in the National Security Enterprise." Accelerates military/intelligence AI adoption, revokes Biden-era guardrails, and orders "termination for default or for convenience" of contracts with AI vendors that restrict government use. Read as the codification of the [[Pentagon AI access dispute 2026|Pentagon's fight with Anthropic]].
+- A pre-release-review executive order requiring AI labs to hand new models to the government 30 days before general release. Reporting indicates that days after it, officials directed [[CAISI]] (the [[Commerce Department|Commerce]]/NIST Center for AI Standards and Innovation, formerly the US AI Safety Institute) to stop publishing its model evaluations.
+- The [[Export controls#First deployed-model export control — Anthropic Fable 5 / Mythos 5 (Jun 12, 2026)|June 12 Commerce export-control ban]] on [[Claude Fable 5]] / [[Claude Mythos|Mythos 5]] — the first export control applied to a deployed US model.
+
+Together these mark a shift in US AI governance from a state-vs-federal consumer-protection debate toward national-security-driven federal control of model access and use. [[CAISI]] is the cooperative evaluation channel (a mutual MOU); [[NSPM-11]] and the export ban are the coercive ones (unilateral directives).
+
+---
+
 ## The mechanism design critique (Fryer, Mar 2026)
 
 [[Roland Fryer]] ([[Harvard]], [[Manhattan Institute]] senior fellow, founder of Equal Opportunity Ventures) argues in the WSJ (Mar 20, 2026) that current AI regulation is built on the wrong model: more surveillance, more audits, more inspectors. The economics literature on asymmetric information — starting with Baron-Myerson (1982) — shows this intuition is wrong.
@@ -547,6 +559,8 @@ The company-specific litigation layer is harsher for [[OpenAI]] than the Supreme
 - [[Trump II]] — federal AI policy direction
 - [[David Sacks]] — leading federal preemption push
 - [[Michael Kratsios]] — US CTO, co-leading preemption effort
+- [[NSPM-11]] — national-security AI memorandum (June 2026), contract-termination trigger
+- [[CAISI]] — US AI model-evaluation body (formerly the AI Safety Institute)
 
 ### International
 - [[OECD]] — AI Principles (46 signatories)
