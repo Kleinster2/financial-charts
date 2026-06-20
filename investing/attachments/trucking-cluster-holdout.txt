@@ -1,0 +1,22 @@
+Trucking and LTL HOLDOUT TEST
+Cohort: ODFL, SAIA, XPO, KNX, WERN, ARCB (N=6)
+Window: 2y, split temporally at midpoint
+Train: 2024-06-18 -> 2025-06-18 (58 obs)
+Test:  2025-06-18 -> 2026-06-18 (199 obs)
+
+--- TRAIN HALF (older) ---
+Intra-correlation:    0.6685
+PC1 explained var:    73.40%
+Pairwise range:       [0.304, 0.878]
+
+--- TEST HALF (newer) ---
+Intra-correlation:    0.7420
+PC1 explained var:    78.58%
+Pairwise range:       [0.571, 0.853]
+
+--- STABILITY DIAGNOSTICS ---
+Intra-corr delta:     +0.0735   (test - train)
+PC1 variance delta:   +5.19pp
+PC1 loadings corr:    0.6249    (1.0 = identical factor structure)
+
+VERDICT: STRENGTHENING — test/train ratio 1.11 (basket consolidating; check for regime shift in the train half)

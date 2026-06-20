@@ -1,0 +1,22 @@
+Life science tools HOLDOUT TEST
+Cohort: TMO, DHR, A, MTD, WAT, IQV, RVTY (N=7)
+Window: 2y, split temporally at midpoint
+Train: 2024-06-18 -> 2025-06-18 (124 obs)
+Test:  2025-06-18 -> 2026-06-18 (216 obs)
+
+--- TRAIN HALF (older) ---
+Intra-correlation:    0.6966
+PC1 explained var:    74.26%
+Pairwise range:       [0.488, 0.871]
+
+--- TEST HALF (newer) ---
+Intra-correlation:    0.6195
+PC1 explained var:    67.62%
+Pairwise range:       [0.463, 0.753]
+
+--- STABILITY DIAGNOSTICS ---
+Intra-corr delta:     -0.0771   (test - train)
+PC1 variance delta:   -6.64pp
+PC1 loadings corr:    0.6706    (1.0 = identical factor structure)
+
+VERDICT: STABLE — test/train ratio 0.89 (durable cluster across regimes)

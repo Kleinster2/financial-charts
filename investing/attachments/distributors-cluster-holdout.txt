@@ -1,0 +1,22 @@
+Industrial distributors HOLDOUT TEST
+Cohort: GWW, FAST, WSO, MSM, AIT (N=5)
+Window: 2y, split temporally at midpoint
+Train: 2024-06-18 -> 2025-06-18 (58 obs)
+Test:  2025-06-18 -> 2026-06-18 (199 obs)
+
+--- TRAIN HALF (older) ---
+Intra-correlation:    0.6903
+PC1 explained var:    75.36%
+Pairwise range:       [0.548, 0.824]
+
+--- TEST HALF (newer) ---
+Intra-correlation:    0.5122
+PC1 explained var:    61.05%
+Pairwise range:       [0.418, 0.579]
+
+--- STABILITY DIAGNOSTICS ---
+Intra-corr delta:     -0.1781   (test - train)
+PC1 variance delta:   -14.31pp
+PC1 loadings corr:    0.5868    (1.0 = identical factor structure)
+
+VERDICT: WEAKENED — test/train ratio 0.74 (factor present but eroding)

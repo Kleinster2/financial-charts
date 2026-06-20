@@ -1,0 +1,17 @@
+name: Trucking and LTL
+primary: ODFL
+prefix: trucking-cluster
+threshold: 0.5
+window_end: 2026-06-18
+history_start: 2020-01-01
+
+groups:
+  cluster:                      # candidate: truckload + less-than-truckload carriers
+    color: "#2962FF"
+    tickers: [ODFL, SAIA, XPO, KNX, WERN, ARCB]
+  rails:                        # adjacent freight mode (different driver)
+    color: "#7E57C2"
+    tickers: [UNP, CSX]
+  etf:                          # transports ETF (replicability) + industrials + market
+    color: "#9E9E9E"
+    tickers: [IYT, XLI, SPY]

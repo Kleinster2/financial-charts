@@ -1,0 +1,14 @@
+name: Life science tools
+primary: TMO
+prefix: lst-cluster
+threshold: 0.5
+window_end: 2026-06-18
+history_start: 2020-01-01
+
+groups:
+  cluster:                      # candidate: life-science tools & diagnostics
+    color: "#2962FF"
+    tickers: [TMO, DHR, A, MTD, WAT, IQV, RVTY]
+  etf:                          # healthcare + medical-devices (is it just medtech?) + market
+    color: "#9E9E9E"
+    tickers: [XLV, IHI, SPY]

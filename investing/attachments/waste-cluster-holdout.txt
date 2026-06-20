@@ -1,0 +1,22 @@
+Waste management HOLDOUT TEST
+Cohort: WM, RSG, WCN, GFL, CWST (N=5)
+Window: 2y, split temporally at midpoint
+Train: 2024-06-18 -> 2025-06-18 (58 obs)
+Test:  2025-06-18 -> 2026-06-18 (199 obs)
+
+--- TRAIN HALF (older) ---
+Intra-correlation:    0.7852
+PC1 explained var:    82.90%
+Pairwise range:       [0.674, 0.894]
+
+--- TEST HALF (newer) ---
+Intra-correlation:    0.5822
+PC1 explained var:    67.17%
+Pairwise range:       [0.448, 0.812]
+
+--- STABILITY DIAGNOSTICS ---
+Intra-corr delta:     -0.2029   (test - train)
+PC1 variance delta:   -15.73pp
+PC1 loadings corr:    0.8302    (1.0 = identical factor structure)
+
+VERDICT: WEAKENED — test/train ratio 0.74 (factor present but eroding)

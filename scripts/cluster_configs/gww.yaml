@@ -1,0 +1,14 @@
+name: Industrial distributors
+primary: GWW
+prefix: distributors-cluster
+threshold: 0.5
+window_end: 2026-06-18
+history_start: 2020-01-01
+
+groups:
+  cluster:                      # candidate: industrial / MRO distributors
+    color: "#2962FF"
+    tickers: [GWW, FAST, WSO, MSM, AIT]
+  etf:                          # industrials (replicability) + market
+    color: "#9E9E9E"
+    tickers: [XLI, SPY]

@@ -1,0 +1,54 @@
+Trucking and LTL PERMUTATION TESTS
+Window: 2025-06-20 -> 2026-06-18 (251 obs)
+Candidate cohort: ODFL, SAIA, XPO, KNX, WERN, ARCB (N=6)
+Observed intra-corr: 0.7421    Observed PC1: 78.60%
+
+--- INDEPENDENCE NULL ---
+Permutations: 10000
+Block size: 1
+Intra-cluster correlation:
+  Null mean:        0.0000
+  Null 95th pct:    0.0313
+  Null 99th pct:    0.0440
+  p-value (right):  0.000100    -> REJECTS independence null at p < 0.001
+PC1 explained variance:
+  Null mean:        20.66%
+  Null 95th pct:    22.34%
+  Null 99th pct:    23.24%
+  p-value (right):  0.000100    -> REJECTS independence null at p < 0.001
+
+--- RANDOM-BASKET NULL ---
+Permutations: 10000
+Universe source: DB prices_long (1094 tickers with >=200 obs in window)
+Pool size: 334
+Intra-cluster correlation:
+  Null mean:        0.1679
+  Null 95th pct:    0.2989
+  Null 99th pct:    0.3615
+  p-value (right):  0.000100    -> REJECTS random-basket null at p < 0.001
+PC1 explained variance:
+  Null mean:        33.42%
+  Null 95th pct:    43.90%
+  Null 99th pct:    49.30%
+  p-value (right):  0.000100    -> REJECTS random-basket null at p < 0.001
+
+--- VOL-MATCHED NULL ---
+Permutations: 10000
+Universe source: DB prices_long (1094 tickers with >=200 obs in window)
+Pool size: 334
+Matching: realized-vol rank band +/-5% per member, without replacement
+Intra-cluster correlation:
+  Null mean:        0.1685
+  Null 95th pct:    0.2818
+  Null 99th pct:    0.3426
+  p-value (right):  0.000100    -> REJECTS vol-matched null at p < 0.001
+PC1 explained variance:
+  Null mean:        32.88%
+  Null 95th pct:    42.37%
+  Null 99th pct:    47.17%
+  p-value (right):  0.000100    -> REJECTS vol-matched null at p < 0.001
+
+--- INTERPRETATION ---
+Independence null rejected: the cohort series co-move (necessary, not sufficient).
+Random-basket null rejected: cohort is more cohesive than a random N-pick from the same universe. This is the meaningful pass.
+Vol-matched null rejected: cohesion exceeds random baskets with the SAME volatility profile — the cluster factor is not just shared beta/vol.

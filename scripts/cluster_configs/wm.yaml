@@ -1,0 +1,14 @@
+name: Waste management
+primary: WM
+prefix: waste-cluster
+threshold: 0.5
+window_end: 2026-06-18
+history_start: 2020-04-01
+
+groups:
+  cluster:                      # candidate: listed solid-waste oligopoly
+    color: "#2962FF"
+    tickers: [WM, RSG, WCN, GFL, CWST]
+  etf:                          # environmental-services ETF (replicability) + industrials + market
+    color: "#9E9E9E"
+    tickers: [EVX, XLI, SPY]
