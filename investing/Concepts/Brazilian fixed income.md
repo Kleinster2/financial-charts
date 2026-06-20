@@ -25,6 +25,7 @@ Chart data unavailable — these are local retail instrument categories, not sin
 | [[COE]] | Certificado de Operações Estruturadas — the BR structured note | High embedded fees, frequent underperformance / default. See [[Structured products]] |
 | Fundos / [[Previdência privada]] (PGBL, VGBL) | Funds and tax-advantaged pension wrappers | High admin fees; most pension funds reportedly lag CDI; the value is illiquidity-enforced discipline |
 | [[FII]] | Listed real-estate funds (Brazilian REITs) | Hard to select; opaque; the best ones are closed |
+| [[Brazilian fixed-income ETFs]] | B3-listed ETFs on Tesouro Selic / IPCA / prefixado (LFTS11, LFTB11, IMAB11…) | Used as a liquid, low-tax cash/duration sleeve; small and less liquid than US FI ETFs |
 
 ## Recurring advisory lessons
 
@@ -35,7 +36,7 @@ Chart data unavailable — these are local retail instrument categories, not sin
 
 ## Related
 
-- Instrument-type notes: [[CDB]], [[Debêntures]], [[CRI]], [[CRA]], [[COE]], [[Previdência privada]], [[FII]]
+- Instrument-type notes: [[CDB]], [[Debêntures]], [[CRI]], [[CRA]], [[COE]], [[Previdência privada]], [[FII]], [[Brazilian fixed-income ETFs]]
 - [[Structured products]] — COE and offshore wrappers
 - [[Aqua Capital]] — retail agribusiness PE FIP distributed via [[XP]]
 - [[JGP]] — credit manager holding BR debentures
