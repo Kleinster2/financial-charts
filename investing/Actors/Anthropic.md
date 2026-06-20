@@ -126,15 +126,37 @@ The filing rides the run-rate arc: annualized revenue rose fivefold since the st
 
 ---
 
+## Leadership
+
+Anthropic was founded in January 2021 by eight researchers who left [[OpenAI]] over differences on safety and direction:
+
+| Person | Role |
+|--------|------|
+| [[Dario Amodei]] | Co-founder, CEO |
+| [[Daniela Amodei]] | Co-founder, President |
+| [[Jared Kaplan]] | Co-founder, Chief Science Officer |
+| [[Jack Clark]] | Co-founder, head of policy |
+| [[Chris Olah]] | Co-founder, interpretability research |
+| Sam McCandlish | Co-founder, research |
+| Tom Brown | Co-founder, engineering (GPT-3 lead at OpenAI) |
+| Ben Mann | Co-founder |
+
+Key later hires: [[Mike Krieger]] ([[Instagram]] co-founder) joined as the first Chief Product Officer in May 2024; [[Jan Leike]], former head of OpenAI's Superalignment team, joined in 2024 to co-lead alignment science. The Amodei siblings' control and the founding team's OpenAI lineage anchor the safety-first posture that runs through the [[Pentagon AI access dispute 2026|Pentagon dispute]] and the [[Export controls|export ban]].
+
+---
+
 ## Funding rounds
 
 | Date | Round | Amount | Valuation | Lead Investors |
 |------|-------|--------|-----------|----------------|
-| Apr 2022 | Seed/Series A | $580M | - | Incl. $500M [[FTX]] |
-| Sep 2023 | Strategic | $1.25B | - | Amazon (start of $4B) |
-| Oct 2023 | Strategic | $500M | - | Google (start of $2B) |
-| Mar 2024 | Strategic | $2.75B | - | Amazon (completing $4B) |
-| Nov 2024 | Strategic | $4B | - | Amazon (now $8B total) |
+| May 2021 | Series A | $124M | $550M | [[Jaan Tallinn]] (+ Dustin Moskovitz, Eric Schmidt) |
+| Apr 2022 | Series B | $580M | - | SBF / Caroline Ellison ([[FTX]], $500M) |
+| May 2023 | Series C | $450M | ~$4.1B | [[Spark Capital]] (+ [[Google]], [[Salesforce]]) |
+| Sep 2023 | Strategic | $1.25B | - | [[Amazon]] (start of $4B) |
+| Oct 2023 | Strategic | $500M | - | [[Google]] (start of $2B) |
+| Feb 2024 | Series D | $750M | $18.4B | [[Menlo Ventures]] |
+| Mar 2024 | Strategic | $2.75B | - | [[Amazon]] (completing $4B) |
+| Nov 2024 | Strategic | $4B | - | [[Amazon]] (now $8B total) |
 | Mar 2025 | Series E | $3.5B | $61.5B | Lightspeed |
 | Mar 2025 | Strategic | $1B | - | Google (now $3B total) |
 | Sep 2025 | Series F | $13B | $183B | Iconiq, [[Fidelity]], Lightspeed, QIA |

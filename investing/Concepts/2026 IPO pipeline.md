@@ -5,7 +5,7 @@ aliases: [IPO pipeline 2026, 2026 IPOs]
 
 # 2026 IPO pipeline
 
-2026 expected to be strongest IPO year since 2021. Renaissance Capital estimates 200-230 US IPOs raising $40-60B, but the real swing factor is now the trophy-private-company supply shock. Mega-deals dominate: [[SpaceX]] moved from a May 20 blank public S-1 to Jun. 3-4 roadshow terms: 555.6M primary Class A shares at an expected $135/share, roughly $75B base gross proceeds before a 15% primary over-allotment, a reported roughly $1.77T valuation, final pricing expected Jun. 11, and trading expected Jun. 12. [[Anthropic]] followed with a confidential draft S-1 on June 1, 2026 (see [[Anthropic IPO 2026]]; valuation anticipated above $1tn), and [[OpenAI]] is preparing its own confidential filing imminently - making 2026 a direct test of how much AI / space scarcity public markets can absorb at once. A Jun. 5 prediction-market refresh keeps the 2026 [[OpenAI]] IPO as the base case, but resolves the daily scan's stale 16.5pp cross-venue divergence.
+2026 expected to be strongest IPO year since 2021. Renaissance Capital estimates 200-230 US IPOs raising $40-60B, but the real swing factor is now the trophy-private-company supply shock. Mega-deals dominate: [[SpaceX]] moved from a May 20 blank public S-1 to Jun. 3-4 roadshow terms: 555.6M primary Class A shares at an expected $135/share, roughly $75B base gross proceeds before a 15% primary over-allotment, a reported roughly $1.77T valuation, final pricing expected Jun. 11, and trading expected Jun. 12. [[Anthropic]] followed with a confidential draft S-1 on June 1, 2026 (see [[Anthropic IPO 2026]]; valuation anticipated above $1tn), and [[OpenAI]] followed with its own confidential draft S-1 on June 8, 2026 (see below) - making 2026 a direct test of how much AI / space scarcity public markets can absorb at once. A Jun. 5 prediction-market refresh keeps the 2026 [[OpenAI]] IPO as the base case, but resolves the daily scan's stale 16.5pp cross-venue divergence.
 
 ---
 
@@ -138,6 +138,14 @@ The resulting pipeline view is sharper: SpaceX sets the supply tone, OpenAI test
 [[Anthropic]] confidentially filed a draft registration statement on Form S-1 with the [[SEC]] on June 1, 2026, four days after closing the $65B Series H. That makes it the second trophy issuer to formally enter the queue after [[SpaceX]] and puts it ahead of [[OpenAI]], which the [[Financial Times]] says is preparing its own confidential filing imminently. Investors anticipate a valuation above $1tn; no share count or price range is set, and a debut could follow within a few months of SEC review. Multiple investors describe the Series H as Anthropic's likely last private round, which is the cleaner signal for the pipeline: the absorption test is no longer hypothetical sequencing but two confirmed confidential filings (SpaceX public, Anthropic confidential) with OpenAI's filing pending. Full event detail and watch list in [[Anthropic IPO 2026]].
 
 *Source: [[Financial Times|FT]] (George Hammond), June 1 2026: https://www.ft.com/content/4f82f41c-24e7-4323-899a-17a04badd29e; corroborated by CNBC, TechCrunch, NPR, Fox Business.*
+
+## June 8 — OpenAI confidential S-1 filing
+
+[[OpenAI]] confirmed on June 8, 2026 that it had confidentially submitted a draft S-1 to the [[SEC]], a week after [[Anthropic]] — completing the trophy trio's entry into the queue ([[SpaceX]] public May 20, Anthropic confidential June 1, OpenAI confidential June 8). [[Goldman Sachs]], [[Morgan Stanley]], and [[JPMorgan]] are leading the offering. Reported valuation framing runs $730B–$1tn (recent private mark ~$852B), with a listing targeted as early as September 2026 above $1tn — though OpenAI said the timing is undecided and "it may be a while." Financial context from the coverage: annualized revenue exited 2025 above $20B against ~$13.1B full-year actual, with heavy losses (a reported ~$1.22 lost per dollar earned in the quarter).
+
+With all three trophy issuers now filed, the absorption test stops being a sequencing hypothetical: public markets face [[SpaceX]] (live), [[Anthropic]], and OpenAI in a single window. OpenAI is the highest-runway-dependency name of the three — its IPO doubles as a compute-commitment financing event — which is why the prediction markets keep its timing the most contested (see the [[Kalshi]] / [[Polymarket]] overlays below). Full corporate detail in [[OpenAI]].
+
+*Sources: OpenAI confirmation, June 8 2026; AI Weekly; IND Money; CryptoBriefing — June 8–9 2026.*
 
 ## AI / Tech
 

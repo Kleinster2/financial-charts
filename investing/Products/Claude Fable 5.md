@@ -111,7 +111,7 @@ Fable 5 converts the [[Claude Mythos|Mythos]] story from a restricted-capability
 
 The timing carries a visible tension. Fable 5 shipped June 9, days after Anthropic publicly urged frontier labs to adopt a "coordinated brake pedal" on AI development and warned about [[Recursive self-improvement]] (its June 4 "When AI builds itself" essay). Releasing its most powerful public model in the same week it called for slowing the frontier is the central read on Anthropic's posture: capability deployment and safety advocacy run in parallel, with the safeguards offered as the reconciling mechanism. This is the commercial face of the same capability that pulled [[Claude Mythos|Mythos]] into the financial-stability perimeter in April, when [[Scott Bessent]] and [[Jerome Powell]] convened major bank CEOs over its cyber risk.
 
-The release lands into a crowded competitive and capital-markets window: [[OpenAI]] is readying [[OpenAI Spud|Spud]], and the [[Anthropic IPO 2026|Anthropic]]/[[OpenAI]]/[[SpaceX]] IPO cohort is converging on late 2026. A premium-priced, capacity-rationed flagship with a June 23 credit cliff is consistent with a model where compute, not demand, is the binding constraint.
+The release lands into a crowded competitive and capital-markets window: [[OpenAI]]'s [[OpenAI Spud|Spud]] already shipped as [[GPT-5.5]] (April 23), and the [[Anthropic IPO 2026|Anthropic]]/[[OpenAI]]/[[SpaceX]] IPO cohort is converging on late 2026. A premium-priced, capacity-rationed flagship with a June 23 credit cliff is consistent with a model where compute, not demand, is the binding constraint.
 
 ---
 
