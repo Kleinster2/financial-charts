@@ -1,0 +1,22 @@
+Chemicals HOLDOUT TEST
+Cohort: LIN, APD, DOW, LYB, CE, EMN (N=6)
+Window: 2y, split temporally at midpoint
+Train: 2024-06-18 -> 2025-06-18 (124 obs)
+Test:  2025-06-18 -> 2026-06-18 (216 obs)
+
+--- TRAIN HALF (older) ---
+Intra-correlation:    0.5873
+PC1 explained var:    66.12%
+Pairwise range:       [0.325, 0.910]
+
+--- TEST HALF (newer) ---
+Intra-correlation:    0.4634
+PC1 explained var:    56.97%
+Pairwise range:       [0.177, 0.862]
+
+--- STABILITY DIAGNOSTICS ---
+Intra-corr delta:     -0.1239   (test - train)
+PC1 variance delta:   -9.14pp
+PC1 loadings corr:    0.3580    (1.0 = identical factor structure)
+
+VERDICT: WEAKENED — test/train ratio 0.79 (factor present but eroding)

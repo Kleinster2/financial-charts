@@ -1,0 +1,54 @@
+Grocers PERMUTATION TESTS
+Window: 2025-06-20 -> 2026-06-18 (251 obs)
+Candidate cohort: KR, ACI, SFM, GO (N=4)
+Observed intra-corr: 0.2868    Observed PC1: 48.33%
+
+--- INDEPENDENCE NULL ---
+Permutations: 10000
+Block size: 1
+Intra-cluster correlation:
+  Null mean:        -0.0001
+  Null 95th pct:    0.0485
+  Null 99th pct:    0.0712
+  p-value (right):  0.000100    -> REJECTS independence null at p < 0.001
+PC1 explained variance:
+  Null mean:        28.94%
+  Null 95th pct:    31.52%
+  Null 99th pct:    33.68%
+  p-value (right):  0.000100    -> REJECTS independence null at p < 0.001
+
+--- RANDOM-BASKET NULL ---
+Permutations: 10000
+Universe source: DB prices_long (1097 tickers with >=200 obs in window)
+Pool size: 339
+Intra-cluster correlation:
+  Null mean:        0.1675
+  Null 95th pct:    0.3366
+  Null 99th pct:    0.4251
+  p-value (right):  0.105989    -> FAILS to reject random-basket null (p >= 0.05)
+PC1 explained variance:
+  Null mean:        39.76%
+  Null 95th pct:    51.64%
+  Null 99th pct:    57.81%
+  p-value (right):  0.103890    -> FAILS to reject random-basket null (p >= 0.05)
+
+--- VOL-MATCHED NULL ---
+Permutations: 10000
+Universe source: DB prices_long (1097 tickers with >=200 obs in window)
+Pool size: 339
+Matching: realized-vol rank band +/-5% per member, without replacement
+Intra-cluster correlation:
+  Null mean:        0.1593
+  Null 95th pct:    0.3274
+  Null 99th pct:    0.4130
+  p-value (right):  0.095290    -> FAILS to reject vol-matched null (p >= 0.05)
+PC1 explained variance:
+  Null mean:        39.56%
+  Null 95th pct:    50.96%
+  Null 99th pct:    57.30%
+  p-value (right):  0.091991    -> FAILS to reject vol-matched null (p >= 0.05)
+
+--- INTERPRETATION ---
+Independence null rejected: the cohort series co-move (necessary, not sufficient).
+Random-basket null NOT rejected: cohort cohesion is indistinguishable from a random N-pick of comparable names. Cluster claim is falsified at conventional significance.
+Vol-matched null NOT rejected: cohesion is explained by shared volatility/beta — the cohort co-moves because its members are similar-risk names, not because of a distinct cluster factor.

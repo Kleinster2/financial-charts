@@ -1,0 +1,14 @@
+name: Chemicals
+primary: LIN
+prefix: chems-cluster
+threshold: 0.5
+window_end: 2026-06-18
+history_start: 2020-01-01
+
+groups:
+  cluster:                      # candidate: industrial gases + commodity/specialty chemicals
+    color: "#2962FF"
+    tickers: [LIN, APD, DOW, LYB, CE, EMN]
+  etf:                          # materials sector ETF (replicability) + market
+    color: "#9E9E9E"
+    tickers: [XLB, SPY]

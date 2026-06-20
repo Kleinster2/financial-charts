@@ -1,0 +1,25 @@
+Chemicals THRESHOLD STABILITY SCAN
+Cohort size: 6
+
+--- ASSIGNMENT TABLE ---
+ threshold  n_subclusters  largest_subcluster_size  cohort_share_in_largest  contamination_count  intact
+      0.20              5                        2                    0.333                    0   False
+      0.25              5                        2                    0.333                    0   False
+      0.30              4                        3                    0.500                    0   False
+      0.35              4                        3                    0.500                    0   False
+      0.40              4                        3                    0.500                    0   False
+      0.45              4                        3                    0.500                    0   False
+      0.50              4                        3                    0.500                    0   False
+      0.55              3                        3                    0.500                    0   False
+      0.60              3                        3                    0.500                    0   False
+      0.65              3                        3                    0.500                    0   False
+      0.70              1                        6                    1.000                    2   False
+
+--- STABLE RANGES (intact cohort, no contamination) ---
+  None — cohort never returns as a clean single cluster at any threshold.
+
+--- VERDICT ---
+BOUNDARY-DEPENDENT: cohort does not form a clean cluster at any threshold tested. Falsification candidate.
+
+--- CONTAMINATION DETAIL (non-cohort names joining the cohort's largest cluster) ---
+  threshold 0.70: + XLB,SPY

@@ -1,0 +1,14 @@
+name: Residential REITs
+primary: AVB
+prefix: resireit-cluster
+threshold: 0.5
+window_end: 2026-06-18
+history_start: 2020-01-01
+
+groups:
+  cluster:                      # candidate: listed apartment REITs
+    color: "#2962FF"
+    tickers: [AVB, EQR, ESS, MAA, UDR, CPT]
+  etf:                          # broad REIT ETF (replicability) + real-estate sector + market
+    color: "#9E9E9E"
+    tickers: [VNQ, XLRE, SPY]

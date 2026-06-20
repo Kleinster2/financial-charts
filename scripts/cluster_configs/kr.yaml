@@ -1,0 +1,14 @@
+name: Grocers
+primary: KR
+prefix: grocers-cluster
+threshold: 0.5
+window_end: 2026-06-18
+history_start: 2020-06-01
+
+groups:
+  cluster:                      # candidate: listed traditional supermarket operators
+    color: "#2962FF"
+    tickers: [KR, ACI, SFM, GO]
+  etf:                          # staples (replicability) + retail + market
+    color: "#9E9E9E"
+    tickers: [XLP, XRT, SPY]
