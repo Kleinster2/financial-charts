@@ -1,6 +1,6 @@
 #actor #company #food #meat #brazil #public
 
-**JBS** (NYSE: JBSAY, [[B3]]: JBSS3) — World's largest meat producer. $77B revenue (2024). Controls 25% of US beef processing. Founded by Jose Batista Sobrinho; now run by sons Wesley and Joesley ([[Batista family]]). Dual-listed NYSE (June 2025) and [[B3]]. Built through BNDES-funded acquisitions — later revealed as corruption scandal.
+**JBS** (NYSE: JBS, [[B3]]: JBSS32 BDR) — World's largest meat producer. ~$86B revenue (2025). Controls 25% of US beef processing. Founded by Jose Batista Sobrinho; now run by sons Wesley and Joesley ([[Batista family]]). Dual-listed via a NYSE direct listing of JBS N.V. Class A shares (June 2025) — which replaced the legacy JBSAY ADR and converted the B3 common (JBSS3) into BDRs (JBSS32). Built through BNDES-funded acquisitions — later revealed as corruption scandal.
 
 ---
 
@@ -8,7 +8,7 @@
 
 | Metric | Value |
 |--------|-------|
-| Ticker | JBSAY (NYSE), JBSS3 ([[B3]]) |
+| Ticker | JBS (NYSE Class A, direct listing Jun 2025), JBSS32 BDR ([[B3]]) |
 | Revenue (2024) | $77.2B (record) |
 | Net income (2024) | $1.8B |
 | EBITDA (2024) | $7.2B (2x YoY) |
@@ -56,6 +56,28 @@
 | 2023 | 72.8 | 2.0 | Beef margin compression |
 | 2024 | **77.2** | 1.8 | Record revenue |
 | Q3 2025 | 22.6 (qtr) | — | +13% YoY |
+
+![[jbs-fundamentals-chart.png]]
+*Revenue and net income, annual (USD).*
+
+![[jbs-sankey.png]]
+*Income-statement flow, latest fiscal year.*
+
+---
+
+## Sector correlation
+
+Daily-return correlation, last ~1 year (JBS has traded directly on the NYSE only since June 2025):
+
+| Benchmark | Correlation |
+|-----------|-------------|
+| [[EWZ]] (Brazil) | 0.44 |
+| [[SPY]] (US) | 0.15 |
+
+Moderate Brazil beta despite the USD listing — JBS is a global protein company with a large North American book, so it trades more on the cattle/protein cycle than on Brazil macro.
+
+![[jbs-vs-ewz-chart.png]]
+*Normalized total return, JBS vs [[EWZ]] since the NYSE listing.*
 
 ---
 
@@ -150,6 +172,9 @@ Via J&F Investimentos:
 ---
 
 ## Related
+
+### Securities
+- [[JBS securities note]] — JBS / JBSS32 instruments, charts
 
 - [[Batista family]] — controlling family
 - [[PicPay]] — family's fintech (IPO Jan 2026)
