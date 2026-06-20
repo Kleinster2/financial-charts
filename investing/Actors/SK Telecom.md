@@ -27,7 +27,49 @@ SK Telecom is an [[Anthropic]] investor and was one of roughly 150 [[Project Gla
 
 ---
 
+## Sector correlation
+
+Daily-return correlation, last ~2 years:
+
+| Benchmark | Correlation |
+|-----------|-------------|
+| EWY (South Korea) | 0.45 |
+| [[SPY]] (US) | 0.18 |
+
+A domestic defensive — moderate Korea-market beta (EWY 0.45) and a low direct US link ([[SPY]] 0.18), as fits a regulated home-market telecom.
+
+![[skm-vs-ewy.png]]
+*SKM vs EWY (iShares MSCI South Korea), normalized total return since 2021.*
+
+---
+
+## Financials
+
+Annual income statement (KRW; SK Telecom reports in won). Revenue is structurally flat (mobile saturation) with thin, variable net margins:
+
+| FY | Revenue | Operating income | Net income |
+|----|---------|------------------|------------|
+| 2025 | ₩17.10T | ₩1.02T | ₩0.41T |
+| 2024 | ₩17.94T | ₩1.69T | ₩1.25T |
+| 2023 | ₩17.61T | ₩1.76T | ₩1.09T |
+| 2022 | ₩17.30T | ₩1.59T | ₩0.91T |
+| 2021 | ₩16.75T | ₩1.43T | ₩2.41T |
+| 2020 | ₩16.09T | ₩1.04T | ₩1.50T |
+
+Revenue of ~₩17T (~$12.5B) is essentially flat across the cycle; the 2025 net-income drop to ₩0.41T marks a weak year at the bottom line. The data vendor's quarterly figures are unreliable for this ADR, so the chart and table use annual data.
+
+![[sk-telecom-fundamentals-chart.png]]
+*Revenue, operating income, and net income, annual (KRW trillion).*
+
+![[sk-telecom-sankey.png]]
+*FY2025 income-statement flow — gross margin ~87%, operating ~6%, net ~2%. Figures are KRW (the chart's "$" labels are a template default).*
+
+---
+
 ## Related
+
+### Securities
+- [[SK Telecom securities note]] — SKM / 017670 instruments, price + benchmark charts
 
 - [[SK Group]] — parent
 - [[SK Hynix]] — sibling (DRAM/NAND)

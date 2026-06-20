@@ -2,6 +2,15 @@
 charts:
   ai-regulation-chart.png:
     skip: true
+  sk-telecom-fundamentals-chart.png:
+    skip: true
+  sk-telecom-sankey.png:
+    skip: true
+  skm-vs-ewy.png:
+    tickers: SKM,EWY
+    normalize: true
+    start: 2021-01-01
+    primary: SKM
   recursive-self-improvement-chart.png:
     skip: true
   sbc-operating-margin-wedge.png:
