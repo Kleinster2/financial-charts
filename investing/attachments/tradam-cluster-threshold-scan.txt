@@ -1,0 +1,32 @@
+Traditional asset managers THRESHOLD STABILITY SCAN
+Cohort size: 5
+
+--- ASSIGNMENT TABLE ---
+ threshold  n_subclusters  largest_subcluster_size  cohort_share_in_largest  contamination_count  intact
+      0.20              5                        1                      0.2                    0   False
+      0.25              5                        1                      0.2                    0   False
+      0.30              4                        2                      0.4                    0   False
+      0.35              3                        3                      0.6                    1   False
+      0.40              2                        4                      0.8                    3   False
+      0.45              2                        4                      0.8                    4   False
+      0.50              2                        4                      0.8                    4   False
+      0.55              1                        5                      1.0                    4   False
+      0.60              1                        5                      1.0                    4   False
+      0.65              1                        5                      1.0                    4   False
+      0.70              1                        5                      1.0                    4   False
+
+--- STABLE RANGES (intact cohort, no contamination) ---
+  None — cohort never returns as a clean single cluster at any threshold.
+
+--- VERDICT ---
+BOUNDARY-DEPENDENT: cohort does not form a clean cluster at any threshold tested. Falsification candidate.
+
+--- CONTAMINATION DETAIL (non-cohort names joining the cohort's largest cluster) ---
+  threshold 0.35: + XLF
+  threshold 0.40: + BX,KKR,XLF
+  threshold 0.45: + BX,KKR,XLF,SPY
+  threshold 0.50: + BX,KKR,XLF,SPY
+  threshold 0.55: + BX,KKR,XLF,SPY
+  threshold 0.60: + BX,KKR,XLF,SPY
+  threshold 0.65: + BX,KKR,XLF,SPY
+  threshold 0.70: + BX,KKR,XLF,SPY

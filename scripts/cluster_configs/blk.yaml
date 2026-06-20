@@ -1,0 +1,17 @@
+name: Traditional asset managers
+primary: BLK
+prefix: tradam-cluster
+threshold: 0.5
+window_end: 2026-06-18
+history_start: 2020-01-01
+
+groups:
+  cluster:                      # candidate: listed traditional (long-only/active+passive) asset managers
+    color: "#2962FF"
+    tickers: [BLK, TROW, BEN, IVZ, AMG]
+  alt_managers:                 # alternative managers — distinct from traditional?
+    color: "#7E57C2"
+    tickers: [BX, KKR]
+  etf:                          # financials (replicability) + market (levered beta?)
+    color: "#9E9E9E"
+    tickers: [XLF, SPY]

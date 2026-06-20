@@ -1,0 +1,22 @@
+Traditional asset managers HOLDOUT TEST
+Cohort: BLK, TROW, BEN, IVZ, AMG (N=5)
+Window: 2y, split temporally at midpoint
+Train: 2024-06-18 -> 2025-06-18 (58 obs)
+Test:  2025-06-18 -> 2026-06-18 (199 obs)
+
+--- TRAIN HALF (older) ---
+Intra-correlation:    0.8410
+PC1 explained var:    87.32%
+Pairwise range:       [0.757, 0.901]
+
+--- TEST HALF (newer) ---
+Intra-correlation:    0.5969
+PC1 explained var:    68.02%
+Pairwise range:       [0.459, 0.720]
+
+--- STABILITY DIAGNOSTICS ---
+Intra-corr delta:     -0.2442   (test - train)
+PC1 variance delta:   -19.31pp
+PC1 loadings corr:    -0.5127    (1.0 = identical factor structure)
+
+VERDICT: WEAKENED — test/train ratio 0.71 (factor present but eroding)
