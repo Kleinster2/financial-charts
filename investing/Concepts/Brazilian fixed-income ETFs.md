@@ -1,5 +1,5 @@
 ---
-aliases: [Brazilian fixed-income ETFs, B3 fixed-income ETFs, renda fixa ETF, LFTS11, LFTB11, IMAB11, Brazil cash ETF]
+aliases: [Brazilian fixed-income ETFs, B3 fixed-income ETFs, renda fixa ETF, LFTS11, LFTB11, Brazil cash ETF]
 tags: [concept, fixed-income, etf, brazil]
 ---
 #concept #fixed-income #etf #brazil
@@ -19,16 +19,16 @@ The convenient shorthand that "Brazilian fixed-income ETFs are uncorrelated with
 | ETF | Tracks | vs EWZ |
 |-----|--------|--------|
 | LFTS11 | Tesouro Selic (cash) | 0.08 |
-| IRFM11 | IRF-M prefixado | 0.39 |
-| FIXA11 | prefixado (futures) | 0.39 |
-| IMAB11 | IMA-B (IPCA, full duration) | 0.39 |
-| B5P211 | IMA-B 5 (short IPCA) | 0.41 |
-| IB5M11 | IMA-B 5+ (long IPCA) | 0.47 |
+| [[IRFM11]] | IRF-M prefixado | 0.39 |
+| [[FIXA11]] | prefixado (futures) | 0.39 |
+| [[IMAB11]] | IMA-B (IPCA, full duration) | 0.39 |
+| [[B5P211]] | IMA-B 5 (short IPCA) | 0.41 |
+| [[IB5M11]] | IMA-B 5+ (long IPCA) | 0.47 |
 
 The floating-rate cash ETF (LFTS11, 0.08) is genuinely uncorrelated. But the duration ETFs carry real Brazil-rate beta (0.39–0.47, rising with duration) that overlaps with equities — because Brazilian stocks and long bonds both rally when the rate cycle turns (a Selic-cut expectation re-rates both). So the longer the duration, the more a "fixed-income" ETF shares the local rate-and-risk factor with the Ibovespa. Only the cash sleeve is a true diversifier; the duration sleeve is a leveraged bet on the same Brazil-rate cycle the equity book already rides.
 
 ![[br-fi-etf-duration-chart.png]]
-*Normalized — LFTS11 (Selic / cash, near-flat) vs IMAB11 (IPCA duration) vs IRFM11 (prefixado). The cash line barely moves; duration adds the volatility that correlates with the Brazil cycle.*
+*Normalized — LFTS11 (Selic / cash, near-flat) vs [[IMAB11]] (IPCA duration) vs [[IRFM11]] (prefixado). The cash line barely moves; duration adds the volatility that correlates with the Brazil cycle.*
 
 ![[br-fi-etf-vs-ewz-chart.png]]
 *LFTS11 (cash) vs [[EWZ]] — the cash-vs-equity contrast.*
@@ -39,11 +39,13 @@ The floating-rate cash ETF (LFTS11, 0.08) is genuinely uncorrelated. But the dur
 |--------|--------|------|
 | LFTS11 | Tesouro Selic (Investo Teva) | Cash / floating-rate money-market proxy |
 | LFTB11 | Short Treasury 7–60 day (Investo MarketVector) | Cash-like; newly listed, only a stub price series so far |
-| IMAB11 | IMA-B (IPCA) | Full IPCA duration |
-| B5P211 | IMA-B 5 | Short IPCA duration (≤5y) |
-| IB5M11 | IMA-B 5+ | Long IPCA duration (5y+) |
-| IRFM11 | IRF-M | Prefixado duration |
-| FIXA11 | Prefixado (S&P/B3 rate futures) | Prefixado, futures-based |
+| [[IMAB11]] | IMA-B (IPCA) | Full IPCA duration |
+| [[B5P211]] | IMA-B 5 | Short IPCA duration (≤5y) |
+| [[IB5M11]] | IMA-B 5+ | Long IPCA duration (5y+) |
+| [[IRFM11]] | IRF-M | Prefixado duration |
+| [[FIXA11]] | Prefixado (S&P/B3 rate futures) | Prefixado, futures-based |
+
+The cash ETFs (LFTS11, LFTB11) live in this note; each duration ETF has its own note (linked above).
 
 ## Watch-outs
 
