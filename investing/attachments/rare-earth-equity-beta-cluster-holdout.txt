@@ -1,0 +1,22 @@
+Rare earth equity beta HOLDOUT TEST
+Cohort: MP, LYC.AX, USAR, UUUU, NB, CRML (N=6)
+Window: 2y, split temporally at midpoint
+Train: 2024-06-18 -> 2025-06-18 (54 obs)
+Test:  2025-06-18 -> 2026-06-18 (188 obs)
+
+--- TRAIN HALF (older) ---
+Intra-correlation:    0.1204
+PC1 explained var:    29.51%
+Pairwise range:       [-0.259, 0.565]
+
+--- TEST HALF (newer) ---
+Intra-correlation:    0.5068
+PC1 explained var:    62.77%
+Pairwise range:       [0.131, 0.789]
+
+--- STABILITY DIAGNOSTICS ---
+Intra-corr delta:     +0.3864   (test - train)
+PC1 variance delta:   +33.26pp
+PC1 loadings corr:    0.3516    (1.0 = identical factor structure)
+
+VERDICT: STRENGTHENING — test/train ratio 4.21 (basket consolidating; check for regime shift in the train half)

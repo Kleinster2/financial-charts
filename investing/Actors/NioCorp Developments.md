@@ -1,5 +1,5 @@
 ---
-aliases: [NioCorp, NIOBF]
+aliases: [NioCorp, NB, NIOBF]
 ---
 #actor #rareearth #usa #public #mining
 
@@ -11,7 +11,7 @@ aliases: [NioCorp, NIOBF]
 
 | Metric | Value |
 |--------|-------|
-| Ticker | NIOBF (OTC) |
+| Ticker | NB (Nasdaq), NIOBF (OTC) |
 | Project | Elk Creek (Nebraska) |
 | Status | Development stage |
 | Funding | In talks with Trump admin |

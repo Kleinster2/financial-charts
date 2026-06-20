@@ -48,6 +48,7 @@ The combination of [[China]]'s 2024-2025 export controls and US tariff escalatio
 ## Related
 
 - [[Rare earth leverage]] — [[China]]'s dominance as geopolitical weapon, full analytical note
+- [[Rare earth equity beta]] — cluster-validation of the listed rare-earth/critical-mineral miners (a shock-born, ETF-replicable trade, not a durable factor)
 - [[Rare earth elements]] — individual element profiles
 - [[Critical minerals]] — broader category including gallium, germanium, antimony
 - [[Sulfuric Acid]] — primary reagent for acid roast extraction
