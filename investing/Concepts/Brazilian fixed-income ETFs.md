@@ -1,5 +1,5 @@
 ---
-aliases: [Brazilian fixed-income ETFs, B3 fixed-income ETFs, renda fixa ETF, LFTS11, LFTB11, Brazil cash ETF]
+aliases: [Brazilian fixed-income ETFs, B3 fixed-income ETFs, renda fixa ETF, Brazil cash ETF]
 tags: [concept, fixed-income, etf, brazil]
 ---
 #concept #fixed-income #etf #brazil
@@ -18,7 +18,7 @@ The convenient shorthand that "Brazilian fixed-income ETFs are uncorrelated with
 
 | ETF | Tracks | vs EWZ |
 |-----|--------|--------|
-| LFTS11 | Tesouro Selic (cash) | 0.08 |
+| [[LFTS11]] | Tesouro Selic (cash) | 0.08 |
 | [[IRFM11]] | IRF-M prefixado | 0.39 |
 | [[FIXA11]] | prefixado (futures) | 0.39 |
 | [[IMAB11]] | IMA-B (IPCA, full duration) | 0.39 |
@@ -37,15 +37,15 @@ The floating-rate cash ETF (LFTS11, 0.08) is genuinely uncorrelated. But the dur
 
 | Ticker | Tracks | Role |
 |--------|--------|------|
-| LFTS11 | Tesouro Selic (Investo Teva) | Cash / floating-rate money-market proxy |
-| LFTB11 | Short Treasury 7–60 day (Investo MarketVector) | Cash-like; newly listed, only a stub price series so far |
+| [[LFTS11]] | Tesouro Selic (Investo Teva) | Cash / floating-rate money-market proxy |
+| [[LFTB11]] | Short Treasury 7–60 day (Investo MarketVector) | Cash-like; newly listed, only a stub price series so far |
 | [[IMAB11]] | IMA-B (IPCA) | Full IPCA duration |
 | [[B5P211]] | IMA-B 5 | Short IPCA duration (≤5y) |
 | [[IB5M11]] | IMA-B 5+ | Long IPCA duration (5y+) |
 | [[IRFM11]] | IRF-M | Prefixado duration |
 | [[FIXA11]] | Prefixado (S&P/B3 rate futures) | Prefixado, futures-based |
 
-The cash ETFs (LFTS11, LFTB11) live in this note; each duration ETF has its own note (linked above).
+Every ETF in the family now has its own note (linked in the tables).
 
 ## Watch-outs
 
