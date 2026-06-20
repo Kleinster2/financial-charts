@@ -112,6 +112,8 @@ groups:
 
 (Older basic-validation example — `scripts/cluster_configs/boutique_advisory.yaml` for the boutique advisory cohort PWP / LAZ / EVR / MC / HLI / PJT with bulge brackets + insurance brokers + ETF controls.)
 
+> [!warning] Quote YAML-keyword tickers. A few tickers collide with YAML boolean/null keywords and are silently parsed as the wrong type unless quoted: `ON` (onsemi) → `True`, plus `NO`, `YES`, `OFF`, `TRUE`, `FALSE`, and `NA`/`NULL` → null. Always quote these in the `tickers:` list — e.g. `[TXN, ADI, "ON", NXPI]`. An unquoted `ON` crashes `cluster_analysis.py` with `TypeError: sequence item 0: expected str instance, bool found` (seen building the analog-semi cohort, June 2026).
+
 ### Choosing groups
 
 Three principles:

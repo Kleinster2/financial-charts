@@ -1,0 +1,22 @@
+Analog and auto-industrial semiconductors HOLDOUT TEST
+Cohort: TXN, ADI, MCHP, ON, NXPI, STM (N=6)
+Window: 2y, split temporally at midpoint
+Train: 2024-06-18 -> 2025-06-18 (58 obs)
+Test:  2025-06-18 -> 2026-06-18 (199 obs)
+
+--- TRAIN HALF (older) ---
+Intra-correlation:    0.9008
+PC1 explained var:    91.74%
+Pairwise range:       [0.861, 0.958]
+
+--- TEST HALF (newer) ---
+Intra-correlation:    0.7290
+PC1 explained var:    77.51%
+Pairwise range:       [0.637, 0.817]
+
+--- STABILITY DIAGNOSTICS ---
+Intra-corr delta:     -0.1717   (test - train)
+PC1 variance delta:   -14.23pp
+PC1 loadings corr:    0.0796    (1.0 = identical factor structure)
+
+VERDICT: WEAKENED — test/train ratio 0.81 (factor present but eroding)

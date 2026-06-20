@@ -1,0 +1,33 @@
+# Analog & auto/industrial semiconductors — do the non-AI semis trade as one factor, distinct from
+# the AI-compute names and the broad semi ETF? The semiconductor space is heavily mapped (fabless AI
+# names, WFE equipment, foundry, memory) — but ALL of it is AI/compute-driven. This cohort is the OTHER
+# semi cycle: analog, mixed-signal, microcontrollers, and power chips whose end-markets are autos and
+# industrials, on an inventory correction (2024-25) largely decoupled from the AI-capex boom.
+# The 2024-25 divergence is the test: AI semis (NVDA/AVGO) ripped while TXN/ADI/MCHP/ON/NXPI languished
+# on the auto/industrial destock. Hypothesis: the analog names are distinct from the AI-compute names
+# (positive intra-advantage vs NVDA/AVGO) — but they may still = the broad semi ETF (SMH/SOXX hold
+# both), OR, since no pure analog-semi ETF exists, the concentrated basket could out-cohere SMH and be
+# a distinct auto/industrial-semi-cycle factor (the life-science-tools shape). Six liquid, synchronous
+# US-listed names: TXN (analog bellwether), ADI (mixed-signal), MCHP (microcontrollers), ON (power/SiC
+# for EVs), NXPI (most auto-exposed), STM (European analog/MCU, NYSE ADR). RF (SWKS/QRVO, smartphone
+# cycle) and MPWR (power, AI-adjacent growth) excluded to keep the auto/industrial-cycle thesis clean.
+name: Analog and auto-industrial semiconductors
+primary: TXN
+prefix: analog-semis-cluster
+threshold: 0.5
+window_end: 2026-06-18
+definition_date: 2026-06-20
+history_start: 2020-01-01
+groups:
+  cluster:
+    color: "#2962FF"
+    tickers: [TXN, ADI, MCHP, "ON", NXPI, STM]
+  semi_etf:
+    color: "#26A69A"
+    tickers: [SMH, SOXX]
+  ai_compute:
+    color: "#FF7043"
+    tickers: [NVDA, AVGO]
+  etf:
+    color: "#9E9E9E"
+    tickers: [SPY]
