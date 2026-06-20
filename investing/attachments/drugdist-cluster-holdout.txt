@@ -1,0 +1,22 @@
+Drug distributors HOLDOUT TEST
+Cohort: MCK, COR, CAH (N=3)
+Window: 2y, split temporally at midpoint
+Train: 2024-06-18 -> 2025-06-18 (58 obs)
+Test:  2025-06-18 -> 2026-06-18 (199 obs)
+
+--- TRAIN HALF (older) ---
+Intra-correlation:    0.6930
+PC1 explained var:    79.70%
+Pairwise range:       [0.563, 0.815]
+
+--- TEST HALF (newer) ---
+Intra-correlation:    0.6439
+PC1 explained var:    76.31%
+Pairwise range:       [0.564, 0.686]
+
+--- STABILITY DIAGNOSTICS ---
+Intra-corr delta:     -0.0491   (test - train)
+PC1 variance delta:   -3.39pp
+PC1 loadings corr:    0.8764    (1.0 = identical factor structure)
+
+VERDICT: STABLE — test/train ratio 0.93 (durable cluster across regimes)

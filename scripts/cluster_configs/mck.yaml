@@ -1,0 +1,17 @@
+name: Drug distributors
+primary: MCK
+prefix: drugdist-cluster
+threshold: 0.5
+window_end: 2026-06-18
+history_start: 2020-01-01
+
+groups:
+  cluster:                      # candidate: the US drug-distribution big-3 oligopoly
+    color: "#2962FF"
+    tickers: [MCK, COR, CAH]
+  adjacent:                     # other healthcare distribution (dental/medical, different end-market)
+    color: "#7E57C2"
+    tickers: [HSIC]
+  etf:                          # healthcare + medical devices + market
+    color: "#9E9E9E"
+    tickers: [XLV, IHI, SPY]
