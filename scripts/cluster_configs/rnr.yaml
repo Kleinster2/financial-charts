@@ -1,0 +1,17 @@
+name: Reinsurers and specialty P&C
+primary: RNR
+prefix: reins-cluster
+threshold: 0.5
+window_end: 2026-06-18
+history_start: 2020-01-01
+
+groups:
+  cluster:                      # candidate: Bermuda reinsurers + specialty P&C insurers
+    color: "#2962FF"
+    tickers: [RNR, EG, ACGL, AXS, MKL, RLI]
+  primary_carriers:             # large primary P&C carriers — distinct from reinsurance/cat?
+    color: "#7E57C2"
+    tickers: [TRV, CB]
+  etf:                          # insurance ETF (replicability) + market
+    color: "#9E9E9E"
+    tickers: [KIE, SPY]

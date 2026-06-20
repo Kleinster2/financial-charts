@@ -1,0 +1,22 @@
+Reinsurers and specialty P&C HOLDOUT TEST
+Cohort: RNR, EG, ACGL, AXS, MKL, RLI (N=6)
+Window: 2y, split temporally at midpoint
+Train: 2024-06-18 -> 2025-06-18 (58 obs)
+Test:  2025-06-18 -> 2026-06-18 (199 obs)
+
+--- TRAIN HALF (older) ---
+Intra-correlation:    0.7315
+PC1 explained var:    77.72%
+Pairwise range:       [0.597, 0.862]
+
+--- TEST HALF (newer) ---
+Intra-correlation:    0.5649
+PC1 explained var:    64.04%
+Pairwise range:       [0.447, 0.725]
+
+--- STABILITY DIAGNOSTICS ---
+Intra-corr delta:     -0.1667   (test - train)
+PC1 variance delta:   -13.69pp
+PC1 loadings corr:    0.1789    (1.0 = identical factor structure)
+
+VERDICT: WEAKENED — test/train ratio 0.77 (factor present but eroding)
