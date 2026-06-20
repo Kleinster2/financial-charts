@@ -37,6 +37,12 @@ Marfrig trades on the global protein cycle and FX more than on Brazil beta — i
 
 Post-merger consolidated history is still short — MBRF began reporting in 3Q25 — so multi-year combined financials are not yet established; legacy Marfrig (beef plus ~80% of National Beef) and BRF (pork and poultry) underlie the series.
 
+![[marfrig-fundamentals-chart.png]]
+*Revenue and net income, annual (Yahoo income statement). Revenue scales toward ~R$160B as MBRF consolidates; net income stays thin — the protein cycle's low-margin reality.*
+
+![[marfrig-sankey.png]]
+*Income-statement flow, latest fiscal year — revenue to COGS, operating income, and a slim bottom line.*
+
 ## Quick stats
 
 | Metric | Value |
@@ -50,6 +56,9 @@ Post-merger consolidated history is still short — MBRF began reporting in 3Q25
 | HQ | São Paulo |
 
 ## Related
+
+### Securities
+- [[Marfrig securities note]] — MBRF3 instruments, price history, charts
 
 - [[JBS]] — Brazilian protein peer (NYSE-listed 2025)
 - [[Brazilian fixed income]] — appeared as a Marfrig CRA

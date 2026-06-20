@@ -38,6 +38,12 @@ Equatorial is a domestic-Brazil play — its 0.62 correlation to [[EWZ]] is roug
 
 2024 was a record year. Transmission was reclassified as discontinued operations from 2025 as the group reshaped its portfolio toward distribution and the new sanitation segment ([[Sabesp]]).
 
+![[equatorial-fundamentals-chart.png]]
+*Revenue and net income, annual (Yahoo income statement). Utility-grade revenue growth with a far fatter net margin than the protein names.*
+
+![[equatorial-sankey.png]]
+*Income-statement flow, latest fiscal year — regulated revenue converting to a healthy operating and net result.*
+
 ## Quick stats
 
 | Metric | Value |
@@ -50,6 +56,9 @@ Equatorial is a domestic-Brazil play — its 0.62 correlation to [[EWZ]] is roug
 | HQ | São Luís / São Paulo |
 
 ## Related
+
+### Securities
+- [[Equatorial securities note]] — EQTL3 instruments, price history, charts
 
 - [[Sabesp]] — ~15% reference stake (2024 sanitation entry)
 - [[Brazilian fixed income]] — appeared as an Equatorial debenture

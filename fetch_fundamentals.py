@@ -514,7 +514,18 @@ def fetch_and_store_ticker(ticker: str, client: AlphaVantageClient, conn: sqlite
         store_balance_sheet(ticker, data.get('balance_sheet', {}), conn)
         store_cash_flow(ticker, data.get('cash_flow', {}), conn)
 
-        logger.info(f"✓ Successfully stored all fundamental data for {ticker}")
+        # Only claim success if Alpha Vantage actually returned something. AV's free
+        # tier has no coverage for many non-US listings (e.g. Brazilian B3 '.SA'
+        # names), where every endpoint returns {} and the store_* calls no-op — do
+        # not report that as success.
+        if any(data.get(k) for k in ('overview', 'income_statement', 'balance_sheet', 'cash_flow', 'earnings')):
+            logger.info(f"✓ Successfully stored all fundamental data for {ticker}")
+        else:
+            logger.warning(
+                f"✗ Alpha Vantage returned no data for {ticker} — likely an "
+                f"unsupported exchange. For B3 '.SA' and other Yahoo-only tickers, "
+                f"use: python fetch_fundamentals_yf.py {ticker}"
+            )
 
     except Exception as e:
         logger.error(f"Failed to fetch/store fundamentals for {ticker}: {e}")
