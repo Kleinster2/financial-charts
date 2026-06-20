@@ -17,15 +17,15 @@ Range: [-0.147, 0.377]
 
 --- AVG GROUP-PAIR CORRELATIONS (1Y) ---
              cluster  former_  diversi      etf
-    cluster    0.205    0.280    0.123    0.254
-former_sibl    0.280      nan    0.138    0.246
-diversified    0.123    0.138    0.120    0.244
-        etf    0.254    0.246    0.244    0.679
+    cluster    0.205    0.280    0.179    0.252
+former_sibl    0.280      nan    0.187    0.244
+diversified    0.179    0.187    0.136    0.312
+        etf    0.252    0.244    0.312    0.679
 
 Cluster vs others:
   cluster vs former_sibling: 0.280  (intra advantage: +-0.075)
-  cluster vs diversified_media: 0.123  (intra advantage: +0.082)
-  cluster vs etf       : 0.254  (intra advantage: +-0.049)
+  cluster vs diversified_media: 0.179  (intra advantage: +0.026)
+  cluster vs etf       : 0.252  (intra advantage: +-0.047)
 
 --- HIERARCHICAL CLUSTERS (1Y, distance threshold 0.5) ---
   Cluster 1: SPY, XLC
@@ -35,47 +35,47 @@ Cluster vs others:
   Cluster 5: AMCX
   Cluster 6: PSKY
   Cluster 7: WBD
-  Cluster 8: CMCSA
+  Cluster 8: FUBO
   Cluster 9: NFLX
-  Cluster 10: FUBO
+  Cluster 10: CMCSA
 
 --- CANDIDATE JOIN DISTANCES (1Y, average linkage, distance = 1-|corr|) ---
  Step Left              Right Distance                 Members
     1 AMCX               PSKY    0.623               AMCX+PSKY
     2 STRZ          AMCX+PSKY    0.687          STRZ+AMCX+PSKY
-    3  WBD     STRZ+AMCX+PSKY    0.765      WBD+STRZ+AMCX+PSKY
+    3  WBD     STRZ+AMCX+PSKY    0.766      WBD+STRZ+AMCX+PSKY
     4 NFLX WBD+STRZ+AMCX+PSKY    0.840 NFLX+WBD+STRZ+AMCX+PSKY
 
 --- PCA ON CANDIDATE COHORT (1Y) ---
 Explained variance ratio:
-  PC1: 38.20%
+  PC1: 38.17%
   PC2: 22.91%
   PC3: 14.91%
-  PC4: 13.16%
+  PC4: 13.18%
   PC5: 10.82%
 
 PC1 loadings:
 STRZ    0.477
 AMCX    0.520
-WBD     0.370
-PSKY    0.560
+WBD     0.369
+PSKY    0.561
 NFLX    0.227
 
 --- PC1 INDEX WEIGHTS (1Y) ---
 PCA is run on standardized daily log returns. Raw PC1-mimic weights scale PC1 loading by inverse realized volatility.
      PC1 loading Loading weight Ann vol Raw PC1-mimic weight
-STRZ       0.477         22.13%  70.46%               15.69%
-AMCX       0.520         24.14%  46.20%               26.10%
-WBD        0.370         17.17%  43.82%               19.58%
-PSKY       0.560         26.01%  55.32%               23.49%
-NFLX       0.227         10.55%  34.82%               15.13%
+STRZ       0.477         22.14%  70.46%               15.70%
+AMCX       0.520         24.14%  46.20%               26.11%
+WBD        0.369         17.14%  43.85%               19.54%
+PSKY       0.561         26.02%  55.35%               23.49%
+NFLX       0.227         10.56%  34.79%               15.16%
 
 --- WEEKLY-RETURN CROSS-CHECK (1Y, async-close robustness) ---
-Weeks: 39   Weekly intra-corr: 0.259 (daily 0.205)   Weekly PC1: 45.1% (daily 38.2%)
+Weeks: 39   Weekly intra-corr: 0.258 (daily 0.205)   Weekly PC1: 45.1% (daily 38.2%)
 
 --- HISTORICAL TIGHTNESS EVOLUTION (90D ROLLING) ---
      Avg corr    PC1 Core corr Satellite corr Final join distance
 Date                                                             
 2026    0.217  41.5%     0.169          0.281               0.901
 
-Latest 90D: avg corr 0.190, PC1 39.9%, core corr 0.166, satellite corr 0.225, final join distance 0.915
+Latest 90D: avg corr 0.189, PC1 39.9%, core corr 0.165, satellite corr 0.225, final join distance 0.914
