@@ -1,0 +1,31 @@
+# Self-storage REITs — a distinct single-asset REIT factor like residential REITs, or = VNQ?
+# Residential REITs validated the homogeneous-single-asset law (one asset, one driver -> distinct from
+# the diluted VNQ, +0.360 intra-advantage, separable band); tower REITs were the exception (= VNQ).
+# Self-storage is the next pure single-asset REIT sub-sector: PSA/EXR/CUBE/NSA own one asset class
+# (storage units) on one demand driver — the "4 Ds" (death, divorce, dislocation, downsizing) plus
+# moves and small-business inventory — and a specific local-supply dynamic, partly decoupled from the
+# rate-and-rent cycle that drives apartments and offices. The test: do they cohere and out-cohere VNQ
+# (broad REITs / XLRE), AND are they distinct from the OTHER validated single-asset REIT factor,
+# residential (AVB/EQR)? If yes, a 10th distinct factor; if = VNQ, Tier 2 (own the ETF).
+# Four pure self-storage names: PSA (Public Storage, the bellwether), EXR (Extra Space, the #2 after
+# the 2023 Life Storage merger), CUBE (CubeSmart), NSA (National Storage Affiliates, the mid-cap).
+name: Self-storage REITs
+primary: PSA
+prefix: self-storage-cluster
+threshold: 0.5
+window_end: 2026-06-18
+definition_date: 2026-06-20
+history_start: 2020-01-01
+groups:
+  cluster:
+    color: "#2962FF"
+    tickers: [PSA, EXR, CUBE, NSA]
+  reit_etf:
+    color: "#26A69A"
+    tickers: [VNQ, XLRE]
+  resi_reit:
+    color: "#7E57C2"
+    tickers: [AVB, EQR]
+  etf:
+    color: "#9E9E9E"
+    tickers: [SPY]

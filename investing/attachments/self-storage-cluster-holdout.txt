@@ -1,0 +1,22 @@
+Self-storage REITs HOLDOUT TEST
+Cohort: PSA, EXR, CUBE, NSA (N=4)
+Window: 2y, split temporally at midpoint
+Train: 2024-06-18 -> 2025-06-18 (58 obs)
+Test:  2025-06-18 -> 2026-06-18 (199 obs)
+
+--- TRAIN HALF (older) ---
+Intra-correlation:    0.8893
+PC1 explained var:    91.71%
+Pairwise range:       [0.842, 0.914]
+
+--- TEST HALF (newer) ---
+Intra-correlation:    0.7096
+PC1 explained var:    78.99%
+Pairwise range:       [0.507, 0.894]
+
+--- STABILITY DIAGNOSTICS ---
+Intra-corr delta:     -0.1797   (test - train)
+PC1 variance delta:   -12.73pp
+PC1 loadings corr:    0.8054    (1.0 = identical factor structure)
+
+VERDICT: WEAKENED — test/train ratio 0.80 (factor present but eroding)

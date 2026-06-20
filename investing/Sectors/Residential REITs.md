@@ -93,6 +93,7 @@ Latest 90-day reading: intra 0.856, PC1 88.0%. The factor is the most durable in
 ## Related
 
 - [[Tower REITs]] — the sibling REIT cohort (cell towers); distinct from data-center REITs but also VNQ-embedded
+- [[Self-storage REITs]] — another single-asset REIT sub-sector; the contrast case (distinct from apartments at +0.275, but = VNQ — storage's demand driver doesn't decouple from broad REITs the way apartment rents do)
 - [[Solid waste]], [[Drug distributors]], [[Railroads]], [[Tobacco majors basket]], [[Life science tools]], [[Trucking and LTL]] — the other distinct non-ETF factors
 - [[AvalonBay]], [[Equity Residential]], [[Essex Property Trust]] — the coastal apartment REITs
 - [[Mid-America Apartment Communities]], [[Camden Property Trust]], [[UDR]] — the Sunbelt/diversified apartment REITs
