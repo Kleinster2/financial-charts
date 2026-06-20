@@ -5,7 +5,7 @@ aliases: [ROKU]
 
 **Roku** — Streaming platform/OS leader. 100M+ global streaming households. Revenue from ads, not hardware. Platform play, not content. June 2026: agreed to be acquired by [[Fox Corporation]] for $22B enterprise value ($160/share in cash and stock); deal pending, expected to close H1 2027.
 
-**One-line read:** Roku is no longer trading as an independent CTV platform — it is a pending deal-arb position because [[Fox Corporation]]'s $160/share cash-and-stock offer caps the equity, with the bet being whether the deal closes on terms (FOXA shareholder vote and antitrust) versus breaks and re-exposes Roku to its standalone CTV-advertising trajectory.
+One-line read: Roku is no longer trading as an independent CTV platform — it is a pending deal-arb position because [[Fox Corporation]]'s $160/share cash-and-stock offer caps the equity, with the bet being whether the deal closes on terms (FOXA shareholder vote and antitrust) versus breaks and re-exposes Roku to its standalone CTV-advertising trajectory.
 
 ---
 
@@ -71,10 +71,10 @@ ROKU trades as a core Consumer name (XLY r = 0.75).
 
 | Segment | Revenue % | Description |
 |---------|-----------|-------------|
-| **Platform** | ~85% | Ads, content distribution, OS licensing |
-| **Devices** | ~15% | TVs, streaming players (low/no margin) |
+| Platform | ~85% | Ads, content distribution, OS licensing |
+| Devices | ~15% | TVs, streaming players (low/no margin) |
 
-**Key insight:** Roku is an advertising company, not a hardware company.
+Key insight: Roku is an advertising company, not a hardware company.
 
 ---
 
@@ -88,7 +88,7 @@ ROKU trades as a core Consumer name (XLY r = 0.75).
 | The Roku Channel | FAST, growing |
 | OS licensing | TV manufacturers |
 
-**Moat:** Installed base, OS stickiness, ad inventory. Note the divergence Roku has engineered: platform revenue compounds ~28% while ARPU is roughly flat — growth is coming from adding households and deepening monetization (ads + subscriptions) rather than from per-user price, which is why the 100M-household milestone matters more than the de-emphasized ARPU line.
+Moat: Installed base, OS stickiness, ad inventory. Note the divergence Roku has engineered: platform revenue compounds ~28% while ARPU is roughly flat — growth is coming from adding households and deepening monetization (ads + subscriptions) rather than from per-user price, which is why the 100M-household milestone matters more than the de-emphasized ARPU line.
 
 ---
 
@@ -112,7 +112,7 @@ ROKU trades as a core Consumer name (XLY r = 0.75).
 | [[Apple]] TV | Low (premium niche) |
 | Smart TV OS ([[Samsung]], LG) | Medium |
 
-**Advantage:** Platform agnostic, US market share leader.
+Advantage: Platform agnostic, US market share leader.
 
 ---
 
@@ -120,11 +120,11 @@ ROKU trades as a core Consumer name (XLY r = 0.75).
 
 | Region | Status |
 |--------|--------|
-| **US** | Dominant (~40% share) |
-| **[[Canada]]** | Strong |
-| **[[Mexico]]** | Growing |
-| **[[UK]]** | Established |
-| **[[Germany]]** | Expanding |
+| US | Dominant (~40% share) |
+| [[Canada]] | Strong |
+| [[Mexico]] | Growing |
+| [[UK]] | Established |
+| [[Germany]] | Expanding |
 
 ---
 
@@ -147,14 +147,9 @@ By Q1 2026 Roku had inflected from "near breakeven" to GAAP-profitable with a sh
 | Total gross profit | $565M | +27% |
 | Net income | $86M | turned positive |
 | Adjusted EBITDA | $148M | +165% |
-| Free cash flow (TTM) | All-time high | — |
+| [[Free cash flow]] (TTM) | All-time high | — |
 
-| Metric | Trend |
-|--------|-------|
-| Revenue | ~$4.6B FY2025; ~22% in Q1 2026 |
-| Platform vs devices | Platform compounding ~28%; devices ~12% |
-| Profitability | GAAP-positive (Q1 2026) |
-| [[Free cash flow]] | Record (TTM) |
+The shape of the story is the two-speed mix: platform revenue compounded ~28% in Q1 2026 (vs ~12% across FY2025) while devices stayed a low-single-digit, low-margin acquisition cost — so the profit inflection is a platform-mix story, not a hardware one.
 
 *Roku's standalone story had just turned the profitability corner when the Fox bid arrived — the bid lands at the moment the operating leverage thesis was being proven, not when the model was in doubt.*
 
@@ -162,12 +157,12 @@ By Q1 2026 Roku had inflected from "near breakeven" to GAAP-profitable with a sh
 
 ## What to watch
 
-- **FOXA share price** — ~40% of the $160 consideration is 0.9693 FOXA shares, so the realized deal value floats with Fox. FOXA fell ~17–18% on announcement; a further FOXA slide lowers what Roku holders actually receive and widens the arb spread. A FOXA recovery tightens it.
-- **Deal close (regulatory + shareholder votes)** — targeted H1 2027. Antitrust review (CTV-distribution concentration) and both shareholder votes are the gating events. A second-request, a Fox-holder revolt over the dilution, or a financing wobble pushes the close out or kills it — re-exposing Roku to its standalone trajectory.
-- **Arb spread vs $160** — where ROKU trades relative to the cash-plus-stock value is the market's live probability-of-close read. A widening discount signals rising break risk.
-- **Standalone platform momentum** — Q1 2026 platform revenue +28%, 100M households, GAAP profit. If the deal breaks, this is the fundamental Roku re-prices to; deceleration here is the bear case in a break scenario.
-- **CTV-ad cycle** — Roku's core monetization rides the [[CTV advertising]] / [[Digital Advertising]] cycle. A scatter ad market softens both the standalone case and the synergy math Fox is underwriting.
-- **Competitive share** — [[Amazon]] Fire TV and [[Google]] TV bundling pressure; Roku's ~40% US share and OS-licensing reach are the assets Fox is buying. Share erosion undercuts the strategic premise.
+- FOXA share price — ~40% of the $160 consideration is 0.9693 FOXA shares, so the realized deal value floats with Fox. FOXA fell ~17–18% on announcement; a further FOXA slide lowers what Roku holders actually receive and widens the arb spread. A FOXA recovery tightens it.
+- Deal close (regulatory + shareholder votes) — targeted H1 2027. Antitrust review (CTV-distribution concentration) and both shareholder votes are the gating events. A second-request, a Fox-holder revolt over the dilution, or a financing wobble pushes the close out or kills it — re-exposing Roku to its standalone trajectory.
+- Arb spread vs $160 — where ROKU trades relative to the cash-plus-stock value is the market's live probability-of-close read. A widening discount signals rising break risk.
+- Standalone platform momentum — Q1 2026 platform revenue +28%, 100M households, GAAP profit. If the deal breaks, this is the fundamental Roku re-prices to; deceleration here is the bear case in a break scenario.
+- CTV-ad cycle — Roku's core monetization rides the [[CTV advertising]] / [[Digital Advertising]] cycle. A scatter ad market softens both the standalone case and the synergy math Fox is underwriting.
+- Competitive share — [[Amazon]] Fire TV and [[Google]] TV bundling pressure; Roku's ~40% US share and OS-licensing reach are the assets Fox is buying. Share erosion undercuts the strategic premise.
 
 ---
 
@@ -175,8 +170,8 @@ By Q1 2026 Roku had inflected from "near breakeven" to GAAP-profitable with a sh
 
 If the Fox deal does not close, Roku re-prices to its independent CTV-platform trajectory. The standalone tensions:
 
-- **Working for it:** [[Platform economics]] (recurring, high-margin ad + subscription mix compounding ~28%), 100M+ household base, GAAP profitability and record FCF inflection (Q1 2026), CTV ad-market secular growth, FAST leadership via The Roku Channel, OS-licensing optionality.
-- **Working against it:** [[Amazon]]/[[Google]] bundling and OS competition, hardware commoditization (devices are a ~no-margin customer-acquisition cost), US household growth maturing (international is the next leg and slower-monetizing), and ARPU that has stayed roughly flat — monetization depth, not price, is the lever.
+- Working for it: [[Platform economics]] (recurring, high-margin ad + subscription mix compounding ~28%), 100M+ household base, GAAP profitability and record FCF inflection (Q1 2026), CTV ad-market secular growth, FAST leadership via The Roku Channel, OS-licensing optionality.
+- Working against it: [[Amazon]]/[[Google]] bundling and OS competition, hardware commoditization (devices are a ~no-margin customer-acquisition cost), US household growth maturing (international is the next leg and slower-monetizing), and ARPU that has stayed roughly flat — monetization depth, not price, is the lever.
 
 The deal effectively lets Roku holders crystallize the platform-economics bull case at $160 rather than wait for the CTV-ad cycle to underwrite it — which is why the shares held flat into terms rather than rallying to the offer: the market is pricing meaningful close risk, not a clean $160.
 
@@ -186,11 +181,11 @@ The deal effectively lets Roku holders crystallize the platform-economics bull c
 
 Three structural reads the facts support:
 
-1. **This is a deal-arb name, not a CTV-platform name, until H1 2027.** The investment question collapsed on June 15 from "does platform monetization compound fast enough to justify the multiple?" to a [[Merger Arbitrage|merger-arbitrage]] question: does this specific merger close, and at what realized FOXA-linked value? Because ~40% of consideration is stock, Roku holders are now partly long FOXA — and FOXA just took a ~−10σ hit. The position is a bet on deal completion *and* Fox's post-deal equity, not on Roku's ad business in isolation.
+1. This is a deal-arb name, not a CTV-platform name, until H1 2027. The investment question collapsed on June 15 from "does platform monetization compound fast enough to justify the multiple?" to a [[Merger Arbitrage|merger-arbitrage]] question: does this specific merger close, and at what realized FOXA-linked value? Because ~40% of consideration is stock, Roku holders are now partly long FOXA — and FOXA just took a ~−10σ hit. The position is a bet on deal completion *and* Fox's post-deal equity, not on Roku's ad business in isolation.
 
-2. **The bid validated the platform thesis at the moment it was being proven.** Roku reached 100M households and turned GAAP-profitable with record FCF in Q1 2026 — the operating-leverage inflection the bull case always promised. Fox is paying a ~28% premium to acquire a distribution layer (44% of US CTV hours) precisely as Roku's standalone economics stopped being speculative. The acquirer captured the inflection; standalone holders get it crystallized as cash-plus-stock instead of as a re-rate.
+2. The bid validated the platform thesis at the moment it was being proven. Roku reached 100M households and turned GAAP-profitable with record FCF in Q1 2026 — the operating-leverage inflection the bull case always promised. Fox is paying a ~28% premium to acquire a distribution layer (44% of US CTV hours) precisely as Roku's standalone economics stopped being speculative. The acquirer captured the inflection; standalone holders get it crystallized as cash-plus-stock instead of as a re-rate.
 
-3. **The risk asymmetry now sits on the acquirer, not the target.** The market reaction was inverted from the usual M&A pattern: the target (Roku) held flat while the acquirer (Fox) fell ~17–18% on $8.3B new debt and 152M new shares. That tells you the contested question is whether Fox is overpaying/over-levering for CTV distribution — making a Fox-shareholder vote, not antitrust alone, a live break vector. For Roku holders the downside is a deal break dropping them back to the standalone trajectory; the upside is capped at the FOXA-linked $160.
+3. The risk asymmetry now sits on the acquirer, not the target. The market reaction was inverted from the usual M&A pattern: the target (Roku) held flat while the acquirer (Fox) fell ~17–18% on $8.3B new debt and 152M new shares. That tells you the contested question is whether Fox is overpaying/over-levering for CTV distribution — making a Fox-shareholder vote, not antitrust alone, a live break vector. For Roku holders the downside is a deal break dropping them back to the standalone trajectory; the upside is capped at the FOXA-linked $160.
 
 ---
 
@@ -231,4 +226,4 @@ Three structural reads the facts support:
 - [Motley Fool — Fox stock down 15% after $22B Roku deal (2026-06-15)](https://www.fool.com/investing/2026/06/15/fox-stock-is-down-15-after-announcing-a-usd22-billion-roku-deal-is-this-a-buying-opportunity/)
 - [RTTNews — Fox shares drop 15% following Roku acquisition (2026-06-15)](https://www.rttnews.com/story.aspx?Id=3660339)
 
-*Created 2026-01-16; expanded 2026-06-16 (Fox acquisition terms, Q1 2026 financials, deal-arb reframe, What to watch + Analysis).*
+*Created 2026-01-16; expanded 2026-06-16 (Fox acquisition terms, Q1 2026 financials, deal-arb reframe, What to watch + Analysis); prose polish 2026-06-20 (Financials de-duplicated, two-speed-mix narrative).*
