@@ -98,6 +98,7 @@ Latest 90-day reading: intra 0.623, PC1 67.9%. The factor is durable — intra n
 - [[Thermo Fisher Scientific]], [[Danaher]] — the diversified-tools core
 - [[Agilent]], [[Mettler-Toledo]], [[Waters]] — the instruments names
 - [[IQVIA]], [[Revvity]] — the CRO/diagnostics sleeve
+- [[Contract research organizations]] — the CRO cohort that does NOT hold as a standalone factor; its large names ([[IQVIA|IQV]]/[[Charles River Laboratories|CRL]]) are absorbed into this tools complex (+0.021 intra-advantage — i.e. ≈ the same factor)
 - [[Biotech]], [[Pharma majors]] — the demand side (R&D budgets) the tools sell into
 - [[XLV]] — the healthcare ETF the cohort is distinct from
 - [[Vault cluster taxonomy]] — cross-cohort meta-analysis

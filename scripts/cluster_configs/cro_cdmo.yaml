@@ -1,0 +1,32 @@
+# Contract research organizations (CROs) — a distinct pharma-R&D-services factor, or = XLV / = life-science tools?
+# The healthcare set has been a near-clean sweep of NON-distinctness (pharma, GLP-1, medtech, telehealth,
+# biotech all = their ETF or shatter) with two exceptions, both services/supply-chain: Life science tools
+# (distinct, +0.172) and Drug distributors (distinct, +0.502). CROs are the next healthcare picks-and-shovels
+# candidate: IQVIA / Icon / Charles River / Medpace run clinical and preclinical trials for pharma and biotech,
+# so their demand is the pharma-R&D-budget + biotech-funding cycle. Three-way test: (1) distinct from BOTH XLV
+# and life-science tools -> a new distinct factor; (2) merges with TMO/DHR/A -> one broad pharma-R&D-services
+# factor; (3) = XLV -> another healthcare non-distinctness. The life-science-tools control (TMO/DHR/A) is the
+# discriminator; XBI folded into the healthcare ETF group proxies the biotech-funding demand driver. Four
+# liquid US-listed CROs: IQV (IQVIA, CRO + data, the bellwether), ICLR (Icon), CRL (Charles River, preclinical),
+# MEDP (Medpace). CTLT (Catalent, the big CDMO) excluded — acquired by Novo Holdings 2024, delisted; SYNH
+# (Syneos) taken private 2023.
+name: Contract research organizations
+primary: IQV
+prefix: cro-cluster
+threshold: 0.5
+window_end: 2026-06-18
+definition_date: 2026-06-20
+history_start: 2020-01-01
+groups:
+  cluster:
+    color: "#2962FF"
+    tickers: [IQV, ICLR, CRL, MEDP]
+  ls_tools:
+    color: "#7E57C2"
+    tickers: [TMO, DHR, A]
+  healthcare_etf:
+    color: "#26A69A"
+    tickers: [XLV, IHI, XBI]
+  etf:
+    color: "#9E9E9E"
+    tickers: [SPY]
