@@ -10,6 +10,11 @@ tags: [sector, industrials, shipping, tankers, cluster-validation]
 
 The freight-rate pure-play, in equity form. Crude and product tanker owners are levered operating plays on the seaborne-oil freight cycle: their earnings are spot-rate (TD3C VLCC, Suezmax, MR product) times a fleet they own, so when rates spike the equities move as one. That shared driver — the tanker spot rate — is now directly nameable and even separately tradeable via the [[BWET]] freight-futures ETF, which lets this cohort make the campaign's law unusually concrete: the driver is a commodity, and the equity basket is a distinct, levered factor expressing it that no equity ETF isolates. [[BOAT]] and [[SEA]] are the nearest equity proxies, but they blend tankers with dry bulk, containerships, and LNG carriers — different rate cycles — so the pure-tanker basket out-coheres them and separates at tighter thresholds.
 
+## Sector performance
+
+![[tankers-performance.png]]
+*Normalized total return since Jan 2023, the five tankers vs the broad-shipping ETF [[BOAT]]. The cohort moves as one and on its own tanker-rate cycle, visibly decoupled from BOAT (diluted with dry-bulk/container/LNG) — the +0.483 distinctness made visible.*
+
 ## Cluster validation
 
 The candidate cohort is five US-listed crude/product tanker owners — [[Frontline|FRO]], [[Scorpio Tankers|STNG]], [[International Seaways|INSW]], [[DHT Holdings|DHT]], [[Teekay Tankers|TNK]] — tested against the broad-shipping ETFs ([[BOAT]]/[[SEA]]), energy ([[XLE]]), and market (SPY). 1Y window through 2026-06-18, threshold 0.5. Terminology: [[Cohort, cluster, basket]].

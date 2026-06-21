@@ -132,6 +132,11 @@ Best environment: Stable or gradually declining rates with steep yield curve.
 
 ---
 
+## Sector performance
+
+![[mortgage-reits-performance.png]]
+*Normalized total return since Jan 2023, the five mortgage REITs vs the mREIT ETF [[REM]]. The names track REM (ETF-replicable, −0.169) — own the ETF; the agency ([[Annaly Capital\|NLY]]/[[AGNC]]) vs commercial dispersion is visible within.*
+
 ## Cluster validation
 
 > [!warning] Cluster status: validated cohesion but ETF-replicable (= REM); an agency-vs-commercial sub-structure, and NOT the bond trade (Jun 2026)

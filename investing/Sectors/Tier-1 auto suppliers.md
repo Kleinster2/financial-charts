@@ -10,6 +10,11 @@ tags: [sector, consumer-discretionary, automotive, auto-supplier, cluster-valida
 
 The auto-production cohort that only coheres under stress. Tier-1 suppliers sell components into the OEMs' build schedules, so their shared driver is global vehicle-production volume and content-per-vehicle. That makes them a genuine, distinct-from-the-OEMs cohort when production is the binding constraint — most visibly in the 2021–23 chip-shortage era, when every supplier moved together on allocation and volume. But in normal times the cohort disperses, because the six are really three different stories: a volume/content core (seating [[Lear|LEA]], safety [[Autoliv|ALV]], diversified [[Magna|MGA]]), an EV/ADAS-content pair ([[Aptiv|APTV]] electrical/software, [[BorgWarner|BWA]] powertrain) whose secular transition diverges from volume, and cockpit electronics ([[Visteon|VC]]). The result is real co-movement with no durable factor — distinct on paper, fragile in practice.
 
+## Sector performance
+
+![[auto-suppliers-performance.png]]
+*Normalized total return since Jan 2023, the six Tier-1 suppliers vs the auto ETF [[CARZ]]. The content/volume core ([[Lear\|LEA]]/[[Autoliv\|ALV]]) holds while the EV-transition names ([[Aptiv\|APTV]]/[[BorgWarner\|BWA]]) diverge — the dispersion behind the fragile verdict.*
+
 ## Cluster validation
 
 The candidate cohort is six Tier-1 automotive suppliers — [[Aptiv|APTV]] (electrical/ADAS), [[BorgWarner|BWA]] (powertrain/EV), [[Lear|LEA]] (seating/electrical), [[Magna|MGA]] (diversified), [[Autoliv|ALV]] (safety), [[Visteon|VC]] (cockpit electronics) — tested against the automakers they supply ([[General Motors|GM]]/[[Ford|F]]), the auto ETF ([[CARZ]]) and broad discretionary ([[XLY]]), and the market (SPY). 1Y window through 2026-06-18 (198 obs), threshold 0.5. [[Magna|MGA]] is Canada-listed/synchronous; the weekly cross-check controls for any residual. Terminology: [[Cohort, cluster, basket]].

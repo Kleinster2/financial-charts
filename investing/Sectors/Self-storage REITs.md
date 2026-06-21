@@ -10,6 +10,11 @@ tags: [sector, real-estate, reit, self-storage, cluster-validation]
 
 The single-asset REIT that didn't separate. Residential REITs validated a clean law: one asset (US apartments), one driver (rates plus market rents and supply), produces a factor distinct from the diluted [[VNQ]]. Self-storage looked like the same setup — one asset (storage units), a specific demand story (the "4 Ds": death, divorce, dislocation, downsizing, plus moves and small-business inventory). But it does not separate from broad REITs the way apartments do. Storage demand is real and idiosyncratic, yet the equities trade primarily on the same rate sensitivity that moves the whole REIT complex, so [[VNQ]] sits inside the cohort and the storage-specific premium over it is thin (+0.069). The names are distinct from apartments but not from REITs-in-general.
 
+## Sector performance
+
+![[self-storage-performance.png]]
+*Normalized total return since Jan 2023, the four self-storage REITs vs broad REITs [[VNQ]]. The big-three move with VNQ (ETF-replicable, +0.069); [[National Storage Affiliates\|NSA]] is the visible laggard that dragged the full cohort.*
+
 ## Cluster validation
 
 The candidate cohort is four public self-storage REITs — [[Public Storage|PSA]], [[Extra Space Storage|EXR]], [[CubeSmart|CUBE]], [[National Storage Affiliates|NSA]] — tested against the broad REIT ETFs ([[VNQ]]/[[XLRE]]), the residential REITs ([[Residential REITs|AVB]]/[[Residential REITs|EQR]]), and the market (SPY). 1Y window through 2026-06-18, threshold 0.5. All US-listed/synchronous. Terminology: [[Cohort, cluster, basket]].

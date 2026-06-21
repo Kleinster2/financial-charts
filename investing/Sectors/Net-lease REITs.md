@@ -10,6 +10,11 @@ tags: [sector, real-estate, reit, net-lease, cluster-validation]
 
 The defensive, low-beta corner of REITs — distinct, but only just. Net-lease REITs own single-tenant properties on long (10–25 year) triple-net leases, so cash flows are bond-like and the equities are the most defensive, lowest-vol, least-market-correlated REITs. That homogeneity gives them a real, durable common factor — but it is only narrowly separable from the broad REIT complex, because at the end of the day they are still rate-sensitive real estate that VNQ largely captures. They are distinct enough to register a band, marginal enough that the band is the campaign's thinnest.
 
+## Sector performance
+
+![[net-lease-performance.png]]
+*Normalized total return since Jan 2023, the five net-lease REITs vs broad REITs [[VNQ]]. A tight, low-vol, defensive block that tracks VNQ closely but with the campaign's thinnest distinct edge (+0.106) — the marginal-distinct REIT sub-sector.*
+
 ## Cluster validation
 
 The candidate cohort is five net-lease REITs — [[Realty Income|O]], [[W.P. Carey|WPC]], [[NNN REIT|NNN]], [[Agree Realty|ADC]], [[Essential Properties|EPRT]] — tested against broad REITs ([[VNQ]]/[[XLRE]]), the duration/Treasury proxy ([[TLT]]/[[IEF]]), and the market (SPY). 1Y window through 2026-06-18, threshold 0.5. All US-listed/synchronous. Terminology: [[Cohort, cluster, basket]].

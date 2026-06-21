@@ -10,6 +10,11 @@ tags: [sector, consumer-staples, alcohol, beverages, cluster-validation]
 
 The recognizable category that does not trade as a monolith. The premise was a consumer-staples cohesion test — do the alcohol names form one "drinks" factor the way the [[Tobacco majors basket|tobacco majors]] do, or do they fragment the way apparel and other consumer categories do? The answer is the fragmented shape, and decisively so: alcohol is the only cohort this session whose intra-correlation sits below the 0.50 floor. There is a genuine common mode — the names co-move more than random staples baskets, and they separate cleanly from generic staples — but it is diluted by category-specific drivers that hit the members unevenly: the [[GLP-1 receptor agonists|GLP-1]]/moderation worry presses hardest on spirits, the secular volume decline on mass-market beer, premiumization and FX/tariffs on the global names. Beer and spirits each cohere as a pair; "alcohol" as a whole does not.
 
+## Sector performance
+
+![[alcohol-performance.png]]
+*Normalized total return since Jan 2023, the five alcohol names vs consumer staples [[XLP]]. Defensive and staples-adjacent, but the beer ([[Molson Coors\|TAP]]/[[Boston Beer\|SAM]]) and spirits ([[Constellation Brands\|STZ]]/[[Brown-Forman\|BF-B]]/[[Diageo\|DEO]]) wings visibly diverge — the fragmentation behind the failed-factor verdict.*
+
 ## Cluster validation
 
 The candidate cohort is five alcoholic-beverage makers — [[Constellation Brands|STZ]] (beer/wine/spirits), [[Brown-Forman|BF-B]] (premium spirits), [[Molson Coors|TAP]] (mass beer), [[Boston Beer|SAM]] (craft beer/FMB), [[Diageo|DEO]] (global spirits) — tested against the consumer-staples ETFs ([[XLP]] US, [[KXI]] global), non-alcoholic beverages ([[Coca-Cola|KO]]), and the market (SPY). 1Y window through 2026-06-18 (198 obs), threshold 0.5. [[Diageo|DEO]] is a London-listed ADR (some async-close noise; the weekly cross-check controls for it). Terminology: [[Cohort, cluster, basket]].

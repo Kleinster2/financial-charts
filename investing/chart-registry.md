@@ -1,5 +1,50 @@
 ---
 charts:
+  tankers-performance.png:
+    tickers: FRO,STNG,INSW,DHT,TNK,BOAT
+    normalize: true
+    start: 2023-01-01
+    primary: FRO
+  net-lease-performance.png:
+    tickers: O,WPC,NNN,ADC,EPRT,VNQ
+    normalize: true
+    start: 2023-01-01
+    primary: O
+  self-storage-performance.png:
+    tickers: PSA,EXR,CUBE,NSA,VNQ
+    normalize: true
+    start: 2023-01-01
+    primary: PSA
+  mortgage-reits-performance.png:
+    tickers: NLY,AGNC,STWD,BXMT,RITM,REM
+    normalize: true
+    start: 2023-01-01
+    primary: NLY
+  auto-dealers-performance.png:
+    tickers: AN,LAD,PAG,GPI,SAH,ABG,XRT
+    normalize: true
+    start: 2023-01-01
+    primary: LAD
+  alcohol-performance.png:
+    tickers: STZ,BF-B,TAP,SAM,DEO,XLP
+    normalize: true
+    start: 2023-01-01
+    primary: STZ
+  auto-suppliers-performance.png:
+    tickers: APTV,BWA,LEA,MGA,ALV,VC,CARZ
+    normalize: true
+    start: 2023-01-01
+    primary: APTV
+  analog-semis-performance.png:
+    tickers: TXN,ADI,MCHP,ON,NXPI,STM,SMH
+    normalize: true
+    start: 2023-01-01
+    primary: TXN
+  fertilizers-performance.png:
+    tickers: NTR,MOS,CF,IPI,MOO
+    normalize: true
+    start: 2023-01-01
+    primary: NTR
   it-services-performance.png:
     tickers: ACN,CTSH,INFY,EPAM,GLOB,XLK
     normalize: true

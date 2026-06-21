@@ -10,6 +10,11 @@ tags: [sector, materials, fertilizer, agriculture, cluster-validation]
 
 The multi-nutrient label that doesn't cohere. The premise was a commodity-beta test in a multi-commodity setting — the steel+aluminum shape — asking whether the nutrient producers form one "fertilizer" factor or split by nutrient (potash NTR/MOS/IPI, nitrogen CF, phosphate MOS). The answer is messier than steel/aluminum: there is a moderate [[Nutrien|NTR]]/[[CF Industries|CF]]/[[Intrepid Potash|IPI]] core (~0.65), but [[Mosaic|MOS]] — the most phosphate- and ag-commodity-levered name — defects to the broad agribusiness/materials group, and the whole thing is loose and regime-unstable. Fertilizer is a cyclical ag-input complex that tightens when nutrient prices spike and disperses otherwise, not a durable standalone factor.
 
+## Sector performance
+
+![[fertilizers-performance.png]]
+*Normalized total return since Jan 2023, the four nutrient producers vs the agribusiness ETF [[MOO]]. Cohesion is shock-dependent — they move together in fertilizer-price spikes and disperse otherwise ([[Mosaic\|MOS]] the defector), the loose/unstable behavior behind the not-a-factor verdict.*
+
 ## Cluster validation
 
 The candidate cohort is four fertilizer nutrient producers — [[Nutrien|NTR]], [[Mosaic|MOS]], [[CF Industries|CF]], [[Intrepid Potash|IPI]] — tested against seeds/crop-protection ([[Corteva|CTVA]]), the agribusiness ETF + ag-commodity basket ([[MOO]]/[[DBA]]), and materials/market ([[XLB]]/SPY). 1Y window through 2026-06-18, threshold 0.5. Terminology: [[Cohort, cluster, basket]].

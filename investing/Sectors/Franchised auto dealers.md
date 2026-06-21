@@ -10,6 +10,11 @@ tags: [sector, consumer-discretionary, auto-retail, dealer, cluster-validation]
 
 The homogeneous retail-consolidator model. The six are near-identical businesses — franchised new-vehicle dealerships plus used vehicles, finance & insurance (F&I), and high-margin parts & service, run as acquisitive roll-ups — all levered to the same US auto-retail cycle: new-vehicle SAAR, affordability and rates, used-vehicle pricing, and the consolidation of a still-fragmented dealer market. That shared model and driver make them one of the tighter consumer cohorts in the campaign, and crucially they separate from broad cyclical retail (XRT/XLY) rather than dissolving into it — unlike apparel or most discretionary labels. They are also distinct from used-only retail ([[CarMax|KMX]]), a different model on a different (used-pricing) cycle.
 
+## Sector performance
+
+![[auto-dealers-performance.png]]
+*Normalized total return since Jan 2023, the six franchised dealers vs the retail ETF [[XRT]]. The dealer-consolidators move together and ahead of broad retail — the +0.207 distinctness that makes them a real auto-retail factor.*
+
 ## Cluster validation
 
 The candidate cohort is six franchised auto-dealer groups — [[AutoNation|AN]], [[Lithia Motors|LAD]], [[Penske Automotive|PAG]], [[Group 1 Automotive|GPI]], [[Sonic Automotive|SAH]], [[Asbury Automotive|ABG]] — tested against used-car retail ([[CarMax|KMX]]), the retail / discretionary ETFs ([[XRT]]/[[XLY]]), and the market (SPY). 1Y window through 2026-06-18, threshold 0.5. All US-listed/synchronous. Terminology: [[Cohort, cluster, basket]].

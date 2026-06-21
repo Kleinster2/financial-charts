@@ -10,6 +10,11 @@ tags: [sector, technology, semiconductors, analog, cluster-validation]
 
 The other semiconductor cycle. The semiconductor map is dominated by the AI-compute boom — GPUs, custom accelerators, HBM, the WFE tools and foundry that build them. This cohort is the part that runs on a completely different clock: analog, mixed-signal, microcontrollers, and power chips whose end-markets are autos, industrial equipment, and the broad electronics supply chain, governed by the inventory cycle (the 2022-23 shortage, the 2024-25 destock) rather than by hyperscaler capex. The 2024-25 divergence proved they are a separate factor: the AI names ([[Nvidia|NVDA]], [[Broadcom|AVGO]]) ripped on data-center demand while [[Texas Instruments|TXN]], [[Analog Devices|ADI]], [[onsemi|ON]] and the rest languished on the auto/industrial destock. The cap-weighted broad semi ETF, dominated by the AI mega-caps, captures the first cycle and not the second — which is exactly why this concentrated basket is distinct and not ETF-replicable.
 
+## Sector performance
+
+![[analog-semis-performance.png]]
+*Normalized total return since Jan 2023, the six analog/auto-industrial names vs the semi ETF [[SMH]]. They move as one and visibly LAG SMH (which the AI mega-caps carried) — the decoupling from the AI cycle that makes analog distinct despite living inside SMH.*
+
 ## Cluster validation
 
 The candidate cohort is six analog/auto-industrial semiconductor makers — [[Texas Instruments|TXN]], [[Analog Devices|ADI]], [[Microchip Technology|MCHP]], [[onsemi|ON]], [[NXP|NXPI]], [[STMicro|STM]] — tested against the broad semi ETFs ([[SMH]]/[[SOXX]]), the AI-compute names ([[Nvidia|NVDA]]/[[Broadcom|AVGO]]), and the market (SPY). 1Y window through 2026-06-18, threshold 0.5. All US-listed/synchronous (STM via its NYSE line). Terminology: [[Cohort, cluster, basket]].
