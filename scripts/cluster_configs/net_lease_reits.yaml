@@ -1,0 +1,30 @@
+# Net-lease REITs — a distinct bond-proxy/duration factor, or = VNQ?
+# Completes the REIT sub-sector map: Residential REITs distinct (rent/supply driver), Tower REITs = VNQ,
+# Self-storage = VNQ (big-three a sub-factor). Net-lease is the purest bond-proxy REIT — long (10-25yr)
+# fixed leases to single tenants make these the most duration-/rate-sensitive equities in the market.
+# The novel test: do they separate from broad REITs (VNQ/XLRE) AND do they trade as the duration factor
+# (high correlation to TLT/IEF, long/intermediate Treasuries)? If they cluster with TLT and out-cohere
+# VNQ, they are a distinct rates-duration factor; if they sit inside VNQ, just REIT beta. Five net-lease
+# names: O (Realty Income, the bellwether "Monthly Dividend Company"), WPC (W.P. Carey, diversified +
+# industrial), NNN (NNN REIT, retail net-lease), ADC (Agree Realty, retail net-lease), EPRT (Essential
+# Properties, service-retail net-lease). SRC (Spirit Realty) excluded — acquired by O in 2024.
+name: Net-lease REITs
+primary: O
+prefix: net-lease-cluster
+threshold: 0.5
+window_end: 2026-06-18
+definition_date: 2026-06-20
+history_start: 2020-01-01
+groups:
+  cluster:
+    color: "#2962FF"
+    tickers: ["O", WPC, NNN, ADC, EPRT]
+  reit_etf:
+    color: "#26A69A"
+    tickers: [VNQ, XLRE]
+  duration:
+    color: "#FFB300"
+    tickers: [TLT, IEF]
+  etf:
+    color: "#9E9E9E"
+    tickers: [SPY]

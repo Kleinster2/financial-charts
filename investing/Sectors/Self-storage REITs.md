@@ -115,6 +115,7 @@ The intra-advantage numbers split cleanly: +0.275 versus the residential REITs (
 ## Related
 
 - [[Residential REITs]] — the distinct single-asset REIT factor; the instructive contrast (apartments decouple from VNQ, storage does not), and the cohort self-storage is most distinct from (+0.275)
+- [[Net-lease REITs]] — the fourth REIT sub-sector; marginally distinct (+0.106, a narrow band) where self-storage was VNQ-replicable (+0.069) — both far below residential's +0.360
 - [[Public Storage]], [[Extra Space Storage]], [[CubeSmart]], [[National Storage Affiliates]] — the cohort members
 - [[VNQ]], [[XLRE]] — the broad REIT ETFs the cohort cannot be distinguished from (contaminate from 0.35)
 - [[Auto parts retail]] — the pair/sub-group distinctness pattern (ORLY+AZO); the PSA/EXR/CUBE big-three may be the analogue

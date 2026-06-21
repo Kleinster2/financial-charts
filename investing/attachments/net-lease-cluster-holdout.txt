@@ -1,0 +1,22 @@
+Net-lease REITs HOLDOUT TEST
+Cohort: O, WPC, NNN, ADC, EPRT (N=5)
+Window: 2y, split temporally at midpoint
+Train: 2024-06-18 -> 2025-06-18 (58 obs)
+Test:  2025-06-18 -> 2026-06-18 (199 obs)
+
+--- TRAIN HALF (older) ---
+Intra-correlation:    0.7700
+PC1 explained var:    81.72%
+Pairwise range:       [0.596, 0.865]
+
+--- TEST HALF (newer) ---
+Intra-correlation:    0.7007
+PC1 explained var:    76.10%
+Pairwise range:       [0.611, 0.790]
+
+--- STABILITY DIAGNOSTICS ---
+Intra-corr delta:     -0.0693   (test - train)
+PC1 variance delta:   -5.62pp
+PC1 loadings corr:    0.2821    (1.0 = identical factor structure)
+
+VERDICT: STABLE — test/train ratio 0.91 (durable cluster across regimes)
