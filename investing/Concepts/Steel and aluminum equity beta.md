@@ -132,6 +132,7 @@ Steel and aluminum is the family's control case: it shows what a commodity-equit
 - [[Aluminum]] — the aluminum commodity
 - [[Copper equity beta]] / [[Gold equity beta]] / [[Lithium equity beta]] / [[Uranium equity beta]] — the mined-metal family; each is one commodity = one cohort
 - [[AI interconnect]] — the same "passes the nulls but is two sub-pieces" shape
+- [[Fertilizer producers]] — the messier multi-commodity case: a loose ag-input cohort that splits (Mosaic defects) and is regime-unstable, where steel/aluminum split cleanly into two factors
 - [[Vault cluster taxonomy]] — the cross-cohort map
 
 ### Methodology

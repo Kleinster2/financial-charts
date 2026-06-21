@@ -1,0 +1,29 @@
+# Fertilizer producers — one ag-input factor, a multi-nutrient split, or = the agribusiness ETF / crop prices?
+# A commodity-beta test in a MULTI-commodity setting, the steel+aluminum shape: do the nutrient producers
+# cohere as one "fertilizer" factor, or split by nutrient (potash NTR/MOS/IPI, nitrogen CF, phosphate MOS)?
+# And are they distinct from the agribusiness equity ETF (MOO), the ag-commodity basket (DBA, the crop-price
+# analogue of CPER/GLD), and broad materials (XLB)? Four nutrient producers: NTR (Nutrien, the largest —
+# potash + nitrogen + ag retail), MOS (Mosaic, potash + phosphate), CF (CF Industries, nitrogen pure-play),
+# IPI (Intrepid Potash, small-cap potash — likely satellite). CTVA (Corteva, seeds + crop protection) is the
+# adjacent-but-different-model control — testing whether fertilizer nutrients trade with seeds/crop-chem or
+# split from them. ICL excluded (Israeli specialty, thin US data).
+name: Fertilizer producers
+primary: NTR
+prefix: fertilizers-cluster
+threshold: 0.5
+window_end: 2026-06-18
+definition_date: 2026-06-20
+history_start: 2020-01-01
+groups:
+  cluster:
+    color: "#2962FF"
+    tickers: [NTR, MOS, CF, IPI]
+  seeds:
+    color: "#7E57C2"
+    tickers: [CTVA]
+  ag_etf:
+    color: "#26A69A"
+    tickers: [MOO, DBA]
+  etf:
+    color: "#9E9E9E"
+    tickers: [XLB, SPY]

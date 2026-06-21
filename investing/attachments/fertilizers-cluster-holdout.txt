@@ -1,0 +1,22 @@
+Fertilizer producers HOLDOUT TEST
+Cohort: NTR, MOS, CF, IPI (N=4)
+Window: 2y, split temporally at midpoint
+Train: 2024-06-18 -> 2025-06-18 (58 obs)
+Test:  2025-06-18 -> 2026-06-18 (199 obs)
+
+--- TRAIN HALF (older) ---
+Intra-correlation:    0.6625
+PC1 explained var:    74.77%
+Pairwise range:       [0.599, 0.759]
+
+--- TEST HALF (newer) ---
+Intra-correlation:    0.5737
+PC1 explained var:    68.29%
+Pairwise range:       [0.395, 0.678]
+
+--- STABILITY DIAGNOSTICS ---
+Intra-corr delta:     -0.0887   (test - train)
+PC1 variance delta:   -6.47pp
+PC1 loadings corr:    -0.3734    (1.0 = identical factor structure)
+
+VERDICT: STABLE — test/train ratio 0.87 (durable cluster across regimes)
