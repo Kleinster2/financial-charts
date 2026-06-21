@@ -1,7 +1,9 @@
 ---
-aliases: [IT Services]
+aliases: [IT Services, IT services and consulting, IT consulting, IT services sector]
+tags: [sector, technology, it-services, cluster-validation]
 ---
-#concept #sector
+
+# IT services
 
 **IT services** — Outsourced technology services: consulting, systems integration, managed services, BPO. [[EDS]] pioneered the model (1962).
 
