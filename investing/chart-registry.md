@@ -1,5 +1,15 @@
 ---
 charts:
+  it-services-performance.png:
+    tickers: ACN,CTSH,INFY,EPAM,GLOB,XLK
+    normalize: true
+    start: 2023-01-01
+    primary: ACN
+  cloud-computing-chart.png:
+    tickers: SKYY,IGV,SPY
+    normalize: true
+    start: 2021-01-01
+    primary: SKYY
   ai-regulation-chart.png:
     skip: true
   sk-telecom-fundamentals-chart.png:
