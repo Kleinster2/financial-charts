@@ -1,0 +1,22 @@
+Silver equity beta HOLDOUT TEST
+Cohort: PAAS, HL, CDE, FSM, AG (N=5)
+Window: 2y, split temporally at midpoint
+Train: 2024-06-18 -> 2025-06-18 (249 obs)
+Test:  2025-06-18 -> 2026-06-18 (252 obs)
+
+--- TRAIN HALF (older) ---
+Intra-correlation:    0.7407
+PC1 explained var:    79.27%
+Pairwise range:       [0.646, 0.811]
+
+--- TEST HALF (newer) ---
+Intra-correlation:    0.8215
+PC1 explained var:    85.78%
+Pairwise range:       [0.716, 0.879]
+
+--- STABILITY DIAGNOSTICS ---
+Intra-corr delta:     +0.0808   (test - train)
+PC1 variance delta:   +6.50pp
+PC1 loadings corr:    0.5775    (1.0 = identical factor structure)
+
+VERDICT: STRENGTHENING — test/train ratio 1.11 (basket consolidating; check for regime shift in the train half)
