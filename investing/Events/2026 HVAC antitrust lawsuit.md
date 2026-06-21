@@ -67,6 +67,8 @@ All four U.S.-listed industrial/HVAC names were ≥2.5σ moves against their own
 
 Price source: local `prices_long` for CARR, NVT, TT, JCI, SPY, and XLI; StockAnalysis historical table for Daikin / 6367.T.
 
+[[Watsco]] (WSO) is deliberately excluded from this defendant-reaction tape: it is the HVAC distributor, not a named manufacturer-defendant, and its relevant move was the −5.4% March 24 demand-signal slide (documented above), a separate catalyst from the March 26 lawsuit pickup. It is a read-through amplifier, not part of the price-fixing reaction.
+
 ---
 
 ## Implications
