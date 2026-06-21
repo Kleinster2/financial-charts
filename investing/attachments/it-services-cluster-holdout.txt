@@ -1,0 +1,22 @@
+IT services HOLDOUT TEST
+Cohort: ACN, CTSH, INFY, WIT, EPAM, GLOB (N=6)
+Window: 2y, split temporally at midpoint
+Train: 2024-06-18 -> 2025-06-18 (58 obs)
+Test:  2025-06-18 -> 2026-06-18 (199 obs)
+
+--- TRAIN HALF (older) ---
+Intra-correlation:    0.6394
+PC1 explained var:    70.38%
+Pairwise range:       [0.330, 0.843]
+
+--- TEST HALF (newer) ---
+Intra-correlation:    0.5978
+PC1 explained var:    67.68%
+Pairwise range:       [0.332, 0.832]
+
+--- STABILITY DIAGNOSTICS ---
+Intra-corr delta:     -0.0416   (test - train)
+PC1 variance delta:   -2.70pp
+PC1 loadings corr:    0.6624    (1.0 = identical factor structure)
+
+VERDICT: STABLE — test/train ratio 0.93 (durable cluster across regimes)

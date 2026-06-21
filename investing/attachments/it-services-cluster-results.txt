@@ -1,0 +1,83 @@
+IT services CLUSTER ANALYSIS
+Window 1y: 2025-07-08 -> 2026-06-18 (198 obs)
+Window 2y: 2024-07-15 -> 2026-06-18 (257 obs)
+Universe: 9 tickers across 4 groups
+Dendrogram cut threshold: 0.5
+
+--- 1Y INTRA-CLUSTER PAIRWISE CORRELATIONS ---
+Ticker   ACN  CTSH  INFY   WIT  EPAM  GLOB
+Ticker                                    
+ACN     1.00  0.83  0.64  0.35  0.75  0.72
+CTSH    0.83  1.00  0.71  0.40  0.73  0.68
+INFY    0.64  0.71  1.00  0.51  0.60  0.60
+WIT     0.35  0.40  0.51  1.00  0.33  0.34
+EPAM    0.75  0.73  0.60  0.33  1.00  0.76
+GLOB    0.72  0.68  0.60  0.34  0.76  1.00
+Average intra-cluster correlation: 0.598
+Range: [0.331, 0.833]
+
+--- AVG GROUP-PAIR CORRELATIONS (1Y) ---
+             cluster  tech_et  softwar      etf
+    cluster    0.598    0.114    0.419    0.188
+   tech_etf    0.114      nan    0.607    0.870
+software_et    0.419    0.607      nan    0.528
+        etf    0.188    0.870    0.528      nan
+
+Cluster vs others:
+  cluster vs tech_etf  : 0.114  (intra advantage: +0.483)
+  cluster vs software_etf: 0.419  (intra advantage: +0.178)
+  cluster vs etf       : 0.188  (intra advantage: +0.409)
+
+--- HIERARCHICAL CLUSTERS (1Y, distance threshold 0.5) ---
+  Cluster 1: XLK, IGV, SPY
+  Cluster 2: ACN, CTSH, INFY, EPAM, GLOB
+  Cluster 3: WIT
+
+--- CANDIDATE JOIN DISTANCES (1Y, average linkage, distance = 1-|corr|) ---
+ Step     Left                   Right Distance                     Members
+    1      ACN                    CTSH    0.167                    ACN+CTSH
+    2     EPAM                    GLOB    0.245                   EPAM+GLOB
+    3 ACN+CTSH               EPAM+GLOB    0.279          ACN+CTSH+EPAM+GLOB
+    4     INFY      ACN+CTSH+EPAM+GLOB    0.361     INFY+ACN+CTSH+EPAM+GLOB
+    5      WIT INFY+ACN+CTSH+EPAM+GLOB    0.613 WIT+INFY+ACN+CTSH+EPAM+GLOB
+
+--- PCA ON CANDIDATE COHORT (1Y) ---
+Explained variance ratio:
+  PC1: 67.67%
+  PC2: 13.89%
+  PC3: 6.55%
+  PC4: 5.35%
+  PC5: 3.95%
+
+PC1 loadings:
+ACN     0.443
+CTSH    0.447
+INFY    0.410
+WIT     0.271
+EPAM    0.429
+GLOB    0.421
+
+--- PC1 INDEX WEIGHTS (1Y) ---
+PCA is run on standardized daily log returns. Raw PC1-mimic weights scale PC1 loading by inverse realized volatility.
+     PC1 loading Loading weight Ann vol Raw PC1-mimic weight
+ACN        0.443         18.30%  44.02%               18.50%
+CTSH       0.447         18.47%  37.32%               22.03%
+INFY       0.410         16.91%  38.96%               19.32%
+WIT        0.271         11.19%  41.94%               11.88%
+EPAM       0.429         17.73%  51.27%               15.39%
+GLOB       0.421         17.40%  60.15%               12.87%
+
+--- WEEKLY-RETURN CROSS-CHECK (1Y, async-close robustness) ---
+Weeks: 40   Weekly intra-corr: 0.590 (daily 0.598)   Weekly PC1: 69.0% (daily 67.7%)
+
+--- HISTORICAL TIGHTNESS EVOLUTION (90D ROLLING) ---
+     Avg corr    PC1 Core corr Satellite corr Final join distance
+Date                                                             
+2021    0.418  51.9%     0.407          0.449               0.645
+2022    0.478  57.3%     0.446          0.543               0.679
+2023    0.560  63.5%     0.523          0.634               0.502
+2024    0.544  62.2%     0.530          0.566               0.508
+2025    0.600  67.1%     0.566          0.669               0.502
+2026    0.627  69.5%     0.603          0.662               0.550
+
+Latest 90D: avg corr 0.640, PC1 71.8%, core corr 0.617, satellite corr 0.687, final join distance 0.627

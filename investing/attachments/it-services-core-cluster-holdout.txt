@@ -1,0 +1,22 @@
+Sub - IT services core (ex-Wipro) HOLDOUT TEST
+Cohort: ACN, CTSH, INFY, EPAM, GLOB (N=5)
+Window: 2y, split temporally at midpoint
+Train: 2024-06-18 -> 2025-06-18 (58 obs)
+Test:  2025-06-18 -> 2026-06-18 (199 obs)
+
+--- TRAIN HALF (older) ---
+Intra-correlation:    0.6712
+PC1 explained var:    74.42%
+Pairwise range:       [0.330, 0.843]
+
+--- TEST HALF (newer) ---
+Intra-correlation:    0.7029
+PC1 explained var:    76.35%
+Pairwise range:       [0.603, 0.832]
+
+--- STABILITY DIAGNOSTICS ---
+Intra-corr delta:     +0.0317   (test - train)
+PC1 variance delta:   +1.94pp
+PC1 loadings corr:    0.9733    (1.0 = identical factor structure)
+
+VERDICT: STABLE — test/train ratio 1.05 (durable cluster across regimes)
