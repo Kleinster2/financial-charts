@@ -3,7 +3,9 @@ aliases: [Cluster campaign synthesis, Cluster validation capstone synthesis, The
 tags: [report, cluster-validation, synthesis, capstone]
 ---
 
-# Cluster validation campaign — capstone synthesis (2026-06-20)
+# Cluster validation campaign — capstone synthesis
+
+> [!note] Living capstone — last updated 2026-06-20. This is the standing synthesis of the cluster-validation campaign; it is revised in place as new cohorts are validated, not re-created per date. Per-pass FDR/OOS snapshots live in dated reports (e.g. the 2026-06-15 quarterly pass).
 
 A synthesis of the whole cluster-validation campaign: 137 cohorts logged in `scripts/cluster_registry.csv` (121 primary + 16 sub-cohorts; 118 with computed random-basket nulls), tested with the Gate-11 pipeline (intra-correlation, PCA, hierarchical clustering, random-basket and vol-matched permutation nulls, threshold-stability scan, out-of-sample holdout, and intra-advantage versus the relevant sector ETF). The living data hub is [[Vault cluster taxonomy]]; this report draws the campaign's structural conclusion. Cluster validation is structure, not a performance ranking — see `docs/cluster-validation.md`.
 
@@ -121,4 +123,4 @@ The 63 Bonferroni survivors are the unambiguously-cohesive cohorts; the 14 that 
 
 ---
 
-*Report created 2026-06-20; updated 2026-06-20 to the full 9 distinct factors + 2 sub-group factors (added tankers and analog semis; folded in the model-agnostic commodity-beta, index-rule, and single-asset-REIT-decoupling laws). Synthesis of the cluster-validation campaign through 2026-06-20 (137 cohorts). Data: `scripts/cluster_registry.csv`, [[Vault cluster taxonomy]].*
+*Living capstone — created 2026-06-20, last updated 2026-06-20 to the full 9 distinct factors + 2 sub-group factors (added tankers and analog semis; folded in the model-agnostic commodity-beta, index-rule, and single-asset-REIT-decoupling laws). Synthesis of the cluster-validation campaign through 2026-06-20 (137 cohorts). Data: `scripts/cluster_registry.csv`, [[Vault cluster taxonomy]].*
