@@ -1,0 +1,22 @@
+Mortgage REITs HOLDOUT TEST
+Cohort: NLY, AGNC, STWD, BXMT, RITM (N=5)
+Window: 2y, split temporally at midpoint
+Train: 2024-06-18 -> 2025-06-18 (249 obs)
+Test:  2025-06-18 -> 2026-06-18 (252 obs)
+
+--- TRAIN HALF (older) ---
+Intra-correlation:    0.7720
+PC1 explained var:    81.84%
+Pairwise range:       [0.658, 0.918]
+
+--- TEST HALF (newer) ---
+Intra-correlation:    0.6531
+PC1 explained var:    72.34%
+Pairwise range:       [0.571, 0.882]
+
+--- STABILITY DIAGNOSTICS ---
+Intra-corr delta:     -0.1189   (test - train)
+PC1 variance delta:   -9.50pp
+PC1 loadings corr:    0.5687    (1.0 = identical factor structure)
+
+VERDICT: WEAKENED — test/train ratio 0.85 (factor present but eroding)

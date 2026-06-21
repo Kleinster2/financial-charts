@@ -1,0 +1,33 @@
+# Mortgage REITs — one mortgage-REIT factor, an agency-vs-commercial split, or = rates / equity REITs?
+# A fundamentally different REIT type from the equity-REIT cohorts (residential/tower/self-storage/net-lease):
+# mREITs are leveraged interest-rate/MBS-credit vehicles, not property owners. The label spans two machines:
+# AGENCY mREITs (NLY/AGNC) are leveraged agency-MBS / duration / prepayment plays (near-pure rate + spread);
+# COMMERCIAL/credit mREITs (STWD/BXMT) are levered CRE credit (default risk, office exposure); RITM is a
+# hybrid (origination + MSR + agency). Test: do they cohere as one factor (= the mortgage-REIT ETF REM), or
+# split agency-vs-commercial (two factors under one label)? And are they distinct from rates (TLT — are the
+# agency names just the bond trade?) and from equity REITs (VNQ)? Five liquid names: NLY (Annaly, the largest),
+# AGNC (AGNC Investment) — agency; STWD (Starwood Property), BXMT (Blackstone Mortgage) — commercial; RITM
+# (Rithm Capital) — hybrid.
+name: Mortgage REITs
+primary: NLY
+prefix: mortgage-reits-cluster
+threshold: 0.5
+window_end: 2026-06-18
+definition_date: 2026-06-21
+history_start: 2020-01-01
+groups:
+  cluster:
+    color: "#2962FF"
+    tickers: [NLY, AGNC, STWD, BXMT, RITM]
+  mreit_etf:
+    color: "#26A69A"
+    tickers: [REM]
+  rates:
+    color: "#FFB300"
+    tickers: [TLT]
+  equity_reit:
+    color: "#7E57C2"
+    tickers: [VNQ]
+  etf:
+    color: "#9E9E9E"
+    tickers: [SPY]
