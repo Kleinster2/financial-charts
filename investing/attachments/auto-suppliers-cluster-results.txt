@@ -1,0 +1,83 @@
+Tier-1 auto suppliers CLUSTER ANALYSIS
+Window 1y: 2025-07-08 -> 2026-06-18 (198 obs)
+Window 2y: 2024-07-15 -> 2026-06-18 (257 obs)
+Universe: 11 tickers across 4 groups
+Dendrogram cut threshold: 0.5
+
+--- 1Y INTRA-CLUSTER PAIRWISE CORRELATIONS ---
+Ticker  APTV   BWA   LEA   MGA   ALV    VC
+Ticker                                    
+APTV    1.00  0.41  0.58  0.52  0.56  0.49
+BWA     0.41  1.00  0.59  0.43  0.60  0.48
+LEA     0.58  0.59  1.00  0.64  0.78  0.62
+MGA     0.52  0.43  0.64  1.00  0.64  0.61
+ALV     0.56  0.60  0.78  0.64  1.00  0.62
+VC      0.49  0.48  0.62  0.61  0.62  1.00
+Average intra-cluster correlation: 0.572
+Range: [0.413, 0.783]
+
+--- AVG GROUP-PAIR CORRELATIONS (1Y) ---
+             cluster  automak  auto_et      etf
+    cluster    0.572    0.459    0.472    0.452
+ automakers    0.459    0.575    0.449    0.458
+   auto_etf    0.472    0.449    0.643    0.831
+        etf    0.452    0.458    0.831      nan
+
+Cluster vs others:
+  cluster vs automakers: 0.459  (intra advantage: +0.112)
+  cluster vs auto_etf  : 0.472  (intra advantage: +0.100)
+  cluster vs etf       : 0.452  (intra advantage: +0.120)
+
+--- HIERARCHICAL CLUSTERS (1Y, distance threshold 0.5) ---
+  Cluster 1: GM, F
+  Cluster 2: CARZ, XLY, SPY
+  Cluster 3: APTV, BWA, LEA, MGA, ALV, VC
+
+--- CANDIDATE JOIN DISTANCES (1Y, average linkage, distance = 1-|corr|) ---
+ Step Left               Right Distance                 Members
+    1  LEA                 ALV    0.217                 LEA+ALV
+    2  MGA             LEA+ALV    0.362             MGA+LEA+ALV
+    3   VC         MGA+LEA+ALV    0.382          VC+MGA+LEA+ALV
+    4 APTV      VC+MGA+LEA+ALV    0.463     APTV+VC+MGA+LEA+ALV
+    5  BWA APTV+VC+MGA+LEA+ALV    0.497 BWA+APTV+VC+MGA+LEA+ALV
+
+--- PCA ON CANDIDATE COHORT (1Y) ---
+Explained variance ratio:
+  PC1: 64.68%
+  PC2: 10.37%
+  PC3: 8.79%
+  PC4: 6.71%
+  PC5: 5.85%
+
+PC1 loadings:
+APTV    0.371
+BWA     0.366
+LEA     0.448
+MGA     0.405
+ALV     0.447
+VC      0.404
+
+--- PC1 INDEX WEIGHTS (1Y) ---
+PCA is run on standardized daily log returns. Raw PC1-mimic weights scale PC1 loading by inverse realized volatility.
+     PC1 loading Loading weight Ann vol Raw PC1-mimic weight
+APTV       0.371         15.21%  41.60%               12.96%
+BWA        0.366         14.99%  40.59%               13.10%
+LEA        0.448         18.36%  32.82%               19.83%
+MGA        0.405         16.59%  36.47%               16.13%
+ALV        0.447         18.31%  28.38%               22.88%
+VC         0.404         16.54%  38.84%               15.09%
+
+--- WEEKLY-RETURN CROSS-CHECK (1Y, async-close robustness) ---
+Weeks: 40   Weekly intra-corr: 0.525 (daily 0.572)   Weekly PC1: 60.5% (daily 64.7%)
+
+--- HISTORICAL TIGHTNESS EVOLUTION (90D ROLLING) ---
+     Avg corr    PC1 Core corr Satellite corr Final join distance
+Date                                                             
+2021    0.685  73.8%     0.680          0.695               0.353
+2022    0.809  84.1%     0.818          0.789               0.240
+2023    0.829  85.9%     0.831          0.813               0.231
+2024    0.615  68.0%     0.618          0.602               0.455
+2025    0.740  78.3%     0.736          0.749               0.296
+2026    0.509  59.8%     0.525          0.523               0.619
+
+Latest 90D: avg corr 0.527, PC1 61.3%, core corr 0.568, satellite corr 0.444, final join distance 0.559

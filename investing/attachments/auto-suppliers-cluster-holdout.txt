@@ -1,0 +1,22 @@
+Tier-1 auto suppliers HOLDOUT TEST
+Cohort: APTV, BWA, LEA, MGA, ALV, VC (N=6)
+Window: 2y, split temporally at midpoint
+Train: 2024-06-18 -> 2025-06-18 (58 obs)
+Test:  2025-06-18 -> 2026-06-18 (199 obs)
+
+--- TRAIN HALF (older) ---
+Intra-correlation:    0.7811
+PC1 explained var:    81.84%
+Pairwise range:       [0.694, 0.884]
+
+--- TEST HALF (newer) ---
+Intra-correlation:    0.5719
+PC1 explained var:    64.68%
+Pairwise range:       [0.413, 0.783]
+
+--- STABILITY DIAGNOSTICS ---
+Intra-corr delta:     -0.2092   (test - train)
+PC1 variance delta:   -17.15pp
+PC1 loadings corr:    0.0918    (1.0 = identical factor structure)
+
+VERDICT: WEAKENED — test/train ratio 0.73 (factor present but eroding)
