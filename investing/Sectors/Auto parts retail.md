@@ -104,6 +104,7 @@ Latest 90-day reading: intra 0.513, PC1 61.1%. The five-name cohort was tight in
 - [[Advance Auto Parts]], [[Genuine Parts]], [[LKQ Corporation]] — the looser laggard group
 - [[Solid waste]], [[Railroads]] — distinct oligopoly factors (waste/rail); the auto duopoly is the pair-level analogue
 - [[XRT]], [[XLY]] — the retail ETFs the aftermarket is distinct from
+- [[Franchised auto dealers]] — the new-vehicle-retail leg of the auto complex (a full distinct cohort, +0.207 vs the retail ETFs); the aftermarket here is distinct only as the ORLY+AZO pair
 - [[Vault cluster taxonomy]] — cross-cohort meta-analysis
 - [[Cohort, cluster, basket]] — terminology
 

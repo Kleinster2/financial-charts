@@ -1,0 +1,31 @@
+# Franchised auto dealers — a distinct auto-retail factor, or = XRT / discretionary?
+# Completes the auto complex: Automakers (FALSIFIED, driver-divergence — TSLA tech vs legacy cyclicals vs
+# EV-startups) and Auto parts retail (the ORLY+AZO aftermarket DUOPOLY is distinct, the 5-name cohort only
+# partial). The franchised dealers are the third leg: homogeneous retail consolidators (new + used vehicles,
+# finance & insurance, parts/service) levered to US auto retail — new-vehicle SAAR, affordability/rates, and
+# the roll-up consolidation cycle. Test: do AN/LAD/PAG/GPI/SAH/ABG cohere as a distinct factor, or = XRT/XLY
+# (cyclical retail / consumer discretionary)? Six liquid franchised dealers: AN (AutoNation), LAD (Lithia, the
+# largest consolidator), PAG (Penske, premium + truck + international), GPI (Group 1), SAH (Sonic), ABG
+# (Asbury). KMX (CarMax) is the used-car-retail control; CVNA (Carvana, online-used) excluded — a different
+# model, and a price-quality question on the loaded series. ("AN" quoted — bare AN is fine in YAML, but quoted
+# defensively after the ON->True gotcha.)
+name: Franchised auto dealers
+primary: LAD
+prefix: auto-dealers-cluster
+threshold: 0.5
+window_end: 2026-06-18
+definition_date: 2026-06-20
+history_start: 2020-01-01
+groups:
+  cluster:
+    color: "#2962FF"
+    tickers: ["AN", LAD, PAG, GPI, SAH, ABG]
+  used_car:
+    color: "#7E57C2"
+    tickers: [KMX]
+  retail_etf:
+    color: "#26A69A"
+    tickers: [XRT, XLY]
+  etf:
+    color: "#9E9E9E"
+    tickers: [SPY]
