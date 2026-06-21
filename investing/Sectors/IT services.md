@@ -54,6 +54,13 @@ That does not negate [[AI disintermediation]]. It narrows it. Commodity implemen
 
 ---
 
+## Sector performance
+
+![[it-services-performance.png]]
+*Normalized total return since Jan 2023. The cohort co-moves — and has derated hard against the AI-dominated tech ETF: [[XLK]] is up ~220% on the mega-cap AI rally while the IT-services names are flat-to-down. The higher-beta digital-engineering pair [[EPAM Systems|EPAM]]/[[Globant|GLOB]] is worst (−70% to −80%, the most direct GenAI-disruption proxies); the consulting names [[Accenture|ACN]]/[[Cognizant|CTSH]]/[[Infosys|INFY]] are down 25–45%. This is the +0.597 distinctness made visible (the cohort barely tracks XLK) and the [[AI disintermediation|GenAI repricing]] the section above describes — the market has marked down the labor-arbitrage model even as it bid up the AI-compute layer.*
+
+---
+
 ## Cluster validation
 
 > [!success] Cluster status: VALIDATED distinct — a strengthening IT-services/consulting factor almost orthogonal to the tech ETF; one of the campaign's most ETF-distinct cohorts (the core-5; [[Wipro]] the outlier) (Jun 2026)
