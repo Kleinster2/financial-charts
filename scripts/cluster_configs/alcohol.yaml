@@ -1,0 +1,30 @@
+# Alcohol & spirits — a distinct defensive-consumer factor, or = staples (XLP)?
+# Packaged food & beverages validated as a real defensive cohort but = XLP. Alcohol is the next consumer-
+# staples sub-sector, with its OWN demand narrative (GLP-1 / moderation / Gen-Z drinking-less worries,
+# premiumization, cannabis competition) that might differentiate it — or it may also collapse to XLP.
+# The names are heterogeneous (beer vs spirits vs craft, US vs global), so a split is also possible. Five
+# developed-market alcohol names: STZ (Constellation — beer-heavy in US: Modelo/Corona + wine/spirits),
+# BF-B (Brown-Forman — premium spirits, Jack Daniel's), TAP (Molson Coors — mass beer), SAM (Boston Beer —
+# craft + hard seltzer/Truly), DEO (Diageo — global premium spirits, NYSE ADR). Controls: XLP/KXI (US +
+# global staples), KO (non-alcoholic beverage major — do alcohol names trade with soft drinks?), SPY.
+# (BF-B is the yfinance/DB ticker for Brown-Forman class B; "BF.B" fails the data source.)
+name: Alcohol and spirits
+primary: STZ
+prefix: alcohol-cluster
+threshold: 0.5
+window_end: 2026-06-18
+definition_date: 2026-06-21
+history_start: 2020-01-01
+groups:
+  cluster:
+    color: "#2962FF"
+    tickers: [STZ, "BF-B", TAP, SAM, DEO]
+  staples_etf:
+    color: "#26A69A"
+    tickers: [XLP, KXI]
+  beverages:
+    color: "#7E57C2"
+    tickers: [KO]
+  etf:
+    color: "#9E9E9E"
+    tickers: [SPY]

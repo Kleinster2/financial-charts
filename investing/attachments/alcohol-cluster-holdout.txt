@@ -1,0 +1,22 @@
+Alcohol and spirits HOLDOUT TEST
+Cohort: STZ, BF-B, TAP, SAM, DEO (N=5)
+Window: 2y, split temporally at midpoint
+Train: 2024-06-18 -> 2025-06-18 (58 obs)
+Test:  2025-06-18 -> 2026-06-18 (199 obs)
+
+--- TRAIN HALF (older) ---
+Intra-correlation:    0.5288
+PC1 explained var:    62.73%
+Pairwise range:       [0.372, 0.706]
+
+--- TEST HALF (newer) ---
+Intra-correlation:    0.4833
+PC1 explained var:    58.87%
+Pairwise range:       [0.366, 0.598]
+
+--- STABILITY DIAGNOSTICS ---
+Intra-corr delta:     -0.0455   (test - train)
+PC1 variance delta:   -3.86pp
+PC1 loadings corr:    -0.2441    (1.0 = identical factor structure)
+
+VERDICT: STABLE — test/train ratio 0.91 (durable cluster across regimes)

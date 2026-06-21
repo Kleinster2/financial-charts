@@ -1,0 +1,26 @@
+Alcohol and spirits THRESHOLD STABILITY SCAN
+Cohort size: 5
+
+--- ASSIGNMENT TABLE ---
+ threshold  n_subclusters  largest_subcluster_size  cohort_share_in_largest  contamination_count  intact
+      0.20              5                        1                      0.2                    0   False
+      0.25              5                        1                      0.2                    0   False
+      0.30              5                        1                      0.2                    0   False
+      0.35              5                        1                      0.2                    0   False
+      0.40              5                        1                      0.2                    0   False
+      0.45              4                        2                      0.4                    0   False
+      0.50              3                        2                      0.4                    0   False
+      0.55              2                        4                      0.8                    0   False
+      0.60              1                        5                      1.0                    0    True
+      0.65              1                        5                      1.0                    0    True
+      0.70              1                        5                      1.0                    3   False
+
+--- STABLE RANGES (intact cohort, no contamination) ---
+  [0.60, 0.65]  width = 0.05  (NARROW)
+Total stable width: 0.05
+
+--- VERDICT ---
+FRAGILE: cohort intact only at narrow threshold band(s). Validation depends on threshold pick.
+
+--- CONTAMINATION DETAIL (non-cohort names joining the cohort's largest cluster) ---
+  threshold 0.70: + XLP,KXI,KO
