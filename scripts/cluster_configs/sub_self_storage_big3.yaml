@@ -1,0 +1,27 @@
+# Sub-cohort sweep: the self-storage big-three (PSA/EXR/CUBE) without the NSA satellite.
+# The parent Self-storage REITs cohort (4 names incl. NSA) is ETF-replicable (= VNQ) — but the
+# big-three close at join distance 0.143 while VNQ only contaminates the cluster at 0.35, suggesting a
+# separable big-three sub-factor in the ORLY+AZO mold (distinctness concentrated in a sub-group, not
+# the whole label). This 3-name check tests whether, with NSA (the loose mid-cap, secondary-market,
+# PRO-structured satellite) removed, the big-three out-cohere VNQ and form a clean separable band.
+# Same controls as the parent: broad REIT ETF (VNQ/XLRE), residential REITs (AVB/EQR), market (SPY).
+name: Sub - Self-storage big-three
+primary: PSA
+prefix: sub-self-storage-big3-cluster
+threshold: 0.5
+window_end: 2026-06-18
+definition_date: 2026-06-20
+history_start: 2020-01-01
+groups:
+  cluster:
+    color: "#2962FF"
+    tickers: [PSA, EXR, CUBE]
+  reit_etf:
+    color: "#26A69A"
+    tickers: [VNQ, XLRE]
+  resi_reit:
+    color: "#7E57C2"
+    tickers: [AVB, EQR]
+  etf:
+    color: "#9E9E9E"
+    tickers: [SPY]

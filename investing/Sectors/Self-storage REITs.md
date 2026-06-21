@@ -5,8 +5,8 @@ tags: [sector, real-estate, reit, self-storage, cluster-validation]
 
 # Self-storage REITs
 
-> [!warning] Cluster status: validated cohesion but ETF-replicable (= VNQ) — distinct from apartments, not from broad REITs (Jun 2026)
-> The public self-storage REITs ([[Public Storage|PSA]]/[[Extra Space Storage|EXR]]/[[CubeSmart|CUBE]]/[[National Storage Affiliates|NSA]]) cohere — intra-corr 0.710, PC1 79.0%, rejecting the independence, random-basket and vol-matched nulls (0.0001/0.0002/0.0001) — but they are not a distinct factor. The decisive numbers: only a +0.069 intra-advantage versus the broad REIT ETF [[VNQ]]/[[XLRE]] (which contaminate the cohort from threshold 0.35) and zero clean threshold width. They ARE distinct from the residential REITs (+0.275 versus [[Residential REITs|AVB/EQR]] — storage and apartments are different single-asset factors), but they correlate with broad REITs almost as much as with each other, so the basket adds nothing over [[VNQ]]. The internal structure is a tight big-three ([[Public Storage|PSA]]/[[Extra Space Storage|EXR]]/[[CubeSmart|CUBE]], ~0.87, closing at 0.143) plus [[National Storage Affiliates|NSA]] as a looser satellite (~0.55, joining only at 0.450). Holdout WEAKENED (0.80): tight 2021-25 (0.76-0.88) then loosening sharply in 2026 (0.66). The contrast with [[Residential REITs]] is the lesson — not every single-asset REIT cohort is distinct; it depends on whether the asset's demand driver decouples from the broad rate/REIT factor. See below.
+> [!warning] Cluster status: the four-name cohort is ETF-replicable (= VNQ), but the PSA/EXR/CUBE big-three is a distinct, durable sub-factor — NSA is the drag (Jun 2026)
+> The public self-storage REITs ([[Public Storage|PSA]]/[[Extra Space Storage|EXR]]/[[CubeSmart|CUBE]]/[[National Storage Affiliates|NSA]]) cohere — intra-corr 0.710, PC1 79.0%, rejecting the independence, random-basket and vol-matched nulls (0.0001/0.0002/0.0001) — but they are not a distinct factor. The decisive numbers: only a +0.069 intra-advantage versus the broad REIT ETF [[VNQ]]/[[XLRE]] (which contaminate the cohort from threshold 0.35) and zero clean threshold width. They ARE distinct from the residential REITs (+0.275 versus [[Residential REITs|AVB/EQR]] — storage and apartments are different single-asset factors), but they correlate with broad REITs almost as much as with each other, so the basket adds nothing over [[VNQ]]. The internal structure is a tight big-three ([[Public Storage|PSA]]/[[Extra Space Storage|EXR]]/[[CubeSmart|CUBE]], ~0.87, closing at 0.143) plus [[National Storage Affiliates|NSA]] as a looser satellite (~0.55, joining only at 0.450). Holdout WEAKENED (0.80): tight 2021-25 (0.76-0.88) then loosening sharply in 2026 (0.66). But a dedicated three-name check flips the read for the core — drop the [[National Storage Affiliates|NSA]] satellite and the [[Public Storage|PSA]]/[[Extra Space Storage|EXR]]/[[CubeSmart|CUBE]] big-three ARE a distinct, durable sub-factor (intra 0.869, +0.173 versus VNQ, a separable band [0.20–0.30], STABLE holdout 0.96): the [[Auto parts retail|ORLY+AZO]] pattern, distinctness in the core with NSA the ETF-replicable drag. The contrast with [[Residential REITs]] is the lesson — not every single-asset REIT cohort is distinct; it depends on whether the asset's demand driver decouples from the broad rate/REIT factor. See below.
 
 The single-asset REIT that didn't separate. Residential REITs validated a clean law: one asset (US apartments), one driver (rates plus market rents and supply), produces a factor distinct from the diluted [[VNQ]]. Self-storage looked like the same setup — one asset (storage units), a specific demand story (the "4 Ds": death, divorce, dislocation, downsizing, plus moves and small-business inventory). But it does not separate from broad REITs the way apartments do. Storage demand is real and idiosyncratic, yet the equities trade primarily on the same rate sensitivity that moves the whole REIT complex, so [[VNQ]] sits inside the cohort and the storage-specific premium over it is thin (+0.069). The names are distinct from apartments but not from REITs-in-general.
 
@@ -44,7 +44,7 @@ The threshold scan returns zero clean width — the contamination order shows wh
 | 0.45 | + AVB, EQR | The residential REITs join the REIT complex |
 | 0.50–0.70 | (REIT complex intact) | One rate-driven REIT cluster |
 
-There is a narrow window below the VNQ-contamination cut where the big-three stand alone: [[Extra Space Storage|EXR]]+[[CubeSmart|CUBE]] close at 0.106 and [[Public Storage|PSA]] joins at 0.143, while VNQ does not contaminate until 0.35. So a big-three sub-cluster (PSA/EXR/CUBE, excluding the satellite NSA) separates from VNQ across roughly [0.15–0.35] — a possible distinct sub-factor in the [[Auto parts retail|ORLY+AZO]] mold, worth a dedicated three-name check. But the cohort as defined (with NSA) never forms a clean cluster: NSA joins only at 0.450, after VNQ has already contaminated.
+There is a narrow window below the VNQ-contamination cut where the big-three stand alone: [[Extra Space Storage|EXR]]+[[CubeSmart|CUBE]] close at 0.106 and [[Public Storage|PSA]] joins at 0.143, while VNQ does not contaminate until 0.35. So a big-three sub-cluster (PSA/EXR/CUBE, excluding the satellite NSA) separates from VNQ across [0.20–0.30] — a distinct sub-factor in the [[Auto parts retail|ORLY+AZO]] mold, confirmed by a dedicated three-name check (see "Sub-cohort" below). The cohort as defined (with NSA) never forms a clean cluster: NSA joins only at 0.450, after VNQ has already contaminated.
 
 ### Topology — a tight big-three and a satellite
 
@@ -57,6 +57,23 @@ Reading the candidate cohort by join distance (average linkage, 1−|corr|):
 | 3 | NSA + core | 0.450 | the satellite joins late — well above the VNQ cut |
 
 The big-three close at 0.143 — as tight as any distinct cohort — but [[National Storage Affiliates|NSA]] joins only at 0.450. NSA's mid-cap size, secondary/tertiary-market footprint, and participating-regional-operator (PRO) structure make it the loose member (pairwise 0.51–0.59). PC1 explains 79.0% with a sizeable PC2 (14.6%) — the NSA-vs-big-three axis.
+
+### Sub-cohort — the big-three (PSA/EXR/CUBE) ARE a distinct factor; NSA is the drag
+
+![[sub-self-storage-big3-cluster-dendrogram-1y.png]]
+*The three big self-storage REITs without NSA. At the 0.5 cut they still sit with the REIT complex, but the threshold scan isolates them across [0.20–0.30] before VNQ contaminates — a separable band the four-name cohort never had.*
+
+A dedicated three-name check (`scripts/cluster_configs/sub_self_storage_big3.yaml`, registry row 2026-06-20) confirms the [[Public Storage|PSA]]/[[Extra Space Storage|EXR]]/[[CubeSmart|CUBE]] core is a genuine distinct, durable sub-factor — the ETF-replicable verdict on the four-name cohort is driven by the [[National Storage Affiliates|NSA]] satellite, not the core:
+
+| Diagnostic | 4-name cohort (with NSA) | Big-three (PSA/EXR/CUBE) |
+|---|---|---|
+| Intra-corr (1Y) | 0.710 | 0.869 |
+| PC1 variance | 79.0% | 91.3% |
+| Intra-adv vs VNQ/XLRE | +0.069 | +0.173 |
+| Threshold stable band | 0.00 (none) | [0.20–0.30], width 0.10 |
+| Holdout (2Y) | WEAKENED 0.80 | STABLE 0.96 |
+
+Removing NSA lifts the ETF intra-advantage from +0.069 to +0.173 ([[Railroads|railroads]]/[[Life science tools|life-science-tools]] territory), opens a separable band [0.20–0.30] before VNQ contaminates at 0.35, and — most tellingly — flips the holdout from WEAKENED to STABLE: the 2026 loosening that weakened the four-name cohort was almost entirely NSA diverging, while the big-three stayed tight (train 0.906 → test 0.870). All three nulls reject at the 0.0001 floor. This is the [[Auto parts retail|ORLY+AZO]] pattern — distinctness concentrated in a tight core sub-group, with a looser name dragging the full label into ETF-replicability. The ownable self-storage factor is the PSA/EXR/CUBE big-three; NSA adds broad-REIT drag.
 
 ### PC1 index weights
 
