@@ -1,5 +1,15 @@
 ---
 charts:
+  china-internet-performance.png:
+    tickers: BABA,JD,PDD,BIDU,NTES,KWEB
+    normalize: true
+    start: 2021-01-01
+    primary: BABA
+  china-platform-regulation-chart.png:
+    tickers: KWEB,SPY
+    normalize: true
+    start: 2019-01-01
+    primary: KWEB
   gig-platforms-performance.png:
     tickers: UBER,LYFT,DASH,CART,XLY
     normalize: true
@@ -10,6 +20,11 @@ charts:
     normalize: true
     start: 2023-01-01
     primary: DE
+  data-centers-performance.png:
+    tickers: EQIX,DLR,CORZ,IREN,WULF,SPY
+    normalize: true
+    start: 2024-01-01
+    primary: EQIX
   off-price-performance.png:
     tickers: TJX,ROST,BURL,OLLI,XRT
     normalize: true
