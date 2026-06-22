@@ -17,7 +17,7 @@ Managing Director and equity research analyst at [[Jefferies]] (Jefferies Resear
 | Firm | [[Jefferies]] (Jefferies Research Services LLC) |
 | Base | New York |
 | Sectors | Specialty chemicals, basic materials; also industrials, healthcare/biotech |
-| Coverage names | [[Albemarle]], SQM, Ecolab, Air Products, LSB Industries, Quaker Houghton |
+| Coverage names | [[Albemarle]], [[SQM]], Ecolab, Air Products, LSB Industries, Quaker Houghton |
 | Education | Columbia; Yale |
 | FINRA CRD | #4039199 |
 | Affiliations | ICIS Chemical Business editorial advisory board (since 2009); Chemicals Analysts of New York (since 2009) |
@@ -39,7 +39,7 @@ The note was reported by [[Bryce Elder]] at FT Alphaville (Jun 9 2026), who wrap
 
 ## Coverage note
 
-Alexander's chemicals/materials franchise overlaps the vault's [[Lithium]] complex directly: he covers [[Albemarle]] and SQM, the two largest Western lithium producers. His specialty-chemicals lens (olefins/alkene oversupply, GRAS food-additive regulation) is the origin of several of the themes in the narrative-lifecycle current-state map.
+Alexander's chemicals/materials franchise overlaps the vault's [[Lithium]] complex directly: he covers [[Albemarle]] and [[SQM]], the two largest Western lithium producers. His specialty-chemicals lens (olefins/alkene oversupply, GRAS food-additive regulation) is the origin of several of the themes in the narrative-lifecycle current-state map.
 
 ---
 
@@ -50,5 +50,6 @@ Alexander's chemicals/materials franchise overlaps the vault's [[Lithium]] compl
 - [[Thesis lock-in]] — pathology he named
 - [[Bryce Elder]] — FT Alphaville author who reported the note
 - [[Albemarle]] — covered name; vault lithium tie-in
+- [[SQM]] — covered name; #2 lithium producer (the [[Lithium equity beta]] cohort)
 - [[Lithium]] — coverage sector overlap
 - [[Generative AI]] — the model class his framework analyzes

@@ -15,7 +15,8 @@ Accenture is the bellwether for whether generative AI is a tailwind or a solvent
 
 The strategic response is to buy growth and pivot toward defended niches: Accenture is more than doubling its FY acquisition budget to $9bn, with a same-day $4.2bn cyber package (runZero, NetRise, a majority of [[Dragos]]) aimed at AI-driven security demand, on top of the $1bn Faculty AI deal agreed in January. The open question is whether AI-transformation revenue accelerates before automation erodes billable hours — the [[Capgemini]] "widened spending pool" bull case versus the [[AI disintermediation]] bear case, with Accenture's guidance cut the first hard evidence for the bears.
 
-*Full financials build-out pending — a securities note, fundamentals and Sankey charts, and a historical financials table are open follow-ups. Accenture income statement data unavailable in the database: fundamentals chart data unavailable, historical financials data unavailable, price/chart data unavailable in-vault, pending a data fetch and full deep-dive.*
+![[acn-fundamentals.png]]
+*Accenture revenue and net income through FY2025 (fiscal year ends Aug 31), ACN price overlaid on the left axis. Revenue compounded from ~$33B (FY2015) to $69.7B (FY2025) at ~10–11% net margins; the share price fell from a ~$394 Feb-2025 peak to ~$128 (Jun 18 2026) — the gap between steady fundamentals and the [[AI disintermediation]] rerating. Source: financial-charts / Alpha Vantage.*
 
 ---
 
@@ -50,6 +51,28 @@ With organic growth stalling, Accenture is leaning on M&A and repositioning towa
 - Faculty — UK AI start-up, acquired for $1bn (agreed January 2026).
 
 The pivot fits the [[IT services]] sorting logic: commodity implementation gets cheaper, while security, governance, and complex transformation become the defended, higher-value layer.
+
+---
+
+## Financials
+
+| FY (ends Aug 31) | Revenue | Net income |
+|---|---|---|
+| 2025 | $69.7B | $7.68B |
+| 2024 | $64.9B | $7.26B |
+| 2023 | $64.1B | $6.87B |
+| 2022 | $61.6B | $6.88B |
+| 2021 | $50.5B | $5.91B |
+| 2020 | $44.3B | $5.11B |
+| 2019 | $43.2B | $4.78B |
+| 2018 | $41.0B | $4.06B |
+| 2017 | $36.2B | $3.45B |
+| 2016 | $34.8B | $4.11B |
+
+Revenue roughly doubled over the decade (~7.7% CAGR) at steady ~10–11% net margins. The post-Covid consulting boom drove the FY2021–22 acceleration; FY2023–25 decelerated as discretionary consulting softened; the Q3 FY2026 guidance cut (≤4% growth) marks the [[AI disintermediation|AI-disruption]] inflection. Income-statement data via Alpha Vantage (fetched Jun 2026); FY2026 in progress. Full price/valuation detail in [[Accenture securities note]].
+
+![[acn-sankey.png]]
+*Accenture FY2025 income-statement flow — revenue → gross profit → operating income → net income ($69.7B → $7.68B). Source: financial-charts.*
 
 ---
 
@@ -91,5 +114,8 @@ ACN shows moderate Software correlation (IGV r = 0.58).
 - [[AI disintermediation]] — threat thesis
 - [[Cybersecurity consolidation]] — Jun 2026 cyber acquisitions ([[Dragos]] et al.)
 - [[Claude Cowork disruption February 2026]] — hit IT consulting stocks
+
+### Securities
+- [[Accenture securities note]] — tradeable instrument (ACN): price history, valuation, earnings reactions
 
 *Created 2026-02-10*
