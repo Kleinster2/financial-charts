@@ -10,6 +10,11 @@ tags: [sector, healthcare, distribution, drug-distribution, cluster-validation]
 
 The fee-based logistics layer of pharma. McKesson, Cencora, and Cardinal Health move ~90% of US prescription drugs on razor-thin margins, and their economics are nothing like the drugs they ship: generic deflation, branded-price inflation, fee-for-service distribution contracts, the opioid-settlement overhang, and high-volume new-modality flow (COVID products, then GLP-1s) drive all three together — and none of that is what moves drug-makers or device companies. That is why the cohort is so far from [[XLV]]: it is a regulated, oligopolistic logistics business wearing a healthcare label.
 
+## Sector performance
+
+![[drugdist-performance.png]]
+*Normalized total return since Jan 2023 — the cohort vs [[XLV]] (the sector ETF it is tested against). See the cluster validation below for whether the cohort is distinct from or replicable by the ETF.*
+
 ## Cluster validation
 
 The candidate cohort is the three US drug-distribution majors — [[McKesson|MCK]], [[Cencora|COR]], [[Cardinal Health|CAH]] — tested against an adjacent healthcare distributor ([[Henry Schein|HSIC]], dental/medical), healthcare (XLV), medical devices (IHI), and market (SPY). 1Y window through 2026-06-18, threshold 0.5. Terminology: [[Cohort, cluster, basket]].

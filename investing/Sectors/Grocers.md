@@ -10,6 +10,11 @@ tags: [sector, consumer-staples, grocery, retail, cluster-validation]
 
 The anti-factor of food retail. Grocery is a low-margin, operationally idiosyncratic business: Kroger and Albertsons spent two years in a merger saga (and now litigation), Sprouts is a high-growth premium-natural-foods format, and Grocery Outlet is an extreme-value closeout operator on an independent-operator model. Those are four different stories with little common driver — which is exactly why the cohort fails the random-basket null. There is no grocery factor to own.
 
+## Sector performance
+
+![[grocers-performance.png]]
+*Normalized total return since Jan 2023 — the cohort vs [[XLP]] (the sector ETF it is tested against). See the cluster validation below for whether the cohort is distinct from or replicable by the ETF.*
+
 ## Cluster validation
 
 The candidate cohort is four listed supermarket operators — [[Kroger|KR]], [[Albertsons|ACI]], [[Sprouts Farmers Market|SFM]], [[Grocery Outlet|GO]] — tested against consumer staples (XLP), retail (XRT), and market (SPY). 1Y window through 2026-06-18, threshold 0.5. Terminology: [[Cohort, cluster, basket]].

@@ -985,15 +985,15 @@ class NoteChecker(IndexMixin, FixMixin, AnalyticsMixin):
 
         # Sectors cohort notes must additionally carry a performance view (cohort members
         # normalized vs the sector ETF) in a `## Sector performance` section, distinct from the
-        # cluster-structure charts. Migration: WARNING while the existing corpus is backfilled;
-        # promote to "error" once every Sectors cohort note has one.
+        # cluster-structure charts. ERROR-level: the full corpus was backfilled 2026-06-21
+        # (all 46 Sectors cohort notes carry one). Concepts/ cluster notes remain out of scope.
         if self._is_under_folder(filepath, "Sectors"):
             has_perf_chart = has(
                 r'!\[\[[^\]]*(?:performance|sector-chart)[^\]]*\.png(?:\|[^\]]*)?\]\]'
             )
             if not has_perf_chart:
                 issues.append(Issue(
-                    "warning",
+                    "error",
                     "cluster-validation",
                     "Sector cohort note missing a `## Sector performance` chart (cohort members "
                     "normalized vs the sector ETF, distinct from the cluster-structure charts). "

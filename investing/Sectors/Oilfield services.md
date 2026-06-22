@@ -10,6 +10,11 @@ tags: [sector, energy, oil-gas, oilfield-services, cluster-validation]
 
 The middle of the energy value chain. The oil & gas majors ([[Oil and gas equity beta]]) are the equity expression of the crude price; the services names are paid on customer capex — the rigs, fracs, completions, and equipment that producers buy when activity rises — so they ride the drilling/capex cycle rather than spot crude directly. That is why they form their own factor, distinct from the majors. What they are NOT is a separable trade from the oil-services ETF: OIH holds these exact names, so the cohort is the ETF.
 
+## Sector performance
+
+![[oilfield-services-performance.png]]
+*Normalized total return since Jan 2023 — the cohort vs OIH (the sector ETF it is tested against). See the cluster validation below for whether the cohort is distinct from or replicable by the ETF.*
+
 ## Cluster validation
 
 The candidate cohort is the six diversified oilfield-services + equipment majors — [[Schlumberger|SLB]], [[Halliburton|HAL]], [[Baker Hughes|BKR]], [[NOV]], [[TechnipFMC|FTI]], [[Weatherford|WFRD]] — tested against the oil majors ([[Oil and gas equity beta|XOM/CVX/COP/EOG]]), drillers ([[Patterson-UTI|PTEN]]/[[Helmerich & Payne|HP]]/[[Transocean|RIG]]), and benchmarks (OIH oil-services ETF, XLE energy, XOP E&P, SPY). 1Y window through 2026-06-18, threshold 0.5. Terminology: [[Cohort, cluster, basket]].

@@ -10,6 +10,11 @@ tags: [sector, consumer, retail, auto-aftermarket, cluster-validation]
 
 The aftermarket-resilience story holds — but only for the premium duopoly. [[O'Reilly Automotive]] and [[AutoZone]] run the same high-quality DIY/DIFM model — dense store networks, commercial delivery, consistent mid-single-digit comps through cycles — and trade as a tight pair strikingly decoupled from broad retail. The other three are different businesses: [[Advance Auto Parts]] a multi-year turnaround, [[Genuine Parts]] a diversified industrial + NAPA distributor, [[LKQ Corporation]] an alternative/salvage-parts distributor with European exposure. So the "auto parts retail" label is really a robust duopoly plus three idiosyncratic names.
 
+## Sector performance
+
+![[autoparts-performance.png]]
+*Normalized total return since Jan 2023 — the cohort vs [[XRT]] (the sector ETF it is tested against). See the cluster validation below for whether the cohort is distinct from or replicable by the ETF.*
+
 ## Cluster validation
 
 The candidate cohort is five listed auto-parts retail and distribution names — [[O'Reilly Automotive|ORLY]], [[AutoZone|AZO]], [[Advance Auto Parts|AAP]], [[Genuine Parts|GPC]], [[LKQ Corporation|LKQ]] — tested against the retail ETF [[XRT]], consumer discretionary (XLY), and market (SPY). 1Y window through 2026-06-18, threshold 0.5. Terminology: [[Cohort, cluster, basket]].

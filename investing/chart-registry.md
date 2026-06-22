@@ -1,5 +1,160 @@
 ---
 charts:
+  aero-aftermkt-performance.png:
+    tickers: TDG,HEI,HWM,CW,ITA
+    normalize: true
+    start: 2023-01-01
+    primary: TDG
+  apparel-performance.png:
+    tickers: NKE,LULU,DECK,ONON,UAA,CROX,XRT
+    normalize: true
+    start: 2023-01-01
+    primary: NKE
+  autoparts-performance.png:
+    tickers: ORLY,AZO,AAP,GPC,LKQ,XRT
+    normalize: true
+    start: 2023-01-01
+    primary: ORLY
+  autos-ev-performance.png:
+    tickers: TSLA,GM,F,RIVN,LCID,CARZ
+    normalize: true
+    start: 2023-01-01
+    primary: TSLA
+  biotech-performance.png:
+    tickers: GILD,AMGN,VRTX,REGN,BIIB,XBI
+    normalize: true
+    start: 2023-01-01
+    primary: AMGN
+  building-products-performance.png:
+    tickers: CARR,TT,JCI,LII,MAS,OC,ALLE,AOS,FBIN,XHB
+    normalize: true
+    start: 2023-01-01
+    primary: CARR
+  chems-performance.png:
+    tickers: LIN,APD,DOW,LYB,CE,EMN,XLB
+    normalize: true
+    start: 2023-01-01
+    primary: LIN
+  cro-performance.png:
+    tickers: IQV,ICLR,CRL,MEDP,XLV
+    normalize: true
+    start: 2023-01-01
+    primary: IQV
+  dtctelehealth-performance.png:
+    tickers: HIMS,TDOC,GDRX,DOCS,LFMD,XLV
+    normalize: true
+    start: 2023-01-01
+    primary: HIMS
+  drugdist-performance.png:
+    tickers: MCK,COR,CAH,XLV
+    normalize: true
+    start: 2023-01-01
+    primary: MCK
+  grocers-performance.png:
+    tickers: KR,ACI,SFM,GO,XLP
+    normalize: true
+    start: 2023-01-01
+    primary: KR
+  hotels-performance.png:
+    tickers: MAR,HLT,H,WH,CHH,PEJ
+    normalize: true
+    start: 2023-01-01
+    primary: MAR
+  distributors-performance.png:
+    tickers: GWW,FAST,WSO,MSM,AIT,XLI
+    normalize: true
+    start: 2023-01-01
+    primary: GWW
+  lst-performance.png:
+    tickers: TMO,DHR,A,MTD,WAT,IQV,RVTY,XLV
+    normalize: true
+    start: 2023-01-01
+    primary: TMO
+  midstream-performance.png:
+    tickers: KMI,WMB,OKE,EPD,ET,MPLX,AMLP
+    normalize: true
+    start: 2023-01-01
+    primary: KMI
+  oilfield-services-performance.png:
+    tickers: SLB,HAL,BKR,NOV,FTI,WFRD,OIH
+    normalize: true
+    start: 2023-01-01
+    primary: SLB
+  staples-food-performance.png:
+    tickers: KO,PEP,MDLZ,GIS,HSY,KHC,XLP
+    normalize: true
+    start: 2023-01-01
+    primary: KO
+  railroads-performance.png:
+    tickers: UNP,CSX,NSC,CP,CNI,IYT
+    normalize: true
+    start: 2023-01-01
+    primary: UNP
+  refiners-performance.png:
+    tickers: VLO,MPC,PSX,PBF,DK,DINO,CRAK
+    normalize: true
+    start: 2023-01-01
+    primary: VLO
+  regbank-performance.png:
+    tickers: RF,KEY,CFG,HBAN,FITB,MTB,KRE
+    normalize: true
+    start: 2023-01-01
+    primary: RF
+  reins-performance.png:
+    tickers: RNR,EG,ACGL,AXS,MKL,RLI,KIE
+    normalize: true
+    start: 2023-01-01
+    primary: RNR
+  resireit-performance.png:
+    tickers: AVB,EQR,ESS,MAA,UDR,CPT,VNQ
+    normalize: true
+    start: 2023-01-01
+    primary: AVB
+  restaurants-performance.png:
+    tickers: MCD,SBUX,CMG,YUM,DRI,XLY
+    normalize: true
+    start: 2023-01-01
+    primary: MCD
+  waste-performance.png:
+    tickers: WM,RSG,WCN,GFL,CWST,EVX
+    normalize: true
+    start: 2023-01-01
+    primary: WM
+  space-pureplays-performance.png:
+    tickers: RKLB,RDW,LUNR,BKSY,ASTS,SPIR,PL,VOYG,XAR
+    normalize: true
+    start: 2023-01-01
+    primary: RKLB
+  sports-betting-performance.png:
+    tickers: DKNG,FLUT,RSI,XLY
+    normalize: true
+    start: 2023-01-01
+    primary: DKNG
+  us-telecom-performance.png:
+    tickers: T,VZ,TMUS,XLC
+    normalize: true
+    start: 2023-01-01
+    primary: TMUS
+  titletrio-performance.png:
+    tickers: FNF,FAF,STC,XLF
+    normalize: true
+    start: 2023-01-01
+    primary: FNF
+  tower-reits-performance.png:
+    tickers: AMT,CCI,SBAC,VNQ
+    normalize: true
+    start: 2023-01-01
+    primary: AMT
+  tradam-performance.png:
+    tickers: BLK,TROW,BEN,IVZ,AMG,XLF
+    normalize: true
+    start: 2023-01-01
+    primary: BLK
+  trucking-performance.png:
+    tickers: ODFL,SAIA,XPO,KNX,WERN,ARCB,IYT
+    normalize: true
+    start: 2023-01-01
+    primary: ODFL
   tankers-performance.png:
     tickers: FRO,STNG,INSW,DHT,TNK,BOAT
     normalize: true

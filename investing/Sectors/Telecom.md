@@ -191,6 +191,11 @@ Telecommunications — wireless carriers, fiber networks, tower REITs, equipment
 
 ---
 
+## Sector performance
+
+![[us-telecom-performance.png]]
+*Normalized total return since Jan 2023 — the cohort vs [[XLC]] (the sector ETF it is tested against). See the cluster validation below for whether the cohort is distinct from or replicable by the ETF.*
+
 ## Cluster validation
 
 > [!success] Cluster status: validated — a distinct, market-neutral US-wireless factor (Jun 2026)

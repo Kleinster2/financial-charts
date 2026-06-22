@@ -10,6 +10,11 @@ tags: [sector, energy, oil-gas, midstream, mlp, cluster-validation]
 
 The bottom of the energy value chain. Midstream is paid on volume and capacity — fee-based tolls on pipelines, storage, and processing — not on the crude price itself, so in principle it should be the most decoupled energy equity from spot oil. The tape agrees: midstream is the one energy leg that forms its own cluster fully separate from the crude pole. But two things temper it — the factor is captured by AMLP (a bespoke basket adds nothing), and the cohort is loose and eroding, because fee/yield/distribution dynamics are more idiosyncratic across names (C-corp vs MLP, gas vs crude vs NGL exposure) than a single shared commodity price.
 
+## Sector performance
+
+![[midstream-performance.png]]
+*Normalized total return since Jan 2023 — the cohort vs AMLP (the sector ETF it is tested against). See the cluster validation below for whether the cohort is distinct from or replicable by the ETF.*
+
 ## Cluster validation
 
 The candidate cohort is the six large-cap US midstream operators — [[Kinder Morgan|KMI]], [[Williams Companies|WMB]], [[ONEOK|OKE]] (C-corps), [[Enterprise Products|EPD]], [[Energy Transfer|ET]], [[MPLX]] (MLPs) — tested against the oil majors ([[Oil and gas equity beta|XOM/CVX/COP/EOG]]) and benchmarks (AMLP MLP ETF, XLE energy, XLU utilities/yield proxy, SPY). 1Y window through 2026-06-18, threshold 0.5. Terminology: [[Cohort, cluster, basket]].

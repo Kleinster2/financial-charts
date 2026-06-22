@@ -144,6 +144,11 @@ The sector is bifurcated: DTC cash-pay (HIMS) briefly worked until the compoundi
 
 ---
 
+## Sector performance
+
+![[dtctelehealth-performance.png]]
+*Normalized total return since Jan 2023 — the cohort vs [[XLV]] (the sector ETF it is tested against). See the cluster validation below for whether the cohort is distinct from or replicable by the ETF.*
+
 ## Cluster validation
 
 > [!failure] Cluster status: falsified — a label, not a factor (June 2026)

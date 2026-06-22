@@ -32,6 +32,11 @@ tags:
 
 - EATZ (AdvisorShares Restaurant ETF), BITE (Roundhill Restaurant ETF — closed)
 
+## Sector performance
+
+![[restaurants-performance.png]]
+*Normalized total return since Jan 2023 — the cohort vs [[XLY]] (the sector ETF it is tested against). See the cluster validation below for whether the cohort is distinct from or replicable by the ETF.*
+
 ## Cluster validation
 
 > [!failure] Cluster status: falsified — a label that was a factor only under the COVID shock (Jun 2026)

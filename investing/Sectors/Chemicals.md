@@ -10,6 +10,11 @@ tags: [sector, materials, chemicals, cluster-validation]
 
 The split-personality sector. "Chemicals" bundles two businesses with opposite economics: commodity/petrochemicals ([[Dow|DOW]], [[LyondellBasell|LYB]], [[Celanese|CE]]) live on ethylene/propylene spreads, oil, and global demand — deeply cyclical, high-vol — while industrial gases ([[Linde|LIN]], [[Air Products|APD]]) are contracted, oligopolistic, take-or-pay utilities of the materials world — defensive and low-vol. They share enough materials beta to beat a random basket, but they are not one factor; the gases barely even correlate with each other (Linde's quality compounding vs Air Products' project/activist troubles).
 
+## Sector performance
+
+![[chems-performance.png]]
+*Normalized total return since Jan 2023 — the cohort vs [[XLB]] (the sector ETF it is tested against). See the cluster validation below for whether the cohort is distinct from or replicable by the ETF.*
+
 ## Cluster validation
 
 The candidate cohort is six chemicals names spanning industrial gases and commodity/specialty chemicals — [[Linde|LIN]], [[Air Products|APD]], [[Dow|DOW]], [[LyondellBasell|LYB]], [[Celanese|CE]], [[Eastman Chemical|EMN]] — tested against the materials sector ETF (XLB) and market (SPY). 1Y window through 2026-06-18, threshold 0.5. Terminology: [[Cohort, cluster, basket]].

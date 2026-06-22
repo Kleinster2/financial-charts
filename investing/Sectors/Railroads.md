@@ -10,6 +10,11 @@ tags: [sector, industrials, transports, railroads, cluster-validation]
 
 The rare sector that owns a factor an ETF does not. After a long run of cohorts that resolved to their sector ETF (the energy legs to XLE/CRAK/OIH/AMLP, staples to XLP, big hotels to XLY), the North American Class I railroads are the exception: a five-name oligopoly (the only listed Class I's — BNSF is Berkshire-held, KCS folded into CPKC) with shared carload-volume, precision-scheduled-railroading, and pricing dynamics that the broad transports ETF (IYT — airlines + truckers + parcels + rails) does not isolate. To own the rail factor you hold the names, not IYT.
 
+## Sector performance
+
+![[railroads-performance.png]]
+*Normalized total return since Jan 2023 — the cohort vs [[IYT]] (the sector ETF it is tested against). See the cluster validation below for whether the cohort is distinct from or replicable by the ETF.*
+
 ## Cluster validation
 
 The candidate cohort is the five listed North American Class I railroads — [[Union Pacific|UNP]], [[CSX]], [[Norfolk Southern|NSC]] (US), [[Canadian Pacific Kansas City|CP]], [[Canadian National|CNI]] (Canadian, NYSE-listed) — tested against freight/logistics (ODFL/UPS/FDX) and benchmarks (IYT transports ETF, XLI industrials, SPY). 1Y window through 2026-06-18, threshold 0.5. Terminology: [[Cohort, cluster, basket]].

@@ -186,6 +186,11 @@ Some states regulate title insurance rates — limits pricing power but also lim
 
 ---
 
+## Sector performance
+
+![[titletrio-performance.png]]
+*Normalized total return since Jan 2023 — the cohort vs [[XLF]] (the sector ETF it is tested against). See the cluster validation below for whether the cohort is distinct from or replicable by the ETF.*
+
 ## Cluster validation
 
 > [!success] Cluster status: validated — pure-title trio FNF/FAF/STC (June 2026)

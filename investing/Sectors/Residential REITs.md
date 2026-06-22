@@ -10,6 +10,11 @@ tags: [sector, reit, real-estate, residential-reit, apartments, cluster-validati
 
 The purest single-factor cohort. Six apartment REITs own the same asset (US multifamily) and trade on the same two variables — long rates (cap rates/discount rates) and apartment fundamentals (rent growth, occupancy, supply) — so they move almost as one security. That homogeneity makes residential REITs the tightest cohort the campaign has measured, tighter even than the semiconductor-equipment quartet. The basket is a cleaner expression of the apartment-rate factor than broad [[VNQ]], which dilutes it with offices, retail, industrial, towers, and data centers.
 
+## Sector performance
+
+![[resireit-performance.png]]
+*Normalized total return since Jan 2023 — the cohort vs [[VNQ]] (the sector ETF it is tested against). See the cluster validation below for whether the cohort is distinct from or replicable by the ETF.*
+
 ## Cluster validation
 
 The candidate cohort is the six listed apartment REITs — [[AvalonBay|AVB]], [[Equity Residential|EQR]], [[Essex Property Trust|ESS]], [[Mid-America Apartment Communities|MAA]], [[UDR]], [[Camden Property Trust|CPT]] — tested against the broad REIT ETF [[VNQ]], the real-estate sector ETF (XLRE), and market (SPY). 1Y window through 2026-06-18, threshold 0.5. Terminology: [[Cohort, cluster, basket]].

@@ -10,6 +10,11 @@ tags: [sector, reit, telecom-infrastructure, towers, usa, cluster-validation]
 
 The cell-tower REITs are the landlords of the [[Telecom|US wireless carriers]]: they own the physical towers and lease vertical space to [[AT&T]], [[Verizon]], and [[T-Mobile]] under long-duration, escalating contracts. That gives them long-dated, bond-like cash flows — which is why they trade as a tight, rate-sensitive factor, and why they sit inside the broad REIT complex rather than apart from it. What they are NOT is the same trade as the data-center REITs: despite both being "digital infrastructure," towers (rate + wireless leasing) and data centers (AI/cloud capacity demand) are sharply separable factors.
 
+## Sector performance
+
+![[tower-reits-performance.png]]
+*Normalized total return since Jan 2023 — the cohort vs [[VNQ]] (the sector ETF it is tested against). See the cluster validation below for whether the cohort is distinct from or replicable by the ETF.*
+
 ## Cluster validation
 
 The candidate cohort is the three US cell-tower REITs — [[American Tower|AMT]], [[Crown Castle|CCI]], [[SBA Communications|SBAC]] — tested against the data-center REITs ([[DC REITs|EQIX/DLR]]) and benchmarks (VNQ broad-REIT ETF, TLT long-bond/rate proxy, SPY).

@@ -10,6 +10,11 @@ tags: [sector, consumer-discretionary, travel, hotels, lodging, usa, cluster-val
 
 The fourth and last travel cyclical. The campaign validated [[Airlines]] (fuel-driven), [[Cruise lines]] (the demand channel, +0.178 distinct from airlines), and [[Online travel]] (OTAs, +0.178, no pure ETF) as distinct travel sub-factors. Hotels complete the set — and break the pattern. The asset-light hotel franchisors earn fees on RevPAR (occupancy × rate), which is travel-demand-driven like the rest, but the big global brands trade as generic travel-cyclical/discretionary beta rather than a separable hotel factor, and the cohort fractures between the global upscale brands and the domestic economy franchisors.
 
+## Sector performance
+
+![[hotels-performance.png]]
+*Normalized total return since Jan 2023 — the cohort vs PEJ (the sector ETF it is tested against). See the cluster validation below for whether the cohort is distinct from or replicable by the ETF.*
+
 ## Cluster validation
 
 The candidate cohort is the five US-listed hotel franchisors — [[Marriott|MAR]], [[Hilton|HLT]], [[Hyatt|H]] (global upscale), [[Wyndham|WH]], [[Choice Hotels|CHH]] (domestic economy) — tested against the other validated travel cyclicals (airlines [[Delta Air Lines|DAL]]/UAL, cruises [[Carnival|CCL]]/[[Royal Caribbean|RCL]], OTAs [[Booking Holdings|BKNG]]/[[Airbnb|ABNB]]) and benchmarks (PEJ leisure ETF, XLY discretionary, SPY). 1Y window through 2026-06-18, threshold 0.5. Terminology: [[Cohort, cluster, basket]].

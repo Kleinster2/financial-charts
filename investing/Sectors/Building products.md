@@ -10,6 +10,11 @@ tags: [sector, industrials, building-products, hvac, housing, cluster-validation
 
 The two-end-market sector. A building-products maker's demand comes from one of two very different places: commercial and institutional construction plus equipment replacement (the HVAC names — [[Carrier Global]], [[Trane Technologies]], [[Johnson Controls]], [[Lennox]]), or residential new-build and repair-and-remodel (the housing-products names — [[Masco]] paints/plumbing, [[Owens Corning]] insulation/roofing, [[Allegion]] locks, [[A.O. Smith]] water heaters, [[Fortune Brands]] cabinets/plumbing/security). Both are late-cycle and rate-sensitive, so the whole complex shares broad construction/cyclical beta — but the two end-markets turn on different drivers (non-residential capex and electrification vs housing starts and existing-home turnover), so the cohort is two factors, each already priced by a liquid ETF.
 
+## Sector performance
+
+![[building-products-performance.png]]
+*Normalized total return since Jan 2023 — the cohort vs [[XHB]] (the sector ETF it is tested against). See the cluster validation below for whether the cohort is distinct from or replicable by the ETF.*
+
 ## Cluster validation
 
 The candidate cohort is the nine GICS building-products manufacturers above, tested against construction materials/aggregates ([[Vulcan Materials|VMC]]/[[Martin Marietta|MLM]]), the demand-side homebuilders ([[D.R. Horton|DHI]]/[[Lennar|LEN]]), and benchmarks (XHB homebuilders ETF, XLI industrials, SPY). 1Y window through 2026-06-18, threshold 0.5. Terminology: [[Cohort, cluster, basket]].

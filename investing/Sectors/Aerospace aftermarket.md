@@ -10,6 +10,11 @@ tags: [sector, industrials, aerospace, aftermarket, cluster-validation]
 
 The compounder niche that isn't a factor. TransDigm, Heico, Howmet, and Curtiss-Wright are celebrated as high-quality aerospace component/aftermarket compounders, and they do share the commercial-aero build-and-aftermarket cycle — but that cycle is exactly what the A&D ETF captures, and the four are no more correlated with each other than with ITA. The aftermarket "theme" is an ETF exposure plus one idiosyncratic single-stock story (TransDigm).
 
+## Sector performance
+
+![[aero-aftermkt-performance.png]]
+*Normalized total return since Jan 2023 — the cohort vs [[ITA]] (the sector ETF it is tested against). See the cluster validation below for whether the cohort is distinct from or replicable by the ETF.*
+
 ## Cluster validation
 
 The candidate cohort is four aerospace components/aftermarket names — [[TransDigm|TDG]], [[Heico|HEI]], [[Howmet Aerospace|HWM]], [[Curtiss-Wright|CW]] — tested against the defense primes ([[Lockheed Martin|LMT]]/[[General Dynamics|GD]]), the A&D ETF [[ITA]], industrials (XLI), and market (SPY). 1Y window through 2026-06-18, threshold 0.5. Terminology: [[Cohort, cluster, basket]].

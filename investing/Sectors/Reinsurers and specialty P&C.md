@@ -10,6 +10,11 @@ tags: [sector, financials, insurance, reinsurance, cluster-validation]
 
 The catastrophe cycle is not a separable factor. Reinsurers price catastrophe risk and the hard/soft reinsurance market, but those forces — cat losses, reinsurance and primary pricing, reserve development, and the bond/equity portfolios every insurer carries — move primary P&C carriers too. So the reinsurers don't carve out a distinct factor from [[Travelers|TRV]]/[[Chubb|CB]]; the whole P&C insurance complex trades together, and the cleanest expression is the broad insurance ETF [[KIE]], not a reinsurance basket.
 
+## Sector performance
+
+![[reins-performance.png]]
+*Normalized total return since Jan 2023 — the cohort vs [[KIE]] (the sector ETF it is tested against). See the cluster validation below for whether the cohort is distinct from or replicable by the ETF.*
+
 ## Cluster validation
 
 The candidate cohort is six Bermuda reinsurers and specialty P&C insurers — [[RenaissanceRe|RNR]], [[Everest Group|EG]], [[Arch Capital|ACGL]], [[Axis Capital|AXS]], [[Markel|MKL]], [[RLI]] — tested against large primary P&C carriers ([[Travelers|TRV]]/[[Chubb|CB]]), the insurance ETF [[KIE]], and market (SPY). 1Y window through 2026-06-18, threshold 0.5. Terminology: [[Cohort, cluster, basket]].

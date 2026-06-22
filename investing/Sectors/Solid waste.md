@@ -10,6 +10,11 @@ tags: [sector, industrials, environmental-services, waste, cluster-validation]
 
 The cleanest oligopoly in the campaign. Four national waste majors run the same business — route-density collection, landfill disposal, and pricing power well above inflation — with near-identical defensive, low-volatility, pricing-led economics. That shared model produces a tight, durable factor that a diversified environmental-services ETF cannot replicate, because the ETF spreads across smaller, different businesses. The waste majors are a basket, not an ETF trade.
 
+## Sector performance
+
+![[waste-performance.png]]
+*Normalized total return since Jan 2023 — the cohort vs [[EVX]] (the sector ETF it is tested against). See the cluster validation below for whether the cohort is distinct from or replicable by the ETF.*
+
 ## Cluster validation
 
 The candidate cohort is the five listed solid-waste names — [[Waste Management|WM]], [[Republic Services|RSG]], [[Waste Connections|WCN]], [[GFL Environmental|GFL]], [[Casella Waste Systems|CWST]] — tested against the environmental-services ETF [[EVX]], industrials (XLI), and market (SPY). 1Y window through 2026-06-18, threshold 0.5. Terminology: [[Cohort, cluster, basket]].

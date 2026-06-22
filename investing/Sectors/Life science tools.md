@@ -10,6 +10,11 @@ tags: [sector, healthcare, life-science-tools, cluster-validation]
 
 The picks-and-shovels of biopharma. These companies sell the instruments, consumables, reagents, and outsourced research that every drug developer and lab consumes — so they share one dominant driver: pharma and biotech R&D budgets and lab capex, plus a large recurring-consumables base. That driver is distinct from the drug-and-device demand that moves broad healthcare ([[XLV]]) and medical devices (IHI), which is why the cohort separates from both — and why it behaves as a single, durable factor through cycles.
 
+## Sector performance
+
+![[lst-performance.png]]
+*Normalized total return since Jan 2023 — the cohort vs [[XLV]] (the sector ETF it is tested against). See the cluster validation below for whether the cohort is distinct from or replicable by the ETF.*
+
 ## Cluster validation
 
 The candidate cohort is seven life-science tools and diagnostics names — [[Thermo Fisher Scientific|TMO]], [[Danaher|DHR]], [[Agilent|A]], [[Mettler-Toledo|MTD]], [[Waters|WAT]], [[IQVIA|IQV]], [[Revvity|RVTY]] — tested against healthcare (XLV), medical devices (IHI), and market (SPY). 1Y window through 2026-06-18, threshold 0.5. Terminology: [[Cohort, cluster, basket]].

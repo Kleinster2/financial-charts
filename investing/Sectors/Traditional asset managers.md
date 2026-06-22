@@ -10,6 +10,11 @@ tags: [sector, financials, asset-management, cluster-validation]
 
 The levered-beta sector. An asset manager's revenue is a fee on assets under management, and AUM rises and falls with the market — so these stocks are high-beta proxies for equities, amplified by flows (and, for the active managers, the secular bleed to passive). That makes them cohere, but the cohesion IS market beta: they track [[XLF]] and SPY as much as each other, and they don't separate from the alternative managers. There is no distinct "traditional asset manager" factor to own beyond financial-market beta.
 
+## Sector performance
+
+![[tradam-performance.png]]
+*Normalized total return since Jan 2023 — the cohort vs [[XLF]] (the sector ETF it is tested against). See the cluster validation below for whether the cohort is distinct from or replicable by the ETF.*
+
 ## Cluster validation
 
 The candidate cohort is five listed traditional asset managers — [[BlackRock|BLK]], [[T. Rowe Price|TROW]], [[Franklin Templeton|BEN]], [[Invesco|IVZ]], [[Affiliated Managers Group|AMG]] — tested against the alternative managers ([[Blackstone|BX]]/[[KKR]]), financials (XLF), and market (SPY). 1Y window through 2026-06-18, threshold 0.5. Terminology: [[Cohort, cluster, basket]].

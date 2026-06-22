@@ -10,6 +10,11 @@ tags: [sector, consumer, apparel, footwear, cluster-validation]
 
 The purest brand-momentum sector. An athletic brand's value is its specific franchise heat and product cycle — [[Nike]]'s China reset and wholesale pullback, [[Lululemon]]'s North-American deceleration, [[Deckers]]' HOKA hypergrowth riding atop UGG, [[On Running]]'s premium-running ascent, [[Under Armour]]'s multi-year turnaround, [[Crocs]]' core-brand cash machine dragged by the HEYDUDE acquisition — and those run on brand-specific demand, not a shared "athleisure" factor. Beyond broad retail/consumer-discretionary beta (captured by [[XRT]] or [[XLY]]), there is nothing common to own. The product-cycle calendar is the anti-cluster: it makes every name a single-brand story, except in the windows when a macro consumer shock briefly synchronizes them.
 
+## Sector performance
+
+![[apparel-performance.png]]
+*Normalized total return since Jan 2023 — the cohort vs [[XRT]] (the sector ETF it is tested against). See the cluster validation below for whether the cohort is distinct from or replicable by the ETF.*
+
 ## Cluster validation
 
 The candidate cohort is six athletic/lifestyle footwear and apparel brands — [[Nike|NKE]], [[Lululemon|LULU]], [[Deckers|DECK]], [[On Running|ONON]], [[Under Armour|UAA]], [[Crocs|CROX]] — tested against broad apparel/accessories ([[Ralph Lauren|RL]]/[[Tapestry|TPR]]/[[VF Corp|VFC]]) and benchmarks (XRT SPDR retail, XLY consumer discretionary, SPY). 1Y window through 2026-06-18, threshold 0.5. Terminology: [[Cohort, cluster, basket]].

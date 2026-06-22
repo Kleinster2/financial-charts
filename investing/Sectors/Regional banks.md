@@ -10,6 +10,11 @@ tags: [sector, financials, bank, regional-bank, cluster-validation]
 
 The rate-and-credit factor of mid-cap banking. Six regionals run the same balance-sheet business — deposit funding, net interest margin, and commercial/CRE credit — so they move almost as one on the same variables: the level and shape of the curve, deposit betas, and the credit cycle (the 2023 regional-bank stress, then normalization). That homogeneity makes them the tightest cohort the campaign has measured. But because they ARE the [[KRE]] ETF's core holdings, the basket is not separable from KRE — it is the cleanest expression of the same factor KRE already provides.
 
+## Sector performance
+
+![[regbank-performance.png]]
+*Normalized total return since Jan 2023 — the cohort vs [[KRE]] (the sector ETF it is tested against). See the cluster validation below for whether the cohort is distinct from or replicable by the ETF.*
+
 ## Cluster validation
 
 The candidate cohort is six mid-cap US regional banks — [[Regions Financial|RF]], [[KeyCorp|KEY]], [[Citizens Financial Group|CFG]], [[Huntington Bancshares|HBAN]], [[Fifth Third|FITB]], [[M&T Bank|MTB]] — tested against the money-center banks ([[JPMorgan Chase|JPM]]/[[Bank of America|BAC]]), the regional-bank ETF [[KRE]], broad financials (XLF), and market (SPY). 1Y window through 2026-06-18, threshold 0.5. Terminology: [[Cohort, cluster, basket]].

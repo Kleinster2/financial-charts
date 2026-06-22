@@ -10,6 +10,11 @@ tags: [sector, energy, oil-gas, refining, cluster-validation]
 
 The downstream leg of the energy value chain. Refiners buy crude and sell products (gasoline, diesel, jet); their margin is the crack spread, which can widen when crude falls — so in principle they carry a partial hedge against the crude factor that drives the [[Oil and gas equity beta|integrated majors and E&P]]. In the tape that hedge is real but second-order: refiners co-move tightly with each other (one crack-spread/refining-margin factor) yet still trade inside the broad crude/energy complex, joining the majors just below the dendrogram cut. They are distinct from oilfield services (a different value-chain leg entirely) but not from crude beta the way services is.
 
+## Sector performance
+
+![[refiners-performance.png]]
+*Normalized total return since Jan 2023 — the cohort vs CRAK (the sector ETF it is tested against). See the cluster validation below for whether the cohort is distinct from or replicable by the ETF.*
+
 ## Cluster validation
 
 The candidate cohort is the six US refiners — [[Valero|VLO]], [[Marathon Petroleum|MPC]], [[Phillips 66|PSX]], [[PBF Energy|PBF]], [[Delek US|DK]], [[HF Sinclair|DINO]] — tested against the oil majors ([[Oil and gas equity beta|XOM/CVX/COP/EOG]]), oilfield services ([[Oilfield services|SLB/HAL/BKR]]), and benchmarks (CRAK refiners ETF, XLE energy, USO crude, SPY). 1Y window through 2026-06-18, threshold 0.5. Terminology: [[Cohort, cluster, basket]].

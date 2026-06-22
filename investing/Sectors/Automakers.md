@@ -10,6 +10,11 @@ tags: [sector, automakers, ev, consumer-discretionary, usa, cluster-validation]
 
 The clean driver-divergence case. "Automakers" reads as one industry, but the five US-listed names are paid on four different things: [[Tesla]] on an AI/autonomy/robotaxi narrative (it trades as a Mag-7/tech name), [[General Motors]] and [[Ford]] on the cyclical ICE-truck/credit cycle (legacy value), and [[Rivian]]/[[Lucid Motors]] on cash-burn, production ramps, and funding runway (EV-startup options). There is no shared "auto" return factor binding them; the only real co-movement is the GM/F legacy pair and the broad market/discretionary beta they all carry.
 
+## Sector performance
+
+![[autos-ev-performance.png]]
+*Normalized total return since Jan 2023 — the cohort vs [[CARZ]] (the sector ETF it is tested against). See the cluster validation below for whether the cohort is distinct from or replicable by the ETF.*
+
 ## Cluster validation
 
 The candidate cohort is the five US-listed automakers — [[Tesla|TSLA]], [[General Motors|GM]], [[Ford|F]] (established) and [[Rivian|RIVN]], [[Lucid Motors|LCID]] (EV pure-plays) — tested against a tech/Mag-7 control ([[Apple|AAPL]]/[[Microsoft|MSFT]]/[[NVIDIA|NVDA]] — does TSLA trade here?) and benchmarks (CARZ auto ETF, XLY discretionary, QQQ Nasdaq, SPY). 1Y window through 2026-06-18, threshold 0.5. Terminology: [[Cohort, cluster, basket]].

@@ -53,6 +53,11 @@ Excluded from the validated cluster (different structural profile):
 
 ---
 
+## Sector performance
+
+![[space-pureplays-performance.png]]
+*Normalized total return since Jan 2023 — the cohort vs [[XAR]] (the sector ETF it is tested against). See the cluster validation below for whether the cohort is distinct from or replicable by the ETF.*
+
 ## Cluster validation diagnostic
 
 Per CLAUDE.md Hard Gate 11. Config: `scripts/cluster_configs/rklb.yaml`. Latest refresh run (2026-06-14) is the eight-name cohort with [[Voyager|VOYG]] promoted (see the Voyager decision in the missing-name screen below). Window: 1-year daily returns through 2026-06-03 (189 observations).

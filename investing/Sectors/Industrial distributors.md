@@ -10,6 +10,11 @@ tags: [sector, industrials, distribution, mro, cluster-validation]
 
 The distribution layer of the industrial economy. Grainger, Fastenal, MSC, and Applied Industrial sell the same maintenance-repair-operations consumables to the same factories, so they share the manufacturing/PMI cycle — but that is the industrials cycle XLI already prices, so their cohesion is mostly sector beta. Watsco is filed here by GICS but trades on a different driver (HVAC replacement), and the math puts it with the building-products HVAC names, not the MRO distributors.
 
+## Sector performance
+
+![[distributors-performance.png]]
+*Normalized total return since Jan 2023 — the cohort vs [[XLI]] (the sector ETF it is tested against). See the cluster validation below for whether the cohort is distinct from or replicable by the ETF.*
+
 ## Cluster validation
 
 The candidate cohort is five industrial/MRO distributors — [[Grainger|GWW]], [[Fastenal|FAST]], [[Watsco|WSO]], [[MSC Industrial|MSM]], [[Applied Industrial|AIT]] — tested against industrials (XLI) and market (SPY). 1Y window through 2026-06-18, threshold 0.5. Terminology: [[Cohort, cluster, basket]].

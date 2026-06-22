@@ -10,6 +10,11 @@ tags: [sector, industrials, transports, trucking, ltl, cluster-validation]
 
 The freight-cycle pure-play. Truckers — both truckload (the spot/contract rate cycle) and LTL (industrial shipment density and pricing) — all rise and fall on the same North American freight cycle, which makes them one of the tightest cohorts in the campaign. That freight cycle is also most of what the transports ETF [[IYT]] holds, so IYT is the nearest proxy; but the pure-trucker basket is tighter than the diluted ETF (which also carries rails, airlines, and parcel), and it separates cleanly at tighter thresholds. Rails run on a distinct volume/pricing dynamic and separate further — two freight factors, both distinct from the transports blend.
 
+## Sector performance
+
+![[trucking-performance.png]]
+*Normalized total return since Jan 2023 — the cohort vs [[IYT]] (the sector ETF it is tested against). See the cluster validation below for whether the cohort is distinct from or replicable by the ETF.*
+
 ## Cluster validation
 
 The candidate cohort is six truckload and LTL carriers — [[Old Dominion Freight Line|ODFL]], [[Saia|SAIA]], [[XPO]], [[Knight-Swift|KNX]], [[Werner Enterprises|WERN]], [[ArcBest|ARCB]] — tested against the rails ([[Union Pacific|UNP]]/[[CSX]]), the transports ETF (IYT), industrials (XLI), and market (SPY). 1Y window through 2026-06-18, threshold 0.5. Terminology: [[Cohort, cluster, basket]].

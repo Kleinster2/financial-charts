@@ -10,6 +10,11 @@ tags: [sector, healthcare, biotech, cluster-validation]
 
 The purest idiosyncratic-driver sector. A biotech's value is its specific franchise and pipeline — Vertex's cystic-fibrosis monopoly, Gilead's HIV/oncology base, Regeneron's Eylea/Dupixent, Biogen's Alzheimer's and MS franchises, Amgen's biosimilars and obesity entry — and those move on drug-specific data, approvals, and patent cliffs that are uncorrelated across names. So beyond broad healthcare/risk beta (captured by IBB, XBI, or XLV), there is no shared big-biotech factor to own. The clinical-trial calendar is the anti-cluster: it makes every name a single-stock story.
 
+## Sector performance
+
+![[biotech-performance.png]]
+*Normalized total return since Jan 2023 — the cohort vs [[XBI]] (the sector ETF it is tested against). See the cluster validation below for whether the cohort is distinct from or replicable by the ETF.*
+
 ## Cluster validation
 
 The candidate cohort is the five large-cap profitable biotechs — [[Gilead|GILD]], [[Amgen|AMGN]], [[Vertex|VRTX]], [[Regeneron|REGN]], [[Biogen|BIIB]] — tested against big pharma ([[Pfizer|PFE]]/[[Merck|MRK]]/[[AbbVie|ABBV]]) and benchmarks (IBB Nasdaq-biotech ETF, XBI equal-weight biotech, XLV healthcare, SPY). 1Y window through 2026-06-18, threshold 0.5. Terminology: [[Cohort, cluster, basket]].

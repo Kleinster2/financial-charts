@@ -10,6 +10,11 @@ tags: [sector, healthcare, cro, pharma-services, cluster-validation]
 
 The healthcare set's pattern holds. Across the campaign the healthcare label is a near-clean sweep of non-distinctness — [[Pharma majors|pharma]], [[GLP-1 receptor agonists|GLP-1]], [[Medtech]], [[DTC Telehealth]], and [[Biotech]] all resolve to their ETF or shatter — with exactly two exceptions, both services/supply-chain cohorts: [[Life science tools]] (distinct, +0.172) and [[Drug distributors]] (distinct, +0.502). CROs were the next picks-and-shovels candidate, sharing the pharma-R&D-budget and biotech-funding driver. They do not earn a third distinct factor. The coherent part of the cohort is real but it is the same factor life-science tools already captures; the rest is single-stock idiosyncrasy.
 
+## Sector performance
+
+![[cro-performance.png]]
+*Normalized total return since Jan 2023 — the cohort vs [[XLV]] (the sector ETF it is tested against). See the cluster validation below for whether the cohort is distinct from or replicable by the ETF.*
+
 ## Cluster validation
 
 The candidate cohort is four US/Ireland-listed CROs — [[IQVIA|IQV]], [[ICON plc|ICLR]], [[Charles River Laboratories|CRL]], [[Medpace|MEDP]] — tested against the life-science tools ([[Thermo Fisher Scientific|TMO]]/[[Danaher|DHR]]/[[Agilent|A]]), the healthcare ETFs ([[XLV]]/IHI/[[XBI]], the last proxying biotech-funding demand), and the market (SPY). 1Y window through 2026-06-18, threshold 0.5. Terminology: [[Cohort, cluster, basket]].

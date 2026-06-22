@@ -10,6 +10,11 @@ tags: [sector, consumer-staples, food, beverages, defensive, usa, cluster-valida
 
 The defensive-staples test, and the third of the campaign's defensive trio. The hypothesis: do the packaged-food and beverage giants form their own factor, the way tobacco does? They do not. Consumer staples trades as one broad low-beta defensive complex — captured by XLP — within which food, beverages, and household products are sub-groups, not separable factors. The mega-cap branded blue-chips (Coca-Cola, PepsiCo, Procter & Gamble, Colgate) are the XLP core; the mid-cap packaged-food names (Mondelez, General Mills, Kraft Heinz) are a looser satellite, dragged by their own GLP-1-volume and private-label pressures.
 
+## Sector performance
+
+![[staples-food-performance.png]]
+*Normalized total return since Jan 2023 — the cohort vs [[XLP]] (the sector ETF it is tested against). See the cluster validation below for whether the cohort is distinct from or replicable by the ETF.*
+
 ## Cluster validation
 
 The candidate cohort is the six packaged-food + beverage staples — [[Coca-Cola|KO]], [[PepsiCo|PEP]] (beverages), [[Mondelez|MDLZ]], [[General Mills|GIS]], [[Hershey|HSY]], [[Kraft Heinz|KHC]] (packaged food) — tested against household-products staples ([[Procter & Gamble|PG]]/[[Colgate-Palmolive|CL]]/[[Kimberly-Clark|KMB]]) and benchmarks (XLP staples ETF, SPY). 1Y window through 2026-06-18, threshold 0.5. Terminology: [[Cohort, cluster, basket]].

@@ -425,6 +425,11 @@ There is no comprehensive federal sports betting regulation. The tribal gaming f
 
 ---
 
+## Sector performance
+
+![[sports-betting-performance.png]]
+*Normalized total return since Jan 2023 — the cohort vs [[XLY]] (the sector ETF it is tested against). See the cluster validation below for whether the cohort is distinct from or replicable by the ETF.*
+
 ## Cluster validation
 
 The market-structure duopoly described above shows up directly in the equity factor structure. The candidate cohort is the three listed US online-betting operators — [[DraftKings|DKNG]], [[Flutter Entertainment|FLUT]] (FanDuel), and [[Rush Street Interactive|RSI]] (BetRivers) — tested against the B2B data suppliers ([[Genius Sports]], [[Sportradar]]), the omni-channel casino operators ([[MGM Resorts|MGM]], [[Caesars Entertainment|CZR]], [[Penn Entertainment|PENN]]), and broad benchmarks (SPY, XLY, IWM).
