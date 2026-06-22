@@ -1,5 +1,10 @@
 ---
 charts:
+  off-price-performance.png:
+    tickers: TJX,ROST,BURL,OLLI,XRT
+    normalize: true
+    start: 2023-01-01
+    primary: TJX
   hospitals-performance.png:
     tickers: HCA,THC,UHS,CYH,XLV
     normalize: true

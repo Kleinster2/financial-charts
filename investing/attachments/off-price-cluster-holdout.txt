@@ -1,0 +1,22 @@
+Off-price retail HOLDOUT TEST
+Cohort: TJX, ROST, BURL, OLLI (N=4)
+Window: 2y, split temporally at midpoint
+Train: 2024-06-18 -> 2025-06-18 (58 obs)
+Test:  2025-06-18 -> 2026-06-18 (199 obs)
+
+--- TRAIN HALF (older) ---
+Intra-correlation:    0.6101
+PC1 explained var:    70.92%
+Pairwise range:       [0.487, 0.721]
+
+--- TEST HALF (newer) ---
+Intra-correlation:    0.3874
+PC1 explained var:    54.58%
+Pairwise range:       [0.261, 0.553]
+
+--- STABILITY DIAGNOSTICS ---
+Intra-corr delta:     -0.2228   (test - train)
+PC1 variance delta:   -16.33pp
+PC1 loadings corr:    0.8036    (1.0 = identical factor structure)
+
+VERDICT: WEAKENED — test/train ratio 0.63 (factor present but eroding)
