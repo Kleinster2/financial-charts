@@ -617,13 +617,16 @@
     return pageEl.querySelector('[id^="charts-wrapper"]');
   }
   function showPage(num){
-    // Skip if already on this page to avoid race conditions
-    if (currentActivePage === num) {
-      console.log(`[PageManager] showPage(${num}) skipped - already on this page`);
+    const el = pagesContainer.querySelector(`[data-page="${num}"]`);
+    if (!el) return;
+    // Self-heal: skip only when this page is BOTH the tracked-active page AND the
+    // one actually displayed. The old guard skipped on currentActivePage===num
+    // alone, so a load-time race that left the tracked active page out of sync
+    // with the displayed page turned showPage(activePage) into a permanent no-op.
+    if (currentActivePage === num && el.style.display === 'block') {
       return;
     }
-    const el = pagesContainer.querySelector(`[data-page="${num}"]`);
-    if (el) switchTo(el);
+    switchTo(el);
   }
   function renamePage(num, newName){
     const trimmed = (newName || '').toString().trim();
