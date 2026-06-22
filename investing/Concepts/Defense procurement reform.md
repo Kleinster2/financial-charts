@@ -25,6 +25,8 @@ The reform is the most aggressive challenge to the prime-contractor model since 
 
 The story is not simply that the Pentagon wants cheaper procurement. It is a bid to rebuild dual-use industrial capacity by routing more demand toward commercial manufacturers and software-first insurgents, while using budget growth and capital-return pressure to force the [[Defense Primes]] to change. The market question is whether this becomes a genuine multi-year sourcing shift or remains a political threat layered on top of the same prime-controlled programs of record.
 
+*Policy/procurement framework with no single price series — chart not applicable; the market expressions are charted in [[Defense primes basket]] and the member actor notes.*
+
 ---
 
 ## The structural claim
@@ -131,6 +133,27 @@ The "is the Pentagon adjusting?" question is the analytical centerpiece. Forooha
 Cross-link: Molly Jahn (University of Wisconsin biologist; previously [[DARPA]]) flagged by Foroohar as articulating the broader thesis — "we're exiting the period of 'ordinary' and moving into a period of 'extraordinary'" using Thomas Kuhn's *Structure of Scientific Revolutions* as the framework. Foroohar's read: such periods are disruptive and profitable; the defense investment thesis is one application of a much wider technological + geopolitical shift.
 
 *Source: FT, "The future of America's military industrial complex," Rana Foroohar, May 17, 2026.*
+
+---
+
+## Jun 2026: the $12bn VC rush into defence tech
+
+The capital-markets expression of the reform thesis turned into a stampede. Per PitchBook data for the FT (FT Asset Management, Jun 22 2026), defence-tech start-ups raised $12.3bn in 2026 year-to-date — nearly double the same period last year and already above last year's full-year $9.95bn — as the wars in [[2026 Iran conflict market impact|Ukraine and the Gulf]] turn drones, autonomous vessels and battlefield AI into the year's hottest venture bet.
+
+The debate is no longer whether the theme is real but whether parts of it are overheating. Daniel Rudnicki Schlumberger ([[JPMorgan Chase|JPMorgan]] security & resiliency initiative, EMEA/Asia) called it "the most important change in the way wars are being fought arguably ever" and a sector with "a long-term need," while conceding valuations had "risen steeply." Shonnel Malani ([[Advent International]], which said in March it would deploy up to $1bn into next-gen defence tech) allowed "very valid" concerns over high valuations but argued the demand drivers persist past any single conflict: "That is not a hype."
+
+Representative raises and funds:
+
+| Entity | Round | Valuation |
+|---|---|---|
+| [[Helsing]] (German drones, backed by Daniel Ek) | $1.2bn | ~$18bn |
+| [[Stark]] ("kamikaze" drones) | ≥€300mn (in talks) | ~€2.5bn |
+| [[Advent International]] | up to $1bn deployment (Mar 2026) | — |
+| AVP + Earlybird | €500mn European defence-tech fund | — |
+
+The VC bid is the private mirror of the [[Defense procurement reform|software-first insurgent]] thesis (alongside the +573% defence-ETF flows and [[Anduril]]'s valuation doubling above), but the rising multiples are the first overheating signal — a private-market echo of the public primes' terminal-margin overhang. The bet is that heightened government defence spending endures; if [[Trump defense budget|budget growth]] or the wars reverse, the late-entry multiples are where the air comes out.
+
+*Source: FT Asset Management (Alan Livsey; defence-tech item by Sylvia Pfeifer and Ivan Levingston), Jun 22 2026; PitchBook data.*
 
 ---
 

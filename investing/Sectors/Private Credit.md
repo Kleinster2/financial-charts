@@ -303,6 +303,8 @@ Still lending: Despite warnings, firms keep deploying — Blue Owl led $1.4B for
 
 Jamie Dimon's "cockroaches" (late 2025): Stress in one borrower signals more hidden trouble. Software PIK loans are the tell — borrowers deferring interest payments because cash flows aren't there.
 
+Realized example — Medallia (Jun 2026): [[Thoma Bravo]] wrote off its 2021 take-private of [[Medallia]] (customer-service chatbots) for a ~$5bn loss — the second-largest PE loss ever — and a [[Blackstone]]/[[Apollo]]/[[KKR]] lender group took control, having marked the loans to 60–70 cents. The marquee instance of the early-2020s PE-software vintage souring: pandemic-era valuations financed by private credit, now pressured by AI substitution of the underlying software. See [[Thoma Bravo]].
+
 ---
 
 ## Regulatory landscape

@@ -164,6 +164,12 @@ This does not require a new payrolls data note. The useful rates takeaway is tha
 
 *Sources: [FT](https://www.ft.com/content/2929bbd3-1f71-4424-a577-f016c3c65603), Jun. 5 2026; local `prices_long` closes through Jun. 5 2026.*
 
+### Jun 2026 — Warsh's first meeting drops the easing bias; carry trades reverse
+
+At his first meeting as [[Federal Reserve|Fed]] chair (week of Jun 15 2026), [[Kevin Warsh]] dropped the Fed's longstanding bias toward easing; futures-market traders now expect a quarter-point rate rise by October, with US inflation above 4%. The hawkish shift lifted the dollar and reversed one of the year's strongest FX trades — dollar-financed carry into high-yielders. [[Brazil]]'s real, the Australian dollar and the South Korean won each fell more than 2% against the dollar over the prior month; the Norwegian krone more than 4%; the Malaysian ringgit and Canadian dollar also slid. The unwind is sharpest where the carry was richest — Brazil's base rate is 14.25% — confirming the hike-bias-hold regime now has a chair actively validating it rather than just a hot CPI print forcing it. (Fund managers still argue the structural EM case holds on better balance sheets and more credible policy than the 2022-23 cycle.)
+
+*Source: FT Asset Management (Joseph Cotterill, Ian Smith), Jun 22 2026.*
+
 ---
 
 ## How it works

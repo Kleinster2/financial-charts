@@ -54,7 +54,7 @@ Source: Renaissance Capital 2025 US IPO market review and the live 2026 pipeline
 | [[Anthropic]] | AI | $965B post-money Series H (May 28 2026 official); >$1tn anticipated at IPO | Confidential draft S-1 filed June 1 2026 (see [[Anthropic IPO 2026]]); May 14 $30B / $900B report was superseded by the May 28 $65B Series H close led by [[Altimeter Capital]], [[Dragoneer]], [[Greenoaks]], and [[Sequoia Capital]]; run-rate revenue crossed $47B earlier in May; likely last private round |
 | [[OpenAI]] | AI | $852B recent private mark | Accelerated IPO-timetable leaks after the $122B 2026 round; FT May 23 says the company booked almost $6B revenue last quarter but still expects roughly $600B of burn before 2030 profitability; Jun. 5 prediction markets still imply a 2026 base case, with Kalshi at 75c yes before Jan. 1 2027 and Polymarket at 28.5c no by Dec. 31 |
 | [[Revolut]] | [[Fintech]] | $75B | [[UK]] neobank |
-| [[Jio Platforms]] | [[Telecom]] | $100B+ | [[India]] mega IPO |
+| [[Jio Platforms]] | [[Telecom]] | ~$160B implied | Draft prospectus filed Jun 19 2026 — India's biggest-ever |
 
 ---
 
@@ -146,6 +146,14 @@ The resulting pipeline view is sharper: SpaceX sets the supply tone, OpenAI test
 With all three trophy issuers now filed, the absorption test stops being a sequencing hypothetical: public markets face [[SpaceX]] (live), [[Anthropic]], and OpenAI in a single window. OpenAI is the highest-runway-dependency name of the three — its IPO doubles as a compute-commitment financing event — which is why the prediction markets keep its timing the most contested (see the [[Kalshi]] / [[Polymarket]] overlays below). Full corporate detail in [[OpenAI]].
 
 *Sources: OpenAI confirmation, June 8 2026; AI Weekly; IND Money; CryptoBriefing — June 8–9 2026.*
+
+## June 19 — Jio files for India's largest-ever IPO
+
+[[Reliance Industries]] filed the draft prospectus for [[Jio Platforms]] (digital services + telecoms), set to be the largest IPO in Indian history. The board approved issuing up to 270mn new shares; no valuation/target was disclosed, but people familiar said the deal could raise as much as $4bn for a ~2.5% float — implying a ~$160bn valuation. [[Mukesh Ambani]] called it "the most important value creation milestone this year" and said his three children (succession) would lead the process. Jio has ~500mn subscribers (launched 2016, sparked the price war that left India a near-duopoly with [[Bharti Airtel]]) and is pushing into AI via partnerships with [[Nvidia]], [[Meta]], and [[Google]]. SEBI clearance typically takes weeks; issuers then have a year to launch.
+
+The filing lands days after India's largest bourse, [[NSE India|the National Stock Exchange]], filed for a ~$3.3bn IPO — together signaling a revival in India's IPO market after the [[2026 Iran conflict market impact|US-Israeli–Iran war]] and Gulf oil shock interrupted what bankers expected to be a third consecutive record year for Indian offerings. The irony: the same oil shock also hit [[Reliance Industries]]'s refining business — the stock is down 16% in 2026, and [[Adani Group|Adani]] overtook Ambani as Asia's richest man on the crude move.
+
+*Source: [[Financial Times|FT]] (Chris Kay, Krishn Kaushik), Jun 19 2026.*
 
 ## AI / Tech
 
