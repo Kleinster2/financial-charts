@@ -3,7 +3,7 @@ aliases: [Starshield]
 ---
 #actor #space #usa #private
 
-SpaceX — Musk's rocket/satellite company. [[Starlink]] dominates satellite internet. Acquired [[xAI]] Feb 2026 and listed publicly on Jun. 12, 2026 as `SPCX` on [[Nasdaq]] / [[Nasdaq]] Texas. The IPO priced at $135/share, raised roughly $75B base gross proceeds, and closed its first session at $160.95, implying about $2.1T of market value. The Jun. 5 FT update adds a customer-offtake layer: [[Google Cloud]] at $920M/month for 110,000 [[NVIDIA]] GPUs through Jun. 2029.
+SpaceX — Musk's rocket/satellite company. [[Starlink]] dominates satellite internet. Acquired [[xAI]] Feb 2026 and listed publicly on Jun. 12, 2026 as `SPCX` on [[Nasdaq]] / [[Nasdaq]] Texas. The IPO priced at $135/share, raised roughly $75B base gross proceeds, and closed its first session at $160.95, implying about $2.1T of market value. The Jun. 5 FT update adds a customer-offtake layer: [[Google Cloud]] at $920M/month for 110,000 [[NVIDIA]] GPUs through Jun. 2029. By Jun. 18 2026 shares had risen ~37% from the debut to about a $2.4tn market cap (sixth-largest company in the world); SpaceX then moved to raise ~$20bn in 10-year bonds to refinance the $20bn [[xAI]]/[[Twitter|X]] merger bridge loan, and [[Moody's]] assigned a Baa1 investment-grade rating (one notch above [[Oracle]]). See [[SpaceX IPO 2026]].
 
 ---
 

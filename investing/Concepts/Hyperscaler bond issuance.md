@@ -3,7 +3,7 @@ aliases: [hyperscaler debt, tech bond issuance, hyperscaler bonds, AI bond wave]
 ---
 #concept #fixed-income #ai
 
-**Hyperscaler bond issuance** — The wave of corporate debt issuance by [[AI hyperscalers]] to fund AI infrastructure capex that is exceeding free cash flow. Emerged as a distinct pattern in 2025, accelerating sharply in 2026 as the Big 4 capex envelope moved toward roughly $725B and free cash flow compressed.
+Hyperscaler bond issuance — The wave of corporate debt issuance by [[AI hyperscalers]] to fund AI infrastructure capex that is exceeding free cash flow. Emerged as a distinct pattern in 2025, accelerating sharply in 2026 as the Big 4 capex envelope moved toward roughly $725B and free cash flow compressed.
 
 ---
 
@@ -30,10 +30,14 @@ AI capex is now outpacing cash generation at most hyperscalers, forcing them int
 | Oct 2025 | [[Meta]] | $30B | $125B (4x) | 6-part (5-40yr), part of $60B Blue Owl Hyperion |
 | Nov 2025 | [[Google\|Alphabet]] | $17.5B | ~$90B | Prior USD sale |
 | Feb 3, 2026 | [[Oracle]] | $25B | — | Single-day record |
-| **Feb 9, 2026** | **[[Google\|Alphabet]]** | **$20B** | **$100B+** | **7 tranches, longest 2066 at ~95 bps. Largest tech bond offering in history** |
+| Feb 9, 2026 | [[Google\|Alphabet]] | $20B | $100B+ | 7 tranches, longest 2066 at ~95 bps. Largest tech bond offering in history |
 | Feb 10, 2026 (est.) | [[Google\|Alphabet]] | TBD | — | Sterling debut incl. [[Century Bond]] + Swiss franc debut |
 | TBD | [[Amazon]] | TBD | — | Filed regulatory notice signaling capital raise |
 | May 2026 | [[Google\|Alphabet]] | ~€9B + C$9.5B | — | Euro and Canadian-dollar senior notes after Q1 debt proceeds of $31.4B |
+| Jun 2026 | [[Nvidia]] | $25B | — | First bond sale in 5 years — wave broadens beyond the Big 5 |
+| Jun 2026 | [[SpaceX]] | ~$20B (planned) | — | 10yr ~T+135–150; refinances the $20B [[xAI]]/[[Twitter\|X]] bridge loan; Moody's Baa1 |
+
+The June 2026 wave broadened beyond the Big 5 hyperscalers: chipmaker [[Nvidia]] (first bond in five years) and the [[SpaceX]] / [[xAI]] stack joined, alongside [[Google]]'s $85bn equity upsizing and [[Anthropic]]'s $35bn private-credit package — debt and equity together financing the AI build-out across the whole stack, not just the cloud incumbents.
 
 ### Alphabet Feb 9 USD tranches (detail)
 
@@ -73,13 +77,15 @@ See [[AI infrastructure deals]] for SPV and [[GPU-as-collateral]] structures ([[
 | Metric | Value | Source |
 |--------|-------|--------|
 | Hyperscaler bonds issued (2025) | $121B | BofA Securities (5 names: AMZN, GOOG, META, MSFT, ORCL) |
-| Hyperscaler bonds forecast (2026) | **$400B** | [[Morgan Stanley]] |
-| Total IG issuance forecast (2026) | **$2.25T** (record) | [[Morgan Stanley]] |
+| Hyperscaler bonds forecast (2026) | $400B | [[Morgan Stanley]] |
+| Total IG issuance forecast (2026) | $2.25T (record) | [[Morgan Stanley]] |
 | Global bond issuance pace (Feb 2026) | Hit $1T in record time | Bloomberg |
 | High-grade inflows (week of Feb 4) | $6.44B | 5-year high |
 | TD Securities expected IG (week of Feb 10) | $80B | 2x normal pace |
 
 The $400B hyperscaler forecast represents a 2.4x increase from 2025. If realized, hyperscaler debt alone would account for ~18% of total US IG issuance.
+
+*The data artifact for this note is the deal-tracker and scale tables above; no single price series represents the issuance wave (chart not applicable). Spread dynamics are charted in [[Credit markets]].*
 
 ---
 

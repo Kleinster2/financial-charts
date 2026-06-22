@@ -7,6 +7,20 @@ tags: [event, ipo, space, ai]
 
 [[SpaceX]] has moved from a reported mega-IPO target to [[SEC]]-backed roadshow terms. The Jun. 3 S-1/A and Jun. 4 FWP set a preliminary 555.6M-share primary Class A offering at an expected $135/share, implying about $75.0B of gross proceeds before a 15% primary over-allotment and a reported roughly $1.77T valuation, with final pricing still scheduled for Jun. 11 and trading expected Jun. 12 on [[Nasdaq]] / [[Nasdaq]] [[Texas]] under `SPCX`. The issuer is the combined [[SpaceX]] / [[xAI]] / [[Twitter|X]] stack, with [[Space]], [[Connectivity]], and AI segments, Class B supervoting control, [[Elon Musk]] retaining about 82.4% voting power after the offering, and proceeds earmarked for AI compute infrastructure, launch infrastructure and vehicles, satellite-constellation scale/capacity, and general corporate purposes. A Jun. 5 FT-reported customer update added external compute offtake: [[Google Cloud]] at $920M/month for 110,000 [[NVIDIA]] GPUs through Jun. 2029, plus [[Anthropic]] agreements covering 325,000 [[NVIDIA]] GPUs at [[Colossus]] facilities.
 
+> Update (Jun 2026): the IPO priced and listed — see the Post-IPO section directly below for the actual result ($86bn raised, ~$2.4tn market cap, the $20bn bond), which supersedes the forward-looking pricing language above.
+
+---
+
+## Post-IPO: debut and the $20bn bond (Jun 2026)
+
+The deal completed: [[SpaceX]] priced on Jun 11 and began trading Jun 12 on [[Nasdaq]] (`SPCX`), raising about $86bn (base plus over-allotment) — the largest IPO in history. Shares surged 37% from the debut before a modest two-day pullback; by Jun 18 the market capitalisation was about $2.4tn, making SpaceX the sixth-largest company in the world.
+
+Days later (Jun 18), SpaceX moved to tap the debt market: a planned ~$20bn bond sale (as soon as the following week), 10-year paper indicated at ~1.35–1.5 percentage points over US Treasuries. The proceeds repay the $20bn bridge loan taken in March when [[Elon Musk]] merged [[xAI]] and [[Twitter|X]] into the rocket company — the bond refinances the merger debt now on the consolidated balance sheet (Q1 2026 long-term debt $29.1bn, including that bridge). [[Moody's]] assigned a Baa1 issuer rating (investment grade, one notch above [[Oracle]]), praising the "exceptional franchise" of the leading orbital-launch provider and [[Starlink]] but constraining the rating for "elevated execution and financial risks" from the large-scale AI build-out — high capital intensity, sustained negative free cash flow, and a wide range of monetisation outcomes. Former [[Sequoia Capital]] managing partner Roelof Botha joined the board (Jun 17).
+
+The bond sits inside a broader AI-debt wave the same week: [[Nvidia]] sold $25bn of investment-grade debt (its first bond sale in five years), [[Google]] upsized its record equity raise to $85bn, and [[Anthropic]] tapped [[Blackstone]] and [[Apollo]] for a $35bn private-credit package ahead of its IPO. SpaceX's own AI bet remains the rating swing factor: the AI division lost $6.4bn in 2025 against a claimed $26.5tn TAM, with underwriter [[Goldman Sachs]] projecting a 100x surge in SpaceX AI revenue to $322bn by 2030. See [[Hyperscaler bond issuance]] for the wave and [[AI infrastructure financing risk]] for the circular-financing frame.
+
+*Source: [[Financial Times|FT]] (George Steer, James Fontanella-Khan, Michelle Chan), Jun 18 2026; [[Moody's]] Baa1 rating (Jun 18).*
+
 ---
 
 ## Deal structure
