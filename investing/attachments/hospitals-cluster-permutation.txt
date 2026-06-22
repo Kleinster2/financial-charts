@@ -1,0 +1,54 @@
+Hospital operators PERMUTATION TESTS
+Window: 2025-07-08 -> 2026-06-18 (198 obs)
+Candidate cohort: HCA, THC, UHS, CYH (N=4)
+Observed intra-corr: 0.3962    Observed PC1: 56.37%
+
+--- INDEPENDENCE NULL ---
+Permutations: 10000
+Block size: 1
+Intra-cluster correlation:
+  Null mean:        -0.0003
+  Null 95th pct:    0.0479
+  Null 99th pct:    0.0700
+  p-value (right):  0.000100    -> REJECTS independence null at p < 0.001
+PC1 explained variance:
+  Null mean:        29.00%
+  Null 95th pct:    31.46%
+  Null 99th pct:    32.83%
+  p-value (right):  0.000100    -> REJECTS independence null at p < 0.001
+
+--- RANDOM-BASKET NULL ---
+Permutations: 10000
+Universe source: DB prices_long (1162 tickers with >=200 obs in window)
+Pool size: 1158
+Intra-cluster correlation:
+  Null mean:        0.1540
+  Null 95th pct:    0.3196
+  Null 99th pct:    0.4147
+  p-value (right):  0.013699    -> REJECTS random-basket null at p < 0.05
+PC1 explained variance:
+  Null mean:        39.19%
+  Null 95th pct:    50.56%
+  Null 99th pct:    57.51%
+  p-value (right):  0.012299    -> REJECTS random-basket null at p < 0.05
+
+--- VOL-MATCHED NULL ---
+Permutations: 10000
+Universe source: DB prices_long (1162 tickers with >=200 obs in window)
+Pool size: 1158
+Matching: realized-vol rank band +/-5% per member, without replacement
+Intra-cluster correlation:
+  Null mean:        0.1597
+  Null 95th pct:    0.3096
+  Null 99th pct:    0.3838
+  p-value (right):  0.007399    -> REJECTS vol-matched null at p < 0.01
+PC1 explained variance:
+  Null mean:        39.08%
+  Null 95th pct:    49.30%
+  Null 99th pct:    54.75%
+  p-value (right):  0.006699    -> REJECTS vol-matched null at p < 0.01
+
+--- INTERPRETATION ---
+Independence null rejected: the cohort series co-move (necessary, not sufficient).
+Random-basket null rejected: cohort is more cohesive than a random N-pick from the same universe. This is the meaningful pass.
+Vol-matched null rejected: cohesion exceeds random baskets with the SAME volatility profile — the cluster factor is not just shared beta/vol.

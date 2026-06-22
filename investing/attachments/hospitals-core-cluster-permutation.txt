@@ -1,0 +1,54 @@
+Sub - Hospital operators core (ex-CYH) PERMUTATION TESTS
+Window: 2025-07-08 -> 2026-06-18 (198 obs)
+Candidate cohort: HCA, THC, UHS (N=3)
+Observed intra-corr: 0.5658    Observed PC1: 71.08%
+
+--- INDEPENDENCE NULL ---
+Permutations: 10000
+Block size: 1
+Intra-cluster correlation:
+  Null mean:        -0.0001
+  Null 95th pct:    0.0679
+  Null 99th pct:    0.0966
+  p-value (right):  0.000100    -> REJECTS independence null at p < 0.001
+PC1 explained variance:
+  Null mean:        37.08%
+  Null 95th pct:    40.19%
+  Null 99th pct:    41.75%
+  p-value (right):  0.000100    -> REJECTS independence null at p < 0.001
+
+--- RANDOM-BASKET NULL ---
+Permutations: 10000
+Universe source: DB prices_long (1162 tickers with >=200 obs in window)
+Pool size: 1159
+Intra-cluster correlation:
+  Null mean:        0.1540
+  Null 95th pct:    0.3619
+  Null 99th pct:    0.4738
+  p-value (right):  0.002300    -> REJECTS random-basket null at p < 0.01
+PC1 explained variance:
+  Null mean:        45.82%
+  Null 95th pct:    58.37%
+  Null 99th pct:    65.67%
+  p-value (right):  0.002500    -> REJECTS random-basket null at p < 0.01
+
+--- VOL-MATCHED NULL ---
+Permutations: 10000
+Universe source: DB prices_long (1162 tickers with >=200 obs in window)
+Pool size: 1159
+Matching: realized-vol rank band +/-5% per member, without replacement
+Intra-cluster correlation:
+  Null mean:        0.1650
+  Null 95th pct:    0.3615
+  Null 99th pct:    0.4515
+  p-value (right):  0.001000    -> REJECTS vol-matched null at p < 0.001
+PC1 explained variance:
+  Null mean:        46.08%
+  Null 95th pct:    58.11%
+  Null 99th pct:    64.07%
+  p-value (right):  0.001100    -> REJECTS vol-matched null at p < 0.01
+
+--- INTERPRETATION ---
+Independence null rejected: the cohort series co-move (necessary, not sufficient).
+Random-basket null rejected: cohort is more cohesive than a random N-pick from the same universe. This is the meaningful pass.
+Vol-matched null rejected: cohesion exceeds random baskets with the SAME volatility profile — the cluster factor is not just shared beta/vol.

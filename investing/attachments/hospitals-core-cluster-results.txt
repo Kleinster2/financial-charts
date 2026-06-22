@@ -1,0 +1,72 @@
+Sub - Hospital operators core (ex-CYH) CLUSTER ANALYSIS
+Window 1y: 2025-07-08 -> 2026-06-18 (198 obs)
+Window 2y: 2024-07-15 -> 2026-06-18 (257 obs)
+Universe: 8 tickers across 5 groups
+Dendrogram cut threshold: 0.5
+
+--- 1Y INTRA-CLUSTER PAIRWISE CORRELATIONS ---
+Ticker   HCA   THC   UHS
+Ticker                  
+HCA     1.00  0.58  0.60
+THC     0.58  1.00  0.52
+UHS     0.60  0.52  1.00
+Average intra-cluster correlation: 0.566
+Range: [0.519, 0.603]
+
+--- AVG GROUP-PAIR CORRELATIONS (1Y) ---
+             cluster  provide  healthc   payers      etf
+    cluster    0.566    0.262    0.211    0.085    0.141
+providers_e    0.262      nan    0.530    0.818    0.287
+healthcare_    0.211    0.530      nan    0.411    0.372
+     payers    0.085    0.818    0.411    0.652    0.151
+        etf    0.141    0.287    0.372    0.151      nan
+
+Cluster vs others:
+  cluster vs providers_etf: 0.262  (intra advantage: +0.304)
+  cluster vs healthcare_etf: 0.211  (intra advantage: +0.355)
+  cluster vs payers    : 0.085  (intra advantage: +0.480)
+  cluster vs etf       : 0.141  (intra advantage: +0.424)
+
+--- HIERARCHICAL CLUSTERS (1Y, distance threshold 0.5) ---
+  Cluster 1: HCA, THC, UHS
+  Cluster 2: IHF, UNH, ELV
+  Cluster 3: XLV
+  Cluster 4: SPY
+
+--- CANDIDATE JOIN DISTANCES (1Y, average linkage, distance = 1-|corr|) ---
+ Step Left   Right Distance     Members
+    1  HCA     UHS    0.397     HCA+UHS
+    2  THC HCA+UHS    0.453 THC+HCA+UHS
+
+--- PCA ON CANDIDATE COHORT (1Y) ---
+Explained variance ratio:
+  PC1: 71.08%
+  PC2: 16.12%
+  PC3: 12.80%
+
+PC1 loadings:
+HCA    0.593
+THC    0.565
+UHS    0.574
+
+--- PC1 INDEX WEIGHTS (1Y) ---
+PCA is run on standardized daily log returns. Raw PC1-mimic weights scale PC1 loading by inverse realized volatility.
+    PC1 loading Loading weight Ann vol Raw PC1-mimic weight
+HCA       0.593         34.24%  29.15%               38.83%
+THC       0.565         32.60%  38.48%               28.02%
+UHS       0.574         33.16%  33.08%               33.15%
+
+--- WEEKLY-RETURN CROSS-CHECK (1Y, async-close robustness) ---
+Weeks: 40   Weekly intra-corr: 0.609 (daily 0.566)   Weekly PC1: 74.1% (daily 71.1%)
+
+--- HISTORICAL TIGHTNESS EVOLUTION (90D ROLLING) ---
+     Avg corr    PC1 Core corr Satellite corr Final join distance
+Date                                                             
+2021    0.751  83.4%     0.751            nan               0.267
+2022    0.749  83.3%     0.749            nan               0.268
+2023    0.785  85.7%     0.785            nan               0.225
+2024    0.645  76.4%     0.645            nan               0.392
+2025    0.668  78.0%     0.668            nan               0.375
+2026    0.554  70.3%     0.554            nan               0.454
+
+Latest 90D: avg corr 0.581, PC1 72.1%, core corr 0.581, satellite corr nan, final join distance 0.438

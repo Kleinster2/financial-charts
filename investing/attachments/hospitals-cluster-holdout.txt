@@ -1,0 +1,22 @@
+Hospital operators HOLDOUT TEST
+Cohort: HCA, THC, UHS, CYH (N=4)
+Window: 2y, split temporally at midpoint
+Train: 2024-06-18 -> 2025-06-18 (58 obs)
+Test:  2025-06-18 -> 2026-06-18 (199 obs)
+
+--- TRAIN HALF (older) ---
+Intra-correlation:    0.5676
+PC1 explained var:    68.39%
+Pairwise range:       [0.365, 0.789]
+
+--- TEST HALF (newer) ---
+Intra-correlation:    0.3962
+PC1 explained var:    56.36%
+Pairwise range:       [0.164, 0.602]
+
+--- STABILITY DIAGNOSTICS ---
+Intra-corr delta:     -0.1714   (test - train)
+PC1 variance delta:   -12.03pp
+PC1 loadings corr:    0.9476    (1.0 = identical factor structure)
+
+VERDICT: WEAKENED — test/train ratio 0.70 (factor present but eroding)

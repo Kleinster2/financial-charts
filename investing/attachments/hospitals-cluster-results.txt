@@ -1,0 +1,79 @@
+Hospital operators CLUSTER ANALYSIS
+Window 1y: 2025-07-08 -> 2026-06-18 (198 obs)
+Window 2y: 2024-07-15 -> 2026-06-18 (257 obs)
+Universe: 9 tickers across 5 groups
+Dendrogram cut threshold: 0.5
+
+--- 1Y INTRA-CLUSTER PAIRWISE CORRELATIONS ---
+Ticker   HCA   THC   UHS   CYH
+Ticker                        
+HCA     1.00  0.58  0.60  0.17
+THC     0.58  1.00  0.52  0.35
+UHS     0.60  0.52  1.00  0.16
+CYH     0.17  0.35  0.16  1.00
+Average intra-cluster correlation: 0.396
+Range: [0.164, 0.603]
+
+--- AVG GROUP-PAIR CORRELATIONS (1Y) ---
+             cluster  provide  healthc   payers      etf
+    cluster    0.396    0.263    0.198    0.097    0.183
+providers_e    0.263      nan    0.530    0.818    0.287
+healthcare_    0.198    0.530      nan    0.411    0.372
+     payers    0.097    0.818    0.411    0.652    0.151
+        etf    0.183    0.287    0.372    0.151      nan
+
+Cluster vs others:
+  cluster vs providers_etf: 0.263  (intra advantage: +0.133)
+  cluster vs healthcare_etf: 0.198  (intra advantage: +0.199)
+  cluster vs payers    : 0.097  (intra advantage: +0.300)
+  cluster vs etf       : 0.183  (intra advantage: +0.214)
+
+--- HIERARCHICAL CLUSTERS (1Y, distance threshold 0.5) ---
+  Cluster 1: HCA, THC, UHS
+  Cluster 2: IHF, UNH, ELV
+  Cluster 3: XLV
+  Cluster 4: CYH
+  Cluster 5: SPY
+
+--- CANDIDATE JOIN DISTANCES (1Y, average linkage, distance = 1-|corr|) ---
+ Step Left       Right Distance         Members
+    1  HCA         UHS    0.397         HCA+UHS
+    2  THC     HCA+UHS    0.453     THC+HCA+UHS
+    3  CYH THC+HCA+UHS    0.773 CYH+THC+HCA+UHS
+
+--- PCA ON CANDIDATE COHORT (1Y) ---
+Explained variance ratio:
+  PC1: 56.37%
+  PC2: 23.12%
+  PC3: 11.12%
+  PC4: 9.38%
+
+PC1 loadings:
+HCA    0.555
+THC    0.559
+UHS    0.537
+CYH    0.300
+
+--- PC1 INDEX WEIGHTS (1Y) ---
+PCA is run on standardized daily log returns. Raw PC1-mimic weights scale PC1 loading by inverse realized volatility.
+    PC1 loading Loading weight Ann vol Raw PC1-mimic weight
+HCA       0.555         28.46%  29.15%               34.50%
+THC       0.559         28.66%  38.48%               26.33%
+UHS       0.537         27.53%  33.08%               29.41%
+CYH       0.300         15.35%  55.60%                9.76%
+
+--- WEEKLY-RETURN CROSS-CHECK (1Y, async-close robustness) ---
+Weeks: 40   Weekly intra-corr: 0.540 (daily 0.396)   Weekly PC1: 66.1% (daily 56.4%)
+NOTE: weekly intra-corr exceeds daily by >0.10 — asynchronous closes are depressing the daily numbers (cross-region cohort); the weekly reading is the better estimate of economic co-movement.
+
+--- HISTORICAL TIGHTNESS EVOLUTION (90D ROLLING) ---
+     Avg corr    PC1 Core corr Satellite corr Final join distance
+Date                                                             
+2021    0.643  73.7%     0.652          0.634               0.450
+2022    0.556  68.6%     0.543          0.610               0.542
+2023    0.553  68.9%     0.471          0.635               0.688
+2024    0.468  61.5%     0.399          0.540               0.701
+2025    0.518  64.9%     0.436          0.598               0.631
+2026    0.431  57.9%     0.412          0.448               0.675
+
+Latest 90D: avg corr 0.338, PC1 54.6%, core corr 0.254, satellite corr 0.423, final join distance 0.904

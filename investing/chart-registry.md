@@ -1,5 +1,10 @@
 ---
 charts:
+  hospitals-performance.png:
+    tickers: HCA,THC,UHS,CYH,XLV
+    normalize: true
+    start: 2023-01-01
+    primary: HCA
   aero-aftermkt-performance.png:
     tickers: TDG,HEI,HWM,CW,ITA
     normalize: true
