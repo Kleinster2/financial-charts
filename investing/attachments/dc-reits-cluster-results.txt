@@ -1,0 +1,70 @@
+Data center REITs CLUSTER ANALYSIS
+Window 1y: 2025-07-08 -> 2026-06-18 (198 obs)
+Window 2y: 2024-07-15 -> 2026-06-18 (257 obs)
+Universe: 8 tickers across 4 groups
+Dendrogram cut threshold: 0.5
+
+--- 1Y INTRA-CLUSTER PAIRWISE CORRELATIONS ---
+Ticker  EQIX   DLR   IRM
+Ticker                  
+EQIX    1.00  0.64  0.58
+DLR     0.64  1.00  0.69
+IRM     0.58  0.69  1.00
+Average intra-cluster correlation: 0.636
+Range: [0.578, 0.690]
+
+--- AVG GROUP-PAIR CORRELATIONS (1Y) ---
+             cluster  reit_et  tower_r      etf
+    cluster    0.636    0.522    0.327    0.405
+   reit_etf    0.522    0.917    0.584    0.370
+tower_reits    0.327    0.584    0.829    0.087
+        etf    0.405    0.370    0.087      nan
+
+Cluster vs others:
+  cluster vs reit_etf  : 0.522  (intra advantage: +0.115)
+  cluster vs tower_reits: 0.327  (intra advantage: +0.310)
+  cluster vs etf       : 0.405  (intra advantage: +0.231)
+
+--- HIERARCHICAL CLUSTERS (1Y, distance threshold 0.5) ---
+  Cluster 1: EQIX, DLR, IRM
+  Cluster 2: VNQ, XLRE, AMT, CCI
+  Cluster 3: SPY
+
+--- CANDIDATE JOIN DISTANCES (1Y, average linkage, distance = 1-|corr|) ---
+ Step Left   Right Distance      Members
+    1  DLR     IRM    0.310      DLR+IRM
+    2 EQIX DLR+IRM    0.391 EQIX+DLR+IRM
+
+--- PCA ON CANDIDATE COHORT (1Y) ---
+Explained variance ratio:
+  PC1: 75.80%
+  PC2: 14.27%
+  PC3: 9.93%
+
+PC1 loadings:
+EQIX    0.561
+DLR     0.594
+IRM     0.576
+
+--- PC1 INDEX WEIGHTS (1Y) ---
+PCA is run on standardized daily log returns. Raw PC1-mimic weights scale PC1 loading by inverse realized volatility.
+     PC1 loading Loading weight Ann vol Raw PC1-mimic weight
+EQIX       0.561         32.38%  23.17%               36.39%
+DLR        0.594         34.33%  24.11%               37.07%
+IRM        0.576         33.29%  32.67%               26.54%
+
+--- WEEKLY-RETURN CROSS-CHECK (1Y, async-close robustness) ---
+Weeks: 40   Weekly intra-corr: 0.605 (daily 0.636)   Weekly PC1: 73.7% (daily 75.8%)
+
+--- HISTORICAL TIGHTNESS EVOLUTION (90D ROLLING) ---
+     Avg corr    PC1 Core corr Satellite corr Final join distance
+Date                                                             
+2020    0.601  73.8%     0.601            nan               0.497
+2021    0.400  61.5%     0.400            nan               0.781
+2022    0.711  81.0%     0.711            nan               0.385
+2023    0.648  76.6%     0.648            nan               0.382
+2024    0.576  71.8%     0.576            nan               0.482
+2025    0.649  76.8%     0.649            nan               0.392
+2026    0.650  76.7%     0.650            nan               0.388
+
+Latest 90D: avg corr 0.632, PC1 75.6%, core corr 0.632, satellite corr nan, final join distance 0.418

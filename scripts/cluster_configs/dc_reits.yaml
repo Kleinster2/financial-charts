@@ -1,0 +1,16 @@
+name: Data center REITs
+primary: EQIX
+prefix: dc-reits-cluster
+threshold: 0.5
+window_end: 2026-06-18
+definition_date: 2026-06-22
+history_start: 2020-01-01
+groups:
+  cluster:
+    tickers: [EQIX, DLR, IRM]
+  reit_etf:
+    tickers: [VNQ, XLRE]
+  tower_reits:
+    tickers: [AMT, CCI]
+  etf:
+    tickers: [SPY]

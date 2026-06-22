@@ -308,9 +308,9 @@ charts:
     start: 2024-01-01
     primary: CORZ
   dc-reits-sector-chart.png:
-    tickers: EQIX,DLR
+    tickers: EQIX,DLR,IRM,VNQ
     normalize: true
-    start: 2024-01-01
+    start: 2023-01-01
     primary: EQIX
   defense-it-services-sector-chart.png:
     tickers: LDOS,CACI,SAIC,BAH
