@@ -720,6 +720,7 @@ All five validated with the same window (1Y through 2026-05-07) and threshold (0
 - `scripts/cluster_configs/rklb.yaml` ([[Space pure-plays]]) — N=7, 0.624, 67.96%
 - `scripts/cluster_configs/ai_compute.yaml` ([[AI Compute]]) — N=3, 0.600, 73.37%
 
-### Related lighter-weight tool
+### Related lighter-weight tools
 
 - `scripts/add_sector_correlations.py` (single-actor vs ETFs — feeds the `## Sector correlation` section)
+- `scripts/build_cluster_pages.py` (reads every `cluster_configs/*.yaml` + `cluster_registry.csv` and rebuilds the charting-sandbox **Clusters** pages — one normalized card per cohort, members + benchmark ETF greyed as control, titled with intra-corr / PC1%, grouped into themed pages under a `Clusters` category. Idempotent on the `cluster` card tag; re-run after validating a new cohort to refresh the sandbox browse surface.)

@@ -25,23 +25,28 @@ REGISTRY = 'scripts/cluster_registry.csv'
 
 # theme key -> (page number, tab label)
 THEME_PAGES = {
-    'fin':     (71, 'Financials & Insurance'),
-    'aitech':  (72, 'AI / Semis / Software'),
-    'energy':  (73, 'Energy / Power / Materials'),
-    'health':  (74, 'Healthcare'),
-    'consumer':(75, 'Consumer / Industrials / Defense'),
-    'reit':    (76, 'REITs / Real Assets'),
-    'intl':    (77, 'International'),
+    'fin':         (71, 'Financials & Insurance'),
+    'aitech':      (72, 'AI / Semis / Software'),
+    'energy':      (73, 'Energy / Power / Materials'),
+    'health':      (74, 'Healthcare'),
+    'consumer':    (75, 'Consumer & Retail'),
+    'reit':        (76, 'REITs / Real Assets'),
+    'intl':        (77, 'International'),
+    'media':       (78, 'Media & Telecom'),
+    'industrials': (79, 'Industrials & Transports'),
+    'defense':     (80, 'Defense & Aerospace'),
 }
 
 KEYWORDS = [
-    ('intl',     ['brazil', 'china', 'chinese', '中特估', 'korea', 'japan', 'indian', 'european', 'luxury']),
-    ('consumer', ['defense']),  # all defense -> consumer/industrials/defense, before tech catches "it services"
-    ('energy',   ['oil', 'gas', 'refiner', 'midstream', 'pipeline', 'oilfield', 'solar', 'nuclear', 'smr', 'uranium', 'copper', 'lithium', 'steel', 'aluminum', 'gold', 'silver', 'metal', 'rare earth', 'chemical', 'fertilizer', 'mining', 'power', 'ipp', 'utilit']),
-    ('health',   ['pharma', 'biotech', 'medtech', 'telehealth', 'glp', 'obesity', 'managed care', 'life science', 'contract research', 'animal health', 'drug distributor']),
-    ('reit',     ['reit', 'tower', 'self-storage', 'net-lease']),
-    ('fin',      ['bank', 'insur', 'reinsur', 'payment', 'card network', 'exchange', 'asset manager', 'alt-asset', 'wealth', 'advisory', 'financial data', 'title', 'crypto equit', 'crypto-exposed']),
-    ('aitech',   ['ai ', 'a.i', 'aifd', 'semi', 'fabless', 'foundry', 'memory', 'wfe', 'hyperscaler', 'neocloud', 'optic', 'quantum', 'cyber', 'saas', 'data-infra', 'consumption data', 'ad-tech', 'adtech', 'iot', 'compute', 'mag 7', 'software', 'it services', 'platform', 'scp', 'ecpr', 'analog']),
+    ('intl',        ['brazil', 'china', 'chinese', '中特估', 'korea', 'japan', 'indian', 'european', 'luxury']),
+    ('defense',     ['defense', 'aerospace', 'space pure', 'golden dome']),
+    ('energy',      ['oil', 'gas', 'refiner', 'midstream', 'pipeline', 'oilfield', 'solar', 'nuclear', 'smr', 'uranium', 'copper', 'lithium', 'steel', 'aluminum', 'gold', 'silver', 'metal', 'rare earth', 'chemical', 'fertilizer', 'mining', 'power', 'ipp', 'utilit']),
+    ('health',      ['pharma', 'biotech', 'medtech', 'telehealth', 'glp', 'obesity', 'managed care', 'life science', 'contract research', 'animal health', 'drug distributor', 'hospital']),
+    ('reit',        ['reit', 'tower', 'self-storage', 'net-lease']),
+    ('fin',         ['bank', 'insur', 'reinsur', 'payment', 'card network', 'exchange', 'asset manager', 'alt-asset', 'wealth', 'advisory', 'financial data', 'title', 'crypto equit', 'crypto-exposed']),
+    ('aitech',      ['ai ', 'a.i', 'aifd', 'semi', 'fabless', 'foundry', 'memory', 'wfe', 'hyperscaler', 'neocloud', 'optic', 'quantum', 'cyber', 'saas', 'data-infra', 'consumption data', 'ad-tech', 'adtech', 'iot', 'compute', 'mag 7', 'software', 'it services', 'platform', 'scp', 'ecpr', 'analog']),
+    ('media',       ['media', 'content', 'streaming', 'studios', 'theatrical', 'exhibition', 'live sports', 'entertainment', 'telecom']),
+    ('industrials', ['building product', 'industrial distributor', 'trucking', 'ltl', 'railroad', 'tanker', 'waste', 'freight']),
 ]
 
 def classify(name):
