@@ -1,0 +1,77 @@
+Agricultural equipment CLUSTER ANALYSIS
+Window 1y: 2025-07-08 -> 2026-06-18 (198 obs)
+Window 2y: 2024-07-15 -> 2026-06-18 (257 obs)
+Universe: 9 tickers across 5 groups
+Dendrogram cut threshold: 0.5
+
+--- 1Y INTRA-CLUSTER PAIRWISE CORRELATIONS ---
+Ticker    DE  AGCO   CNH   LNN
+Ticker                        
+DE      1.00  0.68  0.68  0.42
+AGCO    0.68  1.00  0.74  0.56
+CNH     0.68  0.74  1.00  0.51
+LNN     0.42  0.56  0.51  1.00
+Average intra-cluster correlation: 0.600
+Range: [0.425, 0.745]
+
+--- AVG GROUP-PAIR CORRELATIONS (1Y) ---
+             cluster  constru  industr  ag_comp      etf
+    cluster    0.600    0.501    0.543    0.222    0.305
+constructio    0.501      nan    0.772    0.191    0.586
+industrial_    0.543    0.772      nan    0.266    0.736
+ ag_complex    0.222    0.191    0.266    0.057    0.244
+        etf    0.305    0.586    0.736    0.244      nan
+
+Cluster vs others:
+  cluster vs construction: 0.501  (intra advantage: +0.099)
+  cluster vs industrial_etf: 0.543  (intra advantage: +0.057)
+  cluster vs ag_complex: 0.222  (intra advantage: +0.379)
+  cluster vs etf       : 0.305  (intra advantage: +0.295)
+
+--- HIERARCHICAL CLUSTERS (1Y, distance threshold 0.5) ---
+  Cluster 1: CAT, XLI, SPY
+  Cluster 2: DE, AGCO, CNH, MOO
+  Cluster 3: LNN
+  Cluster 4: DBA
+
+--- CANDIDATE JOIN DISTANCES (1Y, average linkage, distance = 1-|corr|) ---
+ Step Left       Right Distance         Members
+    1 AGCO         CNH    0.255        AGCO+CNH
+    2   DE    AGCO+CNH    0.320     DE+AGCO+CNH
+    3  LNN DE+AGCO+CNH    0.501 LNN+DE+AGCO+CNH
+
+--- PCA ON CANDIDATE COHORT (1Y) ---
+Explained variance ratio:
+  PC1: 70.42%
+  PC2: 15.21%
+  PC3: 8.10%
+  PC4: 6.27%
+
+PC1 loadings:
+DE      0.499
+AGCO    0.537
+CNH     0.527
+LNN     0.431
+
+--- PC1 INDEX WEIGHTS (1Y) ---
+PCA is run on standardized daily log returns. Raw PC1-mimic weights scale PC1 loading by inverse realized volatility.
+     PC1 loading Loading weight Ann vol Raw PC1-mimic weight
+DE         0.499         25.03%  30.59%               26.79%
+AGCO       0.537         26.93%  32.62%               27.02%
+CNH        0.527         26.44%  37.30%               23.20%
+LNN        0.431         21.60%  30.76%               22.99%
+
+--- WEEKLY-RETURN CROSS-CHECK (1Y, async-close robustness) ---
+Weeks: 40   Weekly intra-corr: 0.586 (daily 0.600)   Weekly PC1: 69.9% (daily 70.4%)
+
+--- HISTORICAL TIGHTNESS EVOLUTION (90D ROLLING) ---
+     Avg corr    PC1 Core corr Satellite corr Final join distance
+Date                                                             
+2021    0.608  71.0%     0.556          0.661               0.490
+2022    0.610  71.4%     0.596          0.622               0.507
+2023    0.646  74.3%     0.611          0.672               0.508
+2024    0.512  65.0%     0.449          0.584               0.662
+2025    0.726  79.8%     0.677          0.774               0.397
+2026    0.611  71.2%     0.619          0.603               0.476
+
+Latest 90D: avg corr 0.590, PC1 69.7%, core corr 0.608, satellite corr 0.571, final join distance 0.519

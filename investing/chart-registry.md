@@ -1,5 +1,10 @@
 ---
 charts:
+  ag-equipment-performance.png:
+    tickers: DE,AGCO,CNH,LNN,MOO
+    normalize: true
+    start: 2023-01-01
+    primary: DE
   off-price-performance.png:
     tickers: TJX,ROST,BURL,OLLI,XRT
     normalize: true

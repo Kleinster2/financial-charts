@@ -1,0 +1,22 @@
+Agricultural equipment HOLDOUT TEST
+Cohort: DE, AGCO, CNH, LNN (N=4)
+Window: 2y, split temporally at midpoint
+Train: 2024-06-18 -> 2025-06-18 (58 obs)
+Test:  2025-06-18 -> 2026-06-18 (199 obs)
+
+--- TRAIN HALF (older) ---
+Intra-correlation:    0.7972
+PC1 explained var:    84.95%
+Pairwise range:       [0.664, 0.894]
+
+--- TEST HALF (newer) ---
+Intra-correlation:    0.6003
+PC1 explained var:    70.42%
+Pairwise range:       [0.425, 0.745]
+
+--- STABILITY DIAGNOSTICS ---
+Intra-corr delta:     -0.1969   (test - train)
+PC1 variance delta:   -14.53pp
+PC1 loadings corr:    0.8550    (1.0 = identical factor structure)
+
+VERDICT: WEAKENED — test/train ratio 0.75 (factor present but eroding)
