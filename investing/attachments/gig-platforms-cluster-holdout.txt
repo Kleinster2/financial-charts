@@ -1,0 +1,22 @@
+Gig economy platforms HOLDOUT TEST
+Cohort: UBER, LYFT, DASH, CART (N=4)
+Window: 2y, split temporally at midpoint
+Train: 2024-06-18 -> 2025-06-18 (58 obs)
+Test:  2025-06-18 -> 2026-06-18 (199 obs)
+
+--- TRAIN HALF (older) ---
+Intra-correlation:    0.4614
+PC1 explained var:    60.08%
+Pairwise range:       [0.332, 0.619]
+
+--- TEST HALF (newer) ---
+Intra-correlation:    0.3441
+PC1 explained var:    51.54%
+Pairwise range:       [0.124, 0.564]
+
+--- STABILITY DIAGNOSTICS ---
+Intra-corr delta:     -0.1173   (test - train)
+PC1 variance delta:   -8.55pp
+PC1 loadings corr:    0.9224    (1.0 = identical factor structure)
+
+VERDICT: WEAKENED — test/train ratio 0.75 (factor present but eroding)

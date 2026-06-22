@@ -1,0 +1,75 @@
+Gig economy platforms CLUSTER ANALYSIS
+Window 1y: 2025-07-08 -> 2026-06-18 (198 obs)
+Window 2y: 2024-07-15 -> 2026-06-18 (257 obs)
+Universe: 8 tickers across 5 groups
+Dendrogram cut threshold: 0.5
+
+--- 1Y INTRA-CLUSTER PAIRWISE CORRELATIONS ---
+Ticker  UBER  LYFT  DASH  CART
+Ticker                        
+UBER    1.00  0.56  0.46  0.12
+LYFT    0.56  1.00  0.33  0.27
+DASH    0.46  0.33  1.00  0.32
+CART    0.12  0.27  0.32  1.00
+Average intra-cluster correlation: 0.344
+Range: [0.123, 0.563]
+
+--- AVG GROUP-PAIR CORRELATIONS (1Y) ---
+             cluster  discret     tech  small_c      etf
+    cluster    0.344    0.302    0.317    0.278    0.331
+discretiona    0.302      nan    0.744    0.728    0.817
+       tech    0.317    0.744      nan    0.754    0.940
+  small_cap    0.278    0.728    0.754      nan    0.845
+        etf    0.331    0.817    0.940    0.845      nan
+
+Cluster vs others:
+  cluster vs discretionary: 0.302  (intra advantage: +0.042)
+  cluster vs tech      : 0.317  (intra advantage: +0.027)
+  cluster vs small_cap : 0.278  (intra advantage: +0.066)
+  cluster vs etf       : 0.331  (intra advantage: +0.014)
+
+--- HIERARCHICAL CLUSTERS (1Y, distance threshold 0.5) ---
+  Cluster 1: UBER, LYFT
+  Cluster 2: XLY, QQQ, IWM, SPY
+  Cluster 3: DASH
+  Cluster 4: CART
+
+--- CANDIDATE JOIN DISTANCES (1Y, average linkage, distance = 1-|corr|) ---
+ Step Left          Right Distance             Members
+    1 UBER           LYFT    0.437           UBER+LYFT
+    2 DASH      UBER+LYFT    0.606      DASH+UBER+LYFT
+    3 CART DASH+UBER+LYFT    0.762 CART+DASH+UBER+LYFT
+
+--- PCA ON CANDIDATE COHORT (1Y) ---
+Explained variance ratio:
+  PC1: 51.55%
+  PC2: 22.83%
+  PC3: 16.53%
+  PC4: 9.08%
+
+PC1 loadings:
+UBER    0.555
+LYFT    0.545
+DASH    0.517
+CART    0.359
+
+--- PC1 INDEX WEIGHTS (1Y) ---
+PCA is run on standardized daily log returns. Raw PC1-mimic weights scale PC1 loading by inverse realized volatility.
+     PC1 loading Loading weight Ann vol Raw PC1-mimic weight
+UBER       0.555         28.10%  33.36%               35.69%
+LYFT       0.545         27.57%  49.65%               23.53%
+DASH       0.517         26.16%  49.34%               22.47%
+CART       0.359         18.17%  42.06%               18.30%
+
+--- WEEKLY-RETURN CROSS-CHECK (1Y, async-close robustness) ---
+Weeks: 40   Weekly intra-corr: 0.466 (daily 0.344)   Weekly PC1: 60.8% (daily 51.6%)
+NOTE: weekly intra-corr exceeds daily by >0.10 — asynchronous closes are depressing the daily numbers (cross-region cohort); the weekly reading is the better estimate of economic co-movement.
+
+--- HISTORICAL TIGHTNESS EVOLUTION (90D ROLLING) ---
+     Avg corr    PC1 Core corr Satellite corr Final join distance
+Date                                                             
+2024    0.337  52.9%     0.231          0.439               0.857
+2025    0.400  55.5%     0.303          0.490               0.686
+2026    0.337  52.1%     0.327          0.352               0.761
+
+Latest 90D: avg corr 0.406, PC1 56.9%, core corr 0.374, satellite corr 0.439, final join distance 0.755

@@ -1,5 +1,10 @@
 ---
 charts:
+  gig-platforms-performance.png:
+    tickers: UBER,LYFT,DASH,CART,XLY
+    normalize: true
+    start: 2023-10-01
+    primary: UBER
   ag-equipment-performance.png:
     tickers: DE,AGCO,CNH,LNN,MOO
     normalize: true

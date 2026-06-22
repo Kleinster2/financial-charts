@@ -1,0 +1,54 @@
+Gig economy platforms PERMUTATION TESTS
+Window: 2025-07-08 -> 2026-06-18 (198 obs)
+Candidate cohort: UBER, LYFT, DASH, CART (N=4)
+Observed intra-corr: 0.3442    Observed PC1: 51.55%
+
+--- INDEPENDENCE NULL ---
+Permutations: 10000
+Block size: 1
+Intra-cluster correlation:
+  Null mean:        0.0001
+  Null 95th pct:    0.0489
+  Null 99th pct:    0.0704
+  p-value (right):  0.000100    -> REJECTS independence null at p < 0.001
+PC1 explained variance:
+  Null mean:        29.00%
+  Null 95th pct:    31.38%
+  Null 99th pct:    32.64%
+  p-value (right):  0.000100    -> REJECTS independence null at p < 0.001
+
+--- RANDOM-BASKET NULL ---
+Permutations: 10000
+Universe source: DB prices_long (1170 tickers with >=200 obs in window)
+Pool size: 1166
+Intra-cluster correlation:
+  Null mean:        0.1527
+  Null 95th pct:    0.3185
+  Null 99th pct:    0.4078
+  p-value (right):  0.031097    -> REJECTS random-basket null at p < 0.05
+PC1 explained variance:
+  Null mean:        39.09%
+  Null 95th pct:    50.36%
+  Null 99th pct:    57.09%
+  p-value (right):  0.037796    -> REJECTS random-basket null at p < 0.05
+
+--- VOL-MATCHED NULL ---
+Permutations: 10000
+Universe source: DB prices_long (1170 tickers with >=200 obs in window)
+Pool size: 1166
+Matching: realized-vol rank band +/-5% per member, without replacement
+Intra-cluster correlation:
+  Null mean:        0.1633
+  Null 95th pct:    0.3043
+  Null 99th pct:    0.3744
+  p-value (right):  0.021398    -> REJECTS vol-matched null at p < 0.05
+PC1 explained variance:
+  Null mean:        39.25%
+  Null 95th pct:    49.32%
+  Null 99th pct:    54.34%
+  p-value (right):  0.026097    -> REJECTS vol-matched null at p < 0.05
+
+--- INTERPRETATION ---
+Independence null rejected: the cohort series co-move (necessary, not sufficient).
+Random-basket null rejected: cohort is more cohesive than a random N-pick from the same universe. This is the meaningful pass.
+Vol-matched null rejected: cohesion exceeds random baskets with the SAME volatility profile — the cluster factor is not just shared beta/vol.
