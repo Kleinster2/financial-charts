@@ -13,7 +13,7 @@ tags: [event, ipo, space, ai]
 
 ## Post-IPO: debut and the $20bn bond (Jun 2026)
 
-The deal completed: [[SpaceX]] priced on Jun 11 and began trading Jun 12 on [[Nasdaq]] (`SPCX`), raising about $86bn (base plus over-allotment) — the largest IPO in history. Shares surged 37% from the debut before a modest two-day pullback; by Jun 18 the market capitalisation was about $2.4tn, making SpaceX the sixth-largest company in the world.
+The deal completed: [[SpaceX]] priced on Jun 11 and began trading Jun 12 on [[Nasdaq]] (`SPCX`), raising about $86bn (base plus over-allotment) — the largest IPO in history. Shares surged 37% from the debut before a modest two-day pullback; by Jun 18 the market capitalisation was about $2.4tn, making SpaceX the sixth-largest company in the world. The rally then reversed: by Jun 22 SpaceX had shed roughly $400bn in market value (down >16% from the debut peak) as US Treasury yields rose on the hawkish-Fed repricing (see [[Rate expectations]]) — a reminder that the record float trades with high rate-sensitivity and that the +37% pop was not durable.
 
 Days later (Jun 18), SpaceX moved to tap the debt market: a planned ~$20bn bond sale (as soon as the following week), 10-year paper indicated at ~1.35–1.5 percentage points over US Treasuries. The proceeds repay the $20bn bridge loan taken in March when [[Elon Musk]] merged [[xAI]] and [[Twitter|X]] into the rocket company — the bond refinances the merger debt now on the consolidated balance sheet (Q1 2026 long-term debt $29.1bn, including that bridge). [[Moody's]] assigned a Baa1 issuer rating (investment grade, one notch above [[Oracle]]), praising the "exceptional franchise" of the leading orbital-launch provider and [[Starlink]] but constraining the rating for "elevated execution and financial risks" from the large-scale AI build-out — high capital intensity, sustained negative free cash flow, and a wide range of monetisation outcomes. Former [[Sequoia Capital]] managing partner Roelof Botha joined the board (Jun 17).
 
@@ -383,6 +383,18 @@ The May 15 FT excerpt of the confidential S-1 (see the dedicated section below) 
 ### Exchange selection (Mar 10, 2026)
 
 SpaceX leaning [[Nasdaq]] over [[NYSE|New York Stock Exchange]], per Reuters (four sources). Key condition: early [[Nasdaq 100]] inclusion via the Fast Entry rule. [[NYSE]] still competing. At $1.75T, SpaceX would slot into the NDX top 6 by market cap.
+
+---
+
+## MSCI triple-C ESG rating (Jun 11 2026)
+
+On June 11 2026 — one day before the IPO priced — [[MSCI]] gave SpaceX a triple-C [[ESG]] rating, its lowest possible score, the same grade MSCI assigns the Russian state on its ESG government scale after the 2022 invasion of Ukraine. MSCI's reasoning: SpaceX is "lagging its industry based on its high exposure and failure to manage significant ESG risks." It scored 3.2/10 on governance metrics and 1/10 with an "orange flag" in the controversies category (indirect involvement in ≥1 very severe, or direct in ≥1 severe, ongoing controversy) — one step short of the "red flag" reserved for direct very-severe cases (Volkswagen over Xinjiang forced-labour claims, BHP over the Mariana dam — both since upgraded).
+
+The rating crystallizes the governance concerns running through this IPO (detailed in the governance section below): the supervoting structure, the limiting of shareholder rights, insider control concentration, conflicts of interest, and the lack of board independence and remuneration oversight. Frédéric Ducoulombier (Edhec Climate Institute) called it "very close to a governance horror story for public-market investors." The investable bite is in Europe: asset managers are debating whether SpaceX meets the EU's flagship sustainability-disclosure rules (SFDR), which could restrict funds managing more than €6.5tn from holding it.
+
+The structural irony sits against the index-inclusion section above: MSCI applied its own fast-track procedure to add SpaceX to its main indices despite the triple-C — its benchmarks underpin more than $17tn (with ~$1.27tn against its sustainability/climate indices), so the same provider both flags SpaceX as un-ownable on ESG and forces it into the passive complex on size. [[FTSE Russell]] and [[Nasdaq]] likewise fast-tracked; [[S&P Dow Jones Indices]] declined to alter its timelines and has not added SpaceX. ([[Elon Musk|Musk]] has history here — he called ESG a "scam" after [[Tesla]] was dropped from the S&P 500 ESG Index in 2022.)
+
+*Source: [[Financial Times|FT]] (Ramsay Hodgson), "SpaceX handed lowest possible ESG rating by MSCI," Jun 21 2026.*
 
 ---
 
