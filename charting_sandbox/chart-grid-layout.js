@@ -38,8 +38,11 @@ window.GridLayout = (() => {
         const pageTitle = document.getElementById('page-title');
         const chartNav = document.getElementById('chart-nav');
 
-        if (layout.id === '1x1') {
-            // Default stacked layout
+        if (layout.cols === 1) {
+            // Default stacked layout (single column = no grid; restore natural card heights).
+            // NB: layout ids migrated from 'NxM' to plain column counts, so the old
+            // `layout.id === '1x1'` test never matched and 1-col pages were wrongly
+            // rendered as a 1-wide grid with full-viewport row height.
             wrapper.style.display = '';
             wrapper.style.gridTemplateColumns = '';
             wrapper.style.gridTemplateRows = '';
