@@ -130,6 +130,7 @@ The story of Jefferies is the story of a firm that nearly died twice — once fr
 | [[Boyd Jefferies]] | Founder | 1962-1987 | Third-market pioneer; pleaded guilty to stock parking 1987 |
 | [[Frank Baxter]] | CEO | 1987-2000 | Stabilized firm post-scandal; hired Drexel talent |
 | [[Ian Cumming]] | Co-founder, Leucadia | 1979-2013 | Retired 2013; died Feb 2018 age 77 |
+| [[Laurence Alexander]] | MD, equity research (chemicals/materials) | — | Authored the [[Narrative lifecycle investing]] AI framework (Jun 2026) |
 
 ---
 
@@ -169,6 +170,7 @@ Jefferies is the purest play on the structural shift toward independent advisory
 - [[Moelis]] — independent advisory competitor (pure advisory, no capital markets)
 - [[Guggenheim Partners]] — independent financial services competitor
 - [[Pershing Square]] — [[Bill Ackman]]'s fund; Leucadia provided early financing
+- [[Laurence Alexander]] — MD, chemicals/materials equity research; authored the [[Narrative lifecycle investing]] framework
 
 ### Cross-vault
 

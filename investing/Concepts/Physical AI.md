@@ -26,7 +26,7 @@ The pipeline roboticists converged on builds physical capability on top of the l
 3. Action data — behaviour cloning (human demonstrations) supplies the how-and-where of movement; diffusion turns demonstrations into generalisable trajectories.
 4. Fine-tuning — new skills absent from training data are taught task by task.
 
-This pre-training shortcut matters because it lets robots inherit world knowledge from existing text/image troves before any physical teaching begins.
+This pre-training shortcut matters because it lets robots inherit world knowledge from existing text/image troves before any physical teaching begins. Packaged into a single network that maps images and instructions straight to actions, this stack is a [[VLA model]].
 
 ## Large behaviour models
 
@@ -39,7 +39,7 @@ The field's bet is foundation models for the physical world — large behaviour 
 
 ## Frontier directions
 
-Liquid neural networks ([[Daniela Rus]], [[MIT]] CSAIL): dynamic-connection networks that behave more like biological brains, need fewer neurons and less compute — attractive for onboard robot hardware. In self-driving research they handle dawn/dusk transitions better by focusing on the road's middle distance and obstacles rather than roadside features.
+[[Liquid neural networks]] ([[Daniela Rus]], [[MIT]] CSAIL): dynamic-connection networks that behave more like biological brains, need fewer neurons and less compute — attractive for onboard robot hardware. In self-driving research they handle dawn/dusk transitions better by focusing on the road's middle distance and obstacles rather than roadside features. Now commercialised by [[Liquid AI]] (MIT spinout; $250M Series A led by [[AMD]], ~$2.4bn, Dec 2024).
 
 ## Capital flows
 
@@ -63,6 +63,8 @@ More than $11bn of robotics and drone venture deals had been done by late Octobe
 
 - [[Robotics]] — sector hub (market sizes, humanoid landscape)
 - [[Diffusion models (robotics)]] — the action-generation breakthrough
+- [[VLA model]] — vision-language-action architecture (the training stack packaged into one network)
+- [[Liquid neural networks]] — efficient continuous-time networks ([[Daniela Rus]] / [[Liquid AI]])
 - [[Toyota Research Institute]] — hours-not-weeks behaviour cloning, TRI-BD behaviour models
 - [[Boston Dynamics]] — hardware embodiment (Atlas, Spot)
 - [[Jensen Huang]] — Computex Jun 2024 framing

@@ -47,6 +47,12 @@ Cybersecurity consolidation remains a strategic operating thesis, not a blanket 
 
 ---
 
+## June 2026 — services-led consolidation: Accenture
+
+The consolidation is not only product vendors. On Jun 18 2026 [[Accenture]] — the largest [[IT services]] integrator — bought into the AI-security layer with a ~$4.2bn package: runZero (vulnerability assessment), NetRise (device security), and a majority stake in [[Dragos]] (operational-technology / ICS security). The rationale is the "AI threat surface" driver above, sharpened: new AI models can find and exploit vulnerabilities at scale, so OT/ICS and device security become defended, high-value services. This is a services-led variant of the consolidation thesis — an integrator, not a platform vendor, rolling up capability — and part of Accenture's pivot toward AI-resistant work as its core consulting model is repriced (see [[Accenture]], [[AI disintermediation]]).
+
+---
+
 ## What gets rolled up
 
 | Category | Status |

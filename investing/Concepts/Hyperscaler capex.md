@@ -348,5 +348,6 @@ For credit markets:
 - [[GPU deployment bottleneck]] — shipped ≠ deployed
 - [[Data center boomtown effect]] — community disruption from megaprojects
 - [[Data center land competition]] — land bidding dynamics
+- [[Narrative lifecycle investing]] — [[Jefferies]] (Jun 2026) places "Datacenter AI Capex" in the euphoria phase, "at risk of cracks," with a compute-efficiency replacement as the named risk
 
 *Created 2026-01-20*

@@ -20,7 +20,7 @@ The AI investment cycle so far has been digital: data centers, cloud, software. 
 | Layer | Function | Examples |
 |-------|----------|---------|
 | World models | Predict physical dynamics | [[UnifoLM]]-WMA, [[Google]] RT-2 |
-| Vision-Language-[[Action]] (VLA) | Map perception + language → actions | [[UnifoLM]]-VLA, RT-X, Octo |
+| [[VLA model\|Vision-Language-Action]] (VLA) | Map perception + language → actions | [[UnifoLM]]-VLA, RT-X, Octo |
 | Reinforcement learning | Learn locomotion/manipulation via trial | [[Unitree]] quadruped RL, [[Figure AI]] |
 | Simulation | Generate synthetic training data | NVIDIA Isaac, MuJoCo |
 | Hardware | Actuators, sensors, compute | Custom actuators, [[NVIDIA]] Jetson/Thor |
@@ -104,6 +104,8 @@ The "assembly trap": Skeptics warn that cherry-picked factory demos at 2x speed 
 
 ## Related
 
+- [[VLA model]] — vision-language-action architecture detail
+- [[Liquid neural networks]] — efficient continuous-time networks for edge inference
 - [[UnifoLM]] — Unitree's embodied AI model family
 - [[Unitree]] — volume leader
 - [[Humanoid robotics]] — form factor

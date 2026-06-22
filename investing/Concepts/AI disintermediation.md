@@ -7,6 +7,8 @@ tags: [concept, ai, disruption, thesis]
 
 AI is collapsing the value of intermediation — businesses that sit between a buyer and a product/service, earning fees on information asymmetry, comparison complexity, or advisory work. Three events in eight days in February 2026 made this thesis concrete and tradeable.
 
+*This thesis spans many sectors; the per-cohort performance charts live in the linked notes ([[AI financial disintermediation basket]], [[IT services]]). Chart not applicable here — no single price series represents the cross-sector thesis.*
+
 ---
 
 ## The pattern
@@ -63,7 +65,7 @@ All events hit the distribution/advisory/middleware layer, not the production/ex
 | Insurance broking | [[Marsh McLennan]], [[Aon]], [[Willis Towers Watson]] | AI comparison apps replace advisory | Selloff occurred (Feb 9) |
 | Wealth management | [[Charles Schwab]], [[Raymond James]], [[LPL Financial]] | AI tax planning/advisory commoditization | Selloff occurred (Feb 10) |
 | Advertising | [[Omnicom]], [[Publicis]] | AI creates campaigns directly | Hit in SaaSpocalypse |
-| IT consulting | [[Infosys]], [[TCS]], [[Accenture]] | AI automates implementation work | Hit in SaaSpocalypse |
+| IT consulting | [[Infosys]], [[TCS]], [[Accenture]] | AI automates implementation work | Hit in SaaSpocalypse; [[Accenture]] guidance cut Jun 2026 |
 | Real estate | Brokers/agents | AI comparison, virtual tours, automated transactions | Partial (Zillow/Redfin era) |
 | Financial data | [[Dealogic]], [[Mergermarket]], [[ION Group]] | AI replicates deal intel, M&A data, league tables | Bond selloff (Feb 11) |
 | Industrial software | [[Dassault Systèmes]], [[PTC]], [[Autodesk]] | AI generates 3D models, automates simulation/PLM | DSY -18% (Feb 11) |
@@ -161,6 +163,10 @@ This is not a full rebuttal to disintermediation. It is a sorting mechanism:
 The market response matters: Capgemini still fell 3.5% on the day. Investors are demanding conversion, not narrative. The live test for the thesis is whether AI-driven services revenue accelerates before automation compresses billable labor.
 
 *Sources: [Reuters via Investing.com, May 27 2026](https://www.investing.com/news/stock-market-news/capgemini-says-ai-widens-client-spending-pool-4712824); [Capgemini 2026 Capital Markets Day press release](https://investors.capgemini.com/en/publication/2026-capital-markets-day/); [Bourse Direct historical quote table, May 27 2026](https://www.boursedirect.fr/fr/marche/euronext-paris/capgemini-se-FR0000125338-CAP-EUR-XPAR/graphiques).*
+
+### June 2026 — the live test resolves toward the bear case
+
+[[Accenture]]'s Jun 18 2026 Q3 print delivered the first hard evidence the bears wanted: new bookings −3% YoY and a full-year revenue-growth guidance cut to ≤4%, with the stock down 18% (lowest since 2017, market cap >$200bn → <$80bn). This is the disintermediation thesis moving from sentiment to fundamentals — the Feb 2026 IT-services selloffs were narrative repricings; this was a booked deceleration. CEO [[Julie Sweet]] said IT budgets are flat and clients are "spending it differently," and [[Jefferies]]' [[Surinder Thind]] flagged demand resiliency "in an AI-first world." The validated [[IT services]] factor fired 3–7σ across the cohort (see [[IT services#Live factor test — the Accenture print (Jun 18 2026)]]). The unresolved question is still conversion: Accenture is buying the defended layer ($9bn M&A budget, $4.2bn of cyber deals) rather than showing organic AI-transformation acceleration.
 
 ---
 

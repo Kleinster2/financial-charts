@@ -413,6 +413,59 @@ curl "http://localhost:5000/api/chart/waterfall?ticker=MSFT&period=quarterly" -o
 
 ---
 
+## Intraday Charts (30-minute candles + perp funding)
+
+Line-chart overlays built from 30-minute candle data, for ETFs/stocks and Hyperliquid perpetual futures. Rendered with Playwright → Lightweight Charts (same engine and style as `/api/chart/lw`, via the `chart_render.html` template with an `isIntraday` flag), returned as PNG. **All timestamps are UTC** and the window is `now − days → now`.
+
+**Ticker routing — the `HL:` prefix selects the perp tables.** `HL:SP500`, `HL:GOLD`, `HL:CL` read Hyperliquid perp candles; bare tickers (`SPY`, `GLD`) read ETF/stock intraday candles. Mixing both on one chart is the point — it overlays a perp against its cash ETF.
+
+```bash
+# ETF vs its Hyperliquid perp, last 7 days
+curl "http://localhost:5000/api/chart/intraday?tickers=SPY,HL:SP500&primary=SPY" \
+  -o investing/attachments/spy-vs-hl-sp500-intraday.png
+
+# Normalized gold: GLD vs perp, 14-day window
+curl "http://localhost:5000/api/chart/intraday?tickers=GLD,HL:GOLD&normalize=true&days=14" \
+  -o investing/attachments/gld-vs-hl-gold-intraday.png
+```
+
+| Parameter | Default | Description |
+|-----------|---------|-------------|
+| `tickers` | required | Comma-separated. `HL:` prefix → perp candles, else ETF/stock candles |
+| `days` | 7 | Lookback window in days (UTC `now − days` → `now`) |
+| `normalize` | false | Rebase all series to a common start |
+| `primary` | first ticker | Ticker colored blue (#2962FF); reordered to the front |
+| `interval` | `30m` | Candle interval (must exist in the candle table) |
+| `labels` | | Custom legend labels: `TICKER:Label,TICKER2:Label2` |
+| `title` | | Chart title; omitted entirely when blank |
+| `width` | 1200 | Image width (pixels) |
+| `height` | 800 | Image height (pixels) |
+
+**Data source:** `intraday_candles` (ETFs/stocks) and `perp_candles` (Hyperliquid), both keyed `(ticker, interval, timestamp)` with a `close` column. Tickers with no rows in the window are silently skipped; if no ticker has data the endpoint returns a JSON 400 — which curl will save as a corrupt `.png`, so `wc -c` before reading.
+
+**Naming caution:** suffix intraday outputs with `-intraday.png`. Do **not** use `-price-chart.png` or `-vs-...-price-chart.png` — those patterns trigger the Quartz `lwcharts.ts` iframe swap, which would re-render the embed from *daily* price data instead of the candle tables (wrong series). See "Auto-refresh naming" under Known limitations.
+
+### Perp funding rate (`/api/chart/intraday/funding`)
+
+Funding-rate history for Hyperliquid perps, plotted in basis points per hour.
+
+```bash
+# Funding for the S&P and crude perps, last 7 days
+curl "http://localhost:5000/api/chart/intraday/funding?tickers=HL:SP500,HL:CL" \
+  -o investing/attachments/hl-funding-rates.png
+```
+
+| Parameter | Default | Description |
+|-----------|---------|-------------|
+| `tickers` | required | Comma-separated `HL:` perp tickers |
+| `days` | 7 | Lookback window in days |
+| `width` | 1200 | Image width (pixels) |
+| `height` | 600 | Image height (pixels) |
+
+**Data source:** `perp_funding_rates` (`ticker, timestamp, funding_rate, premium`). The raw per-hour decimal rate is converted to basis points (× 10,000) and rounded to 2 dp; points beyond ±10 bps/hour (~88% annualized) are dropped as outliers rather than clipped. Title is fixed to "Funding Rate (bps/hour)".
+
+---
+
 ## Choropleth Maps
 
 For country-level visualizations (membership maps, trade blocs, sanctions coverage, mineral production share, etc.), use Plotly `go.Choropleth` with this style as the base template:

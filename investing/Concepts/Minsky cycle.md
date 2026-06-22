@@ -85,6 +85,7 @@ Hyman Minsky: "Stability is destabilizing."
 - [[Trump II]] — broader deregulatory agenda
 - [[G-SIB]] — surcharge reform shrinks buffers as banks grow
 - [[Silicon Valley Bank]] — 2023 bank failure that briefly interrupted deregulatory momentum
+- [[Narrative lifecycle investing]] — conviction-cycle cousin: narratives run genesis→euphoria→exhaustion as leverage runs hedge→speculative→Ponzi
 
 ### Cross-vault
 - [History: Financial Crisis Theory](obsidian://open?vault=history&file=Themes%2FFinancial%20Crisis%20Theory) — Minsky's three-type framework, endogenous instability thesis

@@ -169,6 +169,33 @@ A new distinct factor, and an unusual one: most of the campaign's distinct cohor
 
 ---
 
+## Live factor test — the Accenture print (Jun 18 2026)
+
+The cluster thesis got a clean out-of-sample test on the final day of the validation window. On Jun 18 2026 [[Accenture|ACN]] cut full-year revenue-growth guidance (to ≤4% from 3–5%) and reported Q3 new bookings of $19.3bn (−3% YoY); the stock fell 18% to its lowest since 2017, market cap from >$200bn to <$80bn (see [[Accenture]]). The validated factor fired exactly as specified — the cohort sold off in sympathy on a day the market and the tech ETF *rose*.
+
+| Name | 1-day move | Raw σ | Abnormal vs [[SPY]] | Abnormal vs [[XLK]] |
+|---|---|---|---|---|
+| [[Accenture\|ACN]] | −18.0% | −6.9 | −19.0% (−7.3σ) | −21.0% |
+| [[EPAM Systems\|EPAM]] | −12.6% | −4.1 | −13.7% (−4.5σ) | −15.6% |
+| [[Globant\|GLOB]] | −11.2% | −3.3 | −12.2% (−3.6σ) | −14.2% |
+| [[Cognizant\|CTSH]] | −10.5% | −4.7 | −11.5% (−5.2σ) | −13.5% |
+| [[Infosys\|INFY]] | −9.7% | −4.5 | −10.7% (−4.9σ) | −12.7% |
+| [[Wipro\|WIT]] | −3.6% | −1.5 | −4.7% | −6.7% |
+| [[XLK]] (tech ETF) | +3.0% | +2.1 | +2.0% | — |
+| [[IGV]] (software) | −0.1% | — | −1.1% | −3.1% |
+| [[SPY]] (market) | +1.0% | — | — | −2.0% |
+
+*Event-day reaction (06-17 → 06-18 close); own-vol from the trailing 1Y excluding the event day. Source: `prices_long`; [[Financial Times|FT]] (Stephen Foley), Jun 18 2026.*
+
+Three things the tape confirms about the validated factor:
+- Co-movement on the narrative, not on own results. [[Cognizant|CTSH]], [[Infosys|INFY]], [[EPAM Systems|EPAM]] and [[Globant|GLOB]] had no material news of their own yet fell 9.7–12.6% (3–5σ) on ACN's print — the "names move on the shared question" mechanism the cluster identified.
+- Orthogonality to the tech ETF, made real. The cohort fell ~10–18% while [[XLK]] *rose 3%* and software ([[IGV]]) was flat — almost the entire move is abnormal versus the tech complex (ACN −21% vs XLK). The +0.597 core-5 intra-advantage over XLK is exactly this: the shared driver (GenAI repricing the labor-arbitrage model) is a factor the mega-cap-dominated tech ETF does not price.
+- The core-vs-satellite split, live. [[Wipro|WIT]] — the loose outlier excluded from the core-5 — fell only 3.6% (−1.5σ), a fraction of the core's move, confirming it does not belong to the tight factor.
+
+This is the [[AI disintermediation]] thesis crossing from sentiment to fundamentals: the Feb 2026 IT-services selloffs were narrative repricings; this was a guidance cut and a bookings decline. The validated factor is now the cleanest way to express the view that GenAI is repricing the labor-arbitrage services model.
+
+---
+
 ## Historical players
 
 | Company | Fate |

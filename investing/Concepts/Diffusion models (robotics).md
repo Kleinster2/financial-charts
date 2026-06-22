@@ -28,6 +28,7 @@ The diffusion-policy line of work was developed jointly by Columbia University a
 ## Related
 
 - [[Physical AI]] — parent concept; diffusion policies are its action-generation layer
+- [[VLA model]] — the language-grounded architecture a diffusion action head plugs into
 - [[Toyota Research Institute]] — co-originator, T-block demonstration, hours-not-weeks results
 - [[Russ Tedrake]] — TRI robotics research lead
 - [[Chelsea Finn]] — Stanford dexterous-task results

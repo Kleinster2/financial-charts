@@ -340,6 +340,7 @@ For investment positioning, the Patel call sharpens an existing tension: [[VLA m
 - [[Drones]] — aerial vehicles (separate sector)
 - [[Agentic AI]] — AI for physical world
 - [[Diffusion models (robotics)]] — the 2024 robot-learning breakthrough (action diffusion)
+- [[VLA model]] — vision-language-action architecture; the data-efficiency debate
 - [[Toyota Research Institute]] — robot-learning lab; [[Boston Dynamics]] behaviour-model partner
 - [[AI Infrastructure]] — compute for training
 - [[Enterprise AI adoption]] — contrast case where peer information has not clearly moved AI plans
