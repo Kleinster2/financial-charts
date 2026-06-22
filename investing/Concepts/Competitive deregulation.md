@@ -40,7 +40,9 @@ The ratchet works faster downward than upward: loosening is popular (industry ap
 | 2024 | Fed agrees to dilute proposals |
 | Mar 12, 2026 | [[Michelle Bowman]] announces final framework — net *decrease* in capital requirements |
 | Q1 2026 | Six largest US banks spend record $33bn on buybacks — JPM $8.33bn (all-time record), BofA $7.2bn, Citi $6.3bn, Goldman $5bn, WFC $4bn, MS $1.75bn |
-| Pending | [[Bank of England]], [[EU]] face pressure to match US leniency |
+| Mar 2026 | US Fed adjusts "Basel Endgame" to a "small decrease" in capital; Wall Street lobbies for further market-risk easing |
+| 2026 | [[EU]] to legislate a 3-year neutralisation of the FRTB market-risk charge (Fundamental Review of the Trading Book) |
+| Jun 19, 2026 | [[Bank of England]] (PRA, [[Sam Woods]]) proposes diluting UK FRTB market-risk rules "to support international alignment" — ~1/3 (£700mn) capital cut for the 11 banks doing 95% of UK capital-markets activity (>2/3 US-bank subsidiaries); key parts delayed to Jan 2028 |
 
 Bowman explicitly framed deregulation as correcting rules that "push activity into the less-regulated nonbank sector" — acknowledging that [[Basel III]] constraints drove banks out of lending markets that [[Private credit]] captured. The policy goal is to re-arm banks to compete. Source: FT (Mar 12, 2026)
 
@@ -48,6 +50,8 @@ Q1 2026 validated the mechanism: with capital buffers freed and volatility-drive
 
 ![[us-banks-buyback-history-q1-2026.png]]
 *Q1 2026 record: combined $33bn in buybacks surpasses any prior quarter. JPMorgan (dark blue) alone spent $8.33bn — a new all-time record. Gap in 2020 = COVID-era pause. Source: FT, Company statements / Visible Alpha (Apr 15, 2026)*
+
+The trading-book leg confirmed the sequence (Jun 2026). The race is now explicit on market-risk rules specifically: after the US Fed's March cut, the [[EU]] moved to neutralise the FRTB charge for three years and the [[Bank of England]]'s PRA proposed (Jun 19 2026) diluting the UK version "to support international alignment" — openly mirroring the others. [[Sam Woods]] (PRA CEO) said the rules "may be more capital-intensive and operationally burdensome than originally intended." The "Pending" pressure in the table above resolved exactly as the mechanism predicts — each jurisdiction's concession became the baseline the next had to match. The PRA's own rationale (avoiding "a competitive disadvantage" for UK banks and protecting wholesale-market "depth and liquidity") is the level-playing-field demand (step 3) made official, ~18 years after the crisis the rules were written to prevent. See [[Minsky cycle]].
 
 ### Pre-2008 London vs New York
 

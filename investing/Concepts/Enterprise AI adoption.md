@@ -134,6 +134,26 @@ The investment read is tighter than "enterprise AI adoption is slowing." Adoptio
 
 ---
 
+## Jun 2026: the agent-cost phase
+
+The FT's Jun 19 2026 report confirms and hardens the rationing theme above, and names the phase transition driving it: the move from chatbots to AI agents. [[Cisco]] president Jeetu Patel framed the mechanism — an agent needs "meaningfully higher" infrastructure than a chatbot, and a firm may run 10–1,000 agents per human, each consuming compute continuously. Combined with [[Anthropic]] and [[OpenAI]] shifting from flat subscriptions to token-based billing, every prompt and workflow now hits the budget directly. [[Sam Altman]] said cost became a "huge issue" for customers in 2026 that "never came up" the year before.
+
+The named controls extend the May list:
+
+| Company | Control |
+|---|---|
+| [[Uber]] | $1,500/month token cap per employee per AI tool, after blowing the entire 2026 AI budget by April |
+| [[Walmart]] | Capped tokens on its internal "Code Puppy" vibe-coding platform after usage "skyrocketed" |
+| [[Amazon]] | Warned staff to stop using "AI just for the sake of using AI" (engineers ran agents to climb internal leaderboards); changed how it measures adoption |
+| [[Meta]] | Similar adoption-metric changes (April) |
+| Workato | Spend rose 7x on day one of [[Anthropic]] token-based pricing — CIO Carter Busse: "we created a monster"; pivoted enablement sessions to "AI financial responsibility" and cheaper older models |
+
+Two data points sharpen the supply/demand tension. [[Goldman Sachs]] projects AI-agent use will drive a 24x increase in token consumption by 2030 and exacerbate a chip shortage over the next 12–18 months — the [[Jevons Paradox|Jevons]] demand explosion meeting the [[Hyperscaler capex|capex]] supply constraint. And since the start of 2026, Chinese AI models have overtaken their US counterparts in token consumption ([[OpenRouter]]) as cheaper Chinese energy and more efficient models undercut US token prices — the demand-side face of the "compute-efficiency replacement" risk [[Jefferies]] flagged for [[Hyperscaler capex|Datacenter AI Capex]] (see [[Narrative lifecycle investing]]). Cost discipline could weigh on [[Anthropic]] and [[OpenAI]] growth just as both target near-trillion-dollar IPOs.
+
+*Source: [[Financial Times|FT]] (Jamie John, Rafe Rosner-Uddin, Ryan McMorrow), "'We created a monster': companies rein in AI usage as costs strain budgets," Jun 19 2026.*
+
+---
+
 ## May 2026: shadow AI adoption outpaces governance
 
 [[Okta]]'s May 2026 survey adds the security/governance version of the same adoption-vs-ROI gap. Workers are already using AI tools heavily, but a large share of that adoption sits outside formal enterprise control. Okta found that 52% of employees use unapproved AI tools, while 90% of executives say they are confident in visibility into AI tools and 95% believe employees use AI responsibly.
@@ -200,6 +220,12 @@ What to watch:
 - CIO surveys on AI budget growth vs cuts
 - Enterprise contract renewals (churn data)
 - Actual productivity metrics (not surveys)
+
+---
+
+## Charting note
+
+A skeptical-framework concept synthesizing survey and adoption data across many sources, not a single price series — chart not applicable. The market-facing expressions are charted in the linked notes ([[IT services]], [[Inference economics]]).
 
 ---
 

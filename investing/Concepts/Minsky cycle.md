@@ -5,6 +5,8 @@ aliases: [Minsky moment, financial instability hypothesis, stability breeds inst
 
 **Minsky cycle** — Hyman Minsky's framework: stability itself is destabilizing. Prolonged calm breeds confidence, confidence breeds leverage, leverage breeds fragility, and a small shock triggers collapse. Applied to regulation: distance from the last crisis erodes the political will to maintain safety margins.
 
+*Macro framework with no single price series — chart not applicable; live applications are charted in the linked notes ([[Competitive deregulation]] bank buybacks, [[Private credit]]).*
+
 ---
 
 ## Synthesis
@@ -57,7 +59,7 @@ The cycle length varies but the pattern holds: regulatory memory has a half-life
 |--------|-------------|--------|
 | [[Basel III]] Endgame | Erosion | Net decrease in bank capital requirements (Mar 2026). 18 years post-GFC |
 | [[Private credit]] retail | Ponzi-adjacent | Illiquid loans sold as "quarterly liquid" — depends on no large redemptions. First gate (Feb 2026) |
-| [[Competitive deregulation]] | Complacency → erosion | US loosening forces [[Bank of England]]/[[EU]] to follow |
+| [[Competitive deregulation]] | Erosion (realised) | US (Mar) → [[EU]] (3-yr FRTB neutralisation) → [[Bank of England]] (Jun 19, diluting UK market-risk rules); the predicted follow-through happened |
 | Bank re-entry to lending | Speculative | Banks freed from capital constraints re-enter markets they exited for safety reasons |
 | [[AI infrastructure financing]] | Speculative → Ponzi | Data center borrowers seeking loans exceeding construction costs, assuming future rents |
 

@@ -57,6 +57,8 @@ Google's I/O 2026 keynote gives the scale backdrop: more than 3.2 quadrillion to
 
 The inference-economics implication is segmentation. Premium models can still hold price where the task is high-value, latency-sensitive, or trust-sensitive. Routine summarization, basic coding help, internal chat, and low-risk agent loops will be routed to cheaper models or homegrown tools. The market is therefore unlikely to be one commodity token price or one premium token price; it becomes a router-mediated stack.
 
+Update (FT, Jun 19 2026): the rationing hardened into named per-employee token caps and the chatbot→agent cost-phase (full list in [[Enterprise AI adoption#Jun 2026: the agent-cost phase|Enterprise AI adoption]]). Two demand-side datapoints: [[Goldman Sachs]] projects 24x token consumption by 2030, worsening the chip shortage 12–18 months out; and Chinese models have overtaken US ones in token volume ([[OpenRouter]]) on cheaper energy and efficiency — the same compute-efficiency edge the deflation curve below tracks, and the demand-side face of the [[Narrative lifecycle investing|"Datacenter AI Capex = euphoria, at risk of cracks"]] read.
+
 *Sources: [WSJ via Hindustan Times, May 29 2026](https://www.hindustantimes.com/technology/corporate-america-is-starting-to-ration-ai-as-cost-skyrockets-101780051280269.html); [Google I/O 2026 keynote transcript, May 19 2026](https://blog.google/intl/en-nz/company-news/sundar-pichai-io-2026/).*
 
 ---
