@@ -5,6 +5,8 @@ aliases: [Fed put, Powell put, Bernanke put]
 
 **Greenspan put** — Market expectation that the [[Federal Reserve]] will cut rates or provide liquidity to rescue falling asset prices. Named for [[Alan Greenspan]]'s response to 1987 crash.
 
+[[Alan Greenspan]] — Fed chair 1987-2006, "the Maestro" — died June 22, 2026, aged 100. The concept bearing his name has outlived both him and his tenure: the "Fed put" remains the central lens on the central bank's asymmetric reaction function, live right now in the [[Kevin Warsh|Warsh]]-era "turbocharged Greenspan put" tension (below). His death is primarily a macro-history event — the fuller biography and the legacy debates (1990s deregulation, the "irrational exuberance" warning, the 2008 GFC culpability question) belong to the history vault; what persists in markets is the eponymous reaction-function expectation.
+
 ---
 
 ## Mechanism

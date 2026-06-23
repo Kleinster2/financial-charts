@@ -266,7 +266,7 @@ QT pace: ~$60B/month Treasury runoff, ~$35B/month MBS runoff
 | [[Jerome Powell]] | 2018-2026 | COVID response, 2022-23 hikes |
 | Janet Yellen | 2014-2018 | Normalization began |
 | Ben Bernanke | 2006-2014 | GFC, QE invention |
-| Alan Greenspan | 1987-2006 | "Maestro," bubbles |
+| Alan Greenspan | 1987-2006 | "Maestro"; "irrational exuberance"; namesake of the [[Greenspan put]]; died Jun 22 2026 (aged 100) |
 | Paul Volcker | 1979-1987 | [[Inflation]] slayer |
 
 ---
