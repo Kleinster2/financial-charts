@@ -3,7 +3,7 @@ aliases: [Hon Hai, Hon Hai Precision, Hon Hai Precision Industry]
 ---
 #actor #manufacturing #taiwan #public
 
-**Foxconn** — world's largest electronics manufacturer and largest [[NVIDIA]] server assembler. ~40% global AI server market share. Assembling [[Blackwell]] GB200/GB300 rack-scale systems. Chairman Young Liu projecting double-digit revenue growth in 2026 driven by AI servers overtaking consumer electronics as primary revenue driver.
+Foxconn — world's largest electronics manufacturer and largest [[NVIDIA]] server assembler. ~40% global AI server market share. Assembling [[Blackwell]] GB200/GB300 rack-scale systems. Chairman Young Liu projecting double-digit revenue growth in 2026 driven by AI servers overtaking consumer electronics as primary revenue driver.
 
 ---
 
@@ -62,6 +62,12 @@ The cloud/networking segment overtaking consumer electronics is the structural s
 
 ---
 
+## Apple supply-chain diversification (India)
+
+Foxconn is [[Apple]]'s lead manufacturing partner in the multi-year shift of iPhone assembly out of [[China]] and into [[India]] (principally Tamil Nadu and Karnataka). Per the [[Financial Times]] (May 2026), Apple's diversification away from its China-dominated supply chain — built up over two decades under [[Tim Cook]] — is already under way and likely to intensify under incoming CEO [[John Ternus]], driven by US-China trade tensions and single-country concentration risk. For Foxconn the India ramp is the consumer-electronics counterweight to its AI-server pivot: even as cloud/networking (41%) overtakes consumer (35%) in the revenue mix, the iPhone franchise is being geographically rebased rather than wound down. See [[Apple#Innovation gap and the reinvestment question (FT, May 2026)]] for the strategic frame.
+
+---
+
 ## AI server position
 
 | Metric | Value |
@@ -86,7 +92,7 @@ All three major Taiwan ODMs crossed NT$1T in annual revenue in 2025 on AI server
 
 | Company | FY2025 revenue | YoY growth | AI server focus |
 |---------|----------------|------------|-----------------|
-| **Foxconn** | ~NT$8.1T | +30% | NVIDIA rack-scale, 40% market share |
+| Foxconn | ~NT$8.1T | +30% | NVIDIA rack-scale, 40% market share |
 | [[Wistron]] | NT$2.18T | +108% | Fastest growth — AI server ramp |
 | [[Quanta Computer]] | NT$2.12T | +50.5% | Microsoft, Amazon, Google, Meta |
 

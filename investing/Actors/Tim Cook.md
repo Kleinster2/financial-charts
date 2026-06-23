@@ -1,6 +1,10 @@
+---
+aliases: [Timothy Cook, Timothy Donald Cook]
+tags: [actor, apple, executive]
+---
 #actor #tech #apple #executive
 
-**Tim Cook** (Timothy Donald Cook, born November 1, 1960) — CEO of [[Apple]] since August 2011. Operations and supply chain expert who succeeded Steve Jobs and grew Apple from $350B to $4T+ market cap. First openly gay Fortune 500 CEO.
+Tim Cook (Timothy Donald Cook, born November 1, 1960) — CEO of [[Apple]] since August 2011, transitioning to executive chairman on September 1, 2026. Operations and supply chain expert who succeeded Steve Jobs and grew Apple from $350B to $4T+ market cap. First openly gay Fortune 500 CEO.
 
 ---
 
@@ -11,7 +15,7 @@
 | Market cap | $350B | $4T+ |
 | Role | Became CEO | CEO |
 
-**Milestones under Cook:**
+Milestones under Cook:
 - 2018: First US company to $1T market cap
 - 2020: Reached $2T
 - 2023: Reached $3T
@@ -21,16 +25,16 @@
 
 ## Background
 
-**Education:**
+Education:
 - BS Industrial Engineering, Auburn University (1982) — graduated second in class
 - MBA, Duke University Fuqua School of Business (1988)
 
-**Early life:**
+Early life:
 - Born in Robertsdale, Alabama
 - Middle of three sons
 - Father: shipyard worker; mother: homemaker
 
-**Career before Apple:**
+Career before Apple:
 | Period | Company | Role |
 |--------|---------|------|
 | 1982-1994 | [[IBM]] | North American fulfillment operations (12 years) |
@@ -49,7 +53,7 @@ Before becoming CEO, Cook was COO responsible for:
 - Led Macintosh division
 - Strategic reseller and supplier relationships
 
-**Operations transformation:** Cook revolutionized Apple's supply chain, reducing inventory and improving margins — key to Apple's profitability.
+Operations transformation: Cook revolutionized Apple's supply chain, reducing inventory and improving margins — key to Apple's profitability.
 
 ---
 
@@ -60,7 +64,7 @@ Before becoming CEO, Cook was COO responsible for:
 - Apple Vision Pro
 - Apple Silicon transition (M-series chips)
 
-**Services expansion:**
+Services expansion:
 - Apple Music
 - Apple Pay
 - Apple TV+
@@ -77,7 +81,7 @@ Before becoming CEO, Cook was COO responsible for:
 | Aug 2025 | White House visit; presented Trump with glass plaque in 24-karat gold |
 | Aug 2025 | Announced additional $100B US investment (total: $600B commitment) |
 
-**2024 compensation:** $74.6M (+18% YoY)
+2024 compensation: $74.6M (+18% YoY)
 
 ---
 
@@ -88,6 +92,8 @@ Cook has made multiple trips to China to meet top leaders and reaffirm Apple's c
 ---
 
 ## Succession (Bloomberg, Mar 23 2026)
+
+Confirmed (Apple newsroom, Apr 20 2026): Cook will move to the newly created role of executive chairman on September 1, 2026, with [[John Ternus]] becoming CEO that day (Cook's last day as CEO is August 31). As executive chairman, Cook focuses on global policymaker engagement. The Gurman reporting below — which had estimated a 1–5-year window — is now settled at roughly one year out.
 
 [[Mark Gurman]] reports Cook's departure estimated in 1-5 years. [[John Ternus]], SVP Hardware Engineering, is the clear frontrunner — 15 years younger than Cook, 25-year Apple veteran, oversees ~80% of revenue. Every other internal candidate has been eliminated: [[Jeff Williams]] (COO) retired end 2025, [[Craig Federighi]] publicly declined, [[Eddy Cue]] and [[Greg Joswiak]] over 60.
 
@@ -103,7 +109,7 @@ See [[John Ternus]] for full succession analysis.
 - Plans to donate fortune to charity (announced 2015)
 - Net worth: ~$2.6B (Dec 2025, Forbes)
 
-**Board seats:**
+Board seats:
 - [[Nike]] (since 2005)
 - National Football Foundation
 - Duke University (trustee)

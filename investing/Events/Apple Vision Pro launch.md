@@ -1,6 +1,6 @@
 #event #apple #ar #vr #2024
 
-**Apple Vision Pro launch** — February 2024 US launch. $3,499 spatial computer. Mixed reception, slow sales.
+Apple Vision Pro launch — February 2024 US launch. $3,499 spatial computer. Mixed reception, slow sales (~500K units year one). Cited (FT, May 2026) alongside the abandoned Apple Car as a failed new-category bet under [[Tim Cook]] — context for the [[Apple#Innovation gap and the reinvestment question (FT, May 2026)|innovation gap]] [[John Ternus]] inherits.
 
 ---
 

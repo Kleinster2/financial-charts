@@ -5,7 +5,7 @@ aliases: [Ternus]
 
 # John Ternus
 
-Senior Vice President of Hardware Engineering at [[Apple]], overseeing the products that generate ~80% of Apple's revenue. At 50, he is 15 years younger than [[Tim Cook]] and at least a decade younger than every other member of Apple's executive team — making him the frontrunner to become Apple's next CEO.
+Senior Vice President of Hardware Engineering at [[Apple]], overseeing the products that generate ~80% of Apple's revenue. At 50, he is 15 years younger than [[Tim Cook]] and at least a decade younger than every other member of Apple's executive team. Apple confirmed the succession on April 20, 2026: Ternus becomes chief executive effective September 1, 2026, with Cook moving to the newly created role of executive chairman.
 
 ---
 
@@ -25,8 +25,9 @@ Ternus is known for political acumen, empowering leaders beneath him, and gettin
 
 | Metric | Value |
 |--------|-------|
-| Title | SVP Hardware Engineering, [[Apple]] |
-| Age | 50 (as of Mar 2026) |
+| Title | SVP Hardware Engineering → CEO, [[Apple]] (effective Sep 1, 2026) |
+| Age | 50–51 (born 1974/75) |
+| CEO transition | Announced Apr 20, 2026; effective Sep 1, 2026 (Cook → executive chairman) |
 | Tenure at Apple | 25 years |
 | SVP since | ~2021 |
 | Reports to | [[Tim Cook]] |
@@ -67,6 +68,8 @@ Gurman's defense: both were pushed by Apple's design team at the time — Ternus
 ---
 
 ## Succession timeline
+
+Settled (Apr 20, 2026): the handover date is now fixed — Ternus becomes CEO on September 1, 2026, with [[Tim Cook]]'s last day as CEO on August 31. The scenario table below is preserved as the pre-announcement reasoning; the "near-term 2027" path is effectively what occurred, roughly a year early.
 
 Cook departure timing directly determines Ternus's path:
 

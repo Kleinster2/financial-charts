@@ -356,7 +356,25 @@ The catch: 30x forward P/E — higher than every Mag 7 peer except [[Tesla]]. Re
 
 ---
 
+## Leadership
+
+| Role | Name | Since |
+|------|------|-------|
+| CEO (incoming) | [[John Ternus]] | Sep 1, 2026 |
+| Executive chairman | [[Tim Cook]] | Sep 1, 2026 (CEO 2011–2026) |
+| SVP Software Engineering | [[Craig Federighi]] | 2012 |
+| SVP Services | [[Eddy Cue]] | 2011 |
+| SVP Worldwide Marketing | [[Greg Joswiak]] | 2020 |
+| CFO | [[Kevan Parekh]] | Jan 2025 |
+| COO | Sabih Khan | 2025 |
+
+The September 1, 2026 handover ([[Tim Cook]] → executive chairman, [[John Ternus]] → CEO) sits atop a thinned senior bench: AI chief [[John Giannandrea]] and design lead [[Alan Dye]] both departed (2025–26), [[Jeff Williams]] (COO) retired end-2025, and long-tenured SVPs [[Eddy Cue]] and [[Greg Joswiak]] are over 60 — giving Ternus an early mandate to reshape the team. See [[#CEO succession (Bloomberg, Mar 23 2026)|CEO succession]] and [[John Ternus]].
+
+---
+
 ## CEO succession (Bloomberg, Mar 23 2026)
+
+Confirmed (Apple newsroom, Apr 20 2026): Apple announced that [[Tim Cook]] will become executive chairman and [[John Ternus]] will become chief executive effective September 1, 2026 — Cook's last day as CEO is August 31. The board approved the transition unanimously, and Ternus joins the board the same day; Cook, 65, stays on as executive chairman focused on policymaker engagement. This converts the frontrunner reporting below into Apple's official plan, roughly a year ahead of Gurman's "1–5 years" estimate. The strategic problem Ternus inherits is laid out in [[#Innovation gap and the reinvestment question (FT, May 2026)]] below.
 
 [[Mark Gurman]] reports [[John Ternus]], SVP Hardware Engineering, is the clear frontrunner to succeed [[Tim Cook]]. Ternus is 50 — 15 years younger than Cook, 10+ years younger than every other executive in contention. He has been at Apple for 25 years, SVP for ~5, and now oversees products generating ~80% of revenue plus both hardware and software design teams.
 
@@ -365,6 +383,56 @@ Every other internal candidate has been eliminated: [[Jeff Williams]] (COO) reti
 Gurman estimates Cook departure in 1-5 years. The longer Cook stays, the more certain Ternus becomes — everyone else ages out. Apple has been positioning Ternus publicly: keynote appearances, government regulator meetings, global press tours.
 
 See [[John Ternus]] for full profile.
+
+---
+
+## Innovation gap and the reinvestment question (FT, May 2026)
+
+A [[Financial Times]] feature ("Apple has an innovation gap. Will its new CEO fill it?", May 26 2026) frames the strategic problem [[John Ternus]] inherits: whether Apple — a ~$4.36T, 50-year-old company that derives roughly 80% of revenue from the iPhone and Services — can build the next platform in the AI era rather than keep harvesting the last one. Two FT charts quantify the gap; both are ingested here as extracted data (images not copied, per FT terms).
+
+### R&D as a share of revenue — the U-shape
+
+FT chart, source S&P CapitalIQ — R&D spend as a percentage of revenue, 2002–2026:
+
+| Period | R&D % of revenue | Context |
+|--------|------------------|---------|
+| 2001–2003 | ~8% | Pre-iPhone peak |
+| 2005–2006 | ~4% | Falling as revenue scaled |
+| 2008–2016 | ~3% (≈2% trough in 2012) | iPhone supercycle — revenue compounded faster than R&D |
+| 2017–2020 | ~5% rising to ~7% | Services build-out, Apple silicon transition |
+| 2022 | ~6% | — |
+| 2024–2025 | ~8% | AI catch-up begins |
+| 2026 | ~9% (series high) | Forced reinvestment |
+
+The trough is the tell. Apple drove R&D down to roughly 2% of revenue precisely as the iPhone became a cash machine — not neglect but the arithmetic of harvesting a platform: when revenue compounds off a single product, R&D/revenue falls even as the dollars rise, and Apple chose not to fund the next platform at proportional scale. A decade of that under-investment helped finance the ~$1tn returned to shareholders under [[Tim Cook]]. The reversal to a series-high ~9% is the bill arriving, and it is largely involuntary: R&D for the year to March 2026 reached about $40bn (+23% year over year, per FT), up from $34.55B in FY2025, and Apple dropped its longstanding cash/debt-neutral commitment to fund the spend. The market is being asked to re-rate Apple from a capital-return story into a reinvestment one.
+
+### Revenue concentration — iPhone + Services ≈ 80%
+
+FT chart, source FT analysis of Apple SEC filings — fiscal-year net revenues by product category, 2000–2025. FY2025 endpoints:
+
+| Category | FY2025 revenue | Note |
+|----------|----------------|------|
+| iPhone | ~$210bn | About half of ~$416bn total; >200M units shipped in 2025 |
+| Services | ~$109bn | All-time high; ~75% gross margin; larger than [[Netflix]] + [[Spotify]] + [[Adobe]] combined |
+| Mac / iPad / Wearables / Other | ~$97bn | Remainder |
+
+The streamgraph makes the structural risk visible: ~80% of revenue rides on two legs now challenged at the same time. iPhone faces a saturating 2.5B-device installed base, lengthening upgrade cycles ([[Counterpoint Research]] attributes the record iPhone 17 year largely to Covid-era buyers replacing devices, not new demand), and share erosion in [[China]] from local rivals using the same contractors Apple built up. Services carries the App Store tax into a wall of litigation.
+
+### The App Store erosion risk
+
+The Services margin engine faces a simultaneous legal assault: the [[Epic Games]] injunction over App Store fees (the US Supreme Court declined to pause it) and the US Department of Justice smartphone-monopoly suit. [[CFRA]]'s [[Nicholas Rodelli]] calls the model "over-reliant on the tax-taking model" and "unsustainable," and estimates an 8–9% reduction in Apple's earnings power if the up-to-30% tolling is unwound by legal challenges.
+
+The deeper bind is that the AI feature meant to re-ignite the iPhone is the same one that erodes Services. A capable [[Siri]] agent that completes tasks for the user reduces the need for on-screen icons, manual app downloads, and individual in-app purchases — the mechanics the App Store taxes. Apple disclosed the tension itself in a late-2024 filing, warning that new products and technologies "may produce lower revenues and lower profit margins." That is why the Ternus bet is hardware-led: the AI has to drive device margin, not just software ARPU.
+
+### "Endgame" — the Siri miss that set this up
+
+The catch-up posture traces to the failed in-house Siri overhaul. Apple demonstrated a personalized, agentic Siri at WWDC in June 2024 that did not yet exist; the team was given about nine months and missed the spring 2025 deadline (the project was internally called "Endgame"). The fallout: a $250mn class-action settlement over false advertising ([[Apple Intelligence]]/Siri features advertised June 2024 to March 2025; $25–95 per eligible device, no admission of wrongdoing), the departure of AI chief [[John Giannandrea]], and the exit of top software-interface designer [[Alan Dye]] in December 2025. Apple's resolution was to license [[Google]]'s [[Gemini]] as Siri's backbone (see [[Apple-Google AI deal]]) — an admission, in Morgan Stanley analyst [[Erik Woodring]]'s framing, that "the debate is no longer" whether Apple has competitive models. The structural reason Apple lost the model race: its privacy posture starves it of the user data needed to train frontier models in-house.
+
+### Read-through
+
+Apple is moving from a capital-return story (harvest the iPhone, buy back stock, R&D at 2–5% of revenue) to a forced-reinvestment story (R&D near 9% and rising, both cash cows under structural pressure, frontier AI rented from [[Google]]) — while the equity still carries a premium built on the old story (forward P/E ~32.6 at the Jun 22 2026 close of $297.01; see [[#Quick stats]]). The question the charts pose is not whether [[John Ternus]] can innovate, but whether the market keeps paying a harvest-era multiple as Apple enters a heavier-reinvestment, lower-visibility phase. It extends the [[Apple#Nasdaq decoupling — the "anti-AI" trade (Feb 2026)|"anti-AI" trade]]: the same hardware-not-software insulation that made AAPL a 2026 safe haven also describes a company that has not yet shown it can build the AI platform layer itself.
+
+*Sources: [Financial Times — "Apple has an innovation gap. Will its new CEO fill it?" (May 26 2026)](https://www.ft.com/content/d16f3ae6-8e27-4293-8bef-6bda7a9706d2); [Apple newsroom — Cook/Ternus transition (Apr 20 2026)](https://www.apple.com/newsroom/2026/04/tim-cook-to-become-apple-executive-chairman-john-ternus-to-become-apple-ceo/); [TechCrunch — $250M Siri settlement (May 6 2026)](https://techcrunch.com/2026/05/06/apple-to-pay-250m-to-settle-lawsuit-over-siris-delayed-ai-features/). FT charts ingested as extracted data (S&P CapitalIQ; FT analysis of Apple SEC filings); images not copied per FT terms.*
 
 ---
 
@@ -556,20 +624,53 @@ Strategic tension: Apple either renegotiates terms with a new Amazon-owned Globa
 
 ---
 
+## Evolution
+
+- 1976: [[Apple]] founded by Steve Jobs, Steve Wozniak, and Ronald Wayne; the Apple II (1977) is among the first mass-market personal computers.
+- 1984: Macintosh launches the GUI to the mass market; Jobs is forced out in 1985. A wilderness decade follows — by 1997 Apple is near bankruptcy.
+- 1997–2001: Jobs returns via the NeXT acquisition; the iMac (1998, the first Jobs–[[Jony Ive]] collaboration) stabilizes the company.
+- 2001: iPod launches; the iTunes Store (2003) reinvents music distribution and proves the hardware-plus-services model.
+- 2007: iPhone launches — the defining modern product; multitouch replaces the keyboard. R&D as a share of revenue begins its decade-long decline as iPhone revenue compounds (see [[#Innovation gap and the reinvestment question (FT, May 2026)]]).
+- 2010–2011: iPad launches (2010); Jobs dies October 2011 and [[Tim Cook]] becomes CEO. The shift from design-led to operations-led begins.
+- 2011–2019: Cook scales the iPhone via an Asia-based supply chain ([[Foxconn]]), builds Services (App Store, [[Apple Pay]], [[Apple Music]]) and wearables ([[Apple Watch]], AirPods); [[Jony Ive]] leaves in 2019. Buybacks become the dominant capital story.
+- 2018–2023: Milestone caps — $1T (2018), $2T (2020), $3T (2023). The [[Apple Silicon]] transition (M-series, 2020–2023) brings Mac chips in-house.
+- 2024: [[Apple Intelligence]] announced at WWDC; the personalized [[Siri]] is demoed but not shipped. The [[Apple Vision Pro launch|Vision Pro]] (Feb) flops; the Apple Car is abandoned.
+- 2025: The in-house "Endgame" Siri effort misses its spring deadline; AI chief [[John Giannandrea]] departs. Apple briefly tops $4T; R&D inflects upward.
+- 2026: Apple licenses [[Google]]'s [[Gemini]] for Siri (Jan; see [[Apple-Google AI deal]]); confirms the [[John Ternus]] succession (Apr 20, effective Sep 1); R&D reaches a series-high ~9% of revenue. The forced-reinvestment chapter begins.
+
+---
+
+## Analyst timeline
+
+| Date | Firm | Analyst | View | Context |
+|------|------|---------|------|---------|
+| Feb 2026 | B. Riley Wealth | Art Hogan | Constructive (hardware safe-haven) | "AI whack-a-mole" — AAPL insulated from AI disruption |
+| Feb 2026 | Bloomberg Intelligence | — | Cautious on valuation | ~30x forward P/E, above every Mag 7 peer except Tesla; growth decelerating 11%→6.7% (FY26→FY27) |
+| Apr 2026 | [[Evercore ISI]] | — | Flagged risk | App Store growth slowdown in March, gaming category |
+| May 2026 | [[Morgan Stanley]] | [[Erik Woodring]] | Constructive, conditional | Ternus a "product guy"; needs "one to three clear uses" for AI Siri; ceiling now set by [[Gemini]] |
+| May 2026 | [[CFRA]] | [[Nicholas Rodelli]] | Bearish on App Store model | Model "unsustainable"; 8–9% earnings-power risk if the tolling unwinds |
+| May 2026 | [[Counterpoint Research]] | — | Demand caution | Record iPhone 17 year attributed to Covid-era replacers, not new demand |
+
+Consensus read mid-2026: hardware resilience (the "anti-AI" safe haven) priced against two debates — whether AI Siri drives an upgrade supercycle, and whether App Store litigation erodes the Services margin. The forward multiple (~32.6x at the Jun 22 close) prices the resilience, not the resolution.
+
+---
+
 ## Quick stats
 
 | Metric | Value |
 |--------|-------|
 | Ticker | AAPL (NASDAQ) |
-| Market cap | ~$3.8T |
-| Revenue (TTM) | ~$390B |
-| Services revenue | ~$100B/year |
-| Gross margin | ~46% |
-| P/E | ~32x |
+| Price (Jun 22 2026 close) | $297.01 (canonical `prices_long`) |
+| Market cap | ~$4.36T |
+| Revenue (FY2025) | $416.2B |
+| Services revenue | ~$109B/year (FY2025) |
+| Gross margin | ~47% |
+| Trailing P/E | ~36x |
+| Forward P/E | ~32.6x |
 | Cash position | ~$160B |
 | Long-term debt | $91.3B face (Sep 2025). See [[Apple bonds]] |
 | Short interest | 0.78% (Jan 2026) |
-*Updated 2026-03-02*
+*Updated 2026-06-22 — price/valuation refreshed from canonical close ($297.01); FT innovation-gap feature ingested.*
 
 ![[aapl-price-chart.png]]
 
