@@ -1,0 +1,28 @@
+# Factory / industrial automation — a distinct automation factor, or = broad industrials
+# (XLI) / fragmented across geography? Candidate: the automation-focused majors — ROK
+# (Rockwell, pure US control systems), EMR (Emerson, process automation), FANUY (Fanuc,
+# robotics/CNC, Japan ADR), SIEGY (Siemens Digital Industries, Germany ADR). HON
+# (Honeywell, aerospace-heavy conglomerate) as a diversified-industrial control. BOTZ
+# (robotics/AI ETF — the sector ETF, gappy 189 obs, cross-checked clean) and XLI (broad
+# industrials — the key distinctness benchmark; aerospace/rail-dominated, so automation
+# may escape it index-rule-style). FANUY/SIEGY are US-listed ADRs (synchronous-ish; the
+# weekly cross-check covers residual async). ABB not in DB.
+name: Factory automation
+primary: ROK
+prefix: automation-cluster
+threshold: 0.5
+window_end: 2026-06-22
+definition_date: 2026-06-23
+history_start: 2019-01-01
+
+groups:
+  cluster:
+    tickers: [ROK, EMR, FANUY, SIEGY]
+  diversified:
+    tickers: [HON]
+  robotics_etf:
+    tickers: [BOTZ]
+  industrials:
+    tickers: [XLI]
+  market:
+    tickers: [SPY]

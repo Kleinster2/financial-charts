@@ -1,5 +1,10 @@
 ---
 charts:
+  automation-performance.png:
+    tickers: ROK,EMR,FANUY,SIEGY,XLI
+    normalize: true
+    start: 2019-01-01
+    primary: ROK
   cable-performance.png:
     tickers: CHTR,CMCSA,TMUS,XLC
     normalize: true

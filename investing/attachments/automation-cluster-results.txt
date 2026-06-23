@@ -1,0 +1,79 @@
+Factory automation CLUSTER ANALYSIS
+Window 1y: 2025-07-08 -> 2026-06-22 (199 obs)
+Window 2y: 2024-07-15 -> 2026-06-22 (258 obs)
+Universe: 8 tickers across 5 groups
+Dendrogram cut threshold: 0.5
+
+--- 1Y INTRA-CLUSTER PAIRWISE CORRELATIONS ---
+Ticker   ROK   EMR  FANUY  SIEGY
+Ticker                          
+ROK     1.00  0.76   0.41   0.52
+EMR     0.76  1.00   0.44   0.47
+FANUY   0.41  0.44   1.00   0.44
+SIEGY   0.52  0.47   0.44   1.00
+Average intra-cluster correlation: 0.506
+Range: [0.408, 0.758]
+
+--- AVG GROUP-PAIR CORRELATIONS (1Y) ---
+             cluster  diversi  robotic  industr   market
+    cluster    0.506    0.405    0.663    0.625    0.613
+diversified    0.405      nan    0.455    0.621    0.438
+robotics_et    0.663    0.455      nan    0.639    0.817
+industrials    0.625    0.621    0.639      nan    0.734
+     market    0.613    0.438    0.817    0.734      nan
+
+Cluster vs others:
+  cluster vs diversified: 0.405  (intra advantage: +0.100)
+  cluster vs robotics_etf: 0.663  (intra advantage: +-0.157)
+  cluster vs industrials: 0.625  (intra advantage: +-0.120)
+  cluster vs market    : 0.613  (intra advantage: +-0.107)
+
+--- HIERARCHICAL CLUSTERS (1Y, distance threshold 0.5) ---
+  Cluster 1: ROK, EMR, SIEGY, BOTZ, XLI, SPY
+  Cluster 2: FANUY
+  Cluster 3: HON
+
+--- CANDIDATE JOIN DISTANCES (1Y, average linkage, distance = 1-|corr|) ---
+ Step  Left         Right Distance             Members
+    1   ROK           EMR    0.242             ROK+EMR
+    2 SIEGY       ROK+EMR    0.508       SIEGY+ROK+EMR
+    3 FANUY SIEGY+ROK+EMR    0.569 FANUY+SIEGY+ROK+EMR
+
+--- PCA ON CANDIDATE COHORT (1Y) ---
+Explained variance ratio:
+  PC1: 63.29%
+  PC2: 17.17%
+  PC3: 13.62%
+  PC4: 5.92%
+
+PC1 loadings:
+ROK      0.543
+EMR      0.538
+FANUY    0.437
+SIEGY    0.474
+
+--- PC1 INDEX WEIGHTS (1Y) ---
+PCA is run on standardized daily log returns. Raw PC1-mimic weights scale PC1 loading by inverse realized volatility.
+      PC1 loading Loading weight Ann vol Raw PC1-mimic weight
+ROK         0.543         27.25%  30.76%               30.92%
+EMR         0.538         27.02%  32.13%               29.34%
+FANUY       0.437         21.93%  48.76%               15.70%
+SIEGY       0.474         23.80%  34.57%               24.03%
+
+--- WEEKLY-RETURN CROSS-CHECK (1Y, async-close robustness) ---
+Weeks: 40   Weekly intra-corr: 0.634 (daily 0.506)   Weekly PC1: 72.7% (daily 63.3%)
+NOTE: weekly intra-corr exceeds daily by >0.10 — asynchronous closes are depressing the daily numbers (cross-region cohort); the weekly reading is the better estimate of economic co-movement.
+
+--- HISTORICAL TIGHTNESS EVOLUTION (90D ROLLING) ---
+     Avg corr    PC1 Core corr Satellite corr Final join distance
+Date                                                             
+2019    0.584  69.0%     0.569          0.611               0.471
+2020    0.788  84.1%     0.770          0.800               0.256
+2021    0.326  51.3%     0.322          0.331               0.804
+2022    0.480  61.1%     0.533          0.430               0.571
+2023    0.502  62.8%     0.438          0.552               0.551
+2024    0.372  53.7%     0.318          0.428               0.723
+2025    0.635  72.6%     0.642          0.627               0.441
+2026    0.446  59.3%     0.397          0.517               0.674
+
+Latest 90D: avg corr 0.557, PC1 67.0%, core corr 0.508, satellite corr 0.606, final join distance 0.510

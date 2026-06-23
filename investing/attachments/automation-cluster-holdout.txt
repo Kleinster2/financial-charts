@@ -1,0 +1,22 @@
+Factory automation HOLDOUT TEST
+Cohort: ROK, EMR, FANUY, SIEGY (N=4)
+Window: 2y, split temporally at midpoint
+Train: 2024-06-22 -> 2025-06-22 (100 obs)
+Test:  2025-06-22 -> 2026-06-22 (199 obs)
+
+--- TRAIN HALF (older) ---
+Intra-correlation:    0.6531
+PC1 explained var:    74.00%
+Pairwise range:       [0.556, 0.725]
+
+--- TEST HALF (newer) ---
+Intra-correlation:    0.5056
+PC1 explained var:    63.29%
+Pairwise range:       [0.408, 0.758]
+
+--- STABILITY DIAGNOSTICS ---
+Intra-corr delta:     -0.1475   (test - train)
+PC1 variance delta:   -10.71pp
+PC1 loadings corr:    0.4774    (1.0 = identical factor structure)
+
+VERDICT: WEAKENED — test/train ratio 0.77 (factor present but eroding)
