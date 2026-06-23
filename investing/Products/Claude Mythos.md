@@ -40,7 +40,7 @@ An [[Anthropic]] spokesperson confirmed they are "developing a general purpose m
 
 ## Cybersecurity implications
 
-Leaked internal safety documents flagged that Mythos could significantly heighten cybersecurity risks by rapidly identifying and exploiting software vulnerabilities. The concern is acceleration of a cyber arms race — a model that finds vulnerabilities faster than defenders can patch them shifts the offense-defense balance. This extends the pattern established by [[Claude Code Security]] (Feb 2026), which found 500+ bugs undetected for decades.
+Leaked internal safety documents flagged that Mythos could significantly heighten cybersecurity risks by rapidly identifying and exploiting software vulnerabilities. The concern is acceleration of a cyber arms race — a model that finds vulnerabilities faster than defenders can patch them shifts the offense-defense balance. This extends the pattern established by [[Claude Code Security]] (Feb 2026), which found 500+ bugs undetected for decades. The Jun 22 2026 Five Eyes joint advisory — warning that frontier AI will reshape offensive cyber capability "in months, not years" — is the official-world validation of exactly the Mythos-demonstrated capability timeline; see [[Cybersecurity]].
 
 ## Controlled rollout and regulatory response (Apr 2026)
 

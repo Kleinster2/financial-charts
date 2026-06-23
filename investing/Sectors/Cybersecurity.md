@@ -130,6 +130,18 @@ The sensitive-data detail is the market signal. Among employees using unapproved
 
 *Sources: Okta, "AI Agents at Work 2026: Securing the agentic enterprise" (May 27 2026); The Register, "Bosses blinded by confidence about shadow AI use by workers" (May 27 2026).*
 
+### Jun 22 2026 — Five Eyes "months, not years" joint warning
+
+The Five Eyes cyber agencies — US [[CISA]] and NSA, the UK's [[UK National Cyber Security Centre|NCSC]], Australia's ACSC, Canada's Cyber Centre, and New Zealand's NCSC — issued a rare joint advisory warning that frontier AI models will transform offensive cyber capability "in months, not years," exceeding current industry expectations. It is the most authoritative confirmation yet of the threat-amplifier thesis above — the policy world catching up to what [[Claude Mythos]] demonstrated in lab conditions.
+
+- Agentic AI can run rapid automated attacks — chaining exploits, adapting to defenses in real time, scaling beyond any human team.
+- Defensive guidance: limit unnecessary system access, accelerate patching, strengthen identity controls. Critically, the agencies state "breaches will occur," reframing the core problem as resilience, not prevention.
+- Builds on May 2026 Five Eyes guidance cataloguing 23+ risk categories for autonomous AI systems, and on the Apr 2026 [[GPT]]-5.4-Cyber government briefings (above).
+
+Investment read: unambiguously bullish for the structural-spend thesis (a five-government endorsement that the attack surface is about to step-change), and it sharpens the mix shift the note already tracks — "breaches will occur" pushes budget toward resilience/recovery and identity control-points ([[Rubrik]], [[CrowdStrike]], [[Okta]]/[[CyberArk]], the [[Security control points]] cluster) over pure prevention. It does not resolve the vendor-disruption risk: the same agentic capability that drives spend can be packaged by AI labs (the [[Claude Mythos]] / [[Aardvark]] commoditization vector).
+
+*Sources: Five Eyes joint advisory (CISA / NSA / NCSC-UK / ACSC / Canadian Cyber Centre / NCSC-NZ), Jun 22 2026; [[Financial Times]], "AI-powered threats may succeed 'within months', Five Eyes warn" (Jun 22 2026); CyberScoop, Computer Weekly (Jun 22-23 2026).*
+
 ## Security control-point cluster
 
 A separate cross-sectional read emerged on Apr 13, 2026. `scripts/cluster_movers.py` flagged a strong up-cluster in [[Fortinet]], [[Zscaler]], [[Palo Alto Networks]], [[CrowdStrike]], [[Cloudflare]], and [[Rubrik]], with [[Akamai]] screening as a looser adjacent member. Persistence checks across 60-day, 90-day, and 120-day windows suggested the durable core was not broad cybersecurity but a narrower set of names that still own traffic policy, telemetry, secure access, or recovery bottlenecks.
