@@ -1,0 +1,23 @@
+Chinese ed-tech (double-reduction cohort) PERMUTATION TESTS
+Window: 2025-06-24 -> 2026-06-22 (250 obs)
+Candidate cohort: EDU, TAL, GOTU (N=3)
+Observed intra-corr: 0.4192    Observed PC1: 61.42%
+
+--- VOL-MATCHED NULL ---
+Permutations: 10000
+Universe source: DB prices_long (1124 tickers with >=200 obs in window)
+Pool size: 419
+Matching: realized-vol rank band +/-5% per member, without replacement
+Intra-cluster correlation:
+  Null mean:        0.1590
+  Null 95th pct:    0.3362
+  Null 99th pct:    0.4222
+  p-value (right):  0.010999    -> REJECTS vol-matched null at p < 0.05
+PC1 explained variance:
+  Null mean:        45.44%
+  Null 95th pct:    56.84%
+  Null 99th pct:    62.93%
+  p-value (right):  0.015998    -> REJECTS vol-matched null at p < 0.05
+
+--- INTERPRETATION ---
+Vol-matched null rejected: cohesion exceeds random baskets with the SAME volatility profile — the cluster factor is not just shared beta/vol.
