@@ -100,6 +100,7 @@ Full numerics: `investing/attachments/ai-power-ipp-cluster-results.txt`, `-holdo
 - Regulatory friction — [[Constellation Energy]]'s March 2026 friction on new DC deals; FERC/state treatment of behind-the-meter co-location (the Talen-Amazon precedent) and the PJM BYOG proposals flagged in all four member notes decide how much fleet monetizes at AI prices.
 - Gas-turbine delivery slots — NRG's 2029-2032 CCGT schedule depends on [[GE Vernova]] 7HA availability; slot slippage converts growth stories back into merchant-power stories.
 - Cohort membership drift — candidates knocking on the boundary (restart/SMR names, [[Calpine]]-adjacent assets inside CEG); re-test before adding any name to the basket.
+- Oil-major behind-the-meter entrants — [[Chevron]] (Project Kilby, 2.7 GW Permian, 20-year [[Microsoft]] PPA, with [[Engine No. 1]]) and [[ExxonMobil]] ([[NextEra Energy]] partnership) are building captive gas generation on cheap stranded Permian gas. Not cohort members, but a new competing AI-power supply class with a fuel-cost edge the merchant IPPs lack — watch whether it caps merchant PPA pricing power. See [[Power constraints#Oil majors into behind-the-meter gas (Jun 2026)|oil-major BYOG]].
 
 ## Related
 

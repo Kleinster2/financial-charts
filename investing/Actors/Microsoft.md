@@ -336,6 +336,8 @@ Wisconsin (Mount Pleasant, the ex-Foxconn site): the first $3.3B AI campus phase
 
 Power procurement: the 20-year, 835 MW PPA with [[Constellation Energy]] (Sept 2024) restarts Three Mile Island Unit 1 as the Crane Clean Energy Center — restart since pulled forward from 2028 toward 2027, backed by a $1B DOE loan to Constellation. The deal is the template case in [[Nuclear power for AI]] and [[Firm power]].
 
+Gas-fired offtake (Jun 22 2026): a 20-year agreement to buy electricity from [[Chevron]] for a West Texas data centre — power from Project Kilby, a 2.7 GW gas-fired development in the [[Permian Basin]] (Chevron + [[Engine No. 1]]), with a final investment decision due later in 2026. It pairs Microsoft's nuclear template (TMI) with a behind-the-meter gas source and makes Microsoft the anchor offtaker for an oil major's first move into [[Power constraints#Oil majors into behind-the-meter gas (Jun 2026)|merchant power production]].
+
 ---
 
 ## Azure model-agnostic strategy

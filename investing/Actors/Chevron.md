@@ -27,7 +27,30 @@ CVX trades as a core Energy name (XLE r = 0.92).
 | [[Natural gas]]/[[LNG]] | Fuel for power generation |
 | Hydrogen | Blue/green hydrogen investments |
 | Carbon capture | Offset data center emissions |
+| Power production | 20-year [[Microsoft]] electricity PPA — Chevron now generates power, not just supplies gas (see below) |
 | Geothermal | Invested in geothermal startups |
+
+---
+
+## Power production — the AI-electricity pivot (Jun 2026)
+
+Chevron is moving from selling gas to generating power. On Jun 22, 2026 it signed a 20-year agreement to sell electricity to [[Microsoft]] for a West Texas data centre — its first major power-offtake deal and the clearest sign the oil major is becoming a merchant power producer for the AI build-out.
+
+| Element | Detail |
+|---------|--------|
+| Project | Project Kilby — ranks among the largest US data centres |
+| Capacity | 2.7 GW, [[Permian Basin]] |
+| Offtaker | [[Microsoft]] — 20-year electricity sale agreement |
+| Developer | [[Engine No. 1]] (US investment firm) |
+| Fuel | Gas-fired plant; final investment decision expected later in 2026 |
+| Renewables | Not initially; Chevron may add solar later |
+| Cost | Undisclosed |
+
+The logic is to monetize the [[Permian Basin]]'s stranded associated gas on-site. Permian oil drilling produces so much byproduct gas that pipeline takeaway cannot keep up — Waha Hub prices have run negative for stretches (producers paying to offload; flaring at 5-year highs). Building generation at the wellhead converts a disposal cost into a 20-year contracted revenue stream and "[brings] demand to the basin to avoid that scenario," per Chevron new-energies president Jeff Gustavson. He called it "a competitive differentiator" — of all announced US data-centre projects, "almost none have reached the milestone we reached today... within our peer set" — and signalled more: "I can see this leading to other power developments over time."
+
+It is a race with [[ExxonMobil]], which is pursuing off-grid Permian gas power through a partnership with [[NextEra Energy]] (serving customers including [[Google]]). Both majors are turning cheap, stranded molecules into firm behind-the-meter electricity for hyperscalers — the oil-major entry into the [[AI-power IPPs|merchant AI-power]] arena. See [[Power constraints]] (the scarcity) and [[Permian Basin]] (the stranded-gas release valve).
+
+*Source: [[Financial Times]], "Chevron moves into power production with Microsoft AI deal" (Stephanie Findlay, Houston), Jun 22 2026.*
 
 ---
 

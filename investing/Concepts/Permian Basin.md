@@ -60,6 +60,14 @@ Pipeline operators perform seasonal maintenance in spring/summer, tightening cap
 
 *Source: Bloomberg (Mar 21, 2026), Fortune (Mar 22, 2026)*
 
+### The release valve — burning stranded gas for AI power (Jun 2026)
+
+The "self-reinforcing loop with no release valve" is starting to get one: on-site power generation that consumes the stranded gas locally instead of trying to pipe it out. On Jun 22, 2026 [[Chevron]] signed a 20-year deal to sell electricity to [[Microsoft]] from Project Kilby, a 2.7 GW gas-fired power and data-centre development in the Permian (with [[Engine No. 1]]). New-energies president Jeff Gustavson framed it explicitly: the project "[brings] demand to the basin to avoid that scenario [negative Waha pricing] from occurring." [[ExxonMobil]] is pursuing the same model via a [[NextEra Energy]] partnership.
+
+This is the demand-side answer to the takeaway-capacity problem: rather than waiting for new gas pipelines (or flaring), build the load — an AI data centre — next to the molecules. It converts a disposal cost into a 20-year contracted revenue stream and wires Permian associated gas directly into the AI build-out. Caveat: a single 2.7 GW project consumes only a fraction of basin associated-gas volumes, so it dents the surplus at the margin rather than clearing it — but it establishes the template, and Chevron expects "other power developments over time." See [[Chevron#Power production — the AI-electricity pivot (Jun 2026)|Chevron's power pivot]], [[Power constraints]], and [[AI-power IPPs]].
+
+*Source: [[Financial Times]], "Chevron moves into power production with Microsoft AI deal" (Stephanie Findlay), Jun 22 2026.*
+
 *Created 2026-02-12*
 
 ---

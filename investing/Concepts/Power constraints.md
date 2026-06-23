@@ -645,7 +645,22 @@ SoftBank's 5 GW French data-center plan is the nuclear-grid version of BYOP. Ins
 
 ---
 
-*Updated 2026-05-31*
+## Oil majors into behind-the-meter gas (Jun 2026)
+
+BYOP's supply side now includes the oil majors themselves. Rather than only hyperscalers contracting merchant IPPs or restarting nuclear, [[Chevron]] and [[ExxonMobil]] are building dedicated gas-fired generation at the wellhead and selling the power to data centres under long-term PPAs — using stranded, sometimes negatively-priced associated gas as near-free fuel.
+
+| Major | Vehicle | Deal |
+|-------|---------|------|
+| [[Chevron]] | Project Kilby (2.7 GW, [[Permian Basin]]), with [[Engine No. 1]] | 20-year electricity PPA to [[Microsoft]] (Jun 22 2026); gas-plant FID later in 2026 |
+| [[ExxonMobil]] | Off-grid Permian gas power, with [[NextEra Energy]] | Gas-fired plants serving hyperscalers including [[Google]] |
+
+Why it works: co-locating load with generation sidesteps the 7-12 year interconnection queues documented above, and it monetizes Permian gas that otherwise clears at negative [[Permian Basin|Waha Hub]] prices. The structural significance is that the AI-power supply curve now has a new, deep-pocketed entrant class with a natural fuel-cost advantage — distinct from the merchant [[AI-power IPPs]] (VST/CEG/NRG/TLN), which build or buy generation at market gas prices. The binding constraints are the same as everyone else's: gas-turbine delivery slots (4+ year backlogs at [[GE Vernova]]/[[Siemens Energy]]/[[Mitsubishi]]) and the gas-LCOE inflation documented above. Renewables are deferred — Project Kilby starts gas-only, with solar "maybe later."
+
+*Source: [[Financial Times]], "Chevron moves into power production with Microsoft AI deal" (Stephanie Findlay), Jun 22 2026.*
+
+---
+
+*Updated 2026-06-23*
 
 ---
 

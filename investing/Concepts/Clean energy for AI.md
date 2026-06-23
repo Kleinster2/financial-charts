@@ -102,6 +102,12 @@ Clean energy ≠ perfect location.
 
 ---
 
+## Counterpoint: the US gas-first reality (Jun 2026)
+
+The clean-grid pitch competes against a louder US signal: in the [[Permian Basin]], the cheapest AI power is gas. On Jun 22 2026 [[Chevron]] signed a 20-year deal to sell [[Microsoft]] electricity from Project Kilby, a 2.7 GW gas-fired data-centre development burning stranded Permian associated gas; [[ExxonMobil]] is pursuing the same with [[NextEra Energy]]. Renewables are deferred — Chevron said solar might be added "later." For US hyperscalers, speed-to-power and fuel cost are currently outrunning the net-zero commitments below; the clean-energy magnet ([[Brazil]]/[[Chile]]/Nordics) wins on optics and carbon math, but the marginal 2026 US megawatt is gas. See [[Power constraints]] and [[AI-power IPPs]].
+
+---
+
 ## Hyperscaler commitments
 
 | Company | [[Target]] |
