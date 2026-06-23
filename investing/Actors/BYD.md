@@ -355,6 +355,14 @@ Bear case:
 
 ---
 
+## US security designation (Jun 2026)
+
+In early June 2026 the Pentagon reinstated BYD — with [[Alibaba]] and [[Baidu]] — to its Section 1260H "Chinese Military Companies" list over alleged PLA ties, which BYD denies. For BYD the designation mostly hardens the already-closed US market (Bear case above) and the EV/battery-tech-transfer scrutiny; it was also the trigger for China's Jun 22 2026 rare-earth/defence entities-list retaliation (see [[China retaliatory toolkit]]).
+
+*Source: [[Financial Times]] (Jun 22 2026).*
+
+---
+
 ## Sector correlation
 
 Local 1211.HK price data unavailable in the vault database as of Apr 24, 2026, so a computed sector-correlation table is deferred until [[BYD securities note]] is added to the local market-data pipeline.

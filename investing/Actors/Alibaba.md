@@ -267,6 +267,12 @@ The allegations reflect broader US concerns about [[China|Chinese]] cloud servic
 | Zero-day transfer | Employees shared exploit knowledge with PLA |
 | AI services | Various AI services provided to PLA |
 
+### Jun 2026 — reinstated to the Pentagon CMC list
+
+In early June 2026 the Pentagon reinstated Alibaba — with [[Baidu]] and [[BYD]] — to its Section 1260H "Chinese Military Companies" (CMC) list over the alleged PLA ties above, which Alibaba denies. The CMC listing is a contracting/reputational designation (it bars DoD business and signals investment-restriction risk) rather than a direct ban on US investors holding the stock, but it deepens the delisting / Entity-List overhang. It was also the trigger for China's Jun 22 2026 rare-earth and defence entities-list retaliation against US firms — see [[China retaliatory toolkit]].
+
+*Source: [[Financial Times]], "China restricts trading with some US rare earth companies" (Jun 22 2026).*
+
 Potential investment implications: increased sanctions/delisting risk for BABA/9988, possible restrictions on [[Alibaba Cloud]] serving US-adjacent customers, and further acceleration of the US push to restrict Chinese cloud services globally.
 
 *Source: FT (Demetri Sevastopulo, Nov 20, 2025)*

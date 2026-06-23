@@ -154,8 +154,10 @@ The three-supplier structure (Rheinmetall + [[Helsing]] + [[Stark]]) is explicit
 | [[BAE Systems]] | [[UK]] | Full spectrum |
 | [[Thales]] | [[France]] | Electronics |
 | [[Leonardo]] | Italy | [[Aerospace]], naval |
-| KNDS | [[France]]/Germany | Tanks (JV) |
+| [[KNDS]] | [[France]]/Germany | Tanks (Leopard/Leclerc); Germany taking 40% + golden share, dual Frankfurt/Paris IPO Jul 2026 |
 | [[Saab]] | Sweden | Jets, subs |
+
+The [[KNDS]] part-nationalization and listing (Jun 2026) adds a new public land-systems peer: Rheinmetall co-produces Leopard 2 components and competes with KNDS's Leopard 2A8 via its own Panther KF51. See [[European rearmament]] and [[2026 IPO pipeline]].
 
 ---
 

@@ -124,6 +124,14 @@ See [[Kunlunxin]] for full details.
 
 ---
 
+## US security designation (Jun 2026)
+
+In early June 2026 the Pentagon reinstated Baidu — alongside [[Alibaba]] and [[BYD]] — to its Section 1260H "Chinese Military Companies" list over alleged PLA ties, which Baidu denies. It is a contracting/reputational designation, not a direct US-investor ban, but it adds to the sanctions/delisting overhang on Chinese ADRs and was the trigger for China's Jun 22 2026 rare-earth/defence entities-list retaliation (see [[China retaliatory toolkit]]).
+
+*Source: [[Financial Times]] (Jun 22 2026).*
+
+---
+
 ## Investment case
 
 **Bull:**
