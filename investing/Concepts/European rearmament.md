@@ -100,5 +100,6 @@ Method and terminology: `docs/cluster-validation.md`, [[Cohort, cluster, basket]
 - [[European Defense Industry]] — broader sector context
 - [[Rheinmetall]], [[BAE Systems]], [[Leonardo]], [[Saab]], [[Thales]], [[Hensoldt]], [[Kongsberg]] — cohort members
 - [[Vault cluster taxonomy]] — cross-cohort comparison and verdict thresholds
+- [[KNDS]] — Europe's largest tank maker (Leopard/Leclerc); private, dual Frankfurt/Paris IPO July 2026 (German state taking 40%, golden share) — a future pure-play candidate for this cohort once listed
 
 *Created 2026-06-13.*

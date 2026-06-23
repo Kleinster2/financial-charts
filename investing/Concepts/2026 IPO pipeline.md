@@ -247,6 +247,7 @@ The [[Starlink]] market is much colder. KXIPOSTARLINK priced a Starlink IPO befo
 | [[SpaceX]] | Launch/[[Starlink]]/AI infrastructure | Reported roughly $1.77T at Jun. 3-4 roadshow terms | 555.6M primary Class A shares at expected $135; final pricing expected Jun. 11; largest-ever IPO candidate |
 | [[Anduril]] | [[Defense]] tech | $14B | [[Palmer Luckey]] |
 | [[Axiom Space]] | [[Space]] station | $3B+ | Commercial space |
+| [[KNDS]] | [[Defense]] — Leopard/Leclerc tanks | €15–18B | Germany taking 40% (golden share) alongside France (50%); dual Frankfurt + Paris IPO July 2026 |
 
 ---
 
