@@ -12,6 +12,13 @@ In the vault's cluster-validation work FXI is the factor anchor for two Chinese-
 
 ---
 
+## Performance vs SPY
+
+![[fxi-vs-spy-price-chart.png]]
+*Normalized total return since 2019 vs [[SPY]]. China large-cap's lost half-decade — FXI peaked ~+45% in early 2021, fell about −58% peak-to-trough into late 2022, and has round-tripped to roughly flat since 2019 while the S&P compounded to ~+230%. A shallower drawdown than [[KWEB]] (large-cap banks and energy cushion the tech crash), but the same China-risk drag the [[Chinese EV startups]] and [[Chinese internet]] cohorts both resolve to.*
+
+---
+
 ## Sector correlation
 
 | Sector | ETF | Correlation |

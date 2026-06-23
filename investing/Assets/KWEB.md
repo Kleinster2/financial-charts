@@ -7,6 +7,13 @@ Largest US-listed China equity ETF ($7.5B AUM, Feb 2026). Tracks the CSI Oversea
 
 ---
 
+## Performance vs SPY
+
+![[kweb-vs-spy-price-chart.png]]
+*Normalized total return since 2019 vs [[SPY]]. The China-internet round trip — KWEB ran to roughly +185% by its Feb-2021 peak, then fell about −80% peak-to-trough into late 2022 as the [[China platform regulation|crackdown]] and ADR-delisting threat hit, and never recovered: it sits slightly below its 2019 starting point while the S&P compounded to ~+230%. The relative gap is the China-risk factor the [[Chinese internet]] cohort prices.*
+
+---
+
 ## Sector correlation
 
 | Sector | ETF | Correlation |
