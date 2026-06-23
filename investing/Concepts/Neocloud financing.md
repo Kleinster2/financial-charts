@@ -2,6 +2,9 @@
 
 [[NVIDIA]] finances GPU cloud companies that absorb inventory and help hit quarterly numbers. Is this real demand or orchestrated demand?
 
+![[neocloud-financing-chart.png]]
+*Normalized since [[CoreWeave]]'s April 2025 IPO (log scale): the public neoclouds vs [[NVIDIA]] and [[SPY]]. They do not trade as one basket — [[CoreWeave|CRWV]] tracks [[NVIDIA|NVDA]] closely (~+90%, the levered-Nvidia-beta read, but far more volatile, with a −40% early drawdown), while [[IREN]] and [[Nebius|NBIS]] run idiosyncratically to +700–1100% on their own crypto-to-AI / relisting dynamics. The dispersion is the point: "neocloud" is a financing structure, not a single trade, and the fragility lives in the volatility of a levered, single-asset balance sheet riding Nvidia beta.*
+
 ---
 
 ## The pattern
@@ -68,6 +71,8 @@ Evidence:
 | IPO timing | March 2025 | Monetized at peak hype? |
 
 The question: is CoreWeave a real business or NVIDIA inventory management?
+
+As of mid-2026 CoreWeave is public (CRWV) and has pushed further into leverage and vertical integration — but the market has pushed back. Its attempt to acquire its largest hosting provider, [[Core Scientific]], in an all-stock deal (~$9B) was rejected by Core Scientific shareholders (20.8M for vs 203.5M against) and terminated October 30, 2025; they judged CoreWeave's equity too rich and volatile to take. The failed deal is the orchestrated-demand question turned inward — even CoreWeave's own would-be sellers balked at the paper.
 
 ---
 

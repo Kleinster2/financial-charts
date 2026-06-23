@@ -126,8 +126,11 @@ The through-line the catalog otherwise misses: the capex number is bullish for p
 | [[Columbus Ohio]] | Midwest hub, Intel investment |
 | [[São Paulo Data Hub]] | LatAm leader |
 | [[Rio de Janeiro Data Hub]] | Rio AI City (3.2GW) |
+| [[Querétaro]] (Mexico) | ~65% of Mexican capacity; nearshoring, water-stressed |
 | [[Singapore Tech]] | Asia-Pacific hub |
 | [[Malaysia]] (Johor) | Singapore overspill; top-3 APAC, ~2 GW by end-2026 |
+| [[Japan]] (Tokyo / Osaka) | Top-3 APAC; hyperscaler-led, power/seismic-constrained |
+| [[China]] (Beijing + western hubs) | [[East Data West Compute]]; chip-constrained, domestic accelerators |
 | [[UAE]] (Abu Dhabi / Dubai) | Global #1–2 emerging DC markets; Stargate UAE (5 GW, $30B+) |
 | [[Saudi Arabia]] | HUMAIN/DataVolt 6.4 GW pipeline; NEOM Oxagon (1.5 GW) |
 | [[India]] | Fast-growing AI/data-center market where grid delivery and microgrids are the bottleneck |
@@ -135,6 +138,12 @@ The through-line the catalog otherwise misses: the capex number is bullish for p
 | London | European financial hub |
 | Frankfurt | European cloud hub |
 | [[Ireland]] (Dublin) | ~22% of national power; 2021 grid moratorium, eased Dec 2025 |
+
+---
+
+## United States: the Stargate cluster
+
+The US is the world's #1 market (the Northern Virginia hub around [[Ashburn]] runs ~20 GW), and its frontier is the [[Project Stargate]] build — though Stargate has become a brand more than a structure. The flagship is the 1.2 GW Abilene, Texas campus (450,000+ [[NVIDIA]] GB200s under a 15-year [[Oracle]] lease, [[Crusoe Energy]] developer); the planned expansion to 2 GW collapsed in March 2026 over OpenAI–Oracle demand-forecast disputes, and [[Microsoft]] leased the ~700 MW expansion site instead. By April 2026 the FT reported the $500B JV "effectively abandoned" in favor of bilateral OpenAI deals — yet the numbers underneath grew (>8 GW secured, $600B+ projected by 2030), with sites across Texas, Ohio, New Mexico, Wisconsin, and a 1 GW Michigan campus. It is the capex/insourcing loop in one program: the JV was a financing innovation that became unnecessary once capital markets normalized around AI infrastructure, leaving the build to [[Oracle]], hyperscaler rentals, and the picks-and-shovels suppliers.
 
 ---
 
@@ -176,9 +185,21 @@ Dublin is the cautionary European hub — where the note's power-constraint thes
 
 ---
 
+## Japan
+
+[[Japan]] is one of APAC's top-three data-center markets (with Johor and Beijing), anchored on Greater Tokyo (the Inzai corridor) and a secondary Osaka hub. Demand is hyperscaler-led — [[Google]], [[Microsoft]], [[Amazon]], and [[Oracle]] have all committed multi-billion-dollar Japan buildouts — while domestic players (NTT, KDDI/Telehouse) and [[AirTrunk]] supply capacity. The constraints are Japan-specific: a power system still rebalancing after the post-Fukushima nuclear pullback, high land costs, and seismic siting. The marquee move is [[SoftBank]]'s conversion of a former Sharp LCD plant at Sakai into an AI data center — old industrial sites with existing grid connections becoming the scarce asset, the same pattern as the US rust-belt builds.
+
+---
+
+## China
+
+[[China]] builds on a different model: state-directed siting under [[East Data West Compute]] (东数西算), the 2022 plan that routes eastern data demand to compute hubs in the energy-rich west (Inner Mongolia, Gansu, Ningxia, Guizhou). The builders are the state telecoms — [[China Mobile]], [[China Telecom]], and [[China Unicom]] (which reported 45 EFLOPS in 2025) — alongside the cloud majors (Alibaba, Tencent). The binding constraint is silicon, not power or capital: US [[Export controls]] cap access to [[NVIDIA]]'s top parts, pushing the build onto domestic accelerators (Huawei Ascend) and making compute efficiency, not just capacity, the national priority. It is the one major DC geography largely walled off from the US-stack thesis running through the rest of this note.
+
+---
+
 ## Brazil / Latin America
 
-LatAm's largest DC market — two GW-scale "AI City" projects under development, all private.
+LatAm's largest DC market — two GW-scale "AI City" projects under development, all private. Beyond Brazil, [[Querétaro]] is [[Mexico]]'s hub (~65% of national capacity, $10B+ committed — AWS, [[Microsoft]], [[CloudHQ]]), the nearshoring-driven #2 LatAm market, constrained by water stress.
 
 | Operator | Owner | Key Project | Potential |
 |----------|-------|-------------|-----------|
