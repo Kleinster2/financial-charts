@@ -143,6 +143,7 @@ Bear case:
 
 ## Related
 
+- [[Data Centers]] — data-center sector hub
 ### Parent sector
 - [[AI Infrastructure]] — umbrella sector
 

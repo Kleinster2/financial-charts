@@ -264,6 +264,7 @@ Plans to migrate from AWS to solar-powered Atacama Desert data center.
 
 ## Related
 
+- [[Data Centers]] — data-center sector hub
 - [[Brazil AI]] — $4B national AI plan, 93.6% renewables
 - [[Mexico Tech]] — nearshoring, data centers
 - [[Argentina]] — OpenAI Stargate partnership

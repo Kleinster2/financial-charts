@@ -666,6 +666,7 @@ Why it works: co-locating load with generation sidesteps the 7-12 year interconn
 
 ## Related
 
+- [[Data Centers]] — data-center sector hub
 - [[DC power prices]] — consumer impact (Bloomberg Sep 2025)
 - [[DC power quality]] — consumer impact (Bloomberg Dec 2024)
 - [[Global DC grid strain]] — global context (Bloomberg Jun 2024)

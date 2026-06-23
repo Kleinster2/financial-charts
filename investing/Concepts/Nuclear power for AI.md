@@ -200,6 +200,7 @@ The durable readthrough is that nuclear-for-AI is no longer only a hyperscaler P
 
 ## Related
 
+- [[Data Centers]] — data-center sector hub
 - [[Power constraints]] — context (44GW gap to close)
 - [[Constellation Energy]] — player (TMI restart, largest fleet)
 - [[Vistra]] — player (Texas nuclear/gas)

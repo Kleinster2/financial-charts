@@ -141,6 +141,7 @@ The trade for this hub is [[AI infrastructure financing]] — capital providers 
 
 ## Related
 
+- [[Data Centers]] — data-center sector hub
 - [[AI hyperscalers]] — demand
 - [[Power constraints]] — bottleneck
 - [[AI storage bottleneck]] — storage-specific constraint

@@ -136,6 +136,7 @@ Driving demand for clean DC locations.
 
 ## Related
 
+- [[Data Centers]] — data-center sector hub
 - [[Energy security as investment thesis]] — companion 2026 concept; the US "AI-power" leg of that thesis sits inside this note, while the EU "sovereignty" leg is separate
 - [[Brazil AI]] — leader (93.6% renewable, hydro)
 - [[São Paulo Data Hub]] — location ([[Brazil]] clean energy hub)

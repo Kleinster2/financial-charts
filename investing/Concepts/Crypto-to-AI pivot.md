@@ -163,6 +163,7 @@ Avoid pure Bitcoin:
 
 ## Related
 
+- [[Data Centers]] — data-center sector hub
 - [[IREN]] — winner (Microsoft $9.7B, NVIDIA $3.4B, Dell $1.6B Blackwell procurement)
 - [[Hut 8]] — winner (Fluidstack/[[Google]] $7B + Anthropic)
 - [[Core Scientific]] — winner (CoreWeave $3.5B)
