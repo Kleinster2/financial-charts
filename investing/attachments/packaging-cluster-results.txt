@@ -1,0 +1,80 @@
+Packaging CLUSTER ANALYSIS
+Window 1y: 2025-07-08 -> 2026-06-22 (199 obs)
+Window 2y: 2024-07-15 -> 2026-06-22 (258 obs)
+Universe: 8 tickers across 5 groups
+Dendrogram cut threshold: 0.5
+
+--- 1Y INTRA-CLUSTER PAIRWISE CORRELATIONS ---
+Ticker    IP   PKG  BALL  AMCR
+Ticker                        
+IP      1.00  0.71  0.44  0.59
+PKG     0.71  1.00  0.46  0.54
+BALL    0.44  0.46  1.00  0.54
+AMCR    0.59  0.54  0.54  1.00
+Average intra-cluster correlation: 0.546
+Range: [0.442, 0.711]
+
+--- AVG GROUP-PAIR CORRELATIONS (1Y) ---
+             cluster  materia  industr  staples   market
+    cluster    0.546    0.577    0.483    0.314    0.311
+materials_e    0.577      nan    0.718    0.356    0.604
+industrials    0.483    0.718      nan    0.187    0.734
+    staples    0.314    0.356    0.187      nan    0.040
+     market    0.311    0.604    0.734    0.040      nan
+
+Cluster vs others:
+  cluster vs materials_etf: 0.577  (intra advantage: +-0.031)
+  cluster vs industrials: 0.483  (intra advantage: +0.063)
+  cluster vs staples   : 0.314  (intra advantage: +0.232)
+  cluster vs market    : 0.311  (intra advantage: +0.235)
+
+--- HIERARCHICAL CLUSTERS (1Y, distance threshold 0.5) ---
+  Cluster 1: XLB, XLI, SPY
+  Cluster 2: IP, PKG, AMCR
+  Cluster 3: BALL
+  Cluster 4: XLP
+
+--- CANDIDATE JOIN DISTANCES (1Y, average linkage, distance = 1-|corr|) ---
+ Step Left       Right Distance          Members
+    1   IP         PKG    0.289           IP+PKG
+    2 AMCR      IP+PKG    0.437      AMCR+IP+PKG
+    3 BALL AMCR+IP+PKG    0.521 BALL+AMCR+IP+PKG
+
+--- PCA ON CANDIDATE COHORT (1Y) ---
+Explained variance ratio:
+  PC1: 66.12%
+  PC2: 15.95%
+  PC3: 10.94%
+  PC4: 6.99%
+
+PC1 loadings:
+IP      0.525
+PKG     0.518
+BALL    0.450
+AMCR    0.504
+
+--- PC1 INDEX WEIGHTS (1Y) ---
+PCA is run on standardized daily log returns. Raw PC1-mimic weights scale PC1 loading by inverse realized volatility.
+     PC1 loading Loading weight Ann vol Raw PC1-mimic weight
+IP         0.525         26.30%  44.47%               18.58%
+PKG        0.518         25.93%  27.75%               29.35%
+BALL       0.450         22.53%  26.07%               27.16%
+AMCR       0.504         25.23%  31.82%               24.91%
+
+--- WEEKLY-RETURN CROSS-CHECK (1Y, async-close robustness) ---
+Weeks: 40   Weekly intra-corr: 0.673 (daily 0.546)   Weekly PC1: 75.5% (daily 66.1%)
+NOTE: weekly intra-corr exceeds daily by >0.10 — asynchronous closes are depressing the daily numbers (cross-region cohort); the weekly reading is the better estimate of economic co-movement.
+
+--- HISTORICAL TIGHTNESS EVOLUTION (90D ROLLING) ---
+     Avg corr    PC1 Core corr Satellite corr Final join distance
+Date                                                             
+2019    0.344  55.4%     0.249          0.441               0.819
+2020    0.579  69.0%     0.496          0.664               0.524
+2021    0.529  65.6%     0.494          0.569               0.612
+2022    0.438  59.4%     0.428          0.458               0.717
+2023    0.578  69.1%     0.500          0.652               0.558
+2024    0.324  50.3%     0.353          0.317               0.738
+2025    0.474  60.8%     0.485          0.513               0.598
+2026    0.550  66.5%     0.501          0.597               0.527
+
+Latest 90D: avg corr 0.571, PC1 68.1%, core corr 0.532, satellite corr 0.611, final join distance 0.486

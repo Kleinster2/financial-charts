@@ -1,0 +1,22 @@
+Packaging HOLDOUT TEST
+Cohort: IP, PKG, BALL, AMCR (N=4)
+Window: 2y, split temporally at midpoint
+Train: 2024-06-22 -> 2025-06-22 (124 obs)
+Test:  2025-06-22 -> 2026-06-22 (216 obs)
+
+--- TRAIN HALF (older) ---
+Intra-correlation:    0.4817
+PC1 explained var:    61.36%
+Pairwise range:       [0.272, 0.686]
+
+--- TEST HALF (newer) ---
+Intra-correlation:    0.5320
+PC1 explained var:    65.09%
+Pairwise range:       [0.452, 0.709]
+
+--- STABILITY DIAGNOSTICS ---
+Intra-corr delta:     +0.0503   (test - train)
+PC1 variance delta:   +3.73pp
+PC1 loadings corr:    0.3510    (1.0 = identical factor structure)
+
+VERDICT: STRENGTHENING — test/train ratio 1.10 (basket consolidating; check for regime shift in the train half)

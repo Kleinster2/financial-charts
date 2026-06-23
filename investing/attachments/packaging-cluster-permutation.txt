@@ -1,0 +1,22 @@
+Packaging PERMUTATION TESTS
+Window: 2025-07-02 -> 2026-06-22 (215 obs)
+Candidate cohort: IP, PKG, BALL, AMCR (N=4)
+Observed intra-corr: 0.5315    Observed PC1: 65.05%
+
+--- RANDOM-BASKET NULL ---
+Permutations: 4000
+Universe source: DB prices_long (1125 tickers with >=200 obs in window)
+Pool size: 1121
+Intra-cluster correlation:
+  Null mean:        0.1447
+  Null 95th pct:    0.2971
+  Null 99th pct:    0.3845
+  p-value (right):  0.000500    -> REJECTS random-basket null at p < 0.001
+PC1 explained variance:
+  Null mean:        38.42%
+  Null 95th pct:    48.75%
+  Null 99th pct:    54.81%
+  p-value (right):  0.000750    -> REJECTS random-basket null at p < 0.001
+
+--- INTERPRETATION ---
+Random-basket null rejected: cohort is more cohesive than a random N-pick from the same universe. This is the meaningful pass.

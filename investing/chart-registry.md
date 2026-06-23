@@ -1,5 +1,10 @@
 ---
 charts:
+  packaging-performance.png:
+    tickers: IP,PKG,BALL,AMCR,XLB
+    normalize: true
+    start: 2019-01-01
+    primary: IP
   aggregates-performance.png:
     tickers: VMC,MLM,XLB,XHB
     normalize: true

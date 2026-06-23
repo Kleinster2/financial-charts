@@ -1,0 +1,27 @@
+# Packaging — does the listed packaging label cohere as one factor, or fragment by
+# substrate? Candidate: containerboard [[International Paper|IP]] + [[Packaging Corp|PKG]],
+# metal beverage cans [[Ball|BALL]], flexible/rigid plastics [[Amcor|AMCR]] — three
+# different substrates and end-markets (e-commerce/industrial corrugated vs beverage cans
+# vs consumer/healthcare flexible). A priori: likely fragments — IP+PKG cohere on
+# containerboard/OCC pricing, BALL/AMCR on their own end-markets — or = XLB. Controls: XLB
+# (materials ETF — key), XLI (industrials), XLP (staples — packaging serves consumer), SPY.
+# SW (Smurfit WestRock) not in DB.
+name: Packaging
+primary: IP
+prefix: packaging-cluster
+threshold: 0.5
+window_end: 2026-06-22
+definition_date: 2026-06-23
+history_start: 2019-01-01
+
+groups:
+  cluster:
+    tickers: [IP, PKG, BALL, AMCR]
+  materials_etf:
+    tickers: [XLB]
+  industrials:
+    tickers: [XLI]
+  staples:
+    tickers: [XLP]
+  market:
+    tickers: [SPY]
