@@ -33,3 +33,4 @@ The investment point is that AI Plus is not just a cloud-model policy. In autos,
 - [[Huawei]] — domestic chip and smart-driving champion
 - [[DeepSeek]] — low-cost model reference point
 - [[BYD]], [[Xiaomi]], [[Xpeng]], [[NIO]] — EV implementation layer
+- [[China higher education realignment]] — human-capital supply side: degree-catalog re-weighting toward AI talent

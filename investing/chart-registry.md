@@ -10,6 +10,11 @@ charts:
     normalize: true
     start: 2021-01-01
     primary: BABA
+  china-edtech-performance.png:
+    tickers: EDU,TAL,GOTU,KWEB
+    normalize: true
+    start: 2021-01-01
+    primary: EDU
   china-platform-regulation-chart.png:
     tickers: KWEB,SPY
     normalize: true
@@ -30,6 +35,11 @@ charts:
     normalize: true
     start: 2024-01-01
     primary: EQIX
+  neocloud-financing-chart.png:
+    tickers: CRWV,NBIS,IREN,NVDA,SPY
+    normalize: true
+    start: 2025-04-01
+    primary: CRWV
   off-price-performance.png:
     tickers: TJX,ROST,BURL,OLLI,XRT
     normalize: true

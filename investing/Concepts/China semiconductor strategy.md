@@ -91,6 +91,7 @@ US export controls create a short-term bonanza for companies like [[Lam Research
 - [[Semiconductor incentive programs]] — CHIPS Act and global parallels
 - [[Semiconductors]] — sector hub
 - [[HBM]] — Big Fund Phase III target
+- [[China higher education realignment]] — talent supply: integrated-circuit degree programs added in the 2021–2025 catalog overhaul
 
 ---
 

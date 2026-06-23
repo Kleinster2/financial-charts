@@ -143,5 +143,6 @@ Watch for:
 - [[China solar buildout]] — Part of new industries push
 - [[RatingDog]] — private China PMI source actor
 - [[Rare earth leverage]] — Related industrial policy
+- [[China higher education realignment]] — degree-catalog realignment as a state response to youth unemployment / labor reallocation
 
 *Created 2026-01-15*

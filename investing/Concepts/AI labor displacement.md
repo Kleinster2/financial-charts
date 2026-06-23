@@ -333,5 +333,6 @@ The policy trap: Beijing is simultaneously pushing AI as national strategic prio
 - [[Oracle]] — the applied counter-reading: layoffs as cash-flow management for the [[Warner Bros Discovery]] bid, not AI efficiency
 - [[Big Law transformation]] — junior-associate work in Big Law is the most exposed white-collar category to AI displacement
 - [[Challenger, Gray and Christmas]] — job-cut reason dataset used to track AI-attribution
+- [[China higher education realignment]] — China's supply-side response: cutting degrees in roles AI automates, adding AI/robotics
 - [[Kalshi]] — prediction-market layer on whether AI leads Challenger job-cut reasons
 - [[Noah Smith]] — verification labor / operational alignment frame for human work after agentic automation

@@ -1,0 +1,32 @@
+# Chinese ed-tech (after-school tutoring) — the 双减 (double-reduction) cohort.
+# New Oriental (EDU), TAL Education (TAL), Gaotu Techedu (GOTU): the three
+# US-listed Chinese tutoring ADRs that survived the July 2021 for-profit K-12
+# tutoring ban, each pivoting (overseas/non-academic + livestream e-commerce,
+# small-class enrichment, exam/vocational prep). Question: do they trade as a
+# distinct ed-tech-regulation factor, or just as China-ADR beta?
+#   china_etf (KWEB/FXI/CQQQ) tests whether the cohort is just the China ETF;
+#   us_edtech (DUOL/CHGG/COUR) is the business-model-vs-jurisdiction control
+#     (global ed-tech equity under a different regulatory regime);
+#   SPY/QQQ/VWO give the market / EM-beta read.
+# All three candidates are ADRs (async-close minimal); weekly cross-check used.
+name: Chinese ed-tech (double-reduction cohort)
+primary: EDU
+prefix: china-edtech-cluster
+threshold: 0.5
+window_end: 2026-06-22
+definition_date: 2026-06-22
+history_start: 2019-06-01
+
+groups:
+  cluster:
+    color: "#2962FF"
+    tickers: [EDU, TAL, GOTU]
+  china_etf:
+    color: "#FF6F00"
+    tickers: [KWEB, FXI, CQQQ]
+  us_edtech:
+    color: "#7E57C2"
+    tickers: [DUOL, CHGG, COUR]
+  etf:
+    color: "#9E9E9E"
+    tickers: [SPY, QQQ, VWO]

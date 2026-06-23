@@ -90,6 +90,7 @@ Net: most non-semiconductor pillars of MIC 2025 are substantially achieved by 20
 - [[Inflation Reduction Act]]
 - [[Weaponized interdependence]]
 - [[State Council]]
+- [[China higher education realignment]] — human-capital supply: the degree catalog re-weighted toward MIC2025's strategic sectors (AI, robotics, integrated circuits)
 
 ---
 

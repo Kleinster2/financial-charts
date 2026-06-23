@@ -155,6 +155,7 @@ The two emergent asset-class implications visible only in the 2026 reframing —
 - [[Private Economy Promotion Law]] — 2025 rehabilitation arc
 - [[DeepSeek]] — symbolic end of crackdown era
 - [[Made in China 2025]] — production-side companion framework
+- [[China higher education realignment]] — degree-catalog overhaul sharing the youth-employment / ed-tech (双减) intervention logic
 - [[Dual circulation]] — domestic-demand framing companion
 - [[Fortress China]] — defensive economic-security companion
 - [[China economic transition]] — consumption rebalancing thread
