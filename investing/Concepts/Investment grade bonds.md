@@ -86,6 +86,7 @@ Companies downgraded from IG to HY:
 
 ## Related
 
+- [[PIMCO Global Investment Grade Credit Fund]] — active global IG-credit fund (PIMCO GIS, ~$7.5B UCITS); the active contrast to the passive ETFs above
 - [[High yield bonds]] — below IG, higher yield/risk
 - [[Credit spreads]] — IG spread dynamics
 - [[Credit markets]] — broader context

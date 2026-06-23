@@ -335,4 +335,5 @@ The structural side-effect: Altice initially hired [[Kirkland & Ellis]] (alongsi
 - [[HPS Investment Partners]] — acquired (private credit)
 - [[Preqin]] — acquired (private markets data)
 - [[BINC]] — flagship active fixed income ETF ($16.81B AUM)
+- [[MALOX]] — BlackRock Global Allocation Fund (flagship global multi-asset mutual fund)
 - [[Rick Rieder]] — CIO Global Fixed Income, manages $2.4T+
