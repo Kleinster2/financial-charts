@@ -59,10 +59,14 @@ __pycache__/
 !.claude/settings.json
 !.claude/scripts/
 !.claude/scripts/*
+# ...but never the Python bytecode cache the whitelist above re-included
+.claude/scripts/__pycache__/
 .http_cache/
 # Front-end workspace state
 workspace.json
 charting_app/workspace.json
+charting_app/workspace.json.bak-*
+charting_app/recovered_snapshots/
 
 # Local debug/testing scripts
  # Temporarily unignored for refactor
