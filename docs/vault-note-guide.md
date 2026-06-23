@@ -262,6 +262,29 @@ Reference: See [[Micron]] and [[Micron securities note]] as template.
 
 ---
 
+## ETF / Fund Note Structure
+
+ETF and fund notes ARE the tradeable instrument (see "Funds and ETFs are NOT split" above), so the whole note is one card. A fully-fleshed ETF/fund note carries six parts — use [[KWEB]] and [[FXI]] as the canonical templates:
+
+1. Frontmatter — `aliases` (full fund name + ticker + common short names), `tags: [etf, <theme/region/sector>]`. Tag it `#etf`/`#fund`/`#cef`, never a bare `#actor`+single-`| Ticker |` row that reads as a public operating company — that trips the public-company fundamentals/Sankey/securities-note gates, which a fund has none of. (If you must list the listing line, use plural `| Tickers |` so the checker's ticker-extractor doesn't classify the card as a tradeable security.)
+2. Description — one or two paragraphs: what index it tracks, what it holds, AUM, holdings count, and its *character* — the factor it actually delivers, not just the label (KWEB = pure China internet; FXI = bank-heavy broad China beta). For a benchmark ETF used in cluster work, name the cohort(s) that resolve to it.
+3. `## Performance vs SPY` — a normalized `{ticker}-vs-spy-price-chart.png` (or vs the most relevant benchmark), via `/api/chart/lw?...&normalize=true`, with an italicized interpretation. The `-vs-` filename lets the chart-refresh plugin parse tickers automatically — no chart-registry entry needed.
+4. `## Sector correlation` — correlation table vs the relevant ETFs (`add_sector_correlations.py` output).
+5. `## Quick stats` — issuer, index, inception, expense ratio, AUM, holdings count.
+6. `## Top holdings` — a sourced top-10 table (name, ticker, weight) with the as-of date and source, plus a one-line read on what the composition reveals (the financials weight that makes FXI "broad China beta"). Table-safe-wikilink holdings that have notes. For commodity/bond/futures funds with no equity holdings, substitute the relevant breakdown (sector / maturity / contract) or state why holdings don't apply.
+7. `## Related` — peer ETFs, issuer, the cohorts/themes it anchors.
+
+When to apply the full template:
+- New ETF/fund notes — build them fully fleshed from the start.
+- Any ETF/fund note you touch for other work — flesh it to the template in the same pass (the "vault weaves, not collects" rule applied to ETFs).
+- Do NOT bulk-retrofit the existing thin ETF notes — as of 2026-06-22 about 65 of ~88 ETF notes are 2/6 reference cards; a mass retrofit is low-value grind. They get upgraded opportunistically, only when touched.
+
+This is a convention, not a hard gate: `check_note_compliance.py` does not require the full template (that would flag every thin card). It is enforced by discipline on new and touched notes.
+
+Reference: See [[KWEB]] and [[FXI]] as templates (both 6/6).
+
+---
+
 ## People: investing-vault actor vs cross-vault link
 
 Not every person mentioned gets an investing-vault Actors/ note. The test: **is this person's durable content a market-lever action**, or is it biographical/political/domain content that belongs in a sibling vault?
