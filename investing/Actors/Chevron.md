@@ -196,6 +196,12 @@ Bear:
 ---
 
 
+![[cvx-fundamentals.png]]
+*Revenue and net income vs CVX share price (left axis), annual fiscal data. Source: financial-charts.*
+
+![[cvx-sankey.png]]
+*Latest-fiscal-year income-statement flow: revenue → costs → net income. Source: financial-charts.*
+
 ![[cvx-employees-chart.png]]
 *Headcount: 43,039 (2025) — down 5.0% YoY*
 
@@ -224,6 +230,10 @@ Implied pre-dividend IRR on the layered cost basis: ~50-70% range. The structura
 
 ## Related
 
+### Securities
+- [[Chevron securities note]] — CVX equity-market companion (instruments, price history, energy-beta benchmark)
+
+### Related notes
 - [[Exxon]] — peer oil major
 - [[Venezuela]] — exclusive US license holder
 - [[TAE Technologies]] — portfolio investment (fusion)

@@ -17,6 +17,23 @@ The bull case: Foxconn is the picks-and-shovels play on hyperscaler capex ($650B
 
 ---
 
+## Sector correlation
+
+Foxconn lists in Taiwan (2317.TW), so same-day return correlations against US ETFs are understated by the ~13-hour close offset (Taiwan closes before US markets open). Weekly returns are the meaningful read (1Y):
+
+| Comparator | Weekly corr | Daily (async) |
+|---|---|---|
+| XLK (US tech) | 0.58 | 0.16 |
+| TSM (TSMC ADR) | 0.54 | 0.16 |
+| SMH (semis) | 0.52 | 0.14 |
+| SOXX (semis) | 0.48 | 0.13 |
+| NVDA | 0.47 | 0.13 |
+| *SPY (S&P 500)* | *0.48* | *0.08* |
+
+On weekly returns Foxconn trades as a Taiwan tech / AI-server-supply-chain name — most correlated with broad US tech ([[Technology|XLK]] 0.58) and the semiconductor complex / [[TSMC]] (0.52-0.54), consistent with its role as the assembler layer beneath [[NVIDIA]]'s chips. The low daily figures are a non-synchronous-trading artifact, not independence.
+
+---
+
 ## Quick stats
 
 | Metric | Value |
@@ -46,6 +63,20 @@ The bull case: Foxconn is the picks-and-shovels play on hyperscaler capex ($650B
 Chairman Young Liu (Mar 6, 2026): 2026 will be "a very good year" with full-year revenue growing at double-digit rate. AI server market share expected to rise above 40%.
 
 Analysts project ~28% Q1 2026 revenue growth YoY.
+
+---
+
+## Financials
+
+| Fiscal year | Revenue (NT$) | Revenue (US$) | Notes |
+|---|---|---|---|
+| FY2024 | ~NT$6.2T | ~$196B | — |
+| FY2025 | ~NT$8.1T | ~$256B | +30%; AI servers overtook consumer electronics |
+
+Foxconn is a thin-margin contract manufacturer (low single-digit net margins): it captures AI-server volume, not value — the economics accrue to [[NVIDIA]] (chips), [[TSMC]] (fabrication), and the hyperscalers. Foxconn reports annual-only financial figures and the full income statement has limited financial disclosure via the note's data pipeline (Alpha Vantage does not cover the 2317.TW Taiwan listing, with no quarterly fundamentals data), so the fundamentals chart and income-statement Sankey are not applicable here — the price chart and the revenue history above stand in their place.
+
+![[foxconn-vs-nvda-price-chart.png]]
+*Foxconn (2317.TW, blue) vs [[NVIDIA]], normalized from Jan 2023. The assembler tracks its chip customer through the AI build-out but captures far less of the value — the picks-and-shovels-vs-chips spread. Source: financial-charts.*
 
 ---
 
@@ -120,6 +151,10 @@ Bear:
 
 ## Related
 
+### Securities
+- [[Foxconn securities note]] — 2317.TW / ADR companion (instruments, price, weekly-correlation profile)
+
+### Related notes
 - [[NVIDIA]] — primary AI chip customer, PBR partner for Blackwell
 - [[Apple]] — primary iPhone assembler, consumer electronics anchor
 - [[Quanta Computer]] — #2 AI server ODM

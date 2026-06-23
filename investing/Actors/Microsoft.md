@@ -3,7 +3,7 @@ aliases: [MSFT]
 ---
 #actor #hyperscaler #usa
 
-**Microsoft (Azure)** — Tier 1 AI hyperscaler, OpenAI partner, largest enterprise cloud.
+Microsoft (Azure) — Tier 1 AI hyperscaler, OpenAI partner, largest enterprise cloud.
 
 Tier 1 AI hyperscaler and largest enterprise cloud with $281.7B FY2025 revenue, $101.8B net income, and the deepest AI partnership in the industry through OpenAI (mark-to-market gain of $7.6B in Q2 FY26). Azure is the #2 cloud behind AWS, and Copilot AI integration spans Office, GitHub, and Dynamics. PP&E of $286.2B reflects massive infrastructure buildout. Led by Satya Nadella, who transformed Microsoft from Windows-centric to cloud-first since 2014. The bull case: OpenAI partnership gives first-mover advantage in enterprise AI, Azure growth compounding, and Copilot monetization across 400M+ Office users. The bear case: AI capex/margin pressure (stock sold off from $540 to ~$440 on concerns), Azure growth deceleration in Q2 FY26, and OpenAI dependency creates concentration risk if the partnership evolves.
 
@@ -189,9 +189,9 @@ Azure still fastest-growing hyperscaler but deceleration spooked market.
 ## Chip strategy
 
 - Massive [[NVIDIA]] buyer (OpenAI infrastructure)
-- **Maia 200**: 2nd-gen AI inference chip, launched Jan 28, 2026 — [[TSMC]] 3nm process
-- **Maia 100**: First-gen custom AI accelerator (announced 2023)
-- **Cobalt**: ARM-based CPU
+- Maia 200: 2nd-gen AI inference chip, launched Jan 28, 2026 — [[TSMC]] 3nm process
+- Maia 100: First-gen custom AI accelerator (announced 2023)
+- Cobalt: ARM-based CPU
 - Designed in-house, fabbed at [[TSMC]]
 
 ---
@@ -212,7 +212,7 @@ See [[Microsoft-OpenAI exclusivity end]] for full event detail.
 
 ## OpenAI relationship
 
-**Partnership restructured (Oct 2025 → Apr 2026):**
+Partnership restructured (Oct 2025 → Apr 2026):
 - 2019-2025: Exclusive cloud provider, 49% profit share (capped)
 - Oct 2025: Restructured to ~27% equity stake; exclusivity extending through 2032
 - Apr 27, 2026: Exclusivity ended; Microsoft IP rights non-exclusive through 2032; OpenAI free to distribute on AWS/Google Cloud; Microsoft no longer pays OpenAI revenue share; OpenAI 20% revenue share to Microsoft preserved through 2030 (capped)
@@ -224,34 +224,34 @@ OpenAI's compute needs still flow through Microsoft Azure → NVIDIA → TSMC, b
 
 ## OpenAI investment analysis (Jan 2026)
 
-**Reverse-engineering OpenAI valuation from MSFT Q2 FY2026 earnings:**
+Reverse-engineering OpenAI valuation from MSFT Q2 FY2026 earnings:
 
 | Metric | Value |
 |--------|-------|
 | MSFT total invested | $13.8B |
-| MSFT stake (post-restructuring) | **27%** |
-| MSFT stake value | **$135B** |
-| Implied OpenAI valuation | **$500B** |
-| MSFT return | **~10x** |
+| MSFT stake (post-restructuring) | 27% |
+| MSFT stake value | $135B |
+| Implied OpenAI valuation | $500B |
+| MSFT return | ~10x |
 | Q2 FY2026 gain (mark-to-market) | $7.6B |
 
-**Why only $7.6B this quarter?**
+Why only $7.6B this quarter?
 
 The $7.6B is the *incremental* adjustment from the Oct 2025 restructuring, not total gains. Pre-restructuring, MSFT carried OpenAI at ~$127B ($135B - $7.6B). The restructuring to a Public Benefit Corporation with clear equity percentages triggered the revaluation.
 
-**Key terms (Oct 2025 restructuring):**
+Key terms (Oct 2025 restructuring):
 - OpenAI contracted $250B of Azure services
 - MSFT lost right of first refusal on compute
 - MSFT can now pursue AGI independently
 - IP access extended through 2032
 
-**Prior stake:** Before recent funding rounds, MSFT held 32.5% (diluted to 27% by new capital).
+Prior stake: Before recent funding rounds, MSFT held 32.5% (diluted to 27% by new capital).
 
 ---
 
 ## May 11, 2026 — $92B return target disclosed in Musk-OpenAI trial
 
-A January 2023 internal memo from [[Microsoft]] President [[Brad Smith]] to the [[Microsoft]] board projecting a **$92 billion return** on [[Microsoft]]'s cumulative $13B investment in [[OpenAI]] was disclosed in federal court on May 11, 2026, during [[Satya Nadella]]'s testimony in [[Elon Musk]]'s lawsuit against [[OpenAI]] and [[Microsoft]].
+A January 2023 internal memo from [[Microsoft]] President [[Brad Smith]] to the [[Microsoft]] board projecting a $92 billion return on [[Microsoft]]'s cumulative $13B investment in [[OpenAI]] was disclosed in federal court on May 11, 2026, during [[Satya Nadella]]'s testimony in [[Elon Musk]]'s lawsuit against [[OpenAI]] and [[Microsoft]].
 
 | Disclosure | Value | Context |
 |---|---|---|
@@ -262,9 +262,9 @@ A January 2023 internal memo from [[Microsoft]] President [[Brad Smith]] to the 
 
 The disclosure matters for three reasons:
 
-1. **It under-anchored badly relative to reality.** The Mar 2026 [[OpenAI]] round valued the company at $852B. [[Microsoft]]'s ~27% stake is now worth roughly $220-230B (17-18× the original $13B investment), already 2.4× the January 2023 internal target. The memo represents the *pre-ChatGPT-scaling-revenue* base case from the [[Microsoft]] leadership; reality has overshot by a factor that legitimizes [[Brad Smith]]'s internal projection only in the sense of being unambiguously beaten.
-2. **Revenue-share payments continue through 2030, subject to a total cap.** Per April 27 2026 restructuring (see "Apr 27, 2026 — OpenAI exclusivity ended" section above), revenue share to [[Microsoft]] continues "independent of OpenAI's technology progress" but with an aggregate cap reportedly around $38B over the period (per FX Leaders coverage of the same court testimony). The $92B target therefore had at least two components — equity appreciation plus revenue-share economics — and the equity leg has already done all the work and then some.
-3. **Court disclosure precedent for AGI-clause and revenue-share terms.** The Musk lawsuit is pulling Microsoft's internal OpenAI economics into the public record one document at a time. Future court-disclosed exhibits could surface AGI-clause triggers, IP-access through 2032 details, and the original 32.5% → 27% dilution waterfall — all material to the [[OpenAI]] cap-table reconstruction.
+1. It under-anchored badly relative to reality. The Mar 2026 [[OpenAI]] round valued the company at $852B. [[Microsoft]]'s ~27% stake is now worth roughly $220-230B (17-18× the original $13B investment), already 2.4× the January 2023 internal target. The memo represents the *pre-ChatGPT-scaling-revenue* base case from the [[Microsoft]] leadership; reality has overshot by a factor that legitimizes [[Brad Smith]]'s internal projection only in the sense of being unambiguously beaten.
+2. Revenue-share payments continue through 2030, subject to a total cap. Per April 27 2026 restructuring (see "Apr 27, 2026 — OpenAI exclusivity ended" section above), revenue share to [[Microsoft]] continues "independent of OpenAI's technology progress" but with an aggregate cap reportedly around $38B over the period (per FX Leaders coverage of the same court testimony). The $92B target therefore had at least two components — equity appreciation plus revenue-share economics — and the equity leg has already done all the work and then some.
+3. Court disclosure precedent for AGI-clause and revenue-share terms. The Musk lawsuit is pulling Microsoft's internal OpenAI economics into the public record one document at a time. Future court-disclosed exhibits could surface AGI-clause triggers, IP-access through 2032 details, and the original 32.5% → 27% dilution waterfall — all material to the [[OpenAI]] cap-table reconstruction.
 
 *Sources: [Bloomberg — Microsoft Targeted $92 Billion Return on Early OpenAI Investment](https://www.bloomberg.com/news/articles/2026-05-11/microsoft-targeted-92-billion-return-on-early-openai-investment), May 11 2026; [Seeking Alpha — Microsoft targeted $92B return on early OpenAI investment](https://seekingalpha.com/news/4590981-microsoft-targeted-92b-return-on-early-openai-investment-report); [FX Leaders — MSFT Stock Risks Breakdown Under $400 as OpenAI and Microsoft Set $38B Revenue Sharing Cap](https://www.fxleaders.com/news/2026/05/12/msft-stock-risks-breakdown-under-400-as-openai-and-microsoft-set-38b-revenue-sharing-cap/), May 12 2026.*
 
@@ -272,17 +272,17 @@ The disclosure matters for three reasons:
 
 ## Q2 FY2026 earnings (Jan 28, 2026)
 
-**Beat estimates, but stock -10% on slowing Azure growth**
+Beat estimates, but stock -10% on slowing Azure growth
 
 | Metric | Q2 FY26 | vs Est | YoY |
 |--------|---------|--------|-----|
 | Revenue | $81.27B | Beat ($80.27B) | +17% |
 | EPS (adj) | $4.14 | Beat ($3.97) | — |
 | Net income | $38.46B | — | +60% |
-| Azure growth | **39%** | — | Decel from 40% Q1 |
-| Gross margin | **68%** | — | 3-year low |
+| Azure growth | 39% | — | Decel from 40% Q1 |
+| Gross margin | 68% | — | 3-year low |
 
-**Segment breakdown:**
+Segment breakdown:
 
 | Segment | Revenue | YoY |
 |---------|---------|-----|
@@ -292,17 +292,17 @@ The disclosure matters for three reasons:
 
 Xbox content/services -5%. Microsoft 365 Copilot reached 15M commercial seats.
 
-**Key concerns:**
+Key concerns:
 - Azure deceleration (39% vs 40% Q1) spooked investors
 - Gross margin at 3-year low from AI infrastructure costs
 - Stock down 11% past 3 months on capex concerns
 
-**Positives:**
-- OpenAI investment gains: **$7.6B**
+Positives:
+- OpenAI investment gains: $7.6B
 - Revenue/EPS both beat consensus
 - AI infrastructure buildout on track
 
-**Forward guidance (Q3 FY26):**
+Forward guidance (Q3 FY26):
 - Revenue: $80.65-81.75B (mid $81.2B meets consensus)
 - Azure growth: 37-38% constant currency (consensus 37.1%)
 - Commercial RPO: $625B (+110% YoY), 45% tied to OpenAI's $250B cloud commitment
@@ -352,9 +352,9 @@ Unlike Google ([[Gemini]]-focused), Azure positioned as neutral AI facilitator:
 | [[Llama]] | [[Meta]] | ✓ |
 | [[DeepSeek]] R1 | [[DeepSeek]] | ✓ |
 
-**Result:** Azure grew **39%** in Q2 FY26 (ended Dec 31), down from 40% in Q1.
+Result: Azure grew 39% in Q2 FY26 (ended Dec 31), down from 40% in Q1.
 
-**Strategic logic:**
+Strategic logic:
 - Customers pick best model for use case
 - Microsoft wins regardless of which model dominates
 - Reduces OpenAI dependency risk
@@ -366,7 +366,7 @@ Unlike Google ([[Gemini]]-focused), Azure positioned as neutral AI facilitator:
 
 Nadella in "founder mode" — weekly cross-team AI meetings, hands-on product focus.
 
-**Key appointments:**
+Key appointments:
 
 | Role | Person | Background |
 |------|--------|------------|
@@ -376,9 +376,9 @@ Nadella in "founder mode" — weekly cross-team AI meetings, hands-on product fo
 | AI economics advisor | Rolf Harms | Long-standing MS strategist |
 | Office suite + LinkedIn | Ryan Roslansky | LinkedIn CEO |
 
-**Suleyman's unit:** Independent budget, own pay scale to compete for AI talent. Internal jealousy noted.
+Suleyman's unit: Independent budget, own pay scale to compete for AI talent. Internal jealousy noted.
 
-**Succession signals:**
+Succession signals:
 - 16 direct reports to Nadella
 - Young talent elevated: Asha Sharma (37), Charles Lamanna (37) leading AI product categories
 - Nadella is 58, same age Ballmer left — expected to stay several more years
@@ -387,7 +387,7 @@ Nadella in "founder mode" — weekly cross-team AI meetings, hands-on product fo
 
 ## Competitive position (Jan 2026)
 
-**AI coding tools market share (CB Insights):**
+AI coding tools market share (CB Insights):
 
 | Product | Share |
 |---------|-------|
@@ -397,12 +397,12 @@ Nadella in "founder mode" — weekly cross-team AI meetings, hands-on product fo
 
 Startups (Anthropic, [[Anysphere]]/[[Cursor]], Replit) eating into Microsoft's coding tool share.
 
-**Microsoft 365 Copilot:**
+Microsoft 365 Copilot:
 - 150M MAU
 - Behind [[ChatGPT]] (800M) and [[Gemini]] (650M)
 - Monetization challenge vs free competitors
 
-**Startup engagement:**
+Startup engagement:
 - Meeting with Applied Compute ([[AI agents]], ex-OpenAI founders)
 - Meeting with Mercor (AI hiring platform)
 
@@ -410,19 +410,19 @@ Startups (Anthropic, [[Anysphere]]/[[Cursor]], Replit) eating into Microsoft's c
 
 ## Fairwater AI campus design
 
-**Specialized DC architecture (per SemiAnalysis satellite analysis):**
+Specialized DC architecture (per SemiAnalysis satellite analysis):
 
 | Building Type | Stories | Power | Cooling | Purpose |
 |---------------|---------|-------|---------|---------|
-| **GPU Building** | 2 | 300MW | Liquid | Ultra-dense GPU clusters |
-| **CPU/Storage Building** | 1 | 48MW | Air | Storage, control plane, RL environments |
+| GPU Building | 2 | 300MW | Liquid | Ultra-dense GPU clusters |
+| CPU/Storage Building | 1 | 48MW | Air | Storage, control plane, RL environments |
 
-**Design rationale:**
-- GPUs must be physically close for **network coherence** — drives ultra-dense 2-story design
+Design rationale:
+- GPUs must be physically close for network coherence — drives ultra-dense 2-story design
 - CPU-based RL environments don't strictly need same availability zone
 - Co-location improves developer productivity
 
-**Implication:** Purpose-built AI DCs are fundamentally different from legacy facilities. Validates [[GPU deployment bottleneck]] — can't just retrofit existing DCs for Blackwell-class workloads.
+Implication: Purpose-built AI DCs are fundamentally different from legacy facilities. Validates [[GPU deployment bottleneck]] — can't just retrofit existing DCs for Blackwell-class workloads.
 
 See [[AI datacenter architecture]] for full design patterns.
 
@@ -438,7 +438,7 @@ Microsoft repatriated ~$130B under the [[Tax Cuts and Jobs Act]] one-time tax ho
 
 | Quarter | SI % float | Stock | Note |
 |---------|------------|-------|------|
-| **Q1 2026** | **0.65%** | ~$477 | Lowest of Mag 7 |
+| Q1 2026 | 0.65% | ~$477 | Lowest of Mag 7 |
 | Q4 2025 | 0.70% | $— | Fell from 52.5M to 48.5M shares |
 | Q3 2025 | — | $— | |
 | Q2 2025 | — | $— | |
@@ -449,7 +449,7 @@ See [[Short interest]] for interpretation framework.
 
 ## Debt profile
 
-$46.2B face value (Dec 2025), deleveraging. Rated AAA/Aaa — one of two AAA-rated corporates (with [[Apple]]). **No new cash issuance since 2017** — only exchange offers and assumed Activision debt. Interest coverage ~80x. See [[Microsoft bonds]] for full inventory.
+$46.2B face value (Dec 2025), deleveraging. Rated AAA/Aaa — one of two AAA-rated corporates (with [[Apple]]). No new cash issuance since 2017 — only exchange offers and assumed Activision debt. Interest coverage ~80x. See [[Microsoft bonds]] for full inventory.
 
 ---
 
@@ -466,21 +466,21 @@ $46.2B face value (Dec 2025), deleveraging. Rated AAA/Aaa — one of two AAA-rat
 | TTM revenue | $305.5B |
 | Q2 FY26 revenue | $81.27B (+17% YoY) |
 | Q2 FY26 EPS | $5.16 GAAP / $4.14 adj |
-| Azure growth | **39%** (decelerating to ~31-32%) |
+| Azure growth | 39% (decelerating to ~31-32%) |
 | Commercial backlog (RPO) | $625B (+110% YoY) |
 | TTM Free Cash Flow | $77.4B |
 | TTM CapEx | $83.1B |
 | Operating margin | 47.1% |
 | Gross margin | 68% (3-year low) |
 | ROE | 33.3% |
-| **Employees** | **228,000** (FY25, flat YoY) |
+| Employees | 228,000 (FY25, flat YoY) |
 | Primary chip | [[NVIDIA]] GPUs |
 | Custom silicon | Maia 200 (AI inference, 3nm), Cobalt (CPU) |
 | Foundry exposure | [[TSMC]] |
 | Long-term debt | $46.2B face (Dec 2025). See [[Microsoft bonds]] |
-| Short interest | **0.65%** (Jan 2026) — lowest Mag 7 |
+| Short interest | 0.65% (Jan 2026) — lowest Mag 7 |
 
-**Headcount by function (FY25):**
+Headcount by function (FY25):
 
 | Function | Employees |
 |----------|-----------|
@@ -497,14 +497,14 @@ $46.2B face value (Dec 2025), deleveraging. Rated AAA/Aaa — one of two AAA-rat
 
 ## For theses
 
-**[[Long TSMC]]**: All roads lead to TSMC
-**[[AI hyperscalers]]**: Tier 1, possibly largest spender
+[[Long TSMC]]: All roads lead to TSMC
+[[AI hyperscalers]]: Tier 1, possibly largest spender
 
 ---
 
 ## February 2026: India AI infrastructure commitment
 
-At the [[India AI Impact Summit 2026]] (Feb 16–20), [[Microsoft]] was part of a combined **$68B commitment** with [[Google]] and [[Amazon]] for AI and cloud infrastructure in [[India]] through 2030.
+At the [[India AI Impact Summit 2026]] (Feb 16–20), [[Microsoft]] was part of a combined $68B commitment with [[Google]] and [[Amazon]] for AI and cloud infrastructure in [[India]] through 2030.
 
 Reuters reported in May 2026 that Microsoft's largest India data center, in Hyderabad, was on track to go live in mid-2026, with local reporting around a roughly 300 MW campus. [[Asia Tech Lens]] uses that buildout as part of the broader India data-center demand stack: the issue is not only hyperscaler appetite, but whether local grids can deliver stable site-level power on schedule.
 
@@ -518,13 +518,13 @@ For Microsoft, India is therefore an Azure growth market and another proof point
 
 The Information reported (March 3, 2026) that [[OpenAI]] is building an internal code repository platform — a potential competitor to GitHub, which Microsoft acquired for $7.5B in 2018. The project was partly triggered by GitHub outages disrupting OpenAI's engineering teams.
 
-**Risk to Microsoft:**
-- GitHub has **1.3M+ paid Copilot subscribers** and is core developer infrastructure
+Risk to Microsoft:
+- GitHub has 1.3M+ paid Copilot subscribers and is core developer infrastructure
 - GitHub Copilot runs on OpenAI's models — the irony of OpenAI potentially competing with a product it powers
 - If OpenAI commercializes the repo, it would create a vertically integrated AI-native dev platform (Codex agent + native repo) that could be more seamless than GitHub + Copilot
 - Follows the classic partnership lifecycle: complementary → overlap → compete (ChatGPT already competes with Bing/Office AI)
 
-**Mitigating factors:**
+Mitigating factors:
 - Project is early-stage, may remain internal
 - GitHub's network effects (150M+ developers) are enormous
 - Microsoft still holds significant economic rights in OpenAI ($13B+ invested, 49% profit share)
@@ -551,7 +551,7 @@ MSFT closed Apr 24 at $424.62 (+2.1% on the day, lifted in part by the AI comple
 
 Microsoft reported Q3 FY2026 (March quarter) results: revenue $82.9B (+18% YoY, +15% constant-currency), EPS $4.27, [[Azure]] and other cloud services +40% YoY (+39% cc), beating internal guidance of 37-38%. Capital expenditure $31.9B for the quarter, ~$3.4B below the ~$35.3B Street consensus — the first time MSFT has missed quarterly capex on the low side in the AI buildout era. About two-thirds of Q3 capex went to short-lived assets (GPUs and CPUs), with the remainder on long-lived infrastructure (15+ year monetization).
 
-Capex guidance — the headline line: FY26 capex now guided to roughly $190B for calendar year 2026, of which approximately **$25B is attributed to higher component pricing**. The "component pricing" caveat is explicit memory-cost capitalization — Microsoft is the first hyperscaler to publicly book the [[Memory shortage 2025-2026|memory shortage]] as a capex bill rather than a margin hit. Q4 capex is guided to over $40B.
+Capex guidance — the headline line: FY26 capex now guided to roughly $190B for calendar year 2026, of which approximately $25B is attributed to higher component pricing. The "component pricing" caveat is explicit memory-cost capitalization — Microsoft is the first hyperscaler to publicly book the [[Memory shortage 2025-2026|memory shortage]] as a capex bill rather than a margin hit. Q4 capex is guided to over $40B.
 
 The structural read: Microsoft's capex now exceeds Street's prior $121-140B FY26 estimates ([[Jefferies]], [[Cantor]]) by ~50% at the high end. The Q3 capex undershoot is incidental — likely a server-build timing slip — and should reverse in Q4. The bigger signal is that the $25B "memory mark" framing tells investors the marginal capex dollar is increasingly going to the [[SK Hynix]]/[[Samsung]]/[[Micron]] complex rather than the [[NVIDIA]]/[[AMD]] complex on the GPU bill. [[Hyperscaler capex]] now needs revising up across the Big 4.
 

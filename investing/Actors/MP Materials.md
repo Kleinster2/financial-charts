@@ -48,7 +48,7 @@ MP Materials is the Western answer to [[China]]'s rare earth dominance:
 | Output | Light rare earths (Nd, Pr, La, Ce) |
 | Limitation | No heavy REE separation (yet) |
 
-**Challenge**: Mine produces ore, but separation historically went to [[China]]. MP is building domestic separation capacity.
+Challenge: Mine produces ore, but separation historically went to [[China]]. MP is building domestic separation capacity.
 
 ### Fort Worth, Texas ("Independence")
 
@@ -74,7 +74,7 @@ $500M deal announced July 2025:
 | Shipments | Begin 2027 |
 | Volume | Hundreds of millions of Apple devices |
 
-**Recycling angle**: Apple and MP spent 5 years piloting recycling tech. Commercial-scale recycling line at Mountain Pass will process:
+Recycling angle: Apple and MP spent 5 years piloting recycling tech. Commercial-scale recycling line at Mountain Pass will process:
 - Magnet scrap
 - End-of-life product components
 - Post-industrial waste
@@ -85,20 +85,20 @@ See [[Apple MP Materials partnership]] for full details.
 
 ## Pentagon backing
 
-**$400M DoD equity investment (July 2025):**
+$400M DoD equity investment (July 2025):
 
 | Metric | Value |
 |--------|-------|
 | Investment | $400M equity |
 | Investor | US Department of [[Defense]] |
-| Stake | **Largest shareholder** post-deal |
+| Stake | Largest shareholder post-deal |
 | Purpose | Magnet plant expansion |
 | Capacity target | 11,000 short tons/year by 2028 |
-| **Purchase guarantee** | **10-year commitment** to buy all magnet output |
+| Purchase guarantee | 10-year commitment to buy all magnet output |
 
-**Strategic logic**: US defense cannot depend on [[China]] for permanent magnets. MP is the only domestic alternative at scale.
+Strategic logic: US defense cannot depend on [[China]] for permanent magnets. MP is the only domestic alternative at scale.
 
-**Timeline:** Pentagon investment announced July 2025, followed 5 days later by Apple $500M deal.
+Timeline: Pentagon investment announced July 2025, followed 5 days later by Apple $500M deal.
 
 ---
 
@@ -111,42 +111,62 @@ See [[Apple MP Materials partnership]] for full details.
 | Recycling technology | Scaling risk |
 | Magnet manufacturing | Cost disadvantage vs [[China]] |
 
-**The gap**: MP does light rare earths (Nd, Pr). [[Dysprosium]] (the critical heavy REE) still comes from [[China]]. This limits how much supply chain risk MP can actually address.
+The gap: MP does light rare earths (Nd, Pr). [[Dysprosium]] (the critical heavy REE) still comes from [[China]]. This limits how much supply chain risk MP can actually address.
 
 ---
 
 ## Scale reality
 
-**MP vs [[China]] (CSIS analysis):**
+MP vs [[China]] (CSIS analysis):
 
 | Metric | MP Materials | [[China]] |
 |--------|--------------|-------|
 | 2025 NdFeB magnet output | ~1,000 metric tons | 100,000+ tons (2018) |
-| MP share of [[China]] 2018 | **<1%** | — |
+| MP share of [[China]] 2018 | <1% | — |
 | If MP scales 10x | 10,000 tons | — |
-| 10x MP share of [[China]] | **~7%** | — |
+| 10x MP share of [[China]] | ~7% | — |
 
-**Gracelin Baskaran (CSIS):** "God just didn't give us those deposits, so we're very reliant on other countries."
+Gracelin Baskaran (CSIS): "God just didn't give us those deposits, so we're very reliant on other countries."
 
-**Reality check:** Even aggressive scaling leaves US far short of self-sufficiency.
+Reality check: Even aggressive scaling leaves US far short of self-sufficiency.
 
 ---
 
 ## Investment case
 
-**Bull:**
+Bull:
 - Monopoly on US rare earth mining
 - Apple anchor customer ($500M)
 - DoD strategic priority
 - Recycling technology differentiator
 - [[China]] rare earth controls = tailwind
 
-**Bear:**
+Bear:
 - No heavy REE production
 - Cost disadvantage vs [[China]]
 - Small relative to global demand
 - Execution risk on expansion
 - Recycling economics unproven at scale
+
+---
+
+## Financials
+
+| Fiscal year | Revenue | Net income |
+|---|---|---|
+| 2021 | $332M | $135M |
+| 2022 | $528M | $289M |
+| 2023 | $253M | $24M |
+| 2024 | $204M | −$65M |
+| 2025 | $275M | −$86M |
+
+MP's reported financials are a rare-earth price cycle in miniature: revenue and net income peaked in 2022 (the NdPr boom), then fell back into losses by 2024-25 as prices collapsed. The equity's strategic premium is therefore a forward bet on the Pentagon/Apple offtake and US-China decoupling, not on current earnings.
+
+![[mp-fundamentals.png]]
+*Revenue and net income vs MP share price (left axis), annual fiscal data; the 2021-22 boom and 2023-25 bust track the NdPr rare-earth price cycle. Source: financial-charts.*
+
+![[mp-sankey.png]]
+*Latest-fiscal-year income-statement flow. Source: financial-charts.*
 
 ---
 
@@ -162,7 +182,7 @@ See [[Apple MP Materials partnership]] for full details.
 
 ## March 2026: critical minerals security bid
 
-MP surged **+8.3%** to $63.73 on March 4, 2026. The [[2026 Iran conflict market impact|Iran conflict]] amplified the critical minerals supply chain security narrative — rare earths are essential for defense electronics, guided munitions, and EV motors. Any escalation that disrupts global supply chains or heightens US-China tensions benefits the only integrated US rare earth mine-to-magnet operation.
+MP surged +8.3% to $63.73 on March 4, 2026. The [[2026 Iran conflict market impact|Iran conflict]] amplified the critical minerals supply chain security narrative — rare earths are essential for defense electronics, guided munitions, and EV motors. Any escalation that disrupts global supply chains or heightens US-China tensions benefits the only integrated US rare earth mine-to-magnet operation.
 
 ## March 30: -12% (2.8σ), stock halved from peak
 
@@ -190,6 +210,10 @@ On Jun 22, 2026 China added MP Materials to its entities list — alongside [[US
 
 ## Related
 
+### Securities
+- [[MP Materials securities note]] — MP equity-market companion (instruments, price history, REMX rare-earth benchmark)
+
+### Related notes
 - [[Apple]] — $500M partnership
 - [[Dysprosium]] — The element MP can't produce
 - [[Rare earth leverage]] — Why MP matters geopolitically
