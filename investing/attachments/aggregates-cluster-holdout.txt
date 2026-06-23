@@ -1,0 +1,22 @@
+Construction aggregates HOLDOUT TEST
+Cohort: VMC, MLM (N=2)
+Window: 2y, split temporally at midpoint
+Train: 2024-06-22 -> 2025-06-22 (124 obs)
+Test:  2025-06-22 -> 2026-06-22 (216 obs)
+
+--- TRAIN HALF (older) ---
+Intra-correlation:    0.9203
+PC1 explained var:    96.02%
+Pairwise range:       [0.920, 0.920]
+
+--- TEST HALF (newer) ---
+Intra-correlation:    0.8872
+PC1 explained var:    94.36%
+Pairwise range:       [0.887, 0.887]
+
+--- STABILITY DIAGNOSTICS ---
+Intra-corr delta:     -0.0331   (test - train)
+PC1 variance delta:   -1.65pp
+PC1 loadings corr:    nan    (1.0 = identical factor structure)
+
+VERDICT: STABLE — test/train ratio 0.96 (durable cluster across regimes)

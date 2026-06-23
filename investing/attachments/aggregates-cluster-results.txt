@@ -1,0 +1,66 @@
+Construction aggregates CLUSTER ANALYSIS
+Window 1y: 2025-07-08 -> 2026-06-22 (199 obs)
+Window 2y: 2024-07-15 -> 2026-06-22 (258 obs)
+Universe: 6 tickers across 5 groups
+Dendrogram cut threshold: 0.5
+
+--- 1Y INTRA-CLUSTER PAIRWISE CORRELATIONS ---
+Ticker   VMC   MLM
+Ticker            
+VMC     1.00  0.88
+MLM     0.88  1.00
+Average intra-cluster correlation: 0.883
+Range: [0.883, 0.883]
+
+--- AVG GROUP-PAIR CORRELATIONS (1Y) ---
+             cluster  materia  homebui  industr   market
+    cluster    0.883    0.603    0.659    0.618    0.436
+materials_e    0.603      nan    0.743    0.718    0.604
+homebuilder    0.659    0.743      nan    0.750    0.551
+industrials    0.618    0.718    0.750      nan    0.734
+     market    0.436    0.604    0.551    0.734      nan
+
+Cluster vs others:
+  cluster vs materials_etf: 0.603  (intra advantage: +0.281)
+  cluster vs homebuilders: 0.659  (intra advantage: +0.225)
+  cluster vs industrials: 0.618  (intra advantage: +0.266)
+  cluster vs market    : 0.436  (intra advantage: +0.448)
+
+--- HIERARCHICAL CLUSTERS (1Y, distance threshold 0.5) ---
+  Cluster 1: VMC, MLM, XLB, XHB, XLI, SPY
+
+--- CANDIDATE JOIN DISTANCES (1Y, average linkage, distance = 1-|corr|) ---
+ Step Left Right Distance Members
+    1  VMC   MLM    0.117 VMC+MLM
+
+--- PCA ON CANDIDATE COHORT (1Y) ---
+Explained variance ratio:
+  PC1: 94.17%
+  PC2: 5.83%
+
+PC1 loadings:
+VMC    0.707
+MLM    0.707
+
+--- PC1 INDEX WEIGHTS (1Y) ---
+PCA is run on standardized daily log returns. Raw PC1-mimic weights scale PC1 loading by inverse realized volatility.
+    PC1 loading Loading weight Ann vol Raw PC1-mimic weight
+VMC       0.707         50.00%  27.57%               49.50%
+MLM       0.707         50.00%  27.02%               50.50%
+
+--- WEEKLY-RETURN CROSS-CHECK (1Y, async-close robustness) ---
+Weeks: 40   Weekly intra-corr: 0.889 (daily 0.883)   Weekly PC1: 94.5% (daily 94.2%)
+
+--- HISTORICAL TIGHTNESS EVOLUTION (90D ROLLING) ---
+     Avg corr    PC1 Core corr Satellite corr Final join distance
+Date                                                             
+2019    0.782  89.1%     0.782            nan               0.218
+2020    0.930  96.5%     0.930            nan               0.070
+2021    0.916  95.8%     0.916            nan               0.084
+2022    0.938  96.9%     0.938            nan               0.062
+2023    0.917  95.8%     0.917            nan               0.083
+2024    0.861  93.1%     0.861            nan               0.139
+2025    0.902  95.1%     0.902            nan               0.098
+2026    0.852  92.6%     0.852            nan               0.148
+
+Latest 90D: avg corr 0.860, PC1 93.0%, core corr 0.860, satellite corr nan, final join distance 0.140

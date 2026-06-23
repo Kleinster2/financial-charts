@@ -1,0 +1,31 @@
+Construction aggregates THRESHOLD STABILITY SCAN
+Cohort size: 2
+
+--- ASSIGNMENT TABLE ---
+ threshold  n_subclusters  largest_subcluster_size  cohort_share_in_largest  contamination_count  intact
+      0.20              1                        2                      1.0                    0    True
+      0.25              1                        2                      1.0                    0    True
+      0.30              1                        2                      1.0                    0    True
+      0.35              1                        2                      1.0                    0    True
+      0.40              1                        2                      1.0                    0    True
+      0.45              1                        2                      1.0                    4   False
+      0.50              1                        2                      1.0                    4   False
+      0.55              1                        2                      1.0                    4   False
+      0.60              1                        2                      1.0                    4   False
+      0.65              1                        2                      1.0                    4   False
+      0.70              1                        2                      1.0                    4   False
+
+--- STABLE RANGES (intact cohort, no contamination) ---
+  [0.20, 0.40]  width = 0.20  (WIDE)
+Total stable width: 0.20
+
+--- VERDICT ---
+ROBUST: cohort survives a wide range of thresholds; cluster boundary is not sensitive to threshold choice.
+
+--- CONTAMINATION DETAIL (non-cohort names joining the cohort's largest cluster) ---
+  threshold 0.45: + XLB,XHB,XLI,SPY
+  threshold 0.50: + XLB,XHB,XLI,SPY
+  threshold 0.55: + XLB,XHB,XLI,SPY
+  threshold 0.60: + XLB,XHB,XLI,SPY
+  threshold 0.65: + XLB,XHB,XLI,SPY
+  threshold 0.70: + XLB,XHB,XLI,SPY

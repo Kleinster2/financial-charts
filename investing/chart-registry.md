@@ -1,5 +1,10 @@
 ---
 charts:
+  aggregates-performance.png:
+    tickers: VMC,MLM,XLB,XHB
+    normalize: true
+    start: 2019-01-01
+    primary: VMC
   automation-performance.png:
     tickers: ROK,EMR,FANUY,SIEGY,XLI
     normalize: true
