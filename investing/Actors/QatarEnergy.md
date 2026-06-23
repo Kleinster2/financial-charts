@@ -28,25 +28,25 @@ The [[2026 Iran conflict market impact|Iran conflict]] triggered the most signif
 |------|-------|
 | Feb 28 | US-Israel strikes on [[Iran]] begin; Iran retaliates against Gulf states |
 | Mar 1 | Iranian drones strike near Qatari energy facilities |
-| Mar 2 | **[[Ras Laffan]] — world's largest LNG terminal — shuts down operations.** First operational shutdown in history. Plugged into the North Field, the single largest gas field on earth (shared Qatar/Iran). |
-| Mar 4 | QatarEnergy **declares force majeure on LNG shipments** (Reuters). Liquefaction plants shut down — gas must be cooled to -260°F, and the shutdown/restart cycle takes **weeks minimum**. Cannot simply flip back on. |
+| Mar 2 | [[Ras Laffan]] — world's largest LNG terminal — shuts down operations. First operational shutdown in history. Plugged into the North Field, the single largest gas field on earth (shared Qatar/Iran). |
+| Mar 4 | QatarEnergy declares force majeure on LNG shipments (Reuters). Liquefaction plants shut down — gas must be cooled to -260°F, and the shutdown/restart cycle takes weeks minimum. Cannot simply flip back on. |
 
 ### Operational status (Mar 8 update — MEI briefing)
 
-As of March 8, QatarEnergy is **only shipping LNG from existing storage** — not producing. Liquefaction plants remain shut. The force majeure covers all forward commitments. Restart timeline remains **weeks minimum** regardless of any ceasefire — the cooling process cannot be rushed. Meanwhile, [[Strait of Hormuz]] traffic down to ~3 tankers/day exiting (vs normal ~50), making even storage shipments near-impossible.
+As of March 8, QatarEnergy is only shipping LNG from existing storage — not producing. Liquefaction plants remain shut. The force majeure covers all forward commitments. Restart timeline remains weeks minimum regardless of any ceasefire — the cooling process cannot be rushed. Meanwhile, [[Strait of Hormuz]] traffic down to ~3 tankers/day exiting (vs normal ~50), making even storage shipments near-impossible.
 
 ### Impact
 
 - [[Qatar]] supplies ~20% of global [[LNG]] trade
 - [[Europe]] gets 12-14% of its LNG from Qatar, all through [[Strait of Hormuz|Hormuz]]
-- European gas prices surged **54%** (Bloomberg); TTF spiked from ~$10.72 to $16.65 in under 10 days
+- European gas prices surged 54% (Bloomberg); TTF spiked from ~$10.72 to $16.65 in under 10 days
 - UK gas prices surged 50% in a single day on Mar 2 — biggest since Russia's Ukraine invasion
 - ~700 ships idle outside the Strait by Mar 7, including LNG carriers
 - With [[Russia]] sanctioned and Qatar offline, buyers must turn to US LNG ([[Cheniere]], [[Venture Global]]) — but US exporters are already at capacity
 
 ### Restart timeline
 
-Reuters (Mar 4): Liquefaction restart will take **weeks**. The cooling process is gradual and equipment must be carefully re-commissioned. Europe's gas restocking season starts in April — if Qatar can't resume before then, TTF could spike further, echoing 2022 dynamics.
+Reuters (Mar 4): Liquefaction restart will take weeks. The cooling process is gradual and equipment must be carefully re-commissioned. Europe's gas restocking season starts in April — if Qatar can't resume before then, TTF could spike further, echoing 2022 dynamics.
 
 ---
 
@@ -149,6 +149,14 @@ The force majeure on European contracts is particularly significant — [[Europe
 Connelly also emphasized that restoring international investor confidence in Qatari energy assets requires assurance "this doesn't happen again" — a condition he assessed as very far from being met. The above-ground risk landscape for Gulf energy investment has fundamentally changed.
 
 Source: MEI panel, March 20 2026 — Connelly
+
+---
+
+## Jun 2026 — LNG shipments resume through Hormuz (transit, not repair)
+
+The preliminary [[United States|US]]-[[Iran]] deal of Jun 15 reopened the [[Strait of Hormuz]] to commercial shipping toll-free for 60 days, and Qatari [[LNG]] flow restarted: FT counted four Qatari LNG tankers transiting the strait on Jun 22 — the most since the Feb 28 outbreak. This is the transit channel reopening, not a recovery of capacity. The 12.8 mtpa (17% of pre-war 77 mtpa) knocked out by the Mar 18 missile strikes on Trains S4 and S6 remains a 3-5 year repair; the resuming cargoes draw on Qatar's undamaged trains and storage now that vessels can move and the force majeure on the shipping leg eases. The structural North Field expansion delay and the multi-year force majeure on the S4/S6 contracts are unaffected by the shipping reopening. See [[2026 Strait of Hormuz crisis#Jun 15-22, 2026 — preliminary deal, blockade lift, and the 441-ship reopening backlog|the reopening timeline]].
+
+*Source: [[Financial Times]], "Hundreds of ships wait outside Gulf for full opening of Hormuz Strait," Jun 22 2026.*
 
 ---
 

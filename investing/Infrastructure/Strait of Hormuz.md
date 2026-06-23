@@ -276,6 +276,23 @@ That estimate fits the infrastructure note's longer-running distinction between 
 
 ---
 
+## Jun 2026 reopening — the 441-ship backlog and first real transits
+
+The preliminary [[United States|US]]-[[Iran]] deal of Jun 15 (toll-free passage for 60 days, US blockade lift, Iranian de-mining via a "coordination mechanism") produced the first visible reopening signal in the traffic data. FT analysis of ESA Sentinel-1 radar imagery counted 441 large tanker-sized vessels staging off [[Sohar]] and [[Fujairah]] on the Gulf of Oman side on Jun 21 — the physical realization of the pile-up this note flagged in March, when the strait worked as a "one-way valve" (ships leaving, almost none entering) and a vessel shortage inside the Gulf looked set to delay the resumption of exports.
+
+| Traffic signal | Reading (Jun 20-22) |
+|---|---|
+| Vessels staging off Sohar/Fujairah | 441 (Jun 21), down 42 from ~483 five days earlier as operators began attempting transits |
+| Qatari LNG carriers transiting | 4 on Jun 22 — highest since Feb 28 |
+| Notable transit | [[MSC]] Qingdao exited Jun 20 via the Omani coast, transponder on — after two MSC ships were earlier seized by the [[IRGC]] |
+| Main channel (Jun 21) | No significant traffic — Iran declared the strait closed again Jun 20 over Israeli strikes on Lebanon; CENTCOM disputed, saying traffic rose |
+
+The backlog confirms the structural point the [[Amrita Sen]] / [[Nadia Martin Wiggen]] commercial-confidence thesis and the [[Hormuz Permanent Risk Premium]] note have made throughout: clearing the legal/military barrier (a deal) does not instantly clear the physical one (hundreds of ships, war-risk cover, mine confidence, and an Iranian veto re-exercised within five days). Full deal terms, timeline, and the muted oil-price reaction in [[2026 Strait of Hormuz crisis#Jun 15-22, 2026 — preliminary deal, blockade lift, and the 441-ship reopening backlog|the event note]].
+
+*Source: [[Financial Times]], "Hundreds of ships wait outside Gulf for full opening of Hormuz Strait" (Ryo Namiki, Chris Cook, Alice Hancock), Jun 22 2026; ESA Sentinel-1; US-Iran preliminary MOU (Jun 15, full text Jun 18, NPR).*
+
+---
+
 ## Related
 
 - [[Iran]] — controls northern shore

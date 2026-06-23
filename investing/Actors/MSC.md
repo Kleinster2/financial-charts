@@ -18,8 +18,8 @@ World's largest container shipping company by fleet size and capacity. Private, 
 ## Ownership
 
 Wholly owned by the Aponte-Diamant family:
-- Founded by **Gianluigi Aponte** and **Rafaela Aponte-Diamant**
-- Currently led by **Diego Aponte**
+- Founded by Gianluigi Aponte and Rafaela Aponte-Diamant
+- Currently led by Diego Aponte
 - Never publishes financial results
 
 ## Market Position
@@ -56,11 +56,17 @@ Invoked the Bills of Lading Act (1855) on Mar 4 — all containers taken to near
 
 *Source: FT, Mar 10, 2026*
 
+### Transit resumption (Jun 2026)
+
+After the Jun 15 preliminary [[United States|US]]-[[Iran]] deal, MSC's container ship MSC Qingdao left the Gulf through the [[Strait of Hormuz]] on Jun 20, hugging the Omani coast — and did so with its transponder on, broadcasting its position. That is a notable confidence signal: MSC had several vessels struck by Iranian forces during the war and two taken hostage by the [[IRGC]], so a visible (non-dark) transit indicates materially lower perceived attack risk once the accord and US blockade lift were in place. See [[2026 Strait of Hormuz crisis]].
+
+*Source: [[Financial Times]], "Hundreds of ships wait outside Gulf for full opening of Hormuz Strait," Jun 22 2026.*
+
 ---
 
 ## Investment Angle
 
-**Not directly investable** — private company.
+Not directly investable — private company.
 
 **Indirect exposure:**
 - Competitors: [[Maersk]], [[COSCO]] (public)

@@ -7,6 +7,8 @@ tags: [concept, oil, geopolitics, shipping, currency, iran]
 
 [[Iran]] has converted the [[Strait of Hormuz]] blockade from a blunt denial-of-service weapon into a gatekeeping operation — charging transit fees, requiring bilateral diplomatic approval, and floating a [[yuan]] settlement condition for oil cargoes. The result is a de facto toll system on the world's most critical energy chokepoint, one that simultaneously generates revenue for a wartime regime, splits the coalition of affected countries into individual supplicants, and probes the structural foundations of the [[Petrodollar|petrodollar]] order.
 
+*No chart data applicable: the transit regime is a legal / fee / settlement mechanism, not a single tradeable series. Its priced consequences live in [[2026 Strait of Hormuz crisis]] (the oil tape) and the [[yuan]] / [[Petrodollar]] reserve-share trend.*
+
 ## The story
 
 The blockade was always going to evolve. When [[Iran]] closed the [[Strait of Hormuz]] on February 28 in response to US-Israeli strikes, the initial posture was binary: closed to everyone except Iranian-flagged vessels bound for [[China]]. But a binary blockade is strategically wasteful — it punishes potential allies alongside enemies and foregoes the leverage that selective access provides. By the second week of March, Iran shifted to a permission-based regime that gives it far more granular control.
@@ -68,6 +70,24 @@ This note should therefore distinguish three things in future updates:
 | Freight market | Route quotes return to pre-war range and stay there | Freight prices the deal, but residual vessel scarcity keeps rates elevated |
 
 *Sources: [Felipe Germini / ENERGY Pipeline, "The Freight Market Already Priced the Deal. The Strait Has Not Been Told."](https://fgermini.substack.com/p/the-freight-market-already-priced), May 29 2026 (paid after public section); [Felipe Germini / ENERGY Pipeline, "The Reopening Trap"](https://fgermini.substack.com/p/the-reopening-trap), May 29 2026 (paid after public section).*
+
+## Jun 15, 2026 - the 60-day toll-free window codifies the toll-after question
+
+The preliminary [[United States|US]]-[[Iran]] MOU of Jun 15 (full text published Jun 18) is the first time the transit-fee question moves from Iranian rhetoric and case-by-case improvisation into a dated, bilateral term sheet. The deal reopens the [[Strait of Hormuz]] to commercial shipping toll-free — but only for 60 days, with Iran using "best efforts" for safe passage and de-mining the main lanes via a US-Iran "coordination mechanism."
+
+The time-box is the substance. By making passage explicitly free only through ~mid-August, the MOU concedes the structure the regime has been building toward since March: after the free window, Iran can reintroduce a charge. FT reported Iran has signaled it could then require ships to pay for passage "in some form, for example by buying Iranian insurance" — the [[#May 27, 2026 - insurance regime test|"Hormuz Safe" safe-passage insurance product]] of late May, repackaged from a wartime improvisation into a post-deal entitlement. The $2M ad hoc toll of March becomes a standing insurance levy by August.
+
+That collides with the unresolved insurance-paper problem this note has tracked:
+
+| Layer | Status after Jun 15 deal | Binding constraint |
+|---|---|---|
+| Physical lane | Toll-free + de-mining commitment; first transponder-on transits ([[MSC]] Qingdao, 4 Qatari LNG carriers) | Iran's Jun 20 re-closure shows the lane is still permissioned, not neutral |
+| Legal/insurance paper | Toll-free 60 days sidesteps the sanctioned-payment problem temporarily | After mid-August, buying Iranian ([[IRGC]]-linked) cover still risks voiding Western P&I policies and triggering FTO material-support exposure |
+| Fee regime | Deferred 60 days | A post-window insurance levy is the codified successor to the $2M toll — the cleanest test of whether Hormuz returns to neutral passage or settles into a permissioned, surcharge-loaded lane |
+
+The 60-day clock converts the open question of this note — neutral artery vs permissioned toll road — into a dated event. If the final deal (the Jun 21 "road map") leaves the toll-after-60-days structure intact, the [[Hormuz Permanent Risk Premium]] acquires a contractual floor: passage is free now because Washington needed a deal, but the mechanism to charge rent on the chokepoint is written into the agreement, not merely asserted by Tehran. See [[2026 Strait of Hormuz crisis#Jun 15-22, 2026 — preliminary deal, blockade lift, and the 441-ship reopening backlog|the event-note timeline]] for the shipping and price tape.
+
+*Sources: [[Financial Times]], "Hundreds of ships wait outside Gulf for full opening of Hormuz Strait," Jun 22 2026; [NPR, US-Iran preliminary MOU full text](https://www.npr.org/2026/06/18/nx-s1-5863027/us-iran-trump-memorandum-of-understanding-full-text), Jun 18 2026; [NPR, US-Iran initial deal](https://www.npr.org/2026/06/15/nx-s1-5858590/us-iran-deal-updates), Jun 15 2026.*
 
 ## Reference
 

@@ -716,6 +716,62 @@ This aligns the Croft/RBC read with the existing [[Hormuz Transit Regime]] and [
 
 *Source: [RBC Capital Markets, "Why is the market responding to Iran deals that fail to materialize?"](https://www.rbccm.com/en/insights/2026/06/why-is-the-market-responding-to-iran-deals-that-fail-to-materialize), Jun. 4 2026.*
 
+## Jun 15-22, 2026 — preliminary deal, blockade lift, and the 441-ship reopening backlog
+
+The reopening trap the note has tracked since late May turned concrete in mid-June: a preliminary [[United States|US]]-[[Iran]] deal, the first transponder-on commercial transits since February, and a satellite-measured armada of ~441 ships staging to run the strait — followed within days by Iran declaring the strait closed again over an unrelated front. The headline reopening arrived; commercial and strategic normalization did not.
+
+### The Jun 15 preliminary MOU
+
+On Jun 15 US and Iranian negotiators reached a preliminary memorandum of understanding, mediated through [[Pakistan as US-Iran Mediator|Pakistani]] and Swiss channels, pairing four core terms:
+
+| Term | Detail |
+|------|--------|
+| Strait reopening | Commercial shipping toll-free for 60 days; Iran to use "best efforts" for safe passage Persian Gulf ↔ [[Gulf of Oman]] |
+| Blockade lift | US to begin removing its naval blockade of Iranian ports immediately; full removal within 30 days |
+| Demining | Iran to de-mine the main shipping lanes via a US-Iran "coordination mechanism" ([[JD Vance]]: "a lot of good progress") |
+| Ceasefire | 60-day extension; nuclear program (enrichment levels, HEU stockpile) deferred to talks inside that window |
+
+VP [[JD Vance]] led the US side; the full MOU text was published Jun 18, and by Jun 21 mediators said the two sides had agreed a "road map" for a final deal. The structure is the [[#May 6-7, 2026 — "Project Freedom" pause + 14-point MoU framework + Gulf airspace denials|May 6-7 14-point framework]] revived and actually initialed — a Strait-for-blockade swap with the hard nuclear endpoint postponed, the "this could take months" contour [[Laura Davison]] described Apr 28.
+
+The toll-free window is explicitly time-boxed. Iran has signaled that after the 60 days it could require ships to pay for passage — for example by buying Iranian insurance — which is the [[Hormuz Transit Regime#May 27, 2026 - insurance regime test|"Hormuz Safe" safe-passage product]] reframed as a deal term rather than a wartime improvisation. The free window expires ~mid-August; see [[Hormuz Transit Regime]] for what passage costs, and who underwrites it, when the clock runs out.
+
+### The 441-ship backlog (FT / ESA Sentinel-1, Jun 21)
+
+FT analysis of European Space Agency (ESA) Sentinel-1 radar-satellite imagery counted 441 large tanker-sized vessels clustered off [[Sohar]] and [[Fujairah]], the main ports on the eastern (Gulf of Oman) side of the strait, on a pass at ~2:15pm GMT Sunday Jun 21. Several shipping companies said they were deliberately gathering vessels near the Gulf to exploit a full reopening.
+
+| Metric | Value | Read |
+|--------|-------|------|
+| Large vessels staging off Sohar/Fujairah | 441 (Jun 21) | Up markedly vs the April blockade-onset level |
+| Change vs prior pass (~Jun 16) | −42 | Operators began running transits last week as the deal raised perceived safety |
+| Main-channel traffic (Jun 21) | None significant | Reflecting Iran's Jun 20 re-closure declaration |
+| Qatari LNG tankers transiting | 4 (Jun 22 AM) | Highest since the Feb 28 outbreak |
+
+The −42 net drawdown is the tell: the backlog is enormous by historical standards but already draining at the margin as operators judged the post-deal corridor safe enough to attempt. Radar (vs optical) imagery is the right instrument — it sees at night, through cloud, and captures vessels not broadcasting AIS — though it only sizes ships, not identifies them. The FT's interactive Sentinel-1 ship-count visualization did not load in-session; its data is ingested here as extracted figures rather than a copied chart. The accompanying Getty image (vessels anchored off Port Sultan Qaboos, [[Oman]], Jun 19) and a Reuters image of vessels waiting Jun 21 are publisher-licensed and not reproduced.
+
+### First real commercial transits — and the Jun 20 re-closure
+
+Two confidence signals broke the stalemate:
+
+- On Jun 20 the container ship MSC Qingdao ([[MSC]]) exited the Gulf via a route hugging the Omani coast, with its transponder on, broadcasting its position. MSC had previously had several vessels struck by Iranian forces and two taken hostage by the [[IRGC]], so a transponder-on transit signals materially lower perceived attack risk post-deal.
+- Iranian tankers have moved more freely in and out of the Gulf since the US agreed Jun 17 (Wed) to lift its blockade of Iranian ports and vessels.
+
+But the corridor remains permissioned, not neutral. On Saturday Jun 20 Iran's joint military command declared the strait closed again, citing continued Israeli strikes on Lebanon (16+ killed in the Nabatieh/Sidon districts that day, despite a renewed Lebanon ceasefire on Jun 19) as a violation of its agreement with the US. [[United States|US]] CENTCOM disputed the closure, saying commercial traffic actually increased Saturday and "traffic continues to flow." Iran and the US were negotiating in Switzerland through Sunday into Monday, a US official describing the talks as "clarifying some of the confusing messaging from Iran" on Hormuz and "building deconfliction mechanisms" to keep the waterway open.
+
+### Read-through — the financial-physical gap at its widest
+
+The Jun 20 re-closure was triggered by a third-front event (Israel-Lebanon), not by anything in the strait — the cleanest demonstration yet of the [[Hormuz Permanent Risk Premium]] mechanism: Iran retains a costless, instantly-exercisable veto over the chokepoint and will pull it for leverage on unrelated fronts. Yet the oil market barely flinched.
+
+| Date | Brent (BZ=F) | WTI (CL=F) | Note |
+|------|---|---|---|
+| Jun 12 | $87.33 | $84.88 | Pre-deal |
+| Jun 15 | $83.51 | $81.16 | Preliminary MOU announced |
+| Jun 17 | $79.55 | $76.79 | US begins lifting blockade |
+| Jun 22 | $78.09 | $74.13 | Strait "closed again" (Jun 20) — no spike |
+
+Brent fell ~$9 (≈11%) from pre-deal to ~$78, only ~$3 above the ~$75 pre-war level — the cyclical war premium is now almost fully unwound, and the Jun 20 re-closure produced no spike at all (contrast the March closure that took Brent to $126). The market has learned to discount Iranian closure declarations, consistent with CENTCOM's real-time "traffic continues to flow" rebuttal. At ~$78 Brent the curve sits well below [[Robert Pape]]'s $90 "durably risky" test — paper oil is pricing near-complete normalization while 441 ships wait offshore and the main channel is empty. That is the [[#May 29 Substack theme read - freight prices a deal before the strait normalizes|three-states framework]] at its extreme: headline reopening priced in full, commercial reopening (the backlog) and strategic normalization (the time-boxed toll, the standing Iranian veto) unresolved. The 441-vessel armada is the physical proof — and is precisely the "vessel shortage inside the Gulf delays the resumption of exports" one-way-valve dynamic the [[Strait of Hormuz]] note flagged in March.
+
+*Sources: [[Financial Times]], "Hundreds of ships wait outside Gulf for full opening of Hormuz Strait" (Ryo Namiki, Chris Cook, Alice Hancock), Jun 22 2026; [NPR, "US and Iran announce an initial deal to end the war and reopen the Strait of Hormuz"](https://www.npr.org/2026/06/15/nx-s1-5858590/us-iran-deal-updates), Jun 15 2026; [NPR, preliminary MOU full text](https://www.npr.org/2026/06/18/nx-s1-5863027/us-iran-trump-memorandum-of-understanding-full-text), Jun 18 2026; [NPR, "US and Iran agree to a 'road map'"](https://www.npr.org/2026/06/21/g-s1-129222/us-iran-deal-lebanon-israel-strait-hormuz-jd-vance), Jun 21 2026; [Al Jazeera, "Israeli attacks kill dozens in Lebanon as US, Iran to hold talks"](https://www.aljazeera.com/news/2026/6/20/us-envoy-headed-for-switzerland-israeli-strikes-on-lebanon-threaten-talks), Jun 20 2026; [Bloomberg, "Iran Says Strait of Hormuz Has Been Closed"](https://www.bloomberg.com/news/articles/2026-06-20/iran-says-strait-of-hormuz-has-been-closed-tasnim-reports), Jun 20 2026; [CNBC, "Shipping stalls in Strait of Hormuz"](https://www.cnbc.com/2026/06/22/strait-of-hormuz-iran-us-shipping-oil.html), Jun 22 2026. Brent/WTI from canonical `futures_prices_long` (BZ=F, CL=F), refreshed Jun 22 2026.*
+
 ## Analyst reaction to ceasefire (Apr 8)
 
 The ceasefire exposed a sharp split between physical-market and financial-market analysts:
