@@ -1,0 +1,38 @@
+# Chinese EV startups — taxonomy open-question #11 (thesis-backed, [[Chinese EVs enter US]]).
+# Do the three US-listed Chinese EV pure-plays (NIO, XPeng, Li Auto) trade as one
+# China-EV-startup factor, or = (a) Tesla, (b) the US EV startups LCID/RIVN as generic
+# "unprofitable EV-startup beta", (c) the EV ETF KARS, or (d) broad auto CARZ?
+# BYDDY (the profitable Chinese EV giant) is an adjacent control: does the startup
+# trio cohere with the mass-market incumbent? KARS is gappy (189 obs, H2-25) so it
+# trims the aligned window; the candidate-only diagnostics are unaffected, and the
+# gappy-control intra-advantages (KARS, FXI) are cross-checked on clean windows.
+name: Chinese EV startups
+primary: NIO
+prefix: china-ev-cluster
+threshold: 0.5
+window_end: 2026-06-18
+definition_date: 2026-06-22
+history_start: 2020-09-01
+
+groups:
+  cluster:
+    color: "#2962FF"
+    tickers: [NIO, XPEV, LI]
+  us_ev_leader:
+    color: "#E53935"
+    tickers: [TSLA]
+  china_ev_giant:
+    color: "#00897B"
+    tickers: [BYDDY]
+  us_ev_startups:
+    color: "#7E57C2"
+    tickers: [LCID, RIVN]
+  ev_etf:
+    color: "#FB8C00"
+    tickers: [KARS]
+  auto_etf:
+    color: "#FDD835"
+    tickers: [CARZ]
+  market:
+    color: "#9E9E9E"
+    tickers: [SPY, QQQ]

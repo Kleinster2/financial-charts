@@ -1,0 +1,27 @@
+# China EV incl. BYD (4-name extension of china_ev.yaml) — the dendrogram clusters
+# NIO/XPEV/LI with BYDDY, so the natural "China EV" factor is the 4-name. This config
+# characterizes the threshold band once the sibling giant is included (the 3-name is
+# "boundary-dependent" only because BYDDY joins at 0.50, not because an ETF contaminates).
+name: Chinese EV incl BYD
+primary: NIO
+prefix: china-ev-byd
+threshold: 0.5
+window_end: 2026-06-18
+definition_date: 2026-06-22
+history_start: 2020-09-01
+
+groups:
+  cluster:
+    tickers: [NIO, XPEV, LI, BYDDY]
+  us_ev_leader:
+    tickers: [TSLA]
+  us_ev_startups:
+    tickers: [LCID, RIVN]
+  ev_etf:
+    tickers: [KARS]
+  china_beta:
+    tickers: [FXI]
+  auto_etf:
+    tickers: [CARZ]
+  market:
+    tickers: [SPY, QQQ]

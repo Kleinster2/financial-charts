@@ -1,0 +1,82 @@
+Chinese internet platforms CLUSTER ANALYSIS
+Window 1y: 2025-07-08 -> 2026-06-18 (159 obs)
+Window 2y: 2024-07-15 -> 2026-06-18 (218 obs)
+Universe: 14 tickers across 4 groups
+Dendrogram cut threshold: 0.5
+
+--- 1Y INTRA-CLUSTER PAIRWISE CORRELATIONS ---
+Ticker  BABA    JD   PDD  BIDU  NTES
+Ticker                              
+BABA    1.00  0.73  0.46  0.68  0.42
+JD      0.73  1.00  0.52  0.56  0.36
+PDD     0.46  0.52  1.00  0.40  0.35
+BIDU    0.68  0.56  0.40  1.00  0.44
+NTES    0.42  0.36  0.35  0.44  1.00
+Average intra-cluster correlation: 0.491
+Range: [0.351, 0.725]
+
+--- AVG GROUP-PAIR CORRELATIONS (1Y) ---
+             cluster  us_inte  china_e      etf
+    cluster    0.491    0.206    0.655    0.400
+us_internet    0.206    0.445    0.307    0.520
+  china_etf    0.655    0.307    0.842    0.614
+        etf    0.400    0.520    0.614    0.853
+
+Cluster vs others:
+  cluster vs us_internet: 0.206  (intra advantage: +0.284)
+  cluster vs china_etf : 0.655  (intra advantage: +-0.164)
+  cluster vs etf       : 0.400  (intra advantage: +0.091)
+
+--- HIERARCHICAL CLUSTERS (1Y, distance threshold 0.5) ---
+  Cluster 1: BABA, JD, PDD, BIDU, KWEB, FXI, CQQQ
+  Cluster 2: NTES
+  Cluster 3: AMZN, GOOGL, SPY, QQQ, VWO
+  Cluster 4: META
+
+--- CANDIDATE JOIN DISTANCES (1Y, average linkage, distance = 1-|corr|) ---
+ Step Left            Right Distance               Members
+    1 BABA               JD    0.275               BABA+JD
+    2 BIDU          BABA+JD    0.383          BIDU+BABA+JD
+    3  PDD     BIDU+BABA+JD    0.539      PDD+BIDU+BABA+JD
+    4 NTES PDD+BIDU+BABA+JD    0.608 NTES+PDD+BIDU+BABA+JD
+
+--- PCA ON CANDIDATE COHORT (1Y) ---
+Explained variance ratio:
+  PC1: 59.91%
+  PC2: 14.27%
+  PC3: 12.94%
+  PC4: 8.06%
+  PC5: 4.83%
+
+PC1 loadings:
+BABA    0.504
+JD      0.484
+PDD     0.401
+BIDU    0.467
+NTES    0.366
+
+--- PC1 INDEX WEIGHTS (1Y) ---
+PCA is run on standardized daily log returns. Raw PC1-mimic weights scale PC1 loading by inverse realized volatility.
+     PC1 loading Loading weight Ann vol Raw PC1-mimic weight
+BABA       0.504         22.68%  43.04%               19.50%
+JD         0.484         21.80%  32.37%               24.91%
+PDD        0.401         18.04%  34.35%               19.43%
+BIDU       0.467         21.01%  49.33%               15.76%
+NTES       0.366         16.48%  29.88%               20.40%
+
+--- WEEKLY-RETURN CROSS-CHECK (1Y, async-close robustness) ---
+Weeks: 31   Weekly intra-corr: 0.291 (daily 0.491)   Weekly PC1: 45.3% (daily 59.9%)
+
+--- HISTORICAL TIGHTNESS EVOLUTION (90D ROLLING) ---
+     Avg corr    PC1 Core corr Satellite corr Final join distance
+Date                                                             
+2019    0.475  59.0%     0.420          0.567               0.655
+2020    0.582  67.6%     0.535          0.648               0.600
+2021    0.441  55.6%     0.490          0.425               0.614
+2022    0.804  84.4%     0.816          0.786               0.242
+2023    0.684  74.9%     0.667          0.706               0.371
+2024    0.488  60.4%     0.411          0.578               0.653
+2025    0.528  63.6%     0.486          0.605               0.607
+2026    0.496  60.2%     0.451          0.566               0.600
+
+Latest 90D: avg corr 0.523, PC1 62.5%, core corr 0.461, satellite corr 0.617, final join distance 0.592

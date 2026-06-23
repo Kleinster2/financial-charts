@@ -1,0 +1,81 @@
+Chinese EV incl BYD CLUSTER ANALYSIS
+Window 1y: 2025-07-08 -> 2026-06-18 (159 obs)
+Window 2y: 2024-07-15 -> 2026-06-18 (218 obs)
+Universe: 12 tickers across 7 groups
+Dendrogram cut threshold: 0.5
+
+--- 1Y INTRA-CLUSTER PAIRWISE CORRELATIONS ---
+Ticker   NIO  XPEV    LI  BYDDY
+Ticker                         
+NIO     1.00  0.60  0.53   0.47
+XPEV    0.60  1.00  0.54   0.52
+LI      0.53  0.54  1.00   0.53
+BYDDY   0.47  0.52  0.53   1.00
+Average intra-cluster correlation: 0.533
+Range: [0.475, 0.602]
+
+--- AVG GROUP-PAIR CORRELATIONS (1Y) ---
+             cluster  us_ev_l  us_ev_s   ev_etf  china_b  auto_et   market
+    cluster    0.533    0.247    0.246    0.530    0.558    0.398    0.324
+us_ev_leade    0.247      nan    0.296    0.470    0.340    0.593    0.619
+us_ev_start    0.246    0.296    0.383    0.448    0.241    0.419    0.402
+     ev_etf    0.530    0.470    0.448      nan    0.693    0.813    0.687
+ china_beta    0.558    0.340    0.241    0.693      nan    0.594    0.534
+   auto_etf    0.398    0.593    0.419    0.813    0.594      nan    0.867
+     market    0.324    0.619    0.402    0.687    0.534    0.867    0.935
+
+Cluster vs others:
+  cluster vs us_ev_leader: 0.247  (intra advantage: +0.285)
+  cluster vs us_ev_startups: 0.246  (intra advantage: +0.286)
+  cluster vs ev_etf    : 0.530  (intra advantage: +0.002)
+  cluster vs china_beta: 0.558  (intra advantage: +-0.025)
+  cluster vs auto_etf  : 0.398  (intra advantage: +0.135)
+  cluster vs market    : 0.324  (intra advantage: +0.208)
+
+--- HIERARCHICAL CLUSTERS (1Y, distance threshold 0.5) ---
+  Cluster 1: NIO, XPEV, LI, BYDDY, FXI
+  Cluster 2: TSLA, KARS, CARZ, SPY, QQQ
+  Cluster 3: RIVN
+  Cluster 4: LCID
+
+--- CANDIDATE JOIN DISTANCES (1Y, average linkage, distance = 1-|corr|) ---
+ Step     Left    Right Distance           Members
+    1      NIO     XPEV    0.398          NIO+XPEV
+    2       LI    BYDDY    0.466          LI+BYDDY
+    3 NIO+XPEV LI+BYDDY    0.485 NIO+XPEV+LI+BYDDY
+
+--- PCA ON CANDIDATE COHORT (1Y) ---
+Explained variance ratio:
+  PC1: 64.96%
+  PC2: 13.73%
+  PC3: 11.49%
+  PC4: 9.81%
+
+PC1 loadings:
+NIO      0.503
+XPEV     0.514
+LI       0.500
+BYDDY    0.483
+
+--- PC1 INDEX WEIGHTS (1Y) ---
+PCA is run on standardized daily log returns. Raw PC1-mimic weights scale PC1 loading by inverse realized volatility.
+      PC1 loading Loading weight Ann vol Raw PC1-mimic weight
+NIO         0.503         25.14%  63.28%               18.69%
+XPEV        0.514         25.68%  51.12%               23.63%
+LI          0.500         25.03%  41.95%               28.07%
+BYDDY       0.483         24.14%  38.36%               29.61%
+
+--- WEEKLY-RETURN CROSS-CHECK (1Y, async-close robustness) ---
+Weeks: 31   Weekly intra-corr: 0.428 (daily 0.533)   Weekly PC1: 58.3% (daily 65.0%)
+
+--- HISTORICAL TIGHTNESS EVOLUTION (90D ROLLING) ---
+     Avg corr    PC1 Core corr Satellite corr Final join distance
+Date                                                             
+2021    0.710  78.7%     0.705          0.710               0.397
+2022    0.782  83.8%     0.778          0.783               0.295
+2023    0.658  74.4%     0.642          0.672               0.417
+2024    0.542  65.9%     0.529          0.552               0.522
+2025    0.550  66.3%     0.555          0.547               0.485
+2026    0.534  65.2%     0.562          0.524               0.496
+
+Latest 90D: avg corr 0.486, PC1 61.5%, core corr 0.498, satellite corr 0.475, final join distance 0.545

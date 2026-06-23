@@ -51,6 +51,7 @@ Top 10 = ~60% of fund. Essentially a bet on China's consumer internet platform o
 
 ## Related
 
+- [[Chinese internet]] — the validated-but-ETF-replicable ADR cohort this fund prices: BABA/JD/PDD/BIDU/NTES cohere at the floor (intra ~0.50) but correlate MORE with KWEB than with each other (−0.21 intra-advantage), so KWEB is the better expression
 - [[DRGN]] — China generative AI pure-play ETF (25 holdings, 0.39% ER)
 - [[CQQQ]] — broader China technology ETF (157 holdings, 0.65% ER)
 - [[China]] — country overview

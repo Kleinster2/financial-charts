@@ -1,52 +1,52 @@
-Chinese internet platforms PERMUTATION TESTS
-Window: 2025-06-20 -> 2026-06-18 (251 obs)
-Candidate cohort: BABA, JD, PDD, BIDU, NTES (N=5)
-Observed intra-corr: 0.5066    Observed PC1: 61.04%
+Chinese EV startups PERMUTATION TESTS
+Window: 2025-07-08 -> 2026-06-18 (198 obs)
+Candidate cohort: NIO, XPEV, LI (N=3)
+Observed intra-corr: 0.5436    Observed PC1: 69.58%
 
 --- INDEPENDENCE NULL ---
 Permutations: 10000
 Block size: 1
 Intra-cluster correlation:
-  Null mean:        -0.0000
-  Null 95th pct:    0.0339
-  Null 99th pct:    0.0478
+  Null mean:        0.0003
+  Null 95th pct:    0.0696
+  Null 99th pct:    0.0978
   p-value (right):  0.000100    -> REJECTS independence null at p < 0.001
 PC1 explained variance:
-  Null mean:        23.56%
-  Null 95th pct:    25.30%
-  Null 99th pct:    26.19%
+  Null mean:        37.09%
+  Null 95th pct:    40.11%
+  Null 99th pct:    41.75%
   p-value (right):  0.000100    -> REJECTS independence null at p < 0.001
 
 --- RANDOM-BASKET NULL ---
 Permutations: 10000
 Universe source: DB prices_long (1170 tickers with >=200 obs in window)
-Pool size: 411
+Pool size: 1167
 Intra-cluster correlation:
-  Null mean:        0.1674
-  Null 95th pct:    0.3143
-  Null 99th pct:    0.3895
-  p-value (right):  0.000700    -> REJECTS random-basket null at p < 0.001
+  Null mean:        0.1517
+  Null 95th pct:    0.3588
+  Null 99th pct:    0.4720
+  p-value (right):  0.002600    -> REJECTS random-basket null at p < 0.01
 PC1 explained variance:
-  Null mean:        35.95%
-  Null 95th pct:    47.09%
-  Null 99th pct:    53.01%
-  p-value (right):  0.000900    -> REJECTS random-basket null at p < 0.001
+  Null mean:        45.69%
+  Null 95th pct:    58.13%
+  Null 99th pct:    65.41%
+  p-value (right):  0.002900    -> REJECTS random-basket null at p < 0.01
 
 --- VOL-MATCHED NULL ---
 Permutations: 10000
 Universe source: DB prices_long (1170 tickers with >=200 obs in window)
-Pool size: 411
+Pool size: 1167
 Matching: realized-vol rank band +/-5% per member, without replacement
 Intra-cluster correlation:
-  Null mean:        0.1863
-  Null 95th pct:    0.3253
-  Null 99th pct:    0.3890
-  p-value (right):  0.000400    -> REJECTS vol-matched null at p < 0.001
+  Null mean:        0.1612
+  Null 95th pct:    0.3294
+  Null 99th pct:    0.4183
+  p-value (right):  0.000900    -> REJECTS vol-matched null at p < 0.001
 PC1 explained variance:
-  Null mean:        37.32%
-  Null 95th pct:    47.62%
-  Null 99th pct:    52.68%
-  p-value (right):  0.000500    -> REJECTS vol-matched null at p < 0.001
+  Null mean:        45.42%
+  Null 95th pct:    56.00%
+  Null 99th pct:    62.54%
+  p-value (right):  0.001200    -> REJECTS vol-matched null at p < 0.01
 
 --- INTERPRETATION ---
 Independence null rejected: the cohort series co-move (necessary, not sufficient).

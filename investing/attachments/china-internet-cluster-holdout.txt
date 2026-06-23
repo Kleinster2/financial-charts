@@ -1,0 +1,22 @@
+Chinese internet platforms HOLDOUT TEST
+Cohort: BABA, JD, PDD, BIDU, NTES (N=5)
+Window: 2y, split temporally at midpoint
+Train: 2024-06-18 -> 2025-06-18 (169 obs)
+Test:  2025-06-18 -> 2026-06-18 (252 obs)
+
+--- TRAIN HALF (older) ---
+Intra-correlation:    0.5942
+PC1 explained var:    68.30%
+Pairwise range:       [0.394, 0.784]
+
+--- TEST HALF (newer) ---
+Intra-correlation:    0.5068
+PC1 explained var:    61.06%
+Pairwise range:       [0.363, 0.715]
+
+--- STABILITY DIAGNOSTICS ---
+Intra-corr delta:     -0.0874   (test - train)
+PC1 variance delta:   -7.24pp
+PC1 loadings corr:    0.9263    (1.0 = identical factor structure)
+
+VERDICT: STABLE — test/train ratio 0.85 (durable cluster across regimes)

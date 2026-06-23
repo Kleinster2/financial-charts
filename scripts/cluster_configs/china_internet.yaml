@@ -11,7 +11,9 @@ name: Chinese internet platforms
 primary: BABA
 prefix: china-internet-cluster
 threshold: 0.5
-window_end: 2026-06-10
+window_end: 2026-06-18
+definition_date: 2026-06-12
+history_start: 2019-01-01
 
 groups:
   cluster:

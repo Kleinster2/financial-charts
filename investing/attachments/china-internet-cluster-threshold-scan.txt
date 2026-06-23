@@ -4,15 +4,15 @@ Cohort size: 5
 --- ASSIGNMENT TABLE ---
  threshold  n_subclusters  largest_subcluster_size  cohort_share_in_largest  contamination_count  intact
       0.20              5                        1                      0.2                    0   False
-      0.25              5                        1                      0.2                    3   False
-      0.30              4                        2                      0.4                    3   False
+      0.25              5                        1                      0.2                    0   False
+      0.30              5                        1                      0.2                    3   False
       0.35              3                        3                      0.6                    3   False
       0.40              3                        3                      0.6                    3   False
       0.45              3                        3                      0.6                    3   False
-      0.50              3                        3                      0.6                    6   False
-      0.55              2                        4                      0.8                    6   False
-      0.60              1                        5                      1.0                    6   False
-      0.65              1                        5                      1.0                    6   False
+      0.50              2                        4                      0.8                    3   False
+      0.55              1                        5                      1.0                    3   False
+      0.60              1                        5                      1.0                    3   False
+      0.65              1                        5                      1.0                    9   False
       0.70              1                        5                      1.0                    9   False
 
 --- STABLE RANGES (intact cohort, no contamination) ---
@@ -22,13 +22,12 @@ Cohort size: 5
 BOUNDARY-DEPENDENT: cohort does not form a clean cluster at any threshold tested. Falsification candidate.
 
 --- CONTAMINATION DETAIL (non-cohort names joining the cohort's largest cluster) ---
-  threshold 0.25: + KWEB,FXI,CQQQ
   threshold 0.30: + KWEB,FXI,CQQQ
   threshold 0.35: + KWEB,FXI,CQQQ
   threshold 0.40: + KWEB,FXI,CQQQ
   threshold 0.45: + KWEB,FXI,CQQQ
-  threshold 0.50: + KWEB,FXI,CQQQ,SPY,QQQ...
-  threshold 0.55: + KWEB,FXI,CQQQ,SPY,QQQ...
-  threshold 0.60: + KWEB,FXI,CQQQ,SPY,QQQ...
-  threshold 0.65: + KWEB,FXI,CQQQ,SPY,QQQ...
+  threshold 0.50: + KWEB,FXI,CQQQ
+  threshold 0.55: + KWEB,FXI,CQQQ
+  threshold 0.60: + KWEB,FXI,CQQQ
+  threshold 0.65: + AMZN,GOOGL,META,KWEB,FXI...
   threshold 0.70: + AMZN,GOOGL,META,KWEB,FXI...

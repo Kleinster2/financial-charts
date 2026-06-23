@@ -1,5 +1,10 @@
 ---
 charts:
+  china-ev-performance.png:
+    tickers: NIO,XPEV,LI,BYDDY,KARS,FXI
+    normalize: true
+    start: 2021-01-01
+    primary: NIO
   china-internet-performance.png:
     tickers: BABA,JD,PDD,BIDU,NTES,KWEB
     normalize: true
