@@ -92,6 +92,16 @@ The pattern: routine intermediation dies, complex intermediation survives but fa
 
 ---
 
+## AI as the moat test — PE vibecoding diligence (Jun 2026)
+
+The disintermediation thesis has produced its own diligence tool. Per the FT (Jun 22 2026), Bain & Company (the consultancy, distinct from [[Bain Capital]]) is "vibecoding" — using generative-AI coding tools to build functional replicas of a software acquisition target's product — so private-equity clients can test, before signing, how easily AI can clone the thing they are about to buy. If a few prompts reproduce the product, the moat is thin; if not, the advantage lives in data, workflow design, or ecosystem positioning that AI cannot quickly copy.
+
+This operationalizes the "What survives" table above into deal practice: PE is now pricing AI-replicability directly into software diligence. Two consequences: (1) it has contributed to a slowdown in software/tech buyouts as investors reassess moats (the deal-flow side of the [[Private Credit Software Concentration|software-credit]] risk); (2) it sharpens the bifurcation the thesis predicts — code-only moats discount, data / workflow / regulatory moats hold. It is also a recursion: AI is simultaneously the disruptor of software value and the instrument PE uses to measure that disruption. The capability reportedly scaled from a 2023 specialist-engineering function to broad PE-advisory use; secondary coverage cites "hundreds" of prototypes built.
+
+*Source: [[Financial Times]], "Bain tests software takeover targets by vibecoding AI replicas" (Jun 22 2026); corroborated by Private Equity Wire (Jun 2026). FT primary read via headline/dek; specifics cross-checked against trade-press summaries.*
+
+---
+
 ## Investment implications
 
 Short the middlemen (with caveats):

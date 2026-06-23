@@ -312,6 +312,14 @@ The report was a direct response to the Feb-Mar 2026 panic: IGV -28% from Sept p
 
 ---
 
+## PE diligence prices in AI-replicability — Bain vibecoding (Jun 2026)
+
+By mid-2026 the AI-software-moat risk this note tracks has migrated from credit analysts' warnings into front-end deal practice. The FT reported (Jun 22 2026) that Bain & Company (the consultancy, not [[Bain Capital]]) is "vibecoding" functional AI replicas of software acquisition targets so PE buyers can test, pre-deal, whether the product's moat survives cheap AI cloning. The read-through for software-concentrated private credit is two-sided: it should improve new-deal selection (sponsors screen out the most AI-replicable, code-only moats), but it also confirms why software dealmaking has slowed — the same reassessment that froze the primary market (no major software-backed debt since [[Oracle]]'s Feb 2 package) is now codified in diligence. It is the forward-looking complement to the realized [[Thoma Bravo]] / [[Medallia]] write-off: the tooling PE wishes it had run before buying customer-service-chatbot software in 2021. See [[AI disintermediation#AI as the moat test — PE vibecoding diligence (Jun 2026)|AI disintermediation]].
+
+*Source: [[Financial Times]], "Bain tests software takeover targets by vibecoding AI replicas" (Jun 22 2026); Private Equity Wire (Jun 2026).*
+
+---
+
 ## Sources
 
 - [CNBC — Blue Owl curbs investor liquidity, shares plunge 8%](https://www.cnbc.com/2026/02/19/blue-owl-private-debt-investor-loan-liquidity-restriction-market-shares.html) (Feb 19, 2026)
