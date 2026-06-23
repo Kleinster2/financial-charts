@@ -260,6 +260,16 @@ The macro tail Block wires to this: see [[Passive investing fragility]] — the 
 
 ---
 
+## Simon Johnson: the "this time is different" case (Jun 2026)
+
+[[Simon Johnson]] (MIT; 2024 economics Nobel laureate; former [[IMF]] chief economist) put a Nobel's academic weight behind the white-collar-displacement thesis in an FT interview (Jun 22 2026): "Nobody needs as many white-collar workers as they used to." He argues AI will durably cut demand for office-based professionals across sectors — and, with co-laureate Daron Acemoglu and labor economist David Autor, that the historical reassurance ("automation always created new jobs") may not hold this time, because AI automates the codified cognitive tasks that have been the white-collar growth engine rather than augmenting them.
+
+This is the heavyweight-academic version of the Brynjolfsson entry-level evidence and the Carson Block practitioner call above: the "this time is different" camp now includes the economists who won the Nobel for studying technology and institutions. It is the direct counter to the rate-cycle counter-narrative (also above) and to the historical-optimist view. Paired with Johnson and Acemoglu's "Power and Progress" framework, it frames displacement as a choice about how AI is deployed (automation vs augmentation), not an inevitability — the same load-bearing split this note tracks throughout. The investing read-through: a Nobel-credentialed "automation" call raises the policy-salience risk (the [[Chris Olah|distribution-politics]] vector) that ultimately targets the labs and deployers monetizing the displacement.
+
+*Source: [[Financial Times]], "Simon Johnson: 'Nobody needs as many white-collar workers as they used to'" (Jun 22 2026); Johnson / Acemoglu / Autor "this time could be different" framing.*
+
+---
+
 ## The productivity paradox
 
 UC Berkeley research (cited in Bloomberg, Feb 2026): workers offloading tasks to AI agents are working longer hours, not fewer. AI increases output expectations faster than it reduces workload. Companies capture the productivity gains; workers absorb the pace increase.
