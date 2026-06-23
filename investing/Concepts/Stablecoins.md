@@ -50,6 +50,9 @@ Stablecoin issuers are among the largest buyers of US Treasuries globally. [[Tet
 | EU | [[MiCA]] (2024) | Licensing regime. Reserve requirements. |
 | [[Brazil]] | BCB resolutions (Feb 2026) | Classified as FX operations. Yield-bearing allowed. |
 | Offshore | Minimal | [[Tether]] operates from BVI/El Salvador |
+| UK | [[Bank of England]] / FCA regime (interim rules Jun 2026; final end-2026) | £40bn issuer cap; proposed holding caps dropped; 30% reserves at BoE |
+
+The UK regime was notably softened on Jun 22 2026 after industry backlash: the [[Bank of England]] dropped its proposed holding caps (£20k per person, £10M per business), set a £40bn (~$53bn) issuance cap per systemic stablecoin (which it expects to raise or scrap once the market is "digested"), and cut the share of reserves issuers must park at the BoE from 40% to 30% (rest in short-term gilts). It is a [[Competitive deregulation|competitive-deregulation]] move to keep the UK in the race with the [[GENIUS Act]] and [[MiCA]]; regulated UK stablecoins could launch from 2027. See [[Competitive deregulation#UK stablecoin rules softened (Jun 2026)|competitive deregulation]].
 
 The US-Brazil regulatory divergence on yield is a key structural tension. US framework treats stablecoins as payment instruments (no yield = not a security). Brazil's FX classification enables yield-bearing models like [[BRD]].
 

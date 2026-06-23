@@ -81,6 +81,18 @@ Jurisdictions competing for crypto firms via regulatory clarity or laxity:
 
 Per GFCI 38 data, predictability matters more than permissiveness — Abu Dhabi and Singapore gaining despite stricter rules than Dubai.
 
+### UK stablecoin rules softened (Jun 2026)
+
+The [[Bank of England]] watered down its proposed stablecoin regime after industry backlash — the same level-playing-field ratchet as the Basel/FRTB case, applied to digital money. The Jun 22 2026 changes:
+
+- Dropped the proposed holding caps entirely (had been £20,000 per individual, £10M per business).
+- Set a £40bn (~$53bn) issuance cap per systemic [[Stablecoins|stablecoin]] — a guardrail against rapid deposit flight from banks — but officials said they expect to raise or remove it once stablecoins are "digested" by the system.
+- Cut the share of sterling reserves issuers must hold at the BoE from 40% to 30% (rest in short-term gilts), improving issuer economics.
+
+The competitive trigger is explicit: the UK is racing the US ([[GENIUS Act]]) and [[EU]] ([[MiCA]]) to host regulated stablecoins, with final rules due end-2026 and launches possible from 2027. As with FRTB, the concession is framed as avoiding "competitive disadvantage." It is the deregulatory ratchet (steps 3-4) crossing from prudential bank capital into payments / digital-money rails — and, per the [[Minsky cycle]] lens, another buffer trimmed in the calm. See [[Stablecoins]].
+
+*Source: [[Financial Times]], "Bank of England waters down stablecoin rules after industry backlash" (Jun 22 2026); corroborated across CityAM, American Banker, CCN (Jun 22-23 2026).*
+
 ---
 
 ## Why it matters for positioning
