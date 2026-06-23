@@ -1,5 +1,10 @@
 ---
 charts:
+  hydrogen-performance.png:
+    tickers: PLUG,BE,BLDP,FCEL,ICLN
+    normalize: true
+    start: 2019-01-01
+    primary: PLUG
   china-ev-performance.png:
     tickers: NIO,XPEV,LI,BYDDY,KARS,FXI
     normalize: true

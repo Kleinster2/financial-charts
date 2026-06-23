@@ -1,0 +1,76 @@
+Hydrogen and fuel cells CLUSTER ANALYSIS
+Window 1y: 2025-07-08 -> 2026-06-22 (160 obs)
+Window 2y: 2024-07-15 -> 2026-06-22 (219 obs)
+Universe: 10 tickers across 4 groups
+Dendrogram cut threshold: 0.5
+
+--- 1Y INTRA-CLUSTER PAIRWISE CORRELATIONS ---
+Ticker  PLUG    BE  BLDP  FCEL
+Ticker                        
+PLUG    1.00  0.43  0.58  0.62
+BE      0.43  1.00  0.38  0.57
+BLDP    0.58  0.38  1.00  0.49
+FCEL    0.62  0.57  0.49  1.00
+Average intra-cluster correlation: 0.511
+Range: [0.376, 0.623]
+
+--- AVG GROUP-PAIR CORRELATIONS (1Y) ---
+             cluster  clean_e  spec_gr   market
+    cluster    0.511    0.489    0.418    0.382
+clean_energ    0.489    0.859    0.573    0.605
+spec_growth    0.418    0.573    0.796    0.790
+     market    0.382    0.605    0.790    0.935
+
+Cluster vs others:
+  cluster vs clean_energy: 0.489  (intra advantage: +0.021)
+  cluster vs spec_growth: 0.418  (intra advantage: +0.093)
+  cluster vs market    : 0.382  (intra advantage: +0.129)
+
+--- HIERARCHICAL CLUSTERS (1Y, distance threshold 0.5) ---
+  Cluster 1: PLUG, BLDP, FCEL
+  Cluster 2: ICLN, TAN, ARKK, IWM, SPY, QQQ
+  Cluster 3: BE
+
+--- CANDIDATE JOIN DISTANCES (1Y, average linkage, distance = 1-|corr|) ---
+ Step Left          Right Distance           Members
+    1 PLUG           FCEL    0.377         PLUG+FCEL
+    2 BLDP      PLUG+FCEL    0.464    BLDP+PLUG+FCEL
+    3   BE BLDP+PLUG+FCEL    0.543 BE+BLDP+PLUG+FCEL
+
+--- PCA ON CANDIDATE COHORT (1Y) ---
+Explained variance ratio:
+  PC1: 63.50%
+  PC2: 16.89%
+  PC3: 11.39%
+  PC4: 8.22%
+
+PC1 loadings:
+PLUG    0.525
+BE      0.459
+BLDP    0.480
+FCEL    0.533
+
+--- PC1 INDEX WEIGHTS (1Y) ---
+PCA is run on standardized daily log returns. Raw PC1-mimic weights scale PC1 loading by inverse realized volatility.
+     PC1 loading Loading weight  Ann vol Raw PC1-mimic weight
+PLUG       0.525         26.29%   95.92%               27.73%
+BE         0.459         22.98%  103.96%               22.37%
+BLDP       0.480         24.03%   85.04%               28.59%
+FCEL       0.533         26.70%  126.75%               21.31%
+
+--- WEEKLY-RETURN CROSS-CHECK (1Y, async-close robustness) ---
+Weeks: 31   Weekly intra-corr: 0.404 (daily 0.511)   Weekly PC1: 55.6% (daily 63.5%)
+
+--- HISTORICAL TIGHTNESS EVOLUTION (90D ROLLING) ---
+     Avg corr    PC1 Core corr Satellite corr Final join distance
+Date                                                             
+2019    0.127  37.9%     0.077          0.194               0.944
+2020    0.503  63.3%     0.446          0.567               0.572
+2021    0.709  78.2%     0.699          0.717               0.312
+2022    0.774  83.2%     0.731          0.818               0.274
+2023    0.743  80.8%     0.721          0.767               0.290
+2024    0.566  67.8%     0.583          0.505               0.537
+2025    0.418  58.5%     0.339          0.489               0.755
+2026    0.508  63.3%     0.507          0.504               0.564
+
+Latest 90D: avg corr 0.486, PC1 61.7%, core corr 0.471, satellite corr 0.501, final join distance 0.588

@@ -1,0 +1,33 @@
+# Hydrogen / fuel-cell pure-plays — taxonomy clean-energy-map completion (solar done,
+# nuclear done, hydrogen = ?). Do the listed hydrogen names trade as one "hydrogen
+# economy" factor, or has the 2020-21 bubble fragmented them? A priori: likely a
+# fragmentation falsification — PLUG (green-H2, serial dilution), BE (Bloom solid-oxide
+# fuel cells, re-rated as an AI-data-center power play and decoupled), BLDP (Ballard,
+# moribund), FCEL (stationary fuel cells, moribund). Controls: ICLN broad clean energy
+# (the sector ETF), TAN solar (adjacent clean-energy sub-sector), ARKK/IWM speculative
+# high-beta growth (is the cohesion just spec-growth beta?), NEL.OL/ITM.L European
+# electrolysers (gappy, last 2026-04-24 — context only, do the euro names cohere with
+# the US?). US quartet is clean/fresh; gappy controls only affect their own cells, and
+# the clean-window intra-advantages are cross-checked separately.
+name: Hydrogen and fuel cells
+primary: PLUG
+prefix: hydrogen-cluster
+threshold: 0.5
+window_end: 2026-06-22
+definition_date: 2026-06-23
+history_start: 2019-01-01
+
+groups:
+  cluster:
+    tickers: [PLUG, BE, BLDP, FCEL]
+  clean_energy:
+    tickers: [ICLN, TAN]
+  spec_growth:
+    tickers: [ARKK, IWM]
+  market:
+    tickers: [SPY, QQQ]
+# NEL.OL/ITM.L (European electrolysers) dropped from the live config — stale to
+# 2026-04-24, they truncated the aligned window to 114 obs. On that window they were
+# near-orthogonal singletons (cluster-vs-euro_electro corr 0.141, intra-adv +0.391):
+# the European electrolysers do NOT cohere with the US hydrogen names. Cross-checked
+# separately rather than truncating the fresh-window run.
