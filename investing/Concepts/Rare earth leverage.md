@@ -157,6 +157,14 @@ In response to [[Export controls]] on semiconductors:
 
 ---
 
+## June 2026 — China targets the US's own rare-earth builders
+
+China opened a new front on Jun 22, 2026: instead of only withholding supply, it added the two flagship US rare-earth builders — [[MP Materials]] and [[USA Rare Earth]] — plus motor-maker Aveox to its entities list, and barred Chinese firms from buying from 46 US defence companies. The trigger was the Pentagon reinstating [[Alibaba]]/[[Baidu]]/[[BYD]] to the "Chinese Military Companies" list. The move is more symbolic than commercially biting — these US firms sell little into China and the diversification push is the whole point — but it is the first time Beijing has named the specific companies leading the Western chokepoint-breaking effort as retaliation targets, signalling it will pressure the breakers directly rather than only ration supply. See [[China retaliatory toolkit#Case study: rare-earth / defence entities-list expansion (Jun 2026)|the toolkit case study]].
+
+*Source: [[Financial Times]], "China restricts trading with some US rare earth companies" (Edward White), Jun 22 2026.*
+
+---
+
 ## Why it matters
 
 ### Asymmetric power

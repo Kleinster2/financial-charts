@@ -180,6 +180,14 @@ The math hasn't changed — MP is still <1% of [[China]]'s NdFeB magnet output e
 
 ---
 
+## June 2026: added to China's entities list
+
+On Jun 22, 2026 China added MP Materials to its entities list — alongside [[USA Rare Earth]] and motor-maker Aveox — in retaliation for the Pentagon reinstating [[Alibaba]]/[[Baidu]]/[[BYD]] to the US "Chinese Military Companies" list. The listing restricts Chinese firms from trading with MP. Direct commercial impact is limited: MP's whole strategy is to build a US/allied mine-to-magnet chain outside China, and it sells little into China — so the move is largely symbolic. But it confirms MP as the company Beijing most identifies with the US effort to break its [[Rare earth leverage|rare-earth chokepoint]] (the Pentagon $400M equity + [[Apple]] $500M magnet deal made it the flagship). Note the two-way irony from the Mar 30 section: MP's strategic premium depends on China staying hostile, so a symbolic Chinese blacklisting arguably reinforces the thesis more than it dents the business. See [[China retaliatory toolkit#Case study: rare-earth / defence entities-list expansion (Jun 2026)|toolkit case study]].
+
+*Source: [[Financial Times]], "China restricts trading with some US rare earth companies" (Edward White), Jun 22 2026.*
+
+---
+
 ## Related
 
 - [[Apple]] — $500M partnership

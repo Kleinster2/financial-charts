@@ -190,6 +190,12 @@ See [[Lutnick family conflicts of interest]] for the full pattern. In brief:
 
 Specific fee disclosure: Cantor's compensation for the PIPE has not been publicly itemized; Senate letter noted Cantor "acted as a compensated broker" and PIPE placement-agent fees typically run 3–5% of proceeds, implying ~$45–75M gross on $1.5B.
 
+## June 2026: added to China's entities list
+
+On Jun 22, 2026 China added USA Rare Earth (USAR) to its entities list — alongside peer [[MP Materials]] and motor-maker Aveox — retaliating for the Pentagon's reinstatement of [[Alibaba]]/[[Baidu]]/[[BYD]] to the "Chinese Military Companies" list. As a pre-revenue US "national champion" building Round Top and the Stillwater magnet plant explicitly to displace Chinese supply, USAR sells nothing into China, so the listing is symbolic rather than a commercial hit — but it marks Beijing formally naming USAR as a chokepoint-breaking target. See [[China retaliatory toolkit#Case study: rare-earth / defence entities-list expansion (Jun 2026)|toolkit case study]] and [[Rare earth leverage#June 2026 — China targets the US's own rare-earth builders|rare-earth leverage]].
+
+*Source: [[Financial Times]], "China restricts trading with some US rare earth companies" (Edward White), Jun 22 2026.*
+
 ## Related
 
 ### Securities

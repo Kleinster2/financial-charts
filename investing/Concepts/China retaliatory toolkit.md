@@ -151,6 +151,19 @@ This is the producer-side mirror of the [[US-Europe productivity paradox]] debat
 
 *Source: [Paul Krugman, "How to Win a Trade War" (podcast with [[Chad Bown]] and [[Soumaya Keynes]]), May 30 2026](https://paulkrugman.substack.com/p/how-to-win-a-trade-war).*
 
+## Case study: rare-earth / defence entities-list expansion (Jun 2026)
+
+On Jun 22, 2026 China retaliated against the Pentagon's reinstatement of [[Alibaba]], [[Baidu]], and [[BYD]] to Washington's "Chinese Military Companies" (CMC) list (~two weeks earlier, over alleged PLA ties the firms denied) with a two-part move:
+
+| Measure | Issuer | Target |
+|---|---|---|
+| 10 US companies added to China's entities list | Commerce Ministry | US rare-earth supply-chain builders — [[MP Materials]], [[USA Rare Earth]], and motor-maker Aveox among them |
+| Chinese firms barred from purchasing from 46 US defence companies | Finance Ministry | US defence-industrial base |
+
+The targeting is the signal. By naming the two flagship US rare-earth builders ([[MP Materials]], [[USA Rare Earth]]) — the companies explicitly trying to break China's [[Rare earth leverage|rare-earth chokepoint]] — Beijing is hitting the diversification effort itself, not just withholding supply. An unnamed US executive called the package "measured and symbolic": US defence-tech firms are already largely barred from Chinese government and military contracts, so the near-term commercial bite is limited. The significance is demonstrative — Beijing will weaponise its entities list in lockstep with US actions, ahead of the [[Trump]]-[[Xi Jinping]] September meeting and the November expiry of the trade-war truce. The [[EU]] Chamber of Commerce in China (April 2026) found Beijing has nearly tripled its use of [[Export controls|export controls]] in five years, increasingly aimed at trade chokepoints.
+
+*Source: [[Financial Times]], "China restricts trading with some US rare earth companies" (Edward White, Shanghai; Nian Liu; Demetri Sevastopulo), Jun 22 2026.*
+
 ## 2026 legal infrastructure
 
 Two new April 2026 PRC regulations institutionalized the toolkit and gave it broader reach than ad-hoc retaliation. Both were rolled out in the same window as the Panama port escalation and apply directly to that case.
