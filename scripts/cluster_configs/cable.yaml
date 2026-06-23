@@ -1,0 +1,27 @@
+# Cable broadband — the US cable-broadband pair (Charter, Comcast). Do they trade as a
+# distinct cable factor, or = wireless telecom / the comms ETF? Only CHTR/CMCSA are
+# DB-ready (ATUS/CABO not ingested), so this is a pair test (à la card networks V/MA).
+# Controls: US telecom T/VZ/TMUS (the wireless carriers — a validated cohort), XLC (the
+# comms-services ETF, but Meta/Alphabet-ruled), SATS (EchoStar/Dish — satellite/wireless
+# distribution), SPY. A priori: the cable pair coheres on broadband + cord-cutting +
+# fixed-wireless competition; the question is distinctness from the wireless carriers and
+# from XLC (which a cap-weighted comms ETF barely reflects cable in).
+name: Cable broadband
+primary: CHTR
+prefix: cable-cluster
+threshold: 0.5
+window_end: 2026-06-22
+definition_date: 2026-06-23
+history_start: 2019-01-01
+
+groups:
+  cluster:
+    tickers: [CHTR, CMCSA]
+  telecom:
+    tickers: [T, VZ, TMUS]
+  comms_etf:
+    tickers: [XLC]
+  satellite:
+    tickers: [SATS]
+  market:
+    tickers: [SPY]

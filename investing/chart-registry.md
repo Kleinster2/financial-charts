@@ -1,5 +1,10 @@
 ---
 charts:
+  cable-performance.png:
+    tickers: CHTR,CMCSA,TMUS,XLC
+    normalize: true
+    start: 2019-01-01
+    primary: CHTR
   hydrogen-performance.png:
     tickers: PLUG,BE,BLDP,FCEL,ICLN
     normalize: true

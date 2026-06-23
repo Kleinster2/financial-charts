@@ -1,0 +1,22 @@
+Cable broadband HOLDOUT TEST
+Cohort: CHTR, CMCSA (N=2)
+Window: 2y, split temporally at midpoint
+Train: 2024-06-22 -> 2025-06-22 (124 obs)
+Test:  2025-06-22 -> 2026-06-22 (216 obs)
+
+--- TRAIN HALF (older) ---
+Intra-correlation:    0.6789
+PC1 explained var:    83.94%
+Pairwise range:       [0.679, 0.679]
+
+--- TEST HALF (newer) ---
+Intra-correlation:    0.7267
+PC1 explained var:    86.33%
+Pairwise range:       [0.727, 0.727]
+
+--- STABILITY DIAGNOSTICS ---
+Intra-corr delta:     +0.0478   (test - train)
+PC1 variance delta:   +2.39pp
+PC1 loadings corr:    nan    (1.0 = identical factor structure)
+
+VERDICT: STABLE — test/train ratio 1.07 (durable cluster across regimes)
