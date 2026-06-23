@@ -383,6 +383,26 @@ See also [[Hormuz Permanent Risk Premium]] for the parallel argument applied to 
 
 ---
 
+## Jun 22, 2026 — kill-switch confirmed: urea round-trips below pre-war
+
+The full [[Strait of Hormuz]] reopening under the [[2026 Strait of Hormuz crisis#Jun 15-22, 2026 — preliminary deal, blockade lift, and the 441-ship reopening backlog|Jun 15 US-Iran deal]] triggered the cyclical unwind the Apr 17 section flagged. By Jun 22, NOLA barge urea had fallen to ~$350/ton — below the ~$455-470 pre-war level (Feb 27) and less than half the ~$782 wartime peak — with an estimated ~200,000 tonnes of urea moved through the strait since the 60-day ceasefire.
+
+This clears Perera's kill-switch conditions on the cyclical thesis:
+
+| Kill-switch condition | Status (Jun 22) |
+|---|---|
+| >15 fertilizer vessels transit Hormuz weekly, two consecutive weeks | Met — physical throughput resumed (~200k t urea since the ceasefire) |
+| NOLA urea sustains below $550/st | Met — ~$350/st, well below the threshold |
+| FAO Food Price Index flat/declining YoY | Trending toward met as the spike rolls off |
+
+The cyclical war premium has fully round-tripped: the equities that ran on it — [[CF Industries]] (+63% YTD into the spike) most of all — have given it back (CF -9.6% on the Apr 17 reopening signal alone). The FT report's "beyond Middle East" nuance is the tell that this is specifically the Hormuz-traded nitrogen unwinding: urea has collapsed, but UAN still holds a large premium over urea and phosphate prices have stubbornly refused to fall — phosphate tightness (the 4-country DAP concentration) is structural, not Hormuz-cyclical. Analysts see urea falling another $30-50/ton before bottoming.
+
+What does NOT unwind is exactly as the Apr 17 section set out: no Strategic Fertilizer Reserve exists, [[Qatar]]'s [[QAFCO]] capacity is on a 3-5 year repair timeline, the 14 transmission channels' second-order effects, and the biological-clock damage to the 2026 planting season are all independent of urea spot. The cyclical [[Nitrogen Trap]] premium is gone; the structural trap is intact — the exact parallel to oil's [[Hormuz Permanent Risk Premium]].
+
+*Source: [[Financial Times]] / Bloomberg / Western Producer, "Fertiliser prices tumble" (Jun 2026); NOLA barge urea ~$350/ton (Jun 22).*
+
+---
+
 ## Insights
 
 - The world built strategic petroleum reserves after the 1973 oil shock. No equivalent exists for fertilizer — the dependency is too abstract (people understand gasoline; they do not understand that bread requires ammonia). The Nitrogen Trap may be the catalyst that forces fertilizer into strategic reserve doctrine.

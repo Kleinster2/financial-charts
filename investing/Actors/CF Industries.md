@@ -238,6 +238,12 @@ But the selloff does not fully kill the thesis. Reuters' Apr 17-18 follow-throug
 
 Next catalyst: Q1 2026 results due May 6, 2026.
 
+### Jun 22, 2026 — the premium round-trips
+
+The Apr 17 question — temporary war premium vs durable repricing — resolved toward "temporary." By Jun 22, with the [[Strait of Hormuz]] reopened under the [[2026 Strait of Hormuz crisis|US-Iran deal]], NOLA barge urea had fallen to ~$350/ton — below the ~$455-470 pre-war level and less than half the ~$782 wartime peak. CF's mechanical margin engine runs in reverse: the input (North American gas ~$3.34/MMBtu) is unchanged, but the output price has round-tripped, so the spread that drove the +63% YTD spike compresses back toward pre-war. The cyclical [[Nitrogen Trap]] premium is gone; what persists is the structural repricing of nitrogen security (no Strategic Fertilizer Reserve, the multi-year [[QAFCO]] outage, the next-chokepoint risk) — the durable half CF retains. See [[Nitrogen Trap#Jun 22, 2026 — kill-switch confirmed: urea round-trips below pre-war|the kill-switch confirmation]].
+
+*Source: [[Financial Times]] / Bloomberg, "Fertiliser prices tumble" (Jun 2026); NOLA urea ~$350/ton.*
+
 ### Political risk
 
 Senator Josh Hawley (R-MO) sent a nine-question letter to CEO Chris Bohn on March 12 accusing CF Industries and four other fertilizer producers ([[Mosaic]], [[Koch Fertilizer]], [[Nutrien]], [[Yara]]) of price gouging. Also sent letter to AG Pam Bondi requesting DOJ investigation. Urea price surge of ~32% as evidence.
