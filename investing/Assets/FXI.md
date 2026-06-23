@@ -40,6 +40,23 @@ FXI trades as a core China Internet name (KWEB r = 0.94).
 | Inception | October 2004 |
 | Issuer | [[BlackRock]] (iShares) |
 
+## Top holdings
+
+| # | Holding | Weight |
+|---|---------|--------|
+| 1 | [[China Construction Bank]] (0939.HK) | 9.01% |
+| 2 | [[Alibaba]] (9988.HK) | 8.95% |
+| 3 | [[Tencent]] (0700.HK) | 8.92% |
+| 4 | [[ICBC]] (1398.HK) | 6.10% |
+| 5 | [[Xiaomi]] (1810.HK) | 4.72% |
+| 6 | [[Meituan]] (3690.HK) | 4.32% |
+| 7 | [[Bank of China]] (3988.HK) | 3.93% |
+| 8 | Ping An Insurance (2318.HK) | 3.84% |
+| 9 | [[NetEase]] (9999.HK) | 3.82% |
+| 10 | [[BYD]] (1211.HK) | 3.29% |
+
+*Top 10 ≈ 57% of 62 holdings (as of Jun 18 2026; source: iShares via stockanalysis.com). The mix is the "broad China beta" verdict made concrete: roughly 23% in financials (the big-three state banks [[China Construction Bank|CCB]]/[[ICBC]]/[[Bank of China|BoC]] plus Ping An) alongside the internet mega-caps ([[Alibaba]]/[[Tencent]]/[[Meituan]]/[[NetEase]]/[[Xiaomi]]) and [[BYD]]. That bank weight is what distinguishes FXI from the pure-internet [[KWEB]] — yet the two still correlate 0.94 because they share Alibaba/Tencent/Meituan/NetEase. And [[Alibaba]]/[[NetEase]] (members of the [[Chinese internet]] cohort) and [[BYD]] (the [[Chinese EV startups]] cohort) all sit in the top 10 — concrete evidence both cohorts resolve into FXI.*
+
 ## Related
 
 - [[Chinese EV startups]] — the China-EV cohort that resolves to FXI (China beta), not to the EV ETF [[KARS]]
