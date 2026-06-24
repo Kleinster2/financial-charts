@@ -11,7 +11,7 @@ aliases: [Warsh]
 
 | Metric | Value |
 |--------|-------|
-| Status | Confirmed Fed Chair; awaiting swearing-in (May 22, 2026 scheduled) |
+| Status | Fed Chair — sworn in late May 2026; first FOMC Jun 17 2026 (hawkish debut) |
 | Current roles | Partner, [[Duquesne Family Office]] (with [[Stanley Druckenmiller|Druckenmiller]]) |
 | | Shepard Family Distinguished Visiting Fellow, Hoover Institution |
 | | Lecturer, Stanford Graduate School of Business |
@@ -58,6 +58,8 @@ Bank of England: Authored independent report proposing monetary policy reforms. 
 | AI | "Significant disinflationary force" |
 
 Market perception: Historically hawkish, but has told Trump "borrowing costs must come down." Still seen as less aggressive on cuts than Hassett.
+
+Update (Jun 2026): the actual debut was hawkish, not dove-aligned. The "aligning with Trump on rate cuts" / Goldilocks framing the market priced through early 2026 did not survive his first statement — see [[#Jun 17 2026 — first meeting: the hawkish debut]] below. The rows above are retained as the pre-debut market expectation.
 
 ---
 
@@ -238,6 +240,24 @@ Sources: [Federal Reserve Board press release](https://www.federalreserve.gov/ne
 Warsh was sworn in as Fed chair at the White House by Supreme Court justice Clarence Thomas. Trump used the swearing-in to publicly press for independence — "I want him to be independent and just do a great job. Don't look at me, don't look at anybody" — language that reads as much as expectation-setting as reassurance given the parallel pressure on [[Jerome Powell]] and [[Lisa Cook]]. Notably, Powell did not leave the building: he stayed on as a Fed governor (first chair to remain in ~80 years, board seat to Jan 2028), a check on the transition that also helps Warsh build FOMC relationships after his prior public criticism of sitting governors. See [[Federal Reserve#Transition complete — Warsh sworn in, Powell stays as governor (late May 2026)|the Fed transition entry]] and [[Fed independence]].
 
 *Source: [[Financial Times]], "Jay Powell warns Federal Reserve is undergoing 'stress test'" (Claire Jones, May 31 2026).*
+
+---
+
+## Jun 17 2026 — first meeting: the hawkish debut
+
+[[Kevin Warsh|Warsh]]'s first [[FOMC]] as chair resolved the "which Warsh" question, and not in the market's favour — the dove priced through early 2026 did not appear. The committee voted unanimously to hold the target range at 3.50-3.75%, but the framing turned hawkish on three fronts:
+
+| Signal | Detail |
+|---|---|
+| Statement rewrite | Cut to ~130 words from 341 at the Apr 29 meeting; removed the standing language signalling a bias toward future cuts |
+| Dot plot | 9 of 18 participants now project at least one hike before end-2026; 6 project two 25bp hikes. The median 2026 funds-rate dot moved to 3.8% (from 3.4% in March), the median 2026 core-PCE dot to 3.3% (from 2.7%) |
+| Warsh's own dot | Withheld — he did not place his view in the grid, and announced five task forces to review Fed monetary-policy operations, communications, data sources, productivity/labour, and the causes of [[Inflation]] |
+
+The market read it as a regime change, not a tone tweak. [[Ed Yardeni]] said he was "blown away," having expected a dove and instead hearing a strict, orthodox commitment to price stability; [[CNBC]] framed it (Jun 18) as markets being set for "a much more hawkish Warsh Fed than expected." By the [[Rate expectations]] note's Jun 22 reading, futures had moved to price a quarter-point rise by around October with US inflation above 4%, and the dollar-financed carry trade into high-yielders ([[Brazil]]'s real, the Australian dollar, the Korean won, the Norwegian krone) reversed sharply.
+
+This converts the [[Rate expectations|hike-bias-hold]] regime from a CPI-forced default into one a sitting chair is actively validating — the inversion of the 2024-25 setup, where the risk to risk assets was that the Fed would not cut fast enough. It also sets up the [[Greenspan put]] test [[Martin Sandbu]] flagged in January: the first sizable drawdown of Warsh's chairmanship arrived almost immediately in the [[Nasdaq semiconductor selloff June 2026|Jun 23 AI/semiconductor selloff]], and whether he leans against it is the live [[Fed independence]] question.
+
+*Sources: [Federal Reserve FOMC statement, Jun 17 2026](https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm); [[CNBC]], ["Fed holds rates steady," Jun 17 2026](https://www.cnbc.com/2026/06/17/fed-interest-rate-decision-june-2026.html); [TheStreet — Yardeni forecasts a July hike](https://www.thestreet.com/fed/veteran-analyst-ed-yardeni-stuns-wall-street-by-forecasting-a-fed-rate-hike-as-soon-as-july); [[Financial Times]] Asset Management (Joseph Cotterill, Ian Smith), Jun 22 2026 (carry reversal).*
 
 ---
 
