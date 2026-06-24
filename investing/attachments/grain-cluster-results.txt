@@ -1,0 +1,69 @@
+Grain processors CLUSTER ANALYSIS
+Window 1y: 2025-07-08 -> 2026-06-22 (199 obs)
+Window 2y: 2024-07-15 -> 2026-06-22 (258 obs)
+Universe: 6 tickers across 5 groups
+Dendrogram cut threshold: 0.5
+
+--- 1Y INTRA-CLUSTER PAIRWISE CORRELATIONS ---
+Ticker   ADM    BG
+Ticker            
+ADM     1.00  0.68
+BG      0.68  1.00
+Average intra-cluster correlation: 0.683
+Range: [0.683, 0.683]
+
+--- AVG GROUP-PAIR CORRELATIONS (1Y) ---
+             cluster  agribus  ag_comm  staples   market
+    cluster    0.683    0.562    0.177    0.293    0.026
+agribusines    0.562      nan    0.057    0.338    0.409
+ag_commodit    0.177    0.057      nan    0.308    0.080
+    staples    0.293    0.338    0.308      nan    0.034
+     market    0.026    0.409    0.080    0.034      nan
+
+Cluster vs others:
+  cluster vs agribusiness_etf: 0.562  (intra advantage: +0.122)
+  cluster vs ag_commodity: 0.177  (intra advantage: +0.507)
+  cluster vs staples   : 0.293  (intra advantage: +0.390)
+  cluster vs market    : 0.026  (intra advantage: +0.657)
+
+--- HIERARCHICAL CLUSTERS (1Y, distance threshold 0.5) ---
+  Cluster 1: ADM, BG, MOO
+  Cluster 2: XLP
+  Cluster 3: DBA
+  Cluster 4: SPY
+
+--- CANDIDATE JOIN DISTANCES (1Y, average linkage, distance = 1-|corr|) ---
+ Step Left Right Distance Members
+    1  ADM    BG    0.317  ADM+BG
+
+--- PCA ON CANDIDATE COHORT (1Y) ---
+Explained variance ratio:
+  PC1: 84.17%
+  PC2: 15.83%
+
+PC1 loadings:
+ADM    0.707
+BG     0.707
+
+--- PC1 INDEX WEIGHTS (1Y) ---
+PCA is run on standardized daily log returns. Raw PC1-mimic weights scale PC1 loading by inverse realized volatility.
+    PC1 loading Loading weight Ann vol Raw PC1-mimic weight
+ADM       0.707         50.00%  26.93%               52.88%
+BG        0.707         50.00%  30.22%               47.12%
+
+--- WEEKLY-RETURN CROSS-CHECK (1Y, async-close robustness) ---
+Weeks: 40   Weekly intra-corr: 0.711 (daily 0.683)   Weekly PC1: 85.5% (daily 84.2%)
+
+--- HISTORICAL TIGHTNESS EVOLUTION (90D ROLLING) ---
+     Avg corr    PC1 Core corr Satellite corr Final join distance
+Date                                                             
+2019    0.603  80.2%     0.603            nan               0.397
+2020    0.717  85.9%     0.717            nan               0.283
+2021    0.635  81.8%     0.635            nan               0.365
+2022    0.845  92.3%     0.845            nan               0.155
+2023    0.742  87.1%     0.742            nan               0.258
+2024    0.483  74.2%     0.483            nan               0.517
+2025    0.766  88.3%     0.766            nan               0.234
+2026    0.766  88.3%     0.766            nan               0.234
+
+Latest 90D: avg corr 0.800, PC1 90.0%, core corr 0.800, satellite corr nan, final join distance 0.200

@@ -1,5 +1,10 @@
 ---
 charts:
+  grain-performance.png:
+    tickers: ADM,BG,MOO,DBA
+    normalize: true
+    start: 2019-01-01
+    primary: ADM
   packaging-performance.png:
     tickers: IP,PKG,BALL,AMCR,XLB
     normalize: true

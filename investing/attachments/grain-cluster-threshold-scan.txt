@@ -1,0 +1,31 @@
+Grain processors THRESHOLD STABILITY SCAN
+Cohort size: 2
+
+--- ASSIGNMENT TABLE ---
+ threshold  n_subclusters  largest_subcluster_size  cohort_share_in_largest  contamination_count  intact
+      0.20              2                        1                      0.5                    0   False
+      0.25              2                        1                      0.5                    0   False
+      0.30              2                        1                      0.5                    0   False
+      0.35              1                        2                      1.0                    0    True
+      0.40              1                        2                      1.0                    0    True
+      0.45              1                        2                      1.0                    1   False
+      0.50              1                        2                      1.0                    1   False
+      0.55              1                        2                      1.0                    1   False
+      0.60              1                        2                      1.0                    1   False
+      0.65              1                        2                      1.0                    1   False
+      0.70              1                        2                      1.0                    2   False
+
+--- STABLE RANGES (intact cohort, no contamination) ---
+  [0.35, 0.40]  width = 0.05  (NARROW)
+Total stable width: 0.05
+
+--- VERDICT ---
+FRAGILE: cohort intact only at narrow threshold band(s). Validation depends on threshold pick.
+
+--- CONTAMINATION DETAIL (non-cohort names joining the cohort's largest cluster) ---
+  threshold 0.45: + MOO
+  threshold 0.50: + MOO
+  threshold 0.55: + MOO
+  threshold 0.60: + MOO
+  threshold 0.65: + MOO
+  threshold 0.70: + MOO,XLP
