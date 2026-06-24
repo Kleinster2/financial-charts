@@ -308,6 +308,68 @@ After benchmark decomposition, the validated cohorts trade on factors uncorrelat
 
 The pattern: validated cohorts have low or negative SPY beta because their factor is *independent* of broad market. The cohort identity is precisely what makes the basket distinct. Mag 7's failure mode is the inverse — high QQQ beta because Mag 7 IS QQQ, no separate factor.
 
+### 9. The index-rule law — escape vs collapse turns on what *rules* the ETF
+
+A cohort held inside a sector ETF is distinct from it only when the ETF is ruled by a *different* factor than the cohort. Exclusion from the ETF is irrelevant; what matters is whether the ETF's dominant constituents trade on something else (Jun 2026 cohort run).
+
+| Cohort in ETF | ETF ruled by | Result |
+|---|---|---|
+| [[Construction aggregates]] in [[XLB]] | chemicals + industrial gases ([[Linde]]/[[Air Products]]) | escape (+0.281) |
+| [[Cable broadband]] in [[XLC]] | [[Meta]] + [[Alphabet]] | escape |
+| [[Analog and auto-industrial semiconductors]] in [[SMH]] | [[NVIDIA]] + [[TSMC]] | escape |
+| [[Factory automation]] in [[XLI]] | ROK/EMR *are* core XLI | collapse (+0.000) |
+| [[Infrastructure construction]] in PAVE | the same buildout names | collapse (+0.053) |
+
+The diagnostic is never "is the cohort in the ETF?" but "what dominates the ETF?" Same business as the ETF's rulers → collapse; different business → escape despite being held.
+
+### 10. Homogeneity decides cohesion; multi-product labels fragment
+
+One homogeneous product → a distinct factor. A label spanning multiple products or substrates → fragments, with only the same-substrate sub-pair surviving.
+
+| Cohort | Products under the label | Result |
+|---|---|---|
+| [[Construction aggregates]] | one (crushed rock) | distinct 0.88 |
+| [[Card networks]] | one (card rails) | distinct 0.83 |
+| [[Packaging]] | three (containerboard / cans / flexible) | fragments; only IP+PKG (same substrate) survives |
+| [[Alcohol and spirits]] | two (beer / spirits) | splits into a beer pair + a spirits pair |
+
+[[Coal miners]] is the instructive near-exception: two sub-segments (met + thermal) that still *fuse* into one factor, because they share an export / China-steel demand cycle that beer-and-spirits or cans-and-cardboard do not.
+
+### 11. Distinctness can come from the *absence* of an ETF
+
+Every mined or extracted commodity cohort collapsed into its commodity ETF (the index-rule law) — except where no ETF exists to collapse into.
+
+| Commodity | ETF | Result |
+|---|---|---|
+| Copper / gold / silver / lithium / uranium / steel | COPX / GDX / SIL / LIT / URA / SLX | = ETF (collapse) |
+| [[Coal miners]] | none (VanEck KOL liquidated 2020) | distinct basket |
+| [[Tankers]] | none liquid | distinct basket |
+
+When the vehicle that would absorb a factor does not exist, a real demand factor surfaces as a distinct, basket-only cohort. Market structure, not just economics, determines distinctness — a factor can be distinct because nothing was built to arbitrage it away.
+
+### 12. A demand wave amplifies cohesion without minting a factor
+
+A live capex / demand wave tightens a cohort's *recent* cohesion but does not create a distinct factor when a liquid ETF prices the same wave. Tell: rolling cohesion jumps in the wave years + holdout WEAKENED (unstable loadings) = shock-born, not structural.
+
+| Cohort | Wave | Signature | Verdict |
+|---|---|---|---|
+| [[Infrastructure construction]] | AI datacenter / grid | 0.6→0.75 in 2025, holdout WEAKENED | = PAVE |
+| [[Factory automation]] | reshoring / AI | regime-variable cohesion | = XLI |
+| [[Rare earth equity beta]] | US-China decoupling | shock-amplified | shock-born |
+
+Contrast the through-cycle distinct factors ([[Construction aggregates]] 0.78–0.94 every year, [[Coal miners]] 0.53–0.67 since 2021) whose cohesion is durable rather than wave-driven.
+
+### 13. Jurisdiction beats business model (ADR cohorts)
+
+Chinese ADRs trade *apart* from their US business-model twins but cohere with each other and resolve to their China ETF.
+
+| "X is the China version of Y" | Co-move? |
+|---|---|
+| [[Alibaba]] / [[JD.com]] vs [[Amazon]] | no — Chinese internet resolves to [[KWEB]] |
+| [[NIO]] / [[XPeng]] vs [[Tesla]] | no — Chinese EV resolves to [[FXI]] |
+
+The listing-regime factor (capital controls, ADR-delisting risk, Beijing policy) dominates business-model similarity. Same-jurisdiction baskets co-move; cross-border "the China version of Y" analogues do not.
+
 ---
 
 ## Per-cohort summary cards
