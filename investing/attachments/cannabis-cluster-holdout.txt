@@ -1,0 +1,22 @@
+Cannabis HOLDOUT TEST
+Cohort: GTBIF, CURLF, CRLBF, CGC, TLRY, ACB, CRON, SNDL, OGI (N=9)
+Window: 2y, split temporally at midpoint
+Train: 2024-06-23 -> 2025-06-23 (59 obs)
+Test:  2025-06-23 -> 2026-06-23 (198 obs)
+
+--- TRAIN HALF (older) ---
+Intra-correlation:    0.4444
+PC1 explained var:    50.77%
+Pairwise range:       [0.197, 0.847]
+
+--- TEST HALF (newer) ---
+Intra-correlation:    0.6513
+PC1 explained var:    69.18%
+Pairwise range:       [0.511, 0.886]
+
+--- STABILITY DIAGNOSTICS ---
+Intra-corr delta:     +0.2070   (test - train)
+PC1 variance delta:   +18.41pp
+PC1 loadings corr:    -0.1868    (1.0 = identical factor structure)
+
+VERDICT: STRENGTHENING — test/train ratio 1.47 (basket consolidating; check for regime shift in the train half)

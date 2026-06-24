@@ -1,0 +1,37 @@
+Cannabis PERMUTATION TESTS
+Window: 2025-06-24 -> 2026-06-23 (251 obs)
+Candidate cohort: GTBIF, CURLF, CRLBF, CGC, TLRY, ACB, CRON, SNDL, OGI (N=9)
+Observed intra-corr: 0.6513    Observed PC1: 69.18%
+
+--- INDEPENDENCE NULL ---
+Permutations: 10000
+Block size: 1
+Intra-cluster correlation:
+  Null mean:        -0.0001
+  Null 95th pct:    0.0200
+  Null 99th pct:    0.0290
+  p-value (right):  0.000100    -> REJECTS independence null at p < 0.001
+PC1 explained variance:
+  Null mean:        14.86%
+  Null 95th pct:    16.05%
+  Null 99th pct:    16.68%
+  p-value (right):  0.000100    -> REJECTS independence null at p < 0.001
+
+--- RANDOM-BASKET NULL ---
+Permutations: 10000
+Universe source: DB prices_long (1199 tickers with >=200 obs in window)
+Pool size: 438
+Intra-cluster correlation:
+  Null mean:        0.1638
+  Null 95th pct:    0.2635
+  Null 99th pct:    0.3135
+  p-value (right):  0.000100    -> REJECTS random-basket null at p < 0.001
+PC1 explained variance:
+  Null mean:        28.86%
+  Null 95th pct:    37.65%
+  Null 99th pct:    41.95%
+  p-value (right):  0.000100    -> REJECTS random-basket null at p < 0.001
+
+--- INTERPRETATION ---
+Independence null rejected: the cohort series co-move (necessary, not sufficient).
+Random-basket null rejected: cohort is more cohesive than a random N-pick from the same universe. This is the meaningful pass.

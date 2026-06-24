@@ -1,0 +1,93 @@
+Cannabis CLUSTER ANALYSIS
+Window 1y: 2025-07-08 -> 2026-06-23 (200 obs)
+Window 2y: 2024-07-15 -> 2026-06-23 (259 obs)
+Universe: 12 tickers across 4 groups
+Dendrogram cut threshold: 0.5
+
+--- 1Y INTRA-CLUSTER PAIRWISE CORRELATIONS ---
+Ticker  GTBIF  CURLF  CRLBF   CGC  TLRY   ACB  CRON  SNDL   OGI
+Ticker                                                         
+GTBIF    1.00   0.82   0.89  0.68  0.62  0.64  0.66  0.57  0.54
+CURLF    0.82   1.00   0.84  0.67  0.60  0.66  0.58  0.54  0.55
+CRLBF    0.89   0.84   1.00  0.69  0.61  0.64  0.56  0.55  0.54
+CGC      0.68   0.67   0.69  1.00  0.76  0.78  0.66  0.72  0.62
+TLRY     0.62   0.60   0.61  0.76  1.00  0.71  0.63  0.75  0.55
+ACB      0.64   0.66   0.64  0.78  0.71  1.00  0.69  0.72  0.65
+CRON     0.66   0.58   0.56  0.66  0.63  0.69  1.00  0.63  0.51
+SNDL     0.57   0.54   0.55  0.72  0.75  0.72  0.63  1.00  0.59
+OGI      0.54   0.55   0.54  0.62  0.55  0.65  0.51  0.59  1.00
+Average intra-cluster correlation: 0.651
+Range: [0.509, 0.886]
+
+--- AVG GROUP-PAIR CORRELATIONS (1Y) ---
+             cluster  us_mso_  global_   market
+    cluster    0.651    0.726    0.736    0.256
+ us_mso_etf    0.726      nan    0.908    0.190
+ global_etf    0.736    0.908      nan    0.355
+     market    0.256    0.190    0.355      nan
+
+Cluster vs others:
+  cluster vs us_mso_etf: 0.726  (intra advantage: +-0.075)
+  cluster vs global_etf: 0.736  (intra advantage: +-0.085)
+  cluster vs market    : 0.256  (intra advantage: +0.395)
+
+--- HIERARCHICAL CLUSTERS (1Y, distance threshold 0.5) ---
+  Cluster 1: GTBIF, CURLF, CRLBF, CGC, TLRY, ACB, CRON, SNDL, OGI, MSOS, MJ
+  Cluster 2: SPY
+
+--- CANDIDATE JOIN DISTANCES (1Y, average linkage, distance = 1-|corr|) ---
+ Step              Left                                    Right Distance                                      Members
+    1             GTBIF                                    CRLBF    0.114                                  GTBIF+CRLBF
+    2             CURLF                              GTBIF+CRLBF    0.171                            CURLF+GTBIF+CRLBF
+    3               CGC                                      ACB    0.223                                      CGC+ACB
+    4              TLRY                                     SNDL    0.246                                    TLRY+SNDL
+    5           CGC+ACB                                TLRY+SNDL    0.276                            CGC+ACB+TLRY+SNDL
+    6              CRON                        CGC+ACB+TLRY+SNDL    0.346                       CRON+CGC+ACB+TLRY+SNDL
+    7 CURLF+GTBIF+CRLBF                   CRON+CGC+ACB+TLRY+SNDL    0.381     CURLF+GTBIF+CRLBF+CRON+CGC+ACB+TLRY+SNDL
+    8               OGI CURLF+GTBIF+CRLBF+CRON+CGC+ACB+TLRY+SNDL    0.430 OGI+CURLF+GTBIF+CRLBF+CRON+CGC+ACB+TLRY+SNDL
+
+--- PCA ON CANDIDATE COHORT (1Y) ---
+Explained variance ratio:
+  PC1: 69.18%
+  PC2: 9.29%
+  PC3: 5.73%
+  PC4: 4.61%
+  PC5: 3.15%
+
+PC1 loadings:
+GTBIF    0.345
+CURLF    0.337
+CRLBF    0.341
+CGC      0.354
+TLRY     0.334
+ACB      0.348
+CRON     0.317
+SNDL     0.325
+OGI      0.295
+
+--- PC1 INDEX WEIGHTS (1Y) ---
+PCA is run on standardized daily log returns. Raw PC1-mimic weights scale PC1 loading by inverse realized volatility.
+      PC1 loading Loading weight  Ann vol Raw PC1-mimic weight
+GTBIF       0.345         11.51%   92.27%                9.38%
+CURLF       0.337         11.24%  116.66%                7.24%
+CRLBF       0.341         11.38%  139.72%                6.12%
+CGC         0.354         11.81%   92.75%                9.57%
+TLRY        0.334         11.14%  101.40%                8.26%
+ACB         0.348         11.61%   57.33%               15.22%
+CRON        0.317         10.58%   42.22%               18.84%
+SNDL        0.325         10.86%   63.03%               12.95%
+OGI         0.295          9.86%   59.56%               12.44%
+
+--- WEEKLY-RETURN CROSS-CHECK (1Y, async-close robustness) ---
+Weeks: 40   Weekly intra-corr: 0.616 (daily 0.651)   Weekly PC1: 66.3% (daily 69.2%)
+
+--- HISTORICAL TIGHTNESS EVOLUTION (90D ROLLING) ---
+     Avg corr    PC1 Core corr Satellite corr Final join distance
+Date                                                             
+2022    0.513  58.1%     0.547          0.398               0.661
+2023    0.514  57.3%     0.529          0.443               0.637
+2024    0.522  57.8%     0.510          0.571               0.563
+2025    0.594  64.2%     0.589          0.610               0.523
+2026    0.658  69.9%     0.648          0.695               0.450
+
+Latest 90D: avg corr 0.625, PC1 67.2%, core corr 0.618, satellite corr 0.651, final join distance 0.478

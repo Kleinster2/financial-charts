@@ -1,0 +1,27 @@
+# Cannabis — the same-product / different-jurisdiction falsification test for law #13
+# (jurisdiction beats business model). Cannabis is literally the same plant on both sides
+# of the US/Canada border, but US MSOs are schedule-I / federally-illegal / 280E-taxed /
+# state-siloed, while Canadian LPs are federally legal. Candidate cohort = the full listed
+# complex (US MSOs GTBIF/CURLF/CRLBF + Canadian LPs CGC/TLRY/ACB/CRON/SNDL/OGI): is there
+# ONE ownable cannabis factor, or does it fragment by jurisdiction? Controls hand us BOTH
+# proxy ETFs — MSOS (AdvisorShares Pure US Cannabis, holds the MSOs via swaps; law #9
+# predicts the US sleeve collapses into it) and MJ (Amplify Alternative Harvest, historically
+# Canadian-LP-heavy) — plus SPY. Trulieve (TCNNF) and Verano (VRNOF) omitted: OTC providers
+# return only a live quote, no history. Tickers ingested 2026-06-24.
+name: Cannabis
+primary: GTBIF
+prefix: cannabis-cluster
+threshold: 0.5
+window_end: 2026-06-23
+definition_date: 2026-06-24
+history_start: 2020-09-01
+
+groups:
+  cluster:
+    tickers: [GTBIF, CURLF, CRLBF, CGC, TLRY, ACB, CRON, SNDL, OGI]
+  us_mso_etf:
+    tickers: [MSOS]
+  global_etf:
+    tickers: [MJ]
+  market:
+    tickers: [SPY]

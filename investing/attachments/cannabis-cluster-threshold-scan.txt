@@ -1,0 +1,33 @@
+Cannabis THRESHOLD STABILITY SCAN
+Cohort size: 9
+
+--- ASSIGNMENT TABLE ---
+ threshold  n_subclusters  largest_subcluster_size  cohort_share_in_largest  contamination_count  intact
+      0.20              7                        3                    0.333                    2   False
+      0.25              5                        3                    0.333                    2   False
+      0.30              4                        4                    0.444                    0   False
+      0.35              3                        5                    0.556                    0   False
+      0.40              2                        8                    0.889                    2   False
+      0.45              1                        9                    1.000                    2   False
+      0.50              1                        9                    1.000                    2   False
+      0.55              1                        9                    1.000                    2   False
+      0.60              1                        9                    1.000                    2   False
+      0.65              1                        9                    1.000                    2   False
+      0.70              1                        9                    1.000                    2   False
+
+--- STABLE RANGES (intact cohort, no contamination) ---
+  None — cohort never returns as a clean single cluster at any threshold.
+
+--- VERDICT ---
+BOUNDARY-DEPENDENT: cohort does not form a clean cluster at any threshold tested. Falsification candidate.
+
+--- CONTAMINATION DETAIL (non-cohort names joining the cohort's largest cluster) ---
+  threshold 0.20: + MSOS,MJ
+  threshold 0.25: + MSOS,MJ
+  threshold 0.40: + MSOS,MJ
+  threshold 0.45: + MSOS,MJ
+  threshold 0.50: + MSOS,MJ
+  threshold 0.55: + MSOS,MJ
+  threshold 0.60: + MSOS,MJ
+  threshold 0.65: + MSOS,MJ
+  threshold 0.70: + MSOS,MJ

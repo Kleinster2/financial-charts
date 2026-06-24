@@ -5,6 +5,16 @@ charts:
     normalize: true
     start: 2021-01-01
     primary: BTU
+  cannabis-performance.png:
+    tickers: GTBIF,CRLBF,CGC,TLRY,MSOS,MJ
+    normalize: true
+    start: 2023-01-01
+    primary: GTBIF
+  msos-vs-mj.png:
+    tickers: MSOS,MJ
+    normalize: true
+    start: 2021-01-01
+    primary: MSOS
   infra-build-performance.png:
     tickers: PWR,EME,FIX,MTZ,STRL,PAVE
     normalize: true
