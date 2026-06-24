@@ -482,6 +482,11 @@ charts:
     normalize: true
     start: 2025-03-06
     primary: ALLW
+  intc-vs-tsm-price-chart.png:
+    tickers: INTC,TSM
+    normalize: true
+    start: 2024-01-01
+    primary: INTC
 ---
 
 # Chart Registry

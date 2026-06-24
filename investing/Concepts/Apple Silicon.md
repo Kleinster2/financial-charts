@@ -24,3 +24,4 @@ Umbrella term for [[Apple]]'s in-house-designed processors — the A-series (iPh
 - [[TSMC]] — primary foundry
 - [[Customer lock-in via co-design]] — the design moat
 - [[Intel]] — preliminary second-source foundry (2027+)
+- [[Intel 18A]] — the node for Apple's M7 second-source (18A-P, 2027)

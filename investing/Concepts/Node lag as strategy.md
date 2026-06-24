@@ -144,3 +144,4 @@ See [[Samsung Taylor pivot]] for details.
 - [[Samsung Taylor pivot]] — contrast (leapfrog to 2nm mid-construction)
 - [[Why TSMC can afford patience]] — context (dominance enables patience)
 - [[Execution risk in foundries]] — rationale (reduces geographic risk)
+- [[Intel 18A]] — the counter-bet: closing the node gap (RibbonFET + PowerVia) rather than accepting lag

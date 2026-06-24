@@ -112,6 +112,17 @@ The whole [[Semiconductors]] sector rallied as a basket; see [[Semiconductors#Ma
 
 ---
 
+## June 2026 update — deal confirmed; node reported as 18A-P
+
+Two developments since the May 8 break resolved the biggest open questions:
+
+- Node identified. Industry reporting (TweakTown, WCCFTech, citing supply-chain sources) indicates the agreement — reportedly inked in December 2025 — covers [[Apple]]'s M7 SoC on Intel's [[Intel 18A|18A-P]] (the performance variant) for production by late 2027, with future Apple smartphone-class chips targeting Intel's [[14A]] node rather than 18A. Apple is using Intel for lower-end, lower-volume parts only; [[TSMC]] retains more than 90% of Apple's silicon. This narrows the May-8 "node not disclosed" unknown to a reported 18A-P (M7) plus 14A (future) split — though neither Intel nor Apple has officially confirmed the node.
+- Presidential confirmation. On June 20 2026, President [[Donald Trump]] publicly confirmed the Apple-Intel chip deal; [[Intel|INTC]] rose ~10.5% on the day, a second leg of the re-rating after the May 8 +14%. INTC reached a $140.94 intraday-basis high on June 22 before settling at $132.28 on June 23 (canonical close), roughly 7.5x its September-2024 low of $18.89.
+
+The process technology and competitive context now live in [[Intel 18A]] — the node deep-dive (RibbonFET + PowerVia, the [[TSMC N2|N2]] comparison, the yield gap, the customer pipeline). This event note remains the record of the deal itself.
+
+---
+
 ## What's still unknown
 
 | Question | What's needed |

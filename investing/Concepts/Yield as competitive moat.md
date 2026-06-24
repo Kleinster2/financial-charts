@@ -126,3 +126,4 @@ In semiconductor manufacturing, **yield** (percentage of working chips per wafer
 - [[Customer lock-in via co-design]] — related moat
 - [[Advanced packaging]] — related moat (CoWoS)
 - [[Execution risk in foundries]] — manifestation (low yields = customer loss)
+- [[Intel 18A]] — the live test: ~60-75% yields (2026), convergence to TSMC-class yields guided 2027
