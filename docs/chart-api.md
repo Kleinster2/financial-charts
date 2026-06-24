@@ -348,7 +348,7 @@ INSERT INTO segment_quarterly VALUES
 
 ## Sankey Chart (Income Statement Flow)
 
-Generate an income statement Sankey flow diagram with flowing ribbons showing Revenue → Gross Profit → Operating Income → Net Income. Uses Plotly + Kaleido for rendering.
+Generate an income statement Sankey flow diagram with flowing ribbons showing Revenue → Gross Profit → Operating Income → Net Income. Rendered with Playwright → hand-rolled SVG in headless Chromium (screenshotted to PNG via `sankey_render.html`), the same browser-render family as `/api/chart/lw` — not Plotly/Kaleido.
 
 ```bash
 # Basic Sankey (latest annual)
@@ -371,7 +371,7 @@ curl "http://localhost:5000/api/chart/sankey?ticker=AAPL&period=quarterly" -o in
 
 **Detail levels:** If R&D/SG&A/Interest/Tax are available in DB, shows detailed breakdown. Otherwise falls back to lumped OpEx/Tax & Other. Run `scripts/backfill_income_detail.py TICKER` to populate detail columns from Alpha Vantage.
 
-**Note:** Plotly auto-layouts nodes — ribbon crossings may occur. This is a known limitation.
+**Note:** the template computes node positions itself (no auto-layout library) — ribbon crossings may still occur. This is a known limitation.
 
 **Preserve all Sankey charts — never overwrite.** Sankey charts show income statement flow for a single fiscal year; side-by-side comparison across years reveals margin expansion/contraction visually. That analytical value disappears if you only keep the latest.
 
