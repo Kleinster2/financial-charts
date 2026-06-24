@@ -1,0 +1,90 @@
+Coal miners CLUSTER ANALYSIS
+Window 1y: 2025-06-24 -> 2026-06-22 (250 obs)
+Window 2y: 2024-06-25 -> 2026-06-22 (499 obs)
+Universe: 11 tickers across 6 groups
+Dendrogram cut threshold: 0.5
+
+--- 1Y INTRA-CLUSTER PAIRWISE CORRELATIONS ---
+Ticker   BTU   AMR   HCC  ARLP  METC   CNR
+Ticker                                    
+BTU     1.00  0.69  0.67  0.46  0.53  0.81
+AMR     0.69  1.00  0.75  0.34  0.51  0.72
+HCC     0.67  0.75  1.00  0.39  0.47  0.74
+ARLP    0.46  0.34  0.39  1.00  0.32  0.50
+METC    0.53  0.51  0.47  0.32  1.00  0.52
+CNR     0.81  0.72  0.74  0.50  0.52  1.00
+Average intra-cluster correlation: 0.563
+Range: [0.322, 0.805]
+
+--- AVG GROUP-PAIR CORRELATIONS (1Y) ---
+             cluster    steel  nat_gas  metals_   energy   market
+    cluster    0.563    0.181    0.032    0.448    0.239    0.100
+      steel    0.181      nan   -0.078    0.509    0.104    0.448
+    nat_gas    0.032   -0.078      nan   -0.104    0.192   -0.158
+metals_mini    0.448    0.509   -0.104      nan    0.060    0.583
+     energy    0.239    0.104    0.192    0.060      nan   -0.042
+     market    0.100    0.448   -0.158    0.583   -0.042      nan
+
+Cluster vs others:
+  cluster vs steel     : 0.181  (intra advantage: +0.381)
+  cluster vs nat_gas   : 0.032  (intra advantage: +0.531)
+  cluster vs metals_mining: 0.448  (intra advantage: +0.115)
+  cluster vs energy    : 0.239  (intra advantage: +0.324)
+  cluster vs market    : 0.100  (intra advantage: +0.463)
+
+--- HIERARCHICAL CLUSTERS (1Y, distance threshold 0.5) ---
+  Cluster 1: XME, SPY
+  Cluster 2: NUE
+  Cluster 3: BTU, AMR, HCC, METC, CNR
+  Cluster 4: ARLP
+  Cluster 5: UNG
+  Cluster 6: XLE
+
+--- CANDIDATE JOIN DISTANCES (1Y, average linkage, distance = 1-|corr|) ---
+ Step    Left                Right Distance                   Members
+    1     BTU                  CNR    0.195                   BTU+CNR
+    2     AMR                  HCC    0.255                   AMR+HCC
+    3 BTU+CNR              AMR+HCC    0.294           BTU+CNR+AMR+HCC
+    4    METC      BTU+CNR+AMR+HCC    0.489      METC+BTU+CNR+AMR+HCC
+    5    ARLP METC+BTU+CNR+AMR+HCC    0.595 ARLP+METC+BTU+CNR+AMR+HCC
+
+--- PCA ON CANDIDATE COHORT (1Y) ---
+Explained variance ratio:
+  PC1: 64.66%
+  PC2: 12.34%
+  PC3: 10.04%
+  PC4: 5.78%
+  PC5: 4.22%
+
+PC1 loadings:
+BTU     0.446
+AMR     0.433
+HCC     0.433
+ARLP    0.302
+METC    0.349
+CNR     0.461
+
+--- PC1 INDEX WEIGHTS (1Y) ---
+PCA is run on standardized daily log returns. Raw PC1-mimic weights scale PC1 loading by inverse realized volatility.
+     PC1 loading Loading weight  Ann vol Raw PC1-mimic weight
+BTU        0.446         18.41%   60.41%               15.41%
+AMR        0.433         17.88%   61.11%               14.79%
+HCC        0.433         17.86%   55.64%               16.23%
+ARLP       0.302         12.45%   23.39%               26.90%
+METC       0.349         14.38%  102.40%                7.10%
+CNR        0.461         19.02%   49.12%               19.58%
+
+--- WEEKLY-RETURN CROSS-CHECK (1Y, async-close robustness) ---
+Weeks: 52   Weekly intra-corr: 0.509 (daily 0.563)   Weekly PC1: 60.1% (daily 64.7%)
+
+--- HISTORICAL TIGHTNESS EVOLUTION (90D ROLLING) ---
+     Avg corr    PC1 Core corr Satellite corr Final join distance
+Date                                                             
+2021    0.542  62.0%     0.528          0.574               0.517
+2022    0.670  72.6%     0.659          0.672               0.366
+2023    0.563  64.0%     0.546          0.589               0.552
+2024    0.535  62.2%     0.492          0.595               0.634
+2025    0.590  67.0%     0.557          0.640               0.610
+2026    0.530  63.0%     0.477          0.625               0.666
+
+Latest 90D: avg corr 0.623, PC1 69.5%, core corr 0.595, satellite corr 0.679, final join distance 0.546

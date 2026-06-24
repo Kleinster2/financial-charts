@@ -1,5 +1,10 @@
 ---
 charts:
+  coal-performance.png:
+    tickers: BTU,AMR,HCC,METC,CNR,XME
+    normalize: true
+    start: 2021-01-01
+    primary: BTU
   infra-build-performance.png:
     tickers: PWR,EME,FIX,MTZ,STRL,PAVE
     normalize: true
