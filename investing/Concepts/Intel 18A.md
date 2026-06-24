@@ -142,4 +142,5 @@ Process technology and yields: [[Tom's Hardware]], TechInsights, [[Intel]] Newsr
 - [[Intel securities note]] — INTC instrument / price companion
 
 ### Cross-vault
+- [Technologies: Gate-All-Around Transistor](obsidian://open?vault=technologies&file=Gate-All-Around%20Transistor) — the device-physics deep-dive (RibbonFET, nanosheets, backside power delivery)
 - [Technologies: Intel](obsidian://open?vault=technologies&file=Companies%2FIntel) — process-technology and Moore's-law background
