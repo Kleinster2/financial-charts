@@ -1,0 +1,87 @@
+Infrastructure construction CLUSTER ANALYSIS
+Window 1y: 2025-07-08 -> 2026-06-22 (199 obs)
+Window 2y: 2024-07-15 -> 2026-06-22 (258 obs)
+Universe: 12 tickers across 5 groups
+Dendrogram cut threshold: 0.5
+
+--- 1Y INTRA-CLUSTER PAIRWISE CORRELATIONS ---
+Ticker   PWR   EME   FIX   MTZ  STRL  PRIM
+Ticker                                    
+PWR     1.00  0.66  0.79  0.82  0.64  0.35
+EME     0.66  1.00  0.78  0.67  0.65  0.32
+FIX     0.79  0.78  1.00  0.80  0.70  0.34
+MTZ     0.82  0.67  0.80  1.00  0.66  0.40
+STRL    0.64  0.65  0.70  0.66  1.00  0.26
+PRIM    0.35  0.32  0.34  0.40  0.26  1.00
+Average intra-cluster correlation: 0.589
+Range: [0.264, 0.817]
+
+--- AVG GROUP-PAIR CORRELATIONS (1Y) ---
+             cluster  broad_e  infra_e  industr   market
+    cluster    0.589    0.301    0.590    0.535    0.481
+   broad_ec    0.301    0.446    0.470    0.466    0.414
+  infra_etf    0.590    0.470      nan    0.936    0.711
+industrials    0.535    0.466    0.936      nan    0.732
+     market    0.481    0.414    0.711    0.732      nan
+
+Cluster vs others:
+  cluster vs broad_ec  : 0.301  (intra advantage: +0.288)
+  cluster vs infra_etf : 0.590  (intra advantage: +-0.000)
+  cluster vs industrials: 0.535  (intra advantage: +0.055)
+  cluster vs market    : 0.481  (intra advantage: +0.108)
+
+--- HIERARCHICAL CLUSTERS (1Y, distance threshold 0.5) ---
+  Cluster 1: ACM, J
+  Cluster 2: PWR, EME, FIX, MTZ, STRL, FLR, PAVE, XLI, SPY
+  Cluster 3: PRIM
+
+--- CANDIDATE JOIN DISTANCES (1Y, average linkage, distance = 1-|corr|) ---
+ Step Left                Right Distance                   Members
+    1  PWR                  MTZ    0.183                   PWR+MTZ
+    2  FIX              PWR+MTZ    0.204               FIX+PWR+MTZ
+    3  EME          FIX+PWR+MTZ    0.294           EME+FIX+PWR+MTZ
+    4 STRL      EME+FIX+PWR+MTZ    0.339      STRL+EME+FIX+PWR+MTZ
+    5 PRIM STRL+EME+FIX+PWR+MTZ    0.665 PRIM+STRL+EME+FIX+PWR+MTZ
+
+--- PCA ON CANDIDATE COHORT (1Y) ---
+Explained variance ratio:
+  PC1: 67.63%
+  PC2: 13.79%
+  PC3: 6.83%
+  PC4: 5.96%
+  PC5: 3.08%
+
+PC1 loadings:
+PWR     0.440
+EME     0.421
+FIX     0.457
+MTZ     0.448
+STRL    0.403
+PRIM    0.239
+
+--- PC1 INDEX WEIGHTS (1Y) ---
+PCA is run on standardized daily log returns. Raw PC1-mimic weights scale PC1 loading by inverse realized volatility.
+     PC1 loading Loading weight Ann vol Raw PC1-mimic weight
+PWR        0.440         18.28%  40.08%               23.04%
+EME        0.421         17.50%  41.54%               21.29%
+FIX        0.457         19.00%  53.23%               18.03%
+MTZ        0.448         18.60%  42.19%               22.29%
+STRL       0.403         16.72%  83.27%               10.15%
+PRIM       0.239          9.91%  96.26%                5.20%
+
+--- WEEKLY-RETURN CROSS-CHECK (1Y, async-close robustness) ---
+Weeks: 40   Weekly intra-corr: 0.432 (daily 0.589)   Weekly PC1: 56.4% (daily 67.6%)
+
+--- HISTORICAL TIGHTNESS EVOLUTION (90D ROLLING) ---
+     Avg corr    PC1 Core corr Satellite corr Final join distance
+Date                                                             
+2019    0.388  50.0%     0.352          0.450               0.721
+2020    0.618  68.3%     0.626          0.605               0.445
+2021    0.649  70.9%     0.663          0.620               0.408
+2022    0.608  67.6%     0.616          0.599               0.447
+2023    0.623  68.8%     0.596          0.639               0.461
+2024    0.426  52.8%     0.411          0.443               0.661
+2025    0.752  79.4%     0.755          0.734               0.301
+2026    0.713  76.4%     0.702          0.735               0.365
+
+Latest 90D: avg corr 0.563, PC1 66.8%, core corr 0.527, satellite corr 0.636, final join distance 0.756

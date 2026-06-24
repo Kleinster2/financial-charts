@@ -1,0 +1,22 @@
+Infrastructure construction HOLDOUT TEST
+Cohort: PWR, EME, FIX, MTZ, STRL, PRIM (N=6)
+Window: 2y, split temporally at midpoint
+Train: 2024-06-22 -> 2025-06-22 (59 obs)
+Test:  2025-06-22 -> 2026-06-22 (199 obs)
+
+--- TRAIN HALF (older) ---
+Intra-correlation:    0.8137
+PC1 explained var:    84.53%
+Pairwise range:       [0.745, 0.930]
+
+--- TEST HALF (newer) ---
+Intra-correlation:    0.5894
+PC1 explained var:    67.63%
+Pairwise range:       [0.264, 0.817]
+
+--- STABILITY DIAGNOSTICS ---
+Intra-corr delta:     -0.2242   (test - train)
+PC1 variance delta:   -16.90pp
+PC1 loadings corr:    0.2627    (1.0 = identical factor structure)
+
+VERDICT: WEAKENED — test/train ratio 0.72 (factor present but eroding)

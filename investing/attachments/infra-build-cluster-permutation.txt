@@ -1,0 +1,22 @@
+Infrastructure construction PERMUTATION TESTS
+Window: 2025-07-08 -> 2026-06-22 (199 obs)
+Candidate cohort: PWR, EME, FIX, MTZ, STRL, PRIM (N=6)
+Observed intra-corr: 0.5894    Observed PC1: 67.63%
+
+--- RANDOM-BASKET NULL ---
+Permutations: 4000
+Universe source: DB prices_long (1183 tickers with >=200 obs in window)
+Pool size: 1177
+Intra-cluster correlation:
+  Null mean:        0.1559
+  Null 95th pct:    0.2822
+  Null 99th pct:    0.3486
+  p-value (right):  0.000250    -> REJECTS random-basket null at p < 0.001
+PC1 explained variance:
+  Null mean:        32.65%
+  Null 95th pct:    42.65%
+  Null 99th pct:    48.20%
+  p-value (right):  0.000250    -> REJECTS random-basket null at p < 0.001
+
+--- INTERPRETATION ---
+Random-basket null rejected: cohort is more cohesive than a random N-pick from the same universe. This is the meaningful pass.

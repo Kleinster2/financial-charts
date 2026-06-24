@@ -1,5 +1,10 @@
 ---
 charts:
+  infra-build-performance.png:
+    tickers: PWR,EME,FIX,MTZ,STRL,PAVE
+    normalize: true
+    start: 2019-01-01
+    primary: PWR
   grain-performance.png:
     tickers: ADM,BG,MOO,DBA
     normalize: true

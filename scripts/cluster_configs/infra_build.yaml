@@ -1,0 +1,27 @@
+# AI-buildout / infrastructure construction contractors — the data-center + grid +
+# electrification construction trade (one of the biggest 2025-26 themes; EME/FIX/STRL have
+# 5-10x'd). Candidate: the specialty electrical/mechanical/power-infrastructure contractors —
+# PWR (Quanta, grid/datacenter), EME (EMCOR, datacenter electrical/mechanical), FIX (Comfort
+# Systems, datacenter HVAC), MTZ (MasTec, power delivery), STRL (Sterling, datacenter sitework),
+# PRIM (Primoris, energy/infrastructure). A distinct buildout factor, or = broad industrials /
+# broad E&C? Controls: the big engineering/EPC firms (ACM/FLR/J — different model), the
+# infrastructure ETF PAVE (gappy), XLI, SPY. Tickers ingested 2026-06-24.
+name: Infrastructure construction
+primary: PWR
+prefix: infra-build-cluster
+threshold: 0.5
+window_end: 2026-06-22
+definition_date: 2026-06-24
+history_start: 2019-01-01
+
+groups:
+  cluster:
+    tickers: [PWR, EME, FIX, MTZ, STRL, PRIM]
+  broad_ec:
+    tickers: [ACM, FLR, J]
+  infra_etf:
+    tickers: [PAVE]
+  industrials:
+    tickers: [XLI]
+  market:
+    tickers: [SPY]
