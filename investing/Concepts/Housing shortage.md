@@ -105,8 +105,11 @@ aliases: [housing deficit, housing undersupply, housing gap]
 | Density bonuses | CA ADU laws |
 | Affordable housing mandates | Inclusionary zoning |
 | Public construction | Limited federal role |
+| [[21st Century ROAD to Housing Act]] | Federal supply-side bill, Jun 2026 (unsigned) |
 
 **Challenge:** Housing is local — federal policy has limited direct impact on supply.
+
+The [[21st Century ROAD to Housing Act]] (passed Congress Jun 22-23 2026, awaiting signature) is the most significant federal exception to that rule: it streamlines [[NEPA]] environmental review and directs [[HUD]] to push local zoning reform — federal leverage on a local problem. It still works through local zoning behavior and multi-year construction, so delivered supply lags the equity reaction (homebuilders and building products rallied 6-11% on Jun 24). See [[21st Century ROAD to Housing Act]].
 
 ---
 
@@ -126,6 +129,7 @@ aliases: [housing deficit, housing undersupply, housing gap]
 
 - [[Housing]] — sector hub
 - [[Housing affordability crisis]] — consequence of shortage
+- [[21st Century ROAD to Housing Act]] — Jun 2026 federal supply-side bill
 - [[Build-to-rent]] — supply response
 - [[Single-family rental]] — demand beneficiary
 - [[Sunbelt migration]] — regional demand driver

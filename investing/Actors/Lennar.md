@@ -118,6 +118,12 @@ LEN -6.0% on March 30 (2.5σ) — continued slide post-earnings. Stock near 52-w
 
 ---
 
+## Jun 24 2026 — ROAD to Housing Act rally
+
+LEN closed +6.41% on Jun 24 (+2.60σ on a flat [[SPY]], -0.04%) after Congress passed the [[21st Century ROAD to Housing Act]] and the 10-year yield fell ~9bps to 4.40%. The catalyst cuts directly against the margin-compression story its Q1 FY2026 print told — incentives running at ~14% of sale price to buy volume — because cheaper supply (permitting, manufactured homes) plus lower rates ease the affordability math that has capped pricing. The move tracked the [[Homebuilders]] cohort ([[DR Horton|DHI]] +6.7%, [[PulteGroup|PHM]] +7.2%, [[Toll Brothers|TOL]] +6.7%). The bill is unsigned ([[Donald Trump]] withholding signature pending his SAVE America Act). See [[21st Century ROAD to Housing Act]].
+
+---
+
 ## Investment case
 
 **Bull:**

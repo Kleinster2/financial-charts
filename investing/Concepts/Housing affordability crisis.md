@@ -86,6 +86,9 @@ aliases: [housing affordability, affordability crisis]
 | [[GSE reform]] | Conservatorship exit discussions |
 | Zoning reform | State-level efforts (TX, FL leading) |
 | Rate cuts | Fed easing cycle (if continues) |
+| [[21st Century ROAD to Housing Act]] | Passed Congress Jun 2026, unsigned — federal supply-side |
+
+The [[21st Century ROAD to Housing Act]] (passed Congress Jun 22-23 2026, awaiting signature) is the first federal supply-side action of scale: it streamlines [[NEPA]] environmental review, directs [[HUD]] to issue zoning-reform guidance, cuts manufactured-home costs by removing the permanent-chassis rule, and restricts large institutional investors' single-family holdings — partially enacting the [[Institutional homebuying ban]] idea from the supply side. The Jun 24 market reaction (homebuilders +6-7%, building products +8-11%) is detailed in the Event note. Caveat: [[Donald Trump]] is withholding signature pending his SAVE America Act, so it is passed but not yet law.
 
 ---
 
@@ -125,6 +128,7 @@ aliases: [housing affordability, affordability crisis]
 - [[Single-family rental]] — demand beneficiary
 - [[Build-to-rent]] — supply response
 - [[Institutional homebuying ban]] — policy response
+- [[21st Century ROAD to Housing Act]] — Jun 2026 federal supply-side bill
 - [[GSE reform]] — policy response
 - [[Sunbelt migration]] — regional dynamics
 - [[DR Horton]] — largest homebuilder

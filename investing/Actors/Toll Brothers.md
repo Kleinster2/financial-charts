@@ -86,6 +86,12 @@ Minimal direct impact expected:
 
 ---
 
+## Jun 24 2026 — ROAD to Housing Act rally
+
+TOL closed +6.67% on Jun 24 (+2.61σ on a flat [[SPY]], -0.04%) after Congress passed the [[21st Century ROAD to Housing Act]] and the 10-year yield fell ~9bps to 4.40%. The move is notable precisely because TOL is the least rate-sensitive builder — luxury, cash-heavy buyers — so its rally tracked sector-wide sentiment on the bill more than the ~9bp rate move itself, confirming the catalyst was read as a housing-sector event, not a narrow mortgage-rate trade. It moved with the [[Homebuilders]] cohort ([[DR Horton|DHI]] +6.7%, [[Lennar|LEN]] +6.4%, [[PulteGroup|PHM]] +7.2%). The bill is unsigned ([[Donald Trump]] withholding signature pending his SAVE America Act). See [[21st Century ROAD to Housing Act]].
+
+---
+
 ## Investment case
 
 **Bull:**

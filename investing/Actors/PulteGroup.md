@@ -99,6 +99,12 @@ Stock dipped on institutional homebuying ban announcement:
 
 ---
 
+## Jun 24 2026 — ROAD to Housing Act rally
+
+PHM closed +7.24% on Jun 24 (+3.25σ on a flat [[SPY]], -0.04%) after Congress passed the [[21st Century ROAD to Housing Act]] (Senate 85-5, House 358-32) and the 10-year yield fell ~9bps to 4.40%. The move sat mid-pack in the [[Homebuilders]] cohort ([[DR Horton|DHI]] +6.7%, [[Lennar|LEN]] +6.4%, [[Toll Brothers|TOL]] +6.7%, [[NVR]] +5.9%) — the names moved together, consistent with the cohort trading as one factor. The bill is supply-side and unsigned ([[Donald Trump]] is withholding signature pending his SAVE America Act), so the rally priced passage, not enactment. See [[21st Century ROAD to Housing Act]].
+
+---
+
 ## Investment case
 
 **Bull:**

@@ -52,6 +52,12 @@ The cleanest cross-name framing: homebuilders' Q1 commentary will tell whether t
 
 ---
 
+## Jun 24 2026 — ROAD to Housing Act rally
+
+The cohort rallied 6-7% on Jun 24 after Congress passed the [[21st Century ROAD to Housing Act]] (Senate 85-5 Jun 22, House 358-32 Jun 23) and the 10-year yield fell ~9bps to 4.40%: [[PulteGroup|PHM]] +7.2%, [[DR Horton|DHI]] +6.7%, [[Toll Brothers|TOL]] +6.7%, [[Lennar|LEN]] +6.4%, [[NVR]] +5.9%, with ITB +6.2% — all +2.6 to +3.3σ on a flat [[SPY]] (-0.04%), so near-pure sector signal. The move is consistent with the cluster finding below: the five tracked within ~1.4pp of each other with no single-name dispersion, the "own ITB, not the names" pattern in real time. Because the bill is supply-side (permitting, zoning, manufactured homes), building-products and distribution led the builders ([[Builders FirstSource|BLDR]] +11.3%). Caveat: [[Donald Trump]] has not signed it (withholding pending his SAVE America Act), so the rally priced passage, not enactment. Full detail in [[21st Century ROAD to Housing Act]].
+
+---
+
 ## Cross-name reads
 
 The homebuilder cohort sits at the center of a wider consumer-cyclical-cluster radar:
@@ -166,6 +172,9 @@ Method and terminology: `docs/cluster-validation.md`, [[Cohort, cluster, basket]
 - [[Housing shortage]] — supply-side frame
 - [[Multifamily housing]] — segment-specific frame
 - [[2026 recession risk]] — macro context
+- [[21st Century ROAD to Housing Act]] — Jun 2026 supply-side catalyst
+- [[Building products]] — supply-side cohort that led the Jun 24 rally
+- [[Sector rotation]] — the Jun 24 duration-to-housing rotation
 
 ---
 

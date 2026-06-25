@@ -51,6 +51,18 @@ The key question: is energy a rotation beneficiary (temporary, reverses when sof
 
 ---
 
+## Jun 24 2026 — duration → housing (the Warsh-regime rotation)
+
+A textbook rotation with a flat index. On Jun 24 [[SPY]] closed -0.04% and [[QQQ]] -0.42%, yet two large opposing clusters moved underneath — the signature the rotation-vs-selloff framework below flags (index flat, breadth split, capital repositioning rather than leaving).
+
+Sell side — high-beta, long-duration, no-cashflow speculation continuing the [[Kevin Warsh]] hawkish-regime derisk that hit semis on [[Nasdaq semiconductor selloff June 2026|Jun 23]]: crypto and miners ([[MicroStrategy|MSTR]] -9.4%, [[IREN]] -8.1%), quantum ([[Rigetti|RGTI]] -8.2%, [[IonQ|IONQ]] -7.4%), space ([[Rocket Lab|RKLB]] -10.2%), and alternative-asset managers ([[Apollo|APO]] -6.1%, [[Blackstone|BX]] -5.9%).
+
+Buy side — rate-sensitive cyclicals with a fresh policy catalyst: the housing-construction complex on the [[21st Century ROAD to Housing Act]] (passed Congress Jun 22-23) plus a ~9bp drop in the 10-year yield to 4.40%. Building products and distribution led ([[Builders FirstSource|BLDR]] +11.3%, [[Fortune Brands|FBIN]] +9.8%, [[Owens Corning|OC]] +8.1%), then homebuilders ([[PulteGroup|PHM]] +7.2%, [[DR Horton|DHI]] +6.7%).
+
+This is the cyclical-rotation counterpart to the AI-capex derating: the same [[Rate expectations|hawkish-rates regime]] that compresses long-duration growth multiples rewards rate-sensitive value when a policy tailwind appears. Full reaction detail and the unsigned-bill caveat in [[21st Century ROAD to Housing Act]].
+
+---
+
 ## Rotation 1: Mag 7 → everything else (January 2026)
 
 **Theme:** Earnings growth broadening.
@@ -218,6 +230,7 @@ This is the rotation signal: when the index beats its biggest components, leader
 |--------|----------|---------|-----------|----------|----------|
 | **2026** | Software → Energy | [[Claude Cowork disruption February 2026\|SaaSpocalypse]], AI disruption | SaaS, software (IGV -25%) | Energy (XLE +18%), old economy | Ongoing |
 | **2026** | Large → Small | AI disruption + valuation gap | Mag 7, Nasdaq | Russell 2000 (+7% YTD) | Ongoing |
+| 2026 | Duration → Housing | [[Kevin Warsh]] hawkish regime + [[21st Century ROAD to Housing Act]] | Crypto/quantum/space spec | Homebuilders, building products | Jun 24 |
 | **2022** | Growth → Value | Fed hiking cycle | Unprofitable tech | Energy, financials | Full year |
 | **2020-21** | Value → Growth | Covid, zero rates | Cyclicals | Stay-at-home tech | 18 months |
 | **2018 Q4** | Risk-off | Fed overtightening fears | Everything | Treasuries, cash | 3 months |
@@ -335,8 +348,12 @@ See [[February 2026 AI Disruption Cascade]] for the sell side of this trade.
 - [[Energy and Utilities]] — energy as rotation beneficiary
 - [[Small cap rotation 2026]] — parallel rotation episode
 - [[Oil]] — peak demand repricing
+- [[21st Century ROAD to Housing Act]] — Jun 24 housing-rotation catalyst
+- [[Kevin Warsh]] — hawkish regime driving the duration derisk
+- [[Homebuilders]] — Jun 24 buy side
+- [[Building products]] — Jun 24 buy-side leaders
 
-*Updated 2026-02-08*
+*Updated 2026-02-08 | Jun 24 2026 duration-to-housing rotation added*
 
 ---
 

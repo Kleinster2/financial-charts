@@ -172,6 +172,12 @@ Premium for scale and execution.
 ![[hd-employees-chart.png]]
 *Headcount: 470,100 (2025) — up 1.5% YoY*
 
+## Jun 24 2026 — ROAD to Housing Act rally
+
+HD closed +5.67% on Jun 24 (+3.08σ on a flat [[SPY]], -0.04%) after Congress passed the [[21st Century ROAD to Housing Act]] and the 10-year yield fell ~9bps to 4.40% — one of the highest sigma readings in the complex despite HD being a retailer, not a builder. The home-improvement channel is a second-order beneficiary: a supply bill plus lower rates lift both new-construction material demand and the repair-and-remodel activity that drives roughly half of HD's Pro-and-DIY mix. [[Lowe's|LOW]] moved less (+3.7%). The bill is unsigned ([[Donald Trump]] withholding signature). See [[21st Century ROAD to Housing Act]].
+
+---
+
 ## Related
 
 ### Competitors

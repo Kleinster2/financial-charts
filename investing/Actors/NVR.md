@@ -26,6 +26,12 @@ Cited as a homebuilder peer of [[Taylor Morrison]], which [[Berkshire Hathaway]]
 
 ---
 
+## Jun 24 2026 — ROAD to Housing Act rally
+
+NVR closed +5.87% on Jun 24 (+2.85σ on a flat [[SPY]], -0.04%) after Congress passed the [[21st Century ROAD to Housing Act]] and the 10-year yield fell ~9bps to 4.40%. It was the smallest move among the five large builders ([[PulteGroup|PHM]] +7.2%, [[Toll Brothers|TOL]] +6.7%, [[D.R. Horton|DHI]] +6.7%, [[Lennar|LEN]] +6.4%), consistent with its lower-volatility asset-light, lot-option model. The bill is unsigned ([[Donald Trump]] withholding signature pending his SAVE America Act). See [[21st Century ROAD to Housing Act]].
+
+---
+
 ## Related
 
 - [[Berkshire Hathaway]] — holds a public stake

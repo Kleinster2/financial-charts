@@ -111,8 +111,15 @@ The −0.056 intra-advantage versus the ETFs is the verdict: the names correlate
 
 Latest 90-day reading: intra 0.548, PC1 60.2%. The complex tightened to a near-single-factor in the 2022–23 rate shock (all construction names sold off together on rates), then loosened as HVAC (commercial capex, data-center cooling, electrification) and residential building products (housing affordability, R&R) diverged — the holdout's WEAKENED 0.82 and the negative PC1-loadings correlation (−0.37) between halves capture that the factor structure is not stable. It is a moderately-cohesive cyclical complex that acts like one factor only under a common rate/macro shock, and otherwise resolves to its two ETF poles — the [[Building products#Sub-structure|HVAC]] and housing legs.
 
+## Jun 24 2026 — the ROAD Act split the cohort along its two poles
+
+The [[21st Century ROAD to Housing Act]] (passed Congress Jun 22-23) is a residential-housing catalyst, and the Jun 24 reaction split the cohort exactly along the HVAC-vs-housing-products line the cluster validation above found. The housing-products pole (= [[XHB]]) led: [[Fortune Brands|FBIN]] +9.8%, [[Owens Corning|OC]] +8.1%, [[Masco|MAS]] +6.6%, with [[A.O. Smith|AOS]] +4.8% and [[Allegion|ALLE]] +4.1%. The HVAC pole (= [[XLI]], commercial and industrial demand) barely participated — [[Lennox|LII]] +5.4% was the only HVAC name to feature, and [[Carrier Global]] / [[Trane Technologies]] / [[Johnson Controls]] did not. A residential-supply bill is an XHB-pole event, not an XLI-pole event — live confirmation of the cohort's "two end-markets, two ETFs" verdict. The biggest single mover was the distributor [[Builders FirstSource|BLDR]] +11.3% (not in this makers cohort), the most volume-levered name to new construction. All moves were +2 to +3.4σ on a flat [[SPY]]. Full reaction in [[21st Century ROAD to Housing Act]].
+
+---
+
 ## Related
 
+- [[21st Century ROAD to Housing Act]] — Jun 2026 catalyst that hit the housing-products pole
 - [[Homebuilders]] — the demand-side cohort (housing starts); the housing-products pole clusters with it
 - [[Carrier Global]], [[Trane Technologies]], [[Johnson Controls]], [[Lennox]] — the HVAC pole (= XLI)
 - [[Masco]], [[Owens Corning]], [[Allegion]], [[A.O. Smith]], [[Fortune Brands]] — the housing-products pole (= XHB)

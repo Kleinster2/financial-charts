@@ -156,6 +156,12 @@ The durable readthrough is that the homebuilders are still living inside a margi
 
 ---
 
+## Jun 24 2026 — ROAD to Housing Act rally
+
+DHI closed +6.68% on Jun 24 (+2.90σ on a flat [[SPY]], -0.04%) after Congress passed the [[21st Century ROAD to Housing Act]] and the 10-year yield fell ~9bps to 4.40%. As the largest and most entry-level-weighted builder, DHI carries the cohort's highest rate sensitivity, so both legs of the catalyst — the supply bill and the rate relief — cut against the affordability and incentive squeeze its Apr FY2026 print flagged. The move tracked the [[Homebuilders]] cohort ([[PulteGroup|PHM]] +7.2%, [[Lennar|LEN]] +6.4%, [[Toll Brothers|TOL]] +6.7%). The bill is unsigned ([[Donald Trump]] withholding signature pending his SAVE America Act), so the rally priced passage, not enactment. See [[21st Century ROAD to Housing Act]].
+
+---
+
 ## Investment case
 
 Bull:

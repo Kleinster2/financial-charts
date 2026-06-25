@@ -72,6 +72,7 @@ US housing sector — homebuilders, single-family rental REITs, and related poli
 - New construction shifting to build-to-rent
 
 **Policy:**
+- [[21st Century ROAD to Housing Act]] — landmark federal supply-side bill (passed Congress Jun 2026, unsigned; homebuilders and building products rallied 6-11% on Jun 24)
 - [[Institutional homebuying ban]] — Trump proposal (Jan 2026)
 - GSE reform discussions ongoing
 - Rate cuts could shift dynamics
@@ -86,6 +87,7 @@ US housing sector — homebuilders, single-family rental REITs, and related poli
 | [[Build-to-rent]] | Purpose-built rental communities (+455% since 2019) |
 | [[Housing affordability crisis]] | 75% can't afford median new home |
 | [[Housing shortage]] | 3.7–7.2M unit deficit |
+| [[21st Century ROAD to Housing Act]] | Landmark federal supply-side bill (Jun 2026) |
 | [[Institutional homebuying ban]] | Trump policy proposal (Jan 2026) |
 | [[GSE reform]] | Fannie/Freddie conservatorship exit |
 | [[Sunbelt migration]] | Population shift driving regional demand |
@@ -120,6 +122,7 @@ US housing sector — homebuilders, single-family rental REITs, and related poli
 - [[Build-to-rent]] — purpose-built rentals
 - [[Housing affordability crisis]] — demand driver
 - [[Housing shortage]] — supply constraint
+- [[21st Century ROAD to Housing Act]] — Jun 2026 federal supply-side bill
 - [[Institutional homebuying ban]] — Trump policy proposal
 - [[GSE reform]] — Fannie/Freddie exit
 - [[Sunbelt migration]] — regional demand driver
