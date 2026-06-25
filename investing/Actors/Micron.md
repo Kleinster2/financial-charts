@@ -21,7 +21,7 @@ MU trades as a core Semiconductors name (SMH r = 0.83).
 
 ---
 
-Gross margin went from -9.1% (FY2023) to 81% (Q2 FY2026) in three years. Three dynamics are driving the company:
+Gross margin went from -9.1% (FY2023) to 84.9% (Q3 FY2026) in three years. Three dynamics are driving the company:
 
 1. HBM lock-in. Unlike commodity DRAM, [[HBM]] requires 6-42 month [[Qualification cycles|qualification cycles]] with each customer. [[NVIDIA]]'s Blackwell uses HBM qualified in 2023; Vera Rubin uses HBM being qualified now. HBM production cannibalizes standard DRAM at a 3:1 wafer ratio — every HBM wafer denies three wafers to commodity DDR5. More HBM production creates a worse shortage in standard memory. Micron is #3 with 21% share behind [[SK Hynix]] (62%) and [[Samsung]] (17%), but HBM4 mass production was announced ahead of schedule in February 2026 and is qualified with [[NVIDIA]].
 
@@ -45,10 +45,12 @@ Open questions: Memory has peaked at 59.6% gross margin before (2018) and crater
 | [[HBM]] position | #3 (21% share — SK Hynix 62%, Samsung 17%) |
 | FQ2 2026 revenue | $23.86B (+75% seq), 81% gross margin, EPS $12.20 |
 | FQ3 2026 guide | $33.5B +/-$750M, ~81% gross margin, EPS $19.15 |
+| FQ3 2026 actual | $41.46B (+74% seq), 84.9% gross margin, EPS $25.11 |
+| FQ4 2026 guide | $50.0B +/-$1.0B, ~86% gross margin, EPS $31.00 |
 | US investment | $200B ($150B mfg + $50B R&D) |
 | [[CHIPS Act]] | $6.165B grants + 25% ITC |
 
-*Updated 2026-03-28*
+*Updated 2026-06-24*
 
 ---
 
@@ -74,7 +76,7 @@ The story of Micron is the story of the last American memory company — a Boise
 
 - FY2024-2025: Recovery started slowly ($25.1B in FY2024, margin still only 22.4%), then accelerated as AI demand changed the character of memory economics. [[HBM]] qualification lock-ins created switching costs that commodity DRAM never had. Revenue reached $37.4B in FY2025 with margins expanding every quarter.
 
-- 2026: The breakout. Q1 FY2026 delivered $13.6B revenue (+57% YoY) at 56.8% gross margin and the "largest ever supply-demand gap." Q2 FY2026 demolished expectations: $23.86B revenue (+75% sequential), 81% gross margin, $12.20 EPS vs $9.31 consensus. Q3 guided $33.5B — annualizing to $134B run rate, more revenue than [[Intel]] at peak. HBM4 mass production ahead of schedule. Syracuse groundbreaking for the largest private investment in [[New York]] state history. Exited Crucial consumer brand to redirect capacity to enterprise/AI. Micron became what it was never supposed to be: a growth company with pricing power.
+- 2026: The breakout. Q1 FY2026 delivered $13.6B revenue (+57% YoY) at 56.8% gross margin and the "largest ever supply-demand gap." Q2 FY2026 demolished expectations: $23.86B revenue (+75% sequential), 81% gross margin, $12.20 EPS vs $9.31 consensus. Q3 guided $33.5B — annualizing to $134B run rate, more revenue than [[Intel]] at peak. HBM4 mass production ahead of schedule. Syracuse groundbreaking for the largest private investment in [[New York]] state history. Exited Crucial consumer brand to redirect capacity to enterprise/AI. Micron became what it was never supposed to be: a growth company with pricing power. Q3 FY2026 (reported Jun 24 2026) then printed $41.46B actual at 84.9% gross margin and guided Q4 to $50.0B, formalizing multi-year [[Strategic Customer Agreements]].
 
 ---
 
@@ -174,6 +176,9 @@ CEO [[Sanjay Mehrotra]] at Davos (Jan 2026):
 |---------|---------|-----|-----|----------------|
 | Q1 FY2026 (Dec 2025) | $13.6B (+57% YoY) | 56.8% | -- | $18.7B |
 | Q2 FY2026 (Mar 2026) | $23.86B (+75% seq) | ~81% | $12.20 | $33.5B +/-$750M |
+| Q3 FY2026 (Jun 2026) | $41.46B (+74% seq) | 84.9% | $25.11 | $50.0B +/-$1.0B |
+
+Q3 FY2026 (reported Jun 24 2026) again cleared guide and consensus by ~20% on both lines — $41.46B revenue at 84.9% non-GAAP gross margin, $25.11 non-GAAP EPS — and guided Q4 to $50.0B at ~86% margin while formalizing multi-year [[Strategic Customer Agreements]]. Full detail in the Jun 24 2026 section above. EPS figures in this table are non-GAAP diluted; the database stores GAAP diluted ($24.67 for Q3).
 
 Q2 FY2026 demolished consensus: revenue beat by $3.79B (+19% vs $20.07B est), EPS beat by $2.89 (+31% vs $9.31 est). Largest sequential revenue jump in Micron's history. Record across DRAM, NAND, and HBM. Three drivers: HBM revenue accelerating (HBM4 mass production flowing into revenue), DRAM pricing power deepening as [[Memory shortage 2025-2026]] worsens, and AI demand broadening beyond training to inference, edge, and automotive.
 
@@ -284,6 +289,32 @@ The read-through is that the market is no longer valuing Micron as a normal memo
 
 ---
 
+## Jun 24, 2026 — fiscal Q3 2026: record print, $50B Q4 guide, Strategic Customer Agreements
+
+Micron reported fiscal Q3 2026 (quarter ended May 28 2026) after the close on June 24, and the print cleared both guidance and consensus by roughly 20% on the top and bottom line. Revenue was $41.46B (GAAP and non-GAAP identical) versus the $33.5B +/-$750M guide and ~$34-35B Street consensus — up 74% sequentially from Q2's $23.86B and 346% from $9.30B a year earlier. GAAP gross margin reached 84.6% (non-GAAP 84.9%) against a ~81% guide; operating margin was 80.4% and net margin 68.1%. GAAP diluted EPS was $24.67 and non-GAAP $25.11, versus the $19.15 guide. Net income was $28.24B GAAP / $28.86B non-GAAP. Operating cash flow was $25.39B and adjusted free cash flow $18.3B on net capex of $7.1B; [[Micron]] ended the quarter with $30.2B in cash and marketable investments and cut long-term debt to $5.14B from $9.56B a quarter earlier. The board declared a $0.15 quarterly dividend.
+
+| FQ3-26 | Actual | Guide | Q2 FY26 | Q3 FY25 |
+|--------|--------|-------|---------|---------|
+| Revenue | $41.46B | $33.5B +/-$0.75B | $23.86B | $9.30B |
+| GAAP gross margin | 84.6% | ~81% | 74.4% | 37.7% |
+| Non-GAAP EPS | $25.11 | $19.15 | $12.20 | $1.91 |
+| GAAP EPS | $24.67 | — | $12.07 | $1.68 |
+| Operating cash flow | $25.39B | — | $11.90B | $4.61B |
+
+Business-unit detail shows the AI mix carrying the margin: the Cloud Memory unit did $13.77B at 83% gross margin, Core Data Center $11.52B at 87%, Mobile and Client $11.52B at 87%, and Automotive and Embedded $4.63B at 79%. [[HBM]]4, built on 1-beta DRAM, is in high-volume shipment for the lead customer — Micron's entire HBM4 2026 capacity is committed to [[NVIDIA]]'s [[Vera Rubin]] platform under the March 2026 five-year agreement — with qualification samples shipped to multiple end-customers; HBM4E on 1-gamma DRAM is guided to volume production in CY2027.
+
+The headline strategic development is what Micron calls [[Strategic Customer Agreements]] — multi-year contracts that CEO [[Sanjay Mehrotra]] said "significantly enhance the durability and predictability of Micron's strong financial performance." This extends the structural-contracting shift the [[NVIDIA]] [[Vera Rubin]] HBM deal began from a single flagship customer to a framework across the book — the company explicitly reframing memory from a spot-priced commodity to locked multi-year supply.
+
+Q4 FY2026 guidance is the larger shock: revenue of $50.0B +/-$1.0B (another ~21% sequential step-up), gross margin ~86%, GAAP EPS $30.73 +/-$1.00 and non-GAAP EPS $31.00 +/-$1.00. The Q4 guide alone annualizes to a ~$200B revenue run-rate — more than double [[Intel]]'s peak — at margins the industry has never sustained. Nine-month FY2026 revenue stands at $78.96B with $47.27B of net income.
+
+![[mu-sankey-q3fy2026.png]]
+
+*The print is the cleanest adjudication yet of the [[Memory squeeze thesis]]'s central tension — whether 2026's strength is cyclical (a forward glut waiting to break) or structural. Micron's answer is the Strategic Customer Agreement: converting spot exposure into multi-year locked volume and price, which is the company's own argument that the spot-vs-contract divergence resolves toward contract. The 84.9% gross margin and 86% Q4 guide are the quantitative case. The question the note has carried since FY2023 — where the margin floor settles after the cycle — now hinges on whether the SCAs hold their pricing as HBM4 matures and [[Samsung]] / [[SK Hynix]] capacity catches up. The stock reaction is measured in [[Nasdaq semiconductor selloff June 2026]] and the [[Micron securities note]].*
+
+*Source: Micron fiscal Q3 2026 press release (Form 8-K Exhibit 99.1), June 24 2026.*
+
+---
+
 ## Apple MacBook price hikes validate memory crunch (Mar 3, 2026)
 
 [[Apple]] raised MacBook Air/Pro prices by $100-$400, explicitly driven by memory costs — the most visible consumer-facing confirmation of the [[Memory shortage 2025-2026]]:
@@ -321,6 +352,7 @@ Micron exiting Crucial + [[Apple]] passing costs to consumers = the squeeze is r
 - Exited Crucial consumer brand (Feb 2026) — validates squeeze
 - Full pivot to enterprise/AI memory
 - HBM supply locked to hyperscalers
+- [[Strategic Customer Agreements]] (Q3 FY26) — multi-year locked volume/price, the structural-vs-cyclical answer
 
 ---
 
