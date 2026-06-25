@@ -569,7 +569,37 @@ The DS (Device Solutions) division led, powered by [[HBM|HBM3E]] and HBM4 sales 
 
 ---
 
-*Updated 2026-04-07*
+## Jun 25, 2026 — consumer build-level confirmation (DDR5 + used-GPU prices)
+
+A ground-level datapoint from a consumer PC build priced 2026-06-25 confirms the shortage at the retail tier and shows it has spread into the used-GPU market.
+
+DDR5 retail (US street):
+
+| Capacity | Earlier 2025 | 2026-06-25 |
+|---|---|---|
+| 32 GB (2x16) | ~$100-200 (Oct 2025) | ~$350+ |
+| 64 GB | — | ~$500-600 |
+| 128 GB (2x64) | ~$400 | ~$1,100 (peaked ~$1,864 on Mar 18) |
+
+The 128 GB tier roughly tripled in months — the [[Micron]] Crucial line referenced above (discontinued, then price-spiked on the inventory stampede). In a high-end consumer build, memory is now on par with the flagship GPU as the dominant line item — the [[Memory shortage victims|consumer-pays-more]] leg made concrete at the individual-buyer level, not just OEM BoM.
+
+Used-GPU spillover (the shortage as an asset-price effect): AI demand has propped used GPU values so they barely depreciate, turning them into near-cash.
+
+| Card | VRAM | Used (2026-06-25) | New |
+|---|---|---|---|
+| [[NVIDIA]] RTX 3090 | 24 GB | ~$900 | discontinued |
+| RTX 4090 | 24 GB | ~$1,800 | ~$2,755 |
+| RTX 5090 | 32 GB | ~$1,907 | ~$1,999 (FE) |
+
+A four-year-old 3090 still fetching ~$900, and a used 5090 within 5% of new MSRP, are the consumer-market signature of the same AI memory pull (GDDR + [[HBM]] allocation) documented above — used GPUs revalued as short-cycle capital rather than depreciating goods.
+
+Behavioral read-through: the rational individual response mirrors the OEM one — defer and substitute. Stage the memory buy (minimum DIMM now, add later) and buy used GPUs that hold value to flip them on upgrade. That is demand deferral at the household level, the micro version of the demand destruction the thesis predicts higher prices must force. Tightness is consistent with the [[Dylan Patel]] "double or triple from here" call and sources citing the shortage into Q4 2027 (see Timeline).
+
+*Sources (verified 2026-06-25): [Tom's Hardware RAM price index](https://www.tomshardware.com/pc-components/ram/ram-price-index-2026-lowest-price-on-ddr5-and-ddr4-memory-of-all-capacities), [Pangoly — Crucial 128GB DDR5-5600](https://pangoly.com/en/price-history/crucial-128gb-2x64gb-ddr5-5600mhz), [Best Value GPU — RTX 3090](https://bestvaluegpu.com/history/new-and-used-rtx-3090-price-history-and-specs/) / [4090](https://bestvaluegpu.com/history/new-and-used-rtx-4090-price-history-and-specs/) / [5090](https://bestvaluegpu.com/history/new-and-used-rtx-5090-price-history-and-specs/). Build detail: personal-vault machine-ops [2026 new-PC evaluation](obsidian://open?vault=machine-ops&file=Decisions%2F2026-new-pc-evaluation).*
+
+---
+
+*Updated 2026-06-25*
 
 ## Related
 
