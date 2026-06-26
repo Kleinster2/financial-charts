@@ -71,6 +71,10 @@ Strategic logic: private capital advisory is the highest-multiple corner of inde
 
 Advising [[Shell]] on the [[Raizen]] restructuring; co-advising [[Braskem]] alongside [[Houlihan Lokey]] following the Feb 2026 [[Brazil corporate bond rout February 2026|Brazilian corporate bond rout]]. Lazard's emerging-markets restructuring desk has historically dominated sovereign and quasi-sovereign mandates (Argentina 2020, Greece 2012, Iceland 2009), and the Brazil book extends that franchise into corporate.
 
+## Venezuela adviser pursuit (June 2026)
+
+[[Reuters]] [reported on June 14](https://www.reuters.com/world/americas/lazard-bids-replace-centerview-venezuela-financial-adviser-source-says-2026-06-14/) that Lazard had bid to replace [[Centerview Partners]] as financial adviser to [[Venezuela]] as its debt-restructuring preparation advanced. The report is a process signal, not a confirmed mandate: no adviser appointment, debt-exchange terms, or recovery framework had been announced. If appointed, the work would be a high-visibility application of Lazard's sovereign-restructuring franchise alongside the unusually difficult [[PDVSA]], arbitration-claim, and bilateral-creditor coordination problem.
+
 ---
 
 ## Big Law transformation linkage
@@ -124,6 +128,7 @@ The Q1 2026 advisory revenue print (-4% YoY on slipped closings) followed the sa
 
 ### Restructuring mandates
 
+- [[Venezuela]] — reported June 2026 pursuit to replace Centerview as restructuring adviser; no confirmed mandate
 - [[Shell]] — advisory client (Raizen restructuring)
 - [[Raizen]] — restructuring context
 - [[Braskem]] — advisory client (Q1 2026 restructuring)

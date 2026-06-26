@@ -146,19 +146,44 @@ Chevron's Venezuela exposure: ~5-10% of production if ramped up.
 
 ---
 
-## Debt restructuring potential (Jan 2026)
+## Debt restructuring: from possibility to preparation (Jan-June 2026)
 
 Venezuela back in sovereign bond market discussions:
 
 | Metric | Value |
 |--------|-------|
 | Default | 2017 (US sanctions) |
-| Status | Wall Street discussing restructuring |
-| Catalyst | Maduro capture, regime change |
+| Status | Restructuring preparation has begun; no exchange terms are public |
+| Catalyst | [[OFAC]] General License 58, transition politics, and creditor/adviser mobilization |
 
-Context: Venezuela was once a major borrower in global sovereign bond market. Post-Maduro, restructuring becomes conceivable.
+On May 5, 2026, [[OFAC]] issued [Venezuela-related General License 58](https://ofac.treasury.gov/recent-actions/20260505), authorizing specified services connected to a potential restructuring of Venezuela and [[PDVSA]] obligations. It is an enabling step, not a settlement: it permits preparatory financial and legal work while the broader sanctions and asset-transfer constraints remain relevant.
+
+The creditor process is becoming operational. [[Reuters]] [reported on June 14](https://www.reuters.com/world/americas/lazard-bids-replace-centerview-venezuela-financial-adviser-source-says-2026-06-14/) that [[Lazard]] had bid to replace [[Centerview Partners]] as Venezuela's financial adviser. That report does not establish an appointment, a creditor agreement, a debt perimeter, or recovery terms; those remain open questions across sovereign bonds, PDVSA claims, arbitration awards, and bilateral creditors such as [[China]].
+
+Context: Venezuela was once a major borrower in global sovereign bond markets. Post-[[Maduro capture 2026]], the shift is from a merely conceivable restructuring to a multi-year coordination problem: validate the claims stack, establish the legal perimeter, reconcile sovereign and PDVSA liabilities, and convert oil-revenue recovery into credible debt-service capacity.
 
 See [[Long emerging markets]] — Venezuela as "new frontier" in EM supercycle thesis.
+
+---
+
+## Defaulted-debt price history: observed milestones, not a continuous index
+
+Dollar prices in this market are recovery-value probabilities, not normal yield quotes: Venezuela and [[PDVSA]] have remained in default since late 2017, coupon cash flows are impaired, and individual CUSIPs trade over the counter with meaningful dispersion. The benchmark sovereign instrument and PDVSA bonds should not be plotted as though they were one fungible index.
+
+| Date | Reference | Observed price signal | Read-through |
+|------|-----------|-----------------------|--------------|
+| Late 2017 | Sovereign and [[PDVSA]] external bonds | Default begins | Price moves from a credit/yield framework to a restructuring-recovery framework. |
+| August 2025 | Benchmark sovereign notes due October 2026 | At or below roughly 21.5 cents on the dollar | Implied by the later 43-cent quote being described as more than a doubling; not a precise end-of-month mark. |
+| January 6, 2026 | Benchmark sovereign notes due October 2026 | About 43 cents on the dollar | The political transition more than doubled the August level as investors repriced the chance of asset recovery and a restructuring path. |
+| March-May 2026 | Sovereign and [[PDVSA]] bond complex | Directional rallies on U.S. authorization and launch of the debt process; no verified common level | Regulatory access and adviser/creditor organization can lift the probability of a deal before the debt perimeter or recovery waterfall is known. |
+
+[[CNBC]]'s [January 6 report](https://www.cnbc.com/2026/01/06/venezuela-bonds-are-the-hottest-trade-on-wall-street-this-week-but-risks-remain.html) provides the verifiable 43-cent benchmark and the more-than-doubling comparison with August. The March and May entries are deliberately direction-only because the accessible reports describe broad rallies across several issues but do not provide a same-CUSIP closing mark.
+
+### How to read the tape
+
+At 43 cents, the market was not forecasting par repayment in October 2026. It was assigning a materially higher present value to a future settlement than it had five months earlier. The remaining gap to par is the market's estimate of the unresolved claims stack: sovereign versus [[PDVSA]] obligations, past-due interest, arbitration awards, [[Citgo]]-linked litigation, bilateral lenders, oil-sector rehabilitation, and political durability.
+
+A full daily chart is intentionally deferred rather than synthesized from mismatched securities. It needs a single CUSIP with a licensed daily composite or TRACE-quality transaction series from 2017 onward; until then, this milestone panel is the auditable representation of the public tape.
 
 ---
 

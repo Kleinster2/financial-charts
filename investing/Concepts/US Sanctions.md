@@ -146,6 +146,14 @@ See [[US Government]] for full policy landscape.
 
 ---
 
+## Venezuela debt restructuring authorization (May 2026)
+
+Sanctions policy can also enable a restructuring without lifting the underlying program wholesale. On May 5, 2026, [[OFAC]] issued [General License 58](https://ofac.treasury.gov/recent-actions/20260505), which authorizes specified services connected to a potential restructuring of [[Venezuela]] and [[PDVSA]] debt. The mechanism is deliberately narrow: it lets lawyers, banks, and advisers prepare a process while preserving leverage over assets and transactions until the United States makes additional policy choices.
+
+For investors, this creates a different signal from a sanctions removal. It increases the probability that creditors can organize around a negotiated framework, but the valuation still depends on the claims perimeter, intercreditor priority, oil-sector cash generation, and any treatment of [[Citgo]] and arbitration claims.
+
+---
+
 ## Investment implications
 
 | Scenario | Impact |

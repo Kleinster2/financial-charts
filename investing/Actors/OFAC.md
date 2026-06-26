@@ -53,6 +53,9 @@ aliases: [Office of Foreign Assets Control, Treasury sanctions]
 | 2019-2022 | [[Chevron]] wind-down license only |
 | 2022 | Biden grants Chevron operating license |
 | 2026 | [[Maduro capture 2026]] — status uncertain |
+| May 5, 2026 | [General License 58](https://ofac.treasury.gov/recent-actions/20260505) authorizes specified services for a potential Venezuela / [[PDVSA]] debt restructuring |
+
+General License 58 is a procedural opening rather than a debt settlement. It enables restructuring-related preparation and advice, but does not itself establish exchange terms, resolve creditor priority, or broadly release blocked Venezuelan assets. That distinction matters for interpreting any rally in Venezuelan debt: a legal path to negotiate is not yet a recovery-value outcome.
 
 OFAC licenses = permission to operate despite sanctions.
 

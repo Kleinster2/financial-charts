@@ -36,6 +36,18 @@
 
 ---
 
+## Debt restructuring preparation (May-June 2026)
+
+[[OFAC]]'s [General License 58](https://ofac.treasury.gov/recent-actions/20260505) permits specified services related to a potential debt restructuring for [[Venezuela]] and PDVSA. That removes an important procedural barrier to hiring advisers, preparing creditor engagement, and mapping liabilities; it does not itself exchange debt, unfreeze assets, or determine creditor recoveries.
+
+For PDVSA, the central issue is the boundary between state and company claims. Its bonds, supplier obligations, oil-for-loan arrangements, expropriation litigation, and the [[Citgo]] asset dispute cannot be assumed to receive the same treatment as sovereign bonds. A durable settlement therefore depends on transparent liability recognition, governance reform, and an oil-revenue plan that creditors can underwrite.
+
+### What its bond tape means
+
+PDVSA bonds should not be read as a clean proxy for Venezuelan sovereign recovery. They have participated in the broader defaulted-debt rallies around U.S. policy changes and the May 2026 restructuring launch, but their value is especially sensitive to the company's separateness from [[Venezuela]], the treatment of [[Citgo]], and alter-ego litigation. The country-note price panel therefore uses the liquid sovereign October 2026 reference for the only verified common mark and treats PDVSA moves as directionally informative rather than numerically interchangeable.
+
+---
+
 ## Key Assets
 
 *   **Oil Reserves:** World's largest proven reserves (303B barrels), primarily heavy crude in the Orinoco Belt.
@@ -57,3 +69,4 @@
 *   [[Gulf Coast refiners]] — natural market for heavy crude
 *   [[Oil]] — commodity context
 *   [[Sanctions]] — historical pressure point
+*   [[OFAC]] — restructuring-services authorization
