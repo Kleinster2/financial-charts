@@ -46,6 +46,7 @@ Chinese firms already listed in mainland seeking HK capital:
 
 | Company | Amount | Business |
 |---------|--------|----------|
+| [[Lingyi iTech]] | $1.06B (listed 26 Jun) | [[Apple]] precision components; A+H, 1688.HK, top of range |
 | [[Zhongji Innolight]] | **$3B+** | Optical modules (AI networking) |
 | [[Luxshare Precision]] | $1B+ | [[Apple]] supplier (AirPods) |
 | [[Muyuan Foods]] | $1.4B | World's largest pig farmer, A+H dual listing |
