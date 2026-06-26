@@ -1,5 +1,10 @@
 ---
 charts:
+  ishares-allocation-ladder-performance.png:
+    tickers: AOA,AOR,AOM,AOK
+    normalize: true
+    start: 2009-01-01
+    primary: AOA
   coal-performance.png:
     tickers: BTU,AMR,HCC,METC,CNR,XME
     normalize: true

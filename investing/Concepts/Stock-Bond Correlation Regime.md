@@ -63,6 +63,7 @@ When bonds stop hedging, investors search for alternatives:
 
 - [[Risk Parity]] — strategy most sensitive to correlation regime
 - [[Iran conflict portfolio hedging]] — Mar 2026 live case study of positive correlation regime
+- [[iShares Core Asset Allocation ETFs]] — static stock/bond funds whose hedge depends on this regime
 
 ### Cross-vault
 - [Risk Parity: Correlation Regimes](obsidian://open?vault=Risk%20Parity&file=03%20-%20Risk%20Measures%2FCorrelation%20Regimes) — regime detection code, DCC-GARCH models, correlation lookup tables, stress testing framework

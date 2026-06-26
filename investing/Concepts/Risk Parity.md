@@ -115,6 +115,7 @@ Full research lives in the dedicated Risk Parity vault (`C:\Users\klein\obsidian
 - [[AQR]] — academic leader in risk parity research
 - [[Ray Dalio]] — invented All Weather
 - [[Analysts and Strategists]] — macro thinkers on correlation regimes
+- [[iShares Core Asset Allocation ETFs]] — the capital-weighted, unlevered allocation ladder this strategy is measured against
 
 ### Cross-vault
 - [Risk Parity vault](obsidian://open?vault=Risk%20Parity&file=Home) — full research vault: theory, backtests, fund tracking (RPAR/UPAR/ALLW), regime analysis

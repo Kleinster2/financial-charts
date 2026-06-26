@@ -29,6 +29,33 @@ Corano Capital is a New York-based asset manager focused on Brazilian HNW client
 
 ---
 
+## Corano Capital — structure, partner & US regulatory footprint (verified 2026-06-24)
+
+Structure (per Corano's 2025-09-17 Capital Aberto "Além do Capital" interview): two arms under the Corano brand, both rooted in a Brazilian corporate entity (CNPJ) Corano set up in 2004 when he inherited the investment book of mentor [[José Aurélio de Camargo]] ("Zé Aurélio," d. 2004), including a legacy private-equity fund.
+
+| Arm | Base | Clients | AUM |
+|---|---|---|---|
+| Corano Capital (NY) | New York | Brazilian + foreign HNW | bulk of ~US$2.2B |
+| Corano (São Paulo) | São Paulo | local Brazilian, mass-affluent | ~R$480M (~US$90M) |
+
+The São Paulo arm is a family office built by [[Daniel Faria]] and merged in ~2023–2024 to reach a "perfil menos exigente" (mass-affluent) tier — the vehicle for the down-market strategy below. Partner [[Danilo Santiago]] runs one of the firm's in-house equity strategies. [[Interactive Brokers]] is the named "principal parceiro" — the custody and execution layer giving global asset access.
+
+Down-market strategy (same interview, headline "levar carteiras dos super ricos para clientes com menos capital replicarem"): broaden from UHNW family clients to mass-affluent Brazilians who want USD/global exposure, using Corano's social-media and podcast presence as the inbound funnel and a "replicate the model portfolio" product. The Wall Street Cast / Manhattan Connection / Carteira Aberta media layer is the top of that funnel.
+
+US regulatory footprint — no registration found under the Corano or Bruno Corano names (cross-checked 2026-06-24):
+
+| Source | Query | Result |
+|---|---|---|
+| SEC IAPD — adviser firms | "corano" (incl. former names) | 0 hits |
+| SEC IAPD — individuals | "bruno corano" | 0 hits |
+| FINRA BrokerCheck | "bruno corano" | 0 hits |
+| SEC EDGAR — filer index | "corano" | no matches |
+| SEC EDGAR — full text (2001– ) | "Corano Capital" | 0 hits |
+
+Most consistent reading: the firm advises [[Interactive Brokers]]-custodied accounts for primarily Brazil-domiciled clients, outside the US SEC adviser-registration perimeter (e.g., the foreign-private-adviser exemption), with the Brazilian CNPJ entity(ies) as the corporate home. Absence under the searched names is not proof of zero regulation, but the zero individual-record hit argues against Corano being a listed representative or control person of any US-registered adviser. CVM (Brazil) status remains unverified — the open gap.
+
+---
+
 ## Media
 
 | Show | Platform | Format |
@@ -127,4 +154,4 @@ External cross-checks performed 2026-05-18 (closed-out gaps from the 05-14 pass)
 Open gaps (re-verify before relying on):
 - BM&C ↔ Corano commercial structure — still no public deal terms; press uses "expansion of partnership" framing without disclosing economics
 - Wall Street Cast exclusivity terms — no public disclosure
-- Corano Capital Form ADV or CVM filings — not searched in this pass; would give regulated AUM and client-count snapshot
+- Corano Capital Form ADV / CVM filings — US side resolved 2026-06-24: no SEC / FINRA / EDGAR registration found under the Corano or Bruno Corano names (see "Corano Capital — structure, partner & US regulatory footprint" above). CVM (Brazil) still not searched — the remaining gap.

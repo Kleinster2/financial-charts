@@ -309,6 +309,7 @@ Components include: Carmax, [[Etsy]], Academy Sports
 - [[Ed Yardeni]] — AI fatigue
 - [[Iran conflict portfolio hedging]] — 60/40 breakdown and hedging strategies (Mar 2026)
 - [[Stock-Bond Correlation Regime]] — the macro variable driving the Jan→Mar positioning shift
+- [[iShares Core Asset Allocation ETFs]] — the static, investable form of the allocation decision (the 30/70→80/20 product ladder)
 
 ---
 
