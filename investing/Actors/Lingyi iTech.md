@@ -188,6 +188,7 @@ Two structural facts frame the trade. First, the ~44% A-H discount means the HK 
 
 ### Actors & concepts
 - [[Apple]] — anchor customer; concentration risk and franchise
+- [[Apple supply chain]] — supplier-map hub; Lingyi is the precision functional-components layer
 - [[Luxshare Precision]] — closest A-share Apple-supplier comp, same HK-capital route
 - [[Foxconn]] — Apple assembly, one tier up the stack
 - [[Sunny Optical]] — optics peer and IPO cornerstone

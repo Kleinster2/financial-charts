@@ -215,6 +215,7 @@ On Jun 22, 2026 China added MP Materials to its entities list — alongside [[US
 
 ### Related notes
 - [[Apple]] — $500M partnership
+- [[Apple supply chain]] — supplier-map hub; MP is Apple's rare-earth magnet hedge
 - [[Dysprosium]] — The element MP can't produce
 - [[Rare earth leverage]] — Why MP matters geopolitically
 - [[Rare earth elements]] — Full element breakdown

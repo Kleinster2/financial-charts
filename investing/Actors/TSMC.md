@@ -427,6 +427,7 @@ See [[Short interest]] for broader framework on interpreting this signal.
 - [[Samsung]] — competitor (\#2 foundry)
 - [[Intel Foundry Services]] — competitor (US alternative)
 - [[Apple]] — customer (largest, exclusive)
+- [[Apple supply chain]] — supplier-map hub; TSMC is the leading-edge silicon anchor
 - [[NVIDIA]] — customer (GPU leader)
 - [[Taiwan Tech]] — country context (semiconductor superpower)
 - [[Customer lock-in via co-design]] — moat (ecosystem lock-in)

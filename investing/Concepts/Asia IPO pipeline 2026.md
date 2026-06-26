@@ -132,6 +132,7 @@ Chinese firms already listed in mainland seeking HK capital:
 ## Related
 
 - [[2026 IPO pipeline]] — global IPO context
+- [[Apple supply chain]] — supplier-map hub linking Lingyi and Luxshare to the Apple component cluster
 - [[US-China AI race]] — context (chip IPOs)
 - [[ChangXin Memory]] — [[China]] DRAM ($43B)
 - [[YMTC]] — [[China]] NAND ($43B)

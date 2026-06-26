@@ -95,6 +95,7 @@ Part of wave of [[Shenzhen]]-listed Chinese firms adding HK listings (see [[Asia
 ## Related
 
 - [[Apple]] — key customer
+- [[Apple supply chain]] — supplier-map hub; Luxshare is the AirPods/accessory assembly and potential primary-device assembly node
 - [[Asia IPO pipeline 2026]] — context (HK listing wave)
 - [[Taiwan tech protectionism]] — Grace Wang arrest warrant
 - [[Taiwan]] — issuing arrest warrants

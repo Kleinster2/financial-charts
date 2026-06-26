@@ -113,5 +113,6 @@ Separate business — **#1 global image sensor supplier:**
 - [[Memory shortage victims]] — thesis (PS6 delay risk)
 - [[Memory shortage 2025-2026]] — crisis context
 - [[Apple]] — customer (image sensors for iPhone)
+- [[Apple supply chain]] — supplier-map hub; Sony is the image-sensor scarcity layer
 - [[Netflix]] — film distribution partner
 - [[Private credit]] — Apollo financing structure for music catalogs

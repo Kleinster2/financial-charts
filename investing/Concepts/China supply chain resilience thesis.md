@@ -69,6 +69,7 @@ The combination — institutional re-rating + retail engagement — is consisten
 - [[China solar buildout]] — clean-energy-substitution subtheme
 - [[Refining slate rigidity]] — demand-side mechanism complementing the upstream-chemicals share-capture argument
 - [[Second China shock]] — adjacent framing on Chinese export expansion's impact on Western economies
+- [[Apple supply chain]] — Apple-specific map of the China component cluster, China+1 assembly redundancy and strategic-input hedges
 - [[2026 Iran conflict]] — primary disruption catalyst
 - [[Hormuz Permanent Risk Premium]] — structural framing of the Iran-conflict supply impact
 - [[Shale supply discipline]] — supply-side counterpart in US energy markets

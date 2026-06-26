@@ -1,5 +1,10 @@
 ---
 charts:
+  apple-supply-chain-chart.png:
+    tickers: AAPL,TSM,INTC,QCOM,SONY,MP,GSAT,2317.TW,002475.SZ,002600.SZ
+    normalize: true
+    start: 2024-01-01
+    primary: AAPL
   ishares-allocation-ladder-performance.png:
     tickers: AOA,AOR,AOM,AOK
     normalize: true

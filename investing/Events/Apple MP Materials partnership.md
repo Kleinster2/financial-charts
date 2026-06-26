@@ -121,6 +121,7 @@ Apple saw the writing on the wall. See [[Rare earth leverage]], [[China retaliat
 ## Related
 
 - [[Apple]] — buyer ($500M commitment)
+- [[Apple supply chain]] — strategic-input hedge within Apple's supplier map
 - [[MP Materials]] — supplier (Mountain Pass + Fort Worth)
 - [[Rare earth leverage]] — driver ([[China]] controls prompted deal)
 - [[Rare earth elements]] — context (light REEs only)

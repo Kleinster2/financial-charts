@@ -92,6 +92,7 @@
 
 ### Concepts
 - [[Supply chain bottlenecks]] — risk driver
+- [[Apple supply chain]] — Apple-specific China+1 case study
 - [[Export controls]] — US-[[China]] tensions
 - [[Nearshoring]] — [[Mexico]] benefit
 

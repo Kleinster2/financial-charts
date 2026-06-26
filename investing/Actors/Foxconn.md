@@ -157,6 +157,7 @@ Bear:
 ### Related notes
 - [[NVIDIA]] — primary AI chip customer, PBR partner for Blackwell
 - [[Apple]] — primary iPhone assembler, consumer electronics anchor
+- [[Apple supply chain]] — supplier-map hub; Foxconn is the final-assembly and India-ramp anchor
 - [[Quanta Computer]] — #2 AI server ODM
 - [[Wistron]] — #3 AI server ODM, fastest-growing
 - [[TSMC]] — fellow Taiwanese tech giant, chip fabrication

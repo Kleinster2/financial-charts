@@ -20,4 +20,5 @@ aliases: [舜宇光学, Sunny Optical, Sunny Optical Technology, 2382.HK]
 ## Related
 - [[Lingyi iTech]] — IPO cornerstone; precision-components peer
 - [[Apple]] — supply-chain customer overlap
+- [[Apple supply chain]] — supplier-map hub; Sunny is the optics layer in the component cluster
 - [[Luxshare Precision]] — fellow China Apple-supply-chain name

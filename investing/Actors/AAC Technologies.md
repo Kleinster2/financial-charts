@@ -21,3 +21,4 @@ aliases: [瑞声科技, AAC Technologies, 2018.HK]
 - [[Lingyi iTech]] — functional-component peer
 - [[Luxshare Precision]] — peer
 - [[Apple]] — customer
+- [[Apple supply chain]] — supplier-map hub for Apple component and assembly exposure

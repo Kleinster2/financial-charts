@@ -165,6 +165,7 @@ The vault treats [[Wall Street Journal|WSJ]] as primary source per the "major pa
 - [[Jeff Pu]] — broke iPhone-scope possibility Dec 2025
 
 ### Concepts
+- [[Apple supply chain]] — foundry second-source hedge in the supplier map
 - [[Foundry Wars]] — competitive landscape recast by this event
 - [[CHIPS Act]] — supply-side policy precedent
 - [[Customer lock-in via co-design]] — what Apple is partially un-locking

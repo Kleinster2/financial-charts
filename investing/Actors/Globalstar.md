@@ -177,6 +177,7 @@ Feb 4, 2026: GSAT fell ~7% alongside [[AST SpaceMobile]] (-11%) after AT&T annou
 ## Related
 
 - [[Apple]] — 20% equity owner, primary customer
+- [[Apple supply chain]] — supplier-map hub; Globalstar is Apple's satellite-capacity partner
 - [[AST SpaceMobile]] — direct-to-cell competitor/peer
 - [[Amazon]] — Project LEO competitor
 - [[Starlink]] — LEO broadband competitor, potential acquirer

@@ -324,6 +324,7 @@ Impact on Qualcomm:
 ## Related
 
 - [[Apple]] — customer/threat (trying to build in-house modems)
+- [[Apple supply chain]] — supplier-map hub; Qualcomm is the modem layer Apple is trying to internalize
 - [[NXP]] — blocked acquisition (2018, [[China]] blocked)
 - [[TSMC]] — foundry (Snapdragon X2 on N3X)
 - [[Samsung]] — potential foundry (exploring SF2)

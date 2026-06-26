@@ -21,3 +21,4 @@ aliases: [歌尔股份, GoerTek, 002241.SZ]
 - [[Lingyi iTech]] — China Apple-supply-chain peer
 - [[Luxshare Precision]] — peer (AirPods overlap)
 - [[Apple]] — customer
+- [[Apple supply chain]] — supplier-map hub for Apple component and assembly exposure

@@ -129,6 +129,7 @@ USMCA makes Mexico natural nearshoring beneficiary, but "America First" policy c
 - [[Samsung]] — Texas fab
 
 **Concepts:**
+- [[Apple supply chain]] — Apple-specific reshoring and China+1 supplier map
 - [[China+1]] — Global supply chain diversification
 - [[Semiconductor nationalism]] — Government intervention
 
