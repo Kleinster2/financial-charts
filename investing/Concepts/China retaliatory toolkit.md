@@ -128,6 +128,9 @@ The May 2026 EU-China trade-defense escalation shows the legal toolkit being poi
 
 This is a meaningful broadening. The trigger is not a single acquisition, sanctions listing, or export-control package. It is Brussels considering a faster, sector-wide trade-defense architecture aimed at overcapacity in EVs, steel, solar, chemicals, and clean technology. Beijing's response path would let it challenge the EU tool itself while preserving optionality on which European companies, supply chains, or market-access channels to squeeze.
 
+
+The June 18 EU summit showed the deterrent effect before any new Chinese action. FT reporting said several diplomats preferred reducing reliance on China before imposing tariffs because Beijing had already answered EU EV tariffs with levies on European food and wine products. That means the toolkit works partly through memory: prior retaliation shapes EU sequencing, forcing Brussels to map vulnerabilities and alternative sourcing before it pulls the next trade-defense lever.
+
 *Sources: [Dow Jones via MarketScreener, May 29 2026](https://www.marketscreener.com/news/china-threatens-to-launch-trade-probes-against-the-european-union-2nd-update-ce7f5ddbdf89f220); [Reuters via Investing.com, May 30 2026](https://au.investing.com/news/economy-news/china-warns-of-retaliation-if-eu-imposes-new-trade-restrictions-4463409).*
 
 ## Case study: outbound battery-tech-retention licensing (BYD/CATL)

@@ -26,7 +26,7 @@ The event matters because it was the first large downside tape after the late-Ma
 
 The final taxonomy is layered. The trigger was a marketwide rates shock, because SPY fell 2.58%. The core abnormal expression was QQQ/XLK tech-growth, because QQQ's 90-session beta to SPY was only about 1.29 and SPY therefore explained roughly -3.3% of the -4.8% QQQ move. The sector read-through was SOXX/SMH-led semiconductors, while memory was the leading damage pocket inside that semi beta rather than a separate memory-specific break.
 
-A second wave followed on Jun 23, covered in the dated sections below. It was a more semiconductor-concentrated selloff (SPY only -1.45% against SOXX -7.88%) led by memory de-risking into [[Micron]]'s Jun 24 fiscal Q3 print. The print then beat by roughly 20% on both lines and guided Q4 to $50B, and MU round-tripped most of the drop in after-hours. The corrected trigger for Jun 23 is memory-glut fear plus Micron-eve de-risk against a hawkish-rates backdrop — not a [[Broadcom]] AI-demand comment; the tape shows AVGO as the most resilient semi that day.
+A second wave followed on Jun 23, covered in the dated sections below. It was a more semiconductor-concentrated selloff (SPY only -1.45% against SOXX -7.88%) led by memory de-risking into [[Micron]]'s Jun 24 fiscal Q3 print. The print then beat by roughly 20% on both lines and guided Q4 to $50B; MU confirmed the reversal in the Jun 25 regular session, rising 15.74% while SOXX rose 3.94%. The corrected trigger for Jun 23 is memory-glut fear plus Micron-eve de-risk against a hawkish-rates backdrop — not a [[Broadcom]] AI-demand comment; the tape shows AVGO as the most resilient semi that day.
 
 ---
 
@@ -156,13 +156,21 @@ The beta stack, mirroring the Jun 5 method:
 
 The clean read: where Jun 5 was a rates-led derating in which memory did not underperform its semi beta, Jun 23 added a modest but real memory-specific tilt — MU and SNDK fell ~2-3.5pp beyond their SOXX-beta-implied moves, the fingerprint of de-risking into the print. The broad market barely moved; this was a sector-and-memory event, not a marketwide one.
 
-## Jun 24, 2026 — the Micron print resolves the second wave
+## Jun 24-25, 2026 — the Micron print resolves the second wave
 
-MU closed Jun 24 at $1,048.51 (-0.31%), then reported fiscal Q3 2026 after the close: revenue $41.46B (vs ~$35.1B Street, $33.5B guide), non-GAAP EPS $25.11 (vs ~$20.39 Street), 84.9% gross margin, and a Q4 guide of $50.0B at ~86% margin — plus the multi-year [[Strategic Customer Agreements]] framing. In after-hours trading MU rose roughly 14% (sources ranged +12.6% to +15%) toward ~$1,195, round-tripping most of the Jun 23 crash.
+MU closed Jun 24 at $1,048.51 (-0.31%), then reported fiscal Q3 2026 after the close: revenue $41.46B (vs ~$35.1B Street, $33.5B guide), non-GAAP EPS $25.11 (vs ~$20.39 Street), 84.9% gross margin, and a Q4 guide of $50.0B at ~86% margin — plus the multi-year [[Strategic Customer Agreements]] framing. The regular-session confirmation came Jun 25: MU closed at $1,213.56, up 15.74%, while SOXX rose 3.94%, QQQ rose 0.81%, and SPY rose 0.14%.
 
-The resolution wrong-footed the Jun 23 de-risk: the memory-specific selling ahead of the print reversed almost completely within hours of the result. The second wave's memory-specific tilt — the part not explained by semi beta — was a head-fake. The broad semi/rates derating (the QQQ/SOXX layer) is a separate question that the Jun 25 session and the [[Rate expectations|rates path]] will continue to price.
+| Relationship | 90d beta | Event move | Beta-implied | Residual / read |
+|---|---:|---:|---:|---|
+| QQQ vs SPY | 1.42 | QQQ +0.81% vs SPY +0.14% | +0.21% | +0.61pp residual, +1.03 residual z; mild tech-growth relief |
+| SOXX vs QQQ | 2.07 | SOXX +3.94% vs QQQ +0.81% | +1.68% | +2.26pp residual, +1.26 residual z; semiconductor-specific relief |
+| MU vs SOXX | 1.43 | MU +15.74% vs SOXX +3.94% | +5.62% | +10.13pp abnormal, +2.67 residual z; Micron-specific repricing |
+| SNDK vs SOXX | 1.31 | SNDK +21.97% vs SOXX +3.94% | +5.17% | +16.79pp abnormal, +3.56 residual z; memory squeeze read-through |
+| Memory basket (MU/SNDK/WDC) vs SOXX | 1.27 | basket +14.20% vs SOXX +3.94% | +5.00% | +9.20pp abnormal; the Jun 23 memory de-risk reversed hard |
 
-*After-hours figures are extended-session, secondary-source ([[CNBC]], [[Yahoo Finance]]) as of ~8:00 PM ET Jun 24; the canonical beta-adjusted abnormal move uses the Jun 25 regular-session close and is a pending follow-up. Full print detail in [[Micron]] and [[Memory squeeze thesis]].*
+The resolution wrong-footed the Jun 23 de-risk: the memory-specific selling ahead of the print reversed into a confirmed regular-session squeeze, not merely an after-hours quote. The second wave's memory-specific tilt — the part not explained by semi beta — was a head-fake. The broad semi/rates derating remains a separate layer, but the Micron print converted the memory layer from glut fear into contract-scarcity repricing.
+
+*After-hours figures are extended-session, secondary-source ([[CNBC]], [[Yahoo Finance]]) as of ~8:00 PM ET Jun 24; the canonical beta-adjusted abnormal move above uses local `prices_long` Jun 25 regular-session closes. Full print detail in [[Micron]] and [[Memory squeeze thesis]].*
 
 ---
 
@@ -176,7 +184,7 @@ The FT article used an AP trading-floor photograph by Richard Drew. The image wa
 
 - [[Financial Times|FT]], George Steer and Emily Herbert, "Nasdaq tumbles 4% as shares in chip and memory groups sink," Jun. 5 2026: https://www.ft.com/content/2929bbd3-1f71-4424-a577-f016c3c65603. Accessed through authenticated Chrome tab.
 - Local `prices_long` close data through Jun. 5 2026 for ^IXIC, QQQ, SPY, XLK, SOXX, SMH, NVDA, INTC, AMD, ARM, MU, WDC, AMAT, KLAC, LRCX, AVGO, and TSM.
-- Local `prices_long` close data Jun. 22-24 2026 for the second wave: SPY, QQQ, XLK, SOXX, SMH, MU, SNDK, WDC, NVDA, AMD, AVGO, MRVL, ARM, INTC, KLAC, AMAT, LRCX, TSM, QCOM.
+- Local `prices_long` close data Jun. 22-26 2026 for the second wave and Micron reaction: SPY, QQQ, XLK, SOXX, SMH, MU, SNDK, WDC, NVDA, AMD, AVGO, MRVL, ARM, INTC, KLAC, AMAT, LRCX, TSM, QCOM.
 - [[Micron]] fiscal Q3 2026 press release (Form 8-K Exhibit 99.1), Jun. 24 2026, via SEC EDGAR.
 - Micron after-hours reaction (extended-session, secondary-source): [[CNBC]], "Micron (MU) earnings report Q3 2026," https://www.cnbc.com/2026/06/24/micron-mu-earnings-report-q3-2026.html; [[Yahoo Finance]], Jun. 24 2026.
 

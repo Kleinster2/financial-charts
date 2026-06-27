@@ -266,6 +266,8 @@ The EU response has been slower and more fragmented but is now substantial:
 
 The EU's challenge is fiscal capacity: EU-level industrial policy is constrained by treaty rules on state aid, and member-state fiscal capacity is highly heterogeneous.
 
+The June 18 2026 EU-China summit adds the trade-defense layer. FT reported that leaders chose dialogue with Beijing rather than immediate confrontation, but asked the [[European Commission]] to keep developing and potentially complementing trade-defense and industrial-policy tools after a Chinese import surge, a goods deficit around EUR1bn per day, and rare-earth restrictions on critical inputs. The practical EU model is therefore not only subsidy and state aid; it is an attempt to combine industrial-policy capacity building with sector-wide safeguards, alternative-source mandates, and retaliation management. See [[EU-China trade]].
+
 The urgency framing behind EU industrial policy depends partly on the perceived US-vs-EU productivity-growth gap; [[Paul Krugman]]'s May 2026 [[US-Europe productivity paradox]] framework argues that this productivity-growth comparison is methodologically unstable (constant-price methodology shows EU decline; PPP shows no trend). If the methodology challenge holds, the urgency case for matching US scale weakens — though the technology-substitution and strategic-autonomy cases remain (inference — Krugman's framework is methodological, not a defence of EU industrial-policy approach).
 
 ### Other major regimes

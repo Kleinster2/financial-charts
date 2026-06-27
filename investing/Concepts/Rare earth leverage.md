@@ -198,6 +198,14 @@ China opened a new front on Jun 22, 2026: instead of only withholding supply, it
 | Magnet redesign (less rare earth) | R&D |
 | **[[Japan]] deep-sea mining** | Testing (Jan 2026) |
 
+### EU vulnerability roadmap pressure (June 2026)
+
+FT's June 18 2026 summit report shows rare-earth leverage now feeding directly into EU trade-defense design. After China restricted exports of some rare-earth inputs used in cars and wind turbines, [[Germany]], [[France]], [[Italy]], [[Poland]], and the [[Netherlands]] backed new EU tools that could include tariffs, quotas, and obligations to find alternative sources for critical inputs. [[Finland]]'s [[Petteri Orpo]] asked the [[European Commission]] for a roadmap of vulnerable areas and dependency-reduction options.
+
+The sequencing matters: Europe is trying to map and reduce chokepoints before starting a tariff fight it may not be able to absorb. Rare-earth leverage is therefore not only a spot-supply problem for magnet users; it is becoming the forcing function behind EU sourcing mandates and industrial-policy tools.
+
+*Source: [[Financial Times]], Andy Bounds and Henry Foy, Jun 18 2026. Article text supplied by user.*
+
 **US permitting reality:** Average 29 years from mineral discovery to production start — longest in world except Zambia.
 
 Timeline to reduce dependence: 10+ years minimum.

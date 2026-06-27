@@ -1,6 +1,7 @@
 ---
 aliases:
-  - AAL
+  - Anglo American plc
+  - LSE:AAL
 tags:
   - actor
   - mining

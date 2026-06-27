@@ -88,6 +88,18 @@ The link to [[EU Made in Europe Tech Rules 2026]] matters because Beijing is tre
 
 ---
 
+## June 2026: leaders choose delay, not de-escalation
+
+The June 18 European Council summit did not reverse the May escalation; it exposed the constraint on acting quickly. The [[European Commission]] entered the meeting arguing that the goods deficit with [[China]] had reached roughly EUR1bn per day and that the EU needed stronger trade-defense and industrial-policy tools. Leaders still chose dialogue first, instructing [[Ursula von der Leyen]] to keep engaging Beijing while developing and potentially expanding the toolkit.
+
+The split is the investable fact. The [[European People's Party]] statement, signed by [[Friedrich Merz]], von der Leyen, and 10 other leaders, pushed a harder line against Chinese market intervention. [[Germany]], [[France]], [[Italy]], [[Poland]], and the [[Netherlands]] backed new tools that could raise tariffs, impose quotas, or require alternative sources for critical inputs after Chinese rare-earth export restrictions affected products such as cars and wind turbines. [[Spain]] resisted new measures, with [[Pedro Sánchez]] framing China as a potential ally. [[Finland]]'s [[Petteri Orpo]] asked for a vulnerability roadmap, while [[Austria]]'s [[Christian Stocker]] stressed that every EU action would provoke a Chinese reaction that the bloc must be able to absorb.
+
+The policy read-through is "de-risk before tariff war." European leaders are not abandoning trade defense; they are trying to reduce reliance on Chinese inputs before activating tools that could invite retaliation. For European autos, wind equipment, chemicals, and industrial suppliers, that shifts the watch item from one headline tariff to a sequence: dependency mapping, alternative-source mandates, then faster sector-wide safeguards if dialogue fails. For Chinese exporters, the delay preserves access in the near term but raises the probability that future EU action is broader than the EV file.
+
+*Source: [[Financial Times]], Andy Bounds and Henry Foy, Jun 18 2026. Article text supplied by user; publisher image not copied.*
+
+---
+
 ## Investment implications
 
 **For European OEMs:**

@@ -116,6 +116,12 @@ The policy file is therefore widening. EV tariffs are now part of a broader econ
 
 See [[EU-China trade]] for the chart captions and broader May 2026 Commission context.
 
+### June 2026: retaliation memory slows the next tariff step
+
+FT's June 18 2026 summit report confirms that the EV file has become precedent, not just a resolved sector dispute. Several diplomats said some member states wanted to reduce reliance on China before imposing new tariffs because Beijing had already answered EU EV tariffs with levies on European food and wine products. That makes the EV tariff episode the live example of why the next EU move is likely to pair any safeguard, quota, or tariff tool with dependency mapping first.
+
+*Source: [[Financial Times]], Andy Bounds and Henry Foy, Jun 18 2026. Article text supplied by user.*
+
 ---
 
 ## Contrast with US approach

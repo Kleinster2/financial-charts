@@ -147,7 +147,7 @@ Five Guys anchors the US premium / "better burger" segment alongside three refer
 
 | Peer | Status | Note |
 |------|--------|------|
-| [[Shake Shack]] | Public (NYSE: SHAK) | "fine casual"; higher reported AUV; the tradeable proxy for the segment |
+| [[Shake Shack]] | Public | "fine casual"; higher reported AUV; the tradeable proxy for the segment |
 | [[In-N-Out Burger]] | Private (Snyder family) | West Coast; very high AUV; narrowest geography; does not franchise |
 | [[Whataburger]] | PE-controlled | Texas / US South; majority sold to [[BDT & MSD Partners]] (2019) |
 
@@ -157,7 +157,7 @@ Both Shake Shack and In-N-Out are reported to run higher AUV and margins than Fi
 
 Five Guys is not directly investable — no ticker, no public equity, no disclosed cap table. Its relevance to the vault is threefold:
 
-1. Read-through to public peers — the cleanest listed proxy for the premium-burger model is [[Shake Shack]] (SHAK); Five Guys' domestic AUV trend and pricing power are a private-market data point on the same consumer.
+1. Read-through to public peers — the cleanest listed proxy for the premium-burger model is [[Shake Shack]]; Five Guys' domestic AUV trend and pricing power are a private-market data point on the same consumer.
 2. Trade-down signal — a ~$21 average check makes Five Guys a sensitive gauge of premium-QSR demand; its US AUV decline (−10.6% from 2022) corroborates the value-over-premium bifurcation seen across [[Restaurants]] ([[McDonald's]] value resilience versus premium softness).
 3. International franchising playbook — the most globally extended US burger brand, and a case study in scaling a quality-positioned concept through master franchising and a ring-fenced European JV (the £185m facility).
 

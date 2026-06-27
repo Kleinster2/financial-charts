@@ -3,7 +3,7 @@ aliases: [LLY, Lilly]
 ---
 #actor #healthcare #pharma #usa #public #ai
 
-**Eli Lilly** — Top pharma by market cap; briefly crossed $1tn during 2025. GLP-1 leader (Mounjaro, Zepbound, [[Foundayo]]); diversified across cardiometabolic, immunology, oncology, neuroscience. [[AI drug discovery]] investments.
+**Eli Lilly** — Top pharma by market cap; briefly crossed $1tn during 2025. GLP-1 leader (Mounjaro, Zepbound, [[Foundayo]]); diversified across cardiometabolic, immunology, oncology ([[Jaypirca]]), neuroscience. [[AI drug discovery]] investments.
 
 The competitive dynamic vs [[Novo Nordisk]] in 2025–2026 favors Lilly on multiple axes: tirzepatide has ~decade of patent life (Novo's semaglutide is in patent cliff in EM in 2026), Lilly is more diversified at the revenue level, and Lilly was first to market with a small-molecule oral GLP-1 ([[Foundayo]], FDA-approved April 2026) — three months after Novo's peptide oral pill, but the small-molecule platform is structurally cheaper to manufacture and immune to the compounding dynamics that constrained Wegovy.
 
@@ -67,6 +67,16 @@ The competitive read for the vault:
 - vs [[Foundayo]] (oral small-molecule): the launch begins to layer on top of injectable Mounjaro/Zepbound, expanding TAM rather than cannibalizing.
 
 *Sources: [Lilly Q1 2026 release](https://investor.lilly.com/news-releases/news-release-details/lilly-reports-first-quarter-2026-financial-results-raises-full), [Yahoo Finance — Mounjaro/Zepbound drive results](https://finance.yahoo.com/sectors/healthcare/articles/eli-lilly-q1-2026-earnings-111020291.html), [Motley Fool transcript](https://www.fool.com/earnings/call-transcripts/2026/04/30/eli-lilly-lly-q1-2026-earnings-transcript/), [Benzinga — guidance raised](https://www.benzinga.com/markets/earnings/26/04/52180776/eli-lilly-raises-2026-outlook-on-strong-mounjaro-and-zepbound-demand), Apr 30 2026.*
+
+---
+
+## Jun 2026 — Jaypirca positive European opinion for CLL
+
+On Jun 26, 2026, WSJ's close recap marked LLY up 7.1% after Lilly said European regulators issued a positive opinion recommending [[Jaypirca]] for chronic lymphocytic leukemia. Local `prices_long` confirms LLY closed at $1,208.12, up 7.13% from Jun 25, while [[XLV]] rose 3.03%, [[XBI]] rose 2.50%, and [[SPY]] fell 0.72%.
+
+The tape matters because Lilly is usually treated in the vault as the GLP-1 winner, but this was an oncology/regulatory datapoint. Against [[SPY]], the Jun 26 move was about +7.5pp abnormal and +3.3 residual sigma; against [[XBI]], about +6.1pp abnormal and +2.7 residual sigma. Against [[XLV]], the residual was smaller (+2.2pp, +1.3 sigma) because healthcare broadly rallied. The read is not that Jaypirca changes Lilly's GLP-1-led valuation by itself; it reinforces the diversification argument that Lilly has oncology, immunology, and neuroscience shots layered behind tirzepatide/orforglipron.
+
+*Sources: WSJ Jun 26 2026 stocks-to-watch recap; local `prices_long` through Jun 26 2026.*
 
 ---
 
@@ -154,5 +164,6 @@ New FASB-mandated country-by-country tax disclosures (March 2026) revealed Lilly
 - [[GLP-1 receptor agonists]] — drug class
 - [[Pharma consumerization]] — DTC strategic pattern Lilly pioneered with LillyDirect
 - [[Pharma jurisdictional tax arbitrage]] — $6.6B Ireland vs $3.3B US (FY2025)
+- [[Jaypirca]] — oncology/hematology product; Jun 2026 European CLL opinion
 
-*Updated 2026-04-27 (Foundayo launch + revenue mix)*
+*Updated 2026-06-26 (Jaypirca European CLL opinion + tape)*

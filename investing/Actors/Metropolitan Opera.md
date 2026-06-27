@@ -1,5 +1,5 @@
 ---
-aliases: [Met Opera, The Met, Met, MetOpera]
+aliases: [Met Opera, The Met Opera, MetOpera]
 tags: [actor, culture, opera, nonprofit, usa, newyork]
 ---
 #actor #culture #opera #nonprofit #usa #newyork

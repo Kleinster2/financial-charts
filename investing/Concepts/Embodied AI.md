@@ -1,9 +1,15 @@
 ---
-aliases: [Physical AI, Embodied intelligence, Embodied foundation models]
+aliases: [physical AI, Embodied intelligence, Embodied foundation models]
 ---
 #concept #ai #robotics
 
 **Embodied AI** — AI systems that perceive, reason about, and act in the physical world through robotic bodies. The bridge between large language/vision models and real-world manipulation, locomotion, and navigation.
+
+## Synthesis
+
+Embodied AI is the attempt to turn AI from a screen-native software layer into an operating layer for cars, robots, sensors, factories, and logistics. For investors, the useful split is between volume robot platforms, data-engine owners, and picks-and-shovels suppliers. The Jun 2026 [[onsemi]] / [[Synaptics]] deal belongs in the third bucket: not a humanoid bet, but an attempt to assemble power, sensing, connectivity, and edge compute into a physical-AI component stack.
+
+Chart data unavailable: the note maps a qualitative hardware/software stack, not a priced security cohort; relevant public single-name tape is kept in the company notes.
 
 ---
 
@@ -21,7 +27,7 @@ The AI investment cycle so far has been digital: data centers, cloud, software. 
 |-------|----------|---------|
 | World models | Predict physical dynamics | [[UnifoLM]]-WMA, [[Google]] RT-2 |
 | [[VLA model\|Vision-Language-Action]] (VLA) | Map perception + language → actions | [[UnifoLM]]-VLA, RT-X, Octo |
-| Reinforcement learning | Learn locomotion/manipulation via trial | [[Unitree]] quadruped RL, [[Figure AI]] |
+| [[Reinforcement learning]] | Learn locomotion/manipulation via trial | [[Unitree]] quadruped RL, [[Figure AI]] |
 | Simulation | Generate synthetic training data | NVIDIA Isaac, MuJoCo |
 | Hardware | Actuators, sensors, compute | Custom actuators, [[NVIDIA]] Jetson/Thor |
 
@@ -69,6 +75,7 @@ Implication: Companies with volume shipments ([[Unitree]]: 20K target 2026) comp
 | [[Boston Dynamics]] | Research-grade, [[Hyundai]] backing | Low volume | Subsidiary |
 | [[AGIBOT]] | Chinese humanoid portfolio | Scaling | HK IPO rumored |
 | [[Mobileye]] / [[Mentee Robotics]] | ADAS perception → humanoid | Pre-production | $900M acquisition |
+| [[onsemi]] / [[Synaptics]] | Power, sensing, connected compute, HMI, wireless | Public M&A | $7B all-stock deal announced Jun 2026; expected mid-2027 close |
 | NVIDIA | Platform (Isaac Sim, Thor chips) | Picks & shovels | Public |
 
 ---
@@ -93,7 +100,7 @@ The "assembly trap": Skeptics warn that cherry-picked factory demos at 2x speed 
 | 2023 | Figure 01 demo, RT-2 ([[Google]]) |
 | 2024 | Unitree G1 ships at $16K, Figure [[BMW]] deal |
 | 2025 | Unitree 5,500 humanoids shipped, UnifoLM open-sourced |
-| 2026 | Unitree 20K target, factory self-deployment, IPO. Mobileye acquires Mentee ($900M) |
+| 2026 | Unitree 20K target, factory self-deployment, IPO. Mobileye acquires Mentee ($900M). [[onsemi]] agrees to acquire [[Synaptics]] for a power/sense/connected-compute physical AI stack |
 | 2028+ | Warehouse-scale deployment (if 80/80 achieved) |
 
 ---

@@ -150,6 +150,18 @@ Automotive dominant = high cyclicality.
 
 ---
 
+## Jun 2026 — Synaptics acquisition and physical-AI reset
+
+On Jun 25, 2026, onsemi agreed to acquire [[Synaptics]] in an all-stock transaction with roughly $7B enterprise value. The exchange ratio is 1.350 ON shares for each SYNA share, implying Synaptics holders own about 12% of the pro forma company; one Synaptics director is expected to join the onsemi board, and the deal is targeted to close in mid-2027.
+
+Strategically, this is onsemi trying to move from power/sensing components into a broader [[Embodied AI|physical-AI]] stack: power, sensing, connected compute, human-machine interface, wireless connectivity, and control. Synaptics adds edge-AI processors, connectivity, and software into onsemi's automotive/industrial footprint, but the market read was that this also adds integration complexity and pulls capital/attention away from the cleaner data-center and auto-power story.
+
+The tape was harsh. Local `prices_long` has ON closing Jun 26 at $90.65, down 23.66% from Jun 25, while [[SOXX]] fell 5.64%; using a 90-session beta of 1.08 to SOXX, the move was about -17.6pp abnormal and -6.1 residual sigma. [[Synaptics]] closed at $121.00, down 3.68% on the day, so the target did not behave like a clean takeover-premium winner either. The read-through for [[Automotive semiconductors]] is that investors are punishing auto/industrial analog names when they pay up for distant physical-AI TAM before the core EV/SiC cycle is visibly repaired.
+
+*Sources: ON Semiconductor Jun 25 2026 8-K / Exhibit 99.1; WSJ deal report and Jun 26 stocks-to-watch recap; local `prices_long` through Jun 26 2026.*
+
+---
+
 ## Recent challenges
 
 **2024-2025 headwinds:**
@@ -202,7 +214,7 @@ Automotive dominant = high cyclicality.
 | SiC position | \#2-3 |
 | Image sensor position | \#1 auto |
 
-*Updated 2026-01-28*
+*Updated 2026-06-26 (Synaptics acquisition + market reaction)*
 
 ---
 
@@ -217,3 +229,5 @@ Automotive dominant = high cyclicality.
 - [[Texas Instruments]] — analog peer
 - [[Analog Devices]] — analog peer
 - [[NXP]] — auto semi peer
+- [[Synaptics]] — Jun 2026 acquisition target
+- [[Embodied AI]] — embodied-AI / edge-AI rationale

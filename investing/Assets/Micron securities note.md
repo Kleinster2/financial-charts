@@ -4,7 +4,7 @@ tags: [securities, memory, semiconductors]
 ---
 #securities #memory #semiconductors
 
-**Micron securities** — MU (NASDAQ) went from $49.83 (Dec 2022) to $461.73 (Mar 18, 2026) — a 9.3x move in 39 months. The only pure-play U.S.-listed large-cap memory stock, with significant weight in SMH, SOXX, and XSD. Two dynamics to track: the absolute price (what put MU where it is) and the relative price (MU against its peers and the semiconductor complex, risk/beta-adjusted).
+**Micron securities** — MU (NASDAQ) went from $49.83 (Dec 2022) to $1,213.56 (Jun 25, 2026) — a 24.4x move in 42 months, before settling to $1,132.33 on Jun 26. The only pure-play U.S.-listed large-cap memory stock, with significant weight in SMH, SOXX, and XSD. Two dynamics to track: the absolute price (what put MU where it is) and the relative price (MU against its peers and the semiconductor complex, risk/beta-adjusted).
 
 ---
 
@@ -13,7 +13,7 @@ tags: [securities, memory, semiconductors]
 | Instrument | Ticker/Name | Notes |
 |------------|-------------|-------|
 | Common stock | MU (NASDAQ) | Primary — only US-listed large-cap pure-play memory |
-| ETF exposure | [[Semiconductors|SMH]] | VanEck Semiconductor ETF — significant weight |
+| ETF exposure | [[Semiconductors\|SMH]] | VanEck Semiconductor ETF — significant weight |
 | ETF exposure | SOXX | iShares Semiconductor ETF |
 | ETF exposure | XSD | SPDR S&P Semiconductor ETF (equal-weight) |
 | Options | MU options chain | Liquid, weekly expirations |
@@ -29,7 +29,7 @@ The absolute price chain traces a path from commodity-cycle trough to AI-driven 
 |------|-------|-------|--------|
 | Dec 2022 | $49.83 | Memory downturn trough — negative gross margin, inventory glut, crypto winter | At 2020 levels despite 3 years of earnings |
 | May 2023 | $65.44 | Early AI hype — ChatGPT launched Nov 2022, [[NVIDIA]] data center inflecting | Recovering with broad semis |
-| Jun 2023 | $64.50 | [[China Micron ban June 2023|China bans Micron]] from critical infrastructure | -7% in days, then stabilizes — China revenue ~25% but commoditized |
+| Jun 2023 | $64.50 | [[China Micron ban June 2023\|China bans Micron]] from critical infrastructure | -7% in days, then stabilizes — China revenue ~25% but commoditized |
 | Jun 2024 | $140.25 | Peak of first AI wave — HBM narrative takes hold | Doubles from year-end 2023. But NVDA and SMH running harder |
 | Sep 2024 | $106.93 | Q4 FY2024 guidance disappoints | -24% from June peak |
 | Dec 2024 | $103.47 | Q1 FY2025 guidance weak — DRAM pricing not yet inflecting | Gives back entire 2024 gain. Same level as Dec 2023 |
@@ -40,10 +40,15 @@ The absolute price chain traces a path from commodity-cycle trough to AI-driven 
 | Feb 2026 | $410.34 | HBM4 ahead of schedule (Wolfe conference, CFO Mark Murphy) | +10% in a day. TD Cowen $600 PT |
 | Mar 18, 2026 | $461.73 | Q2 FY2026 blowout: $23.86B rev, 81% gross margin, $12.20 EPS vs $9.31 est | +8% after hours despite Dow -768pts |
 | Mar 23, 2026 | $404.35 | Pullback — profit-taking after 4x move in 3 months | -12% from peak, still +42% YTD |
+| May 26, 2026 | $895.88 | UBS lifts price target to $1,625; Micron crosses $1T market value | +19.3% in one day; market reframes MU as AI memory scarcity compounder |
+| Jun 23, 2026 | $1,051.77 | Memory-glut fear and de-risk into fiscal Q3 print | -13.18% on the day, but still above the May rerating level |
+| Jun 24, 2026 | $1,048.51 | Fiscal Q3 print after close: $41.46B revenue, 84.9% non-GAAP gross margin, $50.0B Q4 revenue guide | After-hours rebound of roughly 14% toward ~$1,195 |
+| Jun 25, 2026 | $1,213.56 | First regular-session reaction to Q3 and [[Strategic Customer Agreements]] | +15.74%; +10.1pp abnormal vs SOXX beta, +2.7 residual sigma |
+| Jun 26, 2026 | $1,132.33 | Post-print giveback as semis faded | -6.69%; still above the pre-print close and above the Jun 23 crash low |
 
 The key inflection was December 2024 to January 2026. For a full year (Dec 2023 to Dec 2024), MU went nowhere — $84 to $84 — while SMH rose from $174 to $242. The market was pricing memory as a lagging AI play: [[NVIDIA]] had the direct revenue, memory would benefit eventually. When DRAM pricing confirmed the shortage in Q4 2025 (contract prices +45-50% QoQ), the re-rating was violent. MU went from $103 to $365 in thirteen months.
 
-The December 2024 low ($103.47) marked the last time MU traded below the semiconductor complex on a price/earnings basis. Everything after was catch-up: the stock quadrupled while earnings estimates quintupled, so the forward PE actually compressed from ~25x to ~11x during the rally. Cheap going up — the rarest kind of move.
+The December 2024 low ($103.47) marked the last time MU traded below the semiconductor complex on a price/earnings basis. Everything after was catch-up: the stock quadrupled while earnings estimates quintupled, so the forward PE actually compressed from ~25x to ~11x during the first rally. Cheap going up — the rarest kind of move. The Jun 2026 leg is different: by Jun 25 the stock was up more than 24x from the 2022 trough, and the market was paying for contractual HBM scarcity rather than only earnings catch-up.
 
 ---
 
@@ -102,6 +107,7 @@ MU trades as a core semiconductors name (SMH r = 0.84).
 
 | Event | Date | Key numbers | Stock reaction |
 |-------|------|-------------|----------------|
+| Q3 FY2026 | Jun 24-25, 2026 | $41.46B rev, 84.9% non-GAAP gross margin, $25.11 non-GAAP EPS; Q4 guide $50.0B rev / ~86% GM | +15.74% on Jun 25 regular close; +10.1pp abnormal vs SOXX beta, +2.7 residual sigma |
 | Q2 FY2026 | Mar 18, 2026 | $23.86B rev, 81% gross margin, $12.20 EPS vs $9.31 est | +~8% after hours (to ~$460 from ~$425). Overrode Dow -768pt, Brent +5.8% |
 | HBM4 announcement | Feb 11, 2026 | Mass production ahead of schedule (Wolfe conference) | +10% to $410.34. Global semi rally ([[Samsung]] +2%, [[SK Hynix]] +2.7%, SMH +2.7%) |
 | Taiwan expansion | Mar 16, 2026 | Second Tongluo facility for advanced DRAM/HBM | +~5% |
@@ -114,7 +120,8 @@ MU trades as a core semiconductors name (SMH r = 0.84).
 
 | Firm | Analyst | PT | Date |
 |------|---------|-----|------|
-| TD Cowen | — | $600 (Street high) | Feb 2026 |
+| UBS | — | $1,625 (Street high at time of note) | May 2026 |
+| TD Cowen | — | $600 | Feb 2026 |
 | Deutsche Bank | — | $500 | Feb 2026 |
 | Morgan Stanley | — | $450 | Feb 2026 |
 | Bernstein | Mark Li | $330 | Jan 2026 |
@@ -125,12 +132,11 @@ Zacks rank #1 (Strong Buy) as of Feb 2026. Growth Score A, Momentum B, Value D. 
 
 ## Valuation context
 
-Forward P/E compressed from ~25x to ~11x during the rally (stock quadrupled, earnings estimates quintupled). At $420, Zacks Growth Score A, Momentum B, Value D. Projected EPS growth +307.5%, sales growth +99.7%.
+Forward P/E compressed from ~25x to ~11x during the first 2025-2026 rally as the stock rose while earnings estimates rose faster. The Jun 2026 Q3 print then reset the denominator again: Q3 revenue was $41.46B, Q4 guidance is $50.0B, and the guided run rate annualizes near $200B at ~86% gross margin. The valuation question is no longer whether Micron participates in the AI memory cycle; it is how durable the [[Strategic Customer Agreements]] are once [[Samsung]] and [[SK Hynix]] respond with HBM4/HBM4E capacity.
 
-The stock has moved from $103 to $461 in four months. The quarterly revenue run rate ($33.5B guided) annualizes to ~$134B — more than [[Intel]] at peak. The consensus now embeds the [[Memory shortage 2025-2026]], HBM revenue growth, and the U.S. industrial policy premium. What the consensus does not yet reflect: HBM share shifts vs [[SK Hynix]], the pace of DRAM price increases beyond Q1 2026, or additional tariff/CHIPS Act actions.
+At $1,132.33 on Jun 26, MU had given back part of the Jun 25 earnings spike but still held above the pre-print close and the Jun 23 crash low. The market is now explicitly capitalizing scarcity duration, contract discipline, and U.S. listed pure-play scarcity. The main downside cases are the same ones the stock outran: HBM share loss, customer renegotiation once supply catches up, and a semi-beta unwind if AI capex financing windows close.
 
 ---
-
 ## Charts
 
 ![[mu-vs-peers.png]]

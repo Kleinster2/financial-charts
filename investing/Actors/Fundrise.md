@@ -5,7 +5,7 @@ aliases: [Fundrise Inc, Rise Companies Corp]
 
 Fundrise — Washington, D.C.-based financial-technology company (founded 2010 by brothers [[Ben Miller]] and Dan Miller; platform launched 2012 as the first US online real-estate investment platform). The largest direct-to-investor alternatives investment manager in the US, it runs a multi-asset platform spanning real estate (eREITs), private credit, and venture capital — ~$3B of investor-equity AUM (~$7B total assets) across 385,000+ active investors as of 2025.
 
-Fundrise is the platform company, distinct from the funds it sponsors. Its venture vehicle, the [[Fundrise Innovation Fund]] (NYSE: VCX), listed in March 2026 as one of the first public retail venture funds; Fundrise also sponsors a family of real-estate eREITs and an income fund. The company itself is private and VC-backed.
+Fundrise is the platform company, distinct from the funds it sponsors. Its venture vehicle, the [[Fundrise Innovation Fund]] (listed on the [[NYSE]]), listed in March 2026 as one of the first public retail venture funds; Fundrise also sponsors a family of real-estate eREITs and an income fund. The company itself is private and VC-backed.
 
 ---
 
@@ -20,7 +20,7 @@ Fundrise is the platform company, distinct from the funds it sponsors. Its ventu
 | Status | Private (VC-backed) |
 | Total assets | ~$7B (2025); ~$3B investor equity |
 | Active investors | 385,000+ |
-| Products | eREITs (real estate), private credit, venture ([[Fundrise Innovation Fund]] / VCX) |
+| Products | eREITs (real estate), private credit, venture ([[Fundrise Innovation Fund]]) |
 
 ---
 
@@ -42,7 +42,7 @@ Total raised ~$53.7M; investors include [[Goldman Sachs]] and [[Renren]].
 ## Related
 
 ### Funds sponsored
-- [[Fundrise Innovation Fund]] — its listed venture fund (NYSE: VCX)
+- [[Fundrise Innovation Fund]] — its listed venture fund (listed on the [[NYSE]])
 
 ### Peers (retail private-access vehicles)
 - [[Destiny Tech100]] — DXYZ
