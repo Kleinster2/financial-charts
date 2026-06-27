@@ -40,6 +40,18 @@ That is important because it keeps the ECB in a hike-or-hold regime rather than 
 
 ---
 
+## June 2026 — hike to 2.25%, "well anchored" language dropped
+
+Acting before the [[US-Iran framework deal June 2026|Iran framework MOU]] news broke, the ECB raised its benchmark rate by 25bp to 2.25% at its June meeting — confirming the [[Pierre Wunsch|Wunsch]] signal that the energy shock had moved the bank back into hike-or-hold territory rather than the easing-cycle pause that opened the year. Even under a milder scenario in which oil prices rapidly normalise post-deal, the ECB projected 2026 inflation close to 3%, still above its 2% target.
+
+The communication shift is the durable tell. The ECB dropped its reference to "well anchored" long-term inflation expectations from the introductory statement at its June press conference — language it had used consistently since the outbreak of the [[Operation Epic Fury|Iran war]] in late February. Dropping the phrase is the institutional signal that the bank no longer treats the public's inflation expectations as locked in; the second-round-effects channel (wages, price-setting, expectations) is now the binding watch item, alongside the [[Bank of England|BoE]]'s parallel emphasis and in contrast to the [[Federal Reserve|Fed]]'s more domestic framing.
+
+[[David Rees]] ([[Schroders]] head of global economics) named the broader pressure: "there is a growing recognition that the inflation pressures are broader than just energy." Fertiliser, metals, and food-supply channels continue propagating even as Brent falls toward $76 on the peace-dividend tape; El Niño adds a weather-side risk later in the year.
+
+*Source: [[Financial Times|FT]], "Iran deal brings little relief for inflation-wary central banks" (Sam Fleming / Amy Borrett / [[Claire Jones|Claire Jones]]), Jun 19 2026.*
+
+---
+
 ## Related
 
 - [[France]] -- Eurozone member

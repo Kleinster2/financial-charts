@@ -5,13 +5,13 @@ aliases: [IPO pipeline 2026, 2026 IPOs]
 
 # 2026 IPO pipeline
 
-2026 expected to be strongest IPO year since 2021. Renaissance Capital estimates 200-230 US IPOs raising $40-60B, but the real swing factor is now the trophy-private-company supply shock. Mega-deals dominate: [[SpaceX]] moved from a May 20 blank public S-1 to Jun. 3-4 roadshow terms: 555.6M primary Class A shares at an expected $135/share, roughly $75B base gross proceeds before a 15% primary over-allotment, a reported roughly $1.77T valuation, final pricing expected Jun. 11, and trading expected Jun. 12. [[Anthropic]] followed with a confidential draft S-1 on June 1, 2026 (see [[Anthropic IPO 2026]]; valuation anticipated above $1tn), and [[OpenAI]] followed with its own confidential draft S-1 on June 8, 2026 (see below) - making 2026 a direct test of how much AI / space scarcity public markets can absorb at once. A Jun. 5 prediction-market refresh keeps the 2026 [[OpenAI]] IPO as the base case, but resolves the daily scan's stale 16.5pp cross-venue divergence.
+2026 expected to be strongest IPO year since 2021. Renaissance Capital estimates 200-230 US IPOs raising $40-60B, but the real swing factor is now the trophy-private-company supply shock. Mega-deals dominate: [[SpaceX]] moved from a May 20 blank public S-1 to Jun. 3-4 roadshow terms: 555.6M primary Class A shares at an expected $135/share, roughly $75B base gross proceeds before a 15% primary over-allotment, a reported roughly $1.77T valuation, final pricing expected Jun. 11, and trading expected Jun. 12. [[Anthropic]] followed with a confidential draft S-1 on June 1, 2026 (see [[Anthropic IPO 2026]]; valuation anticipated above $1tn), and [[OpenAI]] followed with its own confidential draft S-1 on June 8, 2026 (see below) - making 2026 a direct test of how much AI / space scarcity public markets can absorb at once. A Jun. 27 prediction-market refresh reverses the Jun. 5 read: both venues now price no 2026 [[OpenAI]] IPO as the base case, with a material 11.5pp cross-venue spread.
 
 ---
 
 ## Synthesis
 
-The 2026 IPO pipeline is no longer just a reopening story. The market already moved from the [[2022 IPO market]] freeze through the [[2023 IPO market]] and [[2024 IPO market]] selective reopenings into the [[2025 IPO market]] volume recovery. The current question is whether public buyers can absorb a normal IPO year plus the trophy-company supply from [[SpaceX]], [[OpenAI]], and [[Anthropic]] without forcing a broader repricing of AI proxies and newly public growth names.
+The 2026 IPO pipeline is no longer just a reopening story. The market already moved from the [[2022 IPO market]] freeze through the [[2023 IPO market]] and [[2024 IPO market]] selective reopenings into the [[2025 IPO market]] volume recovery. The current question is whether public buyers can absorb a normal IPO year plus the trophy-company supply from [[SpaceX]], [[OpenAI]], and [[Anthropic]] without forcing a broader repricing of AI proxies and newly public growth names. The Jun. 27 [[OpenAI]] prediction-market reversal sharpens the read: traders still attach a trillion-dollar-plus conditional valuation if the IPO happens, but increasingly price that the 2026 window itself will not clear.
 
 ---
 
@@ -52,7 +52,7 @@ Source: Renaissance Capital 2025 US IPO market review and the live 2026 pipeline
 | **[[SpaceX]]** | [[Space]] / [[Starlink]] / AI infrastructure | Reported roughly $1.77T at Jun. 3-4 roadshow terms | Jun. 3 S-1/A + Jun. 4 FWP: 555.6M primary Class A shares at expected $135; pricing expected Jun. 11 and trading Jun. 12; final price still pending |
 | [[Databricks]] | Data/AI | $134B | Early 2026 target |
 | [[Anthropic]] | AI | $965B post-money Series H (May 28 2026 official); >$1tn anticipated at IPO | Confidential draft S-1 filed June 1 2026 (see [[Anthropic IPO 2026]]); May 14 $30B / $900B report was superseded by the May 28 $65B Series H close led by [[Altimeter Capital]], [[Dragoneer]], [[Greenoaks]], and [[Sequoia Capital]]; run-rate revenue crossed $47B earlier in May; likely last private round |
-| [[OpenAI]] | AI | $852B recent private mark | Accelerated IPO-timetable leaks after the $122B 2026 round; FT May 23 says the company booked almost $6B revenue last quarter but still expects roughly $600B of burn before 2030 profitability; Jun. 5 prediction markets still imply a 2026 base case, with Kalshi at 75c yes before Jan. 1 2027 and Polymarket at 28.5c no by Dec. 31 |
+| [[OpenAI]] | AI | $852B recent private mark | Accelerated IPO-timetable leaks after the $122B 2026 round; FT May 23 says the company booked almost $6B revenue last quarter but still expects roughly $600B of burn before 2030 profitability; Jun. 27 prediction markets now price no 2026 IPO as the base case: Kalshi no before Jan. 1 2027 at 67.0%, Polymarket no by Dec. 31 at 78.5% |
 | [[Revolut]] | [[Fintech]] | $75B | [[UK]] neobank |
 | [[Jio Platforms]] | [[Telecom]] | ~$160B implied | Draft prospectus filed Jun 19 2026 — India's biggest-ever |
 
@@ -162,7 +162,7 @@ The filing lands days after India's largest bourse, [[NSE India|the National Sto
 | [[Cerebras]] | AI chips | ~$94.8B fully diluted at Day-1 close | Priced May 13 at $185 ($5.55B raised); listed May 14 Nasdaq: CBRS; Day-1 close $311.07 (+68.1%) |
 | [[Quantinuum]] | Quantum | $20B+ | Filed Jan 2026 |
 | [[Databricks]] | Data/AI | $134B | Early 2026 |
-| [[OpenAI]] | AI | $852B recent private mark | 2026 IPO window pulled forward by leaks; Jun. 5 prediction-market refresh keeps 2026 as the base case around 72-75%, with conditional Polymarket median closing market cap near $1.23T |
+| [[OpenAI]] | AI | $852B recent private mark | 2026 IPO window pulled forward by leaks, then repriced lower on Jun. 27: Kalshi no-2026 at 67.0% and Polymarket no-2026 at 78.5%; conditional Polymarket median closing market cap near $1.21T if an IPO happens |
 | [[Canva]] | Design | $40B+ | "Imminent" per founders |
 
 ---
@@ -215,6 +215,21 @@ The market read is still cooler than the May 21 repricing. Both venues keep a 20
 Note on contract definitions: Kalshi resolves if an IPO is confirmed before Jan. 1 2027, including S-1 effectiveness, pricing, or exchange ticker assignment; it does not require first trade before Jan. 1. Polymarket's no-2026 leg sits inside the Dec. 31 2026 closing-market-cap event. Treat the prices as close but not perfectly identical legal definitions.
 
 *Sources: [[Kalshi]] API market KXIPOOPENAI-27JAN01, read Jun. 5 2026: https://external-api.kalshi.com/trade-api/v2/markets/KXIPOOPENAI-27JAN01; [[Polymarket]] Gamma event `openai-ipo-closing-market-cap` and market `will-openai-not-ipo-by-december-31-2026`, read Jun. 5 2026: https://gamma-api.polymarket.com/events/slug/openai-ipo-closing-market-cap and https://gamma-api.polymarket.com/markets/slug/will-openai-not-ipo-by-december-31-2026*
+
+### June 27 cross-venue reversal
+
+The Jun. 27 local watchlist refresh reverses the Jun. 5 read. [[Kalshi]]'s KXIPOOPENAI-27JAN01 yes leg is 33.0c, so the inverted no-2026 tail is 67.0c. [[Polymarket]]'s direct no-IPO-by-Dec. 31 leg is 78.5c. Both venues now price no 2026 [[OpenAI]] IPO as the base case, while the 11.5pp spread is again above the watchlist's 8pp material-divergence threshold.
+
+| Jun. 27 live read | Price | Interpretation |
+|---|---:|---|
+| [[Kalshi]] KXIPOOPENAI-27JAN01, OpenAI IPO before Jan. 1 2027 | 33.0c last | Inverted no-2026 tail = 67.0c |
+| [[Polymarket]] no OpenAI IPO by Dec. 31 2026 | 78.5c | Direct no-2026 tail; implies 21.5c for IPO by year-end |
+| Cross-venue no-2026 spread | 11.5pp | Material again; above 8pp watchlist threshold |
+| Polymarket conditional median market cap | About $1.21T | Conditional on IPO by Dec. 31; excludes the no-IPO leg |
+
+The useful signal is a timing reversal, not a valuation collapse. Conditional on an IPO happening in 2026, the Polymarket valuation ladder still centers just above $1T, interpolated around $1.21T. Traders are therefore not rejecting the idea that public investors could underwrite a trillion-dollar [[OpenAI]] listing; they are increasingly pricing that the listing does not arrive inside the 2026 absorption window.
+
+*Sources: local prediction-market watchlist refresh (`python scripts/refresh_kalshi_watchlist.py --refresh --update-state --json`), read Jun. 27 2026; [[Kalshi]] market KXIPOOPENAI-27JAN01; [[Polymarket]] event `openai-ipo-closing-market-cap` and market `will-openai-not-ipo-by-december-31-2026`.*
 
 ---
 

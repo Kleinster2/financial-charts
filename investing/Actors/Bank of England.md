@@ -53,6 +53,20 @@ Sources: Bank of England, "Monetary Policy in an unpredictable world", May 29 20
 
 ---
 
+## June 18, 2026 — MPC hold at 3.75%, second-round-effects emphasis
+
+The MPC voted to hold Bank Rate at 3.75% on Jun 18 2026, the first decision after the [[US-Iran framework deal June 2026|US-Iran framework MOU]] was announced (Jun 14) and the day before its formal signing in Switzerland (Jun 19). [[Andrew Bailey]] retained the hawkish option explicitly, indicating readiness to raise rates if inflation breaks upwards rather than easing into the peace-dividend relief the tape had priced on Jun 15.
+
+The minutes made the second-round-effects framing operationally explicit. FT analysis counted roughly two dozen references to second-round effects, evolving inflation expectations, and the indirect impact of the [[Operation Epic Fury|Iran conflict]] on inflation — a communication shift that set the BoE apart from the [[Federal Reserve|Fed]]'s more domestic-pressure framing and aligned it with the [[ECB]]'s post-war messaging. References to conflict-driven uncertainty in the bank's communications roughly doubled since its first post-conflict meeting.
+
+The BoE's stance is that the peace deal removed the worst-case energy tail but not the inflation problem. Even with Brent falling toward $76 on the deal, futures prices remained above pre-hostility levels (the war began Feb 28), damage to oil and gas infrastructure will delay a return to prewar production, and fertiliser, metals, and food-supply chain channels continue to propagate. Investors continued to price at least one BoE rate increase before end-2026.
+
+[[Luke Bartholomew]] ([[Aberdeen]] deputy chief economist) framed the cross-CB stance neatly: the agreement had removed a "massive tail risk" under which oil could have surged toward $180/bbl on shortages (the [[Iran conflict oil price timeline#May 17 — Peak-summer crunch in view, Brent $105, scenario reset to $150-180 (FT)|Aberdeen $180 scenario]] his colleague [[Paul Diggle]] had been examining), but the inflation hazards had not disappeared. Top policymakers were "not ready to call the all-clear."
+
+*Source: [[Financial Times|FT]], "Iran deal brings little relief for inflation-wary central banks" (Sam Fleming / Amy Borrett / [[Claire Jones|Claire Jones]]), Jun 19 2026.*
+
+---
+
 ## Anthropic Mythos cyber-risk coordination (Apr 2026)
 
 Reuters reported on April 12 that BoE officials were in urgent talks with the [[Financial Conduct Authority]] and the [[UK National Cyber Security Centre]] after [[Anthropic]]'s [[Claude Mythos|Claude Mythos Preview]] was described as capable of surfacing major vulnerabilities across widely used software. Major UK banks, insurers, and exchanges were expected to be briefed within a fortnight.
@@ -74,5 +88,8 @@ The significance is not that the BoE became an AI regulator. It is that frontier
 - [[Private Credit]] — running first private markets stress test
 - [[Iran conflict economic disruption]] — oil shock driving rate repricing
 - [[Iran conflict European impact]] — UK gas/electricity price transmission
+
+### Cross-vault
+- [History: Bank of England](obsidian://open?vault=history&file=05%20-%20Modern%2FBank%20of%20England) — institutional history (founding, 1947 nationalisation, 1997 independence, gold reserve lineage)
 
 *Created 2026-03-15*

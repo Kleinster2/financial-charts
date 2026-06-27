@@ -71,8 +71,26 @@ The war generated a coherent set of trades the vault tracked for three months; t
 
 ---
 
-## What to watch
+## Post-signing macro read — central banks stay hawkish (Jun 17-19)
 
+The week of the signing delivered the central-bank reaction to the deal, and the read was uniformly: peace removes the worst-case oil tail but not the inflation problem. Four G3+ central banks met in the eight days surrounding the MOU signing (Jun 19, Switzerland):
+
+| Central bank | Decision (Jun 2026) | Stance |
+|---|---|---|
+| [[Federal Reserve]] (Jun 17) | Held 3.50-3.75% — first meeting under chair [[Kevin Warsh]] | Hawkish; statement stripped of easing language, dot plot flipped to 9 of 18 projecting a 2026 hike; market speculation of a hike beyond the current range as soon as next month. Core PCE 3.3% (Apr); headline PCE forecast to end year at 3.6% |
+| [[Bank of England]] (Jun 18) | Held 3.75% | Bailey ready to hike if inflation breaks upwards; minutes made ~two dozen references to second-round effects / expectations / indirect conflict impact — references roughly doubled since the first post-conflict meeting; investors pricing ≥1 hike by year-end |
+| [[ECB]] (week of Jun 9, before the deal news broke) | +25bp to 2.25% | Dropped "well anchored" expectations language from June press conference (used consistently since the war began); even under a milder-scenario rapid oil normalisation, 2026 inflation projected close to 3% |
+| [[BOJ]] (June meeting) | Lifted to ~1% | Highest since 1996; indicated normalization has further to go — only G3 central bank actively tightening through mid-2026 |
+
+The cross-CB pattern is the durable takeaway. The [[Hormuz Permanent Risk Premium|risk-premium]] arc that drove the [[Steepener trade|steepener]], the [[Iran conflict economic disruption#Central bank bind|central-bank bind]], and the [[2026 Iran conflict market impact#June 1, 2026 — inflation shock tracking well below the 2022 surge|inflation-shock watch]] does not cleanly reverse with the spot oil unwind. Energy futures remained above pre-war levels (hostilities began Feb 28); fertiliser, metals, and food-supply chains continue propagating; El Niño adds a weather-side risk. Damage to oil and gas infrastructure delays a return to prewar production. The peace-dividend tape (Jun 15) priced a faster normalisation than the central-bank cohort validated the following week.
+
+The [[Federal Reserve|Fed]] vs [[ECB]] / [[Bank of England|BoE]] split is the secondary pattern: the Fed's communication stayed focused on domestic core-PCE persistence (3.3% in April; expected to hold through year-end), while the ECB and BoE foregrounded the energy-shock's second-round transmission. That divergence tracks the [[Iran conflict economic disruption|asymmetric-pain framework]]: the US is relatively insulated from the physical-supply channel, while the UK and Eurozone bear the disproportionate share of macro transmission. [[Luke Bartholomew]] ([[Aberdeen]]) framed the cross-CB posture: top policymakers are "not ready to call the all-clear — that is for sure"; the deal removed a "massive tail risk" of $180/bbl oil but not the inflation hazards. [[David Wilcox]] (former Fed official, [[Peterson Institute for International Economics|Peterson Institute]] / [[Bloomberg Economics]]) on Warsh's inflation fight: "the overwhelming likelihood is that he will have to raise rates."
+
+*Source: [[Financial Times|FT]], "Iran deal brings little relief for inflation-wary central banks" (Sam Fleming / Amy Borrett / [[Claire Jones|Claire Jones]]), Jun 19 2026.*
+
+---
+
+## What to watch
 - Physical confirmation — actual tanker transits resuming through the [[Strait of Hormuz]], Brent-Dubai recoupling, and physical-paper convergence (Brooks's confirmation signals) versus a headline-only rally; the April 8 ceasefire broke within 72 hours.
 - The June 19 signing — whether the MOU is signed as scheduled in Switzerland and the 60-day nuclear negotiation holds, or fractures like the April Islamabad talks.
 - [[FOMC]] June 17 dot plot — whether the median shifts dovish on the removed oil-inflation overhang (gold/miners tailwind) or holds the year-end-hike bias (dollar up, miners give back the pop).

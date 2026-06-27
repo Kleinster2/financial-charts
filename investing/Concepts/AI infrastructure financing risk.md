@@ -8,7 +8,7 @@ The $1.4T AI buildout may rely on circular capital flows — each player's solve
 
 ## Synthesis
 
-AI infrastructure financing risk is the balance-sheet shadow of the AI capex boom: the same contracts that validate GPU/data-center demand can also create circular dependency if cloud buyers, neoclouds, GPU suppliers, private credit lenders, and hyperscalers are all underwriting each other's growth. The investable pressure point is not "AI demand is fake"; it is that equity issuance, foreign-currency debt, private credit, customer prepayments, and supplier financing may all need receptive capital markets at the same time. The Jun. 5 2026 market-window stress test matters because it showed the funding window can narrow before the buildout is complete.
+AI infrastructure financing risk is the balance-sheet shadow of the AI capex boom: the same contracts that validate GPU/data-center demand can also create circular dependency if cloud buyers, neoclouds, GPU suppliers, private credit lenders, and hyperscalers are all underwriting each other's growth. The investable pressure point is not "AI demand is fake"; it is that equity issuance, foreign-currency debt, private credit, customer prepayments, and supplier financing may all need receptive capital markets at the same time. The Jun. 5 2026 market-window stress test matters because it showed the funding window can narrow before the buildout is complete; the Jun. 27 [[OpenAI]] prediction-market reversal adds a direct IPO-timing version of the same risk.
 
 ## Scale of buildout (Jan 2026)
 
@@ -113,6 +113,16 @@ This matters for the financing-risk note because AI infrastructure has become an
 The event does not prove that AI demand is deteriorating. It does prove that the funding stack is now exposed to market-window risk: higher front-end yields can compress semiconductor valuations, weaken IPO conditions, and raise the dilution hurdle for hyperscalers before any physical data-center bottleneck changes.
 
 *Sources: [FT](https://www.ft.com/content/2929bbd3-1f71-4424-a577-f016c3c65603), Jun. 5 2026; local `prices_long` closes through Jun. 5 2026.*
+
+### OpenAI IPO-window repricing (Jun 27 2026)
+
+The Jun. 27 prediction-market refresh turns OpenAI's IPO timing into a live financing-risk input. [[Kalshi]] now implies a 67.0% no-2026 tail for OpenAI IPO before Jan. 1 2027, while [[Polymarket]] prices no OpenAI IPO by Dec. 31 at 78.5%. The cross-venue spread is material again at 11.5pp, but both venues agree on the direction: no 2026 IPO is the base case.
+
+That matters because OpenAI is the most explicitly runway-dependent issuer in the trophy-IPO queue. If the public-market window slips, the pressure does not stay inside the cap table. It migrates into counterparties and funding commitments: [[Oracle]] data-center capacity, [[SoftBank]] capital exposure, [[CoreWeave]] / [[Microsoft]] routing, and the broader [[Project Stargate]] compute schedule all become more sensitive to private-market bridge funding, supplier financing, or slower deployment.
+
+The important nuance is that the valuation-if-listed signal is not collapsing. The local watchlist's Polymarket ladder still gives a conditional median closing market cap around $1.21T if OpenAI does IPO by Dec. 31. The financing-risk signal is therefore about timing and absorption capacity: the same market can believe in a trillion-dollar OpenAI and still doubt that the 2026 public-equity window is available on schedule.
+
+*Source: local prediction-market watchlist refresh (`python scripts/refresh_kalshi_watchlist.py --refresh --update-state --json`), read Jun. 27 2026; cross-ref [[2026 IPO pipeline]].*
 
 ---
 
@@ -271,7 +281,7 @@ Who's building:
 |------|----------|----------|
 | [[Crypto]] miners | [[Bitdeer]], [[Nscale]], [[IREN]] | Converting mining infrastructure |
 | PE/[[Infrastructure]] | [[Blue Owl]], [[Blackstone]] | Off-balance-sheet financing |
-| Newcomers | [[Adriatic DC]], [[Fermi|Fermi Inc]] | Greenfield mega-projects |
+| Newcomers | [[Adriatic DC]], [[Fermi\|Fermi Inc]] | Greenfield mega-projects |
 | Sovereign | [[GCC]] funds | National AI ambitions |
 
 Scale of projects:
@@ -428,7 +438,7 @@ The risk is concentrated in second-tier players (Oracle, CoreWeave, [[SoftBank]]
 - [[Nebius]] — listed neocloud capital-markets exposure
 - [[Neocloud financing]] — CRWV / NBIS / TPU JV comparison
 - [[Adriatic DC]] — new entrant (€50B Puglia, speculative)
-- [[Fermi|Fermi Inc]] — new entrant (11GW [[Texas]], lost anchor tenant)
+- [[Fermi\|Fermi Inc]] — new entrant (11GW [[Texas]], lost anchor tenant)
 - [[Nscale]] — crypto pivot ($23B [[Microsoft]] deal)
 - [[Bitdeer]] — crypto pivot (570MW Ohio)
 - [[Power constraints]] — bottleneck (transformer lead times 120-210 weeks)

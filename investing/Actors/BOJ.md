@@ -186,6 +186,16 @@ Two positioning consequences for the vault:
 
 ---
 
+## June 2026 — rate hike to ~1% (FT, Jun 19)
+
+The hike [[Ayako Fujita]] and the May 16 FT piece had pointed to arrived. The BOJ lifted its policy rate to around 1% at its June meeting, the highest since 1996, and indicated the process of normalising borrowing costs had further to go. The move makes the BOJ the only major G3 central bank actively tightening through mid-2026 — the [[Federal Reserve|Fed]] on hold at 3.50-3.75% under new chair [[Kevin Warsh]] with a hike-bias validated at the Jun 17 FOMC, the [[ECB]] just off a +25bp hike to 2.25%, and the [[Bank of England|BoE]] holding at 3.75% with at least one more hike priced by year-end.
+
+The BOJ's June decision lands in the same cross-CB frame as the others: the [[US-Iran framework deal June 2026|Iran framework deal]] removed the worst-case oil tail but did not extinguish the inflation impulse — and for Japan specifically, the yen weakness plus oil-import passthrough plus [[Sanae Takaichi|Takaichi]] fiscal expansion keep the inflation-above-2% regime in place that justified the [[Yield curve control|YCC]] exit in the first place.
+
+*Source: [[Financial Times|FT]], "Iran deal brings little relief for inflation-wary central banks" (Sam Fleming / Amy Borrett / [[Claire Jones|Claire Jones]]), Jun 19 2026.*
+
+---
+
 ## June 2026 rate-hike expectation (FT, May 16)
 
 [[FT]] May 16 (Duguid/Clarfelt/Lewis): the market is pricing a quarter-point BOJ rate hike to 1% at the June meeting. Drivers:
