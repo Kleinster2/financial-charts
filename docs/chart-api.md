@@ -199,7 +199,17 @@ for row in data:
 conn.commit()
 ```
 
-### 5. Verify output
+### 5. Refresh before generating
+
+Before generating fundamentals or sankey charts, refresh the income statement so charts reflect the latest reported quarter — stale fundamentals produce stale charts (CLAUDE.md freshness rule):
+
+```bash
+python fetch_fundamentals.py TICKER
+```
+
+After refreshing, generate both the annual sankey (`{ticker}-sankey.png`) and the latest-quarter sankey (`{ticker}-sankey-q.png`, `period=quarterly`), and regenerate the fundamentals chart so it includes the new quarter.
+
+### 6. Verify output
 
 After generating, READ the image to confirm all tickers appear with visible data lines.
 
@@ -380,6 +390,14 @@ curl "http://localhost:5000/api/chart/sankey?ticker=AAPL&period=quarterly" -o in
 - Embed newest chart on top, older charts below — reverse chronological order
 - Pattern matches Palantir: `pltr-sankey.png` + `pltr-sankey-2024.png`
 - When regenerating after new fiscal year data arrives, rename the current `{ticker}-sankey.png` to its year-suffixed version *before* generating the new one
+
+**Latest-quarter Sankey (`{ticker}-sankey-q.png`).** Public-company actor notes also embed a quarterly sankey so the income-statement flow reflects the most recent reported quarter, not just the last closed fiscal year. Standard set: `{ticker}-sankey.png` (latest fiscal year) + `{ticker}-sankey-q.png` (latest quarter).
+
+```bash
+curl "http://localhost:5000/api/chart/sankey?ticker=DIS&period=quarterly" -o investing/attachments/disney-sankey-q.png
+```
+
+Refresh fundamentals first so the quarterly chart is current (see "Before Creating Charts" §5). `check_note_compliance.py` flags a missing quarterly sankey as a WARN.
 
 ---
 

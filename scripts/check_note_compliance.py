@@ -297,6 +297,7 @@ class NoteChecker(IndexMixin, FixMixin, AnalyticsMixin):
         # Sankey chart (public companies only, not ETFs/products)
         if is_public and not is_public_exempt and not is_etf and not is_fund and not is_person and not is_geography and not is_vc and not is_product:
             issues.extend(self._check_sankey_chart(content, filepath))
+            issues.extend(self._check_quarterly_sankey_chart(content, filepath))
 
         # Actor/Securities split (public companies in Actors/, not people/geographies/products)
         if is_public and not is_public_exempt and not is_etf and not is_fund and not is_person and not is_geography and not is_vc and not is_product:
@@ -854,6 +855,32 @@ class NoteChecker(IndexMixin, FixMixin, AnalyticsMixin):
                     f" and embed with ![[{slug}-sankey.png]]"
                 )
             issues.append(Issue("error", "chart", f"Company missing income statement Sankey chart{fix_hint}"))
+
+        return issues
+
+    def _check_quarterly_sankey_chart(self, content: str, filepath: Path) -> list[Issue]:
+        """Check for the latest-quarter income statement Sankey embed ({slug}-sankey-q.png)."""
+        issues = []
+
+        has_q_sankey = bool(re.search(r'!\[\[[^\]]*sankey-q\.png\]\]', content, re.IGNORECASE))
+
+        has_exemption = bool(re.search(
+            r'(pre-profit|limited\s*(financial\s*)?disclosure|not\s*(yet\s*)?public|recently\s*ipo|income\s*statement\s*(data\s*)?unavailable|annual-only\s*financial|quarterly\s*fundamentals\s*(data\s*)?unavailable)',
+            content, re.IGNORECASE
+        ))
+
+        if not has_q_sankey and not has_exemption:
+            ticker = self._extract_ticker(content)
+            slug = filepath.stem.lower().replace(" ", "-")
+            fix_hint = ""
+            if ticker:
+                fix_hint = (
+                    f". Fix: refresh fundamentals (python fetch_fundamentals.py {ticker}),"
+                    f" then generate via /api/chart/sankey?ticker={ticker}&period=quarterly"
+                    f" -> save as investing/attachments/{slug}-sankey-q.png"
+                    f" and embed with ![[{slug}-sankey-q.png]]"
+                )
+            issues.append(Issue("warning", "chart", f"Company missing latest-quarter Sankey chart{fix_hint}"))
 
         return issues
 

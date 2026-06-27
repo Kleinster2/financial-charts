@@ -517,6 +517,17 @@ charts:
     normalize: true
     start: 2024-01-01
     primary: INTC
+  disney-fundamentals-chart.png:
+    skip: true
+  disney-sankey.png:
+    skip: true
+  disney-sankey-q.png:
+    skip: true
+  disney-vs-nflx-spy-price-chart.png:
+    tickers: DIS,NFLX,SPY
+    normalize: true
+    start: 2020-01-01
+    primary: DIS
 ---
 
 # Chart Registry

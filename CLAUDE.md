@@ -87,9 +87,9 @@ Always use `/api/chart/lw` for price charts. Key params: `tickers`, `start`, `no
 
 **Axis scale:** Charts that are not about returns must use a linear y-axis. Use log scale only for normalized return/performance charts (`normalize=true`, default `log_y=true`) or an explicitly return/growth-rate interpretation. Raw rates, yields, spreads, macro levels, fundamentals, segments, and other level/unit charts must keep `log_y=false`.
 
-**Freshness:** Unless the note is an event note, embedded charts must show the latest available canonical data at generation time. Event notes may keep event-window snapshots; non-event notes can retain older snapshots only in explicitly historical/event sections and must label them as such.
+**Freshness:** Unless the note is an event note, embedded charts must show the latest available canonical data at generation time. Refresh fundamentals (`python fetch_fundamentals.py TICKER`) before generating or regenerating fundamentals/sankey charts so they include the latest reported quarter. Event notes may keep event-window snapshots; non-event notes can retain older snapshots only in explicitly historical/event sections and must label them as such.
 
-**Naming (CRITICAL):** `-vs-` format for comparisons (`aapl-vs-qqq-price-chart.png`). First ticker = blue (primary). Chart-refresh plugin parses tickers from filenames. Financial statements: `{ticker}-sankey.png`, `{ticker}-waterfall.png` (lowercase, no suffixes).
+**Naming (CRITICAL):** `-vs-` format for comparisons (`aapl-vs-qqq-price-chart.png`). First ticker = blue (primary). Chart-refresh plugin parses tickers from filenames. Financial statements: `{ticker}-sankey.png` (latest fiscal year), `{ticker}-sankey-q.png` (latest quarter), `{ticker}-waterfall.png` (lowercase, no suffixes). Public-company actor notes embed the standard set: fundamentals chart + annual sankey + latest-quarter sankey.
 
 **Practices:** Peer comparisons (2-4 tickers), no titles (legend suffices), italicized interpretation below, charts must live in notes with data tables, ETF benchmarks get normalized comparison vs benchmark.
 
