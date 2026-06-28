@@ -54,7 +54,7 @@ ERC gives commodities more weight than inverse vol: their positive correlation w
 | Turnover | Lower | Higher |
 | Concentrated positions | Never (long-only, unique solution) | Often |
 
-ERC's appeal is that it never needs a return forecast — the input most prone to estimation error — which is why it is more stable out of sample than mean-variance optimization.
+ERC's appeal is that it never needs a return forecast — the input most prone to estimation error — which is why it is more stable out of sample than [[Mean-variance optimization|mean-variance optimization]].
 
 ## Generalized risk budgeting
 

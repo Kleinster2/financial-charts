@@ -5,6 +5,11 @@ charts:
     normalize: true
     start: 2024-01-01
     primary: AAPL
+  factor-zoo-performance.png:
+    tickers: MTUM,VLUE,QUAL,USMV,SIZE,SPY
+    normalize: true
+    start: 2013-07-18
+    primary: MTUM
   rp-managed-futures-performance.png:
     tickers: DBMF,KMLM,CTA,SPY
     normalize: true

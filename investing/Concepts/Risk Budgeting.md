@@ -29,7 +29,7 @@ Because the risk contributions couple through the covariance matrix, this is sol
 ## Why budget risk instead of capital
 
 - Risk, not capital, is what actually diversifies — a capital-balanced book can still be dominated by one volatile sleeve.
-- It needs no return forecast, only a covariance estimate, so it sidesteps the most error-prone input in mean-variance optimization.
+- It needs no return forecast, only a covariance estimate, so it sidesteps the most error-prone input in [[Mean-variance optimization|mean-variance optimization]].
 - It makes hidden concentration explicit: the 60/40's ~90% equity-risk share is invisible in capital terms and obvious in risk-budget terms.
 
 The catch is that the budget is only as good as the covariance estimate, and covariances move with regime — the [[Stock-Bond Correlation Regime]] flip of 2022 is precisely a case where the realized risk budget diverged violently from the intended one.

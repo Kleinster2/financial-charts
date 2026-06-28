@@ -5,7 +5,7 @@ tags: [concept, portfolio-construction, risk, clustering]
 
 # Hierarchical Risk Parity
 
-Hierarchical Risk Parity (HRP) is a portfolio-construction method that uses hierarchical clustering of the correlation matrix to allocate risk, avoiding the covariance-matrix inversion that makes [[Equal Risk Contribution]] and mean-variance optimization unstable. It was introduced by Marcos López de Prado (2016).
+Hierarchical Risk Parity (HRP) is a portfolio-construction method that uses hierarchical clustering of the correlation matrix to allocate risk, avoiding the covariance-matrix inversion that makes [[Equal Risk Contribution]] and [[Mean-variance optimization|mean-variance optimization]] unstable. It was introduced by Marcos López de Prado (2016).
 
 *Chart not applicable: Hierarchical Risk Parity is a portfolio-construction method, not a tradeable instrument or price series.*
 

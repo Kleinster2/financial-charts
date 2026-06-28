@@ -175,6 +175,9 @@ Full research lives in the dedicated Risk Parity vault (`C:\Users\klein\obsidian
 - [[Economic Environment Framework]] — the growth×inflation quadrants risk parity is built to span
 - [[Diversification vs Correlation]] — why position count isn't diversification; the effective-number-of-bets metric
 - [[Volatility Targeting]] — time-series risk scaling, the complement to cross-sectional ERC
+- [[Trend following]] — the crisis-alpha complement; the strategy the managed-futures sleeves run
+- [[Mean-variance optimization]] — the return-forecast-dependent optimizer risk parity reacts against
+- [[Factor investing]] — diversify across factors vs across asset-class risk
 
 ### Cross-vault
 - [Risk Parity vault](obsidian://open?vault=Risk%20Parity&file=Home) — full research vault: theory, backtests, fund tracking (RPAR/UPAR/ALLW), regime analysis
