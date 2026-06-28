@@ -3,7 +3,13 @@ aliases: [CXMT, 长鑫存储, ChangXin Memory Technologies]
 ---
 #actor #memory #dram #china
 
-ChangXin Memory Technologies ([[CXMT]]) — [[China]]'s leading DRAM manufacturer, headquartered in Hefei. First Chinese company to mass-produce advanced mobile DRAM (Jan 2026). State-backed national champion, mulling IPO at ~$40B valuation. Now hitting capacity ceiling due to [[Export controls]] on semiconductor equipment.
+**ChangXin Memory Technologies (CXMT)** — [[China]]'s leading DRAM manufacturer, headquartered in Hefei. State-backed national champion with a Shanghai IPO path reportedly approved at roughly a $40B valuation. The company is no longer just a symbolic self-reliance project: it is shipping mainstream DDR products, showing advanced DDR5/LPDDR5X capability, and becoming a live supply-chain test for [[Apple]], PC OEMs, and US export-control policy.
+
+CXMT is the cleanest single-company test of whether China can build a domestic memory stack under US controls. The company has real scale, domestic demand, and political backing, but its investable significance is not simply "more Chinese DRAM supply." It is the collision between three forces: China's need for a non-Korean/non-US memory source, the West's equipment and military-company restrictions, and consumer-electronics buyers looking for cheaper memory during the [[Memory shortage 2025-2026|AI memory squeeze]].
+
+## One-line read
+
+CXMT is a China-local DRAM capacity hedge because conventional memory is becoming expensive and geopolitically sensitive, with the bet being whether state funding and domestic tooling can turn buyer validation into usable supply before US policy and EUV limits cap the addressable market.
 
 ---
 
@@ -11,137 +17,211 @@ ChangXin Memory Technologies ([[CXMT]]) — [[China]]'s leading DRAM manufacture
 
 | Metric | Value |
 |--------|-------|
-| HQ | Hefei, China |
-| Status | Private (state-backed) |
-| IPO valuation (mulled) | ~300B yuan (~$40B) |
-| DRAM capacity (Q4 2025) | **~240K wafers/month** (peaked) |
-| Annual capacity (2025) | ~2.9M wafers (est.) |
-| Node | 1x-nanometer (first-gen 10nm-class) |
-| Yield rate | ~50% (vs 92%+ for Samsung/SK Hynix on mature nodes) |
-| Backing | Hefei city government, national funds (Phase 3 IC fund) |
+| HQ | Hefei, [[China]] |
+| Status | Private, state-backed |
+| IPO valuation | Up to ~300B yuan / ~$42B in [[South China Morning Post]] reporting |
+| IPO status | Shanghai IPO plan reported; official SSE/CSRC project page not found in this pass |
+| IPO proceeds target | 20B-40B yuan, with one source around 30B yuan |
+| DRAM share | About 5% by revenue in 2024/2025 reporting; [[SemiAnalysis]]/Barron's projection: 11% of supply in 2025 rising toward 17% by 2028 |
+| Wafer capacity | Public estimates around 170K 300mm WSPM in 2024 and 240K-280K WSPM by late 2025 |
+| Process | DUV-based 10nm-class / reported G4 around 16nm for DDR5 |
+| Product set | DDR4, DDR5, LPDDR4X, LPDDR5/5X; HBM roadmap not yet volume-proven |
+| Policy status | Back on US [[Pentagon]] 1260H Chinese Military Companies list by Jun 2026; not on the US Entity List in accessible public reporting checked for this pass |
+| Backing | Hefei government ecosystem, national funds / [[China semiconductor strategy]]-linked capital; ownership percentages not publicly clear |
 
-| IPO fundraising target | **$4.2B** (FT, Feb 2026) |
-
-*Updated 2026-02-25*
-
----
-
-## Capacity plateau (Feb 2026)
-
-Per Omdia data (reported by Chosun Biz, Feb 12, 2026):
-
-CXMT has hit its **peak production capacity** at ~240K wafers/month as of Q4 2025. After roughly doubling output in 2025, capacity is expected to plateau throughout 2026.
-
-| Company | Annual DRAM capacity (2025) | vs CXMT |
-|---------|---------------------------|---------|
-| [[Samsung]] | ~7.6M wafers | 2.6x CXMT |
-| [[SK Hynix]] | ~5.97M wafers | 2.1x CXMT |
-| [[Micron]] | ~3.6M wafers | 1.2x CXMT |
-| **CXMT** | **~2.9M wafers** | — |
-
-**Why the ceiling:** US [[export controls]] are cutting off access to advanced semiconductor equipment. CXMT cannot buy from [[ASML]], [[Lam Research]], [[Applied Materials]], [[KLA]], or [[Tokyo Electron]].
-
-**Path forward:** China's Phase 3 IC investment fund is being concentrated on domestic semiconductor equipment. If equipment localization succeeds, capacity expansion could resume from **2027**, including CXMT's new Shanghai fab.
-
-LS Securities analyst Cha Yong-ho: "The tightening of U.S. export controls is limiting CXMT's capacity expansion. China is aware of this, and its Phase 3 investment fund is being concentrated on semiconductor equipment."
+*Updated 2026-06-28*
 
 ---
 
-## Yield gap — the real bottleneck
+## Evolution
 
-Despite impressive capacity numbers, actual output is much lower due to yield problems:
+| Period | What changed | Investing read-through |
+|---|---|---|
+| 2018-2023 | Hefei-backed DRAM project moved from catch-up R&D into domestic production scale. | China created a national champion to reduce dependence on Korean and US-aligned memory suppliers. |
+| 2024-2025 | CXMT scaled DDR4/DDR5 and mobile DRAM while Chinese device demand and the [[Samsung]] process-leak episode improved its strategic relevance. | Capability moved from symbolic to market-relevant, but yield, die-size, and equipment gaps kept effective output below incumbent nameplate comparisons. |
+| 2026 | Revenue, Shanghai IPO progress, [[HBM]] plans, blacklist volatility, and [[Apple]] supply-chain interest all converged. | CXMT became both a possible memory-supply relief valve and a policy-risk node for any buyer trying to use Chinese DRAM at scale. |
 
-| Metric | CXMT | Samsung/SK Hynix |
-|--------|------|-----------------|
-| Process node | 1x-nm (1st gen 10nm) | 1a-nm (4th gen 10nm) |
-| Yield rate | ~50% | 92%+ (mature node) |
-| Yield gap | **42% lower** than Big Three on comparable mature nodes |
+---
 
-Nameplate capacity of 240K wafers/month is misleading — at ~50% yield, effective good-die output is roughly half. Actual shipment market share is even lower than capacity share suggests.
+## Ownership, funding, and IPO
 
-**Industry source:** "Unlike NAND flash, DRAM involves far greater design and process complexity, so it will take CXMT considerable time to introduce advanced processes on par with Samsung Electronics or SK hynix."
+CXMT's precise cap table is not public in the way a US venture-backed private-company cap table might be. The useful investment fact is not a clean ownership percentage; it is the financing ecosystem. Public reporting ties CXMT to Hefei's local-government semiconductor buildout, national semiconductor funds, and strategic backers/supporters in China's technology system. [[Zhu Yiming]], founder of [[GigaDevice]], is the key founder/operator figure linked to the project.
+
+Reported financial markers:
+
+| Item | Publicly reported status | Read-through |
+|---|---|---|
+| IPO target | Up to 300B yuan / ~$42B valuation; 20B-40B yuan proceeds target, with one source around 30B yuan | A public listing would turn China's DRAM self-reliance program into a tradeable mainland equity story. |
+| Advisers | [[CICC]] and CSC Financial reportedly hired for IPO preparation | Bank mandates suggest real process work, not only valuation rumor. |
+| Listing venue | Shanghai IPO plan reported; official SSE/CSRC project page not found in this pass | Keeps the capital-market channel domestic and policy-aligned, but the exact venue/status still needs prospectus confirmation. |
+| State support | CXMT founded with government backing; related Changxin Xinqiao financing reportedly raised 39B yuan / $5.4B from government-backed investors | CXMT is strategic infrastructure, not a purely commercial memory start-up. |
+| External strategic backers | [[Wall Street Journal]] reporting describes [[Xiaomi]] and [[Alibaba]] as part of the support network; confirmed customer status was not found in this pass | Backing/validation is not the same thing as shipped volume. |
+
+Not found in public sources checked: a reliable ownership-percentage cap table, current board list, complete investor roster, official Shanghai prospectus/project page, specific [[China semiconductor strategy|Big Fund]] amount allocated to CXMT, or quantified Hefei ownership/guarantee role.
+
+---
+
+## Product and manufacturing status
+
+CXMT is already relevant in conventional DRAM. Its official product positioning covers DDR5/DDR5 modules, DDR4/DDR4 modules, LPDDR5/5X, and LPDDR4X. Third-party reporting has identified CXMT DDR5 inside China-market consumer memory kits, including a Corsair Vengeance DDR5-6000 kit, and Chinese module vendors have reportedly used 24Gb CXMT DDR5 dies.
+
+The technical catch is that the volume-quality gap still matters. Public reporting points to a DUV-based G4 process around 16nm, DDR5 yields only modestly above 50% in 2025 reporting, and a DDR5 die roughly 40% larger than a Samsung comparable part. That means nameplate wafer starts overstate economic supply: CXMT can produce usable parts, but not with the cost/yield profile of [[Samsung]], [[SK Hynix]], or [[Micron]].
+
+| Area | Status | Constraint |
+|---|---|---|
+| DDR4 | Mature / shipping | Less strategically valuable as the industry migrates to DDR5 and HBM. |
+| DDR5 | shipping in China-market modules; DDR5-8000 and 16Gb/24Gb parts reported | Yield, die size, reliability, and customer qualification. |
+| LPDDR5/LPDDR5X | LPDDR5X-10667 shown publicly; hard mass-smartphone design win not found | Mobile validation is still more reported interest than confirmed broad adoption. |
+| Wafer capacity | 240K-280K WSPM late-2025 public-estimate range | Equipment access and domestic tool qualification. |
+| Shanghai | HBM packaging facility reported, not a confirmed front-end wafer fab | This helps the [[HBM]] roadmap but does not solve leading-edge DRAM process constraints. |
+
+---
+
+## Equipment and process bottleneck
+
+The US control line matters because CXMT's reported 16nm-class DRAM process sits near or inside restricted territory for advanced DRAM production tools and servicing. Without [[EUV lithography]], CXMT can still make useful DDR5 with DUV workarounds, but the path is less efficient: larger dies, more process complexity, lower yield, and higher cost per good bit.
+
+That is why the bullish and bearish cases can both be true. CXMT can add real domestic supply and still fail to break global memory pricing. China's domestic tool ecosystem, including [[Naura Technology]], [[AMEC]], and [[ACM Research]], can reduce dependence on foreign vendors over time, but this pass did not find public evidence that CXMT has already qualified a complete domestic replacement stack for advanced DRAM.
+
+---
+
+## [[HBM]] roadmap
+
+CXMT's HBM story should be treated as roadmap, not volume supply. The strategic reason it matters is obvious: if CXMT or a CXMT/YMTC domestic stack could supply HBM to [[Huawei]]-class AI accelerators, China would reduce one of the most effective US chokepoints in AI infrastructure. Public evidence is less advanced than the strategic narrative.
+
+| HBM item | Public evidence | Read-through |
+|---|---|---|
+| HBM2 | Reported production / early mass-production claims exist; customer qualification and volume shipment details not found | A capability marker, not a proven global supply event. |
+| HBM3 | [[Financial Times]] reporting describes sample testing and a target launch window; mass production not confirmed | This is the key watch item for China's AI hardware stack. |
+| HBM3E / HBM4 | Roadmap-level references; Korean leaders remain ahead | Years-behind does not mean irrelevant, but it does mean not a 2026 relief valve. |
+| HBM wafers | [[SemiAnalysis]] via Barron's flagged a possible 55K WSPM HBM allocation in 2027 and 100K in 2028 | If true, CXMT becomes strategically material before it becomes globally competitive. |
+| [[Advanced packaging]] | Reported Shanghai HBM packaging facility; YMTC-CXMT collaboration reported around stacking/packaging knowhow | This can move faster than front-end process parity. |
+
+---
+
+## Customers, validation, and buyer risk
+
+The strongest 2026 change is buyer validation. [[Apple]] is reportedly seeking US approval to use CXMT memory in China-sold iPhones. That is not the same thing as shipped Apple volume, but it changes the prior assumption that top-tier buyers would not touch CXMT. PC-channel reporting points the same way: [[HP]] and [[Dell]] reportedly began qualifying CXMT DRAM, HP for non-US markets, while Acer and Asus reportedly asked Chinese partners to source China-made memory. [[Corsair]]'s China-market DDR5 kit is a visible channel datapoint.
+
+The important distinction is validation versus permission. A buyer can conclude CXMT is technically usable and still face US policy, reputational, or future Entity List risk. Apple is the clean example: using CXMT only for China-sold iPhones would be a local-cost and local-supply hedge, not a global Apple supply-chain pivot.
+
+Named-customer status from this pass:
+
+| Buyer / channel | Status | Read-through |
+|---|---|---|
+| [[Apple]] | Reported approval request; shipped products not confirmed | Top-tier validation, but policy-gated. |
+| [[HP]] / [[Dell]] | Reported DRAM qualification; HP reportedly non-US only | PC OEMs are testing China-local optionality. |
+| Acer / Asus | Reported local-sourcing requests via Chinese partners; no actor notes linked here because no direct CXMT shipment was confirmed | The pressure is channel-wide, not Apple-only. |
+| [[Corsair]] | China-market DDR5 kit reportedly used CXMT die | Visible retail validation, limited geopolitical exposure. |
+| [[Huawei]] | HBM customer status not confirmed | Strategic target, not confirmed revenue. |
+| [[Xiaomi]] / [[Alibaba]] | Reported support/backing network; customer status not confirmed | Ecosystem support should not be read as DRAM procurement. |
 
 ---
 
 ## Samsung IP leak (Dec 2025)
 
-A Samsung engineer leaked 600+ process steps via handwritten notes — specific gas ratios, reactor pressures, photoresist parameters. Represents 5 years and 1.6T KRW of Samsung R&D.
-
-This gives CXMT the ability to calibrate directly using Samsung's PRP process roadmap, potentially accelerating yield improvement. Demonstrates that [[export controls]] can restrict hardware but not knowledge transfer.
+South Korean prosecutors alleged that former Samsung staff transferred DRAM process knowhow to CXMT, including process details that could shorten trial-and-error learning. The investment point is not only legal risk. It is that [[Export controls]] restrict tools more effectively than tacit knowledge. If process knowhow moves while equipment access remains blocked, CXMT can improve conventional DRAM faster than expected but still face a hard ceiling in advanced nodes and HBM.
 
 ---
 
-## Mobile DRAM breakthrough (Jan 2026)
+## US blacklist whipsaw and Apple supply-chain test (Feb-Jun 2026)
 
-First Chinese company to begin mass-producing advanced mobile DRAM for smartphones and mobile devices — a market previously dominated entirely by Samsung, SK Hynix, and Micron.
+The February [[Financial Times]] Lex read treated CXMT and [[YMTC]]'s removal from the US [[Pentagon]] Chinese Military Companies blacklist as a potential easing channel: easier knowhow transfer, cleaner vendor conversations, and possible non-Chinese buyer interest during the [[Memory squeeze thesis|AI-driven memory squeeze]].
 
----
+That easing did not settle the policy risk. By late June, [[Financial Times]] reporting described CXMT and [[YMTC]] as back on the Pentagon list while [[Apple]] was seeking US approval to use CXMT memory chips in China-sold iPhones. The 1260H list is not the same as the Commerce [[BIS]] Entity List, and this pass did not find a public Entity List designation for CXMT. But the practical read is still restrictive: buyers may want CXMT as a China-local cost and supply hedge, yet using it now requires political clearance rather than only procurement diligence.
 
-## EUV barrier
-
-As DRAM processes advance into the low 10nm range, [[ASML]] EUV lithography becomes essential. US restrictions make it impossible for CXMT to acquire EUV systems. This is the hard ceiling — domestic equipment cannot substitute for EUV at advanced nodes.
-
-**Potential CHIPS Act escalation:** US lawmakers (bipartisan) introduced a bill prohibiting CHIPS Act subsidy recipients from purchasing Chinese-made semiconductor equipment for 10 years — further isolating Chinese equipment ecosystem.
+For CXMT, the Apple angle is validation and constraint at the same time. It proves a top-tier handset maker is at least evaluating CXMT output, but also shows that US political classification can cap the addressable market even before technical yield and EUV constraints do.
 
 ---
 
-## HBM expansion (Feb 2026)
+## 2025 record revenue and share signal
 
-CXMT expanding into [[HBM|high-bandwidth memory]] to serve [[Huawei]]. Part of broader Chinese push to build domestic HBM supply chain outside US-controlled ecosystem. If successful, would break the [[SK Hynix]]/[[Samsung]]/[[Micron]] HBM oligopoly — but faces the same EUV and equipment barriers constraining DRAM expansion.
+CXMT's reported 2025 revenue surge and share gains validate the domestic-demand side of the story. Public reporting puts 2024 revenue above $3B, later reporting cites 2025 revenue around 55B yuan (~$8B), and [[SemiAnalysis]]/Barron's estimates frame CXMT as potentially moving from roughly 11% of global DRAM supply in 2025 toward 17% by 2028.
 
-*Source: FT Lex, Feb 25 2026*
-
----
-
-## Pentagon blacklist removal (Feb 2026)
-
-CXMT and [[YMTC]] removed from the US Pentagon's Chinese Military Companies blacklist (Feb 2026). This potentially makes it easier for CXMT to acquire knowhow and for non-Chinese buyers to source chips. Comes as consumer device makers face severe memory cost inflation from [[Memory squeeze thesis|the AI memory squeeze]].
-
-*Source: FT Lex, Feb 25 2026*
+The revenue surge validates the bull case: export controls are restricting advanced expansion, but domestic demand from AI, smartphones, PCs, and state-backed self-sufficiency is driving revenue growth on existing capacity. The question is whether growth comes from conventional DRAM inside China or from a real HBM step-change that affects the global AI hardware stack.
 
 ---
 
-## 2025 record revenue (CNBC, Apr 3)
+## Analysis
 
-CXMT posted 2025 revenue of 55B yuan (~$8B) — a 130% YoY increase, driven by AI demand and the domestic self-sufficiency drive fueled by US [[export controls]]. Among the highest growth rates of any chip firm globally.
+CXMT is not the company that ends the memory supercycle in 2026. It is the company that changes the shape of the risk. The old bear case for memory incumbents was simple: China floods commodity DRAM, prices collapse, and Samsung/SK Hynix/Micron lose oligopoly discipline. The current evidence says something narrower and more interesting. CXMT is good enough to attract Apple and PC OEM attention, large enough to matter inside China, and strategically important enough for [[Beijing]] to fund. But it is not yet efficient enough, trusted enough, or policy-clean enough to become a frictionless global substitute.
 
-Planning [[HBM|HBM3]] production in 2026, which would make CXMT the first Chinese company to produce high-bandwidth memory. IPO at ~$40B valuation (300B yuan) reportedly moving forward, with a $4.2B fundraising target.
+That makes CXMT a wedge supplier. It can relieve some China-local pressure, especially in PCs, modules, and potentially China-sold phones. It can give Apple and Chinese OEMs negotiating leverage against incumbents. It can accelerate China's AI-hardware localization if HBM sampling turns into qualified volume. But every step outward from domestic conventional DRAM runs into a different wall: customer qualification, 1260H reputational risk, possible Entity List escalation, advanced tool constraints, and HBM packaging/yield complexity.
 
-The revenue surge validates the bull case: export controls are restricting capacity expansion but domestic demand (AI, smartphones) is driving revenue growth on existing capacity. The question is whether the ~240K wafer/month ceiling can hold at this revenue trajectory.
-
-*Sources: CNBC (Apr 3, 2026), ainvest*
+The investment conclusion is therefore two-sided. For [[Memory shortage 2025-2026]], CXMT is a medium-term supply risk, not an immediate cycle breaker. For [[China semiconductor strategy]], it is one of the strongest pieces of evidence that state-directed capital can create real capability under sanctions. For US/Korea memory incumbents, the right question is not whether CXMT exists; it is whether CXMT can move from China-local conventional DRAM into qualified HBM fast enough to affect AI infrastructure pricing before 2028.
 
 ---
 
 ## Investment case
 
-**Bull:**
-- National champion status (state backing, Phase 3 IC fund)
-- Mobile DRAM milestone validates capability
-- Massive domestic market (China smartphones)
-- Samsung IP leak accelerates technology catch-up
-- $40B IPO valuation anchors future listing
-- Equipment localization could unlock 2027+ expansion
+### Bull
 
-**Bear:**
-- Equipment export controls create hard capacity ceiling
-- 42% yield gap vs Big Three — actual output far below nameplate
-- EUV barrier blocks advanced node progression
-- 2+ generations behind Samsung/SK Hynix
-- Further US restrictions likely (CHIPS Act equipment ban)
-- Not yet listed (illiquid)
+- National champion status with domestic demand, funding, and political urgency.
+- shipping DDR products and showing advanced DDR5/LPDDR5X capability despite export controls.
+- Apple/PC OEM validation makes CXMT more than a captive state project.
+- HBM roadmap, if qualified, would weaken a key US chokepoint on China AI accelerators.
+- Shanghai IPO would give China public markets a strategic-memory champion.
+
+### Bear
+
+- DUV-based process path implies larger dies, weaker yields, and higher cost per good bit.
+- No EUV and restricted advanced tooling cap the path to HBM3E/HBM4 parity.
+- 1260H status makes global buyers cautious even when Commerce Entity List status is not found.
+- Confirmed broad smartphone or hyperscaler customer wins were not found in this pass.
+- HBM claims remain roadmap/sampling-level, not proven volume supply.
+
+---
+
+## What to watch
+
+| Watch item | What changes the read |
+|---|---|
+| Apple approval outcome | Approval for China-sold iPhones would validate policy-gated use; rejection would reinforce CXMT as China-only supply. |
+| HBM3 qualification | Named customer qualification, especially [[Huawei]], would move CXMT from conventional DRAM challenger to AI-infrastructure bottleneck actor. |
+| Entity List status | A Commerce Entity List designation would materially raise buyer and equipment-service risk. |
+| Shanghai IPO filing details | Prospectus disclosure would fill the cap table, revenue, capacity, customer, and margin gaps. |
+| DDR5 / LPDDR5X design wins | Named phone/PC wins would show whether CXMT is moving beyond module-channel validation. |
+| Domestic tool qualification | Evidence that CXMT has qualified a domestic advanced DRAM tool stack would weaken the export-control ceiling. |
+
+---
+
+## Sources
+
+- CXMT official site: https://www.cxmt.com/en/
+- [[Financial Times]], Feb 25 and Jun 27 2026 reporting on memory squeeze, CXMT/YMTC, and Apple approval request.
+- The Verge, "Apple wants to buy RAM from a blacklisted Chinese company," Jun 27 2026: https://www.theverge.com/tech/958707/apple-ram-buy-memory-blacklisted-china-cxmt
+- Tom's Hardware, CXMT DDR5 / LPDDR5X / IPO / OEM qualification coverage, 2025-2026.
+- [[Wall Street Journal]], CXMT profile / China's memory challenger coverage.
+- [[South China Morning Post]] / [[Bloomberg]], CXMT IPO and Changxin Xinqiao financing reports, 2023 and 2026.
+- SemiAnalysis estimates via Barron's, Jun 25 2026.
 
 ---
 
 ## Related
 
 - [[Samsung]] — competitor, IP source (leaked process secrets)
-- [[SK Hynix]] — competitor
-- [[Micron]] — competitor
-- [[YMTC]] — peer (China NAND champion)
-- [[Export controls]] — primary constraint
+- [[SK Hynix]] — competitor and HBM leader
+- [[Micron]] — competitor and US memory champion
+- [[YMTC]] — China NAND peer and HBM packaging/stacking collaborator in reporting
+- [[Huawei]] — likely strategic target for domestic HBM supply
+- [[Apple]] — reported approval request for China-sold iPhone memory
+- [[HP]] — reported DRAM qualification
+- [[Dell]] — reported DRAM qualification
+- [[Corsair]] — reported China-market DDR5 module with CXMT die
+- [[Zhu Yiming]] — founder/operator link
+- [[GigaDevice]] — Zhu's earlier company
+- [[China semiconductor strategy|Big Fund]] — national semiconductor capital channel
+- [[Export controls]] — primary external constraint
+- [[BIS]] — Entity List authority
+- [[Pentagon]] — 1260H list authority
 - [[ASML]] — EUV lithography barrier
 - [[Applied Materials]] — restricted equipment supplier
 - [[Lam Research]] — restricted equipment supplier
-- [[HBM]] — next frontier CXMT cannot yet reach
+- [[Naura Technology]] — domestic equipment ecosystem
+- [[AMEC]] — domestic equipment ecosystem
+- [[ACM Research]] — domestic equipment ecosystem
+- [[HBM]] — next frontier CXMT cannot yet reach at volume
+- [[Memory shortage 2025-2026]] — cycle context
+- [[Memory squeeze thesis]] — consumer-memory read-through
+- [[China semiconductor strategy]] — state-capital context
 - [[Long memory]] — thesis context

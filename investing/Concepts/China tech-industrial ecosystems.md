@@ -38,7 +38,7 @@ The diagram maps 10 overlapping technology domains — drones, lidar, batteries,
 
 **Domain specialists:**
 - AI pure plays: [[DeepSeek]], [[01.AI]], Zhipu, [[Alibaba]], [[ByteDance]], [[Tencent]]
-- Semiconductors: [[SMIC]], [[YMTC]], CXMT
+- Semiconductors: [[SMIC]], [[YMTC]], [[ChangXin Memory]]
 - Humanoid robots: [[Unitree]], Zhiyuan, Fourier
 - EVs: [[XPeng]], [[NIO]], [[Geely]], Chery
 - Lidar: [[Hesai]]

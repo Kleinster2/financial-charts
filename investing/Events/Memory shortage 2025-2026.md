@@ -10,7 +10,7 @@ This is no longer a shortage — it's a structural reallocation of the world's m
 
 The core dynamic is irreversible on any near-term horizon: [[HBM]] for AI accelerators consumes 23% of DRAM wafer output (up from 19% in 2025) and is heading higher. Each [[NVIDIA]] NVL72 rack uses enough memory for 1,000 smartphones. [[Samsung]], [[SK Hynix]], and [[Micron]] are rationally prioritizing HBM at 50-60% operating margins over commodity DRAM — and Samsung is now pricing HBM4 at $700/unit, 30% above the prior generation. No manufacturer is rushing back to consumer DRAM despite high commodity prices, because hyperscaler contracts are more attractive.
 
-The victims are concrete and growing: IDC projects the worst smartphone decline ever (-12.9% in 2026), [[Sony]] is delaying PS6 to 2028-29, [[Xiaomi]] and Transsion have cut 115M units combined, and DRAM now accounts for 20-30% of smartphone bill of materials (up from 10%). [[Tesla]]'s Musk is talking about building his own memory fab. [[Cisco]] posted its worst share loss in four years. The "China will flood the market with cheap memory" counternarrative is dead — [[ChangXin Memory|CXMT]] can't compete without EUV and is pivoting to serve domestic AI demand instead.
+The victims are concrete and growing: IDC projects the worst smartphone decline ever (-12.9% in 2026), [[Sony]] is delaying PS6 to 2028-29, [[Xiaomi]] and Transsion have cut 115M units combined, and DRAM now accounts for 20-30% of smartphone bill of materials (up from 10%). [[Tesla]]'s Musk is talking about building his own memory fab. [[Cisco]] posted its worst share loss in four years. The "China will flood the market with cheap memory" counternarrative is still weak, but the sharper Jun 2026 read is not zero capability: [[ChangXin Memory|CXMT]] is validated enough for [[Apple]] to seek approval for China-sold iPhone memory, while EUV limits, yield/cost gaps, and 1260H policy risk keep it from becoming a clean global relief valve.
 
 The supercycle framing is now consensus: [[Micron]] calls it the "most significant supply-demand disconnect in 25 years," [[Bank of America]] invokes the 1990s boom, and new fabs take 2-3 years to build. Pricing power is confirmed at the premium end. The question is no longer *whether* the shortage persists but *how long* — and every indicator says through 2027 at minimum.
 
@@ -277,9 +277,9 @@ Why China can't be the cheap alternative:
 |-----------|--------|
 | No EUV access | CXMT DDR5 dies are 40-50% larger than SK Hynix — higher cost per chip |
 | DUV workarounds | SAQP, aggressive binning, higher voltages — works but doesn't scale |
-| No ecosystem trust | Apple, [[HP]], Dell won't buy unproven modules without extensive validation |
-| Regulatory walls | [[YMTC]] on Entity List (Dec 2022); CXMT flagged under Section 1260H |
-| Domestic demand absorbs supply | CXMT capacity serves China alone — no surplus for export |
+| Buyer validation still gated | [[Apple]] reportedly sought approval for China-sold iPhone CXMT memory; [[HP]] / [[Dell]] qualification has been reported, but shipped global volume is not confirmed |
+| Regulatory walls | [[YMTC]] on Entity List (Dec 2022); [[ChangXin Memory]] and YMTC again treated as [[Pentagon]] 1260H policy-risk names by Jun 2026 |
+| Domestic demand absorbs supply | CXMT capacity is most likely China-local relief first; exportable relief is limited by qualification, policy, and equipment constraints |
 
 Strategic pivot: CXMT moving from DDR4 → DDR5/LPDDR5X production. Not trying to win on price — trying to serve China's domestic AI/datacenter buildout.
 

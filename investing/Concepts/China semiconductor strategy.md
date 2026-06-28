@@ -11,7 +11,7 @@ tags: [concept, semiconductors, china, geopolitics]
 
 | Mode | Goal | Mechanism |
 |------|------|-----------|
-| **Defensive** | Self-reliant ecosystem | Domestic foundries ([[SMIC]]), memory (YMTC, CXMT), equipment ([[NAURA Technology]], AMEC) |
+| **Defensive** | Self-reliant ecosystem | Domestic foundries ([[SMIC]]), memory ([[YMTC]], [[ChangXin Memory]]), equipment ([[Naura Technology]], [[AMEC]]) |
 | **Offensive** | Global mature-node dominance | Flood market with mature-node capacity for EVs, renewables, consumer electronics |
 
 Full self-sufficiency in leading-edge by 2030 is **impossible**. But dominance in mature segments (28nm+) is achievable and strategically potent — these chips go into everything from cars to industrial equipment.
@@ -36,7 +36,7 @@ The National Integrated Circuit Industry Investment Fund — the financial engin
 
 | Phase | Period | Capital | Focus |
 |-------|--------|---------|-------|
-| I | 2014-2019 | **$21.8B** | Manufacturing scale. 60-70% to front-end wafer fab. [[SMIC]], YMTC, CXMT |
+| I | 2014-2019 | **$21.8B** | Manufacturing scale. 60-70% to front-end wafer fab. [[SMIC]], [[YMTC]], [[ChangXin Memory]] |
 | II | 2019-2024 | **$35B** | More targeted — equipment, materials, packaging. Conservative after Phase I failures |
 | III | 2024-2029 | **$47.5B** | Bottlenecks: equipment, advanced materials, [[HBM]]. Response to escalating US restrictions |
 | **Total** | | **>$95B** | + catalyzed multiples more in provincial/private investment |
@@ -61,9 +61,9 @@ Accounts for over half of the entire Asia-Pacific semiconductor market.
 | Company | Role | Status |
 |---------|------|--------|
 | [[SMIC]] | Foundry (leading domestic) | Several generations behind [[TSMC]] |
-| YMTC | NAND memory | Under US entity list restrictions |
-| CXMT | DRAM memory | Ramping domestic capacity |
-| [[NAURA Technology]] | Equipment (etch, deposition, thermal) | National champion, ~50% YoY growth |
+| [[YMTC]] | NAND memory | Under US Entity List restrictions and again a 1260H policy-risk name by Jun 2026 |
+| [[ChangXin Memory]] | DRAM memory | Ramping China-local capacity; validated by buyer interest but gated by 1260H/policy risk, equipment controls, and HBM qualification |
+| [[Naura Technology]] | Equipment (etch, deposition, thermal) | National champion, ~50% YoY growth |
 | AMEC | Equipment (etch) | Growing but still small vs global leaders |
 
 ---
@@ -85,7 +85,7 @@ US export controls create a short-term bonanza for companies like [[Lam Research
 - [[US-China tech race]] — the competitive framing
 - [[US-China decoupling]] — export controls, entity lists
 - [[SMIC]] — leading domestic foundry
-- [[NAURA Technology]] — domestic equipment champion
+- [[Naura Technology]] — domestic equipment champion
 - [[ASML]] — export-controlled EUV monopoly
 - [[Lam Research]] — 35% China revenue exposure
 - [[Semiconductor incentive programs]] — CHIPS Act and global parallels

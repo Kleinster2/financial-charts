@@ -69,7 +69,7 @@ FT Lex confirms the consumer squeeze is now hitting OEM margins:
 
 The thesis is strengthening: normal self-righting mechanisms (high margins attracting capacity reversion) are not operating because hyperscaler contracts are more attractive than consumer spot pricing.
 
-Geopolitical wrinkle: [[ChangXin Memory|CXMT]] and [[YMTC]] removed from US Pentagon blacklist (Feb 2026). Potentially easier for desperate consumer buyers to source from Chinese manufacturers — and for Chinese firms to acquire knowhow. May partially relieve consumer squeeze while strengthening Chinese memory capability.
+Geopolitical wrinkle updated Jun 2026: February briefly looked like a relief channel after [[ChangXin Memory|CXMT]] and [[YMTC]] were treated as removed from the US [[Pentagon]] blacklist. That read has reversed. CXMT and YMTC are again treated as 1260H policy-risk names, and [[Apple]] reportedly needs US approval to use CXMT memory in China-sold iPhones. China memory is validated enough to matter, but it is politically gated rather than a clean consumer-memory relief valve.
 
 *Source: FT Lex, Feb 25 2026*
 
@@ -149,7 +149,7 @@ All three benefit from AI demand. [[Micron]] is investing $24B in new Singapore 
 | AI demand slows | Medium | Would normalize prices |
 | New capacity online | Medium | 2028+ relief possible |
 | Current spot weakness | Medium | TrendForce shows soft spot demand, but IDC confirms OEM/contract pricing squeeze is severe |
-| China memory (CXMT) | Medium | Adds supply, breaks oligopoly |
+| China memory ([[ChangXin Memory]]) | Medium | Adds China-local supply and bargaining leverage, but 1260H/policy risk, EUV limits, and buyer-approval friction keep it from breaking the global oligopoly in 2026 |
 | Alternative architectures | Low | Could reduce memory needs |
 
 Key uncertainty: Feb 2026 spot market shows weak demand with suppliers lowering quotes. This may indicate the squeeze is not (yet) materializing in consumer markets, or reflects cyclical softness.

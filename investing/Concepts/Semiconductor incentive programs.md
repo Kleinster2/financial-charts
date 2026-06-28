@@ -109,7 +109,7 @@ See [[Argentina]] for context.
 | Phase II | $29B (2019) |
 | Phase III | $47B (2024) |
 | Focus | Self-sufficiency under [[Export controls]] |
-| Key targets | [[SMIC]], [[CXMT]], equipment |
+| Key targets | [[SMIC]], [[ChangXin Memory]], equipment |
 
 **Constraint**: Export controls limit what money can buy.
 

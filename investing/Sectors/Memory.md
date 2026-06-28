@@ -98,7 +98,7 @@ HBM (High Bandwidth Memory):
 | DRAM | Korea (75%+) | Moderate |
 | NAND | Korea + [[Japan]] | Moderate |
 | [[HBM]] | Korea (95%+) | High |
-| [[China]] ([[ChangXin Memory]], [[YMTC]]) | Domestic | Rising, [[Export controls]] limited |
+| [[China]] ([[ChangXin Memory]], [[YMTC]]) | Domestic / policy-gated | Rising China-local supply, but 1260H status, Entity List risk, and equipment controls limit global relief |
 
 ---
 
@@ -123,8 +123,8 @@ HBM (High Bandwidth Memory):
 - [[SanDisk]] — \#5 NAND, pure-play post-WDC spinoff
 
 ### [[China]] challengers
-- [[ChangXin Memory|CXMT]] — DRAM, catching up
-- [[YMTC]] — NAND, targeting 15% share by late 2026
+- [[ChangXin Memory|CXMT]] — DRAM, catching up; China-local relief but policy-gated for global buyers
+- [[YMTC]] — NAND, targeting share gains but constrained by Entity List / 1260H overhang
 
 ---
 

@@ -98,7 +98,7 @@ AAPL closed +2.0% on May 8 after [[Wall Street Journal]] reported Apple and Inte
 
 | Item | Detail |
 |------|--------|
-| Products in scope | Future [[M-series chips|M-class]] (Mac / iPad), production target 2027 |
+| Products in scope | Future [[M-series chips]] (Mac / iPad), production target 2027 |
 | iPhone scope | Possible inclusion in 2028 (per [[Jeff Pu]], Dec 2025) |
 | TSMC implications | TSMC retains primary leading-edge role; Apple gains dual-source optionality |
 | Trump's role | President [[Donald Trump]] personally advocated for Intel during White House meeting with [[Tim Cook]] |
@@ -195,7 +195,7 @@ Why Apple is insulated:
 - Top customer status — leverage with memory suppliers
 - Volume commitments secure supply + better pricing
 - Premium pricing absorbs cost increases
-- Unlike [[Dell]], [[HP Inc.]], [[Xiaomi]] — not a value player
+- Unlike [[Dell]], [[HP Inc]], [[Xiaomi]] — not a value player
 
 Contrast with peers:
 
@@ -204,7 +204,7 @@ Contrast with peers:
 | Apple   | "Managing costs well"                |
 | [[Dell]]    | "Never seen costs move at this rate" |
 | [[Lenovo]]  | Hoarding 50% extra inventory         |
-| [[HP Inc.]] | Warning of H2 2026 price hikes       |
+| [[HP Inc]] | Warning of H2 2026 price hikes       |
 | [[Xiaomi]]  | +25% DRAM cost per phone             |
 
 Apple's scale + premium positioning = memory shortage hedge.
@@ -494,7 +494,7 @@ Segment detail (March quarter records in iPhone, Services, Mac):
 
 Q3 (current quarter) revenue guide: +14% to +17% YoY vs ~9.5% Street consensus — well above. Capital return: board authorized an additional $100B share repurchase program (matching last year's authorization), and raised the quarterly dividend 4% to $0.27/share (record May 11, payable May 14). Apple is reportedly preparing its first corporate bond issuance since 2023 to help fund the buyback. AAPL closed +3.2% to $282.30 on May 1 (+2.7σ on a low-vol name).
 
-Tim Cook framing on the call emphasized iPhone strength in [[China]] and Services as a growth lever. The print extends the [[Apple#Nasdaq decoupling — the "anti-AI" trade (Feb 2026)|"anti-AI" framing]] from February — Apple keeps delivering hardware-led growth without the [[Hyperscaler capex|capex burden]] weighing on Big 4 hyperscaler EPS. CFO Kevan Parekh's continued "managing costs well" tone on memory cost flow-through reinforces the thesis that Apple's scale insulates it from the [[Memory shortage 2025-2026|DRAM crunch]] hitting [[Dell]]/[[HP Inc.]]/[[Lenovo]].
+Tim Cook framing on the call emphasized iPhone strength in [[China]] and Services as a growth lever. The print extends the [[Apple#Nasdaq decoupling — the "anti-AI" trade (Feb 2026)|"anti-AI" framing]] from February — Apple keeps delivering hardware-led growth without the [[Hyperscaler capex|capex burden]] weighing on Big 4 hyperscaler EPS. CFO Kevan Parekh's continued "managing costs well" tone on memory cost flow-through reinforces that Apple is better positioned than [[Dell]]/[[HP Inc]]/[[Lenovo]], but not fully insulated: the reported Jun 2026 push for US approval to use [[ChangXin Memory|CXMT]] memory in China-sold iPhones shows even Apple is exploring policy-gated China-local sourcing as a DRAM cost hedge.
 
 *Sources: [Apple Investor Relations release](https://www.apple.com/newsroom/2026/04/apple-reports-second-quarter-results/), [CNBC pre-print preview](https://www.cnbc.com/2026/04/30/apple-aapl-q2-2026-earnings-report.html), [Yahoo Finance recap](https://finance.yahoo.com/news/apple-stock-rises-after-q2-earnings-top-estimates-on-strong-iphone-china-sales-174442778.html), [GuruFocus Q2 summary](https://www.gurufocus.com/news/8838256/apple-reports-strong-q2-2026-results-stock-surges-aapl), [Alphastreet — $100B buyback recap](https://news.alphastreet.com/apple-aapl-posts-111-2b-quarter-as-services-hit-a-record-and-a-100b-buyback-resets-capital-return-expectations/), Apr 30-May 1 2026.*
 
@@ -577,7 +577,7 @@ Apple unveiled MacBook Neo, its cheapest laptop ever, targeting the [[Chromebook
 
 Available in blush, indigo, silver, and citrus. Body is 60% recycled aluminum by weight. Pre-orders open in 30 countries, shipping March 11.
 
-The timing is strategic: the [[Memory shortage 2025-2026|memory crunch]] is hitting Chromebook and Windows PC makers harder than Apple — rival OEMs are delaying refreshes or raising prices while Apple leverages its supply chain muscle to go lower. At $599 ($499 education), this undercuts most AI-capable laptops from [[Dell]], [[HP Inc.]], and [[Lenovo]], which are all dealing with DRAM cost spikes of 55-90% QoQ.
+The timing is strategic: the [[Memory shortage 2025-2026|memory crunch]] is hitting Chromebook and Windows PC makers harder than Apple — rival OEMs are delaying refreshes or raising prices while Apple leverages its supply chain muscle to go lower. At $599 ($499 education), this undercuts most AI-capable laptops from [[Dell]], [[HP Inc]], and [[Lenovo]], which are all dealing with DRAM cost spikes of 55-90% QoQ.
 
 The trade-off is clear: no MagSafe, no Touch ID on the base model, and an iPhone-derived chip rather than M-series. Apple is sacrificing margin to capture price-sensitive buyers who would otherwise default to [[Google]]'s Chromebook ecosystem or budget Windows machines.
 

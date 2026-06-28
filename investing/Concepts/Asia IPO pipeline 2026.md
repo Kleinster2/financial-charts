@@ -113,7 +113,7 @@ Chinese firms already listed in mainland seeking HK capital:
 ## Investment implications
 
 **Themes:**
-- [[China]] chip self-reliance (ChangXin, YMTC, Kunlunxin, Biren)
+- [[China]] chip self-reliance ([[ChangXin Memory]], [[YMTC]], Kunlunxin, Biren) with sanction / 1260H overhang on memory names
 - [[India]] digitization (Jio, PhonePe, Flipkart)
 - HK as bridge for [[China]] capital
 - Asian tech seeking US/global valuations
@@ -134,8 +134,8 @@ Chinese firms already listed in mainland seeking HK capital:
 - [[2026 IPO pipeline]] — global IPO context
 - [[Apple supply chain]] — supplier-map hub linking Lingyi and Luxshare to the Apple component cluster
 - [[US-China AI race]] — context (chip IPOs)
-- [[ChangXin Memory]] — [[China]] DRAM ($43B)
-- [[YMTC]] — [[China]] NAND ($43B)
+- [[ChangXin Memory]] — [[China]] DRAM (~$40B; 1260H overhang)
+- [[YMTC]] — [[China]] NAND ($40B+; Entity List / 1260H overhang)
 - [[Kunlunxin]] — [[Baidu]] chips ($3B+)
 - [[SK Hynix]] — NY listing exploration
 - [[Jio Platforms]] — [[India]] mega IPO

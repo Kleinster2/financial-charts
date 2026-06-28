@@ -299,7 +299,7 @@ The [[Starlink]] market is much colder. KXIPOSTARLINK priced a Starlink IPO befo
 ## [[Asia]] pipeline
 
 See [[Asia IPO pipeline 2026]] for detailed coverage:
-- [[China]] AI/Tech: ChangXin, [[YMTC]], [[Kunlunxin]], Biren, Syngenta
+- [[China]] AI/Tech: [[ChangXin Memory]], [[YMTC]], [[Kunlunxin]], Biren, Syngenta — memory listings carry 1260H / Entity List overhang even when demand is real
 - [[India]]: Jio, [[PhonePe]], Flipkart, [[Zepto]], NSE [[India]], SBI Funds
 - [[Japan]]: [[PayPay]], [[SmartNews]], 7-Eleven N.A. spinoff
 - Korea: Toss ($10-15B US listing)
@@ -315,7 +315,7 @@ See [[Asia IPO pipeline 2026]] for detailed coverage:
 | AI infrastructure | Databricks, Cerebras, Anthropic, OpenAI |
 | [[Space]] | SpaceX (largest ever) |
 | [[Fintech]] maturation | Revolut, PicPay, [[Klarna]] |
-| [[China]] self-reliance | Biren, [[Kunlunxin]], ChangXin, [[YMTC]] |
+| [[China]] self-reliance | Biren, [[Kunlunxin]], [[ChangXin Memory]], [[YMTC]] — strategic-memory listings with sanction / 1260H caveats |
 | [[India]] digitization | Jio, [[PhonePe]] |
 | LatAm reopening | PicPay (first [[Brazil]] IPO since [[Nubank]] 2021) |
 

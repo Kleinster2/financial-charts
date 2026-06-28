@@ -1,10 +1,38 @@
-#actor #memory #nand #china
+---
+aliases: [Yangtze Memory Technologies, Yangtze Memory Technologies Co.]
+tags:
+  - actor
+  - memory
+  - nand
+  - china
+---
 
-**YMTC (Yangtze Memory Technologies Co.)** — China's leading NAND flash manufacturer, under US export restrictions.
+**YMTC (Yangtze Memory Technologies Co.)** — [[China]]'s leading NAND flash manufacturer, based in Wuhan and backed by the state semiconductor ecosystem. It is the NAND-side counterpart to [[ChangXin Memory]]: strategically important for self-reliance, technically capable enough to matter, but constrained by the US Entity List, equipment controls, and renewed 1260H policy risk.
 
-## Core position
+YMTC is the proof that China can build a real domestic NAND champion, not just subsidize a symbolic one. The company reached competitive layer counts before US controls tightened, but its relevance for global buyers is capped by policy risk. For the memory-cycle thesis, YMTC is a China-local strategic supplier more than a clean global relief valve.
 
-China's national champion for memory independence. State-backed effort to break [[SK Hynix]]/[[Samsung]]/[[Micron]] oligopoly in NAND.
+## Quick stats
+
+| Metric | Value |
+|--------|-------|
+| HQ | Wuhan, [[China]] |
+| Product | NAND flash |
+| Status | Private, state-backed |
+| US policy status | Commerce Entity List since Dec 2022; again treated as a [[Pentagon]] 1260H policy-risk name by Jun 2026 |
+| Technology marker | 232-layer NAND achieved before controls tightened |
+| Production scale | Limited versus [[Samsung]], [[SK Hynix]], [[Kioxia]], and [[Micron]] |
+| IPO status | Mainland listing considered; $40B+ valuation framing in prior pipeline notes |
+| Equipment link | Customer of [[ACM Research]] wet-cleaning tools |
+
+---
+
+## Evolution
+
+| Period | What changed | Read-through |
+|---|---|---|
+| Pre-2022 | YMTC became China's leading NAND champion and reached competitive 128L/232L-class capability. | China proved it could produce a serious NAND challenger before the harshest US controls landed. |
+| Dec 2022 onward | US Commerce placed YMTC on the Entity List, restricting equipment, service, and US-origin technology access. | Growth became a tool-access and maintenance problem, not only a process-development problem. |
+| Feb-Jun 2026 | February appeared to ease Pentagon-list pressure, but by Jun 2026 YMTC and [[ChangXin Memory]] were again treated as 1260H policy-risk names. | Chinese memory may be validated domestically, but non-Chinese buyers still face policy and reputational friction. |
 
 ---
 
@@ -12,113 +40,60 @@ China's national champion for memory independence. State-backed effort to break 
 
 | Metric | YMTC | Industry leaders |
 |--------|------|------------------|
-| NAND layers | 232L (achieved) | 300L+ (SK Hynix, Samsung) |
+| NAND layers | 232L achieved | 300L+ roadmap / production leadership |
 | Production scale | Limited | Mass production |
-| Export restrictions | Severe (US Entity List) | None |
+| Export restrictions | Severe US Entity List constraints | None for Korean / US / Japanese incumbents |
 
-**Key challenge:** Equipment access blocked by US export controls. Cannot buy EUV, advanced deposition/etch tools from [[ASML]], [[Lam Research]], [[Applied Materials]], [[KLA]].
-
----
-
-## Export control impact
-
-**Entity List (Oct 2022):**
-- Cut off from US equipment suppliers
-- Cannot service existing tools
-- Forced to develop domestic alternatives
-
-**Workarounds:**
-- Stockpiled equipment pre-ban
-- Domestic tool development (lagging)
-- Some tools via third countries (enforcement tightening)
+Key challenge: equipment access is blocked or heavily constrained by US export controls. YMTC cannot freely buy or service advanced deposition, etch, metrology, and lithography tools from [[ASML]], [[Lam Research]], [[Applied Materials]], or [[KLA]].
 
 ---
 
-## Strategic significance
+## Export-control impact
 
-**For China:**
-- Memory is strategic commodity (data centers, AI, phones)
-- Dependency on Korea/US unacceptable
-- Willing to subsidize indefinitely
+Entity List status cut YMTC off from US equipment suppliers, constrained servicing of existing tools, and forced a heavier turn toward domestic alternatives. Workarounds include pre-ban tool stockpiles, domestic tool development, and possible third-country procurement channels, but enforcement pressure keeps rising.
 
-**For memory incumbents:**
-- YMTC was gaining share pre-ban (competitive 128L/232L)
-- Export controls bought time
-- But China won't stop trying
+The domestic tool ecosystem that matters for YMTC and CXMT includes [[Naura Technology]], [[AMEC]], and [[ACM Research]]. Domestic substitution is strategically important, but the vault should not treat it as complete until specific tool qualifications are public.
+
+---
+
+## Pentagon blacklist whipsaw (Feb-Jun 2026)
+
+February 2026 briefly looked like a policy-easing window after [[Financial Times]] Lex treated YMTC and [[ChangXin Memory]] as removed from the US [[Pentagon]] Chinese Military Companies blacklist. By Jun 2026, that easing read had reversed: CXMT and YMTC were again treated as 1260H policy-risk names, while [[Apple]] reportedly sought US approval to use CXMT memory in China-sold iPhones.
+
+For YMTC, the read-through is that Chinese NAND can be strategically useful inside China but remains politically radioactive for global consumer-electronics buyers. YMTC is already on the Commerce Entity List, so the 1260H whipsaw adds reputational and procurement friction rather than creating the main legal constraint.
+
+*Sources: [[Financial Times]] Lex, Feb 25 2026; [[Financial Times]] / The Verge, Jun 27 2026.*
 
 ---
 
 ## Competitive position
 
-| vs | Status |
-|----|--------|
-| [[Samsung]] | 2+ generations behind |
-| [[SK Hynix]] | 2+ generations behind |
-| [[Micron]] | 2+ generations behind |
-| [[CXMT]] (China DRAM) | Different market (DRAM vs NAND) |
+| Against | Status |
+|---|---|
+| [[Samsung]] | Behind in scale and advanced production continuity |
+| [[SK Hynix]] / Solidigm | Behind in scale and global customer access |
+| [[Micron]] | Behind in global buyer trust and policy cleanliness |
+| [[ChangXin Memory]] | Different memory lane: NAND versus DRAM / [[HBM]] roadmap |
 
 ---
 
 ## Key uncertainties
 
-- How long can they maintain existing equipment?
-- Domestic tool progress (SMEE, NAURA, [[AMEC]])
-- Will China prioritize DRAM ([[CXMT]]) over NAND?
-- Enforcement of third-country equipment flows
+- How long YMTC can maintain and expand existing equipment without unrestricted foreign service.
+- Whether domestic tools can close enough of the gap for sustained NAND layer migration.
+- Whether China prioritizes DRAM/[[HBM]] via [[ChangXin Memory]] over NAND via YMTC during the current AI-memory squeeze.
+- Whether 1260H and Entity List status prevent non-Chinese customers from treating YMTC as a practical relief source.
 
 ---
-
-## For theses
-
-- [[Export controls]] — primary target alongside [[Huawei]]
-- [[Long memory]] — YMTC constraints support pricing
-- [[China]] — national champion, unlimited state backing
-
----
-
-## IPO consideration (Jan 2026)
-
-**Mainland China IPO:**
-
-| Metric | Value |
-|--------|-------|
-| Valuation | **$40B+** |
-| Exchange | Mainland China (TBD) |
-| Status | Considering |
-
-Part of broader wave of Chinese chip IPOs seeking capital for self-reliance push.
-
----
-
-## Pentagon blacklist removal (Feb 2026)
-
-YMTC and [[ChangXin Memory|CXMT]] removed from the US Pentagon's Chinese Military Companies blacklist (Feb 2026). Potentially makes it easier for YMTC to acquire knowhow, and for desperate consumer buyers to source NAND from Chinese manufacturers during the [[Memory squeeze thesis|AI-driven memory squeeze]]. May accelerate YMTC's ability to prove competitiveness ahead of any future cycle turn.
-
-*Source: FT Lex, Feb 25 2026*
-
----
-
-## Financials
-
-| Metric | Value |
-|--------|-------|
-| Status | Private (state-backed) |
-| Revenue (est.) | $1-2B |
-| NAND capacity | ~100K wafers/month |
-| Layers | 232L achieved |
-| Backing | Tsinghua Unigroup, national funds |
-| Listed | No (IPO mulled at $40B+) |
-
-**Constrained growth:** Entity List status limits expansion and equipment access.
-
----
-
-*Created 2026-01-01*
 
 ## Related
 
-- [[Export controls]] — constraint (Entity List target)
-- [[Samsung]] — competitor (2+ generations ahead)
-- [[SK Hynix]] — competitor (2+ generations ahead)
-- [[Micron]] — competitor (2+ generations ahead)
-- [[CXMT]] — peer (China DRAM champion)
+- [[Yangtze Memory Technologies]] — thinner alias note / duplicate pointer
+- [[ChangXin Memory]] — China DRAM peer
+- [[Export controls]] — primary constraint
+- [[China semiconductor strategy]] — state-capital context
+- [[ACM Research]] — equipment supplier
+- [[Samsung]] — NAND competitor
+- [[SK Hynix]] — NAND competitor via Solidigm
+- [[Micron]] — NAND competitor
+- [[Long memory]] — thesis context
