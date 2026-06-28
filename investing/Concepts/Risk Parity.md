@@ -45,10 +45,17 @@ This doesn't invalidate the concept — it means the implementation needs to ada
 |-----|----------|---------|
 | RPAR | Risk parity — stocks, bonds, commodities, TIPS, gold | 0.50% |
 | UPAR | 1.5x levered RPAR | 0.65% |
-| ALLW | All-weather balanced allocation | Varies |
-| DBMF | Managed futures (trend-following complement) | 0.85% |
+| [[ALLW]] | All-weather balanced allocation | Varies |
+| [[DBMF]] | Managed futures (trend-following complement) | 0.85% |
 | KMLM | KFA Mount Lucas managed futures | 0.90% |
 | CTA | Managed futures | Varies |
+| NTSX | 90/60 capital-efficient (US equity + Treasuries) | 0.20% |
+| NTSI | 90/60 capital-efficient (intl developed) | 0.26% |
+| NTSE | 90/60 capital-efficient (emerging mkts) | 0.32% |
+| GDE | 90/90 equity + gold futures | 0.20% |
+| SWAN | Tail-hedged (Treasuries + S&P LEAP calls) | 0.49% |
+| TAIL | Tail risk (rolling S&P puts + Treasuries) | 0.59% |
+| AOR | 60/40 benchmark (iShares Core) | 0.15% |
 
 ## Key managers
 
@@ -57,7 +64,7 @@ This doesn't invalidate the concept — it means the implementation needs to ada
 | [[Bridgewater]] | All Weather / Pure Alpha | Largest risk parity manager (~$150B). [[Ray Dalio]] pioneered the approach |
 | [[AQR]] | Risk Parity fund | [[Cliff Asness]]. Academic rigor, factor-aware implementation |
 | PanAgora | Risk parity | Institutional-focused |
-| Wealthfront | Risk Parity sleeve | Retail robo-advisor implementation |
+| [[Wealthfront]] | Risk Parity sleeve | Retail robo-advisor implementation |
 
 ## Historical stress tests
 
@@ -77,6 +84,52 @@ The post-2020 correlation regime shift has forced risk parity practitioners to e
 - Reduced bond leverage vs. pre-2020 implementations
 
 The question isn't whether risk parity is dead — it's whether the implementation can adapt to a world where the bond hedge is unreliable.
+
+## Sleeve performance
+
+The full risk-parity sleeve universe — 13 ETFs across five strategy families — now lives in the financial-charts database, chartable from the hub for the first time. Grouped by what each sleeve actually bets on, normalized total return with dividends reinvested:
+
+### Managed futures vs equities
+
+![[rp-managed-futures-performance.png]]
+*[[DBMF]], CTA and KMLM (managed futures) vs [[SPY]] — normalized total return since Mar 2022.*
+
+| Sleeve | Strategy | Total return | CAGR | Since |
+|--------|----------|--------------|------|-------|
+| [[DBMF]] | Managed futures (SG CTA replication) | +32.8% | +6.8% | Mar 2022 |
+| CTA | Managed futures (Altis) | +31.2% | +6.5% | Mar 2022 |
+| KMLM | Trend following (Mount Lucas) | −3.9% | −0.9% | Mar 2022 |
+| [[SPY]] | S&P 500 benchmark | +86.1% | +15.5% | Mar 2022 |
+
+*Since CTA's 2022 inception. The point of this chart is what it does not show — correlation to equities. Managed futures trailed a roaring S&P by 50–90pp, but that lag is the price of the hedge: in the 2022 drawdown these sat above SPY (crisis alpha), which is exactly why risk parity bolts them on. DBMF and CTA delivered ~6.5% CAGR with low equity beta; pure-trend KMLM round-tripped to flat. Diversifiers, not return engines — judged on when they pay, not how much.*
+
+### Capital-efficient (return-stacking)
+
+![[rp-capital-efficient-performance.png]]
+*NTSX/NTSI/NTSE (90/60 return-stacking) and GDE (equity + gold) vs [[SPY]] — normalized total return since Mar 2022.*
+
+| Sleeve | Structure | Total return | CAGR | Since |
+|--------|-----------|--------------|------|-------|
+| GDE | 90% equity + 90% gold futures | +169.7% | +26.1% | Mar 2022 |
+| NTSE | 90/60 emerging markets | +67.8% | +12.9% | Mar 2022 |
+| NTSX | 90/60 US (S&P + Treasuries) | +54.4% | +10.7% | Mar 2022 |
+| NTSI | 90/60 international developed | +44.6% | +9.0% | Mar 2022 |
+| [[SPY]] | S&P 500 benchmark | +75.7% | +14.1% | Mar 2022 |
+
+*Since GDE's 2022 inception. Capital-efficient funds stack bonds or gold on top of full equity exposure via futures — NTSX is 90% stocks plus 60% Treasuries, 150% notional per dollar. The 2022 rate shock punished the bond overlay, so US NTSX actually trailed plain SPY: the sleeve meant to diversify instead dragged. GDE is the outlier — equity plus levered gold rode gold's 2024–26 run to +170%, a reminder that the efficient wrapper only helps when the stacked asset works.*
+
+### Tail risk / defensive
+
+![[rp-tail-defensive-performance.png]]
+*SWAN and TAIL (tail-hedged) vs [[SPY]] — normalized total return since Nov 2018.*
+
+| Sleeve | Structure | Total return | CAGR | Since |
+|--------|-----------|--------------|------|-------|
+| SWAN | 90% [[Treasuries]] + 10% S&P LEAP calls | +66.2% | +6.9% | Nov 2018 |
+| TAIL | Treasuries + rolling S&P puts | −38.8% | −6.2% | Nov 2018 |
+| [[SPY]] | S&P 500 benchmark | +197.9% | +15.4% | Nov 2018 |
+
+*Since SWAN's 2018 inception — the clearest "insurance has a cost" picture in the set. TAIL buys put protection and bleeds premium every quarter equities don't crash: down 39% over 7.5 years, its only green spikes at the 2020 and 2025 selloffs. SWAN's asymmetric build — Treasuries plus call options rather than puts — captured roughly a third of SPY's return with far shallower drawdowns. Both are hedges; TAIL is convexity you rent outright, SWAN is convexity partly funded by carry.*
 
 ## Who thinks about this
 

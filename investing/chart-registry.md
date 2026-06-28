@@ -5,6 +5,21 @@ charts:
     normalize: true
     start: 2024-01-01
     primary: AAPL
+  rp-managed-futures-performance.png:
+    tickers: DBMF,KMLM,CTA,SPY
+    normalize: true
+    start: 2022-03-08
+    primary: DBMF
+  rp-capital-efficient-performance.png:
+    tickers: NTSX,NTSI,NTSE,GDE,SPY
+    normalize: true
+    start: 2022-03-17
+    primary: NTSX
+  rp-tail-defensive-performance.png:
+    tickers: SWAN,TAIL,SPY
+    normalize: true
+    start: 2018-11-06
+    primary: SWAN
   ishares-allocation-ladder-performance.png:
     tickers: AOA,AOR,AOM,AOK
     normalize: true
