@@ -34,8 +34,9 @@ This doesn't invalidate the concept — it means the implementation needs to ada
 
 | Framework | What it does |
 |-----------|-------------|
-| Equal Risk Contribution (ERC) | Each asset contributes equally to portfolio variance |
-| Hierarchical Risk Parity (HRP) | Uses clustering to avoid unstable covariance matrix inversion |
+| [[Risk Budgeting]] | Allocate by each asset's risk contribution, not its capital weight |
+| [[Equal Risk Contribution]] | Each asset contributes equally to portfolio variance — the equal-budget case |
+| [[Hierarchical Risk Parity]] | Clustering-based allocation that avoids unstable covariance-matrix inversion |
 | All Weather | [[Ray Dalio]]'s implementation — balances across economic environments (growth/inflation × rising/falling) |
 | Volatility targeting | Scales total exposure to maintain constant portfolio vol |
 
@@ -169,6 +170,8 @@ Full research lives in the dedicated Risk Parity vault (`C:\Users\klein\obsidian
 - [[Ray Dalio]] — invented All Weather
 - [[Analysts and Strategists]] — macro thinkers on correlation regimes
 - [[iShares Core Asset Allocation ETFs]] — the capital-weighted, unlevered allocation ladder this strategy is measured against
+- [[Risk Budgeting]] — the allocate-by-risk frame; [[Equal Risk Contribution]] is its equal-budget core
+- [[Hierarchical Risk Parity]] — robust clustering-based construction; reuses the vault's cluster-validation machinery
 
 ### Cross-vault
 - [Risk Parity vault](obsidian://open?vault=Risk%20Parity&file=Home) — full research vault: theory, backtests, fund tracking (RPAR/UPAR/ALLW), regime analysis
