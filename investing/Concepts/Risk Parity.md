@@ -37,8 +37,8 @@ This doesn't invalidate the concept — it means the implementation needs to ada
 | [[Risk Budgeting]] | Allocate by each asset's risk contribution, not its capital weight |
 | [[Equal Risk Contribution]] | Each asset contributes equally to portfolio variance — the equal-budget case |
 | [[Hierarchical Risk Parity]] | Clustering-based allocation that avoids unstable covariance-matrix inversion |
-| All Weather | [[Ray Dalio]]'s implementation — balances across economic environments (growth/inflation × rising/falling) |
-| Volatility targeting | Scales total exposure to maintain constant portfolio vol |
+| All Weather | [[Ray Dalio]]'s implementation — equal risk across the four [[Economic Environment Framework]] quadrants (growth × inflation) |
+| [[Volatility Targeting]] | Scales total exposure to maintain constant portfolio vol |
 
 ## Vehicles tracked
 
@@ -172,6 +172,9 @@ Full research lives in the dedicated Risk Parity vault (`C:\Users\klein\obsidian
 - [[iShares Core Asset Allocation ETFs]] — the capital-weighted, unlevered allocation ladder this strategy is measured against
 - [[Risk Budgeting]] — the allocate-by-risk frame; [[Equal Risk Contribution]] is its equal-budget core
 - [[Hierarchical Risk Parity]] — robust clustering-based construction; reuses the vault's cluster-validation machinery
+- [[Economic Environment Framework]] — the growth×inflation quadrants risk parity is built to span
+- [[Diversification vs Correlation]] — why position count isn't diversification; the effective-number-of-bets metric
+- [[Volatility Targeting]] — time-series risk scaling, the complement to cross-sectional ERC
 
 ### Cross-vault
 - [Risk Parity vault](obsidian://open?vault=Risk%20Parity&file=Home) — full research vault: theory, backtests, fund tracking (RPAR/UPAR/ALLW), regime analysis
