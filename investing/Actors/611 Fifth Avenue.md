@@ -74,9 +74,9 @@ Why this matters: Amazon invested at HoldCo II level, expecting consent rights w
 
 | Component | Owner | Notes |
 |-----------|-------|-------|
-| Ground/land | [[Saks Global]] / HBC (via Flagship PropCo) | Mortgaged in 2014 |
-| 1924 building | [[Saks Global]] / HBC (via Flagship PropCo) | Retail operations |
-| 1990 tower | [[623 Fifth Avenue]] (separate) | [[Cohen Brothers Realty]], being sold to [[Vornado]] |
+| Ground/land | [[Exemplar Luxury Group]] / HBC (via Flagship PropCo) | Mortgaged in 2014 |
+| 1924 building | [[Exemplar Luxury Group]] / HBC (via Flagship PropCo) | Retail operations |
+| 1990 tower | [[623 Fifth Avenue]] (separate) | [[Cohen Brothers Realty]], being sold to [[Vornado Realty Trust]] |
 
 ### 2014 mortgage
 
@@ -85,7 +85,7 @@ HBC originated (not assumed) a $1.25B mortgage in November 2014:
 | Term | Value |
 |------|-------|
 | Amount | $1.25B |
-| Collateral | Ground + [[ground lease]] only (NOT the building) |
+| Collateral | Ground + [[Ground lease]] only (NOT the building) |
 | Term | 20-year, interest-only |
 | Rate | Fixed, <4.40% |
 | Lenders | BofA, [[Morgan Stanley]], [[Goldman Sachs]], [[Bank of Nova Scotia]] |
@@ -132,18 +132,34 @@ The building became the central asset in the January 2026 bankruptcy:
 
 Key insight: In distress, the real estate was the leverage — not brand equity, not tech partnerships, not digital scale.
 
+### Emergence resolution (June 26, 2026)
+
+The flagship was **not liquidated**. It survived the [[Saks bankruptcy emergence 2026|Chapter 11 emergence]] as ongoing collateral under renamed parent [[Exemplar Luxury Group]]. The $1.75B DIP lien was replaced by $500M exit financing. The store remained open throughout — never appeared on any closure list across the four restructuring waves (Jan 29 / Feb 10 / Mar 6 / Dallas NMG Sep 30).
+
+Post-emergence position:
+- The $3.6B 2024 appraisal means the flagship alone is worth ~2.9x ELG's entire ~$1.25B post-emergence debt load
+- ELG established a formal real-estate arm, Saks Global Properties & Investments, as one of four business units — signaling the real estate remains a managed asset, not an operating afterthought
+- The 2014 $1.25B ground lease mortgage (20-year, interest-only, <4.40%) would typically survive the restructuring; it runs until ~2034
+- The [[Retail real estate as hidden value]] thesis is preserved but locked — the building backs the restructured company's debt rather than being monetized via sale
+
+Contrast with Beverly Hills: ELG (pre-filing, Dec 23, 2025) sold the 184,000 sq ft [[Neiman Marcus]] Beverly Hills flagship to Ashkenazy Acquisition Corp to raise capital. The Manhattan flagship was retained; the Beverly Hills flagship was not. The difference: the Manhattan building is both the operational Saks flagship and a $3.6B collateral anchor; Beverly Hills was a monetizable non-core asset.
+
 ---
 
 ## Related
 
-- [[Saks Global]] — current operator
+- [[Exemplar Luxury Group]] — current operator (renamed from [[Saks Global]])
+- [[Saks Global]] — prior parent name
+- [[Saks bankruptcy emergence 2026]] — June 2026 exit, flagship survived
 - [[623 Fifth Avenue]] — connected tower (separate ownership)
 - [[Richard Baker]] — owner, architect of real estate strategy
+- [[Geoffroy van Raemdonck]] — current CEO
 - [[Fifth Avenue luxury corridor]] — location context
 - [[Saks bankruptcy]] — flagship as DIP collateral
-- [[Retail real estate as hidden value]] — case study
+- [[Retail real estate as hidden value]] — case study (preserved, not liquidated)
 - [[Ground lease]] — the mortgage structure
 - [[Cohen Brothers Realty]] — tower owner
 - [[Vornado Realty Trust]] — acquiring tower
+- [[Ashkenazy Acquisition Corp]] — bought Beverly Hills NMG flagship (contrast case; stub candidate)
 
-*Created 2026-01-18*
+*Updated 2026-06-28 (emergence resolution: flagship survived, not liquidated)*
