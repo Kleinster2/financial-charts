@@ -119,12 +119,17 @@ Same as `/newsletter`: analytical, structural, tensions not market reads, exact 
 
 ## Scheduling
 
-Designed to run on a cron schedule via `CronCreate`:
-- Typical default: weekdays at ~6:45 AM ET (before US pre-market) — but any cadence works
-- Uses `durable: true` so it survives session restarts
-- Fires when Claude Code REPL is idle
+Two ways to run on a schedule; pick by whether it must fire while Claude is closed.
 
-If Claude Code isn't running when the cron fires, the scan doesn't happen that interval. The user can always run `/daily-scan` manually at any time.
+Unattended (recommended) — an OS scheduler launches its own headless Claude, so it does not depend on a REPL being open:
+- Invocation: `claude -p "/daily-scan …" --permission-mode bypassPermissions --disallowedTools "Bash(git commit:*)" "Bash(git push:*)"`, run from the repo root with stdin redirected from null. `bypassPermissions` is mandatory (`-p` has no TTY to answer a permission prompt, so an unauthorized tool call dead-ends the run) but it also green-lights `git push`; the `--disallowedTools` deny-list stops the agent from committing or pushing the working tree on its own (deny overrides bypass).
+- Run synchronously: a `-p` session is never re-woken by a background-task notification the way the interactive REPL is, so the prompt must forbid `run_in_background` and require the briefing be written before exit. Otherwise the agent backgrounds the slow market-data update and exits early with no scan produced.
+- This repo's installed instance: a Windows Task Scheduler job (`FinancialCharts-Daily-Scan`) runs `scripts/daily_scan_task.bat` on weekdays at 7:15 AM ET — after RP Holdings Import (7:05) so Phase 0's `import_rp_holdings.py` ingests same-day holdings.
+- Runs only where Claude's auth and the `python` toolchain resolve. On Windows that is an interactive logon session (same constraint as the RP Holdings tasks): no run on a locked, logged-off, or sleeping machine.
+
+In-session (lighter, fragile) — schedule with `CronCreate` and `durable: true`. It fires only while the Claude Code REPL is open and idle; if Claude is not running when the cron fires, that interval is skipped. Use only if you keep Claude open at the scheduled time.
+
+Manual — run `/daily-scan` any time; the framing adapts to pre-market, intraday, or after the close.
 
 ## Failure modes
 
