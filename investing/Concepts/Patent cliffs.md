@@ -4,6 +4,12 @@ Patent cliffs — The sudden loss of sales exclusivity on a blockbuster drug. St
 
 ---
 
+## The aggregate cliff (2025-2030)
+
+Roughly $300B+ of branded pharma revenue loses patent exclusivity between 2025 and 2030 — about one-sixth of the industry's annual revenue, and as high as $400B on some trackers. The US market alone accounts for ~$230B. Nearly 200 drugs go off-patent in the window, including ~70 blockbusters earning over $1B/year each; and because a branded drug can lose up to 80% of its revenue within the first year of generic or [[Biosimilars|biosimilar]] entry, the drop is steep where it lands. This aggregate is the structural driver behind the industry-wide M&A appetite documented below — the cohort of forced buyers and the size of the revenue holes they must fill are both fixed by this clock.
+
+---
+
 ## The mechanics
 
 US drug patents typically last 20 years from filing (not from commercial launch). Effective exclusivity is usually 8-14 years. When a key patent expires, generic or biosimilar competitors can enter, often collapsing prices 70-90% for small molecules.
@@ -97,6 +103,8 @@ Challenge: Unlike AbbVie (one drug to replace) or Merck (one cliff), BMS faces m
 
 The read-through: J&J already absorbed the cliff faster than feared (Q1 2026 printed +9.9% headline revenue and a raised full-year guide), and is layering in next-gen targeted-oncology modalities to extend the runway. Modest deal sizes vs a ~$500B cap mean these are pipeline-optionality bets, not balance-sheet events.
 
+Beyond the STELARA-specific oncology bolt-ons, J&J's largest recent deal was the $14.6B all-cash acquisition of [[Intra-Cellular Therapies]] ($132/share; announced Jan 2025, closed Apr 2025) — a neuroscience play centered on Caplyta (lumateperone) for schizophrenia and bipolar depression, with a major-depressive-disorder adjunct label expansion filed. It was the largest biopharma acquisition since [[Novo Nordisk]]'s $16.5B Catalent buyout (Feb 2024), and shows the cash-deployment response to cliffs running across therapeutic areas, not only the franchise under direct biosimilar pressure.
+
 ---
 
 ## Pre-cliff M&A as a playbook
@@ -110,7 +118,7 @@ Acquisition sprees ahead of patent expirations are not occasional — they are t
 | [[AbbVie]] | Humira (2023) | [[Allergan]] $63B (2020); ImmunoGen $10.1B, Cerevel $8.7B (2024) | Aesthetics, ADC, neuro |
 | [[Bristol-Myers Squibb]] | Revlimid/Opdivo/Eliquis | Celgene $74B (2019); Karuna $14B, Mirati $4.8B, RayzeBio $4.1B (2023-24) | Neuro, oncology, radiopharma |
 | [[Amgen]] | mature biologics | Horizon Therapeutics $27.8B (2023) | Rare disease / inflammation |
-| [[Johnson & Johnson]] | STELARA (2025-26) | [[Halda Therapeutics]] $3.05B (2025); [[Firefly Bio]] $1B (2026) | Targeted oncology ([[RIPTAC]], DAC) |
+| [[Johnson & Johnson]] | STELARA (2025-26) | [[Intra-Cellular Therapies]] $14.6B (2025); [[Halda Therapeutics]] $3.05B (2025); [[Firefly Bio]] $1B (2026) | Neuro (Caplyta) + targeted oncology ([[RIPTAC]], DAC) |
 
 The crowding tell: three of the largest recent deals — Pfizer/Seagen, Merck/Daiichi, [[Johnson & Johnson]]/[[Firefly Bio]] — are all [[Antibody-drug conjugate]] / next-gen conjugate plays. The post-cliff oncology toolkit is being bid up by multiple cash-rich buyers at once, which inflates prices and raises the bar for any single deal to pay off.
 
@@ -181,5 +189,8 @@ The behavioral counterweight: much of the waiting is procrastination, not optimi
 - Barron's (Jack Hough), Jan 23 2026
 - [BioPharma Dive — J&J/Firefly Bio (June 2026)](https://www.biopharmadive.com/news/jnj-firefly-acquisition-deal-cancer-degrader-antibody-conjugate/822223/)
 - [NJBIZ — J&J/Halda ($3.05B, Dec 2025)](https://njbiz.com/jj-halda-therapeutics-acquisition/)
+- [Drug Discovery News — the 2026 patent cliff](https://www.drugdiscoverynews.com/blockbuster-drugs-face-a-massive-patent-cliff-in-2026-17019)
+- [GEN — Top 20 drugs heading for the patent cliff, 2026-2029](https://www.genengnews.com/topics/drug-discovery/top-20-drugs-heading-for-the-patent-cliff-2026-2029/)
+- [BioSpace — J&J/Intra-Cellular Therapies $14.6B](https://www.biospace.com/business/johnson-johnson-makes-major-neuro-play-with-14-6b-intra-cellular-buyout)
 
-*Created 2026-01-23*
+*Created 2026-01-23; updated 2026-06-29*

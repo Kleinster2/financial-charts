@@ -4,6 +4,8 @@
 
 Tracking major mergers and acquisitions relevant to portfolio.
 
+No chart data available for this tracker — it aggregates cross-sector deals; price action lives in each acquirer/target's actor note.
+
 ---
 
 ## Pending deals (2026)
@@ -21,6 +23,7 @@ Tracking major mergers and acquisitions relevant to portfolio.
 |------|----------|--------|-------|--------|
 | Dec 2025 | [[NVIDIA]] | [[Groq]] | $20B | AI chips |
 | Oct 2025 | [[Broadcom]] | VMware | $69B | Software |
+| Apr 2025 | [[Johnson & Johnson]] | [[Intra-Cellular Therapies]] | $14.6B | Pharma |
 | Aug 2024 | [[Home Depot]] | SRS Distribution | $18B | Retail |
 | Dec 2023 | [[Pfizer]] | Seagen | $43B | Pharma |
 | Oct 2023 | [[Exxon]] | Pioneer | $60B | Energy |
@@ -77,13 +80,13 @@ See [[Boutique advisory consolidation]] for the structural pattern. Listed bouti
 
 **JPMorgan M&A head (Jan 2026):** Record year expected. $5.1T in deals in 2025 (2nd best ever). CEOs seeking scale amid geopolitical risk.
 
-**Hot sectors:**
+Hot sectors:
 - Pharma (patent cliffs driving consolidation)
 - AI infrastructure
 - Energy transition
 - Financial services
 
-**Deal drivers:**
+Deal drivers:
 - Private equity dry powder ($1T+)
 - Corporate balance sheets strong
 - Rate cuts improving financing
@@ -101,6 +104,7 @@ See [[Boutique advisory consolidation]] for the structural pattern. Listed bouti
 | [[Pfizer]] | Eliquis/Ibrance | 2026-27 | High (post-Seagen) |
 | [[AbbVie]] | Humira | 2023 (hit) | Rebuilding |
 | [[Bristol-Myers]] | Opdivo | 2028 | Active |
+| [[Johnson & Johnson]] | STELARA | 2025-26 | Active ([[Intra-Cellular Therapies]] $14.6B; Halda; Firefly) |
 
 ---
 
@@ -113,7 +117,7 @@ See [[Boutique advisory consolidation]] for the structural pattern. Listed bouti
 | [[NVIDIA]] | Run:AI | — | Kubernetes orchestration |
 | [[NVIDIA]] | Mellanox | $7B (2020) | Networking |
 
-**Pattern:** NVIDIA buying infrastructure competitors depend on.
+Pattern: NVIDIA buying infrastructure competitors depend on.
 
 ---
 
@@ -128,7 +132,13 @@ See [[Boutique advisory consolidation]] for the structural pattern. Listed bouti
 
 ---
 
-*Updated 2026-01-17*
+*Updated 2026-06-29*
+
+---
+
+## Sources
+
+- [BioSpace — J&J / Intra-Cellular Therapies $14.6B (Apr 2025)](https://www.biospace.com/business/johnson-johnson-makes-major-neuro-play-with-14-6b-intra-cellular-buyout)
 
 ---
 

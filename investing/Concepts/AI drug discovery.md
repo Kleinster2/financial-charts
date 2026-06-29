@@ -5,17 +5,19 @@ aliases: [AI in biopharma, AI-designed drugs, AI pharma, TechBio]
 
 **AI drug discovery** — AI transforming pharma R&D. $1.4B market. First AI drug (Rentosertib) in Phase 2. 67 AI candidates in clinic.
 
+No chart data available for this landscape — it spans many private and public names; price action lives in each company's actor note ([[Recursion]], [[Tempus]], Schrödinger).
+
 ---
 
 ## Market overview
 
 | Metric | Value |
 |--------|-------|
-| Market size (2025) | **$1.9B** |
+| Market size (2025) | $1.9B |
 | Projected (2034) | $16.5B |
 | CAGR | 27% |
 | AI deals (2025) | 120 (23% of all since 2017) |
-| Drugs in clinic | **67** (vs 3 in 2016) |
+| Drugs in clinic | 67 (vs 3 in 2016) |
 
 ---
 
@@ -23,7 +25,7 @@ aliases: [AI in biopharma, AI-designed drugs, AI pharma, TechBio]
 
 | Metric | Traditional | AI-enabled |
 |--------|-------------|------------|
-| Phase 1 success rate | ~40% | **80-90%** |
+| Phase 1 success rate | ~40% | 80-90% |
 | Timeline reduction | — | 25-50% shorter |
 | Cost reduction | $2.6B avg | Significant savings |
 | [[Target]] identification | Years | Months |
@@ -38,17 +40,17 @@ aliases: [AI in biopharma, AI-designed drugs, AI pharma, TechBio]
 |--------|-------|
 | [[Target]] | TNIK inhibitor |
 | Indication | Idiopathic pulmonary fibrosis (IPF) |
-| Status | **Phase 2a completed** |
+| Status | Phase 2a completed |
 | Result | Met primary endpoint, dose-dependent FVC improvement |
 | Significance | First AI-discovered drug to show Phase 2 efficacy |
 
-**Nature Medicine (May 2025):** First clinical proof-of-concept for AI drug discovery.
+Nature Medicine (May 2025): First clinical proof-of-concept for AI drug discovery.
 
 ### Other AI candidates
 
 | Drug | Company | Status |
 |------|---------|--------|
-| Zasocitinib (TAK-279) | Nimbus/Takeda | **Phase 3** |
+| Zasocitinib (TAK-279) | Nimbus/Takeda | Phase 3 |
 | REC-994 | Recursion | Discontinued (May 2025) |
 | Isomorphic candidates | Isomorphic Labs | Entering trials |
 
@@ -70,11 +72,26 @@ aliases: [AI in biopharma, AI-designed drugs, AI pharma, TechBio]
 
 | Deal | Partners | Value |
 |------|----------|-------|
-| [[Isomorphic Labs]] | [[Novartis]] + Lilly | **$3B** |
+| [[Isomorphic Labs]] | [[Novartis]] + [[Eli Lilly]] | $3B |
 | [[Insilico Medicine]] | [[Sanofi]] | $1.2B |
 | Monte Rosa | [[Novartis]] | $5.76B (Sep 2025) |
 | Recursion | [[Roche]]-Genentech | Multi-program |
 | Recursion | Bayer | Oncology |
+| Formation Bio | [[Sanofi]] (gusacitinib, Ph3) | ~$630M+ (2025) |
+| Formation Bio | [[Eli Lilly]] (2nd program) | ~$2B (2025) |
+| [[Insitro]] | [[Eli Lilly]] (metabolic) | Catalyze 360 (2024) |
+| [[Insitro]] | [[Bristol-Myers Squibb]] (ChemML/ALS) | up to >$2B milestones |
+
+---
+
+## AI infrastructure & platform plays (2025)
+
+Incumbents are not only acquiring AI biotechs but standing up their own discovery supercompute and licensing it outward — a hedge against the "small biotech with the better algorithm" disruption.
+
+| Initiative | Detail |
+|---|---|
+| [[Eli Lilly]] + [[NVIDIA]] Co-Innovation AI Lab | ~$1B San Francisco lab (Oct 2025); pharma's most powerful owned supercomputer — 1,016 Blackwell Ultra GPUs, >9,000 petaflops; online ~Jan 2026 |
+| Lilly TuneLab | Federated AI/ML discovery platform opening Lilly models (built on ~$1B of proprietary data) to biotech partners |
 
 ---
 
@@ -109,7 +126,7 @@ aliases: [AI in biopharma, AI-designed drugs, AI pharma, TechBio]
 | PathAI | AIM-NASH | FDA-qualified MASH assessment |
 | Owkin | MOSAIC | Tumor microenvironment |
 
-**FDA first:** AIM-NASH qualified Dec 2025 for MASH clinical trials.
+FDA first: AIM-NASH qualified Dec 2025 for MASH clinical trials.
 
 ---
 
@@ -137,13 +154,13 @@ aliases: [AI in biopharma, AI-designed drugs, AI pharma, TechBio]
 
 ## Investment case
 
-**Bull:**
+Bull:
 - 80-90% Phase 1 success vs 40%
 - Timeline/cost reduction
 - Platform deals validating technology
 - First Phase 2 success (Rentosertib)
 
-**Bear:**
+Bear:
 - No approved drug yet
 - REC-994 failure shows limits
 - Hype cycle risk
@@ -167,5 +184,9 @@ aliases: [AI in biopharma, AI-designed drugs, AI pharma, TechBio]
 - [Nature Medicine: Rentosertib Phase 2](https://www.nature.com/articles/s41591-025-03743-2)
 - [FDA: First AI drug tool](https://www.fda.gov/drugs/drug-safety-and-availability/fda-qualifies-first-ai-drug-development-tool-will-be-used-mash-clinical-trials)
 - [McKinsey: Biopharma AI](https://www.mckinsey.com/industries/life-sciences/our-insights/)
+- [BioSpace — Sanofi / Formation Bio (gusacitinib)](https://www.biospace.com/drug-development/in-latest-ai-play-sanofi-bets-630m-for-formation-bios-jak-syk-blocker)
+- [BioPharma Dive — Lilly / Insitro (metabolic)](https://www.biopharmadive.com/news/lilly-insitro-metabolic-drug-discovery-ai/729347/)
+- [insitro — BMS ChemML / ALS collaboration](https://www.insitro.com/news/insitro-extends-research-collaboration-with-bristol-myers-squibb-leveraging-insitros-chemml-discovery-platform/)
+- [Eli Lilly — NVIDIA AI supercomputer & TuneLab (Oct 2025)](https://investor.lilly.com/news-releases/news-release-details/lilly-partners-nvidia-build-industrys-most-powerful-ai)
 
-*Created 2026-01-09*
+*Created 2026-01-09; updated 2026-06-29*
