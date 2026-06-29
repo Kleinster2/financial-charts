@@ -8,23 +8,27 @@ REM Runs only when user 'klein' is logged on: the daily-scan skill shells out to
 REM `python` (Microsoft Store alias) and claude.exe reads user-scoped auth/config
 REM under C:\Users\klein\.claude -- both need an interactive logon session.
 REM
-REM Headless flags:
-REM   -p                      print mode (non-interactive, single conversation).
-REM   bypassPermissions       no TTY to answer a permission prompt, so every tool
-REM                           must be pre-authorized or the run dead-ends.
-REM   --disallowedTools git*  GIT GUARD. bypassPermissions would otherwise let the
-REM                           agent commit and push the working tree to main on its
-REM                           own (it did, once). Deny rules override bypass, so the
-REM                           scan can read git for context but never publishes.
-REM   < nul                   skip the stdin wait (no pipe feeding the process).
+REM TWO-STAGE DESIGN (learned from a hung headless run, 2026-06-29):
+REM   Stage 1 -- pre-warm. Run the slow market-data update + sigma screen SYNCHRONOUSLY
+REM     here as plain python. This is deterministic and needs no agent. Doing it in the
+REM     wrapper is the whole point: when the agent owned this step it backgrounded
+REM     update_market_data.py and then hung forever polling for the result, because a
+REM     -p print session is never re-woken by a background-task notification.
+REM   Stage 2 -- agent. Invoke headless Claude with --skip-update so it does NOT re-run
+REM     the slow update; it reads fresh data and goes straight to the news / earnings /
+REM     analyst / briefing phases, synchronously.
 REM
-REM Prompt forces a SYNCHRONOUS single pass: a -p session is never re-woken by a
-REM background-task notification the way the interactive REPL is, so if the agent
-REM backgrounds the slow market-data update it exits before producing the briefing.
-REM The instruction forbids run_in_background and requires the briefing be written
-REM before exit. The briefing text is captured in the log; the durable copy is the
-REM daily note (investing/Daily/YYYY-MM-DD.md).
+REM Guards on the agent call:
+REM   bypassPermissions       no TTY to answer a permission prompt (pre-authorize all).
+REM   --disallowedTools git*  deny commit/push (deny overrides bypass) so the unattended
+REM                           run never publishes; it leaves changes uncommitted for review.
+REM   < nul                   skip the stdin wait.
+REM The briefing text is captured in the log; the durable copy is the daily note.
 cd /d C:\Users\klein\financial-charts
 echo ==== %DATE% %TIME% ==== >> "%LOCALAPPDATA%\daily_scan_task.log"
-"C:\Users\klein\.local\bin\claude.exe" -p "/daily-scan -- Run this start-to-finish in ONE headless pass. Execute every step synchronously and wait for each to finish; do NOT use run_in_background for the market-data update or any other step (a non-interactive -p session cannot resume on a background-task notification). Do not commit or push to git; leave changes uncommitted for review. Finish only after the full briefing has been written to today's daily note." --permission-mode bypassPermissions --disallowedTools "Bash(git commit:*)" "Bash(git push:*)" < nul >> "%LOCALAPPDATA%\daily_scan_task.log" 2>&1
+echo ---- stage 1: pre-warm daily_scan.py (synchronous data update + movers) ---- >> "%LOCALAPPDATA%\daily_scan_task.log"
+python scripts\daily_scan.py --output "%LOCALAPPDATA%\daily_scan.json" >> "%LOCALAPPDATA%\daily_scan_task.log" 2>&1
+echo pre-warm exit: %ERRORLEVEL% >> "%LOCALAPPDATA%\daily_scan_task.log"
+echo ---- stage 2: headless agent (--skip-update, synchronous) ---- >> "%LOCALAPPDATA%\daily_scan_task.log"
+"C:\Users\klein\.local\bin\claude.exe" -p "/daily-scan -- Market data was already refreshed by this wrapper before you started, so do NOT run the full market-data update again: when you run daily_scan.py, pass --skip-update. Never use run_in_background for any step; run everything synchronously and wait inline. Do not commit or push to git. Finish only after the briefing has been written to today's daily note." --permission-mode bypassPermissions --disallowedTools "Bash(git commit:*)" "Bash(git push:*)" < nul >> "%LOCALAPPDATA%\daily_scan_task.log" 2>&1
 echo exit code: %ERRORLEVEL% >> "%LOCALAPPDATA%\daily_scan_task.log"
