@@ -178,6 +178,7 @@ Full research lives in the dedicated Risk Parity vault (`C:\Users\klein\obsidian
 - [[Trend following]] — the crisis-alpha complement; the strategy the managed-futures sleeves run
 - [[Mean-variance optimization]] — the return-forecast-dependent optimizer risk parity reacts against
 - [[Factor investing]] — diversify across factors vs across asset-class risk
+- [[Risk parity literature]] — the five foundational papers (Qian, Maillard, Asness, Roncalli, López de Prado)
 
 ### Cross-vault
 - [Risk Parity vault](obsidian://open?vault=Risk%20Parity&file=Home) — full research vault: theory, backtests, fund tracking (RPAR/UPAR/ALLW), regime analysis

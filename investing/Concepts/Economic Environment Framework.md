@@ -33,7 +33,7 @@ Each asset has a growth beta and an inflation beta; that pair places it in the g
 |-------|--------------------|-----------------------|
 | Equities | ++ | + |
 | Nominal bonds | − | −− |
-| TIPS | neutral | ++ |
+| [[TIPS]] | neutral | ++ |
 | [[Commodities]] | + | ++ |
 | Gold | neutral | + |
 | Credit | ++ | − |
