@@ -6,6 +6,11 @@
 
 ---
 
+## Synthesis
+
+The 2020 Neiman bankruptcy is the debt prequel to [[Saks bankruptcy]]: the LBO structure was reduced but not fully cured, and the leftover leverage became part of the Saks-Neiman combination that failed in 2026. [[Geoffroy van Raemdonck]] is the through-line across both restructurings, first as Neiman CEO and then as the retained CEO of Exemplar Luxury Group.
+
+---
 ## What happened
 
 | Detail | Value |
@@ -16,7 +21,7 @@
 | Prior owners | [[Ares Management]], [[Canada]] Pension Plan |
 | Emerged | September 2020 |
 
-**First major US retailer to file bankruptcy during COVID pandemic.**
+First major US retailer to file bankruptcy during COVID pandemic.
 
 ---
 
@@ -27,7 +32,7 @@
 | [[Ares Management]] | ~50% | 2013 LBO |
 | [[Canada]] Pension Plan | ~50% | 2013 LBO |
 
-**2013 LBO:** $6B deal loaded company with debt.
+2013 LBO: $6B deal loaded company with debt.
 
 ---
 
@@ -38,7 +43,7 @@
 | Debt | ~$5B | ~$1B (reduced) |
 | Ownership | Ares/CPPIB | Creditors |
 
-**Key terms:**
+Key terms:
 - Creditors took ownership
 - Debt reduced but not eliminated
 - Emerged as "leaner" company
@@ -48,12 +53,12 @@
 
 ## Why it matters
 
-**Set up the Saks disaster:**
+Set up the Saks disaster:
 - Neiman emerged with restructured but still significant debt
 - When [[Saks-Neiman merger]] happened (2024), Saks assumed this legacy
 - Combined debt load proved fatal → [[Saks bankruptcy]]
 
-**The lesson:** Emerging from bankruptcy doesn't mean debt-free. Neiman's "fresh start" still carried ~$2.8B that became [[Saks Global]]'s burden.
+The lesson: Emerging from bankruptcy doesn't mean debt-free. Neiman's "fresh start" still carried ~$2.8B that became [[Saks Global]]'s burden.
 
 ---
 
@@ -64,7 +69,7 @@
 | [[Neiman Marcus]] | Debtor |
 | [[Ares Management]] | Prior owner (PE) |
 | [[Canada]] Pension Plan | Prior owner |
-| Geoffroy van Raemdonck | CEO (guided through bankruptcy) |
+| [[Geoffroy van Raemdonck]] | CEO (guided through bankruptcy) |
 
 ---
 

@@ -114,7 +114,7 @@ Thesis: Owned flagships become strategic assets, not operating expenses. Control
 
 The bull case is intact but not proven yet (FT, Jan 28, 2026):
 
-| Signal | Detail |
+| Signal / read-through | Detail |
 |--------|--------|
 | H2 vs H1 | LVMH +1% organic (H2) vs -3% (H1) — less bad |
 | Asia ex-Japan | +1% in Q4 — first positive quarter |
@@ -141,7 +141,7 @@ Source: [[Reuters]], [GRAPHIC-Iran war splits global markets into clear winners 
 ## Current dynamics (2025-2026)
 
 | Theme | Impact |
-|-------|--------|
+|-------|-------|
 | Aspirational vs ultra-high-net-worth | Bifurcation — top-end resilient, aspirational weak |
 | China stabilizing | Decline slowing, not yet growing |
 | Jewelry outperforming fashion | Store of value > discretionary |
@@ -149,6 +149,7 @@ Source: [[Reuters]], [GRAPHIC-Iran war splits global markets into clear winners 
 | Owned real estate | Balance sheet strategy, Fifth Ave buying spree |
 | Japan strength | Weak yen driving tourism spend |
 | Margin focus | Cost discipline while waiting for recovery |
+| US luxury department store consolidation | [[Exemplar Luxury Group]] (formerly [[Saks Global]]) emerged from Chapter 11 Jun 26, 2026 — 49 stores, ~75% debt cut, Saks/Neiman/Bergdorf brands retained |
 
 ---
 

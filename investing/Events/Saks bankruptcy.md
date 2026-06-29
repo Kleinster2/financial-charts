@@ -2,10 +2,15 @@
 
 # Saks Bankruptcy
 
-**January 14, 2026** — [[Saks Global]] filed Chapter 11 bankruptcy, crushed by $5B debt from [[Saks-Neiman merger]]. [[Amazon]]'s $475M equity stake wiped out.
+**January 14, 2026** — [[Saks Global]] filed Chapter 11 bankruptcy, crushed by $5B debt from [[Saks-Neiman merger]]. [[Amazon]]'s $475M equity stake wiped out. Case closed June 26, 2026 with the company emerging as [[Exemplar Luxury Group]] — see [[Saks bankruptcy emergence 2026]].
 
 ---
 
+## Synthesis
+
+The January 2026 filing was the failure of the Baker-era leverage stack: Saks-Neiman combined strategic logic with too much debt, then pledged the Fifth Avenue flagship to keep the case alive. The June 2026 emergence closes that loop: the brands survived, [[Amazon]] equity was wiped, creditors own the reorganized company, and the renamed [[Exemplar Luxury Group]] gets a cleaner balance sheet to test luxury department-store viability.
+
+---
 ## What happened
 
 | Detail | Value |
@@ -14,7 +19,7 @@
 | Case number | 9:26-bk-90108 |
 | Court | U.S. Bankruptcy Court, S.D. Texas (Houston) |
 | Chapter | Chapter 11 |
-| Total debt | **$5B** |
+| Total debt | $5B |
 | DIP financing | $1.75B |
 | Stores | 148 |
 | Employees | 16,830 |
@@ -22,26 +27,26 @@
 
 *Source: [[Stretto]] [case docket](https://cases.stretto.com/Saks/)*
 
-**Timeline:**
-- Late Dec 2025: Missed **$100M interest payment**
+Timeline:
+- Late Dec 2025: Missed $100M interest payment
 - Jan 1, 2026: Reports of bankruptcy preparation
-- Jan 14, 2026: Chapter 11 filed (113 entities) — **$275M Neiman-related debt maturing Feb 2026**
+- Jan 14, 2026: Chapter 11 filed (113 entities) — $275M Neiman-related debt maturing Feb 2026
 - Jan 15, 2026: Won $400M cash access after 7.5-hour court battle
 
 ---
 
 ## How we got here
 
-**The dealmaker:** [[Richard Baker]], a real estate investor, built Saks through acquisitions — betting department stores' real estate was worth more than their stock prices. He acquired Saks Fifth Avenue (2013), took HBC private (2020), then made his biggest bet.
+The dealmaker: [[Richard Baker]], a real estate investor, built Saks through acquisitions — betting department stores' real estate was worth more than their stock prices. He acquired Saks Fifth Avenue (2013), took HBC private (2020), then made his biggest bet.
 
-**The fatal merger:** In late 2024, Baker orchestrated Saks's $2.7B acquisition of [[Neiman Marcus]], creating "Saks Global." The thesis: consolidate luxury department stores to survive an industry in structural decline. [[Amazon]] invested $475M for a minority stake, lending credibility.
+The fatal merger: In late 2024, Baker orchestrated Saks's $2.7B acquisition of [[Neiman Marcus]], creating "Saks Global." The thesis: consolidate luxury department stores to survive an industry in structural decline. [[Amazon]] invested $475M for a minority stake, lending credibility.
 
-**The debt trap:** The deal loaded $5B in obligations:
+The debt trap: The deal loaded $5B in obligations:
 - $2.2B new junk bonds to fund the acquisition
 - ~$2.8B legacy debt Neiman carried from its 2013 LBO and [[Neiman Marcus bankruptcy 2020|2020 bankruptcy]]
 - Interest costs jumped from $234M to ~$400M annually (+70%)
 
-**Why it failed:**
+Why it failed:
 - Synergies didn't materialize quickly enough to offset interest burden
 - Rising rates made the debt more expensive
 - [[Luxury]] sales softened in 2025
@@ -53,15 +58,15 @@
 
 | Date | Event | Amount | Detail |
 |------|-------|--------|--------|
-| **Nov 2014** | [[Ground lease]] mortgage | $1.25B | 20-year, interest-only on [[611 Fifth Avenue]] ground |
-| **Mar 2020** | HBC privatization | $1.1B | Baker took company private at $11/share |
-| **Aug 2024** | Flagship refinancing | $600M | Used [[611 Fifth Avenue]] as collateral — **without [[Amazon]] consent** |
-| **Dec 2024** | Neiman acquisition bonds | $2.2B | 11% senior secured notes, due 2029 |
-| **Aug 2025** | Debt exchange | $600M | Bondholders swapped $2.2B bonds for lower principal; provided $300M new loan |
-| **Dec 2025** | Missed interest payment | $100M | Triggered default |
-| **Jan 2026** | Chapter 11 / [[DIP financing]] | $1.75B | Flagship pledged as collateral |
+| Nov 2014 | [[Ground lease]] mortgage | $1.25B | 20-year, interest-only on [[611 Fifth Avenue]] ground |
+| Mar 2020 | HBC privatization | $1.1B | Baker took company private at $11/share |
+| Aug 2024 | Flagship refinancing | $600M | Used [[611 Fifth Avenue]] as collateral — without [[Amazon]] consent |
+| Dec 2024 | Neiman acquisition bonds | $2.2B | 11% senior secured notes, due 2029 |
+| Aug 2025 | Debt exchange | $600M | Bondholders swapped $2.2B bonds for lower principal; provided $300M new loan |
+| Dec 2025 | Missed interest payment | $100M | Triggered default |
+| Jan 2026 | Chapter 11 / [[DIP financing]] | $1.75B | Flagship pledged as collateral |
 
-**The August 2025 exchange:** With bonds trading at ~30 cents on dollar, Saks convinced 98% of bondholders to swap their $2.2B in 11% notes for securities with **lower principal** in exchange for $200M new financing. This bought 5 months — not enough.
+The August 2025 exchange: With bonds trading at ~30 cents on dollar, Saks convinced 98% of bondholders to swap their $2.2B in 11% notes for securities with lower principal in exchange for $200M new financing. This bought 5 months — not enough.
 
 ### Bond tranches
 
@@ -69,12 +74,12 @@ The August 2025 debt exchange converted the original $2.2B bonds into a tiered s
 
 | Tranche | Amount | Issued | Priority |
 |---------|--------|--------|----------|
-| **SPV Notes (SGUS)** | ~$762M | Jun/Aug 2025 | Senior |
-| **2O Notes (Second Out)** | ~$1.4B | Aug 2025 exchange | Second |
-| **3O Notes (Third Out)** | ~$441M | Aug 2025 exchange | Third |
-| **Old Notes (not exchanged)** | ~$51M | Dec 2024 (Neiman deal) | Junior to 2O/3O |
+| SPV Notes (SGUS) | ~$762M | Jun/Aug 2025 | Senior |
+| 2O Notes (Second Out) | ~$1.4B | Aug 2025 exchange | Second |
+| 3O Notes (Third Out) | ~$441M | Aug 2025 exchange | Third |
+| Old Notes (not exchanged) | ~$51M | Dec 2024 (Neiman deal) | Junior to 2O/3O |
 
-**Total bond debt:** ~$2.65B
+Total bond debt: ~$2.65B
 
 Bondholders who participated in the exchange traded face value for seniority — getting a mix of SPV, 2O, and 3O notes.
 
@@ -85,9 +90,9 @@ Bondholders who participated in the exchange traded face value for seniority —
 
 | Tranche | Jul 2025 | Nov 2025 | Jan 2026 |
 |---------|----------|----------|----------|
-| **SGUS** (senior) | ~95 cents | ~95 cents | ~25 cents |
-| **2O Notes** | ~35 cents | ~40 cents | <5 cents |
-| **3O Notes** | ~25 cents | ~25 cents | <5 cents |
+| SGUS (senior) | ~95 cents | ~95 cents | ~25 cents |
+| 2O Notes | ~35 cents | ~40 cents | <5 cents |
+| 3O Notes | ~25 cents | ~25 cents | <5 cents |
 
 The gray zone marks November 2025 — when the death spiral accelerated. Bondholders who bought at 40 cents months earlier now face recoveries of less than a penny.
 
@@ -105,7 +110,7 @@ Couldn't pay vendors
                 → Couldn't pay vendors
 ```
 
-**Mark Weinsten (CRO, court filing):** [[Saks-Neiman merger]] led to "immediate liquidity challenges" and "unsustainable" capital structure.
+Mark Weinsten (CRO, court filing): [[Saks-Neiman merger]] led to "immediate liquidity challenges" and "unsustainable" capital structure.
 
 ---
 
@@ -144,7 +149,7 @@ Backed by inventory, real estate, credit card portfolios.
 | Summer 2025 financing | — | ~10 cents | Senior tranche, still impaired |
 | Other bondholders | — | <1 cent | Bought at 40 cents months ago |
 
-**Total luxury vendor claims:** $225M ([[Chanel]], [[Kering]], [[LVMH]])
+Total luxury vendor claims: $225M ([[Chanel]], [[Kering]], [[LVMH]])
 
 ### Other unsecured
 
@@ -164,7 +169,7 @@ Backed by inventory, real estate, credit card portfolios.
 | Current value | "Presumptively worthless" |
 | Platform | "Saks on Amazon" (never launched) |
 | Commercial agreement | $900M guaranteed over 8 years |
-| Amazon's claim | Saks **breached** agreement to sell on Amazon platform |
+| Amazon's claim | Saks breached agreement to sell on Amazon platform |
 | Response | Demanding examiner or trustee |
 
 Amazon claimed Saks breached their agreement to sell products on Amazon's platform — the deal included launching "Saks on Amazon" and guaranteed at least $900M in payments over 8 years. Now cancelled.
@@ -180,18 +185,18 @@ The $3.6 billion Fifth Avenue flagship became the central battleground of the ba
 | Detail | Value |
 |--------|-------|
 | Property | 611 Fifth Ave, Manhattan |
-| 2024 appraisal | **$3.6B** |
+| 2024 appraisal | $3.6B |
 | 2014 appraisal | $3.7B |
 | 2019 appraisal | $1.6B |
 | 2013 HBC acquisition | $2.9B (entire Saks chain) |
 
-The flagship alone is now worth **more than HBC paid for all of Saks** in 2013. In 2014, Baker took out a $1.25B, 20-year mortgage on the ground beneath the store, calling it "potentially the single most valuable retail building in the world."
+The flagship alone is now worth more than HBC paid for all of Saks in 2013. In 2014, Baker took out a $1.25B, 20-year mortgage on the ground beneath the store, calling it "potentially the single most valuable retail building in the world."
 
 ### Amazon's consent rights
 
-When Amazon invested $475M in 2024, the LLC agreement gave them **consent rights over new financing**. Amazon explicitly stated: "does not consent to any financing that encumbers HoldCo II or Flagship."
+When Amazon invested $475M in 2024, the LLC agreement gave them consent rights over new financing. Amazon explicitly stated: "does not consent to any financing that encumbers HoldCo II or Flagship."
 
-**The corporate structure:**
+The corporate structure:
 ```
 Saks Global Holdings LLC (parent debtor)
     └── Saks Fifth Avenue HoldCo LLC ("HoldCo II") ← Amazon invested here
@@ -199,77 +204,84 @@ Saks Global Holdings LLC (parent debtor)
                     └── Owns 611 Fifth Avenue
 ```
 
-Amazon invested at HoldCo II, which wholly owns the flagship. But HoldCo II is **member-managed with no independent directors** — decisions roll up to Saks management. Amazon argued HoldCo II had "no material expenses" and didn't need the DIP, and offered separate financing. Rejected.
+Amazon invested at HoldCo II, which wholly owns the flagship. But HoldCo II is member-managed with no independent directors — decisions roll up to Saks management. Amazon argued HoldCo II had "no material expenses" and didn't need the DIP, and offered separate financing. Rejected.
 
-**August 2024 refinancing:** Saks raised $600M from bondholders using the flagship as collateral — **without Amazon's consent**. Amazon objected but was overruled.
+August 2024 refinancing: Saks raised $600M from bondholders using the flagship as collateral — without Amazon's consent. Amazon objected but was overruled.
 
 ### The DIP collateral dispute
 
-When Saks needed $1.75B DIP financing to survive Chapter 11, they pledged the flagship as collateral. This **subordinated Amazon behind bondholders** in the repayment line.
+When Saks needed $1.75B DIP financing to survive Chapter 11, they pledged the flagship as collateral. This subordinated Amazon behind bondholders in the repayment line.
 
-**Amazon's argument:** The flagship value was already pledged to guarantee Amazon's interests under the LLC agreement. Using it for DIP financing "would violate Amazon's consent rights" and "inflict significant harm."
+Amazon's argument: The flagship value was already pledged to guarantee Amazon's interests under the LLC agreement. Using it for DIP financing "would violate Amazon's consent rights" and "inflict significant harm."
 
-**Saks's argument:** Without ability to borrow against the flagship, there would be no DIP financing — liquidation was the only alternative.
+Saks's argument: Without ability to borrow against the flagship, there would be no DIP financing — liquidation was the only alternative.
 
-**Amazon's counterproposal:** Immediate liquidation of the flagship would be "more beneficial" to creditors than the DIP structure.
+Amazon's counterproposal: Immediate liquidation of the flagship would be "more beneficial" to creditors than the DIP structure.
 
 ### The ruling
 
-**Judge Alfredo Perez** (Houston bankruptcy court) approved **initial $400M** in cash access after a 7.5-hour marathon hearing on Jan 15, 2026. Key reasoning: the money would give Saks a chance to stabilize and restructure; without it, liquidation was imminent.
+Judge Alfredo Perez (Houston bankruptcy court) approved initial $400M in cash access after a 7.5-hour marathon hearing on Jan 15, 2026. Key reasoning: the money would give Saks a chance to stabilize and restructure; without it, liquidation was imminent.
 
-**Next step:** Saks must return to court in coming weeks for **final approval** of the full $1.75B financing package.
+Next step: Saks must return to court in coming weeks for final approval of the full $1.75B financing package.
 
-**CRO Mark Weinstein:** Saks would be "dead in the water" without the financing. The company had $30-35M in bills due that day alone.
+CRO Mark Weinstein: Saks would be "dead in the water" without the financing. The company had $30-35M in bills due that day alone.
 
-**What it reveals:** In luxury retail, real estate — not digital scale or brand equity — remains the ultimate leverage. Amazon's $475M tech/partnership bet was wiped out, while the 1924 limestone building retained its value.
+What it reveals: In luxury retail, real estate — not digital scale or brand equity — remains the ultimate leverage. Amazon's $475M tech/partnership bet was wiped out, while the 1924 limestone building retained its value.
 
 ---
 
 ## Restructuring
 
-**New leadership (Jan 14):**
+New leadership (Jan 14):
 
 | Role | Name | Background |
 |------|------|------------|
-| CEO | Geoffroy van Raemdonck | Ex-[[Neiman Marcus]] CEO |
+| CEO | [[Geoffroy van Raemdonck]] | Ex-[[Neiman Marcus]] CEO |
 | President/CCO | Darcy Penick | Ex-Bergdorf president |
 
 [[Richard Baker]] replaced as CEO.
 
-**Financing:**
+Financing:
 
 | Type | Amount |
 |------|--------|
 | DIP (operations) | $1B |
 | Exit financing | $500M |
-| **Total** | **$1.75B** |
+| Total | $1.75B |
 
-**Potential outcomes:**
+Potential outcomes:
 - Creditors swap debt for equity
 - Bergdorf Goodman sale (attracting buyers)
 - Store closures in mid-size cities
 - Amazon equity wiped
 
-**Meeting of Creditors:** Feb 23, 2026
+Meeting of Creditors: Feb 23, 2026
+
+Resolution (Jun 26, 2026): Emerged as [[Exemplar Luxury Group]] — debt cut ~75%, $500M exit financing closed, core footprint reset to 49 luxury stores, van Raemdonck retained as CEO. Bergdorf Goodman was not sold. See [[Saks bankruptcy emergence 2026]].
 
 ---
 
 ## Why it matters
 
-**For luxury retail:**
+For luxury retail:
 - Validates [[Department store decline]] thesis
 - [[Luxury]] not immune to structural pressure
 
-**For credit markets:**
+For credit markets:
 - Another failed LBO/debt-fueled M&A
 - [[Private credit]] exposure ($4.2B secured claims)
 
-**For Amazon:**
+For Amazon:
 - Rare strategic investment loss
 - Questions about retail M&A judgment
 
 ---
 
+## Market Reaction
+
+No clean public-equity tape applies. [[Saks Global]] / ELG is private, [[Neiman Marcus]] was already private, and the live market signal was creditor recovery rather than stock-price reaction. The investable read-through is the wipeout of [[Amazon]]'s minority equity, creditor conversion into control, and the survival of luxury retail real-estate collateral rather than liquidation.
+
+---
 ## Actors involved
 
 | Actor | Role |
@@ -278,7 +290,7 @@ When Saks needed $1.75B DIP financing to survive Chapter 11, they pledged the fl
 | [[Richard Baker]] | Former CEO, deal architect |
 | [[Amazon]] | $475M equity investor (wiped) |
 | [[Neiman Marcus]] | Merged entity |
-| Geoffroy van Raemdonck | New CEO |
+| [[Geoffroy van Raemdonck]] | New CEO |
 | [[Pentwater Capital]] | Bondholder ($486M), DIP arranger |
 | [[Bracebridge Capital]] | Bondholder ($257M), DIP arranger |
 
@@ -286,10 +298,12 @@ When Saks needed $1.75B DIP financing to survive Chapter 11, they pledged the fl
 
 ## Related
 
+- [[Saks bankruptcy emergence 2026]] — Jun 26, 2026 exit, ELG rename
 - [[Stretto]] — claims agent administering case
 - [[Saks-Neiman merger]] — cause of debt ($2.7B deal)
 - [[Neiman Marcus bankruptcy 2020]] — prior restructuring
 - [[Richard Baker]] — dealmaker who built and lost it
+- [[Geoffroy van Raemdonck]] — CEO retained through case
 - [[Amazon]] — lost $475M, "Saks on Amazon" never launched
 - [[611 Fifth Avenue]] — flagship, $3.6B DIP collateral
 - [[Ground lease]] — 2014 mortgage structure kept building unencumbered
@@ -301,4 +315,4 @@ When Saks needed $1.75B DIP financing to survive Chapter 11, they pledged the fl
 - [[Department store decline]] — industry context
 - [[Macy's]] — competitor, beneficiary
 
-*Updated 2026-01-18 (bond collapse chart, hedge fund creditors added)*
+*Updated 2026-06-28 (emergence resolution, Geoffroy wikilinks)*
