@@ -1374,9 +1374,53 @@ def update_sp500_data(verbose: bool = True, assets=None, lookback_days: int = No
             download_start = START_DATE
             vprint(f"Full history download from {START_DATE}")
         
-        vprint(f"Downloading/updating data for {len(all_tickers)} securities...")
+        # ── Freshness-skip (incremental mode only) ───────────────────────────
+        # Re-fetching every ticker each run is the dominant cost (~59 min) even
+        # when data is already current. Probe one liquid benchmark to learn the
+        # latest available session, then fetch only tickers whose canonical close
+        # lags it. SAFE: the merge below updates only fetched columns and the
+        # narrow write syncs only the fetched delta, so a skipped ticker keeps all
+        # its data; a wrong frontier can only OVER-fetch, never silently skip a
+        # stale name. Full-history runs (no lookback) never skip.
+        fetch_tickers = all_tickers
+        if lookback_days and lookback_days > 0 and len(all_tickers) > 100:
+            try:
+                probe = yf.download(['SPY'], start=download_start, end=END_DATE,
+                                    auto_adjust=True, progress=False)
+                latest_session = (pd.to_datetime(probe.index.max()).normalize()
+                                  if probe is not None and not probe.empty else None)
+                if latest_session is not None:
+                    latest_rows = conn.execute(
+                        "SELECT Ticker, MAX(date(Date)) FROM prices_long "
+                        "WHERE Close IS NOT NULL GROUP BY Ticker"
+                    ).fetchall()
+                    latest_by_ticker = {t: d for t, d in latest_rows if d}
+                    stale = [
+                        t for t in all_tickers
+                        if t not in latest_by_ticker
+                        or pd.to_datetime(latest_by_ticker[t]).normalize() < latest_session
+                    ]
+                    n_skip = len(all_tickers) - len(stale)
+                    if n_skip > 0:
+                        vprint(f"Freshness-skip: {n_skip}/{len(all_tickers)} tickers already "
+                               f"current through {latest_session.date()}; fetching {len(stale)} stale.")
+                    fetch_tickers = stale
+            except Exception as e:
+                vprint(f"Freshness-skip disabled (benchmark probe failed: {e}); fetching all.")
+                fetch_tickers = all_tickers
+
+        if not fetch_tickers:
+            vprint("All selected tickers already current; no price fetch needed.")
+            conn.close()
+            return
+
+        vprint(f"Downloading/updating data for {len(fetch_tickers)} securities...")
         # Use yfinance's grouping to handle failed downloads gracefully
-        data = yf.download(all_tickers, start=download_start, end=END_DATE, auto_adjust=True, group_by='ticker')
+        data = yf.download(fetch_tickers, start=download_start, end=END_DATE, auto_adjust=True, group_by='ticker')
+        # yfinance returns ungrouped columns for a single ticker; normalize so the
+        # per-ticker processing below (data[ticker]) works for any fetch size.
+        if len(fetch_tickers) == 1 and not isinstance(data.columns, pd.MultiIndex):
+            data = pd.concat({fetch_tickers[0]: data}, axis=1)
 
         if data.empty:
             print("No data returned from Yahoo Finance.")
@@ -1385,7 +1429,7 @@ def update_sp500_data(verbose: bool = True, assets=None, lookback_days: int = No
         # 4. Process downloaded data ticker by ticker
         processed_dfs = []
         processed_vol_dfs = []
-        for ticker in all_tickers:
+        for ticker in fetch_tickers:
             if ticker in data and not data[ticker].empty:
                 # Extract just the 'Close' price and rename the series to the ticker
                 close_series = data[ticker][['Close']].rename(columns={'Close': ticker})
