@@ -30,8 +30,15 @@ Key lever: BIS decides which chips [[NVIDIA]], [[AMD]], and equipment makers can
 | 2023 | Updated controls | Closed loopholes, more restrictions |
 | 2024 | Further tightening | [[HBM]], equipment scope expanded |
 | May 31, 2026 | Overseas-subsidiary advanced-computing guidance | License-risk lens extends to China/Macau-headquartered buyers and ultimate parents outside China |
+| Jun 26, 2026 | [[Connected Vehicle Rule]] authorization signal | [[Polestar]] barred from future U.S. model-year sales while [[Volvo Cars]] received authorization |
 
 See [[Export controls]] for full policy details.
+
+## Connected Vehicle Rule
+
+The [[Connected Vehicle Rule]] is BIS applying the same control logic to cars that it has already used for chips, model access, and overseas subsidiaries: the relevant screen is not only shipment geography, but control, software, data access, and ownership nexus. In June 2026, reporting said [[Polestar]] was not granted authorization for future U.S. sales under the rule, while [[Volvo Cars]] was authorized despite both sitting inside the [[Geely]] ecosystem.
+
+That makes BIS a gatekeeper for the U.S. market access of China-linked EV platforms. The investment read-through is that EV market entry now has two separable gates: tariff/assembly economics and connected-vehicle software authorization.
 
 ---
 
@@ -90,4 +97,5 @@ BIS = what you can sell. OFAC = who you can transact with.
 - [[Export controls]] — policy framework
 - [[Huawei]], [[SMIC]] — major targets
 - [[NVIDIA]], [[AMD]], [[ASML]] — affected suppliers
-
+- [[Connected Vehicle Rule]] - vehicle-software and connectivity import/sales screen
+- [[Polestar US connected-vehicle ban 2026]] - first visible listed-company casualty

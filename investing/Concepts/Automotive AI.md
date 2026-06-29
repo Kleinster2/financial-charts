@@ -20,6 +20,8 @@ The policy backdrop is [[China AI Plus]], the latest five-year-plan push to embe
 | [[Xiaomi]] | In-car HyperOS AI can handle to-do lists, restaurant reservations, coffee orders, road notes, and mood-responsive arrival settings | Consumer-electronics UI and agent workflows become part of EV differentiation |
 | [[Huawei]] | More than $10B planned over five years to boost computing power for smart driving | Telecom / chip / AI stack becomes a core auto supplier model |
 | [[Horizon Robotics]] | Starry 6 processor integrates cockpit and driving functions and supports up to 12 in-vehicle displays | Domestic AI-chip supplier tries to reduce reliance on [[Qualcomm]] and [[NVIDIA]] |
+- [[Connected Vehicle Rule]] - U.S. market-access screen for connected and automated-driving stacks
+- [[Polestar US connected-vehicle ban 2026]] - first visible authorization denial
 | [[NIO]] / [[Shenji]] | In-house chip effort to cut Nvidia reliance and match silicon to algorithms and sensor layout | Vertical chip design becomes a margin and autonomy-control lever |
 | [[BYD]], [[Geely]], [[Li Auto]], [[Leapmotor]] | Named among EV makers designing chips to reduce reliance on Nvidia | Auto value chain shifts from assembly + battery scale toward software / chip verticalization |
 | [[Dongfeng Motor]] | State-owned automaker said it would build cars using embodied AI technology; chairman Yang Qing: "When the nation calls, Dongfeng answers" | State-owned OEMs are explicitly aligning product roadmaps with Beijing's AI-industrial policy |
@@ -38,6 +40,20 @@ The durable story is not that cars get chatbots. It is that China's EV moat is m
 4. Competitive consequence: Western and Japanese OEMs face Chinese companies that iterate on software, vehicle UX, charging, and chips as one integrated platform.
 
 For investors, this makes Chinese EV competition less about headline unit growth and more about whether automakers can own the in-car AI stack. The winners are likely to look less like traditional assemblers and more like vertically integrated consumer-tech / chip / mobility platforms.
+
+---
+
+### Jun 2026: software stack becomes a market-access gate
+
+The [[Polestar US connected-vehicle ban 2026]] adds the U.S. policy counterweight to the China auto-AI story. If Chinese automakers are trying to export in-car agents, smart-driving stacks, operating systems, and vehicle chips, U.S. regulators are now treating those same layers as national-security surfaces under the [[Connected Vehicle Rule]]. The rule does not only police where the car is assembled; it screens the connected and automated-driving stack that makes the car "AI-defined."
+
+That means automotive AI has two value regimes: inside China and permissive markets it can be a product moat; in the U.S. it can become a market-access liability unless the software/control chain is clean enough for authorization.
+
+---
+
+## Chart/data disposition
+
+Chart data unavailable: automotive AI is currently tracked through company/product updates rather than one stable market series. The connected-vehicle access shock is measured in [[Polestar US connected-vehicle ban 2026]].
 
 ---
 

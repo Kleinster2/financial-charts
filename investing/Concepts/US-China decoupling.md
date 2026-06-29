@@ -34,6 +34,7 @@ The strategic separation of US and Chinese technology, trade, and financial ecos
 - [[TikTok]] forced-sale bill (2024) — national security concerns over Chinese data access
 - Clean Network initiative (Trump 1.0)
 - China's Great Firewall already blocks US platforms
+- [[Connected Vehicle Rule]] - vehicle software, connectivity, and automated-driving systems become a U.S. market-access screen for China/Russia-linked cars
 
 ---
 
@@ -77,6 +78,16 @@ This is decoupling moving from chips, cloud, and capital to people. For [[Moonsh
 
 ---
 
+## Vehicle software becomes a control surface (June 2026)
+
+The [[Connected Vehicle Rule]] brings the decoupling perimeter into passenger cars. The rule targets connected-vehicle and automated-driving software/hardware with a prohibited China or Russia nexus, which makes the car's communications and autonomy stack part of the same security boundary as telecom equipment, cloud access, chips, and model access.
+
+The June 2026 [[Polestar US connected-vehicle ban 2026]] is the first clean listed-company signal. [[Polestar]] was barred from future U.S. model-year sales, while [[Volvo Cars]] received authorization despite both sitting in the [[Geely]] ecosystem. That makes the rule a control-and-software screen rather than a pure tariff or country-of-origin measure. It also narrows the old arbitrage map for Chinese EVs entering the U.S.: Mexico assembly, Western branding, or local plants can still matter, but they no longer solve the software/security gate by themselves.
+
+*Sources: The Verge, Jun 26 2026; MarketWatch, Jun 26 2026; Federal Register final rule, Jan 16 2025.*
+
+---
+
 ## China industrial-policy warning (May 2026)
 
 The May 11 FT report on the US Chamber / [[Rhodium Group]] warning reframed China's industrial policy as no longer confined to "Made in China 2025" sectors. The phrase to remember is "industrial policy of everything": Beijing is extending state-backed intervention across manufacturing, services, critical minerals, chemicals, machinery, clean energy, and frontier technologies.
@@ -93,6 +104,12 @@ Key reported claims:
 This supports the vault's price-gap decoupling framework. Persistent price gaps are one signal of separation; industrial-policy saturation is the policy engine that keeps those gaps from closing.
 
 *Sources: Financial Times, "China expanding its industrial dominance, warns US business group," May 11 2026; [[Rhodium Group]] cited in the report.*
+
+---
+
+## Chart/data disposition
+
+Chart data unavailable: US-China decoupling is tracked through multiple policy events and security-level reactions rather than one stable price series. Event-specific tape is filed in the relevant event notes, including [[Polestar US connected-vehicle ban 2026]].
 
 ---
 
@@ -152,3 +169,5 @@ Key figures:
 - [[Manus AI]] — first major reversal of the Singapore-routed US-acquirer path (NDRC unwind, Apr 27 2026)
 - [[NDRC]] — Chinese regulator that ordered the Meta-Manus unwind
 - [[US-China AI race]] — talent and model-capability competition downstream of decoupling
+- [[Connected Vehicle Rule]] - car-software version of the decoupling perimeter
+- [[Polestar US connected-vehicle ban 2026]] - first visible enforcement casualty

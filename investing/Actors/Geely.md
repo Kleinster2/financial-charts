@@ -3,7 +3,7 @@ aliases: [Zhejiang Geely]
 ---
 #actor #automotive #china #ev
 
-**Geely** — Chinese auto conglomerate. Owns [[Volvo Cars]], [[Polestar]], Lotus, Lynk & Co. Signaling US market entry within 3 years.
+**Geely** - Chinese auto conglomerate. Owns [[Volvo Cars]], [[Polestar]], Lotus, Lynk & Co. Its U.S. market-entry path now runs through both tariffs and the [[Connected Vehicle Rule]] after Polestar was barred from future U.S. model-year sales in June 2026.
 
 ---
 
@@ -49,9 +49,15 @@ Existing US presence:
 - Polestar already sells in US (Swedish brand, Chinese parent)
 - Volvo has US manufacturing (South Carolina)
 
-Geely could potentially use Volvo/Polestar infrastructure as Trojan horse.
+Geely could potentially use Volvo/Polestar infrastructure as Trojan horse, but the June 2026 [[Polestar US connected-vehicle ban 2026]] shows that the path is no longer only about tariffs or assembly geography.
 
 *Source: Financial Times, Jan 31 2026*
+
+### Connected-vehicle rule gate (Jun 2026)
+
+The U.S. [[Connected Vehicle Rule]] has become the live constraint on Geely's Western-brand pathway. Reporting on Jun 26 2026 said [[Polestar]] was not granted authorization for future U.S. model-year sales, while [[Volvo Cars]] received authorization. That distinction matters because it shows the regulator can separate brands inside the same Geely orbit rather than applying a simple parent-company ban.
+
+The read-through for Geely is that "use Volvo/Polestar as a Western badge" is no longer a clean workaround. U.S. access now depends on auditable software, connectivity, automated-driving, and control architecture, not just where the vehicle is assembled or how the brand is marketed.
 
 ### Mexico plant bid (Feb 2026)
 
@@ -104,6 +110,9 @@ Geely has limited financial disclosure in the local vault pipeline relative to U
 - [[VinFast]] — competing bidder
 - [[Automotive AI]] — chip/software moat layered onto Chinese EV export strategy
 - [[China AI Plus]] — policy umbrella behind AI-in-vehicles push
+
+- [[Connected Vehicle Rule]] - U.S. software/control gate on connected vehicles
+- [[Polestar US connected-vehicle ban 2026]] - first visible casualty in Geely's U.S. pathway
 
 ### Securities
 - [[Geely securities note]] — Hong Kong equity / 175.HK market note
