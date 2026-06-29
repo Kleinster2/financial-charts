@@ -4,6 +4,27 @@ Data center power availability is emerging as a hard constraint on AI infrastruc
 
 ---
 
+## ICF deliverability stress test (Jun 2026)
+
+ICF's June 25 report reframes the constraint from "forecast load" to deliverable load: where can large new demand connect, how quickly, and at what cost? The headline is not just that demand rises; it is that the spare-capacity cushion is already thin while generation, transmission, and distribution assets take years to plan, permit, finance, interconnect, and build.
+
+| Metric | ICF finding |
+|---|---|
+| US total electricity demand | +39% by 2035 from 2026 levels |
+| US peak demand | +25% by 2035 from 2026 levels |
+| Excess US generating capacity | ~26 GW above minimum resource-adequacy requirements |
+| US generation capacity additions | 445 GW from 2026 through 2030 |
+| PJM total demand | +43% by 2035 |
+| NYISO total demand | +14.3% by 2035 |
+
+This strengthens the [[Morgan Stanley]] 44 GW shortfall frame below. Even if the US adds hundreds of gigawatts of generation, the investable bottleneck remains time- and location-specific delivery: interconnection queues, transmission deliverability, distribution capacity, reserve margins, and demand-side management. That keeps the burden on the [[Grid infrastructure super-cycle]] beneficiaries and explains why hyperscalers keep pursuing [[BYOP]] and utility-specific deals rather than waiting for aggregate national capacity additions to solve the problem.
+
+Chart/source disposition: ICF's animated stat cards and demand-growth map were inspected; the data points above are extracted into the note, not copied as graphics.
+
+*Source: [ICF, Electricity demand growth: How will the grid keep pace?, Jun 25 2026](https://www.icf.com/insights/energy/impact-rapid-demand-growth-us).*
+
+---
+
 ## "$1T AI trade runs on gas" — the structural valuation gap (May 1, 2026)
 
 [[Giacomo Prandelli]] ([[The Merchant's News]], May 1) framed the AI/gas linkage as the cleanest investment-actionable consequence of the [[Power constraints|power-constraint regime]]: market is paying high-20s-to-mid-30s P/E for AI demand (the tech tape) while pricing the energy infrastructure that *makes the compute possible* at mid-teens or less.

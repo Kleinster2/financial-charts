@@ -25,6 +25,10 @@ The Commission's constraint is member-state unity. [[Germany]], [[France]], [[It
 
 *Source: [[Financial Times]], Andy Bounds and Henry Foy, Jun 18 2026. Article text supplied by user.*
 
+## DMA cloud gatekeeper push
+
+On Jun 25 2026, the Commission reached a preliminary position that [[Amazon]] and [[Microsoft]] should be designated as [[Digital Markets Act]] gatekeepers for [[AWS]] and [[Microsoft Azure]]. The move extends the Commission's digital-market enforcement frame from consumer-facing platform chokepoints into [[Cloud computing]] infrastructure, with AI procurement, switching costs, and ecosystem lock-in explicitly part of the theory. See [[EU cloud DMA preliminary findings 2026]].
+
 ## Related
 
 - [[ShinyHunters]] — Mar 2026 attacker
@@ -34,6 +38,7 @@ The Commission's constraint is member-state unity. [[Germany]], [[France]], [[It
 - [[European Union]] — parent institution
 - [[Ursula von der Leyen]] — current Commission president
 - [[EU-China trade]] — China trade-defense mandate
+- [[Digital Markets Act]] — digital gatekeeper enforcement regime
 
 ### Cross-vault
 

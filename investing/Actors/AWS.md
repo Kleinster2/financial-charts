@@ -19,6 +19,14 @@ aliases: [Amazon Web Services]
 
 ---
 
+## EU DMA gatekeeper risk (Jun 2026)
+
+On Jun 25 2026, the [[European Commission]] reached a preliminary position that [[Amazon]] should be designated as a [[Digital Markets Act]] gatekeeper for AWS. The Commission described AWS as the [[EU]]'s largest cloud computing service and focused on entrenched users, lock-in, switching costs, ecosystem breadth, and AI procurement as the reasons AWS may be an important gateway for business users.
+
+The designation is preliminary. If confirmed, Amazon would have six months to bring AWS into DMA compliance. See [[EU cloud DMA preliminary findings 2026]].
+
+---
+
 ## Anthropic capacity agreement (Apr 2026)
 
 [[Anthropic]] is AWS's most important frontier-model anchor customer. In Apr 2026 Anthropic committed more than $100B over ten years to AWS technologies, securing up to 5 GW of capacity to train and run [[Claude]]. The agreement includes new Trainium2 capacity in the first half of 2026, scaled Trainium3 later in the year, options for Trainium4, and nearly 1 GW total Trainium2/3 capacity expected by end-2026.

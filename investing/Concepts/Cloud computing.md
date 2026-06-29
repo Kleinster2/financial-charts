@@ -7,6 +7,12 @@ tags: [concept, technology, cloud, infrastructure]
 
 Cloud computing is the on-demand delivery of compute, storage, networking, and software services over the internet on a pay-as-you-go basis, replacing owned and operated data centers with rented capacity from large providers. It turned IT infrastructure from a capital expense (buy servers) into an operating expense (rent capacity), and is the demand engine behind the [[Data center infrastructure|data-center buildout]] and the AI-compute capex supercycle.
 
+## Synthesis
+
+Cloud computing is no longer just an IT cost-model shift. It is the infrastructure layer behind AI training and inference, the largest hyperscaler capex program, and now a regulated platform-gatekeeper surface. The same characteristics that make cloud attractive to enterprises - managed services, ecosystem breadth, security integration, and developer defaults - also create switching costs that regulators can read as lock-in.
+
+---
+
 ## Service models
 
 | Layer | What the provider runs | Examples |
@@ -30,7 +36,7 @@ The market is a concentrated oligopoly of global-scale providers:
 | Provider | Platform | Parent |
 |----------|----------|--------|
 | [[AWS]] | Amazon Web Services | [[Amazon]] |
-| Azure | Microsoft Azure | [[Microsoft]] |
+| [[Microsoft Azure]] | Azure | [[Microsoft]] |
 | [[Google Cloud]] | GCP | [[Alphabet]] |
 | Oracle Cloud | [[OCI]] | [[Oracle]] |
 | [[Alibaba Cloud]] | Aliyun | [[Alibaba]] |
@@ -40,6 +46,12 @@ The market is a concentrated oligopoly of global-scale providers:
 *The investable expression of the theme — the [[SKYY]] cloud-computing ETF normalized against software ([[IGV]]) and the market ([[SPY]]), through 2026-06-18.*
 
 [[Edge cloud|Edge computing]] extends the model by pushing compute closer to where data is generated (low latency, local processing), complementing the centralized hyperscaler data centers rather than replacing them.
+
+## EU DMA cloud gatekeeper push (Jun 2026)
+
+The [[European Commission]]'s Jun 25 2026 preliminary position that [[AWS]] and [[Microsoft Azure]] should be [[Digital Markets Act]] gatekeepers reframes cloud as regulated platform infrastructure, not merely rented compute. The regulatory theory matches the cloud business model: high switching costs, entrenched enterprise estates, broad ecosystems, and AI procurement make the largest clouds gateways between software providers and end customers.
+
+See [[EU cloud DMA preliminary findings 2026]].
 
 ## Why it matters
 
@@ -54,6 +66,7 @@ The market is a concentrated oligopoly of global-scale providers:
 - [[Edge cloud]] — distributed compute extending the cloud to the edge
 - [[IT services]] — the outsourcing model the cloud disrupted and reshaped
 - [[Data center infrastructure]] — the physical layer cloud runs on
+- [[Digital Markets Act]] — [[EU]] regulatory frame now reaching cloud gatekeepers
 - [[Amazon]], [[Microsoft]], [[Alphabet]], [[Oracle]], [[Alibaba]] — the hyperscalers
 - [[Enterprise AI adoption]] — a major current demand driver
 

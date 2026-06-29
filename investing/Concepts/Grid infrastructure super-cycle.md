@@ -13,6 +13,8 @@ The grid story is not really three separate stories. It is one bottleneck being 
 
 That is why the note matters as a super-cycle rather than a normal capex wave. A single demand driver can fade. A multi-driver bottleneck with shared physical inputs is much harder to unwind. Even if AI spending cools, climate adaptation and electrification still keep the labor, equipment, and transmission constraints tight. If AI keeps accelerating, the other two drivers make the bottleneck worse rather than offsetting it.
 
+ICF's June 2026 grid-demand report makes the mechanism explicit: US total electricity demand rises 39% by 2035 from 2026 levels, peak demand rises 25%, and PJM rises 43%, while 445 GW of forecast generation additions through 2030 still has to be planned, permitted, interconnected, and delivered where load is actually appearing. The super-cycle is therefore a delivery/timing problem, not only an aggregate-capacity problem.
+
 ---
 
 ## The convergence thesis
@@ -39,6 +41,8 @@ The dominant near-term driver. See [[Power constraints]] for full analysis.
 |--------|-------|
 | US DC load (2024) | ~35 GW |
 | US DC load (2035E) | 78 GW ([[Bloomberg]]) to 123 GW ([[Deloitte]]) |
+| US total demand / peak demand (2035E) | +39% / +25% from 2026 levels (ICF, Jun 2026) |
+| PJM total demand (2035E) | +43% from 2026 levels (ICF, Jun 2026) |
 | Grid connection wait (Northern Virginia) | 7 years |
 | Grid connection wait (some US areas) | 12+ years ([[Google]]) |
 | FEMA/rebuild spend | — |
@@ -64,7 +68,7 @@ See [[Utility wildfire risk]] for the wildfire-specific pattern. The broader poi
 | Demand source | Scale |
 |---------------|-------|
 | EV charging | 30-50 GW incremental by 2035 |
-| Industrial reshoring ([[CHIPS Act]], [[Inflation Reduction Act|IRA]]) | Tens of GW for new fabs, battery plants |
+| Industrial reshoring ([[CHIPS Act]], [[Inflation Reduction Act\|IRA]]) | Tens of GW for new fabs, battery plants |
 | Building electrification (heat pumps) | Growing |
 | Renewable interconnection backlog | 250+ GW in [[PJM]] queue alone |
 
@@ -133,7 +137,7 @@ For regulated utilities, more capex = larger rate base = higher allowed earnings
 |---------|-------------|-------------------|
 | Climate destruction | [[Hurricane Maria]] → 80% grid destroyed | Wildfires → [[PG&E]] bankruptcy |
 | Privatization | [[LUMA Energy]] (T&D), [[Genera PR]] (generation) | Deregulation of IPPs from utilities |
-| Federal funding | $20B+ FEMA | [[Inflation Reduction Act|IRA]] / [[Infrastructure Investment and Jobs Act|IIJA]] grid investment |
+| Federal funding | $20B+ FEMA | [[Inflation Reduction Act\|IRA]] / [[Infrastructure Investment and Jobs Act\|IIJA]] grid investment |
 | Capacity crisis | 90 load-shed events projected (2025) | 44 GW DC power shortfall |
 | Same contractors | [[Quanta Services]] (via LUMA) | [[Quanta Services]] (direct) |
 
@@ -162,7 +166,7 @@ The island is a microcosm where all three drivers hit simultaneously: climate re
 | Labor cost inflation | Scarce linemen → wage pressure |
 | Regulatory pushback | DC power cost controversy (see [[Power constraints]]) |
 | Project execution | Large infrastructure = overrun risk |
-| Political reversal | [[Inflation Reduction Act|IRA]] repeal would reduce electrification driver |
+| Political reversal | [[Inflation Reduction Act\|IRA]] repeal would reduce electrification driver |
 
 The key risk mitigation: three independent drivers mean any single one can weaken without collapsing the thesis. AI could slow and climate + electrification still sustain the cycle.
 

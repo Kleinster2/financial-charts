@@ -12,14 +12,14 @@ Big Tech valuations (the Magnificent Seven combined market cap, plus frontier-la
 
 Two forces are actively subtracting from the "Big Tech captures AI" forward assumption:
 
-1. **Regulatory convergence at the jurisdiction level** — the EU Commission fined [[Apple]] €500M and [[Meta]] €200M under the DMA in 2025, opened a formal investigation into Meta's WhatsApp AI policy December 4, 2025, and has the DMA first statutory review scheduled for May 2026 with explicit intent to extend gatekeeper designations to AI. The UK CMA issued its first Strategic Market Status designations in October 2025 ([[Google]] for search; Google and Apple for mobile platforms) and moves to conduct requirements in 2026. US DOJ Assistant AG Abigail Slater (September 2025) identified AI-merger concerns as "exclusionary behavior that forecloses access to key inputs and distribution channels" plus data consolidation — explicitly the acqui-hire fact pattern. Three major jurisdictions converging without formal coordination.
-2. **Market dispersion at the product level** — [[Open-weight models]] ([[Meta|Llama]], [[DeepSeek]], [[Qwen]], [[Mistral]]) undermine the closed-frontier moat at the model layer. Hyperscaler custom silicon ([[TPU]], [[Trainium]], Maia) routes around [[NVIDIA]]'s infrastructure rent above ~50-100MW inference. Chinese AI development ([[Huawei]], [[DeepSeek]], [[SMIC]]) operates entirely outside the Western consolidation frame. [[Enterprise AI adoption]] at ~5% penetration with decades of COBOL-modernization runway implies the TAM grows faster than any single acquirer can consolidate.
+1. Regulatory convergence at the jurisdiction level — the EU Commission fined [[Apple]] €500M and [[Meta]] €200M under the DMA in 2025, opened a formal investigation into Meta's WhatsApp AI policy December 4, 2025, and has the DMA first statutory review scheduled for May 2026 with explicit intent to extend gatekeeper designations to AI. The UK CMA issued its first Strategic Market Status designations in October 2025 ([[Google]] for search; Google and Apple for mobile platforms) and moves to conduct requirements in 2026. US DOJ Assistant AG Abigail Slater (September 2025) identified AI-merger concerns as "exclusionary behavior that forecloses access to key inputs and distribution channels" plus data consolidation — explicitly the acqui-hire fact pattern. Three major jurisdictions converging without formal coordination.
+2. Market dispersion at the product level — [[Open-weight models]] ([[Meta|Llama]], [[DeepSeek]], [[Qwen]], [[Mistral]]) undermine the closed-frontier moat at the model layer. Hyperscaler custom silicon ([[TPU]], [[Trainium]], Maia) routes around [[NVIDIA]]'s infrastructure rent above ~50-100MW inference. Chinese AI development ([[Huawei]], [[DeepSeek]], [[SMIC]]) operates entirely outside the Western consolidation frame. [[Enterprise AI adoption]] at ~5% penetration with decades of COBOL-modernization runway implies the TAM grows faster than any single acquirer can consolidate.
 
 Combined: the consolidation thesis requires the regulators to stall AND at least three of the four dispersion vectors to underdeliver — a joint probability that gets harder as each regulator fires enforcement actions and each dispersion vector ships products.
 
 The bull case for Big Tech's current multiples requires DMA/SMS/DOJ enforcement to stay narrow (no structural AI-specific gatekeeper framework before 2028) AND open-weight + hyperscaler-silicon + China + enterprise-TAM dispersion to stay below ~25% of the AI value pool combined. The bear case is the opposite — DMA May 2026 review extends gatekeeper scope to AI, CMA moves to conduct requirements on AI inputs, and dispersion captures 40%+ of AI value.
 
-**Forecast spread — the valuations price one point in it, not all of it:**
+Forecast spread — the valuations price one point in it, not all of it:
 
 - "Consolidation wins" camp (Parmy Olson January 2026 framing; Mag 7 bulls): Big Tech entrenches irrespective of regulators; dispersion stays below 20% of value; multiples sustain
 - "Regulators catch up slowly" camp (law-firm annual reviews; Goodwin, Skadden 2026 previews): DMA/SMS/DOJ actions chip at specific pricing/bundling behaviors without breaking the consolidation structure; dispersion reaches 25-35% of value
@@ -27,7 +27,7 @@ The bull case for Big Tech's current multiples requires DMA/SMS/DOJ enforcement 
 
 Current Mag 7 multiples price closer to the first camp — with some discount for regulatory action but limited credit for combined dispersion pressure.
 
-**Defensible reframe:** Big Tech valuations do not assume consolidation wins outright; they assume regulators prosecute narrowly and dispersion stays contained. The market is pricing the "regulators catch up slowly, dispersion incremental" scenario — the middle-to-optimistic end of a spread where more aggressive regulatory action or successful open-weight/hyperscaler-ASIC deployment would imply materially different AI-specific revenue paths. The claim is: valuations are priced closer to the low-disruption end of the consolidation-erosion spread, with limited discount for the May 2026 DMA review or for the compound effect of simultaneous dispersion across four independent vectors.
+Defensible reframe: Big Tech valuations do not assume consolidation wins outright; they assume regulators prosecute narrowly and dispersion stays contained. The market is pricing the "regulators catch up slowly, dispersion incremental" scenario — the middle-to-optimistic end of a spread where more aggressive regulatory action or successful open-weight/hyperscaler-ASIC deployment would imply materially different AI-specific revenue paths. The claim is: valuations are priced closer to the low-disruption end of the consolidation-erosion spread, with limited discount for the May 2026 DMA review or for the compound effect of simultaneous dispersion across four independent vectors.
 
 ---
 
@@ -35,14 +35,14 @@ Current Mag 7 multiples price closer to the first camp — with some discount fo
 
 Big Tech will use two strategies to consolidate AI:
 
-1. **Acqui-hires** — licensing + hiring deals that avoid triggering antitrust review
-2. **Chinese acquisitions** — buying Chinese startups (avoiding outbound investment rules)
+1. Acqui-hires — licensing + hiring deals that avoid triggering antitrust review
+2. Chinese acquisitions — buying Chinese startups (avoiding outbound investment rules)
 
 Result: Big Tech entrenches dominance, picks up talent and IP while startups struggle.
 
-**Ecosystem damage:** Licensing deals are "detrimental to Silicon Valley ecosystem" — traditional acquisitions benefit all employees (stock vests), but licensing deals take top talent and IP while leaving rank-and-file behind. Startup equity used to be reliable path to wealth even for non-founders; this is eroding.
+Ecosystem damage: Licensing deals are "detrimental to Silicon Valley ecosystem" — traditional acquisitions benefit all employees (stock vests), but licensing deals take top talent and IP while leaving rank-and-file behind. Startup equity used to be reliable path to wealth even for non-founders; this is eroding.
 
-**Key quote:** "There's sadly little chance that any of them — even large ones like [[OpenAI]] and [[Anthropic]] — will unseat the so-called Magnificent Seven."
+Key quote: "There's sadly little chance that any of them — even large ones like [[OpenAI]] and [[Anthropic]] — will unseat the so-called Magnificent Seven."
 
 ---
 
@@ -60,7 +60,7 @@ Result: Big Tech entrenches dominance, picks up talent and IP while startups str
 | 2022 | ~27K |
 | 2023 | ~31K |
 | 2024 | ~35K |
-| 2025 | **~40K** |
+| 2025 | ~40K |
 
 *Source: Pitchbook*
 
@@ -71,7 +71,7 @@ Result: Big Tech entrenches dominance, picks up talent and IP while startups str
 | Year | US spending |
 |------|-------------|
 | 2024 | $11.5B |
-| 2025 | **$37B** |
+| 2025 | $37B |
 
 *Source: [[Menlo Ventures]]*
 
@@ -97,6 +97,7 @@ Result: Big Tech entrenches dominance, picks up talent and IP while startups str
 - FTC and DOJ investigating some deals
 - Trump Dec 2025 executive order: softer antitrust enforcement
 - Trump wants US to win AI race vs [[China]] — may look favorably on neutralizing Chinese competition via M&A
+- Jun 2026 cloud escalation: the [[European Commission]] reached a preliminary position that [[AWS]] and [[Microsoft Azure]] should be [[Digital Markets Act]] gatekeepers. The signal is that cloud and AI procurement gravity can become a gatekeeper issue even before an AI-specific regime is finalized. See [[EU cloud DMA preliminary findings 2026]].
 
 ---
 
@@ -166,6 +167,11 @@ Same pattern occurred with cloud software → PE-driven acquisitions in 2020-202
 
 ---
 
+## Chart status
+
+Chart data unavailable: this concept note combines private-company valuations, regulatory actions, and qualitative dispersion vectors rather than a single canonical public time series. Event-specific market reaction is tracked in linked event notes where available.
+---
+
 ## Related
 
 - [[NVIDIA]] — Groq deal exemplifies backdoor acquisition strategy
@@ -177,6 +183,7 @@ Same pattern occurred with cloud software → PE-driven acquisitions in 2020-202
 - [[Zhipu]], [[Moonshot AI]], [[MiniMax]], [[StepFun]] — adjacent China-AI exposure to the same playbook risk
 - [[DeepSeek]] — too geopolitically sensitive to sell
 - [[NDRC]] — Chinese regulator that ordered the Meta-Manus unwind
+- [[Digital Markets Act]] — EU gatekeeper regime now extending into cloud infrastructure
 - [[MOFCOM]] — Chinese regulator that opened the Manus export-control review
 - [[US-China decoupling]] — parent frame
 - [[Sector rotation]] — AI fatigue context
