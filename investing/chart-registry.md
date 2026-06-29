@@ -1,5 +1,12 @@
 ---
 charts:
+  term-premium-chart.png:
+    tickers: THREEFYTP10,DGS10
+    normalize: false
+    log_y: false
+    start: 2010-01-01
+    primary: THREEFYTP10
+    labels: "THREEFYTP10:10Y term premium (Kim-Wright),DGS10:10Y Treasury yield"
   apple-supply-chain-chart.png:
     tickers: AAPL,TSM,INTC,QCOM,SONY,MP,GSAT,2317.TW,002475.SZ,002600.SZ
     normalize: true

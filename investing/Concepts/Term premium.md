@@ -21,8 +21,8 @@ The three components are not directly observable individually. Decomposition req
 
 | Component | What it captures | Observable proxy |
 |-----------|-----------------|------------------|
-| Expected short rates | Where markets think the [[Federal Reserve|Fed]] is heading | [[Fed Funds futures (ZQ)]], [[SOFR futures (SR3)]]. See [[Rate expectations]] |
-| Expected inflation | Where markets think CPI/PCE is heading | Breakeven inflation (nominal Treasury minus [[TIP|TIPS]]), inflation swaps. See [[Inflation expectations]] |
+| Expected short rates | Where markets think the [[Federal Reserve\|Fed]] is heading | [[Fed Funds futures (ZQ)]], [[SOFR futures (SR3)]]. See [[Rate expectations]] |
+| Expected inflation | Where markets think CPI/PCE is heading | Breakeven inflation (nominal Treasury minus [[TIP\|TIPS]]), inflation swaps. See [[Inflation expectations]] |
 | Term premium | Residual: everything else | NY Fed ACM model, Fed Board Kim-Wright model |
 
 The term premium is the residual — what's left after stripping out rate expectations and inflation expectations from the nominal yield. It's not directly tradeable, but it's the most important signal for understanding *why* long yields move.
@@ -102,6 +102,26 @@ Historical contrast: 1970s oil shocks pushed long rates up via inflation expecta
 
 ---
 
+## June 2026 — falling breakevens, rising nominal
+
+The [[US-Iran framework deal June 2026|Hormuz deal]] turned the April term-premium case into its cleaner form. In April the diagnostic was stable breakevens plus rising nominal yields, so the residual was term premium. By June the breakevens were not merely stable but falling: one- and two-year US inflation swaps collapsed to about 2.45% as oil round-tripped (see [[Inflation expectations#June 2026 — the expectations collapse, and the decoupling from rates|Inflation expectations]]), while the 2-year [[Treasuries|Treasury]] yield held near 4.1-4.2% and the [[Fed Funds futures (ZQ)|Dec-2026 fed funds future]] rose toward about 3.9%.
+
+| Metric | April 2026 | June 2026 |
+|--------|-----------|-----------|
+| Inflation expectations (1yr swap) | rising (>3.1%) | falling (~2.45%) |
+| Nominal 2yr UST | rising | held high (~4.1-4.2%) |
+| Implied policy path | flat-to-up | up (Dec-26 fed funds ~3.9%) |
+| Residual read | term premium (stable breakevens) | real rate + term premium (falling breakevens) |
+
+![[term-premium-chart.png]]
+*Kim-Wright 10Y term premium (blue) vs the 10Y [[Treasuries|Treasury]] yield (red), both in percent, 2010-2026. The term premium ran near zero or negative through the 2016-2021 low-rate/QE era, normalized across 2022-2024, and rose from ~0.46% (late Feb 2026) to ~0.80% (Jun 5) before settling ~0.75% on Jun 18 — still climbing through May-June even as breakevens fell, which is the residual this section describes. Source: Federal Reserve Board Kim-Wright model (FRED `THREEFYTP10`) and `DGS10`; see [[Treasuries]] for the nominal-yield series. The NY Fed ACM model gives a comparable but distinct estimate.*
+
+When nominal yields hold or rise while inflation expectations fall, the real yield is rising mechanically, and the part not explained by a higher expected policy path is term premium. [[Toby Nangle]] (FT, Jun 18) attributes the move to a credibly hawkish [[Kevin Warsh|Warsh]]-led [[Federal Reserve|Fed]] plus a run of strong data — a real-rate/policy story more than a pure fiscal-term-premium one — while the [[Fiscal Dominance|fiscal]] component from April (about $348tn global debt, a US deficit near 6% of GDP) still sits underneath. The distinction matters for the same reason as in April: a real-rate/policy-driven rise is something the Fed is deliberately engineering, whereas the fiscal-term-premium component is not something rate policy can fix. See [[Rate expectations#Jun 18 2026 — the rate / inflation-expectations link breaks (Nangle)|Rate expectations]].
+
+*Source: [[Toby Nangle]] (FT Alphaville, Jun 18 2026); levels cross-checked against `prices_long` (DGS2, DCOILBRENTEU) and `rate_futures_daily` (ZQZ26).*
+
+---
+
 ## Related
 
 - [[Treasuries]] — the asset class where term premium is embedded
@@ -113,6 +133,7 @@ Historical contrast: 1970s oil shocks pushed long rates up via inflation expecta
 - [[Ruchir Sharma]] — policy ammunition exhaustion thesis (FT Apr 2026)
 - [[Treasury safe asset erosion]] — structural erosion of the safe-haven bid
 - [[Steepener trade]] — trading the term premium via curve shape
+- [[Toby Nangle]] — Jun 2026 "why aren't bond yields lower?" decomposition
 
 ---
 

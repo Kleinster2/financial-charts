@@ -40,6 +40,7 @@ FRED_SERIES_REGISTRY = {
     "DFII5": FredSeries("DFII5", "5-Year TIPS Real Yield", "treasury_yields", FREQUENCY_DAILY, "narrow", required=True),
     "DFII10": FredSeries("DFII10", "10-Year TIPS Real Yield", "treasury_yields", FREQUENCY_DAILY, "narrow", required=True),
     "DFII30": FredSeries("DFII30", "30-Year TIPS Real Yield", "treasury_yields", FREQUENCY_DAILY, "narrow", required=True),
+    "THREEFYTP10": FredSeries("THREEFYTP10", "10Y Term Premium (Kim-Wright)", "term_premium", FREQUENCY_DAILY, "tier2", allowed_lag_days=21),
     "FEDFUNDS": FredSeries("FEDFUNDS", "Fed Funds Rate", "fed_policy", FREQUENCY_MONTHLY, "wide", required=True),
     "DFEDTARU": FredSeries("DFEDTARU", "Fed Target Upper", "fed_policy", FREQUENCY_DAILY, "wide", required=True),
     "DFEDTARL": FredSeries("DFEDTARL", "Fed Target Lower", "fed_policy", FREQUENCY_DAILY, "wide", required=True),

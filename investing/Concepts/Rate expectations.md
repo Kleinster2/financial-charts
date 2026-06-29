@@ -172,6 +172,17 @@ The mechanics behind the shift were in the Jun 17 [[FOMC]] itself: a unanimous h
 
 *Sources: FT Asset Management (Joseph Cotterill, Ian Smith), Jun 22 2026; [Federal Reserve FOMC statement, Jun 17 2026](https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm); [[CNBC]], Jun 17-18 2026.*
 
+### Jun 18 2026 — the rate / inflation-expectations link breaks (Nangle)
+
+With the [[US-Iran framework deal June 2026|Hormuz deal]] reopening the strait and [[Brent crude|Brent]] down about a third from its peak, the inflation expectations that drove the spring bond selloff collapsed — yet bond yields did not follow them down. [[Toby Nangle]] (FT Alphaville, Jun 18) posed it as "the war is over; why aren't bond yields lower?" The mechanism is a clean decomposition:
+
+- Through mid-May the 2-year [[Treasuries|Treasury]] yield and the 1-year US inflation swap moved in near-lockstep — the textbook link, because short-dated yields track inflation expectations only insofar as the market thinks those expectations drive the [[Federal Reserve|Fed]]'s overnight rate.
+- From mid-May the two decoupled: the 1yr inflation swap fell to about 2.45% (see [[Inflation expectations#June 2026 — the expectations collapse, and the decoupling from rates|Inflation expectations]]) while the 2yr UST held near 4.1-4.2% (DGS2 4.09% on Jun 25) and the [[Fed Funds futures (ZQ)|Dec-2026 fed funds future]] implied rate rose toward about 3.9% (ZQZ26 3.93% on Jun 29). What repriced was the market's view of the Fed reaction function, not its inflation forecast.
+
+Nangle offers two readings. The first is credibility: inflation expectations fell "precisely because the market has understood that a new [[Kevin Warsh|Warsh]]-led Fed is no pushover," consistent with the post-Jun-17 FOMC tape in which the dollar rose against stocks, bonds, gold, crypto, and most currencies. The second, which he favors on the evidence, is the data flow — hawkish April [[FOMC]] minutes, hotter-than-expected PCE deflator and [[Inflation|CPI]] prints, strong consumer-spending numbers, and the bumper [[#Jun. 5 2026 payrolls / AI-duration shock|payrolls report]] — the run of releases that had begun unwinding the Trump-headline "everything trade" weeks before the deal. Either way the unwind has stranded bond yields higher and left the Fed leaning into a new tightening cycle, an outcome awkward for [[Trump II|Trump]]'s low-rates preference and for debtors. With breakevens now falling rather than merely stable, the residual real yield / [[Term premium#June 2026 — falling breakevens, rising nominal|term premium]] is a cleaner read than in April.
+
+*Source: [[Toby Nangle]], "[The war is over; why aren't bond yields lower?](https://www.ft.com/content/70dd6c0b-c93f-4797-bf8f-050bc097c661)" (FT Alphaville, Jun 18 2026). Three dual-axis charts (oil vs inflation swaps; 2yr UST vs swap; Dec-26 fed funds future vs swap) ingested as extracted data per vault policy; levels cross-checked against `prices_long` (DGS2, DCOILBRENTEU) and `rate_futures_daily` (ZQZ26).*
+
 ---
 
 ## How it works
@@ -237,3 +248,4 @@ Data source: [[CME Group|CME]] via yfinance. ZQ contracts on CBOT, SR3 on CME. S
 - [[2026 Strait of Hormuz crisis]] — the energy shock feeding the headline CPI print
 - [[2026 recession risk]] — the alternative path that would bring cuts back
 - [[Term premium]] — the part of the curve above expected short rates
+- [[Toby Nangle]] — Jun 18 2026 "why aren't bond yields lower?" decomposition

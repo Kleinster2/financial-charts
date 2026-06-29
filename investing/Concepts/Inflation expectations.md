@@ -7,13 +7,13 @@
 ## Why they matter
 
 Expectations shape actual inflation:
-- **Workers** demand higher wages if they expect prices to rise
-- **Businesses** raise prices preemptively if they expect costs to increase
-- **Investors** demand higher yields if they expect currency debasement
+- Workers demand higher wages if they expect prices to rise
+- Businesses raise prices preemptively if they expect costs to increase
+- Investors demand higher yields if they expect currency debasement
 
 If expectations become "unanchored" (people lose faith in 2% target), inflation becomes much harder to control — requires painful Volcker-style tightening.
 
-**Anchored expectations** = people believe Fed will maintain price stability regardless of short-term deviations. This is the Fed's credibility.
+Anchored expectations = people believe Fed will maintain price stability regardless of short-term deviations. This is the Fed's credibility.
 
 ---
 
@@ -23,32 +23,32 @@ If expectations become "unanchored" (people lose faith in 2% target), inflation 
 
 | Survey | Source | Horizon | Jan 2026 |
 |--------|--------|---------|----------|
-| **Michigan 1-year** | U of Michigan | 1 year | 4.0% |
-| **Michigan 5-year** | U of Michigan | 5 years | 3.3% |
-| **NY Fed SCE** | NY Fed | 1 year | ~3-4% |
-| **SPF** | Philadelphia Fed | Various | ~2.5% |
+| Michigan 1-year | U of Michigan | 1 year | 4.0% |
+| Michigan 5-year | U of Michigan | 5 years | 3.3% |
+| NY Fed SCE | NY Fed | 1 year | ~3-4% |
+| SPF | Philadelphia Fed | Various | ~2.5% |
 
-**Pros:** Captures actual beliefs of consumers/forecasters
-**Cons:** Volatile, influenced by gas prices, sample biases
+Pros: Captures actual beliefs of consumers/forecasters
+Cons: Volatile, influenced by gas prices, sample biases
 
 ### Market-based (breakevens)
 
 | Measure | Calculation | Jan 2026 |
 |---------|-------------|----------|
-| **5-year breakeven** | 5Y Treasury - 5Y TIPS | 2.42% |
-| **10-year breakeven** | 10Y Treasury - 10Y TIPS | ~2.3% |
-| **5Y5Y forward** | Expected 5Y inflation starting 5Y from now | ~2.2% |
+| 5-year breakeven | 5Y Treasury - 5Y TIPS | 2.42% |
+| 10-year breakeven | 10Y Treasury - 10Y TIPS | ~2.3% |
+| 5Y5Y forward | Expected 5Y inflation starting 5Y from now | ~2.2% |
 
-**Pros:** Real-time, market prices reflect actual positions
-**Cons:** Include liquidity/risk premiums, not pure expectations
+Pros: Real-time, market prices reflect actual positions
+Cons: Include liquidity/risk premiums, not pure expectations
 
 ---
 
 ## Fed's preferred measures
 
-The Fed maintains an **Index of Common Inflation Expectations (CIE)** combining 21 measures to filter noise.
+The Fed maintains an Index of Common Inflation Expectations (CIE) combining 21 measures to filter noise.
 
-**"Well-anchored"** = longer-term measures (5Y5Y forward, Michigan 5-year) remain near 2%, even if short-term measures spike.
+"Well-anchored" = longer-term measures (5Y5Y forward, Michigan 5-year) remain near 2%, even if short-term measures spike.
 
 ---
 
@@ -56,10 +56,10 @@ The Fed maintains an **Index of Common Inflation Expectations (CIE)** combining 
 
 | Timeframe | Status |
 |-----------|--------|
-| **Short-term (1Y)** | Elevated (4% Michigan) — tariff concerns |
-| **Long-term (5Y+)** | Anchored (3.3% Michigan, 2.4% breakevens) |
+| Short-term (1Y) | Elevated (4% Michigan) — tariff concerns |
+| Long-term (5Y+) | Anchored (3.3% Michigan, 2.4% breakevens) |
 
-**Powell (Jan 29, 2026):** Pointed to anchored long-term expectations as proof Fed credibility intact, dismissing gold/silver rally as loss of confidence signal:
+Powell (Jan 29, 2026): Pointed to anchored long-term expectations as proof Fed credibility intact, dismissing gold/silver rally as loss of confidence signal:
 
 > "If you look at where inflation expectations are, our credibility is right where it needs to be."
 
@@ -103,14 +103,34 @@ The 2022 parallel is the caution: at the same five-week point after Russia's inv
 
 ---
 
+## June 2026 — the expectations collapse, and the decoupling from rates
+
+The [[US-Iran framework deal June 2026|Hormuz deal]] inverted the April setup. As the [[2026 Strait of Hormuz crisis|strait]] reopened (preliminary MOU Jun 15, US blockade lift Jun 17) and [[Brent crude|Brent]] fell to about $79.55 on Jun 17 from the roughly $126 March front-month peak — around a third off — the short-dated inflation expectations that had spiked on the oil shock round-tripped. One- and two-year US inflation swaps, which had risen in near-lockstep with crude into the April peak (1yr swap about 3.5%), fell back to about 2.45% by mid-June, declining even more sharply than oil itself.
+
+| Series | Dec 2025 | Apr 2026 peak | Mid-Jun 2026 |
+|--------|----------|---------------|--------------|
+| 1yr US inflation swap | ~2.3% | ~3.5% | ~2.45% |
+| 2yr US inflation swap | ~2.3% | ~3.3% | ~2.45% |
+| [[Brent crude\|Brent]] Aug-26 (deferred futures, per FT) | ~$72 | ~$105 | ~$77-80 |
+
+The narrow gap between the one- and two-year swap legs through the spike is the tell. Because the two-year swap embeds all of the first year's inflation, a contained gap meant the market read the oil shock as a mechanical, one-off energy pass-through, not the birth of a new inflation cycle — the same "short-term spikes, long-term anchored" pattern the [[#Iran shock update (Apr 2026)|April Iran shock]] produced, now resolving on the downside as the shock unwinds. FT's Brent series is the Aug-26 deferred contract, which peaked near $105; the front-month/spot peak was higher (about $126 on Mar 8) because the curve was backwardated during the acute shortage, so the deferred contract understates the realized oil move.
+
+The more important development is what did not happen: bond yields did not fall with inflation expectations. Up to mid-May the two-year [[Treasuries|Treasury]] yield moved nearly in lockstep with the inflation-swap price; then they decoupled, with the swap falling while the 2yr UST held near 4.1-4.2% (DGS2 4.09% on Jun 25) and the [[Fed Funds futures (ZQ)|Dec-2026 fed funds future]] implied rate rose toward about 3.9% (ZQZ26 3.93% on Jun 29). [[Toby Nangle]] (FT Alphaville, Jun 18) framed the puzzle as "the war is over; why aren't bond yields lower?" and answered it on the rate-expectations side: what changed was the market's read of the [[Federal Reserve|Fed]], not its inflation forecast. See [[Rate expectations#Jun 18 2026 — the rate / inflation-expectations link breaks (Nangle)|Rate expectations]] and [[Term premium#June 2026 — falling breakevens, rising nominal|Term premium]].
+
+For anchoring, the read-through is benign-to-good: the framework held in both directions — short-term measures spiked on the commodity shock and retraced as it faded, while longer-dated measures and the policy stance stayed put. The catch is that the retrace was helped along by a credibly hawkish [[Kevin Warsh|Warsh]]-led Fed that markets no longer expect to "look through" inflation, so part of the disinflation is the expectation of tight policy rather than economic slack.
+
+*Chart data extracted from [[Toby Nangle]], "[The war is over; why aren't bond yields lower?](https://www.ft.com/content/70dd6c0b-c93f-4797-bf8f-050bc097c661)" (FT Alphaville, Jun 18 2026); swap and oil levels read from the published charts. Spot Brent and the 2yr UST / Dec-26 fed funds levels cross-checked against `prices_long` (DCOILBRENTEU, DGS2) and `rate_futures_daily` (ZQZ26). Per vault policy the FT charts were ingested as extracted data, not copied.*
+
+---
+
 ## Historical context
 
 | Period | Expectations | Outcome |
 |--------|--------------|---------|
-| **1970s** | Unanchored | Inflation spiral, required Volcker shock |
-| **1980s-2020** | Anchored at ~2% | "Great Moderation" |
-| **2021-2022** | Tested but held | Inflation spiked to 9%, expectations stayed ~3-4% |
-| **2025-2026** | Anchored despite tariffs | Fed's key defense |
+| 1970s | Unanchored | Inflation spiral, required Volcker shock |
+| 1980s-2020 | Anchored at ~2% | "Great Moderation" |
+| 2021-2022 | Tested but held | Inflation spiked to 9%, expectations stayed ~3-4% |
+| 2025-2026 | Anchored despite tariffs | Fed's key defense |
 
 ---
 
@@ -158,6 +178,8 @@ Source: NY Fed SCE (via Bloomberg, Apr 7, 2026), Rieder Bloomberg TV (Apr 7, 202
 | 5Y5Y forward | ~2.4% (Apr 2026, stable) |
 | Fed target | 2.0% |
 | "Anchored" threshold | Long-term measures ≤3% |
+| 1yr inflation swap | ~2.45% (mid-Jun 2026; collapsed from ~3.5% Apr peak) |
+| 2yr inflation swap | ~2.45% (mid-Jun 2026) |
 
 *Updated 2026-04-07*
 
@@ -179,3 +201,7 @@ Source: NY Fed SCE (via Bloomberg, Apr 7, 2026), Rieder Bloomberg TV (Apr 7, 202
 
 *Updated 2026-04-08 — Eurozone/UK breakeven data, 2022 parallel (Giles/FT).*
 - [[Rate expectations]]
+- [[Toby Nangle]] — "why aren't bond yields lower?" decomposition (Jun 2026)
+- [[US-Iran framework deal June 2026]] — the oil-shock unwind that pulled breakevens down
+
+*Updated 2026-06-29 — June expectations collapse and the decoupling from rates (Nangle / FT).*
