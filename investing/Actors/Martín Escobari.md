@@ -40,7 +40,7 @@ Escobari is, in effect, the single most important growth-equity decision-maker f
 - 1999 — Co-founds Submarino.com, an early Brazilian e-commerce pioneer, and runs its finances (CFO 2004-2007) through the dot-com cycle.
 - pre-2012 — As an [[Advent International]] MD he builds a financial-services investing track record in the region.
 - 2012 — Joins [[General Atlantic]] to head Latin America, becoming GA's regional dealmaker.
-- 2017-2019 — Champions GA's stake in [[XP Inc]], which lists on [[Nasdaq]] in December 2019; XP becomes the flagship LatAm growth-equity win.
+- 2012-2013 — Champions GA's R$356M (~US$171M) minority investment in XP Investimentos (completed February 2013) — GA's entry into what becomes its flagship LatAm growth-equity win; GA expands the position over the decade and XP lists on [[Nasdaq]] in December 2019.
 - 2020 — Elevated to Co-President of GA alongside Anton Levy and Gabriel Caillaux, and chair of the global investment committee — a Brazil/LatAm operator at the top of a global growth-equity firm.
 
 ---
@@ -62,12 +62,16 @@ See [[General Atlantic]] for the full firm profile.
 
 | Item | Detail |
 |------|--------|
-| Deal | General Atlantic took a stake in XP Investimentos (now [[XP Inc]]), the Brazilian brokerage/fintech platform |
-| Who led it | Escobari — GA's Head of Latin America; the deal's internal champion |
-| Outcome | XP listed on Nasdaq (ticker XP) in December 2019; GA a pre-IPO backer |
-| His role since | Board member of [[XP Inc]] |
+| Deal | General Atlantic's minority investment in XP Investimentos (now [[XP Inc]]), the Brazilian brokerage/fintech platform |
+| Size | R$356 million (~US$171 million) for a minority stake (percentage not disclosed) |
+| Timing | First reported December 2012 (pending Brazilian Central Bank approval); completed 26 February 2013 |
+| Counterparty | XP CEO/co-founder Guilherme Benchimol |
+| Who led it | Escobari — then GA MD and Head of Latin America; the deal's champion |
+| His thesis | Brazil's shift to a lower-interest-rate era would grow an investor class that turns from banks to independent financial-services providers (his stated rationale in the GA release) |
+| Outcome | GA expanded its position over the decade; XP listed on [[Nasdaq]] (ticker XP) in December 2019 |
+| Role since | Board member of [[XP Inc]] |
 
-Exact round date and size not yet verified to source here — confirm against the GA "Completes Investment in XP Investimentos" release and XP's F-1 before writing figures into the note.
+Source: General Atlantic, "Completes Investment in XP Investimentos" (26 February 2013). A secondary figure of ~US$80.2M / R$430M at a ~R$1.4B valuation circulates (Mergr and others) — the GA release states R$356M / US$171M, used here as the primary. XP's F-1 (December 2019) carries the full cap-table history for a round-by-round breakdown.
 
 ---
 
