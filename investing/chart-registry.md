@@ -340,6 +340,10 @@ charts:
     normalize: true
     start: 2021-01-01
     primary: SKYY
+  rp-leverage-history.png:
+    skip: true
+  rpar-allocation-history.png:
+    skip: true
   ai-regulation-chart.png:
     skip: true
   sk-telecom-fundamentals-chart.png:

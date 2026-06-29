@@ -132,6 +132,26 @@ The full risk-parity sleeve universe — 13 ETFs across five strategy families �
 
 *Since SWAN's 2018 inception — the clearest "insurance has a cost" picture in the set. TAIL buys put protection and bleeds premium every quarter equities don't crash: down 39% over 7.5 years, its only green spikes at the 2020 and 2025 selloffs. SWAN's asymmetric build — Treasuries plus call options rather than puts — captured roughly a third of SPY's return with far shallower drawdowns. Both are hedges; TAIL is convexity you rent outright, SWAN is convexity partly funded by carry.*
 
+## Composition history
+
+The Risk Parity vault tracks each sleeve's holdings daily; that composition history now lives in `market_data.db` (`rp_fund_metrics_long`, `rp_allocations_long`), parsed from 456 dated tracking notes back to 2020. Two reads stand out.
+
+### Leverage: defensive vs designed
+
+![[rp-leverage-history.png]]
+*Gross leverage estimated from disclosed holdings. ALLW runs ~1.6x (levered as designed); RPAR (~0.87x) and UPAR (~0.98x) sit at or below unlevered — far under their ~1.2x and ~1.8x targets. This is the post-2022 defensive positioning made visible: the two ARIS funds have effectively stopped levering, which is why UPAR (nominally "1.5x RPAR") has tracked RPAR so closely.*
+
+| Fund | Leverage (Jun 2026) | Target | Read |
+|------|---------------------|--------|------|
+| RPAR | 0.87x | ~1.2x | Defensive — cash buffer |
+| UPAR | 0.98x | ~1.8x | Essentially unlevered — defeats the 1.5x design |
+| ALLW | 1.63x | — | Levered as designed |
+
+### RPAR allocation drift
+
+![[rpar-allocation-history.png]]
+*RPAR's deleveraged sleeve weights, 2020–2026. Rates (nominal bonds + [[TIPS]]) built from ~25% to ~40%; equities drifted down from ~40% to ~30%; commodities recovered from a 2021 trough to ~28–30%. The bonds/TIPS split is combined here because RPAR shifted its rates sleeve from TIPS to nominal late 2025, and the 2020–25 SEC N-PORT data classifies rates differently from the 2026 daily feed — so read the blue line as the rates sleeve, not a nominal/TIPS breakdown. The durable signal is a fund that de-risked equity and leaned into commodities and rates across the cycle.*
+
 ## Who thinks about this
 
 - [[Ray Dalio]] / [[Bridgewater]] — invented the modern framework
