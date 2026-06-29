@@ -32,6 +32,19 @@ The animal health division (brands: Metacam, NexGard, Vaxxitek) is the world's s
 | Animal health | #2 globally (~EUR5B, behind [[Zoetis]]) |
 | Focus areas | Cardiometabolic, respiratory, oncology |
 
+## Ownership and capital structure
+
+Boehringer Ingelheim is fully private and family-controlled — held by the Boehringer and von Baumbach families since its 1885 founding. There is no public equity, no external funding-round history, and no plans for an IPO; the family has repeatedly reaffirmed private ownership as a strategic asset (long-horizon R&D without quarterly earnings pressure). R&D is funded out of operating cash flow (~EUR5B/year). This is the defining structural feature and the reason no market-capitalization table applies.
+
+| Date | Round | Amount | Source / notes |
+|---|---|---|---|
+| 1885 | Founding | n/d | Albert Boehringer founding capital, Ingelheim am Rhein |
+| 1885–present | Family-funded operations | n/a (no external rounds) | Self-funded via retained earnings; Boehringer / von Baumbach family controlling stake; no VC, no IPO, no external financing events |
+
+## Trade-policy exposure
+
+As a German-domiciled pharma exporter with large US sales, Boehringer sits on both sides of the [[Pharma R&D burden-sharing|US burden-sharing]] fight. It benefits if German prices rise under any renegotiated [[AMNOG]] outcome (it sells into the German market), but a Section 301 determination against Germany could produce retaliatory tariffs on German goods — a risk channel for a private company with no public equity to short. [[Friedrich Merz|Merz]]'s refusal of the [[US-UK pharma pricing deal (2026)|US-UK-style bilateral]] (Jun 2026) keeps that tariff tail live. See [[US Section 301 investigation of Germany drug pricing (2026)]].
+
 ## Related
 
 - [[Zealand Pharma]] — survodutide partner
@@ -40,3 +53,5 @@ The animal health division (brands: Metacam, NexGard, Vaxxitek) is the world's s
 - [[Eli Lilly]] — competitor (tirzepatide)
 - [[Biopharma]] — sector context
 - [[Germany]] — domicile
+- [[US Section 301 investigation of Germany drug pricing (2026)]] — trade-policy tail
+- [[Pharma R&D burden-sharing]] — the structural fight BI is exposed to

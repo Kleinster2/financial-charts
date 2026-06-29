@@ -2,6 +2,9 @@
 
 **Section 301** — Trade Act of 1974 provision (19 U.S.C. §§2411-2420) authorizing [[USTR]] to investigate and retaliate against foreign trade practices that are unjustifiable, unreasonable, or discriminatory. Now the primary US tariff authority after [[SCOTUS IEEPA ruling|SCOTUS struck down IEEPA tariffs]] (Feb 20, 2026). No rate cap, no duration limit — the most powerful trade remedy tool Congress has delegated to the executive.
 
+
+Chart data not applicable; Section 301 is a legal authority, with market exposure captured in the affected event and actor notes.
+
 ---
 
 ## Synthesis
@@ -50,10 +53,10 @@ Four categories trigger Section 301:
 
 ## Comparison of tariff authorities
 
-| Feature | Section 301 | [[Section 232 semiconductor tariff|Section 232]] | IEEPA | Section 122 | Section 338 |
+| Feature | Section 301 | [[Section 232 semiconductor tariff\|Section 232]] | IEEPA | Section 122 | Section 338 |
 |---------|-------------|-------------|-------|-------------|-------------|
 | Statute | Trade Act 1974 | Trade Expansion Act 1962 | 50 USC 1701 | Trade Act 1974 | Tariff Act 1930 |
-| Authority | USTR | President (Commerce rec.) | President | President | President |
+| Authority | [[USTR]] | President (Commerce rec.) | President | President | President |
 | Trigger | Unfair trade practices | National security threat | National emergency | Balance-of-payments deficit | Foreign discrimination |
 | Investigation | Yes (~12 mo.) | Yes (~9 mo.) | No | No | Ambiguous |
 | Public comment | Yes | Yes | No | No | Unclear |
@@ -149,7 +152,7 @@ After the [[SCOTUS IEEPA ruling]] struck down IEEPA tariffs, [[USTR]] pivoted to
 
 | Date | Action | Scope |
 |------|--------|-------|
-| Mar 11, 2026 | Excess capacity investigations | 16 economies ([[China]], [[EU]], [[Singapore]], [[Switzerland]], [[Norway]], [[Indonesia]], [[Malaysia]], Cambodia, [[Thailand]], [[South Korea|Korea]], [[Vietnam]], [[Taiwan]], Bangladesh, [[Mexico]], [[Japan]], [[India]]) |
+| Mar 11, 2026 | Excess capacity investigations | 16 economies ([[China]], [[EU]], [[Singapore]], [[Switzerland]], [[Norway]], [[Indonesia]], [[Malaysia]], Cambodia, [[Thailand]], [[South Korea\|Korea]], [[Vietnam]], [[Taiwan]], Bangladesh, [[Mexico]], [[Japan]], [[India]]) |
 | Mar 12, 2026 | Forced labor investigations | 60 economies (virtually all major US trading partners) |
 
 Excess capacity sectors: aluminum, automobiles, batteries, cement, chemicals, electronics, energy, glass, machine tools, machinery, paper, plastics, processed food, robotics, satellites, semiconductors, ships, solar modules, steel, transportation equipment.
@@ -158,6 +161,12 @@ Comment deadline: Apr 15, 2026 (excess capacity); hearing May 5, 2026.
 Forced labor hearing: Apr 28, 2026.
 
 This is unprecedented — Section 301 has never been used against this many economies simultaneously. The 12-month investigation timeline means replacement tariffs likely cannot take effect before early-to-mid 2027.
+
+### Germany drug-pricing investigation (Jun 2026)
+
+The first Section 301 use against an *ally's domestic health policy*. On Jun 18, 2026, [[USTR]] [[Jamieson Greer|Greer]] self-initiated an investigation into [[Germany]]'s "persistent underpayment" for innovative pharmaceuticals — framed as unreasonable/discriminatory burden-shifting of R&D costs onto US patients (US consumers pay ~3.9× German prices for branded drugs). The trigger is Germany's [[AMNOG]] system and a 2026 cost-containment bill adding mandatory rebates on patented medicines.
+
+The novelty is doctrinal: Section 301's historical targets were trade practices (tariffs, market access, IP, forced tech transfer, subsidies). Here the "unreasonable practice" is a sovereign health-reimbursement regime. The [[US-UK pharma pricing deal (2026)|US-UK bilateral]] provides the negotiated-exit template; [[Friedrich Merz|Merz]] has so far declined it, framing reimbursement as national jurisdiction. The probe could yield tariffs on German goods; comments close Aug 10, 2026, hearing Sep 22, 2026, with a ~12-month determination window. See [[US Section 301 investigation of Germany drug pricing (2026)]] and [[Pharma R&D burden-sharing]].
 
 ---
 

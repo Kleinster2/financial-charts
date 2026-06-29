@@ -1,10 +1,17 @@
-#actor #country #europe #industrial #defense
+---
+aliases: [Federal Republic of Germany, Deutschland]
+tags: [actor, country, europe, industrial, defense]
+---
+# Germany
+
 
 **Germany** — Europe's largest economy. Industrial powerhouse facing energy crisis, [[China]] exposure, and defense transformation.
 
+Germany is the European macro actor where industrial policy, energy costs, defense rearmament, China exposure, and US trade pressure all meet. The 2026 pharma-pricing probe adds a second US trade channel alongside autos and defense procurement.
+
 ---
 
-## Why Germany matters
+## Quick stats
 
 | Metric | Value |
 |--------|-------|
@@ -49,7 +56,7 @@ Merz overhauled the constitutional debt brake, enabling ~€1T in borrowing thro
 | [[Defense]] exemption | Unlimited (above 1% GDP) |
 | Total borrowing | ~€850B by 2029 |
 
-**Skeptic view:** [[Deutsche Bank]] sees no significant growth improvement — funds leaking to social spending, subsidies. Debt/GDP could hit 85% by 2035 without commensurate GDP gains.
+Skeptic view: [[Deutsche Bank]] sees no significant growth improvement — funds leaking to social spending, subsidies. Debt/GDP could hit 85% by 2035 without commensurate GDP gains.
 
 See [[Schuldenbremse reform]] for full analysis.
 
@@ -66,7 +73,7 @@ See [[Schuldenbremse reform]] for full analysis.
 | Mercedes | ~$70B | [[Luxury]] EV push |
 | Porsche | ~$45B | Premium positioning |
 
-**[[China]] problem:** German autos = 30%+ [[China]] revenue. [[BYD]] eating share.
+[[China]] problem: German autos = 30%+ [[China]] revenue. [[BYD]] eating share.
 
 ### Industrials
 
@@ -101,7 +108,7 @@ Bundeswehr three-supplier drone procurement (Feb–Apr 2026): [[Helsing]] (€26
 
 ### Space
 
-Germany emerging as potential space power with plans to invest **€35B** in space-defense capabilities by 2030.
+Germany emerging as potential space power with plans to invest €35B in space-defense capabilities by 2030.
 
 | Company | Focus |
 |---------|-------|
@@ -109,22 +116,34 @@ Germany emerging as potential space power with plans to invest **€35B** in spa
 | Rocket Factory Augsburg | Launch startup (pre-orbital) |
 | OHB | Satellites, systems integration |
 
-**Bundeswehr satellite constellation:** Germany's military reportedly wants its own constellation — domestic launch startups likely beneficiaries.
+Bundeswehr satellite constellation: Germany's military reportedly wants its own constellation — domestic launch startups likely beneficiaries.
 
-**ESA role:** Germany is ESA's largest contributor. Two of five European Launcher Challenge recipients are German (Isar, RFA).
+ESA role: Germany is ESA's largest contributor. Two of five European Launcher Challenge recipients are German (Isar, RFA).
+
+### Pharmaceuticals
+
+Germany is both a major drug producer and the largest EU drug market — and now the test case for US trade-law challenges to national drug-pricing regimes.
+
+| Company | Ticker | Notes |
+|---|---|---|
+| [[Boehringer Ingelheim]] | (private) | Cardiometabolic, respiratory, oncology; survodutide (GLP-1/glucagon) with [[Zealand Pharma]] |
+| [[Merck KGaA]] | MRK.DE | Darmstadt Merck (not US Merck); healthcare + life science + electronics |
+| Bayer | BAYRY | Pharma + consumer health + Crop Science (pharma pipeline thin post-2025) |
+
+Pricing is governed by the [[AMNOG]] reference-pricing regime (2011): added-benefit assessment by the G-BA, reference clustering or negotiated rebate. In April 2026 the Ministry of Health unveiled an overhaul to close a ~€20B ($23B) statutory-health funding gap, adding a 3.5% mandatory rebate on patented drugs (H1 2027) and a variable rebate USTR estimates could reach ~20% by 2030. That bill is the trigger for the [[US Section 301 investigation of Germany drug pricing (2026)|US Section 301 probe]] (Jun 18, 2026) and the [[Pharma R&D burden-sharing|burden-sharing]] fight — US consumers pay ~3.9× German prices for branded drugs.
 
 ---
 
 ## Stagnation (2019-2026)
 
-Germany has grown **0.1% since 2019** — worst five-year stretch in Federal Republic history (since 1949).
+Germany has grown 0.1% since 2019 — worst five-year stretch in Federal Republic history (since 1949).
 
 | Economy | Growth since 2019 |
 |---------|-------------------|
-| **US** | +12% |
-| **EU average** | +4% |
-| **Italy** | >0.1% |
-| **Germany** | **+0.1%** |
+| US | +12% |
+| EU average | +4% |
+| Italy | >0.1% |
+| Germany | +0.1% |
 
 Annual GDP trajectory (Destatis):
 
@@ -154,11 +173,11 @@ The crisis is now visible in the hard employment, output, and insolvency data:
 
 [[Siemens]] has told the Bundestag that "nothing speaks in favor of investing in Germany" at current energy and regulatory cost levels — recent major capex decisions have gone to the US and Asia rather than German sites.
 
-**No tech dynamism:** Top R&D spenders are the same companies as 20 years ago, all clustered around automotive. No platform economy, no big tech equivalents.
+No tech dynamism: Top R&D spenders are the same companies as 20 years ago, all clustered around automotive. No platform economy, no big tech equivalents.
 
-**Low working hours:** ~1,300 hrs/year vs US ~1,750 — Americans work 25-30% more. Rational explanations (childcare availability, work-life balance) rather than Merz's "lifestyle part-time work" framing.
+Low working hours: ~1,300 hrs/year vs US ~1,750 — Americans work 25-30% more. Rational explanations (childcare availability, work-life balance) rather than Merz's "lifestyle part-time work" framing.
 
-**Merz supply-side populism:** Targeting part-time work protections and telephone sick notes — Tooze calls this "supply-side policy for dummies." High absenteeism likely reflects systemic causes, not malingering.
+Merz supply-side populism: Targeting part-time work protections and telephone sick notes — Tooze calls this "supply-side policy for dummies." High absenteeism likely reflects systemic causes, not malingering.
 
 ---
 
@@ -179,6 +198,8 @@ Polling effect: Merz polled the least popular German chancellor since 1997 — 1
 
 The investment-relevant pieces: the Tomahawk withdrawal accelerates [[Germany in fresh push to buy Tomahawks]] (FT recent) — German procurement is now under pressure to replace what was previously US-provided deterrence, supporting the [[Rheinmetall]] / [[Hensoldt]] / [[Diehl]] thesis already in [[Zeitenwende]]. The European-cars tariff threat is the visible auto-sector risk channel; the troop withdrawal accelerates the German defense build.
 
+A second trade channel opened Jun 18, 2026: [[USTR]] [[Jamieson Greer|Greer]] self-initiated a [[Section 301]] investigation into Germany's drug-pricing regime (see [[US Section 301 investigation of Germany drug pricing (2026)]]). [[Friedrich Merz|Merz]] responded (Jun 19, EU Summit, Brussels) that reimbursement by German health insurers is "a matter of national jurisdiction" and that the US should operate under the existing EU trade agreement — declining the [[US-UK pharma pricing deal (2026)|US-UK-style bilateral]] the US is offering. The probe risks tariffs on German goods broadly (autos, machinery, pharma); see [[Pharma R&D burden-sharing]].
+
 *Source: [Germany's Friedrich Merz says he would not want his children to move to US](https://www.ft.com/content/123f2c88-459a-4991-afb6-bbaa0dbe97fd), FT, May 15, 2026, by Aysun Bora (Berlin).*
 
 ---
@@ -187,26 +208,26 @@ The investment-relevant pieces: the Tomahawk withdrawal accelerates [[Germany in
 
 ### "Made with Europe" vs "Buy European"
 
-Germany prefers **"made with Europe"** (supply chain integration) over [[France]]'s **"buy European"** (procurement preference). France's EV subsidy uses carbon standards that favor nuclear-powered production — Chinese EVs don't qualify. Germany resists this as too protectionist, partly to protect its [[China]] business ties.
+Germany prefers "made with Europe" (supply chain integration) over [[France]]'s "buy European" (procurement preference). France's EV subsidy uses carbon standards that favor nuclear-powered production — Chinese EVs don't qualify. Germany resists this as too protectionist, partly to protect its [[China]] business ties.
 
 ### Merz-Meloni axis
 
 Merz has aligned with [[Italy]]'s Meloni on manufacturing and defense — presenting Germany and Italy as Europe's two industrial powerhouses. Ironic given [[Olaf Scholz]]'s stated fear of a post-fascist Italian government.
 
-**Three sources of frustration with [[France]]:**
+Three sources of frustration with [[France]]:
 1. [[EU-Mercosur agreement]] — French block in EU Parliament
 2. FCAS next-gen fighter — [[Dassault Aviation]] uncooperative with [[Airbus]] on technology sharing
 3. "Buy European" protectionism
 
 ### Defense leadership ambitions
 
-Merz has openly stated he wants Germany as **Europe's leading military power** — unprecedented for a postwar chancellor. Defense budget set to reach **€162B ($191B) by 2029**, dwarfing France, UK, Italy, Spain. Berlin has explicitly criticized [[France]] for not spending enough on weapons.
+Merz has openly stated he wants Germany as Europe's leading military power — unprecedented for a postwar chancellor. Defense budget set to reach €162B ($191B) by 2029, dwarfing France, UK, Italy, Spain. Berlin has explicitly criticized [[France]] for not spending enough on weapons.
 
 This creates a structural imbalance: France/Italy/Spain can't match without EU common debt, and EU SAFE package (~EUR 160B) is smaller than Germany's projected national budget alone. Merz opposes joint European borrowing. Germany controls whether Europe issues common debt — though even Bundesbank chief Joachim Nagel has made the case for mutual defense debt.
 
-**"Germany First" risk (Feb 2026):** Preference for German arms manufacturers, cooling on [[FCAS]], eyeing a domestic fighter jet program and own satellite constellation. Former [[Airbus]] CEO Tom Enders dismissed a domestic German fighter as "national hubris." Liana Fix (CFR) calls the combined accumulation of economic and military power "involuntary hegemony."
+"Germany First" risk (Feb 2026): Preference for German arms manufacturers, cooling on [[FCAS]], eyeing a domestic fighter jet program and own satellite constellation. Former [[Airbus]] CEO Tom Enders dismissed a domestic German fighter as "national hubris." Liana Fix (CFR) calls the combined accumulation of economic and military power "involuntary hegemony."
 
-**European army logic:** Combined European spending already ~2x Russia's — a single force could achieve full-spectrum capability. National budgets cannot. Historical precedent: the 1950s European Defense Community (joint army) was rejected by French parliament in 1954; NATO membership was the fallback.
+European army logic: Combined European spending already ~2x Russia's — a single force could achieve full-spectrum capability. National budgets cannot. Historical precedent: the 1950s European Defense Community (joint army) was rejected by French parliament in 1954; NATO membership was the fallback.
 
 See [[European defense spending]].
 
@@ -216,13 +237,13 @@ See [[European defense spending]].
 
 | Challenge | Impact |
 |-----------|--------|
-| **Energy costs** | 2-3x US industrial power prices |
-| **[[China]] exposure** | Autos, machinery dependent on [[China]] market |
-| **Demographics** | Aging workforce, immigration debates |
-| **Underinvestment** | Infrastructure, digitization lagging |
-| **Bureaucracy** | Slow permitting, regulation |
-| **No tech sector** | No platform economy or big tech equivalents |
-| **Venture capital** | Weakest among major economies |
+| Energy costs | 2-3x US industrial power prices |
+| [[China]] exposure | Autos, machinery dependent on [[China]] market |
+| Demographics | Aging workforce, immigration debates |
+| Underinvestment | Infrastructure, digitization lagging |
+| Bureaucracy | Slow permitting, regulation |
+| No tech sector | No platform economy or big tech equivalents |
+| Venture capital | Weakest among major economies |
 
 ---
 
@@ -237,7 +258,7 @@ See [[European defense spending]].
 | Nord Stream | Sabotaged |
 | Nuclear | Shut down (policy) |
 
-**Industrial impact:** BASF, chemicals, steel facing competitiveness crisis. Some production moving to US.
+Industrial impact: BASF, chemicals, steel facing competitiveness crisis. Some production moving to US.
 
 ---
 

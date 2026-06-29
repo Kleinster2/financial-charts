@@ -26,7 +26,7 @@ aliases: [Merz]
 | Defense | Leading European military power; €162B ($191B) Bundeswehr by 2029 |
 | Fiscal | Schuldenbremse reform — unlimited defense borrowing |
 | EU debt | Opposes joint European borrowing for defense |
-| Trade | "Made with Europe" over "buy European"; pro-Mercosur |
+| Trade | "Made with Europe" over "buy European"; pro-Mercosur; drug reimbursement is national jurisdiction — declines US-UK-style [[Pharma R&D burden-sharing\|pharma pricing]] deal (Jun 2026) |
 | Labor | Targets part-time work, telephone sick notes (populist supply-side) |
 | France | Frustrated — Mercosur block, FCAS/Dassault, protectionism; criticized France for insufficient defense spending |
 | [[FCAS]] | Cooled on the $115B program; reportedly eyeing domestic fighter jet alternative |
@@ -45,3 +45,8 @@ aliases: [Merz]
 - [[EU-Mercosur agreement]] — champion
 - [[Olaf Scholz]] — predecessor
 - [[Italy]] — Meloni axis on manufacturing/defense
+- [[US Section 301 investigation of Germany drug pricing (2026)]] — Merz's "national jurisdiction" response to the US pharma-pricing probe
+- [[Pharma R&D burden-sharing]] — the doctrine he is pushing back against
+
+### Cross-vault
+- [Geopolitics: Friedrich Merz](obsidian://open?vault=geopolitics&file=Actors%2FFriedrich%20Merz) — Apr 28 alliance-credibility thread, May 7 Gulf airspace-denial read-through
