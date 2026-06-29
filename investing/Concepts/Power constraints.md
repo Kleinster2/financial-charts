@@ -658,6 +658,10 @@ Why it works: co-locating load with generation sidesteps the 7-12 year interconn
 
 *Source: [[Financial Times]], "Chevron moves into power production with Microsoft AI deal" (Stephanie Findlay), Jun 22 2026.*
 
+Jun 26 follow-up: [[Reuters]] reported that [[Chevron]] is considering more US data-center power deals after Project Kilby. Local Texas coverage separately said Project Kilby is Chevron's first data-center colocation opportunity and that Chevron is talking with other data-center developers. That moves the point from one bespoke Microsoft PPA toward a possible oil-major product line: colocated gas generation, hyperscaler offtake, later grid interconnection, and optional solar/storage once the firm-power base is secured.
+
+The watch item is no longer just "can Chevron close Project Kilby?" but "how many Permian packages can Chevron/Joulent/[[Engine No. 1]] repeat before turbine slots, water, permits, emissions controls, or community opposition become the binding constraint?"
+
 ---
 
 *Updated 2026-06-23*

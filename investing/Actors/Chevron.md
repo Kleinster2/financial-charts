@@ -52,6 +52,14 @@ It is a race with [[ExxonMobil]], which is pursuing off-grid Permian gas power t
 
 *Source: [[Financial Times]], "Chevron moves into power production with Microsoft AI deal" (Stephanie Findlay, Houston), Jun 22 2026.*
 
+### Jun 26 follow-up - more data-center power deals
+
+[[Reuters]]' Jun 26 follow-up reported that Chevron is looking at additional US data-center power deals after Project Kilby. Treat this as pipeline confirmation, not a second signed PPA: the disclosed hard capacity is still the 2.67 GW [[Microsoft]] / Project Kilby agreement, while the incremental point is repeatability. Local Texas coverage said Project Kilby is Chevron's first colocation opportunity and that Chevron is in talks with other data-center developers.
+
+Investment read: Chevron is trying to turn [[Permian Basin]] gas, land, water access, turbine procurement, and behind-the-meter execution into a repeatable AI-power product. If the model scales, CVX becomes an option on constrained AI electricity in addition to an oil/LNG major; if it does not, Project Kilby remains a one-off contracted power project.
+
+*Sources: [[Reuters]] via Google News metadata, "Chevron eyes more deals to power US data centers," Jun 26 2026; local Texas coverage on the Pecos data-center agreement, Jun 22 2026.*
+
 ---
 
 ## Business segments
