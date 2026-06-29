@@ -5,7 +5,7 @@ tags: [actor, space, launch, defense, usa, public]
 
 #actor #space #launch #defense #usa #public
 
-**Rocket Lab** — End-to-end space company. Operates the Electron rocket (small-sat launch, 60+ missions), is finishing the medium-lift Neutron vehicle (H2 2026 debut), builds satellites and components through its Space Systems segment, and is moving into national-security prime work via [[Golden Dome]] interceptor contracts, [[Motiv Space Systems]] robotics, and geostationary [[US Space Force]] space-domain-awareness satellites. Founded by [[Peter Beck]] in New Zealand, HQ in Long Beach, CA. The second-most-frequent US orbital launch provider after [[SpaceX]], and the only NASDAQ-listed pure-play space launch + systems company at scale.
+**Rocket Lab** — End-to-end space company. Operates the Electron rocket (small-sat launch, 60+ missions), is finishing the medium-lift Neutron vehicle (H2 2026 debut), builds satellites and components through its Space Systems segment, and is moving into national-security prime work via [[Golden Dome]] interceptor contracts, [[Motiv Space Systems]] robotics, and geostationary [[US Space Force]] space-domain-awareness satellites. Founded by [[Peter Beck]] in New Zealand, HQ in Long Beach, CA. The second-most-frequent US orbital launch provider after [[SpaceX]], and the only NASDAQ-listed pure-play space launch + systems company at scale. In June 2026 it agreed to acquire [[Iridium Communications]] for ~$8.0 billion (see [[Rocket Lab-Iridium acquisition 2026]]) — its largest deal ever, adding an operating LEO constellation, globally licensed L-band spectrum, and ~2.55M subscribers, and moving it into vertically integrated space operations.
 
 ---
 
@@ -121,6 +121,18 @@ The move is smaller than [[Intuitive Machines]] (+15.7%), [[Redwire]] (+8.9%), a
 
 ---
 
+## June 29 2026 — $8B Iridium acquisition (largest deal in company history)
+
+Rocket Lab agreed to acquire [[Iridium Communications]] (NASDAQ: IRDM) for $54.00 per share — $27.00 cash plus RKLB stock per an exchange ratio (collar $67.50-$112.50) — an enterprise value of about $8.0 billion, unanimously approved by both boards and expected to close around mid-2027 subject to an Iridium shareholder vote and regulatory approvals. It is by far the largest acquisition in Rocket Lab's history, dwarfing the [[Motiv Space Systems]], [[GEOST]], and [[SolAero]] tuck-ins.
+
+The deal adds the one layer Rocket Lab did not have: an operating, revenue-generating satellite network. Iridium brings 66 cross-linked LEO satellites with truly global L-band coverage, ~2.55M government / defense / maritime / aviation / IoT subscribers, and — the scarce asset — globally licensed L-band spectrum. That converts Rocket Lab from a launch-and-build company into a vertically integrated operator controlling the stack from rocket to subscriber, the [[SpaceX]] / [[Starlink]] model. It also gives [[Neutron]] a captive replenishment customer and deepens the government-comms franchise that [[Golden Dome]] / SBI opened.
+
+The market endorsed it: RKLB rallied +15.6% ($84.54 → $97.72) on the announcement — unusual for an acquirer, and a vote of confidence in the strategic logic — while IRDM re-rated +26.2% to the offer and the space cohort moved in sympathy ([[AST SpaceMobile]] +20.6%), though rival L-band operator [[Globalstar]] stayed flat, marking this as a Rocket Lab-specific re-rating rather than a sector move. Full deal terms, strategic rationale, and event-tape: [[Rocket Lab-Iridium acquisition 2026]].
+
+*Sources: [Rocket Lab press release, Jun 29 2026](https://www.prnewswire.com/news-releases/rocket-lab-to-acquire-iridium-in-historic-deal-creating-a-fully-vertically-integrated-space-powerhouse-primed-for-growth-302813075.html); [Iridium 8-K](https://www.sec.gov/Archives/edgar/data/0001418819/000110465926078482/tm2619278d1_ex99-1.htm); [RKLB 8-K](https://www.stocktitan.net/sec-filings/RKLB/8-k-rocket-lab-corp-reports-material-event-45990394fdac.html); local `prices_long` June 29 2026.*
+
+---
+
 ## Financials
 
 ![[rocket-lab-fundamentals-chart.png]]
@@ -230,6 +242,7 @@ Neutron is the second piece of the integrated platform — Electron handles dedi
 - [[Iran conflict defense repricing]] — sector backdrop for SBI / war-premium routing
 
 ### Actors
+- [[Iridium Communications]] — pending $8B acquisition target; operating LEO L-band constellation
 - [[SpaceX]] — dominant launch competitor; SpaceX IPO June 2026 is the comparable read-across
 - [[Raytheon]] — SBI partner
 - [[EchoStar]] — satellite operator in the same ecosystem
@@ -245,11 +258,13 @@ Neutron is the second piece of the integrated platform — Electron handles dedi
 - [[Photon]] — satellite bus platform
 
 ### Events
+- [[Rocket Lab-Iridium acquisition 2026]] — Jun 29 2026 $8B acquisition of the Iridium constellation + L-band spectrum
 - [[Space basket rally May 8 2026]] — May 8 cluster move triggered by this Q1 print
 - [[SpaceX IPO 2026]] — June 2026 IPO is the read-across catalyst for the cohort
 - [[2026 Iran conflict market impact]] — defense-sector backdrop
 
 ### M&A
+- [[Iridium Communications]] — definitive agreement Jun 29 2026 (~$8.0B EV; see [[Rocket Lab-Iridium acquisition 2026]]) — largest deal in company history
 - [[Motiv Space Systems]] — definitive agreement May 8 2026
 
 ### People
