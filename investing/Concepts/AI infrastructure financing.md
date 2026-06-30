@@ -337,6 +337,16 @@ Sources:
 
 [[Sarah Friar]] ([[OpenAI]] CFO) described the structure from the inside at [[Liquidity 2026]] (All-In, Jun 2 2026): "what CSPs do for us, in effect, is they shift capex into opex. You pay as you get the revenue... we are riding somewhat on their ability to build and have capex and financing." The stated reason is credit, not preference: "I'm not yet an investment-grade type of entity where I can go get lower-cost debt financing" — so OpenAI rents investment-grade balance sheets ([[Oracle]], [[Microsoft]], [[Amazon]], [[Google]], [[CoreWeave]]) instead of borrowing on its own. The first step back toward owned capex is built-to-suit: a [[SoftBank]] (SB Energy) data center in Texas — "a little bit more capex required there." This is the same structure [[AI infrastructure financing risk]] describes from the outside: the buildout's credit risk concentrates on CSP balance sheets precisely because the anchor customer is sub-investment-grade.
 
+## Demand-side counter: RPO outpacing capex (Baratte, TechStock01, Jun 29)
+
+[[Nicolas Baratte]] (TechStock01, Jun 29 2026) makes the demand-side case against the "AI peak / FCF squeeze → capex cut" framing that drove the late-June drawdown. The valuation point first: AI semis trade at ~17.7x forward earnings (around their average), and hyperscalers at ~21.1x (-1 standard deviation). The rally is earnings growth, not multiple expansion — Micron's Jun 24 blowout is the canonical example. The FCF squeeze is real (combined Alphabet/Amazon/Meta/Microsoft FCF near zero, net cash near zero, debt issuance started), but it sits alongside accelerating cloud revenue (~22% YoY in 2024 → ~35% now), expanding margins, and combined hyperscaler EBITDA around $700B and rising.
+
+The distinctive data point is Remaining Performance Obligations (RPO) — hyperscalers' committed future cloud revenue. Baratte's ratio: $1 of capex used to generate ~$0.5 of committed future revenue; the current ratio is ~$1 capex → ~$3 committed future revenue. Even allowing for a possibly-extended RPO time-horizon and new-product effects, committed future revenues are growing materially faster than capex.
+
+The read-through for the financing map is that the FCF-squeeze "long and variable lag" between capex and revenue is resolving in the hyperscalers' favor: demand is arriving faster than the bear case assumes, which is why debt issuance is absorption rather than distress. This is the demand-side counterpart to the supply-wall threads (Korea $576B, CXMT doubling) ingested the same day — together they frame 2026–27 as a race between demand-pull and supply-delivery rather than a glut forming in a weakening market. The risk the framework does not resolve: RPO is a commitment, not booked revenue, and a demand air-pocket would still leave the debt stack exposed (the [[AI infrastructure financing risk|financing-risk]] counterpoint).
+
+*Source: [[Nicolas Baratte]] / TechStock01, "AI is a fake, AI is a bubble, again? Hyperscalers' committed future revenue (RPO) tells a different story," Jun 29 2026.*
+
 ## Related
 
 - [[AI infrastructure deals]] — detailed capital stacks (10 deals)

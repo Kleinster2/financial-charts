@@ -3,7 +3,7 @@ aliases: [豆包, ByteDance AI]
 ---
 #product-family #ai #china
 
-**Doubao** — ByteDance's AI chatbot. **100M+ DAU**, 159M MAU. China's most popular AI app (passed [[DeepSeek]]). Lowest user acquisition cost of any ByteDance product to reach 100M. Now powering agentic commerce via [[Douyin]].
+**Doubao** — ByteDance's AI chatbot. China's most popular AI app (passed [[DeepSeek]]). 345M MAU / 200M+ DAU (Q1 2026) — exceeds [[Qwen]] + [[DeepSeek]] combined. Lowest user acquisition cost of any ByteDance product to reach 100M. Now powering agentic commerce via [[Douyin]]. The scale story is dominant; the monetization story is the open question (see Monetization reality below).
 
 ---
 
@@ -11,9 +11,9 @@ aliases: [豆包, ByteDance AI]
 
 | Metric | Value |
 |--------|-------|
-| DAU | **100M+** (Dec 2025) |
-| MAU | **159M** (Oct 2025) |
-| China AI rank | **\#1** (passed DeepSeek Aug 2025) |
+| DAU | 100M+ (Dec 2025) |
+| MAU | 159M (Oct 2025) |
+| China AI rank | \#1 (passed DeepSeek Aug 2025) |
 | Global AI rank | \#4 (behind ChatGPT, [[Gemini]], Copilot) |
 | Parent | [[ByteDance]] |
 | Marketing spend | Lowest of any ByteDance 100M DAU product |
@@ -32,7 +32,7 @@ China's AI usage leader — and did it with minimal marketing.
 | Doubao Voice | Dec 2025 | Real-time voice assistant |
 | Doubao Agentic | Dec 2025 | Transaction completion via Douyin |
 
-**Underlying models (Seed family):**
+Underlying models (Seed family):
 
 | Model | Params | Notes |
 |-------|--------|-------|
@@ -51,19 +51,27 @@ ByteDance doesn't publish as much model detail as peers.
 | Feb 2025 | 82M | \#1 China AI app |
 | Aug 2025 | 157M | Passed DeepSeek |
 | Oct 2025 | 159M | 2x nearest competitor |
-| Dec 2025 | **100M DAU** | Milestone with minimal spend |
+| Dec 2025 | 100M DAU | Milestone with minimal spend |
+| Q1 2026 | 345M MAU / 200M+ DAU | Exceeds Qwen + DeepSeek combined ([[Poe Zhao]] / Hello China Tech) |
 
-**vs competitors (Oct 2025):**
+vs competitors (Q1 2026):
 
 | App | MAU |
 |-----|-----|
-| **Doubao** | **159M** |
-| [[DeepSeek]] | 143M |
-| Tencent Yuanbao | 73M |
-| [[Alibaba]] [[Qwen]] | ~100M |
-| Baidu Ernie | — |
+| Doubao | 345M |
+| [[DeepSeek]] | 143M (Oct 2025) |
+| Tencent Yuanbao | 57M (May 2026 data) |
+| [[Alibaba]] [[Qwen]] | 166M (May 2026 data) |
 
-Doubao leads by 2x over \#3.
+Doubao leads by ~2x over its nearest competitor.
+
+---
+
+## Monetization reality (Jun 2026)
+
+The scale story is real; the revenue story is the gap. Per [[Poe Zhao]] / Hello China Tech (Jun 29 2026), Doubao generates less than Rmb 1m/day in revenue (mostly e-commerce commissions) against daily compute costs in the tens of millions of yuan (inference only, excluding training clusters). Running Doubao reportedly costs more than operating all of [[Bilibili]], with less than one-eighth of Bilibili's daily user time — the cost per minute of attention is roughly an order of magnitude higher than legacy consumer internet. Daily GMV sits at ~Rmb 10m spread across 200M DAU, so the conversion from attention to commerce is negligible.
+
+This is the [[Inference economics|consumer-AI-as-cost-center]] extreme: the model that wins China's consumer-AI usage race is the one burning the most compute per yuan of revenue. It frames why [[ByteDance]] began reallocating AI resources toward enterprise services after an April 2026 visit to [[Anthropic]] — the Anthropic model (Claude Code: $1B ARR in 6 months, $2.5B by Feb 2026, ~30M DAU, $965B valuation) inverts the consumer-scale logic by selling developer productivity rather than mass chat.
 
 ---
 
@@ -81,7 +89,7 @@ Doubao leads by 2x over \#3.
 
 ### Voice assistant (Dec 2025)
 
-**ByteDance launched real-time voice capabilities:**
+ByteDance launched real-time voice capabilities:
 - Natural conversation (low latency)
 - ZTE smartphone prototype integration
 - Hands-free operation
@@ -91,7 +99,7 @@ Doubao leads by 2x over \#3.
 
 ## Agentic commerce (Dec 2025)
 
-**Doubao now completes transactions:**
+Doubao now completes transactions:
 
 | Capability | Integration | Status |
 |------------|-------------|--------|
@@ -100,7 +108,7 @@ Doubao leads by 2x over \#3.
 | Food ordering | Douyin local services | In progress |
 | [[Travel]] booking | Douyin | In progress |
 
-**ZTE partnership:**
+ZTE partnership:
 - Prototype smartphone with Doubao pre-installed
 - Voice-first AI assistant
 - Can complete Douyin purchases via voice commands
@@ -121,7 +129,7 @@ See [[Douyin]] for e-commerce context.
 | Recommendation algorithm | Best-in-class discovery |
 | Mobile-first | Optimized for phone use |
 
-**Key insight:** ByteDance didn't need to market Doubao — it leveraged existing distribution.
+Key insight: ByteDance didn't need to market Doubao — it leveraged existing distribution.
 
 ### Technical foundation
 
@@ -136,7 +144,7 @@ See [[Douyin]] for e-commerce context.
 
 ## AI infrastructure
 
-**ByteDance 2026 AI investment:** ~¥160B ($23B) planned for infrastructure.
+ByteDance 2026 AI investment: ~¥160B ($23B) planned for infrastructure.
 
 | Component | Details |
 |-----------|---------|
@@ -159,7 +167,7 @@ See [[ByteDance]] for GPU spending details.
 | [[Baidu]] [[Ernie]]     | Search integration      | Doubao more engaging      |
 | [[ChatGPT]]             | Global leader           | Not available in China    |
 
-**Why Doubao leads:**
+Why Doubao leads:
 1. Distribution (Douyin/ByteDance ecosystem)
 2. Mobile-first design
 3. Agentic commerce integration
@@ -169,13 +177,13 @@ See [[ByteDance]] for GPU spending details.
 
 ## Investment implications
 
-**Not directly investable** — Doubao is a ByteDance product (private).
+Not directly investable — Doubao is a ByteDance product (private).
 
-**Indirect exposure:**
+Indirect exposure:
 - [[NVIDIA]] — $14B GPU order
 - [[SK Hynix]] — [[HBM]] for ByteDance infrastructure
 
-**Thesis implications:**
+Thesis implications:
 - China AI usage consolidating around ByteDance
 - Agentic commerce = real monetization path
 - ByteDance AI spend benefits memory/GPU suppliers

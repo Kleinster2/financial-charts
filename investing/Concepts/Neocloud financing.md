@@ -137,6 +137,29 @@ Sources: [Blackstone May 18 2026 release](https://www.blackstone.com/news/press/
 
 ---
 
+## Valuation framework: neocloud as a spread business (Jason's Chips, Jun 28)
+
+Jason's Chips (Jun 28 2026) frames why neoclouds break normal valuation lenses and what the right one is. The core claim: a neocloud is a corporate wrapper for raising capital and deploying it into compute — structurally a bank, not a software company. Annual capex runs at a large fraction of (sometimes the entirety of) market cap, while revenue grows just as fast, so forward multiples and price-to-book are unstable by construction (the denominator and the book value are both being rebuilt every quarter by fresh capital).
+
+The correct lens is the present value of the spread between return on capital and cost of capital, applied to all the capital the neocloud will ever deploy. Operators underwrite to a mid-to-high-teens unlevered IRR on compute investments over the ~5-year GPU depreciation life — i.e. the contract price on the GPU clears that return above all-in cost. The entire bull-vs-bear question collapses to: is there a durable spread, and is it widening or compressing?
+
+Four sources of spread — two durable (moats), two cyclical (positioning):
+
+| Source | Type | Mechanism |
+|---|---|---|
+| Product / operating excellence | Value-add (moat) | Real cloud + software/API layer commands premium pricing |
+| The people | Value-add (moat) | Customer buys the operator's team and its Nvidia/OEM relationships — certainty of on-time delivery commands a premium |
+| Allocation scarcity | Commodity (cycle) | In a shortage, access to Nvidia allocation is itself the scarce good — economically identical to paying fees for hot-private-company access |
+| Performance surplus | Commodity (cycle / inefficiency) | Each Nvidia gen improves perf ~10x but Nvidia can't raise price 10x (antitrust/revolt risk), so it passes surplus downstream; first recipient captures the most |
+
+Because IRR sits well above cost of capital and demand is effectively infinite (operators report a fresh 500 MW would sell instantly), the business is supply-limited, not demand-limited. Every dollar deployed is positive-NPV, so growth IS intrinsic value: "enterprise value is the present value of future positive NPV projects, not just future cash flows." This is why a neocloud can trade at a "ridiculous" P/B or P/E and still be cheap if the market isn't pricing in an order-of-magnitude compute-base growth.
+
+The framework yields four ways to be a good neocloud — two that widen the spread (product, people) and two that deploy more positive-NPV capital (capital access/cost, construction speed). Construction speed is the most important lever precisely because demand is infinite: the binding constraint is how fast you can physically build. A bad neocloud is a pure commodity middleman — thin product, ordinary execution, expensive capital — whose spread compresses toward cost of capital. The read for the channel-stuffing debate above: even setting aside Nvidia-facilitation, the spread framework says neocloud economics can be genuinely positive in a shortage; the question is how much of the spread is durable (moats) vs cyclical (allocation/performance surplus that compresses as supply loosens).
+
+*Source: Jason's Chips (Jason Starr), "The Finance of Neoclouds," Jun 28 2026 (free re-upload).*
+
+---
+
 ## Implications
 
 For [[NVIDIA]]:

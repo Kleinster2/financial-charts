@@ -105,14 +105,35 @@ IDC H1 2025 data put Volcano Engine at 49.2% MaaS market share by token volume, 
 
 | Metric | Value |
 |--------|-------|
-| Daily tokens (Apr 2026) | **120T** |
+| Daily tokens (Apr 2026) | 120T |
 | Growth | 1,000x since May 2024 launch |
-| MaaS market share (IDC H1 2025) | **49.2%** |
+| MaaS market share (IDC H1 2025) | 49.2% |
 | 2026 MaaS revenue target | >¥10B (raised twice) |
 | Doubao Pro-32K price (post-cut) | ¥0.0008/1K tokens (was ¥0.12) |
 | Global 100T+ daily inference club | OpenAI, Google, ByteDance |
 
 The bet: agent workloads are the volume multiplier. Whoever controls token delivery infrastructure at the lowest marginal cost holds the structural advantage in China's AI economy. ByteDance is playing the commodity game — flood the market with cheap tokens, capture distribution, monetize the ecosystem. See [[China token economy]].
+
+---
+
+## Doubao monetization gap and the enterprise pivot (Jun 2026)
+
+[[Poe Zhao]] / Hello China Tech (Jun 29 2026) makes the unit-economics case that Doubao's consumer scale is not converting to revenue, and that ByteDance has begun reallocating toward enterprise. The disparity is stark:
+
+| Metric | Value |
+|---|---|
+| Doubao MAU (Q1 2026) | 345M (exceeds [[Qwen]] + [[DeepSeek]] combined) |
+| Doubao DAU | >200M |
+| Doubao daily revenue | <Rmb 1m (mostly e-commerce commissions) |
+| Doubao daily compute cost | Tens of millions of yuan (inference only, excl. training clusters) |
+| Daily GMV | ~Rmb 10m across 200M DAU |
+| Comparison | Running Doubao reportedly costs more than operating all of [[Bilibili]], with <1/8 of Bilibili's daily user time |
+
+The cost-per-minute of user attention is roughly an order of magnitude higher than legacy consumer internet, and the e-commerce conversion is negligible — the [[Inference economics|consumer-AI-as-cost-center]] extreme. ByteDance plans to raise 2026 capex above Rmb 200bn (~60% of 2025 profits, per SCMP/LatePost), accelerating a build-out whose consumer centerpiece generates almost no revenue.
+
+The pivot trigger is the [[Anthropic]] contrast. After a ByteDance executive visit to Anthropic around April 2026, ByteDance began reallocating AI resources from consumer products toward enterprise services. The Anthropic model inverts ByteDance's consumer-scale logic: [[Claude Code]] reached $1B ARR in six months and $2.5B by Feb 2026 serving ~30M daily users, and Anthropic's valuation reached $965B — surpassing [[OpenAI]] (≈900M weekly ChatGPT users) by selling enterprise and developer productivity rather than mass consumer chat. The read-through is that ByteDance is testing whether it can build an enterprise/dev revenue engine (the [[Volcano Engine]] MaaS + Lark base) to match its consumer distribution, rather than continuing to subsidize 345M-user consumer chat with single-digit-million-yuan daily revenue. The [[Seedance]] video model (a disputed $2B valuation per Zhao) is the other revenue path, outside the consumer-chat cost trap.
+
+*Source: [[Poe Zhao]] / Hello China Tech, "ByteDance's AI Ledger," Jun 29 2026 (paid; free section).*
 
 ---
 
