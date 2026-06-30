@@ -19,17 +19,18 @@ CXMT is a China-local DRAM capacity hedge because conventional memory is becomin
 |--------|-------|
 | HQ | Hefei, [[China]] |
 | Status | Private, state-backed |
+| DRAM share | ~7.7% in 2025 (world's #4 DRAM maker) ([[Reuters]]/[[UBS]]) |
+| Wafer capacity | ~300K WSPM across Hefei (2 fabs) + Beijing (1 fab); building new Shanghai DRAM plant to roughly double output to ~600K WSPM |
+| Q1 2026 revenue | 50.8B yuan (+700% YoY) |
+| Q1 2026 net profit | 25B yuan (vs 1.6B yuan loss a year earlier) |
+| IPO status | Shanghai STAR Market IPO approved May 2026; aims to raise 29.5B yuan — on track to be one of mainland China's largest listings in years |
 | IPO valuation | Up to ~300B yuan / ~$42B in [[South China Morning Post]] reporting |
-| IPO status | Shanghai IPO plan reported; official SSE/CSRC project page not found in this pass |
-| IPO proceeds target | 20B-40B yuan, with one source around 30B yuan |
-| DRAM share | About 5% by revenue in 2024/2025 reporting; [[SemiAnalysis]]/Barron's projection: 11% of supply in 2025 rising toward 17% by 2028 |
-| Wafer capacity | Public estimates around 170K 300mm WSPM in 2024 and 240K-280K WSPM by late 2025 |
 | Process | DUV-based 10nm-class / reported G4 around 16nm for DDR5 |
 | Product set | DDR4, DDR5, LPDDR4X, LPDDR5/5X; HBM roadmap not yet volume-proven |
 | Policy status | Back on US [[Pentagon]] 1260H Chinese Military Companies list by Jun 2026; not on the US Entity List in accessible public reporting checked for this pass |
 | Backing | Hefei government ecosystem, national funds / [[China semiconductor strategy]]-linked capital; ownership percentages not publicly clear |
 
-*Updated 2026-06-28*
+*Updated 2026-06-29*
 
 ---
 
@@ -109,12 +110,13 @@ Named-customer status from this pass:
 
 | Buyer / channel | Status | Read-through |
 |---|---|---|
+| [[Tencent]] | Confirmed: >20B yuan ($2.94B) multi-year server DRAM supply deal signed Jun 2026 ([[Reuters]], 3 sources) | Largest named commitment; hyperscaler lock-in with a Chinese internet giant ahead of CXMT's IPO |
+| [[Alibaba Cloud]] / [[ByteDance]] / [[Lenovo]] / [[Xiaomi]] | Confirmed major customers per IPO prospectus; CXMT in talks with other Chinese internet firms on similar deals | Broad Chinese-hyperscaler validation, not Tencent-only |
 | [[Apple]] | Reported approval request; shipped products not confirmed | Top-tier validation, but policy-gated. |
 | [[HP]] / [[Dell]] | Reported DRAM qualification; HP reportedly non-US only | PC OEMs are testing China-local optionality. |
 | Acer / Asus | Reported local-sourcing requests via Chinese partners; no actor notes linked here because no direct CXMT shipment was confirmed | The pressure is channel-wide, not Apple-only. |
 | [[Corsair]] | China-market DDR5 kit reportedly used CXMT die | Visible retail validation, limited geopolitical exposure. |
 | [[Huawei]] | HBM customer status not confirmed | Strategic target, not confirmed revenue. |
-| [[Xiaomi]] / [[Alibaba]] | Reported support/backing network; customer status not confirmed | Ecosystem support should not be read as DRAM procurement. |
 
 ---
 
@@ -139,6 +141,18 @@ For CXMT, the Apple angle is validation and constraint at the same time. It prov
 CXMT's reported 2025 revenue surge and share gains validate the domestic-demand side of the story. Public reporting puts 2024 revenue above $3B, later reporting cites 2025 revenue around 55B yuan (~$8B), and [[SemiAnalysis]]/Barron's estimates frame CXMT as potentially moving from roughly 11% of global DRAM supply in 2025 toward 17% by 2028.
 
 The revenue surge validates the bull case: export controls are restricting advanced expansion, but domestic demand from AI, smartphones, PCs, and state-backed self-sufficiency is driving revenue growth on existing capacity. The question is whether growth comes from conventional DRAM inside China or from a real HBM step-change that affects the global AI hardware stack.
+
+---
+
+## Tencent deal and capacity doubling (Jun 2026)
+
+[[Reuters]] reported on Jun 29, 2026 (citing three sources) that CXMT signed a long-term supply agreement with [[Tencent]] worth more than 20 billion yuan ($2.94 billion), covering several years of server DRAM. Two sources put the term at up to three years; a third said up to five. Whether the deal includes CXMT's [[HBM]] was not confirmed. The commitment is the largest named customer win on record for CXMT, and the IPO prospectus confirms [[Alibaba Cloud]], [[ByteDance]], [[Lenovo]], and [[Xiaomi]] as major customers alongside Tencent — so the Tencent deal is the visible tip of a broader Chinese-hyperscaler lock-in pattern, not a one-off.
+
+The same reporting confirmed CXMT is doubling capacity. It currently runs two 12-inch DRAM fabs in Hefei and one in Beijing (~300K wafers/month combined), and has begun building a new DRAM plant in Shanghai alongside its existing Shanghai HBM packaging facility. With the new Shanghai DRAM capacity, CXMT will roughly double wafer output to ~600K WSPM. The caveat is unchanged: CXMT suffered low DDR5 yields in Q1 2026, a reminder that nameplate capacity still overstates economic supply.
+
+The market context is the reason a domestic deal of this size is possible at all. [[UBS]] estimates DRAM contract prices surged ~95% QoQ in Q1 2026, with the memory upcycle forecast to run until at least late 2027 and the global memory market reaching $786B in 2026 and $1.2T in 2027. Hyperscaler lock-in contracts — with price bands and pre-payments, some committing >50% of volumes over 3–5 years — have become standard; the Tencent deal is the Chinese-domestic expression of the same [[Strategic Customer Agreements|strategic-customer-agreement]] pattern [[Micron]] formalized with Western hyperscalers.
+
+*Source: [[Reuters]], "China's CXMT wins $3 billion memory supply deal with Tencent, sources say," Jun 29 2026 (3 anonymous sources; CXMT and Tencent did not comment).*
 
 ---
 

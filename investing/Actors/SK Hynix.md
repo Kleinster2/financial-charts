@@ -219,6 +219,12 @@ The timing is the signal. The broader [[Reuters]] cross-asset graphic was about 
 
 Source: [[Reuters]], [GRAPHIC-Iran war splits global markets into clear winners and losers](https://www.lse.co.uk/news/graphic-iran-war-splits-global-markets-into-clear-winners-and-losers-f7nir94d9i1wz8l.html), May 27 2026.
 
+## June 2026 southwest fab caution (Jun 29)
+
+President [[Lee Jae Myung]]'s $576 billion national chip plan (see [[South Korea AI chip investment drive June 2026]]) put SK Hynix in an awkward position. Chairman Chey Tae-won, flanking Lee at the announcement, said the firm needs more time to finalise a southwest site and secure infrastructure, reminding the audience that "it took us nine years to create a cluster in Yongin" and that "a chip factory requires massive land, power, water and talent." That caution is consistent with Chey's March [[GTC]] line that SK Hynix will "focus on new plants in [[South Korea]] for now" — but it distances SK Hynix from the political timeline of the southwest push even as it remains the plan's central industrial beneficiary.
+
+The stock closed down 1.68% on Jun 29 ([[Reuters]]-reported), a smaller decline than [[Samsung]]'s −4.86%, consistent with SK Hynix's fully-contracted 2026 [[HBM]] supply cushioning the oversupply read. The move extends the [[Nasdaq semiconductor selloff June 2026|Jun 23 memory-glut de-risk]] thread rather than marking a company-specific break.
+
 ## Quick stats
 
 | Metric | Value |

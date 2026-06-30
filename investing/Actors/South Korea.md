@@ -81,6 +81,9 @@ The [[Bank of Korea]] converted that export concentration into the May 2026 poli
 | [[Samsung]] | 450T won ($310B) over 5 years | Pyeongtaek fab, AI data centers |
 | SK Group | 128T won through 2028 | Semiconductors, AI infrastructure |
 | Gyeonggi cluster | 622T won by 2047 | World's largest semiconductor cluster |
+| [[Samsung]] + [[SK Hynix]] (Jun 2026 plan) | 800T won ($518.3B) | Two new fabs each in the southwest; see [[South Korea AI chip investment drive June 2026]] |
+| Southwest local govts (Jun 2026) | 5–20T won | Gwangju + South Jeolla chip clusters |
+| Chungcheong (Jun 2026) | 81T won | Chip packaging cluster near Seoul |
 
 ---
 
@@ -193,7 +196,19 @@ The domestic read-through is bifurcated. Semiconductors, IT, and shipbuilding ar
 
 *Sources: [[Financial Times|FT]], "AI boom outweighs Iran war pain, Korean central bank chief says," May 28 2026: https://www.ft.com/content/2d1c6dbb-aef5-4f08-bc5a-20c0aa3c1149; Bank of Korea, "Monetary Policy Decision & Opening Remarks to the Press Conference (May 28, 2026)": https://www.bok.or.kr/eng/bbs/E0000634/view.do?depth=400069&menuNo=400069&nttId=10098190&oldMenuNo=400007&programType=newsDataEng&relate=Y.*
 
-## Market proxy
+## June 2026 — $576 billion AI-chip national drive
+
+On Jun 29, President [[Lee Jae Myung]] unveiled the country's largest industrial-strategy commitment, anchored on a "triple axis" of semiconductors, [[Physical AI|physical AI]], and data centres. The headline is >$576 billion in chip investment, with [[Samsung]] and [[SK Hynix]] committing 800 trillion won ($518.3 billion) for two new fab sites each in the southwest, plus 81 trillion won for a packaging cluster in Chungcheong and a goal of doubling [[DRAM]] output within five years. AI data-centre targets run to 550 trillion won by 2029 and >1,000 trillion won by 2035, and a robotics cluster is earmarked for Saemangeum where [[Hyundai]] has invested. See [[South Korea AI chip investment drive June 2026]] for the full plan, leadership commentary, and skepticism.
+
+The plan's geographic logic is the binding power constraint. Lee framed Yongin and Pyeongtaek as having "already reached their limits," and pitched the southwest (Gwangju, South Jeolla) as a region with abundant, underused power — the same constraint behind the [[Iran conflict semiconductor energy risk|fab energy-rationing fears]] during the [[2026 Strait of Hormuz crisis|Hormuz disruption]]. The move reframes Korea as an AI-infrastructure sovereign committing capital at [[CHIPS Act]] scale, and is the industrial-policy companion to Lee's [[Korea discount]] governance-reform agenda.
+
+The market's first read was negative on oversupply fear: [[Samsung]] −4.86% and [[SK Hynix]] −1.68% on Jun 29 ([[Reuters]]-reported), extending the [[Nasdaq semiconductor selloff June 2026|Jun 23 memory-glut de-risk]] thread. The durable question is whether the southwest fabs front-run a multi-decade AI-memory scarcity or build ahead of demand that could normalize. Full reaction and read-through in the event note.
+
+*Source: [[Reuters]] (Joyce Lee, Hyunjoo Jin, Heekyong Yang), Jun 29 2026.*
+
+---
+
+
 
 ![[south-korea-price-chart.png]]
 

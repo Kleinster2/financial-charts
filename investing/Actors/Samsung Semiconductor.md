@@ -122,6 +122,14 @@ See [[Can Samsung ever catch TSMC]] for analysis.
 
 ---
 
+## June 2026 Gwangju cluster (Jun 29)
+
+At President [[Lee Jae Myung]]'s Jun 29 national chip-plan announcement (see [[South Korea AI chip investment drive June 2026]]), Samsung chairman Jay Y. Lee confirmed the company has selected Gwangju as the site for its new southwest chip cluster — a commitment of 800 trillion won ($518.3 billion) shared with [[SK Hynix]] for two new fabs each. Samsung's commitment was the more concrete of the two: [[SK Hynix]] chairman Chey Tae-won said his firm still needs time to finalise a site.
+
+The stock closed down 4.86% on Jun 29 ([[Reuters]]-reported), leading the downside among Korean memory names on analyst warnings the investment surge could produce a supply glut. The decline extends the [[Nasdaq semiconductor selloff June 2026|Jun 23 memory-glut de-risk]] thread and lands hardest on Samsung, whose [[HBM]] position (#3, behind SK Hynix and Micron) leaves it more exposed to a scenario where capacity outruns qualification-driven scarcity.
+
+---
+
 ## Related
 
 - [[SK Hynix]] — memory competitor (HBM leader)

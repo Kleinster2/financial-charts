@@ -123,6 +123,16 @@ The investment implication is more nuanced than "WeChat wins." Tencent owns the 
 
 ---
 
+## CXMT memory lock-in (Jun 2026)
+
+[[Reuters]] reported on Jun 29, 2026 (citing three sources) that Tencent signed a long-term DRAM supply agreement with [[ChangXin Memory|CXMT]] worth more than 20 billion yuan ($2.94 billion), covering several years of server DRAM for cloud and AI workloads. The deal is the Chinese-domestic expression of the [[Strategic Customer Agreements|hyperscaler lock-in]] pattern: with DRAM contract prices up ~95% QoQ in Q1 2026 ([[UBS]]) and the memory upcycle forecast to run into late 2027, Tencent is securing domestic supply ahead of CXMT's Shanghai STAR Market IPO. CXMT's IPO prospectus lists Tencent alongside [[Alibaba Cloud]], [[ByteDance]], [[Lenovo]], and [[Xiaomi]] as major customers.
+
+The read-through is dual. On the AI-infrastructure side, it confirms Tencent is treating server memory as a binding constraint on its cloud and Hunyuan/TokenHub buildout, not just GPUs. On the geopolitics side, it shows Chinese hyperscalers routing memory demand to a domestic champion — the same self-sufficiency logic that put CXMT DRAM inside [[Apple]]'s China-iPhone approval request and into PC OEM qualification pipelines.
+
+*Source: [[Reuters]], "China's CXMT wins $3 billion memory supply deal with Tencent, sources say," Jun 29 2026.*
+
+---
+
 ## [[Gaming]] AI
 
 **Unique angle:**

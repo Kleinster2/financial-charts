@@ -676,6 +676,14 @@ Consensus read mid-2026: hardware resilience (the "anti-AI" safe haven) priced a
 
 ![[aapl-fundamentals.png]]
 
+## Tata Electronics breach — iPhone 18 Pro leak (Jun 2026)
+
+The [[World Leaks]] ransomware group posted >200,000 files stolen from Indian supplier [[Tata Electronics]] to the dark web, including pre-release iPhone 18 Pro material: at least six files mapping iPhone 18 Pro components (main-board chips, battery, camera parts) to specific suppliers, hundreds of parts in total, Apple "confidential"-watermarked documents with internal code-names, and drop-test photos dated early 2026. The cache also held older-iPhone component designs, some [[Tesla]] parts, and [[TSMC]]/[[Qualcomm]] documents. [[Reuters]] reviewed the files but has not independently verified authenticity; Apple and Tata did not comment.
+
+The leak is sensitive because it exposes what Apple never discloses publicly — where it dual-sources a part versus where it is sole-sourced, revealing both bargaining leverage and concentration vulnerabilities to rivals, counterfeiters, and its own vendors. It cuts the Apple–Tata trust relationship at the moment Tata is Apple's most important new assembler outside China (India is on track to make 26% of world iPhones in 2026, up from 6% four years ago, per [[Counterpoint]]). Timing pressure: iPhone 18 Pro/Pro Max is slated for September release, and the same week Apple raised iPad/MacBook prices on the [[Memory shortage 2025-2026|memory squeeze]] with iPhone price hikes expected. Full detail in [[Tata Electronics]].
+
+*Source: [[Reuters]] (Munsif Vengattil, Aditya Kalra, Stephen Nellis), Jun 29 2026.*
+
 ## Related
 
 ### Securities
@@ -683,6 +691,8 @@ Consensus read mid-2026: hardware resilience (the "anti-AI" safe haven) priced a
 
 ### Ecosystem
 - [[Apple supply chain]] — supplier-map hub for assembly, components, foundry, rare earths and China+1
+- [[Tata Electronics]] — India iPhone assembler + Gujarat fab; June 2026 World Leaks breach
+- [[World Leaks]] — ransomware group behind the Tata Electronics breach
 - [[TSMC]] — exclusive foundry partner (A-series, M-series)
 - [[NVIDIA]] — peer locking TSMC 2nm capacity
 - [[MP Materials]] — rare earth supplier ($500M deal)

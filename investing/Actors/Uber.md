@@ -177,9 +177,11 @@ Context: Uber trading at 22x forward PE (Bloomberg), above its three-year averag
 
 Robotaxi on Uber platform:
 - Waymo vehicles bookable via Uber app
-- Phoenix deployment (2023)
-- Expanding to more cities
+- Original 2023 deployment was Phoenix (the first pilot market)
+- Now active in **Austin and Atlanta** only — the Phoenix pilot ended Jun 29, 2026; Waymo folded those vehicles back into its own direct Phoenix fleet
 - Uber provides demand, Waymo provides AVs
+
+The Phoenix pilot was deliberately small — Uber called it "an intentionally limited deployment, reaching just over a dozen vehicles dedicated to the program." Uber said it is readying a separate, unnamed AV partnership for Phoenix, consistent with its platform-aggregation strategy of stacking multiple AV suppliers (Waymo, [[WeRide]], [[Aurora]], Motional, Nuro, [[Zoox]]) rather than depending on any single one. The end of the Phoenix pilot follows [[Waymo]]'s Jun 18 recall of ~3,900 robotaxis over a software issue that could route vehicles into closed freeway construction zones.
 
 [[Network effects]]: largest rider base makes Uber preferred AV partner.
 

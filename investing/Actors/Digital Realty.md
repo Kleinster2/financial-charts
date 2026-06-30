@@ -167,6 +167,27 @@ Digital Realty owns significant land for expansion:
 
 ---
 
+## Blackstone JV stake buyout — Northern Virginia (Jun 29, 2026)
+
+DLR agreed to buy out [[Blackstone]]'s interests in three Northern Virginia hyperscale data centers for $3.5 billion in cash and stock ($1.2B cash + $2.3B in DLR shares), with close expected Tue Jun 30. The assets are valued at $7.8 billion including debt and planned capex:
+
+| Asset (Northern Virginia) | Stake acquired | Capacity | Stabilization |
+|---|---|---|---|
+| Two data centers, Manassas | Blackstone's 80% interest | 96 MW each | H1 2027 |
+| One data center, Sterling | 50% interest | 96 MW | H1 2028 |
+
+CFO Matt Mercier said the deal is expected to be accretive to Core FFO per share in each of 2027 and 2028 as development completes and rents commence; CIO Greg Wright described the assets as "fully leased, high-quality hyperscale." The two firms continue as JV partners on remaining Northern Virginia, Paris, and Frankfurt data-center investments — so this is a consolidation of specific JV economics, not an exit by Blackstone from the relationship.
+
+The move strengthens DLR's position in [[Ashburn|Northern Virginia]], the world's largest data-center market, where cloud and AI demand has overwhelmed capacity. It is also a clean illustration of the [[Data center physical layer|physical-bottleneck]] theme: DLR is paying $3.5B to increase ownership of already-leased, already-powered hyperscale square footage rather than wait for ground-up development, because the binding constraint is delivered MW, not capital.
+
+### Market reaction
+
+DLR shares were down 2.4% in extended trading on Jun 29 ([[Reuters]]-reported; extended-session, not yet in regular-session `prices_long`). The modest decline is consistent with a cash-and-stock REIT deal where the financing dilution (≈$2.3B of new equity) offsets the strategic logic — investors are paying for the FFO accretion with near-term share dilution. A full beta-adjusted event-tape was not run given the extended-session-only quote; the regular-session reaction should be logged after the Jun 30 close.
+
+*Source: [[Reuters]] (Jaspreet Singh), "Digital Realty to pay Blackstone $3.5 billion for stake in Virginia data centers," Jun 29 2026.*
+
+---
+
 ## Related
 
 - [[Equinix]] — competitor (DC REIT, retail vs wholesale)

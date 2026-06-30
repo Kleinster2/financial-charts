@@ -63,6 +63,29 @@ Update (FT, Jun 19 2026): the rationing hardened into named per-employee token c
 
 ---
 
+## June 2026: the routing flip and the price-war signal
+
+The May rationing hardened by June into a measurable routing reallocation and the first explicit price-cut signals from the labs. Three data points from a [[Reuters]] round-up (Aditya Soni, Jun 29 2026) and its underlying sources:
+
+| Data point | Figure | Source |
+|---|---|---|
+| Open-source share of tokens routed on [[OpenRouter]] | 65% in June, up from 34% in January | [[Citi]] note |
+| Top-4 most-routed models on OpenRouter | All Chinese ([[DeepSeek]] #1) | [[Citi]] note |
+| Chinese-model pricing | As little as $0.18/MTok vs ~$4 average for top US models | [[Citi]] note |
+| AI coding cost trajectory | To surpass the average developer's salary by 2028 | [[Gartner]] |
+| Tech-budget outlook | 3/4 of executives see budgets rising; ~half project double-digit jumps | [[Gartner]] survey |
+| Open-source capability gap | Closed from >1 year behind to ~4 months behind | Harold Byun, BlueRock |
+
+The demand-side evidence that the bill shock is real and biting: [[Uber]] burned its entire 2026 AI budget in four months after employees rushed to adopt AI coding tools, forcing management to cap usage (Bloomberg, Jun 2); BlueRock's Byun reported customers seeing "a 20% to 30% spike in terms of over-budgeting" after the shift from flat subscriptions to usage-based pricing. The "tokenmaxxing" framing — treating rising consumption as a productivity proxy — inverted into cost governance.
+
+The supply-side response is the price-war signal. [[Palo Alto Networks|Palo Alto Networks']] Nikesh Arora urged labs to "forward price tokens" — charge today at the lower rates tokens are expected to command in a few years. [[Reuters]] reported [[OpenAI]] is weighing significant price cuts, including on token usage, in anticipation of similar moves from [[Anthropic]]. Christopher Brown (Synovus) framed the dynamic as a "price-war dynamic when it comes to OpenAI and Anthropic as they both duke it out for a 'first to public market' IPO dates" — tying the price compression directly to the IPO positioning of both labs. WEKA's Val Bercovici captured the open-source value proposition: "90% as good at 10% of the price."
+
+The read-through for the synthesis tension above is that the router-mediated segmentation is now visible in the routing data itself: OpenRouter traffic has flipped majority-open-source, even as proprietary models still handle the majority of total inference spend (the OpenRouter sample skews developer/startup and toward price-sensitive routing). The Citi $0.18 vs $4 gap is the same 10–30× frontier/open-source spread the May DeepSeek-floor section documented, now with a sharper Chinese concentration at the top of the routing table. The unresolved question is whether OpenAI/Anthropic price cuts defend volume (and compress their own margins toward the 2028 targets) or cede the routine-workload tier to open-source entirely. The IPO positioning makes the trade-off acute: cutting token prices to retain enterprise routing share hits the revenue-growth narrative each lab needs for its public listing.
+
+*Source: [[Reuters]] (Aditya Soni), "Cheaper AI is better: Soaring bills are reshaping how businesses choose models," Jun 29 2026; underlying sources: [[Citi]] note, [[Gartner]], Bloomberg (Uber AI budget), OpenRouter.*
+
+---
+
 ## Training vs inference economics
 
 | | Training | Inference |

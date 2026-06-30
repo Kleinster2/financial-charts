@@ -599,7 +599,23 @@ Behavioral read-through: the rational individual response mirrors the OEM one �
 
 ---
 
-*Updated 2026-06-25*
+## Jun 29, 2026 — China supply-side response: CXMT doubles capacity, Tencent locks in
+
+Two Reuters stories on Jun 29 frame the supply-side answer to the shortage, and both matter for whether the 2027 normalization the incumbents are pricing survives a domestic-Chinese capacity wave.
+
+**CXMT capacity doubling.** [[ChangXin Memory|CXMT]] (world's #4 DRAM maker, ~7.7% share in 2025) is building a new DRAM plant in Shanghai alongside its existing Shanghai HBM packaging facility, which will roughly double its wafer output from ~300K to ~600K WSPM across its Hefei (2 fabs) + Beijing (1 fab) + new Shanghai base. CXMT's Q1 2026 revenue hit 50.8B yuan (+700% YoY) with 25B yuan net profit (vs a 1.6B yuan loss a year earlier). The constraint remains yield: CXMT suffered low DDR5 yields in Q1, so nameplate capacity still overstates economic supply — the same caveat that keeps CXMT a "wedge supplier" rather than a clean cycle-breaker.
+
+**Tencent $2.94B lock-in.** [[Tencent]] signed a multi-year server-DRAM supply deal with CXMT worth >20B yuan, the largest named customer commitment on record for CXMT and the Chinese-domestic expression of the [[Strategic Customer Agreements|hyperscaler lock-in]] pattern [[Micron]] formalized with Western hyperscalers. CXMT's IPO prospectus confirms [[Alibaba Cloud]], [[ByteDance]], [[Lenovo]], and [[Xiaomi]] as major customers alongside Tencent — so Chinese hyperscalers are routing memory demand to a domestic champion.
+
+**UBS market sizing.** [[UBS]] estimates DRAM contract prices surged ~95% QoQ in Q1 2026, forecasts the upcycle running until at least late 2027, and puts the global memory market at $786B in 2026 rising to $1.2T in 2027. Hyperscaler lock-in contracts (price bands, pre-payments, some committing >50% of volumes over 3–5 years) are now standard.
+
+The read-through cuts both ways. The UBS pricing data confirms the scarcity thesis through 2027. But CXMT doubling to 600K WSPM — even at a yield discount — plus Korean capacity coming via the [[South Korea AI chip investment drive June 2026|$576B Lee Jae Myung plan]] (same day) is the supply wall the market began pricing as glut risk on Jun 23 ([[Nasdaq semiconductor selloff June 2026]]). The shortage thesis is intact for 2026–27; the 2028-plus question just got more two-sided.
+
+*Source: [[Reuters]], "China's CXMT wins $3 billion memory supply deal with Tencent, sources say," Jun 29 2026 (CXMT capacity and UBS data from the same report).*
+
+---
+
+*Updated 2026-06-29*
 
 ## Related
 
@@ -608,6 +624,8 @@ Behavioral read-through: the rational individual response mirrors the OEM one �
 - [[Micron]] — beneficiary (same dynamics)
 - [[Qualcomm]] — victim (Q1 FY2026 guidance cut, OEMs cutting builds)
 - [[Export controls]] — driver ([[China]] fabs constrained)
+- [[ChangXin Memory|CXMT]] — China supply-side response (doubling to ~600K WSPM; Tencent lock-in)
+- [[South Korea AI chip investment drive June 2026]] — Korean supply-side response ($576B, same day)
 - [[Memory]] — parent industry hub
 - [[Semiconductors]] — parent semiconductor hub; memory shortage is the cyclical supply shock inside the broader sector
 - [[Memory shortage victims]] — losers (OEMs, consumers)

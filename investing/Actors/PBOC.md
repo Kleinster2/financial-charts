@@ -45,7 +45,8 @@ The multi-objective mandate gives PBOC flexibility but creates ambiguity about p
 | 1-year LPR | 3.00% | Loan Prime Rate, benchmark for most loans |
 | 5-year LPR | 3.50% | Benchmark for mortgages |
 | 1-year MLF | 2.00% | Medium-term Lending Facility, sets LPR floor |
-| 7-day reverse repo | 1.50% | Short-term liquidity rate |
+| 7-day reverse repo | 1.40% | Short-term liquidity rate; China's primary policy rate |
+| Overnight reverse repo | 1.25% (inaugural, Jun 29 2026) | New tool; 15 bps below the 7-day tenor |
 
 LPR held unchanged for 11 consecutive months through Apr 2026.
 
@@ -67,7 +68,7 @@ The practical message is that Beijing still prefers targeted easing and liquidit
 
 | Tool | Tenor | Purpose |
 |------|-------|---------|
-| Reverse repo | 7-day, 14-day | Daily liquidity management |
+| Reverse repo | Overnight (new, Jun 2026), 7-day, 14-day | Daily liquidity management; overnight adds tight control of the shortest end |
 | MLF | 1-year | Medium-term funding for banks |
 | Outright reverse repo | Monthly | Structural liquidity (new tool, 2024) |
 | PSL | Multi-year | Pledged Supplementary Lending for policy banks |
@@ -77,6 +78,16 @@ The practical message is that Beijing still prefers targeted easing and liquidit
 PBOC injected net 1 trillion yuan ($144B) via MLF and outright reverse repo — record monthly injection. Crushed short-term funding costs, with 1-year [[China NCD|NCD]] yields falling to ~1.6%.
 
 Mechanism: Excess liquidity + weak loan demand = banks deploy cash into government bonds, compressing long-end yields.
+
+### Overnight reverse repo debut (Jun 29, 2026)
+
+The PBOC launched overnight reverse repo operations for the first time, offering 300 billion yuan ($44.10 billion) to financial institutions. Sources told [[Reuters]] the inaugural rate was set at 1.25% — 15 basis points below the 7-day tenor (held at 1.40%), which remains China's primary policy rate. The PBOC did not officially announce the overnight rate; analysts read the omission as deliberate. Lynn Song ([[ING]]): by withholding the rate the PBOC "does not want to dilute the signalling effect of the seven-day rate at this point" or signal a rate cut before actual easing. Xing Zhaopeng ([[ANZ]]) framed the overnight rate as "a spread below the seven-day rate, with the gap varying over time."
+
+The structural significance is a gradual shift toward short-term rate control aligned with global peers. Governor [[Pan Gongsheng]] told the Lujiazui Forum earlier in June that the PBOC would increase the variety of overnight reverse repo operations and narrow the range of short-term rates to reduce money-market volatility; the May quarterly monetary policy report pledged to guide overnight rates near the policy rate. The motivation is mechanical: overnight repo accounts for more than 80% of China's interbank repo turnover, so tightening control over the shortest tenor improves monetary-policy transmission through the whole financial system. ING's Song expects the PBOC to eventually move toward an overnight-rate regime akin to the Fed's, but over time.
+
+The read-through is framework evolution, not an easing signal. The PBOC is building the plumbing to steer the overnight rate directly, downplaying longer-tenor policy rates as direct financing (bonds, equities) overtakes bank lending in China's credit allocation. That matters for anyone tracking Chinese rates: the relevant operating target is steadily migrating from the 7-day reverse repo toward the overnight rate, even as the headline 7-day rate is preserved as the signalling anchor for now.
+
+*Source: [[Reuters]], "China debuts overnight reverse repos at 1.25%, sources say," Jun 29 2026.*
 
 ---
 

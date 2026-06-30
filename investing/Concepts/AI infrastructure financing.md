@@ -83,6 +83,7 @@ Problem: Even hyperscalers don't want this on balance sheet. Enter private capit
 | Hyperscaler equity issuance | Mega-cap issuer sells stock / equity-linked securities to fund AI infrastructure and tax/share-compensation mechanics | [[Alphabet equity raise June 2026]] ($85B per FT after upsizing); [[Meta]] exploration |
 | IPO primary equity | Private platform sells public common stock to fund AI compute plus launch/satellite capacity | [[SpaceX IPO 2026]] |
 | Compute-capacity offtake | AI lab or hyperscaler signs multi-year lease for GPU capacity; contract supports utilization but is not sponsor capital | [[SpaceX]] / [[Google Cloud]] Jun. 2026 lease; [[Anthropic]] Colossus capacity |
+| Data-center lease-backed HY note | Note secured by a pre-arranged data-center lease (often to a hyperscaler, sometimes agreed before construction); construction-loan-inspired structures sold to high-yield investors | [[Stingray Compute]] (Cipher Digital) $810M, Jun 2026 — 9× oversubscribed, lease backed by [[Amazon]] |
 
 See [[AI infrastructure deals]] for detailed capital stacks.
 
@@ -249,6 +250,29 @@ The financing implication is that common equity is now both a solution and a vul
 For deal taxonomy, this does not create a new structure. It changes the risk attached to the existing structures: IPO primary equity, hyperscaler equity issuance, convertibles, ATMs, and equity-linked securities all depend on a friendly market window. When that window weakens, the buildout leans harder on debt, private credit, leases, and customer offtake.
 
 *Sources: [FT](https://www.ft.com/content/2929bbd3-1f71-4424-a577-f016c3c65603), Jun. 5 2026; local `prices_long` closes through Jun. 5 2026.*
+
+---
+
+## June 2026 — currency diversification and the lease-backed HY note
+
+A [[Reuters]] round-up (Tatiana Bautzer, Gertrude Chavez-Dreyfuss, Jun 29 2026) marks the point at which AI-debt volume forced two structural shifts: currency diversification to avoid dollar saturation, and a new high-yield structure built around pre-arranged data-center leases.
+
+| Data point | Figure | Source |
+|---|---|---|
+| AI-related share of US IG issuance | ~15% of total IG this year | [[Barclays]] |
+| Hyperscaler 2026 capex | ~$725B, nearly double mid-2025 | [[BNP Paribas]] |
+| 2026 hyperscaler IG debt forecast | $250B | [[BNP Paribas]] |
+| Potential 2026 total IG issuance | >$2T (first time ever) | [[Morgan Stanley]] |
+| Amazon + Alphabet multi-currency bonds (last 12 mo) | $60B across currencies | [[Reuters]]/[[LSEG]] |
+| Amazon euro deal (Mar 2026) | €14.5B / $16.56B, 8-part — largest euro corporate bond ever | [[LSEG]] |
+| Alphabet multi-currency records | Yen, CAD, CHF, GBP all set borrowing records; first 100-year tech bond since 1997 | [[LSEG]] |
+| Alphabet outstanding debt | $100B across six major currencies | Anat Ashkenazi (CFO) |
+
+The new structure is the data-center lease-backed HY note. The marquee example is [[Stingray Compute]] (owned by Cipher Digital, CIFR.O), which issued an $810M note in June backed by its data-center lease to [[Amazon]] — 9× oversubscribed, per Morgan Stanley's Cody Gunsch. Roughly 15 such construction-loan-inspired deals have been sold to high-yield investors since the structure began last year. The economic logic mirrors the [[CoreWeave]] "Box": a pre-arranged hyperscaler lease converts an uncertain future cash flow into securitizable collateral, letting sub-IG operators fund builds that would otherwise sit on a hyperscaler's balance sheet.
+
+Demand still holds despite the supply surge. IG hyperscaler deals have already surpassed their full-year 2025 total and are on pace for BNP Paribas' $250B forecast. Barclays' Scott Schulte flagged the offset: AI debt is ~15% of recent IG issuance but still a small share of total debt in the broader IG credit indices, so concentration risk is rising but not yet index-breaking. The open question (Morgan Stanley's Hodgson) is whether equity issuance — Alphabet's $80–85B raise, Meta's exploration — previews a parallel jump in debt needs, since capex is outrunning operating cash flow (the May FCF-squeeze dynamic above). Jeff Given (Manulife) framed the durability test: demand stays as long as hyperscalers and data centers keep raising spend.
+
+*Source: [[Reuters]] (Tatiana Bautzer, Gertrude Chavez-Dreyfuss), "Banks get creative and look further afield as AI-fueled debt soars," Jun 29 2026; underlying data from [[LSEG]], [[Barclays]], [[BNP Paribas]], [[Morgan Stanley]].*
 
 ---
 

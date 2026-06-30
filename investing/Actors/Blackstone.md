@@ -65,6 +65,8 @@ Blackstone is the largest alternative asset manager — and increasingly an AI i
 - Tangible assets
 - Secular AI demand tailwind
 
+**JV monetization (Jun 29, 2026):** Blackstone sold stakes in three Northern Virginia hyperscale data centers to JV partner [[Digital Realty]] for $3.5B ($1.2B cash + $2.3B DLR stock); the assets are valued at $7.8B including debt and capex. Two Manassas facilities (Blackstone's 80%) and one Sterling facility (50%) total 288 MW of leased hyperscale capacity. The two firms continue as JV partners on remaining Northern Virginia, Paris, and Frankfurt investments — a partial monetization, not an exit. See [[Digital Realty]].
+
 ---
 
 ## Competitive position vs Blue Owl

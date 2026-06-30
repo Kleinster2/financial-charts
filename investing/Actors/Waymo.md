@@ -327,6 +327,19 @@ US pipeline: Nashville (driverless testing started this week), Washington, Detro
 
 ---
 
+## June 2026 — Phoenix Uber pilot ends; 3,900-vehicle recall
+
+Two June developments refined Waymo's deployment and risk profile:
+
+- **Phoenix Uber pilot ended (Jun 29).** [[Uber]] and Waymo ended the 2023 Phoenix robotaxi partnership — Uber's first pilot market with Waymo, deliberately limited to "just over a dozen vehicles." Those vehicles folded back into Waymo's own direct Phoenix fleet, where they remain available via the Waymo app. Waymo is still available on Uber in Austin and Atlanta. Uber said it is readying a separate, unnamed AV partnership in Phoenix, reinforcing its platform-aggregation model of stacking multiple AV suppliers. Phoenix remains Waymo's direct-market stronghold (56.5M driverless miles); the change is a channel rationalization, not a retreat.
+- **Recall of ~3,900 robotaxis (Jun 18).** Waymo recalled nearly 3,900 US robotaxis over a software issue that could cause vehicles to enter a closed freeway construction zone and continue driving. This is a larger and more recent recall than the Austin school-bus-incidents voluntary software fix noted in the world-model section above, and it lands while NHTSA and NTSB are already probing Waymo's safety record.
+
+No material market reaction was reported for either item; both Alphabet (GOOGL) and Uber are large-cap names and the Phoenix pilot was small. The read-through is competitive positioning rather than a tape event — Uber is diversifying AV suppliers, and Waymo is absorbing the operational and reputational cost of scaling software across a multi-thousand-vehicle fleet.
+
+*Sources: [[Reuters]] (Juby Babu), "Uber, Waymo end robotaxi partnership in Phoenix," Jun 29 2026; [[Reuters]] on the Jun 18 recall.*
+
+---
+
 ## Competitive position
 
 | Competitor | Status | Waymo advantage |
