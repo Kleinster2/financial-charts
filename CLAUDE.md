@@ -171,6 +171,7 @@ Docs are the source of truth for workflow rules. Memory is for context that help
 | Topic | Location |
 |-------|----------|
 | Workflow architecture, vault scope, skill-parity model | `WORKFLOWS.md` |
+| Headless / unattended skill scheduling (OS task, two-stage wrapper) | `docs/headless-scheduling.md` |
 | Chart API, forecasts, data setup | `docs/chart-api.md` |
 | Note completion checklist | `docs/note-checklist.md` |
 | News search, verification, sourcing | `docs/research-workflow.md` |

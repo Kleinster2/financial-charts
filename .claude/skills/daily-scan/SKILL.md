@@ -119,7 +119,7 @@ Same as `/newsletter`: analytical, structural, tensions not market reads, exact 
 
 ## Scheduling
 
-Two ways to run on a schedule; pick by whether it must fire while Claude is closed.
+Two ways to run on a schedule; pick by whether it must fire while Claude is closed. Full reference: `docs/headless-scheduling.md`.
 
 Unattended (recommended) — an OS scheduler launches its own headless Claude, so it does not depend on a REPL being open:
 - Invocation: `claude -p "/daily-scan …" --permission-mode bypassPermissions --disallowedTools "Bash(git commit:*)" "Bash(git push:*)"`, run from the repo root with stdin redirected from null. `bypassPermissions` is mandatory (`-p` has no TTY to answer a permission prompt, so an unauthorized tool call dead-ends the run) but it also green-lights `git push`; the `--disallowedTools` deny-list stops the agent from committing or pushing the working tree on its own (deny overrides bypass).
