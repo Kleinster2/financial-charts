@@ -96,9 +96,9 @@ Fully driverless operations began Feb 12 2026 — Waymo's most cost-effective ha
 
 Key upgrades despite fewer sensors:
 - **17-megapixel camera** — generation ahead in resolution, dynamic range, low-light sensitivity
-- **Custom lidar chips** and optical components designed and built in California
-- **Short-range lidars** provide centimeter-scale accuracy for pedestrians, car doors, urban obstacles
-- Surround view up to **500 meters**, day and night
+- Custom lidar chips and optical components designed and built in California
+- Short-range lidars provide centimeter-scale accuracy for pedestrians, car doors, urban obstacles
+- Surround view up to 500 meters, day and night
 - External audio receivers (EARs) retained
 
 ### Weather resilience
@@ -129,7 +129,7 @@ Designed as platform-agnostic — one Driver, multiple vehicle form factors:
 
 ### Manufacturing
 
-Production ramping at Waymo's autonomous vehicle factory in Mesa/Metro Phoenix ([[Magna]] partnership). Scaling toward capacity of **tens of thousands of units per year**.
+Production ramping at Waymo's autonomous vehicle factory in Mesa/Metro Phoenix ([[Magna]] partnership). Scaling toward capacity of tens of thousands of units per year.
 
 ### Competitive comparison (per-ride economics)
 
@@ -317,13 +317,13 @@ Co-CEO Tekedra Mawakana outlined scale targets and international expansion:
 
 US pipeline: Nashville (driverless testing started this week), Washington, Detroit, Las Vegas, San Diego, Denver — all planned with [[Lyft]] partnership.
 
-**London:** Testing in 30+ of 60 boroughs (~60% of city). Partnership with [[Moove]] for fleet operations. UK regulators described as "forward-leaning." If Labour government passes AV rules, commercial driverless service could launch this year — potentially the largest citywide deployment from start.
+London: Testing in 30+ of 60 boroughs (~60% of city). Partnership with [[Moove]] for fleet operations. UK regulators described as "forward-leaning." If Labour government passes AV rules, commercial driverless service could launch this year — potentially the largest citywide deployment from start.
 
-**Tokyo:** Partnering with local taxi champions ([[Nihon Kotsu]], Go) — positioning autonomy as gradual evolution within trusted institutions.
+Tokyo: Partnering with local taxi champions ([[Nihon Kotsu]], Go) — positioning autonomy as gradual evolution within trusted institutions.
 
-**Federal AV framework:** Mawakana advocated for US federal standards with safety-based and transparency requirements. NYC remains blocked — no rules allowing removal of human operator. Organic "I want Waymo" campaigns emerging in cities where service isn't available.
+Federal AV framework: Mawakana advocated for US federal standards with safety-based and transparency requirements. NYC remains blocked — no rules allowing removal of human operator. Organic "I want Waymo" campaigns emerging in cities where service isn't available.
 
-**On Tesla:** Defended multi-sensor approach but did not rule out future sensor stack trimming for cost.
+On Tesla: Defended multi-sensor approach but did not rule out future sensor stack trimming for cost.
 
 ---
 
@@ -331,8 +331,8 @@ US pipeline: Nashville (driverless testing started this week), Washington, Detro
 
 Two June developments refined Waymo's deployment and risk profile:
 
-- **Phoenix Uber pilot ended (Jun 29).** [[Uber]] and Waymo ended the 2023 Phoenix robotaxi partnership — Uber's first pilot market with Waymo, deliberately limited to "just over a dozen vehicles." Those vehicles folded back into Waymo's own direct Phoenix fleet, where they remain available via the Waymo app. Waymo is still available on Uber in Austin and Atlanta. Uber said it is readying a separate, unnamed AV partnership in Phoenix, reinforcing its platform-aggregation model of stacking multiple AV suppliers. Phoenix remains Waymo's direct-market stronghold (56.5M driverless miles); the change is a channel rationalization, not a retreat.
-- **Recall of ~3,900 robotaxis (Jun 18).** Waymo recalled nearly 3,900 US robotaxis over a software issue that could cause vehicles to enter a closed freeway construction zone and continue driving. This is a larger and more recent recall than the Austin school-bus-incidents voluntary software fix noted in the world-model section above, and it lands while NHTSA and NTSB are already probing Waymo's safety record.
+- Phoenix Uber pilot ended (Jun 29). [[Uber]] and Waymo ended the 2023 Phoenix robotaxi partnership — Uber's first pilot market with Waymo, deliberately limited to "just over a dozen vehicles." Those vehicles folded back into Waymo's own direct Phoenix fleet, where they remain available via the Waymo app. Waymo is still available on Uber in Austin and Atlanta. Uber said it is readying a separate, unnamed AV partnership in Phoenix, reinforcing its platform-aggregation model of stacking multiple AV suppliers. Phoenix remains Waymo's direct-market stronghold (56.5M driverless miles); the change is a channel rationalization, not a retreat.
+- Recall of ~3,900 robotaxis (Jun 18). Waymo recalled nearly 3,900 US robotaxis over a software issue that could cause vehicles to enter a closed freeway construction zone and continue driving. This is a larger and more recent recall than the Austin school-bus-incidents voluntary software fix noted in the world-model section above, and it lands while NHTSA and NTSB are already probing Waymo's safety record.
 
 No material market reaction was reported for either item; both Alphabet (GOOGL) and Uber are large-cap names and the Phoenix pilot was small. The read-through is competitive positioning rather than a tape event — Uber is diversifying AV suppliers, and Waymo is absorbing the operational and reputational cost of scaling software across a multi-thousand-vehicle fleet.
 

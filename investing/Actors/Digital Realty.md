@@ -41,13 +41,13 @@ Digital Realty is the \#2 data center REIT, focused on larger deployments:
 
 ## Business model
 
-**Wholesale colocation:**
+Wholesale colocation:
 - Large deployments (megawatts, not racks)
 - Fewer, larger customers
 - Hyperscaler focus
 - Build-to-suit capabilities
 
-**Contrast with [[Equinix]]:**
+Contrast with [[Equinix]]:
 - Equinix = retail colo + interconnection
 - Digital Realty = wholesale + hyperscale
 - Less interconnection revenue
@@ -57,13 +57,13 @@ Digital Realty is the \#2 data center REIT, focused on larger deployments:
 
 ## AI exposure
 
-**Better positioned than Equinix for AI:**
+Better positioned than Equinix for AI:
 - Wholesale model = higher power density
 - Hyperscaler relationships
 - Build-to-suit for AI workloads
 - Land bank for expansion
 
-**Hyperscaler customers:**
+Hyperscaler customers:
 - Major cloud providers
 - AI companies
 - Enterprise at scale
@@ -94,7 +94,7 @@ Digital Realty owns significant land for expansion:
 
 ## Power strategy
 
-**Addressing [[Power constraints]]:**
+Addressing [[Power constraints]]:
 - Securing utility commitments
 - On-site generation exploration
 - Renewable energy procurement
@@ -115,14 +115,14 @@ Digital Realty owns significant land for expansion:
 
 ## Investment case
 
-**Bull:**
+Bull:
 - Hyperscale = AI relevant
 - Land bank for growth
 - Public REIT (liquid)
 - Dividend yield
 - Build-to-suit relationships
 
-**Bear:**
+Bear:
 - Less differentiated than Equinix
 - Hyperscale = commoditized?
 - Power constraints limit growth
@@ -155,7 +155,7 @@ Digital Realty owns significant land for expansion:
 | Metric | Value |
 |--------|-------|
 | Ticker | DLR |
-| Market cap | **$53B** (Jan 2026) |
+| Market cap | $53B (Jan 2026) |
 | Stock price | ~$162 (Jan 2026) |
 | Data centers | 300+ facilities |
 | Footprint | 40M sq ft, 25+ countries |

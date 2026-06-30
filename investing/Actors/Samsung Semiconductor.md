@@ -22,7 +22,7 @@ aliases: [Samsung Foundry, Samsung Electronics Semiconductor]
 
 ## Foundry struggles
 
-**Losing ground to TSMC:**
+Losing ground to TSMC:
 
 | Node | [[Samsung]] status |
 |------|----------------|
@@ -30,7 +30,7 @@ aliases: [Samsung Foundry, Samsung Electronics Semiconductor]
 | 2nm | Targeting 2025, behind schedule |
 | [[Advanced packaging]] | Behind TSMC CoWoS |
 
-**Key problems:**
+Key problems:
 - Yield issues at advanced nodes
 - Customer defections ([[Qualcomm]], NVIDIA)
 - TSMC moat widening
@@ -42,21 +42,21 @@ See [[Can Samsung ever catch TSMC]] for analysis.
 
 ## Memory dominance
 
-**Still the memory king:**
+Still the memory king:
 
 | Product | Position |
 |---------|----------|
 | DRAM | \#1 market share |
 | NAND | \#2 (SK Hynix gaining) |
-| HBM | **\#3** — struggling |
+| HBM | \#3 — struggling |
 
-**HBM problem:** SK Hynix dominates AI memory. [[Samsung]] late, quality issues with NVIDIA qualification.
+HBM problem: SK Hynix dominates AI memory. [[Samsung]] late, quality issues with NVIDIA qualification.
 
 ---
 
 ## HBM crisis
 
-**Critical for AI thesis:**
+Critical for AI thesis:
 - HBM is memory for AI accelerators
 - [[SK Hynix]] supplies most HBM to NVIDIA
 - [[Samsung]] struggling for NVIDIA qualification
@@ -74,20 +74,20 @@ See [[Can Samsung ever catch TSMC]] for analysis.
 | [[Google]] | TPU foundry (some) |
 | [[NVIDIA]] | Memory (limited HBM) |
 
-**Lost:** Many customers defected to TSMC due to yield issues.
+Lost: Many customers defected to TSMC due to yield issues.
 
 ---
 
 ## Investment case
 
-**Bull:**
+Bull:
 - Memory cycle upturn
 - HBM qualification progress
 - Foundry investment ($300B+ over decade)
 - Vertical integration advantage
 - Undervalued vs peers
 
-**Bear:**
+Bear:
 - Foundry gap widening vs TSMC
 - HBM behind SK Hynix
 - Yield problems persistent
@@ -107,7 +107,7 @@ See [[Can Samsung ever catch TSMC]] for analysis.
 | HBM share | ~15% (vs SK Hynix ~50%) |
 | Foundry capex | $300B+ planned over decade |
 
-**Note:** [[Samsung]] Semiconductor is division of [[Samsung]] Electronics — includes mobile, display, appliances.
+Note: [[Samsung]] Semiconductor is division of [[Samsung]] Electronics — includes mobile, display, appliances.
 
 ---
 

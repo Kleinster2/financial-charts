@@ -37,45 +37,45 @@ Tencent is [[China]]'s largest company by market cap and a major AI investor:
 
 | Segment | Details |
 |---------|---------|
-| **WeChat** | 1.3B+ MAU, super-app, payments |
-| **[[Gaming]]** | World's largest (Riot, Supercell stakes) |
-| **Cloud** | \#2 [[China]], enterprise focus |
-| **[[Fintech]]** | WeChat Pay, WeSure |
-| **Investments** | Massive portfolio (Epic, [[Spotify]], etc.) |
+| WeChat | 1.3B+ MAU, super-app, payments |
+| [[Gaming]] | World's largest (Riot, Supercell stakes) |
+| Cloud | \#2 [[China]], enterprise focus |
+| [[Fintech]] | WeChat Pay, WeSure |
+| Investments | Massive portfolio (Epic, [[Spotify]], etc.) |
 
 ---
 
 ## Tencent Cloud
 
-**[[China]]'s \#2 cloud:**
+[[China]]'s \#2 cloud:
 - ~20% market share
 - Behind [[Alibaba]] (~35%)
 - Ahead of Huawei Cloud, Baidu
 - [[Gaming]]/entertainment focus
 
-**AI infrastructure:**
+AI infrastructure:
 - Building GPU clusters
 - Export control constrained
 - H200 access (not Blackwell)
 
 ---
 
-## AI leadership (Jan 2026)**Yao Shunyu** joined from [[OpenAI]] to lead Tencent AI:- Previously at OpenAI- Now heading AI for [[China]]'s most valuable company- Linking Yuanbao assistant with WeChat chat history- Focus: long-term memory, self-learning bottlenecks---
+## AI leadership (Jan 2026)Yao Shunyu joined from [[OpenAI]] to lead Tencent AI:- Previously at OpenAI- Now heading AI for [[China]]'s most valuable company- Linking Yuanbao assistant with WeChat chat history- Focus: long-term memory, self-learning bottlenecks---
 ## Hunyuan AI
 
-**Tencent's LLM:**
+Tencent's LLM:
 - Hunyuan (混元) model
 - Integrated into WeChat, QQ
 - Enterprise AI applications
 - Less hyped than competitors
 
-**Vs peers:**
+Vs peers:
 | Company | Model | Strength |
 |---------|-------|----------|
 | [[ByteDance]] | [[Doubao]] | [[Consumer]] apps |
 | [[Alibaba]] | [[Qwen]] | Cloud integration |
 | [[Baidu]] | [[Ernie]] | Search, early mover |
-| **Tencent** | Hunyuan | Distribution (WeChat) |
+| Tencent | Hunyuan | Distribution (WeChat) |
 
 ---
 
@@ -91,9 +91,9 @@ Tencent is doubling AI investment to $5.2B. Consumer traction is already visible
 |--------|-------|
 | TokenHub rebrand | Mar 27, 2026 |
 | Token Plan models | [[Hunyuan]] + [[DeepSeek]] + [[MiniMax]] (single API) |
-| AI investment | **$5.2B** (doubling) |
-| Yuanbao DAU | **50M** (Feb 2026) |
-| Yuanbao MAU | **114M** (Feb 2026) |
+| AI investment | $5.2B (doubling) |
+| Yuanbao DAU | 50M (Feb 2026) |
+| Yuanbao MAU | 114M (Feb 2026) |
 | Strategy | Neutral aggregator — model-agnostic distribution |
 
 See [[China token economy]].
@@ -135,7 +135,7 @@ The read-through is dual. On the AI-infrastructure side, it confirms Tencent is 
 
 ## [[Gaming]] AI
 
-**Unique angle:**
+Unique angle:
 - World's largest gaming company
 - AI for game development
 - NPCs, content generation
@@ -145,12 +145,12 @@ The read-through is dual. On the AI-infrastructure side, it confirms Tencent is 
 
 ## Export control impact
 
-**Same constraints as other [[China]] hyperscalers:**
+Same constraints as other [[China]] hyperscalers:
 - H200 access (approved Dec 2025)
 - No Blackwell
 - Widening gap vs US competitors
 
-**Response:**
+Response:
 - Custom silicon exploration
 - Domestic chip partnerships ([[Huawei]] [[Ascend]]?)
 
@@ -158,7 +158,7 @@ The read-through is dual. On the AI-infrastructure side, it confirms Tencent is 
 
 ## Investment portfolio
 
-**Strategic investments globally:**
+Strategic investments globally:
 - Epic Games (Fortnite)
 - Riot Games (League of Legends) — 100% owned
 - Supercell — majority owned
@@ -171,14 +171,14 @@ Tencent is also a major tech investor, not just operator.
 
 ## Investment case
 
-**Bull:**
+Bull:
 - WeChat = irreplaceable distribution
 - [[Gaming]] = cash cow
 - Cloud growing
 - Depressed valuation vs US peers
 - Investment portfolio value
 
-**Bear:**
+Bear:
 - [[China]] regulatory overhang
 - [[Gaming]] restrictions (minors)
 - Export controls limit AI
@@ -197,7 +197,7 @@ Tencent is also a major tech investor, not just operator.
 | WeChat MAU | 1.3B+ |
 | Cloud share | Legacy all-cloud estimate ~20%; public [[IaaS]] #5 / 8% in May 2026 data cited by [[Hello China Tech]] |
 | AI model | [[Hunyuan]] (via TokenHub) |
-| AI investment | **$5.2B** (doubling) |
+| AI investment | $5.2B (doubling) |
 | Yuanbao usage | 57.35M MAU in May 2026 third-party data cited by [[Hello China Tech]]; older Feb 2026 figures in this note should be treated as a separate claim |
 
 *Updated 2026-04-07*
