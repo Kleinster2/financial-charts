@@ -68,7 +68,21 @@ The cross-linked architecture (satellites relay to each other, not just to groun
 
 ## Financials
 
-Detailed income-statement history is a pending Alpha Vantage backfill — IRDM is not yet in `income_statement_*`; run `python fetch_fundamentals.py IRDM`, then generate the standard fundamentals + Sankey charts. The investable economics through close are deal-defined: $54.00/share (~$8.0B enterprise value), $27.00 cash + [[Rocket Lab]] stock (exchange ratio, collar $67.50-$112.50), expected to close ~mid-2027. Iridium's standalone value rests on the ~2.55M-subscriber recurring base (government / defense-weighted) and globally licensed L-band spectrum.
+![[iridium-communications-fundamentals-chart.png]]
+*Revenue and net income, FY2021-2025 (local fundamentals data).*
+
+![[iridium-communications-sankey.png]]
+*Income-statement Sankey — latest fiscal year revenue-to-bottom-line flow.*
+
+| Fiscal year | Revenue | Operating income (margin) | Net income (margin) |
+|---|---:|---:|---:|
+| FY2025 | $872M | $236M (27.1%) | $114M (13.1%) |
+| FY2024 | $831M | $203M (24.4%) | $113M (13.6%) |
+| FY2023 | $791M | $119M (15.0%) | $15M (1.9%) |
+| FY2022 | $721M | $77M (10.7%) | $9M (1.2%) |
+| FY2021 | $614M | $46M (7.5%) | -$9M (-1.5%) |
+
+Revenue compounded ~9%/yr (FY2021 $614M → FY2025 $872M) while operating margin expanded from 7.5% to 27.1% and the business swung from a net loss to $114M of net income — the recurring, government-weighted subscriber base (~2.55M) and licensed L-band spectrum throwing off durable, expanding cash flow. That profile is what [[Rocket Lab]] paid ~$8.0B (~9x trailing revenue) to own; deal economics ($54.00/share, $27 cash + RKLB stock, collar $67.50-$112.50, close ~mid-2027) are in [[Rocket Lab-Iridium acquisition 2026]]. Market data and the price chart live in [[Iridium Communications securities note]].
 
 ---
 

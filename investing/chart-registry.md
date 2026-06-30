@@ -357,6 +357,12 @@ charts:
     skip: true
   sk-telecom-sankey.png:
     skip: true
+  iridium-communications-fundamentals-chart.png:
+    skip: true
+  iridium-communications-sankey.png:
+    skip: true
+  irdm-price-chart.png:
+    skip: true
   skm-vs-ewy.png:
     tickers: SKM,EWY
     normalize: true
