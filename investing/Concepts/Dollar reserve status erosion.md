@@ -30,7 +30,7 @@ The IMF figure is the standard for reserve-currency composition citations. The B
 
 ## The acceleration (2022-2026)
 
-The decline was gradual for two decades (~65% → ~55%), then fell off a cliff. The inflection point was clear: **February 2022**, when the US and allies froze ~$300B in Russian central bank reserves after the Ukraine invasion.
+The decline was gradual for two decades (~65% → ~55%), then fell off a cliff. The inflection point was clear: February 2022, when the US and allies froze ~$300B in Russian central bank reserves after the Ukraine invasion.
 
 This told every central bank on Earth: dollar reserves can be weaponized. Countries that might one day find themselves on the wrong side of US foreign policy began diversifying urgently.
 
@@ -39,15 +39,17 @@ This told every central bank on Earth: dollar reserves can be weaponized. Countr
 ### 1. Weaponization of the dollar
 Freezing Russia's reserves was unprecedented — a nuclear option that fundamentally changed the calculus. [[China]] (~$3T in reserves), [[Saudi Arabia]], India, and others saw their own vulnerability. The message: dollar reserves are only safe if you stay aligned with Washington.
 
+[[Pierre-Olivier Gourinchas]], the outgoing [[IMF]] chief economist, framed this as a sequencing problem in June 2026: a world that fragments "on the trade side" eventually fragments "on the financial side" too. The dollar's pre-eminence has been "a source of stability," but in his read weaponization "is what creates the dynamics to move away from it" — the push to build parallel payment systems, rails, and infrastructure. Trade fragmentation is the visible front; the financial leg is the slower, larger rupture it sets up. This is the financial channel of [[Geoeconomic fragmentation]].
+
 ### 2. Central bank gold accumulation
 Central banks bought record gold in 2022 (~1,136 tonnes), 2023 (~1,037t), and 2024 (~1,000t+). [[China]]'s PBOC, Poland, Turkey, and India were the largest buyers. Gold can't be frozen, sanctioned, or debased by fiscal policy.
 
 ### 3. Bilateral trade in local currencies
-- **China-Russia**: trade settled in yuan/rubles since 2022
-- **China-Saudi Arabia**: yuan-denominated oil sales (the "petroyuan")
-- **India-Russia**: rupee/ruble settlements for oil
-- **BRICS**: push for common settlement mechanisms, New Development Bank lending in local currencies
-- **China-Brazil**: direct BRL/CNY trade settlement
+- China-Russia: trade settled in yuan/rubles since 2022
+- China-Saudi Arabia: yuan-denominated oil sales (the "petroyuan")
+- India-Russia: rupee/ruble settlements for oil
+- BRICS: push for common settlement mechanisms, New Development Bank lending in local currencies
+- China-Brazil: direct BRL/CNY trade settlement
 
 ### 4. US fiscal credibility erosion
 - National debt >$35T, debt/GDP >120%
@@ -62,24 +64,24 @@ Every new sanctions regime — Iran, Russia, Venezuela, now [[Chile]] officials 
 
 | Currency/Asset | Share of reserves | Trend |
 |---------------|------------------|-------|
-| **USD** | 56.77% (IMF COFER Q4 2025) / ~41% (Bloomberg Intelligence broader measure) | Declining steadily, post-2022 acceleration |
-| **Euro** | ~20% | Stable |
-| **Gold** | Growing (non-currency) | Record central bank buying |
-| **Yuan (CNY)** | ~2-3% | Growing slowly, capital controls limit uptake |
-| **Yen** | ~5% | Stable |
-| **GBP** | ~5% | Stable |
-| **Other** | ~25% | AUD, CAD, CHF, SEK — fragmenting |
+| USD | 56.77% (IMF COFER Q4 2025) / ~41% (Bloomberg Intelligence broader measure) | Declining steadily, post-2022 acceleration |
+| Euro | ~20% | Stable |
+| Gold | Growing (non-currency) | Record central bank buying |
+| Yuan (CNY) | ~2-3% | Growing slowly, capital controls limit uptake |
+| Yen | ~5% | Stable |
+| GBP | ~5% | Stable |
+| Other | ~25% | AUD, CAD, CHF, SEK — fragmenting |
 
-The key insight: the dollar isn't being replaced by one alternative — it's being replaced by **many**. The shift is from dollar hegemony to a multi-polar reserve system. No single currency needs to challenge the dollar; they just collectively reduce its share.
+The key insight: the dollar isn't being replaced by one alternative — it's being replaced by many. The shift is from dollar hegemony to a multi-polar reserve system. No single currency needs to challenge the dollar; they just collectively reduce its share.
 
 ## Why it matters for markets
 
-- **Gold**: structural bid from central banks diversifying reserves — bullish
-- **US Treasuries**: lower foreign demand at the margin → higher yields → higher borrowing costs
-- **Dollar index**: long-term weakening pressure, though can still strengthen cyclically (rate differentials)
-- **Commodities**: if priced less exclusively in dollars, commodities could decouple from USD movements
-- **Emerging markets**: benefit from reduced dollar dependency and local currency borrowing
-- **US exorbitant privilege**: America's ability to borrow cheaply in its own currency, run persistent deficits, and fund military spending through foreign savings — all depend on reserve status
+- Gold: structural bid from central banks diversifying reserves — bullish
+- US Treasuries: lower foreign demand at the margin → higher yields → higher borrowing costs
+- Dollar index: long-term weakening pressure, though can still strengthen cyclically (rate differentials)
+- Commodities: if priced less exclusively in dollars, commodities could decouple from USD movements
+- Emerging markets: benefit from reduced dollar dependency and local currency borrowing
+- US exorbitant privilege: America's ability to borrow cheaply in its own currency, run persistent deficits, and fund military spending through foreign savings — all depend on reserve status
 
 ## The Treasury ownership shift
 
@@ -106,7 +108,7 @@ The debate is political as much as economic: Norwegian parliament members have p
 
 57% (IMF COFER) — or 41% by Bloomberg's broader measure — is still dominant; nothing else is close. The euro is at ~20% (COFER), constrained by no fiscal union. The yuan is at ~2% and constrained by capital controls. Crypto is negligible. The dollar still denominates ~88% of FX transactions and ~40% of international trade. Reserve status erodes slowly, then quickly — but we may still be in the "slowly" phase.
 
-The real risk isn't replacement — it's **marginal diversification**. If central banks shift from 60% USD to 40% USD, that's $2-3T in selling over a decade. Not catastrophic, but it means the US can't take infinite demand for Treasuries for granted.
+The real risk isn't replacement — it's marginal diversification. If central banks shift from 60% USD to 40% USD, that's $2-3T in selling over a decade. Not catastrophic, but it means the US can't take infinite demand for Treasuries for granted.
 
 ## Related
 
@@ -118,3 +120,5 @@ The real risk isn't replacement — it's **marginal diversification**. If centra
 - [[Gold]]
 - [[IMF]] — publisher of the canonical COFER reserve data
 - [[Iran conflict FX dynamics]]
+- [[Geoeconomic fragmentation]] — the umbrella; this note is its financial channel
+- [[Pierre-Olivier Gourinchas]] — the trade-to-finance sequencing framing (Jun 2026)

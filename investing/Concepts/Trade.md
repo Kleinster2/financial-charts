@@ -4,7 +4,7 @@
 
 Hub for trade policy, tools, and geopolitical tensions.
 
-For FTA comparisons and terms, see [[Trade Agreements]].
+For FTA comparisons and terms, see [[Trade Agreements]]. This is the trade channel of [[Geoeconomic fragmentation]] — the macro umbrella linking trade barriers to the parallel splintering of capital flows, technology diffusion, and the dollar system.
 
 ---
 
@@ -46,14 +46,14 @@ For FTA comparisons and terms, see [[Trade Agreements]].
 
 | Concept | Description |
 |---------|-------------|
-| **Rules of origin** | % content required for preferential treatment |
-| **MFN** | Most-favored nation (WTO baseline) |
-| **Negative list** | Everything open unless excluded |
-| **Positive list** | Only listed sectors open |
-| **Mixed agreement** | [[EU]] + national competence (requires all parliaments) |
-| **Cumulation** | Count inputs from partner countries |
-| **TRQ** | Tariff-rate quota (low tariff up to limit) |
-| **GIs** | Geographic indications (Champagne, Parma) |
+| Rules of origin | % content required for preferential treatment |
+| MFN | Most-favored nation (WTO baseline) |
+| Negative list | Everything open unless excluded |
+| Positive list | Only listed sectors open |
+| Mixed agreement | [[EU]] + national competence (requires all parliaments) |
+| Cumulation | Count inputs from partner countries |
+| TRQ | Tariff-rate quota (low tariff up to limit) |
+| GIs | Geographic indications (Champagne, Parma) |
 
 ---
 
@@ -66,7 +66,7 @@ For FTA comparisons and terms, see [[Trade Agreements]].
 | [[USMCA]] | US, [[Mexico]], [[Canada]] | — |
 | [[EU]] single market | 27 members | [[UK]] (Brexit) |
 
-**Overlap:** Japan in both RCEP and CPTPP. [[Australia]], NZ in both.
+Overlap: Japan in both RCEP and CPTPP. [[Australia]], NZ in both.
 
 ---
 
@@ -157,6 +157,8 @@ World trade in goods grew faster than the world economy in 2025 despite [[Trump 
 *China's export expansion 2024-25: dominated by capital and intermediate goods, primarily to ASEAN and rest of Asia-Pacific. Source: McKinsey/FT*
 
 Wolf's editorial: the US is "no longer a credible world leader" and provides "an unpredictable wrecking ball" rather than reliable hegemony. [[China]] is more predictable but unable to eliminate reliance on huge trade/current account surpluses. The 2026 question is whether [[Iran conflict oil price timeline|the Iran war]] and Gulf closure will cause more damage than the 2025 tariff war. Wolf suspects Trump will claim victory and end it.
+
+[[Pierre-Olivier Gourinchas]] (IMF, Jun 2026) adds the constructive reading of the same data: fragmentation is reorganization, not collapse. The proliferation of bilateral deals — [[EU-Mercosur agreement|EU-Mercosur]], EU-India — creates blocs that, in his metaphor, "create their own gravity," attracting others rather than leaving members isolated "in the big void." The investable question becomes which gravity well a given economy falls into. See [[Geoeconomic fragmentation]] for the full channel map.
 
 ---
 

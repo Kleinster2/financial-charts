@@ -52,28 +52,32 @@ Both frames can be true simultaneously. Most serious analysts use both — Farre
 | [[TikTok]] divestment threat (2023-2024) | Chokepoint (data governance) | Unresolved; US leverage real but politically costly |
 | [[Nord Stream 2]] sanctions (2021-2022) | Chokepoint | Shifted European energy dependence trajectory |
 
+*This is a qualitative framework note — chart data not applicable; the mechanism is carried by the empirical-case table above rather than a price series.*
+
 ---
 
 ## Chinese counter-moves
 
 Beijing reads the framework accurately and has spent 2020-2026 building counter-hubs and chokepoint alternatives:
 
-- **CIPS** (Cross-Border Interbank Payment System) as SWIFT alternative
-- **Yuan-denominated commodity pricing** (Russia crude, Saudi/Iran oil deals)
-- **Rare earth refining dominance** as a counter-chokepoint the US and Europe need to work around
-- **BRICS+ expansion** as a non-Western-hub coalition
-- **Digital yuan (e-CNY)** as dollar-alternative retail infrastructure
+- CIPS (Cross-Border Interbank Payment System) as SWIFT alternative
+- Yuan-denominated commodity pricing (Russia crude, Saudi/Iran oil deals)
+- Rare earth refining dominance as a counter-chokepoint the US and Europe need to work around
+- BRICS+ expansion as a non-Western-hub coalition
+- Digital yuan (e-CNY) as dollar-alternative retail infrastructure
 
 Whether these counter-builds achieve chokepoint-displacement remains contested. Farrell/Newman's view is that network effects take decades to shift, and that US chokepoints (dollar clearing, internet root DNS, key submarine cables, leading-node semiconductors) are durable through 2030-plus even with active Chinese counter-effort.
+
+The outgoing [[IMF]] chief economist [[Pierre-Olivier Gourinchas]] takes the contrary view (June 2026): weaponizing a chokepoint — rare earths, critical minerals, the [[Strait of Hormuz]] — works "for a little while," but invites rivals to build around it, so the advantage decays while the fixed cost of the parallel system persists. On this reading the counter-hub construction above is not a contained Chinese project but the general response to any weaponization, which makes the chokepoint a driver of [[Geoeconomic fragmentation]] rather than a durable source of leverage. The two views are testable against the same evidence: Farrell/Newman bet on the slow half-life of network effects, Gourinchas on the speed of the bypass.
 
 ---
 
 ## Limits of the framework
 
-- **Does not explain aggregate flows** — the framework is silent on why [[China]] runs a trade surplus or why [[Germany]] runs one. For that, you need the [[Second China shock]] or [[Global imbalances]] frames.
-- **Overestimates US durability** — some critics ([[Paul Krugman]] among them) argue the framework takes US hub position as static when it is in fact being actively eroded.
-- **Underweights fragmentation risk** — Farrell and Newman treat US economic-statecraft power as a single toolkit, but US allies ([[Germany]], [[France]], [[South Korea]]) often resist US chokepoint tactics that hurt their firms.
-- **Blurs analysis and advocacy** — *Underground Empire* has an argumentative stance about using this power responsibly; some critics argue this undermines its analytical neutrality.
+- Does not explain aggregate flows — the framework is silent on why [[China]] runs a trade surplus or why [[Germany]] runs one. For that, you need the [[Second China shock]] or [[Global imbalances]] frames.
+- Overestimates US durability — some critics ([[Paul Krugman]] among them) argue the framework takes US hub position as static when it is in fact being actively eroded.
+- Underweights fragmentation risk — Farrell and Newman treat US economic-statecraft power as a single toolkit, but US allies ([[Germany]], [[France]], [[South Korea]]) often resist US chokepoint tactics that hurt their firms.
+- Blurs analysis and advocacy — *Underground Empire* has an argumentative stance about using this power responsibly; some critics argue this undermines its analytical neutrality.
 
 ---
 
@@ -83,6 +87,8 @@ Whether these counter-builds achieve chokepoint-displacement remains contested. 
 - [[Abraham Newman]] — co-author
 - [[Economic latency]] — defensive counterpart framework ([[Guy Ward-Jackson]] / [[Tony Blair Institute]], May 2026)
 - [[Second China shock]] — competing aggregate-flow frame
+- [[Geoeconomic fragmentation]] — the macro umbrella; chokepoint blowback is one of its channels
+- [[Pierre-Olivier Gourinchas]] — the "self-defeating chokepoint" counterpoint (Jun 2026)
 - [[Global imbalances]]
 - [[US-China chip export controls]]
 - [[SWIFT]]
