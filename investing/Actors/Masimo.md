@@ -5,12 +5,13 @@ tags:
   - actor
   - medtech
   - usa
-  - acquisition-target
+  - acquired
+  - delisted
 ---
 
 # Masimo
 
-**Masimo** is a medical technology company that pioneered Signal Extraction Technology (SET) pulse oximetry — the first system capable of accurate blood oxygen readings during patient motion and low perfusion. Founded in 1989, the company is being acquired by [[Danaher]] for $180/share ($9.9B enterprise value) in an all-cash deal announced February 17, 2026, expected to close H2 2026.
+**Masimo** is a medical technology company that pioneered Signal Extraction Technology (SET) pulse oximetry — the first system capable of accurate blood oxygen readings during patient motion and low perfusion. Founded in 1989, the company was acquired by [[Danaher]] for $180/share ($9.9B enterprise value) in an all-cash deal announced February 17, 2026. The transaction closed June 10, 2026 — Masimo became a wholly-owned subsidiary of Danaher and MASI ceased trading on NASDAQ (last close $179.95 on 2026-06-12; now a former ticker).
 
 ---
 
@@ -26,7 +27,7 @@ The deal catalyst was [[Politan Management]]. After founder [[Joe Kiani]] destro
 
 | Metric | Value |
 |--------|-------|
-| Ticker | MASI (NASDAQ) |
+| Ticker | MASI (NASDAQ) — former ticker, ceased trading 2026-06-10 |
 | HQ | Irvine, California |
 | Founded | 1989 |
 | Founder | [[Joe Kiani]] (with Mohamed Diab) |
@@ -83,7 +84,7 @@ The $634M verdict, if upheld, would accrue to [[Danaher]] post-close — a meani
 | Enterprise value | ~$9.9B (including assumed debt, net of cash) |
 | Premium | 40% to $130.15 pre-announcement close (Feb 13) |
 | Announced | February 17, 2026 |
-| Expected close | H2 2026 |
+| Closed | June 10, 2026 (MASI ceased trading) |
 | Synergies (year 5) | $125M cost + $50M revenue |
 | Integration | Standalone unit in Danaher Diagnostics segment |
 | Advisers (Masimo) | [[Centerview Partners]], [[Morgan Stanley]], Sullivan & Cromwell, White & Case |

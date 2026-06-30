@@ -443,6 +443,12 @@ class NoteChecker(IndexMixin, FixMixin, AnalyticsMixin):
             "#geography", "#vc", "#investor", "#hedgefund", "#pe", "#nonprofit",
             "#university", "#think-tank", "#academic", "#politician", "#macro",
             "#central-bank",
+            # No longer publicly traded: acquired-and-closed or otherwise delisted.
+            # The live-company gates (price chart, sector correlation, fundamentals,
+            # sankey, securities split) are moot once the ticker stops trading —
+            # there is no live security to chart or split out. Keep historical
+            # snapshots in the note's body, but don't demand fresh live artifacts.
+            "#acquired", "#delisted",
         ]
         return any(self._has_tag(content, tag) for tag in exempt_tags)
 

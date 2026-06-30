@@ -1089,6 +1089,8 @@ EXCLUDED_TICKERS = [
     "NKLA",      # Nikola — bankruptcy Feb 2025, delisted
     "HOUS",      # Anywhere Real Estate — acquired by Compass, closed Jan 2026
     "CTRA",      # Coterra Energy — merged into Devon Energy, closed 2026-05-07
+    # 2026-06-29 freshness-audit classification
+    "MASI",      # Masimo — acquired by Danaher, closed 2026-06-10 (series ends 2026-06-12)
 ]
 
 # Foreign exchange tickers (major + EM pairs)
