@@ -77,6 +77,7 @@ aliases: [Bain Capital Ventures, BCV]
 
 - [[KKR]] — peer (PE)
 - [[a16z]] — peer (VC comparison)
+- [[Loyal]] — portfolio company via Bain Capital Ventures (led Series B, 2024; canine [[Longevity]])
 
 ---
 

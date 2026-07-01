@@ -71,6 +71,7 @@ First Round pioneered VC community building.
 
 - [[Y Combinator]] — peer (early stage)
 - [[Benchmark]] — peer (early only)
+- [[Loyal]] — portfolio company (Series A investor, 2021; canine [[Longevity]])
 
 ---
 

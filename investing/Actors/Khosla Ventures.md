@@ -118,3 +118,4 @@ Multiple vehicles for different stages.
 - [[Sequoia Capital]] — peer VC
 - [[Lightspeed Venture Partners]] — peer VC
 - [[Clean energy for AI]] — investment thesis
+- [[Loyal]] — portfolio company (led Series A, 2021; canine [[Longevity]])
