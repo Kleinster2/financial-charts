@@ -164,12 +164,19 @@ def default_universe_from_config(cfg: dict) -> list[str]:
 
 def is_us_common_stock_ticker(ticker: str) -> bool:
     """Calendar-aligned US-listed name: no foreign exchange suffix (.KS/.PA/...),
-    no crypto pair (-USD), no index (^), no future (=F)."""
+    no crypto pair (-USD), no index (^), no future (=F), no Yahoo FX pair (=X),
+    no US mutual fund (5 letters ending in X — the NASDAQ fund-ticker
+    convention; verified exact on the 2026-07-01 pool: all 66 funds match,
+    zero equities do). ETFs carry no ticker pattern and can only be excluded
+    via ticker_metadata.data_type — see the pool-hygiene note in
+    docs/cluster-validation-audit-2026-06-09.md (2026-07-01 entry)."""
     return not (
         "." in ticker
         or ticker.startswith("^")
         or ticker.endswith("-USD")
         or ticker.endswith("=F")
+        or ticker.endswith("=X")
+        or (len(ticker) == 5 and ticker.isalpha() and ticker.endswith("X"))
     )
 
 

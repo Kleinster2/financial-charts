@@ -1,22 +1,22 @@
 Factory automation PERMUTATION TESTS
 Window: 2025-07-08 -> 2026-06-22 (199 obs)
 Candidate cohort: ROK, EMR, FANUY, SIEGY (N=4)
-Observed intra-corr: 0.5056    Observed PC1: 63.29%
+Observed intra-corr: 0.5058    Observed PC1: 63.30%
 
 --- RANDOM-BASKET NULL ---
-Permutations: 5000
-Universe source: DB prices_long (1125 tickers with >=200 obs in window)
-Pool size: 1121
+Permutations: 10000
+Universe source: DB prices_long (1217 tickers with >=200 obs in window)
+Pool size: 1213
 Intra-cluster correlation:
-  Null mean:        0.1435
-  Null 95th pct:    0.2924
-  Null 99th pct:    0.3812
-  p-value (right):  0.000600    -> REJECTS random-basket null at p < 0.001
+  Null mean:        0.1552
+  Null 95th pct:    0.3270
+  Null 99th pct:    0.4217
+  p-value (right):  0.003300    -> REJECTS random-basket null at p < 0.01
 PC1 explained variance:
-  Null mean:        38.34%
-  Null 95th pct:    48.50%
-  Null 99th pct:    54.60%
-  p-value (right):  0.000800    -> REJECTS random-basket null at p < 0.001
+  Null mean:        39.27%
+  Null 95th pct:    51.30%
+  Null 99th pct:    58.64%
+  p-value (right):  0.003900    -> REJECTS random-basket null at p < 0.01
 
 --- INTERPRETATION ---
 Random-basket null rejected: cohort is more cohesive than a random N-pick from the same universe. This is the meaningful pass.

@@ -406,8 +406,9 @@ The basic validation produces point estimates against heuristic thresholds (0.50
 | Threshold stability | `scripts/cluster_threshold_scan.py` | Is the cohort intact across a range of dendrogram cuts, or only at one specific threshold? |
 | Multi-test correction | `scripts/cluster_registry.py` | Across all logged cohorts, which validations survive Bonferroni / FDR correction? |
 | Post-definition OOS | `scripts/cluster_oos_validation.py` | Does the cluster persist on data produced AFTER the cohort was defined — the only test discovery bias cannot game? |
+| Full-universe boundary sweep | `scripts/cluster_boundary_sweep.py` | Which names OUTSIDE the config would join the cohort below the cut — is the boundary market-relative or just config-relative? |
 
-All five scripts share `cluster_analysis.py`'s config schema and data loaders. They auto-append diagnostics to `scripts/cluster_registry.csv` for cross-cohort accounting.
+All six scripts share `cluster_analysis.py`'s config schema and data loaders. They auto-append diagnostics to `scripts/cluster_registry.csv` for cross-cohort accounting.
 
 ### 1. Permutation p-values
 
@@ -505,7 +506,7 @@ Zero width is the *common* outcome, not a rare death sentence: of 46 logged coho
 | Zero width + high intra (≳0.70) + stable holdout | Real factor, but *embedded* — co-moves genuinely yet never separates from a parent complex (or its config controls are too tight) | Brazilian banks (0.847), WFE quartet (0.797), Mega banks (0.729), [[AI SaaS Disruption\|AI SaaS]] (0.703, holdout 0.90) |
 | Zero width + moderate intra (~0.5–0.7) + stable holdout | Coherent slice of a broader factor, not its own basket | Consumption data-infra SaaS / SNOW (0.553, holdout 0.87), [[Security control points\|SCP]] (0.544) |
 
-The discriminator is the pair {intra-corr, holdout ratio}, not the width number. A zero-width cohort that *passes* the random-basket null and holds its factor structure out-of-sample (e.g. Brazilian banks, AI SaaS, SNOW) is a real co-movement that is simply not a *separable* basket — distinct from a zero-width cohort that also fails holdout (Mag 7, AI hyperscalers), which is not a factor at all. Caveat from the 2026-06-09 audit: boundary tests are config-bounded, so a few high-intra zero-width rows (especially N=3 with tight controls) may be control-choice artifacts rather than true non-separability — re-run with leaner controls before asserting "embedded" vs "would-isolate."
+The discriminator is the pair {intra-corr, holdout ratio}, not the width number. A zero-width cohort that *passes* the random-basket null and holds its factor structure out-of-sample (e.g. Brazilian banks, AI SaaS, SNOW) is a real co-movement that is simply not a *separable* basket — distinct from a zero-width cohort that also fails holdout (Mag 7, AI hyperscalers), which is not a factor at all. Caveat from the 2026-06-09 audit: boundary tests are config-bounded, so a few high-intra zero-width rows (especially N=3 with tight controls) may be control-choice artifacts rather than true non-separability. Since 2026-07-01 this is directly testable: `cluster_boundary_sweep.py` (§6 below) sweeps the full stock pool and names the specific outside tickers that sit below the cut — resolving "embedded" (real names crowd the envelope; the sweep tells you which complex owns the cohort) vs "would-isolate" (a clean sweep means the zero width was a control-choice artifact; re-run the scan with leaner controls).
 
 The clean binary result is the *non*zero-width pass: a cohort with a contiguous stable band (the 14 above — card networks, AI-power IPPs, defense primes, etc.) is a genuinely separable cluster. The threshold scan's value is sorting those 14 from the 31, not auto-rejecting every zero.
 
@@ -529,6 +530,8 @@ Output is a per-cohort pass/fail table for three thresholds:
 
 The expected number of false discoveries after FDR control is `uncorrected_passes - bh_passes`. If the registry has 30 cohorts and 25 pass uncorrected but only 18 pass BH at alpha=0.05, the framework is essentially saying "~7 of those 25 are likely random hits given how many candidates you screened."
 
+The correction command also audits every row's permutation resolution (added 2026-07-01). The Bonferroni cutoff is `alpha/N` and tightens as the registry grows, while each row's Phipson-Smyth floor `1/(n_perm+1)` is fixed at run time — so an `n_perm` that resolved the correction when the row was written can silently stop resolving it later. Rows are flagged UNRESOLVABLE (floor above the current cutoff and resolution could plausibly decide the verdict — a floor-pinned UNRESOLVABLE row is *indeterminate*, not a Bonferroni fail; re-run before treating it as rejected) or AT-RISK (floor-pinned with the floor within 2x of the cutoff — resolves today, becomes unresolvable at a stated registry size). The output prints the minimum adequate `n_perm` for the current N. Operating rule: registry-bound permutation runs use `--n-perm 10000` (the default) — never lower it for speed; 10,000 resolves Bonferroni up to N=500 cohorts. The 2026-07-01 pass caught three under-resolved rows this way (two 4k floor-pinned AT-RISK, one 1k UNRESOLVABLE) and all 4k/5k/1k rows were re-run at the 10k standard.
+
 ### When to invoke
 
 | Situation | Run |
@@ -536,10 +539,11 @@ The expected number of false discoveries after FDR control is `uncorrected_passe
 | New cohort hitting validated thresholds — sanity-check it isn't random | `cluster_permutation_test.py` |
 | Validated cohort but want to know if it's durable across regimes | `cluster_holdout_test.py` |
 | Cohort claim is borderline (intra-corr 0.50-0.60); want robust boundary | `cluster_threshold_scan.py` |
+| Separability claimed (nonzero width), or "embedded vs would-isolate" asserted on a zero-width cohort | `cluster_boundary_sweep.py` |
 | After screening many cohorts; want to know which survive correction | `cluster_registry.py correction` |
 | Quarterly, and whenever a cohort crosses ~40 post-definition obs | `cluster_oos_validation.py --all` |
 
-Required for every NEW cluster note: at minimum a random-basket p-value and a threshold-stable width. Holdout test is required when the cohort spans a known regime shift or when the cohort intra-corr is borderline. Multiple-testing correction is required quarterly across the active registry, together with the post-definition OOS pass (section 5).
+Required for every NEW cluster note: at minimum a random-basket p-value, a threshold-stable width, and a boundary-sweep verdict. Holdout test is required when the cohort spans a known regime shift or when the cohort intra-corr is borderline. Multiple-testing correction is required quarterly across the active registry (its output now includes the n_perm resolution audit), together with the post-definition OOS pass (section 5).
 
 ### 5. Post-definition out-of-sample re-validation
 
@@ -562,6 +566,29 @@ Verdict bands (ratio = OOS intra / in-sample intra):
 | < 0.60 | OOS-FAILED — the boundary did not survive contact with unseen data |
 
 Cohorts with fewer than 40 OOS observations carry a PRELIMINARY prefix (low power); fewer than 15 reports INSUFFICIENT_HISTORY but still stamps `definition_date` into the registry. Results merge into `scripts/cluster_registry.csv` (columns `definition_date`, `oos_*`) and a consolidated table lands in `investing/attachments/cluster-oos-validation-{date}.txt`. A validated cohort's status callout may cite the OOS verdict once it leaves PRELIMINARY.
+
+### 6. Full-universe boundary sweep
+
+The dendrogram boundary test (§3 of "Interpreting the output") and the threshold scan only see the ~15–20 tickers in the YAML config, so every "isolates as a clean cluster" verdict was config-relative (2026-06-09 audit, finding 3): a cohort could be inseparable from 50 names nobody put in the config and still scan "intact, no contamination". `scripts/cluster_boundary_sweep.py` closes the hole by asking the market-relative question: of ALL names in the cleaned US-common-stock pool (the same universe the random-basket null draws from), which would join the cohort below the cut?
+
+For each pool name outside the config it computes the average-linkage join distance to the cohort — `1 − mean(|corr(x, member)|)`, exactly the height at which the name would join the candidate dendrogram if added to the list alone. This automates the manual "add it to the candidate list and re-run" procedure for every pool name at once. Each name is measured against two reference points: the config threshold (an outsider at or below it would merge into the cohort's flat cluster at the cut) and the cohort's internal envelope (its final internal merge distance — an outsider strictly inside it is closer to the cohort than the cohort's own loosest member). Config control groups are known neighbors: they are reported as calibration rows, never counted as contamination.
+
+```bash
+python scripts/cluster_boundary_sweep.py --primary RKLB
+python scripts/cluster_boundary_sweep.py --config scripts/cluster_configs/wfe_quartet.yaml --top 40
+```
+
+Outputs: `{prefix}-boundary-sweep.txt` (ranked outsider table with join distances, nearest member, and PC1-factor correlation, plus the control-group calibration rows) and `{prefix}-boundary-sweep.png` (top-N join distances vs the threshold and envelope lines) in `investing/attachments/`. Registry columns: `boundary_verdict`, `boundary_n_below_threshold`, `boundary_n_inside_envelope`, `boundary_nearest_outsiders`, `boundary_pool_size`.
+
+Verdict bands:
+
+| Verdict | Meaning |
+|---|---|
+| BOUNDARY-CLEAN | No outsider at or below the threshold — the boundary is market-relative, not just config-relative |
+| BOUNDARY-PERMEABLE | Outsider(s) at or below the threshold but outside the envelope — the cut-level cluster would include them; either they belong (add and re-validate) or the separability claim needs a tighter threshold |
+| BOUNDARY-CONTAMINATED | Outsider(s) strictly inside the envelope — closer to the cohort than its own loosest member; the config boundary is wrong as drawn (missing member or false cohort) |
+
+Two caveats. For non-US cohorts the pool is US-synchronous, so every join distance is async-depressed (overstated — outsiders look farther than they are); the script prints the caveat and the sweep should be read as approximate, with same-market controls carrying the distinctness verdict as usual. And a PERMEABLE/CONTAMINATED result on a *zero-width* cohort is not additional falsification — it is the direct answer to the "embedded vs would-isolate" question the threshold scan cannot resolve (see "Reading zero-width" above): the flagged names name the complex the cohort is embedded in.
 
 ---
 
@@ -665,7 +692,7 @@ When you create or expand a public-company actor note:
    - PC1 index weights distinguish normalized loading weights from raw-return mimic weights
    - Historical tightness evolution shows whether the cluster is durable, newly formed, fragmenting, or regime-dependent
 6. Run `python scripts/cluster_permutation_test.py --primary {ticker}` (random-basket p-value required for new cohorts).
-7. Run `python scripts/cluster_threshold_scan.py --primary {ticker}` (stable threshold width required).
+7. Run `python scripts/cluster_threshold_scan.py --primary {ticker}` (stable threshold width required) and `python scripts/cluster_boundary_sweep.py --primary {ticker}` (market-relative boundary verdict required — the scan only sees config tickers; the sweep checks the full stock pool for names that would join below the cut).
 8. If the cohort spans a known regime shift OR intra-corr is borderline (0.50-0.60), run `python scripts/cluster_holdout_test.py --primary {ticker} --window 2y`.
 9. Iterate the candidate list if the math says the boundary is wrong.
 10. Sub-cohort robustness check (required when the cohort splits or reads not-separable). If the dendrogram splits the candidate into sub-groups, OR a sub-pair sits at intra-corr ≳0.60 while the full cohort is below the validation floor or reads "real-but-not-separable / ETF-replicable", classify each sub-piece. Write `scripts/cluster_configs/sub_{name}.yaml` with the sub-group as `cluster` and the parent cohort's other members + the sector ETF as controls; run `python scripts/cluster_threshold_scan.py --config ...` and read the intra-corr from `cluster_analysis.py`. Label ROBUST (stable width ≥0.20) / MODERATELY ROBUST (0.10–0.20) / FRAGILE (<0.10). No permutation needed. The empirical cut is intra-corr ≈0.60 — sub-pairs ≥0.60 come back moderately robust, below ~0.55 fragile. Record the verdict in the cohort note's topology section and in [[Vault cluster taxonomy#Sub-cohort robustness sweep]]. (Worked sweep: the 2026-06-14 five-pair pass — neoclouds pure-cloud / solar residential / AI-optics interconnect moderately robust; ad-tech SSP / Japan wafer fragile.)
@@ -691,6 +718,7 @@ If steps 5-6 cannot reach a defensible cluster, the conclusion is "this actor is
   - `scripts/cluster_threshold_scan.py` (threshold-stable range — boundary robustness)
   - `scripts/cluster_registry.py` (cross-cohort log + Bonferroni / Benjamini-Hochberg correction)
   - `scripts/cluster_oos_validation.py` (post-definition out-of-sample re-validation — the discovery-bias closer)
+  - `scripts/cluster_boundary_sweep.py` (full-universe boundary sweep — market-relative boundary test against the cleaned stock pool; closes the config-bounded-boundary hole)
   - `scripts/check_split_discontinuities.py --verify-yf` (data-integrity guard — flags un-back-adjusted splits in member series, with a yfinance split cross-check that suppresses real crashes/rallies; run before trusting any refreshed cohort)
   - `tests/cluster_statistics_tests.py` (synthetic-data regression tests pinning the statistical layer to ground truth; runs in `npm run test:consistency`)
   - `scripts/cluster_stability_check.py` (rolling window stability — YTD/1Y/2Y/3Y)

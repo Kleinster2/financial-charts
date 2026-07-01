@@ -1,37 +1,22 @@
 中特估 cohort — banks + energy + telecoms PERMUTATION TESTS
 Window: 2025-06-13 -> 2026-06-12 (246 obs)
 Candidate cohort: 1398.HK, 0939.HK, 1288.HK, 3988.HK, 0857.HK, 0883.HK, 0386.HK, 0762.HK, 0941.HK, 0728.HK (N=10)
-Observed intra-corr: 0.3715    Observed PC1: 44.87%
-
---- INDEPENDENCE NULL ---
-Permutations: 1000
-Block size: 1
-Intra-cluster correlation:
-  Null mean:        0.0001
-  Null 95th pct:    0.0166
-  Null 99th pct:    0.0230
-  p-value (right):  0.000999    -> REJECTS independence null at p < 0.001
-PC1 explained variance:
-  Null mean:        13.30%
-  Null 95th pct:    14.27%
-  Null 99th pct:    14.76%
-  p-value (right):  0.000999    -> REJECTS independence null at p < 0.001
+Observed intra-corr: 0.3706    Observed PC1: 44.81%
 
 --- RANDOM-BASKET NULL ---
-Permutations: 1000
-Universe source: DB prices_long (1009 tickers with >=200 obs in window)
-Pool size: 255
+Permutations: 10000
+Universe source: DB prices_long (1218 tickers with >=200 obs in window)
+Pool size: 474
 Intra-cluster correlation:
-  Null mean:        0.1647
-  Null 95th pct:    0.2575
-  Null 99th pct:    0.3102
-  p-value (right):  0.001998    -> REJECTS random-basket null at p < 0.01
+  Null mean:        0.1693
+  Null 95th pct:    0.2734
+  Null 99th pct:    0.3217
+  p-value (right):  0.001800    -> REJECTS random-basket null at p < 0.01
 PC1 explained variance:
-  Null mean:        28.20%
-  Null 95th pct:    36.20%
-  Null 99th pct:    41.24%
-  p-value (right):  0.002997    -> REJECTS random-basket null at p < 0.01
+  Null mean:        28.95%
+  Null 95th pct:    38.36%
+  Null 99th pct:    42.98%
+  p-value (right):  0.005000    -> REJECTS random-basket null at p < 0.01
 
 --- INTERPRETATION ---
-Independence null rejected: the cohort series co-move (necessary, not sufficient).
 Random-basket null rejected: cohort is more cohesive than a random N-pick from the same universe. This is the meaningful pass.

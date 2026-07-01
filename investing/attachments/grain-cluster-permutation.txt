@@ -4,19 +4,19 @@ Candidate cohort: ADM, BG (N=2)
 Observed intra-corr: 0.6671    Observed PC1: 83.36%
 
 --- RANDOM-BASKET NULL ---
-Permutations: 4000
-Universe source: DB prices_long (1176 tickers with >=200 obs in window)
-Pool size: 1123
+Permutations: 10000
+Universe source: DB prices_long (1217 tickers with >=200 obs in window)
+Pool size: 1215
 Intra-cluster correlation:
-  Null mean:        0.1414
-  Null 95th pct:    0.4173
-  Null 99th pct:    0.5637
-  p-value (right):  0.002749    -> REJECTS random-basket null at p < 0.01
+  Null mean:        0.1594
+  Null 95th pct:    0.4641
+  Null 99th pct:    0.6261
+  p-value (right):  0.007399    -> REJECTS random-basket null at p < 0.01
 PC1 explained variance:
-  Null mean:        58.41%
-  Null 95th pct:    70.87%
-  Null 99th pct:    78.18%
-  p-value (right):  0.002749    -> REJECTS random-basket null at p < 0.01
+  Null mean:        59.16%
+  Null 95th pct:    73.24%
+  Null 99th pct:    81.30%
+  p-value (right):  0.007399    -> REJECTS random-basket null at p < 0.01
 
 --- INTERPRETATION ---
 Random-basket null rejected: cohort is more cohesive than a random N-pick from the same universe. This is the meaningful pass.

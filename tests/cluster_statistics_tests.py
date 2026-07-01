@@ -14,6 +14,10 @@ ground truth so regressions cannot ship silently again:
   - the random-basket null machinery passes a planted-signal / null-signal
     calibration check end-to-end
   - verdict-band functions (holdout, OOS) honor their documented cut-points
+  - the full-universe boundary sweep flags a planted outsider and honors its
+    join-distance arithmetic and verdict bands (audit finding 3 closure)
+  - the n_perm adequacy audit (Phipson-Smyth floor vs Bonferroni cutoff)
+    classifies UNRESOLVABLE / AT-RISK / ok rows per the documented rules
 
 Hermetic: no database, no network, no git. Plots write to a temp dir.
 
@@ -49,6 +53,19 @@ from cluster_permutation_test import (
     run_random_basket_null,
     run_vol_matched_null,
     vol_matched_sample,
+)
+from cluster_boundary_sweep import (
+    boundary_distances,
+    classify_boundary,
+    internal_envelope,
+    pc1_factor_series,
+)
+from cluster_registry import (
+    is_floor_pinned,
+    latest_p_rows,
+    min_nperm_for_cutoff,
+    nperm_adequacy,
+    perm_floor,
 )
 from cluster_threshold_scan import assignments_at_threshold, scan
 
@@ -292,6 +309,141 @@ class UniverseFilterTests(unittest.TestCase):
             self.assertTrue(is_us_common_stock_ticker(ticker), ticker)
         for ticker in ["ABEV3.SA", "005930.KS", "MC.PA", "CFR.SW", "^VIX", "CL=F", "BTC-USD"]:
             self.assertFalse(is_us_common_stock_ticker(ticker), ticker)
+        # Mutual funds (5 letters ending in X) and Yahoo FX pairs (=X) — the
+        # 2026-07-01 pool-hygiene catch: 66 funds and 2 FX pairs were riding
+        # in the "stock-only" null pool via mistyped ticker_metadata rows.
+        for ticker in ["AGTHX", "DODGX", "BPTRX", "USDJPY=X", "JPYUSD=X"]:
+            self.assertFalse(is_us_common_stock_ticker(ticker), ticker)
+        # 4-letter X-enders are stocks, not funds (NFLX); 5-letter non-X too (GOOGL).
+        for ticker in ["NFLX", "GOOGL"]:
+            self.assertTrue(is_us_common_stock_ticker(ticker), ticker)
+
+
+class BoundarySweepTests(unittest.TestCase):
+    def test_join_distances_match_hand_arithmetic(self):
+        # Cohort A,B at rho 0.8; outsider X at 0.6/0.5 to A/B; N independent.
+        # Average-linkage join distance of X = 1 - mean(0.6, 0.5) = 0.45;
+        # nearest member A at single-linkage distance 1 - 0.6 = 0.40.
+        cov = np.array([
+            [1.0, 0.8, 0.6, 0.0],
+            [0.8, 1.0, 0.5, 0.0],
+            [0.6, 0.5, 1.0, 0.0],
+            [0.0, 0.0, 0.0, 1.0],
+        ])
+        rng = np.random.default_rng(47)
+        data = rng.standard_normal((20000, 4)) @ np.linalg.cholesky(cov).T
+        rets = pd.DataFrame(data, index=pd.bdate_range("2020-01-01", periods=20000),
+                            columns=["A", "B", "X", "N"])
+        dist = boundary_distances(rets, ["A", "B"], ["X", "N"])
+        self.assertEqual(list(dist.index), ["X", "N"])  # sorted nearest-first
+        self.assertAlmostEqual(dist.loc["X", "join_dist_avg"], 0.45, delta=0.02)
+        self.assertAlmostEqual(dist.loc["X", "join_dist_min"], 0.40, delta=0.02)
+        self.assertEqual(dist.loc["X", "nearest_member"], "A")
+        self.assertAlmostEqual(dist.loc["N", "join_dist_avg"], 1.0, delta=0.03)
+
+    def test_classify_boundary_bands(self):
+        dists = pd.Series([0.30, 0.45, 0.90])
+        self.assertEqual(classify_boundary(dists, 0.5, 0.35), ("BOUNDARY-CONTAMINATED", 2, 1))
+        self.assertEqual(classify_boundary(dists, 0.5, 0.25), ("BOUNDARY-PERMEABLE", 2, 0))
+        self.assertEqual(classify_boundary(pd.Series([0.6, 0.9]), 0.5, 0.25), ("BOUNDARY-CLEAN", 0, 0))
+        # Threshold uses <= (fcluster merge semantics); envelope uses strict <.
+        self.assertEqual(classify_boundary(pd.Series([0.5]), 0.5, 0.5), ("BOUNDARY-PERMEABLE", 1, 0))
+        # Undefined envelope (single-name candidate): threshold-only classification.
+        self.assertEqual(classify_boundary(pd.Series([0.1]), 0.5, float("nan")), ("BOUNDARY-PERMEABLE", 1, 0))
+
+    def test_planted_outsider_flagged_end_to_end(self):
+        # 5-name rho=0.7 block; candidate = first 4, the 5th name is left in
+        # the pool alongside independent noise. The sweep must rank the
+        # planted outsider first, far below the noise, and not read CLEAN.
+        rets = correlated_returns([("A", 5, 0.7), ("N", 6, 0.0)], T=8000, seed=41)
+        candidate = ["A0", "A1", "A2", "A3"]
+        pool = ["A4", "N0", "N1", "N2", "N3", "N4", "N5"]
+        dist = boundary_distances(rets, candidate, pool)
+        self.assertEqual(dist.index[0], "A4")
+        self.assertLess(dist.loc["A4", "join_dist_avg"], 0.35)
+        self.assertGreater(dist.loc["N0", "join_dist_avg"], 0.9)
+        verdict, below, inside = classify_boundary(
+            dist["join_dist_avg"], 0.4, internal_envelope(rets, candidate)
+        )
+        self.assertNotEqual(verdict, "BOUNDARY-CLEAN")
+        self.assertGreaterEqual(below, 1)
+
+    def test_internal_envelope(self):
+        rets = correlated_returns([("A", 3, 0.8)], T=5000, seed=43)
+        # Equicorrelated block: every merge lands near 1 - rho = 0.2.
+        self.assertAlmostEqual(internal_envelope(rets, ["A0", "A1", "A2"]), 0.2, delta=0.03)
+        self.assertTrue(np.isnan(internal_envelope(rets, ["A0"])))
+
+    def test_pc1_factor_series_positive_and_tracks_members(self):
+        rets = correlated_returns([("A", 4, 0.7)], T=5000, seed=45)
+        factor = pc1_factor_series(rets, list(rets.columns))
+        # Equicorrelation rho: corr(member, PC1 score) = sqrt((1+(N-1)rho)/N) ~ 0.88.
+        for c in rets.columns:
+            self.assertGreater(rets[c].corr(factor), 0.8, c)
+
+
+class NpermAdequacyTests(unittest.TestCase):
+    def test_perm_floor(self):
+        self.assertAlmostEqual(perm_floor(10000), 1 / 10001)
+        self.assertAlmostEqual(perm_floor(1000), 1 / 1001)
+        self.assertTrue(np.isnan(perm_floor(float("nan"))))
+        self.assertTrue(np.isnan(perm_floor(0)))
+
+    def test_min_nperm_for_cutoff(self):
+        self.assertEqual(min_nperm_for_cutoff(0.05 / 112), 2239)
+        self.assertEqual(min_nperm_for_cutoff(0.05 / 500), 9999)  # the 10k standard's reach
+        self.assertEqual(min_nperm_for_cutoff(-1.0), -1)
+
+    def test_is_floor_pinned(self):
+        self.assertTrue(is_floor_pinned(1 / 4001, 4000))
+        self.assertFalse(is_floor_pinned(2 / 4001, 4000))
+        self.assertFalse(is_floor_pinned(float("nan"), 4000))
+        self.assertFalse(is_floor_pinned(0.0001, float("nan")))
+
+    def test_nperm_adequacy_statuses(self):
+        # At alpha=0.05, N=112: cutoff 0.000446. Five canonical cases:
+        #   pinned at a floor above the cutoff      -> UNRESOLVABLE (indeterminate)
+        #   near-cutoff p at a floor above cutoff   -> UNRESOLVABLE (resolution decides)
+        #   evidence-fail far above the near-zone   -> ok (resolution moot)
+        #   pinned at 4k (floor > cutoff/2)         -> AT-RISK
+        #   pinned at 10k (floor < cutoff/2)        -> ok
+        df = pd.DataFrame({
+            "cohort_name": ["pinned_lowres", "near_cutoff_lowres", "evidence_fail", "pinned_4k", "pinned_10k"],
+            "p_random_basket_intra": [1 / 1001, 2 / 1001, 0.30, 1 / 4001, 1 / 10001],
+            "n_permutations": [1000.0, 1000.0, 1000.0, 4000.0, 10000.0],
+        })
+        out = nperm_adequacy(df, alpha=0.05, n_tests=112).set_index("cohort_name")
+        self.assertTrue(out.loc["pinned_lowres", "nperm_status"].startswith("UNRESOLVABLE"))
+        self.assertIn("INDETERMINATE", out.loc["pinned_lowres", "nperm_status"])
+        self.assertEqual(out.loc["near_cutoff_lowres", "nperm_status"], "UNRESOLVABLE")
+        self.assertEqual(out.loc["evidence_fail", "nperm_status"], "ok")
+        self.assertEqual(out.loc["pinned_4k", "nperm_status"], "AT-RISK")
+        self.assertEqual(out.loc["pinned_10k", "nperm_status"], "ok")
+        # A 4k row becomes unresolvable once the registry reaches N ~= 200.
+        self.assertAlmostEqual(out.loc["pinned_4k", "unresolvable_at_n"], 0.05 * 4001, delta=0.1)
+        # Missing n_perm is flagged, not silently passed.
+        no_nperm = pd.DataFrame({
+            "cohort_name": ["x"], "p_random_basket_intra": [0.001], "n_permutations": [float("nan")],
+        })
+        self.assertEqual(
+            nperm_adequacy(no_nperm, alpha=0.05, n_tests=112)["nperm_status"].iloc[0], "NO-NPERM"
+        )
+
+    def test_latest_p_rows_ignores_partial_diagnostic_rows(self):
+        # A newer row WITHOUT a p-value (boundary sweep / holdout-only re-run)
+        # must not eclipse the cohort's p-carrying row in the FDR dedup.
+        df = pd.DataFrame({
+            "cohort_name": ["A", "A", "B", "B"],
+            "test_date": ["2026-06-01", "2026-07-01", "2026-06-01", "2026-07-01"],
+            "p_random_basket_intra": [0.002, float("nan"), 0.010, 0.020],
+            "n_permutations": [10000.0, float("nan"), 10000.0, 10000.0],
+        })
+        out = latest_p_rows(df).set_index("cohort_name")
+        self.assertEqual(len(out), 2)
+        self.assertEqual(out.loc["A", "test_date"], "2026-06-01")  # newer NaN row skipped
+        self.assertAlmostEqual(out.loc["A", "p_random_basket_intra"], 0.002)
+        self.assertEqual(out.loc["B", "test_date"], "2026-07-01")  # newer p row wins
+        self.assertAlmostEqual(out.loc["B", "p_random_basket_intra"], 0.020)
 
 
 if __name__ == "__main__":

@@ -1,0 +1,55 @@
+WFE quartet FULL-UNIVERSE BOUNDARY SWEEP
+Window: 2025-06-18 -> 2026-06-18
+Cohort (N=4): ASML, AMAT, KLAC, LRCX
+Pool: 1048 names (file: scripts\universes\us_common_stocks.txt); every config ticker excluded from outsider set
+Dendrogram threshold: 0.5
+Cohort internal envelope (final internal merge): 0.217
+
+VERDICT: BOUNDARY-PERMEABLE
+  Outsiders at or below threshold 0.5: 45
+  Outsiders strictly inside the envelope:  0
+
+--- NEAREST 25 OUTSIDERS (of 1048) ---
+  MKSI     outsider       d_avg 0.273  d_min 0.218 (nearest LRCX  )  PC1-corr +0.782  << below cut
+  MPWR     outsider       d_avg 0.275  d_min 0.238 (nearest LRCX  )  PC1-corr +0.780  << below cut
+  ENTG     outsider       d_avg 0.299  d_min 0.276 (nearest KLAC  )  PC1-corr +0.754  << below cut
+  TER      outsider       d_avg 0.348  d_min 0.294 (nearest LRCX  )  PC1-corr +0.702  << below cut
+  AMKR     outsider       d_avg 0.358  d_min 0.318 (nearest LRCX  )  PC1-corr +0.691  << below cut
+  IFNNY    outsider       d_avg 0.393  d_min 0.386 (nearest KLAC  )  PC1-corr +0.652  << below cut
+  NVT      outsider       d_avg 0.398  d_min 0.352 (nearest LRCX  )  PC1-corr +0.648  << below cut
+  GLW      outsider       d_avg 0.405  d_min 0.355 (nearest LRCX  )  PC1-corr +0.640  << below cut
+  ETN      outsider       d_avg 0.405  d_min 0.355 (nearest LRCX  )  PC1-corr +0.640  << below cut
+  WDC      outsider       d_avg 0.407  d_min 0.339 (nearest LRCX  )  PC1-corr +0.638  << below cut
+  FIX      outsider       d_avg 0.411  d_min 0.347 (nearest LRCX  )  PC1-corr +0.634  << below cut
+  CAT      outsider       d_avg 0.413  d_min 0.368 (nearest LRCX  )  PC1-corr +0.632  << below cut
+  ACLS     outsider       d_avg 0.417  d_min 0.392 (nearest KLAC  )  PC1-corr +0.627  << below cut
+  VRT      outsider       d_avg 0.420  d_min 0.388 (nearest LRCX  )  PC1-corr +0.624  << below cut
+  ABBNY    outsider       d_avg 0.433  d_min 0.404 (nearest ASML  )  PC1-corr +0.610  << below cut
+  ADI      outsider       d_avg 0.436  d_min 0.397 (nearest AMAT  )  PC1-corr +0.607  << below cut
+  SCCO     outsider       d_avg 0.440  d_min 0.390 (nearest LRCX  )  PC1-corr +0.603  << below cut
+  STRL     outsider       d_avg 0.448  d_min 0.378 (nearest LRCX  )  PC1-corr +0.594  << below cut
+  SYNA     outsider       d_avg 0.450  d_min 0.426 (nearest KLAC  )  PC1-corr +0.592  << below cut
+  FN       outsider       d_avg 0.451  d_min 0.405 (nearest LRCX  )  PC1-corr +0.591  << below cut
+  ON       outsider       d_avg 0.452  d_min 0.432 (nearest KLAC  )  PC1-corr +0.590  << below cut
+  CW       outsider       d_avg 0.458  d_min 0.391 (nearest LRCX  )  PC1-corr +0.583  << below cut
+  SNDK     outsider       d_avg 0.460  d_min 0.356 (nearest LRCX  )  PC1-corr +0.582  << below cut
+  GFS      outsider       d_avg 0.462  d_min 0.429 (nearest LRCX  )  PC1-corr +0.579  << below cut
+  STM      outsider       d_avg 0.462  d_min 0.447 (nearest ASML  )  PC1-corr +0.578  << below cut
+
+--- CONFIG CONTROL GROUPS (calibration — known neighbors, never contamination) ---
+  SMH      etf            d_avg 0.170  d_min 0.134 (nearest LRCX  )  PC1-corr +0.892  << INSIDE ENVELOPE
+  SOXX     etf            d_avg 0.174  d_min 0.134 (nearest LRCX  )  PC1-corr +0.889  << INSIDE ENVELOPE
+  XLK      etf            d_avg 0.300  d_min 0.256 (nearest LRCX  )  PC1-corr +0.753  << below cut
+  TSM      ai_capex_other d_avg 0.328  d_min 0.294 (nearest LRCX  )  PC1-corr +0.723  << below cut
+  MU       ai_capex_other d_avg 0.347  d_min 0.258 (nearest LRCX  )  PC1-corr +0.703  << below cut
+  SPY      etf            d_avg 0.366  d_min 0.313 (nearest LRCX  )  PC1-corr +0.682  << below cut
+  AMD      fabless        d_avg 0.418  d_min 0.375 (nearest LRCX  )  PC1-corr +0.626  << below cut
+  AVGO     fabless        d_avg 0.490  d_min 0.451 (nearest LRCX  )  PC1-corr +0.549  << below cut
+  NVDA     ai_capex_other d_avg 0.502  d_min 0.486 (nearest KLAC  )  PC1-corr +0.536
+  AMZN     hyperscaler_buyers d_avg 0.675  d_min 0.640 (nearest LRCX  )  PC1-corr +0.349
+  GOOGL    hyperscaler_buyers d_avg 0.682  d_min 0.608 (nearest LRCX  )  PC1-corr +0.342
+  META     hyperscaler_buyers d_avg 0.685  d_min 0.639 (nearest KLAC  )  PC1-corr +0.339
+  MSFT     hyperscaler_buyers d_avg 0.971  d_min 0.953 (nearest LRCX  )  PC1-corr +0.031
+
+--- INTERPRETATION ---
+45 outside name(s) would merge into the cohort's flat cluster at the cut. The cohort is real but its cut-level boundary is permeable: either these names belong in the cohort (re-run the validation with them added) or the separability claim should be stated at a tighter threshold.

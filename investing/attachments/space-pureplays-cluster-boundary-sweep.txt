@@ -1,0 +1,50 @@
+Space pure-plays FULL-UNIVERSE BOUNDARY SWEEP
+Window: 2025-06-03 -> 2026-06-03
+Cohort (N=8): RKLB, RDW, LUNR, BKSY, ASTS, SPIR, PL, VOYG
+Pool: 1049 names (file: scripts\universes\us_common_stocks.txt); every config ticker excluded from outsider set
+Dendrogram threshold: 0.5
+Cohort internal envelope (final internal merge): 0.432
+
+VERDICT: BOUNDARY-PERMEABLE
+  Outsiders at or below threshold 0.5: 5
+  Outsiders strictly inside the envelope:  0
+
+--- NEAREST 25 OUTSIDERS (of 1049) ---
+  KTOS     outsider       d_avg 0.484  d_min 0.434 (nearest RKLB  )  PC1-corr +0.629  << below cut
+  NNE      outsider       d_avg 0.487  d_min 0.419 (nearest RDW   )  PC1-corr +0.624  << below cut
+  QBTS     outsider       d_avg 0.490  d_min 0.432 (nearest ASTS  )  PC1-corr +0.621  << below cut
+  UMAC     outsider       d_avg 0.493  d_min 0.391 (nearest LUNR  )  PC1-corr +0.617  << below cut
+  OKLO     outsider       d_avg 0.500  d_min 0.416 (nearest RKLB  )  PC1-corr +0.609  << below cut
+  CLSK     outsider       d_avg 0.502  d_min 0.410 (nearest VOYG  )  PC1-corr +0.605
+  SMR      outsider       d_avg 0.503  d_min 0.409 (nearest ASTS  )  PC1-corr +0.605
+  BBAI     outsider       d_avg 0.505  d_min 0.445 (nearest LUNR  )  PC1-corr +0.602
+  RGTI     outsider       d_avg 0.508  d_min 0.440 (nearest ASTS  )  PC1-corr +0.598
+  IONQ     outsider       d_avg 0.509  d_min 0.445 (nearest RKLB  )  PC1-corr +0.597
+  LTBR     outsider       d_avg 0.514  d_min 0.444 (nearest RKLB  )  PC1-corr +0.591
+  LEU      outsider       d_avg 0.514  d_min 0.455 (nearest BKSY  )  PC1-corr +0.591
+  MARA     outsider       d_avg 0.527  d_min 0.433 (nearest VOYG  )  PC1-corr +0.573
+  DNN      outsider       d_avg 0.530  d_min 0.440 (nearest ASTS  )  PC1-corr +0.573
+  RIOT     outsider       d_avg 0.532  d_min 0.458 (nearest VOYG  )  PC1-corr +0.567
+  QUBT     outsider       d_avg 0.537  d_min 0.492 (nearest RKLB  )  PC1-corr +0.565
+  BTBT     outsider       d_avg 0.540  d_min 0.456 (nearest VOYG  )  PC1-corr +0.559
+  ENVX     outsider       d_avg 0.543  d_min 0.484 (nearest RKLB  )  PC1-corr +0.555
+  QS       outsider       d_avg 0.545  d_min 0.489 (nearest RKLB  )  PC1-corr +0.553
+  ARQQ     outsider       d_avg 0.547  d_min 0.477 (nearest ASTS  )  PC1-corr +0.553
+  HUT      outsider       d_avg 0.550  d_min 0.506 (nearest LUNR  )  PC1-corr +0.546
+  NXE      outsider       d_avg 0.553  d_min 0.496 (nearest ASTS  )  PC1-corr +0.544
+  MRCY     outsider       d_avg 0.557  d_min 0.518 (nearest BKSY  )  PC1-corr +0.538
+  IREN     outsider       d_avg 0.563  d_min 0.518 (nearest RDW   )  PC1-corr +0.530
+  TMC      outsider       d_avg 0.565  d_min 0.516 (nearest RDW   )  PC1-corr +0.531
+
+--- CONFIG CONTROL GROUPS (calibration — known neighbors, never contamination) ---
+  XAR      etf            d_avg 0.410  d_min 0.302 (nearest RKLB  )  PC1-corr +0.719  << INSIDE ENVELOPE
+  IWM      small_cap      d_avg 0.488  d_min 0.405 (nearest VOYG  )  PC1-corr +0.622  << below cut
+  ITA      etf            d_avg 0.546  d_min 0.428 (nearest RKLB  )  PC1-corr +0.553
+  SPY      etf            d_avg 0.574  d_min 0.488 (nearest RKLB  )  PC1-corr +0.517
+  LHX      defense_primes d_avg 0.658  d_min 0.610 (nearest LUNR  )  PC1-corr +0.416
+  NOC      defense_primes d_avg 0.738  d_min 0.700 (nearest ASTS  )  PC1-corr +0.320
+  LMT      defense_primes d_avg 0.743  d_min 0.692 (nearest RDW   )  PC1-corr +0.311
+  RTX      defense_primes d_avg 0.754  d_min 0.710 (nearest RKLB  )  PC1-corr +0.300
+
+--- INTERPRETATION ---
+5 outside name(s) would merge into the cohort's flat cluster at the cut. The cohort is real but its cut-level boundary is permeable: either these names belong in the cohort (re-run the validation with them added) or the separability claim should be stated at a tighter threshold.
