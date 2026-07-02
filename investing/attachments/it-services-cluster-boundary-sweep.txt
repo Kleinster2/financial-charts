@@ -1,0 +1,45 @@
+IT services FULL-UNIVERSE BOUNDARY SWEEP
+Window: 2025-06-18 -> 2026-06-18
+Cohort (N=6): ACN, CTSH, INFY, WIT, EPAM, GLOB
+Pool: 1055 names (file: scripts\universes\us_common_stocks.txt); every config ticker excluded from outsider set
+Dendrogram threshold: 0.5
+Cohort internal envelope (final internal merge): 0.613
+
+VERDICT: BOUNDARY-CONTAMINATED
+  Outsiders at or below threshold 0.5: 1
+  Outsiders strictly inside the envelope:  35
+
+--- NEAREST 25 OUTSIDERS (of 1055) ---
+  IT       outsider       d_avg 0.453  d_min 0.326 (nearest ACN   )  PC1-corr +0.687  << INSIDE ENVELOPE
+  MORN     outsider       d_avg 0.507  d_min 0.359 (nearest ACN   )  PC1-corr +0.614  << INSIDE ENVELOPE
+  FRSH     outsider       d_avg 0.514  d_min 0.397 (nearest GLOB  )  PC1-corr +0.605  << INSIDE ENVELOPE
+  TYL      outsider       d_avg 0.517  d_min 0.443 (nearest GLOB  )  PC1-corr +0.599  << INSIDE ENVELOPE
+  PAYX     outsider       d_avg 0.532  d_min 0.412 (nearest ACN   )  PC1-corr +0.585  << INSIDE ENVELOPE
+  WDAY     outsider       d_avg 0.538  d_min 0.404 (nearest ACN   )  PC1-corr +0.574  << INSIDE ENVELOPE
+  FIS      outsider       d_avg 0.540  d_min 0.446 (nearest CTSH  )  PC1-corr +0.570  << INSIDE ENVELOPE
+  FDS      outsider       d_avg 0.547  d_min 0.407 (nearest ACN   )  PC1-corr +0.563  << INSIDE ENVELOPE
+  CRM      outsider       d_avg 0.549  d_min 0.432 (nearest ACN   )  PC1-corr +0.563  << INSIDE ENVELOPE
+  TOST     outsider       d_avg 0.550  d_min 0.445 (nearest GLOB  )  PC1-corr +0.554  << INSIDE ENVELOPE
+  ADP      outsider       d_avg 0.554  d_min 0.431 (nearest ACN   )  PC1-corr +0.556  << INSIDE ENVELOPE
+  EFX      outsider       d_avg 0.555  d_min 0.437 (nearest CTSH  )  PC1-corr +0.556  << INSIDE ENVELOPE
+  DSGX     outsider       d_avg 0.558  d_min 0.447 (nearest ACN   )  PC1-corr +0.547  << INSIDE ENVELOPE
+  IBM      outsider       d_avg 0.561  d_min 0.447 (nearest CTSH  )  PC1-corr +0.544  << INSIDE ENVELOPE
+  IQV      outsider       d_avg 0.562  d_min 0.490 (nearest EPAM  )  PC1-corr +0.541  << INSIDE ENVELOPE
+  SAP      outsider       d_avg 0.573  d_min 0.468 (nearest ACN   )  PC1-corr +0.528  << INSIDE ENVELOPE
+  ADSK     outsider       d_avg 0.575  d_min 0.449 (nearest GLOB  )  PC1-corr +0.527  << INSIDE ENVELOPE
+  TRI      outsider       d_avg 0.576  d_min 0.495 (nearest CTSH  )  PC1-corr +0.527  << INSIDE ENVELOPE
+  ROP      outsider       d_avg 0.580  d_min 0.460 (nearest CTSH  )  PC1-corr +0.523  << INSIDE ENVELOPE
+  JKHY     outsider       d_avg 0.580  d_min 0.471 (nearest CTSH  )  PC1-corr +0.517  << INSIDE ENVELOPE
+  NDAQ     outsider       d_avg 0.585  d_min 0.497 (nearest CTSH  )  PC1-corr +0.515  << INSIDE ENVELOPE
+  DOCU     outsider       d_avg 0.587  d_min 0.502 (nearest GLOB  )  PC1-corr +0.510  << INSIDE ENVELOPE
+  MTCH     outsider       d_avg 0.590  d_min 0.529 (nearest GLOB  )  PC1-corr +0.501  << INSIDE ENVELOPE
+  MCO      outsider       d_avg 0.591  d_min 0.493 (nearest CTSH  )  PC1-corr +0.508  << INSIDE ENVELOPE
+  RHI      outsider       d_avg 0.592  d_min 0.506 (nearest CTSH  )  PC1-corr +0.501  << INSIDE ENVELOPE
+
+--- CONFIG CONTROL GROUPS (calibration — known neighbors, never contamination) ---
+  IGV      software_etf   d_avg 0.581  d_min 0.475 (nearest GLOB  )  PC1-corr +0.516  << INSIDE ENVELOPE
+  SPY      etf            d_avg 0.806  d_min 0.729 (nearest GLOB  )  PC1-corr +0.234
+  XLK      tech_etf       d_avg 0.886  d_min 0.804 (nearest GLOB  )  PC1-corr +0.133
+
+--- INTERPRETATION ---
+35 outside name(s) sit closer to the cohort than its own loosest member. The config boundary is wrong as drawn: treat each as a missing-member candidate (add to the cluster group and re-validate) or accept that the cohort is not a standalone factor.

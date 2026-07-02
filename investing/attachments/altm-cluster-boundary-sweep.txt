@@ -1,0 +1,57 @@
+Alternative asset managers basket (ALTM) FULL-UNIVERSE BOUNDARY SWEEP
+Window: 2025-04-30 -> 2026-04-30
+Cohort (N=6): ARES, KKR, OWL, BX, APO, BAM
+Pool: 1044 names (file: scripts\universes\us_common_stocks.txt); every config ticker excluded from outsider set
+Dendrogram threshold: 0.4
+Cohort internal envelope (final internal merge): 0.278
+
+VERDICT: BOUNDARY-CONTAMINATED
+  Outsiders at or below threshold 0.4: 4
+  Outsiders strictly inside the envelope:  1
+
+--- NEAREST 25 OUTSIDERS (of 1044) ---
+  TPG      outsider       d_avg 0.243  d_min 0.211 (nearest KKR   )  PC1-corr +0.842  << INSIDE ENVELOPE
+  CG       outsider       d_avg 0.291  d_min 0.241 (nearest BX    )  PC1-corr +0.789  << below cut
+  ARCC     outsider       d_avg 0.363  d_min 0.319 (nearest OWL   )  PC1-corr +0.709  << below cut
+  IVZ      outsider       d_avg 0.372  d_min 0.328 (nearest KKR   )  PC1-corr +0.699  << below cut
+  COF      outsider       d_avg 0.421  d_min 0.377 (nearest KKR   )  PC1-corr +0.644
+  JEF      outsider       d_avg 0.423  d_min 0.367 (nearest KKR   )  PC1-corr +0.643
+  OBDC     outsider       d_avg 0.423  d_min 0.337 (nearest OWL   )  PC1-corr +0.642
+  RJF      outsider       d_avg 0.429  d_min 0.368 (nearest KKR   )  PC1-corr +0.636
+  MET      outsider       d_avg 0.436  d_min 0.353 (nearest KKR   )  PC1-corr +0.628
+  SYF      outsider       d_avg 0.447  d_min 0.361 (nearest KKR   )  PC1-corr +0.616
+  PJT      outsider       d_avg 0.447  d_min 0.405 (nearest KKR   )  PC1-corr +0.615
+  TRMB     outsider       d_avg 0.456  d_min 0.372 (nearest BAM   )  PC1-corr +0.605
+  AXP      outsider       d_avg 0.461  d_min 0.383 (nearest KKR   )  PC1-corr +0.599
+  AMP      outsider       d_avg 0.468  d_min 0.392 (nearest KKR   )  PC1-corr +0.592
+  ZBRA     outsider       d_avg 0.478  d_min 0.410 (nearest BAM   )  PC1-corr +0.580
+  LC       outsider       d_avg 0.487  d_min 0.434 (nearest KKR   )  PC1-corr +0.570
+  GLXY     outsider       d_avg 0.487  d_min 0.462 (nearest BAM   )  PC1-corr +0.570
+  STT      outsider       d_avg 0.490  d_min 0.446 (nearest BAM   )  PC1-corr +0.568
+  KEY      outsider       d_avg 0.493  d_min 0.440 (nearest KKR   )  PC1-corr +0.564
+  CFG      outsider       d_avg 0.494  d_min 0.434 (nearest BAM   )  PC1-corr +0.563
+  UPST     outsider       d_avg 0.498  d_min 0.459 (nearest BAM   )  PC1-corr +0.557
+  ZETA     outsider       d_avg 0.501  d_min 0.433 (nearest KKR   )  PC1-corr +0.555
+  AMG      outsider       d_avg 0.502  d_min 0.440 (nearest ARES  )  PC1-corr +0.554
+  CHYM     outsider       d_avg 0.503  d_min 0.455 (nearest KKR   )  PC1-corr +0.553
+  PAX      outsider       d_avg 0.506  d_min 0.449 (nearest KKR   )  PC1-corr +0.550
+
+--- CONFIG CONTROL GROUPS (calibration — known neighbors, never contamination) ---
+  BLK      trad_mgr       d_avg 0.386  d_min 0.321 (nearest BX    )  PC1-corr +0.683  << below cut
+  XLF      etf            d_avg 0.394  d_min 0.328 (nearest KKR   )  PC1-corr +0.674  << below cut
+  EVR      boutique_adv   d_avg 0.398  d_min 0.340 (nearest BAM   )  PC1-corr +0.669  << below cut
+  TROW     trad_mgr       d_avg 0.409  d_min 0.360 (nearest KKR   )  PC1-corr +0.658
+  MC       boutique_adv   d_avg 0.426  d_min 0.384 (nearest BX    )  PC1-corr +0.638
+  PWP      boutique_adv   d_avg 0.440  d_min 0.389 (nearest KKR   )  PC1-corr +0.623
+  MS       bulge          d_avg 0.455  d_min 0.424 (nearest KKR   )  PC1-corr +0.606
+  BEN      trad_mgr       d_avg 0.455  d_min 0.390 (nearest BAM   )  PC1-corr +0.606
+  LAZ      boutique_adv   d_avg 0.486  d_min 0.423 (nearest BX    )  PC1-corr +0.571
+  SPY      etf            d_avg 0.489  d_min 0.340 (nearest BAM   )  PC1-corr +0.567
+  GS       bulge          d_avg 0.520  d_min 0.444 (nearest BAM   )  PC1-corr +0.533
+  VNQ      reit_proxy     d_avg 0.658  d_min 0.588 (nearest BX    )  PC1-corr +0.380
+  JPM      bulge          d_avg 0.660  d_min 0.555 (nearest BAM   )  PC1-corr +0.377
+  XLRE     reit_proxy     d_avg 0.701  d_min 0.637 (nearest BX    )  PC1-corr +0.332
+  AON      ins_brk        d_avg 0.895  d_min 0.837 (nearest KKR   )  PC1-corr +0.118
+
+--- INTERPRETATION ---
+1 outside name(s) sit closer to the cohort than its own loosest member. The config boundary is wrong as drawn: treat each as a missing-member candidate (add to the cluster group and re-validate) or accept that the cohort is not a standalone factor.

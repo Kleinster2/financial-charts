@@ -1,0 +1,46 @@
+Quantum computing FULL-UNIVERSE BOUNDARY SWEEP
+Window: 2025-06-12 -> 2026-06-12
+Cohort (N=4): IONQ, RGTI, QBTS, QUBT
+Pool: 1056 names (file: scripts\universes\us_common_stocks.txt); every config ticker excluded from outsider set
+Dendrogram threshold: 0.5
+Cohort internal envelope (final internal merge): 0.182
+
+VERDICT: BOUNDARY-PERMEABLE
+  Outsiders at or below threshold 0.5: 38
+  Outsiders strictly inside the envelope:  0
+
+--- NEAREST 25 OUTSIDERS (of 1056) ---
+  ARQQ     outsider       d_avg 0.260  d_min 0.233 (nearest RGTI  )  PC1-corr +0.790  << below cut
+  SMR      outsider       d_avg 0.301  d_min 0.267 (nearest QBTS  )  PC1-corr +0.747  << below cut
+  NNE      outsider       d_avg 0.329  d_min 0.316 (nearest QBTS  )  PC1-corr +0.716  << below cut
+  OKLO     outsider       d_avg 0.342  d_min 0.306 (nearest QBTS  )  PC1-corr +0.703  << below cut
+  BBAI     outsider       d_avg 0.345  d_min 0.320 (nearest QBTS  )  PC1-corr +0.699  << below cut
+  LTBR     outsider       d_avg 0.369  d_min 0.343 (nearest QBTS  )  PC1-corr +0.673  << below cut
+  QS       outsider       d_avg 0.373  d_min 0.358 (nearest QUBT  )  PC1-corr +0.669  << below cut
+  BTBT     outsider       d_avg 0.406  d_min 0.381 (nearest RGTI  )  PC1-corr +0.634  << below cut
+  UMAC     outsider       d_avg 0.431  d_min 0.417 (nearest RGTI  )  PC1-corr +0.607  << below cut
+  CLSK     outsider       d_avg 0.432  d_min 0.424 (nearest QBTS  )  PC1-corr +0.606  << below cut
+  BITF     outsider       d_avg 0.432  d_min 0.423 (nearest QBTS  )  PC1-corr +0.607  << below cut
+  HUT      outsider       d_avg 0.438  d_min 0.417 (nearest QUBT  )  PC1-corr +0.599  << below cut
+  TMC      outsider       d_avg 0.439  d_min 0.421 (nearest RGTI  )  PC1-corr +0.599  << below cut
+  MARA     outsider       d_avg 0.448  d_min 0.431 (nearest QUBT  )  PC1-corr +0.589  << below cut
+  LEU      outsider       d_avg 0.455  d_min 0.417 (nearest QBTS  )  PC1-corr +0.582  << below cut
+  SOUN     outsider       d_avg 0.457  d_min 0.427 (nearest QBTS  )  PC1-corr +0.579  << below cut
+  RIOT     outsider       d_avg 0.461  d_min 0.451 (nearest QUBT  )  PC1-corr +0.576  << below cut
+  IREN     outsider       d_avg 0.461  d_min 0.416 (nearest QUBT  )  PC1-corr +0.575  << below cut
+  HOOD     outsider       d_avg 0.466  d_min 0.443 (nearest IONQ  )  PC1-corr +0.569  << below cut
+  RKLB     outsider       d_avg 0.466  d_min 0.439 (nearest QBTS  )  PC1-corr +0.570  << below cut
+  APLD     outsider       d_avg 0.469  d_min 0.431 (nearest QBTS  )  PC1-corr +0.566  << below cut
+  RDW      outsider       d_avg 0.469  d_min 0.459 (nearest IONQ  )  PC1-corr +0.566  << below cut
+  BLNK     outsider       d_avg 0.470  d_min 0.452 (nearest QUBT  )  PC1-corr +0.565  << below cut
+  ASTS     outsider       d_avg 0.470  d_min 0.428 (nearest QBTS  )  PC1-corr +0.566  << below cut
+  COIN     outsider       d_avg 0.471  d_min 0.436 (nearest IONQ  )  PC1-corr +0.564  << below cut
+
+--- CONFIG CONTROL GROUPS (calibration — known neighbors, never contamination) ---
+  ARKK     spec_growth    d_avg 0.351  d_min 0.331 (nearest IONQ  )  PC1-corr +0.694  << below cut
+  IWM      small_cap      d_avg 0.444  d_min 0.430 (nearest QBTS  )  PC1-corr +0.594  << below cut
+  SPY      etf            d_avg 0.511  d_min 0.491 (nearest QBTS  )  PC1-corr +0.522
+  IBM      incumbent      d_avg 0.752  d_min 0.734 (nearest QBTS  )  PC1-corr +0.265
+
+--- INTERPRETATION ---
+38 outside name(s) would merge into the cohort's flat cluster at the cut. The cohort is real but its cut-level boundary is permeable: either these names belong in the cohort (re-run the validation with them added) or the separability claim should be stated at a tighter threshold.

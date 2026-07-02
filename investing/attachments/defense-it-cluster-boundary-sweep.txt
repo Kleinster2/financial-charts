@@ -1,0 +1,53 @@
+Defense IT services FULL-UNIVERSE BOUNDARY SWEEP
+Window: 2025-06-12 -> 2026-06-12
+Cohort (N=4): LDOS, BAH, CACI, SAIC
+Pool: 1048 names (file: scripts\universes\us_common_stocks.txt); every config ticker excluded from outsider set
+Dendrogram threshold: 0.5
+Cohort internal envelope (final internal merge): 0.435
+
+VERDICT: BOUNDARY-CLEAN
+  Outsiders at or below threshold 0.5: 0
+  Outsiders strictly inside the envelope:  0
+
+--- NEAREST 25 OUTSIDERS (of 1048) ---
+  ICE      outsider       d_avg 0.613  d_min 0.591 (nearest LDOS  )  PC1-corr +0.462
+  J        outsider       d_avg 0.621  d_min 0.566 (nearest SAIC  )  PC1-corr +0.453
+  FRSH     outsider       d_avg 0.632  d_min 0.505 (nearest SAIC  )  PC1-corr +0.442
+  HII      outsider       d_avg 0.637  d_min 0.486 (nearest LDOS  )  PC1-corr +0.429
+  DSGX     outsider       d_avg 0.642  d_min 0.446 (nearest SAIC  )  PC1-corr +0.432
+  KTOS     outsider       d_avg 0.643  d_min 0.550 (nearest LDOS  )  PC1-corr +0.423
+  CHYM     outsider       d_avg 0.649  d_min 0.583 (nearest LDOS  )  PC1-corr +0.418
+  EFX      outsider       d_avg 0.660  d_min 0.558 (nearest BAH   )  PC1-corr +0.408
+  DASTY    outsider       d_avg 0.660  d_min 0.525 (nearest SAIC  )  PC1-corr +0.411
+  CBRE     outsider       d_avg 0.663  d_min 0.592 (nearest LDOS  )  PC1-corr +0.402
+  RELX     outsider       d_avg 0.667  d_min 0.566 (nearest SAIC  )  PC1-corr +0.401
+  RPD      outsider       d_avg 0.681  d_min 0.577 (nearest SAIC  )  PC1-corr +0.384
+  PAYX     outsider       d_avg 0.681  d_min 0.541 (nearest BAH   )  PC1-corr +0.384
+  AVAV     outsider       d_avg 0.684  d_min 0.665 (nearest LDOS  )  PC1-corr +0.376
+  ADSK     outsider       d_avg 0.685  d_min 0.642 (nearest SAIC  )  PC1-corr +0.377
+  ADP      outsider       d_avg 0.685  d_min 0.570 (nearest BAH   )  PC1-corr +0.379
+  FDS      outsider       d_avg 0.688  d_min 0.578 (nearest SAIC  )  PC1-corr +0.376
+  TRMB     outsider       d_avg 0.689  d_min 0.635 (nearest LDOS  )  PC1-corr +0.373
+  FIS      outsider       d_avg 0.694  d_min 0.623 (nearest BAH   )  PC1-corr +0.367
+  PATH     outsider       d_avg 0.697  d_min 0.542 (nearest SAIC  )  PC1-corr +0.365
+  NDAQ     outsider       d_avg 0.699  d_min 0.643 (nearest BAH   )  PC1-corr +0.360
+  ZETA     outsider       d_avg 0.704  d_min 0.649 (nearest SAIC  )  PC1-corr +0.355
+  SHOP     outsider       d_avg 0.707  d_min 0.631 (nearest LDOS  )  PC1-corr +0.351
+  LC       outsider       d_avg 0.707  d_min 0.684 (nearest BAH   )  PC1-corr +0.349
+  MLM      outsider       d_avg 0.709  d_min 0.591 (nearest LDOS  )  PC1-corr +0.345
+
+--- CONFIG CONTROL GROUPS (calibration — known neighbors, never contamination) ---
+  KBR      govcon_adjacent d_avg 0.481  d_min 0.433 (nearest SAIC  )  PC1-corr +0.620  << below cut
+  PSN      govcon_adjacent d_avg 0.539  d_min 0.474 (nearest LDOS  )  PC1-corr +0.549
+  GD       defense_primes d_avg 0.602  d_min 0.498 (nearest LDOS  )  PC1-corr +0.473
+  LHX      defense_primes d_avg 0.656  d_min 0.567 (nearest LDOS  )  PC1-corr +0.407
+  ACN      commercial_it  d_avg 0.673  d_min 0.536 (nearest BAH   )  PC1-corr +0.395
+  NOC      defense_primes d_avg 0.707  d_min 0.619 (nearest LDOS  )  PC1-corr +0.346
+  CTSH     commercial_it  d_avg 0.712  d_min 0.608 (nearest BAH   )  PC1-corr +0.347
+  LMT      defense_primes d_avg 0.731  d_min 0.668 (nearest LDOS  )  PC1-corr +0.319
+  ITA      etf            d_avg 0.749  d_min 0.666 (nearest CACI  )  PC1-corr +0.296
+  RTX      defense_primes d_avg 0.836  d_min 0.771 (nearest CACI  )  PC1-corr +0.194
+  SPY      etf            d_avg 0.875  d_min 0.826 (nearest LDOS  )  PC1-corr +0.148
+
+--- INTERPRETATION ---
+No name outside the config would join the cohort at the cut: the boundary is market-relative, not just config-relative. The threshold scan's isolation result holds against the full universe.

@@ -11,10 +11,8 @@ tags:
 
 # Edge control-plane risk basket
 
-> [!warning] Cluster status: weak cluster (May 2026)
-> Intra-cluster correlation 0.47 (below the 0.50 floor), PC1 64.8%. Hierarchical clustering at 0.4 returns ALL THREE names (FSLY, AKAM, NET) as singletons — no cluster forms at the standard threshold. The basket is a risk factor that turns on during control-plane narrative shocks (event-driven), not a permanent structural cluster. See "Cluster validation — weak cluster confirmed" section below.
->
-> OOS-FAILED (preliminary): this cohort is the framework's first out-of-sample falsification. It passed the in-sample clean-null random-basket test (p 0.0123, BH-pass), then its intra-correlation went 0.444 → ~−0.001 over the 24 sessions after its May 3 definition date — random baskets beat it on 69% of post-definition days. The boundary did not survive contact with unseen data. To be formally downgraded from "weak cluster" to falsified at the July pass when PRELIMINARY drops. See the [[2026-06-15-cluster-validation-capstone|2026-06-15 capstone]].
+> [!failure] Cluster status: FALSIFIED out of sample (formal, 2026-07-02) — the framework's first and clearest OOS falsification
+> Formally downgraded from "weak cluster" at the July capstone pass, on 40 post-definition observations: in-sample intra 0.468 collapsed to 0.042 out of sample (ratio 0.085), and random baskets from the verified clean pool beat the cohort on 59% of draws (p_oos 0.588). The cohort passed every in-sample diagnostic (random-basket p 0.0123, BH-pass) and then simply stopped existing on unseen data — precisely the selection-on-the-dependent-variable failure the post-definition OOS pass was built to catch. The May 2026 in-sample read (intra 0.47, PC1 64.8%, all three names singletons at the cut) already flagged it as event-driven rather than structural; the OOS data settles it. Treat FSLY/AKAM/NET co-movement as a narrative-shock artifact, not a basket. See "Cluster validation — weak cluster confirmed" section below and the [[2026-06-15-cluster-validation-capstone|June capstone]] for the arc.
 
 Plain English: not all AI infrastructure is safe just because AI traffic grows. If model vendors bundle execution, state, permissions, and tracing into their own hosted agent runtimes, the edge layer closest to that control plane can get repriced hard.
 

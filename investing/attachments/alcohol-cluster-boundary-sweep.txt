@@ -1,0 +1,46 @@
+Alcohol and spirits FULL-UNIVERSE BOUNDARY SWEEP
+Window: 2025-06-18 -> 2026-06-18
+Cohort (N=5): STZ, BF-B, TAP, SAM, DEO
+Pool: 1055 names (file: scripts\universes\us_common_stocks.txt); every config ticker excluded from outsider set
+Dendrogram threshold: 0.5
+Cohort internal envelope (final internal merge): 0.551
+
+VERDICT: BOUNDARY-CLEAN
+  Outsiders at or below threshold 0.5: 0
+  Outsiders strictly inside the envelope:  0
+
+--- NEAREST 25 OUTSIDERS (of 1055) ---
+  CAG      outsider       d_avg 0.591  d_min 0.429 (nearest TAP   )  PC1-corr +0.538
+  LKQ      outsider       d_avg 0.596  d_min 0.524 (nearest SAM   )  PC1-corr +0.525
+  CPB      outsider       d_avg 0.605  d_min 0.445 (nearest TAP   )  PC1-corr +0.522
+  PEP      outsider       d_avg 0.606  d_min 0.510 (nearest TAP   )  PC1-corr +0.516
+  NVR      outsider       d_avg 0.626  d_min 0.568 (nearest DEO   )  PC1-corr +0.488
+  GIS      outsider       d_avg 0.633  d_min 0.456 (nearest TAP   )  PC1-corr +0.485
+  LEN      outsider       d_avg 0.642  d_min 0.528 (nearest DEO   )  PC1-corr +0.469
+  KHC      outsider       d_avg 0.643  d_min 0.492 (nearest TAP   )  PC1-corr +0.470
+  MKC      outsider       d_avg 0.646  d_min 0.483 (nearest TAP   )  PC1-corr +0.467
+  CLX      outsider       d_avg 0.646  d_min 0.608 (nearest DEO   )  PC1-corr +0.461
+  LOW      outsider       d_avg 0.647  d_min 0.515 (nearest DEO   )  PC1-corr +0.460
+  BLDR     outsider       d_avg 0.653  d_min 0.565 (nearest DEO   )  PC1-corr +0.450
+  CUBE     outsider       d_avg 0.654  d_min 0.590 (nearest TAP   )  PC1-corr +0.452
+  PSA      outsider       d_avg 0.658  d_min 0.565 (nearest DEO   )  PC1-corr +0.446
+  EXR      outsider       d_avg 0.660  d_min 0.566 (nearest DEO   )  PC1-corr +0.442
+  KDP      outsider       d_avg 0.662  d_min 0.600 (nearest TAP   )  PC1-corr +0.443
+  HD       outsider       d_avg 0.663  d_min 0.541 (nearest DEO   )  PC1-corr +0.439
+  PPG      outsider       d_avg 0.670  d_min 0.525 (nearest DEO   )  PC1-corr +0.429
+  FBIN     outsider       d_avg 0.673  d_min 0.578 (nearest STZ   )  PC1-corr +0.424
+  PHM      outsider       d_avg 0.674  d_min 0.554 (nearest DEO   )  PC1-corr +0.426
+  PG       outsider       d_avg 0.680  d_min 0.566 (nearest DEO   )  PC1-corr +0.417
+  SAIA     outsider       d_avg 0.681  d_min 0.621 (nearest DEO   )  PC1-corr +0.414
+  MHK      outsider       d_avg 0.682  d_min 0.590 (nearest DEO   )  PC1-corr +0.413
+  ODFL     outsider       d_avg 0.683  d_min 0.636 (nearest DEO   )  PC1-corr +0.412
+  DHI      outsider       d_avg 0.684  d_min 0.588 (nearest DEO   )  PC1-corr +0.412
+
+--- CONFIG CONTROL GROUPS (calibration — known neighbors, never contamination) ---
+  XLP      staples_etf    d_avg 0.596  d_min 0.508 (nearest TAP   )  PC1-corr +0.527
+  KXI      staples_etf    d_avg 0.614  d_min 0.522 (nearest DEO   )  PC1-corr +0.504
+  KO       beverages      d_avg 0.741  d_min 0.625 (nearest TAP   )  PC1-corr +0.339
+  SPY      etf            d_avg 0.926  d_min 0.852 (nearest DEO   )  PC1-corr +0.050
+
+--- INTERPRETATION ---
+No name outside the config would join the cohort at the cut: the boundary is market-relative, not just config-relative. The threshold scan's isolation result holds against the full universe.

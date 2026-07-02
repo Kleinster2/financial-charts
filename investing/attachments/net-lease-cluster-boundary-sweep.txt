@@ -1,0 +1,47 @@
+Net-lease REITs FULL-UNIVERSE BOUNDARY SWEEP
+Window: 2025-06-18 -> 2026-06-18
+Cohort (N=5): O, WPC, NNN, ADC, EPRT
+Pool: 364 names (file: scripts\universes\us_common_stocks.txt); every config ticker excluded from outsider set
+Dendrogram threshold: 0.5
+Cohort internal envelope (final internal merge): 0.322
+
+VERDICT: BOUNDARY-PERMEABLE
+  Outsiders at or below threshold 0.5: 1
+  Outsiders strictly inside the envelope:  0
+
+--- NEAREST 25 OUTSIDERS (of 364) ---
+  CUBE     outsider       d_avg 0.493  d_min 0.444 (nearest NNN   )  PC1-corr +0.574  << below cut
+  UL       outsider       d_avg 0.650  d_min 0.594 (nearest O     )  PC1-corr +0.395
+  STWD     outsider       d_avg 0.661  d_min 0.601 (nearest NNN   )  PC1-corr +0.362
+  NVS      outsider       d_avg 0.671  d_min 0.628 (nearest O     )  PC1-corr +0.343
+  NSA      outsider       d_avg 0.673  d_min 0.622 (nearest NNN   )  PC1-corr +0.356
+  NSRGY    outsider       d_avg 0.690  d_min 0.655 (nearest ADC   )  PC1-corr +0.336
+  ORI      outsider       d_avg 0.696  d_min 0.642 (nearest EPRT  )  PC1-corr +0.361
+  NLY      outsider       d_avg 0.699  d_min 0.625 (nearest WPC   )  PC1-corr +0.306
+  FAF      outsider       d_avg 0.705  d_min 0.672 (nearest EPRT  )  PC1-corr +0.327
+  CNI      outsider       d_avg 0.716  d_min 0.662 (nearest O     )  PC1-corr +0.336
+  BXMT     outsider       d_avg 0.720  d_min 0.653 (nearest NNN   )  PC1-corr +0.276
+  CP       outsider       d_avg 0.722  d_min 0.670 (nearest O     )  PC1-corr +0.339
+  FNF      outsider       d_avg 0.727  d_min 0.694 (nearest NNN   )  PC1-corr +0.299
+  IMBBY    outsider       d_avg 0.741  d_min 0.669 (nearest O     )  PC1-corr +0.285
+  AGNC     outsider       d_avg 0.742  d_min 0.669 (nearest WPC   )  PC1-corr +0.258
+  RLI      outsider       d_avg 0.746  d_min 0.688 (nearest EPRT  )  PC1-corr +0.300
+  SAM      outsider       d_avg 0.746  d_min 0.680 (nearest NNN   )  PC1-corr +0.245
+  STC      outsider       d_avg 0.749  d_min 0.726 (nearest EPRT  )  PC1-corr +0.291
+  ACI      outsider       d_avg 0.750  d_min 0.734 (nearest NNN   )  PC1-corr +0.285
+  DEO      outsider       d_avg 0.750  d_min 0.710 (nearest NNN   )  PC1-corr +0.291
+  RHP      outsider       d_avg 0.752  d_min 0.671 (nearest NNN   )  PC1-corr +0.288
+  SNY      outsider       d_avg 0.752  d_min 0.708 (nearest NNN   )  PC1-corr +0.258
+  BF-B     outsider       d_avg 0.753  d_min 0.715 (nearest NNN   )  PC1-corr +0.234
+  TOL      outsider       d_avg 0.755  d_min 0.698 (nearest WPC   )  PC1-corr +0.241
+  MPLX     outsider       d_avg 0.756  d_min 0.713 (nearest O     )  PC1-corr +0.311
+
+--- CONFIG CONTROL GROUPS (calibration — known neighbors, never contamination) ---
+  VNQ      reit_etf       d_avg 0.362  d_min 0.314 (nearest NNN   )  PC1-corr +0.723  << below cut
+  XLRE     reit_etf       d_avg 0.447  d_min 0.400 (nearest O     )  PC1-corr +0.644  << below cut
+  IEF      duration       d_avg 0.755  d_min 0.721 (nearest ADC   )  PC1-corr +0.262
+  TLT      duration       d_avg 0.808  d_min 0.771 (nearest ADC   )  PC1-corr +0.196
+  SPY      etf            d_avg 0.947  d_min 0.870 (nearest ADC   )  PC1-corr -0.009
+
+--- INTERPRETATION ---
+1 outside name(s) would merge into the cohort's flat cluster at the cut. The cohort is real but its cut-level boundary is permeable: either these names belong in the cohort (re-run the validation with them added) or the separability claim should be stated at a tighter threshold.

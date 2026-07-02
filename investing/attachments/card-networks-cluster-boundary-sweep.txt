@@ -1,0 +1,54 @@
+Card networks duopoly FULL-UNIVERSE BOUNDARY SWEEP
+Window: 2025-04-30 -> 2026-04-30
+Cohort (N=2): V, MA
+Pool: 1050 names (file: scripts\universes\us_common_stocks.txt); every config ticker excluded from outsider set
+Dendrogram threshold: 0.4
+Cohort internal envelope (final internal merge): 0.133
+
+VERDICT: BOUNDARY-CLEAN
+  Outsiders at or below threshold 0.4: 0
+  Outsiders strictly inside the envelope:  0
+
+--- NEAREST 25 OUTSIDERS (of 1050) ---
+  ADP      outsider       d_avg 0.453  d_min 0.446 (nearest V     )  PC1-corr +0.566
+  PAYX     outsider       d_avg 0.511  d_min 0.465 (nearest MA    )  PC1-corr +0.506
+  MET      outsider       d_avg 0.512  d_min 0.498 (nearest MA    )  PC1-corr +0.505
+  GPN      outsider       d_avg 0.533  d_min 0.518 (nearest MA    )  PC1-corr +0.483
+  AON      outsider       d_avg 0.551  d_min 0.501 (nearest MA    )  PC1-corr +0.465
+  MRSH     outsider       d_avg 0.558  d_min 0.515 (nearest MA    )  PC1-corr +0.458
+  AFL      outsider       d_avg 0.570  d_min 0.547 (nearest MA    )  PC1-corr +0.445
+  BKNG     outsider       d_avg 0.577  d_min 0.541 (nearest MA    )  PC1-corr +0.437
+  HIG      outsider       d_avg 0.581  d_min 0.554 (nearest MA    )  PC1-corr +0.433
+  WTW      outsider       d_avg 0.591  d_min 0.531 (nearest MA    )  PC1-corr +0.423
+  GL       outsider       d_avg 0.594  d_min 0.586 (nearest V     )  PC1-corr +0.420
+  RCL      outsider       d_avg 0.596  d_min 0.568 (nearest MA    )  PC1-corr +0.419
+  SYF      outsider       d_avg 0.602  d_min 0.586 (nearest MA    )  PC1-corr +0.412
+  RYAN     outsider       d_avg 0.603  d_min 0.596 (nearest MA    )  PC1-corr +0.411
+  AMP      outsider       d_avg 0.607  d_min 0.548 (nearest MA    )  PC1-corr +0.406
+  KNSL     outsider       d_avg 0.607  d_min 0.606 (nearest V     )  PC1-corr +0.406
+  L        outsider       d_avg 0.609  d_min 0.595 (nearest MA    )  PC1-corr +0.405
+  PFG      outsider       d_avg 0.609  d_min 0.594 (nearest MA    )  PC1-corr +0.404
+  ABNB     outsider       d_avg 0.612  d_min 0.604 (nearest MA    )  PC1-corr +0.401
+  BEN      outsider       d_avg 0.615  d_min 0.587 (nearest MA    )  PC1-corr +0.398
+  CTSH     outsider       d_avg 0.615  d_min 0.557 (nearest MA    )  PC1-corr +0.398
+  FFIV     outsider       d_avg 0.616  d_min 0.593 (nearest V     )  PC1-corr +0.398
+  ACN      outsider       d_avg 0.619  d_min 0.583 (nearest MA    )  PC1-corr +0.394
+  CCL      outsider       d_avg 0.621  d_min 0.606 (nearest MA    )  PC1-corr +0.393
+  XYZ      outsider       d_avg 0.622  d_min 0.613 (nearest V     )  PC1-corr +0.391
+
+--- CONFIG CONTROL GROUPS (calibration — known neighbors, never contamination) ---
+  XLF      etf            d_avg 0.378  d_min 0.355 (nearest MA    )  PC1-corr +0.644  << below cut
+  AXP      payments_other d_avg 0.542  d_min 0.529 (nearest MA    )  PC1-corr +0.474
+  FIS      payments_other d_avg 0.555  d_min 0.540 (nearest MA    )  PC1-corr +0.461
+  COF      payments_other d_avg 0.561  d_min 0.517 (nearest MA    )  PC1-corr +0.455
+  BAC      banks          d_avg 0.623  d_min 0.594 (nearest MA    )  PC1-corr +0.390
+  JPM      banks          d_avg 0.646  d_min 0.632 (nearest MA    )  PC1-corr +0.367
+  SPY      etf            d_avg 0.675  d_min 0.670 (nearest V     )  PC1-corr +0.336
+  SHOP     payments_other d_avg 0.698  d_min 0.683 (nearest MA    )  PC1-corr +0.312
+  PYPL     payments_other d_avg 0.705  d_min 0.685 (nearest V     )  PC1-corr +0.305
+  WFC      banks          d_avg 0.723  d_min 0.697 (nearest MA    )  PC1-corr +0.287
+  FISV     payments_other d_avg 0.744  d_min 0.724 (nearest MA    )  PC1-corr +0.265
+  XLK      etf            d_avg 0.826  d_min 0.807 (nearest V     )  PC1-corr +0.180
+
+--- INTERPRETATION ---
+No name outside the config would join the cohort at the cut: the boundary is market-relative, not just config-relative. The threshold scan's isolation result holds against the full universe.

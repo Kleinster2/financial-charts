@@ -1,0 +1,48 @@
+Cable broadband FULL-UNIVERSE BOUNDARY SWEEP
+Window: 2025-06-23 -> 2026-06-22
+Cohort (N=2): CHTR, CMCSA
+Pool: 1055 names (file: scripts\universes\us_common_stocks.txt); every config ticker excluded from outsider set
+Dendrogram threshold: 0.5
+Cohort internal envelope (final internal merge): 0.273
+
+VERDICT: BOUNDARY-CLEAN
+  Outsiders at or below threshold 0.5: 0
+  Outsiders strictly inside the envelope:  0
+
+--- NEAREST 25 OUTSIDERS (of 1055) ---
+  HIG      outsider       d_avg 0.635  d_min 0.614 (nearest CMCSA )  PC1-corr +0.393
+  BALL     outsider       d_avg 0.665  d_min 0.663 (nearest CHTR  )  PC1-corr +0.360
+  RLI      outsider       d_avg 0.670  d_min 0.648 (nearest CHTR  )  PC1-corr +0.355
+  TRV      outsider       d_avg 0.680  d_min 0.634 (nearest CMCSA )  PC1-corr +0.344
+  NVR      outsider       d_avg 0.687  d_min 0.663 (nearest CMCSA )  PC1-corr +0.337
+  MAS      outsider       d_avg 0.687  d_min 0.680 (nearest CHTR  )  PC1-corr +0.337
+  RF       outsider       d_avg 0.687  d_min 0.687 (nearest CHTR  )  PC1-corr +0.336
+  UNP      outsider       d_avg 0.688  d_min 0.655 (nearest CMCSA )  PC1-corr +0.336
+  GIS      outsider       d_avg 0.688  d_min 0.657 (nearest CMCSA )  PC1-corr +0.335
+  PHM      outsider       d_avg 0.696  d_min 0.681 (nearest CMCSA )  PC1-corr +0.327
+  PPG      outsider       d_avg 0.701  d_min 0.696 (nearest CHTR  )  PC1-corr +0.322
+  AMCX     outsider       d_avg 0.701  d_min 0.681 (nearest CHTR  )  PC1-corr +0.321
+  CPRT     outsider       d_avg 0.703  d_min 0.699 (nearest CHTR  )  PC1-corr +0.319
+  DHI      outsider       d_avg 0.704  d_min 0.689 (nearest CMCSA )  PC1-corr +0.319
+  KIM      outsider       d_avg 0.705  d_min 0.676 (nearest CMCSA )  PC1-corr +0.317
+  NSC      outsider       d_avg 0.706  d_min 0.671 (nearest CMCSA )  PC1-corr +0.316
+  CAG      outsider       d_avg 0.708  d_min 0.684 (nearest CMCSA )  PC1-corr +0.315
+  MTB      outsider       d_avg 0.709  d_min 0.708 (nearest CHTR  )  PC1-corr +0.313
+  FRT      outsider       d_avg 0.710  d_min 0.669 (nearest CMCSA )  PC1-corr +0.312
+  COUR     outsider       d_avg 0.711  d_min 0.695 (nearest CHTR  )  PC1-corr +0.311
+  HD       outsider       d_avg 0.716  d_min 0.714 (nearest CHTR  )  PC1-corr +0.305
+  ACGL     outsider       d_avg 0.718  d_min 0.702 (nearest CMCSA )  PC1-corr +0.303
+  MRSH     outsider       d_avg 0.720  d_min 0.698 (nearest CHTR  )  PC1-corr +0.302
+  BIRK     outsider       d_avg 0.724  d_min 0.675 (nearest CHTR  )  PC1-corr +0.297
+  TFC      outsider       d_avg 0.725  d_min 0.725 (nearest CMCSA )  PC1-corr +0.296
+
+--- CONFIG CONTROL GROUPS (calibration — known neighbors, never contamination) ---
+  VZ       telecom        d_avg 0.604  d_min 0.589 (nearest CMCSA )  PC1-corr +0.426
+  XLC      comms_etf      d_avg 0.613  d_min 0.613 (nearest CHTR  )  PC1-corr +0.416
+  T        telecom        d_avg 0.614  d_min 0.594 (nearest CMCSA )  PC1-corr +0.416
+  TMUS     telecom        d_avg 0.685  d_min 0.638 (nearest CMCSA )  PC1-corr +0.339
+  SPY      market         d_avg 0.943  d_min 0.923 (nearest CHTR  )  PC1-corr +0.061
+  SATS     satellite      d_avg 0.965  d_min 0.940 (nearest CHTR  )  PC1-corr +0.027
+
+--- INTERPRETATION ---
+No name outside the config would join the cohort at the cut: the boundary is market-relative, not just config-relative. The threshold scan's isolation result holds against the full universe.

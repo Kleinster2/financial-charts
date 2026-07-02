@@ -1,0 +1,46 @@
+Franchised auto dealers FULL-UNIVERSE BOUNDARY SWEEP
+Window: 2025-06-18 -> 2026-06-18
+Cohort (N=6): AN, LAD, PAG, GPI, SAH, ABG
+Pool: 362 names (file: scripts\universes\us_common_stocks.txt); every config ticker excluded from outsider set
+Dendrogram threshold: 0.5
+Cohort internal envelope (final internal merge): 0.333
+
+VERDICT: BOUNDARY-PERMEABLE
+  Outsiders at or below threshold 0.5: 1
+  Outsiders strictly inside the envelope:  0
+
+--- NEAREST 25 OUTSIDERS (of 362) ---
+  OC       outsider       d_avg 0.495  d_min 0.453 (nearest ABG   )  PC1-corr +0.576  << below cut
+  ALV      outsider       d_avg 0.502  d_min 0.418 (nearest ABG   )  PC1-corr +0.568
+  PK       outsider       d_avg 0.509  d_min 0.465 (nearest LAD   )  PC1-corr +0.559
+  TOL      outsider       d_avg 0.531  d_min 0.480 (nearest ABG   )  PC1-corr +0.535
+  FBIN     outsider       d_avg 0.533  d_min 0.473 (nearest ABG   )  PC1-corr +0.534
+  LEA      outsider       d_avg 0.535  d_min 0.465 (nearest LAD   )  PC1-corr +0.530
+  RHP      outsider       d_avg 0.539  d_min 0.482 (nearest ABG   )  PC1-corr +0.526
+  STWD     outsider       d_avg 0.550  d_min 0.511 (nearest ABG   )  PC1-corr +0.513
+  ARCB     outsider       d_avg 0.560  d_min 0.530 (nearest LAD   )  PC1-corr +0.501
+  SAIA     outsider       d_avg 0.565  d_min 0.538 (nearest SAH   )  PC1-corr +0.496
+  BXMT     outsider       d_avg 0.574  d_min 0.501 (nearest ABG   )  PC1-corr +0.487
+  VFC      outsider       d_avg 0.584  d_min 0.536 (nearest LAD   )  PC1-corr +0.474
+  RH       outsider       d_avg 0.587  d_min 0.522 (nearest ABG   )  PC1-corr +0.471
+  WSM      outsider       d_avg 0.596  d_min 0.514 (nearest ABG   )  PC1-corr +0.461
+  LAZ      outsider       d_avg 0.603  d_min 0.567 (nearest ABG   )  PC1-corr +0.453
+  H        outsider       d_avg 0.608  d_min 0.572 (nearest ABG   )  PC1-corr +0.447
+  XPO      outsider       d_avg 0.609  d_min 0.578 (nearest AN    )  PC1-corr +0.446
+  KNX      outsider       d_avg 0.610  d_min 0.573 (nearest ABG   )  PC1-corr +0.444
+  MC       outsider       d_avg 0.615  d_min 0.582 (nearest LAD   )  PC1-corr +0.439
+  VC       outsider       d_avg 0.616  d_min 0.552 (nearest ABG   )  PC1-corr +0.439
+  WERN     outsider       d_avg 0.620  d_min 0.574 (nearest LAD   )  PC1-corr +0.433
+  CNH      outsider       d_avg 0.624  d_min 0.575 (nearest PAG   )  PC1-corr +0.430
+  WSO      outsider       d_avg 0.625  d_min 0.576 (nearest LAD   )  PC1-corr +0.428
+  LII      outsider       d_avg 0.625  d_min 0.541 (nearest PAG   )  PC1-corr +0.428
+  VNO      outsider       d_avg 0.629  d_min 0.593 (nearest LAD   )  PC1-corr +0.423
+
+--- CONFIG CONTROL GROUPS (calibration — known neighbors, never contamination) ---
+  XRT      retail_etf     d_avg 0.405  d_min 0.361 (nearest ABG   )  PC1-corr +0.679  << below cut
+  KMX      used_car       d_avg 0.559  d_min 0.482 (nearest LAD   )  PC1-corr +0.506
+  XLY      retail_etf     d_avg 0.569  d_min 0.524 (nearest LAD   )  PC1-corr +0.491
+  SPY      etf            d_avg 0.666  d_min 0.610 (nearest LAD   )  PC1-corr +0.380
+
+--- INTERPRETATION ---
+1 outside name(s) would merge into the cohort's flat cluster at the cut. The cohort is real but its cut-level boundary is permeable: either these names belong in the cohort (re-run the validation with them added) or the separability claim should be stated at a tighter threshold.

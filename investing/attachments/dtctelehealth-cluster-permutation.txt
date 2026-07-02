@@ -3,52 +3,20 @@ Window: 2025-06-13 -> 2026-06-12 (251 obs)
 Candidate cohort: HIMS, TDOC, GDRX, DOCS, LFMD (N=5)
 Observed intra-corr: 0.2728    Observed PC1: 42.27%
 
---- INDEPENDENCE NULL ---
-Permutations: 10000
-Block size: 1
-Intra-cluster correlation:
-  Null mean:        0.0000
-  Null 95th pct:    0.0381
-  Null 99th pct:    0.0544
-  p-value (right):  0.000100    -> REJECTS independence null at p < 0.001
-PC1 explained variance:
-  Null mean:        24.05%
-  Null 95th pct:    26.15%
-  Null 99th pct:    27.48%
-  p-value (right):  0.000100    -> REJECTS independence null at p < 0.001
-
 --- RANDOM-BASKET NULL ---
 Permutations: 10000
-Universe source: DB prices_long (1013 tickers with >=200 obs in window)
-Pool size: 254
+Universe source: DB prices_long (1062 tickers with >=200 obs in window)
+Pool size: 365
 Intra-cluster correlation:
-  Null mean:        0.1658
-  Null 95th pct:    0.3165
-  Null 99th pct:    0.3882
-  p-value (right):  0.106889    -> FAILS to reject random-basket null (p >= 0.05)
+  Null mean:        0.1346
+  Null 95th pct:    0.2550
+  Null 99th pct:    0.3143
+  p-value (right):  0.032697    -> REJECTS random-basket null at p < 0.05
 PC1 explained variance:
-  Null mean:        35.91%
-  Null 95th pct:    47.12%
-  Null 99th pct:    52.51%
-  p-value (right):  0.151485    -> FAILS to reject random-basket null (p >= 0.05)
-
---- VOL-MATCHED NULL ---
-Permutations: 10000
-Universe source: DB prices_long (1013 tickers with >=200 obs in window)
-Pool size: 254
-Matching: realized-vol rank band +/-5% per member, without replacement
-Intra-cluster correlation:
-  Null mean:        0.1591
-  Null 95th pct:    0.2725
-  Null 99th pct:    0.3303
-  p-value (right):  0.049795    -> REJECTS vol-matched null at p < 0.05
-PC1 explained variance:
-  Null mean:        34.99%
-  Null 95th pct:    43.27%
-  Null 99th pct:    47.55%
-  p-value (right):  0.071293    -> FAILS to reject vol-matched null (p >= 0.05)
+  Null mean:        33.10%
+  Null 95th pct:    42.25%
+  Null 99th pct:    46.93%
+  p-value (right):  0.049995    -> REJECTS random-basket null at p < 0.05
 
 --- INTERPRETATION ---
-Independence null rejected: the cohort series co-move (necessary, not sufficient).
-Random-basket null NOT rejected: cohort cohesion is indistinguishable from a random N-pick of comparable names. Cluster claim is falsified at conventional significance.
-Vol-matched null partially rejected: one diagnostic passes against same-vol baskets. Part of the cohesion is shared risk level rather than a distinct cluster factor.
+Random-basket null rejected: cohort is more cohesive than a random N-pick from the same universe. This is the meaningful pass.

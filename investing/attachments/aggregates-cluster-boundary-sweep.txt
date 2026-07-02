@@ -1,0 +1,46 @@
+Construction aggregates FULL-UNIVERSE BOUNDARY SWEEP
+Window: 2025-06-23 -> 2026-06-22
+Cohort (N=2): VMC, MLM
+Pool: 1059 names (file: scripts\universes\us_common_stocks.txt); every config ticker excluded from outsider set
+Dendrogram threshold: 0.5
+Cohort internal envelope (final internal merge): 0.117
+
+VERDICT: BOUNDARY-PERMEABLE
+  Outsiders at or below threshold 0.5: 19
+  Outsiders strictly inside the envelope:  0
+
+--- NEAREST 25 OUTSIDERS (of 1059) ---
+  TOL      outsider       d_avg 0.396  d_min 0.365 (nearest MLM   )  PC1-corr +0.622  << below cut
+  SHW      outsider       d_avg 0.401  d_min 0.385 (nearest MLM   )  PC1-corr +0.617  << below cut
+  MHK      outsider       d_avg 0.423  d_min 0.397 (nearest MLM   )  PC1-corr +0.595  << below cut
+  NDSN     outsider       d_avg 0.433  d_min 0.409 (nearest MLM   )  PC1-corr +0.584  << below cut
+  PHM      outsider       d_avg 0.434  d_min 0.418 (nearest MLM   )  PC1-corr +0.583  << below cut
+  EMR      outsider       d_avg 0.435  d_min 0.399 (nearest MLM   )  PC1-corr +0.582  << below cut
+  WAB      outsider       d_avg 0.440  d_min 0.410 (nearest MLM   )  PC1-corr +0.577  << below cut
+  OC       outsider       d_avg 0.441  d_min 0.410 (nearest MLM   )  PC1-corr +0.576  << below cut
+  LII      outsider       d_avg 0.448  d_min 0.423 (nearest MLM   )  PC1-corr +0.569  << below cut
+  IR       outsider       d_avg 0.452  d_min 0.425 (nearest MLM   )  PC1-corr +0.565  << below cut
+  HD       outsider       d_avg 0.452  d_min 0.445 (nearest MLM   )  PC1-corr +0.564  << below cut
+  LOW      outsider       d_avg 0.460  d_min 0.457 (nearest MLM   )  PC1-corr +0.556  << below cut
+  ALLE     outsider       d_avg 0.470  d_min 0.425 (nearest VMC   )  PC1-corr +0.546  << below cut
+  AOS      outsider       d_avg 0.470  d_min 0.450 (nearest MLM   )  PC1-corr +0.546  << below cut
+  MAS      outsider       d_avg 0.472  d_min 0.441 (nearest MLM   )  PC1-corr +0.544  << below cut
+  BLDR     outsider       d_avg 0.474  d_min 0.441 (nearest MLM   )  PC1-corr +0.542  << below cut
+  PPG      outsider       d_avg 0.476  d_min 0.461 (nearest MLM   )  PC1-corr +0.540  << below cut
+  AME      outsider       d_avg 0.485  d_min 0.453 (nearest MLM   )  PC1-corr +0.531  << below cut
+  DHI      outsider       d_avg 0.494  d_min 0.479 (nearest MLM   )  PC1-corr +0.521  << below cut
+  IEX      outsider       d_avg 0.501  d_min 0.476 (nearest MLM   )  PC1-corr +0.514
+  ROK      outsider       d_avg 0.506  d_min 0.502 (nearest VMC   )  PC1-corr +0.509
+  ITW      outsider       d_avg 0.507  d_min 0.490 (nearest MLM   )  PC1-corr +0.508
+  CCL      outsider       d_avg 0.509  d_min 0.478 (nearest MLM   )  PC1-corr +0.506
+  SWK      outsider       d_avg 0.511  d_min 0.487 (nearest MLM   )  PC1-corr +0.504
+  DOV      outsider       d_avg 0.515  d_min 0.490 (nearest MLM   )  PC1-corr +0.500
+
+--- CONFIG CONTROL GROUPS (calibration — known neighbors, never contamination) ---
+  XHB      homebuilders   d_avg 0.342  d_min 0.315 (nearest MLM   )  PC1-corr +0.679  << below cut
+  XLI      industrials    d_avg 0.383  d_min 0.355 (nearest MLM   )  PC1-corr +0.636  << below cut
+  XLB      materials_etf  d_avg 0.398  d_min 0.386 (nearest MLM   )  PC1-corr +0.620  << below cut
+  SPY      market         d_avg 0.558  d_min 0.537 (nearest MLM   )  PC1-corr +0.455
+
+--- INTERPRETATION ---
+19 outside name(s) would merge into the cohort's flat cluster at the cut. The cohort is real but its cut-level boundary is permeable: either these names belong in the cohort (re-run the validation with them added) or the separability claim should be stated at a tighter threshold.

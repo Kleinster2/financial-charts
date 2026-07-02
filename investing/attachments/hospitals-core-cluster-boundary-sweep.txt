@@ -1,0 +1,47 @@
+Sub - Hospital operators core (ex-CYH) FULL-UNIVERSE BOUNDARY SWEEP
+Window: 2025-06-18 -> 2026-06-18
+Cohort (N=3): HCA, THC, UHS
+Pool: 1056 names (file: scripts\universes\us_common_stocks.txt); every config ticker excluded from outsider set
+Dendrogram threshold: 0.5
+Cohort internal envelope (final internal merge): 0.453
+
+VERDICT: BOUNDARY-CLEAN
+  Outsiders at or below threshold 0.5: 0
+  Outsiders strictly inside the envelope:  0
+
+--- NEAREST 25 OUTSIDERS (of 1056) ---
+  BWA      outsider       d_avg 0.708  d_min 0.612 (nearest THC   )  PC1-corr +0.345
+  RPD      outsider       d_avg 0.720  d_min 0.690 (nearest THC   )  PC1-corr -0.331
+  ZBH      outsider       d_avg 0.725  d_min 0.689 (nearest UHS   )  PC1-corr +0.326
+  WAB      outsider       d_avg 0.736  d_min 0.680 (nearest THC   )  PC1-corr +0.313
+  MRK      outsider       d_avg 0.737  d_min 0.720 (nearest HCA   )  PC1-corr +0.312
+  ALLE     outsider       d_avg 0.739  d_min 0.671 (nearest UHS   )  PC1-corr +0.310
+  HIG      outsider       d_avg 0.739  d_min 0.653 (nearest HCA   )  PC1-corr +0.312
+  DVA      outsider       d_avg 0.740  d_min 0.703 (nearest UHS   )  PC1-corr +0.309
+  SHW      outsider       d_avg 0.749  d_min 0.712 (nearest UHS   )  PC1-corr +0.298
+  ITW      outsider       d_avg 0.749  d_min 0.734 (nearest UHS   )  PC1-corr +0.297
+  BALL     outsider       d_avg 0.750  d_min 0.705 (nearest HCA   )  PC1-corr +0.297
+  SNA      outsider       d_avg 0.751  d_min 0.728 (nearest UHS   )  PC1-corr +0.295
+  CINF     outsider       d_avg 0.753  d_min 0.711 (nearest HCA   )  PC1-corr +0.293
+  AGCO     outsider       d_avg 0.754  d_min 0.719 (nearest UHS   )  PC1-corr +0.292
+  MDT      outsider       d_avg 0.758  d_min 0.709 (nearest UHS   )  PC1-corr +0.288
+  SBUX     outsider       d_avg 0.758  d_min 0.699 (nearest THC   )  PC1-corr +0.286
+  CI       outsider       d_avg 0.759  d_min 0.686 (nearest UHS   )  PC1-corr +0.287
+  ECL      outsider       d_avg 0.762  d_min 0.716 (nearest THC   )  PC1-corr +0.283
+  TXT      outsider       d_avg 0.762  d_min 0.732 (nearest HCA   )  PC1-corr +0.282
+  PCAR     outsider       d_avg 0.763  d_min 0.696 (nearest UHS   )  PC1-corr +0.280
+  HWM      outsider       d_avg 0.764  d_min 0.701 (nearest THC   )  PC1-corr +0.280
+  AMCR     outsider       d_avg 0.764  d_min 0.751 (nearest HCA   )  PC1-corr +0.280
+  ALAB     outsider       d_avg 0.765  d_min 0.716 (nearest HCA   )  PC1-corr -0.280
+  SYK      outsider       d_avg 0.765  d_min 0.732 (nearest HCA   )  PC1-corr +0.279
+  FRSH     outsider       d_avg 0.765  d_min 0.716 (nearest UHS   )  PC1-corr -0.279
+
+--- CONFIG CONTROL GROUPS (calibration — known neighbors, never contamination) ---
+  IHF      providers_etf  d_avg 0.738  d_min 0.693 (nearest THC   )  PC1-corr +0.309
+  XLV      healthcare_etf d_avg 0.775  d_min 0.756 (nearest HCA   )  PC1-corr +0.267
+  SPY      etf            d_avg 0.845  d_min 0.774 (nearest THC   )  PC1-corr +0.183
+  ELV      payers         d_avg 0.868  d_min 0.789 (nearest UHS   )  PC1-corr +0.155
+  UNH      payers         d_avg 0.921  d_min 0.897 (nearest THC   )  PC1-corr +0.045
+
+--- INTERPRETATION ---
+No name outside the config would join the cohort at the cut: the boundary is market-relative, not just config-relative. The threshold scan's isolation result holds against the full universe.

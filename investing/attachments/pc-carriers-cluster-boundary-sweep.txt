@@ -1,0 +1,54 @@
+P&C insurance carriers FULL-UNIVERSE BOUNDARY SWEEP
+Window: 2025-04-30 -> 2026-04-30
+Cohort (N=5): PGR, CB, TRV, ALL, HIG
+Pool: 1046 names (file: scripts\universes\us_common_stocks.txt); every config ticker excluded from outsider set
+Dendrogram threshold: 0.4
+Cohort internal envelope (final internal merge): 0.402
+
+VERDICT: BOUNDARY-CONTAMINATED
+  Outsiders at or below threshold 0.4: 3
+  Outsiders strictly inside the envelope:  3
+
+--- NEAREST 25 OUTSIDERS (of 1046) ---
+  ACGL     outsider       d_avg 0.334  d_min 0.289 (nearest TRV   )  PC1-corr +0.790  << INSIDE ENVELOPE
+  L        outsider       d_avg 0.338  d_min 0.216 (nearest HIG   )  PC1-corr +0.787  << INSIDE ENVELOPE
+  AXS      outsider       d_avg 0.397  d_min 0.321 (nearest HIG   )  PC1-corr +0.717  << INSIDE ENVELOPE
+  CINF     outsider       d_avg 0.420  d_min 0.270 (nearest HIG   )  PC1-corr +0.691
+  RLI      outsider       d_avg 0.459  d_min 0.406 (nearest HIG   )  PC1-corr +0.642
+  AFL      outsider       d_avg 0.459  d_min 0.378 (nearest HIG   )  PC1-corr +0.643
+  RNR      outsider       d_avg 0.500  d_min 0.396 (nearest CB    )  PC1-corr +0.592
+  GL       outsider       d_avg 0.512  d_min 0.353 (nearest HIG   )  PC1-corr +0.582
+  MKL      outsider       d_avg 0.525  d_min 0.416 (nearest TRV   )  PC1-corr +0.567
+  EG       outsider       d_avg 0.526  d_min 0.452 (nearest HIG   )  PC1-corr +0.563
+  AIZ      outsider       d_avg 0.550  d_min 0.439 (nearest HIG   )  PC1-corr +0.537
+  AIG      outsider       d_avg 0.574  d_min 0.463 (nearest CB    )  PC1-corr +0.506
+  BRK-B    outsider       d_avg 0.593  d_min 0.542 (nearest HIG   )  PC1-corr +0.484
+  KNSL     outsider       d_avg 0.598  d_min 0.490 (nearest CB    )  PC1-corr +0.476
+  FNF      outsider       d_avg 0.604  d_min 0.526 (nearest TRV   )  PC1-corr +0.473
+  ORI      outsider       d_avg 0.625  d_min 0.513 (nearest HIG   )  PC1-corr +0.447
+  MA       outsider       d_avg 0.645  d_min 0.554 (nearest HIG   )  PC1-corr +0.422
+  YUM      outsider       d_avg 0.653  d_min 0.561 (nearest TRV   )  PC1-corr +0.413
+  RYAN     outsider       d_avg 0.656  d_min 0.611 (nearest CB    )  PC1-corr +0.407
+  AMD      outsider       d_avg 0.657  d_min 0.610 (nearest PGR   )  PC1-corr -0.403
+  REG      outsider       d_avg 0.661  d_min 0.579 (nearest HIG   )  PC1-corr +0.404
+  NVR      outsider       d_avg 0.662  d_min 0.582 (nearest HIG   )  PC1-corr +0.403
+  WM       outsider       d_avg 0.669  d_min 0.619 (nearest PGR   )  PC1-corr +0.390
+  CMCSA    outsider       d_avg 0.671  d_min 0.596 (nearest HIG   )  PC1-corr +0.390
+  FAF      outsider       d_avg 0.672  d_min 0.534 (nearest TRV   )  PC1-corr +0.392
+
+--- CONFIG CONTROL GROUPS (calibration — known neighbors, never contamination) ---
+  MRSH     ins_brokers    d_avg 0.563  d_min 0.525 (nearest HIG   )  PC1-corr +0.518
+  AJG      ins_brokers    d_avg 0.579  d_min 0.566 (nearest CB    )  PC1-corr +0.497
+  AON      ins_brokers    d_avg 0.580  d_min 0.532 (nearest HIG   )  PC1-corr +0.498
+  BRO      ins_brokers    d_avg 0.647  d_min 0.582 (nearest CB    )  PC1-corr +0.417
+  XLF      etf            d_avg 0.656  d_min 0.499 (nearest HIG   )  PC1-corr +0.412
+  WTW      ins_brokers    d_avg 0.684  d_min 0.615 (nearest HIG   )  PC1-corr +0.376
+  MET      life_carriers  d_avg 0.688  d_min 0.534 (nearest HIG   )  PC1-corr +0.373
+  PRU      life_carriers  d_avg 0.803  d_min 0.635 (nearest HIG   )  PC1-corr +0.238
+  WFC      banks          d_avg 0.834  d_min 0.673 (nearest HIG   )  PC1-corr +0.200
+  BAC      banks          d_avg 0.856  d_min 0.704 (nearest HIG   )  PC1-corr +0.166
+  JPM      banks          d_avg 0.857  d_min 0.725 (nearest HIG   )  PC1-corr +0.174
+  SPY      etf            d_avg 0.904  d_min 0.864 (nearest HIG   )  PC1-corr +0.009
+
+--- INTERPRETATION ---
+3 outside name(s) sit closer to the cohort than its own loosest member. The config boundary is wrong as drawn: treat each as a missing-member candidate (add to the cluster group and re-validate) or accept that the cohort is not a standalone factor.

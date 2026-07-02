@@ -1,0 +1,51 @@
+European rearmament FULL-UNIVERSE BOUNDARY SWEEP
+Window: 2025-06-12 -> 2026-06-12
+Cohort (N=7): RHM.DE, BA.L, LDO.MI, SAAB-B.ST, HO.PA, HAG.DE, KOG.OL
+CAVEAT — non-US cohort listings (RHM.DE, BA.L, LDO.MI, SAAB-B.ST, HO.PA, HAG.DE, KOG.OL): US-synchronous pool, join distances async-depressed (overstated); sweep is approximate.
+Pool: 1056 names (file: scripts\universes\us_common_stocks.txt); every config ticker excluded from outsider set
+Dendrogram threshold: 0.5
+Cohort internal envelope (final internal merge): 0.589
+
+VERDICT: BOUNDARY-CLEAN
+  Outsiders at or below threshold 0.5: 0
+  Outsiders strictly inside the envelope:  0
+
+--- NEAREST 25 OUTSIDERS (of 1056) ---
+  KTOS     outsider       d_avg 0.649  d_min 0.579 (nearest BA.L  )  PC1-corr +0.427
+  ESLT     outsider       d_avg 0.669  d_min 0.582 (nearest BA.L  )  PC1-corr +0.397
+  AVAV     outsider       d_avg 0.682  d_min 0.597 (nearest SAAB-B.ST)  PC1-corr +0.390
+  BWXT     outsider       d_avg 0.687  d_min 0.624 (nearest BA.L  )  PC1-corr +0.398
+  MRCY     outsider       d_avg 0.688  d_min 0.605 (nearest LDO.MI)  PC1-corr +0.377
+  HEI      outsider       d_avg 0.705  d_min 0.652 (nearest LDO.MI)  PC1-corr +0.366
+  CW       outsider       d_avg 0.716  d_min 0.675 (nearest HAG.DE)  PC1-corr +0.349
+  HII      outsider       d_avg 0.728  d_min 0.608 (nearest BA.L  )  PC1-corr +0.382
+  EMBJ     outsider       d_avg 0.733  d_min 0.668 (nearest RHM.DE)  PC1-corr +0.322
+  GOLD     outsider       d_avg 0.735  d_min 0.697 (nearest RHM.DE)  PC1-corr +0.325
+  GE       outsider       d_avg 0.741  d_min 0.719 (nearest LDO.MI)  PC1-corr +0.315
+  TATT     outsider       d_avg 0.745  d_min 0.708 (nearest HAG.DE)  PC1-corr +0.299
+  TDY      outsider       d_avg 0.746  d_min 0.650 (nearest BA.L  )  PC1-corr +0.316
+  HIVE     outsider       d_avg 0.748  d_min 0.701 (nearest BA.L  )  PC1-corr +0.295
+  CACI     outsider       d_avg 0.753  d_min 0.693 (nearest BA.L  )  PC1-corr +0.308
+  VSEC     outsider       d_avg 0.755  d_min 0.705 (nearest LDO.MI)  PC1-corr +0.303
+  LDOS     outsider       d_avg 0.756  d_min 0.669 (nearest BA.L  )  PC1-corr +0.326
+  RDW      outsider       d_avg 0.766  d_min 0.708 (nearest BA.L  )  PC1-corr +0.300
+  RIOT     outsider       d_avg 0.767  d_min 0.719 (nearest KOG.OL)  PC1-corr +0.260
+  CCJ      outsider       d_avg 0.767  d_min 0.717 (nearest LDO.MI)  PC1-corr +0.281
+  TDG      outsider       d_avg 0.769  d_min 0.737 (nearest LDO.MI)  PC1-corr +0.279
+  HWM      outsider       d_avg 0.771  d_min 0.717 (nearest LDO.MI)  PC1-corr +0.279
+  GROY     outsider       d_avg 0.772  d_min 0.725 (nearest LDO.MI)  PC1-corr +0.275
+  SCCO     outsider       d_avg 0.776  d_min 0.723 (nearest HAG.DE)  PC1-corr +0.274
+  INTR     outsider       d_avg 0.779  d_min 0.687 (nearest RHM.DE)  PC1-corr +0.263
+
+--- CONFIG CONTROL GROUPS (calibration — known neighbors, never contamination) ---
+  ITA      etf            d_avg 0.618  d_min 0.568 (nearest BA.L  )  PC1-corr +0.478
+  NOC      us_primes      d_avg 0.639  d_min 0.502 (nearest BA.L  )  PC1-corr +0.493
+  LHX      us_primes      d_avg 0.670  d_min 0.541 (nearest BA.L  )  PC1-corr +0.425
+  RTX      us_primes      d_avg 0.687  d_min 0.601 (nearest BA.L  )  PC1-corr +0.399
+  LMT      us_primes      d_avg 0.718  d_min 0.585 (nearest BA.L  )  PC1-corr +0.390
+  GD       us_primes      d_avg 0.734  d_min 0.657 (nearest SAAB-B.ST)  PC1-corr +0.363
+  VGK      europe_etf     d_avg 0.773  d_min 0.742 (nearest HO.PA )  PC1-corr +0.282
+  SPY      etf            d_avg 0.860  d_min 0.793 (nearest HAG.DE)  PC1-corr +0.174
+
+--- INTERPRETATION ---
+No name outside the config would join the cohort at the cut: the boundary is market-relative, not just config-relative. The threshold scan's isolation result holds against the full universe.

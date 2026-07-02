@@ -1,0 +1,47 @@
+Analog and auto-industrial semiconductors FULL-UNIVERSE BOUNDARY SWEEP
+Window: 2025-06-18 -> 2026-06-18
+Cohort (N=6): TXN, ADI, MCHP, ON, NXPI, STM
+Pool: 1053 names (file: scripts\universes\us_common_stocks.txt); every config ticker excluded from outsider set
+Dendrogram threshold: 0.5
+Cohort internal envelope (final internal merge): 0.304
+
+VERDICT: BOUNDARY-PERMEABLE
+  Outsiders at or below threshold 0.5: 11
+  Outsiders strictly inside the envelope:  0
+
+--- NEAREST 25 OUTSIDERS (of 1053) ---
+  IFNNY    outsider       d_avg 0.340  d_min 0.231 (nearest STM   )  PC1-corr +0.750  << below cut
+  MPWR     outsider       d_avg 0.343  d_min 0.255 (nearest ON    )  PC1-corr +0.747  << below cut
+  ENTG     outsider       d_avg 0.387  d_min 0.323 (nearest MCHP  )  PC1-corr +0.698  << below cut
+  SYNA     outsider       d_avg 0.395  d_min 0.328 (nearest ON    )  PC1-corr +0.688  << below cut
+  MKSI     outsider       d_avg 0.443  d_min 0.379 (nearest ADI   )  PC1-corr +0.634  << below cut
+  GFS      outsider       d_avg 0.453  d_min 0.358 (nearest ON    )  PC1-corr +0.621  << below cut
+  GNRC     outsider       d_avg 0.475  d_min 0.385 (nearest NXPI  )  PC1-corr +0.597  << below cut
+  AMKR     outsider       d_avg 0.486  d_min 0.409 (nearest ON    )  PC1-corr +0.585  << below cut
+  AMAT     outsider       d_avg 0.489  d_min 0.397 (nearest ADI   )  PC1-corr +0.580  << below cut
+  KLAC     outsider       d_avg 0.492  d_min 0.426 (nearest ADI   )  PC1-corr +0.578  << below cut
+  LRCX     outsider       d_avg 0.495  d_min 0.432 (nearest ADI   )  PC1-corr +0.575  << below cut
+  ETN      outsider       d_avg 0.505  d_min 0.456 (nearest ON    )  PC1-corr +0.563
+  ACLS     outsider       d_avg 0.510  d_min 0.442 (nearest ON    )  PC1-corr +0.558
+  MRVL     outsider       d_avg 0.512  d_min 0.405 (nearest STM   )  PC1-corr +0.554
+  WAB      outsider       d_avg 0.515  d_min 0.399 (nearest ADI   )  PC1-corr +0.552
+  CAT      outsider       d_avg 0.522  d_min 0.459 (nearest ADI   )  PC1-corr +0.544
+  SMTC     outsider       d_avg 0.522  d_min 0.480 (nearest ON    )  PC1-corr +0.543
+  AME      outsider       d_avg 0.523  d_min 0.420 (nearest ADI   )  PC1-corr +0.543
+  QCOM     outsider       d_avg 0.527  d_min 0.476 (nearest NXPI  )  PC1-corr +0.537
+  SWKS     outsider       d_avg 0.527  d_min 0.462 (nearest ON    )  PC1-corr +0.538
+  PCAR     outsider       d_avg 0.533  d_min 0.449 (nearest ADI   )  PC1-corr +0.531
+  NDSN     outsider       d_avg 0.535  d_min 0.464 (nearest ADI   )  PC1-corr +0.529
+  QRVO     outsider       d_avg 0.537  d_min 0.475 (nearest ON    )  PC1-corr +0.526
+  KEYS     outsider       d_avg 0.539  d_min 0.438 (nearest ADI   )  PC1-corr +0.525
+  ASML     outsider       d_avg 0.540  d_min 0.447 (nearest STM   )  PC1-corr +0.523
+
+--- CONFIG CONTROL GROUPS (calibration — known neighbors, never contamination) ---
+  SOXX     semi_etf       d_avg 0.326  d_min 0.249 (nearest ON    )  PC1-corr +0.766  << below cut
+  SMH      semi_etf       d_avg 0.373  d_min 0.294 (nearest ON    )  PC1-corr +0.713  << below cut
+  SPY      etf            d_avg 0.479  d_min 0.412 (nearest ADI   )  PC1-corr +0.593  << below cut
+  AVGO     ai_compute     d_avg 0.680  d_min 0.595 (nearest STM   )  PC1-corr +0.364
+  NVDA     ai_compute     d_avg 0.753  d_min 0.646 (nearest ON    )  PC1-corr +0.281
+
+--- INTERPRETATION ---
+11 outside name(s) would merge into the cohort's flat cluster at the cut. The cohort is real but its cut-level boundary is permeable: either these names belong in the cohort (re-run the validation with them added) or the separability claim should be stated at a tighter threshold.

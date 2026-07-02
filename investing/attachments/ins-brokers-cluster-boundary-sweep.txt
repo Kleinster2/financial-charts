@@ -1,0 +1,53 @@
+Insurance brokers basket FULL-UNIVERSE BOUNDARY SWEEP
+Window: 2025-04-30 -> 2026-04-30
+Cohort (N=6): WTW, AJG, AON, BRO, MRSH, RYAN
+Pool: 1046 names (file: scripts\universes\us_common_stocks.txt); every config ticker excluded from outsider set
+Dendrogram threshold: 0.4
+Cohort internal envelope (final internal merge): 0.455
+
+VERDICT: BOUNDARY-CLEAN
+  Outsiders at or below threshold 0.4: 0
+  Outsiders strictly inside the envelope:  0
+
+--- NEAREST 25 OUTSIDERS (of 1046) ---
+  KNSL     outsider       d_avg 0.530  d_min 0.453 (nearest RYAN  )  PC1-corr +0.553
+  ACGL     outsider       d_avg 0.547  d_min 0.472 (nearest MRSH  )  PC1-corr +0.538
+  AFL      outsider       d_avg 0.548  d_min 0.494 (nearest AON   )  PC1-corr +0.532
+  MA       outsider       d_avg 0.566  d_min 0.501 (nearest AON   )  PC1-corr +0.512
+  AIZ      outsider       d_avg 0.589  d_min 0.497 (nearest AON   )  PC1-corr +0.489
+  RLI      outsider       d_avg 0.590  d_min 0.492 (nearest MRSH  )  PC1-corr +0.485
+  AXS      outsider       d_avg 0.594  d_min 0.530 (nearest MRSH  )  PC1-corr +0.483
+  HIG      outsider       d_avg 0.597  d_min 0.525 (nearest MRSH  )  PC1-corr +0.478
+  BRK-B    outsider       d_avg 0.607  d_min 0.567 (nearest AJG   )  PC1-corr +0.465
+  ALL      outsider       d_avg 0.633  d_min 0.569 (nearest AON   )  PC1-corr +0.437
+  V        outsider       d_avg 0.639  d_min 0.600 (nearest AON   )  PC1-corr +0.426
+  BR       outsider       d_avg 0.641  d_min 0.573 (nearest AJG   )  PC1-corr +0.426
+  ADP      outsider       d_avg 0.645  d_min 0.574 (nearest AON   )  PC1-corr +0.422
+  EG       outsider       d_avg 0.654  d_min 0.609 (nearest AJG   )  PC1-corr +0.410
+  MNDY     outsider       d_avg 0.655  d_min 0.577 (nearest AON   )  PC1-corr +0.409
+  CINF     outsider       d_avg 0.655  d_min 0.631 (nearest AON   )  PC1-corr +0.408
+  RNR      outsider       d_avg 0.656  d_min 0.596 (nearest MRSH  )  PC1-corr +0.407
+  L        outsider       d_avg 0.660  d_min 0.627 (nearest AJG   )  PC1-corr +0.401
+  PAYX     outsider       d_avg 0.662  d_min 0.572 (nearest AON   )  PC1-corr +0.404
+  ROP      outsider       d_avg 0.669  d_min 0.625 (nearest AON   )  PC1-corr +0.394
+  FIS      outsider       d_avg 0.676  d_min 0.603 (nearest AON   )  PC1-corr +0.386
+  GLW      outsider       d_avg 0.678  d_min 0.649 (nearest AON   )  PC1-corr -0.380
+  AIG      outsider       d_avg 0.686  d_min 0.577 (nearest MRSH  )  PC1-corr +0.373
+  MORN     outsider       d_avg 0.694  d_min 0.625 (nearest WTW   )  PC1-corr +0.364
+  RHI      outsider       d_avg 0.696  d_min 0.650 (nearest AJG   )  PC1-corr +0.359
+
+--- CONFIG CONTROL GROUPS (calibration — known neighbors, never contamination) ---
+  CB       ins_carrier    d_avg 0.601  d_min 0.550 (nearest MRSH  )  PC1-corr +0.471
+  TRV      ins_carrier    d_avg 0.608  d_min 0.547 (nearest MRSH  )  PC1-corr +0.464
+  XLF      etf            d_avg 0.616  d_min 0.584 (nearest AJG   )  PC1-corr +0.454
+  PGR      ins_carrier    d_avg 0.653  d_min 0.582 (nearest AJG   )  PC1-corr +0.413
+  KKR      alt_mgr_control d_avg 0.860  d_min 0.828 (nearest AJG   )  PC1-corr +0.166
+  RJF      wealth_mgr     d_avg 0.882  d_min 0.806 (nearest AJG   )  PC1-corr +0.141
+  BX       alt_mgr_control d_avg 0.883  d_min 0.842 (nearest AJG   )  PC1-corr +0.138
+  SCHW     wealth_mgr     d_avg 0.884  d_min 0.795 (nearest AJG   )  PC1-corr +0.137
+  SF       wealth_mgr     d_avg 0.922  d_min 0.893 (nearest RYAN  )  PC1-corr +0.090
+  LPLA     wealth_mgr     d_avg 0.951  d_min 0.904 (nearest WTW   )  PC1-corr +0.037
+  SPY      etf            d_avg 0.985  d_min 0.961 (nearest RYAN  )  PC1-corr +0.013
+
+--- INTERPRETATION ---
+No name outside the config would join the cohort at the cut: the boundary is market-relative, not just config-relative. The threshold scan's isolation result holds against the full universe.

@@ -1,0 +1,10 @@
+POST-DEFINITION OUT-OF-SAMPLE RE-VALIDATION — 2026-07-02
+Null: random {N}-baskets from cleaned stock-only pool on each cohort's OOS window, 10000 draws, Phipson-Smyth p.
+Definition date = first git commit of the cohort's YAML config (data after it was never peeked at).
+Verdicts on ratio = OOS intra / in-sample intra; < 40 obs = PRELIMINARY.
+
+Cohort                                      N    defined  obs in-intra oos-intra  ratio  oos-PC1   p-oos  verdict
+-----------------------------------------------------------------------------------------------------------------
+AI hyperscalers                             5 2026-05-03   40    0.262     0.377   1.44    51.2%  0.0031  OOS-STRENGTHENING
+
+Verdict counts: OOS-STRENGTHENING 1

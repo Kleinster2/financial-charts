@@ -1,0 +1,47 @@
+Cruise lines FULL-UNIVERSE BOUNDARY SWEEP
+Window: 2025-06-12 -> 2026-06-12
+Cohort (N=3): CCL, RCL, NCLH
+Pool: 1056 names (file: scripts\universes\us_common_stocks.txt); every config ticker excluded from outsider set
+Dendrogram threshold: 0.5
+Cohort internal envelope (final internal merge): 0.215
+
+VERDICT: BOUNDARY-PERMEABLE
+  Outsiders at or below threshold 0.5: 16
+  Outsiders strictly inside the envelope:  0
+
+--- NEAREST 25 OUTSIDERS (of 1056) ---
+  LUV      outsider       d_avg 0.318  d_min 0.291 (nearest CCL   )  PC1-corr +0.730  << below cut
+  ALK      outsider       d_avg 0.365  d_min 0.302 (nearest CCL   )  PC1-corr +0.681  << below cut
+  HLT      outsider       d_avg 0.411  d_min 0.369 (nearest CCL   )  PC1-corr +0.631  << below cut
+  AAL      outsider       d_avg 0.420  d_min 0.361 (nearest CCL   )  PC1-corr +0.622  << below cut
+  MAR      outsider       d_avg 0.423  d_min 0.379 (nearest CCL   )  PC1-corr +0.618  << below cut
+  H        outsider       d_avg 0.442  d_min 0.406 (nearest CCL   )  PC1-corr +0.598  << below cut
+  TOL      outsider       d_avg 0.450  d_min 0.398 (nearest CCL   )  PC1-corr +0.589  << below cut
+  EMR      outsider       d_avg 0.474  d_min 0.416 (nearest CCL   )  PC1-corr +0.563  << below cut
+  SYF      outsider       d_avg 0.477  d_min 0.410 (nearest CCL   )  PC1-corr +0.560  << below cut
+  WAB      outsider       d_avg 0.479  d_min 0.409 (nearest CCL   )  PC1-corr +0.558  << below cut
+  VFC      outsider       d_avg 0.480  d_min 0.443 (nearest CCL   )  PC1-corr +0.557  << below cut
+  ALV      outsider       d_avg 0.482  d_min 0.411 (nearest CCL   )  PC1-corr +0.555  << below cut
+  PPG      outsider       d_avg 0.485  d_min 0.432 (nearest CCL   )  PC1-corr +0.552  << below cut
+  MHK      outsider       d_avg 0.486  d_min 0.441 (nearest CCL   )  PC1-corr +0.551  << below cut
+  NDSN     outsider       d_avg 0.495  d_min 0.432 (nearest CCL   )  PC1-corr +0.541  << below cut
+  AME      outsider       d_avg 0.498  d_min 0.429 (nearest CCL   )  PC1-corr +0.538  << below cut
+  BLDR     outsider       d_avg 0.501  d_min 0.455 (nearest CCL   )  PC1-corr +0.535
+  IR       outsider       d_avg 0.504  d_min 0.431 (nearest CCL   )  PC1-corr +0.531
+  DB       outsider       d_avg 0.509  d_min 0.423 (nearest CCL   )  PC1-corr +0.527
+  TFC      outsider       d_avg 0.509  d_min 0.451 (nearest CCL   )  PC1-corr +0.526
+  FBIN     outsider       d_avg 0.510  d_min 0.478 (nearest NCLH  )  PC1-corr +0.526
+  LEA      outsider       d_avg 0.512  d_min 0.462 (nearest CCL   )  PC1-corr +0.523
+  VSEC     outsider       d_avg 0.515  d_min 0.452 (nearest CCL   )  PC1-corr +0.520
+  COF      outsider       d_avg 0.517  d_min 0.447 (nearest CCL   )  PC1-corr +0.518
+  HSBC     outsider       d_avg 0.518  d_min 0.437 (nearest CCL   )  PC1-corr +0.518
+
+--- CONFIG CONTROL GROUPS (calibration — known neighbors, never contamination) ---
+  UAL      airlines       d_avg 0.369  d_min 0.308 (nearest CCL   )  PC1-corr +0.677  << below cut
+  DAL      airlines       d_avg 0.373  d_min 0.313 (nearest CCL   )  PC1-corr +0.673  << below cut
+  XLY      consumer       d_avg 0.439  d_min 0.391 (nearest CCL   )  PC1-corr +0.602  << below cut
+  SPY      etf            d_avg 0.472  d_min 0.424 (nearest CCL   )  PC1-corr +0.566  << below cut
+  USO      fuel           d_avg 0.534  d_min 0.456 (nearest CCL   )  PC1-corr -0.500
+
+--- INTERPRETATION ---
+16 outside name(s) would merge into the cohort's flat cluster at the cut. The cohort is real but its cut-level boundary is permeable: either these names belong in the cohort (re-run the validation with them added) or the separability claim should be stated at a tighter threshold.

@@ -1,0 +1,47 @@
+Data center REITs FULL-UNIVERSE BOUNDARY SWEEP
+Window: 2025-06-18 -> 2026-06-18
+Cohort (N=3): EQIX, DLR, IRM
+Pool: 1056 names (file: scripts\universes\us_common_stocks.txt); every config ticker excluded from outsider set
+Dendrogram threshold: 0.5
+Cohort internal envelope (final internal merge): 0.391
+
+VERDICT: BOUNDARY-CLEAN
+  Outsiders at or below threshold 0.5: 0
+  Outsiders strictly inside the envelope:  0
+
+--- NEAREST 25 OUTSIDERS (of 1056) ---
+  ETR      outsider       d_avg 0.575  d_min 0.534 (nearest DLR   )  PC1-corr +0.489
+  SRE      outsider       d_avg 0.582  d_min 0.524 (nearest DLR   )  PC1-corr +0.481
+  CGNX     outsider       d_avg 0.589  d_min 0.556 (nearest IRM   )  PC1-corr +0.470
+  CW       outsider       d_avg 0.590  d_min 0.554 (nearest IRM   )  PC1-corr +0.472
+  NDSN     outsider       d_avg 0.594  d_min 0.552 (nearest IRM   )  PC1-corr +0.467
+  PEG      outsider       d_avg 0.596  d_min 0.532 (nearest DLR   )  PC1-corr +0.465
+  TT       outsider       d_avg 0.603  d_min 0.543 (nearest DLR   )  PC1-corr +0.457
+  PWR      outsider       d_avg 0.605  d_min 0.502 (nearest IRM   )  PC1-corr +0.456
+  AEE      outsider       d_avg 0.612  d_min 0.602 (nearest DLR   )  PC1-corr +0.446
+  NI       outsider       d_avg 0.612  d_min 0.566 (nearest DLR   )  PC1-corr +0.446
+  WAB      outsider       d_avg 0.614  d_min 0.568 (nearest IRM   )  PC1-corr +0.444
+  MKSI     outsider       d_avg 0.616  d_min 0.553 (nearest IRM   )  PC1-corr +0.443
+  MLM      outsider       d_avg 0.620  d_min 0.593 (nearest IRM   )  PC1-corr +0.438
+  MARA     outsider       d_avg 0.627  d_min 0.502 (nearest IRM   )  PC1-corr +0.430
+  TOL      outsider       d_avg 0.627  d_min 0.567 (nearest IRM   )  PC1-corr +0.429
+  ETN      outsider       d_avg 0.629  d_min 0.565 (nearest DLR   )  PC1-corr +0.428
+  VMC      outsider       d_avg 0.631  d_min 0.591 (nearest IRM   )  PC1-corr +0.424
+  ABBNY    outsider       d_avg 0.632  d_min 0.563 (nearest DLR   )  PC1-corr +0.424
+  KB       outsider       d_avg 0.634  d_min 0.558 (nearest DLR   )  PC1-corr +0.422
+  BTBT     outsider       d_avg 0.635  d_min 0.560 (nearest IRM   )  PC1-corr +0.420
+  SIEGY    outsider       d_avg 0.636  d_min 0.582 (nearest IRM   )  PC1-corr +0.418
+  BWXT     outsider       d_avg 0.642  d_min 0.564 (nearest DLR   )  PC1-corr +0.413
+  EXR      outsider       d_avg 0.642  d_min 0.549 (nearest IRM   )  PC1-corr +0.412
+  NRG      outsider       d_avg 0.647  d_min 0.563 (nearest DLR   )  PC1-corr +0.408
+  PSA      outsider       d_avg 0.647  d_min 0.558 (nearest IRM   )  PC1-corr +0.406
+
+--- CONFIG CONTROL GROUPS (calibration — known neighbors, never contamination) ---
+  VNQ      reit_etf       d_avg 0.471  d_min 0.410 (nearest IRM   )  PC1-corr +0.609  << below cut
+  XLRE     reit_etf       d_avg 0.494  d_min 0.455 (nearest IRM   )  PC1-corr +0.582  << below cut
+  SPY      etf            d_avg 0.596  d_min 0.509 (nearest IRM   )  PC1-corr +0.466
+  CCI      tower_reits    d_avg 0.661  d_min 0.621 (nearest IRM   )  PC1-corr +0.390
+  AMT      tower_reits    d_avg 0.686  d_min 0.673 (nearest IRM   )  PC1-corr +0.361
+
+--- INTERPRETATION ---
+No name outside the config would join the cohort at the cut: the boundary is market-relative, not just config-relative. The threshold scan's isolation result holds against the full universe.

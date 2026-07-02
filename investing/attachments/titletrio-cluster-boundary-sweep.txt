@@ -1,0 +1,46 @@
+Title insurance (pure-title trio) FULL-UNIVERSE BOUNDARY SWEEP
+Window: 2025-06-12 -> 2026-06-12
+Cohort (N=3): FNF, FAF, STC
+Pool: 365 names (file: scripts\universes\us_common_stocks.txt); every config ticker excluded from outsider set
+Dendrogram threshold: 0.5
+Cohort internal envelope (final internal merge): 0.296
+
+VERDICT: BOUNDARY-CLEAN
+  Outsiders at or below threshold 0.5: 0
+  Outsiders strictly inside the envelope:  0
+
+--- NEAREST 25 OUTSIDERS (of 365) ---
+  TOL      outsider       d_avg 0.601  d_min 0.574 (nearest FAF   )  PC1-corr +0.440
+  BXMT     outsider       d_avg 0.615  d_min 0.592 (nearest FNF   )  PC1-corr +0.425
+  RITM     outsider       d_avg 0.629  d_min 0.619 (nearest FAF   )  PC1-corr +0.409
+  CUBE     outsider       d_avg 0.630  d_min 0.601 (nearest FAF   )  PC1-corr +0.408
+  ORI      outsider       d_avg 0.630  d_min 0.586 (nearest FNF   )  PC1-corr +0.408
+  OC       outsider       d_avg 0.639  d_min 0.618 (nearest FAF   )  PC1-corr +0.398
+  AXS      outsider       d_avg 0.650  d_min 0.612 (nearest FNF   )  PC1-corr +0.387
+  NLY      outsider       d_avg 0.657  d_min 0.640 (nearest STC   )  PC1-corr +0.378
+  STWD     outsider       d_avg 0.663  d_min 0.645 (nearest FNF   )  PC1-corr +0.372
+  LAZ      outsider       d_avg 0.667  d_min 0.651 (nearest STC   )  PC1-corr +0.367
+  AGNC     outsider       d_avg 0.670  d_min 0.644 (nearest STC   )  PC1-corr +0.363
+  FSV      outsider       d_avg 0.683  d_min 0.565 (nearest STC   )  PC1-corr +0.349
+  HLI      outsider       d_avg 0.687  d_min 0.620 (nearest STC   )  PC1-corr +0.344
+  MKL      outsider       d_avg 0.694  d_min 0.670 (nearest FNF   )  PC1-corr +0.337
+  MC       outsider       d_avg 0.697  d_min 0.650 (nearest STC   )  PC1-corr +0.334
+  RHP      outsider       d_avg 0.697  d_min 0.677 (nearest STC   )  PC1-corr +0.334
+  FBIN     outsider       d_avg 0.702  d_min 0.684 (nearest FAF   )  PC1-corr +0.329
+  EPRT     outsider       d_avg 0.702  d_min 0.667 (nearest FAF   )  PC1-corr +0.329
+  ARCB     outsider       d_avg 0.702  d_min 0.690 (nearest FNF   )  PC1-corr +0.328
+  UL       outsider       d_avg 0.702  d_min 0.690 (nearest FAF   )  PC1-corr +0.328
+  LEA      outsider       d_avg 0.705  d_min 0.686 (nearest FNF   )  PC1-corr +0.325
+  KNSL     outsider       d_avg 0.706  d_min 0.671 (nearest FNF   )  PC1-corr +0.325
+  WPC      outsider       d_avg 0.706  d_min 0.661 (nearest FAF   )  PC1-corr +0.324
+  NNN      outsider       d_avg 0.708  d_min 0.685 (nearest FAF   )  PC1-corr +0.322
+  ALV      outsider       d_avg 0.713  d_min 0.675 (nearest FNF   )  PC1-corr +0.317
+
+--- CONFIG CONTROL GROUPS (calibration — known neighbors, never contamination) ---
+  KIE      insurance      d_avg 0.482  d_min 0.429 (nearest FNF   )  PC1-corr +0.571  << below cut
+  ITB      housing        d_avg 0.573  d_min 0.550 (nearest FAF   )  PC1-corr +0.471
+  XLF      etf            d_avg 0.626  d_min 0.598 (nearest FNF   )  PC1-corr +0.412
+  SPY      etf            d_avg 0.791  d_min 0.773 (nearest STC   )  PC1-corr +0.231
+
+--- INTERPRETATION ---
+No name outside the config would join the cohort at the cut: the boundary is market-relative, not just config-relative. The threshold scan's isolation result holds against the full universe.

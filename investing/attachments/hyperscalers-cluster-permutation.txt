@@ -1,22 +1,22 @@
 AI hyperscalers PERMUTATION TESTS
 Window: 2025-05-01 -> 2026-04-30 (197 obs)
 Candidate cohort: MSFT, GOOGL, AMZN, META, ORCL (N=5)
-Observed intra-corr: 0.2652    Observed PC1: 41.82%
+Observed intra-corr: 0.2655    Observed PC1: 41.84%
 
 --- RANDOM-BASKET NULL ---
 Permutations: 10000
-Universe source: DB prices_long (220 tickers with >=200 obs in window)
-Pool size: 220
+Universe source: DB prices_long (370 tickers with >=200 obs in window)
+Pool size: 370
 Intra-cluster correlation:
-  Null mean:        0.1727
-  Null 95th pct:    0.3219
-  Null 99th pct:    0.3937
-  p-value (right):  0.135386    -> FAILS to reject random-basket null (p >= 0.05)
+  Null mean:        0.1377
+  Null 95th pct:    0.2473
+  Null 99th pct:    0.3075
+  p-value (right):  0.031197    -> REJECTS random-basket null at p < 0.05
 PC1 explained variance:
-  Null mean:        36.19%
-  Null 95th pct:    47.39%
-  Null 99th pct:    52.82%
-  p-value (right):  0.175282    -> FAILS to reject random-basket null (p >= 0.05)
+  Null mean:        32.93%
+  Null 95th pct:    41.45%
+  Null 99th pct:    46.11%
+  p-value (right):  0.043896    -> REJECTS random-basket null at p < 0.05
 
 --- INTERPRETATION ---
-Random-basket null NOT rejected: cohort cohesion is indistinguishable from a random N-pick of comparable names. Cluster claim is falsified at conventional significance.
+Random-basket null rejected: cohort is more cohesive than a random N-pick from the same universe. This is the meaningful pass.

@@ -1,0 +1,49 @@
+Defense primes FULL-UNIVERSE BOUNDARY SWEEP
+Window: 2025-05-08 -> 2026-05-08
+Cohort (N=7): LMT, RTX, NOC, GD, HII, LHX, LDOS
+Pool: 1050 names (file: scripts\universes\us_common_stocks.txt); every config ticker excluded from outsider set
+Dendrogram threshold: 0.5
+Cohort internal envelope (final internal merge): 0.559
+
+VERDICT: BOUNDARY-CONTAMINATED
+  Outsiders at or below threshold 0.5: 0
+  Outsiders strictly inside the envelope:  1
+
+--- NEAREST 25 OUTSIDERS (of 1050) ---
+  KTOS     outsider       d_avg 0.533  d_min 0.425 (nearest HII   )  PC1-corr +0.609  << INSIDE ENVELOPE
+  CW       outsider       d_avg 0.574  d_min 0.467 (nearest LHX   )  PC1-corr +0.562
+  MRCY     outsider       d_avg 0.593  d_min 0.501 (nearest LHX   )  PC1-corr +0.533
+  CACI     outsider       d_avg 0.599  d_min 0.370 (nearest LDOS  )  PC1-corr +0.514
+  BWXT     outsider       d_avg 0.603  d_min 0.478 (nearest HII   )  PC1-corr +0.522
+  ESLT     outsider       d_avg 0.636  d_min 0.551 (nearest LHX   )  PC1-corr +0.481
+  TDY      outsider       d_avg 0.655  d_min 0.542 (nearest LHX   )  PC1-corr +0.453
+  HWM      outsider       d_avg 0.658  d_min 0.467 (nearest RTX   )  PC1-corr +0.454
+  MLM      outsider       d_avg 0.658  d_min 0.560 (nearest LDOS  )  PC1-corr +0.442
+  VSEC     outsider       d_avg 0.667  d_min 0.504 (nearest RTX   )  PC1-corr +0.439
+  LUNR     outsider       d_avg 0.672  d_min 0.575 (nearest HII   )  PC1-corr +0.429
+  VMC      outsider       d_avg 0.675  d_min 0.567 (nearest LDOS  )  PC1-corr +0.420
+  HEI      outsider       d_avg 0.676  d_min 0.488 (nearest RTX   )  PC1-corr +0.427
+  TXT      outsider       d_avg 0.677  d_min 0.557 (nearest GD    )  PC1-corr +0.426
+  SAIC     outsider       d_avg 0.680  d_min 0.369 (nearest LDOS  )  PC1-corr +0.403
+  ASTS     outsider       d_avg 0.682  d_min 0.594 (nearest HII   )  PC1-corr +0.417
+  EMR      outsider       d_avg 0.683  d_min 0.628 (nearest HII   )  PC1-corr +0.411
+  RDW      outsider       d_avg 0.687  d_min 0.621 (nearest LHX   )  PC1-corr +0.409
+  KBR      outsider       d_avg 0.687  d_min 0.452 (nearest LDOS  )  PC1-corr +0.396
+  AVAV     outsider       d_avg 0.694  d_min 0.568 (nearest HII   )  PC1-corr +0.397
+  CRSP     outsider       d_avg 0.698  d_min 0.602 (nearest HII   )  PC1-corr +0.395
+  PSN      outsider       d_avg 0.699  d_min 0.478 (nearest LDOS  )  PC1-corr +0.383
+  UMAC     outsider       d_avg 0.701  d_min 0.579 (nearest HII   )  PC1-corr +0.391
+  SMFG     outsider       d_avg 0.703  d_min 0.612 (nearest HII   )  PC1-corr +0.378
+  GE       outsider       d_avg 0.703  d_min 0.481 (nearest RTX   )  PC1-corr +0.391
+
+--- CONFIG CONTROL GROUPS (calibration — known neighbors, never contamination) ---
+  ITA      etf            d_avg 0.431  d_min 0.244 (nearest RTX   )  PC1-corr +0.750  << INSIDE ENVELOPE
+  XLI      etf            d_avg 0.581  d_min 0.453 (nearest RTX   )  PC1-corr +0.551
+  HON      industrials    d_avg 0.657  d_min 0.561 (nearest RTX   )  PC1-corr +0.453
+  DE       industrials    d_avg 0.767  d_min 0.719 (nearest LHX   )  PC1-corr +0.308
+  BA       aerospace_dual d_avg 0.785  d_min 0.673 (nearest RTX   )  PC1-corr +0.284
+  SPY      etf            d_avg 0.786  d_min 0.681 (nearest GD    )  PC1-corr +0.278
+  CAT      industrials    d_avg 0.793  d_min 0.694 (nearest HII   )  PC1-corr +0.275
+
+--- INTERPRETATION ---
+1 outside name(s) sit closer to the cohort than its own loosest member. The config boundary is wrong as drawn: treat each as a missing-member candidate (add to the cluster group and re-validate) or accept that the cohort is not a standalone factor.

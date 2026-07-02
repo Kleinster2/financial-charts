@@ -5,18 +5,18 @@ Observed intra-corr: 0.3254    Observed PC1: 49.91%
 
 --- RANDOM-BASKET NULL ---
 Permutations: 10000
-Universe source: DB prices_long (220 tickers with >=200 obs in window)
-Pool size: 219
+Universe source: DB prices_long (370 tickers with >=200 obs in window)
+Pool size: 369
 Intra-cluster correlation:
-  Null mean:        0.1711
-  Null 95th pct:    0.3406
-  Null 99th pct:    0.4213
-  p-value (right):  0.064694    -> FAILS to reject random-basket null (p >= 0.05)
+  Null mean:        0.1379
+  Null 95th pct:    0.2666
+  Null 99th pct:    0.3321
+  p-value (right):  0.012499    -> REJECTS random-basket null at p < 0.05
 PC1 explained variance:
-  Null mean:        39.93%
-  Null 95th pct:    51.87%
-  Null 99th pct:    57.89%
-  p-value (right):  0.077792    -> FAILS to reject random-basket null (p >= 0.05)
+  Null mean:        37.06%
+  Null 95th pct:    46.50%
+  Null 99th pct:    51.15%
+  p-value (right):  0.015998    -> REJECTS random-basket null at p < 0.05
 
 --- INTERPRETATION ---
-Random-basket null NOT rejected: cohort cohesion is indistinguishable from a random N-pick of comparable names. Cluster claim is falsified at conventional significance.
+Random-basket null rejected: cohort is more cohesive than a random N-pick from the same universe. This is the meaningful pass.

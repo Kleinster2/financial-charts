@@ -1,0 +1,48 @@
+Sub - AI interconnect pair FULL-UNIVERSE BOUNDARY SWEEP
+Window: 2025-06-12 -> 2026-06-12
+Cohort (N=2): CRDO, ALAB
+Pool: 362 names (file: scripts\universes\us_common_stocks.txt); every config ticker excluded from outsider set
+Dendrogram threshold: 0.5
+Cohort internal envelope (final internal merge): 0.401
+
+VERDICT: BOUNDARY-CLEAN
+  Outsiders at or below threshold 0.5: 0
+  Outsiders strictly inside the envelope:  0
+
+--- NEAREST 25 OUTSIDERS (of 362) ---
+  LRCX     outsider       d_avg 0.588  d_min 0.569 (nearest CRDO  )  PC1-corr +0.461
+  NVDA     outsider       d_avg 0.589  d_min 0.548 (nearest CRDO  )  PC1-corr +0.459
+  SMTC     outsider       d_avg 0.591  d_min 0.576 (nearest CRDO  )  PC1-corr +0.458
+  AMD      outsider       d_avg 0.595  d_min 0.580 (nearest CRDO  )  PC1-corr +0.453
+  TSM      outsider       d_avg 0.601  d_min 0.561 (nearest CRDO  )  PC1-corr +0.446
+  APLD     outsider       d_avg 0.603  d_min 0.603 (nearest CRDO  )  PC1-corr +0.444
+  AMAT     outsider       d_avg 0.606  d_min 0.576 (nearest CRDO  )  PC1-corr +0.440
+  SFTBY    outsider       d_avg 0.608  d_min 0.597 (nearest CRDO  )  PC1-corr +0.437
+  ASML     outsider       d_avg 0.615  d_min 0.573 (nearest CRDO  )  PC1-corr +0.430
+  KLAC     outsider       d_avg 0.617  d_min 0.598 (nearest CRDO  )  PC1-corr +0.428
+  NVT      outsider       d_avg 0.623  d_min 0.608 (nearest CRDO  )  PC1-corr +0.422
+  AMKR     outsider       d_avg 0.624  d_min 0.607 (nearest CRDO  )  PC1-corr +0.420
+  MU       outsider       d_avg 0.625  d_min 0.585 (nearest CRDO  )  PC1-corr +0.420
+  NBIS     outsider       d_avg 0.630  d_min 0.628 (nearest CRDO  )  PC1-corr +0.414
+  MKSI     outsider       d_avg 0.634  d_min 0.590 (nearest CRDO  )  PC1-corr +0.410
+  STRL     outsider       d_avg 0.635  d_min 0.626 (nearest CRDO  )  PC1-corr +0.409
+  VRT      outsider       d_avg 0.640  d_min 0.571 (nearest CRDO  )  PC1-corr +0.403
+  FIX      outsider       d_avg 0.642  d_min 0.627 (nearest CRDO  )  PC1-corr +0.401
+  PLTR     outsider       d_avg 0.656  d_min 0.629 (nearest CRDO  )  PC1-corr +0.385
+  SEI      outsider       d_avg 0.660  d_min 0.653 (nearest CRDO  )  PC1-corr +0.380
+  IBKR     outsider       d_avg 0.664  d_min 0.657 (nearest ALAB  )  PC1-corr +0.376
+  ENTG     outsider       d_avg 0.668  d_min 0.642 (nearest CRDO  )  PC1-corr +0.372
+  LUNR     outsider       d_avg 0.674  d_min 0.654 (nearest ALAB  )  PC1-corr +0.364
+  DOMH     outsider       d_avg 0.677  d_min 0.666 (nearest ALAB  )  PC1-corr +0.361
+  SPIR     outsider       d_avg 0.679  d_min 0.631 (nearest ALAB  )  PC1-corr +0.360
+
+--- CONFIG CONTROL GROUPS (calibration — known neighbors, never contamination) ---
+  SOXX     etf            d_avg 0.469  d_min 0.445 (nearest CRDO  )  PC1-corr +0.594  << below cut
+  FN       optical        d_avg 0.563  d_min 0.551 (nearest ALAB  )  PC1-corr +0.488
+  SPY      etf            d_avg 0.575  d_min 0.562 (nearest CRDO  )  PC1-corr +0.476
+  COHR     optical        d_avg 0.592  d_min 0.573 (nearest ALAB  )  PC1-corr +0.456
+  CIEN     optical        d_avg 0.598  d_min 0.589 (nearest ALAB  )  PC1-corr +0.449
+  LITE     optical        d_avg 0.647  d_min 0.627 (nearest CRDO  )  PC1-corr +0.395
+
+--- INTERPRETATION ---
+No name outside the config would join the cohort at the cut: the boundary is market-relative, not just config-relative. The threshold scan's isolation result holds against the full universe.

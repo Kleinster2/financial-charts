@@ -1,37 +1,22 @@
 Studios & premium content PERMUTATION TESTS
 Window: 2025-06-18 -> 2026-06-10 (193 obs)
 Candidate cohort: LION, WBD, PSKY, NFLX, DIS (N=5)
-Observed intra-corr: 0.1742    Observed PC1: 35.15%
-
---- INDEPENDENCE NULL ---
-Permutations: 10000
-Block size: 1
-Intra-cluster correlation:
-  Null mean:        -0.0000
-  Null 95th pct:    0.0388
-  Null 99th pct:    0.0582
-  p-value (right):  0.000100    -> REJECTS independence null at p < 0.001
-PC1 explained variance:
-  Null mean:        24.06%
-  Null 95th pct:    26.27%
-  Null 99th pct:    27.47%
-  p-value (right):  0.000100    -> REJECTS independence null at p < 0.001
+Observed intra-corr: 0.1739    Observed PC1: 35.13%
 
 --- RANDOM-BASKET NULL ---
 Permutations: 10000
-Universe source: DB prices_long (933 tickers with >=200 obs in window)
-Pool size: 928
+Universe source: DB prices_long (1062 tickers with >=200 obs in window)
+Pool size: 1057
 Intra-cluster correlation:
-  Null mean:        0.1372
-  Null 95th pct:    0.2639
-  Null 99th pct:    0.3246
-  p-value (right):  0.274373    -> FAILS to reject random-basket null (p >= 0.05)
+  Null mean:        0.1300
+  Null 95th pct:    0.2463
+  Null 99th pct:    0.3093
+  p-value (right):  0.239076    -> FAILS to reject random-basket null (p >= 0.05)
 PC1 explained variance:
-  Null mean:        33.83%
-  Null 95th pct:    42.86%
-  Null 99th pct:    47.58%
-  p-value (right):  0.351865    -> FAILS to reject random-basket null (p >= 0.05)
+  Null mean:        33.12%
+  Null 95th pct:    41.54%
+  Null 99th pct:    46.29%
+  p-value (right):  0.306269    -> FAILS to reject random-basket null (p >= 0.05)
 
 --- INTERPRETATION ---
-Independence null rejected: the cohort series co-move (necessary, not sufficient).
 Random-basket null NOT rejected: cohort cohesion is indistinguishable from a random N-pick of comparable names. Cluster claim is falsified at conventional significance.

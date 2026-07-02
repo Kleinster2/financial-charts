@@ -1,0 +1,58 @@
+Boutique advisory FULL-UNIVERSE BOUNDARY SWEEP
+Window: 2025-04-30 -> 2026-04-30
+Cohort (N=6): PWP, LAZ, EVR, MC, HLI, PJT
+Pool: 1043 names (file: scripts\universes\us_common_stocks.txt); every config ticker excluded from outsider set
+Dendrogram threshold: 0.4
+Cohort internal envelope (final internal merge): 0.316
+
+VERDICT: BOUNDARY-PERMEABLE
+  Outsiders at or below threshold 0.4: 4
+  Outsiders strictly inside the envelope:  0
+
+--- NEAREST 25 OUTSIDERS (of 1043) ---
+  JEF      outsider       d_avg 0.363  d_min 0.259 (nearest EVR   )  PC1-corr +0.728  << below cut
+  CG       outsider       d_avg 0.374  d_min 0.338 (nearest EVR   )  PC1-corr +0.715  << below cut
+  BLK      outsider       d_avg 0.374  d_min 0.324 (nearest EVR   )  PC1-corr +0.715  << below cut
+  IVZ      outsider       d_avg 0.384  d_min 0.310 (nearest MC    )  PC1-corr +0.704  << below cut
+  KEY      outsider       d_avg 0.409  d_min 0.321 (nearest MC    )  PC1-corr +0.676
+  TPG      outsider       d_avg 0.412  d_min 0.353 (nearest MC    )  PC1-corr +0.673
+  RF       outsider       d_avg 0.419  d_min 0.351 (nearest EVR   )  PC1-corr +0.664
+  C        outsider       d_avg 0.422  d_min 0.310 (nearest EVR   )  PC1-corr +0.662
+  COF      outsider       d_avg 0.423  d_min 0.341 (nearest EVR   )  PC1-corr +0.660
+  CFG      outsider       d_avg 0.425  d_min 0.349 (nearest MC    )  PC1-corr +0.658
+  BAM      outsider       d_avg 0.425  d_min 0.340 (nearest EVR   )  PC1-corr +0.657
+  AMP      outsider       d_avg 0.427  d_min 0.328 (nearest MC    )  PC1-corr +0.656
+  STT      outsider       d_avg 0.429  d_min 0.346 (nearest EVR   )  PC1-corr +0.654
+  USB      outsider       d_avg 0.442  d_min 0.365 (nearest EVR   )  PC1-corr +0.638
+  TFC      outsider       d_avg 0.452  d_min 0.359 (nearest EVR   )  PC1-corr +0.627
+  PNC      outsider       d_avg 0.455  d_min 0.383 (nearest EVR   )  PC1-corr +0.623
+  AXP      outsider       d_avg 0.458  d_min 0.401 (nearest EVR   )  PC1-corr +0.619
+  SYF      outsider       d_avg 0.459  d_min 0.375 (nearest EVR   )  PC1-corr +0.620
+  MTB      outsider       d_avg 0.462  d_min 0.407 (nearest EVR   )  PC1-corr +0.615
+  FITB     outsider       d_avg 0.467  d_min 0.415 (nearest EVR   )  PC1-corr +0.609
+  PK       outsider       d_avg 0.467  d_min 0.397 (nearest LAZ   )  PC1-corr +0.608
+  BK       outsider       d_avg 0.469  d_min 0.366 (nearest EVR   )  PC1-corr +0.607
+  LC       outsider       d_avg 0.473  d_min 0.388 (nearest EVR   )  PC1-corr +0.602
+  NDSN     outsider       d_avg 0.476  d_min 0.363 (nearest LAZ   )  PC1-corr +0.598
+  ARES     outsider       d_avg 0.476  d_min 0.429 (nearest EVR   )  PC1-corr +0.599
+
+--- CONFIG CONTROL GROUPS (calibration — known neighbors, never contamination) ---
+  XLF      etf            d_avg 0.362  d_min 0.283 (nearest EVR   )  PC1-corr +0.730  << below cut
+  MS       bulge          d_avg 0.381  d_min 0.287 (nearest EVR   )  PC1-corr +0.708  << below cut
+  KBE      etf            d_avg 0.389  d_min 0.333 (nearest MC    )  PC1-corr +0.686  << below cut
+  IWM      etf            d_avg 0.394  d_min 0.318 (nearest EVR   )  PC1-corr +0.693  << below cut
+  GS       bulge          d_avg 0.395  d_min 0.303 (nearest EVR   )  PC1-corr +0.692  << below cut
+  BX       alt_mgr        d_avg 0.410  d_min 0.347 (nearest EVR   )  PC1-corr +0.674
+  KKR      alt_mgr        d_avg 0.420  d_min 0.349 (nearest EVR   )  PC1-corr +0.663
+  BEN      trad_mgr       d_avg 0.436  d_min 0.391 (nearest LAZ   )  PC1-corr +0.644
+  TROW     trad_mgr       d_avg 0.455  d_min 0.417 (nearest MC    )  PC1-corr +0.623
+  RJF      mid_ib         d_avg 0.466  d_min 0.435 (nearest MC    )  PC1-corr +0.609
+  SPY      etf            d_avg 0.473  d_min 0.377 (nearest EVR   )  PC1-corr +0.603
+  JPM      bulge          d_avg 0.553  d_min 0.492 (nearest EVR   )  PC1-corr +0.511
+  SF       mid_ib         d_avg 0.689  d_min 0.650 (nearest MC    )  PC1-corr +0.356
+  AJG      ins_brk        d_avg 0.822  d_min 0.717 (nearest HLI   )  PC1-corr +0.203
+  BRO      ins_brk        d_avg 0.876  d_min 0.836 (nearest HLI   )  PC1-corr +0.142
+  AON      ins_brk        d_avg 0.910  d_min 0.854 (nearest LAZ   )  PC1-corr +0.096
+
+--- INTERPRETATION ---
+4 outside name(s) would merge into the cohort's flat cluster at the cut. The cohort is real but its cut-level boundary is permeable: either these names belong in the cohort (re-run the validation with them added) or the separability claim should be stated at a tighter threshold.

@@ -88,7 +88,7 @@ Quectel (the lower-vol leg) takes the larger raw PC1-mimic weight: it needs more
 |---|---|---|
 | Quectel + Fibocom join | 0.336 | Tight pair (corr 0.664) |
 | + Sivers (3-name) join | 0.971 | Sivers essentially uncorrelated — never joins |
-| 3-name random-basket p | (p 0.277) | The 3-name cohort fails the null — Sivers dilutes it to noise |
+| 3-name random-basket p | (p 0.157 on the Jul 1 2026 clean pool; 0.277 June) | The 3-name cohort still fails the null — Sivers dilutes it to noise |
 
 The audit scoped a "Quectel/Fibocom + SIVE.ST" micro-pair; the math rejects the third name decisively. [[Sivers Semiconductors]] is a Stockholm-listed mmWave / silicon-photonics chip maker whose stock trades on AI-optics momentum — its home is the optical complex ([[AI fiber supercycle]] / [[AI interconnect]]), not the cellular-IoT-module cycle. Its correlation with the pair is −0.05 / −0.01; it is a singleton at every threshold. The validated cohort is the two-name duopoly.
 

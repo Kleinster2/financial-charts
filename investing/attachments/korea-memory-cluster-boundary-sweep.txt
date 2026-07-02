@@ -1,0 +1,50 @@
+Korea Memory FULL-UNIVERSE BOUNDARY SWEEP
+Window: 2025-05-08 -> 2026-05-08
+Cohort (N=2): 005930.KS, 000660.KS
+CAVEAT — non-US cohort listings (005930.KS, 000660.KS): US-synchronous pool, join distances async-depressed (overstated); sweep is approximate.
+Pool: 365 names (file: scripts\universes\us_common_stocks.txt); every config ticker excluded from outsider set
+Dendrogram threshold: 0.5
+Cohort internal envelope (final internal merge): 0.291
+
+VERDICT: BOUNDARY-CLEAN
+  Outsiders at or below threshold 0.5: 0
+  Outsiders strictly inside the envelope:  0
+
+--- NEAREST 25 OUTSIDERS (of 365) ---
+  DXYZ     outsider       d_avg 0.759  d_min 0.741 (nearest 000660.KS)  PC1-corr +0.261
+  PM       outsider       d_avg 0.773  d_min 0.761 (nearest 005930.KS)  PC1-corr -0.245
+  INFY     outsider       d_avg 0.789  d_min 0.786 (nearest 005930.KS)  PC1-corr -0.228
+  WCN      outsider       d_avg 0.799  d_min 0.757 (nearest 000660.KS)  PC1-corr -0.218
+  GOLD     outsider       d_avg 0.810  d_min 0.785 (nearest 000660.KS)  PC1-corr +0.206
+  RLI      outsider       d_avg 0.815  d_min 0.795 (nearest 000660.KS)  PC1-corr -0.200
+  IMBBY    outsider       d_avg 0.818  d_min 0.772 (nearest 005930.KS)  PC1-corr -0.197
+  GO       outsider       d_avg 0.822  d_min 0.814 (nearest 005930.KS)  PC1-corr -0.192
+  CTEV     outsider       d_avg 0.827  d_min 0.790 (nearest 005930.KS)  PC1-corr -0.188
+  CWST     outsider       d_avg 0.831  d_min 0.760 (nearest 000660.KS)  PC1-corr -0.183
+  FUBO     outsider       d_avg 0.847  d_min 0.807 (nearest 005930.KS)  PC1-corr -0.166
+  NVS      outsider       d_avg 0.848  d_min 0.844 (nearest 005930.KS)  PC1-corr -0.164
+  NTDOY    outsider       d_avg 0.849  d_min 0.828 (nearest 000660.KS)  PC1-corr -0.164
+  FNF      outsider       d_avg 0.851  d_min 0.777 (nearest 000660.KS)  PC1-corr -0.162
+  AMCX     outsider       d_avg 0.851  d_min 0.849 (nearest 005930.KS)  PC1-corr -0.161
+  BTI      outsider       d_avg 0.858  d_min 0.807 (nearest 005930.KS)  PC1-corr -0.154
+  COUR     outsider       d_avg 0.864  d_min 0.857 (nearest 000660.KS)  PC1-corr -0.147
+  ORI      outsider       d_avg 0.866  d_min 0.836 (nearest 000660.KS)  PC1-corr -0.145
+  ESTC     outsider       d_avg 0.870  d_min 0.856 (nearest 000660.KS)  PC1-corr +0.141
+  STC      outsider       d_avg 0.872  d_min 0.837 (nearest 000660.KS)  PC1-corr -0.139
+  COR      outsider       d_avg 0.872  d_min 0.858 (nearest 005930.KS)  PC1-corr -0.138
+  AZN      outsider       d_avg 0.873  d_min 0.852 (nearest 000660.KS)  PC1-corr -0.138
+  WDAY     outsider       d_avg 0.874  d_min 0.844 (nearest 000660.KS)  PC1-corr -0.136
+  AIT      outsider       d_avg 0.875  d_min 0.865 (nearest 000660.KS)  PC1-corr -0.136
+  IBKR     outsider       d_avg 0.876  d_min 0.864 (nearest 000660.KS)  PC1-corr +0.135
+
+--- CONFIG CONTROL GROUPS (calibration — known neighbors, never contamination) ---
+  EWY      korea_market   d_avg 0.819  d_min 0.757 (nearest 000660.KS)  PC1-corr +0.195
+  MU       us_memory      d_avg 0.848  d_min 0.776 (nearest 000660.KS)  PC1-corr +0.165
+  WDC      us_memory      d_avg 0.854  d_min 0.831 (nearest 000660.KS)  PC1-corr +0.158
+  SOXX     etf            d_avg 0.912  d_min 0.877 (nearest 000660.KS)  PC1-corr +0.096
+  SMH      etf            d_avg 0.916  d_min 0.879 (nearest 000660.KS)  PC1-corr +0.091
+  SNDK     us_memory      d_avg 0.951  d_min 0.907 (nearest 000660.KS)  PC1-corr +0.048
+  SPY      etf            d_avg 0.975  d_min 0.964 (nearest 000660.KS)  PC1-corr +0.012
+
+--- INTERPRETATION ---
+No name outside the config would join the cohort at the cut: the boundary is market-relative, not just config-relative. The threshold scan's isolation result holds against the full universe.

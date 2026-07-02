@@ -1,0 +1,46 @@
+Tankers FULL-UNIVERSE BOUNDARY SWEEP
+Window: 2025-06-18 -> 2026-06-18
+Cohort (N=5): FRO, STNG, INSW, DHT, TNK
+Pool: 363 names (file: scripts\universes\us_common_stocks.txt); every config ticker excluded from outsider set
+Dendrogram threshold: 0.5
+Cohort internal envelope (final internal merge): 0.255
+
+VERDICT: BOUNDARY-CLEAN
+  Outsiders at or below threshold 0.5: 0
+  Outsiders strictly inside the envelope:  0
+
+--- NEAREST 25 OUTSIDERS (of 363) ---
+  SID      outsider       d_avg 0.778  d_min 0.767 (nearest TNK   )  PC1-corr +0.243
+  VALE     outsider       d_avg 0.789  d_min 0.759 (nearest FRO   )  PC1-corr +0.231
+  SNY      outsider       d_avg 0.805  d_min 0.756 (nearest TNK   )  PC1-corr +0.213
+  NSA      outsider       d_avg 0.806  d_min 0.752 (nearest FRO   )  PC1-corr +0.213
+  WFRD     outsider       d_avg 0.810  d_min 0.787 (nearest STNG  )  PC1-corr +0.207
+  BURL     outsider       d_avg 0.811  d_min 0.792 (nearest DHT   )  PC1-corr +0.206
+  PBR      outsider       d_avg 0.814  d_min 0.770 (nearest INSW  )  PC1-corr +0.203
+  SCCO     outsider       d_avg 0.815  d_min 0.748 (nearest FRO   )  PC1-corr +0.202
+  MKSI     outsider       d_avg 0.817  d_min 0.786 (nearest STNG  )  PC1-corr +0.200
+  KB       outsider       d_avg 0.818  d_min 0.787 (nearest DHT   )  PC1-corr +0.199
+  AGI      outsider       d_avg 0.818  d_min 0.774 (nearest FRO   )  PC1-corr +0.199
+  FIVE     outsider       d_avg 0.819  d_min 0.788 (nearest TNK   )  PC1-corr +0.199
+  SNDK     outsider       d_avg 0.819  d_min 0.796 (nearest INSW  )  PC1-corr +0.198
+  WSM      outsider       d_avg 0.822  d_min 0.780 (nearest DHT   )  PC1-corr +0.194
+  FTI      outsider       d_avg 0.824  d_min 0.769 (nearest INSW  )  PC1-corr +0.192
+  ITUB     outsider       d_avg 0.824  d_min 0.778 (nearest TNK   )  PC1-corr +0.193
+  ENTG     outsider       d_avg 0.828  d_min 0.780 (nearest FRO   )  PC1-corr +0.188
+  CNK      outsider       d_avg 0.829  d_min 0.804 (nearest STNG  )  PC1-corr +0.187
+  NNN      outsider       d_avg 0.829  d_min 0.796 (nearest DHT   )  PC1-corr +0.187
+  TOL      outsider       d_avg 0.833  d_min 0.793 (nearest FRO   )  PC1-corr +0.182
+  PK       outsider       d_avg 0.834  d_min 0.801 (nearest STNG  )  PC1-corr +0.181
+  PAX      outsider       d_avg 0.834  d_min 0.780 (nearest TNK   )  PC1-corr +0.183
+  CDE      outsider       d_avg 0.839  d_min 0.770 (nearest FRO   )  PC1-corr +0.176
+  SMFG     outsider       d_avg 0.841  d_min 0.806 (nearest TNK   )  PC1-corr +0.173
+  MUFG     outsider       d_avg 0.842  d_min 0.814 (nearest FRO   )  PC1-corr +0.172
+
+--- CONFIG CONTROL GROUPS (calibration — known neighbors, never contamination) ---
+  BOAT     etf            d_avg 0.362  d_min 0.321 (nearest INSW  )  PC1-corr +0.698  << below cut
+  SEA      etf            d_avg 0.583  d_min 0.536 (nearest INSW  )  PC1-corr +0.457
+  SPY      etf            d_avg 0.885  d_min 0.870 (nearest DHT   )  PC1-corr +0.126
+  XLE      etf            d_avg 0.919  d_min 0.871 (nearest STNG  )  PC1-corr +0.089
+
+--- INTERPRETATION ---
+No name outside the config would join the cohort at the cut: the boundary is market-relative, not just config-relative. The threshold scan's isolation result holds against the full universe.

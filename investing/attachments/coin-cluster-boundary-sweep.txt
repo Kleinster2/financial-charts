@@ -1,0 +1,55 @@
+Crypto-exposed financial platforms FULL-UNIVERSE BOUNDARY SWEEP
+Window: 2025-07-02 -> 2026-07-01
+Cohort (N=2): COIN, HOOD
+Pool: 1052 names (file: scripts\universes\us_common_stocks.txt); every config ticker excluded from outsider set
+Dendrogram threshold: 0.4
+Cohort internal envelope (final internal merge): 0.201
+
+VERDICT: BOUNDARY-PERMEABLE
+  Outsiders at or below threshold 0.4: 2
+  Outsiders strictly inside the envelope:  0
+
+--- NEAREST 25 OUTSIDERS (of 1052) ---
+  CRCL     outsider       d_avg 0.391  d_min 0.322 (nearest COIN  )  PC1-corr +0.642  << below cut
+  BTBT     outsider       d_avg 0.396  d_min 0.356 (nearest COIN  )  PC1-corr +0.637  << below cut
+  PLTR     outsider       d_avg 0.406  d_min 0.403 (nearest HOOD  )  PC1-corr +0.627
+  CLSK     outsider       d_avg 0.407  d_min 0.373 (nearest COIN  )  PC1-corr +0.625
+  MARA     outsider       d_avg 0.418  d_min 0.352 (nearest COIN  )  PC1-corr +0.613
+  GLXY     outsider       d_avg 0.425  d_min 0.368 (nearest COIN  )  PC1-corr +0.606
+  ETOR     outsider       d_avg 0.430  d_min 0.425 (nearest HOOD  )  PC1-corr +0.601
+  UPST     outsider       d_avg 0.434  d_min 0.420 (nearest HOOD  )  PC1-corr +0.597
+  AI       outsider       d_avg 0.440  d_min 0.407 (nearest COIN  )  PC1-corr +0.590
+  SOUN     outsider       d_avg 0.442  d_min 0.430 (nearest HOOD  )  PC1-corr +0.588
+  ZETA     outsider       d_avg 0.455  d_min 0.448 (nearest COIN  )  PC1-corr +0.575
+  IONQ     outsider       d_avg 0.465  d_min 0.462 (nearest COIN  )  PC1-corr +0.564
+  HIVE     outsider       d_avg 0.466  d_min 0.444 (nearest COIN  )  PC1-corr +0.563
+  SHOP     outsider       d_avg 0.466  d_min 0.457 (nearest HOOD  )  PC1-corr +0.563
+  QBTS     outsider       d_avg 0.470  d_min 0.468 (nearest HOOD  )  PC1-corr +0.558
+  QUBT     outsider       d_avg 0.470  d_min 0.464 (nearest HOOD  )  PC1-corr +0.558
+  BITF     outsider       d_avg 0.473  d_min 0.469 (nearest COIN  )  PC1-corr +0.554
+  BKKT     outsider       d_avg 0.474  d_min 0.457 (nearest COIN  )  PC1-corr +0.555
+  BBAI     outsider       d_avg 0.479  d_min 0.457 (nearest HOOD  )  PC1-corr +0.549
+  SMR      outsider       d_avg 0.484  d_min 0.445 (nearest HOOD  )  PC1-corr +0.544
+  LTBR     outsider       d_avg 0.487  d_min 0.453 (nearest HOOD  )  PC1-corr +0.541
+  LC       outsider       d_avg 0.490  d_min 0.479 (nearest HOOD  )  PC1-corr +0.538
+  RXRX     outsider       d_avg 0.490  d_min 0.475 (nearest HOOD  )  PC1-corr +0.537
+  RIOT     outsider       d_avg 0.498  d_min 0.491 (nearest COIN  )  PC1-corr +0.530
+  HUT      outsider       d_avg 0.498  d_min 0.497 (nearest HOOD  )  PC1-corr +0.529
+
+--- CONFIG CONTROL GROUPS (calibration — known neighbors, never contamination) ---
+  MSTR     bitcoin_proxies d_avg 0.294  d_min 0.220 (nearest COIN  )  PC1-corr +0.745  << below cut
+  IBIT     bitcoin_proxies d_avg 0.298  d_min 0.214 (nearest COIN  )  PC1-corr +0.740  << below cut
+  BTC-USD  bitcoin_proxies d_avg 0.336  d_min 0.246 (nearest COIN  )  PC1-corr +0.705  << below cut
+  IBKR     trad_brokers   d_avg 0.356  d_min 0.295 (nearest HOOD  )  PC1-corr +0.680  << below cut
+  SOFI     fintech        d_avg 0.361  d_min 0.312 (nearest HOOD  )  PC1-corr +0.674  << below cut
+  SPY      etf            d_avg 0.406  d_min 0.403 (nearest HOOD  )  PC1-corr +0.626
+  QQQ      etf            d_avg 0.450  d_min 0.443 (nearest HOOD  )  PC1-corr +0.580
+  XLK      etf            d_avg 0.467  d_min 0.454 (nearest HOOD  )  PC1-corr +0.562
+  AFRM     fintech        d_avg 0.499  d_min 0.486 (nearest HOOD  )  PC1-corr +0.528
+  XLF      etf            d_avg 0.560  d_min 0.543 (nearest COIN  )  PC1-corr +0.464
+  PYPL     fintech        d_avg 0.617  d_min 0.583 (nearest COIN  )  PC1-corr +0.404
+  LPLA     trad_brokers   d_avg 0.682  d_min 0.672 (nearest HOOD  )  PC1-corr +0.335
+  SCHW     trad_brokers   d_avg 0.718  d_min 0.706 (nearest HOOD  )  PC1-corr +0.297
+
+--- INTERPRETATION ---
+2 outside name(s) would merge into the cohort's flat cluster at the cut. The cohort is real but its cut-level boundary is permeable: either these names belong in the cohort (re-run the validation with them added) or the separability claim should be stated at a tighter threshold.

@@ -1,0 +1,53 @@
+Sub - Neocloud pure-cloud pair FULL-UNIVERSE BOUNDARY SWEEP
+Window: 2025-06-12 -> 2026-06-12
+Cohort (N=2): CRWV, NBIS
+Pool: 1050 names (file: scripts\universes\us_common_stocks.txt); every config ticker excluded from outsider set
+Dendrogram threshold: 0.5
+Cohort internal envelope (final internal merge): 0.272
+
+VERDICT: BOUNDARY-PERMEABLE
+  Outsiders at or below threshold 0.5: 3
+  Outsiders strictly inside the envelope:  0
+
+--- NEAREST 25 OUTSIDERS (of 1050) ---
+  BTBT     outsider       d_avg 0.475  d_min 0.472 (nearest NBIS  )  PC1-corr +0.565  << below cut
+  BE       outsider       d_avg 0.494  d_min 0.473 (nearest CRWV  )  PC1-corr +0.544  << below cut
+  QBTS     outsider       d_avg 0.494  d_min 0.440 (nearest NBIS  )  PC1-corr +0.544  << below cut
+  QUBT     outsider       d_avg 0.501  d_min 0.451 (nearest NBIS  )  PC1-corr +0.536
+  NVT      outsider       d_avg 0.502  d_min 0.482 (nearest NBIS  )  PC1-corr +0.536
+  BITF     outsider       d_avg 0.503  d_min 0.475 (nearest NBIS  )  PC1-corr +0.534
+  ORCL     outsider       d_avg 0.503  d_min 0.445 (nearest CRWV  )  PC1-corr +0.534
+  OKLO     outsider       d_avg 0.509  d_min 0.489 (nearest NBIS  )  PC1-corr +0.528
+  NVDA     outsider       d_avg 0.516  d_min 0.479 (nearest CRWV  )  PC1-corr +0.520
+  GLXY     outsider       d_avg 0.523  d_min 0.518 (nearest NBIS  )  PC1-corr +0.513
+  SMR      outsider       d_avg 0.525  d_min 0.495 (nearest NBIS  )  PC1-corr +0.511
+  RGTI     outsider       d_avg 0.526  d_min 0.478 (nearest NBIS  )  PC1-corr +0.509
+  VRT      outsider       d_avg 0.527  d_min 0.516 (nearest CRWV  )  PC1-corr +0.509
+  IBKR     outsider       d_avg 0.528  d_min 0.515 (nearest NBIS  )  PC1-corr +0.507
+  ARQQ     outsider       d_avg 0.530  d_min 0.508 (nearest NBIS  )  PC1-corr +0.506
+  BBAI     outsider       d_avg 0.533  d_min 0.507 (nearest NBIS  )  PC1-corr +0.502
+  TSM      outsider       d_avg 0.545  d_min 0.519 (nearest CRWV  )  PC1-corr +0.489
+  FIX      outsider       d_avg 0.547  d_min 0.539 (nearest CRWV  )  PC1-corr +0.487
+  LEU      outsider       d_avg 0.551  d_min 0.530 (nearest NBIS  )  PC1-corr +0.483
+  NNE      outsider       d_avg 0.554  d_min 0.551 (nearest NBIS  )  PC1-corr +0.480
+  ALAB     outsider       d_avg 0.555  d_min 0.550 (nearest NBIS  )  PC1-corr +0.479
+  LTBR     outsider       d_avg 0.558  d_min 0.520 (nearest NBIS  )  PC1-corr +0.476
+  ENVX     outsider       d_avg 0.559  d_min 0.547 (nearest NBIS  )  PC1-corr +0.474
+  IONQ     outsider       d_avg 0.560  d_min 0.520 (nearest NBIS  )  PC1-corr +0.473
+  BWXT     outsider       d_avg 0.562  d_min 0.559 (nearest NBIS  )  PC1-corr +0.471
+
+--- CONFIG CONTROL GROUPS (calibration — known neighbors, never contamination) ---
+  CORZ     miners         d_avg 0.310  d_min 0.300 (nearest CRWV  )  PC1-corr +0.742  << below cut
+  APLD     converters     d_avg 0.396  d_min 0.395 (nearest CRWV  )  PC1-corr +0.649  << below cut
+  HUT      miners         d_avg 0.418  d_min 0.410 (nearest NBIS  )  PC1-corr +0.626  << below cut
+  IREN     converters     d_avg 0.426  d_min 0.399 (nearest NBIS  )  PC1-corr +0.617  << below cut
+  RIOT     miners         d_avg 0.456  d_min 0.449 (nearest NBIS  )  PC1-corr +0.585  << below cut
+  WULF     miners         d_avg 0.462  d_min 0.452 (nearest NBIS  )  PC1-corr +0.579  << below cut
+  CIFR     converters     d_avg 0.488  d_min 0.472 (nearest NBIS  )  PC1-corr +0.551  << below cut
+  CLSK     miners         d_avg 0.501  d_min 0.487 (nearest NBIS  )  PC1-corr +0.537
+  MARA     miners         d_avg 0.566  d_min 0.540 (nearest NBIS  )  PC1-corr +0.467
+  SPY      etf            d_avg 0.568  d_min 0.567 (nearest NBIS  )  PC1-corr +0.465
+  IBIT     etf            d_avg 0.577  d_min 0.571 (nearest NBIS  )  PC1-corr +0.455
+
+--- INTERPRETATION ---
+3 outside name(s) would merge into the cohort's flat cluster at the cut. The cohort is real but its cut-level boundary is permeable: either these names belong in the cohort (re-run the validation with them added) or the separability claim should be stated at a tighter threshold.

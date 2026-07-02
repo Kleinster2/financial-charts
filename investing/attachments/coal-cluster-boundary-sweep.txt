@@ -1,0 +1,47 @@
+Coal miners FULL-UNIVERSE BOUNDARY SWEEP
+Window: 2025-06-23 -> 2026-06-22
+Cohort (N=6): BTU, AMR, HCC, ARLP, METC, CNR
+Pool: 363 names (file: scripts\universes\us_common_stocks.txt); every config ticker excluded from outsider set
+Dendrogram threshold: 0.5
+Cohort internal envelope (final internal merge): 0.595
+
+VERDICT: BOUNDARY-CLEAN
+  Outsiders at or below threshold 0.5: 0
+  Outsiders strictly inside the envelope:  0
+
+--- NEAREST 25 OUTSIDERS (of 363) ---
+  SLI      outsider       d_avg 0.705  d_min 0.577 (nearest METC  )  PC1-corr +0.371
+  CENX     outsider       d_avg 0.708  d_min 0.656 (nearest HCC   )  PC1-corr +0.369
+  AA       outsider       d_avg 0.725  d_min 0.658 (nearest BTU   )  PC1-corr +0.349
+  SCCO     outsider       d_avg 0.747  d_min 0.698 (nearest HCC   )  PC1-corr +0.316
+  CLF      outsider       d_avg 0.751  d_min 0.703 (nearest AMR   )  PC1-corr +0.312
+  ASTS     outsider       d_avg 0.758  d_min 0.676 (nearest METC  )  PC1-corr +0.304
+  UMAC     outsider       d_avg 0.758  d_min 0.684 (nearest METC  )  PC1-corr +0.301
+  SID      outsider       d_avg 0.764  d_min 0.676 (nearest AMR   )  PC1-corr +0.292
+  PTEN     outsider       d_avg 0.771  d_min 0.689 (nearest CNR   )  PC1-corr +0.286
+  RIG      outsider       d_avg 0.772  d_min 0.707 (nearest BTU   )  PC1-corr +0.282
+  VALE     outsider       d_avg 0.773  d_min 0.666 (nearest AMR   )  PC1-corr +0.283
+  RIO      outsider       d_avg 0.777  d_min 0.670 (nearest HCC   )  PC1-corr +0.281
+  USAR     outsider       d_avg 0.779  d_min 0.522 (nearest METC  )  PC1-corr +0.270
+  TECK     outsider       d_avg 0.783  d_min 0.709 (nearest HCC   )  PC1-corr +0.273
+  NTR      outsider       d_avg 0.784  d_min 0.705 (nearest BTU   )  PC1-corr +0.273
+  PBF      outsider       d_avg 0.785  d_min 0.704 (nearest CNR   )  PC1-corr +0.270
+  NOV      outsider       d_avg 0.790  d_min 0.744 (nearest ARLP  )  PC1-corr +0.261
+  HL       outsider       d_avg 0.797  d_min 0.687 (nearest HCC   )  PC1-corr +0.258
+  BHP      outsider       d_avg 0.804  d_min 0.721 (nearest HCC   )  PC1-corr +0.245
+  DINO     outsider       d_avg 0.806  d_min 0.737 (nearest CNR   )  PC1-corr +0.243
+  IPI      outsider       d_avg 0.806  d_min 0.728 (nearest BTU   )  PC1-corr +0.242
+  ACB      outsider       d_avg 0.807  d_min 0.744 (nearest AMR   )  PC1-corr +0.246
+  PBR      outsider       d_avg 0.809  d_min 0.727 (nearest ARLP  )  PC1-corr +0.234
+  HP       outsider       d_avg 0.812  d_min 0.744 (nearest AMR   )  PC1-corr +0.234
+  NXE      outsider       d_avg 0.813  d_min 0.680 (nearest METC  )  PC1-corr +0.232
+
+--- CONFIG CONTROL GROUPS (calibration — known neighbors, never contamination) ---
+  XME      metals_mining  d_avg 0.552  d_min 0.486 (nearest METC  )  PC1-corr +0.564  << INSIDE ENVELOPE
+  XLE      energy         d_avg 0.762  d_min 0.684 (nearest ARLP  )  PC1-corr +0.293
+  NUE      steel          d_avg 0.819  d_min 0.737 (nearest AMR   )  PC1-corr +0.230
+  SPY      market         d_avg 0.911  d_min 0.847 (nearest AMR   )  PC1-corr +0.111
+  UNG      nat_gas        d_avg 0.955  d_min 0.888 (nearest CNR   )  PC1-corr +0.045
+
+--- INTERPRETATION ---
+No name outside the config would join the cohort at the cut: the boundary is market-relative, not just config-relative. The threshold scan's isolation result holds against the full universe.

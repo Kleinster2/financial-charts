@@ -1,0 +1,58 @@
+Life insurers pair FULL-UNIVERSE BOUNDARY SWEEP
+Window: 2025-04-30 -> 2026-04-30
+Cohort (N=2): MET, PRU
+Pool: 1047 names (file: scripts\universes\us_common_stocks.txt); every config ticker excluded from outsider set
+Dendrogram threshold: 0.4
+Cohort internal envelope (final internal merge): 0.308
+
+VERDICT: BOUNDARY-PERMEABLE
+  Outsiders at or below threshold 0.4: 11
+  Outsiders strictly inside the envelope:  0
+
+--- NEAREST 25 OUTSIDERS (of 1047) ---
+  RF       outsider       d_avg 0.331  d_min 0.284 (nearest MET   )  PC1-corr +0.727  << below cut
+  PFG      outsider       d_avg 0.359  d_min 0.313 (nearest MET   )  PC1-corr +0.697  << below cut
+  CFG      outsider       d_avg 0.374  d_min 0.327 (nearest MET   )  PC1-corr +0.680  << below cut
+  TFC      outsider       d_avg 0.377  d_min 0.320 (nearest MET   )  PC1-corr +0.677  << below cut
+  KEY      outsider       d_avg 0.380  d_min 0.350 (nearest MET   )  PC1-corr +0.674  << below cut
+  ZION     outsider       d_avg 0.388  d_min 0.340 (nearest MET   )  PC1-corr +0.666  << below cut
+  COF      outsider       d_avg 0.389  d_min 0.324 (nearest MET   )  PC1-corr +0.664  << below cut
+  FITB     outsider       d_avg 0.390  d_min 0.330 (nearest MET   )  PC1-corr +0.663  << below cut
+  MTB      outsider       d_avg 0.391  d_min 0.358 (nearest MET   )  PC1-corr +0.662  << below cut
+  KKR      outsider       d_avg 0.394  d_min 0.353 (nearest MET   )  PC1-corr +0.659  << below cut
+  TROW     outsider       d_avg 0.399  d_min 0.397 (nearest MET   )  PC1-corr +0.654  << below cut
+  IVZ      outsider       d_avg 0.407  d_min 0.365 (nearest MET   )  PC1-corr +0.645
+  USB      outsider       d_avg 0.411  d_min 0.355 (nearest MET   )  PC1-corr +0.640
+  AXP      outsider       d_avg 0.422  d_min 0.348 (nearest MET   )  PC1-corr +0.629
+  SYF      outsider       d_avg 0.425  d_min 0.364 (nearest MET   )  PC1-corr +0.625
+  STT      outsider       d_avg 0.426  d_min 0.398 (nearest MET   )  PC1-corr +0.624
+  BEN      outsider       d_avg 0.429  d_min 0.394 (nearest MET   )  PC1-corr +0.621
+  GS       outsider       d_avg 0.432  d_min 0.405 (nearest MET   )  PC1-corr +0.618
+  CG       outsider       d_avg 0.435  d_min 0.421 (nearest MET   )  PC1-corr +0.614
+  JEF      outsider       d_avg 0.442  d_min 0.398 (nearest MET   )  PC1-corr +0.607
+  HBAN     outsider       d_avg 0.442  d_min 0.386 (nearest MET   )  PC1-corr +0.607
+  RHP      outsider       d_avg 0.443  d_min 0.415 (nearest MET   )  PC1-corr +0.605
+  BLK      outsider       d_avg 0.449  d_min 0.401 (nearest MET   )  PC1-corr +0.599
+  MS       outsider       d_avg 0.452  d_min 0.413 (nearest MET   )  PC1-corr +0.596
+  PNC      outsider       d_avg 0.454  d_min 0.378 (nearest MET   )  PC1-corr +0.594
+
+--- CONFIG CONTROL GROUPS (calibration — known neighbors, never contamination) ---
+  XLF      etf            d_avg 0.300  d_min 0.223 (nearest MET   )  PC1-corr +0.760  << INSIDE ENVELOPE
+  BAC      banks          d_avg 0.449  d_min 0.388 (nearest MET   )  PC1-corr +0.599
+  WFC      banks          d_avg 0.478  d_min 0.422 (nearest MET   )  PC1-corr +0.568
+  SPY      etf            d_avg 0.485  d_min 0.442 (nearest MET   )  PC1-corr +0.560
+  JPM      banks          d_avg 0.525  d_min 0.463 (nearest MET   )  PC1-corr +0.516
+  HIG      pc_carriers    d_avg 0.584  d_min 0.534 (nearest MET   )  PC1-corr +0.452
+  TRV      pc_carriers    d_avg 0.694  d_min 0.636 (nearest MET   )  PC1-corr +0.333
+  AON      ins_brokers    d_avg 0.758  d_min 0.713 (nearest MET   )  PC1-corr +0.263
+  AJG      ins_brokers    d_avg 0.765  d_min 0.728 (nearest MET   )  PC1-corr +0.256
+  ALL      pc_carriers    d_avg 0.768  d_min 0.730 (nearest MET   )  PC1-corr +0.253
+  WTW      ins_brokers    d_avg 0.807  d_min 0.764 (nearest MET   )  PC1-corr +0.210
+  CB       pc_carriers    d_avg 0.824  d_min 0.750 (nearest MET   )  PC1-corr +0.192
+  BRO      ins_brokers    d_avg 0.828  d_min 0.787 (nearest MET   )  PC1-corr +0.187
+  PGR      pc_carriers    d_avg 0.858  d_min 0.792 (nearest MET   )  PC1-corr +0.154
+  IEF      rate_curve_proxy d_avg 0.960  d_min 0.939 (nearest PRU   )  PC1-corr +0.023
+  TLT      rate_curve_proxy d_avg 0.976  d_min 0.972 (nearest PRU   )  PC1-corr +0.005
+
+--- INTERPRETATION ---
+11 outside name(s) would merge into the cohort's flat cluster at the cut. The cohort is real but its cut-level boundary is permeable: either these names belong in the cohort (re-run the validation with them added) or the separability claim should be stated at a tighter threshold.

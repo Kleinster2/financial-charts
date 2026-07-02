@@ -1,0 +1,45 @@
+Sub - IT services core (ex-Wipro) FULL-UNIVERSE BOUNDARY SWEEP
+Window: 2025-06-18 -> 2026-06-18
+Cohort (N=5): ACN, CTSH, INFY, EPAM, GLOB
+Pool: 1056 names (file: scripts\universes\us_common_stocks.txt); every config ticker excluded from outsider set
+Dendrogram threshold: 0.5
+Cohort internal envelope (final internal merge): 0.361
+
+VERDICT: BOUNDARY-PERMEABLE
+  Outsiders at or below threshold 0.5: 6
+  Outsiders strictly inside the envelope:  0
+
+--- NEAREST 25 OUTSIDERS (of 1056) ---
+  IT       outsider       d_avg 0.384  d_min 0.326 (nearest ACN   )  PC1-corr +0.708  << below cut
+  MORN     outsider       d_avg 0.459  d_min 0.359 (nearest ACN   )  PC1-corr +0.621  << below cut
+  FRSH     outsider       d_avg 0.465  d_min 0.397 (nearest GLOB  )  PC1-corr +0.614  << below cut
+  TYL      outsider       d_avg 0.471  d_min 0.443 (nearest GLOB  )  PC1-corr +0.606  << below cut
+  PAYX     outsider       d_avg 0.480  d_min 0.412 (nearest ACN   )  PC1-corr +0.597  << below cut
+  WDAY     outsider       d_avg 0.496  d_min 0.404 (nearest ACN   )  PC1-corr +0.579  << below cut
+  CRM      outsider       d_avg 0.501  d_min 0.432 (nearest ACN   )  PC1-corr +0.574
+  FIS      outsider       d_avg 0.501  d_min 0.446 (nearest CTSH  )  PC1-corr +0.572
+  EFX      outsider       d_avg 0.502  d_min 0.437 (nearest CTSH  )  PC1-corr +0.571
+  FDS      outsider       d_avg 0.504  d_min 0.407 (nearest ACN   )  PC1-corr +0.570
+  ADP      outsider       d_avg 0.507  d_min 0.431 (nearest ACN   )  PC1-corr +0.566
+  TOST     outsider       d_avg 0.519  d_min 0.445 (nearest GLOB  )  PC1-corr +0.552
+  DSGX     outsider       d_avg 0.522  d_min 0.447 (nearest ACN   )  PC1-corr +0.548
+  IBM      outsider       d_avg 0.522  d_min 0.447 (nearest CTSH  )  PC1-corr +0.548
+  IQV      outsider       d_avg 0.527  d_min 0.490 (nearest EPAM  )  PC1-corr +0.543
+  ADSK     outsider       d_avg 0.534  d_min 0.449 (nearest GLOB  )  PC1-corr +0.534
+  TRI      outsider       d_avg 0.534  d_min 0.495 (nearest CTSH  )  PC1-corr +0.534
+  SAP      outsider       d_avg 0.537  d_min 0.468 (nearest ACN   )  PC1-corr +0.531
+  ROP      outsider       d_avg 0.539  d_min 0.460 (nearest CTSH  )  PC1-corr +0.529
+  NDAQ     outsider       d_avg 0.549  d_min 0.497 (nearest CTSH  )  PC1-corr +0.518
+  WEAV     outsider       d_avg 0.550  d_min 0.494 (nearest ACN   )  PC1-corr +0.517
+  SPGI     outsider       d_avg 0.550  d_min 0.492 (nearest ACN   )  PC1-corr +0.518
+  JKHY     outsider       d_avg 0.552  d_min 0.471 (nearest CTSH  )  PC1-corr +0.514
+  MCO      outsider       d_avg 0.553  d_min 0.493 (nearest CTSH  )  PC1-corr +0.513
+  GEN      outsider       d_avg 0.554  d_min 0.518 (nearest ACN   )  PC1-corr +0.511
+
+--- CONFIG CONTROL GROUPS (calibration — known neighbors, never contamination) ---
+  IGV      software_etf   d_avg 0.551  d_min 0.475 (nearest GLOB  )  PC1-corr +0.514
+  SPY      etf            d_avg 0.803  d_min 0.729 (nearest GLOB  )  PC1-corr +0.224
+  XLK      tech_etf       d_avg 0.894  d_min 0.804 (nearest GLOB  )  PC1-corr +0.120
+
+--- INTERPRETATION ---
+6 outside name(s) would merge into the cohort's flat cluster at the cut. The cohort is real but its cut-level boundary is permeable: either these names belong in the cohort (re-run the validation with them added) or the separability claim should be stated at a tighter threshold.
